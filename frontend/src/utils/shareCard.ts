@@ -7,13 +7,14 @@ import { FILLED_POLE_ICONS } from '../data/filledPoleIcons';
 import { religiousPoleIcon } from '../data/religionIcons';
 import type { Religion } from './religion';
 import { tokens } from '../styles/tokens.generated';
+import { cardName, futTier } from '../components/results/FutCard';
+import { ratingTier, topAgreements } from './agreement';
 
 /**
  * Cartão de compartilhamento social — formato stories 1080x1920.
  *
- * O fundo é a cor base da categoria de espectro do top match; os destaques
- * usam o pastel da mesma categoria. Ver
- * docs/nova-identidade/12axes-identidade-visual.md §11.
+ * Fundo de gramado com linhas de cal; a personalidade mais compatível vira
+ * uma carta do Ultimate Team e as porcentagens viram notas no estilo Sofascore.
  */
 export const SHARE_WIDTH = 1080;
 export const SHARE_HEIGHT = 1920;
@@ -24,7 +25,19 @@ const SVG_NS = 'http://www.w3.org/2000/svg';
 
 export const SHARE_COLORS = {
   papel: tokens.papel,
-  tinta: tokens.tinta
+  tinta: tokens.tinta,
+  accent: tokens['pitch-accent'],
+  pitch: tokens['pitch-stripe-b'],
+  panel: tokens['share-panel'],
+  panelLine: tokens['share-panel-line']
+};
+
+const FUT_WIDTH = 390;
+const FUT_HEIGHT = Math.round((FUT_WIDTH * 16) / 11);
+const FUT_TIERS: Record<string, { a: string; b: string; ink: string }> = {
+  'fut-gold': { a: tokens['fut-gold-a'], b: tokens['fut-gold-b'], ink: tokens['fut-gold-ink'] },
+  'fut-silver': { a: tokens['fut-silver-a'], b: tokens['fut-silver-b'], ink: tokens['fut-silver-ink'] },
+  'fut-bronze': { a: tokens['fut-bronze-a'], b: tokens['fut-bronze-b'], ink: tokens['fut-bronze-ink'] }
 };
 
 type Style = Partial<CSSStyleDeclaration>;
@@ -50,16 +63,6 @@ function hexToRgb(hex: string): [number, number, number] {
     h = h.split('').map((c) => c + c).join('');
   }
   return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
-}
-
-/** Mistura `a` e `b` com `ratioA` peso de `a` (equivalente a color-mix). */
-function mixHex(a: string, b: string, ratioA: number): string {
-  const [ar, ag, ab] = hexToRgb(a);
-  const [br, bg, bb] = hexToRgb(b);
-  const r = Math.round(ar * ratioA + br * (1 - ratioA));
-  const g = Math.round(ag * ratioA + bg * (1 - ratioA));
-  const bl = Math.round(ab * ratioA + bb * (1 - ratioA));
-  return `rgb(${r}, ${g}, ${bl})`;
 }
 
 function rgba(hex: string, alpha: number): string {
@@ -175,17 +178,15 @@ export function buildShareCard(
 
   content.append(
     buildShareHeader(),
-    buildShareIdentity(result, color.bg),
+    buildShareIdentity(result),
     buildShareTwoColumns(result, quiz, color, religion),
-    buildShareLists(result, color),
+    buildShareLists(result),
     buildShareFooter()
   );
 
   target.append(content);
-  target.dataset.shareBase = color.base;
-  target.dataset.shareCircle = mixHex(color.base, SHARE_COLORS.papel, 0.9);
   stage.append(target);
-  return { stage, target, backgroundColor: color.base };
+  return { stage, target, backgroundColor: SHARE_COLORS.pitch };
 }
 
 function buildShareHeader(): HTMLElement {
@@ -218,13 +219,13 @@ function buildShareHeader(): HTMLElement {
   );
   const brand = header.firstChild as HTMLElement;
   brand.append(
-    el('span', {}, '12'),
+    el('span', { color: SHARE_COLORS.accent }, '12'),
     el('span', { fontFamily: SHARE_FONT_BODY, fontWeight: '400' }, 'axes')
   );
   return header;
 }
 
-function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
+function buildShareIdentity(result: QuizResult): HTMLElement {
   const P = SHARE_COLORS.papel;
   const wrap = el('div', { display: 'flex', flexDirection: 'column', gap: '0', marginTop: '18px' });
   wrap.append(
@@ -234,7 +235,7 @@ function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
       fontSize: '34px',
       letterSpacing: '0.18em',
       textTransform: 'uppercase',
-      color: bgColor
+      color: SHARE_COLORS.accent
     }, result.topMatch.category),
     el('div', {
       fontFamily: SHARE_FONT_DISPLAY,
@@ -264,55 +265,31 @@ function buildShareTwoColumns(
     marginTop: '8px'
   });
   row.append(
-    buildSharePersonalityPortrait(result.topPersonalityMatch, color),
+    buildSharePersonalityColumn(result, quiz),
     buildShareAxesColumn(result, quiz, color, religion)
   );
   return row;
 }
 
-function buildSharePersonalityPortrait(
-  person: PersonalityMatch,
-  color: { base: string; bg: string }
-): HTMLElement {
+function buildSharePersonalityColumn(result: QuizResult, quiz: QuizPayload): HTMLElement {
   const P = SHARE_COLORS.papel;
-  const frame = el('div', {
-    position: 'relative',
-    flex: '0 0 390px',
-    height: '920px',
-    borderRadius: '36px',
-    overflow: 'hidden'
-  });
-
-  // A foto, o véu e o degradê são compostos no canvas, embaixo deste texto.
-  frame.dataset.shareImage = 'portrait';
-  frame.dataset.shareSrc = resolvePersonalityImageSrc(person.imagePath);
-
-  const text = el('div', {
-    position: 'absolute',
-    left: '32px',
-    right: '32px',
-    bottom: '32px',
+  const person = result.topPersonalityMatch;
+  const col = el('div', {
+    flex: `0 0 ${FUT_WIDTH}px`,
     display: 'flex',
     flexDirection: 'column',
-    gap: '4px'
+    gap: '6px'
   });
-  const pct = clamp(person.compatibility);
-  text.append(
-    el('div', {
-      fontFamily: SHARE_FONT_DISPLAY,
-      fontWeight: '700',
-      fontSize: '84px',
-      lineHeight: '1',
-      letterSpacing: '-3px',
-      color: color.bg
-    }, `${Math.round(pct)}%`),
+  col.append(
+    buildShareFutCard(result, quiz),
     el('div', {
       fontFamily: SHARE_FONT_BODY,
       fontWeight: '600',
       fontSize: '26px',
       letterSpacing: '4px',
       textTransform: 'uppercase',
-      color: color.bg
+      color: SHARE_COLORS.accent,
+      marginTop: '34px'
     }, t.shareMostCompatible),
     el('div', {
       fontFamily: SHARE_FONT_DISPLAY,
@@ -320,8 +297,7 @@ function buildSharePersonalityPortrait(
       fontSize: '48px',
       lineHeight: '1.15',
       letterSpacing: '-1px',
-      color: P,
-      marginTop: '6px'
+      color: P
     }, person.name),
     el('div', {
       fontFamily: SHARE_FONT_BODY,
@@ -329,9 +305,68 @@ function buildSharePersonalityPortrait(
       color: rgba(P, 0.82)
     }, person.role)
   );
-  frame.append(text);
+  return col;
+}
 
-  return frame;
+// Carta do Ultimate Team: o fundo metálico e a foto são desenhados no canvas
+// (drawFutCard); aqui ficam só os textos, nas mesmas posições do FutCard.tsx.
+function buildShareFutCard(result: QuizResult, quiz: QuizPayload): HTMLElement {
+  const person = result.topPersonalityMatch;
+  const rating = Math.round(clamp(person.compatibility));
+  const tier = futTier(rating, false);
+  const ink = FUT_TIERS[tier].ink;
+  const unit = FUT_WIDTH / 15;
+  const card = el('div', {
+    position: 'relative',
+    width: `${FUT_WIDTH}px`,
+    height: `${FUT_HEIGHT}px`,
+    flex: '0 0 auto',
+    fontFamily: SHARE_FONT_DISPLAY,
+    color: ink
+  });
+  card.dataset.shareImage = 'portrait';
+  card.dataset.shareSrc = resolvePersonalityImageSrc(person.imagePath);
+  card.dataset.shareTier = tier;
+
+  const side: Style = { position: 'absolute', left: '7%', width: '26%', textAlign: 'center' };
+  const ovr = el('div', { ...side, top: '12%', fontSize: `${unit * 2.4}px`, fontWeight: '800', lineHeight: '1', letterSpacing: '-0.03em' }, String(rating));
+  ovr.append(el('span', { fontSize: '0.42em', fontWeight: '700' }, '%'));
+  const stats = topAgreements(person.vector, quiz.axes, new Map(result.axes.map((axis) => [axis.axisId, axis])), 6);
+  const grid = el('div', {
+    position: 'absolute',
+    left: '15%',
+    right: '12%',
+    top: '68%',
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
+    gap: `${unit * 0.3}px ${unit * 0.8}px`,
+    fontSize: `${unit * 0.95}px`
+  });
+  stats.forEach((stat) => {
+    const line = el('div', { whiteSpace: 'nowrap' });
+    line.append(el('span', { fontWeight: '800', marginRight: '0.3em' }, String(stat.value)), document.createTextNode(stat.short));
+    grid.append(line);
+  });
+  card.append(
+    ovr,
+    el('div', { ...side, top: '31%', fontSize: `${unit * 1.05}px`, fontWeight: '700', letterSpacing: '0.04em' }, t.futPositions[person.category]),
+    el('div', {
+      position: 'absolute',
+      left: '8%',
+      right: '8%',
+      top: '57%',
+      paddingBottom: `${unit * 0.3}px`,
+      borderBottom: `2px solid ${ink}`,
+      fontSize: `${unit * 1.35}px`,
+      fontWeight: '800',
+      textTransform: 'uppercase',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis'
+    }, cardName(person.name)),
+    grid
+  );
+  return card;
 }
 
 function buildShareAxesColumn(
@@ -349,8 +384,8 @@ function buildShareAxesColumn(
     gap: '10px',
     padding: '30px 30px 26px',
     borderRadius: '36px',
-    background: 'rgba(0, 0, 0, 0.22)',
-    border: `2px solid ${rgba(P, 0.14)}`
+    background: SHARE_COLORS.panel,
+    border: `2px solid ${SHARE_COLORS.panelLine}`
   });
   col.append(el('div', {
     fontFamily: SHARE_FONT_BODY,
@@ -358,7 +393,7 @@ function buildShareAxesColumn(
     fontSize: '26px',
     letterSpacing: '4px',
     textTransform: 'uppercase',
-    color: color.bg
+    color: SHARE_COLORS.accent
   }, t.shareYourAxes));
 
   const list = el('div', {
@@ -479,10 +514,7 @@ function buildPoleGlyph(axisId: string, side: PoleSide, religion: Religion | nul
   return svg;
 }
 
-function buildShareLists(
-  result: QuizResult,
-  color: { base: string; bg: string }
-): HTMLElement {
+function buildShareLists(result: QuizResult): HTMLElement {
   const row = el('div', {
     display: 'flex',
     gap: '24px'
@@ -497,7 +529,6 @@ function buildShareLists(
         alt: person.name,
         initials: personalityInitials(person.name)
       })),
-      color,
       'avatar'
     ),
     buildShareListBox(
@@ -509,7 +540,6 @@ function buildShareLists(
         alt: country.name,
         initials: country.name.slice(0, 2).toUpperCase()
       })),
-      color,
       'flag'
     )
   );
@@ -527,7 +557,6 @@ interface ShareListItem {
 function buildShareListBox(
   title: string,
   items: ShareListItem[],
-  color: { base: string; bg: string },
   kind: 'avatar' | 'flag'
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
@@ -539,8 +568,8 @@ function buildShareListBox(
     gap: '20px',
     padding: '28px 30px',
     borderRadius: '36px',
-    background: 'rgba(0, 0, 0, 0.22)',
-    border: `2px solid ${rgba(P, 0.14)}`
+    background: SHARE_COLORS.panel,
+    border: `2px solid ${SHARE_COLORS.panelLine}`
   });
   box.append(el('div', {
     fontFamily: SHARE_FONT_BODY,
@@ -548,18 +577,18 @@ function buildShareListBox(
     fontSize: '26px',
     letterSpacing: '4px',
     textTransform: 'uppercase',
-    color: color.bg
+    color: SHARE_COLORS.accent
   }, title));
 
   items.forEach((item) => {
-    const line = el('div', { display: 'flex', alignItems: 'center', gap: '18px' });
+    const line = el('div', { display: 'flex', alignItems: 'center', gap: '14px' });
     const avatarFrame = el('div', {
       flex: '0 0 auto',
       width: '76px',
       height: kind === 'avatar' ? '76px' : '52px',
       borderRadius: kind === 'avatar' ? '50%' : '10px',
       overflow: 'hidden',
-      background: mixHex(color.base, '#000000', 0.6),
+      background: tokens['pes-bg-a'],
       display: 'grid',
       placeItems: 'center',
       fontFamily: SHARE_FONT_DISPLAY,
@@ -584,20 +613,31 @@ function buildShareListBox(
         color: rgba(P, 0.92),
         whiteSpace: 'normal',
         wordBreak: 'normal',
-        overflowWrap: 'break-word'
+        overflowWrap: 'normal'
       }, item.label),
-      el('span', {
-        flex: '0 0 auto',
-        fontFamily: SHARE_FONT_DISPLAY,
-        fontWeight: '700',
-        fontSize: '30px',
-        color: color.bg
-      }, `${Math.round(clamp(item.pct))}%`)
+      buildShareRating(item.pct)
     );
     box.append(line);
   });
 
   return box;
+}
+
+// Nota no estilo Sofascore, com as mesmas faixas de cor do RatingBadge.
+function buildShareRating(value: number): HTMLElement {
+  const tier = ratingTier(Math.round(clamp(value)));
+  return el('span', {
+    flex: '0 0 auto',
+    padding: '7px 10px',
+    borderRadius: '12px',
+    textAlign: 'center',
+    fontFamily: SHARE_FONT_DISPLAY,
+    fontWeight: '700',
+    fontSize: '30px',
+    lineHeight: '1',
+    background: tokens[`rate-${tier}`],
+    color: tier === 'ok' ? tokens['rate-ok-text'] : tokens['rate-text']
+  }, `${Math.round(clamp(value))}%`);
 }
 
 function buildShareFooter(): HTMLElement {
@@ -652,6 +692,7 @@ interface ShareImageSlot {
   kind: ShareImageKind;
   src: string;
   rect: CanvasRect;
+  tier: string | undefined;
 }
 
 type CanvasRect = { x: number; y: number; width: number; height: number };
@@ -680,12 +721,11 @@ export async function renderSharePng(target: HTMLElement, toPng: ToPng): Promise
     throw new Error('Canvas indisponível');
   }
 
-  const base = target.dataset.shareBase ?? tokens.tinta;
-  drawBackground(ctx, base, target.dataset.shareCircle ?? base);
+  drawBackground(ctx);
 
   slots.forEach((slot, index) => {
     if (slot.kind === 'portrait') {
-      drawPortrait(ctx, images[index], slot.rect, base);
+      drawFutCard(ctx, images[index], slot.rect, FUT_TIERS[slot.tier ?? 'fut-gold'] ?? FUT_TIERS['fut-gold']);
     }
   });
 
@@ -734,6 +774,7 @@ function collectImageSlots(root: HTMLElement): ShareImageSlot[] {
       return {
         kind,
         src,
+        tier: frame.dataset.shareTier,
         rect: {
           x: rect.left - rootRect.left,
           y: rect.top - rootRect.top,
@@ -800,71 +841,89 @@ function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
   });
 }
 
-// Fundo da cor da categoria com o círculo claro no canto superior direito.
-function drawBackground(ctx: CanvasRenderingContext2D, base: string, circle: string) {
-  ctx.fillStyle = base;
-  ctx.fillRect(0, 0, SHARE_WIDTH, SHARE_HEIGHT);
-  ctx.fillStyle = circle;
+// Gramado listrado com as linhas de cal de um campo inteiro (de pé, gol em cima e embaixo).
+function drawBackground(ctx: CanvasRenderingContext2D) {
+  const stripes = 12;
+  const band = SHARE_HEIGHT / stripes;
+  for (let i = 0; i < stripes; i += 1) {
+    ctx.fillStyle = i % 2 === 0 ? tokens['pitch-stripe-a'] : tokens['pitch-stripe-b'];
+    ctx.fillRect(0, i * band, SHARE_WIDTH, band);
+  }
+  const m = 32;
+  const cx = SHARE_WIDTH / 2;
+  const cy = SHARE_HEIGHT / 2;
+  ctx.save();
+  ctx.globalAlpha = 0.6;
+  ctx.strokeStyle = tokens['pitch-line'];
+  ctx.fillStyle = tokens['pitch-line'];
+  ctx.lineWidth = 4;
+  ctx.strokeRect(m, m, SHARE_WIDTH - 2 * m, SHARE_HEIGHT - 2 * m);
   ctx.beginPath();
-  ctx.arc(SHARE_WIDTH, 0, 400, 0, Math.PI * 2);
+  ctx.moveTo(m, cy);
+  ctx.lineTo(SHARE_WIDTH - m, cy);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(cx, cy, 150, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(cx, cy, 8, 0, Math.PI * 2);
   ctx.fill();
+  [m, SHARE_HEIGHT - m].forEach((goalLine) => {
+    const dir = goalLine === m ? 1 : -1;
+    const boxTop = dir === 1 ? goalLine : goalLine - 280;
+    const areaTop = dir === 1 ? goalLine : goalLine - 100;
+    ctx.strokeRect(cx - 330, boxTop, 660, 280);
+    ctx.strokeRect(cx - 150, areaTop, 300, 100);
+    ctx.beginPath();
+    ctx.arc(cx, goalLine + dir * 200, 150, dir === 1 ? 0.2 * Math.PI : 1.2 * Math.PI, dir === 1 ? 0.8 * Math.PI : 1.8 * Math.PI);
+    ctx.stroke();
+  });
+  ctx.restore();
 }
 
-// Retrato: foto com leve contraste, véu da categoria (multiply) e degradê até
-// a cor base na parte de baixo, recortado com cantos arredondados.
-function drawPortrait(ctx: CanvasRenderingContext2D, image: HTMLImageElement | null, rect: CanvasRect, base: string) {
+// Carta do Ultimate Team: recorte com ombros e ponta, degradê metálico e a
+// foto à direita sumindo para baixo (como .fut / .fut-face no editorial.css).
+function drawFutCard(
+  ctx: CanvasRenderingContext2D,
+  image: HTMLImageElement | null,
+  rect: CanvasRect,
+  tier: { a: string; b: string }
+) {
+  const { x, y, width: w, height: h } = rect;
+  const shape: [number, number][] = [[0, 0.07], [0.16, 0], [0.5, 0.03], [0.84, 0], [1, 0.07], [1, 0.86], [0.5, 1], [0, 0.86]];
+  ctx.save();
+  ctx.shadowColor = tokens['fut-shadow'];
+  ctx.shadowBlur = 28;
+  ctx.shadowOffsetY = 12;
+  ctx.beginPath();
+  shape.forEach(([px, py], index) => (index === 0 ? ctx.moveTo(x + px * w, y + py * h) : ctx.lineTo(x + px * w, y + py * h)));
+  ctx.closePath();
+  const gradient = ctx.createLinearGradient(x, y, x + w * 0.6, y + h);
+  gradient.addColorStop(0, tier.a);
+  gradient.addColorStop(1, tier.b);
+  ctx.fillStyle = gradient;
+  ctx.fill();
+  ctx.restore();
+
+  if (!image) {
+    return;
+  }
+  const face = { x: x + w * 0.35, y: y + h * 0.08, width: w * 0.58, height: h * 0.48 };
   const layer = document.createElement('canvas');
-  layer.width = Math.round(rect.width);
-  layer.height = Math.round(rect.height);
+  layer.width = Math.round(face.width);
+  layer.height = Math.round(face.height);
   const lctx = layer.getContext('2d');
   if (!lctx) {
     return;
   }
-  const local = { x: 0, y: 0, width: layer.width, height: layer.height };
-
-  lctx.fillStyle = mixHex(base, '#000000', 0.7);
+  drawCover(lctx, image, { x: 0, y: 0, width: layer.width, height: layer.height }, 0);
+  const fade = lctx.createLinearGradient(0, 0, 0, layer.height);
+  fade.addColorStop(0.7, tokens['ball-black']);
+  fade.addColorStop(1, rgba(tokens['ball-black'], 0));
+  lctx.globalCompositeOperation = 'destination-in';
+  lctx.fillStyle = fade;
   lctx.fillRect(0, 0, layer.width, layer.height);
-  if (image) {
-    drawCover(lctx, image, local, 0.15);
-    adjustContrastBrightness(lctx, layer.width, layer.height, 1.1, 0.92);
-    lctx.save();
-    lctx.globalCompositeOperation = 'multiply';
-    lctx.globalAlpha = 0.5;
-    lctx.fillStyle = base;
-    lctx.fillRect(0, 0, layer.width, layer.height);
-    lctx.restore();
-  }
-  const gradient = lctx.createLinearGradient(0, 0, 0, layer.height);
-  gradient.addColorStop(0.3, rgba(base, 0));
-  gradient.addColorStop(0.58, rgba(base, 0.6));
-  gradient.addColorStop(0.86, rgba(base, 0.97));
-  gradient.addColorStop(1, rgba(base, 0.97));
-  lctx.fillStyle = gradient;
-  lctx.fillRect(0, 0, layer.width, layer.height);
-
-  ctx.save();
-  roundedRectPath(ctx, rect, 36);
-  ctx.clip();
-  ctx.drawImage(layer, rect.x, rect.y, rect.width, rect.height);
-  ctx.restore();
-}
-
-// Equivalente ao filter: contrast() brightness() do CSS, feito em pixels
-// porque ctx.filter não existe em Safaris mais antigos.
-function adjustContrastBrightness(ctx: CanvasRenderingContext2D, width: number, height: number, contrast: number, brightness: number) {
-  try {
-    const data = ctx.getImageData(0, 0, width, height);
-    const px = data.data;
-    for (let i = 0; i < px.length; i += 4) {
-      for (let c = 0; c < 3; c += 1) {
-        const v = ((px[i + c] / 255 - 0.5) * contrast + 0.5) * brightness * 255;
-        px[i + c] = v < 0 ? 0 : v > 255 ? 255 : v;
-      }
-    }
-    ctx.putImageData(data, 0, 0);
-  } catch {
-    // Canvas contaminado: segue sem o ajuste, a foto ainda aparece.
-  }
+  ctx.drawImage(layer, face.x, face.y, face.width, face.height);
 }
 
 // object-fit: cover, com o ponto vertical de foco em `focusY` (0 = topo).

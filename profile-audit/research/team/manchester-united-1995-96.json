@@ -1,0 +1,71 @@
+{
+  "id": "manchester-united-1995-96",
+  "catalog": "team",
+  "name": "Manchester United 1995/96",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "1995-08",
+    "end": "1996-05"
+  },
+  "scopeNote": "Focused run to check the Squad-axis (bas) anchor: only squad-building (and the manager's stated view, when found) was researched. Every other dimension is a gap, not evidence of absence. Partial dates: exact first and last match dates were not verified.",
+  "managers": [
+    {
+      "managerId": "alex-ferguson",
+      "start": "1995-08",
+      "end": "1996-05"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [],
+  "sources": [
+    {
+      "title": "1995/96 Season Review",
+      "url": "https://www.premierleague.com/en/news/693495",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-05-24",
+      "eventDate": "1995/96",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "United surprised by \"selling established first-team trio Paul Ince, Andrei Kanchelskis and Mark Hughes\" with no major signings; Ferguson \"threw a host of academy stars into the fold\" (Beckham, Scholes, the Nevilles, Butt became regular starters). Hansen on Match of the Day: \"You can't win anything with kids.\" Title won by four points.",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "pro",
+      "est",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "res",
+      "sis",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Only squad-building researched; one official tier A source."
+  }
+}

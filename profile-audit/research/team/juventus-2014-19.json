@@ -1,0 +1,118 @@
+{
+  "id": "juventus-2014-19",
+  "catalog": "team",
+  "name": "Juventus 2014–19",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "2014-07",
+    "end": "2019-05"
+  },
+  "scopeNote": "Focused run to check the Squad-axis (bas) anchor: only squad-building (and the manager's stated view, when found) was researched. Every other dimension is a gap, not evidence of absence. Partial dates: exact first and last match dates were not verified.",
+  "managers": [
+    {
+      "managerId": "massimiliano-allegri",
+      "start": "2014-07",
+      "end": "2019-05"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The anchor is the club's signing policy as much as Allegri's choices: is Juventus 2014–19 an Experience anchor for who gets minutes, or for who gets bought?"
+  ],
+  "sources": [
+    {
+      "title": "Alteration in transfer policy heralds the start of a new era for Juventus (James Cormack)",
+      "url": "https://www.90min.com/posts/alteration-in-transfer-policy-heralds-the-start-of-a-new-era-for-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-10-08",
+      "eventDate": "2019-04",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "In Allegri's final season \"they were beaten by a vibrant Ajax side boasting an average age of 21.5\"; \"The Juve squad, on average, was eight years older than Erik ten Hag's team.\"",
+      "verified": true
+    },
+    {
+      "title": "Same article, figure outside the period",
+      "url": "https://www.90min.com/posts/alteration-in-transfer-policy-heralds-the-start-of-a-new-era-for-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-10-08",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"In Serie A last season, Juve's squad boasted the highest average age (29.7)\": 'last season' is 2019/20 (Sarri), not Allegri. Policy \"based around buying the finished and perhaps peaking product\" (no dates).",
+      "verified": false
+    },
+    {
+      "title": "Furious Allegri clashes with Italian media after Coppa Italia win (SI)",
+      "url": "https://www.si.com/soccer/2018/05/10/furious-allegri-clashes-italian-media-after-juventus-emphatic-coppa-italia-victory-over-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-05-10",
+      "eventDate": "2018-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Press framing: the 4-0 win \"could represent the end of an era, given that several Juve players are now in their 30s.\"",
+      "verified": true
+    },
+    {
+      "title": "Search summary (newsghana, via Sportsmail)",
+      "url": "https://www.newsghana.com.gh/juventus-proving-that-experience-is-vital/",
+      "tier": "D",
+      "language": "en",
+      "articleDate": "2017",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Summary only: lineup vs Monaco averaged 30 years 64 days. The summary named Pirlo and Evra, who left in 2015, so the season is doubtful.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "A team that wins seven titles in a row has no issues.",
+      "date": "2018-05-10",
+      "source": "https://www.si.com/soccer/2018/05/10/furious-allegri-clashes-italian-media-after-juventus-emphatic-coppa-italia-victory-over-milan",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.newsghana.com.gh/juventus-proving-that-experience-is-vital/",
+      "reason": "403"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "pro",
+      "est",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Only squad-building researched; tier C sources, mostly press framing."
+  }
+}

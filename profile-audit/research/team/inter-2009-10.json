@@ -1,0 +1,71 @@
+{
+  "id": "inter-2009-10",
+  "catalog": "team",
+  "name": "Inter 2009/10",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "2009-08",
+    "end": "2010-05-22"
+  },
+  "scopeNote": "Focused run to check the Squad-axis (bas) anchor: only squad-building (and the manager's stated view, when found) was researched. Every other dimension is a gap, not evidence of absence. Partial dates: exact first and last match dates were not verified.",
+  "managers": [
+    {
+      "managerId": "jose-mourinho",
+      "start": "2009-08",
+      "end": "2010-05-22"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [],
+  "sources": [
+    {
+      "title": "On this day in 2010: when José Mourinho's Inter ruled over Europe (Sam Brookes)",
+      "url": "https://www.getfootballnewsitaly.com/2020/feature-on-this-day-in-2010-when-jose-mourinhos-inter-ruled-over-europe/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"The average age of Inter's starting line-up in the Champions League final had been just a touch under 30.\" \"Mourinho had got everything he could out of a vastly experienced squad\"; \"the ageing group would start to decline shortly after his departure.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "pro",
+      "est",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "res",
+      "sis",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Only squad-building researched; one tier C retrospective."
+  }
+}

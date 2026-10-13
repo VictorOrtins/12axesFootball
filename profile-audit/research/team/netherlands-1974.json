@@ -1,0 +1,288 @@
+{
+  "id": "netherlands-1974",
+  "catalog": "team",
+  "name": "Netherlands, 1974 World Cup",
+  "researchedOn": "2026-10-12",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1974-06-15",
+    "end": "1974-07-07"
+  },
+  "scopeNote": "The seven Netherlands matches at the 1974 FIFA World Cup in West Germany: Group 3 (Uruguay 0-2, Sweden 0-0, Bulgaria 1-4), second-round Group A (Argentina 4-0, East Germany 2-0, Brazil 2-0) and the final lost 2-1 to West Germany in Munich on 7 July 1974. Pre-tournament friendlies (Michels's first game was 27 March 1974) are excluded. A single tournament, accepted by the team stop rule.",
+  "managers": [
+    {
+      "managerId": "rinus-michels",
+      "start": "1974-06-15",
+      "end": "1974-07-07"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking: no source read says whether the Dutch press and block were zonal or man-oriented. The verified facts (collective pressing, offside trap led by Haan, back line stepping up) point to a zonal/space-oriented scheme, but this is not stated; the mar axis rests on inference. One low-tier search summary (an FM tactics page, not read) claimed Rijsbergen and Haan or Jansen pre-marked the opposing forwards: worth checking in Wilson's Inverting the Pyramid or Winner's Brilliant Orange.",
+    "Stated view: the only Michels line found for the period, 'Voetbal is oorlog', is attributed (earliest dated appearance 1987) with no primary source. Should the audit treat it as a statement about his football or about his management/mentality?",
+    "The final is often read as the Dutch slowing the game to humiliate the Germans after the early penalty (Glanville presents this as a theory). Decide whether that counts as game management or as a one-off."
+  ],
+  "sources": [
+    {
+      "title": "1974 FIFA World Cup Group 3",
+      "url": "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_Group_3",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1974-06-15",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Uruguay 0-2 Netherlands, 15 June 1974, Niedersachsenstadion, Hanover; manager Rinus Michels. Same starting XI listed by position in all three group games: Jongbloed; Suurbier, Haan, Rijsbergen, Krol; Neeskens, Jansen, Van Hanegem; Rep, Rensenbrink (Keizer v Sweden); Cruyff (c). Back four, three midfielders, three forwards. Used to pin the start of the period.",
+      "verified": true
+    },
+    {
+      "title": "1974 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1974-07-07",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Final: West Germany 2-1 Netherlands, 7 July 1974, Olympiastadion, Munich (pins the end of the period). Total Football: \"specialised positions were virtually abolished for the outfield players\"; \"individual players became defenders, midfielders or strikers as the situation required.\" Brazil match called \"another triumph for Total Football\" but remembered for \"harsh defending on both sides.\" Read characters 0-100000 of a 271k page.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "The 1974 team \"ostensibly lined up in a 4-3-3\"; \"Charges from fullbacks Wim Suurbier and Ruud Krol added further options\"; Cruyff \"was given licence to roam the pitch looking for ways to unlock opposing teams.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Michels \"nicknamed 'The General' for his uncompromising manner\"; did \"a remarkable job building multifarious factions into a whole\" for the 1974 squad (Ajax and Feyenoord blocs). Cruyff (undated): \"I always greatly admired his leadership.\" Van Basten/Koeman quotes on the same page are about 1988 and are not used.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974-06-15",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "Jonathon Aspey. Jongbloed \"valued more for his ability to sweep up behind the high back line than for his ability as a shot stopper.\" Against Uruguay \"the effective use of the offside trap constantly outwitted Uruguay's attackers\"; Haan noted for \"leading the offside trap.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Haan and Rijsbergen in central defence were \"capable on the ball and skilled at stepping up to press the ball\"; the article credits the side's aggressive defending through pressing as part of its appeal. Against Uruguay, \"Cruyff's movement triggered the movement of the other nine outfield players.\" Does not say zonal or man.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "\"They passed the ball carefully, but could be ruthlessly effective when direct.\" Against Uruguay Holland \"rotated the ball around\" before playing into Cruyff. In the final they kept the ball but were \"largely going nowhere.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"Ruthlessly effective when direct\"; the goal v Argentina came from a long ball: Van Hanegem \"lofted the ball into the Argentine box.\" Thin: no description of counter-pressing or counter-attack as a pattern.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "set-pieces",
+      "evidence": "Against Brazil a quickly taken free kick led to the Neeskens goal; the opening goal of the final was a penalty won by Cruyff. No evidence of set-piece routines as a priority.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "Michels rested Rensenbrink for Sweden, starting Piet Keizer, and Rensenbrink \"returned to the XI\" for Bulgaria. In the final Cruyff planned \"to drop even deeper than usual in order to control the ball better\" against Vogts's man-marking. The same XI otherwise throughout: identity over opponent-specific plans.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "Michels converted midfielder Arie Haan and Feyenoord right-back Wim Rijsbergen into the central defensive pair, both \"capable on the ball\"; Jongbloed picked over Schrijvers for his sweeping rather than shot-stopping. Rensenbrink \"never truly adapted to Totaalvoetbal, admittedly disliking tactics.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "\"Cruyff was the epitome of the manager on the pitch, and can often be seen shouting instructions to team-mates.\" Cruyff (undated): Michels arranged the side \"outside the field\", Cruyff \"inside the field\". Shirt numbers alphabetical except Cruyff's 14.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1974",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Jon Townsend. Wim Rijsbergen (1974 squad member): \"He even used the goalkeeper … as a libero, playing outside the area.\" The article does not tie the quote to 1974 explicitly; Rijsbergen (Feyenoord) only played under Michels with the 1974 national team, so it is read as describing Jongbloed's role. Consistent with Aspey on Jongbloed sweeping behind a high line. Other passages (Keizer on training, Michels 2001 Sky remarks) are about Ajax 1965-71 and are not used.",
+      "verified": true
+    },
+    {
+      "title": "1974 FIFA World Cup squads",
+      "url": "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_squads",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1974-06",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Netherlands squad (read at offset 100000-200000). Starting XI ages/caps: Jongbloed 33 (2 caps), Suurbier 29 (27), Haan 25 (10), Rijsbergen 22 (1), Krol 25 (20), Neeskens 22 (17), Jansen 27 (25), Van Hanegem 30 (29), Rep 22 (5), Rensenbrink 26 (13), Cruyff 27 (28). Mixed XI built on an Ajax/Feyenoord core in their prime, with two near-debutants (Rijsbergen, Rep) and a 33-year-old goalkeeper with 2 caps; veterans Israël (32, 44 caps) and Keizer (30, 33 caps) mostly on the bench.",
+      "verified": true
+    },
+    {
+      "title": "Johan Cruyff and why Holland lost the 1974 World Cup final",
+      "url": "https://www.worldsoccer.com/features/johan-cruyff-1974-world-cup-369550",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-03-30",
+      "eventDate": "1974-07-07",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Brian Glanville (World Soccer). In the final Holland were \"infuriating the whistling German crowd from the kick-off with their possession football\"; after the opening goal \"the Dutch seemed content to roll the ball about in pretty patterns.\" Glanville presents a deliberate humiliation of the Germans as a theory.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "World Cups remembered: West Germany 1974",
+      "url": "https://www.skysports.com/football/news/11388288/world-cups-remembered-west-germany-1974",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-07",
+      "eventDate": "1974-07-07",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Stephen Joyce. In the final the Dutch \"kept possession for 60 seconds with a bewildering array of interchanged passes\" before the penalty.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Voetbal is oorlog",
+      "date": "1987",
+      "source": "https://dbnl.org/tekst/_bzz001198701_01/_bzz001198701_01_0107.php",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Netherlands_at_the_1974_FIFA_World_Cup",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.11v11.com/matches/netherlands-v-uruguay-15-june-1974-232872/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/features/who-really-invented-pressing-game-and-why-it-works",
+      "reason": "empty"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.fourfourtwo.com/features/who-really-invented-pressing-game-and-why-it-works",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/features/we-didnt-win-but-beautiful-football-was-our-legacy-the-late-johan-neeskens-in-one-of-his-last-ever-interviews-on-total-football-johan-cruyff-and-heartbreak-in-1974",
+      "reason": "empty"
+    },
+    {
+      "url": "https://vault.si.com/vault/1979/04/30/total-soccer-could-be-a-dutch-treat-rinus-michels-brought-his-own-concept-of-quotvoetbalquot-to-la-if-the-aztecs-can-master-it-credit-him-with-a-miracle",
+      "reason": "404"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "stated-view"
+    ],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "total-football",
+      "kind": "football-ideology",
+      "note": "The 1974 side is the international showcase of Michels's Ajax Total Football."
+    },
+    {
+      "id": "ajax-1971-73",
+      "kind": "team",
+      "note": "Ajax core (Cruyff, Neeskens, Krol, Suurbier, Haan, Rep) and Michels's Ajax methods."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "Good verified coverage of shape, possession, pressing and the offside trap, but almost all from later retrospectives (one tier B These Football Times piece carries most dimensions, the rest tier C); no technical study or period quotes with dates, marking (zonal vs man) never stated, and Michels's only stated view is attributed."
+  }
+}

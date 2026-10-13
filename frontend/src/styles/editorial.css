@@ -996,9 +996,9 @@ button.fut:hover{transform:translateY(-4px)}
 .fut-ovr,.fut-pos{position:absolute;z-index:1;left:7%;width:26%;text-align:center}
 .fut-ovr{top:12%;font-size:2.4em;font-weight:800;line-height:1;letter-spacing:-.03em}
 .fut-pos{top:31%;font-size:1.05em;font-weight:700;letter-spacing:.04em}
-.ed .fut-face{position:absolute;right:7%;top:8%;width:58%;height:48%;object-fit:cover;object-position:center top;-webkit-mask-image:linear-gradient(to bottom,var(--ball-black) 70%,transparent);mask-image:linear-gradient(to bottom,var(--ball-black) 70%,transparent)}
+.ed .fut-face,.rp .fut-face{position:absolute;right:7%;top:8%;width:58%;height:48%;object-fit:cover;object-position:center top;-webkit-mask-image:linear-gradient(to bottom,var(--ball-black) 70%,transparent);mask-image:linear-gradient(to bottom,var(--ball-black) 70%,transparent)}
 .fut-name{position:absolute;left:8%;right:8%;top:57%;padding-bottom:.3em;border-bottom:1px solid currentColor;font-size:1.35em;font-weight:800;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ed .fut-stats{position:absolute;left:15%;right:12%;top:68%;display:grid;grid-template-columns:1fr 1fr;gap:.3em .8em;font-size:.95em;text-align:left}
+.ed .fut-stats,.rp .fut-stats{position:absolute;left:15%;right:12%;top:68%;display:grid;grid-template-columns:1fr 1fr;gap:.3em .8em;font-size:.95em;text-align:left}
 .fut-stats li{white-space:nowrap}
 .fut-stats b{font-weight:800;margin-right:.2em}
 .fut-label{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--floresta)}

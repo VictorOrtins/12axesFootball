@@ -1,0 +1,90 @@
+{
+  "id": "ajax-1994-95",
+  "catalog": "team",
+  "name": "Ajax 1994/95",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "1994-08",
+    "end": "1995-05"
+  },
+  "scopeNote": "Focused run to check the Squad-axis (bas) anchor: only squad-building (and the manager's stated view, when found) was researched. Every other dimension is a gap, not evidence of absence. Partial dates: exact first and last match dates were not verified.",
+  "managers": [
+    {
+      "managerId": "louis-van-gaal",
+      "start": "1994-08",
+      "end": "1995-05"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The academy count (13 of 18) is unverified: the FourFourTwo page was empty."
+  ],
+  "sources": [
+    {
+      "title": "Amsterdam's last night of European glory (Glenn Billingham)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1995-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"the average age of Ajax's starting 11 was a staggering 22\" … \"Adding the experienced defenders, that number only increases to 24.\" \"18-year-old Patrick Kluivert.\" Experienced core: Rijkaard (back from Milan in 1993), Blind.",
+      "verified": true
+    },
+    {
+      "title": "Search summary citing FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-25",
+      "eventDate": "1995-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Summary only: 13 of the 18 players in the final squad came through the academy; average age 23. The page came back empty.",
+      "verified": false
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "reason": "empty"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "pro",
+      "est",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "res",
+      "sis",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Only squad-building researched; one tier B source verified for the young starting XI."
+  }
+}

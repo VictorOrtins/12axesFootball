@@ -1,0 +1,334 @@
+{
+  "id": "manchester-city-2017-18",
+  "catalog": "team",
+  "name": "Manchester City 2017/18",
+  "researchedOn": "2026-10-12",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2017-08-12",
+    "end": "2018-05-13"
+  },
+  "scopeNote": "Premier League (100 points), EFL Cup (won, final 2018-02-25), FA Cup (out to Wigan 2018-02-19) and Champions League 2017/18. First competitive match Brighton 0-2 City (2017-08-12), last Southampton 0-1 City (2018-05-13), both read on the Wikipedia season page. No Community Shield. Pep Guardiola managed the whole season. Style: positional play, not tiki-taka. Spielverlagerung (2018-01-02) calls it \"Guardiola's positional play\" and says \"This is not Tiki-Taka, or possession for the sake of having the ball, but rather moving the ball to move the opponent.\" Guardiola himself rejects the tiki-taka label (statedView).",
+  "managers": [
+    {
+      "managerId": "pep-guardiola",
+      "start": "2017-08-12",
+      "end": "2018-05-13"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "No in-season Guardiola quote could be read (mancity.com and Express & Star returned 403, FourFourTwo body empty). Stated view rests on his 2014 rejection of tiki-taka (Perarnau's book, team talk at Bayern), dated before the period. Check the 100-point press conference (2018-05-13) by hand if an in-season quote matters.",
+    "People management (dressing room, Yaya Toure's marginal role, relationship with stars) has no verified source for this season; the lid axis rests on memory.",
+    "The tactical-fouling claim (Mourinho, 2017/18; Neville, Nov 2018) is contested and Guardiola denies it (Sports Mole, 2018-11-03): decide whether it should weigh on transitions.",
+    "Early-season shape was a back three with wing-backs (Brighton, 3-1-4-2) before the 4-3-3 with Delph inverting became the norm after Mendy's injury: the profile should describe the dominant 4-3-3."
+  ],
+  "sources": [
+    {
+      "title": "2017-18 Manchester City F.C. season",
+      "url": "https://en.wikipedia.org/wiki/2017–18_Manchester_City_F.C._season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "Dates only (read in two parts, characters 0-200000): first match Brighton & Hove Albion v Manchester City, 12 August 2017 (2-0); last listed Southampton 0-1 Manchester City, 13 May 2018; EFL Cup final 25 February 2018, Arsenal 0-3 City; FA Cup fifth round 19 February 2018, Wigan 1-0 City. Manager: Pep Guardiola. Used for the period, not as tactical evidence.",
+      "verified": false
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Mid-season snapshot (Eckner and Reynolds). Guardiola \"established the 4-3-3 as the go-to shape and only occasionally changes the structure significantly\".",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "\"Ederson can laser passes from dead balls that range up to near the opposition's penalty area\"; \"Stones has been the more frequent passer and breaker of lines in the partnership with Nicolás Otamendi\"; Fernandinho \"serves as what is sometimes called a 'midfield libero'\"; \"the full-backs are closer to the defenders during build-up, allowing for more stable circulation.\"",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "\"they intend to establish their dominance by long spells of possession\"; \"City are determined to break down an opponent tactically and mentally\".",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Marking: early season \"The pressing scheme was man-oriented, the intensity not quite on the level they needed it to be\"; later \"City's centre-backs acted less man-oriented as the season went on\". Full-backs \"are asked to move up the field and block the opponents on the wing repeatedly\"; \"Guardiola's players understood how and when to end their high press in order to fall back\".",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "\"with City's high line, the weight and timing of the pass and the run have to be spot on\"; when pushed back \"the back four of City collapse centrally and get ultra-compact at the top of the penalty area\".",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"counter-pressing focused on eliminating the passing options for the player in possession\"; rest defence \"organised so that they have a one person advantage in the back\"; only \"ten per cent of the final third entries that City allowed came from fast transition\"; on winning the ball \"the attacking players immediately start their runs towards goal\".",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "\"the wingers remain close to the touchline in most moments of play during build-up and attack construction\"; \"the two wingers—or at least Sané on the left—providing width\"; \"What has stuck out this season is how they have made use of low crosses.\"",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "\"Guardiola adjusts his match plan if he feels it is the appropriate decision\" while the 4-3-3 stays the base and \"only occasionally changes the structure significantly\"; \"The Citizens appear to be slow starters.\"",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"City have spent around 463 million Euros for new players\"; \"What City still lack at the moment is depth across the board.\" Delph: \"In the span of a few months, he has risen up to become first-choice left-back\".",
+      "verified": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "set-pieces",
+      "evidence": "Only a passing mention of set-pieces as one finishing option (\"use set-pieces or counter-attack like there is no tomorrow\"); no routines or importance described. Not enough to close the gap.",
+      "verified": false
+    },
+    {
+      "title": "Manchester City defeat Brighton to begin domestic campaign",
+      "url": "https://spielverlagerung.com/2017/08/13/manchester-city-defeat-brighton-to-begin-domestic-campaign/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-13",
+      "eventDate": "2017-08-12",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "One match (opening day). \"City were set up in a 3-1-4-2 in possession\", Stones as the deepest centre-back; \"Kyle Walker and Danilo each featured as wing backs on the day\"; Silva and De Bruyne in the half-spaces. Build-up criticised: \"The pass selection from the trio rarely went in between the defense of Brighton.\" Ederson offers \"excellent long range passing and distribution\".",
+      "verified": true
+    },
+    {
+      "title": "Manchester City defeat Brighton to begin domestic campaign",
+      "url": "https://spielverlagerung.com/2017/08/13/manchester-city-defeat-brighton-to-begin-domestic-campaign/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-13",
+      "eventDate": "2017-08-12",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "One match. Counterpressing \"impressive to deny Brighton from being able to play forward\"; the centre-backs stepped up as a unit to limit counters; fouls frequent relative to how little City were out of possession (paraphrase from the page reader).",
+      "verified": true
+    },
+    {
+      "title": "Classic Game Rewind: Manchester City 7-2 Stoke City, October 2017",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/classic-game-rewind-manchester-city-7-2-stoke-city-october-2017/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-03-24",
+      "eventDate": "2017-10-14",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "One match, retrospective. \"The 3-5-2ish system was dead and buried in favour of the more conventional 4-3-3ish shape\"; \"With Delph underlapping and Sané taking a very wide role, City had the entire left flank covered\"; Walker and Sterling swapping so \"City always had someone at the byline on each flank.\" De Bruyne and Silva \"about the freest eights you could find\".",
+      "verified": true
+    },
+    {
+      "title": "Classic Game Rewind: Manchester City 7-2 Stoke City, October 2017",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/classic-game-rewind-manchester-city-7-2-stoke-city-october-2017/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-03-24",
+      "eventDate": "2017-10-14",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "Delph \"was a fullback very much in the mould of Guardiola's Bayern side\" (Lahm/Alaba inverting), one of the most two-footed players in the league (63% of passes left-footed); \"Silva is the more involved, successfully completing 76 passes to De Bruyne's 45\", De Bruyne \"more direct\".",
+      "verified": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Era piece (2016-2026); only the season-tagged lines used: \"In the 2017/18 campaign, for example, City averaged 70 per cent possession\", \"with Fabian Delph and Zinchenko particularly influential when inverting from left-back\"; \"City dominated in central midfield\"; Laporte \"often found winger Leroy Sané with passes around the opposing block\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "\"possessing strong, athletic defenders such as Walker, Stones and Laporte underneath\" \"who could limit the impact of opposing counter-attacks\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Pep Guardiola's signings turned Manchester City from nearly men into champions",
+      "url": "https://www.wionews.com/sports/how-pep-guardiolas-signings-turned-manchester-city-from-nearly-men-into-champions-130710/amp",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-04-16",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Reuters-based. City spent \"almost 140 million pounds\" on two full-backs (Walker, Mendy) and a goalkeeper (Ederson, \"the 24-year-old\"), replacing older full-backs Zabaleta, Clichy and Kolarov; Laporte record signing in January; Ederson meets the \"ball-playing requirement that Guardiola demands from his keepers\". Guardiola on Ederson: \"He is young and has to improve a lot of things, but he is, for me, already one of the best in the world.\"",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal 0 Manchester City 2",
+      "url": "https://learning.coachesvoice.com/?p=8804",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-08-14",
+      "eventDate": "2018-08-12",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Out of period (2018/19 opening match): context only. \"each time they lost possession, they were well positioned to collectively counter-press\"; \"City's back line then squeezed high\".",
+      "verified": false
+    },
+    {
+      "title": "Pep Guardiola denies 'tactical fouling' claim",
+      "url": "https://www.sportsmole.co.uk/football/man-city/news/pep-guardiola-denies-eurotactical-foulingeuro-claim_340537.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-11-03",
+      "eventDate": "2018-11-03",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "Context only (interview after the period): Neville revived Mourinho's claim from the previous season that City concede free-kicks to stop counters. Guardiola: \"It has never happened in my career and never will happen in my career.\" \"I don't say we are not making fouls, but the intention to do something, no.\" Contested claim; not counted.",
+      "verified": false
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "\"As a part of Guardiola's positional play, there is often rotation between positions to try and unbalance the opposition.\" \"This is not Tiki-Taka, or possession for the sake of having the ball, but rather moving the ball to move the opponent.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "I loathe all that passing for the sake of it, all that tiki-taka. It's so much rubbish and has no purpose. You have to pass the ball with clear intention and aim to make it into the opposition's goal.",
+      "date": "2014-10-16",
+      "source": "https://www.tntsports.co.uk/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+      "provenance": "primary",
+      "note": "From Martí Perarnau's 2014 book on Guardiola's Bayern year, as reported by Eurosport (now TNT Sports). Before the period: his view of his own football, not a 2017/18 statement."
+    },
+    {
+      "quote": "I hate tiki-taka, which means passing the ball for the sake of it with no clear intention. It's pointless. Barca didn't do tiki-taka! It's completely made up!",
+      "date": "2014-10-16",
+      "source": "https://www.tntsports.co.uk/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+      "provenance": "primary",
+      "note": "Team talk to Bayern players, quoted in the same article via Football España."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.mancity.com/news/first-team/first-team-news/2018/may/pep-guardiola-southampton-premier-league-reaction",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.expressandstar.com/uk-sports/liverpool-cant-match-our-100-point-record-manchester-city-boss-pep-guardiola-5723065",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/news/100-points-i-cannot-believe-it-guardiola-marvels-super-city",
+      "reason": "empty"
+    },
+    {
+      "url": "https://web.archive.org/web/2018/https://www.mancity.com/news/first-team/first-team-news/2018/may/pep-guardiola-southampton-premier-league-reaction",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2017–18_Manchester_City_F.C._season",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "set-pieces",
+      "people-management"
+    ],
+    "axes": [
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "On-pitch dimensions are well covered for the exact season by a thorough mid-season tier B analysis (Spielverlagerung, Jan 2018), agreeing with a tier A single-match piece (StatsBomb, Stoke Oct 2017), an opening-day tier B match analysis and season-tagged lines in a tier A era piece. Guardiola's stated view (his rejection of tiki-taka) is from 2014, not from the season, and set pieces and people management have no verified source, so res/sis lean on game-management only and lid rests on memory."
+  }
+}

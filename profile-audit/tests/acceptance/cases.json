@@ -1,0 +1,118 @@
+[
+  {
+    "case": "guardiola-city-2017-18",
+    "input": "/new-team Manchester City 2017/18",
+    "catalog": "team",
+    "id": "manchester-city-2017-18",
+    "checks": [
+      {"type": "status", "value": "complete"},
+      {"type": "period", "start": "2017-08", "end": "2018-05"},
+      {"type": "managers", "ids": ["pep-guardiola"]},
+      {"type": "confidence", "accept": ["high", "medium"]},
+      {"type": "text", "fields": ["scopeNote", "openQuestions", "sources"], "pattern": "positional|juego de posici", "why": "positional play, not tiki-taka"},
+      {"type": "statedView", "pattern": "tiki", "why": "Guardiola's rejection of tiki-taka is recorded as stated view"},
+      {"type": "unreadableIfUsed", "domain": "fbref.com", "severity": "should", "why": "FBref returns 403: listed as unreadable, never a verified source"}
+    ]
+  },
+  {
+    "case": "klopp-liverpool-2021-22",
+    "input": "/new-team Liverpool 2021/22",
+    "catalog": "team",
+    "id": "liverpool-2021-22",
+    "checks": [
+      {"type": "status", "value": "complete"},
+      {"type": "period", "start": "2021-08", "end": "2022-05"},
+      {"type": "managers", "ids": ["jurgen-klopp"]},
+      {"type": "confidence", "accept": ["high", "medium"]},
+      {"type": "noVerified", "pattern": "mid[- ]?block", "why": "the mid-block claim came from a search summary; the source says higher press and a high line"},
+      {"type": "statedView", "pattern": "heavy metal", "severity": "should"}
+    ]
+  },
+  {
+    "case": "cardoso-sundowns-2025",
+    "input": "/new-team Mamelodi Sundowns 2025",
+    "catalog": "team",
+    "id": "mamelodi-sundowns-2025",
+    "checks": [
+      {"type": "status", "value": "awaiting-user"},
+      {"type": "ambiguity", "pattern": "2024/25|2024-25|calendar", "why": "asks: calendar 2025 or the 2024/25 season?"}
+    ]
+  },
+  {
+    "case": "renato-gremio-2017",
+    "input": "/new-team Grêmio 2017",
+    "catalog": "team",
+    "id": "gremio-2017",
+    "checks": [
+      {"type": "status", "value": "complete"},
+      {"type": "period", "start": "2017", "end": "2017-12"},
+      {"type": "managers", "ids": ["renato-gaucho"]},
+      {"type": "confidence", "accept": ["medium", "high", "low"]},
+      {"type": "statedView", "pattern": "quem n[aã]o (sabe|precisa)|vai estudar|tem que estudar|bicicleta", "date": "2016-12-08", "severity": "should", "why": "the quote is dated 2016-12-08 (Gazeta Esportiva), not 2017"},
+      {"type": "axesWithEvidence", "axes": ["sis", "lid"], "why": "evidence for Who decides and Leadership"},
+      {"type": "sourceLanguage", "language": "pt", "why": "FR-7: also searched in Portuguese"}
+    ]
+  },
+  {
+    "case": "pedro-emanuel-vasco-2026",
+    "input": "/new-team Vasco 2026 under Pedro Emanuel",
+    "catalog": "team",
+    "id": "vasco-2026-pedro-emanuel",
+    "checks": [
+      {"type": "statusAny", "accept": ["complete", "awaiting-user"], "why": "about 15 matches: on the half-season line, either is acceptable"},
+      {"type": "period", "start": "2026-07-11"},
+      {"type": "managers", "ids": ["pedro-emanuel"], "onlyIfComplete": true},
+      {"type": "text", "fields": ["scopeNote", "ambiguities", "openQuestions"], "pattern": "Diniz", "why": "notes the earlier Diniz spell"},
+      {"type": "text", "fields": ["scopeNote", "ambiguities", "openQuestions"], "pattern": "Renato", "why": "notes the earlier Renato spell"},
+      {"type": "confidence", "accept": ["low"], "onlyIfComplete": true},
+      {"type": "sourceLanguage", "language": "pt", "onlyIfComplete": true}
+    ]
+  },
+  {
+    "case": "michels-netherlands-1974",
+    "input": "/new-team Netherlands, 1974 World Cup",
+    "catalog": "team",
+    "id": "netherlands-1974",
+    "checks": [
+      {"type": "status", "value": "complete"},
+      {"type": "period", "start": "1974-06", "end": "1974-07"},
+      {"type": "managers", "ids": ["rinus-michels"]},
+      {"type": "confidence", "accept": ["high", "medium"]}
+    ]
+  },
+  {
+    "case": "coutinho-flamengo-1980",
+    "input": "/new-team Flamengo 1980",
+    "catalog": "team",
+    "id": "flamengo-1980",
+    "checks": [
+      {"type": "status", "value": "complete"},
+      {"type": "period", "start": "1980", "end": "1980"},
+      {"type": "managers", "ids": ["claudio-coutinho"]},
+      {"type": "confidence", "accept": ["medium", "high", "low"]},
+      {"type": "sourceLanguage", "language": "pt"}
+    ]
+  },
+  {
+    "case": "shankly-liverpool",
+    "input": "/new-manager Bill Shankly – Liverpool",
+    "catalog": "manager",
+    "id": "bill-shankly",
+    "checks": [
+      {"type": "statusAny", "accept": ["awaiting-user", "complete"], "why": "shares bill-shankly.json with the next case: a stub before the answer, or a complete file whose openQuestions record the question and answer"},
+      {"type": "ambiguity", "pattern": "Paisley|1970s", "why": "asks: Shankly 1959-74 or 1970s Liverpool (mostly Paisley)?"}
+    ]
+  },
+  {
+    "case": "shankly-manager-1959-74",
+    "input": "/new-manager Bill Shankly (after answering: the manager, Liverpool 1959-74)",
+    "catalog": "manager",
+    "id": "bill-shankly",
+    "checks": [
+      {"type": "status", "value": "complete"},
+      {"type": "period", "start": "1959-12", "end": "1974-07"},
+      {"type": "confidence", "accept": ["medium", "high", "low"]},
+      {"type": "statedView", "pattern": "socialism", "provenance": "attributed", "date": "1995", "why": "attributed; earliest dated appearance 1995"}
+    ]
+  }
+]

@@ -6,7 +6,7 @@ import { SafeImg } from '../editorial/primitives';
 
 const LONG_NAME = 14;
 
-function futTier(rating: number, special: boolean): string {
+export function futTier(rating: number, special: boolean): string {
   if (special) return 'fut-special';
   if (rating >= 85) return 'fut-gold';
   if (rating >= 70) return 'fut-silver';
@@ -14,7 +14,7 @@ function futTier(rating: number, special: boolean): string {
 }
 
 // Nome curto como no Ultimate Team: nomes longos viram só o sobrenome.
-function cardName(name: string): string {
+export function cardName(name: string): string {
   if (name.length <= LONG_NAME) return name;
   const words = name.split(' ');
   return words[words.length - 1];

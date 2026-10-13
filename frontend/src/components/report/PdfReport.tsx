@@ -14,11 +14,12 @@ import { catStyle, ideologyColorByKey, localCatStyle } from '../../utils/ideolog
 import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
 import type { Religion } from '../../utils/religion';
 import { PoleIcon } from '../AxisIcon';
-import { pct } from '../editorial/primitives';
+import { PitchMarkings, pct, RatingBadge } from '../editorial/primitives';
 import { axisLeaning, displayRank } from '../results/AxesSection';
-import { AmazonIcon } from '../results/BooksSection';
 import { COMPASS_GRID_CELLS, compassClamp, compassView } from '../results/PoliticalCompassSection';
+import { FutCard } from '../results/FutCard';
 import { commonNote, unusualLead } from '../results/SignatureSection';
+import { topAgreements } from '../../utils/agreement';
 import { computeCompass, type CompassPosition } from '../../utils/politicalCompass';
 
 interface PdfReportProps {
@@ -35,7 +36,6 @@ interface PdfReportProps {
  */
 export function PdfReport({ result, axes, axisResults, answeredCount, religion }: PdfReportProps) {
   const top = result.topMatch;
-  const books = result.bookRecommendations ?? [];
   const others = result.matches.slice(1, 4);
   const compass = computeCompass(axisResults);
   const sections = [
@@ -44,7 +44,6 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
     t.countriesSectionTitle,
     t.personalitiesSectionTitle,
     ...(result.personalityMatches.length > 0 ? [t.areasGeneralTitle] : []),
-    ...(books.length > 0 ? [t.booksTitle] : []),
     t.otherMatches,
     ...(compass ? [t.compassTitle] : [])
   ];
@@ -58,6 +57,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
     <div className="rp" style={catStyle(top.category) as CSSProperties}>
       <section className="rp-cover">
         <div className="cv-top">
+          <PitchMarkings />
           <div className="cv-bar">
             <Logo />
             <span className="cv-line" />
@@ -164,20 +164,18 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
         <section className="rp-sec">
           <SectionHead title={t.personalitiesSectionTitle} />
           <MatchCard
-            visual={<Img className="av-b" src={resolvePersonalityImageSrc(result.topPersonalityMatch.imagePath)} name={result.topPersonalityMatch.name} />}
+            visual={<FutCard match={result.topPersonalityMatch} size="lg" special stats={topAgreements(result.topPersonalityMatch.vector, axes, axisResults, 6)} />}
             compatibility={result.topPersonalityMatch.compatibility}
             name={result.topPersonalityMatch.name}
             tags={[result.topPersonalityMatch.role, result.topPersonalityMatch.lifespan].filter(Boolean)}
             description={result.topPersonalityMatch.description}
           />
           <p className="lbl">{t.dimensionsTitleShort}</p>
-          <ul className="dims">
+          <ul className="fut-row">
             {result.dimensionMatches.map(({ dimension, match }) => (
-              <li className="dc" key={dimension}>
-                <Img className="av-s" src={resolvePersonalityImageSrc(match.imagePath)} name={match.name} />
+              <li key={dimension}>
+                <FutCard match={match} stats={topAgreements(match.vector, axes, axisResults, 6)} />
                 <span className="dim">{t.dimensionLabels[dimension]}</span>
-                <b>{match.name}</b>
-                <strong>{Math.round(match.compatibility)}%</strong>
               </li>
             ))}
           </ul>
@@ -202,47 +200,10 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
                       <i style={{ width: `${Math.max(0, Math.min(100, match.compatibility))}%` }} />
                     </div>
                   </div>
-                  <strong>{Math.round(match.compatibility)}%</strong>
+                  <RatingBadge value={match.compatibility} />
                 </li>
               ))}
             </ol>
-          </section>
-        )}
-
-        {books.length > 0 && (
-          <section className="rp-sec">
-            <SectionHead title={t.booksTitle} />
-            <p className="intro">{t.report.booksIntro}</p>
-            <ul className="books">
-              {books.map((book, index) => (
-                <li className={index === 0 ? 'bk top' : 'bk'} key={book.personalityId}>
-                  <div className="bk-top">
-                    <span className="bk-n">{String(index + 1).padStart(2, '0')}</span>
-                    <span className="tag tc">{t.booksWhy(Math.round(book.compatibility))}</span>
-                  </div>
-                  <div className="bk-a">
-                    <Img className="av-x" src={resolvePersonalityImageSrc(book.imagePath)} name={book.personalityName} />
-                    <div>
-                      <small>{index === 0 ? t.booksTopLabel : t.booksAuthorLabel}</small>
-                      <b>{book.personalityName}</b>
-                    </div>
-                  </div>
-                  <div className="bk-t">
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M4 19V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2" />
-                      <path d="M4 19a2 2 0 0 1 2-2h13" />
-                    </svg>
-                    <div>
-                      <h4>{book.title}</h4>
-                      {book.year ? <span>{book.year < 0 ? t.booksYearBc(-book.year) : book.year}</span> : null}
-                    </div>
-                  </div>
-                  <a className="bk-btn" href={book.url} target="_blank" rel="sponsored noopener noreferrer">
-                    {t.booksCta} <AmazonIcon />
-                  </a>
-                </li>
-              ))}
-            </ul>
           </section>
         )}
 
@@ -555,15 +516,16 @@ function TensionBlock({ tension, axes, axisResults }: {
   );
 }
 
-function MatchCard({ visual, compatibility, name, tags, description }: {
+function MatchCard({ visual, compatibility, name, tags, description, pes = false }: {
   visual: ReactNode;
+  pes?: boolean;
   compatibility: number;
   name: string;
   tags: string[];
   description: string;
 }) {
   return (
-    <article className="mc">
+    <article className={pes ? 'mc mc-pes' : 'mc'}>
       {visual}
       <div>
         <div className="tags">
@@ -601,6 +563,7 @@ function CountryBlock({ label, match, dimensions, distant }: {
         name={match.name}
         tags={[match.category, match.historical ? match.period : ''].filter((tag): tag is string => Boolean(tag))}
         description={match.description}
+        pes
       />
       {dimensions && dimensions.length > 0 && (
         <>
@@ -611,7 +574,7 @@ function CountryBlock({ label, match, dimensions, distant }: {
                 <Img className="fl-s" src={resolveCountryFlagSrc(item.flagPath)} name={item.name} />
                 <span className="dim">{t.dimensionLabels[dimension]}</span>
                 <b>{item.name}</b>
-                <strong>{Math.round(item.compatibility)}%</strong>
+                <RatingBadge value={item.compatibility} />
               </li>
             ))}
           </ul>

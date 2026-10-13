@@ -1,0 +1,256 @@
+{
+  "id": "gremio-2017",
+  "catalog": "team",
+  "name": "Grêmio 2017",
+  "researchedOn": "2026-10-12",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2017-02-02",
+    "end": "2017-12-16"
+  },
+  "scopeNote": "Calendar year 2017, all competitions: 79 matches (Série A 38, Copa Libertadores 14 – won, Campeonato Gaúcho 15, Copa do Brasil 6, Primeira Liga 4, FIFA Club World Cup 2 – runners-up). First match Grêmio 2–0 Ypiranga (Gaúcho, 2 Feb 2017); last match Real Madrid 1–0 Grêmio (Club World Cup final, 16 Dec 2017). Renato Gaúcho (Renato Portaluppi, id renato-gaucho) managed the whole year (appointed Sept 2016). A search summary (unverified) says a transition squad under Felipe Endres played the Primeira Liga quarter-final at Cruzeiro (30 Aug 2017) without Renato.",
+  "managers": [
+    {
+      "managerId": "renato-gaucho",
+      "start": "2017-02-02",
+      "end": "2017-12-16"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (zonal vs man-oriented) is not documented by any source read; the only pressing evidence is a press description of the Libertadores final second leg. Treat 'mar' as memory-based.",
+    "No source read describes the width/full-back pattern, the depth of the defensive block or set-piece routines for 2017."
+  ],
+  "sources": [
+    {
+      "title": "2017 Grêmio FBPA season",
+      "url": "https://en.wikipedia.org/wiki/2017_Grêmio_FBPA_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Dates and match counts only (read in three parts, offsets 0, 100000, 200000). Infobox manager: \"Renato Portaluppi\". Gaúcho matchday 1: \"2 February\" \"Grêmio v Ypiranga\" \"2–0\". Club World Cup final: \"16 December\" \"Real Madrid\" \"1–0\" \"Grêmio\". Totals 79 matches (42 W, 17 D, 20 L). Used for the period, not as tactical evidence.",
+      "verified": false
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "\"A equipe comandada por Renato Portaluppi levantou o título em um 4-2-3-1\" (Tauan Ambrosio).",
+      "verified": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"com o excelente Arthur ajudando nas transições defesa/ataque e protegendo a defesa\"; \"Barrios como referência e Fernandinho na aposta da velocidade nos contra-ataques.\"",
+      "verified": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "\"Principalmente por contar com Luan na criação e finalização de jogadas.\"",
+      "verified": true
+    },
+    {
+      "title": "Heróis do tricampeonato tricolor",
+      "url": "https://www.goal.com/br/not%C3%ADcias/herois-do-tricampeonato-tricolor/vxaeuttimm0w1ucu73edojim5",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Arthur was \"extremamente importante para a saída de bola da equipe de Renato Gaúcho.\" Luan \"Comandou o meio campo do time\" and was \"o principal líder técnico do time tricolor em campo\". Says nothing about the goalkeeper's role or short vs long build-up.",
+      "verified": true
+    },
+    {
+      "title": "Com toque de Renato, Grêmio reencontrou equilíbrio para bater o Pachuca e o nervosismo",
+      "url": "https://www.goal.com/br/not%C3%ADcias/com-toque-de-renato-gremio-reencontrou-equilibrio-para-bater-o-pachuca-e-o-nervosismo/1pz0oxrhcejsm1vm30ca3lt8qj",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-12-12",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Before the Club World Cup semi-final Grêmio averaged \"média de 53%  na Libertadores e 51% no Brasileirão\" of possession. Against Pachuca the team \"sofria por não ter Arthur\" in midfield in the first half.",
+      "verified": true
+    },
+    {
+      "title": "Com toque de Renato, Grêmio reencontrou equilíbrio para bater o Pachuca e o nervosismo",
+      "url": "https://www.goal.com/br/not%C3%ADcias/com-toque-de-renato-gremio-reencontrou-equilibrio-para-bater-o-pachuca-e-o-nervosismo/1pz0oxrhcejsm1vm30ca3lt8qj",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-12-12",
+      "eventDate": "2017-12-12",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "One match only (Club World Cup semi-final v Pachuca, 1–0 a.e.t.). Paraphrased from the page: Grêmio reorganised in the second half and took back the ball; Jael replaced Barrios to add depth, Everton came on for Michel and scored the winner; the article credits Renato's changes (\"toque de Renato\") as a factor in the goal.",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "\"O Grêmio nem sempre foi perfeito, mas praticou o futebol mais vistoso do Brasil em 2017.\" \"Uma equipe que soube trabalhar a bola, envolver os adversários, criar jogadas bem encadeadas.\"",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "About the Libertadores final (Lanús 1–2 Grêmio): the team connected its phases \"especialmente pela maneira como trabalharam sem a bola, pressionando, agressivos.\" One match; no detail on height, triggers or zonal/man orientation.",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"muito mais consistente na defesa, letal nos contra-ataques.\" \"A solidez defensiva e a verticalidade no ataque, vistas em 2016, evoluíram nos últimos meses.\"",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "The relationship with the squad is Renato's \"trunfo mais evidente\"; \"É difícil encontrar um jogador que critique o treinador abertamente.\" Despite constant rotation \"não se viu qualquer crise de vaidades no elenco tricolor\". Recovered players \"tidos como refugos\": \"Edílson, Cortez, Léo Moura, Jael, Cícero, Fernandinho.\"",
+      "verified": true
+    },
+    {
+      "title": "O Imortal joga bonito em 2017",
+      "url": "https://bolanarede.pt/internacional/ligabrasileira/o-imortal-joga-bonito-em-2017",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-06-22",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Article dated \"22/06\" (year inferred from the title). 4-2-3-1 with Barrios up front supported by Luan, Pedro Rocha and Ramiro; Renato \"herdeu o esquema tático do seu antecessor, Roger Machado.\" Credits \"a determinação, a obediência tática e a qualidade de seus principais jogadores.\"",
+      "verified": true
+    },
+    {
+      "title": "O Imortal joga bonito em 2017",
+      "url": "https://bolanarede.pt/internacional/ligabrasileira/o-imortal-joga-bonito-em-2017",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-06-22",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "Luan described as \"muito habilidoso e veloz\". Grêmio was the big club that \"se reforçou com menos jogadores badalados\", Lucas Barrios the main signing; experienced full-backs Léo Moura and Cortez signed. \"O elenco é um pouco curto para as três frentes que o time está disputando.\"",
+      "verified": true
+    },
+    {
+      "title": "A 'Era Renato': veja como técnico fez Grêmio voltar ao rumo dos títulos",
+      "url": "https://www.lance.com.br/gremio/era-renato-desconfianca-busca-por-titulos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-05",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Retrospective. 2017: \"Desembarcaram na Arena nomes como os laterais Léo Moura e Cortez e o atacante Jael.\" \"Ainda chegaram ao clube outros jogadores desacreditados, como Lucas Barrios, Cícero e Christian.\" \"O trio retomou seus bons momentos, sendo crucial para a caminhada da equipe até o título da Copa Libertadores.\" Caption: \"Recuperação de jogadores, mescla com jovens.\"",
+      "verified": true
+    },
+    {
+      "title": "A 'Era Renato': veja como técnico fez Grêmio voltar ao rumo dos títulos",
+      "url": "https://www.lance.com.br/gremio/era-renato-desconfianca-busca-por-titulos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-05",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Retrospective, quoting Grêmio staff of the period. Espinosa: \"Ele (Renato Portaluppi) sabe como dialogar, dar a cada jogador chance de mostrar seu futebol.\" Kroeff: \"Além de dialogar muito com quem está nas categorias de base, Renato assiste a vários jogos\". Espinosa: \"Todas as contratações eram discutidas, mas o mérito maior sempre foi do Renato.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Então, até um cego vê que o Grêmio vem jogando um futebol maravilhoso. [...] O objetivo é jogarmos bem e ganharmos os jogos, mas isso não credencia o Grêmio ao título.",
+      "date": "2017-06-03",
+      "source": "https://www.gazetaesportiva.com/?p=2452802",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Quem precisa aprender tem que estudar, ir para a Europa. Quem não precisa, pode tirar as férias na praia. [...] Quem sabe, sabe. Quem não sabe, vai estudar. [...] Futebol é como andar de bicicleta: nunca desaprende",
+      "date": "2016-12-08",
+      "source": "https://www.gazetaesportiva.com/gremio/renato-nao-se-ve-desatualizado-futebol-e-como-andar-de-bicicleta/",
+      "provenance": "primary",
+      "note": "Earliest appearance; the Bola na Rede piece (2017-06-22) repeats a variant. About his management, not his team's tactics."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://pt.wikipedia.org/wiki/Temporada_do_Grêmio_Foot-Ball_Porto_Alegrense_de_2017",
+      "reason": "404"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Copa_da_Primeira_Liga_de_2017",
+      "reason": "404"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2017_Primeira_Liga_(Brazil)",
+      "reason": "404"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "defensive-block",
+      "width",
+      "set-pieces"
+    ],
+    "axes": [
+      "lar"
+    ]
+  },
+  "influences": [
+    {
+      "id": "roger-machado",
+      "kind": "manager",
+      "note": "Renato inherited Roger Machado's 4-2-3-1 (Bola na Rede, 2017)."
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "All evidence is tier C Brazilian/Portuguese press for 2017 (Goal BR, Trivela, Bola na Rede, Lance); no tier A–B season analysis was found (searches returned only 2019–2024 analyses). Pressing and game management rest on single matches; marking orientation, block depth, width and set pieces are undocumented."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "arsenal-2005-11",
+  "catalog": "team",
+  "name": "Arsenal 2005–11",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "2005-08",
+    "end": "2011-05"
+  },
+  "scopeNote": "Focused run to check the Squad-axis (bas) anchor: only squad-building (and the manager's stated view, when found) was researched. Every other dimension is a gap, not evidence of absence. Partial dates: exact first and last match dates were not verified.",
+  "managers": [
+    {
+      "managerId": "arsene-wenger",
+      "start": "2005-08",
+      "end": "2011-05"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [],
+  "sources": [
+    {
+      "title": "Fàbregas urges young Gunners to come of age (UEFA)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/01d9-0e7220d45597-d8b17af2d42b-1000--fabregas-urges-young-gunners-to-come-of-age",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-05-05",
+      "eventDate": "2009-04",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"It is a young Arsenal team\"; the average age of the ten outfield players who started the first leg was \"just 23.5\". Fàbregas: \"even if we are younger, we have the same quality and the same togetherness.\"",
+      "verified": true
+    },
+    {
+      "title": "Search summary citing Guinness World Records",
+      "url": "https://www.guinnessworldrecords.com/world-records/youngest-average-age-for-a-football-soccer-champions-league-team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-12",
+      "eventDate": "2009-12-09",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Summary only: youngest average age for a Champions League team, 20.90, at Olympiacos (dead-rubber match). Not opened.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "You cannot have a youth policy and suddenly say we'll buy three players [aged] 27. You destroy what you have done and created.",
+      "date": "2008-12-30",
+      "source": "https://www.uefa.com/uefachampionsleague/news/01d4-0e70ac42b20f-8da568f3b98e-1000--top-marks-for-arsenal-s-professeur",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "pro",
+      "est",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Only squad-building and one stated view researched; tier C sources, one season-specific."
+  }
+}
