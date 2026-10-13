@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 /**
  * Cache em memoria com tamanho maximo e descarte do menos usado recentemente.
  *
- * Os resultados do quiz sao deterministicos (mesmo vetor, idioma e religiao geram
+ * Os resultados do quiz sao deterministicos (mesmo vetor e idioma geram
  * sempre a mesma resposta) e os catalogos nao mudam depois de carregados, entao
  * repetir o calculo so gasta CPU. O tamanho e limitado para a memoria do plano
  * pequeno do Render nao crescer sem controle com vetores todos diferentes.

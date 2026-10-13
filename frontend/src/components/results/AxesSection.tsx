@@ -2,18 +2,17 @@ import type { CSSProperties } from 'react';
 import { t } from '../../i18n';
 import type { Axis, AxisResult } from '../../types/quiz';
 import { PoleIcon } from '../AxisIcon';
-import type { Religion } from '../../utils/religion';
 import { pct } from '../editorial/primitives';
 import { tokens } from '../../styles/tokens.generated';
 
 // Ordem de exibição em duas colunas (leitura por linhas): esquerda | direita.
 export const DISPLAY_ORDER = [
-  'estrutura', 'economia',
-  'representacao', 'controle',
-  'poder', 'comercio',
-  'imigracao', 'religiao',
-  'diplomacia', 'moral',
-  'intervencao', 'tecnologia'
+  'pos', 'pro',
+  'est', 'lar',
+  'blo', 'mar',
+  'pla', 'res',
+  'sis', 'jog',
+  'bas', 'lid'
 ];
 
 // Posicao na grade de duas colunas (desktop); no mobile vale a ordem original.
@@ -27,10 +26,9 @@ const BALANCED_COLOR = tokens['ink-400'];
 interface AxesSectionProps {
   axes: Axis[];
   results: Map<string, AxisResult>;
-  religion?: Religion | null;
 }
 
-export function AxesSection({ axes, results, religion }: AxesSectionProps) {
+export function AxesSection({ axes, results }: AxesSectionProps) {
   return (
     <section className="e-panel" id="eixos-resultado" data-reveal>
       <h2 className="e-sec-title">
@@ -40,7 +38,7 @@ export function AxesSection({ axes, results, religion }: AxesSectionProps) {
         {axes.map((axis) => {
           const result = results.get(axis.id);
           return result ? (
-            <AxisRow key={axis.id} axis={axis} result={result} religion={religion} />
+            <AxisRow key={axis.id} axis={axis} result={result} />
           ) : null;
         })}
       </ul>
@@ -59,12 +57,10 @@ export function axisLeaning(axis: Axis, result: AxisResult) {
 
 function AxisRow({
   axis,
-  result,
-  religion
+  result
 }: {
   axis: Axis;
   result: AxisResult;
-  religion?: Religion | null;
 }) {
   const { balanced, rightWins, leftWins, accent } = axisLeaning(axis, result);
   const winnerPct = pct(rightWins ? result.rightPercent : result.leftPercent);
@@ -94,7 +90,7 @@ function AxisRow({
         </div>
         <div className={rightWins ? 'e-pole e-right e-win' : 'e-pole e-right'}>
           <b>{result.rightPole}</b>
-          <PoleIcon axisId={axis.id} side="right" className="e-ico" religion={religion} />
+          <PoleIcon axisId={axis.id} side="right" className="e-ico" />
         </div>
       </div>
     </li>

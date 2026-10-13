@@ -5,46 +5,46 @@ import type {
   AxisOutlier,
   AxisResult,
   AxisTension,
-  CountryDimensionMatch,
-  CountryMatch,
+  TeamDimensionMatch,
+  TeamMatch,
   QuizResult
 } from '../../types/quiz';
-import { resolveCountryFlagSrc } from '../../utils/countryFlags';
-import { catStyle, ideologyColorByKey, localCatStyle } from '../../utils/ideologyColors';
-import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
-import type { Religion } from '../../utils/religion';
+import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImage';
 import { PoleIcon } from '../AxisIcon';
 import { PitchMarkings, pct, RatingBadge } from '../editorial/primitives';
 import { axisLeaning, displayRank } from '../results/AxesSection';
-import { COMPASS_GRID_CELLS, compassClamp, compassView } from '../results/PoliticalCompassSection';
+import { compassClamp, compassView, findCompassAxes, type CompassAxes } from '../results/CompassSection';
 import { FutCard } from '../results/FutCard';
 import { commonNote, unusualLead } from '../results/SignatureSection';
 import { topAgreements } from '../../utils/agreement';
-import { computeCompass, type CompassPosition } from '../../utils/politicalCompass';
+import { computeCompass, type CompassPosition } from '../../utils/compass';
 
 interface PdfReportProps {
   result: QuizResult;
   axes: Axis[];
   axisResults: Map<string, AxisResult>;
   answeredCount: number | null;
-  religion?: Religion | null;
 }
 
 /**
  * Relatório completo para impressão/PDF (design em docs/nova-identidade/12axes-relatorio.html).
  * Só aparece em @media print; a paginação fica a cargo do navegador, com a capa numa página própria.
  */
-export function PdfReport({ result, axes, axisResults, answeredCount, religion }: PdfReportProps) {
+export function PdfReport({ result, axes, axisResults, answeredCount }: PdfReportProps) {
   const top = result.topMatch;
+  const team = result.topTeamMatch;
+  const manager = result.topManagerMatch;
+  const distantIdea = result.bottomFootballIdeologyMatch;
   const others = result.matches.slice(1, 4);
   const compass = computeCompass(axisResults);
+  const hasSignature = result.mostUnusualAxis !== null && result.mostCommonAxis !== null;
   const sections = [
     t.axesSectionTitle,
-    t.signatureTitle,
-    t.countriesSectionTitle,
-    t.personalitiesSectionTitle,
-    ...(result.personalityMatches.length > 0 ? [t.areasGeneralTitle] : []),
-    t.otherMatches,
+    ...(hasSignature ? [t.signatureTitle] : []),
+    ...(team ? [t.teamsSectionTitle] : []),
+    ...(manager ? [t.managersSectionTitle] : []),
+    ...(result.managerMatches.length > 0 ? [t.areasGeneralTitle] : []),
+    ...(distantIdea ? [t.otherMatches] : []),
     ...(compass ? [t.compassTitle] : [])
   ];
   const today = new Date().toLocaleDateString(LANG === 'pt' ? 'pt-BR' : 'en-US', {
@@ -54,7 +54,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
   });
 
   return (
-    <div className="rp" style={catStyle(top.category) as CSSProperties}>
+    <div className="rp">
       <section className="rp-cover">
         <div className="cv-top">
           <PitchMarkings />
@@ -64,35 +64,47 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
             <span className="cv-lab">{t.report.docLabel}</span>
           </div>
           <p className="cv-eb">{t.report.profileEyebrow}</p>
-          <div className="cv-main">
-            <div>
-              <span className="tag cv-tag">{top.category}</span>
-              <h1>{top.name}</h1>
-            </div>
-            <Ring value={top.compatibility} size={132} stroke={6} />
-          </div>
-          <p className="cv-desc">
-            {top.longDescription || top.description}
-          </p>
+          {top ? (
+            <>
+              <div className="cv-main">
+                <div>
+                  <span className="tag cv-tag">{top.category}</span>
+                  <h1>{top.name}</h1>
+                </div>
+                <Ring value={top.compatibility} size={132} stroke={6} />
+              </div>
+              <p className="cv-desc">
+                {top.longDescription || top.description}
+              </p>
+            </>
+          ) : (
+            <p className="cv-desc">{t.resultsEmptyCatalog}</p>
+          )}
         </div>
         <div className="cv-body">
-          {top.phrase && <Quote phrase={top.phrase} />}
+          {top?.phrase && <Quote phrase={top.phrase} />}
           <div className="kpis">
-            <div>
-              <small>{t.metaTop}</small>
-              <b className="c">{formatPct(top.compatibility, 1)}</b>
-              <span>{top.name}</span>
-            </div>
-            <div>
-              <small>{t.report.kpiCountry}</small>
-              <b>{formatPct(result.topCountryMatch.compatibility, 0)}</b>
-              <span>{result.topCountryMatch.name}</span>
-            </div>
-            <div>
-              <small>{t.report.kpiPersonality}</small>
-              <b>{formatPct(result.topPersonalityMatch.compatibility, 0)}</b>
-              <span>{result.topPersonalityMatch.name}</span>
-            </div>
+            {top && (
+              <div>
+                <small>{t.metaTop}</small>
+                <b className="c">{formatPct(top.compatibility, 1)}</b>
+                <span>{top.name}</span>
+              </div>
+            )}
+            {team && (
+              <div>
+                <small>{t.report.kpiTeam}</small>
+                <b>{formatPct(team.compatibility, 0)}</b>
+                <span>{team.name}</span>
+              </div>
+            )}
+            {manager && (
+              <div>
+                <small>{t.report.kpiManager}</small>
+                <b>{formatPct(manager.compatibility, 0)}</b>
+                <span>{manager.name}</span>
+              </div>
+            )}
             <div>
               <small>{t.report.kpiAxes}</small>
               <b>12</b>
@@ -121,7 +133,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
       <div className="rp-body">
         <header className="ph">
           <Logo />
-          <span>{t.report.headerLabel(top.name)}</span>
+          <span>{t.report.headerLabel(top?.name ?? '')}</span>
         </header>
 
         <section className="rp-sec">
@@ -131,71 +143,66 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
               .sort((first, second) => displayRank(first.id) - displayRank(second.id))
               .map((axis) => {
                 const axisResult = axisResults.get(axis.id);
-                return axisResult ? <AxisRow key={axis.id} axis={axis} result={axisResult} religion={religion} /> : null;
+                return axisResult ? <AxisRow key={axis.id} axis={axis} result={axisResult} /> : null;
               })}
           </ul>
         </section>
 
-        <section className="rp-sec">
-          <SectionHead title={t.signatureTitle} />
-          <div className="dist">
-            <SignatureCard outlier={result.mostUnusualAxis} strong label={t.signatureUnusualLabel} axisResults={axisResults} />
-            <SignatureCard outlier={result.mostCommonAxis} strong={false} label={t.signatureCommonLabel} axisResults={axisResults} />
-            {result.axisTension && <TensionBlock tension={result.axisTension} axes={axes} axisResults={axisResults} />}
-          </div>
-        </section>
+        {result.mostUnusualAxis && result.mostCommonAxis && (
+          <section className="rp-sec">
+            <SectionHead title={t.signatureTitle} />
+            <div className="dist">
+              <SignatureCard outlier={result.mostUnusualAxis} strong label={t.signatureUnusualLabel} axisResults={axisResults} />
+              <SignatureCard outlier={result.mostCommonAxis} strong={false} label={t.signatureCommonLabel} axisResults={axisResults} />
+              {result.axisTension && <TensionBlock tension={result.axisTension} axes={axes} axisResults={axisResults} />}
+            </div>
+          </section>
+        )}
 
-        <section className="rp-sec">
-          <SectionHead title={t.countriesSectionTitle} />
-          <CountryBlock
-            label={t.countryCurrentTab}
-            match={result.topCountryMatch}
-            dimensions={result.countryDimensionMatches}
-            distant={result.bottomCountryMatches}
-          />
-        </section>
-        <section className="rp-sec">
-          <p className="cont">
-            {t.countriesSectionTitle} ({t.report.continued})
-          </p>
-          <CountryBlock label={t.countryHistoricalTab} match={result.topHistoricalCountryMatch} />
-        </section>
+        {team && (
+          <section className="rp-sec">
+            <SectionHead title={t.teamsSectionTitle} />
+            <TeamBlock match={team} dimensions={result.teamDimensionMatches} distant={result.bottomTeamMatches} />
+          </section>
+        )}
 
-        <section className="rp-sec">
-          <SectionHead title={t.personalitiesSectionTitle} />
-          <MatchCard
-            visual={<FutCard match={result.topPersonalityMatch} size="lg" special stats={topAgreements(result.topPersonalityMatch.vector, axes, axisResults, 6)} />}
-            compatibility={result.topPersonalityMatch.compatibility}
-            name={result.topPersonalityMatch.name}
-            tags={[result.topPersonalityMatch.role, result.topPersonalityMatch.lifespan].filter(Boolean)}
-            description={result.topPersonalityMatch.description}
-          />
-          <p className="lbl">{t.dimensionsTitleShort}</p>
-          <ul className="fut-row">
-            {result.dimensionMatches.map(({ dimension, match }) => (
-              <li key={dimension}>
-                <FutCard match={match} stats={topAgreements(match.vector, axes, axisResults, 6)} />
-                <span className="dim">{t.dimensionLabels[dimension]}</span>
-              </li>
-            ))}
-          </ul>
-          <FarList
-            title={t.personalitiesDistantTitle}
-            items={result.bottomPersonalityMatches.map((match) => ({ key: match.personalityId, name: match.name, caption: match.role }))}
-          />
-        </section>
+        {manager && (
+          <section className="rp-sec">
+            <SectionHead title={t.managersSectionTitle} />
+            <MatchCard
+              visual={<FutCard match={manager} size="lg" special stats={topAgreements(manager.vector, axes, axisResults, 6)} />}
+              compatibility={manager.compatibility}
+              name={manager.name}
+              tags={[manager.period].filter(Boolean)}
+              description={manager.description}
+            />
+            <p className="lbl">{t.dimensionsTitleShort}</p>
+            <ul className="fut-row">
+              {result.managerDimensionMatches.map(({ dimension, match }) => (
+                <li key={dimension}>
+                  <FutCard match={match} stats={topAgreements(match.vector, axes, axisResults, 6)} />
+                  <span className="dim">{t.dimensionLabels[dimension]}</span>
+                </li>
+              ))}
+            </ul>
+            <FarList
+              title={t.managersDistantTitle}
+              items={result.bottomManagerMatches.map((match) => ({ key: match.managerId, name: match.name, caption: match.period }))}
+            />
+          </section>
+        )}
 
-        {result.personalityMatches.length > 0 && (
+        {result.managerMatches.length > 0 && (
           <section className="rp-sec">
             <SectionHead title={t.areasGeneralTitle} />
             <ol className="rank">
-              {result.personalityMatches.map((match, index) => (
-                <li className="rk" key={match.personalityId}>
+              {result.managerMatches.map((match, index) => (
+                <li className="rk" key={match.managerId}>
                   <span className="rk-n">{String(index + 1).padStart(2, '0')}</span>
-                  <Img className="av-m" src={resolvePersonalityImageSrc(match.imagePath)} name={match.name} />
+                  <Img className="av-m" src={resolveProfileImageSrc(match.imagePath)} name={match.name} />
                   <div className="rk-i">
                     <b>{match.name}</b>
-                    <small>{t.personalityCategories[match.category]}</small>
+                    <small>{t.managerCategories[match.category] ?? match.category}</small>
                     <div className="bar">
                       <i style={{ width: `${Math.max(0, Math.min(100, match.compatibility))}%` }} />
                     </div>
@@ -207,29 +214,31 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
           </section>
         )}
 
-        <section className="rp-sec">
-          <SectionHead title={t.otherMatches} />
-          <ul className="others">
-            {others.map((match) => (
-              <li className="oc" key={match.ideologyId} style={localCatStyle(match.category) as CSSProperties}>
-                <span className="tag osol">{match.category}</span>
-                <h3>{match.name}</h3>
-                <p>{match.longDescription || match.description}</p>
-              </li>
-            ))}
-          </ul>
-          <div className="far-i" style={localCatStyle(result.bottomIdeologyMatch.category) as CSSProperties}>
-            <span className="lab">{t.ideologyDistantTitle}</span>
-            <b>{result.bottomIdeologyMatch.name}</b>
-            <span className="tag osol-l">{result.bottomIdeologyMatch.category}</span>
-            <p>{result.bottomIdeologyMatch.longDescription || result.bottomIdeologyMatch.description}</p>
-          </div>
-        </section>
+        {distantIdea && (
+          <section className="rp-sec">
+            <SectionHead title={t.otherMatches} />
+            <ul className="others">
+              {others.map((match) => (
+                <li className="oc" key={match.footballIdeologyId}>
+                  <span className="tag osol">{match.category}</span>
+                  <h3>{match.name}</h3>
+                  <p>{match.longDescription || match.description}</p>
+                </li>
+              ))}
+            </ul>
+            <div className="far-i">
+              <span className="lab">{t.footballIdeologyDistantTitle}</span>
+              <b>{distantIdea.name}</b>
+              <span className="tag osol-l">{distantIdea.category}</span>
+              <p>{distantIdea.longDescription || distantIdea.description}</p>
+            </div>
+          </section>
+        )}
 
         {compass && (
           <section className="rp-sec">
             <SectionHead title={t.compassTitle} />
-            <Compass position={compass} category={top.category} moralAxis={axes.find((axis) => axis.id === 'moral')} />
+            <Compass position={compass} axes={findCompassAxes(axes)} />
           </section>
         )}
 
@@ -248,46 +257,40 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
   );
 }
 
-function Compass({ position, category, moralAxis }: { position: CompassPosition; category: string; moralAxis?: Axis }) {
-  const { right, authoritarian, traditional } = position;
-  const { spectrum, centerSideKey, centerLabel, markerColor, social, stripCells, socialColor } = compassView(
-    position,
-    category,
-    moralAxis
-  );
-  const spectrumLabel = centerSideKey ? centerLabel : t.compassSpectrumLabels[spectrum.key];
-  const spectrumColor = centerSideKey ? ideologyColorByKey(centerSideKey).base : spectrum.base;
+function Compass({ position, axes }: { position: CompassPosition; axes: CompassAxes }) {
+  const { counter, deep, result } = position;
+  const { gridCells, markerColor, stripCells, stripColor, xWord, yWord, stripWord } = compassView(position, axes);
   return (
     <div className="cmp">
       <div className="cmp-chart">
-        <span className="cmp-lbl cmp-top">{t.compassAuthoritarian}</span>
-        <span className="cmp-lbl cmp-left">{t.compassLeft}</span>
+        <span className="cmp-lbl cmp-top">{axes.y?.leftPole}</span>
+        <span className="cmp-lbl cmp-left">{axes.x?.leftPole}</span>
         <div className="cmp-grid">
-          {COMPASS_GRID_CELLS.map((color, index) => (
+          {gridCells.map((color, index) => (
             <span key={index} style={{ background: color }} />
           ))}
           <i className="cmp-axis cmp-x" />
           <i className="cmp-axis cmp-y" />
-          <CompassX left={right} top={100 - authoritarian} color={markerColor ?? 'var(--cat)'} />
+          <CompassX left={counter} top={deep} color={markerColor} />
         </div>
-        <span className="cmp-lbl cmp-right">{t.compassRight}</span>
-        <span className="cmp-lbl cmp-bottom">{t.compassLibertarian}</span>
+        <span className="cmp-lbl cmp-right">{axes.x?.rightPole}</span>
+        <span className="cmp-lbl cmp-bottom">{axes.y?.rightPole}</span>
       </div>
       <div className="cmp-read">
         <p className="cmp-sentence">
-          <span style={{ color: spectrumColor }}>{spectrumLabel}</span> <span className="cmp-conn">{t.compassWith}</span>{' '}
-          <mark style={{ background: socialColor }}>{t.compassSocialLabels[social]}</mark>
-          {t.compassSocialValues && <span className="cmp-conn"> {t.compassSocialValues}</span>}
+          <span style={{ color: markerColor }}>{xWord}</span> <span className="cmp-conn">{t.compassWith}</span> <span>{yWord}</span>
+          {', '}
+          <mark style={{ background: stripColor }}>{stripWord}</mark>
         </p>
         <div className="cmp-bar-lbls">
-          <span>{t.compassProgressive}</span>
-          <span>{t.compassTraditionalist}</span>
+          <span>{axes.strip?.leftPole}</span>
+          <span>{axes.strip?.rightPole}</span>
         </div>
         <div className="cmp-strip">
           {stripCells.map((color, index) => (
             <span key={index} style={{ background: color }} />
           ))}
-          <CompassX left={traditional} color={socialColor} />
+          <CompassX left={result} color={stripColor} />
         </div>
       </div>
     </div>
@@ -374,12 +377,12 @@ function SectionHead({ title }: { title: string }) {
 // Retrato/bandeira com iniciais no lugar quando a imagem não existe.
 function Img({ className, src, name }: { className: string; src: string; name: string }) {
   if (!src) {
-    return <div className={`${className} ini`}>{personalityInitials(name)}</div>;
+    return <div className={`${className} ini`}>{profileInitials(name)}</div>;
   }
   return <img className={className} src={src} alt="" />;
 }
 
-function AxisRow({ axis, result, religion }: { axis: Axis; result: AxisResult; religion?: Religion | null }) {
+function AxisRow({ axis, result }: { axis: Axis; result: AxisResult }) {
   const { balanced, rightWins, leftWins, accent } = axisLeaning(axis, result);
   const style = { '--ac': accent, '--al': axis.leftColor, '--ar': axis.rightColor } as CSSProperties;
   const winnerPct = pct(rightWins ? result.rightPercent : result.leftPercent);
@@ -402,7 +405,7 @@ function AxisRow({ axis, result, religion }: { axis: Axis; result: AxisResult; r
         </div>
         <div className={rightWins ? 'pl r win' : 'pl r'}>
           <span>{result.rightPole}</span>
-          <PoleIcon axisId={axis.id} side="right" className="ico" religion={religion} />
+          <PoleIcon axisId={axis.id} side="right" className="ico" />
         </div>
       </div>
     </li>
@@ -484,7 +487,7 @@ function TensionBlock({ tension, axes, axisResults }: {
     }
     return axisResult.rightPole === pole ? axis.rightColor : axis.leftColor;
   };
-  const hidden = tension.matchingIdeologies - tension.examples.length;
+  const hidden = tension.matchingFootballIdeologies - tension.examples.length;
   return (
     <article className="tension">
       <div>
@@ -497,10 +500,10 @@ function TensionBlock({ tension, axes, axisResults }: {
       </div>
       <div>
         <p>
-          {tension.matchingIdeologies === 0 ? (
+          {tension.matchingFootballIdeologies === 0 ? (
             t.tensionUnique
           ) : (
-            <b>{t.tensionRareShort(tension.matchingIdeologies, tension.catalogSize)}</b>
+            <b>{t.tensionRareShort(tension.matchingFootballIdeologies, tension.catalogSize)}</b>
           )}
         </p>
         {tension.examples.length > 0 && (
@@ -542,26 +545,22 @@ function MatchCard({ visual, compatibility, name, tags, description, pes = false
   );
 }
 
-function countryCaption(match: CountryMatch): string {
-  return match.historical && match.period ? match.period : match.category;
+function teamCaption(match: TeamMatch): string {
+  return match.period || match.category;
 }
 
-function CountryBlock({ label, match, dimensions, distant }: {
-  label: string;
-  match: CountryMatch;
-  dimensions?: CountryDimensionMatch[];
-  distant?: CountryMatch[];
+function TeamBlock({ match, dimensions, distant }: {
+  match: TeamMatch;
+  dimensions?: TeamDimensionMatch[];
+  distant?: TeamMatch[];
 }) {
   return (
     <>
-      <div className="sub-h">
-        <span>{label}</span>
-      </div>
       <MatchCard
-        visual={<Img className="fl-b" src={resolveCountryFlagSrc(match.flagPath)} name={match.name} />}
+        visual={<Img className="fl-b" src={resolveProfileImageSrc(match.imagePath)} name={match.name} />}
         compatibility={match.compatibility}
         name={match.name}
-        tags={[match.category, match.historical ? match.period : ''].filter((tag): tag is string => Boolean(tag))}
+        tags={[match.category, match.period].filter(Boolean)}
         description={match.description}
         pes
       />
@@ -571,7 +570,7 @@ function CountryBlock({ label, match, dimensions, distant }: {
           <ul className="dims">
             {dimensions.map(({ dimension, match: item }) => (
               <li className="dc" key={dimension}>
-                <Img className="fl-s" src={resolveCountryFlagSrc(item.flagPath)} name={item.name} />
+                <Img className="fl-s" src={resolveProfileImageSrc(item.imagePath)} name={item.name} />
                 <span className="dim">{t.dimensionLabels[dimension]}</span>
                 <b>{item.name}</b>
                 <RatingBadge value={item.compatibility} />
@@ -582,8 +581,8 @@ function CountryBlock({ label, match, dimensions, distant }: {
       )}
       {distant && distant.length > 0 && (
         <FarList
-          title={t.countriesDistantTitle}
-          items={distant.map((item) => ({ key: item.countryId, name: item.name, caption: countryCaption(item) }))}
+          title={t.teamsDistantTitle}
+          items={distant.map((item) => ({ key: item.teamId, name: item.name, caption: teamCaption(item) }))}
         />
       )}
     </>

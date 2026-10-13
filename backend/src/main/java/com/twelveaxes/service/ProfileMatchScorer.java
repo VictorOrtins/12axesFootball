@@ -10,18 +10,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProfileMatchScorer {
     private static final List<String> AXIS_IDS = List.of(
-            "estrutura",
-            "representacao",
-            "poder",
-            "imigracao",
-            "diplomacia",
-            "intervencao",
-            "economia",
-            "controle",
-            "comercio",
-            "religiao",
-            "moral",
-            "tecnologia"
+            "pos", "pro", "est", "lar", "blo", "mar",
+            "pla", "res", "sis", "jog",
+            "bas", "lid"
     );
 
     private static final double CENTER = 50.0;
@@ -48,7 +39,7 @@ public class ProfileMatchScorer {
 
     /**
      * Mesma formula, restrita a um subconjunto de eixos. Usada para responder
-     * "com quem eu combino politicamente / socialmente / economicamente", em que
+     * "com quem eu combino taticamente / filosoficamente / na gestao", em que
      * so os eixos daquele grupo entram na conta.
      */
     public double compatibility(Map<String, Double> userVector, Map<String, Double> targetVector, List<String> axisIds) {

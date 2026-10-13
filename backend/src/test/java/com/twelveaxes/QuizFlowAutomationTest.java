@@ -61,16 +61,16 @@ class QuizFlowAutomationTest {
                             .content(objectMapper.writeValueAsString(new ResultRequest(answers, variant))))
                     .andExpect(status().isOk())
                     .andExpect(jsonPath("$.axes.length()").value(12))
-                    .andExpect(jsonPath("$.topMatch.ideologyId").isNotEmpty())
-                    .andExpect(jsonPath("$.topPersonalityMatch.personalityId").isNotEmpty())
-                    .andExpect(jsonPath("$.topPersonalityMatch.compatibility").isNumber())
+                    .andExpect(jsonPath("$.topMatch.footballIdeologyId").isNotEmpty())
+                    .andExpect(jsonPath("$.topManagerMatch.managerId").isNotEmpty())
+                    .andExpect(jsonPath("$.topManagerMatch.compatibility").isNumber())
                     .andExpect(jsonPath("$.matches.length()").value(4));
         }
     }
 
     @ParameterizedTest
     @MethodSource("variants")
-    void neutralAnswersProduceCentrismoRadical(String variant) throws Exception {
+    void neutralAnswersProduceTheBalancedIdea(String variant) throws Exception {
         QuizPayload quiz = fetchQuiz(variant);
         List<SubmittedAnswer> answers = selectQuestionsForVariant(quiz).stream()
                 .map(question -> new SubmittedAnswer(question.id(), AnswerValue.NEUTRAL))
@@ -80,9 +80,10 @@ class QuizFlowAutomationTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(new ResultRequest(answers, variant))))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.topMatch.ideologyId").value("centrismo-radical"))
+                .andExpect(jsonPath("$.topMatch.footballIdeologyId").value("fx-equilibrio"))
                 .andExpect(jsonPath("$.topMatch.compatibility").isNumber())
-                .andExpect(jsonPath("$.topMatch.compatibilityPercentile").value(greaterThan(95.0)));
+                // Topo de um catalogo de 6 ideias: percentil 5/6.
+                .andExpect(jsonPath("$.topMatch.compatibilityPercentile").value(greaterThan(80.0)));
     }
 
     @ParameterizedTest
@@ -90,40 +91,19 @@ class QuizFlowAutomationTest {
     void differentAnswerProfilesProduceDifferentResults(String variant) throws Exception {
         QuizPayload quiz = fetchQuiz(variant);
 
-        QuizResult authoritarianTraditional = postResults(variant, answersTowardProfile(quiz, Map.ofEntries(
-                Map.entry("estrutura", Pole.RIGHT),
-                Map.entry("representacao", Pole.RIGHT),
-                Map.entry("poder", Pole.LEFT),
-                Map.entry("imigracao", Pole.LEFT),
-                Map.entry("diplomacia", Pole.LEFT),
-                Map.entry("intervencao", Pole.RIGHT),
-                Map.entry("economia", Pole.RIGHT),
-                Map.entry("controle", Pole.LEFT),
-                Map.entry("comercio", Pole.LEFT),
-                Map.entry("religiao", Pole.RIGHT),
-                Map.entry("moral", Pole.RIGHT),
-                Map.entry("tecnologia", Pole.RIGHT)
-        )));
-        QuizResult libertarianProfile = postResults(variant, answersTowardProfile(quiz, Map.ofEntries(
-                Map.entry("estrutura", Pole.LEFT),
-                Map.entry("representacao", Pole.LEFT),
-                Map.entry("poder", Pole.RIGHT),
-                Map.entry("imigracao", Pole.RIGHT),
-                Map.entry("diplomacia", Pole.RIGHT),
-                Map.entry("intervencao", Pole.LEFT),
-                Map.entry("economia", Pole.LEFT),
-                Map.entry("controle", Pole.RIGHT),
-                Map.entry("comercio", Pole.RIGHT),
-                Map.entry("religiao", Pole.LEFT),
-                Map.entry("moral", Pole.LEFT),
-                Map.entry("tecnologia", Pole.LEFT)
-        )));
+        QuizResult proactive = postResults(variant, answersTowardProfile(quiz, allAxesToward(quiz, Pole.LEFT)));
+        QuizResult reactive = postResults(variant, answersTowardProfile(quiz, allAxesToward(quiz, Pole.RIGHT)));
 
-        assertThat(authoritarianTraditional.topMatch().category()).isEqualTo("Extrema Direita");
-        assertThat(libertarianProfile.topMatch().category())
-                .isIn("Libertário", "Anarquismo");
-        assertThat(authoritarianTraditional.topMatch().ideologyId())
-                .isNotEqualTo(libertarianProfile.topMatch().ideologyId());
+        assertThat(proactive.topMatch().category()).isEqualTo("Proativo");
+        assertThat(reactive.topMatch().category()).isEqualTo("Reativo");
+        assertThat(proactive.topMatch().footballIdeologyId())
+                .isNotEqualTo(reactive.topMatch().footballIdeologyId());
+    }
+
+    private Map<String, Pole> allAxesToward(QuizPayload quiz, Pole pole) {
+        Map<String, Pole> poles = new LinkedHashMap<>();
+        quiz.axes().forEach(axis -> poles.put(axis.id(), pole));
+        return poles;
     }
 
     @ParameterizedTest

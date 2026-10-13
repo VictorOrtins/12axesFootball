@@ -4,46 +4,42 @@ import java.util.List;
 
 /**
  * Resultado completo do quiz: a posicao do usuario nos 12 eixos e os recortes
- * de afinidade e de distancia em cada catalogo (ideologias, paises e
- * personalidades).
+ * de afinidade e de distancia em cada catalogo (ideias de jogo, times e
+ * treinadores). Com um catalogo vazio, os matches dele vem null ou vazios.
  *
  * @param axes resultado do usuario em cada um dos 12 eixos
- * @param topMatch ideologia mais compativel
- * @param matches ideologias mais compativeis, a comecar pela do topo
- * @param bottomIdeologyMatch ideologia mais distante do catalogo
- * @param topCountryMatch pais atual mais compativel
- * @param topCountryMatches os 3 mais compativeis do catalogo inteiro (paises e experiencias
- *     historicas juntos, sem distincao), a comecar pelo topo
- * @param topHistoricalCountryMatch experiencia historica mais compativel
- * @param bottomCountryMatches paises mais distantes do catalogo
- * @param topPersonalityMatch personalidade mais compativel, de qualquer categoria
- * @param personalityMatches personalidades mais compativeis, sem filtro por categoria
- * @param dimensionMatches personalidade mais compativel em cada dimensao (politica, social, economica)
- * @param categoryBestMatches personalidade mais compativel de cada area de atuacao
- * @param bottomPersonalityMatches personalidades mais distantes do catalogo
- * @param mostUnusualAxis eixo em que o usuario mais destoa do catalogo de ideologias
+ * @param topMatch ideia de jogo mais compativel
+ * @param matches ideias de jogo mais compativeis, a comecar pela do topo
+ * @param bottomFootballIdeologyMatch ideia de jogo mais distante do catalogo
+ * @param topTeamMatch time mais compativel
+ * @param topTeamMatches os 3 times mais compativeis, a comecar pelo topo
+ * @param teamDimensionMatches time mais compativel em cada dimensao (tatica, filosofia, gestao)
+ * @param bottomTeamMatches times mais distantes do catalogo
+ * @param topManagerMatch treinador mais compativel
+ * @param managerMatches treinadores mais compativeis
+ * @param managerDimensionMatches treinador mais compativel em cada dimensao
+ * @param categoryBestMatches treinador mais compativel de cada categoria
+ * @param bottomManagerMatches treinadores mais distantes do catalogo
+ * @param mostUnusualAxis eixo em que o usuario mais destoa do catalogo de ideias de jogo
  * @param mostCommonAxis eixo em que o usuario mais se aproxima do catalogo
  * @param axisTension par de eixos em que o usuario contraria o padrao do catalogo, ou null
- * @param bookRecommendations livros das personalidades mais compativeis (ate 3)
  */
 public record QuizResult(
         List<AxisResult> axes,
-        IdeologyMatch topMatch,
-        List<IdeologyMatch> matches,
-        IdeologyMatch bottomIdeologyMatch,
-        CountryMatch topCountryMatch,
-        List<CountryMatch> topCountryMatches,
-        CountryMatch topHistoricalCountryMatch,
-        List<CountryDimensionMatch> countryDimensionMatches,
-        List<CountryMatch> bottomCountryMatches,
-        PersonalityMatch topPersonalityMatch,
-        List<PersonalityMatch> personalityMatches,
-        List<DimensionMatch> dimensionMatches,
-        List<PersonalityMatch> categoryBestMatches,
-        List<PersonalityMatch> bottomPersonalityMatches,
+        FootballIdeologyMatch topMatch,
+        List<FootballIdeologyMatch> matches,
+        FootballIdeologyMatch bottomFootballIdeologyMatch,
+        TeamMatch topTeamMatch,
+        List<TeamMatch> topTeamMatches,
+        List<TeamDimensionMatch> teamDimensionMatches,
+        List<TeamMatch> bottomTeamMatches,
+        ManagerMatch topManagerMatch,
+        List<ManagerMatch> managerMatches,
+        List<ManagerDimensionMatch> managerDimensionMatches,
+        List<ManagerMatch> categoryBestMatches,
+        List<ManagerMatch> bottomManagerMatches,
         AxisOutlier mostUnusualAxis,
         AxisOutlier mostCommonAxis,
-        AxisTension axisTension,
-        List<BookRecommendation> bookRecommendations
+        AxisTension axisTension
 ) {
 }

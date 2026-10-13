@@ -140,7 +140,7 @@ interface RingProps {
   sized?: boolean;
 }
 
-// Anel de compatibilidade: a cor vem de --c (cards de outras ideologias) ou --cat.
+// Anel de compatibilidade: a cor vem de --c (cards de outras ideias de jogo) ou --cat.
 export function Ring({ pct, size, stroke, sized = true }: RingProps) {
   const value = Math.max(0, Math.min(100, pct));
   const center = size / 2;

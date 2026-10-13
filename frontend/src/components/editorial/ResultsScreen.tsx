@@ -1,22 +1,20 @@
-import { useEffect, useState, type CSSProperties } from 'react';
+import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { t } from '../../i18n';
 import type { Axis, AxisResult, QuizPayload, QuizResult } from '../../types/quiz';
-import { catStyle } from '../../utils/ideologyColors';
 import { PdfReport } from '../report/PdfReport';
 import '../../styles/report.css';
 import { AreasSection } from '../results/AreasSection';
 import { AxesSection } from '../results/AxesSection';
 import { CompareSection } from '../results/CompareSection';
-import { CountriesSection } from '../results/CountriesSection';
-import { IdeologiesSection } from '../results/IdeologiesSection';
-import { PersonalitiesSection } from '../results/PersonalitiesSection';
-import { PoliticalCompassSection } from '../results/PoliticalCompassSection';
+import { TeamsSection } from '../results/TeamsSection';
+import { FootballIdeologiesSection } from '../results/FootballIdeologiesSection';
+import { ManagersSection } from '../results/ManagersSection';
+import { CompassSection, findCompassAxes } from '../results/CompassSection';
 import { PhraseSection } from '../results/PhraseSection';
 import { ResultsNav } from '../results/ResultsNav';
 import { SignatureSection } from '../results/SignatureSection';
-import { computeCompass } from '../../utils/politicalCompass';
-import type { Religion } from '../../utils/religion';
+import { computeCompass } from '../../utils/compass';
 import { DownloadIcon, Ring, ShareImageIcon } from './primitives';
 
 interface ResultsScreenProps {
@@ -27,10 +25,9 @@ interface ResultsScreenProps {
   isSharing: boolean;
   error: string | null;
   onShare: () => void;
-  religion?: Religion | null;
 }
 
-export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onShare, religion }: ResultsScreenProps) {
+export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onShare }: ResultsScreenProps) {
   const top = result.topMatch;
   const compass = computeCompass(axisResults);
   const [printingPdf, setPrintingPdf] = useState(false);
@@ -65,7 +62,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
   }, [printingPdf]);
 
   return (
-    <main className="ed e-res" id="resultados" style={catStyle(top.category) as CSSProperties}>
+    <main className="ed e-res" id="resultados">
       <div className="e-wrap e-res-grid">
         <div className="e-res-main">
           <header className="e-res-head">
@@ -76,18 +73,22 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
             </h1>
           </header>
 
-          <article className="e-panel e-top">
-            <div className="e-top-head">
-              <div>
-                <span className="e-tag e-tag-solid">{top.category}</span>
-                <h2 className={top.name.length >= 18 ? 'e-long-name' : undefined}>{top.name}</h2>
+          {top ? (
+            <article className="e-panel e-top">
+              <div className="e-top-head">
+                <div>
+                  <span className="e-tag e-tag-solid">{top.category}</span>
+                  <h2 className={top.name.length >= 18 ? 'e-long-name' : undefined}>{top.name}</h2>
+                </div>
+                <Ring pct={top.compatibility} size={120} stroke={6} />
               </div>
-              <Ring pct={top.compatibility} size={120} stroke={6} />
-            </div>
-            <PhraseSection match={top} />
-          </article>
+              <PhraseSection match={top} />
+            </article>
+          ) : (
+            <p className="e-panel">{t.resultsEmptyCatalog}</p>
+          )}
 
-          <AxesSection axes={axes} results={axisResults} religion={religion} />
+          <AxesSection axes={axes} results={axisResults} />
 
           <div className="e-actions">
             <button className="e-btn e-btn-ghost" type="button" onClick={onShare} disabled={isSharing}>
@@ -95,30 +96,37 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
             </button>
           </div>
 
-          <SignatureSection unusual={result.mostUnusualAxis} common={result.mostCommonAxis} tension={result.axisTension} axes={axes} results={axisResults} />
+          {result.mostUnusualAxis && result.mostCommonAxis && (
+            <SignatureSection unusual={result.mostUnusualAxis} common={result.mostCommonAxis} tension={result.axisTension} axes={axes} results={axisResults} />
+          )}
 
-          <CountriesSection
-            current={result.topCountryMatch}
-            historical={result.topHistoricalCountryMatch}
-            dimensions={result.countryDimensionMatches}
-            distant={result.bottomCountryMatches}
-            axes={axes}
-            results={axisResults}
-          />
+          {result.topTeamMatch && (
+            <TeamsSection
+              top={result.topTeamMatch}
+              dimensions={result.teamDimensionMatches}
+              distant={result.bottomTeamMatches}
+              axes={axes}
+              results={axisResults}
+            />
+          )}
 
-          <PersonalitiesSection
-            top={result.topPersonalityMatch}
-            dimensions={result.dimensionMatches}
-            distant={result.bottomPersonalityMatches}
-            axes={axes}
-            results={axisResults}
-          />
+          {result.topManagerMatch && (
+            <ManagersSection
+              top={result.topManagerMatch}
+              dimensions={result.managerDimensionMatches}
+              distant={result.bottomManagerMatches}
+              axes={axes}
+              results={axisResults}
+            />
+          )}
 
-          <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
+          <AreasSection generalMatches={result.managerMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
 
-          <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
+          {result.bottomFootballIdeologyMatch && (
+            <FootballIdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomFootballIdeologyMatch} />
+          )}
 
-          {compass && <PoliticalCompassSection position={compass} category={top.category} moralAxis={axes.find((axis) => axis.id === 'moral')} />}
+          {compass && <CompassSection position={compass} axes={findCompassAxes(axes)} />}
 
           <div className="e-actions">
             <button className="e-btn e-btn-primary" type="button" onClick={onShare} disabled={isSharing}>
@@ -130,7 +138,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           </div>
           {error && <p className="inline-error" role="alert">{error}</p>}
 
-          <CompareSection axes={axes} results={axisResults} religion={religion} userCategory={top.category} />
+          <CompareSection axes={axes} results={axisResults} />
         </div>
 
         <aside className="e-side" aria-label={t.resultsSummaryAria}>
@@ -145,7 +153,6 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
               axes={axes}
               axisResults={axisResults}
               answeredCount={quiz ? quiz.questions.length : null}
-              religion={religion}
             />
           </div>,
           document.body

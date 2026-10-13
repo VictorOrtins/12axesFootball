@@ -1,9 +1,9 @@
 import { t } from '../../i18n';
-import type { IdeologyMatch } from '../../types/quiz';
+import type { FootballIdeologyMatch } from '../../types/quiz';
 
-// Dentro do cartao da ideologia do topo: a frase curada (uma por ideologia) e,
+// Dentro do cartao da ideia de jogo do topo: a frase curada (uma por ideia) e,
 // recolhida, a descricao longa.
-export function PhraseSection({ match }: { match: IdeologyMatch }) {
+export function PhraseSection({ match }: { match: FootballIdeologyMatch }) {
   const about = match.longDescription || match.description;
 
   if (!match.phrase && !about) {
@@ -23,7 +23,7 @@ export function PhraseSection({ match }: { match: IdeologyMatch }) {
       )}
       {about && (
         <details className="e-about">
-          <summary>{t.aboutIdeology(match.name)}</summary>
+          <summary>{t.aboutFootballIdeology(match.name)}</summary>
           <p>{about}</p>
         </details>
       )}

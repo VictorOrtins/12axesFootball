@@ -1,0 +1,104 @@
+[
+  {
+    "footballIdeologyId": "fx-proativo",
+    "vector": {
+      "pos": 85,
+      "pro": 85,
+      "est": 85,
+      "lar": 85,
+      "blo": 85,
+      "mar": 85,
+      "pla": 85,
+      "res": 85,
+      "sis": 85,
+      "jog": 85,
+      "bas": 85,
+      "lid": 85
+    }
+  },
+  {
+    "footballIdeologyId": "fx-reativo",
+    "vector": {
+      "pos": 15,
+      "pro": 15,
+      "est": 15,
+      "lar": 15,
+      "blo": 15,
+      "mar": 15,
+      "pla": 15,
+      "res": 15,
+      "sis": 15,
+      "jog": 15,
+      "bas": 15,
+      "lid": 15
+    }
+  },
+  {
+    "footballIdeologyId": "fx-equilibrio",
+    "vector": {
+      "pos": 50,
+      "pro": 50,
+      "est": 50,
+      "lar": 50,
+      "blo": 50,
+      "mar": 50,
+      "pla": 50,
+      "res": 50,
+      "sis": 50,
+      "jog": 50,
+      "bas": 50,
+      "lid": 50
+    }
+  },
+  {
+    "footballIdeologyId": "fx-tatico",
+    "vector": {
+      "pos": 80,
+      "pro": 80,
+      "est": 80,
+      "lar": 80,
+      "blo": 80,
+      "mar": 80,
+      "pla": 40,
+      "res": 40,
+      "sis": 40,
+      "jog": 40,
+      "bas": 40,
+      "lid": 40
+    }
+  },
+  {
+    "footballIdeologyId": "fx-gestor",
+    "vector": {
+      "pos": 35,
+      "pro": 35,
+      "est": 35,
+      "lar": 35,
+      "blo": 35,
+      "mar": 35,
+      "pla": 65,
+      "res": 65,
+      "sis": 65,
+      "jog": 65,
+      "bas": 80,
+      "lid": 80
+    }
+  },
+  {
+    "footballIdeologyId": "fx-hibrido",
+    "vector": {
+      "pos": 70,
+      "pro": 30,
+      "est": 70,
+      "lar": 30,
+      "blo": 70,
+      "mar": 30,
+      "pla": 30,
+      "res": 70,
+      "sis": 30,
+      "jog": 70,
+      "bas": 50,
+      "lid": 50
+    }
+  }
+]

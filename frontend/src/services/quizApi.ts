@@ -44,25 +44,20 @@ export function fetchQuiz(variant: QuizVariant = 'short'): Promise<QuizPayload> 
 export function submitResults(
   variant: QuizVariant,
   answers: SubmittedAnswer[],
-  archetype: Record<string, string> = {},
-  religion: string | null = null
+  archetype: Record<string, string> = {}
 ): Promise<QuizResult> {
-  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
-  return request<QuizResult>(`/api/results?lang=${LANG}${religionParam}`, {
+  return request<QuizResult>(`/api/results?lang=${LANG}`, {
     method: 'POST',
     body: JSON.stringify({ variant, answers, archetype })
   });
 }
 
-export function fetchSharedResult(leftPercents: number[], religion: string | null = null): Promise<QuizResult> {
-  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
-  return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}${religionParam}`);
+export function fetchSharedResult(leftPercents: number[]): Promise<QuizResult> {
+  return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}`);
 }
 
-
-export function fetchCompareCatalog(religion: string | null = null): Promise<CompareItem[]> {
-  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
-  return request<CompareItem[]>(`/api/compare/catalog?lang=${LANG}${religionParam}`);
+export function fetchCompareCatalog(): Promise<CompareItem[]> {
+  return request<CompareItem[]>(`/api/compare/catalog?lang=${LANG}`);
 }
 
 export function fetchCompare(type: CompareType, id: string, leftPercents: number[]): Promise<CompareDetail> {

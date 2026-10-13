@@ -239,29 +239,17 @@
   --rate-text: #FFFFFF;
   --rate-ok-text: #2A2200;
 
-  /* ── Cores por ideologia (base + pastel) ──────────────────────────────── */
-  --i-esq-radical: #830214;
-  --i-esquerda: #035732;
-  --i-centro: #4B5058;
-  --i-direita: #2D4778;
-  --i-ext-direita: #001743;
-  --i-terceira: #4B2A63;
-  --i-libertario: #946201;
-  --i-anarquismo: #2B2B2B;
+  /* Tons usados no quiz, na barra de código aberto e na comparação. */
+  --slate: #4B5058;
+  --slate-bg: #DDE0E3;
+  --green-deep: #035732;
+  --green-deep-bg: #D5ECE2;
+  --red-deep: #830214;
+  --navy: #001743;
 
-  --i-esq-radical-bg: #ECD5D8;
-  --i-esquerda-bg: #D5ECE2;
-  --i-centro-bg: #DDE0E3;
-  --i-direita-bg: #D6E0F2;
-  --i-ext-direita-bg: #D5DAE6;
-  --i-terceira-bg: #E2D5EC;
-  --i-libertario-bg: #F0E4C8;
-  --i-anarquismo-bg: #E2DFD8;
-
-  /* Cor da categoria do usuário — a página de resultado sobrescreve estas
-     duas variáveis no container conforme o top match. */
-  --cat: var(--i-ext-direita);
-  --cat-bg: var(--i-ext-direita-bg);
+  /* Cor de destaque do resultado e do relatório. */
+  --cat: var(--green-600);
+  --cat-bg: var(--green-50);
 
   --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);

@@ -1,6 +1,6 @@
-# 12 Axes - explicacao do matching
+# 12 Axes Football - explicacao do matching
 
-Este documento descreve a logica atual do backend para transformar respostas do quiz em eixos politicos e, depois, em correspondencias de ideologia, personalidade e pais. Use como referencia antes de pedir alteracoes em outros chats.
+Este documento descreve a logica atual do backend para transformar respostas do quiz nos 12 eixos do futebol e, depois, em correspondencias de ideia de jogo, time e treinador. Use como referencia antes de pedir alteracoes em outros chats.
 
 ## Arquivos principais
 
@@ -9,13 +9,13 @@ Este documento descreve a logica atual do backend para transformar respostas do 
 - `backend/src/main/java/com/twelveaxes/service/ScoringService.java`
   - Transforma respostas em 12 `AxisResult`.
 - `backend/src/main/java/com/twelveaxes/service/ProfileMatchScorer.java`
-  - Formula central de compatibilidade, usada por ideologias, personalidades e paises.
-- `backend/src/main/java/com/twelveaxes/service/IdeologyMatcherService.java`
-  - Ranking e percentil para as 4 ideologias retornadas.
-- `backend/src/main/java/com/twelveaxes/service/PersonalityMatcherService.java`
-  - Ranking de personalidades; a API usa o top-1.
-- `backend/src/main/java/com/twelveaxes/service/CountryMatcherService.java`
-  - Ranking de paises; a API usa o top-1.
+  - Formula central de compatibilidade, usada pelos tres catalogos.
+- `backend/src/main/java/com/twelveaxes/service/FootballIdeologyMatcherService.java`
+  - Ranking e percentil para as 4 ideias de jogo retornadas.
+- `backend/src/main/java/com/twelveaxes/service/ManagerMatcherService.java`
+  - Ranking de treinadores (top 8, melhor por categoria, opostos).
+- `backend/src/main/java/com/twelveaxes/service/TeamMatcherService.java`
+  - Ranking de times (top 3, opostos).
 - `backend/src/main/java/com/twelveaxes/service/QuizDataService.java`
   - Carrega JSONs, traducoes e perfis canonicos.
 
@@ -39,13 +39,15 @@ Idiomas:
 
 ### `POST /api/results`
 
-Recebe respostas do quiz, calcula eixos e retorna:
+Recebe respostas do quiz, calcula eixos e retorna, entre outros:
 
 - `axes`: os 12 eixos calculados.
-- `topMatch`: primeira ideologia do ranking final.
-- `matches`: 4 ideologias finais.
-- `topCountryMatch`: pais mais compativel.
-- `topPersonalityMatch`: personalidade mais compativel.
+- `topMatch`: primeira ideia de jogo do ranking final.
+- `matches`: 4 ideias de jogo finais.
+- `topTeamMatch` / `topTeamMatches`: time mais compativel e os 3 primeiros.
+- `topManagerMatch` / `managerMatches`: treinador mais compativel e os 8 primeiros.
+
+Com um catalogo vazio, os destaques dele vem `null` e as listas vazias.
 
 ### `GET /api/results/by-axes?v=...`
 
@@ -58,14 +60,6 @@ Exemplo conceitual:
 ```
 
 Esse endpoint nao recalcula respostas; ele usa diretamente o vetor de eixos.
-
-### Parametro opcional `religion` (nos dois endpoints de resultado)
-
-`&religion=catholic|protestant|orthodox|judaism|islam|buddhism|hinduism` tira do ranking os perfis ligados a outra dessas
-religioes e nao a escolhida (campo `religions` dos metadados; ver `ReligionFilter`). Perfis `[]` ou
-so `other` sempre ficam (a excecao e `["other", "only"]`, que so aparece para quem nao escolheu religiao). A compatibilidade e o percentil de cada perfil nao mudam: o percentil
-continua comparando com o catalogo inteiro. Ausente ou valor desconhecido = ranking geral, entao
-links antigos continuam iguais.
 
 ## Como respostas viram eixos
 
@@ -115,35 +109,20 @@ Intensidade exibida:
 O scorer trabalha com um vetor de 12 valores `leftPercent`, um por eixo:
 
 ```text
-estrutura
-representacao
-poder
-imigracao
-diplomacia
-intervencao
-economia
-controle
-comercio
-religiao
-moral
-tecnologia
+pos  pro  est  lar  blo  mar   (tatica)
+pla  res  sis  jog             (filosofia)
+bas  lid                       (gestao)
 ```
 
 O usuario vira vetor via `ProfileMatchScorer.userVectorFor(axisResults)`.
 
 Os alvos vêm de:
 
-- `data/ideology-profiles.json`
-- `data/personality-profiles.json`
-- `data/countries-profiles.json`
+- `data/football-ideology-profiles.json`
+- `data/manager-profiles.json`
+- `data/team-profiles.json`
 
-Fallbacks:
-
-- Ideologia: usa `ideology-profiles.json`; se faltar, tenta `ideology.vector`; se faltar, vetor neutro.
-- Personalidade: usa `personality-profiles.json`; se faltar, vetor neutro.
-- Pais: usa `countries-profiles.json`; se faltar, tenta `country.vector`; se faltar, vetor neutro.
-
-Na pratica, os testes exigem perfis explicitos para ideologias, paises e personalidades.
+Fallbacks: se faltar o perfil, ideia de jogo e time tentam o `vector` dos metadados; depois, vetor neutro. Treinador sem perfil usa o vetor neutro. Na pratica, o carregamento exige um perfil para cada item dos catalogos.
 
 ## Formula atual de compatibilidade
 
@@ -196,7 +175,7 @@ axisSimilarity = 100 * average(similarityPorEixo)
 
 ### 2. `directionSimilarity`
 
-Pergunta: os vetores apontam para a mesma direcao ideologica?
+Pergunta: os vetores apontam para a mesma direcao?
 
 O scorer centraliza os valores em torno de `50`:
 
@@ -231,7 +210,7 @@ Interpretacao:
 
 Pergunta: os dois perfis têm intensidade parecida?
 
-Esse componente existe para corrigir um bug real: usuario moderado recebia ideologia extrema com compatibilidade quase perfeita, porque o cosseno mede direcao e ignora intensidade.
+Esse componente existe para corrigir um bug real: usuario moderado recebia perfil extremo com compatibilidade quase perfeita, porque o cosseno mede direcao e ignora intensidade.
 
 Primeiro calcula a extremidade media:
 
@@ -265,7 +244,7 @@ Isso impede que um usuario "morno" ganhe nota quase perfeita contra um perfil ra
 
 Pergunta: existe algum eixo isolado onde usuario e alvo divergem muito, mesmo que a media geral va bem?
 
-Esse componente existe para o seguinte problema: um perfil pode ter compatibilidade alta na media (11 dos 12 eixos proximos) e ainda assim ter 1 eixo com diferenca enorme (ex.: usuario liberal na economia vs. alvo com economia totalmente estatizada). Os outros 3 componentes diluem esse outlier na media geral e o usuario ve uma nota alta para um perfil que diverge muito dele nesse eixo especifico.
+Esse componente existe para o seguinte problema: um perfil pode ter compatibilidade alta na media (11 dos 12 eixos proximos) e ainda assim ter 1 eixo com diferenca enorme (ex.: usuario que quer a bola vs. alvo que entrega a posse). Os outros 3 componentes diluem esse outlier na media geral e o usuario ve uma nota alta para um perfil que diverge muito dele nesse eixo especifico.
 
 Primeiro calcula a maior diferenca absoluta entre os dois vetores, em qualquer eixo:
 
@@ -296,7 +275,7 @@ Neutro contra neutro da `100`:
 - `magnitudeSimilarity = 100`: os dois têm intensidade zero.
 - `outlierSimilarity = 100`: maior diferenca entre eixos e zero.
 
-Antes do cosseno aumentado (ate 2026-09-26) a direcao entre dois vetores neutros era `50`, e o total ficava travado em `83.5`: um usuario com 50 em tudo nunca passava de 83,5% com o Centrismo Radical, que e 50 em todos os eixos.
+Antes do cosseno aumentado (ate 2026-09-26) a direcao entre dois vetores neutros era `50`, e o total ficava travado em `83.5`: um usuario com 50 em tudo nunca passava de 83,5% com um perfil que e 50 em todos os eixos.
 
 ## Percentil
 
@@ -312,61 +291,24 @@ Importante:
 - Nao e uma probabilidade.
 - Significa "mais compativel que X% do catalogo".
 
-## Matching de ideologias
+## Matching de ideias de jogo
 
-`IdeologyMatcherService.findMatches` faz quatro etapas:
+`FootballIdeologyMatcherService.findMatches`:
 
 1. Converte os eixos do usuario em vetor.
-2. Calcula compatibilidade contra todas as ideologias.
-3. Calcula percentil dentro do catalogo de ideologias.
-4. Retorna o top 4 bruto por compatibilidade.
+2. Calcula compatibilidade contra todas as ideias de jogo.
+3. Calcula percentil dentro do catalogo.
+4. Retorna o top 4 por compatibilidade desc e nome asc.
 
-### Ranking base
+`findBottomMatch` devolve a mais distante. A descricao longa le os trechos `Taticamente: ... | Filosoficamente: ... | Na gestao: ...` da descricao, quando existem.
 
-Candidatos sao ordenados por:
+## Matching de treinadores
 
-```text
-compatibility desc
-name asc
-```
+`ManagerMatcherService`: mesmo ranking, com top 8, o mais compativel de cada categoria e os 3 mais distantes. `ManagerDimensionMatcherService` repete o calculo so com os eixos de cada dimensao (tatica, filosofia, gestao).
 
-### `findRankedMatches`
+## Matching de times
 
-Existe tambem um metodo interno de ranking puro:
-
-```text
-findRankedMatches(axisResults, lang)
-```
-
-Ele retorna o top 4 bruto e hoje e equivalente ao fluxo normal da API.
-
-## Matching de personalidades
-
-`PersonalityMatcherService.findMatches`:
-
-1. Calcula compatibilidade contra todas as personalidades.
-2. Calcula percentil no catalogo de personalidades.
-3. Ordena por compatibilidade desc e nome asc.
-4. Retorna top 4.
-
-A API atualmente usa apenas:
-
-```text
-findTopMatch(...)
-```
-
-Ou seja, o resultado publico inclui so a personalidade mais compativel.
-
-## Matching de paises
-
-`CountryMatcherService.findTopMatch`:
-
-1. Calcula compatibilidade contra todos os paises.
-2. Calcula percentil no catalogo de paises.
-3. Ordena por compatibilidade desc e nome asc.
-4. Retorna o primeiro.
-
-Nao ha MMR para paises, porque a API retorna so um pais.
+`TeamMatcherService`: top 3 e os 3 mais distantes. `TeamDimensionMatcherService` faz o recorte por dimensao, excluindo o time em destaque.
 
 ## Testes que protegem a logica
 
@@ -396,51 +338,23 @@ Benchmark intra-catalogo. Mede:
 - discriminacao entre primeiro e segundo.
 - controle de inflacao de extremidade para usuarios mornos.
 
-Rodada de 2026-09-26, antes e depois do cosseno aumentado, sobre o catalogo atual (206 ideologias):
-
-```text
-                antes   depois
-recovery10      77.7%   77.5%
-recovery15      51.9%   51.7%
-opposite        92.7%   89.9%
-center          91.8%   93.0%
-stability       97.8%   97.2%
-discrimination  4.32%   4.22%
-extremity       91.7%   96.4%
-```
-
-Trade-off: `opposite` cai 2,8 pontos (vetores opostos de baixa intensidade ficam um pouco menos separados, porque o termo constante aproxima tudo que esta perto do centro). Em troca, `extremity` sobe 4,7 pontos (usuarios mornos deixam de receber perfis extremos) e `center` sobe 1,2. O resto fica praticamente igual.
-
-Simulacao que motivou a mudanca (2026-09-26, fora dos testes): em 12 mil vetores uniformes de 0 a 100, so 2,3% trocam de ideologia principal, e sao quase empates (mediana de 0,10 ponto entre o 1o e o 2o lugar no calculo antigo). Em arquetipos simulados respondendo o quiz, extremistas, libertario e anarquista mudam menos de 3%; o Centrismo Radical passa de 1-2% para 23-73% de acerto, sem atrair usuarios do Centrismo nem da centro-direita.
-
-Rodada anterior, apos o patch de outlier (4o componente):
-
-```text
-recovery10=72.6%
-recovery15=53.3%
-opposite=89.8%
-center=88.0%
-stability=96.9%
-discrimination=3.48%
-extremity=91.8%
-```
-
-**Nota de 2026-07-17**: o `recovery10` ja estava abaixo do limite `MIN_RECOVERY_SIGMA_10_PERCENT = 77.0` no `main`, antes do patch de outlier (media em `71.7%`). O catalogo cresceu desde a ultima calibracao desses limites e o teste ficou vermelho por causa disso, nao por causa do patch — o patch de outlier na verdade melhora o recovery10 (`71.7% -> 72.6%`). Os limites do benchmark (e o teste `neutralAnswersFavorCentrismo` / `neutralAnswersProduceCentrism`, que tambem falha no `main` porque `Monarquismo Constitucional` ficou mais proximo do centro que `Centrismo`) precisam de uma recalibracao separada, fora do escopo desta mudanca de formula.
+Os limites do benchmark foram calibrados nos catalogos politicos do projeto original. O teste fica desligado (`@Disabled`) ate existirem os catalogos de futebol, e os limites precisam ser recalibrados com eles.
 
 ### Testes de fluxo
 
-- `IdeologyMatcherServiceTest`: perfis explicitos, vetor canonico, neutro, ordem final por compatibilidade e categorias esperadas.
+- `FootballIdeologyMatcherServiceTest`: perfis explicitos, vetor canonico, neutro, ordem final por compatibilidade e categorias esperadas.
 - `QuizFlowAutomationTest`: contrato da API para variantes do quiz.
 - `SharedResultsTest`: endpoint compartilhado por vetor de eixos.
-- `IdeologyPersonalityMappingTest`: cada ideologia aponta para personalidade valida.
+
+Os testes rodam sobre um catalogo sintetico de futebol em `backend/src/test/resources/data`, que substitui os dados de `main` no classpath de teste.
 
 ## Erros ja cometidos
 
 ### Confiar so em direcao e proximidade por eixo
 
-O cosseno e cego a intensidade. Um usuario moderado e uma ideologia extrema podem apontar para a mesma direcao, e o cosseno vai dar quase `100`.
+O cosseno e cego a intensidade. Um usuario moderado e um perfil extremo podem apontar para a mesma direcao, e o cosseno vai dar quase `100`.
 
-Foi o bug observado em producao: usuario com extremidade media baixa recebeu "Quarta Teoria Politica" com compatibilidade muito alta. O componente de magnitude existe para impedir esse tipo de inflacao.
+Foi o bug observado em producao: usuario com extremidade media baixa recebeu um perfil extremo com compatibilidade muito alta. O componente de magnitude existe para impedir esse tipo de inflacao.
 
 ### Tratar `compatibility` como probabilidade
 
@@ -452,23 +366,23 @@ Valor absoluto de compatibilidade depende dos pesos da formula. Teste de API dev
 
 ### Confundir ranking bruto com ranking diversificado
 
-Hoje a API de ideologias retorna ranking bruto. Se no futuro voltar a existir uma camada de diversidade ou curadoria visual, isso deve ser exposto separadamente para nao mascarar a ordem real de compatibilidade.
+Hoje a API de ideias de jogo retorna ranking bruto. Se no futuro voltar a existir uma camada de diversidade ou curadoria visual, isso deve ser exposto separadamente para nao mascarar a ordem real de compatibilidade.
 
 ### Descartar perfil por limiar de diferenca em 1 eixo
 
-Foi cogitado (e simulado, nao implementado) um corte binario: remover do ranking qualquer perfil com `diff > 60` (ou `70`) em algum eixo. Simulacoes mostraram que isso descarta entre 45% e 100% do catalogo dependendo do perfil do usuario, e o pior caso e justamente o usuario coerente e extremo (respostas fortes mas nao contraditorias): o corte remove o melhor candidato objetivo (ex.: Coreia do Norte para um usuario extremo-estatista) e o substitui por um candidato com compatibilidade agregada menor, so porque ele nao tem nenhum eixo isolado acima do limiar. Um corte binario sempre cria um penhasco artificial perto do limiar escolhido, qualquer que seja o valor.
+Foi cogitado (e simulado, nao implementado) um corte binario: remover do ranking qualquer perfil com `diff > 60` (ou `70`) em algum eixo. Simulacoes mostraram que isso descarta entre 45% e 100% do catalogo dependendo do perfil do usuario, e o pior caso e justamente o usuario coerente e extremo (respostas fortes mas nao contraditorias): o corte remove o melhor candidato objetivo (o perfil mais proximo de um usuario coerente e extremo) e o substitui por um candidato com compatibilidade agregada menor, so porque ele nao tem nenhum eixo isolado acima do limiar. Um corte binario sempre cria um penhasco artificial perto do limiar escolhido, qualquer que seja o valor.
 
 O componente `outlierSimilarity` foi escolhido no lugar do corte porque penaliza o outlier de forma continua, sem nunca zerar um candidato — ele pode cair no ranking, mas nao desaparece, e ainda vence quando e genuinamente o melhor candidato disponivel.
 
 ### Direcao indefinida perto do centro
 
-O cosseno puro mede so o angulo. Perto do centro, uma inclinacao de 3 pontos pesa o mesmo que uma de 40, entao a direcao virava ruido de resposta com peso de 33% da nota. Efeitos medidos: centristas recebiam ideologias de lado definido por acaso, e dois vetores no centro exato tinham direcao `50` (total travado em `83.5`).
+O cosseno puro mede so o angulo. Perto do centro, uma inclinacao de 3 pontos pesa o mesmo que uma de 40, entao a direcao virava ruido de resposta com peso de 33% da nota. Efeitos medidos: centristas recebiam perfis de lado definido por acaso, e dois vetores no centro exato tinham direcao `50` (total travado em `83.5`).
 
 Alternativas descartadas em simulacao:
 
 - Multiplicar o cosseno por uma "confianca" so do usuario (`conf = I / (I + 8)`): nao resolve centro x centro (continua `83.5`) e, como `conf` nunca chega a 1, tira de 3 a 4 pontos da compatibilidade de todo mundo.
-- Trocar a direcao pela `axisSimilarity` quando os vetores estao perto do centro: cria um bonus estrutural so para os alvos centrais (as duas medidas estao em escalas diferentes) e transforma o Centrismo Radical num ralo que absorve centristas e centro-direita.
-- Usar so a distancia por eixo: aumenta o acerto nos extremos, mas troca de 20% a 50% dos resultados de ideologia, personalidade e pais.
+- Trocar a direcao pela `axisSimilarity` quando os vetores estao perto do centro: cria um bonus estrutural so para os alvos centrais (as duas medidas estao em escalas diferentes) e transforma o perfil central num ralo que absorve todo usuario moderado.
+- Usar so a distancia por eixo: aumenta o acerto nos extremos, mas troca de 20% a 50% dos resultados dos tres catalogos.
 
 ## Como alterar a formula com seguranca
 
@@ -479,8 +393,8 @@ Alternativas descartadas em simulacao:
 5. Rodar fluxo de API e shared results.
 6. Atualizar este documento com a formula e os numeros novos do benchmark.
 
-Comando usado nesta revisao:
+Comando:
 
-```powershell
-..\.tools\apache-maven-3.9.15\bin\mvn.cmd "-Dtest=ProfileMatchScorerTest,ScorerBenchmarkTest,IdeologyMatcherServiceTest,QuizFlowAutomationTest,SharedResultsTest,IdeologyPersonalityMappingTest" test
+```bash
+./mvnw "-Dtest=ProfileMatchScorerTest,ScorerBenchmarkTest,FootballIdeologyMatcherServiceTest,QuizFlowAutomationTest,SharedResultsTest" test
 ```

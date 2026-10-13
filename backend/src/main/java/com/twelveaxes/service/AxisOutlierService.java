@@ -3,7 +3,7 @@ package com.twelveaxes.service;
 import com.twelveaxes.model.Axis;
 import com.twelveaxes.model.AxisOutlier;
 import com.twelveaxes.model.AxisResult;
-import com.twelveaxes.model.IdeologyProfile;
+import com.twelveaxes.model.FootballIdeologyProfile;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -12,10 +12,10 @@ import org.springframework.stereotype.Service;
 
 /**
  * Compara a posicao do usuario em cada eixo com a distribuicao do catalogo de
- * ideologias, para apontar onde ele mais destoa e onde mais se parece com o
+ * ideias de jogo, para apontar onde ele mais destoa e onde mais se parece com o
  * conjunto.
  *
- * O catalogo de ideologias e a base de comparacao porque e o unico conjunto
+ * O catalogo de ideias de jogo e a base de comparacao porque e o unico conjunto
  * amplo e curado de posicoes que o projeto tem — nao ha banco de respostas de
  * usuarios.
  *
@@ -60,7 +60,7 @@ public class AxisOutlierService {
     }
 
     private List<AxisOutlier> computeRanking(List<AxisResult> axisResults, String lang) {
-        List<IdeologyProfile> profiles = List.copyOf(dataService.getIdeologyProfiles().values());
+        List<FootballIdeologyProfile> profiles = List.copyOf(dataService.getFootballIdeologyProfiles().values());
         if (profiles.isEmpty()) {
             return List.of();
         }

@@ -2,9 +2,9 @@ package com.twelveaxes.service;
 
 import com.twelveaxes.model.CompareDetail;
 import com.twelveaxes.model.CompareItem;
-import com.twelveaxes.model.Country;
-import com.twelveaxes.model.Ideology;
-import com.twelveaxes.model.Personality;
+import com.twelveaxes.model.FootballIdeology;
+import com.twelveaxes.model.Manager;
+import com.twelveaxes.model.Team;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -13,16 +13,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 /**
- * Comparacao do usuario com um perfil escolhido por ele (personalidade, pais ou ideologia).
+ * Comparacao do usuario com um perfil escolhido por ele (treinador, time ou ideia de jogo).
  *
  * A compatibilidade usa o mesmo {@link ProfileMatchScorer} das demais secoes do resultado,
  * entao o percentual mostrado aqui e o mesmo que o perfil teria no ranking.
  */
 @Service
 public class CompareService {
-    public static final String PERSONALITY = "personality";
-    public static final String COUNTRY = "country";
-    public static final String IDEOLOGY = "ideology";
+    public static final String MANAGER = "manager";
+    public static final String TEAM = "team";
+    public static final String FOOTBALL_IDEOLOGY = "football-ideology";
 
     private static final int CATALOG_CACHE_ENTRIES = 32;
 
@@ -35,52 +35,39 @@ public class CompareService {
         this.scorer = scorer;
     }
 
-    /** Todos os perfis pesquisaveis, ja filtrados pela religiao do usuario (mesma regra do resultado). */
-    public List<CompareItem> catalog(String lang, String religion) {
+    /** Todos os perfis pesquisaveis. */
+    public List<CompareItem> catalog(String lang) {
         String normalizedLang = QuizDataService.normalizeLang(lang);
-        String key = normalizedLang + "|" + religion;
-        return catalogCache.get(key, () -> buildCatalog(normalizedLang, religion));
+        return catalogCache.get(normalizedLang, () -> buildCatalog(normalizedLang));
     }
 
-    private List<CompareItem> buildCatalog(String lang, String religion) {
+    private List<CompareItem> buildCatalog(String lang) {
         List<CompareItem> items = new ArrayList<>();
-        for (Personality personality : dataService.getPersonalities(lang)) {
-            if (ReligionFilter.allows(personality.religions(), religion)) {
-                items.add(personalityItem(personality));
-            }
-        }
-        for (Country country : dataService.getCountries(lang)) {
-            if (ReligionFilter.allows(country.religions(), religion)) {
-                items.add(countryItem(country));
-            }
-        }
-        for (Ideology ideology : dataService.getIdeologies(lang)) {
-            if (ReligionFilter.allows(ideology.religions(), religion)) {
-                items.add(ideologyItem(ideology));
-            }
-        }
+        dataService.getManagers(lang).forEach(manager -> items.add(managerItem(manager)));
+        dataService.getTeams(lang).forEach(team -> items.add(teamItem(team)));
+        dataService.getFootballIdeologies(lang).forEach(ideology -> items.add(footballIdeologyItem(ideology)));
         return List.copyOf(items);
     }
 
     public CompareDetail compare(String type, String id, Map<String, Double> userVector, String lang) {
         String normalizedLang = QuizDataService.normalizeLang(lang);
         return switch (type == null ? "" : type) {
-            case PERSONALITY -> {
-                Personality personality = require(dataService.getPersonalityById(id, normalizedLang), type, id);
-                var profile = dataService.getPersonalityProfiles().get(id);
-                yield detail(personalityItem(personality), personality.description(), userVector,
+            case MANAGER -> {
+                Manager manager = require(dataService.getManagerById(id, normalizedLang), type, id);
+                var profile = dataService.getManagerProfiles().get(id);
+                yield detail(managerItem(manager), manager.description(), userVector,
                         profile == null ? null : profile.vector());
             }
-            case COUNTRY -> {
-                Country country = require(dataService.getCountryById(id, normalizedLang), type, id);
-                var profile = dataService.getCountryProfiles().get(id);
-                yield detail(countryItem(country), country.description(), userVector,
+            case TEAM -> {
+                Team team = require(dataService.getTeamById(id, normalizedLang), type, id);
+                var profile = dataService.getTeamProfiles().get(id);
+                yield detail(teamItem(team), team.description(), userVector,
                         profile == null ? null : profile.vector());
             }
-            case IDEOLOGY -> {
-                Ideology ideology = require(dataService.getIdeologyById(id, normalizedLang), type, id);
-                var profile = dataService.getIdeologyProfiles().get(id);
-                yield detail(ideologyItem(ideology), ideology.description(), userVector,
+            case FOOTBALL_IDEOLOGY -> {
+                FootballIdeology ideology = require(dataService.getFootballIdeologyById(id, normalizedLang), type, id);
+                var profile = dataService.getFootballIdeologyProfiles().get(id);
+                yield detail(footballIdeologyItem(ideology), ideology.description(), userVector,
                         profile == null ? null : profile.vector());
             }
             default -> throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Tipo de comparação inválido");
@@ -100,21 +87,17 @@ public class CompareService {
         return value;
     }
 
-    private static CompareItem personalityItem(Personality personality) {
-        return new CompareItem(PERSONALITY, personality.id(), personality.name(), personality.role(),
-                personality.imagePath(), personality.category(), false);
+    private static CompareItem managerItem(Manager manager) {
+        return new CompareItem(MANAGER, manager.id(), manager.name(), manager.period(),
+                manager.imagePath(), manager.category());
     }
 
-    private static CompareItem countryItem(Country country) {
-        String caption = country.historical() && country.period() != null && !country.period().isBlank()
-                ? country.period()
-                : country.category();
-        return new CompareItem(COUNTRY, country.id(), country.name(), caption, country.flagPath(),
-                country.category(), country.historical());
+    private static CompareItem teamItem(Team team) {
+        return new CompareItem(TEAM, team.id(), team.name(), team.period(), team.imagePath(), team.category());
     }
 
-    private static CompareItem ideologyItem(Ideology ideology) {
-        return new CompareItem(IDEOLOGY, ideology.id(), ideology.name(), ideology.category(), null,
-                ideology.category(), false);
+    private static CompareItem footballIdeologyItem(FootballIdeology ideology) {
+        return new CompareItem(FOOTBALL_IDEOLOGY, ideology.id(), ideology.name(), ideology.category(), null,
+                ideology.category());
     }
 }

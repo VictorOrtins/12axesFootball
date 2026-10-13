@@ -6,7 +6,6 @@ import com.twelveaxes.service.AxisValuesParser;
 import com.twelveaxes.service.CompareService;
 import com.twelveaxes.service.ProfileMatchScorer;
 import com.twelveaxes.service.QuizDataService;
-import com.twelveaxes.service.ReligionFilter;
 import com.twelveaxes.service.ScoringService;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,13 +24,10 @@ public class CompareController {
         this.scorer = scorer;
     }
 
-    // Perfis pesquisaveis na secao de comparacao, ja filtrados pela religiao escolhida (opcional).
+    // Perfis pesquisaveis na secao de comparacao.
     @GetMapping("/api/compare/catalog")
-    public List<CompareItem> catalog(
-            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
-            @RequestParam(required = false) String religion
-    ) {
-        return compareService.catalog(lang, ReligionFilter.normalize(religion));
+    public List<CompareItem> catalog(@RequestParam(defaultValue = QuizDataService.LANG_PT) String lang) {
+        return compareService.catalog(lang);
     }
 
     // Compara o vetor do usuario (12 leftPercents, como em /api/results/by-axes) com um perfil.

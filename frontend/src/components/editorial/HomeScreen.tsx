@@ -1,20 +1,12 @@
-import { useCallback, useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
-import { LANG, t } from '../../i18n';
-import type { ExampleResult } from '../../data/exampleResult';
-import type { Axis, AxisResult, QuizVariant } from '../../types/quiz';
-import { AxisIcon, PoleIcon } from '../AxisIcon';
+import type { ReactNode } from 'react';
+import { t } from '../../i18n';
+import type { Axis, QuizVariant } from '../../types/quiz';
+import { PoleIcon } from '../AxisIcon';
 import { OpenSourceSection } from '../OpenSourceSection';
-import { resolveCountryFlagSrc } from '../../utils/countryFlags';
-import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
-import { catStyle, localCatStyle, SPECTRUM_ORDER } from '../../utils/ideologyColors';
 import { QUIZ_FORMATS } from './formats';
-import { FutCard } from '../results/FutCard';
-import { ArrowIcon, ClockIcon, Football, PitchMarkings, pct, RatingBadge, Ring, SafeImg } from './primitives';
+import { ArrowIcon, ClockIcon, Football, PitchMarkings } from './primitives';
 
 interface HomeScreenProps {
-  example: ExampleResult | null;
-  /** Todos os exemplos: o herói os alterna como um baralho. `example` é o que abre o baralho. */
-  examples: ExampleResult[];
   axes: Axis[];
   showBelowFold: boolean;
   onOpenChooser: () => void;
@@ -22,34 +14,29 @@ interface HomeScreenProps {
 }
 
 const DISCOVERY_ICONS: Record<string, ReactNode> = {
-  ideology: (
+  footballIdeology: (
     <>
       <path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z" />
       <path d="M4 19a2 2 0 0 1 2-2h13" />
       <path d="M9 7h6" />
     </>
   ),
-  country: (
+  team: (
     <>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M3 12h18" />
-      <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18Z" />
+      <path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6l-8-3Z" />
+      <path d="M12 3v18" />
     </>
   ),
-  personality: (
+  manager: (
     <>
       <circle cx="12" cy="8" r="4" />
       <path d="M4 21a8 8 0 0 1 16 0" />
     </>
   ),
-  spectrum: (
+  compass: (
     <>
-      <path d="M4 12h16" />
-      <path d="M4 6h16" />
-      <path d="M4 18h16" />
-      <circle cx="9" cy="6" r="2" />
-      <circle cx="15" cy="12" r="2" />
-      <circle cx="7" cy="18" r="2" />
+      <circle cx="12" cy="12" r="9" />
+      <path d="m15.5 8.5-2 5-5 2 2-5 5-2Z" />
     </>
   ),
   profile: (
@@ -70,11 +57,9 @@ const DISCOVERY_ICONS: Record<string, ReactNode> = {
   )
 };
 
-export function HomeScreen({ example, examples, axes, showBelowFold, onOpenChooser, onStart }: HomeScreenProps) {
-  const style = (example ? catStyle(example.ideology.category) : undefined) as CSSProperties | undefined;
-
+export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: HomeScreenProps) {
   return (
-    <div className="ed" style={style}>
+    <div className="ed">
       <section className="e-hero" id="inicio">
         <PitchMarkings />
         <Football className="e-hero-ball" />
@@ -103,21 +88,6 @@ export function HomeScreen({ example, examples, axes, showBelowFold, onOpenChoos
               ))}
             </ul>
           </div>
-          <div className="e-hero-result">
-            {example && (
-              <>
-                <p className="e-hero-example-label">{t.heroTeaserTag}</p>
-                {examples.length > 1 ? (
-                  <HeroDeck
-                    examples={examples}
-                    startIndex={Math.max(0, examples.findIndex((item) => item.ideology.ideologyId === example.ideology.ideologyId))}
-                  />
-                ) : (
-                  <HeroExample example={example} />
-                )}
-              </>
-            )}
-          </div>
         </div>
       </section>
 
@@ -145,22 +115,6 @@ export function HomeScreen({ example, examples, axes, showBelowFold, onOpenChoos
                   </li>
                 ))}
               </ul>
-            </div>
-          </section>
-
-          <section className="e-sec e-example" id="exemplo">
-            <div className="e-wrap" data-reveal>
-              <div className="e-sec-head">
-                <p className="e-eyebrow">{t.exampleEyebrow}</p>
-                <h2>{t.exampleTitle}</h2>
-              </div>
-              {example && <ExampleGrid example={example} />}
-              <div className="e-ex-foot">
-                <p>{t.exampleCaption}</p>
-                <button className="e-btn e-btn-primary" type="button" onClick={onOpenChooser}>
-                  {t.exampleCta} <ArrowIcon />
-                </button>
-              </div>
             </div>
           </section>
 
@@ -207,30 +161,6 @@ export function HomeScreen({ example, examples, axes, showBelowFold, onOpenChoos
                       <PoleIcon axisId={axis.id} side="right" className="e-ico" />
                     </p>
                     <p>{t.axisExplanations[axis.id]}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </section>
-
-          <section className="e-sec e-spectrum" id="espectro-politico">
-            <div className="e-wrap" data-reveal>
-              <div className="e-sec-head">
-                <p className="e-eyebrow">{t.spectrumEyebrow}</p>
-                <h2>{t.spectrumTitle}</h2>
-                <p className="e-lead">{t.spectrumLead}</p>
-              </div>
-              <div className="e-spec-bar" role="img" aria-label={t.spectrumBarAria}>
-                {SPECTRUM_ORDER.map((color) => (
-                  <span key={color.key} style={{ background: color.base }} />
-                ))}
-              </div>
-              <ul className="e-spec-grid">
-                {t.spectrumItems.map((item) => (
-                  <li className="e-spec-card" key={item.id} style={localCatStyle(item.id) as CSSProperties}>
-                    <span className="e-spec-dot" />
-                    <h3>{item.label}</h3>
-                    <p>{item.description}</p>
                   </li>
                 ))}
               </ul>
@@ -296,243 +226,6 @@ export function HomeScreen({ example, examples, axes, showBelowFold, onOpenChoos
           <OpenSourceSection />
         </>
       )}
-    </div>
-  );
-}
-
-function ExampleGrid({ example }: { example: ExampleResult }) {
-  const { ideology, country, personality } = example;
-  const flagSrc = resolveCountryFlagSrc(country.flagPath);
-
-  return (
-    <div className="e-ex-grid">
-      <article className="e-card">
-        <div className="e-ex-main-head">
-          <div>
-            <span className="e-tag e-tag-solid">{ideology.category}</span>
-            <h3 className={ideology.name.length >= 18 ? 'e-long-name' : undefined}>{ideology.name}</h3>
-          </div>
-          <Ring pct={ideology.compatibility} size={112} stroke={5} sized={false} />
-        </div>
-        <p className="e-ex-desc">{ideology.description}</p>
-        <div className="e-ex-axes">
-          {example.axes.map((axis) => (
-            <ExampleAxis key={axis.axisId} axis={axis} />
-          ))}
-        </div>
-      </article>
-      <div className="e-ex-side">
-        <article className="e-card e-mini">
-          <SafeImg className="e-flag" src={flagSrc} alt={t.flagAlt(t.flagLabel, country.name)} fallback={t.flagUnavailable} />
-          <div>
-            <div className="e-mini-top">
-              <span className="e-tag e-tag-cat">{t.countryKicker}</span>
-              <RatingBadge value={country.compatibility} />
-            </div>
-            <h3>{country.name}</h3>
-            <p className="e-meta">
-              <span className="e-tag e-tag-neutral">{country.historical && country.period ? country.period : country.category}</span>
-            </p>
-            <p>{country.description}</p>
-          </div>
-        </article>
-        <article className="e-card e-mini">
-          <FutCard match={personality} />
-          <div>
-            <div className="e-mini-top">
-              <span className="e-tag e-tag-cat">{t.personalityKicker}</span>
-              <RatingBadge value={personality.compatibility} />
-            </div>
-            <h3>{personality.name}</h3>
-            <p className="e-meta">
-              <span className="e-tag e-tag-neutral">
-                {[personality.role, personality.lifespan].filter(Boolean).join(' · ')}
-              </span>
-            </p>
-            <p>{personality.description}</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  );
-}
-
-const DECK_INTERVAL_MS = 5200;
-const DECK_LEAVE_MS = 520;
-// Quantas cartas aparecem empilhadas (a da frente e as que espiam por trás).
-const DECK_VISIBLE = 3;
-
-// Baralho de exemplos: cada carta é a imagem de compartilhamento de um resultado de exemplo
-// (public/share-examples, gerada com o próprio cartão do app). A carta da frente sai para o lado e vai para o fundo, as de trás avançam.
-// Para sozinho no hover/foco e com "reduzir movimento"; os pontos levam direto a um exemplo.
-function HeroDeck({ examples, startIndex }: { examples: ExampleResult[]; startIndex: number }) {
-  const count = examples.length;
-  const [active, setActive] = useState(startIndex);
-  const [leaving, setLeaving] = useState(false);
-  const [paused, setPaused] = useState(false);
-  const busy = useRef(false);
-
-  const advance = useCallback(() => {
-    if (busy.current) {
-      return;
-    }
-    busy.current = true;
-    setLeaving(true);
-    window.setTimeout(() => {
-      setActive((current) => (current + 1) % count);
-      setLeaving(false);
-      busy.current = false;
-    }, DECK_LEAVE_MS);
-  }, [count]);
-
-  useEffect(() => {
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (paused || reduced) {
-      return undefined;
-    }
-    const id = window.setInterval(() => {
-      if (!document.hidden) {
-        advance();
-      }
-    }, DECK_INTERVAL_MS);
-    return () => window.clearInterval(id);
-  }, [paused, advance]);
-
-  return (
-    <div
-      className="e-deck"
-      role="group"
-      aria-roledescription="carousel"
-      aria-label={t.heroTeaserTag}
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      onFocus={() => setPaused(true)}
-      onBlur={() => setPaused(false)}
-    >
-      <div className="e-deck-stack">
-        {examples.map((item, index) => {
-          const offset = (index - active + count) % count;
-          const front = offset === 0;
-          // Durante a saída da carta da frente, as outras já avançam uma posição.
-          const place = leaving ? (front ? -1 : offset - 1) : offset;
-          return (
-            <div
-              key={item.ideology.ideologyId}
-              className="e-deck-card"
-              data-pos={place < 0 ? 'out' : Math.min(place, DECK_VISIBLE - 1)}
-              data-hidden={place >= DECK_VISIBLE}
-              aria-hidden={!front}
-            >
-              <img
-                className="e-deck-img"
-                src={`/share-examples/${LANG}/${item.ideology.ideologyId}.webp`}
-                alt={front ? t.heroDeckAlt(item.ideology.name) : ''}
-                width={576}
-                height={1024}
-                decoding="async"
-                draggable={false}
-              />
-            </div>
-          );
-        })}
-      </div>
-      <div className="e-deck-dots">
-        {examples.map((item, index) => (
-          <button
-            key={item.ideology.ideologyId}
-            type="button"
-            className={index === active ? 'is-on' : undefined}
-            aria-label={t.heroDeckDot(index + 1, count)}
-            aria-current={index === active}
-            onClick={() => setActive(index)}
-          />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function HeroExample({ example }: { example: ExampleResult }) {
-  const { ideology, personality, country } = example;
-  const portraitSrc = resolvePersonalityImageSrc(personality.imagePath);
-  const flagSrc = resolveCountryFlagSrc(country.flagPath);
-
-  return (
-    <article className="e-hero-summary">
-      <div className="e-hero-summary-main">
-        <div>
-          <span className="e-tag e-tag-solid">{ideology.category}</span>
-          <h2 className={ideology.name.length >= 18 ? 'e-long-name' : undefined}>{ideology.name}</h2>
-        </div>
-        <Ring pct={ideology.compatibility} size={104} stroke={5} />
-      </div>
-      <div className="e-hero-summary-detail">
-        <SafeImg
-          className="e-hero-summary-portrait"
-          src={portraitSrc}
-          alt={t.portraitAlt(personality.name)}
-          fallback={personalityInitials(personality.name)}
-        />
-        <div>
-          <span className="e-tag e-tag-cat">{t.personalityKicker}</span>
-          <h3>{personality.name}</h3>
-          {(personality.role || personality.lifespan) && (
-            <span className="e-tag e-tag-neutral">
-              {[personality.role, personality.lifespan].filter(Boolean).join(' · ')}
-            </span>
-          )}
-        </div>
-      </div>
-      <div className="e-hero-summary-detail">
-        <SafeImg
-          className="e-hero-summary-portrait e-hero-summary-flag"
-          src={flagSrc}
-          alt={t.flagAlt(t.flagLabel, country.name)}
-          fallback={t.flagUnavailable}
-        />
-        <div>
-          <span className="e-tag e-tag-cat">{t.countryKicker}</span>
-          <h3>{country.name}</h3>
-          <span className="e-tag e-tag-neutral">
-            {country.historical && country.period ? country.period : country.category}
-          </span>
-        </div>
-      </div>
-    </article>
-  );
-}
-
-function ExampleAxis({ axis }: { axis: AxisResult }) {
-  const leftWins = axis.leftPercent >= axis.rightPercent;
-  const leftFill = leftWins ? Math.max(0, (axis.leftPercent - 50) * 2) : 0;
-  const rightFill = leftWins ? 0 : Math.max(0, (axis.rightPercent - 50) * 2);
-
-  return (
-    <div className="e-ax-row">
-      <div className="e-ax-head">
-        <AxisIcon id={axis.axisId} className="e-ico" />
-        <h4>{axis.label}</h4>
-        <span className="e-tag e-tag-cat">
-          {axis.intensity} · {axis.dominantPole}
-        </span>
-      </div>
-      <div className="e-ax-bar">
-        <span className={leftWins ? 'e-win' : undefined}>
-          {axis.leftPole} {pct(axis.leftPercent)}%
-        </span>
-        <div className="e-track" aria-hidden="true">
-          <div className="e-half e-l">
-            <i style={{ width: `${leftFill}%` }} />
-          </div>
-          <b />
-          <div className="e-half e-r">
-            <i style={{ width: `${rightFill}%` }} />
-          </div>
-        </div>
-        <span className={leftWins ? undefined : 'e-win'}>
-          {pct(axis.rightPercent)}% {axis.rightPole}
-        </span>
-      </div>
     </div>
   );
 }

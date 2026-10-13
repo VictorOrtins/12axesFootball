@@ -1,7 +1,7 @@
 // Dicionário de UI PT/EN. O idioma é resolvido uma vez por carga de página
 // (?lang → localStorage → navigator) e trocar de idioma recarrega a página,
 // para que quiz e resultados sejam rebuscados já no idioma novo.
-import type { PersonalityCategory, ProfileDimension } from '../types/quiz';
+import type { ProfileDimension } from '../types/quiz';
 
 export type Lang = 'pt' | 'en';
 
@@ -79,22 +79,10 @@ interface Strings {
   mainNavAria: string;
   navHow: string;
   navAxes: string;
-  navSpectrum: string;
   navFaq: string;
-  navIdeologies: string;
-  navPersonalities: string;
-  navCountries: string;
-  navSupport: string;
   langToggleLabel: string;
   langToggleAria: string;
   redoQuiz: string;
-  religionLabel: string;
-  religionQuestion: string;
-  religionNone: string;
-  religionNames: Record<'christianity' | 'judaism' | 'islam' | 'buddhism' | 'hinduism', string>;
-  denominationLabel: string;
-  denominationQuestion: string;
-  denominationNames: Record<'catholic' | 'protestant' | 'orthodox', string>;
   restartQuiz: string;
   heroEyebrow: string;
   h1Pre: string;
@@ -104,10 +92,6 @@ interface Strings {
   startQuiz: string;
   seeAxes: string;
   heroLabels: string[];
-  heroTeaserLabel: string;
-  heroTeaserTag: string;
-  heroDeckDot: (position: number, total: number) => string;
-  heroDeckAlt: (ideology: string) => string;
   formats: { short: QuizFormatStrings; extended: QuizFormatStrings; extreme: QuizFormatStrings };
   axisExplanations: Record<string, string>;
   axisInfoAria: (label: string) => string;
@@ -119,7 +103,7 @@ interface Strings {
   questionHelpDisagree: string;
   questionHelpNote: string;
   closeLabel: string;
-  personalityInfoAria: (name: string) => string;
+  managerInfoAria: (name: string) => string;
   closenessTitle: string;
   closenessYou: string;
   compareEyebrow: string;
@@ -132,7 +116,7 @@ interface Strings {
   compareNoResults: string;
   compareLoading: string;
   compareLoadError: string;
-  compareTypeLabels: Record<'personality' | 'country' | 'ideology', string>;
+  compareTypeLabels: Record<'manager' | 'team' | 'football-ideology', string>;
   compareAxisAdverbs: Partial<Record<string, string>>;
   compareClosestLine: (adverb: string, name: string) => string;
   compareFarthestLine: (adverb: string, name: string) => string;
@@ -144,7 +128,6 @@ interface Strings {
   compareValues: (pole: string, you: number, them: number, name: string) => string;
   compareOptionAria: (name: string, type: string) => string;
   homeAxes: Record<string, { label: string; leftPole: string; rightPole: string }>;
-  spectrumItems: { id: string; label: string; tone: string; description: string }[];
   faqItems: { question: string; answer: string }[];
   howEyebrow: string;
   howTitle: string;
@@ -157,19 +140,11 @@ interface Strings {
   discoveryTitle: string;
   discoveryLead: string;
   discoveryItems: { icon: string; title: string; text: string }[];
-  exampleEyebrow: string;
-  exampleTitle: string;
-  exampleCaption: string;
-  exampleCta: string;
-  spectrumEyebrow: string;
-  spectrumTitle: string;
-  spectrumLead: string;
   faqTitle: string;
   faqLead: string;
   navStart: string;
   menuAria: string;
   roseAria: string;
-  spectrumBarAria: string;
   versionsEyebrow: string;
   versionsTitle: string;
   versionsLead: string;
@@ -200,6 +175,7 @@ interface Strings {
   resultsLead: (count: number) => string;
   resultsLeadShared: string;
   resultsSummaryAria: string;
+  resultsEmptyCatalog: string;
   metaTop: string;
   axesSectionEyebrow: string;
   axesSectionTitle: string;
@@ -208,62 +184,37 @@ interface Strings {
   navOnThisPage: string;
   resultsNavAxes: string;
   resultsNavSignature: string;
-  resultsNavCountries: string;
-  resultsNavPersonalities: string;
-  resultsNavAreas: string;
-  resultsNavBooks: string;
-  resultsNavIdeologies: string;
+  resultsNavTeams: string;
+  resultsNavManagers: string;
+  resultsNavCategories: string;
+  resultsNavFootballIdeologies: string;
   resultsNavCompass: string;
   compassTitle: string;
-  compassAuthoritarian: string;
-  compassLibertarian: string;
-  compassLeft: string;
-  compassRight: string;
-  compassProgressive: string;
-  compassTraditionalist: string;
   compassWith: string;
-  compassSocialValues: string;
-  compassCenterLeft: string;
-  compassCenterRight: string;
-  compassSpectrumLabels: Record<'esq-radical' | 'esquerda' | 'centro' | 'direita' | 'ext-direita' | 'terceira' | 'libertario' | 'anarquismo', string>;
-  compassSocialLabels: Record<'veryProgressive' | 'progressive' | 'moderate' | 'traditional' | 'veryTraditional', string>;
+  compassBalanced: (axis: string) => string;
   compassInfo: {
     aria: string;
     title: string;
-    authLead: string;
-    authText: string;
-    econLead: string;
-    econText: string;
-    socialLead: string;
-    socialText: string;
+    xText: string;
+    yText: string;
+    stripText: string;
   };
-  compassAria: (right: number, authoritarian: number, traditional: number) => string;
-  countriesSectionTitle: string;
-  countryCurrentTab: string;
-  countryHistoricalTab: string;
-  countriesDistantTitle: string;
-  personalitiesSectionTitle: string;
-  personalitiesByAreaTitle: string;
+  compassAria: (counter: number, deep: number, result: number) => string;
+  teamsSectionTitle: string;
+  teamsDistantTitle: string;
+  managersSectionTitle: string;
   dimensionsTitle: string;
   dimensionLabels: Record<ProfileDimension, string>;
   areasGeneralTitle: string;
-  booksEyebrow: string;
-  booksTitle: string;
-  booksTopLabel: string;
-  booksAuthorLabel: string;
-  booksLead: string;
-  booksWhy: (pct: number) => string;
-  booksYearBc: (year: number) => string;
-  booksCta: string;
   areasSectionTitle: string;
   areasTabsAria: string;
   areasGeneralTab: string;
   areasByAreaTab: string;
-  personalitiesDistantTitle: string;
-  ideologyDistantTitle: string;
+  managersDistantTitle: string;
+  footballIdeologyDistantTitle: string;
   phraseTitle: string;
-  phraseNote: (ideology: string) => string;
-  aboutIdeology: (ideology: string) => string;
+  phraseNote: (idea: string) => string;
+  aboutFootballIdeology: (idea: string) => string;
   knowMoreAbout: (name: string) => string;
   showLess: string;
   matchTopKicker: string;
@@ -290,8 +241,9 @@ interface Strings {
   signatureAtMedian: string;
   signatureAtCentre: string;
   tensionRareShort: (count: number, total: number) => string;
-  personalityCategories: Record<PersonalityCategory, string>;
-  futPositions: Record<PersonalityCategory, string>;
+  /** Nome exibido de cada categoria de treinador; sem entrada, mostra a categoria como veio da API. */
+  managerCategories: Record<string, string>;
+  futPosition: string;
   futOpenAria: (name: string, rating: number) => string;
   pesPrev: string;
   pesNext: string;
@@ -311,9 +263,9 @@ interface Strings {
     fileName: string;
     docLabel: string;
     profileEyebrow: string;
-    headerLabel: (ideology: string) => string;
-    kpiCountry: string;
-    kpiPersonality: string;
+    headerLabel: (idea: string) => string;
+    kpiTeam: string;
+    kpiManager: string;
     kpiAxes: string;
     kpiAnswered: (count: number) => string;
     tocTitle: string;
@@ -324,19 +276,18 @@ interface Strings {
     alsoClose: string;
     continued: string;
     areasIntro: string;
-    booksIntro: string;
     aboutTitle: string;
     aboutText: string;
     ctaTitle: string;
   };
   shareFilePrefix: string;
   shareMessage: (
-    ideology: string,
-    ideologyPct: number,
-    country: string,
-    countryPct: number,
-    personality: string,
-    personalityPct: number
+    idea: string,
+    ideaPct: number,
+    team: string,
+    teamPct: number,
+    manager: string,
+    managerPct: number
   ) => string;
   progress: (current: number, total: number) => string;
   progressDone: (percent: number) => string;
@@ -344,13 +295,11 @@ interface Strings {
   archetypeStep: (current: number, total: number) => string;
   progressAria: (percent: number) => string;
   answersAria: string;
-  countryKicker: string;
-  flagLabel: string;
-  flagHistoricLabel: string;
-  flagAlt: (label: string, name: string) => string;
-  flagUnavailable: string;
-  flagUnavailableAria: (name: string) => string;
-  personalityKicker: string;
+  teamKicker: string;
+  crestAlt: (name: string) => string;
+  crestUnavailable: string;
+  crestUnavailableAria: (name: string) => string;
+  managerKicker: string;
   portraitAlt: (name: string) => string;
   portraitUnavailableAria: (name: string) => string;
   compatibilityAria: (pct: string) => string;
@@ -358,17 +307,15 @@ interface Strings {
   compatibilityLevels: { veryHigh: string; high: string; medium: string; low: string; veryLow: string };
   shareTitle: string;
   shareTopMatch: string;
-  shareCountry: string;
-  sharePersonality: string;
+  shareTeam: string;
+  shareManager: string;
   shareResultLabel: string;
   shareMostCompatible: string;
   shareYourAxes: string;
-  shareOtherPersonalities: string;
-  shareNearbyCountries: string;
+  shareOtherManagers: string;
+  shareNearbyTeams: string;
   shareFooterCta: string;
   shareFooterUrl: string;
-  supportEyebrow: string;
-  supportTitle: string;
   ossEyebrow: string;
   ossTitle: string;
   ossLead: string;
@@ -379,24 +326,12 @@ interface Strings {
   feedbackTitle: string;
   feedbackReport: string;
   feedbackSuggest: string;
-  supportTitleEm: string;
-  supportLead: string;
-  supportPrivacyNote: string;
-  supportCopy: string;
-  supportCopied: string;
-  supportCopyAria: (label: string) => string;
-  supportCoins: {
-    id: string;
-    name: string;
-    network: string;
-    address: string;
-  }[];
 }
 
 const pt: Strings = {
   htmlLang: 'pt-BR',
-  docTitle: '12 Axes — Teste Político Grátis e Quiz de Ideologia em 12 Eixos',
-  loadingAnalysis: 'Carregando análise política...',
+  docTitle: '12 Axes Football — Quiz de Filosofia de Futebol em 12 Eixos',
+  loadingAnalysis: 'Carregando análise...',
   loadingQuiz: 'Carregando quiz...',
   loadingResult: 'Carregando resultado...',
   tryAgain: 'Tentar novamente',
@@ -415,61 +350,39 @@ const pt: Strings = {
   mainNavAria: 'Navegação principal',
   navHow: 'Como funciona',
   navAxes: '12 Eixos',
-  navSpectrum: 'Espectro',
   navFaq: 'FAQ',
-  navIdeologies: 'Ideologias',
-  navPersonalities: 'Personalidades',
-  navCountries: 'Países',
-  navSupport: 'Apoie',
   langToggleLabel: 'EN',
   langToggleAria: 'Switch to English',
   redoQuiz: 'Refazer quiz',
-  religionLabel: 'Religião',
-  religionQuestion: 'Você segue alguma religião? Usamos isso só para ajustar as recomendações.',
-  religionNone: 'Sem religião',
-  religionNames: {
-    christianity: 'Cristianismo',
-    judaism: 'Judaísmo',
-    islam: 'Islamismo',
-    buddhism: 'Budismo',
-    hinduism: 'Hinduísmo'
-  },
-  denominationLabel: 'Vertente cristã',
-  denominationQuestion: 'Qual é a sua vertente cristã? Usamos isso só para ajustar as recomendações.',
-  denominationNames: { catholic: 'Católica', protestant: 'Protestante', orthodox: 'Ortodoxa' },
   restartQuiz: 'Reiniciar quiz',
-  heroEyebrow: 'Descoberta política',
-  h1Pre: 'Você sabe mesmo qual é a sua ',
-  h1Em: 'ideologia política',
+  heroEyebrow: 'Filosofia de futebol',
+  h1Pre: 'Que futebol ',
+  h1Em: 'você defende',
   h1Post: '?',
   introLead:
-    'Talvez você esteja se classificando errado. Em poucos minutos, descubra sua ideologia real, o país que mais pensa como você e o líder político mais parecido com suas ideias.',
+    'Posse ou contra-ataque, pressão alta ou bloco baixo, espetáculo ou resultado. Responda e descubra com que escola de jogo, time e treinador você mais combina.',
   startQuiz: 'Descobrir meu perfil',
   seeAxes: 'Ver os 12 eixos',
   heroLabels: ['Gratuito', 'Anônimo', 'Rápido', 'Resultado imediato'],
-  heroTeaserLabel: 'match',
-  heroTeaserTag: 'Exemplo de resultado',
-  heroDeckDot: (position, total) => `Ver exemplo ${position} de ${total}`,
-  heroDeckAlt: (ideology) => `Exemplo do cartão de resultado compartilhável: ${ideology}`,
   formats: {
     short: {
       label: 'Curta',
       questionCount: '36 perguntas',
-      description: 'Resultado rápido, ideal para uma primeira leitura do seu perfil',
+      description: 'Resultado rápido, ideal para uma primeira leitura do seu perfil.',
       duration: 'Aprox. 5 min',
       action: 'Começar versão curta'
     },
     extended: {
       label: 'Completa',
       questionCount: '60 perguntas',
-      description: 'Mais precisão para aproximar seu resultado dos perfis ideológicos.',
+      description: 'Mais precisão para aproximar seu resultado dos perfis do catálogo.',
       duration: 'Aprox. 9 min',
       action: 'Começar versão completa'
     },
     extreme: {
       label: 'Extrema',
       questionCount: '240 perguntas',
-      description: 'Saiba exatamente a síntese do seu pensamento com 100% de precisão.',
+      description: 'Todas as perguntas de todos os eixos, para o retrato mais fiel do seu futebol.',
       duration: 'Aprox. 30 min',
       action: 'Começar versão extrema'
     }
@@ -483,29 +396,21 @@ const pt: Strings = {
   questionHelpDisagree: 'Se você discorda',
   questionHelpNote: 'Vale lembrar',
   closeLabel: 'Fechar',
-  personalityInfoAria: (name) => `Ver detalhes de ${name}`,
+  managerInfoAria: (name) => `Ver detalhes de ${name}`,
   closenessTitle: 'O que te aproxima',
   closenessYou: 'Você',
   compareEyebrow: 'Análise comparativa',
   compareTitle: 'Análise comparativa',
-  compareLead: 'Escolha uma personalidade, país ou ideologia e veja, eixo por eixo, onde você se aproxima ou se afasta.',
+  compareLead: 'Escolha um treinador, time ou ideia de jogo e veja, eixo por eixo, onde você se aproxima ou se afasta.',
   compareSearchLabel: 'Buscar perfil para comparar',
-  compareSearchPlaceholder: 'Busque uma personalidade, país ou ideologia',
+  compareSearchPlaceholder: 'Busque um treinador, time ou ideia de jogo',
   compareView: 'Visualizar',
   compareAxesTitle: 'Seus 12 eixos',
   compareNoResults: 'Nenhum perfil encontrado.',
   compareLoading: 'Comparando…',
   compareLoadError: 'Não foi possível carregar a comparação. Tente de novo.',
-  compareTypeLabels: { personality: 'Personalidade', country: 'País', ideology: 'Ideologia' },
-  compareAxisAdverbs: {
-    estrutura: 'estruturalmente',
-    economia: 'economicamente',
-    comercio: 'comercialmente',
-    religiao: 'religiosamente',
-    moral: 'moralmente',
-    tecnologia: 'tecnologicamente',
-    diplomacia: 'diplomaticamente'
-  },
+  compareTypeLabels: { manager: 'Treinador', team: 'Time', 'football-ideology': 'Ideia de jogo' },
+  compareAxisAdverbs: {},
   compareClosestLine: (adverb, name) => `Você é ${adverb} compatível com ${name}.`,
   compareFarthestLine: (adverb, name) => `Você é ${adverb} distante de ${name}.`,
   compareClosestFallback: (axis, name) => `Em ${axis}, você é compatível com ${name}.`,
@@ -516,95 +421,25 @@ const pt: Strings = {
   compareValues: (pole, you, them, name) => `${pole}: você ${you}% · ${name} ${them}%.`,
   compareOptionAria: (name, type) => `${name}, ${type}`,
   axisExplanations: {
-    estrutura:
-      'Mede se você prefere poder distribuído entre estados, municípios e comunidades locais ou um Estado nacional unitário com leis e comando mais uniformes.',
-    representacao:
-      'Compara confiança em eleições, oposição e instituições democráticas com preferência por liderança forte, tecnocracia, monarquia ou regimes autoritários.',
-    poder:
-      'Avalia o equilíbrio entre ordem, vigilância, punição e controle estatal versus privacidade, liberdade individual e autonomia civil.',
-    imigracao:
-      'Observa se você valoriza assimilação cultural, idioma e identidade nacional ou multiculturalismo, abertura migratória e pluralidade de costumes.',
-    diplomacia:
-      'Analisa sua posição sobre Forças Armadas, armamento, dissuasão e intervenção militar em contraste com negociação, pacifismo e organismos internacionais.',
-    intervencao:
-      'Mede a inclinação entre não intervencionismo externo e soberania nacional mais assertiva, nacionalismo geopolítico e defesa ativa de interesses nacionais.',
-    economia:
-      'Compara preferência por propriedade pública, estatais e serviços coletivos com propriedade privada, privatização e protagonismo empresarial.',
-    controle:
-      'Avalia planejamento estatal, regulação e política econômica ativa contra livre mercado, baixa interferência, autonomia monetária e competição.',
-    comercio:
-      'Mede protecionismo, soberania produtiva e defesa da indústria nacional contra globalismo, livre comércio e integração econômica internacional.',
-    religiao:
-      'Compara laicidade, separação entre religião e Estado e crítica a privilégios religiosos com influência pública da fé e valores religiosos.',
-    moral:
-      'Avalia progressismo cultural, direitos civis e mudanças sociais em contraste com tradição, família, costumes e conservadorismo moral.',
-    tecnologia:
-      'Mede entusiasmo por tecnologia, IA, engenharia genética e desenvolvimento técnico contra cautela biológica, ambiental e preservacionista.'
+    pos: 'Mede se o seu time deve querer a bola e controlar o jogo com ela ou ceder a posse e ferir o adversário no contra-ataque.',
+    pro: 'Compara a construção paciente, de trás e com passes curtos, com o jogo direto, que busca o ataque no menor número de toques.',
+    est: 'Avalia se os jogadores devem ocupar posições fixas e ensaiadas ou se aproximar e trocar de lugar livremente perto da bola.',
+    lar: 'Mede se o ataque deve passar por dentro, com combinações centrais, ou pelas pontas, com pontas, laterais e cruzamentos.',
+    blo: 'Compara pressionar alto, logo depois de perder a bola e perto da área rival, com recuar e defender num bloco baixo e compacto.',
+    mar: 'Avalia se a defesa deve marcar espaços (zona) ou adversários (individual), seguindo cada um por onde ele for.',
+    pla: 'Mede se o time deve impor a própria identidade em qualquer jogo ou mudar o plano conforme o adversário.',
+    res: 'Compara jogar para encantar, com futebol ofensivo e bonito, com jogar para vencer, aceitando o feio quando ele dá resultado.',
+    sis: 'Avalia se quem decide é o sistema coletivo treinado ou o talento individual, com liberdade para os craques resolverem.',
+    jog: 'Mede se o jogador ideal é o técnico, que trata bem a bola, ou o físico, forte, rápido e incansável.',
+    bas: 'Compara dar minutos a jovens e formar o elenco com apostar em jogadores experientes e prontos.',
+    lid: 'Avalia se o treinador deve liderar com autoridade e disciplina ou com diálogo, confiança e harmonia no vestiário.'
   },
   homeAxes: {},
-  spectrumItems: [
-    {
-      id: 'left-radical',
-      label: 'Esquerda radical',
-      tone: 'darkred',
-      description:
-        'Comunismo revolucionário ou totalitário de partido único, com economia planificada, forte centralização e concentração do poder do Estado.'
-    },
-    {
-      id: 'left',
-      label: 'Esquerda',
-      tone: 'green',
-      description:
-        'Defende social-democracia, progressismo e maior intervenção do Estado na economia dentro da democracia liberal.'
-    },
-    {
-      id: 'center',
-      label: 'Centro',
-      tone: 'gray',
-      description:
-        'Busca equilíbrio entre esquerda e direita, mercado e Estado, reformas e estabilidade, com posicionamento político moderado ou pragmático.'
-    },
-    {
-      id: 'right',
-      label: 'Direita',
-      tone: 'blue',
-      description:
-        'Defende conservadorismo, liberalismo econômico e nacionalismo moderado dentro da democracia liberal.'
-    },
-    {
-      id: 'right-extreme',
-      label: 'Extrema direita',
-      tone: 'navy',
-      description:
-        'Fascismo, nacionalismo racial e teocracias opressivas, com rejeição explícita da democracia e concentração autoritária do poder.'
-    },
-    {
-      id: 'third-position',
-      label: 'Terceira posição',
-      tone: 'purple',
-      description:
-        'Síntese nacionalista e corporativista que rejeita tanto o capitalismo liberal quanto o marxismo, fora do eixo tradicional esquerda-direita.'
-    },
-    {
-      id: 'libertarian',
-      label: 'Libertário',
-      tone: 'amber',
-      description:
-        'Defende Estado mínimo, livre mercado, propriedade privada e liberdades individuais, sem propor a abolição total do Estado.'
-    },
-    {
-      id: 'anarchist',
-      label: 'Anarquista',
-      tone: 'charcoal',
-      description:
-        'Rejeita o Estado e toda autoridade coercitiva, defendendo organização social livre, voluntária e autogerida, de esquerda ou de direita.'
-    }
-  ],
   faqItems: [
     {
-      question: 'O teste é confiável?',
+      question: 'O que é o 12 Axes Football?',
       answer:
-        'O teste político 12 Axes é confiável como ferramenta de leitura e comparação de posicionamento político. Ele usa perguntas distribuídas por 12 eixos para reduzir vieses de um único tema, mas não substitui estudo, debate ou análise acadêmica.'
+        'Um quiz gratuito que mede sua filosofia de futebol em 12 eixos (posse, progressão, estrutura, largura, bloco, marcação, plano de jogo, propósito, quem decide, tipo de jogador, elenco e liderança) e compara seu perfil com escolas de jogo, times e treinadores.'
     },
     {
       question: 'Quanto tempo demora?',
@@ -612,34 +447,23 @@ const pt: Strings = {
         'A versão curta demora cerca de 5 minutos. A versão completa leva aproximadamente 9 minutos. A versão extrema, com 240 perguntas, pode levar cerca de 30 minutos.'
     },
     {
-      question: 'Posso refazer?',
-      answer:
-        'Sim. Você pode refazer o quiz político quantas vezes quiser, inclusive escolhendo outra profundidade para comparar se o resultado muda.'
-    },
-    {
       question: 'Existe resposta certa?',
       answer:
-        'Não existe resposta certa. O teste ideológico mede preferências sobre democracia, monarquia, federalismo, imigração, religião na política, política econômica, comércio internacional, liberalismo, conservadorismo, progressismo e outros temas.'
+        'Não. Guardiola e Simeone ganharam muito jogando de formas opostas. O quiz mede preferências, não acerto.'
     },
     {
       question: 'Como o algoritmo calcula?',
       answer:
-        'Cada resposta soma pontos em um polo específico. O algoritmo calcula percentuais por eixo, compara seu vetor ideológico com perfis de correntes políticas, países e personalidades, e retorna as maiores compatibilidades.'
+        'Cada resposta soma pontos em um polo de um eixo. O algoritmo calcula percentuais por eixo, compara seu vetor com os perfis de ideias de jogo, times e treinadores e mostra as maiores compatibilidades.'
     },
     {
-      question: 'O resultado muda?',
+      question: 'Como os perfis de times e treinadores são feitos?',
       answer:
-        'Pode mudar se suas opiniões mudarem, se você responder com mais nuance ou se fizer uma versão mais longa. A versão extrema tende a reduzir oscilações por usar mais perguntas.'
+        'Cada perfil começa por uma pesquisa com fontes, datas e período definido. Depois, o perfil responde às mesmas perguntas que você, uma por uma.'
     },
     {
-      question: 'O teste é científico?',
-      answer:
-        'O 12 Axes não é um instrumento científico validado clinicamente. Ele é um teste político educativo, inspirado em modelos de espectro político e quiz ideológico, útil para reflexão e comparação.'
-    },
-    {
-      question: 'Posso compartilhar?',
-      answer:
-        'Sim. Ao terminar, você pode compartilhar seu resultado para discutir ideologia política, espectro político, esquerda, direita, centro e os 12 eixos com outras pessoas.'
+      question: 'Posso refazer?',
+      answer: 'Sim, quantas vezes quiser, inclusive escolhendo outra profundidade para ver se o resultado muda.'
     },
     {
       question: 'O teste coleta dados?',
@@ -648,82 +472,51 @@ const pt: Strings = {
     },
     {
       question: 'Posso responder pelo celular?',
-      answer:
-        'Sim. A interface foi pensada para celular e desktop, então você pode fazer o teste político pelo navegador do smartphone.'
-    },
-    {
-      question: 'O que é o 12 Axes?',
-      answer: 'O 12 Axes é um teste político gratuito que mede sua posição em 12 eixos (estrutura do Estado, representação, liberdades, imigração, diplomacia, intervenção, economia, controle econômico, comércio, religião, moral e tecnologia) e mostra sua ideologia política, país e personalidade compatíveis.'
-    },
-    {
-      question: 'O 12 Axes tem bússola política (political compass)?',
-      answer: 'Sim. No fim do resultado há uma bússola política em dois eixos, esquerda × direita e autoritário × libertário, com uma barra progressista × tradicionalista. Ela resume seus 12 eixos de forma visual, mas não substitui a análise completa.'
-    },
-    {
-      question: 'Como descobrir minha ideologia política compatível?',
-      answer: 'Faça o quiz político, com 36, 60 ou 240 perguntas. O resultado mostra as ideologias mais compatíveis com as suas respostas, com a porcentagem de compatibilidade e a posição de cada uma nos 12 eixos.'
-    },
-    {
-      question: 'Posso descobrir qual país ou personalidade combina comigo?',
-      answer: 'Sim. Além da ideologia, o resultado compara seu perfil com países atuais, regimes históricos e personalidades políticas, mostrando os mais compatíveis e os mais distantes de você.'
-    },
-    {
-      question: 'Quantas perguntas tem o quiz de política?',
-      answer: 'Há três versões: a rápida, com 36 perguntas, a completa, com 60, e a extrema, com 240. Todas cobrem os mesmos 12 eixos; quanto mais perguntas, mais preciso tende a ser o resultado.'
+      answer: 'Sim. A interface foi pensada para celular e desktop.'
     }
   ],
   howEyebrow: 'Como funciona',
-  howTitle: 'Como funciona o quiz político 12 Axes',
+  howTitle: 'Como funciona o 12 Axes Football',
   howLead:
-    'Um teste de ideologia política simples e visual: você responde a afirmações, o 12 Axes calcula seus percentuais e mostra onde você está no espectro político em cada dimensão.',
+    'Você responde a afirmações sobre como o futebol deve ser jogado e conduzido, e o 12 Axes calcula onde você fica em cada dimensão.',
   steps: [
     {
       title: 'Responda às perguntas',
-      text: 'Concorde ou discorde de afirmações sobre economia, Estado, liberdades civis, valores, religião, política externa e tecnologia.'
+      text: 'Concorde ou discorde de afirmações sobre tática, filosofia de jogo e gestão de elenco.'
     },
     {
       title: 'Análise em 12 eixos',
-      text: 'Cada resposta posiciona você em 12 eixos ideológicos independentes - do livre mercado ao planejamento, do nacionalismo ao globalismo.'
+      text: 'Cada resposta posiciona você em 12 eixos independentes, da posse ao contra-ataque, da pressão alta ao bloco baixo.'
     },
     {
       title: 'Descubra seu perfil',
-      text: 'Receba seu perfil ideológico, ideologias mais compatíveis, país mais próximo, personalidade relacionada e resultado por eixo.'
+      text: 'Veja sua posição em cada eixo e com que ideias de jogo, times e treinadores você mais combina.'
     }
   ],
   axesGuideEyebrow: '12 eixos',
   axesGuideTitle: 'O que significa cada eixo?',
   axesGuideLead:
-    'O teste ideológico 12 Axes analisa federalismo, representação política, democracia, eleições, imigração, comércio internacional, religião na política, política econômica, moral e tecnologia em dimensões separadas.',
+    'Seis eixos táticos, quatro de filosofia de jogo e dois de gestão. Cada um é medido separadamente, então seu resultado guarda combinações incomuns.',
   discoveryEyebrow: 'O que você vai descobrir',
-  discoveryTitle: 'Um retrato completo das suas convicções políticas',
-  discoveryLead:
-    'Mais do que esquerda ou direita: seu resultado mostra com quem, onde e com que intensidade suas ideias realmente combinam.',
+  discoveryTitle: 'Um retrato completo do seu futebol',
+  discoveryLead: 'Mais do que um rótulo: seu resultado mostra com quem e com que intensidade suas ideias combinam.',
   discoveryItems: [
-    { icon: 'ideology', title: 'Sua ideologia', text: 'Qual corrente política combina com você' },
-    { icon: 'country', title: 'Seu país', text: 'Que nação pensa parecido com você' },
-    { icon: 'personality', title: 'Seu líder político', text: 'Qual figura histórica é seu par ideológico' },
-    { icon: 'spectrum', title: 'Seu espectro', text: 'Onde você fica entre esquerda e direita' },
-    { icon: 'profile', title: 'Seu perfil', text: 'Um retrato completo das suas convicções' },
-    { icon: 'compatibility', title: 'Compatibilidade', text: 'O quanto você realmente concorda com sua própria ideologia' }
+    { icon: 'footballIdeology', title: 'Sua ideia de jogo', text: 'Qual escola de futebol combina com você' },
+    { icon: 'team', title: 'Seu time', text: 'Que time jogava do jeito que você gosta' },
+    { icon: 'manager', title: 'Seu treinador', text: 'Qual técnico pensa o jogo como você' },
+    { icon: 'compass', title: 'Sua bússola', text: 'Onde você fica entre posse e contra-ataque, pressão e bloco' },
+    { icon: 'profile', title: 'Seu perfil', text: 'Sua posição em cada um dos 12 eixos' },
+    { icon: 'compatibility', title: 'Compatibilidade', text: 'O quanto você realmente concorda com cada perfil' }
   ],
-  exampleEyebrow: 'Exemplo real',
-  exampleTitle: 'É assim que fica o seu resultado',
-  exampleCaption: 'Exemplo ilustrativo com dados reais do catálogo do 12 Axes.',
-  exampleCta: 'Quero ver o meu resultado',
-  spectrumEyebrow: 'Espectro político',
-  spectrumTitle: 'Descubra seu espectro político',
-  spectrumLead:
-    'O resultado ajuda a visualizar seu posicionamento político entre esquerda, direita e centro, além de identificar formas mais radicais, autoritárias ou libertárias que não cabem nesse eixo, como extrema direita, esquerda radical, terceira posição, libertarianismo e anarquismo.',
   faqTitle: 'Perguntas frequentes',
   faqLead: 'Tudo o que as pessoas costumam perguntar antes de fazer o teste.',
   navStart: 'Começar',
   menuAria: 'Abrir menu',
   roseAria: 'Rosa dos 12 eixos',
-  spectrumBarAria: 'Barra do espectro político com as oito categorias',
   versionsEyebrow: 'Versões',
   versionsTitle: 'Escolha a profundidade',
   versionsLead:
-    'Comece pelo quiz rápido ou aprofunde sua análise para um retrato mais preciso do seu perfil ideológico. Todas as versões usam os mesmos 12 eixos e retornam o resultado imediatamente.',
+    'Comece pelo quiz rápido ou aprofunde a análise para um retrato mais preciso. Todas as versões usam os mesmos 12 eixos e mostram o resultado na hora.',
   variantEyebrow: 'Escolha o formato',
   variantTitlePre: 'Você quer velocidade ou ',
   variantTitleEm: 'precisão?',
@@ -732,8 +525,7 @@ const pt: Strings = {
   depthAria: (level) => `Profundidade ${level} de 3`,
   recommended: 'Recomendada',
   formatNotes: ['Todas as versões usam os mesmos 12 eixos', 'Anônimo, sem cadastro', 'Resultado imediato'],
-  variantLead:
-    'A versão curta revela o resultado de forma rápida. A completa aumenta a precisão para aproximar melhor seu resultado dos perfis ideológicos.',
+  variantLead: 'A versão curta revela o resultado de forma rápida. A completa aumenta a precisão.',
   quizNavAria: 'Navegação do quiz',
   autoAdvance: 'Avançar ao responder',
   back: 'Voltar',
@@ -748,146 +540,89 @@ const pt: Strings = {
   errHttp: (status) => `Erro HTTP ${status}`,
   resultsEyebrow: 'Análise concluída',
   resultsH1Pre: 'Seu perfil ',
-  resultsH1Em: 'ideológico',
+  resultsH1Em: 'de futebol',
   resultsLead: (count) =>
-    `Análise baseada em ${count} respostas distribuídas em 12 dimensões fundamentais da ideologia política. Confira sua posição em cada eixo e suas correspondências ideológicas.`,
+    `Análise baseada em ${count} respostas distribuídas nos 12 eixos. Confira sua posição em cada eixo e com quem você mais combina.`,
   resultsLeadShared:
-    'Resultado compartilhado: a posição em cada um dos 12 eixos políticos e as correspondências ideológicas calculadas a partir dele. Faça o teste para descobrir o seu.',
+    'Resultado compartilhado: a posição em cada um dos 12 eixos e as compatibilidades calculadas a partir dela. Faça o teste para descobrir o seu.',
   resultsSummaryAria: 'Resumo da análise',
+  resultsEmptyCatalog: 'Os catálogos de ideias de jogo, times e treinadores ainda estão sendo montados.',
   metaTop: 'Top match',
-  axesSectionEyebrow: 'Eixos políticos',
+  axesSectionEyebrow: 'Eixos do futebol',
   axesSectionTitle: 'Seus 12 eixos',
-  proximityEyebrow: 'Proximidade ideológica',
-  otherMatches: 'Outras ideologias',
+  proximityEyebrow: 'Proximidade',
+  otherMatches: 'Outras ideias de jogo',
   navOnThisPage: 'Nesta página',
   resultsNavAxes: 'Os 12 eixos',
   resultsNavSignature: 'O que te distingue',
-  resultsNavCountries: 'Países',
-  resultsNavPersonalities: 'Personalidades',
-  resultsNavAreas: 'Áreas de atuação',
-  resultsNavBooks: 'Para ler',
-  resultsNavIdeologies: 'Outras ideologias',
-  resultsNavCompass: 'Bússola política',
-  compassTitle: 'Bússola política',
-  compassAuthoritarian: 'Autoritarismo',
-  compassLibertarian: 'Anarquismo',
-  compassLeft: 'Esquerda',
-  compassRight: 'Direita',
-  compassProgressive: 'Progressista',
-  compassTraditionalist: 'Tradicionalista',
+  resultsNavTeams: 'Times',
+  resultsNavManagers: 'Treinadores',
+  resultsNavCategories: 'Por categoria',
+  resultsNavFootballIdeologies: 'Outras ideias de jogo',
+  resultsNavCompass: 'Bússola',
+  compassTitle: 'Bússola do futebol',
+  compassWith: 'com',
+  compassBalanced: (axis) => `equilíbrio em ${axis.toLowerCase()}`,
   compassInfo: {
-    aria: 'Como a bússola política é feita',
+    aria: 'Como a bússola é feita',
     title: 'Como a bússola é feita',
-    authLead: 'O eixo autoritário × libertário',
-    authText: 'mede o grau de concentração do poder político e de intervenção do Estado sobre a vida dos indivíduos. Considera três dimensões principais: liberdades individuais, representação política e estrutura do Estado.',
-    econLead: 'O eixo esquerda × direita',
-    econText: 'mede o quanto sua posição é de esquerda ou de direita, sobretudo pela organização da economia: de propriedade coletiva, planejamento e protecionismo, de um lado, a propriedade privada, livre mercado e abertura comercial, do outro. Considera principalmente economia, controle e comércio, com influência secundária de imigração e moral.',
-    socialLead: 'O eixo social',
-    socialText: 'mede a orientação dos seus valores entre progressismo e tradicionalismo, refletindo sua posição em questões de costumes, cultura e valores sociais.'
+    xText: 'é o eixo horizontal: da posse, à esquerda, ao contra-ataque, à direita.',
+    yText: 'é o eixo vertical: da pressão alta, em cima, ao bloco baixo, embaixo.',
+    stripText: 'é a barra: do espetáculo ao resultado.'
   },
-  compassWith: 'com valores sociais',
-  compassSocialValues: '',
-  compassCenterLeft: 'Centro-esquerda',
-  compassCenterRight: 'Centro-direita',
-  compassSpectrumLabels: {
-    'esq-radical': 'Esquerda radical',
-    esquerda: 'Esquerda',
-    centro: 'Centrista',
-    direita: 'Direita',
-    'ext-direita': 'Extrema direita',
-    terceira: 'Terceira posição',
-    libertario: 'Libertário',
-    anarquismo: 'Anarquista'
-  },
-  compassSocialLabels: {
-    veryProgressive: 'Fortemente progressistas',
-    progressive: 'Progressistas',
-    moderate: 'Moderados',
-    traditional: 'Tradicionalistas',
-    veryTraditional: 'Fortemente tradicionalistas'
-  },
-  compassAria: (right, authoritarian, traditional) =>
-    `Sua posição: ${right}% rumo à direita, ${authoritarian}% rumo ao autoritarismo e ${traditional}% rumo ao tradicionalismo.`,
-  countriesSectionTitle: 'Países mais próximos de você',
-  countryCurrentTab: 'País atual',
-  countryHistoricalTab: 'Experiência histórica',
-  countriesDistantTitle: 'Os mais distantes de você',
-  personalitiesSectionTitle: 'Personalidades mais próximas de você',
-  personalitiesByAreaTitle: 'Também próximos, por área de atuação',
+  compassAria: (counter, deep, result) =>
+    `Sua posição: ${counter}% rumo ao contra-ataque, ${deep}% rumo ao bloco baixo e ${result}% rumo ao resultado.`,
+  teamsSectionTitle: 'Times mais próximos de você',
+  teamsDistantTitle: 'Os mais distantes de você',
+  managersSectionTitle: 'Treinadores mais próximos de você',
   dimensionsTitle: 'Também próximos, por dimensão do seu perfil',
   dimensionLabels: {
-    political: 'Politicamente',
-    social: 'Socialmente',
-    economic: 'Economicamente',
+    tactics: 'Taticamente',
+    philosophy: 'Filosoficamente',
+    management: 'Na gestão'
   },
-  booksEyebrow: 'Para ir além',
-  booksTitle: 'Para ler',
-  booksTopLabel: 'Mais próxima de você',
-  booksAuthorLabel: 'Autor',
-  booksLead: 'Uma obra de cada uma das personalidades mais próximas dos seus resultados.',
-  booksWhy: (pct) => `${pct}% compatível`,
-  booksYearBc: (year) => `${year} a.C.`,
-  booksCta: 'Ver na Amazon',
   areasGeneralTitle: 'Os mais próximos dos seus resultados',
-  areasSectionTitle: 'Os mais próximos por área de atuação',
-  areasTabsAria: 'Modo de exibição das personalidades',
+  areasSectionTitle: 'Os mais próximos por categoria',
+  areasTabsAria: 'Modo de exibição dos treinadores',
   areasGeneralTab: 'Compatibilidade geral',
-  areasByAreaTab: 'Área de atuação',
-  personalitiesDistantTitle: 'As mais distantes de você',
-  ideologyDistantTitle: 'A ideologia mais distante de você',
+  areasByAreaTab: 'Categoria',
+  managersDistantTitle: 'Os mais distantes de você',
+  footballIdeologyDistantTitle: 'A ideia de jogo mais distante de você',
   phraseTitle: 'Uma frase que te descreve',
-  aboutIdeology: (ideology) => `Sobre o ${ideology}`,
+  phraseNote: (idea) => `É assim que alguém do ${idea} resumiria o futebol que quer.`,
+  aboutFootballIdeology: (idea) => `Sobre o ${idea}`,
   knowMoreAbout: (name) => `Saber mais sobre ${name}`,
   showLess: 'Mostrar menos',
   matchTopKicker: 'Mais compatível',
   dimensionsTitleShort: 'Também próximos, por dimensão',
-  phraseNote: (ideology) => `É assim que alguém do ${ideology} resumiria a sociedade que quer.`,
   signatureTitle: 'O que te distingue',
   signatureUnusualLabel: 'Sua posição mais incomum',
   signatureCommonLabel: 'Sua posição mais comum',
-  signatureUnusualLead: (pole, percent) => `Você puxa mais para ${pole.toLowerCase()} que ${Math.round(percent)}% das ideologias do catálogo.`,
-  signatureUnusualLeadMax: (pole) => `Nenhuma ideologia do catálogo puxa tanto para ${pole.toLowerCase()} quanto você.`,
+  signatureUnusualLead: (pole, percent) => `Você puxa mais para ${pole.toLowerCase()} que ${Math.round(percent)}% das ideias de jogo do catálogo.`,
+  signatureUnusualLeadMax: (pole) => `Nenhuma ideia de jogo do catálogo puxa tanto para ${pole.toLowerCase()} quanto você.`,
   signatureUnusualLeadBalanced: (axis, pole, percent) =>
-    `Sua posição em ${axis} é de meio-termo. Mesmo assim, isso já te coloca mais para ${pole.toLowerCase()} que ${Math.round(percent)}% das ideologias do catálogo.`,
+    `Sua posição em ${axis} é de meio-termo. Mesmo assim, isso já te coloca mais para ${pole.toLowerCase()} que ${Math.round(percent)}% das ideias de jogo do catálogo.`,
   signatureUnusualNote: (axis) => `De todos os 12 eixos, ${axis} é onde você mais se afasta do conjunto. É o traço que mais te diferencia.`,
   signatureCommonLead: (axis) => `Sua posição em ${axis} é praticamente a mediana do catálogo.`,
   signatureCommonNote: (pole) => `Aqui você está em terreno comum. Não puxa para ${pole.toLowerCase()} nem para o polo oposto.`,
   signatureCommonNoteBalanced: (axis) => `Você fica no centro em ${axis}, e o catálogo também. É onde seu perfil menos se distingue.`,
   tensionLabel: 'Sua tensão interna',
   tensionCombo: (firstPole, secondPole) => `${firstPole} e ${secondPole} ao mesmo tempo`,
-  tensionRare: (count, total) => `Só ${count} das ${total} ideologias do catálogo juntam essas duas posições.`,
-  tensionUnique: 'Nenhuma ideologia do catálogo junta essas duas posições.',
+  tensionRare: (count, total) => `Só ${count} das ${total} ideias de jogo do catálogo juntam essas duas posições.`,
+  tensionUnique: 'Nenhuma ideia de jogo do catálogo junta essas duas posições.',
   tensionExamples: (names) => `Quem chega perto: ${names}.`,
   tensionNote: (firstAxis, secondAxis) => `No catálogo, ${firstAxis} e ${secondAxis} costumam andar na mesma direção. Você inverte esse padrão.`,
-  signatureMedian: 'Mediana das ideologias',
+  signatureMedian: 'Mediana das ideias de jogo',
   signatureYou: 'Você',
-  signatureBigCap: (pole) => `das ideologias puxam menos que você para ${pole.toLowerCase()}.`,
+  signatureBigCap: (pole) => `das ideias de jogo puxam menos que você para ${pole.toLowerCase()}.`,
   signatureAtMedian: 'Na mediana',
   signatureAtCentre: 'No centro',
-  tensionRareShort: (count, total) => `Só ${count} de ${total} ideologias juntam essas duas posições.`,
-  personalityCategories: {
-    politico: 'Política',
-    religioso: 'Religião',
-    economista: 'Economia',
-    filosofo: 'Filosofia',
-    teorico: 'Teoria política',
-    empresario: 'Empresariado',
-    intelectual: 'Vida intelectual',
-    ativista: 'Ativismo',
-  },
-  futPositions: {
-    politico: 'POL',
-    religioso: 'REL',
-    economista: 'ECO',
-    filosofo: 'FIL',
-    teorico: 'TEO',
-    empresario: 'EMP',
-    intelectual: 'INT',
-    ativista: 'ATV',
-  },
+  tensionRareShort: (count, total) => `Só ${count} de ${total} ideias de jogo juntam essas duas posições.`,
+  managerCategories: {},
+  futPosition: 'TÉC',
   futOpenAria: (name, rating) => `${name}, ${rating} de compatibilidade: ver detalhes`,
-  pesPrev: 'País anterior',
-  pesNext: 'Próximo país',
+  pesPrev: 'Time anterior',
+  pesNext: 'Próximo time',
   pesStarsAria: (stars) => `${stars} de 5 estrelas`,
   pesPickAria: (label, name) => `${label}: ${name}`,
   similarityNote: 'Os números mostram o quanto vocês pensam parecido (0 a 100%), não força nem importância.',
@@ -901,12 +636,12 @@ const pt: Strings = {
   generatingPdf: 'Gerando PDF...',
   downloadPdf: 'Download PDF',
   report: {
-    fileName: '12axes-relatorio',
+    fileName: '12axes-football-relatorio',
     docLabel: 'Relatório completo',
-    profileEyebrow: 'Seu perfil ideológico',
-    headerLabel: (ideology) => `Relatório do perfil político · ${ideology}`,
-    kpiCountry: 'País mais próximo',
-    kpiPersonality: 'Personalidade',
+    profileEyebrow: 'Seu perfil de futebol',
+    headerLabel: (idea) => `Relatório do perfil · ${idea}`,
+    kpiTeam: 'Time mais próximo',
+    kpiManager: 'Treinador',
     kpiAxes: 'Eixos analisados',
     kpiAnswered: (count) => `${count} perguntas respondidas`,
     tocTitle: 'Neste relatório',
@@ -916,21 +651,21 @@ const pt: Strings = {
     intensityLevels: ['Equilibrado · até 57%', 'Inclinado · 58 a 72%', 'Forte · 73 a 87%', 'Muito forte · 88% ou mais'],
     alsoClose: 'Também próximos, por dimensão do seu perfil',
     continued: 'continuação',
-    areasIntro: 'As personalidades do catálogo cujo perfil nos 12 eixos mais se parece com o seu.',
-    booksIntro: 'Uma obra de cada uma das personalidades mais próximas dos seus resultados.',
+    areasIntro: 'Os treinadores do catálogo cujo perfil nos 12 eixos mais se parece com o seu.',
     aboutTitle: 'Sobre este relatório',
-    aboutText: 'O 12 Axes compara suas respostas com perfis de ideologias, países e personalidades nos mesmos 12 eixos. A compatibilidade mede proximidade entre perfis; não é diagnóstico científico nem rótulo definitivo. Suas respostas não são armazenadas.',
+    aboutText:
+      'O 12 Axes Football compara suas respostas com perfis de ideias de jogo, times e treinadores nos mesmos 12 eixos. A compatibilidade mede proximidade entre perfis; não é rótulo definitivo. Suas respostas não são armazenadas.',
     ctaTitle: 'Refaça o teste ou compartilhe'
   },
-  shareFilePrefix: '12axes-perfil',
-  shareMessage: (ideology, ideologyPct, country, countryPct, personality, personalityPct) =>
-    `Descobri meu perfil ideológico no Quiz Político 12 Axes!\n\n` +
-    `💡 Ideologia mais compatível:\n` +
-    `${ideology} - ${ideologyPct}% de compatibilidade\n\n` +
-    `🌎 País/Nação mais compatível:\n` +
-    `${country} - ${countryPct}% de compatibilidade\n\n` +
-    `👤 Personalidade mais compatível:\n` +
-    `${personality} - ${personalityPct}% de compatibilidade\n\n` +
+  shareFilePrefix: '12axes-football-perfil',
+  shareMessage: (idea, ideaPct, team, teamPct, manager, managerPct) =>
+    `Descobri meu perfil de futebol no 12 Axes Football!\n\n` +
+    `⚽ Ideia de jogo mais compatível:\n` +
+    `${idea} - ${ideaPct}% de compatibilidade\n\n` +
+    `🏟️ Time mais compatível:\n` +
+    `${team} - ${teamPct}% de compatibilidade\n\n` +
+    `📋 Treinador mais compatível:\n` +
+    `${manager} - ${managerPct}% de compatibilidade\n\n` +
     `👉 Faça o teste e compartilhe seu resultado:\nhttps://12axes.vercel.app/`,
   progress: (current, total) => `Pergunta ${current} de ${total}`,
   progressDone: (percent) => `${percent}% concluído`,
@@ -938,13 +673,11 @@ const pt: Strings = {
   archetypeStep: (current, total) => `${current} de ${total}`,
   progressAria: (percent) => `Progresso do quiz: ${percent}%`,
   answersAria: 'Opções de resposta',
-  countryKicker: 'País mais compatível',
-  flagLabel: 'Bandeira',
-  flagHistoricLabel: 'Bandeira / símbolo histórico',
-  flagAlt: (label, name) => `${label} de ${name}`,
-  flagUnavailable: 'Bandeira indisponível',
-  flagUnavailableAria: (name) => `Bandeira indisponível de ${name}`,
-  personalityKicker: 'Personalidade mais compatível',
+  teamKicker: 'Time mais compatível',
+  crestAlt: (name) => `Escudo de ${name}`,
+  crestUnavailable: 'Escudo indisponível',
+  crestUnavailableAria: (name) => `Escudo indisponível de ${name}`,
+  managerKicker: 'Treinador mais compatível',
   portraitAlt: (name) => `Retrato de ${name}`,
   portraitUnavailableAria: (name) => `Retrato indisponível de ${name}`,
   compatibilityAria: (pct) => `Compatibilidade: ${pct} por cento`,
@@ -956,26 +689,25 @@ const pt: Strings = {
     low: 'Compatibilidade baixa',
     veryLow: 'Compatibilidade muito baixa'
   },
-  shareTitle: 'Seu perfil ideológico | 12axes.vercel.app',
+  shareTitle: 'Seu perfil de futebol | 12axes.vercel.app',
   shareTopMatch: 'Top match',
-  shareCountry: 'País mais compatível',
-  sharePersonality: 'Personalidade',
+  shareTeam: 'Time mais compatível',
+  shareManager: 'Treinador',
   shareResultLabel: 'MEU RESULTADO',
   shareMostCompatible: 'MAIS COMPATÍVEL',
   shareYourAxes: 'SEUS 12 EIXOS',
-  shareOtherPersonalities: 'OUTRAS PERSONALIDADES',
-  shareNearbyCountries: 'PAÍSES PRÓXIMOS',
+  shareOtherManagers: 'OUTROS TREINADORES',
+  shareNearbyTeams: 'TIMES PRÓXIMOS',
   shareFooterCta: 'DESCUBRA SEU PERFIL',
   shareFooterUrl: '12AXES.VERCEL.APP',
-  supportEyebrow: 'Apoie o projeto',
-  supportTitle: '',
   ossEyebrow: 'Código aberto',
   ossTitle: 'Um projeto independente e transparente',
-  ossLead: 'Você não precisa confiar na nossa palavra. O código do 12 Axes é público: dá para ver como cada resposta é pontuada, como a compatibilidade é calculada e de onde vêm os perfis.',
+  ossLead:
+    'Você não precisa confiar na nossa palavra. O código é público: dá para ver como cada resposta é pontuada, como a compatibilidade é calculada e de onde vêm os perfis.',
   ossCards: [
-    { title: 'Independente', text: 'Sem vínculo com partidos, governos ou campanhas. Ninguém paga para aparecer no seu resultado.' },
+    { title: 'Independente', text: 'Sem vínculo com clubes, ligas ou patrocinadores. Ninguém paga para aparecer no seu resultado.' },
     { title: 'Auditável', text: 'A pontuação das respostas e o cálculo de compatibilidade estão no código, sem caixa-preta.' },
-    { title: 'Verificável', text: 'Perguntas, ideologias, países e personalidades ficam em arquivos versionados, com histórico público.' },
+    { title: 'Verificável', text: 'Perguntas e perfis ficam em arquivos versionados, com as fontes de cada pesquisa.' },
     { title: 'Colaborativo', text: 'Achou uma pergunta enviesada ou um perfil impreciso? Abra uma issue ou envie um pull request.' }
   ],
   ossBarText: 'Leia o código, audite os dados e contribua pelo GitHub.',
@@ -983,53 +715,13 @@ const pt: Strings = {
   ossIssueCta: 'Sugerir melhoria',
   feedbackTitle: 'Encontrou um problema ou tem uma ideia?',
   feedbackReport: 'Reportar um problema',
-  feedbackSuggest: 'Sugerir melhorias',
-  supportTitleEm: 'Apoie',
-  supportLead:
-    'O 12 Axes é independente e gratuito. Se o teste te ajudou a entender melhor sua ideologia política, considere fazer uma doação via Pix ou criptomoedas para manter o projeto no ar.',
-  supportPrivacyNote: 'Não coletamos dados. Para doar sem se identificar, use criptomoedas.',
-  supportCopy: 'Copiar',
-  supportCopied: 'Copiado!',
-  supportCopyAria: (label) => `Copiar endereço de ${label}`,
-  supportCoins: [
-    {
-      id: 'pix',
-      name: 'Pix',
-      network: 'Chave aleatória',
-      address: 'bf3e8e0b-27fe-4845-b5e2-358ca0281847'
-    },
-    {
-      id: 'btc',
-      name: 'Bitcoin',
-      network: 'On-chain',
-      address: 'bc1qsuy8r8gvl39apjykqzlgh7hku79ecarezhz2zj'
-    },
-    {
-      id: 'lightning',
-      name: 'Bitcoin',
-      network: 'Lightning',
-      address: 'lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk2ctnw3jhymnsv96kcwfsa0gczg'
-    },
-    {
-      id: 'eth',
-      name: 'Ethereum',
-      network: 'ERC-20',
-      address: '0xDe821e55D6101AA42D05DBf2C07ad0BB866C23a5'
-    },
-    {
-      id: 'xmr',
-      name: 'Monero',
-      network: 'XMR',
-      address:
-        '85Du1EuRPkybMVXTVptC6z31dsGPpTthsiMKM3yjY7YE24BUCkyNMd9Q82kwe5CvE7BegtDTNxaG8VwYdVvTgbjDU6DpuN1'
-    }
-  ]
+  feedbackSuggest: 'Sugerir melhorias'
 };
 
 const en: Strings = {
   htmlLang: 'en',
-  docTitle: '12 Axes — Free Political Test, Quiz & Compass Across 12 Axes',
-  loadingAnalysis: 'Loading political analysis...',
+  docTitle: '12 Axes Football — Football Philosophy Quiz Across 12 Axes',
+  loadingAnalysis: 'Loading analysis...',
   loadingQuiz: 'Loading quiz...',
   loadingResult: 'Loading results...',
   tryAgain: 'Try again',
@@ -1042,69 +734,47 @@ const en: Strings = {
   resumeBody: (answered, total) => `You have answered ${answered} of ${total} questions. Your answers are saved in this browser.`,
   resumeContinue: 'Continue',
   resumeDiscard: 'Start over',
-  resumeUnavailable: 'The previous quiz could not be resumed. Please start a new one.',
+  resumeUnavailable: 'The previous quiz could not be resumed. Start a new one.',
   skipToContent: 'Skip to content',
   backToStartAria: 'Back to start',
   mainNavAria: 'Main navigation',
   navHow: 'How it works',
   navAxes: '12 Axes',
-  navSpectrum: 'Spectrum',
   navFaq: 'FAQ',
-  navIdeologies: 'Ideologies',
-  navPersonalities: 'Personalities',
-  navCountries: 'Countries',
-  navSupport: 'Support',
   langToggleLabel: 'PT',
   langToggleAria: 'Mudar para português',
   redoQuiz: 'Retake quiz',
-  religionLabel: 'Religion',
-  religionQuestion: 'Do you follow a religion? We only use this to tailor your recommendations.',
-  religionNone: 'No religion',
-  religionNames: {
-    christianity: 'Christianity',
-    judaism: 'Judaism',
-    islam: 'Islam',
-    buddhism: 'Buddhism',
-    hinduism: 'Hinduism'
-  },
-  denominationLabel: 'Christian tradition',
-  denominationQuestion: 'Which Christian tradition do you follow?',
-  denominationNames: { catholic: 'Catholic', protestant: 'Protestant', orthodox: 'Orthodox' },
   restartQuiz: 'Restart quiz',
-  heroEyebrow: 'Political discovery',
-  h1Pre: 'Do you really know your ',
-  h1Em: 'political ideology',
+  heroEyebrow: 'Football philosophy',
+  h1Pre: 'What football ',
+  h1Em: 'do you believe in',
   h1Post: '?',
   introLead:
-    'You might be labeling yourself wrong. In a few minutes, discover your real ideology, the country that thinks most like you, and the political leader closest to your ideas.',
-  startQuiz: 'Discover my profile',
+    'Possession or counter-attack, high press or low block, spectacle or result. Answer and find the school of play, team and manager that match you best.',
+  startQuiz: 'Find my profile',
   seeAxes: 'See the 12 axes',
   heroLabels: ['Free', 'Anonymous', 'Fast', 'Instant result'],
-  heroTeaserLabel: 'match',
-  heroTeaserTag: 'Example result',
-  heroDeckDot: (position, total) => `Show example ${position} of ${total}`,
-  heroDeckAlt: (ideology) => `Example of the shareable result card: ${ideology}`,
   formats: {
     short: {
-      label: 'Short',
+      label: 'Quick',
       questionCount: '36 questions',
-      description: 'A quick result, ideal for a first reading of your profile',
+      description: 'A fast result, ideal for a first read of your profile.',
       duration: 'About 5 min',
-      action: 'Start short version'
+      action: 'Start the quick version'
     },
     extended: {
       label: 'Full',
       questionCount: '60 questions',
-      description: 'More precision to bring your result closer to the ideological profiles.',
+      description: 'More precision to bring your result closer to the catalog profiles.',
       duration: 'About 9 min',
-      action: 'Start full version'
+      action: 'Start the full version'
     },
     extreme: {
       label: 'Extreme',
       questionCount: '240 questions',
-      description: 'Know the exact synthesis of your thinking with 100% precision.',
+      description: 'Every question on every axis, for the most faithful picture of your football.',
       duration: 'About 30 min',
-      action: 'Start extreme version'
+      action: 'Start the extreme version'
     }
   },
   axisInfoAria: (label) => `What does the ${label} axis mean?`,
@@ -1114,260 +784,140 @@ const en: Strings = {
   questionHelpTitle: 'About this question',
   questionHelpAgree: 'If you agree',
   questionHelpDisagree: 'If you disagree',
-  questionHelpNote: 'Worth remembering',
+  questionHelpNote: 'Keep in mind',
   closeLabel: 'Close',
-  personalityInfoAria: (name) => `See details about ${name}`,
-  closenessTitle: 'What brings you closer',
+  managerInfoAria: (name) => `See details for ${name}`,
+  closenessTitle: 'What brings you close',
   closenessYou: 'You',
-  compareEyebrow: 'Comparative analysis',
-  compareTitle: 'Comparative analysis',
-  compareLead: 'Pick a personality, country or ideology and see, axis by axis, where you are close or far apart.',
+  compareEyebrow: 'Comparison',
+  compareTitle: 'Comparison',
+  compareLead: 'Pick a manager, team or football idea and see, axis by axis, where you are close and where you differ.',
   compareSearchLabel: 'Search a profile to compare',
-  compareSearchPlaceholder: 'Search a personality, country or ideology',
+  compareSearchPlaceholder: 'Search a manager, team or football idea',
   compareView: 'View',
   compareAxesTitle: 'Your 12 axes',
-  compareNoResults: 'No profiles found.',
+  compareNoResults: 'No profile found.',
   compareLoading: 'Comparing…',
-  compareLoadError: 'Could not load the comparison. Please try again.',
-  compareTypeLabels: { personality: 'Personality', country: 'Country', ideology: 'Ideology' },
-  compareAxisAdverbs: {
-    estrutura: 'structurally',
-    economia: 'economically',
-    moral: 'morally',
-    tecnologia: 'technologically',
-    diplomacia: 'diplomatically'
-  },
+  compareLoadError: 'The comparison could not be loaded. Try again.',
+  compareTypeLabels: { manager: 'Manager', team: 'Team', 'football-ideology': 'Football idea' },
+  compareAxisAdverbs: {},
   compareClosestLine: (adverb, name) => `You are ${adverb} compatible with ${name}.`,
   compareFarthestLine: (adverb, name) => `You are ${adverb} distant from ${name}.`,
-  compareClosestFallback: (axis, name) => `In ${axis}, you are compatible with ${name}.`,
-  compareFarthestFallback: (axis, name) => `In ${axis}, you are distant from ${name}.`,
-  compareIdentical: (name) => `You and ${name} have practically identical positions on every axis.`,
+  compareClosestFallback: (axis, name) => `On ${axis}, you are compatible with ${name}.`,
+  compareFarthestFallback: (axis, name) => `On ${axis}, you are distant from ${name}.`,
+  compareIdentical: (name) => `You and ${name} hold practically identical positions on every axis.`,
   compareNearestLine: (axis, name) => `Your closest axis to ${name} is ${axis}.`,
   compareNoFarLine: (name) => `No axis is far from ${name}.`,
   compareValues: (pole, you, them, name) => `${pole}: you ${you}% · ${name} ${them}%.`,
   compareOptionAria: (name, type) => `${name}, ${type}`,
   axisExplanations: {
-    estrutura:
-      'Measures whether you prefer power distributed among states, cities, and local communities or a unitary national state with more uniform laws and command.',
-    representacao:
-      'Compares trust in elections, opposition, and democratic institutions with a preference for strong leadership, technocracy, monarchy, or authoritarian regimes.',
-    poder:
-      'Evaluates the balance between order, surveillance, punishment, and state control versus privacy, individual freedom, and civil autonomy.',
-    imigracao:
-      'Looks at whether you value cultural assimilation, language, and national identity or multiculturalism, open migration, and plurality of customs.',
-    diplomacia:
-      'Analyzes your position on armed forces, weapons, deterrence, and military intervention in contrast with negotiation, pacifism, and international organizations.',
-    intervencao:
-      'Measures the leaning between external non-interventionism and more assertive national sovereignty, geopolitical nationalism, and active defense of national interests.',
-    economia:
-      'Compares a preference for public ownership, state companies, and collective services with private property, privatization, and business leadership.',
-    controle:
-      'Evaluates state planning, regulation, and active economic policy against free markets, low interference, monetary autonomy, and competition.',
-    comercio:
-      'Measures protectionism, productive sovereignty, and defense of national industry against globalism, free trade, and international economic integration.',
-    religiao:
-      'Compares secularism, separation of religion and state, and criticism of religious privileges with the public influence of faith and religious values.',
-    moral:
-      'Evaluates cultural progressivism, civil rights, and social change in contrast with tradition, family, customs, and moral conservatism.',
-    tecnologia:
-      'Measures enthusiasm for technology, AI, genetic engineering, and technical development against biological, environmental, and preservationist caution.'
+    pos: 'Whether your team should want the ball and control the game with it, or give up possession and hurt the opponent on the counter.',
+    pro: 'Patient build-up, from the back with short passes, against direct play that looks for the attack in as few touches as possible.',
+    est: 'Whether players should hold fixed, rehearsed positions or come close and swap places freely around the ball.',
+    lar: 'Whether attacks should go through the middle, with central combinations, or down the wings, with wingers, full-backs and crosses.',
+    blo: 'Pressing high, right after losing the ball and near the opponent’s box, against dropping into a compact low block.',
+    mar: 'Whether the defence should mark spaces (zone) or opponents (man), following each one wherever he goes.',
+    pla: 'Whether the team should impose its own identity in every game or change the plan to fit the opponent.',
+    res: 'Playing to entertain, with bold attacking football, against playing to win, accepting ugly when it gets results.',
+    sis: 'Whether the trained collective system decides games, or individual talent with freedom for the stars to settle them.',
+    jog: 'Whether the ideal player is the technician who treats the ball well, or the athlete who is strong, fast and tireless.',
+    bas: 'Giving minutes to young players and building the squad, against trusting experienced, ready-made players.',
+    lid: 'Whether the manager should lead with authority and discipline, or with dialogue, trust and harmony in the dressing room.'
   },
   homeAxes: {
-    estrutura: { label: 'Structure', leftPole: 'Federal', rightPole: 'Unitary' },
-    representacao: { label: 'Representation', leftPole: 'Democracy', rightPole: 'Autocracy' },
-    poder: { label: 'Power', leftPole: 'Security', rightPole: 'Liberty' },
-    imigracao: { label: 'Immigration', leftPole: 'Assimilation', rightPole: 'Multiculturalism' },
-    diplomacia: { label: 'Diplomacy', leftPole: 'Militarist', rightPole: 'Pacifist' },
-    intervencao: { label: 'Intervention', leftPole: 'Non-interventionist', rightPole: 'Nationalist' },
-    economia: { label: 'Economy', leftPole: 'Public', rightPole: 'Private' },
-    controle: { label: 'Control', leftPole: 'Planning', rightPole: 'Free market' },
-    comercio: { label: 'Trade', leftPole: 'Protectionism', rightPole: 'Globalism' },
-    religiao: { label: 'Religion', leftPole: 'Irreligious', rightPole: 'Religious' },
-    moral: { label: 'Morality', leftPole: 'Progressive', rightPole: 'Traditionalist' },
-    tecnologia: { label: 'Technology', leftPole: 'Technology', rightPole: 'Biology' }
+    pos: { label: 'Possession', leftPole: 'Ball', rightPole: 'Counter' },
+    pro: { label: 'Progression', leftPole: 'Patient build-up', rightPole: 'Direct play' },
+    est: { label: 'Structure', leftPole: 'Positional', rightPole: 'Relational' },
+    lar: { label: 'Width', leftPole: 'Through the middle', rightPole: 'Down the wings' },
+    blo: { label: 'Block', leftPole: 'Press high', rightPole: 'Sit deep' },
+    mar: { label: 'Marking', leftPole: 'Zone', rightPole: 'Man' },
+    pla: { label: 'Game plan', leftPole: 'Own identity', rightPole: 'Adapt to the opponent' },
+    res: { label: 'Purpose', leftPole: 'Spectacle', rightPole: 'Result' },
+    sis: { label: 'Who decides', leftPole: 'System', rightPole: 'Talent' },
+    jog: { label: 'Player type', leftPole: 'Technique', rightPole: 'Physicality' },
+    bas: { label: 'Squad', leftPole: 'Youth', rightPole: 'Experience' },
+    lid: { label: 'Leadership', leftPole: 'Authority', rightPole: 'Harmony' }
   },
-  spectrumItems: [
-    {
-      id: 'left-radical',
-      label: 'Radical left',
-      tone: 'darkred',
-      description:
-        'Revolutionary or totalitarian single-party communism, with a planned economy, strong centralization, and concentrated state power.'
-    },
-    {
-      id: 'left',
-      label: 'Left',
-      tone: 'green',
-      description:
-        'Advocates social democracy, progressivism, and greater state intervention in the economy within liberal democracy.'
-    },
-    {
-      id: 'center',
-      label: 'Center',
-      tone: 'gray',
-      description:
-        'Seeks balance between left and right, market and state, reform and stability, with a moderate or pragmatic political stance.'
-    },
-    {
-      id: 'right',
-      label: 'Right',
-      tone: 'blue',
-      description:
-        'Advocates conservatism, economic liberalism, and moderate nationalism within liberal democracy.'
-    },
-    {
-      id: 'right-extreme',
-      label: 'Far-right',
-      tone: 'navy',
-      description:
-        'Fascism, racial nationalism, and oppressive theocracies, with explicit rejection of democracy and authoritarian concentration of power.'
-    },
-    {
-      id: 'third-position',
-      label: 'Third position',
-      tone: 'purple',
-      description:
-        'A nationalist, corporatist synthesis that rejects both liberal capitalism and Marxism, outside the traditional left-right axis.'
-    },
-    {
-      id: 'libertarian',
-      label: 'Libertarian',
-      tone: 'amber',
-      description:
-        'Advocates a minimal state, free markets, private property, and individual liberties, without proposing the total abolition of the state.'
-    },
-    {
-      id: 'anarchist',
-      label: 'Anarchist',
-      tone: 'charcoal',
-      description:
-        'Rejects the state and all coercive authority, advocating free, voluntary, and self-managed social organization, from the left or the right.'
-    }
-  ],
   faqItems: [
     {
-      question: 'Is the test reliable?',
+      question: 'What is 12 Axes Football?',
       answer:
-        'The 12 Axes political test is reliable as a tool for reading and comparing political positions. It uses questions spread across 12 axes to reduce single-topic bias, but it does not replace study, debate, or academic analysis.'
+        'A free quiz that measures your football philosophy on 12 axes (possession, progression, structure, width, block, marking, game plan, purpose, who decides, player type, squad and leadership) and compares your profile with schools of play, teams and managers.'
     },
     {
       question: 'How long does it take?',
       answer:
-        'The short version takes about 5 minutes. The full version takes roughly 9 minutes. The extreme version, with 240 questions, can take about 30 minutes.'
-    },
-    {
-      question: 'Can I retake it?',
-      answer:
-        'Yes. You can retake the political quiz as many times as you like, including choosing another depth to compare whether your result changes.'
+        'The quick version takes about 5 minutes. The full version takes roughly 9 minutes. The extreme version, with 240 questions, can take about 30 minutes.'
     },
     {
       question: 'Is there a right answer?',
-      answer:
-        'There is no right answer. The ideology test measures preferences about democracy, monarchy, federalism, immigration, religion in politics, economic policy, international trade, liberalism, conservatism, progressivism, and other topics.'
+      answer: 'No. Guardiola and Simeone both won a lot playing in opposite ways. The quiz measures preferences, not correctness.'
     },
     {
-      question: 'How does the algorithm calculate?',
+      question: 'How does the algorithm work?',
       answer:
-        'Each answer adds points to a specific pole. The algorithm calculates percentages per axis, compares your ideological vector with the profiles of political currents, countries, and personalities, and returns the highest compatibilities.'
+        'Each answer adds points to one pole of an axis. The algorithm computes percentages per axis, compares your vector with the profiles of football ideas, teams and managers, and shows the closest matches.'
     },
     {
-      question: 'Does the result change?',
+      question: 'How are team and manager profiles made?',
       answer:
-        'It can change if your opinions change, if you answer with more nuance, or if you take a longer version. The extreme version tends to reduce fluctuations by using more questions.'
+        'Each profile starts with research that has sources, dates and a fixed period. Then the profile answers the same questions you do, one by one.'
     },
     {
-      question: 'Is the test scientific?',
-      answer:
-        '12 Axes is not a clinically validated scientific instrument. It is an educational political test, inspired by political spectrum models and ideology quizzes, useful for reflection and comparison.'
+      question: 'Can I retake it?',
+      answer: 'Yes, as many times as you like, including with another depth to see whether your result changes.'
     },
     {
-      question: 'Can I share it?',
+      question: 'Does the quiz collect data?',
       answer:
-        'Yes. When you finish, you can share your result to discuss political ideology, the political spectrum, left, right, center, and the 12 axes with other people.'
-    },
-    {
-      question: 'Does the test collect data?',
-      answer:
-        'The test is anonymous and requires no sign-up. Answers are used to calculate the result at quiz time, without asking for your name, email, or personal identification.'
+        'The quiz is anonymous and needs no sign-up. Answers are only used to compute your result at quiz time, without asking for your name, email or any personal identification.'
     },
     {
       question: 'Can I take it on my phone?',
-      answer:
-        'Yes. The interface was designed for mobile and desktop, so you can take the political test in your smartphone browser.'
-    },
-    {
-      question: 'What is 12 Axes?',
-      answer: '12 Axes is a free political test that measures your position across 12 axes (state structure, representation, liberties, immigration, diplomacy, intervention, economy, economic control, trade, religion, morals and technology) and shows your compatible political ideology, country and political figure.'
-    },
-    {
-      question: 'Does 12 Axes have a political compass?',
-      answer: 'Yes. At the end of the result there is a two-axis political compass, left × right and authoritarian × libertarian, with a progressive × traditionalist bar. It summarizes your 12 axes visually, but it does not replace the full analysis.'
-    },
-    {
-      question: 'How do I find my compatible political ideology?',
-      answer: 'Take the political quiz, with 36, 60 or 240 questions. The result shows the ideologies most compatible with your answers, with the compatibility percentage and the position of each one across the 12 axes.'
-    },
-    {
-      question: 'Can I find out which country or political figure matches me?',
-      answer: 'Yes. Besides ideology, the result compares your profile with current countries, historical regimes and political figures, showing the most compatible and the furthest from you.'
-    },
-    {
-      question: 'How many questions does the political quiz have?',
-      answer: 'There are three versions: quick, with 36 questions, full, with 60, and extreme, with 240. All cover the same 12 axes; the more questions, the more precise the result tends to be.'
+      answer: 'Yes. The interface was designed for mobile and desktop.'
     }
   ],
   howEyebrow: 'How it works',
-  howTitle: 'How the 12 Axes political quiz works',
-  howLead:
-    'A simple, visual political ideology test: you respond to statements, 12 Axes calculates your percentages, and shows where you stand on the political spectrum in each dimension.',
+  howTitle: 'How 12 Axes Football works',
+  howLead: 'You answer statements about how football should be played and run, and 12 Axes works out where you stand on each dimension.',
   steps: [
     {
       title: 'Answer the questions',
-      text: 'Agree or disagree with statements about the economy, the state, civil liberties, values, religion, foreign policy, and technology.'
+      text: 'Agree or disagree with statements about tactics, philosophy of play and squad management.'
     },
     {
-      title: 'Analysis across 12 axes',
-      text: 'Each answer positions you on 12 independent ideological axes - from free markets to planning, from nationalism to globalism.'
+      title: 'Analysis on 12 axes',
+      text: 'Each answer places you on 12 independent axes, from possession to counter-attack, from high press to low block.'
     },
     {
-      title: 'Discover your profile',
-      text: 'Receive your ideological profile, most compatible ideologies, closest country, related personality, and per-axis results.'
+      title: 'Find your profile',
+      text: 'See where you stand on each axis and which football ideas, teams and managers match you best.'
     }
   ],
   axesGuideEyebrow: '12 axes',
   axesGuideTitle: 'What does each axis mean?',
   axesGuideLead:
-    'The 12 Axes ideology test analyzes federalism, political representation, democracy, elections, immigration, international trade, religion in politics, economic policy, morality, and technology in separate dimensions.',
-  discoveryEyebrow: 'What you will discover',
-  discoveryTitle: 'A complete portrait of your political convictions',
-  discoveryLead:
-    'More than left or right: your result shows who, where, and how strongly your ideas actually align.',
+    'Six tactical axes, four on philosophy of play and two on management. Each one is measured separately, so your result keeps unusual combinations.',
+  discoveryEyebrow: 'What you will find out',
+  discoveryTitle: 'A full picture of your football',
+  discoveryLead: 'More than a label: your result shows who your ideas match, and how strongly.',
   discoveryItems: [
-    { icon: 'ideology', title: 'Your ideology', text: 'Which political current matches you' },
-    { icon: 'country', title: 'Your country', text: 'Which nation thinks most like you' },
-    { icon: 'personality', title: 'Your political leader', text: 'Which historical figure is your ideological match' },
-    { icon: 'spectrum', title: 'Your spectrum', text: 'Where you fall between left and right' },
-    { icon: 'profile', title: 'Your profile', text: 'A complete portrait of your convictions' },
-    { icon: 'compatibility', title: 'Compatibility', text: 'How much you truly agree with your own ideology' }
+    { icon: 'footballIdeology', title: 'Your football idea', text: 'Which school of football matches you' },
+    { icon: 'team', title: 'Your team', text: 'Which team played the way you like' },
+    { icon: 'manager', title: 'Your manager', text: 'Which coach thinks about the game like you' },
+    { icon: 'compass', title: 'Your compass', text: 'Where you stand between possession and counter, press and block' },
+    { icon: 'profile', title: 'Your profile', text: 'Your position on each of the 12 axes' },
+    { icon: 'compatibility', title: 'Compatibility', text: 'How much you really agree with each profile' }
   ],
-  exampleEyebrow: 'Real example',
-  exampleTitle: "Here's what your result looks like",
-  exampleCaption: 'Illustrative example using real data from the 12 Axes catalog.',
-  exampleCta: 'I want to see my result',
-  spectrumEyebrow: 'Political spectrum',
-  spectrumTitle: 'Discover your political spectrum',
-  spectrumLead:
-    'The result helps you visualize your political position between left, right, and center, and also identifies more radical, authoritarian, or libertarian forms that fall outside that axis, such as far-right, radical left, third position, libertarianism, and anarchism.',
   faqTitle: 'Frequently asked questions',
-  faqLead: 'Everything people usually ask before taking the test.',
+  faqLead: 'Everything people usually ask before taking the quiz.',
   navStart: 'Start',
   menuAria: 'Open menu',
   roseAria: 'Rose of the 12 axes',
-  spectrumBarAria: 'Political spectrum bar with the eight categories',
   versionsEyebrow: 'Versions',
   versionsTitle: 'Choose the depth',
   versionsLead:
-    'Start with the quick quiz or go deeper for a more precise portrait of your ideological profile. All versions use the same 12 axes and return the result immediately.',
+    'Start with the quick quiz or go deeper for a more precise picture. Every version uses the same 12 axes and shows the result right away.',
   variantEyebrow: 'Choose the format',
   variantTitlePre: 'Do you want speed or ',
   variantTitleEm: 'precision?',
@@ -1375,167 +925,109 @@ const en: Strings = {
   depthLabel: 'Depth',
   depthAria: (level) => `Depth ${level} of 3`,
   recommended: 'Recommended',
-  formatNotes: ['All versions use the same 12 axes', 'Anonymous, no sign-up', 'Instant result'],
-  variantLead:
-    'The short version reveals the result quickly. The full version increases precision to bring your result closer to the ideological profiles.',
+  formatNotes: ['Every version uses the same 12 axes', 'Anonymous, no sign-up', 'Instant result'],
+  variantLead: 'The quick version gives a fast result. The full version adds precision.',
   quizNavAria: 'Quiz navigation',
   autoAdvance: 'Advance on answer',
   back: 'Back',
   next: 'Next',
   calculating: 'Calculating…',
-  seeResult: 'See results',
+  seeResult: 'See result',
   archetypeSkip: 'Skip',
-  errMissingAnswer: 'You still need to answer this question before seeing the result.',
-  errLoadQuiz: 'Could not load the quiz.',
-  errCalc: 'Could not calculate the result.',
-  errImage: 'Could not generate the result image.',
+  errMissingAnswer: 'This question still needs an answer before you can see the result.',
+  errLoadQuiz: 'The quiz could not be loaded.',
+  errCalc: 'The result could not be calculated.',
+  errImage: 'The result image could not be generated.',
   errHttp: (status) => `HTTP error ${status}`,
   resultsEyebrow: 'Analysis complete',
-  resultsH1Pre: 'Your ideological ',
-  resultsH1Em: 'profile',
+  resultsH1Pre: 'Your ',
+  resultsH1Em: 'football profile',
   resultsLead: (count) =>
-    `Analysis based on ${count} answers distributed across 12 fundamental dimensions of political ideology. Check your position on each axis and your ideological matches.`,
+    `Analysis based on ${count} answers spread across the 12 axes. See where you stand on each axis and who you match best.`,
   resultsLeadShared:
-    'Shared result: the position on each of the 12 political axes and the ideological matches calculated from it. Take the test to discover yours.',
+    'Shared result: the position on each of the 12 axes and the matches calculated from it. Take the quiz to find yours.',
   resultsSummaryAria: 'Analysis summary',
+  resultsEmptyCatalog: 'The catalogs of football ideas, teams and managers are still being built.',
   metaTop: 'Top match',
-  axesSectionEyebrow: 'Political axes',
+  axesSectionEyebrow: 'Football axes',
   axesSectionTitle: 'Your 12 axes',
-  proximityEyebrow: 'Ideological proximity',
-  otherMatches: 'Other ideologies',
+  proximityEyebrow: 'Proximity',
+  otherMatches: 'Other football ideas',
   navOnThisPage: 'On this page',
   resultsNavAxes: 'The 12 axes',
   resultsNavSignature: 'What sets you apart',
-  resultsNavCountries: 'Countries',
-  resultsNavPersonalities: 'Figures',
-  resultsNavAreas: 'Fields',
-  resultsNavBooks: 'Further reading',
-  resultsNavIdeologies: 'Other ideologies',
-  resultsNavCompass: 'Political compass',
-  compassTitle: 'Political compass',
-  compassAuthoritarian: 'Authoritarianism',
-  compassLibertarian: 'Anarchism',
-  compassLeft: 'Left',
-  compassRight: 'Right',
-  compassProgressive: 'Progressive',
-  compassTraditionalist: 'Traditionalist',
-  compassInfo: {
-    aria: 'How the political compass is made',
-    title: 'How the compass is made',
-    authLead: 'The authoritarian × libertarian axis',
-    authText: 'measures the degree of concentration of political power and of state intervention in the lives of individuals. It considers three main dimensions: individual liberties, political representation and state structure.',
-    econLead: 'The left × right axis',
-    econText: 'measures how far left or right you sit, mostly through how the economy is organized: from collective ownership, planning and protectionism on one side to private property, free markets and open trade on the other. It mainly considers economy, control and trade, with secondary influence from immigration and morals.',
-    socialLead: 'The social axis',
-    socialText: 'measures the orientation of your values between progressivism and traditionalism, reflecting your position on customs, culture and social values.'
-  },
+  resultsNavTeams: 'Teams',
+  resultsNavManagers: 'Managers',
+  resultsNavCategories: 'By category',
+  resultsNavFootballIdeologies: 'Other football ideas',
+  resultsNavCompass: 'Compass',
+  compassTitle: 'Football compass',
   compassWith: 'with',
-  compassSocialValues: 'social values',
-  compassCenterLeft: 'Center-left',
-  compassCenterRight: 'Center-right',
-  compassSpectrumLabels: {
-    'esq-radical': 'Radical left',
-    esquerda: 'Left',
-    centro: 'Centrist',
-    direita: 'Right',
-    'ext-direita': 'Far-right',
-    terceira: 'Third position',
-    libertario: 'Libertarian',
-    anarquismo: 'Anarchist'
+  compassBalanced: (axis) => `balance on ${axis.toLowerCase()}`,
+  compassInfo: {
+    aria: 'How the compass is made',
+    title: 'How the compass is made',
+    xText: 'is the horizontal axis: from possession, on the left, to counter-attack, on the right.',
+    yText: 'is the vertical axis: from high press, at the top, to low block, at the bottom.',
+    stripText: 'is the bar: from spectacle to result.'
   },
-  compassSocialLabels: {
-    veryProgressive: 'Strongly progressive',
-    progressive: 'Progressive',
-    moderate: 'Moderate',
-    traditional: 'Traditionalist',
-    veryTraditional: 'Strongly traditionalist'
-  },
-  compassAria: (right, authoritarian, traditional) =>
-    `Your position: ${right}% toward the right, ${authoritarian}% toward authoritarian and ${traditional}% toward traditionalist.`,
-  countriesSectionTitle: 'Countries closest to you',
-  countryCurrentTab: 'Present-day',
-  countryHistoricalTab: 'Historical',
-  countriesDistantTitle: 'Furthest from you',
-  personalitiesSectionTitle: 'Figures closest to you',
-  personalitiesByAreaTitle: 'Also close to you, by field',
-  dimensionsTitle: 'Also close to you, by dimension of your profile',
+  compassAria: (counter, deep, result) =>
+    `Your position: ${counter}% toward counter-attack, ${deep}% toward a low block and ${result}% toward result.`,
+  teamsSectionTitle: 'Teams closest to you',
+  teamsDistantTitle: 'The most distant from you',
+  managersSectionTitle: 'Managers closest to you',
+  dimensionsTitle: 'Also close, by dimension of your profile',
   dimensionLabels: {
-    political: 'Politically',
-    social: 'Socially',
-    economic: 'Economically',
+    tactics: 'Tactically',
+    philosophy: 'Philosophically',
+    management: 'In management'
   },
-  booksEyebrow: 'Go further',
-  booksTitle: 'Further reading',
-  booksTopLabel: 'Closest to you',
-  booksAuthorLabel: 'Author',
-  booksLead: 'One work by each of the figures closest to your results.',
-  booksWhy: (pct) => `${pct}% compatible`,
-  booksYearBc: (year) => `${year} BC`,
-  booksCta: 'See on Amazon',
-  areasGeneralTitle: 'The closest figures to your results',
-  areasSectionTitle: 'The closest figures by field',
-  areasTabsAria: 'How figures are grouped',
+  areasGeneralTitle: 'The closest to your results',
+  areasSectionTitle: 'The closest by category',
+  areasTabsAria: 'How to show managers',
   areasGeneralTab: 'Overall compatibility',
-  areasByAreaTab: 'Field',
-  personalitiesDistantTitle: 'Furthest from you',
-  ideologyDistantTitle: 'The ideology furthest from you',
+  areasByAreaTab: 'Category',
+  managersDistantTitle: 'The most distant from you',
+  footballIdeologyDistantTitle: 'The football idea most distant from you',
   phraseTitle: 'A sentence that describes you',
-  aboutIdeology: (ideology) => `About ${ideology}`,
+  phraseNote: (idea) => `This is how someone from ${idea} would sum up the football they want.`,
+  aboutFootballIdeology: (idea) => `About ${idea}`,
   knowMoreAbout: (name) => `Learn more about ${name}`,
   showLess: 'Show less',
   matchTopKicker: 'Most compatible',
   dimensionsTitleShort: 'Also close, by dimension',
-  phraseNote: (ideology) => `This is how someone from ${ideology} would sum up the society they want.`,
   signatureTitle: 'What sets you apart',
   signatureUnusualLabel: 'Your most unusual position',
-  signatureCommonLabel: 'Your most typical position',
-  signatureUnusualLead: (pole, percent) => `You lean further toward ${pole.toLowerCase()} than ${Math.round(percent)}% of the ideologies in the catalog.`,
-  signatureUnusualLeadMax: (pole) => `No ideology in the catalog leans as far toward ${pole.toLowerCase()} as you do.`,
+  signatureCommonLabel: 'Your most common position',
+  signatureUnusualLead: (pole, percent) => `You lean further toward ${pole.toLowerCase()} than ${Math.round(percent)}% of the football ideas in the catalog.`,
+  signatureUnusualLeadMax: (pole) => `No football idea in the catalog leans as far toward ${pole.toLowerCase()} as you do.`,
   signatureUnusualLeadBalanced: (axis, pole, percent) =>
-    `Your position on ${axis} is middle of the road. Even so, that puts you further toward ${pole.toLowerCase()} than ${Math.round(percent)}% of the ideologies in the catalog.`,
-  signatureUnusualNote: (axis) => `Of all 12 axes, ${axis} is where you depart most from the field. It is the trait that sets you apart.`,
-  signatureCommonLead: (axis) => `Your position on ${axis} sits almost exactly at the catalog median.`,
-  signatureCommonNote: (pole) => `This is common ground. You lean neither toward ${pole.toLowerCase()} nor to the opposite pole.`,
-  signatureCommonNoteBalanced: (axis) => `You sit at the centre on ${axis}, and so does the catalog. This is where your profile stands out least.`,
-  tensionLabel: 'Your internal tension',
+    `Your position on ${axis} is middle-ground. Even so, that already puts you further toward ${pole.toLowerCase()} than ${Math.round(percent)}% of the football ideas in the catalog.`,
+  signatureUnusualNote: (axis) => `Of all 12 axes, ${axis} is where you stand furthest from the rest. It is the trait that sets you apart most.`,
+  signatureCommonLead: (axis) => `Your position on ${axis} is practically the catalog median.`,
+  signatureCommonNote: (pole) => `Here you are on common ground. You lean neither toward ${pole.toLowerCase()} nor toward the opposite pole.`,
+  signatureCommonNoteBalanced: (axis) => `You sit in the centre on ${axis}, and so does the catalog. It is where your profile stands out least.`,
+  tensionLabel: 'Your inner tension',
   tensionCombo: (firstPole, secondPole) => `${firstPole} and ${secondPole} at the same time`,
-  tensionRare: (count, total) => `Only ${count} of the ${total} ideologies in the catalog hold both of these positions.`,
-  tensionUnique: 'No ideology in the catalog holds both of these positions.',
-  tensionExamples: (names) => `Closest matches: ${names}.`,
-  tensionNote: (firstAxis, secondAxis) => `In the catalog, ${firstAxis} and ${secondAxis} usually move together. You reverse that pattern.`,
-  signatureMedian: 'Ideology median',
+  tensionRare: (count, total) => `Only ${count} of the ${total} football ideas in the catalog combine these two positions.`,
+  tensionUnique: 'No football idea in the catalog combines these two positions.',
+  tensionExamples: (names) => `Coming close: ${names}.`,
+  tensionNote: (firstAxis, secondAxis) => `In the catalog, ${firstAxis} and ${secondAxis} usually move in the same direction. You reverse that pattern.`,
+  signatureMedian: 'Median of football ideas',
   signatureYou: 'You',
-  signatureBigCap: (pole) => `of the ideologies lean less toward ${pole.toLowerCase()} than you do.`,
+  signatureBigCap: (pole) => `of football ideas lean less than you toward ${pole.toLowerCase()}.`,
   signatureAtMedian: 'At the median',
   signatureAtCentre: 'At the centre',
-  tensionRareShort: (count, total) => `Only ${count} of ${total} ideologies hold both of these positions.`,
-  personalityCategories: {
-    politico: 'Politics',
-    religioso: 'Religion',
-    economista: 'Economics',
-    filosofo: 'Philosophy',
-    teorico: 'Political theory',
-    empresario: 'Business',
-    intelectual: 'Intellectual life',
-    ativista: 'Activism',
-  },
-  futPositions: {
-    politico: 'POL',
-    religioso: 'REL',
-    economista: 'ECO',
-    filosofo: 'PHI',
-    teorico: 'THE',
-    empresario: 'BUS',
-    intelectual: 'INT',
-    ativista: 'ACT',
-  },
+  tensionRareShort: (count, total) => `Only ${count} of ${total} football ideas combine these two positions.`,
+  managerCategories: {},
+  futPosition: 'MGR',
   futOpenAria: (name, rating) => `${name}, ${rating} compatibility: see details`,
-  pesPrev: 'Previous country',
-  pesNext: 'Next country',
-  pesStarsAria: (stars) => `${stars} out of 5 stars`,
+  pesPrev: 'Previous team',
+  pesNext: 'Next team',
+  pesStarsAria: (stars) => `${stars} of 5 stars`,
   pesPickAria: (label, name) => `${label}: ${name}`,
-  similarityNote: 'Numbers show how alike you think (0 to 100%), not strength or importance.',
-  matchShort: 'match',
+  similarityNote: 'The numbers show how alike you think (0 to 100%), not strength or importance.',
+  matchShort: 'affinity',
   agreeTitle: 'Where you agree most',
   pesKeysHint: 'Use ← → to switch',
   redoAnalysis: 'Retake analysis',
@@ -1545,50 +1037,48 @@ const en: Strings = {
   generatingPdf: 'Generating PDF...',
   downloadPdf: 'Download PDF',
   report: {
-    fileName: '12axes-report',
+    fileName: '12axes-football-report',
     docLabel: 'Full report',
-    profileEyebrow: 'Your ideological profile',
-    headerLabel: (ideology) => `Political profile report · ${ideology}`,
-    kpiCountry: 'Closest country',
-    kpiPersonality: 'Figure',
-    kpiAxes: 'Axes analyzed',
+    profileEyebrow: 'Your football profile',
+    headerLabel: (idea) => `Profile report · ${idea}`,
+    kpiTeam: 'Closest team',
+    kpiManager: 'Manager',
+    kpiAxes: 'Axes analysed',
     kpiAnswered: (count) => `${count} questions answered`,
     tocTitle: 'In this report',
     generatedOn: (date) => `Generated on ${date}`,
-    axesIntro: 'Your position on each of the 12 axes. The bar starts at the center (50%) and extends toward the pole you lean to; the badge shows the intensity.',
+    axesIntro: 'Your position on each of the 12 axes. The bar starts at the centre (50%) and runs toward the pole you lean to; the badge shows the intensity.',
     intensityLegend: 'Intensity',
     intensityLevels: ['Balanced · up to 57%', 'Leaning · 58 to 72%', 'Strong · 73 to 87%', 'Very strong · 88% or more'],
     alsoClose: 'Also close, by dimension of your profile',
     continued: 'continued',
-    areasIntro: 'The figures in the catalog whose profile across the 12 axes most resembles yours.',
-    booksIntro: 'One work by each of the figures closest to your results.',
+    areasIntro: 'The managers in the catalog whose profile on the 12 axes looks most like yours.',
     aboutTitle: 'About this report',
-    aboutText: '12 Axes compares your answers with profiles of ideologies, countries and figures on the same 12 axes. Compatibility measures closeness between profiles; it is not a scientific diagnosis or a definitive label. Your answers are not stored.',
-    ctaTitle: 'Retake the quiz or share it'
+    aboutText:
+      '12 Axes Football compares your answers with profiles of football ideas, teams and managers on the same 12 axes. Compatibility measures how close two profiles are; it is not a definitive label. Your answers are not stored.',
+    ctaTitle: 'Retake the quiz or share'
   },
-  shareFilePrefix: '12axes-profile',
-  shareMessage: (ideology, ideologyPct, country, countryPct, personality, personalityPct) =>
-    `I discovered my ideological profile on the 12 Axes Political Quiz!\n\n` +
-    `💡 Most compatible ideology:\n` +
-    `${ideology} - ${ideologyPct}% compatibility\n\n` +
-    `🌎 Most compatible country/nation:\n` +
-    `${country} - ${countryPct}% compatibility\n\n` +
-    `👤 Most compatible personality:\n` +
-    `${personality} - ${personalityPct}% compatibility\n\n` +
-    `👉 Take the test and share your result:\nhttps://12axes.vercel.app/en`,
+  shareFilePrefix: '12axes-football-profile',
+  shareMessage: (idea, ideaPct, team, teamPct, manager, managerPct) =>
+    `I found my football profile on 12 Axes Football!\n\n` +
+    `⚽ Most compatible football idea:\n` +
+    `${idea} - ${ideaPct}% compatibility\n\n` +
+    `🏟️ Most compatible team:\n` +
+    `${team} - ${teamPct}% compatibility\n\n` +
+    `📋 Most compatible manager:\n` +
+    `${manager} - ${managerPct}% compatibility\n\n` +
+    `👉 Take the quiz and share your result:\nhttps://12axes.vercel.app/en`,
   progress: (current, total) => `Question ${current} of ${total}`,
-  progressDone: (percent) => `${percent}% complete`,
+  progressDone: (percent) => `${percent}% done`,
   archetypeHeader: 'Identifying your archetype',
   archetypeStep: (current, total) => `${current} of ${total}`,
   progressAria: (percent) => `Quiz progress: ${percent}%`,
   answersAria: 'Answer options',
-  countryKicker: 'Most compatible country',
-  flagLabel: 'Flag',
-  flagHistoricLabel: 'Flag / historical symbol',
-  flagAlt: (label, name) => `${label} of ${name}`,
-  flagUnavailable: 'Flag unavailable',
-  flagUnavailableAria: (name) => `Flag unavailable for ${name}`,
-  personalityKicker: 'Most compatible personality',
+  teamKicker: 'Most compatible team',
+  crestAlt: (name) => `Crest of ${name}`,
+  crestUnavailable: 'Crest unavailable',
+  crestUnavailableAria: (name) => `Crest unavailable for ${name}`,
+  managerKicker: 'Most compatible manager',
   portraitAlt: (name) => `Portrait of ${name}`,
   portraitUnavailableAria: (name) => `Portrait unavailable for ${name}`,
   compatibilityAria: (pct) => `Compatibility: ${pct} percent`,
@@ -1600,74 +1090,33 @@ const en: Strings = {
     low: 'Low compatibility',
     veryLow: 'Very low compatibility'
   },
-  shareTitle: 'My ideological profile | 12axes.vercel.app',
+  shareTitle: 'Your football profile | 12axes.vercel.app',
   shareTopMatch: 'Top match',
-  shareCountry: 'Most compatible country',
-  sharePersonality: 'Personality',
+  shareTeam: 'Most compatible team',
+  shareManager: 'Manager',
   shareResultLabel: 'MY RESULT',
   shareMostCompatible: 'MOST COMPATIBLE',
   shareYourAxes: 'YOUR 12 AXES',
-  shareOtherPersonalities: 'OTHER PERSONALITIES',
-  shareNearbyCountries: 'NEARBY COUNTRIES',
-  shareFooterCta: 'DISCOVER YOUR PROFILE',
+  shareOtherManagers: 'OTHER MANAGERS',
+  shareNearbyTeams: 'NEARBY TEAMS',
+  shareFooterCta: 'FIND YOUR PROFILE',
   shareFooterUrl: '12AXES.VERCEL.APP',
-  supportEyebrow: 'Support the project',
-  supportTitle: '',
   ossEyebrow: 'Open source',
   ossTitle: 'An independent, transparent project',
-  ossLead: "You don't have to take our word for it. The 12 Axes code is public: you can see how every answer is scored, how compatibility is calculated and where the profiles come from.",
+  ossLead:
+    'You do not have to take our word for it. The code is public: you can see how each answer is scored, how compatibility is calculated and where the profiles come from.',
   ossCards: [
-    { title: 'Independent', text: 'No ties to parties, governments or campaigns. Nobody pays to appear in your result.' },
-    { title: 'Auditable', text: 'Answer scoring and the compatibility calculation live in the code, with no black box.' },
-    { title: 'Verifiable', text: 'Questions, ideologies, countries and personalities are stored in versioned files with a public history.' },
+    { title: 'Independent', text: 'No ties to clubs, leagues or sponsors. Nobody pays to appear in your result.' },
+    { title: 'Auditable', text: 'Answer scoring and the compatibility calculation are in the code, with no black box.' },
+    { title: 'Verifiable', text: 'Questions and profiles live in versioned files, with the sources of each research run.' },
     { title: 'Collaborative', text: 'Found a biased question or an inaccurate profile? Open an issue or send a pull request.' }
   ],
   ossBarText: 'Read the code, audit the data and contribute on GitHub.',
-  ossGithubCta: 'View on GitHub',
+  ossGithubCta: 'See on GitHub',
   ossIssueCta: 'Suggest an improvement',
   feedbackTitle: 'Found a problem or have an idea?',
   feedbackReport: 'Report a problem',
-  feedbackSuggest: 'Suggest improvements',
-  supportTitleEm: 'Support',
-  supportLead:
-    '12 Axes is independent and free. If the quiz helped you better understand your political ideology, consider donating via Pix or crypto to help keep the project running.',
-  supportPrivacyNote: "We don't collect data. To donate without identifying yourself, use crypto.",
-  supportCopy: 'Copy',
-  supportCopied: 'Copied!',
-  supportCopyAria: (label) => `Copy ${label} address`,
-  supportCoins: [
-    {
-      id: 'pix',
-      name: 'Pix',
-      network: 'Random key',
-      address: 'bf3e8e0b-27fe-4845-b5e2-358ca0281847'
-    },
-    {
-      id: 'btc',
-      name: 'Bitcoin',
-      network: 'On-chain',
-      address: 'bc1qsuy8r8gvl39apjykqzlgh7hku79ecarezhz2zj'
-    },
-    {
-      id: 'lightning',
-      name: 'Bitcoin',
-      network: 'Lightning',
-      address: 'lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk2ctnw3jhymnsv96kcwfsa0gczg'
-    },
-    {
-      id: 'eth',
-      name: 'Ethereum',
-      network: 'ERC-20',
-      address: '0xDe821e55D6101AA42D05DBf2C07ad0BB866C23a5'
-    },
-    {
-      id: 'xmr',
-      name: 'Monero',
-      network: 'XMR',
-      address:
-        '85Du1EuRPkybMVXTVptC6z31dsGPpTthsiMKM3yjY7YE24BUCkyNMd9Q82kwe5CvE7BegtDTNxaG8VwYdVvTgbjDU6DpuN1'
-    }
-  ]
+  feedbackSuggest: 'Suggest improvements'
 };
 
 export const t: Strings = LANG === 'en' ? en : pt;

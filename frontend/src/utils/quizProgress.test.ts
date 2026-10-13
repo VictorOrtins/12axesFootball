@@ -6,11 +6,11 @@ const NOW = 1_800_000_000_000;
 
 function progress(overrides: Partial<SavedProgress> = {}): SavedProgress {
   return {
-    v: 2,
+    v: 3,
     variant: 'extreme',
-    questionIds: ['estrutura_01', 'poder_02', 'moral_03'],
-    answers: { estrutura_01: 'AGREE', poder_02: 'STRONGLY_DISAGREE' },
-    archetypeChoices: { sociedade: 'A' },
+    questionIds: ['pos_01', 'blo_02', 'res_03'],
+    answers: { pos_01: 'AGREE', blo_02: 'STRONGLY_DISAGREE' },
+    archetypeChoices: { vestiario: 'A' },
     stage: 'quiz',
     index: 2,
     savedAt: NOW - 1000,
@@ -27,7 +27,7 @@ function payload(): QuizPayload {
     questionsPerAxis: 0,
     axes: [],
     answerOptions: [],
-    questions: ['moral_03', 'estrutura_01', 'poder_02', 'tecnologia_04'].map((id) => ({
+    questions: ['res_03', 'pos_01', 'blo_02', 'lid_04'].map((id) => ({
       id,
       axisId: id.split('_')[0],
       text: id,
@@ -47,33 +47,9 @@ describe('parseProgress', () => {
     expect(parseProgress(null, NOW)).toBeNull();
     expect(parseProgress('{quebrado', NOW)).toBeNull();
     expect(parseProgress(JSON.stringify(progress({ v: 99 })), NOW)).toBeNull();
-    expect(parseProgress(JSON.stringify(progress({ v: 0 })), NOW)).toBeNull();
+    expect(parseProgress(JSON.stringify(progress({ v: 2 })), NOW)).toBeNull();
   });
 
-  // O hinduísmo ocupou a letra E da pergunta de religião e "sem religião" passou de E para F.
-  it('migra progresso v1: "sem religião" (E) vira F e a versão sobe para 2', () => {
-    const migrated = parseProgress(
-      JSON.stringify(progress({ v: 1, archetypeChoices: { sociedade: 'A', religiao: 'E' } })),
-      NOW
-    );
-    expect(migrated?.v).toBe(2);
-    expect(migrated?.archetypeChoices).toEqual({ sociedade: 'A', religiao: 'F' });
-  });
-
-  it('migra progresso v1 sem mexer nas letras A-D da religião nem na vertente cristã', () => {
-    for (const letter of ['A', 'B', 'C', 'D']) {
-      const migrated = parseProgress(
-        JSON.stringify(progress({ v: 1, archetypeChoices: { religiao: letter, denominacao: 'B' } })),
-        NOW
-      );
-      expect(migrated?.archetypeChoices).toEqual({ religiao: letter, denominacao: 'B' });
-    }
-  });
-
-  it('progresso v2: E é o hinduísmo e continua E', () => {
-    const saved = progress({ archetypeChoices: { religiao: 'E' } });
-    expect(parseProgress(JSON.stringify(saved), NOW)?.archetypeChoices.religiao).toBe('E');
-  });
 
   it('descarta progresso antigo demais', () => {
     const tooOld = progress({ savedAt: NOW - 8 * 24 * 60 * 60 * 1000 });
@@ -81,7 +57,7 @@ describe('parseProgress', () => {
   });
 
   it('descarta resposta, variante ou etapa desconhecidas', () => {
-    expect(parseProgress(JSON.stringify(progress({ answers: { estrutura_01: 'TALVEZ' as never } })), NOW)).toBeNull();
+    expect(parseProgress(JSON.stringify(progress({ answers: { pos_01: 'TALVEZ' as never } })), NOW)).toBeNull();
     expect(parseProgress(JSON.stringify(progress({ variant: 'enorme' as never })), NOW)).toBeNull();
     expect(parseProgress(JSON.stringify(progress({ stage: 'fim' as never })), NOW)).toBeNull();
     expect(parseProgress(JSON.stringify(progress({ questionIds: [] })), NOW)).toBeNull();
@@ -92,18 +68,18 @@ describe('parseProgress', () => {
 describe('restoreQuiz', () => {
   it('remonta as perguntas na ordem guardada, mesmo que o servidor mande em outra', () => {
     const quiz = restoreQuiz(payload(), progress());
-    expect(quiz?.questions.map((q) => q.id)).toEqual(['estrutura_01', 'poder_02', 'moral_03']);
+    expect(quiz?.questions.map((q) => q.id)).toEqual(['pos_01', 'blo_02', 'res_03']);
     expect(quiz?.questionCount).toBe(3);
     expect(quiz?.variant).toBe('extreme');
   });
 
   it('não retoma se alguma pergunta deixou de existir', () => {
-    expect(restoreQuiz(payload(), progress({ questionIds: ['estrutura_01', 'removida_99'] }))).toBeNull();
+    expect(restoreQuiz(payload(), progress({ questionIds: ['pos_01', 'removida_99'] }))).toBeNull();
   });
 });
 
 describe('answeredCount', () => {
   it('conta só respostas de perguntas desta sequência', () => {
-    expect(answeredCount(progress({ answers: { estrutura_01: 'AGREE', fora_01: 'AGREE' } }))).toBe(1);
+    expect(answeredCount(progress({ answers: { pos_01: 'AGREE', fora_01: 'AGREE' } }))).toBe(1);
   });
 });

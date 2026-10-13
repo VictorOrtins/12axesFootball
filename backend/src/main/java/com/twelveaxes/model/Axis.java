@@ -1,7 +1,7 @@
 package com.twelveaxes.model;
 
 /**
- * Representa um eixo político utilizado no cálculo e na exibição
+ * Representa um eixo do futebol utilizado no cálculo e na exibição
  * dos resultados do quiz.
  *
  * Cada eixo possui dois polos ideológicos opostos e suas respectivas

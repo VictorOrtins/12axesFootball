@@ -1,21 +1,21 @@
 import { useState } from 'react';
 import { t } from '../../i18n';
-import type { Axis, AxisResult, PersonalityMatch } from '../../types/quiz';
+import type { Axis, AxisResult, ManagerMatch } from '../../types/quiz';
 import { topAgreements } from '../../utils/agreement';
 import { FutCard } from './FutCard';
-import { PersonalityInfoSheet } from './PersonalitiesSection';
+import { ManagerInfoSheet } from './ManagersSection';
 import { SimilarityNote, Tabs } from './parts';
 
 interface AreasSectionProps {
   axes: Axis[];
   results: Map<string, AxisResult>;
-  generalMatches: PersonalityMatch[];
-  areaMatches: PersonalityMatch[];
+  generalMatches: ManagerMatch[];
+  areaMatches: ManagerMatch[];
 }
 
 export function AreasSection({ generalMatches, areaMatches, axes, results }: AreasSectionProps) {
   const [tab, setTab] = useState<'general' | 'area'>('general');
-  const [info, setInfo] = useState<PersonalityMatch | null>(null);
+  const [info, setInfo] = useState<ManagerMatch | null>(null);
   const matches = tab === 'general' ? generalMatches : areaMatches;
 
   if (generalMatches.length === 0 && areaMatches.length === 0) {
@@ -37,13 +37,13 @@ export function AreasSection({ generalMatches, areaMatches, axes, results }: Are
       />
       <ol className="fut-grid">
         {matches.map((match, index) => (
-          <li key={match.personalityId}>
+          <li key={match.managerId}>
             <span className="fut-label">{String(index + 1).padStart(2, '0')}</span>
             <FutCard match={match} stats={topAgreements(match.vector, axes, results, 6)} onOpen={() => setInfo(match)} />
           </li>
         ))}
       </ol>
-      {info && <PersonalityInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
+      {info && <ManagerInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
     </section>
   );
 }

@@ -97,8 +97,8 @@ export interface AxisResult {
   intensity: string;
 }
 
-export interface IdeologyMatch {
-  ideologyId: string;
+export interface FootballIdeologyMatch {
+  footballIdeologyId: string;
   name: string;
   category: string;
   description: string;
@@ -107,58 +107,34 @@ export interface IdeologyMatch {
   compatibility: number;
 }
 
-export interface CountryMatch {
-  countryId: string;
+export interface TeamMatch {
+  teamId: string;
   name: string;
   category: string;
   description: string;
-  flagPath: string;
-  flagKind?: string;
-  flagSourceName?: string;
-  flagSourceUrl?: string;
-  flagNote?: string;
-  historical: boolean;
   period: string;
-  compatibility: number;
-  /** Vetor de 12 eixos (leftPercent) do país. */
-  vector?: Record<string, number>;
-}
-
-export type PersonalityCategory =
-  | 'politico'
-  | 'religioso'
-  | 'economista'
-  | 'filosofo'
-  | 'teorico'
-  | 'empresario'
-  | 'intelectual'
-  | 'ativista';
-
-export interface PersonalityMatch {
-  personalityId: string;
-  name: string;
-  role: string;
-  category: PersonalityCategory;
-  lifespan: string;
-  description: string;
-  imagePath: string;
+  imagePath?: string | null;
   imageSourceName?: string;
   imageSourceUrl?: string;
   imageNote?: string;
   compatibility: number;
-  /** Vetor de 12 eixos (leftPercent) da personalidade. */
+  /** Vetor de 12 eixos (leftPercent) do time. */
   vector?: Record<string, number>;
 }
 
-export interface BookRecommendation {
-  personalityId: string;
-  personalityName: string;
-  imagePath: string;
-  title: string;
-  /** Ano da primeira publicação; negativo = a.C. */
-  year?: number;
-  url: string;
+export interface ManagerMatch {
+  managerId: string;
+  name: string;
+  category: string;
+  period: string;
+  description: string;
+  imagePath?: string | null;
+  imageSourceName?: string;
+  imageSourceUrl?: string;
+  imageNote?: string;
   compatibility: number;
+  /** Vetor de 12 eixos (leftPercent) do treinador. */
+  vector?: Record<string, number>;
 }
 
 export interface AxisOutlier {
@@ -178,59 +154,55 @@ export interface AxisTension {
   firstPole: string;
   secondAxisLabel: string;
   secondPole: string;
-  matchingIdeologies: number;
+  matchingFootballIdeologies: number;
   catalogSize: number;
   examples: string[];
 }
 
-export type ProfileDimension = 'political' | 'social' | 'economic';
+export type ProfileDimension = 'tactics' | 'philosophy' | 'management';
 
-export interface DimensionMatch {
+export interface ManagerDimensionMatch {
   dimension: ProfileDimension;
-  match: PersonalityMatch;
+  match: ManagerMatch;
 }
 
-export interface CountryDimensionMatch {
+export interface TeamDimensionMatch {
   dimension: ProfileDimension;
-  match: CountryMatch;
+  match: TeamMatch;
 }
 
+/** Com um catálogo vazio, os destaques dele vêm null e as listas vazias. */
 export interface QuizResult {
   axes: AxisResult[];
-  topMatch: IdeologyMatch;
-  matches: IdeologyMatch[];
-  bottomIdeologyMatch: IdeologyMatch;
-  topCountryMatch: CountryMatch;
-  topCountryMatches: CountryMatch[];
-  topHistoricalCountryMatch: CountryMatch;
-  countryDimensionMatches: CountryDimensionMatch[];
-  bottomCountryMatches: CountryMatch[];
-  topPersonalityMatch: PersonalityMatch;
-  personalityMatches: PersonalityMatch[];
-  dimensionMatches: DimensionMatch[];
-  categoryBestMatches: PersonalityMatch[];
-  bottomPersonalityMatches: PersonalityMatch[];
-  mostUnusualAxis: AxisOutlier;
-  mostCommonAxis: AxisOutlier;
-  // null quando o perfil nao contraria padrao nenhum (centristas e moderados).
+  topMatch: FootballIdeologyMatch | null;
+  matches: FootballIdeologyMatch[];
+  bottomFootballIdeologyMatch: FootballIdeologyMatch | null;
+  topTeamMatch: TeamMatch | null;
+  topTeamMatches: TeamMatch[];
+  teamDimensionMatches: TeamDimensionMatch[];
+  bottomTeamMatches: TeamMatch[];
+  topManagerMatch: ManagerMatch | null;
+  managerMatches: ManagerMatch[];
+  managerDimensionMatches: ManagerDimensionMatch[];
+  categoryBestMatches: ManagerMatch[];
+  bottomManagerMatches: ManagerMatch[];
+  mostUnusualAxis: AxisOutlier | null;
+  mostCommonAxis: AxisOutlier | null;
+  // null quando o perfil nao contraria padrao nenhum (moderados).
   axisTension: AxisTension | null;
-  /** Até 3 livros das personalidades mais compatíveis, com link de afiliado pronto. */
-  bookRecommendations?: BookRecommendation[];
 }
 
+export type CompareType = 'manager' | 'team' | 'football-ideology';
 
-export type CompareType = 'personality' | 'country' | 'ideology';
-
-/** Perfil pesquisável na seção de comparação (já filtrado pela religião do usuário). */
+/** Perfil pesquisável na seção de comparação. */
 export interface CompareItem {
   type: CompareType;
   id: string;
   name: string;
   caption: string;
-  /** Retrato (personalidade) ou bandeira (país); ausente nas ideologias. */
+  /** Foto (treinador) ou escudo (time); ausente nas ideias de jogo. */
   imagePath?: string | null;
   category: string;
-  historical: boolean;
 }
 
 export interface CompareDetail {

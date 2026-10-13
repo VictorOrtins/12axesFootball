@@ -1,99 +1,100 @@
 import type { Axis } from '../types/quiz';
 
+// Eixos exibidos na home antes de o quiz carregar (mesmos de backend/src/main/resources/data/axes.json).
 export const HOME_AXES: Axis[] = [
   {
-    id: 'estrutura',
-    label: 'Estrutura',
-    leftPole: 'Federal',
-    rightPole: 'Unitário',
+    id: 'pos',
+    label: 'Posse de bola',
+    leftPole: 'Posse',
+    rightPole: 'Contra-ataque',
     leftColor: '#2F6DC0',
     rightColor: '#CF5A22'
   },
   {
-    id: 'representacao',
-    label: 'Representação',
-    leftPole: 'Democracia',
-    rightPole: 'Autocracia',
+    id: 'pro',
+    label: 'Progressão',
+    leftPole: 'Construção paciente',
+    rightPole: 'Jogo direto',
     leftColor: '#12907F',
     rightColor: '#B02556'
   },
   {
-    id: 'poder',
-    label: 'Poder',
-    leftPole: 'Segurança',
-    rightPole: 'Liberdade',
+    id: 'est',
+    label: 'Estrutura',
+    leftPole: 'Posicional',
+    rightPole: 'Relacional',
     leftColor: '#3C5A80',
     rightColor: '#AD7A06'
   },
   {
-    id: 'imigracao',
-    label: 'Imigração',
-    leftPole: 'Assimilação',
-    rightPole: 'Multicultura',
+    id: 'lar',
+    label: 'Largura',
+    leftPole: 'Por dentro',
+    rightPole: 'Pelas pontas',
     leftColor: '#CC3456',
     rightColor: '#6A45C0'
   },
   {
-    id: 'diplomacia',
-    label: 'Diplomacia',
-    leftPole: 'Militarista',
-    rightPole: 'Pacifista',
+    id: 'blo',
+    label: 'Bloco',
+    leftPole: 'Pressão alta',
+    rightPole: 'Bloco baixo',
     leftColor: '#6A8425',
     rightColor: '#2D86C8'
   },
   {
-    id: 'intervencao',
-    label: 'Intervenção',
-    leftPole: 'Não intervencionista',
-    rightPole: 'Nacionalista',
+    id: 'mar',
+    label: 'Marcação',
+    leftPole: 'Zona',
+    rightPole: 'Individual',
     leftColor: '#3F8E5C',
     rightColor: '#B94A16'
   },
   {
-    id: 'economia',
-    label: 'Economia',
-    leftPole: 'Público',
-    rightPole: 'Privado',
+    id: 'pla',
+    label: 'Plano de jogo',
+    leftPole: 'Identidade própria',
+    rightPole: 'Adaptação',
     leftColor: '#D43A28',
     rightColor: '#8E6516'
   },
   {
-    id: 'controle',
-    label: 'Controle',
-    leftPole: 'Planejamento',
-    rightPole: 'Livre mercado',
+    id: 'res',
+    label: 'Propósito',
+    leftPole: 'Espetáculo',
+    rightPole: 'Resultado',
     leftColor: '#8A3AA0',
     rightColor: '#1A8A56'
   },
   {
-    id: 'comercio',
-    label: 'Comércio',
-    leftPole: 'Protecionismo',
-    rightPole: 'Globalismo',
+    id: 'sis',
+    label: 'Quem decide',
+    leftPole: 'Sistema',
+    rightPole: 'Talento',
     leftColor: '#9C5E2A',
     rightColor: '#0E86B0'
   },
   {
-    id: 'religiao',
-    label: 'Religião',
-    leftPole: 'Irreligioso',
-    rightPole: 'Religioso',
+    id: 'jog',
+    label: 'Tipo de jogador',
+    leftPole: 'Técnica',
+    rightPole: 'Força física',
     leftColor: '#C65E0E',
     rightColor: '#3B50B5'
   },
   {
-    id: 'moral',
-    label: 'Moral',
-    leftPole: 'Progressista',
-    rightPole: 'Tradicionalista',
+    id: 'bas',
+    label: 'Elenco',
+    leftPole: 'Jovens',
+    rightPole: 'Experiência',
     leftColor: '#D23E84',
     rightColor: '#74502C'
   },
   {
-    id: 'tecnologia',
-    label: 'Tecnologia',
-    leftPole: 'Tecnologia',
-    rightPole: 'Biologia',
+    id: 'lid',
+    label: 'Liderança',
+    leftPole: 'Autoridade',
+    rightPole: 'Harmonia',
     leftColor: '#5376B0',
     rightColor: '#4E9020'
   }

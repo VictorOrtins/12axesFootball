@@ -67,7 +67,7 @@ class AxisOutlierServiceTest {
     }
 
     // Um perfil todo em 50 nao pende para polo nenhum: dizer que ele e "mais
-    // democracia" ou "mais seguranca" seria arbitrario.
+    // posse" ou "mais contra-ataque" seria arbitrario.
     @Test
     void neutralProfileHasNoDominantPole() {
         var incomum = outlierService.findMostUnusual(axesNeutros(), QuizDataService.LANG_PT);

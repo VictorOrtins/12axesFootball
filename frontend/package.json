@@ -9,7 +9,6 @@
     "prebuild": "node scripts/generate-tokens.mjs",
     "build": "tsc --noEmit && vite build && node scripts/generate-pages.mjs",
     "generate:pages": "node scripts/generate-pages.mjs",
-    "optimize:images": "node scripts/optimize-images.mjs",
     "preview": "vite preview",
     "pretest": "node scripts/generate-tokens.mjs",
     "test": "vitest run",

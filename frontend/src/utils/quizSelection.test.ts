@@ -3,9 +3,8 @@ import { selectAllQuestionsBalanced, selectAndBalanceQuestions } from './quizSel
 import type { QuizPayload } from '../types/quiz';
 
 const AXIS_IDS = [
-  'estrutura', 'representacao', 'poder', 'imigracao',
-  'diplomacia', 'intervencao', 'economia', 'controle',
-  'comercio', 'religiao', 'moral', 'tecnologia',
+  'pos', 'pro', 'est', 'lar', 'blo', 'mar',
+  'pla', 'res', 'sis', 'jog', 'bas', 'lid',
 ];
 
 function makePool(questionsPerAxis: number, targetPerAxisSelection: number): QuizPayload {

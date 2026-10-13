@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fx-proativo",
+    "name": "Ideia fx-proativo",
+    "category": "Proativo",
+    "description": "Ideia de jogo de teste fx-proativo. Taticamente: pressão alta | Filosoficamente: identidade própria | Na gestão: aposta em jovens",
+    "phrase": "Quero jogar como fx-proativo.",
+    "teamId": "fx-time-1",
+    "managerId": "fx-treinador-1",
+    "vector": {}
+  },
+  {
+    "id": "fx-reativo",
+    "name": "Ideia fx-reativo",
+    "category": "Reativo",
+    "description": "Ideia de jogo de teste fx-reativo. Taticamente: pressão alta | Filosoficamente: identidade própria | Na gestão: aposta em jovens",
+    "phrase": "Quero jogar como fx-reativo.",
+    "teamId": "fx-time-2",
+    "managerId": "fx-treinador-2",
+    "vector": {}
+  },
+  {
+    "id": "fx-equilibrio",
+    "name": "Ideia fx-equilibrio",
+    "category": "Equilibrado",
+    "description": "Ideia de jogo de teste fx-equilibrio. Taticamente: pressão alta | Filosoficamente: identidade própria | Na gestão: aposta em jovens",
+    "phrase": "Quero jogar como fx-equilibrio.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {}
+  },
+  {
+    "id": "fx-tatico",
+    "name": "Ideia fx-tatico",
+    "category": "Proativo",
+    "description": "Ideia de jogo de teste fx-tatico. Taticamente: pressão alta | Filosoficamente: identidade própria | Na gestão: aposta em jovens",
+    "phrase": "Quero jogar como fx-tatico.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {}
+  },
+  {
+    "id": "fx-gestor",
+    "name": "Ideia fx-gestor",
+    "category": "Reativo",
+    "description": "Ideia de jogo de teste fx-gestor. Taticamente: pressão alta | Filosoficamente: identidade própria | Na gestão: aposta em jovens",
+    "phrase": "Quero jogar como fx-gestor.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {}
+  },
+  {
+    "id": "fx-hibrido",
+    "name": "Ideia fx-hibrido",
+    "category": "Híbrido",
+    "description": "Ideia de jogo de teste fx-hibrido. Taticamente: pressão alta | Filosoficamente: identidade própria | Na gestão: aposta em jovens",
+    "phrase": "Quero jogar como fx-hibrido.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {}
+  }
+]

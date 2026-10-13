@@ -1,11 +1,7 @@
 import { t } from '../i18n';
-import type { PersonalityMatch, QuizPayload, QuizResult } from '../types/quiz';
-import { resolveCountryFlagSrc } from './countryFlags';
-import { personalityInitials, resolvePersonalityImageSrc } from './personalityImage';
-import { resolveIdeologyColor } from './ideologyColors';
-import { FILLED_POLE_ICONS } from '../data/filledPoleIcons';
-import { religiousPoleIcon } from '../data/religionIcons';
-import type { Religion } from './religion';
+import type { FootballIdeologyMatch, ManagerMatch, QuizPayload, QuizResult } from '../types/quiz';
+import { profileInitials, resolveProfileImageSrc } from './profileImage';
+import { POLE_GLYPH_PATHS } from '../components/AxisIcon';
 import { tokens } from '../styles/tokens.generated';
 import { cardName, futTier } from '../components/results/FutCard';
 import { ratingTier, topAgreements } from './agreement';
@@ -13,7 +9,7 @@ import { ratingTier, topAgreements } from './agreement';
 /**
  * Cartão de compartilhamento social — formato stories 1080x1920.
  *
- * Fundo de gramado com linhas de cal; a personalidade mais compatível vira
+ * Fundo de gramado com linhas de cal; o treinador mais compatível vira
  * uma carta do Ultimate Team e as porcentagens viram notas no estilo Sofascore.
  */
 export const SHARE_WIDTH = 1080;
@@ -84,63 +80,13 @@ function svgEl(tag: string, attrs: Record<string, string | number>): SVGElement 
   return node;
 }
 
-const sharePoleIconPaths: Record<string, Record<PoleSide, string[]>> = {
-  estrutura: {
-    left: ['M4 10h16', 'M6 10v8', 'M10 10v8', 'M14 10v8', 'M18 10v8', 'M3 18h18', 'm12 4 8 4H4l8-4Z'],
-    right: ['M6 8h12v12H6z', 'M9 8V5h6v3', 'M9 12h6', 'M9 16h6']
-  },
-  representacao: {
-    left: ['M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M16 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M3 20a5 5 0 0 1 10 0', 'M11 20a5 5 0 0 1 10 0'],
-    right: ['m4 9 4 3 4-7 4 7 4-3-2 10H6L4 9Z', 'M8 19h8']
-  },
-  poder: {
-    left: ['M12 3 5 6v5c0 4.2 2.7 7.9 7 10 4.3-2.1 7-5.8 7-10V6l-7-3Z', 'm9 12 2 2 4-5'],
-    right: ['M12 3v18', 'M6 9h12', 'M8 21h8', 'M5 13c1.5 2 4.5 2 6 0', 'M13 13c1.5 2 4.5 2 6 0']
-  },
-  imigracao: {
-    left: ['M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M2 19a5 5 0 0 1 10 0', 'M15 5h5', 'M15 10h5', 'M15 15h5'],
-    right: ['M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M3 20a5 5 0 0 1 10 0', 'M14 8h6', 'm17 5 3 3-3 3', 'M15 16h6', 'm18 13 3 3-3 3']
-  },
-  diplomacia: {
-    left: ['M5 20V4', 'M5 5h11l-2 4 2 4H5'],
-    right: ['M6 19c6-2 10-6 12-13', 'M7 8c3 1 5 3 6 6', 'M5 13c4 0 7 1 10 4', 'M18 6c-3-1-6-1-9 1']
-  },
-  intervencao: {
-    left: ['M7 12h10', 'm10 8-4 4 4 4', 'M18 5v14'],
-    right: ['M6 20V4', 'M6 5h11l-2 4 2 4H6', 'M4 20h8']
-  },
-  economia: {
-    left: ['M5 11h14', 'M7 11v8', 'M17 11v8', 'M12 5v14', 'M4 19h16'],
-    right: ['M12 3v18', 'M17 7.5C16 5.8 14.3 5 12 5 9.2 5 7.5 6.3 7.5 8.5S9 12 12 12s4.5 1.2 4.5 3.5S14.8 19 12 19c-2.3 0-4-.8-5-2.5']
-  },
-  controle: {
-    left: ['M4 7h16', 'M4 12h16', 'M4 17h16', 'M9 5v4', 'M15 10v4', 'M11 15v4'],
-    right: ['M12 3v18', 'M17 7.5C16 5.8 14.3 5 12 5 9.2 5 7.5 6.3 7.5 8.5S9 12 12 12s4.5 1.2 4.5 3.5S14.8 19 12 19c-2.3 0-4-.8-5-2.5']
-  },
-  comercio: {
-    left: ['M12 3 5 6v5c0 4.2 2.7 7.9 7 10 4.3-2.1 7-5.8 7-10V6l-7-3Z', 'm9 12 2 2 4-5'],
-    right: ['M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z', 'M3 12h18', 'M12 3c2.4 2.5 3.6 5.5 3.6 9S14.4 18.5 12 21', 'M12 3c-2.4 2.5-3.6 5.5-3.6 9s1.2 6.5 3.6 9']
-  },
-  religiao: {
-    left: ['M12 4v16', 'M4 12h16', 'M6 18 18 6'],
-    right: ['M12 3v18', 'M7 8h10', 'M6 20h12']
-  },
-  moral: {
-    left: ['M20 8c0 6-8 11-8 11S4 14 4 8a4 4 0 0 1 7-2.7A4 4 0 0 1 20 8Z'],
-    right: ['M7 4h10', 'M8 20h8', 'M9 4c0 5 6 5 6 10 0 2-1.3 4-3 6-1.7-2-3-4-3-6 0-5 6-5 6-10']
-  },
-  tecnologia: {
-    left: ['M8 8h8v8H8z', 'M4 10h4', 'M4 14h4', 'M16 10h4', 'M16 14h4', 'M10 4v4', 'M14 4v4', 'M10 16v4', 'M14 16v4'],
-    right: ['M5 19c8 0 13-5 14-14-7 1-13 5-14 14Z', 'M5 19c4-5 8-8 14-14']
-  }
-};
+// Equilibrado não puxa para polo nenhum: fica no cinza neutro.
+const BALANCED_ACCENT = tokens['slate-bg'];
 
 export function buildShareCard(
   result: QuizResult,
-  quiz: QuizPayload,
-  religion: Religion | null = null
+  quiz: QuizPayload
 ): { stage: HTMLDivElement; target: HTMLDivElement; backgroundColor: string } {
-  const color = resolveIdeologyColor(result.topMatch.category);
   const stage = el('div', {
     position: 'fixed',
     top: '0',
@@ -178,8 +124,8 @@ export function buildShareCard(
 
   content.append(
     buildShareHeader(),
-    buildShareIdentity(result),
-    buildShareTwoColumns(result, quiz, color, religion),
+    ...(result.topMatch ? [buildShareIdentity(result.topMatch)] : []),
+    buildShareTwoColumns(result, quiz),
     buildShareLists(result),
     buildShareFooter()
   );
@@ -225,7 +171,7 @@ function buildShareHeader(): HTMLElement {
   return header;
 }
 
-function buildShareIdentity(result: QuizResult): HTMLElement {
+function buildShareIdentity(top: FootballIdeologyMatch): HTMLElement {
   const P = SHARE_COLORS.papel;
   const wrap = el('div', { display: 'flex', flexDirection: 'column', gap: '0', marginTop: '18px' });
   wrap.append(
@@ -236,7 +182,7 @@ function buildShareIdentity(result: QuizResult): HTMLElement {
       letterSpacing: '0.18em',
       textTransform: 'uppercase',
       color: SHARE_COLORS.accent
-    }, result.topMatch.category),
+    }, top.category),
     el('div', {
       fontFamily: SHARE_FONT_DISPLAY,
       fontWeight: '600',
@@ -245,16 +191,14 @@ function buildShareIdentity(result: QuizResult): HTMLElement {
       letterSpacing: '-0.02em',
       color: P,
       marginTop: '-8px'
-    }, result.topMatch.name)
+    }, top.name)
   );
   return wrap;
 }
 
 function buildShareTwoColumns(
   result: QuizResult,
-  quiz: QuizPayload,
-  color: { base: string; bg: string },
-  religion: Religion | null
+  quiz: QuizPayload
 ): HTMLElement {
   const row = el('div', {
     display: 'flex',
@@ -264,16 +208,15 @@ function buildShareTwoColumns(
     minHeight: '920px',
     marginTop: '8px'
   });
-  row.append(
-    buildSharePersonalityColumn(result, quiz),
-    buildShareAxesColumn(result, quiz, color, religion)
-  );
+  if (result.topManagerMatch) {
+    row.append(buildShareManagerColumn(result.topManagerMatch, result, quiz));
+  }
+  row.append(buildShareAxesColumn(result, quiz));
   return row;
 }
 
-function buildSharePersonalityColumn(result: QuizResult, quiz: QuizPayload): HTMLElement {
+function buildShareManagerColumn(person: ManagerMatch, result: QuizResult, quiz: QuizPayload): HTMLElement {
   const P = SHARE_COLORS.papel;
-  const person = result.topPersonalityMatch;
   const col = el('div', {
     flex: `0 0 ${FUT_WIDTH}px`,
     display: 'flex',
@@ -281,7 +224,7 @@ function buildSharePersonalityColumn(result: QuizResult, quiz: QuizPayload): HTM
     gap: '6px'
   });
   col.append(
-    buildShareFutCard(result, quiz),
+    buildShareFutCard(person, result, quiz),
     el('div', {
       fontFamily: SHARE_FONT_BODY,
       fontWeight: '600',
@@ -303,15 +246,14 @@ function buildSharePersonalityColumn(result: QuizResult, quiz: QuizPayload): HTM
       fontFamily: SHARE_FONT_BODY,
       fontSize: '30px',
       color: rgba(P, 0.82)
-    }, person.role)
+    }, person.period)
   );
   return col;
 }
 
 // Carta do Ultimate Team: o fundo metálico e a foto são desenhados no canvas
 // (drawFutCard); aqui ficam só os textos, nas mesmas posições do FutCard.tsx.
-function buildShareFutCard(result: QuizResult, quiz: QuizPayload): HTMLElement {
-  const person = result.topPersonalityMatch;
+function buildShareFutCard(person: ManagerMatch, result: QuizResult, quiz: QuizPayload): HTMLElement {
   const rating = Math.round(clamp(person.compatibility));
   const tier = futTier(rating, false);
   const ink = FUT_TIERS[tier].ink;
@@ -325,7 +267,7 @@ function buildShareFutCard(result: QuizResult, quiz: QuizPayload): HTMLElement {
     color: ink
   });
   card.dataset.shareImage = 'portrait';
-  card.dataset.shareSrc = resolvePersonalityImageSrc(person.imagePath);
+  card.dataset.shareSrc = resolveProfileImageSrc(person.imagePath);
   card.dataset.shareTier = tier;
 
   const side: Style = { position: 'absolute', left: '7%', width: '26%', textAlign: 'center' };
@@ -349,7 +291,7 @@ function buildShareFutCard(result: QuizResult, quiz: QuizPayload): HTMLElement {
   });
   card.append(
     ovr,
-    el('div', { ...side, top: '31%', fontSize: `${unit * 1.05}px`, fontWeight: '700', letterSpacing: '0.04em' }, t.futPositions[person.category]),
+    el('div', { ...side, top: '31%', fontSize: `${unit * 1.05}px`, fontWeight: '700', letterSpacing: '0.04em' }, t.futPosition),
     el('div', {
       position: 'absolute',
       left: '8%',
@@ -371,11 +313,8 @@ function buildShareFutCard(result: QuizResult, quiz: QuizPayload): HTMLElement {
 
 function buildShareAxesColumn(
   result: QuizResult,
-  quiz: QuizPayload,
-  color: { base: string; bg: string },
-  religion: Religion | null
+  quiz: QuizPayload
 ): HTMLElement {
-  const P = SHARE_COLORS.papel;
   const col = el('div', {
     flex: '1 1 auto',
     minWidth: '0',
@@ -404,16 +343,14 @@ function buildShareAxesColumn(
     justifyContent: 'space-between'
   });
   const axesById = new Map(quiz.axes.map((axis) => [axis.id, axis]));
-  result.axes.forEach((axis) => list.append(buildShareAxisLine(axis, axesById.get(axis.axisId), color, religion)));
+  result.axes.forEach((axis) => list.append(buildShareAxisLine(axis, axesById.get(axis.axisId))));
   col.append(list);
   return col;
 }
 
 function buildShareAxisLine(
   axis: QuizResult['axes'][number],
-  definition: QuizPayload['axes'][number] | undefined,
-  color: { base: string; bg: string },
-  religion: Religion | null
+  definition: QuizPayload['axes'][number] | undefined
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
   const isBalanced = axis.intensity === 'Equilibrado';
@@ -423,10 +360,10 @@ function buildShareAxisLine(
   // Mesmo lado do rótulo: equilibrado mostra o polo direito, então o ícone também.
   const side: PoleSide = isBalanced || leaningRight ? 'right' : 'left';
   const accent = isBalanced
-    ? color.bg
+    ? BALANCED_ACCENT
     : leaningRight
-      ? definition?.rightColor ?? color.bg
-      : definition?.leftColor ?? color.bg;
+      ? definition?.rightColor ?? BALANCED_ACCENT
+      : definition?.leftColor ?? BALANCED_ACCENT;
 
   const row = el('div', {
     display: 'flex',
@@ -445,7 +382,7 @@ function buildShareAxisLine(
     color: readableInk(accent),
     background: accent
   });
-  icon.append(buildPoleGlyph(axis.axisId, side, religion));
+  icon.append(buildPoleGlyph(side));
 
   const mini = el('span', {
     flex: '0 0 76px',
@@ -491,14 +428,7 @@ function buildShareAxisLine(
   return row;
 }
 
-function buildPoleGlyph(axisId: string, side: PoleSide, religion: Religion | null): SVGElement {
-  // Polo "Religioso" mostra a religião escolhida; sem escolha, a cruz.
-  const filled = (axisId === 'religiao' && side === 'right' && religiousPoleIcon(religion)) || FILLED_POLE_ICONS[axisId]?.[side];
-  if (filled) {
-    const filledSvg = svgEl('svg', { viewBox: filled.viewBox, width: 26, height: 26, fill: 'currentColor', stroke: 'none' });
-    filled.paths.forEach((d) => filledSvg.append(svgEl('path', { d, 'fill-rule': filled.fillRule ?? 'evenodd', 'clip-rule': filled.fillRule ?? 'evenodd' })));
-    return filledSvg;
-  }
+function buildPoleGlyph(side: PoleSide): SVGElement {
   const svg = svgEl('svg', {
     viewBox: '0 0 24 24',
     width: 26,
@@ -509,8 +439,7 @@ function buildPoleGlyph(axisId: string, side: PoleSide, religion: Religion | nul
     'stroke-linecap': 'round',
     'stroke-linejoin': 'round'
   });
-  const paths = sharePoleIconPaths[axisId]?.[side] ?? sharePoleIconPaths.estrutura[side];
-  paths.forEach((path) => svg.append(svgEl('path', { d: path })));
+  POLE_GLYPH_PATHS[side].forEach((path) => svg.append(svgEl('path', { d: path })));
   return svg;
 }
 
@@ -521,26 +450,26 @@ function buildShareLists(result: QuizResult): HTMLElement {
   });
   row.append(
     buildShareListBox(
-      t.shareOtherPersonalities,
-      result.personalityMatches.slice(1, 4).map((person) => ({
+      t.shareOtherManagers,
+      result.managerMatches.slice(1, 4).map((person) => ({
         label: person.name,
         pct: person.compatibility,
-        avatar: resolvePersonalityImageSrc(person.imagePath),
+        avatar: resolveProfileImageSrc(person.imagePath),
         alt: person.name,
-        initials: personalityInitials(person.name)
+        initials: profileInitials(person.name)
       })),
       'avatar'
     ),
     buildShareListBox(
-      t.shareNearbyCountries,
-      (result.topCountryMatches ?? []).slice(0, 3).map((country) => ({
-        label: country.name,
-        pct: country.compatibility,
-        avatar: resolveCountryFlagSrc(country.flagPath),
-        alt: country.name,
-        initials: country.name.slice(0, 2).toUpperCase()
+      t.shareNearbyTeams,
+      result.topTeamMatches.slice(0, 3).map((team) => ({
+        label: team.name,
+        pct: team.compatibility,
+        avatar: resolveProfileImageSrc(team.imagePath),
+        alt: team.name,
+        initials: team.name.slice(0, 2).toUpperCase()
       })),
-      'flag'
+      'crest'
     )
   );
   return row;
@@ -557,7 +486,7 @@ interface ShareListItem {
 function buildShareListBox(
   title: string,
   items: ShareListItem[],
-  kind: 'avatar' | 'flag'
+  kind: 'avatar' | 'crest'
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
   const box = el('div', {
@@ -608,8 +537,8 @@ function buildShareListBox(
         minWidth: '0',
         fontFamily: SHARE_FONT_BODY,
         fontWeight: '500',
-        fontSize: kind === 'flag' && item.label.length > 22 ? '25px' : '30px',
-        lineHeight: kind === 'flag' ? '1.08' : '1.2',
+        fontSize: kind === 'crest' && item.label.length > 22 ? '25px' : '30px',
+        lineHeight: kind === 'crest' ? '1.08' : '1.2',
         color: rgba(P, 0.92),
         whiteSpace: 'normal',
         wordBreak: 'normal',
@@ -686,7 +615,7 @@ function buildShareFooter(): HTMLElement {
  */
 
 type ToPng = (node: HTMLElement, options?: Record<string, unknown>) => Promise<string>;
-type ShareImageKind = 'portrait' | 'avatar' | 'flag';
+type ShareImageKind = 'portrait' | 'avatar' | 'crest';
 
 interface ShareImageSlot {
   kind: ShareImageKind;

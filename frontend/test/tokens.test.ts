@@ -47,12 +47,4 @@ describe('stylesheets', () => {
       expect(css.match(COLOUR)?.[0]).toBeUndefined();
     }
   );
-
-  it('gives every ideology a base and a background colour', () => {
-    const tokens = readColourTokens();
-    for (const key of ['esq-radical', 'esquerda', 'centro', 'direita', 'ext-direita', 'terceira', 'libertario', 'anarquismo']) {
-      expect(tokens[`i-${key}`]).toMatch(/^#/);
-      expect(tokens[`i-${key}-bg`]).toMatch(/^#/);
-    }
-  });
 });

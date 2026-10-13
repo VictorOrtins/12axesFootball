@@ -200,7 +200,7 @@ Catalog-specific fields:
 
 The football question pool (20 statements per axis) is a separate spec. **Until it exists, stop after step 7** and report the research to the user.
 
-Once it exists, the audit reuses `profile-audit/README.md` (one strong model, every question answered independently "as" the profile, never working back from a target value, `validate.py` with the football anchor profiles), with two changes:
+Once it exists, the audit reuses the political pipeline's method (one strong model, every question answered independently "as" the profile, never working back from a target value, then an output check against the football anchor profiles in `validate.py`'s `FOOTBALL_AXIS_POLES`), with two changes. The political protocol (`profile-audit/README.md`) and its output check in `validate.py` were removed on 2026-10-12; recover them from git history (commit `302a66c`) when building the football audit. The two changes:
 - the prompt includes the **whole research file**, not just a short description;
 - the prompt lists `gaps.axes` and tells the auditor those axes have no verified evidence, so answers there come from general knowledge and must stay consistent with what *is* verified.
 
