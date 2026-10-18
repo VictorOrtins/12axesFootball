@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react';
-import { selectAllQuestionsBalanced, selectAndBalanceQuestions } from './utils/quizSelection';
+import { selectAndBalanceQuestions } from './utils/quizSelection';
 import { HOME_AXES } from './data/homeAxes';
 import { LANG, setLang, t } from './i18n';
 import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
@@ -30,13 +30,6 @@ import { ArchetypeCard } from './components/ArchetypeCard';
 const QuestionCard = lazy(() =>
   import('./components/QuestionCard').then((module) => ({ default: module.QuestionCard }))
 );
-
-// Mantém compatibilidade com a rota direta antiga.
-const FULL_MODE =
-  typeof window !== 'undefined' &&
-  window.location.pathname.replace(/\/+$/, '').endsWith('/240questions');
-
-const INITIAL_VARIANT: QuizVariant = FULL_MODE ? 'extreme' : 'short';
 
 // URL de resultado compartilhável: /results?pos=65&pro=32.5&... (uma chave por
 // eixo, valor = % do polo esquerdo, na mesma ordem de axes.json).
@@ -99,18 +92,14 @@ function QuizSkeleton({ message }: { message: string }) {
   );
 }
 
-function buildQuizForVariant(payload: QuizPayload, variant: QuizVariant): QuizPayload {
-  return variant === 'extreme' ? selectAllQuestionsBalanced(payload) : selectAndBalanceQuestions(payload);
-}
-
 function MainApp() {
   const [quiz, setQuiz] = useState<QuizPayload | null>(null);
   const [answers, setAnswers] = useState<Record<string, AnswerValue>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [screen, setScreen] = useState<Screen>('home');
-  const [selectedVariant, setSelectedVariant] = useState<QuizVariant>(INITIAL_VARIANT);
+  const [selectedVariant, setSelectedVariant] = useState<QuizVariant>('short');
   const [result, setResult] = useState<QuizResult | null>(null);
-  const [isLoading, setIsLoading] = useState(FULL_MODE || SHARED_RESULT_VALUES !== null);
+  const [isLoading, setIsLoading] = useState(SHARED_RESULT_VALUES !== null);
   const [isSharedView, setIsSharedView] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAdvancing, setIsAdvancing] = useState(false);
@@ -132,8 +121,8 @@ function MainApp() {
   );
   const advanceTimerRef = useRef<number | null>(null);
   const isAdvancingRef = useRef(false);
-  // Pool completo (240 perguntas) recebido do backend, guardado para poder
-  // sortear as 24 questões extras da extensão sem repetir as já respondidas.
+  // Pool completo recebido do backend, guardado para poder
+  // sortear as questões extras da extensão sem repetir as já respondidas.
   const poolRef = useRef<QuizPayload | null>(null);
 
   const archetypeSteps = useMemo(() => quiz?.archetypeQuestions ?? [], [quiz]);
@@ -151,29 +140,6 @@ function MainApp() {
       return;
     }
 
-    if (!FULL_MODE) {
-      return;
-    }
-
-    fetchQuiz(INITIAL_VARIANT)
-      .then((payload) => {
-        poolRef.current = payload;
-        // Quem recarrega /240questions no meio do quiz continua de onde parou.
-        const saved = loadProgress();
-        const restored = saved && saved.variant === INITIAL_VARIANT ? restoreQuiz(payload, saved) : null;
-        if (saved && restored) {
-          applyProgress(restored, saved);
-          return;
-        }
-        if (saved) {
-          clearProgress();
-          setSavedProgress(null);
-        }
-        setQuiz(buildQuizForVariant(payload, INITIAL_VARIANT));
-        setScreen('quiz');
-      })
-      .catch((err: Error) => setError(err.message))
-      .finally(() => setIsLoading(false));
   }, []);
 
   useEffect(() => {
@@ -299,7 +265,7 @@ function MainApp() {
     try {
       const nextQuiz = await fetchQuiz(variant);
       poolRef.current = nextQuiz;
-      setQuiz(buildQuizForVariant(nextQuiz, variant));
+      setQuiz(selectAndBalanceQuestions(nextQuiz));
       setScreen('quiz');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errLoadQuiz);
@@ -319,7 +285,7 @@ function MainApp() {
     setArchetypeDone(false);
     setResult(null);
     setError(null);
-    if (saved.stage === 'archetype') {
+    if (saved.stage === 'archetype' && archetypeCount > 0) {
       setCurrentIndex(lastQuestion);
       setArchetypeIndex(Math.min(saved.index, archetypeCount - 1));
       setScreen('archetype');
@@ -434,7 +400,7 @@ function MainApp() {
     }
     clearPendingAdvance();
     setError(null);
-    if (!archetypeDone) {
+    if (!archetypeDone && archetypeSteps.length > 0) {
       setArchetypeIndex(0);
       setScreen('archetype');
       return;
@@ -599,7 +565,7 @@ function MainApp() {
     );
   }
 
-  if (error && !quiz && !result && (FULL_MODE || SHARED_RESULT_VALUES !== null)) {
+  if (error && !quiz && !result && SHARED_RESULT_VALUES !== null) {
     return (
       <main className="app-shell center-shell">
         <div className="error-panel">
@@ -637,7 +603,6 @@ function MainApp() {
               >
                 <a href="#como-funciona">{t.navHow}</a>
                 <a href="#guia-eixos">{t.navAxes}</a>
-                <a href="#faq">{t.navFaq}</a>
                 <button
                   className="e-lang"
                   type="button"

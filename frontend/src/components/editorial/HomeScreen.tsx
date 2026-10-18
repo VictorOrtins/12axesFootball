@@ -2,9 +2,8 @@ import type { ReactNode } from 'react';
 import { t } from '../../i18n';
 import type { Axis, QuizVariant } from '../../types/quiz';
 import { PoleIcon } from '../AxisIcon';
-import { OpenSourceSection } from '../OpenSourceSection';
 import { QUIZ_FORMATS } from './formats';
-import { ArrowIcon, ClockIcon, Football, PitchMarkings } from './primitives';
+import { ArrowIcon, ClockIcon, PitchMarkings } from './primitives';
 
 interface HomeScreenProps {
   axes: Axis[];
@@ -61,8 +60,7 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
   return (
     <div className="ed">
       <section className="e-hero" id="inicio">
-        <PitchMarkings />
-        <Football className="e-hero-ball" />
+        <PitchMarkings withBall />
         <div className="e-wrap">
           <div>
             <p className="e-eyebrow">{t.heroEyebrow}</p>
@@ -82,11 +80,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
                 {t.seeAxes}
               </a>
             </div>
-            <ul className="e-hero-labels">
-              {t.heroLabels.map((label) => (
-                <li key={label}>{label}</li>
-              ))}
-            </ul>
           </div>
         </div>
       </section>
@@ -167,27 +160,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
             </div>
           </section>
 
-          <section className="e-sec e-faq" id="faq">
-            <div className="e-wrap" data-reveal>
-              <div>
-                <p className="e-eyebrow">{t.navFaq}</p>
-                <h2>{t.faqTitle}</h2>
-                <p className="e-lead">{t.faqLead}</p>
-              </div>
-              <div className="e-faq-list">
-                {t.faqItems.map((item) => (
-                  <details key={item.question}>
-                    <summary>
-                      {item.question}
-                      <span className="e-plus" aria-hidden="true" />
-                    </summary>
-                    <p>{item.answer}</p>
-                  </details>
-                ))}
-              </div>
-            </div>
-          </section>
-
           <section className="e-sec e-dark" id="versoes">
             <div className="e-wrap" data-reveal>
               <div className="e-sec-head">
@@ -222,8 +194,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
               </ul>
             </div>
           </section>
-
-          <OpenSourceSection />
         </>
       )}
     </div>

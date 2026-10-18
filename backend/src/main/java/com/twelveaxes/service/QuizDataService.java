@@ -33,7 +33,6 @@ import org.springframework.web.server.ResponseStatusException;
 public class QuizDataService {
     public static final String SHORT_VARIANT = "short";
     public static final String EXTENDED_VARIANT = "extended";
-    public static final String EXTREME_VARIANT = "extreme";
 
     public static final String LANG_PT = "pt";
     public static final String LANG_EN = "en";
@@ -108,6 +107,7 @@ public class QuizDataService {
                 readJson("data/manager-profiles.json", new TypeReference<List<ManagerProfile>>() {}),
                 ManagerProfile::managerId);
 
+        validateQuestions(axes, questions);
         archetypeQuestions = readJson("data/archetype-questions.json", new TypeReference<>() {});
         validateArchetypeQuestions(axes);
 
@@ -285,14 +285,8 @@ public class QuizDataService {
         String normalizedVariant = normalizeVariant(variant);
         String normalizedLang = normalizeLang(lang);
         LocaleBundle data = bundle(normalizedLang);
-        int questionsPerAxis = switch (normalizedVariant) {
-            case EXTREME_VARIANT -> 0;
-            case EXTENDED_VARIANT -> 5;
-            default -> 3;
-        };
-        int questionCount = normalizedVariant.equals(EXTREME_VARIANT)
-                ? data.questions().size()
-                : questionsPerAxis * data.axes().size();
+        int questionsPerAxis = normalizedVariant.equals(EXTENDED_VARIANT) ? 5 : 3;
+        int questionCount = questionsPerAxis * data.axes().size();
         String description = normalizedLang.equals(LANG_EN)
                 ? "A quiz of " + questionCount + " questions to estimate your position on the 12 football axes."
                 : "Um quiz de " + questionCount + " perguntas para estimar sua posição nos 12 eixos do futebol.";
@@ -311,6 +305,22 @@ public class QuizDataService {
 
     public List<ArchetypeQuestion> getArchetypeQuestions() {
         return archetypeQuestions;
+    }
+
+    // O segundo eixo de uma pergunta precisa existir, ser outro eixo e pesar entre 0 e 1.
+    private static void validateQuestions(List<Axis> axes, List<Question> questions) {
+        java.util.Set<String> axisIds = axes.stream().map(Axis::id).collect(Collectors.toSet());
+        for (Question question : questions) {
+            Question.Secondary secondary = question.secondary();
+            boolean invalid = !axisIds.contains(question.axisId())
+                    || secondary != null && (!axisIds.contains(secondary.axisId())
+                            || secondary.axisId().equals(question.axisId())
+                            || secondary.agreePole() == null
+                            || secondary.weight() <= 0 || secondary.weight() > 1);
+            if (invalid) {
+                throw new IllegalStateException("questions-pool.json: eixo inválido em " + question.id());
+            }
+        }
     }
 
     // Cada efeito precisa apontar para um eixo real com valor 0–100: um erro de
@@ -418,7 +428,6 @@ public class QuizDataService {
         return switch (variant.trim().toLowerCase()) {
             case SHORT_VARIANT, "curta" -> SHORT_VARIANT;
             case EXTENDED_VARIANT, "extensa" -> EXTENDED_VARIANT;
-            case EXTREME_VARIANT, "extrema", "240", "240questions" -> EXTREME_VARIANT;
             default -> throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Versão de quiz inválida");
         };
     }

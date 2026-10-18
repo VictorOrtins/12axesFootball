@@ -1,11 +1,17 @@
-"""Valida um arquivo de pesquisa de futebol (manager | team | football-ideology).
+"""Valida a pesquisa ou a auditoria de um perfil de futebol (manager | team | football-ideology).
 
 Uso:
     python3 profile-audit/validate.py research <catalog> <id> [caminho-do-json]
+    python3 profile-audit/validate.py audit <catalog> <id> [caminho-do-json]
 
-Checa o arquivo profile-audit/research/<catalog>/<id>.json: periodo e spells,
+research: checa profile-audit/research/<catalog>/<id>.json: periodo e spells,
 campos de cada fonte, fatos verificados dentro do periodo, lacunas por
 dimensao e por eixo (FR-15) e o nivel de confianca. Ver FOOTBALL_RESEARCH.md.
+
+audit: checa a saida do subagente (subagent-out/, ou answers/ se ja arquivada):
+[FORMA] todos os eixos, todas as perguntas do eixo, codigos DT/D/N/C/CT,
+personaBrief preenchido; [NEUTROS] taxa de N por eixo e no total. Imprime o
+vetor calculado. Ver FOOTBALL_AUDIT.md.
 
 Sai com codigo 1 se qualquer checagem BLOQUEANTE falhar. Avisos nao bloqueiam.
 """
@@ -14,7 +20,11 @@ import os
 import re
 import sys
 
+import profile_vector
+
 BASE = os.path.dirname(os.path.abspath(__file__))
+MAX_N_AXIS = 0.30
+MAX_N_TOTAL = 0.18
 
 
 # ---------- Futebol (ver FOOTBALL_RESEARCH.md) ----------
@@ -270,7 +280,7 @@ def validate_stub(data, errors, warnings):
     report(errors, warnings)
 
 
-def report(errors, warnings):
+def report(errors, warnings, ok_message="OK - pesquisa valida."):
     print()
     if warnings:
         print("AVISOS (nao bloqueiam, mas confira):")
@@ -281,15 +291,84 @@ def report(errors, warnings):
         for e in errors:
             print("  " + e)
         sys.exit(1)
-    print("OK - pesquisa valida.")
+    print(ok_message)
     sys.exit(0)
 
 
+def check_audit_form(data, pool, archetypes, errors, warnings):
+    for ax, ids in pool.items():
+        obj = data.get(ax)
+        if not isinstance(obj, dict):
+            errors.append(f"[FORMA] eixo ausente: {ax}")
+            continue
+        ans = obj.get("answers", {})
+        if not str(obj.get("personaBrief", "")).strip():
+            errors.append(f"[FORMA] {ax}: personaBrief vazio")
+        if set(ans) - ids:
+            errors.append(f"[FORMA] {ax}: ids desconhecidos {sorted(set(ans) - ids)}")
+        if ids - set(ans):
+            errors.append(f"[FORMA] {ax}: ids faltando {sorted(ids - set(ans))}")
+        bad = {k: v for k, v in ans.items() if v not in profile_vector.SCORE}
+        if bad:
+            errors.append(f"[FORMA] {ax}: codigos invalidos {bad} (use so DT/D/N/C/CT)")
+    for prob in profile_vector.archetype_problems(data, archetypes):
+        errors.append(f"[FORMA] {prob}")
+    extra = [k for k in data if k not in pool and k != profile_vector.ARCHETYPE_KEY]
+    if extra:
+        warnings.append(f"[FORMA] chaves extras ignoradas: {extra}")
+
+
+def check_neutrals(data, pool, errors, warnings):
+    """Cada N vale 0.5, o ponto morto: um eixo cheio de N nao mede o perfil, so colapsa para ~50."""
+    total_n = 0
+    for ax, ids in pool.items():
+        n = list(data[ax]["answers"].values()).count("N")
+        total_n += n
+        if n / len(ids) > MAX_N_AXIS:
+            errors.append(f"[NEUTROS] {ax}: {n}/{len(ids)} de N (limite {MAX_N_AXIS:.0%})")
+    total = sum(len(ids) for ids in pool.values())
+    print(f"[NEUTROS] total {total_n}/{total} = {total_n / total:.1%}")
+    if total_n / total > MAX_N_TOTAL:
+        errors.append(f"[NEUTROS] total {total_n / total:.1%} acima do limite {MAX_N_TOTAL:.0%}")
+
+
+def validate_audit(catalog, pid, path):
+    if catalog not in FOOTBALL_CATALOGS:
+        print(f"catalog invalido: {catalog} (use {', '.join(sorted(FOOTBALL_CATALOGS))})")
+        sys.exit(1)
+    if not path:
+        path = os.path.join(BASE, "subagent-out", catalog, f"{pid}.json")
+        if not os.path.exists(path):
+            path = os.path.join(BASE, "answers", catalog, f"{pid}.json")
+    if not os.path.exists(path):
+        print(f"arquivo nao encontrado: {path}")
+        sys.exit(1)
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    print(f"validando auditoria {catalog}:{pid}\n  {path}\n")
+
+    qmap = profile_vector.question_map()
+    pool = {ax: set() for ax in profile_vector.axis_order()}
+    for q in qmap.values():
+        pool[q["axisId"]].add(q["id"])
+    archetypes = profile_vector.archetype_questions()
+    errors, warnings = [], []
+    check_audit_form(data, pool, archetypes, errors, warnings)
+    if errors:
+        report(errors, warnings)
+    check_neutrals(data, pool, errors, warnings)
+    vector = profile_vector.compute_vector(data, qmap, list(pool), archetypes)
+    print("[VETOR] leftPercent (100 = polo esquerdo): "
+          + " ".join(f"{ax} {v:g}" for ax, v in vector.items()))
+    report(errors, warnings, "OK - auditoria valida.")
+
+
 def main():
-    if len(sys.argv) < 4 or sys.argv[1] != "research":
+    if len(sys.argv) < 4 or sys.argv[1] not in ("research", "audit"):
         print(__doc__)
         sys.exit(1)
-    validate_research(sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
+    validate = validate_research if sys.argv[1] == "research" else validate_audit
+    validate(sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
 
 
 if __name__ == "__main__":

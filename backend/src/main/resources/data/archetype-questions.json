@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "epoca",
+    "label": { "pt": "Época", "en": "Era" },
+    "text": { "pt": "Qual era do futebol você mais admira?", "en": "Which era of football do you admire most?" },
+    "options": [
+      { "id": "A", "text": { "pt": "Futebol total: posse e identidade coletiva", "en": "Total football: possession and collective identity" }, "effects": { "pos": 80, "pro": 70, "est": 75, "pla": 85 } },
+      { "id": "B", "text": { "pt": "Retranca e contra-ataque letal", "en": "Deep block and deadly counter-attacks" }, "effects": { "pos": 20, "pro": 25, "blo": 35 } },
+      { "id": "C", "text": { "pt": "Pressão alta e marcação individual", "en": "High press and man-marking" }, "effects": { "blo": 85, "mar": 15 } },
+      { "id": "D", "text": { "pt": "Espetáculo dos dribles e da técnica", "en": "A show of dribbling and technique" }, "effects": { "res": 85, "jog": 20 } }
+    ]
+  },
+  {
+    "id": "elenco",
+    "label": { "pt": "Elenco", "en": "Squad" },
+    "text": { "pt": "Como você monta um elenco?", "en": "How do you build a squad?" },
+    "options": [
+      { "id": "A", "text": { "pt": "Aposto nos jovens da base", "en": "I bet on academy youngsters" }, "effects": { "bas": 90, "lid": 40 } },
+      { "id": "B", "text": { "pt": "Experiência de quem já ganhou títulos", "en": "Experience from players who have won titles" }, "effects": { "bas": 15, "lid": 70 } },
+      { "id": "C", "text": { "pt": "Craques técnicos acima do sistema", "en": "Technical stars above the system" }, "effects": { "jog": 85, "sis": 15 } },
+      { "id": "D", "text": { "pt": "Atletas fortes e intensos", "en": "Strong, high-intensity athletes" }, "effects": { "jog": 20, "blo": 70 } },
+      { "id": "E", "text": { "pt": "Grupo harmonioso acima de tudo", "en": "A harmonious group above all" }, "effects": { "lid": 20, "pla": 30 } }
+    ]
+  },
+  {
+    "id": "organizacao",
+    "label": { "pt": "Organização", "en": "Organisation" },
+    "text": { "pt": "Como o time se organiza no campo?", "en": "How does the team organise itself on the pitch?" },
+    "options": [
+      { "id": "A", "text": { "pt": "Posições fixas, cada um no seu setor", "en": "Fixed positions, everyone in their zone" }, "effects": { "est": 85, "lar": 30 } },
+      { "id": "B", "text": { "pt": "Jogadores trocam de posição e atacam pelas pontas", "en": "Players swap positions and attack down the wings" }, "effects": { "est": 20, "lar": 20 } },
+      { "id": "C", "text": { "pt": "Marcação por zona e identidade própria", "en": "Zonal marking and a clear identity" }, "effects": { "mar": 80, "pla": 85 } },
+      { "id": "D", "text": { "pt": "Marcação individual e bloco baixo", "en": "Man-marking and a low block" }, "effects": { "mar": 15, "blo": 20 } },
+      { "id": "E", "text": { "pt": "Jogo direto, sem travar a bola", "en": "Direct play, never stalling the ball" }, "effects": { "pro": 20, "pos": 25 } }
+    ]
+  },
+  {
+    "id": "treinador",
+    "label": { "pt": "Treinador", "en": "Coach" },
+    "text": { "pt": "O que o treinador deve priorizar?", "en": "What should the coach prioritise?" },
+    "options": [
+      { "id": "A", "text": { "pt": "Vencer hoje, o resto depois", "en": "Win today, worry about the rest later" }, "effects": { "res": 15, "pla": 60 } },
+      { "id": "B", "text": { "pt": "Jogar bonito é o que importa", "en": "Playing beautifully is what matters" }, "effects": { "res": 85, "pro": 70 } },
+      { "id": "C", "text": { "pt": "O talento individual decide os jogos", "en": "Individual talent decides games" }, "effects": { "sis": 20, "lid": 25 } },
+      { "id": "D", "text": { "pt": "Um método que funciona contra qualquer adversário", "en": "One method that works against any opponent" }, "effects": { "sis": 75, "pla": 20 } }
+    ]
+  },
+  {
+    "id": "final",
+    "label": { "pt": "Final", "en": "Final" },
+    "text": { "pt": "Final, 1 a 0, aos 85 minutos: o que seu time faz?", "en": "Final, 1-0, 85th minute: what does your team do?" },
+    "options": [
+      { "id": "A", "text": { "pt": "Segura a vantagem com bloco baixo e contra-ataque", "en": "Protects the lead with a low block and counter-attacks" }, "effects": { "pos": 20, "pro": 25, "blo": 35 } },
+      { "id": "B", "text": { "pt": "Troca passes até o apito final", "en": "Passes the ball until the final whistle" }, "effects": { "pos": 85, "pro": 80 } },
+      { "id": "C", "text": { "pt": "Pressiona até o último minuto", "en": "Presses until the last minute" }, "effects": { "blo": 85, "mar": 20 } },
+      { "id": "D", "text": { "pt": "Procura o segundo gol, mesmo com risco", "en": "Goes for a second goal, even at risk" }, "effects": { "res": 50, "blo": 70 } },
+      { "id": "E", "text": { "pt": "Confia no craque do time", "en": "Trusts the team's star player" }, "effects": { "jog": 25, "sis": 20 } }
+    ]
+  }
+]

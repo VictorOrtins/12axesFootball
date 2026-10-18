@@ -175,8 +175,7 @@ class QuizFlowAutomationTest {
     private static Stream<String> variants() {
         return Stream.of(
                 QuizDataService.SHORT_VARIANT,
-                QuizDataService.EXTENDED_VARIANT,
-                QuizDataService.EXTREME_VARIANT
+                QuizDataService.EXTENDED_VARIANT
         );
     }
 

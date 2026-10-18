@@ -1,1 +1,325 @@
-[]
+[
+  {
+    "managerId": "bill-shankly",
+    "vector": {
+      "pos": 70.0,
+      "pro": 50.0,
+      "est": 45.0,
+      "lar": 52.3,
+      "blo": 47.7,
+      "mar": 50.0,
+      "pla": 75.0,
+      "res": 29.5,
+      "sis": 75.0,
+      "jog": 40.0,
+      "bas": 40.0,
+      "lid": 56.8
+    }
+  },
+  {
+    "managerId": "fernando-diniz",
+    "vector": {
+      "pos": 95.0,
+      "pro": 75.0,
+      "est": 5.0,
+      "lar": 81.8,
+      "blo": 88.6,
+      "mar": 50.0,
+      "pla": 75.0,
+      "res": 65.9,
+      "sis": 55.0,
+      "jog": 95.0,
+      "bas": 70.0,
+      "lid": 38.6
+    }
+  },
+  {
+    "managerId": "jose-mourinho",
+    "vector": {
+      "pos": 30.0,
+      "pro": 45.0,
+      "est": 70.0,
+      "lar": 52.3,
+      "blo": 27.3,
+      "mar": 65.0,
+      "pla": 29.5,
+      "res": 4.5,
+      "sis": 85.0,
+      "jog": 40.0,
+      "bas": 10.0,
+      "lid": 79.5
+    }
+  },
+  {
+    "managerId": "jurgen-klopp",
+    "vector": {
+      "pos": 40.0,
+      "pro": 25.0,
+      "est": 35.0,
+      "lar": 63.6,
+      "blo": 84.1,
+      "mar": 75.0,
+      "pla": 75.0,
+      "res": 65.9,
+      "sis": 80.0,
+      "jog": 30.0,
+      "bas": 60.0,
+      "lid": 36.4
+    }
+  },
+  {
+    "managerId": "marcelo-bielsa",
+    "vector": {
+      "pos": 70.0,
+      "pro": 40.0,
+      "est": 80.0,
+      "lar": 15.9,
+      "blo": 93.2,
+      "mar": 20.0,
+      "pla": 95.5,
+      "res": 86.4,
+      "sis": 90.0,
+      "jog": 50.0,
+      "bas": 75.0,
+      "lid": 81.8
+    }
+  },
+  {
+    "managerId": "pep-guardiola",
+    "vector": {
+      "pos": 95.0,
+      "pro": 70.0,
+      "est": 70.0,
+      "lar": 47.7,
+      "blo": 79.5,
+      "mar": 75.0,
+      "pla": 70.5,
+      "res": 72.7,
+      "sis": 65.0,
+      "jog": 60.0,
+      "bas": 60.0,
+      "lid": 70.5
+    }
+  },
+  {
+    "managerId": "renato-gaucho",
+    "vector": {
+      "pos": 40.0,
+      "pro": 45.0,
+      "est": 25.0,
+      "lar": 29.5,
+      "blo": 56.8,
+      "mar": 70.0,
+      "pla": 29.5,
+      "res": 38.6,
+      "sis": 25.0,
+      "jog": 70.0,
+      "bas": 45.0,
+      "lid": 20.5
+    }
+  },
+  {
+    "managerId": "tele-santana",
+    "vector": {
+      "pos": 75.0,
+      "pro": 50.0,
+      "est": 25.0,
+      "lar": 75.0,
+      "blo": 65.9,
+      "mar": 75.0,
+      "pla": 75.0,
+      "res": 75.0,
+      "sis": 40.0,
+      "jog": 60.0,
+      "bas": 70.0,
+      "lid": 75.0
+    }
+  },
+  {
+    "managerId": "arrigo-sacchi",
+    "vector": {
+      "pos": 75.0,
+      "pro": 35.0,
+      "est": 60.0,
+      "lar": 70.5,
+      "blo": 93.2,
+      "mar": 95.0,
+      "pla": 88.6,
+      "res": 81.8,
+      "sis": 95.0,
+      "jog": 40.0,
+      "bas": 50.0,
+      "lid": 81.8
+    }
+  },
+  {
+    "managerId": "rinus-michels",
+    "vector": {
+      "pos": 75.0,
+      "pro": 50.0,
+      "est": 45.0,
+      "lar": 29.5,
+      "blo": 93.2,
+      "mar": 75.0,
+      "pla": 88.6,
+      "res": 63.6,
+      "sis": 75.0,
+      "jog": 50.0,
+      "bas": 75.0,
+      "lid": 90.9
+    }
+  },
+  {
+    "managerId": "louis-van-gaal",
+    "vector": {
+      "pos": 90.0,
+      "pro": 85.0,
+      "est": 90.0,
+      "lar": 18.2,
+      "blo": 93.2,
+      "mar": 80.0,
+      "pla": 93.2,
+      "res": 77.3,
+      "sis": 95.0,
+      "jog": 55.0,
+      "bas": 90.0,
+      "lid": 86.4
+    }
+  },
+  {
+    "managerId": "alex-ferguson",
+    "vector": {
+      "pos": 35.0,
+      "pro": 35.0,
+      "est": 50.0,
+      "lar": 20.5,
+      "blo": 70.5,
+      "mar": 45.0,
+      "pla": 43.2,
+      "res": 43.2,
+      "sis": 35.0,
+      "jog": 35.0,
+      "bas": 75.0,
+      "lid": 79.5
+    }
+  },
+  {
+    "managerId": "arsene-wenger",
+    "vector": {
+      "pos": 80.0,
+      "pro": 45.0,
+      "est": 20.0,
+      "lar": 75.0,
+      "blo": 43.2,
+      "mar": 80.0,
+      "pla": 88.6,
+      "res": 77.3,
+      "sis": 25.0,
+      "jog": 65.0,
+      "bas": 65.0,
+      "lid": 25.0
+    }
+  },
+  {
+    "managerId": "carlo-ancelotti",
+    "vector": {
+      "pos": 40.0,
+      "pro": 35.0,
+      "est": 30.0,
+      "lar": 70.5,
+      "blo": 25.0,
+      "mar": 75.0,
+      "pla": 25.0,
+      "res": 25.0,
+      "sis": 25.0,
+      "jog": 70.0,
+      "bas": 30.0,
+      "lid": 15.9
+    }
+  },
+  {
+    "managerId": "diego-simeone",
+    "vector": {
+      "pos": 10.0,
+      "pro": 40.0,
+      "est": 60.0,
+      "lar": 61.4,
+      "blo": 18.2,
+      "mar": 60.0,
+      "pla": 34.1,
+      "res": 11.4,
+      "sis": 90.0,
+      "jog": 15.0,
+      "bas": 30.0,
+      "lid": 77.3
+    }
+  },
+  {
+    "managerId": "massimiliano-allegri",
+    "vector": {
+      "pos": 25.0,
+      "pro": 55.0,
+      "est": 30.0,
+      "lar": 65.9,
+      "blo": 18.2,
+      "mar": 70.0,
+      "pla": 11.4,
+      "res": 4.5,
+      "sis": 25.0,
+      "jog": 65.0,
+      "bas": 20.0,
+      "lid": 47.7
+    }
+  },
+  {
+    "managerId": "miguel-cardoso",
+    "vector": {
+      "pos": 80.0,
+      "pro": 55.0,
+      "est": 60.0,
+      "lar": 38.6,
+      "blo": 75.0,
+      "mar": 75.0,
+      "pla": 75.0,
+      "res": 47.7,
+      "sis": 70.0,
+      "jog": 55.0,
+      "bas": 35.0,
+      "lid": 52.3
+    }
+  },
+  {
+    "managerId": "pedro-emanuel",
+    "vector": {
+      "pos": 35.0,
+      "pro": 45.0,
+      "est": 60.0,
+      "lar": 34.1,
+      "blo": 36.4,
+      "mar": 75.0,
+      "pla": 25.0,
+      "res": 20.5,
+      "sis": 75.0,
+      "jog": 25.0,
+      "bas": 30.0,
+      "lid": 61.4
+    }
+  },
+  {
+    "managerId": "claudio-coutinho",
+    "vector": {
+      "pos": 75.0,
+      "pro": 40.0,
+      "est": 40.0,
+      "lar": 52.3,
+      "blo": 70.5,
+      "mar": 60.0,
+      "pla": 79.5,
+      "res": 47.7,
+      "sis": 80.0,
+      "jog": 25.0,
+      "bas": 75.0,
+      "lid": 84.1
+    }
+  }
+]

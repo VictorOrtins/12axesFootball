@@ -32,7 +32,7 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 
 - Ambiguous team, era or calendar (e.g. "Sundowns 2025": calendar 2025 or 2024/25?): ask the user and stop.
 - Era shorter than about half a season (~15 competitive matches): tell the user and stop unless they say to go on. A single tournament (a World Cup) is fine.
-- After step 7, **stop**: no audit until the football question pool exists. Report to the user as described at the end of FOOTBALL_RESEARCH.md.
+- After step 7, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report to the user as described at the end of FOOTBALL_RESEARCH.md.
 
 ## Rules that can't be broken
 

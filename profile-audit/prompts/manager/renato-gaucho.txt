@@ -1,0 +1,969 @@
+You are auditing, question by question and fully independently, the football profile "Renato Gaúcho" (catalog: manager) on the 12 axes of the 12axes football quiz. Answer as the manager Renato Gaúcho, across the spells counted in the research file (spellsCounted). Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/renato-gaucho.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+}
+
+After writing the file, reply only with "OK manager:renato-gaucho" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (manager/renato-gaucho.json) ===
+{
+  "id": "renato-gaucho",
+  "catalog": "manager",
+  "name": "Renato Gaúcho",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2007-04-24",
+    "end": "2025-09-24"
+  },
+  "scopeNote": "Manager profile of Renato Gaúcho (Renato Portaluppi). The period runs from his hiring at Fluminense (agreed 2007-04-24, Jornal do Brasil) to his resignation at Fluminense on 2025-09-24, covering five counted spells. Spell dates come from pt.wikipedia 'Renato Gaúcho' (read in its first 100k characters at step 1), the JB 2007 article and a search for the 2021 Grêmio exit; partial dates for excluded spells are as Wikipedia gives them. Two 2026 spells (Vasco 2026-03-03 to 2026-06-18: 22 matches, 9W 6D 7L, relegation zone, no title; Grêmio again from 2026-09-14, ongoing) are excluded. Style: the evidence supports an attacking, player-centred 4-2-3-1 with possession through midfield (Arthur, Luan) plus fast counters (Goal BR 2017: 'Fernandinho na aposta da velocidade nos contra-ataques'; Trivela 2017: 'letal nos contra-ataques'), with real wingers when available, and a pragmatic willingness to change system by opponent (3-4-2-1/3-5-2 at Grêmio 2023, mirrored 3-5-2 against Inter at the 2025 Club World Cup). He rejects possession for its own sake ('A mim, não interessa ter 70% de posse de bola', 2020). Management: freedom and dialogue with players, protection of the group, recovering discarded veterans while also giving academy players minutes. No source says outright whether his teams mark zonally or man-to-man; the closest facts are Renato's collective (non-individual) plan for Neymar in 2025 and critics' notes on loose compactness. Fluminense 2007 counts on titles but is documented only by a retrospective. All evidence is Brazilian press (tier C); no tier A-B analysis was found.",
+  "spellsCounted": [
+    {
+      "club": "Fluminense",
+      "start": "2007-04-24",
+      "end": "2008-08-11",
+      "reason": "Copa do Brasil 2007 (first title as a coach) and the 2008 Libertadores final. Start = hiring agreed (JB, 2007-04-24); end = dismissal (Wikipedia)."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2016-09-18",
+      "end": "2021-04-15",
+      "reason": "Copa do Brasil 2016, Copa Libertadores 2017, Recopa Sul-Americana 2018, Gaúcho 2018-2020; the 4-2-3-1 he is best known for, with wide tactical coverage. Left the day after the Del Valle elimination (2021-04-14)."
+    },
+    {
+      "club": "Flamengo",
+      "start": "2021-07-10",
+      "end": "2021-11-29",
+      "reason": "Move to the biggest job in Brazil after Grêmio; Libertadores 2021 final and Brasileirão runner-up, with dense tactical coverage (positive and critical). No title: see openQuestions."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2022-09-01",
+      "end": "2024-12-09",
+      "reason": "Promotion from Série B 2022, Série A runner-up 2023 (Suárez side), Gaúcho 2023 and 2024; tactical coverage of his system changes (4-2-3-1, 3-4-2-1, 4-4-2 diamond)."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2025-04-03",
+      "end": "2025-09-24",
+      "reason": "FIFA Club World Cup 2025 semi-final (Inter 0-2 Fluminense in the round of 16), with tactical coverage of the three-volante and mirrored 3-5-2 plans. End = resignation."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Madureira",
+      "start": "2000",
+      "end": "2001",
+      "reason": "Early spell, no titles or tactical coverage."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2002-09",
+      "end": "2003-07",
+      "reason": "No titles, no tactical coverage found."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2003-10",
+      "end": "2003-12",
+      "reason": "Short return, no titles."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2005",
+      "end": "2007-04",
+      "reason": "Copa do Brasil 2006 runner-up only; left after early cup and Carioca exits (JB 2007-04-24: 'deixou o Vasco há quase duas semanas')."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2008-09-18",
+      "end": "2008",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2009-07-20",
+      "end": "2009-09-01",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Bahia",
+      "start": "2009-12-13",
+      "end": "2010-08-10",
+      "reason": "No major title or tactical coverage."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2010-08-10",
+      "end": "2011-06-30",
+      "reason": "No title; resigned. Not what he is known for."
+    },
+    {
+      "club": "Athletico Paranaense",
+      "start": "2011-07-04",
+      "end": "2011-09-01",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2013-07-01",
+      "end": "2013-12",
+      "reason": "Brasileirão runner-up 2013 but no title, about half a season; not a defining spell."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2013-12-24",
+      "end": "2014-04-02",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2026-03-03",
+      "end": "2026-06-18",
+      "reason": "22 matches, 50% of points, relegation zone at dismissal, no title (press, via search; not read in full)."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2026-09-14",
+      "end": "ongoing",
+      "reason": "Fifth Grêmio spell, one month old; too recent to judge (A Bola, 2026-09-14, via search)."
+    }
+  ],
+  "teamProfiles": [
+    "gremio-2017"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Flamengo 2021 is counted as a move to a bigger job with tactical coverage, though it brought no title and critics said the team had no identity (Lance, 2021-11-08). Drop it if only title-winning spells should count.",
+    "Grêmio 2022-24 and Fluminense 2025 are counted on promotion/Série A runner-up/state titles and the Club World Cup semi-final with tactical coverage; neither brought a national or continental title. Confirm.",
+    "Marking (mar): no source says zonal or man-oriented. The only direct facts are the collective (non-individual) plan for Neymar in 2025 and an unverified fan-analyst claim that set-piece defence is not fully individual. Treat mar as close to memory-only.",
+    "Fluminense 2007 is counted on the Copa do Brasil title, but its only style fact is a 2025 retrospective ('estilo ofensivo'); no formation found.",
+    "The 'fora de série' marking quote (NetFlu) shows only a last-update date of 2014-03-06 (Fluminense 2014 spell, excluded); its original date may be earlier.",
+    "The 'paizão' label asked for was not found in any source; the people-management picture (freedom, dialogue, protecting the group, but fines when needed) rests on Renato's own words and press accounts.",
+    "Wikipedia gives the Grêmio 2022 start as 2022-09-01 and the Flamengo dates (2021-07-10 to 2021-11-29); these were not cross-checked against club announcements."
+  ],
+  "sources": [
+    {
+      "title": "Renato Gaúcho é confirmado como novo treinador do Fluminense (Jornal do Brasil)",
+      "url": "https://www.jb.com.br/esportes/noticias/2007/04/24/renato-gaucho-e-confirmado-como-novo-treinador-do-fluminense.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2007-04-24",
+      "eventDate": "2007-04-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Dates only, used for the spell start, not as tactical evidence: \"O Fluminense acertou na tarde desta terça-feira a contratação do técnico Renato Gaúcho\" to \"dirigir a equipe no Campeonato Brasileiro.\" \"Renato, 44 anos, deixou o Vasco há quase duas semanas, depois da eliminação precoce na Copa do Brasil.\"",
+      "verified": false
+    },
+    {
+      "title": "Título do Fluminense na Copa do Brasil: a conquista de 2007 (Lancepédia)",
+      "url": "https://www.lance.com.br/lancepedia/titulo-do-fluminense-copa-do-brasil.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-02-26",
+      "eventDate": "2007",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Retrospective, no period quote: the 2007 campaign was marked by \"um futebol consistente\" and Renato's side had an \"estilo ofensivo e de forte presença no ataque\". Final: Figueirense 0-1 Fluminense (Roger). No formation given.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "\"A equipe comandada por Renato Portaluppi levantou o título em um 4-2-3-1\" (Tauan Ambrosio). Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"com o excelente Arthur ajudando nas transições defesa/ataque e protegendo a defesa\"; \"Barrios como referência e Fernandinho na aposta da velocidade nos contra-ataques.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "O fato novo que pode fazer Renato repensar esquema tático no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-renato-gaucho-esquema-tatico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Nícolas Wagner: \"O mais recente deles, nas vitórias sobre Coritiba e Bahia, foi o 3-5-2\"; the article weighs \"o retorno de seu tradicional 4-2-3-1, que o consagrou em sua passagem anterior pelo Grêmio.\"",
+      "verified": true
+    },
+    {
+      "title": "O fato novo que pode fazer Renato repensar esquema tático no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-renato-gaucho-esquema-tatico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"Até por ter sido um, e dos bons, Renato Portaluppi sempre gostou de utilizar pontas em suas equipes.\" \"o treinador se queixou diversas vezes da carência de atacantes de lado de velocidade no elenco do Grêmio.\"",
+      "verified": true
+    },
+    {
+      "title": "Nos últimos jogos do ano, Grêmio encontra outra alternativa para jogo de velocidade (Lance)",
+      "url": "https://www.lance.com.br/gremio/nos-ultimos-jogos-ano-encontra-outra-alternativa-para-jogo-velocidade.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-12-09",
+      "eventDate": "2019",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Wide players are a \"Função muito importante para dar profundidade a troca de passes do Grêmio\"; \"os homens de lado de campo sempre tiveram participação ativa na equipe de Renato Portaluppi\" (Everton, Alisson, Pepê named).",
+      "verified": true
+    },
+    {
+      "title": "Análise: fragilidade tática no desnorteado Flamengo de Renato atinge o seu ápice (Lance)",
+      "url": "https://www.lance.com.br/flamengo/analise-fragilidade-tatica-desnorteado-renato-atinge-seu-apice.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-11-08",
+      "eventDate": "2021-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "One match (Chapecoense x Flamengo, draw): \"Contra a Chape, um desorganizado Flamengo fez 30 cruzamentos\"; \"a equipe foi um deserto de ideias nas tramas próximas à área\".",
+      "verified": true
+    },
+    {
+      "title": "Análise: fragilidade tática no desnorteado Flamengo de Renato atinge o seu ápice (Lance)",
+      "url": "https://www.lance.com.br/flamengo/analise-fragilidade-tatica-desnorteado-renato-atinge-seu-apice.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-11-08",
+      "eventDate": "2021-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Critical analysis of Flamengo 2021: the team \"nem é impositiva, com forte marcação pressão no ataque,\" \"nem é talhada para o contragolpe, com linhas mais baixas e uma defesa consistente\"; \"a sua equipe não tem identidade\"; it ceded \"espaços em profusão\".",
+      "verified": true
+    },
+    {
+      "title": "Das goleadas ao momento mais conturbado: Renato completa quatro meses como técnico do Flamengo (Lance)",
+      "url": "https://www.lance.com.br/flamengo/das-goleadas-momento-mais-conturbado-renato-completa-quatro-meses-como-tecnico.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-11",
+      "eventDate": "2021",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Article date not shown on the page; four months after 2021-07-10, so about Nov 2021. First six games won, 24 goals scored, 3 conceded. Later, opponents dropped deep and countered while Flamengo often passed the ball \"sem objetividade\" and left gaps at the back (paraphrase of the page). Rotation before the Barcelona SC semi-final second leg kept the \"padrão Grêmio\".",
+      "verified": true
+    },
+    {
+      "title": "Heróis do tricampeonato tricolor (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/herois-do-tricampeonato-tricolor/vxaeuttimm0w1ucu73edojim5",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Arthur was \"extremamente importante para a saída de bola da equipe de Renato Gaúcho.\" Luan \"Comandou o meio campo do time\". Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Manhã de treino... Grêmio trabalha movimentações de jogo no CT Luiz Carvalho (gremio.net)",
+      "url": "https://www.gremio.net/noticias/detalhes/22411/gremio-trabalha-movimentacoes-de-jogo-no-ct-luiz-carvalho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-04-26",
+      "eventDate": "2019-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Official club training report, \"tática comandada por Renato Portaluppi\": \"saída de bola, sempre a partir dos volantes\"; \"Maicon e Matheus Henrique faziam a saída com os laterais\"; volantes, meias and atacantes did \"o trabalho de construção\" while the meias waited for \"a passagem dos jogadores de lado\". Training session, not a match.",
+      "verified": true
+    },
+    {
+      "title": "Com toque de Renato, Grêmio reencontrou equilíbrio para bater o Pachuca e o nervosismo (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/com-toque-de-renato-gremio-reencontrou-equilibrio-para-bater-o-pachuca-e-o-nervosismo/1pz0oxrhcejsm1vm30ca3lt8qj",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-12-12",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Grêmio averaged \"média de 53%  na Libertadores e 51% no Brasileirão\" of possession in 2017. Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Renato valoriza empate, mas vê rendimento abaixo do desejado no Grêmio em 2018 (Tribuna PR)",
+      "url": "https://www.tribunapr.com.br/esportes/renato-valoriza-empate-mas-ve-rendimento-abaixo-do-desejado-no-gremio-em-2018/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-02-28",
+      "eventDate": "2018-02-27",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "One match (Defensor 1-1 Grêmio, Libertadores, Montevideo). Renato on facing a deep block, implying Grêmio had the ball: \"É sempre muito difícil jogar contra um adversário com uma linha de quatro e outra de cinco próximas\", the opponent \"esperando um erro, um contra-ataque\".",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"muito mais consistente na defesa, letal nos contra-ataques.\" \"A solidez defensiva e a verticalidade no ataque, vistas em 2016, evoluíram nos últimos meses.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Libertadores final (Lanús 1-2 Grêmio): the team connected its phases \"especialmente pela maneira como trabalharam sem a bola, pressionando, agressivos.\" One match; no height, triggers or orientation. Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "The relationship with the squad is Renato's \"trunfo mais evidente\"; \"É difícil encontrar um jogador que critique o treinador abertamente.\" Despite rotation \"não se viu qualquer crise de vaidades no elenco tricolor\". Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Análise: a mudança no Fluminense que amarrou o Borussia (Lance)",
+      "url": "https://www.lance.com.br/fluminense/analise-a-mudanca-no-fluminense-que-amarrou-o-borussia.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-06-19",
+      "eventDate": "2025-06-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "One match (Club World Cup v Borussia Dortmund). Three volantes (Hércules, Martinelli, Nonato) instead of Ganso. Felipe Melo: \"O Renato surpreendeu todo mundo ao mudar o tripé de meio-campo, fazendo pressão alta.\" Renato: \"A gente precisava de uma marcação mais forte no meio.\" The team \"valorizou a posse de bola\". No zonal/man detail.",
+      "verified": true
+    },
+    {
+      "title": "Renato Gaúcho revela o que disse a Neymar após vitória do Fluminense (O Antagonista)",
+      "url": "https://oantagonista.com.br/ladooa/esportes/renato-gaucho-revela-o-que-disse-a-neymar-apos-vitoria-do-fluminense/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-14",
+      "eventDate": "2025-04-13",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "One match (Fluminense 1-0 Santos). Paraphrase on the page, no quotation marks: Renato did not assign an individual marker to Neymar; the plan was collective, with whichever Fluminense player was near him marking him. The only direct marking-orientation fact found (points away from man-marking).",
+      "verified": true
+    },
+    {
+      "title": "O ano do Grêmio foi ótimo, mas há um grande porém: sua defesa frouxa (Trivela)",
+      "url": "https://trivela.com.br/brasil/retrospectiva-defesa-gremio-2023/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-12-11",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Nícolas Wagner: \"Em algumas partidas, o Grêmio foi um time descompactado, com muito espaço entre os setores.\" \"Renato alternou esquemas táticos, com dois ou três zagueiros, e dois ou três volantes, mas o problema persistiu.\" Renato (after Fortaleza, 2023-09-30): \"é lógico que você vai deixar espaços, porque tem um time bastante ofensivo\".",
+      "verified": true
+    },
+    {
+      "title": "A reinvenção de Renato no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/reinvencao-renato-gremio-2023/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-08-28",
+      "eventDate": "2023-08",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Paraphrase of the page: Renato tested three systems during the week and the choice depended heavily on the opponent; a 4-4-2 diamond without wingers v Santos, a packed midfield v Cruzeiro to contain its \"fortes transições\"; two banks of four in the second half v Santos. Renato was suspended; assistant Alexandre Mendes: \"Os jogadores entenderam e compraram a ideia.\"",
+      "verified": true
+    },
+    {
+      "title": "Renato Gaúcho e o trio de zagueiros contra a Inter (Trivela)",
+      "url": "https://trivela.com.br/mundial-de-clubes/renato-gaucho-fluminense-inter/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-06-30",
+      "eventDate": "2025-06-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Eduardo Deconto. Club World Cup round of 16, Inter 0-2 Fluminense: Renato chose to \"espelhar o esquema da Inter\" with three centre-backs, describing Inter as \"muito forte, muito rápida, jogadores altos, fortes\"; the squad had \"dois, três dias apenas para treinar\" it. Renato: \"Muita gente acha que o Renato é isso, é aquilo\".",
+      "verified": true
+    },
+    {
+      "title": "Com toque de Renato, Grêmio reencontrou equilíbrio para bater o Pachuca e o nervosismo (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/com-toque-de-renato-gremio-reencontrou-equilibrio-para-bater-o-pachuca-e-o-nervosismo/1pz0oxrhcejsm1vm30ca3lt8qj",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-12-12",
+      "eventDate": "2017-12-12",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "One match (Club World Cup semi-final v Pachuca, 1-0 a.e.t.): paraphrase from the gremio-2017 run; Jael replaced Barrios, Everton came on and scored; the article credits Renato's changes (\"toque de Renato\").",
+      "verified": true
+    },
+    {
+      "title": "O segredo de Renato Gaúcho no Fluminense contra a Inter (90min)",
+      "url": "https://www.90min.com/pt-br/segredo-renato-gaucho-fluminense-melhores-times-futebol-mundial",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-06-30",
+      "eventDate": "2025-06-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Bia Palumbo, Renato's post-match quotes (v Inter): \"treinamos bastante a parte tática, bola parada...\" \"Hoje em dia muitas vezes uma partida é decidida na bola parada,\" \"não poderíamos dar essa vantagem ao nosso adversário e ao mesmo tempo poderíamos ter isso a nosso favor.\" \"Temos Arias e Renê que batem bem na bola e jogadores altos dentro da área deles para perturbar e fazer o gol de cabeça.\"",
+      "verified": true
+    },
+    {
+      "title": "Vídeo: Fluminense vem sofrendo na defesa com escanteios (NetFlu)",
+      "url": "https://www.netflu.com.br/video-fluminense-vem-sofrendo-na-defesa-com-escanteios-perfil-opina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025",
+      "eventDate": "2025",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Search summary only (not read): a fan tactical account says Renato's Fluminense does not use fully individual marking on defensive set pieces and conceded headers. Not verified.",
+      "verified": false
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "\"Principalmente por contar com Luan na criação e finalização de jogadas.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "O fato novo que pode fazer Renato repensar esquema tático no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-renato-gaucho-esquema-tatico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "On a young forward: Renato \"Tem velocidade, inteligência para jogar. Precisa evoluir algumas coisas.\" and \"Eu falei isso para ele: você não pode ter desaprendido a jogar, garoto.\" Pace plus intelligence; preference for genuine wingers (see width).",
+      "verified": true
+    },
+    {
+      "title": "O momento 'Tito Vilanova' de Renato Gaúcho no Gre-Nal 425 (Correio Braziliense, Drible de Corpo)",
+      "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/o-momento-tito-vilanova-de-renato-gaucho-no-gre-nal-425/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-07-23",
+      "eventDate": "2020-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Marcos Paulo Lima. Gre-Nal 425 (Grêmio won, Jean Pyerre goal): six academy players on the pitch together in the second half; 21-year-old Guilherme Guedes started at left-back. Renato: \"Eu gosto de trabalhar com garotos, a base faz um excelente trabalho.\" \"Ninguém é dono da camisa.\" \"Quando precisamos deles, sempre dão conta do recado.\"",
+      "verified": true
+    },
+    {
+      "title": "A 'Era Renato': veja como técnico fez Grêmio voltar ao rumo dos títulos (Lance)",
+      "url": "https://www.lance.com.br/gremio/era-renato-desconfianca-busca-por-titulos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-05",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"Ainda chegaram ao clube outros jogadores desacreditados, como Lucas Barrios, Cícero e Christian.\" \"O trio retomou seus bons momentos\". Caption: \"Recuperação de jogadores, mescla com jovens.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "A 'Era Renato': veja como técnico fez Grêmio voltar ao rumo dos títulos (Lance)",
+      "url": "https://www.lance.com.br/gremio/era-renato-desconfianca-busca-por-titulos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-05",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Espinosa: \"Ele (Renato Portaluppi) sabe como dialogar, dar a cada jogador chance de mostrar seu futebol.\" \"Todas as contratações eram discutidas, mas o mérito maior sempre foi do Renato.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Eternos um ao outro: Renato Portaluppi deixa o Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/eternos-um-ao-outro-renato-portaluppi-deixa-o-gremio-com-muita-historia-em-separacao-que-faz-bem-aos-dois-lados/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-04-15",
+      "eventDate": "2016/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Felipe Lobo, on the 2016-21 spell: he \"fez com que o Grêmio tivesse um futebol atraente, envolvente e vencedor\", \"com muitos jogadores recuperados, outros que foram apostas furadas\"; \"Renato gostava de se envaidecer ao dizer que o seu time jogava o melhor futebol do Brasil.\" Late decline: \"O futebol do Grêmio já não era mais o mesmo.\"",
+      "verified": true
+    },
+    {
+      "title": "Grêmio 2019 elimination: lowest possession of the season (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/eliminacao-historica-do-gremio-passa-por-expulsao-desfalques/1gpcx1v9mte0a1nei0q3g7p44s",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019",
+      "eventDate": "2019",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Search summary only (not read): without Maicon, Renato's Grêmio had its lowest possession (30%) and fewest passes (221) of 2019 in the elimination match, implying usually higher figures. Not verified.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Não é porque sou atacante que não vou marcar ou porque sou zagueiro que não faço gols. Todos têm de se ajudar. [...] A não ser que apareça um fora de série e fale assim: \"Olha, não vou marcar, mas vou fazer dois, três gols jogo\". Esse eu vou liberar da marcação. Caso contrário, não. [...] Com a bola, teremos seis, sete jogadores com liberdade para atacar.",
+      "date": "2014-03-06",
+      "source": "https://www.netflu.com.br/renato-gaucho-diz-que-sem-foras-de-serie-todos-tem-de-marcar/",
+      "provenance": "primary",
+      "note": "Fluminense 2013-14 spell (excluded). The page shows only a last-update date (2014-03-06); the original date may be earlier. Talent can be exempted from the system."
+    },
+    {
+      "quote": "Quem precisa aprender tem que estudar, ir para a Europa. Quem não precisa, pode tirar as férias na praia. [...] Quem sabe, sabe. Quem não sabe, vai estudar. [...] Futebol é como andar de bicicleta: nunca desaprende",
+      "date": "2016-12-08",
+      "source": "https://www.gazetaesportiva.com/gremio/renato-nao-se-ve-desatualizado-futebol-e-como-andar-de-bicicleta/",
+      "provenance": "primary",
+      "note": "Earliest appearance (re-read 2026-10-14). About his own preparation and management, not his team's tactics."
+    },
+    {
+      "quote": "Então, até um cego vê que o Grêmio vem jogando um futebol maravilhoso. [...] O objetivo é jogarmos bem e ganharmos os jogos, mas isso não credencia o Grêmio ao título.",
+      "date": "2017-06-03",
+      "source": "https://www.gazetaesportiva.com/?p=2452802",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Eu gosto de trabalhar com garotos, a base faz um excelente trabalho. [...] Ninguém é dono da camisa.",
+      "date": "2020-07-23",
+      "source": "https://blogs.correiobraziliense.com.br/dribledecorpo/o-momento-tito-vilanova-de-renato-gaucho-no-gre-nal-425/",
+      "provenance": "primary",
+      "note": "Press conference after Gre-Nal 425, reported the next morning."
+    },
+    {
+      "quote": "Minha equipe é objetiva para buscar o gol. Não adianta ficar tocando a bola dentro do próprio campo. [...] A mim, não interessa ter 70% de posse de bola. [...] Quando meu time tem a bola, é agressivo.",
+      "date": "2020-12-31",
+      "source": "https://jornaldebrasilia.com.br/torcida/apos-vaga-renato-gaucho-faz-analogia-com-paquera-para-questionar-posse-de-bola/",
+      "provenance": "primary",
+      "note": "After eliminating São Paulo in the Copa do Brasil semi-final (0-0 away, 2020-12-30), when São Paulo had more of the ball in both legs."
+    },
+    {
+      "quote": "Eu nunca tive problema com meu grupo, vai de treinador para treinador.",
+      "date": "2023-08-14",
+      "source": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-do-sul/gremio/renato-do-gremio-comenta-crise-no-flamengo-nunca-tive-problema-com-meu-grupo/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Muitos jogadores não têm aquela característica de marcação. [...] Para mim é muito fácil tirar dois atacantes, colocar mais dois jogadores de marcação no meio de campo, [...] se vocês contarem nos dedos vão encontrar duas equipes, e olhe lá, que joguem tão ofensivamente como meu time.",
+      "date": "2023-12-11",
+      "source": "https://trivela.com.br/brasil/retrospectiva-defesa-gremio-2023/",
+      "provenance": "attributed",
+      "note": "Said after the draw with Fortaleza on 2023-09-30 per the article; the original press-conference report was not found, so the earliest read appearance is this retrospective."
+    },
+    {
+      "quote": "O Fluminense enquanto eu estiver aqui vai jogar como time grande, vai respeitar os adversário, mas vai jogar para dentro, sempre para vencer. [...] Vai jogar como time grande independente do adversário.",
+      "date": "2025-04-04",
+      "source": "https://www.tupi.fm/?p=2003498",
+      "provenance": "primary",
+      "note": "Presentation at Fluminense; also said the team would work \"sempre com cuidado defensivo\"."
+    },
+    {
+      "quote": "Dar liberdade para o jogador se expressar. [...] Eu não sou aquele treinador que fala, fala, fala e não dá oportunidade para o jogador falar. [...] Na hora de passar, fazer um carinho no jogador eu vou fazer, [...] na hora de multar, na hora de chamar atenção também eu vou chamar.",
+      "date": "2025-04-04",
+      "source": "https://www.tupi.fm/?p=2003498",
+      "provenance": "primary",
+      "note": "Same presentation; what he passed on to the group was \"alegria de jogar e coragem\". Closest found to the 'paizão' image: warmth plus fines when needed."
+    },
+    {
+      "quote": "Muita gente acha que nós temos três volantes, mas os volantes saem para o jogo.",
+      "date": "2025-06-19",
+      "source": "https://www.lance.com.br/fluminense/analise-a-mudanca-no-fluminense-que-amarrou-o-borussia.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Mudei o sistema também porque a Inter tem um time muito alto, [...] Sabia que precisava espelhar o time e levantar a altura para que a gente pudesse competir com eles.",
+      "date": "2025-06-30",
+      "source": "https://www.90min.com/pt-br/segredo-renato-gaucho-fluminense-melhores-times-futebol-mundial",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-problemas-defensivos-corinthians/",
+      "reason": "empty"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://trivela.com.br/brasil/campeonato-brasileiro/gremio-problemas-defensivos-corinthians/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.maisgoias.com.br/esportes/saidinha-familias-e-vaquinha-renato-tenta-aliviar-tensao-no-gremio/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.folhavitoria.com.br/esportes/cortez-diz-que-gremio-joga-por-renato-e-lembra-trabalho-com-jorge-jesus/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.goal.com/br/not%C3%ADcias/-renato-tranquilo-com-montagem-do-gremio-2019-criar-um-grupo-forte-para-ganhar-titulos/diaolpysq14c1qr9s4xvqrnwi",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.goal.com/br/not%C3%ADcias/-cirurgia-no-coracao-ferias-e-polemica-com-curso-da-cbf-mercado-do-gremio-e-mais-renato-gaucho-abre-o-jogo-em-entrevista/1euc6yma0emwg199l9pvx9hkjw",
+      "reason": "empty"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Renato_Gaúcho",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "roger-machado",
+      "kind": "manager",
+      "note": "Renato inherited Roger Machado's 4-2-3-1 at Grêmio in 2016 (Bola na Rede, 2017, via gremio-2017)."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "All 13 dimensions have a verified fact and Renato's stated view is well documented with dated Portuguese quotes across 2014-2025, but every source is tier C Brazilian press (Trivela, Lance, Goal BR, Correio Braziliense, club site), with no tier A-B analysis. Grêmio 2016-21 and the 2023/2025 system changes agree across sources; Fluminense 2007 rests on one retrospective; pressing, block depth, set pieces and marking rest on single matches, and marking orientation is only inferred from one paraphrased plan against Neymar."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+2. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+3. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+4. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+5. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+2. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+3. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+4. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+5. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+2. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+3. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+4. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+5. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+2. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+3. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+4. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+5. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+2. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+3. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+4. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+5. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+2. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+3. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+4. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+5. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+2. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+3. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+4. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+5. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+2. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+3. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+4. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+5. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+2. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+3. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+4. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+5. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+2. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+3. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+4. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+5. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+2. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+3. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+4. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+5. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+2. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+3. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+4. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+5. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.

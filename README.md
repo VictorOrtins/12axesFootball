@@ -14,7 +14,7 @@ Portuguese and English · no sign-up
 
 This is a fork of [12 Axes](https://12axes.vercel.app), a political quiz, rebuilt for football. Instead of ideologies, countries and political figures, your answers are matched against football ideas (schools of play), team eras and managers. [FORK_README.md](FORK_README.md) has the motivation and inspirations.
 
-**Status: work in progress.** The political content is gone and the code runs on the football axes, but the football question pool and the three catalogs are still empty. The app builds and boots, and the quiz has no questions yet. Profiles are being researched first (see [Adding profiles](#adding-football-ideas-teams-or-managers)).
+**Status: work in progress.** The political content is gone and the code runs on the football axes. The question pool has its first 60 statements (5 per axis), enough for the short and extended quizzes, and the three catalogs are still empty. Profiles are being researched first (see [Adding profiles](#adding-football-ideas-teams-or-managers)).
 
 ## About the project
 
@@ -57,7 +57,7 @@ The football compass on the results page uses Possession as the x axis, Block as
 | Disagree | 0.25 |
 | Strongly disagree | 0.00 |
 
-The quiz has three lengths (short, extended and extreme), drawn from a pool balanced across the axes, plus optional multiple-choice "archetype" questions that score several axes at once. The football pool is still to be written.
+The quiz has three lengths (short, extended and extreme), drawn from a pool balanced across the axes, plus optional multiple-choice "archetype" questions that score several axes at once. A statement can also count for a second axis at a lower weight (`secondary` in the pool). The pool has 60 statements so far, so the extreme quiz has the same questions as the extended one until it grows to 240.
 
 ### Methodological note
 
@@ -96,7 +96,8 @@ All data lives in `backend/src/main/resources/data/`, with English translations 
 | File | Contents |
 |------|----------|
 | `axes.json` | The 12 football axes, their poles and labels |
-| `questions-pool.json` | The question pool, with axis, polarity and weight (empty for now) |
+| `questions-pool.json` | The question pool, with axis, polarity, weight and an optional second axis |
+| `question-help.json` / `glossary.json` | What agreeing and disagreeing mean for each statement, and the football terms underlined in them |
 | `archetype-questions.json` | The multiple-choice questions (empty for now) |
 | `football-ideologies.json` / `football-ideology-profiles.json` | Football ideas and their 12-axis vectors |
 | `teams.json` / `team-profiles.json` | Team eras (a club or national team over a set period) |
@@ -231,7 +232,7 @@ Catalog entries are not placed on the axes by hand. Each new profile starts with
 | `/new-team <name>` | Research a team era |
 | `/new-manager <name>` | Research a manager |
 
-Research files are saved in `profile-audit/research/<catalog>/<id>.json` and checked with `python3 profile-audit/validate.py research <catalog> <id>`. Turning research into a vector (answering the question pool in character) waits on the football question pool.
+Research files are saved in `profile-audit/research/<catalog>/<id>.json` and checked with `python3 profile-audit/validate.py research <catalog> <id>`. Turning research into a vector means answering the question pool in character.
 
 ### License
 

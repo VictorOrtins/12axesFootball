@@ -1,0 +1,360 @@
+{
+  "id": "leeds-2019-20",
+  "catalog": "team",
+  "name": "Leeds United 2019/20",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2019-08-04",
+    "end": "2020-07-22"
+  },
+  "scopeNote": "EFL Championship (champions, 93 points, promoted), FA Cup and EFL Cup 2019/20: 49 competitive matches (Championship 46, FA Cup 1, EFL Cup 2). First match Bristol City 1-3 Leeds (Championship, 4 Aug 2019, English Wikipedia); last match Leeds 4-0 Charlton (22 Jul 2020). Marcelo Bielsa (id marcelo-bielsa) managed throughout. Style named by the evidence: a high, man-oriented press ('mark man-to-man across the pitch', Fantasy Football Scout quoting Coaches' Voice, 2020; 'partial man-marking', Total Football Analysis, May 2020) from a 4-1-4-1 (36 of 46 league games, Premier League/Opta) that becomes a 3-3-1-3 with a spare man at the back; about 60% possession. Wikipedia read to character 200000 of 214706; the last part (not relevant to the dates) was unread.",
+  "managers": [
+    {
+      "managerId": "marcelo-bielsa",
+      "start": "2019-08-04",
+      "end": "2020-07-22"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking: sources say man-to-man across the pitch with a spare man (FFS quoting Coaches' Voice, TFA 'partial man-marking'), but none gives a 2019/20-specific zonal/man breakdown by phase. The FourFourTwo spare-man piece could not be read.",
+    "No 2019/20 source read covers set pieces (a search found only 2018/19 and 2020/21 material), player profile or people management.",
+    "Wikipedia gives the first match as 4 Aug 2019 (a Sunday); confirm against the club or EFL fixture list if exactness matters.",
+    "Opponent-based shape changes (4-1-4-1 v one striker, 3-3-1-3 v two) rest on one analyst quote in a tier C page."
+  ],
+  "sources": [
+    {
+      "title": "2019–20 Leeds United F.C. season",
+      "url": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Leeds_United_F.C._season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read to character 200000 of 214706. Loans in: Jack Harrison (Manchester City, 1 Jul 2019-30 Jun 2020), Ben White (Brighton, same period), Hélder Costa (Wolves), Illan Meslier (Lorient, from 8 Aug 2019), Eddie Nketiah (Arsenal, from 1 Jan 2020), Jean-Kévin Augustin (RB Leipzig, 27 Jan-30 Jun 2020). Out in summer 2019: Jack Clarke (Tottenham, £11m), Pontus Jansson (Brentford, £5.5m), Kemar Roofe (Anderlecht, £7m), Samuel Sáiz (Girona). Period and counts: first match Bristol City 1-3 Leeds (4 Aug 2019); last Leeds 4-0 Charlton (22 Jul 2020); Championship 46 (1st, 93 pts, 28W 9D 9L, 77-35), FA Cup 1 (Arsenal 1-0 Leeds, 6 Jan 2020), EFL Cup 2 (Salford 0-3 Leeds; Leeds 2-2 Stoke, lost 4-5 on penalties). 49 matches. Infobox manager Marcelo Bielsa.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa – Leeds United – Tactical Analysis (2019-20 Edition)",
+      "url": "https://themastermindsite.com/2020/07/19/marcelo-bielsa-leeds-united-tactical-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-07-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"Only twelve players have featured in over half of Leeds' matches in 2019-20.\" \"Ben White has started every single Championship match\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa – Leeds United – Tactical Analysis (2019-20 Edition)",
+      "url": "https://themastermindsite.com/2020/07/19/marcelo-bielsa-leeds-united-tactical-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-07-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"Leeds United primarily play in a 4-1-4-1 formation.\" \"Leeds are very comfortable going up against one-striker systems\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa – Leeds United – Tactical Analysis (2019-20 Edition)",
+      "url": "https://themastermindsite.com/2020/07/19/marcelo-bielsa-leeds-united-tactical-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-07-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"their triangle at the back of White, Cooper and Phillips always in place\"; \"Phillips to maintain a defensive midfield position\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa – Leeds United – Tactical Analysis (2019-20 Edition)",
+      "url": "https://themastermindsite.com/2020/07/19/marcelo-bielsa-leeds-united-tactical-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-07-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "\"Their reliance on positional rotation and forward thinking possession\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa – Leeds United – Tactical Analysis (2019-20 Edition)",
+      "url": "https://themastermindsite.com/2020/07/19/marcelo-bielsa-leeds-united-tactical-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-07-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"their high-pressing mentality\"; \"Leeds are one of the best around at quickly winning the ball back\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa – Leeds United – Tactical Analysis (2019-20 Edition)",
+      "url": "https://themastermindsite.com/2020/07/19/marcelo-bielsa-leeds-united-tactical-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-07-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"If they lose possession, they have several numbers ready to swarm in\"",
+      "verified": true
+    },
+    {
+      "title": "Promoted clubs: Bielsa's Leeds can spring a few surprises",
+      "url": "https://www.premierleague.com/news/1748490",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-08-06",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Adrian Clarke (Premier League/Opta): 4-1-4-1 \"a system he started with in 36 out of 46 league matches\"; table: 4-1-4-1 36 times, 3-3-3-1 6 times.",
+      "verified": true
+    },
+    {
+      "title": "Promoted clubs: Bielsa's Leeds can spring a few surprises",
+      "url": "https://www.premierleague.com/news/1748490",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-08-06",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Leeds averaged \"60 per cent possession in their 2019/20 matches\"; won 2,667 possessions, 2nd in the Championship.",
+      "verified": true
+    },
+    {
+      "title": "Promoted clubs: Bielsa's Leeds can spring a few surprises",
+      "url": "https://www.premierleague.com/news/1748490",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-08-06",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"As soon as possession is lost, they counter-press with intensity and close down spaces extremely well.\"",
+      "verified": true
+    },
+    {
+      "title": "Promoted clubs: Bielsa's Leeds can spring a few surprises",
+      "url": "https://www.premierleague.com/news/1748490",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-08-06",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Jack Harrison and Helder Costa were the \"industrious wingers\" supporting Patrick Bamford.",
+      "verified": true
+    },
+    {
+      "title": "Leeds United 2019/20: their pressing system – scout report",
+      "url": "https://totalfootballanalysis.com/team-analysis/leeds-united-2019-20-pressing-system-scout-report-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Every return pass was the trigger of the press\"; \"Despite pressing high, the centre-backs seldom left their positions to press\"; \"both included high intensity and partial man-marking\"",
+      "verified": true
+    },
+    {
+      "title": "Leeds United 2019/20: their pressing system – scout report",
+      "url": "https://totalfootballanalysis.com/team-analysis/leeds-united-2019-20-pressing-system-scout-report-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"Bielsa's team always maintained a 2 v 1 or 3 v 2\" (numerical advantage at the backline); \"Their defence was the collective actions of the players, starting from the striker, and everyone should be involved.\" Does not give a line height.",
+      "verified": true
+    },
+    {
+      "title": "Leeds United 2019/20: their pressing system – scout report",
+      "url": "https://totalfootballanalysis.com/team-analysis/leeds-united-2019-20-pressing-system-scout-report-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Marking: \"the opposition midfield three were always marked by the Leeds midfielder tightly\"; the article does not use the word zonal and describes the marking as partial man-marking (marking search).",
+      "verified": true
+    },
+    {
+      "title": "The Promoted: what to expect from Leeds United manager Marcelo Bielsa in FPL",
+      "url": "https://www.fantasyfootballscout.co.uk/2020/08/03/what-to-expect-from-leeds-united-manager-marcelo-bielsa-in-fpl/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-03",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Beren Cross (Coaches' Voice analyst), on the Championship season just ended: Leeds \"mark man-to-man across the pitch\" and \"press high\"; opposition managers found this unusual in the Championship (marking search).",
+      "verified": true
+    },
+    {
+      "title": "The Promoted: what to expect from Leeds United manager Marcelo Bielsa in FPL",
+      "url": "https://www.fantasyfootballscout.co.uk/2020/08/03/what-to-expect-from-leeds-united-manager-marcelo-bielsa-in-fpl/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-03",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Cross: 4-1-4-1 \"more of a 3-3-1-3\" when wingers and full-backs push forward; against one striker 4-1-4-1, against two strikers 3-3-1-3 (shape adapts to the opponent's front line).",
+      "verified": true
+    },
+    {
+      "title": "Leeds United Under Marcelo Bielsa: An Analytical Review",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/leeds-united-under-marcelo-bielsa-an-analytical-review/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-08-03",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "James Yorke: Leeds ranked second for \"aggression\" in both seasons, \"They actually slightly raised their volume here in 2019-20 from 29% to 30% too.\"",
+      "verified": true
+    },
+    {
+      "title": "Leeds United Under Marcelo Bielsa: An Analytical Review",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/leeds-united-under-marcelo-bielsa-an-analytical-review/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-08-03",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"During 2019-20 each of those players played more than 2000 minutes\" (the eight players who started the first game against Stoke).",
+      "verified": true
+    },
+    {
+      "title": "Leeds 2019-20: la victoire du coaching et de la micro-tactique",
+      "url": "https://lagrinta.fr/leeds-2019-20-la-victoire-du-coaching-et-de-la-micro-tactique&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2020-07-30",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"La majorité des situations dangereuses proviennent des côtés\" (Bielsa, as quoted); the article links this to the half-spaces.",
+      "verified": true
+    },
+    {
+      "title": "Leeds 2019-20: la victoire du coaching et de la micro-tactique",
+      "url": "https://lagrinta.fr/leeds-2019-20-la-victoire-du-coaching-et-de-la-micro-tactique&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2020-07-30",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Klich \"servir de liant en phase de construction\" when Pablo Hernández plays; v Stoke Leeds attacked \"devant une défense regroupée\". The article covers neither marking nor the goalkeeper.",
+      "verified": true
+    },
+    {
+      "title": "How to beat Bielsa: spare man system (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/us/features/how-to-beat-bielsa-why-leeds-uniteds-weakness-lies-in-their-spare-man-system",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Only the headline was returned (body not read); a search summary says most Leeds players shadow someone and a spare man stays at the back. Not evidence.",
+      "verified": false
+    },
+    {
+      "title": "Heckingbottom: Bielsa's unique approach to defending",
+      "url": "https://archive.trainingground.guru/articles/heckingbottom-bielsas-unique-approach-to-defending",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-12-27",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Read: \"it's man-to-man in lots of areas\"; Sheffield United \"had everyone bar his middle centre back (Pontus Jansson) going man-to-man\". Event is Dec 2018 (2018/19), outside the period: context only.",
+      "verified": false
+    },
+    {
+      "title": "Coach Watch: Marcelo Bielsa, Leeds, Guardiola",
+      "url": "https://learning.coachesvoice.com/coach-watch-marcelo-bielsa-leeds-guardiola/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-06-09",
+      "eventDate": "2021",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"each outfielder aggressively tracks their opponent, regardless of how far they travel from their starting position\"; build-up circulated \"with the single pivot at the base of midfield\". Profile covers 2018-2022, not 2019/20 specifically: context only.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "está sobrevalorada la observación de los esquemas como factor determinante del éxito o el fracaso de un equipo",
+      "date": "2003-01-27",
+      "source": "https://espndeportes.espn.com/futbolargentino/noticias/bielsaprensa20030127.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Si por algo hay que descompensar un equipo, debe ser por atacar",
+      "date": "2003-01-27",
+      "source": "https://espndeportes.espn.com/futbolargentino/noticias/bielsaprensa20030127.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I think teams should be prepared to have possession of the ball and to win it back when the occasion demands.",
+      "date": "2012-03-14",
+      "source": "https://www.uefa.com/uefaeuropaleague/news/newsid=1761740.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "In a few words I can tell you we observed all the rivals we played against and we watched all the training sessions",
+      "date": "2019-01-16",
+      "source": "https://www.tntsports.co.uk/football/championship/2018-2019/football-news-marcelo-bielsa-admits-spying-on-all-opponents-in-extraordinary-press-conference_sto7095275/story.shtml",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.fourfourtwo.com/us/features/how-to-beat-bielsa-why-leeds-uniteds-weakness-lies-in-their-spare-man-system",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://learning.coachesvoice.com/coach-watch-marcelo-bielsa-leeds-guardiola/",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Leeds_United_F.C._season",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "set-pieces",
+      "player-profile",
+      "people-management"
+    ],
+    "axes": [
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Several tier A-B sources for the exact season (Premier League/Opta, StatsBomb, Total Football Analysis, TheMastermindSite) agree on 4-1-4-1, high man-oriented press, 60% possession. Medium rather than high because marking rests on one tier C quote plus a 'partial man-marking' note, and three dimensions (set pieces, player profile, people management) have no verified fact."
+  }
+}

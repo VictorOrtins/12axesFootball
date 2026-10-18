@@ -7,7 +7,7 @@ export type AnswerValue =
 
 export type Pole = 'LEFT' | 'RIGHT';
 
-export type QuizVariant = 'short' | 'extended' | 'extreme';
+export type QuizVariant = 'short' | 'extended';
 
 export interface Axis {
   id: string;
@@ -39,6 +39,7 @@ export interface Question {
   text: string;
   agreePole: Pole;
   weight: number;
+  secondary?: { axisId: string; agreePole: Pole; weight: number } | null;
   terms?: QuestionTerm[];
   help?: QuestionHelp | null;
 }

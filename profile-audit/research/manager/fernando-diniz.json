@@ -1,0 +1,696 @@
+{
+  "id": "fernando-diniz",
+  "catalog": "manager",
+  "name": "Fernando Diniz",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2015-12",
+    "end": "2026-02-22"
+  },
+  "scopeNote": "Manager profile of Fernando Diniz across five counted spells: Audax (2016 Paulista campaign, runner-up to Santos), Fluminense 2019, São Paulo 2019-21, Fluminense 2022-24 (Carioca 2023, Libertadores 2023, Recopa 2024) and Vasco 2025-26 (Copa do Brasil 2025 runner-up). Spell dates come from the Portuguese and English Wikipedia pages read at step 1 (exact appointment and departure days quoted there). The Audax counted spell is partial: pt.wikipedia says he took over Audax 'no final de 2015' for the 2016 Paulista, and en.wikipedia says he moved to Oeste 'subsequently' in 2016; no exact day was found for either, so start is 2015-12 and end 2016-05 (the Paulista final was lost to Santos in May 2016). Fluminense 2022-24 ends on 2024-06-24 (ge headline of that day, 'Fernando Diniz é demitido', cited on pt.wikipedia). Not in the brief: Diniz also coached Corinthians from 2026-04-06 to 2026-10-07 (sacked after seven straight league defeats); it is excluded. Style name: in Brazil the style is called 'Dinizismo' (pt.wikipedia; The Blizzard, 2025-03-24: 'known as Dinizismo (others call it relationism)'). 'Relationism' is Jamie Hamilton's label, 'first introduced in November 2022' as 'a translated twist on the term jogo functional' coined by Jozsef 'Hungaro' Bozsik in 2018 (Elite Soccer Coaching interview); Hamilton calls Diniz's Fluminense his 'moment of clarity'. Diniz's own word is 'aposicional' ('O jeito que eu vejo futebol nesse momento é quase que aposicional', Bem, Amigos!/Tupi, 2022-09-20); no source found where Diniz uses 'relacionismo' or 'jogo funcional' himself. Behaviour across spells: short build-up from the goalkeeper accepted with its risk, players gathered on the ball side ('aglutinar jogadores em um só corredor', Lance 2022; 'junta jogadores em uma determinada zona, que é onde está a bola', Olé 2023), weak side left empty, high pressing and counter-press after loss, few counter-attacks. Vasco 2025 shows a more pragmatic version in cup knockouts (5-3-2 vs Botafogo). Facts from excluded spells (Cruzeiro set pieces, Brazil corner drills, Athletico 3-at-the-back) were seen in search results and not used.",
+  "spellsCounted": [
+    {
+      "club": "Audax (São Paulo)",
+      "start": "2015-12",
+      "end": "2016-05",
+      "reason": "2016 Paulista final (beat Corinthians and São Paulo, lost the final to Santos); the possession style ('grande posse de bola e toques rápidos, muitas vezes utilizando os goleiros como válvula de escape', Gazeta Esportiva 2017-02-04) that made his name. Dates partial, see scopeNote."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2018-12-19",
+      "end": "2019-08-19",
+      "reason": "Recognisable style with tactical coverage (Lance! style explainers, Jan and May 2019; Hamilton's 'moment of clarity') and a move to the bigger São Paulo job a month later."
+    },
+    {
+      "club": "São Paulo",
+      "start": "2019-09-26",
+      "end": "2021-02-01",
+      "reason": "Recognisable style with tactical coverage; led the 2020 Brasileirão for much of the season and built the side on Cotia youth (Brenner, Gabriel Sara, Igor Gomes, Luan)."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2022-04-30",
+      "end": "2024-06-24",
+      "reason": "Major titles: Campeonato Carioca 2023, Copa Libertadores 2023, Recopa Sul-Americana 2024; the peak of 'Dinizismo' and the team behind the 'relationism' label."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2025-05-09",
+      "end": "2026-02-22",
+      "reason": "Copa do Brasil 2025 final (runner-up to Corinthians) with tactical coverage; borderline on the test (no title), see openQuestions."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Votoraty, Paulista, Botafogo-SP, Atlético Sorocaba, Guaratinguetá",
+      "start": "2009",
+      "end": "2014",
+      "reason": "Early lower-division spells (Paulista A3 and Copa Paulista titles); tactics didn't define them and coverage is thin."
+    },
+    {
+      "club": "Audax (earlier spells)",
+      "start": "2013",
+      "end": "2015",
+      "reason": "Pre-2016 Audax ('Garcelona', ge 2014); the brief names the 2016 Paulista campaign as the Audax spell he is known for."
+    },
+    {
+      "club": "Paraná",
+      "start": "2015-07",
+      "end": "2015-09",
+      "reason": "About two months, sacked; no titles or move up."
+    },
+    {
+      "club": "Oeste",
+      "start": "2016",
+      "end": "2016",
+      "reason": "Short Série B spell via an Oeste-Audax partnership; no exact dates found, not known for it."
+    },
+    {
+      "club": "Audax (third spell)",
+      "start": "2017",
+      "end": "2017-06-02",
+      "reason": "Relegation in the 2017 Paulista; left Audax on 2017-06-02."
+    },
+    {
+      "club": "Athletico Paranaense",
+      "start": "2018-01-03",
+      "end": "2018-06-25",
+      "reason": "Sacked with 34% of points (ge, 2018-06-25); used three centre-backs, so not the style he is known for. Arguably led to the Fluminense job: see openQuestions."
+    },
+    {
+      "club": "Santos",
+      "start": "2021-05-07",
+      "end": "2021-09-05",
+      "reason": "Four months, sacked; no titles, style didn't take hold."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2021-09-08",
+      "end": "2021-11-11",
+      "reason": "Two months in Série B, failed to win promotion; too short."
+    },
+    {
+      "club": "Brazil (interim)",
+      "start": "2023-07-04",
+      "end": "2024-01-05",
+      "reason": "Six matches (2 wins, 1 draw, 3 losses), held alongside Fluminense; under the minimum and not what he is known for."
+    },
+    {
+      "club": "Cruzeiro",
+      "start": "2024-09-23",
+      "end": "2025-01-27",
+      "reason": "Four months, left with 35% of points (CNN Brasil, 2025-01-27); no titles."
+    },
+    {
+      "club": "Corinthians",
+      "start": "2026-04-06",
+      "end": "2026-10-07",
+      "reason": "Sacked after seven consecutive Brasileirão defeats; no title, not in the brief, not researched."
+    }
+  ],
+  "teamProfiles": [],
+  "ambiguities": [],
+  "openQuestions": [
+    "Athletico-PR 2018 is excluded (sacked, 34%, three centre-backs), although it preceded the Fluminense appointment. Confirm.",
+    "Corinthians 2026 (2026-04-06 to 2026-10-07) was not in the brief and is excluded; it also means the vasco-2026-pedro-emanuel file's mention of Diniz is consistent (he left Vasco on 2026-02-22).",
+    "Marking (mar): no source read says whether Diniz's press or block is zonal or man-oriented. The closest are Felipe Rolim (Lance, 2022-10-27): opponents face 'encaixes e perseguições que tem que ser muito bem coordenadas', and Diniz's 'Tivemos dificuldade de encaixar a marcação alta' (2024-04-09). 'Encaixe' hints at man-oriented references in the press, but that is an inference. Treat mar as close to memory-only.",
+    "Label: 'relationism' is Jamie Hamilton's term (Nov 2022), a translation of Bozsik's 'jogo funcional' (2018). Diniz calls his football 'quase que aposicional' (2022-09-20) and says Guardiola's way of having the ball is 'quase o oposto da minha'. No source shows Diniz adopting 'relacionismo'.",
+    "Hamilton's interview places Fluminense 'top three in Brasileiro' with the editorial insert '[in 2019]'; Fluminense finished third in 2022, not 2019, so the bracket is probably wrong. Both years are inside counted spells.",
+    "The Gazeta Esportiva Audax profile ('Liberdade, cobranças e maturidade', ?p=2301162) shows a header date of 10/08/2026, which can't be the publication date; its content and id place it in 2016. Its quotes are saved as 'attributed' with date 2016.",
+    "The AFP line 'His style is positional, mine is anti-positional' (2023-12-21) was seen only in search results; the Portuguese original found is the 2022-09-20 'aposicional' remark.",
+    "Squad (bas) differs by spell: São Paulo 2020 leaned on Cotia youth, Fluminense 2023 won the Libertadores with seven starters over 33, Vasco 2025 trusted 18-year-old Rayan. Weigh the spells equally.",
+    "Vasco 2025-26 is counted by the user's decision despite no title; its only tactical fact (Correio Braziliense, 2025-09-12: 5-3-2 v Botafogo) pulls game-management towards 'adapt'."
+  ],
+  "sources": [
+    {
+      "title": "Fernando Diniz pretende manter estilo de jogo apresentado em 2016 (Gazeta Esportiva)",
+      "url": "https://www.gazetaesportiva.com/?p=2411003",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-02-04",
+      "eventDate": "2016",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Audax 2016: \"Com grande posse de bola e toques rápidos, muitas vezes utilizando os goleiros como válvula de escape\" (journalist's description). The team \"chegou a bater grandes do futebol, como Corinthians e São Paulo\" before the final against Santos (1-1 in Osasco, 0-1 at Vila Belmiro).",
+      "verified": true
+    },
+    {
+      "title": "Fernando Diniz pretende manter estilo de jogo apresentado em 2016 (Gazeta Esportiva)",
+      "url": "https://www.gazetaesportiva.com/?p=2411003",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-02-04",
+      "eventDate": "2016",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Audax 2016 used the goalkeepers \"muitas vezes ... como válvula de escape\" in possession. Journalist's description, no match detail.",
+      "verified": true
+    },
+    {
+      "title": "Liberdade, cobranças e maturidade: os pilares de Fernando Diniz no Audax (Gazeta Esportiva)",
+      "url": "https://www.gazetaesportiva.com/?p=2301162",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2016",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Diniz at Audax: \"E eu cobro muito, eu só não cobro mais porque eu não sei cobrar mais.\" \"uma das ferramentas para fazer um time render é cobrar e saber cobrar\". \"Eu cobro comprometimento, se você combina algo e acaba não cumprindo, você terá grandes problemas comigo\". On Brazil: \"o jogador no Brasil não ser tratado como pessoa\"; earlier (Paraná) he spoke of \"afeto, carinho e comprometimento com o jogador\". The writer notes he is \"Formado em psicologia\". Page header shows 10/08/2026, impossible for the content (Audax 2016, ahead of the elite); articleDate set to access date, eventDate approximate.",
+      "verified": true
+    },
+    {
+      "title": "Liberdade, cobranças e maturidade: os pilares de Fernando Diniz no Audax (Gazeta Esportiva)",
+      "url": "https://www.gazetaesportiva.com/?p=2301162",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2016",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Audax described as \"uma proposta bem incisiva para ter o controle do jogo, com bastante posse de bola e com muitos jogadores de qualidade técnica\". Diniz: \"Tudo o que eu faço aqui é para que o jogador possa ser o Pelé que ele quer ser\". Page date unreliable (see the people-management entry).",
+      "verified": true
+    },
+    {
+      "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-17",
+      "eventDate": "2019-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Explainer at the start of Fluminense 2019: the game \"é baseado no 4-3-3\" (three centre-backs only at Athletico-PR); a deeper volante \"recua e se alinha aos zagueiros\" to start play; players make \"movimentações a todo o instante\", \"que dão opção de passe para quem está com a bola\". Describes his teams in general, written as he arrived.",
+      "verified": true
+    },
+    {
+      "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-17",
+      "eventDate": "2019-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Para Diniz, a bola deve ser trabalhada desde a área do goleiro, que também tem participação na saída de bola.\" \"A valorização da posse de bola se tornará prioridade\".",
+      "verified": true
+    },
+    {
+      "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-17",
+      "eventDate": "2019-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "The full-backs \"se tornam alas\" and give the width (\"alongar o campo\"); wingers move freely and a \"facão\" (diagonal run into the box) supports the centre-forward.",
+      "verified": true
+    },
+    {
+      "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-17",
+      "eventDate": "2019-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Defensive traits: \"marcação em linha alta, pressão no adversário e compactação\"; \"Suas equipes marcam em pressão após a perda da bola\". Nothing on zonal vs man.",
+      "verified": true
+    },
+    {
+      "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-17",
+      "eventDate": "2019-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "The aim after loss is \"não permitir um contra-ataque em velocidade\"; the article warns of \"problemas de defender bolas longas e transições em velocidade\".",
+      "verified": true
+    },
+    {
+      "title": "Diniz encontra o equilíbrio e faz o Flu viver o melhor momento de 2019 (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/diniz-encontra-equilibrio-faz-flu-viver-melhor-momento-2019.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-05-24",
+      "eventDate": "2019-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Diniz: \"O equilíbrio defensivo se dá muito pelo ajuste tático, da dinâmica do sistema, do que ter um jogador específico de marcação.\" \"O time entende que temos que ter a consciência de atacar marcando.\" \"A equipe está tomando consciência de que todos tem que participar da marcação, caso contrário ficamos vulnerável.\" Midfielder Daniel played \"solto, preenchendo os espaços em campo\". No formation or line height given.",
+      "verified": true
+    },
+    {
+      "title": "Diniz encontra o equilíbrio e faz o Flu viver o melhor momento de 2019 (Lance!)",
+      "url": "https://www.lance.com.br/fluminense/diniz-encontra-equilibrio-faz-flu-viver-melhor-momento-2019.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-05-24",
+      "eventDate": "2019-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Diniz: \"Se nós descuidarmos, com um time leve que a gente tem, temos poucas chances de recuperar a bola nas transições.\" A light, non-physical side, by his own description.",
+      "verified": true
+    },
+    {
+      "title": "Diniz dá atenção a bolas paradas no último treino antes do jogo contra o Avaí (Gazeta Esportiva)",
+      "url": "https://www.gazetaesportiva.com/times/sao-paulo/diniz-da-atencao-a-bolas-paradas-no-ultimo-treino-antes-do-jogo-contra-o-avai/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-10-19",
+      "eventDate": "2019-10-19",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "São Paulo: \"O treinador comandou um trabalho de bolas paradas ofensivas e defensivas, com cobranças dos dois lados do campo.\" \"Fernando Diniz aproveitou para ajustar detalhes de faltas e escanteios.\" One training session; no time share given.",
+      "verified": true
+    },
+    {
+      "title": "Protagonismo de jovens promessas vira legado de Diniz no São Paulo (Gazeta Esportiva)",
+      "url": "https://www.gazetaesportiva.com/times/sao-paulo/protagonismo-de-jovens-promessas-vira-legado-de-diniz-no-sao-paulo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-11-12",
+      "eventDate": "2020-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Cotia academy players as starters: Brenner (previously loaned to Fluminense) a starter for 11 games with 13 goals in that run, 17 in the season; Gabriel Sara, Diego Costa, Luan and Igor Gomes also cited as starters. Diniz: \"Acho que é uma das conquistas que tivemos, o Brenner, mas também o Sara, que era um jogador praticamente desconhecido\"; \"Essa melhora dos jogadores é um legado\".",
+      "verified": true
+    },
+    {
+      "title": "Diniz pediu desculpas a Tchê Tchê e quer blindar elenco do São Paulo (Metrópoles / Estadão Conteúdo)",
+      "url": "https://www.metropoles.com/esportes/futebol/diniz-pediu-desculpas-a-tche-tche-e-quer-blindar-elenco-do-sao-paulo",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-01-10",
+      "eventDate": "2021-01-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "In the 4-2 loss at Bragantino (Wednesday 2021-01-06, date inferred from the article) the stadium mic caught Diniz shouting at Tchê Tchê: \"seu ingrato do c…, seu perninha do c…, seu mascaradinho. Vai se f…\". At the 2021-01-10 press conference: \"Já pedi desculpa para o Tchê Tchê e para o time\"; \"foi um erro que cometi com a exposição\"; \"O (problema do) Tchê Tchê começamos a resolver internamente, já conversei com ele e com o grupo\".",
+      "verified": true
+    },
+    {
+      "title": "Felipe Rolim: Fluminense x Corinthians – Vítor Pereira tinha razão de elogiar (Lance!)",
+      "url": "https://www.lance.com.br/colunas/felipe-rolim-fluminense-x-corinthians-vitor-pereira-tinha-razao-de-elogiar.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Tactical column on Fluminense's 2022 season: \"o Fluminense impôs seu jogo de aglutinar jogadores em um só corredor\"; \"Diniz busca a desorganização das linhas adversárias e a superioridade numérica\"; \"há a movimentação de desmarque contínua do tricolor na saída de bola\".",
+      "verified": true
+    },
+    {
+      "title": "Felipe Rolim: Fluminense x Corinthians – Vítor Pereira tinha razão de elogiar (Lance!)",
+      "url": "https://www.lance.com.br/colunas/felipe-rolim-fluminense-x-corinthians-vitor-pereira-tinha-razao-de-elogiar.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "On how opponents must defend Fluminense: \"Como marcar pressão se terá que utilizar praticamente o time todo para pressionar campo inteiro?\" ... the opponent \"acaba vendo o duelo acontecer com encaixes e perseguições que tem que ser muito bem coordenadas.\" Describes the opponent's marking problem, not Fluminense's own scheme; no zonal vs man statement.",
+      "verified": true
+    },
+    {
+      "title": "Felipe Rolim: Fluminense x Corinthians – Vítor Pereira tinha razão de elogiar (Lance!)",
+      "url": "https://www.lance.com.br/colunas/felipe-rolim-fluminense-x-corinthians-vitor-pereira-tinha-razao-de-elogiar.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"O Fluminense também não quer o jogo de transição e de contragolpes\"; the team has \"menos de dois contragolpes, em média, por jogo\" (2022 Brasileirão).",
+      "verified": true
+    },
+    {
+      "title": "Jornal 'Olé' elogia 'Dinizismo' e chama atenção do River Plate (Super Rádio Tupi, citing Vicente Muglia in Olé)",
+      "url": "https://www.tupi.fm/esportes/jornal-ole-elogia-dinizismo-e-chama-atencao-do-river-plate/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-05-01",
+      "eventDate": "2023-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Olé analysis before Fluminense v River (Libertadores 2023), translated by Tupi: \"um time que junta jogadores em uma determinada zona, que é onde está a bola, para potencializar o coletivo\"; \"o jogador que vai até a bola\". On the far flank: \"E quem ocupa o seu lugar na outra banda? Ninguém.\" \"O lado oposto está vazio, mas o lateral desse setor se fecha e vigia.\" Play overloads one side rather than holding width on both.",
+      "verified": true
+    },
+    {
+      "title": "Jornal 'Olé' elogia 'Dinizismo' e chama atenção do River Plate (Super Rádio Tupi, citing Vicente Muglia in Olé)",
+      "url": "https://www.tupi.fm/esportes/jornal-ole-elogia-dinizismo-e-chama-atencao-do-river-plate/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-05-01",
+      "eventDate": "2023-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"Se houver uma perda, aumenta a pressão fechando e estreitando os espaços.\" Players are \"capazes de saltar rapidamente para a pressão\". The way to hurt Fluminense is for the opponent to \"busque rapidamente inverter o setor para escapar da marcação imediato\".",
+      "verified": true
+    },
+    {
+      "title": "Fernando Diniz explica marcação alta do Fluminense: 'Vamos ajustar nos treinamentos' (NetFlu)",
+      "url": "https://www.netflu.com.br/fernando-diniz-explica-marcacao-alta-do-fluminense-vamos-ajustar-nos-treinamentos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-02-06",
+      "eventDate": "2023-02",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "After goals conceded over the top v Botafogo and Volta Redonda (Carioca 2023), Diniz: \"Sempre fazemos essa marcação. O time volta pra compactar rápido.\" \"Vamos ajustar nos treinamentos. Marcamos alto ainda.\" \"Pode ser que num momento a gente baixe, mas a tendência é marcar alto.\"",
+      "verified": true
+    },
+    {
+      "title": "Diniz avalia gol do Vasco em saída errada de Fábio: 'Erro não é fracasso' (NetFlu)",
+      "url": "https://www.netflu.com.br/diniz-avalia-gol-do-vasco-em-saida-errada-de-fabio-erro-nao-e-fracasso/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-05-08",
+      "eventDate": "2023-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Fluminense 1-1 Vasco (Brasileirão round 4, May 2023): Vasco scored from goalkeeper Fábio's error playing out. Diniz kept the short build-up: \"Procurem quantos gols o Fluminense fez que a bola passou no pé do Fábio.\" \"Erro não é fracasso. Erro é erro.\" \"Não podemos achar que nunca vai dar errado.\"",
+      "verified": true
+    },
+    {
+      "title": "Manchester City – Fluminense: Manchester City Position Themselves As World Champions (4-0) (Between the Posts, Neel Shelat)",
+      "url": "https://betweentheposts.net/manchester-city-fluminense-manchester-city-position-themselves-as-world-champions-4-0",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-12-23",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Club World Cup final, one match: Fluminense \"named their side in a 4-2-3-1 formation\"; \"long passing sequences in and around their own box\"; a caption notes they \"massively overload the ball-side\"; \"they never gave away an overly dangerous turnover and certainly retained possession extremely well in their own third\", breaking pressure \"often through a free player in midfield carrying the ball\".",
+      "verified": true
+    },
+    {
+      "title": "Manchester City – Fluminense: Manchester City Position Themselves As World Champions (4-0) (Between the Posts, Neel Shelat)",
+      "url": "https://betweentheposts.net/manchester-city-fluminense-manchester-city-position-themselves-as-world-champions-4-0",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-12-23",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"Fluminense's high press was also quite good and they often forced their opponents to go long\"; out of possession \"They attempted to collapse into a compact 4-4-2 block\" but \"the midfielders in particular did not support their back-four enough\"; \"their settled defensive block was far from the best.\" One match; nothing on zonal vs man.",
+      "verified": true
+    },
+    {
+      "title": "Diniz, Fluminense, Brazil and the fragile rise of the pioneer of relationism ('The Nostalgia Principle', Peter Speetjens, The Blizzard issue 52)",
+      "url": "https://theblizzard.co.uk/?p=24775",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-03-24",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Style \"in Brazil has become known as Dinizismo (others call it 'relationism')\". He wants to \"create a numerical superiority within a small space\" and keep the ball there; teams play \"a-positionally\", an \"organised chaos\"; \"Using the keeper as a player, he likes his team to build up from the back\"; usually a 4-2-3-1 with centre-backs given \"the liberty to roam forward\". Retrospective long-form piece about the 2023 Libertadores side.",
+      "verified": true
+    },
+    {
+      "title": "Diniz, Fluminense, Brazil and the fragile rise of the pioneer of relationism ('The Nostalgia Principle', Peter Speetjens, The Blizzard issue 52)",
+      "url": "https://theblizzard.co.uk/?p=24775",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-03-24",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "He stresses \"alegria\" and wants players to \"enjoy and express themselves\". Before the 2023 Libertadores final he told substitute John Kennedy: \"You will score the title-winning goal\" (English translation in the article). Counter-press: \"When the ball is lost, counter-pressing must win it back as quickly as possible.\"",
+      "verified": true
+    },
+    {
+      "title": "Relationism in theory and practice: Jamie Hamilton explains how he came to define relationism (Elite Soccer Coaching)",
+      "url": "https://elitesoccercoaching.net/player-and-coach-development/relationism-in-theory-and-practice",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2019",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Coach Jamie Hamilton on Diniz's Fluminense, his 'moment of clarity': \"They kept the ball, they dominated possession, but they were not doing positional play\"; \"complete off-the-cuff intuition and spontaneity of the players\"; \"punching above its weight at that point [in 2019]\", \"top three in Brasileiro\" (third place fits 2022, not 2019: see openQuestions). \"Hamilton first introduced the term in November 2022\"; relationism is \"a translated twist on the term 'jogo functional'\", named by Jozsef 'Hungaro' Bozsik in 2018. Page undated (articleDate = access date).",
+      "verified": true
+    },
+    {
+      "title": "PVC diz que não duvida do Flu, mas alerta: 'Há necessidade de diminuir essa faixa etária' (NetFlu)",
+      "url": "https://www.netflu.com.br/pvc-diz-que-nao-duvida-do-flu-mas-alerta-ha-necessidade-de-diminuir-essa-faixa-etaria/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-01-23",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"Em 2023, os sete titulares acima dos 33 anos eram Fábio, Samuel Xavier, Felipe Melo, Marcelo, Ganso, Keno e Germán Cano.\" PVC: \"O Fluminense é o primeiro time campeão da história da Libertadores com sete titulares acima de 33 anos.\"",
+      "verified": true
+    },
+    {
+      "title": "Diniz dá sua análise tática do jogo e reconhece qualidade do Colo-Colo (NetFlu)",
+      "url": "https://www.netflu.com.br/diniz-da-sua-analise-tatica-do-jogo-e-reconhece-qualidade-do-colo-colo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-04-10",
+      "eventDate": "2024-04-09",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Fluminense 2-1 Colo-Colo (2024-04-09): \"Tivemos dificuldade de encaixar a marcação alta no começo do jogo.\" On preparation: \"Tínhamos treinado das duas formas, com eles subindo a marcação e marcando em bloco médio\" (about the opponent's possible approaches).",
+      "verified": true
+    },
+    {
+      "title": "Diniz comenta sobre mudanças táticas realizadas contra o Colo-Colo: 'Fizemos o que o jogo pedia' (NetFlu)",
+      "url": "https://www.netflu.com.br/diniz-comenta-sobre-mudancas-taticas-realizadas-contra-o-colo-colo-fizemos-o-que-o-jogo-pedia/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-05-10",
+      "eventDate": "2024-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Colo-Colo 0-1 Fluminense (away, Libertadores group 2024): \"Fizemos o que o jogo pedia\"; \"para evitar riscos desnecessários, a gente alongou a maioria das bolas\" because the opponent's press \"chegavam muito rápido\"; \"A gente até poderia ter jogado um pouco mais, na minha opinião.\" Several starters missing (Keno, André, Nino, Samuel Xavier, John Kennedy).",
+      "verified": true
+    },
+    {
+      "title": "Diniz lamenta gol sofrido de bola parada: 'Treinamos muito e tínhamos mapeado' (NetFlu)",
+      "url": "https://www.netflu.com.br/diniz-lamenta-gol-sofrido-de-bola-parada-treinamos-muito-e-tinhamos-mapeado/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-05-30",
+      "eventDate": "2024-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Fluminense 3-2 Alianza Lima: \"Eles tinham feito um gol de bola parada, que treinamos muito ontem.\" \"Fizemos de tudo para evitar escanteios, e acabamos tomando gol em jogada que tínhamos mapeado\". Defensive set pieces scouted and drilled.",
+      "verified": true
+    },
+    {
+      "title": "Jogadores do Vasco falam sobre broncas e estilo 'paizão' do técnico Fernando Diniz (NetVasco, citing ge)",
+      "url": "https://www.netvasco.com.br/n/362911/jogadores-do-vasco-falam-sobre-broncas-e-estilo-paizao-do-tecnico-fernando-diniz",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-05-31",
+      "eventDate": "2025-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Léo Jardim: \"Ele quer o nosso bem. Não tem maldade nenhuma, é só a forma dele cobrar mesmo. Ele se preocupa com cada um\". Coutinho: \"Ele grita com todo mundo, é bom pra todo mundo isso.\" \"tem que ter um comandante assim, que cobre na hora certa, que seja o paizão.\" Vegetti: \"os esporros são bons. São para crescermos, melhorarmos.\" \"Dos mais novos aos mais velhos, todos escutam ele.\"",
+      "verified": true
+    },
+    {
+      "title": "Jogadores do Vasco falam sobre broncas e estilo 'paizão' do técnico Fernando Diniz (NetVasco, citing ge)",
+      "url": "https://www.netvasco.com.br/n/362911/jogadores-do-vasco-falam-sobre-broncas-e-estilo-paizao-do-tecnico-fernando-diniz",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-05-31",
+      "eventDate": "2025-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Rayan (18): \"Ele está sendo um paizão para mim\"; \"Ele dá muita confiança para os mais novos.\"",
+      "verified": true
+    },
+    {
+      "title": "Fernando Diniz acertou ao dar um passo atrás para classificar o Vasco (Correio Braziliense, Drible de Corpo, Marcos Paulo Lima)",
+      "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/fernando-diniz-acertou-ao-dar-um-passo-atras-para-classificar-o-vasco/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-09-12",
+      "eventDate": "2025-09",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Copa do Brasil quarter-final v Botafogo (won on penalties): his usual \"superioridade numérica, pressão alta e controle do jogo\" \"apareceram pouco\"; he \"colocou o pé no freio\" and \"deu passo atrás na hora certa\". \"Na teoria, o Vasco parecia configurado no 4-2-3-1. Na prática, protegia-se do domínio do Botafogo — 54% de posse de bola — no 5-3-2.\" Two matches.",
+      "verified": true
+    },
+    {
+      "title": "Explosão de Diniz à beira do campo no Vasco não é novidade; relembre casos (Lance!)",
+      "url": "https://www.lance.com.br/futebol-nacional/explosao-de-diniz-a-beira-do-campo-no-vasco-nao-e-novidade-relembre-casos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-01-30",
+      "eventDate": "2026-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "After Vasco's 2-1 defeat to Mirassol (Brasileirão 2026 opener), Diniz: \"Eu sou duro na maneira de cobrar os jogadores, mas eu sou muito amoroso.\" \"Tenho um jeito às vezes enérgico, acelerado e sou espontâneo com os jogadores.\" \"Nunca levantei minha voz pra prejudicar um jogador.\" Past cases listed: Rayan (2025), Tchê Tchê (São Paulo), Luciano (Fluminense), and Tiago Volpi, who said Diniz came to his room to apologise after a training outburst over build-up passes.",
+      "verified": true
+    },
+    {
+      "title": "Fluminense's 'anti-Guardiola' style faces test in Club World Cup final (AFP via Flashscore)",
+      "url": "https://www.flashscore.com/news/soccer-fifa-club-world-cup-fluminense-s-anti-guardiola-style-faces-test-in-club-world-cup-final/bJaDGYu9",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-12-21",
+      "eventDate": "2023-12",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Search summary only (not read): AFP quotes Diniz as having once said \"His style is positional, mine is anti-positional\" and describes grouping players \"in small pockets\". Not verified.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Queremos um futebol com estética boa e que seja muito competitivo",
+      "date": "2017-02-04",
+      "source": "https://www.gazetaesportiva.com/?p=2411003",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Tudo o que eu faço aqui é para que o jogador possa ser o Pelé que ele quer ser",
+      "date": "2016",
+      "source": "https://www.gazetaesportiva.com/?p=2301162",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "E eu cobro muito, eu só não cobro mais porque eu não sei cobrar mais.",
+      "date": "2016",
+      "source": "https://www.gazetaesportiva.com/?p=2301162",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "O equilíbrio defensivo se dá muito pelo ajuste tático, da dinâmica do sistema, do que ter um jogador específico de marcação.",
+      "date": "2019-05-24",
+      "source": "https://www.lance.com.br/fluminense/diniz-encontra-equilibrio-faz-flu-viver-melhor-momento-2019.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Acho que é uma das conquistas que tivemos, o Brenner, mas também o Sara, que era um jogador praticamente desconhecido",
+      "date": "2020-11-12",
+      "source": "https://www.gazetaesportiva.com/times/sao-paulo/protagonismo-de-jovens-promessas-vira-legado-de-diniz-no-sao-paulo/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Já pedi desculpa para o Tchê Tchê e para o time",
+      "date": "2021-01-10",
+      "source": "https://www.metropoles.com/esportes/futebol/diniz-pediu-desculpas-a-tche-tche-e-quer-blindar-elenco-do-sao-paulo",
+      "provenance": "primary"
+    },
+    {
+      "quote": "a equipe não joga bonito para jogar bonito. Ao contrário, a gente joga de uma maneira que fica mais perto de ganhar.",
+      "date": "2022-09-08",
+      "source": "https://www.netflu.com.br/diniz-defende-estilo-de-jogo-confia-no-trabalho-e-afirma-os-titulos-virao/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "A minha ideia central é fazer que os jogadores sejam aquilo que tentaram ser.",
+      "date": "2022-09-08",
+      "source": "https://www.netflu.com.br/diniz-defende-estilo-de-jogo-confia-no-trabalho-e-afirma-os-titulos-virao/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Por gostar de ter a bola, obviamente as pessoas me associam ao jeito do Guardiola jogar, mas para por aí. Porque a maneira dele ter a bola é quase o oposto da minha.",
+      "date": "2022-09-20",
+      "source": "https://www.tupi.fm/esportes/fluminense/fernando-diniz-comenta-sobre-comandar-selecao-e-explica-comparacao-com-guardiola/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "O jeito que eu vejo futebol nesse momento é quase que 'aposicional'",
+      "date": "2022-09-20",
+      "source": "https://www.tupi.fm/esportes/fluminense/fernando-diniz-comenta-sobre-comandar-selecao-e-explica-comparacao-com-guardiola/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "O jeito que a gente segue a metáfora da corda bamba. Quem anda às vezes, vai cair. Quem treina, dá espetáculo.",
+      "date": "2022-09-20",
+      "source": "https://www.gazetaesportiva.com/times/fluminense/diniz-defende-estilo-de-jogo-com-toques-curtos-na-saida-de-bola-como-uma-corda-bamba/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Mas queremos que as pessoas aprendam que o novo tem que dar certo. As vezes, o novo não dá certo. Mas temos que ter coragem para experimentar. Se não você vai se acovardar",
+      "date": "2022-09-20",
+      "source": "https://www.gazetaesportiva.com/times/fluminense/diniz-defende-estilo-de-jogo-com-toques-curtos-na-saida-de-bola-como-uma-corda-bamba/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Eu também gosto mais de jogar por dentro, quando é possível.",
+      "date": "2022-09-20",
+      "source": "https://www.gazetaesportiva.com/times/fluminense/diniz-defende-estilo-de-jogo-com-toques-curtos-na-saida-de-bola-como-uma-corda-bamba/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Pode ser que num momento a gente baixe, mas a tendência é marcar alto.",
+      "date": "2023-02-06",
+      "source": "https://www.netflu.com.br/fernando-diniz-explica-marcacao-alta-do-fluminense-vamos-ajustar-nos-treinamentos/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Erro não é fracasso. Erro é erro.",
+      "date": "2023-05-08",
+      "source": "https://www.netflu.com.br/diniz-avalia-gol-do-vasco-em-saida-errada-de-fabio-erro-nao-e-fracasso/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Fizemos o que o jogo pedia",
+      "date": "2024-05-10",
+      "source": "https://www.netflu.com.br/diniz-comenta-sobre-mudancas-taticas-realizadas-contra-o-colo-colo-fizemos-o-que-o-jogo-pedia/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Eu sou duro na maneira de cobrar os jogadores, mas eu sou muito amoroso.",
+      "date": "2026-01-30",
+      "source": "https://www.lance.com.br/futebol-nacional/explosao-de-diniz-a-beira-do-campo-no-vasco-nao-e-novidade-relembre-casos.html",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+      "reason": "404"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.band.com.br/esportes/diniz-minimiza-derrota-do-vasco-e-explica-bronca-aos-jogadores-forma-de-ajudar-202601292345",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.diariodocentrodomundo.com.br/como-o-audax-se-tornou-o-time-mais-admiravel-do-brasil-por-thiago-sievers/",
+      "reason": "403"
+    },
+    {
+      "url": "https://canofootball.com/news/dismantling-the-pyramid-part-3",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Fernando_Diniz",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fernando_Diniz",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "brazil-1982",
+      "kind": "team",
+      "note": "Diniz: \"I have very strong scars from what happened in 1982\" (The Blizzard, 2025-03-24, English translation). Emotional reference, not a researched tactical lineage."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "All 13 dimensions have a verified fact and all five counted spells have at least one, with many dated Portuguese quotes from Diniz himself. But most sources are tier C (Lance!, Gazeta Esportiva, NetFlu/NetVasco reposts, Tupi), the tier B pieces are one column (Rolim 2022), one match (Between the Posts, Club World Cup final) and a coach interview (Hamilton), and there is no tier A study. Clustering on the ball side, short build-up with accepted risk and high pressing agree across 2016-2025 sources; marking (zonal vs man) is unknown, Audax and Vasco rest on one or two pieces each, and Vasco 2025 shows a more pragmatic side than the label suggests."
+  }
+}

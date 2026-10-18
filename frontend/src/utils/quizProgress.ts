@@ -30,7 +30,7 @@ const ANSWER_VALUES: ReadonlySet<string> = new Set([
   'STRONGLY_DISAGREE'
 ]);
 
-const VARIANTS: ReadonlySet<string> = new Set(['short', 'extended', 'extreme']);
+const VARIANTS: ReadonlySet<string> = new Set(['short', 'extended']);
 
 function isRecordOfStrings(value: unknown): value is Record<string, string> {
   return (

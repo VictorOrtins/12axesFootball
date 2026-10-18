@@ -79,7 +79,6 @@ interface Strings {
   mainNavAria: string;
   navHow: string;
   navAxes: string;
-  navFaq: string;
   langToggleLabel: string;
   langToggleAria: string;
   redoQuiz: string;
@@ -91,8 +90,7 @@ interface Strings {
   introLead: string;
   startQuiz: string;
   seeAxes: string;
-  heroLabels: string[];
-  formats: { short: QuizFormatStrings; extended: QuizFormatStrings; extreme: QuizFormatStrings };
+  formats: { short: QuizFormatStrings; extended: QuizFormatStrings };
   axisExplanations: Record<string, string>;
   axisInfoAria: (label: string) => string;
   questionHelpAria: string;
@@ -128,7 +126,6 @@ interface Strings {
   compareValues: (pole: string, you: number, them: number, name: string) => string;
   compareOptionAria: (name: string, type: string) => string;
   homeAxes: Record<string, { label: string; leftPole: string; rightPole: string }>;
-  faqItems: { question: string; answer: string }[];
   howEyebrow: string;
   howTitle: string;
   howLead: string;
@@ -140,8 +137,6 @@ interface Strings {
   discoveryTitle: string;
   discoveryLead: string;
   discoveryItems: { icon: string; title: string; text: string }[];
-  faqTitle: string;
-  faqLead: string;
   navStart: string;
   menuAria: string;
   roseAria: string;
@@ -316,13 +311,6 @@ interface Strings {
   shareNearbyTeams: string;
   shareFooterCta: string;
   shareFooterUrl: string;
-  ossEyebrow: string;
-  ossTitle: string;
-  ossLead: string;
-  ossCards: { title: string; text: string }[];
-  ossBarText: string;
-  ossGithubCta: string;
-  ossIssueCta: string;
   feedbackTitle: string;
   feedbackReport: string;
   feedbackSuggest: string;
@@ -350,7 +338,6 @@ const pt: Strings = {
   mainNavAria: 'Navegação principal',
   navHow: 'Como funciona',
   navAxes: '12 Eixos',
-  navFaq: 'FAQ',
   langToggleLabel: 'EN',
   langToggleAria: 'Switch to English',
   redoQuiz: 'Refazer quiz',
@@ -363,7 +350,6 @@ const pt: Strings = {
     'Posse ou contra-ataque, pressão alta ou bloco baixo, espetáculo ou resultado. Responda e descubra com que escola de jogo, time e treinador você mais combina.',
   startQuiz: 'Descobrir meu perfil',
   seeAxes: 'Ver os 12 eixos',
-  heroLabels: ['Gratuito', 'Anônimo', 'Rápido', 'Resultado imediato'],
   formats: {
     short: {
       label: 'Curta',
@@ -379,13 +365,6 @@ const pt: Strings = {
       duration: 'Aprox. 9 min',
       action: 'Começar versão completa'
     },
-    extreme: {
-      label: 'Extrema',
-      questionCount: '240 perguntas',
-      description: 'Todas as perguntas de todos os eixos, para o retrato mais fiel do seu futebol.',
-      duration: 'Aprox. 30 min',
-      action: 'Começar versão extrema'
-    }
   },
   axisInfoAria: (label) => `O que significa o eixo ${label}?`,
   questionHelpAria: 'Entender esta pergunta',
@@ -435,46 +414,6 @@ const pt: Strings = {
     lid: 'Avalia se o treinador deve liderar com autoridade e disciplina ou com diálogo, confiança e harmonia no vestiário.'
   },
   homeAxes: {},
-  faqItems: [
-    {
-      question: 'O que é o 12 Axes Football?',
-      answer:
-        'Um quiz gratuito que mede sua filosofia de futebol em 12 eixos (posse, progressão, estrutura, largura, bloco, marcação, plano de jogo, propósito, quem decide, tipo de jogador, elenco e liderança) e compara seu perfil com escolas de jogo, times e treinadores.'
-    },
-    {
-      question: 'Quanto tempo demora?',
-      answer:
-        'A versão curta demora cerca de 5 minutos. A versão completa leva aproximadamente 9 minutos. A versão extrema, com 240 perguntas, pode levar cerca de 30 minutos.'
-    },
-    {
-      question: 'Existe resposta certa?',
-      answer:
-        'Não. Guardiola e Simeone ganharam muito jogando de formas opostas. O quiz mede preferências, não acerto.'
-    },
-    {
-      question: 'Como o algoritmo calcula?',
-      answer:
-        'Cada resposta soma pontos em um polo de um eixo. O algoritmo calcula percentuais por eixo, compara seu vetor com os perfis de ideias de jogo, times e treinadores e mostra as maiores compatibilidades.'
-    },
-    {
-      question: 'Como os perfis de times e treinadores são feitos?',
-      answer:
-        'Cada perfil começa por uma pesquisa com fontes, datas e período definido. Depois, o perfil responde às mesmas perguntas que você, uma por uma.'
-    },
-    {
-      question: 'Posso refazer?',
-      answer: 'Sim, quantas vezes quiser, inclusive escolhendo outra profundidade para ver se o resultado muda.'
-    },
-    {
-      question: 'O teste coleta dados?',
-      answer:
-        'O teste é anônimo e não exige cadastro. As respostas são usadas para calcular o resultado no momento do quiz, sem pedir nome, e-mail ou identificação pessoal.'
-    },
-    {
-      question: 'Posso responder pelo celular?',
-      answer: 'Sim. A interface foi pensada para celular e desktop.'
-    }
-  ],
   howEyebrow: 'Como funciona',
   howTitle: 'Como funciona o 12 Axes Football',
   howLead:
@@ -508,8 +447,6 @@ const pt: Strings = {
     { icon: 'profile', title: 'Seu perfil', text: 'Sua posição em cada um dos 12 eixos' },
     { icon: 'compatibility', title: 'Compatibilidade', text: 'O quanto você realmente concorda com cada perfil' }
   ],
-  faqTitle: 'Perguntas frequentes',
-  faqLead: 'Tudo o que as pessoas costumam perguntar antes de fazer o teste.',
   navStart: 'Começar',
   menuAria: 'Abrir menu',
   roseAria: 'Rosa dos 12 eixos',
@@ -700,19 +637,6 @@ const pt: Strings = {
   shareNearbyTeams: 'TIMES PRÓXIMOS',
   shareFooterCta: 'DESCUBRA SEU PERFIL',
   shareFooterUrl: '12AXES.VERCEL.APP',
-  ossEyebrow: 'Código aberto',
-  ossTitle: 'Um projeto independente e transparente',
-  ossLead:
-    'Você não precisa confiar na nossa palavra. O código é público: dá para ver como cada resposta é pontuada, como a compatibilidade é calculada e de onde vêm os perfis.',
-  ossCards: [
-    { title: 'Independente', text: 'Sem vínculo com clubes, ligas ou patrocinadores. Ninguém paga para aparecer no seu resultado.' },
-    { title: 'Auditável', text: 'A pontuação das respostas e o cálculo de compatibilidade estão no código, sem caixa-preta.' },
-    { title: 'Verificável', text: 'Perguntas e perfis ficam em arquivos versionados, com as fontes de cada pesquisa.' },
-    { title: 'Colaborativo', text: 'Achou uma pergunta enviesada ou um perfil impreciso? Abra uma issue ou envie um pull request.' }
-  ],
-  ossBarText: 'Leia o código, audite os dados e contribua pelo GitHub.',
-  ossGithubCta: 'Ver no GitHub',
-  ossIssueCta: 'Sugerir melhoria',
   feedbackTitle: 'Encontrou um problema ou tem uma ideia?',
   feedbackReport: 'Reportar um problema',
   feedbackSuggest: 'Sugerir melhorias'
@@ -740,7 +664,6 @@ const en: Strings = {
   mainNavAria: 'Main navigation',
   navHow: 'How it works',
   navAxes: '12 Axes',
-  navFaq: 'FAQ',
   langToggleLabel: 'PT',
   langToggleAria: 'Mudar para português',
   redoQuiz: 'Retake quiz',
@@ -753,7 +676,6 @@ const en: Strings = {
     'Possession or counter-attack, high press or low block, spectacle or result. Answer and find the school of play, team and manager that match you best.',
   startQuiz: 'Find my profile',
   seeAxes: 'See the 12 axes',
-  heroLabels: ['Free', 'Anonymous', 'Fast', 'Instant result'],
   formats: {
     short: {
       label: 'Quick',
@@ -769,13 +691,6 @@ const en: Strings = {
       duration: 'About 9 min',
       action: 'Start the full version'
     },
-    extreme: {
-      label: 'Extreme',
-      questionCount: '240 questions',
-      description: 'Every question on every axis, for the most faithful picture of your football.',
-      duration: 'About 30 min',
-      action: 'Start the extreme version'
-    }
   },
   axisInfoAria: (label) => `What does the ${label} axis mean?`,
   questionHelpAria: 'Understand this question',
@@ -838,45 +753,6 @@ const en: Strings = {
     bas: { label: 'Squad', leftPole: 'Youth', rightPole: 'Experience' },
     lid: { label: 'Leadership', leftPole: 'Authority', rightPole: 'Harmony' }
   },
-  faqItems: [
-    {
-      question: 'What is 12 Axes Football?',
-      answer:
-        'A free quiz that measures your football philosophy on 12 axes (possession, progression, structure, width, block, marking, game plan, purpose, who decides, player type, squad and leadership) and compares your profile with schools of play, teams and managers.'
-    },
-    {
-      question: 'How long does it take?',
-      answer:
-        'The quick version takes about 5 minutes. The full version takes roughly 9 minutes. The extreme version, with 240 questions, can take about 30 minutes.'
-    },
-    {
-      question: 'Is there a right answer?',
-      answer: 'No. Guardiola and Simeone both won a lot playing in opposite ways. The quiz measures preferences, not correctness.'
-    },
-    {
-      question: 'How does the algorithm work?',
-      answer:
-        'Each answer adds points to one pole of an axis. The algorithm computes percentages per axis, compares your vector with the profiles of football ideas, teams and managers, and shows the closest matches.'
-    },
-    {
-      question: 'How are team and manager profiles made?',
-      answer:
-        'Each profile starts with research that has sources, dates and a fixed period. Then the profile answers the same questions you do, one by one.'
-    },
-    {
-      question: 'Can I retake it?',
-      answer: 'Yes, as many times as you like, including with another depth to see whether your result changes.'
-    },
-    {
-      question: 'Does the quiz collect data?',
-      answer:
-        'The quiz is anonymous and needs no sign-up. Answers are only used to compute your result at quiz time, without asking for your name, email or any personal identification.'
-    },
-    {
-      question: 'Can I take it on my phone?',
-      answer: 'Yes. The interface was designed for mobile and desktop.'
-    }
-  ],
   howEyebrow: 'How it works',
   howTitle: 'How 12 Axes Football works',
   howLead: 'You answer statements about how football should be played and run, and 12 Axes works out where you stand on each dimension.',
@@ -909,8 +785,6 @@ const en: Strings = {
     { icon: 'profile', title: 'Your profile', text: 'Your position on each of the 12 axes' },
     { icon: 'compatibility', title: 'Compatibility', text: 'How much you really agree with each profile' }
   ],
-  faqTitle: 'Frequently asked questions',
-  faqLead: 'Everything people usually ask before taking the quiz.',
   navStart: 'Start',
   menuAria: 'Open menu',
   roseAria: 'Rose of the 12 axes',
@@ -1101,19 +975,6 @@ const en: Strings = {
   shareNearbyTeams: 'NEARBY TEAMS',
   shareFooterCta: 'FIND YOUR PROFILE',
   shareFooterUrl: '12AXES.VERCEL.APP',
-  ossEyebrow: 'Open source',
-  ossTitle: 'An independent, transparent project',
-  ossLead:
-    'You do not have to take our word for it. The code is public: you can see how each answer is scored, how compatibility is calculated and where the profiles come from.',
-  ossCards: [
-    { title: 'Independent', text: 'No ties to clubs, leagues or sponsors. Nobody pays to appear in your result.' },
-    { title: 'Auditable', text: 'Answer scoring and the compatibility calculation are in the code, with no black box.' },
-    { title: 'Verifiable', text: 'Questions and profiles live in versioned files, with the sources of each research run.' },
-    { title: 'Collaborative', text: 'Found a biased question or an inaccurate profile? Open an issue or send a pull request.' }
-  ],
-  ossBarText: 'Read the code, audit the data and contribute on GitHub.',
-  ossGithubCta: 'See on GitHub',
-  ossIssueCta: 'Suggest an improvement',
   feedbackTitle: 'Found a problem or have an idea?',
   feedbackReport: 'Report a problem',
   feedbackSuggest: 'Suggest improvements'

@@ -31,7 +31,7 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 ## Stop rules
 
 - Ambiguous name (one label used for two different ideas): ask the user and stop.
-- After step 7, **stop**: no audit until the football question pool exists. Report to the user as described at the end of FOOTBALL_RESEARCH.md.
+- After step 7, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report to the user as described at the end of FOOTBALL_RESEARCH.md.
 
 ## Rules that can't be broken
 

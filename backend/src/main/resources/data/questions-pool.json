@@ -1,1 +1,447 @@
-[]
+[
+  {
+    "id": "pos_01",
+    "axisId": "pos",
+    "text": "Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pos_02",
+    "axisId": "pos",
+    "text": "Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "pos_03",
+    "axisId": "pos",
+    "text": "Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pos_04",
+    "axisId": "pos",
+    "text": "Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "pos_05",
+    "axisId": "pos",
+    "text": "Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pro_01",
+    "axisId": "pro",
+    "text": "Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "pro_02",
+    "axisId": "pro",
+    "text": "Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pro_03",
+    "axisId": "pro",
+    "text": "Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "pro_04",
+    "axisId": "pro",
+    "text": "Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pro_05",
+    "axisId": "pro",
+    "text": "Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "est_01",
+    "axisId": "est",
+    "text": "Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "est_02",
+    "axisId": "est",
+    "text": "Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "est_03",
+    "axisId": "est",
+    "text": "Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.",
+    "agreePole": "LEFT",
+    "weight": 1,
+    "secondary": {
+      "axisId": "lar",
+      "agreePole": "RIGHT",
+      "weight": 0.5
+    }
+  },
+  {
+    "id": "est_04",
+    "axisId": "est",
+    "text": "O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "est_05",
+    "axisId": "est",
+    "text": "Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "lar_01",
+    "axisId": "lar",
+    "text": "Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "lar_02",
+    "axisId": "lar",
+    "text": "O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "lar_03",
+    "axisId": "lar",
+    "text": "Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "lar_04",
+    "axisId": "lar",
+    "text": "Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "lar_05",
+    "axisId": "lar",
+    "text": "Um time sem pontas abertos fica previsível e fácil de marcar.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "blo_01",
+    "axisId": "blo",
+    "text": "Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "blo_02",
+    "axisId": "blo",
+    "text": "Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "blo_03",
+    "axisId": "blo",
+    "text": "Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "blo_04",
+    "axisId": "blo",
+    "text": "Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "blo_05",
+    "axisId": "blo",
+    "text": "Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "mar_01",
+    "axisId": "mar",
+    "text": "Defensores devem proteger espaços, não perseguir um adversário pelo campo.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "mar_02",
+    "axisId": "mar",
+    "text": "Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "mar_03",
+    "axisId": "mar",
+    "text": "Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "mar_04",
+    "axisId": "mar",
+    "text": "Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "mar_05",
+    "axisId": "mar",
+    "text": "Marcar por zona dá liberdade demais para o adversário pensar o jogo.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "pla_01",
+    "axisId": "pla",
+    "text": "Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pla_02",
+    "axisId": "pla",
+    "text": "Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "pla_03",
+    "axisId": "pla",
+    "text": "Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "pla_04",
+    "axisId": "pla",
+    "text": "Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.",
+    "agreePole": "RIGHT",
+    "weight": 1,
+    "secondary": {
+      "axisId": "res",
+      "agreePole": "RIGHT",
+      "weight": 0.5
+    }
+  },
+  {
+    "id": "pla_05",
+    "axisId": "pla",
+    "text": "Um time deve jogar do seu jeito, seja qual for o adversário.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "res_01",
+    "axisId": "res",
+    "text": "Um time que joga bonito e perde ainda é lembrado, e isso importa.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "res_02",
+    "axisId": "res",
+    "text": "Fora de casa contra um time forte, um empate já é um ótimo resultado.",
+    "agreePole": "RIGHT",
+    "weight": 1,
+    "secondary": {
+      "axisId": "pla",
+      "agreePole": "RIGHT",
+      "weight": 0.5
+    }
+  },
+  {
+    "id": "res_03",
+    "axisId": "res",
+    "text": "Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.",
+    "agreePole": "RIGHT",
+    "weight": 1,
+    "secondary": {
+      "axisId": "blo",
+      "agreePole": "RIGHT",
+      "weight": 0.5
+    }
+  },
+  {
+    "id": "res_04",
+    "axisId": "res",
+    "text": "Importa mais como o time venceu do que o placar.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "res_05",
+    "axisId": "res",
+    "text": "O torcedor vai ao estádio para ver o time ganhar, não para ver um show.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "sis_01",
+    "axisId": "sis",
+    "text": "Um bom sistema transforma jogadores comuns em grandes jogadores.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "sis_02",
+    "axisId": "sis",
+    "text": "Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "sis_03",
+    "axisId": "sis",
+    "text": "Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.",
+    "agreePole": "LEFT",
+    "weight": 1,
+    "secondary": {
+      "axisId": "lid",
+      "agreePole": "LEFT",
+      "weight": 0.5
+    }
+  },
+  {
+    "id": "sis_04",
+    "axisId": "sis",
+    "text": "O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "sis_05",
+    "axisId": "sis",
+    "text": "Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "jog_01",
+    "axisId": "jog",
+    "text": "Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "jog_02",
+    "axisId": "jog",
+    "text": "Sem intensidade física, não dá para competir no futebol de hoje.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "jog_03",
+    "axisId": "jog",
+    "text": "Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "jog_04",
+    "axisId": "jog",
+    "text": "Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "jog_05",
+    "axisId": "jog",
+    "text": "Jogos grandes se decidem nas divididas e na bola aérea.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "bas_01",
+    "axisId": "bas",
+    "text": "Um clube deve ser construído com jogadores da própria base.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "bas_02",
+    "axisId": "bas",
+    "text": "Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "bas_03",
+    "axisId": "bas",
+    "text": "Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "bas_04",
+    "axisId": "bas",
+    "text": "Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "bas_05",
+    "axisId": "bas",
+    "text": "Revelar jogadores é tão importante para um clube quanto ganhar títulos.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "lid_01",
+    "axisId": "lid",
+    "text": "O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "lid_02",
+    "axisId": "lid",
+    "text": "Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "lid_03",
+    "axisId": "lid",
+    "text": "Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  },
+  {
+    "id": "lid_04",
+    "axisId": "lid",
+    "text": "Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.",
+    "agreePole": "LEFT",
+    "weight": 1
+  },
+  {
+    "id": "lid_05",
+    "axisId": "lid",
+    "text": "O papel do treinador é mais cuidar das pessoas do que dar ordens.",
+    "agreePole": "RIGHT",
+    "weight": 1
+  }
+]

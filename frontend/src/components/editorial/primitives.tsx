@@ -39,9 +39,10 @@ export function SiteFooter() {
   );
 }
 
-export function Football({ className }: { className?: string }) {
+// Formas da bola em um viewBox 40x40, para reutilizar dentro de outros SVGs.
+function FootballShapes() {
   return (
-    <svg className={className} viewBox="0 0 40 40" aria-hidden="true">
+    <>
       <circle cx="20" cy="20" r="18" fill="var(--ball-white)" stroke="var(--ball-black)" strokeWidth="1.5" />
       <path d="M20 13.5l6.2 4.5-2.4 7.3h-7.6l-2.4-7.3z" fill="var(--ball-black)" />
       <path
@@ -51,11 +52,19 @@ export function Football({ className }: { className?: string }) {
         fill="none"
       />
       <path d="M16 2.9l4-.4 4 .4-4 3z M35.2 10.8l1.6 3.5.4 4.1-3.1-3.4z M31.4 33.8l-3.3 2.3-3.9 1.2 2.1-4.2z M15.8 37.3l-3.9-1.2-3.3-2.3 5.1.7z M2.8 18.4l.4-4.1 1.6-3.5 1.1 4.2z" fill="var(--ball-black)" />
+    </>
+  );
+}
+
+export function Football({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 40 40" aria-hidden="true">
+      <FootballShapes />
     </svg>
   );
 }
 
-export function PitchMarkings() {
+export function PitchMarkings({ withBall = false }: { withBall?: boolean }) {
   return (
     <svg className="e-pitch" viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <g fill="none" stroke="var(--pitch-line)" strokeWidth="3">
@@ -75,6 +84,12 @@ export function PitchMarkings() {
         <circle cx="150" cy="380" r="5" />
         <circle cx="1050" cy="380" r="5" />
       </g>
+      {withBall && (
+        // Bola sobre a marca do pênalti direita (1050, 380), centralizada com scale 1.1.
+        <g transform="translate(1028 358) scale(1.1)">
+          <FootballShapes />
+        </g>
+      )}
     </svg>
   );
 }

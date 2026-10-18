@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "id": "combination-game",
+    "name": "Jogo de combinação",
+    "category": "Clássica inicial",
+    "description": "Escola escocesa do fim do século XIX: o time se move junto e troca a bola de pé em pé, em oposição ao drible individual inglês.",
+    "phrase": "Quero que a bola circule de pé em pé e que o time se mova junto, em vez de um jogador carregá-la sozinho.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {
+      "pos": 65.0,
+      "pro": 50.0,
+      "est": 35.0,
+      "lar": 43.2,
+      "blo": 43.2,
+      "mar": 60.0,
+      "pla": 79.5,
+      "res": 70.5,
+      "sis": 85.0,
+      "jog": 75.0,
+      "bas": 40.0,
+      "lid": 34.1
+    }
+  },
+  {
+    "id": "danubian-school",
+    "name": "Escola danubiana",
+    "category": "Clássica inicial",
+    "description": "Passe e construção entre as guerras na Europa Central (Áustria, Hungria, Tchecoslováquia), com o jogo como construção coletiva.",
+    "phrase": "Quero cada passe e cada movimento com um objetivo, construindo o jogo com a bola no chão.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {
+      "pos": 80.0,
+      "pro": 65.0,
+      "est": 15.0,
+      "lar": 56.8,
+      "blo": 34.1,
+      "mar": 75.0,
+      "pla": 88.6,
+      "res": 81.8,
+      "sis": 40.0,
+      "jog": 90.0,
+      "bas": 40.0,
+      "lid": 70.5
+    }
+  },
+  {
+    "id": "wm-system",
+    "name": "Sistema WM",
+    "category": "Defensiva e reativa",
+    "description": "Formação de Chapman no Arsenal depois da mudança do impedimento: três defensores, dois volantes e um ataque de cinco, com contra-ataque rápido.",
+    "phrase": "Quero um time que resulte acima de tudo, defendendo com três zagueiros e atacando em velocidade.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {
+      "pos": 10.0,
+      "pro": 15.0,
+      "est": 65.0,
+      "lar": 43.2,
+      "blo": 11.4,
+      "mar": 25.0,
+      "pla": 75.0,
+      "res": 29.5,
+      "sis": 75.0,
+      "jog": 50.0,
+      "bas": 25.0,
+      "lid": 70.5
+    }
+  },
+  {
+    "id": "hungarian-4-2-4",
+    "name": "4-2-4 húngaro fluido",
+    "category": "Posse e estrutura",
+    "description": "Ideia húngara do fim dos anos 1940 e 1950: um centroavante recuado que organiza o jogo e puxa o zagueiro para fora, com atacantes trocando de posição.",
+    "phrase": "Quero um centroavante que recua para organizar o jogo e atacantes que trocam de lugar para desorganizar a defesa.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {
+      "pos": 75.0,
+      "pro": 50.0,
+      "est": 20.0,
+      "lar": 61.4,
+      "blo": 34.1,
+      "mar": 25.0,
+      "pla": 79.5,
+      "res": 72.7,
+      "sis": 60.0,
+      "jog": 65.0,
+      "bas": 30.0,
+      "lid": 70.5
+    }
+  },
+  {
+    "id": "kick-and-rush",
+    "name": "Kick and rush",
+    "category": "Direta e física",
+    "description": "Tradição britânica direta: ganhar a bola, levá-la rápido para a frente com lançamentos e cruzamentos e lutar pelas segundas bolas, com bolas paradas como arma.",
+    "phrase": "Quero ganhar a bola, levá-la rápido à frente e brigar por cada disputa, usando a força do time.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {
+      "pos": 15.0,
+      "pro": 15.0,
+      "est": 85.0,
+      "lar": 20.5,
+      "blo": 22.7,
+      "mar": 50.0,
+      "pla": 75.0,
+      "res": 11.4,
+      "sis": 90.0,
+      "jog": 10.0,
+      "bas": 20.0,
+      "lid": 81.8
+    }
+  },
+  {
+    "id": "futebol-arte",
+    "name": "Futebol-arte",
+    "category": "Relacional e liberdade",
+    "description": "Futebol brasileiro em que o talento individual vem primeiro, em oposição ao futebol de resultado: o jogo bonito é a forma de ganhar.",
+    "phrase": "Quero que o talento dos craques guie o jogo e que se possa jogar bem e vencer.",
+    "teamId": "brazil-1982",
+    "managerId": "tele-santana",
+    "vector": {
+      "pos": 70.0,
+      "pro": 55.0,
+      "est": 20.0,
+      "lar": 70.5,
+      "blo": 34.1,
+      "mar": 70.0,
+      "pla": 75.0,
+      "res": 81.8,
+      "sis": 20.0,
+      "jog": 95.0,
+      "bas": 70.0,
+      "lid": 65.9
+    }
+  },
+  {
+    "id": "la-nuestra",
+    "name": "La Nuestra",
+    "category": "Relacional e liberdade",
+    "description": "Tradição rio-platense de drible, passe curto e improviso de jogadores pequenos e técnicos, o estilo criollo que os cronistas chamavam de 'la nuestra'.",
+    "phrase": "Quero um time técnico, de drible e passe curto, que tenha a sua própria identidade.",
+    "teamId": null,
+    "managerId": null,
+    "vector": {
+      "pos": 75.0,
+      "pro": 75.0,
+      "est": 15.0,
+      "lar": 63.6,
+      "blo": 34.1,
+      "mar": 25.0,
+      "pla": 75.0,
+      "res": 90.9,
+      "sis": 5.0,
+      "jog": 90.0,
+      "bas": 75.0,
+      "lid": 22.7
+    }
+  }
+]

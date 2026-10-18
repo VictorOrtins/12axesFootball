@@ -12,16 +12,16 @@ Every football profile gets a research file **before** any audit. The research f
 5. Stated view vs behaviour, quotes with provenance
 6. Gaps (dimensions + axes), confidence, open questions
 7. Save profile-audit/research/<catalog>/<id>.json → validate.py research
-8. Audit (blocked until the football question pool exists)
+8. Audit (separate run, FOOTBALL_AUDIT.md)
 ```
 
 ---
 
 ## The 12 axes and the dimensions that feed them
 
-Every profile scores 0–100 on each axis. 0 = left pole, 100 = right pole.
+Every profile scores 0–100 on each axis, as leftPercent: 100 = left pole, 0 = right pole.
 
-| Key | Axis | Left pole (0) | Right pole (100) | Fed by dimensions |
+| Key | Axis | Left pole (100) | Right pole (0) | Fed by dimensions |
 |---|---|---|---|---|
 | `pos` | Possession | Ball | Counter | `possession`, `transitions` |
 | `pro` | Progression | Patient build-up | Direct play | `build-up`, `transitions` |
@@ -196,15 +196,9 @@ Catalog-specific fields:
 
 `eventDate` accepts `YYYY-MM-DD`, `YYYY-MM`, `YYYY` or a season `YYYY/YY`.
 
-## Step 8 — Audit (blocked in v1)
+## Step 8 — Audit (separate run)
 
-The football question pool (20 statements per axis) is a separate spec. **Until it exists, stop after step 7** and report the research to the user.
-
-Once it exists, the audit reuses the political pipeline's method (one strong model, every question answered independently "as" the profile, never working back from a target value, then an output check against the football anchor profiles in `validate.py`'s `FOOTBALL_AXIS_POLES`), with two changes. The political protocol (`profile-audit/README.md`) and its output check in `validate.py` were removed on 2026-10-12; recover them from git history (commit `302a66c`) when building the football audit. The two changes:
-- the prompt includes the **whole research file**, not just a short description;
-- the prompt lists `gaps.axes` and tells the auditor those axes have no verified evidence, so answers there come from general knowledge and must stay consistent with what *is* verified.
-
-Dropped from the political pipeline: the religion field, the book step (5b), and the "answer as the regime" rule.
+The research run **stops after step 7** and reports to the user. The audit is a separate run that follows `profile-audit/FOOTBALL_AUDIT.md`: the prompt includes the whole research file and its `gaps.axes`, and the quiz pool (60 statements, 5 per axis) is answered "as" the profile.
 
 ## Report to the user
 

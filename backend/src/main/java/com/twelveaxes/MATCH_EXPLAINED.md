@@ -29,7 +29,6 @@ Variantes:
 
 - `short`: 3 perguntas por eixo.
 - `extended`: 5 perguntas por eixo.
-- `extreme`: usa o pool completo.
 
 Idiomas:
 

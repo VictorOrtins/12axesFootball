@@ -9944,6 +9944,7 @@
    Termos difíceis sublinhados; o tooltip abre abaixo do termo (GlossaryText). */
 .question-card h2 {
   position: relative;
+  min-height: 3lh;
 }
 /* O header precisa ficar acima da grade de respostas (ambos z-index: 1) para o tooltip não ficar por baixo. */
 .question-card .question-card-header {

@@ -1,0 +1,642 @@
+{
+  "id": "renato-gaucho",
+  "catalog": "manager",
+  "name": "Renato Gaúcho",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2007-04-24",
+    "end": "2025-09-24"
+  },
+  "scopeNote": "Manager profile of Renato Gaúcho (Renato Portaluppi). The period runs from his hiring at Fluminense (agreed 2007-04-24, Jornal do Brasil) to his resignation at Fluminense on 2025-09-24, covering five counted spells. Spell dates come from pt.wikipedia 'Renato Gaúcho' (read in its first 100k characters at step 1), the JB 2007 article and a search for the 2021 Grêmio exit; partial dates for excluded spells are as Wikipedia gives them. Two 2026 spells (Vasco 2026-03-03 to 2026-06-18: 22 matches, 9W 6D 7L, relegation zone, no title; Grêmio again from 2026-09-14, ongoing) are excluded. Style: the evidence supports an attacking, player-centred 4-2-3-1 with possession through midfield (Arthur, Luan) plus fast counters (Goal BR 2017: 'Fernandinho na aposta da velocidade nos contra-ataques'; Trivela 2017: 'letal nos contra-ataques'), with real wingers when available, and a pragmatic willingness to change system by opponent (3-4-2-1/3-5-2 at Grêmio 2023, mirrored 3-5-2 against Inter at the 2025 Club World Cup). He rejects possession for its own sake ('A mim, não interessa ter 70% de posse de bola', 2020). Management: freedom and dialogue with players, protection of the group, recovering discarded veterans while also giving academy players minutes. No source says outright whether his teams mark zonally or man-to-man; the closest facts are Renato's collective (non-individual) plan for Neymar in 2025 and critics' notes on loose compactness. Fluminense 2007 counts on titles but is documented only by a retrospective. All evidence is Brazilian press (tier C); no tier A-B analysis was found.",
+  "spellsCounted": [
+    {
+      "club": "Fluminense",
+      "start": "2007-04-24",
+      "end": "2008-08-11",
+      "reason": "Copa do Brasil 2007 (first title as a coach) and the 2008 Libertadores final. Start = hiring agreed (JB, 2007-04-24); end = dismissal (Wikipedia)."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2016-09-18",
+      "end": "2021-04-15",
+      "reason": "Copa do Brasil 2016, Copa Libertadores 2017, Recopa Sul-Americana 2018, Gaúcho 2018-2020; the 4-2-3-1 he is best known for, with wide tactical coverage. Left the day after the Del Valle elimination (2021-04-14)."
+    },
+    {
+      "club": "Flamengo",
+      "start": "2021-07-10",
+      "end": "2021-11-29",
+      "reason": "Move to the biggest job in Brazil after Grêmio; Libertadores 2021 final and Brasileirão runner-up, with dense tactical coverage (positive and critical). No title: see openQuestions."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2022-09-01",
+      "end": "2024-12-09",
+      "reason": "Promotion from Série B 2022, Série A runner-up 2023 (Suárez side), Gaúcho 2023 and 2024; tactical coverage of his system changes (4-2-3-1, 3-4-2-1, 4-4-2 diamond)."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2025-04-03",
+      "end": "2025-09-24",
+      "reason": "FIFA Club World Cup 2025 semi-final (Inter 0-2 Fluminense in the round of 16), with tactical coverage of the three-volante and mirrored 3-5-2 plans. End = resignation."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Madureira",
+      "start": "2000",
+      "end": "2001",
+      "reason": "Early spell, no titles or tactical coverage."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2002-09",
+      "end": "2003-07",
+      "reason": "No titles, no tactical coverage found."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2003-10",
+      "end": "2003-12",
+      "reason": "Short return, no titles."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2005",
+      "end": "2007-04",
+      "reason": "Copa do Brasil 2006 runner-up only; left after early cup and Carioca exits (JB 2007-04-24: 'deixou o Vasco há quase duas semanas')."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2008-09-18",
+      "end": "2008",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2009-07-20",
+      "end": "2009-09-01",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Bahia",
+      "start": "2009-12-13",
+      "end": "2010-08-10",
+      "reason": "No major title or tactical coverage."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2010-08-10",
+      "end": "2011-06-30",
+      "reason": "No title; resigned. Not what he is known for."
+    },
+    {
+      "club": "Athletico Paranaense",
+      "start": "2011-07-04",
+      "end": "2011-09-01",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2013-07-01",
+      "end": "2013-12",
+      "reason": "Brasileirão runner-up 2013 but no title, about half a season; not a defining spell."
+    },
+    {
+      "club": "Fluminense",
+      "start": "2013-12-24",
+      "end": "2014-04-02",
+      "reason": "Short spell, no titles."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2026-03-03",
+      "end": "2026-06-18",
+      "reason": "22 matches, 50% of points, relegation zone at dismissal, no title (press, via search; not read in full)."
+    },
+    {
+      "club": "Grêmio",
+      "start": "2026-09-14",
+      "end": "ongoing",
+      "reason": "Fifth Grêmio spell, one month old; too recent to judge (A Bola, 2026-09-14, via search)."
+    }
+  ],
+  "teamProfiles": ["gremio-2017"],
+  "ambiguities": [],
+  "openQuestions": [
+    "Flamengo 2021 is counted as a move to a bigger job with tactical coverage, though it brought no title and critics said the team had no identity (Lance, 2021-11-08). Drop it if only title-winning spells should count.",
+    "Grêmio 2022-24 and Fluminense 2025 are counted on promotion/Série A runner-up/state titles and the Club World Cup semi-final with tactical coverage; neither brought a national or continental title. Confirm.",
+    "Marking (mar): no source says zonal or man-oriented. The only direct facts are the collective (non-individual) plan for Neymar in 2025 and an unverified fan-analyst claim that set-piece defence is not fully individual. Treat mar as close to memory-only.",
+    "Fluminense 2007 is counted on the Copa do Brasil title, but its only style fact is a 2025 retrospective ('estilo ofensivo'); no formation found.",
+    "The 'fora de série' marking quote (NetFlu) shows only a last-update date of 2014-03-06 (Fluminense 2014 spell, excluded); its original date may be earlier.",
+    "The 'paizão' label asked for was not found in any source; the people-management picture (freedom, dialogue, protecting the group, but fines when needed) rests on Renato's own words and press accounts.",
+    "Wikipedia gives the Grêmio 2022 start as 2022-09-01 and the Flamengo dates (2021-07-10 to 2021-11-29); these were not cross-checked against club announcements."
+  ],
+  "sources": [
+    {
+      "title": "Renato Gaúcho é confirmado como novo treinador do Fluminense (Jornal do Brasil)",
+      "url": "https://www.jb.com.br/esportes/noticias/2007/04/24/renato-gaucho-e-confirmado-como-novo-treinador-do-fluminense.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2007-04-24",
+      "eventDate": "2007-04-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Dates only, used for the spell start, not as tactical evidence: \"O Fluminense acertou na tarde desta terça-feira a contratação do técnico Renato Gaúcho\" to \"dirigir a equipe no Campeonato Brasileiro.\" \"Renato, 44 anos, deixou o Vasco há quase duas semanas, depois da eliminação precoce na Copa do Brasil.\"",
+      "verified": false
+    },
+    {
+      "title": "Título do Fluminense na Copa do Brasil: a conquista de 2007 (Lancepédia)",
+      "url": "https://www.lance.com.br/lancepedia/titulo-do-fluminense-copa-do-brasil.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-02-26",
+      "eventDate": "2007",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Retrospective, no period quote: the 2007 campaign was marked by \"um futebol consistente\" and Renato's side had an \"estilo ofensivo e de forte presença no ataque\". Final: Figueirense 0-1 Fluminense (Roger). No formation given.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "\"A equipe comandada por Renato Portaluppi levantou o título em um 4-2-3-1\" (Tauan Ambrosio). Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"com o excelente Arthur ajudando nas transições defesa/ataque e protegendo a defesa\"; \"Barrios como referência e Fernandinho na aposta da velocidade nos contra-ataques.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "O fato novo que pode fazer Renato repensar esquema tático no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-renato-gaucho-esquema-tatico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Nícolas Wagner: \"O mais recente deles, nas vitórias sobre Coritiba e Bahia, foi o 3-5-2\"; the article weighs \"o retorno de seu tradicional 4-2-3-1, que o consagrou em sua passagem anterior pelo Grêmio.\"",
+      "verified": true
+    },
+    {
+      "title": "O fato novo que pode fazer Renato repensar esquema tático no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-renato-gaucho-esquema-tatico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"Até por ter sido um, e dos bons, Renato Portaluppi sempre gostou de utilizar pontas em suas equipes.\" \"o treinador se queixou diversas vezes da carência de atacantes de lado de velocidade no elenco do Grêmio.\"",
+      "verified": true
+    },
+    {
+      "title": "Nos últimos jogos do ano, Grêmio encontra outra alternativa para jogo de velocidade (Lance)",
+      "url": "https://www.lance.com.br/gremio/nos-ultimos-jogos-ano-encontra-outra-alternativa-para-jogo-velocidade.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-12-09",
+      "eventDate": "2019",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Wide players are a \"Função muito importante para dar profundidade a troca de passes do Grêmio\"; \"os homens de lado de campo sempre tiveram participação ativa na equipe de Renato Portaluppi\" (Everton, Alisson, Pepê named).",
+      "verified": true
+    },
+    {
+      "title": "Análise: fragilidade tática no desnorteado Flamengo de Renato atinge o seu ápice (Lance)",
+      "url": "https://www.lance.com.br/flamengo/analise-fragilidade-tatica-desnorteado-renato-atinge-seu-apice.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-11-08",
+      "eventDate": "2021-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "One match (Chapecoense x Flamengo, draw): \"Contra a Chape, um desorganizado Flamengo fez 30 cruzamentos\"; \"a equipe foi um deserto de ideias nas tramas próximas à área\".",
+      "verified": true
+    },
+    {
+      "title": "Análise: fragilidade tática no desnorteado Flamengo de Renato atinge o seu ápice (Lance)",
+      "url": "https://www.lance.com.br/flamengo/analise-fragilidade-tatica-desnorteado-renato-atinge-seu-apice.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-11-08",
+      "eventDate": "2021-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Critical analysis of Flamengo 2021: the team \"nem é impositiva, com forte marcação pressão no ataque,\" \"nem é talhada para o contragolpe, com linhas mais baixas e uma defesa consistente\"; \"a sua equipe não tem identidade\"; it ceded \"espaços em profusão\".",
+      "verified": true
+    },
+    {
+      "title": "Das goleadas ao momento mais conturbado: Renato completa quatro meses como técnico do Flamengo (Lance)",
+      "url": "https://www.lance.com.br/flamengo/das-goleadas-momento-mais-conturbado-renato-completa-quatro-meses-como-tecnico.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-11",
+      "eventDate": "2021",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Article date not shown on the page; four months after 2021-07-10, so about Nov 2021. First six games won, 24 goals scored, 3 conceded. Later, opponents dropped deep and countered while Flamengo often passed the ball \"sem objetividade\" and left gaps at the back (paraphrase of the page). Rotation before the Barcelona SC semi-final second leg kept the \"padrão Grêmio\".",
+      "verified": true
+    },
+    {
+      "title": "Heróis do tricampeonato tricolor (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/herois-do-tricampeonato-tricolor/vxaeuttimm0w1ucu73edojim5",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Arthur was \"extremamente importante para a saída de bola da equipe de Renato Gaúcho.\" Luan \"Comandou o meio campo do time\". Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Manhã de treino... Grêmio trabalha movimentações de jogo no CT Luiz Carvalho (gremio.net)",
+      "url": "https://www.gremio.net/noticias/detalhes/22411/gremio-trabalha-movimentacoes-de-jogo-no-ct-luiz-carvalho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-04-26",
+      "eventDate": "2019-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Official club training report, \"tática comandada por Renato Portaluppi\": \"saída de bola, sempre a partir dos volantes\"; \"Maicon e Matheus Henrique faziam a saída com os laterais\"; volantes, meias and atacantes did \"o trabalho de construção\" while the meias waited for \"a passagem dos jogadores de lado\". Training session, not a match.",
+      "verified": true
+    },
+    {
+      "title": "Com toque de Renato, Grêmio reencontrou equilíbrio para bater o Pachuca e o nervosismo (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/com-toque-de-renato-gremio-reencontrou-equilibrio-para-bater-o-pachuca-e-o-nervosismo/1pz0oxrhcejsm1vm30ca3lt8qj",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-12-12",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Grêmio averaged \"média de 53%  na Libertadores e 51% no Brasileirão\" of possession in 2017. Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Renato valoriza empate, mas vê rendimento abaixo do desejado no Grêmio em 2018 (Tribuna PR)",
+      "url": "https://www.tribunapr.com.br/esportes/renato-valoriza-empate-mas-ve-rendimento-abaixo-do-desejado-no-gremio-em-2018/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-02-28",
+      "eventDate": "2018-02-27",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "One match (Defensor 1-1 Grêmio, Libertadores, Montevideo). Renato on facing a deep block, implying Grêmio had the ball: \"É sempre muito difícil jogar contra um adversário com uma linha de quatro e outra de cinco próximas\", the opponent \"esperando um erro, um contra-ataque\".",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"muito mais consistente na defesa, letal nos contra-ataques.\" \"A solidez defensiva e a verticalidade no ataque, vistas em 2016, evoluíram nos últimos meses.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Libertadores final (Lanús 1-2 Grêmio): the team connected its phases \"especialmente pela maneira como trabalharam sem a bola, pressionando, agressivos.\" One match; no height, triggers or orientation. Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Nem estátua será capaz de dimensionar o que Renato simboliza ao Grêmio (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/nem-estatua-sera-capaz-de-dimensionar-o-que-renato-simboliza-ao-gremio/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "The relationship with the squad is Renato's \"trunfo mais evidente\"; \"É difícil encontrar um jogador que critique o treinador abertamente.\" Despite rotation \"não se viu qualquer crise de vaidades no elenco tricolor\". Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Análise: a mudança no Fluminense que amarrou o Borussia (Lance)",
+      "url": "https://www.lance.com.br/fluminense/analise-a-mudanca-no-fluminense-que-amarrou-o-borussia.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-06-19",
+      "eventDate": "2025-06-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "One match (Club World Cup v Borussia Dortmund). Three volantes (Hércules, Martinelli, Nonato) instead of Ganso. Felipe Melo: \"O Renato surpreendeu todo mundo ao mudar o tripé de meio-campo, fazendo pressão alta.\" Renato: \"A gente precisava de uma marcação mais forte no meio.\" The team \"valorizou a posse de bola\". No zonal/man detail.",
+      "verified": true
+    },
+    {
+      "title": "Renato Gaúcho revela o que disse a Neymar após vitória do Fluminense (O Antagonista)",
+      "url": "https://oantagonista.com.br/ladooa/esportes/renato-gaucho-revela-o-que-disse-a-neymar-apos-vitoria-do-fluminense/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-14",
+      "eventDate": "2025-04-13",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "One match (Fluminense 1-0 Santos). Paraphrase on the page, no quotation marks: Renato did not assign an individual marker to Neymar; the plan was collective, with whichever Fluminense player was near him marking him. The only direct marking-orientation fact found (points away from man-marking).",
+      "verified": true
+    },
+    {
+      "title": "O ano do Grêmio foi ótimo, mas há um grande porém: sua defesa frouxa (Trivela)",
+      "url": "https://trivela.com.br/brasil/retrospectiva-defesa-gremio-2023/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-12-11",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Nícolas Wagner: \"Em algumas partidas, o Grêmio foi um time descompactado, com muito espaço entre os setores.\" \"Renato alternou esquemas táticos, com dois ou três zagueiros, e dois ou três volantes, mas o problema persistiu.\" Renato (after Fortaleza, 2023-09-30): \"é lógico que você vai deixar espaços, porque tem um time bastante ofensivo\".",
+      "verified": true
+    },
+    {
+      "title": "A reinvenção de Renato no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/reinvencao-renato-gremio-2023/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-08-28",
+      "eventDate": "2023-08",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Paraphrase of the page: Renato tested three systems during the week and the choice depended heavily on the opponent; a 4-4-2 diamond without wingers v Santos, a packed midfield v Cruzeiro to contain its \"fortes transições\"; two banks of four in the second half v Santos. Renato was suspended; assistant Alexandre Mendes: \"Os jogadores entenderam e compraram a ideia.\"",
+      "verified": true
+    },
+    {
+      "title": "Renato Gaúcho e o trio de zagueiros contra a Inter (Trivela)",
+      "url": "https://trivela.com.br/mundial-de-clubes/renato-gaucho-fluminense-inter/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-06-30",
+      "eventDate": "2025-06-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Eduardo Deconto. Club World Cup round of 16, Inter 0-2 Fluminense: Renato chose to \"espelhar o esquema da Inter\" with three centre-backs, describing Inter as \"muito forte, muito rápida, jogadores altos, fortes\"; the squad had \"dois, três dias apenas para treinar\" it. Renato: \"Muita gente acha que o Renato é isso, é aquilo\".",
+      "verified": true
+    },
+    {
+      "title": "Com toque de Renato, Grêmio reencontrou equilíbrio para bater o Pachuca e o nervosismo (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/com-toque-de-renato-gremio-reencontrou-equilibrio-para-bater-o-pachuca-e-o-nervosismo/1pz0oxrhcejsm1vm30ca3lt8qj",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-12-12",
+      "eventDate": "2017-12-12",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "One match (Club World Cup semi-final v Pachuca, 1-0 a.e.t.): paraphrase from the gremio-2017 run; Jael replaced Barrios, Everton came on and scored; the article credits Renato's changes (\"toque de Renato\").",
+      "verified": true
+    },
+    {
+      "title": "O segredo de Renato Gaúcho no Fluminense contra a Inter (90min)",
+      "url": "https://www.90min.com/pt-br/segredo-renato-gaucho-fluminense-melhores-times-futebol-mundial",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-06-30",
+      "eventDate": "2025-06-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Bia Palumbo, Renato's post-match quotes (v Inter): \"treinamos bastante a parte tática, bola parada...\" \"Hoje em dia muitas vezes uma partida é decidida na bola parada,\" \"não poderíamos dar essa vantagem ao nosso adversário e ao mesmo tempo poderíamos ter isso a nosso favor.\" \"Temos Arias e Renê que batem bem na bola e jogadores altos dentro da área deles para perturbar e fazer o gol de cabeça.\"",
+      "verified": true
+    },
+    {
+      "title": "Vídeo: Fluminense vem sofrendo na defesa com escanteios (NetFlu)",
+      "url": "https://www.netflu.com.br/video-fluminense-vem-sofrendo-na-defesa-com-escanteios-perfil-opina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025",
+      "eventDate": "2025",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Search summary only (not read): a fan tactical account says Renato's Fluminense does not use fully individual marking on defensive set pieces and conceded headers. Not verified.",
+      "verified": false
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "\"Principalmente por contar com Luan na criação e finalização de jogadas.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "O fato novo que pode fazer Renato repensar esquema tático no Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-renato-gaucho-esquema-tatico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "On a young forward: Renato \"Tem velocidade, inteligência para jogar. Precisa evoluir algumas coisas.\" and \"Eu falei isso para ele: você não pode ter desaprendido a jogar, garoto.\" Pace plus intelligence; preference for genuine wingers (see width).",
+      "verified": true
+    },
+    {
+      "title": "O momento 'Tito Vilanova' de Renato Gaúcho no Gre-Nal 425 (Correio Braziliense, Drible de Corpo)",
+      "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/o-momento-tito-vilanova-de-renato-gaucho-no-gre-nal-425/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-07-23",
+      "eventDate": "2020-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Marcos Paulo Lima. Gre-Nal 425 (Grêmio won, Jean Pyerre goal): six academy players on the pitch together in the second half; 21-year-old Guilherme Guedes started at left-back. Renato: \"Eu gosto de trabalhar com garotos, a base faz um excelente trabalho.\" \"Ninguém é dono da camisa.\" \"Quando precisamos deles, sempre dão conta do recado.\"",
+      "verified": true
+    },
+    {
+      "title": "A 'Era Renato': veja como técnico fez Grêmio voltar ao rumo dos títulos (Lance)",
+      "url": "https://www.lance.com.br/gremio/era-renato-desconfianca-busca-por-titulos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-05",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"Ainda chegaram ao clube outros jogadores desacreditados, como Lucas Barrios, Cícero e Christian.\" \"O trio retomou seus bons momentos\". Caption: \"Recuperação de jogadores, mescla com jovens.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "A 'Era Renato': veja como técnico fez Grêmio voltar ao rumo dos títulos (Lance)",
+      "url": "https://www.lance.com.br/gremio/era-renato-desconfianca-busca-por-titulos.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-05",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Espinosa: \"Ele (Renato Portaluppi) sabe como dialogar, dar a cada jogador chance de mostrar seu futebol.\" \"Todas as contratações eram discutidas, mas o mérito maior sempre foi do Renato.\" Read in the gremio-2017 research run.",
+      "verified": true
+    },
+    {
+      "title": "Eternos um ao outro: Renato Portaluppi deixa o Grêmio (Trivela)",
+      "url": "https://trivela.com.br/brasil/eternos-um-ao-outro-renato-portaluppi-deixa-o-gremio-com-muita-historia-em-separacao-que-faz-bem-aos-dois-lados/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-04-15",
+      "eventDate": "2016/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Felipe Lobo, on the 2016-21 spell: he \"fez com que o Grêmio tivesse um futebol atraente, envolvente e vencedor\", \"com muitos jogadores recuperados, outros que foram apostas furadas\"; \"Renato gostava de se envaidecer ao dizer que o seu time jogava o melhor futebol do Brasil.\" Late decline: \"O futebol do Grêmio já não era mais o mesmo.\"",
+      "verified": true
+    },
+    {
+      "title": "Grêmio 2019 elimination: lowest possession of the season (Goal BR)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/eliminacao-historica-do-gremio-passa-por-expulsao-desfalques/1gpcx1v9mte0a1nei0q3g7p44s",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019",
+      "eventDate": "2019",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Search summary only (not read): without Maicon, Renato's Grêmio had its lowest possession (30%) and fewest passes (221) of 2019 in the elimination match, implying usually higher figures. Not verified.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Não é porque sou atacante que não vou marcar ou porque sou zagueiro que não faço gols. Todos têm de se ajudar. [...] A não ser que apareça um fora de série e fale assim: \"Olha, não vou marcar, mas vou fazer dois, três gols jogo\". Esse eu vou liberar da marcação. Caso contrário, não. [...] Com a bola, teremos seis, sete jogadores com liberdade para atacar.",
+      "date": "2014-03-06",
+      "source": "https://www.netflu.com.br/renato-gaucho-diz-que-sem-foras-de-serie-todos-tem-de-marcar/",
+      "provenance": "primary",
+      "note": "Fluminense 2013-14 spell (excluded). The page shows only a last-update date (2014-03-06); the original date may be earlier. Talent can be exempted from the system."
+    },
+    {
+      "quote": "Quem precisa aprender tem que estudar, ir para a Europa. Quem não precisa, pode tirar as férias na praia. [...] Quem sabe, sabe. Quem não sabe, vai estudar. [...] Futebol é como andar de bicicleta: nunca desaprende",
+      "date": "2016-12-08",
+      "source": "https://www.gazetaesportiva.com/gremio/renato-nao-se-ve-desatualizado-futebol-e-como-andar-de-bicicleta/",
+      "provenance": "primary",
+      "note": "Earliest appearance (re-read 2026-10-14). About his own preparation and management, not his team's tactics."
+    },
+    {
+      "quote": "Então, até um cego vê que o Grêmio vem jogando um futebol maravilhoso. [...] O objetivo é jogarmos bem e ganharmos os jogos, mas isso não credencia o Grêmio ao título.",
+      "date": "2017-06-03",
+      "source": "https://www.gazetaesportiva.com/?p=2452802",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Eu gosto de trabalhar com garotos, a base faz um excelente trabalho. [...] Ninguém é dono da camisa.",
+      "date": "2020-07-23",
+      "source": "https://blogs.correiobraziliense.com.br/dribledecorpo/o-momento-tito-vilanova-de-renato-gaucho-no-gre-nal-425/",
+      "provenance": "primary",
+      "note": "Press conference after Gre-Nal 425, reported the next morning."
+    },
+    {
+      "quote": "Minha equipe é objetiva para buscar o gol. Não adianta ficar tocando a bola dentro do próprio campo. [...] A mim, não interessa ter 70% de posse de bola. [...] Quando meu time tem a bola, é agressivo.",
+      "date": "2020-12-31",
+      "source": "https://jornaldebrasilia.com.br/torcida/apos-vaga-renato-gaucho-faz-analogia-com-paquera-para-questionar-posse-de-bola/",
+      "provenance": "primary",
+      "note": "After eliminating São Paulo in the Copa do Brasil semi-final (0-0 away, 2020-12-30), when São Paulo had more of the ball in both legs."
+    },
+    {
+      "quote": "Eu nunca tive problema com meu grupo, vai de treinador para treinador.",
+      "date": "2023-08-14",
+      "source": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-do-sul/gremio/renato-do-gremio-comenta-crise-no-flamengo-nunca-tive-problema-com-meu-grupo/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Muitos jogadores não têm aquela característica de marcação. [...] Para mim é muito fácil tirar dois atacantes, colocar mais dois jogadores de marcação no meio de campo, [...] se vocês contarem nos dedos vão encontrar duas equipes, e olhe lá, que joguem tão ofensivamente como meu time.",
+      "date": "2023-12-11",
+      "source": "https://trivela.com.br/brasil/retrospectiva-defesa-gremio-2023/",
+      "provenance": "attributed",
+      "note": "Said after the draw with Fortaleza on 2023-09-30 per the article; the original press-conference report was not found, so the earliest read appearance is this retrospective."
+    },
+    {
+      "quote": "O Fluminense enquanto eu estiver aqui vai jogar como time grande, vai respeitar os adversário, mas vai jogar para dentro, sempre para vencer. [...] Vai jogar como time grande independente do adversário.",
+      "date": "2025-04-04",
+      "source": "https://www.tupi.fm/?p=2003498",
+      "provenance": "primary",
+      "note": "Presentation at Fluminense; also said the team would work \"sempre com cuidado defensivo\"."
+    },
+    {
+      "quote": "Dar liberdade para o jogador se expressar. [...] Eu não sou aquele treinador que fala, fala, fala e não dá oportunidade para o jogador falar. [...] Na hora de passar, fazer um carinho no jogador eu vou fazer, [...] na hora de multar, na hora de chamar atenção também eu vou chamar.",
+      "date": "2025-04-04",
+      "source": "https://www.tupi.fm/?p=2003498",
+      "provenance": "primary",
+      "note": "Same presentation; what he passed on to the group was \"alegria de jogar e coragem\". Closest found to the 'paizão' image: warmth plus fines when needed."
+    },
+    {
+      "quote": "Muita gente acha que nós temos três volantes, mas os volantes saem para o jogo.",
+      "date": "2025-06-19",
+      "source": "https://www.lance.com.br/fluminense/analise-a-mudanca-no-fluminense-que-amarrou-o-borussia.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Mudei o sistema também porque a Inter tem um time muito alto, [...] Sabia que precisava espelhar o time e levantar a altura para que a gente pudesse competir com eles.",
+      "date": "2025-06-30",
+      "source": "https://www.90min.com/pt-br/segredo-renato-gaucho-fluminense-melhores-times-futebol-mundial",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/gremio-problemas-defensivos-corinthians/",
+      "reason": "empty"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://trivela.com.br/brasil/campeonato-brasileiro/gremio-problemas-defensivos-corinthians/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.maisgoias.com.br/esportes/saidinha-familias-e-vaquinha-renato-tenta-aliviar-tensao-no-gremio/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.folhavitoria.com.br/esportes/cortez-diz-que-gremio-joga-por-renato-e-lembra-trabalho-com-jorge-jesus/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.goal.com/br/not%C3%ADcias/-renato-tranquilo-com-montagem-do-gremio-2019-criar-um-grupo-forte-para-ganhar-titulos/diaolpysq14c1qr9s4xvqrnwi",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.goal.com/br/not%C3%ADcias/-cirurgia-no-coracao-ferias-e-polemica-com-curso-da-cbf-mercado-do-gremio-e-mais-renato-gaucho-abre-o-jogo-em-entrevista/1euc6yma0emwg199l9pvx9hkjw",
+      "reason": "empty"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Renato_Gaúcho",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "roger-machado",
+      "kind": "manager",
+      "note": "Renato inherited Roger Machado's 4-2-3-1 at Grêmio in 2016 (Bola na Rede, 2017, via gremio-2017)."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "All 13 dimensions have a verified fact and Renato's stated view is well documented with dated Portuguese quotes across 2014-2025, but every source is tier C Brazilian press (Trivela, Lance, Goal BR, Correio Braziliense, club site), with no tier A-B analysis. Grêmio 2016-21 and the 2023/2025 system changes agree across sources; Fluminense 2007 rests on one retrospective; pressing, block depth, set pieces and marking rest on single matches, and marking orientation is only inferred from one paraphrased plan against Neymar."
+  }
+}

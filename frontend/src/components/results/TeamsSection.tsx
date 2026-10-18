@@ -192,7 +192,7 @@ function TeamInfoSheet({ match, axes, results, onClose }: {
       <Closeness
         vector={match.vector}
         name={match.name}
-        face={<Crest match={match} className="e-close-face" fallback="" />}
+        face={<Crest match={match} className="e-close-face e-close-crest" fallback="" />}
         axes={axes}
         results={results}
       />

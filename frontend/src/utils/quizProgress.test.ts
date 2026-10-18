@@ -7,7 +7,7 @@ const NOW = 1_800_000_000_000;
 function progress(overrides: Partial<SavedProgress> = {}): SavedProgress {
   return {
     v: 3,
-    variant: 'extreme',
+    variant: 'extended',
     questionIds: ['pos_01', 'blo_02', 'res_03'],
     answers: { pos_01: 'AGREE', blo_02: 'STRONGLY_DISAGREE' },
     archetypeChoices: { vestiario: 'A' },
@@ -22,7 +22,7 @@ function payload(): QuizPayload {
   return {
     title: '12 Axes',
     description: '',
-    variant: 'extreme',
+    variant: 'extended',
     questionCount: 4,
     questionsPerAxis: 0,
     axes: [],
@@ -70,7 +70,7 @@ describe('restoreQuiz', () => {
     const quiz = restoreQuiz(payload(), progress());
     expect(quiz?.questions.map((q) => q.id)).toEqual(['pos_01', 'blo_02', 'res_03']);
     expect(quiz?.questionCount).toBe(3);
-    expect(quiz?.variant).toBe('extreme');
+    expect(quiz?.variant).toBe('extended');
   });
 
   it('não retoma se alguma pergunta deixou de existir', () => {

@@ -3,21 +3,23 @@
   "catalog": "team",
   "name": "Arsenal 2005–11",
   "status": "complete",
-  "researchedOn": "2026-10-12",
+  "researchedOn": "2026-10-17",
   "profilePeriod": {
-    "start": "2005-08",
-    "end": "2011-05"
+    "start": "2005-08-07",
+    "end": "2011-05-22"
   },
-  "scopeNote": "Focused run to check the Squad-axis (bas) anchor: only squad-building (and the manager's stated view, when found) was researched. Every other dimension is a gap, not evidence of absence. Partial dates: exact first and last match dates were not verified.",
+  "scopeNote": "Arsenal under Wenger from the 2005 Community Shield (2005-08-07) to the last 2010/11 league match (2011-05-22), the Emirates-era team without trophies. Compact run: evidence is thin and mostly fan/press tier C. Sources describe the shape as 4-3-3/4-2-3-1 (a 4-2-4 lineage per one blogger), with possession and passing mentioned only in search summaries.",
   "managers": [
     {
       "managerId": "arsene-wenger",
-      "start": "2005-08",
-      "end": "2011-05"
+      "start": "2005-08-07",
+      "end": "2011-05-22"
     }
   ],
   "ambiguities": [],
-  "openQuestions": [],
+  "openQuestions": [
+    "Possession, pressing, marking and transitions rest on memory: no tactical study was read."
+  ],
   "sources": [
     {
       "title": "Fàbregas urges young Gunners to come of age (UEFA)",
@@ -42,6 +44,102 @@
       "dimension": "squad-building",
       "evidence": "Summary only: youngest average age for a Champions League team, 20.90, at Olympiacos (dead-rubber match). Not opened.",
       "verified": false
+    },
+    {
+      "title": "2005–06 Arsenal F.C. season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2005-08-07",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "First official fixture: 2005 FA Community Shield v Chelsea, 7 August 2005, Cardiff, lost 1-2; first league match 14 August 2005 v Newcastle (home). Used for dates only; Wenger on Chelsea: \"Why should I worry? Did you see the game?\" (not tactical evidence).",
+      "verified": true
+    },
+    {
+      "title": "2010–11 Arsenal F.C. season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2010–11_Arsenal_F.C._season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2011-05-22",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "Competitions table lists the Premier League's last match as \"22 May 2011\". Used for the end date only.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal formation analysed (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-09-08",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"It is widely believed that Arsenal play 4-3-3/4-2-3-1\"; the author argues the system traces back to Brazil's 4-2-4. Fan blog, opinion mixed in; describes late 2009/10 and the start of 2010/11.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal formation analysed (Bleacher Report), full-backs",
+      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-09-08",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-17",
+      "dimension": "width",
+      "evidence": "Critics argued \"this system provided little cover for our full backs from our wide players\"; Sagna and Clichy's form \"below the highest level they set.\"",
+      "verified": true
+    },
+    {
+      "title": "Arsenal formation analysed (Bleacher Report), midfielders",
+      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-09-08",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-17",
+      "dimension": "player-profile",
+      "evidence": "Central midfielders Song, Diaby, Ramsey and Denilson \"are capable of both being offensive and defensive in their roles.\" The 4-2-4 \"requires the team to be able to defend from the front, retain the ball, and pass it well\" (author's claim).",
+      "verified": true
+    },
+    {
+      "title": "Arsenal formation analysed (Bleacher Report), defending",
+      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-09-08",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "The team was \"out numbered in our own half for most of the goals\" conceded in big games last season (fan opinion, not data). No pressing or marking detail on the page.",
+      "verified": true
+    },
+    {
+      "title": "Top marks for Arsenal's Professeur (UEFA)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/01d4-0e70ac42b20f-8da568f3b98e-1000--top-marks-for-arsenal-s-professeur",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2008-12-30",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-17",
+      "dimension": "squad-building",
+      "evidence": "Wenger: \"if you want to develop players and bring them out, you have to make room for them\"; \"if you don't play him, you lose him.\" League Cup side averaged about 19 years old. Arsenal had not added to their silverware since 2005.",
+      "verified": true
+    },
+    {
+      "title": "Search summary: Wenger on formation history",
+      "url": "https://www.camdennewjournal.co.uk/article/grove-wenger-backs-revolution",
+      "tier": "D",
+      "language": "en",
+      "articleDate": "2010",
+      "eventDate": "2005/06",
+      "accessedOn": "2026-10-17",
+      "dimension": "possession",
+      "evidence": "Search summary only: possession football and quick passing said to be Arsenal's onus; 4-2-3-1 standard since 2008/09. Not opened.",
+      "verified": false
     }
   ],
   "statedView": [
@@ -52,36 +150,31 @@
       "provenance": "primary"
     }
   ],
-  "unreadable": [],
+  "unreadable": [
+    {
+      "url": "https://www.coachesvoice.com/?p=4690",
+      "reason": "403"
+    }
+  ],
   "gaps": {
     "dimensions": [
       "build-up",
-      "defensive-block",
       "game-management",
       "people-management",
-      "player-profile",
       "possession",
       "pressing",
       "set-pieces",
-      "shape",
-      "transitions",
-      "width"
+      "transitions"
     ],
     "axes": [
       "pos",
       "pro",
-      "est",
-      "lar",
-      "blo",
-      "mar",
-      "pla",
-      "jog",
       "lid"
     ]
   },
   "influences": [],
   "confidence": {
     "level": "low",
-    "reason": "Only squad-building and one stated view researched; tier C sources, one season-specific."
+    "reason": "Compact run: tier C press, a fan blog and Wikipedia dates; no tier A-B tactical study read, pressing, marking, possession and build-up unverified."
   }
 }

@@ -1,0 +1,102 @@
+{
+  "id": "claudio-coutinho",
+  "catalog": "manager",
+  "name": "Cláudio Coutinho",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1977",
+    "end": "1980"
+  },
+  "scopeNote": "Manager profile of Cláudio Coutinho across two counted spells: the Brazil national team (1977 to 1980: 1978 World Cup bronze) and Flamengo (1978 to 1980: Campeonato Carioca 1978 and 1979, Campeonato Brasileiro 1980). The Wikipedia page gives years only, so the dates are partial; the managers list also shows Flamengo from 1976-77, which is not counted. Excluded: Los Angeles Aztecs (1981, no titles; Coutinho died in November 1981). The page has no match counts and no description of the 1980 Flamengo style.",
+  "spellsCounted": [
+    {
+      "club": "Brazil",
+      "start": "1977",
+      "end": "1980",
+      "reason": "1978 World Cup bronze and the national team's tactical identity of the period."
+    },
+    {
+      "club": "Flamengo",
+      "start": "1978",
+      "end": "1980",
+      "reason": "Campeonato Carioca 1978 and 1979, and the 1980 Campeonato Brasileiro."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Flamengo",
+      "start": "1976",
+      "end": "1977",
+      "reason": "Listed in the managers list, not in the infobox; no titles in the period."
+    },
+    {
+      "club": "Los Angeles Aztecs",
+      "start": "1981",
+      "end": "1981",
+      "reason": "No titles; short, and he died in November 1981."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The 1980 Flamengo team's style is not documented in the page read; the Michels link is from the Brazil period only."
+  ],
+  "sources": [
+    {
+      "title": "Cláudio Coutinho - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claudio_Coutinho",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1977",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"Coutinho attempted to implement a style modelled on the Total Football philosophy used by Rinus Michels'\" (Brazil, 1977)",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claudio_Coutinho",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1977",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "\"Soon he took command, and tried to implement his own philosophy.\" (Brazil, 1977)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pos",
+      "pro"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Years-only career table and two Brazil-period facts from the Wikipedia career section; no Flamengo tactical source read."
+  }
+}

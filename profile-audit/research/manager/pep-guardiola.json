@@ -1,0 +1,535 @@
+{
+  "id": "pep-guardiola",
+  "catalog": "manager",
+  "name": "Pep Guardiola",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2008-07-01",
+    "end": "2026-05-24"
+  },
+  "scopeNote": "Manager profile of Pep Guardiola across three counted spells: Barcelona (2008-07-01 to 2012-06-30), Bayern Munich (2013-06-26 to 2016-06-30) and Manchester City (2016-07-01 to 2026-05-24). Dates are from the managerial record table on the English Wikipedia page, read at step 1. The brief said 'Manchester City 2016-present', but the City spell has ended: City confirmed on 2026-05-22 that he would leave after the last Premier League match (Ara, 2026-05-22: he 'will not continue next season despite having a valid contract'; Football Transfers, 2026-05-22), and his last match was the 1-2 home defeat to Aston Villa on 2026-05-24 (Wikipedia). He stays at City Football Group as a global ambassador, which is not a coaching job. The 2012-13 sabbatical (no club) falls between the Barcelona and Bayern spells. Barça and Bayern end dates are the contract end dates in the Wikipedia table; his last matches were the 2012 Copa del Rey final and the 2016-05-21 DFB-Pokal final. Style: positional play (juego de posicion). Spielverlagerung (2014-12-25) defines it as 'the search for superiority' and quotes Perarnau: 'The team that interpreted Positional Play in a most extraordinary way was the Barcelona of Pep Guardiola'; Spielverlagerung (2016-08-05) calls positional play 'perhaps the number one factor in the success ... of a typical Guardiola team'. The popular label 'tiki-taka' is wrong for him: he rejects it himself ('I hate tiki-taka, which means passing the ball for the sake of it with no clear intention', team talk at Bayern quoted 2014-10-16), and Spielverlagerung (2014, 2018) says possession is a consequence, not the aim. Marking: zonal / position-oriented as the base, with man-oriented elements that grew over the career (Bayern's duelling counter-press, City's man-oriented pressing in some matches); see the pressing and defensive-block sources. Several pages carry no article date (Wikipedia), so articleDate is the access date. Where a source covers a whole spell without a season, eventDate is an approximate year inside the spell and the evidence says so.",
+  "spellsCounted": [
+    {
+      "club": "Barcelona",
+      "start": "2008-07-01",
+      "end": "2012-06-30",
+      "reason": "Two Champions Leagues (2009, 2011), three La Liga titles, the 2008/09 treble; the positional-play side he is best known for, with heavy tactical coverage (UEFA technical report, Spielverlagerung, Coaches' Voice)."
+    },
+    {
+      "club": "Bayern Munich",
+      "start": "2013-06-26",
+      "end": "2016-06-30",
+      "reason": "Three Bundesliga titles; recognisable tactical development (false/inverted full-backs, constant shape changes) with extensive coverage (Spielverlagerung match analyses, Coaches' Voice)."
+    },
+    {
+      "club": "Manchester City",
+      "start": "2016-07-01",
+      "end": "2026-05-24",
+      "reason": "Six Premier League titles, the 2023 Champions League and the Club World Cup; the longest spell, with an evolving positional-play style covered in depth (Coaches' Voice era piece, Spielverlagerung, StatsBomb)."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Barcelona B",
+      "start": "2007-06-21",
+      "end": "2008-06-30",
+      "reason": "Excluded by the user's decision: not part of the profile. Evidence from this spell removed."
+    }
+  ],
+  "teamProfiles": [
+    "manchester-city-2017-18"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The brief listed Manchester City as '2016-present', but City confirmed his departure on 2026-05-22 and his last match was 2026-05-24 (Wikipedia table: 1 July 2016 to 24 May 2026). The profile uses 2026-05-24 as the end. Confirm, or say if the profile should end at a contract date instead.",
+    "Marking (mar) changes across spells: Barcelona's counter-press aimed at interceptions and covering spaces, Bayern's 'individually duelled and went man-for-man' (Coaches' Voice, 2022), City mixes the two and was man-oriented in early 2017/18 pressing. Spielverlagerung (2014) calls the base 'zonal marking instead of man marking'. Decide how much the later man-oriented elements should pull the axis.",
+    "Game plan (pla): validate.py uses Guardiola as an 'own identity' anchor, but the evidence also shows constant opponent-specific and in-game shape changes (Bayern-Dortmund 2015: four structures in one match; City rearranges into a back three against a two-man press; later 4-2-3-1 and mid/low block). Keep the contradiction in mind: fixed principles, flexible structure.",
+    "Bayern people management and squad building (e.g. Lahm to midfield, youth debuts) have no verified source; those dimensions rest on Barcelona and City facts.",
+    "The tiki-taka rejection is dated 2014-10-16 (TNT Sports/Eurosport, quoting Perarnau's book on his Bayern year). The book itself was not read; its publication date could be slightly earlier.",
+    "The Reuters line from his first City press conference (2016-07-08) was read on a republished copy (Cyprus Mail); the official mancity.com transcript returned 403."
+  ],
+  "sources": [
+    {
+      "title": "Pep Guardiola",
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read in two parts (characters 0-200000; last 39k not read). On taking over the first team in 2008: \"Guardiola promoted canteranos Sergio Busquets, Pedro and Jeffrén to the first-team squad\"; Eto'o, Ronaldinho and Deco \"were not part of his plans\" (Eto'o stayed). Managerial table: Barcelona B 21 June 2007 - 30 June 2008; Barcelona 1 July 2008 - 30 June 2012; Bayern 26 June 2013 - 30 June 2016; Manchester City 1 July 2016 - 24 May 2026. Page undated (articleDate = access date).",
+      "verified": true
+    },
+    {
+      "title": "Pep Guardiola",
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Guardiola replaced Joe Hart with Claudio Bravo at City and \"Hart would never make another appearance for the club.\" Page undated (articleDate = access date).",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Final, 2009-05-27: Barcelona's three-man midfield had numerical superiority, which \"allowed Xavi, with the backing of midfield holding player Sergio Busquets, to push forward when the ball was lost in order to support his front three in pressing the ball when Manchester's back line had regained possession.\" Capello: \"United had no chance to counter because Barça forced them into playing long balls from the back.\" PDF downloaded and read as text (English section).",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "At half-time of the final Barcelona \"were making life difficult for United, with advanced pressing, compact defending and a back-line which was prepared to push up and risk offside.\" Trends section: \"The new champions were not alone in defending from the front, with a high back line and a compact team unit. But they were in the minority.\"",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "\"It was the norm for Pep Guardiola's team to monopolise the ball.\" Strachan: \"They (Barcelona) must have played 700 passes, and we were the home team\"; Barcelona \"played 505 passes against Manchester United in the Rome final and 691 in the semi-final, second-leg match against Chelsea\"; Xavi and Iniesta completed 93% and 86% of passes in the final. Barça's standard set-up was a 4-3-3 with one holding midfielder and two 'middle-to-front' midfielders.",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"The seven home-developed players among the starters at the Stadio Olimpico provided a clear demonstration that the Barça academy provides the heart and soul of the team and its playing style, with front-line stars blended into the winning cocktail according to decisions based on their ability to identify with the club and its philosophy.\"",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Coach profile: \"Pep's modus operandi is based on convictions and the courage of them\"; \"His pursuit of perfection hinges on a motivated, united and fully focused dressing room where social and commercial activities are kept firmly in their place.\" \"Training sessions are purposeful and fun.\" Before the final he showed the players \"an emotional seven-minute Gladiator-inspired DVD\".",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Final: \"With United in all-out attacking mode, Sergio Busquets' willingness to drop into Barça's back line increased in importance.\" Thin on build-up beyond this (the report does not describe Valdés' distribution).",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Adin Osmanbasic, covering Barcelona 2008-12 and Bayern 2014. \"Positional Play is a philosophy that has many principles but the fundamental principle is the search for superiority.\" \"Guardiola's teams seek to have superiority in the center of the field.\" \"The interior corridors are arguably the most important spaces within the center\"; ball-far players \"leave the furthest diagonal point roughly unoccupied while the team supports areas around the ball aggressively.\" Perarnau on Bayern: \"a game that is much more oriented to a vertical axis than a horizontal one\".",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Salida lavolpiana: \"the central defenders fan out wide and a central midfielder drops into the resulting space.\" \"Many times Pep will have players drop into the defensive line\"; \"Using the goalkeeper is also another way to establish superiority out of defense\"; on Bayern: \"Using the goalkeeper means you automatically have an extra pass option.\"",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Marking (dedicated search): \"Guardiola's teams counterpress.\" \"The moment the ball is lost is the perfect time to press the opposition because the opponent is disorganized\"; defensively \"The main focus is on zonal marking instead of man marking.\" Barcelona's press works by \"blocking the passing lanes to the opponent's teammates\".",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "On the tiki-taka label: \"This term implies possession of the ball with no purpose, with no movements to disorganize and eliminate opponents\"; \"possession is merely a consequence of the offensive game of Pep Guardiola and his principles.\"",
+      "verified": true
+    },
+    {
+      "title": "Borussia M'Gladbach - FC Bayern München 0:2",
+      "url": "https://spielverlagerung.de/2014/01/24/borussia-mgladbach-fc-bayern-munchen-02/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2014-01-24",
+      "eventDate": "2014-01-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "One match (Bayern, first season). Marking (dedicated search): \"Neben der klassischen positionsorientierten Spielweise im Pressing gab es auch einige mannorientierte Elemente.\" \"Im hohen Pressing stellten sie intelligent auf ein 4-3-3 um\"; \"Sehr oft pressten sie im 4-1-4-1, waren aber überaus variabel.\" \"sehr kompakt und aggressiv in der Zweikampfführung.\"",
+      "verified": true
+    },
+    {
+      "title": "Borussia M'Gladbach - FC Bayern München 0:2",
+      "url": "https://spielverlagerung.de/2014/01/24/borussia-mgladbach-fc-bayern-munchen-02/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2014-01-24",
+      "eventDate": "2014-01-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "One match. \"Bayerns Sechser stellte dann ein 3-4-3 im Aufbauspiel her\"; Lahm dropping so that Kramer and Xhaka \"nicht ordentlich verfolgen konnten\".",
+      "verified": true
+    },
+    {
+      "title": "Bayern Munich 5:1 Borussia Dortmund (Guardiola formation changes)",
+      "url": "https://spielverlagerung.com/2015/10/05/guardiola-formation-changes/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-05",
+      "eventDate": "2015-10-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "One match. Bayern started in \"somewhat of a 3-3-3-1 formation\"; centre-backs swapped after about 10 minutes (\"Guardiola decided to switch the two\"); \"Once Dortmund pulled one back through Aubameyang, Guardiola quickly restructured his team\" into a 4-2-3-1 / 4-1-4-1, then \"a small spell as a 4-4-2 before half-time\" and a back four after half-time. Lahm and Alaba's versatility \"allows Guardiola to have such flexibility in his starting line-up.\"",
+      "verified": true
+    },
+    {
+      "title": "Bayern Munich 5:1 Borussia Dortmund (Guardiola formation changes)",
+      "url": "https://spielverlagerung.com/2015/10/05/guardiola-formation-changes/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-05",
+      "eventDate": "2015-10-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "One match. Bayern \"are much more effective through the centre and the half-spaces\"; \"The focus is much more on the central columns and wider areas are only used for isolations and cut-backs.\"",
+      "verified": true
+    },
+    {
+      "title": "Previewing Pep Guardiola's Manchester City reign",
+      "url": "https://spielverlagerung.com/2016/08/05/guardiolas-tactical-challenges-at-manchester-city/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-05",
+      "eventDate": "2016",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Tom Payne, summing up Barcelona and Bayern before City. \"positional play is perhaps the number one factor in the success and beautiful football of a typical Guardiola team.\" Paraphrase from the page reader: he needs deep players comfortable under pressure with ball-playing ability and technically proficient players in every role (goalkeepers join rondos); Hart and Caballero were seen as limited in build-up, so a ball-playing goalkeeper was expected. Barcelona's counter-press was passing-lane oriented (anticipating and intercepting the first pass).",
+      "verified": true
+    },
+    {
+      "title": "Counter-pressing and the gegenpress: football tactics explained",
+      "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-03-01",
+      "eventDate": "2015",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Ali Tweedale, career-wide; eventDate is an approximate year (Bayern spell), the piece covers all three senior spells. \"Guardiola has merged aggressive counter-pressing with his possession-based style of play.\" Full-backs moving infield, a false nine and inverted wingers give \"extra bodies in central positions, ready to counter-press following a defensive transition.\" Marking: \"His Barcelona side focused on interceptions and covering spaces,\" \"whereas his combative Bayern Munich squad individually duelled and went man-for-man\"; at City \"an impressive blend of the two.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "City: \"His teams consistently play short from their goalkeeper – from both goal-kicks and open play\"; \"Guardiola buys goalkeepers capable of hitting long, accurate passes\"; \"If opponents apply an advanced press with two forwards, Guardiola's team rearrange to adopt a back three\"; progression \"via a third player\".",
+      "verified": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "City: \"Guardiola prefers his team to defend with a 4-1-4-1 defensive block that becomes a 4-4-2\"; zonally \"those in central midfield cover the wide areas of the pitch\", but \"if defending with a man-oriented approach, one of City's full-backs instead advances to press\". \"Guardiola's increased willingness to use a 4-2-3-1 and therefore to defend with a 4-4-2 and with a mid or lower block\".",
+      "verified": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Bayern (no season given; eventDate approximate inside the 2013-16 spell): \"At Bayern he introduced the false full-back to encourage overloads in central positions\", \"a system that led to their wide forwards Franck Ribéry and Arjen Robben attacking defenders one-on-one\"; \"a more assertive counter-press encouraged those stronger at duelling for possession via direct challenges\". Barcelona: \"His team at Barça counter-pressed with the intention of intercepting passes\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "City: \"the immediate, aggressive counter-press they apply when possession is lost\"; \"That 4-4-2 can evolve into a 4-2-4 when Raheem Sterling and Mahrez or Silva break forwards at attacking transitions\".",
+      "verified": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Era piece (2016-2026); season tags approximate. \"Guardiola's centre-backs repositioned during build-up, supporting the now single pivot of Rodri\"; \"Against more physical opposition, Guardiola's City once again adapted\", with Stones stepping into midfield and \"Akanji and Nathan Aké used at left-back, tucking inside\"; this \"led to major success in Europe against some of the best transitional sides\". Haaland era: \"City now attacked as a solid 4-2-3-1\" and \"defended much narrower in a 4-4-2 diamond or a 4-2-3-1 shape\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"In the 2017/18 campaign, for example, City averaged 70 per cent possession\", \"ranking first in each of his 10 seasons in charge\"; eights \"could push higher between the lines\" with \"Maximum width from wingers Leroy Sané, Raheem Sterling or Riyad Mahrez\". Arrival (2016/17): \"a full-back inverting into central midfield from an initial 4-3-3 shape\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Late period: \"Academy product Nico O'Reilly got forward from left-back into spaces between the lines\"; \"Matheus Nunes was converted to right-back under Guardiola\". Earlier recruitment: \"recruiting Kyle Walker, Danilo, Benjamin Mendy and Oleksandr Zinchenko\", \"goalkeepers Claudio Bravo and Ederson\", passers \"including John Stones and Aymeric Laporte\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Inverted full-backs: football tactics explained",
+      "url": "https://learning.coachesvoice.com/cv/inverted-full-backs-guardiola-cancelo-trent-alexander-arnold-lahm-football-tactics/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-10-19",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Bayern (no season given; eventDate approximate): Lahm as an inverted right-back for his \"ability to receive under pressure and create passing angles\"; Alaba moved inside when \"the single pivot dropped into the back line between the centre-backs.\" City: Cancelo, right-footed, \"often playing on the left side of the back four\", \"provides exceptional vision and passing\". Full-backs chosen for technique and midfield ability.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Reused from manchester-city-2017-18 (read there on 2026-10-12). Marking: early season \"The pressing scheme was man-oriented, the intensity not quite on the level they needed it to be\"; later \"City's centre-backs acted less man-oriented as the season went on\". \"As a part of Guardiola's positional play, there is often rotation between positions\"; \"This is not Tiki-Taka, or possession for the sake of having the ball, but rather moving the ball to move the opponent.\"",
+      "verified": true
+    },
+    {
+      "title": "How Nicolas Jover is helping to improve Man City's big weakness",
+      "url": "http://archive.trainingground.guru/articles/how-nicolas-jover-is-helping-to-improve-man-citys-big-weakness",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-11-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Simon Austin. 2018/19: \"Only 11.6% of their Premier League goals (12 of 95) came from set pieces - the lowest proportion in the Premier League\"; \"39.1% of their goals conceded (nine of 23) coming from corners and free kicks - the highest % in the top flight.\" Summer 2019: \"the club hired Nicolas Jover from Brentford as their first full-time set piece specialist\". Asked how often his players practise set pieces, \"Guardiola replied 'every day'.\" Read via curl (WebFetch redirected to the archive subdomain then hit a session limit).",
+      "verified": true
+    },
+    {
+      "title": "Toure won't play until he says sorry: Guardiola",
+      "url": "https://worldsoccertalk.com/2016/09/20/toure-wont-play-until-he-says-sorry-guardiola/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-09-20",
+      "eventDate": "2016-09-20",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "AFP. Yaya Touré left out of the Champions League squad; after his agent's criticism Guardiola: \"Until he speaks, Yaya isn't going to play.\" \"When that happens, Yaya will be part of the group and he will have the chance to play.\" \"I cannot accept as a coach that every agent, when his player doesn't play, goes to the media and speaks.\" \"Maybe it's the new era, but I'm from the old generation\". Touré apologised on 2016-11-04 (search results, not read).",
+      "verified": true
+    },
+    {
+      "title": "I want City to play beautiful football, says Guardiola",
+      "url": "https://archive.cyprus-mail.com/?p=91382",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-07-08",
+      "eventDate": "2016-07-08",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Reuters, first City press conference: \"I want to play the way I want.\" On the ball: \"When the opposition have the ball to get it back, when we have it to move it as quickly as possible\". On the squad: \"I would like to work with an English basis but English players are so expensive so it is difficult\".",
+      "verified": true
+    },
+    {
+      "title": "Guardiola makes official that he is leaving Manchester City",
+      "url": "https://en.ara.cat/sports/guardiola-makes-official-that-he-is-leaving-manchester-city_25_5745190.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-05-22",
+      "eventDate": "2026-05-22",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Period only, not tactical evidence: he \"will not continue next season despite having a valid contract\"; he becomes a global ambassador for the City group.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "I hate tiki-taka, which means passing the ball for the sake of it with no clear intention. It's pointless. Don't believe what people say. Barca didn't do tiki-taka! It's completely made up!",
+      "date": "2014-10-16",
+      "source": "https://www.tntsports.co.uk/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+      "provenance": "primary",
+      "note": "Team talk to Bayern players the day after a Nürnberg match, from Martí Perarnau's book on his Bayern year as reported by Eurosport (now TNT Sports). Same talk: \"In all team sports the secret is to overload one side of the pitch so the opponent must tilt its defence to cope.\""
+    },
+    {
+      "quote": "I loathe all that passing for the sake of it, all that tiki-taka. It's so much rubbish and has no purpose. You have to pass the ball with clear intention and aim to make it into the opposition's goal.",
+      "date": "2014-10-16",
+      "source": "https://www.tntsports.co.uk/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+      "provenance": "primary",
+      "note": "From Perarnau's book, as quoted in the same article."
+    },
+    {
+      "quote": "We will try and play at our top level, with intensity and quick, decisive passing.",
+      "date": "2009",
+      "source": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "provenance": "primary",
+      "note": "Said before the 2009 Champions League semi-finals (April 2009), quoted in UEFA's 2008/09 technical report. Same report: \"It will be crucial to keep our shape and to attack in an ordered fashion.\""
+    },
+    {
+      "quote": "I want to play the way I want.",
+      "date": "2016-07-08",
+      "source": "https://archive.cyprus-mail.com/?p=91382",
+      "provenance": "primary",
+      "note": "First Manchester City press conference, Reuters copy."
+    },
+    {
+      "quote": "Maybe it's the new era, but I'm from the old generation.",
+      "date": "2016-09-20",
+      "source": "https://worldsoccertalk.com/2016/09/20/toure-wont-play-until-he-says-sorry-guardiola/",
+      "provenance": "primary",
+      "note": "AFP, on Yaya Touré's agent; about authority over the squad."
+    },
+    {
+      "quote": "The objective is to move the opponent, not the ball.",
+      "date": "2014-12-25",
+      "source": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "provenance": "attributed",
+      "note": "Quoted without an original interview; earliest dated appearance found in this run."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://learning.coachesvoice.com/cv/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "reason": "404"
+    },
+    {
+      "url": "http://www.zonalmarking.net/2011/05/29/barcelona-3-1-man-utd-champions-league-final-2011/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "http://www.zonalmarking.net/2011/11/07/athletic-bilbao-2-2-barcelona-bielsa-guardiola-tactics/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://kr.mancity.com/news/first-team/first-team-news/2016/july/pep-guardiola-first-press-conference-full-story",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.gulf-times.com/article/721769/sport/football/each-to-their-own-says-guardiola-as-set-piece-debate-deepens",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "johan-cruyff",
+      "kind": "manager",
+      "note": "Played under Cruyff at Barcelona; Wikipedia ties his Total Football roots to Cruyff."
+    },
+    {
+      "id": "juan-manuel-lillo",
+      "kind": "manager",
+      "note": "His coach at Dorados (Mexico); Lillo's 'third man' idea is quoted in Spielverlagerung's juego de posición piece."
+    },
+    {
+      "id": "marcelo-bielsa",
+      "kind": "manager",
+      "note": "Wikipedia: Guardiola sought to learn from Bielsa."
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "reason": "All 13 dimensions have a verified fact. The three senior spells are covered by tier A-B sources that agree on positional play, central overloads, short build-up with the goalkeeper and an aggressive counter-press: UEFA's 2008/09 technical report (Barcelona), Spielverlagerung match and concept pieces (Bayern 2014-15, City 2017/18), and Coaches' Voice career and City-era pieces. Weaker spots: squad building and people management rest on tier C press (Wikipedia, AFP, Reuters, Cooperativa) and nothing verified for Bayern; set pieces rest on one tier C article (2019); several Coaches' Voice facts are retrospective and some carry approximate eventDates because the pieces don't name the season."
+  }
+}

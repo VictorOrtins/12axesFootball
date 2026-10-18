@@ -1,1 +1,312 @@
-[]
+[
+  {
+    "id": "pos_01",
+    "agree": "O time busca ter mais a bola que o adversário em todo jogo, porque quem tem a posse dita o ritmo.",
+    "disagree": "Ter mais ou menos a bola não importa por si só, e o time pode abrir mão dela sem perder o controle do jogo."
+  },
+  {
+    "id": "pos_02",
+    "agree": "Um time domina quando cria mais chances, mesmo que o adversário fique com a bola a maior parte do tempo.",
+    "disagree": "Dominar um jogo passa por ter a bola, e um time que fica sem ela está sendo dominado."
+  },
+  {
+    "id": "pos_03",
+    "agree": "Contra quem se fecha, o time fica com a bola e circula com paciência até o adversário abrir um espaço.",
+    "disagree": "Contra quem se fecha, o time pode devolver a bola ao rival para atraí-lo e atacar o espaço que ele deixar.",
+    "note": "A pergunta mede o que fazer com a bola, não a velocidade dos passes. Quem quer ficar com a bola mas jogar rápido também concorda."
+  },
+  {
+    "id": "pos_04",
+    "agree": "Com atacantes velozes, o time cede a bola de propósito para o rival se adiantar e deixar espaço nas costas.",
+    "disagree": "Mesmo com atacantes velozes, o time prefere ter a bola e usar a velocidade deles de outro jeito."
+  },
+  {
+    "id": "pos_05",
+    "agree": "A posse também protege o time, e ficar com a bola é uma forma de não sofrer ataques.",
+    "disagree": "Defender é trabalho de quem está sem a bola, e ficar com ela não deixa o time mais seguro."
+  },
+  {
+    "id": "pro_01",
+    "agree": "Com o centroavante livre nas costas da defesa, o time lança direto sem pensar duas vezes.",
+    "disagree": "Mesmo com o centroavante livre, o time prefere avançar trocando passes curtos a arriscar o lançamento."
+  },
+  {
+    "id": "pro_02",
+    "agree": "Mesmo pressionado, o time sai jogando com passes curtos desde o goleiro e aceita o risco de perder a bola perto da área.",
+    "disagree": "Sob pressão alta, o time chuta para frente ou lança, porque perder a bola perto da própria área custa caro demais."
+  },
+  {
+    "id": "pro_03",
+    "agree": "O time procura sempre o passe para frente, e tocar para o lado ou para trás é perder tempo.",
+    "disagree": "Passes para o lado e para trás fazem parte da construção e ajudam a achar o momento de avançar."
+  },
+  {
+    "id": "pro_04",
+    "agree": "O volante ideal é seguro com a bola e prefere o passe garantido ao passe arriscado.",
+    "disagree": "O volante ideal arrisca passes entre as linhas, mesmo que perca mais bolas."
+  },
+  {
+    "id": "pro_05",
+    "agree": "Depois de recuperar a bola, o time ataca o gol o mais rápido possível, com poucos toques.",
+    "disagree": "Depois de recuperar a bola, o time pode segurá-la e se organizar antes de atacar.",
+    "note": "A pergunta fala da velocidade do ataque depois da recuperação, não de onde a bola é recuperada."
+  },
+  {
+    "id": "est_01",
+    "agree": "Cada jogador tem uma zona definida e a respeita, para o time ficar sempre bem distribuído no campo.",
+    "disagree": "Os jogadores podem sair das suas zonas para se juntar aos companheiros onde a jogada estiver."
+  },
+  {
+    "id": "est_02",
+    "agree": "O time ataca com muitos jogadores perto da bola, trocando passes curtos e tabelas em pouco espaço.",
+    "disagree": "O time ataca com os jogadores espalhados pelo campo, cada um ocupando um espaço, para esticar a defesa adversária."
+  },
+  {
+    "id": "est_03",
+    "agree": "O ponta fica aberto, colado na linha lateral, mesmo quando a bola está do outro lado ou no meio.",
+    "disagree": "O ponta pode sair da lateral e entrar no meio para participar da jogada.",
+    "note": "Esta pergunta conta também para o eixo de largura. Quem concorda tende ao jogo pelas pontas, além de preferir posições fixas."
+  },
+  {
+    "id": "est_04",
+    "agree": "O centroavante circula pelo campo, recua para tabelar e ajuda a construir as jogadas.",
+    "disagree": "O centroavante fica na área, onde é mais perigoso, e espera a bola chegar até ele."
+  },
+  {
+    "id": "est_05",
+    "agree": "Um bom time tem posições claras e ensaiadas, e cada jogador sabe onde estar com e sem a bola.",
+    "disagree": "Um bom time se organiza durante o jogo, com os jogadores decidindo juntos onde ocupar o campo."
+  },
+  {
+    "id": "lar_01",
+    "agree": "O caminho para o gol passa pelos lados, com o ponta vencendo o lateral e cruzando para a área.",
+    "disagree": "O caminho para o gol passa pelo meio, e os cruzamentos são só um recurso entre outros."
+  },
+  {
+    "id": "lar_02",
+    "agree": "O time concentra seus melhores jogadores no meio e ataca preferencialmente por dentro.",
+    "disagree": "O time usa os lados do campo para atacar e coloca jogadores decisivos nas pontas."
+  },
+  {
+    "id": "lar_03",
+    "agree": "Contra um meio congestionado, o time abre o jogo e chega à área pelos lados, com cruzamentos e jogadas de linha de fundo.",
+    "disagree": "Mesmo contra um meio congestionado, o time insiste por dentro, com tabelas e passes curtos para furar o bloqueio."
+  },
+  {
+    "id": "lar_04",
+    "agree": "Na escalação, um meia a mais por dentro vale mais do que dois pontas abertos.",
+    "disagree": "Na escalação, dois pontas abertos valem mais do que um meia a mais por dentro."
+  },
+  {
+    "id": "lar_05",
+    "agree": "Sem pontas abertos o time perde amplitude e fica fácil de marcar, então eles são indispensáveis.",
+    "disagree": "Um time pode ser imprevisível sem pontas abertos, atacando por dentro ou com os laterais.",
+    "note": "Quem acha que a amplitude pode vir dos laterais, e não dos pontas, deve pensar se prefere o jogo pelos lados ou por dentro."
+  },
+  {
+    "id": "blo_01",
+    "agree": "Assim que perde a bola, o time pressiona na hora para recuperá-la ainda no campo adversário.",
+    "disagree": "Ao perder a bola, o time recua e se reorganiza atrás antes de tentar recuperá-la."
+  },
+  {
+    "id": "blo_02",
+    "agree": "O time defende recuado, perto da própria área, com as linhas compactas e pouco espaço entre elas.",
+    "disagree": "O time defende adiantado, longe da própria área, e aceita deixar espaço nas costas."
+  },
+  {
+    "id": "blo_03",
+    "agree": "Os atacantes pressionam a saída de bola adversária e são parte ativa da defesa.",
+    "disagree": "Os atacantes podem esperar o adversário sair jogando e guardar energia para atacar."
+  },
+  {
+    "id": "blo_04",
+    "agree": "Contra quem sai bem jogando, o time recua e espera o adversário no próprio campo.",
+    "disagree": "Contra quem sai bem jogando, o time pressiona a saída para não deixar o adversário construir."
+  },
+  {
+    "id": "blo_05",
+    "agree": "As melhores chances nascem de roubadas de bola no campo adversário, e o time é treinado para isso.",
+    "disagree": "As melhores chances nascem de jogadas construídas ou ensaiadas, não de roubadas de bola lá na frente."
+  },
+  {
+    "id": "mar_01",
+    "agree": "Cada defensor cuida de um espaço e marca quem entrar nele.",
+    "disagree": "Cada defensor tem um adversário para marcar e o acompanha por onde ele for."
+  },
+  {
+    "id": "mar_02",
+    "agree": "O craque adversário recebe um marcador exclusivo, que o acompanha o jogo todo.",
+    "disagree": "O craque adversário é marcado por quem estiver no setor dele, sem um marcador exclusivo."
+  },
+  {
+    "id": "mar_03",
+    "agree": "Marcar homem a homem deixa as responsabilidades claras, e isso é uma vantagem.",
+    "disagree": "Responsabilidades claras não compensam os problemas da marcação individual, e defender por zona é melhor."
+  },
+  {
+    "id": "mar_04",
+    "agree": "No escanteio, os jogadores defendem espaços na área, como a primeira trave e a pequena área.",
+    "disagree": "No escanteio, cada jogador pega um adversário e o acompanha até a bola chegar.",
+    "note": "Muitos times usam um sistema misto. Pense em qual dos dois deve ser a base."
+  },
+  {
+    "id": "mar_05",
+    "agree": "Na zona o adversário recebe sem pressão, e marcar em cima de cada jogador tira esse tempo dele.",
+    "disagree": "A zona marca bem os espaços, e o adversário não ganha liberdade demais por isso."
+  },
+  {
+    "id": "pla_01",
+    "agree": "O treinador chega com seu modelo de jogo pronto, e os jogadores é que precisam se encaixar nele.",
+    "disagree": "O treinador monta o jeito de jogar a partir das características dos jogadores que encontra."
+  },
+  {
+    "id": "pla_02",
+    "agree": "A preparação de cada jogo começa pelo adversário, e o plano muda para explorar os pontos fracos dele.",
+    "disagree": "A preparação de cada jogo começa pelo próprio time, e o adversário é só um detalhe."
+  },
+  {
+    "id": "pla_03",
+    "agree": "No empate, o time confia no seu jeito de jogar e muda pouco, esperando o gol sair naturalmente.",
+    "disagree": "No empate, o treinador muda o esquema ou a estratégia no intervalo para buscar o resultado."
+  },
+  {
+    "id": "pla_04",
+    "agree": "Contra um time muito melhor, o treinador abandona seu estilo e monta o time para anular o adversário.",
+    "disagree": "Mesmo contra um time muito melhor, o time mantém seu estilo de jogo.",
+    "note": "Esta pergunta conta também para o eixo de propósito. Quem concorda tende ao resultado, além de se adaptar ao rival."
+  },
+  {
+    "id": "pla_05",
+    "agree": "O time joga sempre do mesmo jeito, independente de quem esteja do outro lado.",
+    "disagree": "O jeito de jogar muda de acordo com o adversário."
+  },
+  {
+    "id": "res_01",
+    "agree": "Jogar bonito tem valor próprio, e um time pode marcar a história mesmo sem ganhar títulos.",
+    "disagree": "Um time que perde é esquecido, por mais bonito que tenha jogado."
+  },
+  {
+    "id": "res_02",
+    "agree": "Fora de casa contra um time forte, o time aceita o empate e joga para não perder.",
+    "disagree": "Fora de casa contra um time forte, o time joga para ganhar e não se contenta com o empate.",
+    "note": "Esta pergunta conta também para o eixo de plano de jogo. Quem concorda tende a se adaptar ao rival, além de priorizar o resultado."
+  },
+  {
+    "id": "res_03",
+    "agree": "Com a vitória na mão, o time recua, reforça a defesa e segura o placar.",
+    "disagree": "Mesmo ganhando no fim, o time continua jogando do mesmo jeito e pode até buscar mais um gol.",
+    "note": "Esta pergunta conta também para o eixo de bloco. Quem concorda tende ao bloco baixo, além de priorizar o resultado."
+  },
+  {
+    "id": "res_04",
+    "agree": "A forma de vencer importa mais do que o placar, e uma vitória feia vale menos.",
+    "disagree": "Uma vitória é uma vitória, seja qual for a forma."
+  },
+  {
+    "id": "res_05",
+    "agree": "O que o torcedor quer é a vitória, e o espetáculo vem depois.",
+    "disagree": "O torcedor também quer se divertir, e um time que só ganha sem encantar deixa a desejar."
+  },
+  {
+    "id": "sis_01",
+    "agree": "O coletivo bem treinado faz jogadores comuns renderem acima do que renderiam sozinhos.",
+    "disagree": "Nenhum sistema faz milagre, e o nível do time depende da qualidade dos jogadores."
+  },
+  {
+    "id": "sis_02",
+    "agree": "O jogador talentoso tem liberdade para errar e continuar tentando a jogada individual.",
+    "disagree": "Depois de errar algumas vezes, o jogador deve simplificar e jogar para o coletivo."
+  },
+  {
+    "id": "sis_03",
+    "agree": "As funções táticas valem para todos, e nem o craque está dispensado de defender.",
+    "disagree": "O craque pode ser poupado das tarefas defensivas para guardar energia para decidir.",
+    "note": "Esta pergunta conta também para o eixo de liderança. Quem concorda tende à autoridade do treinador, além de priorizar o sistema."
+  },
+  {
+    "id": "sis_04",
+    "agree": "O craque joga solto, com liberdade para aparecer onde achar melhor.",
+    "disagree": "O craque também tem uma função tática definida, como todos os outros."
+  },
+  {
+    "id": "sis_05",
+    "agree": "Um time bem treinado e organizado vale mais do que um time de craques sem plano.",
+    "disagree": "Um time de craques acaba resolvendo, mesmo sem um plano bem definido."
+  },
+  {
+    "id": "jog_01",
+    "agree": "Na escalação, a técnica pesa mais do que a velocidade.",
+    "disagree": "Na escalação, a velocidade pesa mais, mesmo que o jogador tenha pouca técnica."
+  },
+  {
+    "id": "jog_02",
+    "agree": "Força, velocidade e resistência são requisitos básicos para um time competir hoje.",
+    "disagree": "Um time com boa técnica e organização compete mesmo sem ser forte fisicamente."
+  },
+  {
+    "id": "jog_03",
+    "agree": "Um meia criativo e técnico tem lugar no time mesmo correndo pouco.",
+    "disagree": "Um meia que não corre não tem lugar no futebol atual, por mais técnico que seja."
+  },
+  {
+    "id": "jog_04",
+    "agree": "No volante, a prioridade é o físico, para marcar, correr e ganhar duelos.",
+    "disagree": "No volante, a prioridade é o passe e a leitura de jogo, mais do que o físico."
+  },
+  {
+    "id": "jog_05",
+    "agree": "Nos jogos grandes, vence quem ganha mais divididas e mais bolas pelo alto.",
+    "disagree": "Nos jogos grandes, vence quem tem mais qualidade com a bola no pé."
+  },
+  {
+    "id": "bas_01",
+    "agree": "O elenco tem como base jogadores formados no próprio clube.",
+    "disagree": "O elenco é montado com contratações, e a base é só uma das fontes de jogadores."
+  },
+  {
+    "id": "bas_02",
+    "agree": "Na reta decisiva, a experiência tem prioridade na hora de escalar.",
+    "disagree": "Na reta decisiva, o garoto promissor joga se estiver bem, mesmo sem experiência."
+  },
+  {
+    "id": "bas_03",
+    "agree": "Com nível parecido, o jogador da base tem preferência sobre o reforço.",
+    "disagree": "Com nível parecido, o reforço tem preferência, porque traz experiência ou foi contratado para isso."
+  },
+  {
+    "id": "bas_04",
+    "agree": "Para ganhar títulos o time precisa de jogadores rodados, e os jovens entram aos poucos.",
+    "disagree": "Jovens podem ser protagonistas de um time campeão desde cedo."
+  },
+  {
+    "id": "bas_05",
+    "agree": "Formar e revelar jogadores é um objetivo do clube tão importante quanto ganhar.",
+    "disagree": "Revelar jogadores é bom, mas o objetivo principal do clube é ganhar títulos.",
+    "note": "A pergunta mede o lugar dos jovens no projeto do clube. Quem pensa em revelar só para vender deve pensar se esses jovens jogariam no time principal."
+  },
+  {
+    "id": "lid_01",
+    "agree": "O treinador tem a palavra final, e as regras valem igual para todos, inclusive para os craques.",
+    "disagree": "O treinador negocia com as estrelas, e elas podem ter um tratamento diferente."
+  },
+  {
+    "id": "lid_02",
+    "agree": "O bom ambiente e a união do grupo são a base do rendimento.",
+    "disagree": "Disciplina rígida e controle do vestiário rendem mais do que um ambiente leve."
+  },
+  {
+    "id": "lid_03",
+    "agree": "O treinador conversa com os líderes do elenco e leva a opinião deles em conta nas decisões.",
+    "disagree": "A escalação é decisão só do treinador, e a opinião dos jogadores não entra nela."
+  },
+  {
+    "id": "lid_04",
+    "agree": "Indisciplina tem punição clara, e a punição vale para qualquer jogador.",
+    "disagree": "Um atraso se resolve numa conversa, sem precisar tirar o jogador do time."
+  },
+  {
+    "id": "lid_05",
+    "agree": "O treinador é antes de tudo um gestor de pessoas, que cuida do bem-estar e da confiança do grupo.",
+    "disagree": "O treinador é antes de tudo quem comanda, define as regras e cobra o cumprimento delas."
+  }
+]

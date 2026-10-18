@@ -1,1 +1,312 @@
-[]
+[
+  {
+    "id": "pos_01",
+    "agree": "The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.",
+    "disagree": "Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game."
+  },
+  {
+    "id": "pos_02",
+    "agree": "A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.",
+    "disagree": "Dominating a game means having the ball, and a team that doesn't have it is being dominated."
+  },
+  {
+    "id": "pos_03",
+    "agree": "Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.",
+    "disagree": "Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.",
+    "note": "This measures what to do with the ball, not how fast to pass it. If you want to keep the ball but move it quickly, you also agree."
+  },
+  {
+    "id": "pos_04",
+    "agree": "With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.",
+    "disagree": "Even with fast forwards, the team prefers to have the ball and use their pace some other way."
+  },
+  {
+    "id": "pos_05",
+    "agree": "Possession also protects the team, and keeping the ball is a way of not being attacked.",
+    "disagree": "Defending is done without the ball, and keeping it doesn't make the team any safer."
+  },
+  {
+    "id": "pro_01",
+    "agree": "With the striker free behind the defense, the team plays it long without a second thought.",
+    "disagree": "Even with the striker free, the team prefers to move up with short passes over risking the long ball."
+  },
+  {
+    "id": "pro_02",
+    "agree": "Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.",
+    "disagree": "Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much."
+  },
+  {
+    "id": "pro_03",
+    "agree": "The team always looks for the forward pass, and going sideways or back is wasting time.",
+    "disagree": "Sideways and backward passes are part of the build-up and help find the right moment to go forward."
+  },
+  {
+    "id": "pro_04",
+    "agree": "The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.",
+    "disagree": "The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often."
+  },
+  {
+    "id": "pro_05",
+    "agree": "After winning the ball back, the team goes for goal as fast as possible, with few touches.",
+    "disagree": "After winning the ball back, the team can hold it and get organized before attacking.",
+    "note": "This is about how quickly you attack after winning the ball, not where on the pitch you win it."
+  },
+  {
+    "id": "est_01",
+    "agree": "Each player has a set zone and sticks to it, so the team is always well spread across the pitch.",
+    "disagree": "Players can leave their zones to join teammates wherever the play is."
+  },
+  {
+    "id": "est_02",
+    "agree": "The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.",
+    "disagree": "The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense."
+  },
+  {
+    "id": "est_03",
+    "agree": "The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.",
+    "disagree": "The winger can leave the flank and come inside to join the play.",
+    "note": "This question also counts for the width axis. Agreeing leans toward wide play as well as toward fixed positions."
+  },
+  {
+    "id": "est_04",
+    "agree": "The striker roams, drops deep to play one-twos and helps build the attack.",
+    "disagree": "The striker stays in the box, where he is most dangerous, and waits for the ball to reach him."
+  },
+  {
+    "id": "est_05",
+    "agree": "A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.",
+    "disagree": "A good team organizes itself during the game, with players deciding together where to stand."
+  },
+  {
+    "id": "lar_01",
+    "agree": "The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.",
+    "disagree": "The route to goal goes through the middle, and crosses are just one option among others."
+  },
+  {
+    "id": "lar_02",
+    "agree": "The team puts its best players in the middle and prefers to attack through the center.",
+    "disagree": "The team uses the flanks to attack and puts decisive players out wide."
+  },
+  {
+    "id": "lar_03",
+    "agree": "Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.",
+    "disagree": "Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block."
+  },
+  {
+    "id": "lar_04",
+    "agree": "When picking the team, an extra central midfielder is worth more than two wide wingers.",
+    "disagree": "When picking the team, two wide wingers are worth more than an extra central midfielder."
+  },
+  {
+    "id": "lar_05",
+    "agree": "Without wide wingers the team loses width and is easy to defend against, so they are essential.",
+    "disagree": "A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.",
+    "note": "If you think width can come from the full-backs rather than the wingers, ask yourself whether you prefer play down the flanks or through the middle."
+  },
+  {
+    "id": "blo_01",
+    "agree": "As soon as it loses the ball, the team presses right away to win it back in the opponent's half.",
+    "disagree": "When it loses the ball, the team drops back and regroups before trying to win it back."
+  },
+  {
+    "id": "blo_02",
+    "agree": "The team defends deep, near its own box, with compact lines and little space between them.",
+    "disagree": "The team defends high, far from its own box, and accepts leaving space behind."
+  },
+  {
+    "id": "blo_03",
+    "agree": "The forwards press the opponent's build-up and are an active part of the defense.",
+    "disagree": "The forwards can let the opponent build up and save their energy for attacking."
+  },
+  {
+    "id": "blo_04",
+    "agree": "Against a team that plays out well, your side drops off and waits in its own half.",
+    "disagree": "Against a team that plays out well, your side presses the build-up so the opponent can't get going."
+  },
+  {
+    "id": "blo_05",
+    "agree": "The best chances come from winning the ball in the opponent's half, and the team is trained for that.",
+    "disagree": "The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch."
+  },
+  {
+    "id": "mar_01",
+    "agree": "Each defender looks after a space and marks whoever comes into it.",
+    "disagree": "Each defender has an opponent to mark and follows him wherever he goes."
+  },
+  {
+    "id": "mar_02",
+    "agree": "The opponent's star gets a dedicated marker who follows him all game.",
+    "disagree": "The opponent's star is marked by whoever is in his zone, with no dedicated marker."
+  },
+  {
+    "id": "mar_03",
+    "agree": "Man-marking makes responsibilities clear, and that is an advantage.",
+    "disagree": "Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better."
+  },
+  {
+    "id": "mar_04",
+    "agree": "At corners, players defend spaces in the box, such as the near post and the six-yard box.",
+    "disagree": "At corners, each player picks up an opponent and follows him until the ball arrives.",
+    "note": "Many teams use a mixed system. Think about which of the two should be the basis."
+  },
+  {
+    "id": "mar_05",
+    "agree": "With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.",
+    "disagree": "Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom."
+  },
+  {
+    "id": "pla_01",
+    "agree": "The coach arrives with his game model ready, and it's up to the players to fit into it.",
+    "disagree": "The coach shapes the way of playing around the players he finds."
+  },
+  {
+    "id": "pla_02",
+    "agree": "Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.",
+    "disagree": "Preparing for each game starts with your own team, and the opponent is just a detail."
+  },
+  {
+    "id": "pla_03",
+    "agree": "When it's level, the team trusts its way of playing and changes little, expecting the goal to come.",
+    "disagree": "When it's level, the coach changes the system or the strategy at half-time to go after the result."
+  },
+  {
+    "id": "pla_04",
+    "agree": "Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.",
+    "disagree": "Even against a much better team, your side keeps its style of play.",
+    "note": "This question also counts for the purpose axis. Agreeing leans toward the result as well as toward adapting to the opponent."
+  },
+  {
+    "id": "pla_05",
+    "agree": "The team always plays the same way, whoever is on the other side.",
+    "disagree": "The way of playing changes depending on the opponent."
+  },
+  {
+    "id": "res_01",
+    "agree": "Playing beautifully has value in itself, and a team can make history even without winning trophies.",
+    "disagree": "A team that loses is forgotten, however beautifully it played."
+  },
+  {
+    "id": "res_02",
+    "agree": "Away against a strong team, your side settles for a draw and plays not to lose.",
+    "disagree": "Away against a strong team, your side plays to win and isn't content with a draw.",
+    "note": "This question also counts for the game plan axis. Agreeing leans toward adapting to the opponent as well as toward the result."
+  },
+  {
+    "id": "res_03",
+    "agree": "With the win in hand, the team drops back, strengthens the defense and holds on to the score.",
+    "disagree": "Even when winning late on, the team keeps playing the same way and may even go for another goal.",
+    "note": "This question also counts for the block axis. Agreeing leans toward a deep block as well as toward the result."
+  },
+  {
+    "id": "res_04",
+    "agree": "How you win matters more than the score, and an ugly win is worth less.",
+    "disagree": "A win is a win, however it comes."
+  },
+  {
+    "id": "res_05",
+    "agree": "What fans want is the win, and the show comes second.",
+    "disagree": "Fans also want to be entertained, and a team that only wins without thrilling anyone falls short."
+  },
+  {
+    "id": "sis_01",
+    "agree": "A well-drilled collective makes ordinary players perform above what they would on their own.",
+    "disagree": "No system works miracles, and the team's level depends on the quality of its players."
+  },
+  {
+    "id": "sis_02",
+    "agree": "The talented player is free to fail and keep trying to beat his man.",
+    "disagree": "After failing a few times, the player should keep it simple and play for the team."
+  },
+  {
+    "id": "sis_03",
+    "agree": "Tactical duties apply to everyone, and not even the star is excused from defending.",
+    "disagree": "The star can be spared defensive duties to save his energy for deciding the game.",
+    "note": "This question also counts for the leadership axis. Agreeing leans toward the coach's authority as well as toward the system."
+  },
+  {
+    "id": "sis_04",
+    "agree": "The star plays free, with license to turn up wherever he thinks best.",
+    "disagree": "The star also has a defined tactical role, like everyone else."
+  },
+  {
+    "id": "sis_05",
+    "agree": "A well-drilled, organized team is worth more than a team of stars with no plan.",
+    "disagree": "A team of stars will find a way, even without a well-defined plan."
+  },
+  {
+    "id": "jog_01",
+    "agree": "When picking the team, technique counts for more than pace.",
+    "disagree": "When picking the team, pace counts for more, even if the player has little technique."
+  },
+  {
+    "id": "jog_02",
+    "agree": "Strength, pace and stamina are basic requirements for a team to compete today.",
+    "disagree": "A team with good technique and organization can compete even without being physically strong."
+  },
+  {
+    "id": "jog_03",
+    "agree": "A creative, technical playmaker has a place in the team even if he runs little.",
+    "disagree": "A midfielder who doesn't run has no place in today's football, however technical he is."
+  },
+  {
+    "id": "jog_04",
+    "agree": "In a defensive midfielder, the priority is physicality, to mark, run and win duels.",
+    "disagree": "In a defensive midfielder, the priority is passing and reading the game, more than physicality."
+  },
+  {
+    "id": "jog_05",
+    "agree": "In big games, the side that wins more challenges and more headers comes out on top.",
+    "disagree": "In big games, the side with more quality on the ball comes out on top."
+  },
+  {
+    "id": "bas_01",
+    "agree": "The squad is built around players developed at the club.",
+    "disagree": "The squad is built through signings, and the academy is just one source of players."
+  },
+  {
+    "id": "bas_02",
+    "agree": "In the run-in, experience comes first when picking the team.",
+    "disagree": "In the run-in, the promising youngster plays if he is in form, even without experience."
+  },
+  {
+    "id": "bas_03",
+    "agree": "At a similar level, the academy player gets priority over the signing.",
+    "disagree": "At a similar level, the signing gets priority, because he brings experience or was bought for that."
+  },
+  {
+    "id": "bas_04",
+    "agree": "To win titles a team needs seasoned players, and young players are brought in gradually.",
+    "disagree": "Young players can be key figures in a title-winning team from early on."
+  },
+  {
+    "id": "bas_05",
+    "agree": "Developing and bringing through players is as important a goal for the club as winning.",
+    "disagree": "Developing players is good, but the club's main goal is winning titles.",
+    "note": "This measures the place of young players in the club's project. If you think of developing players only to sell them, ask yourself whether they would play in the first team."
+  },
+  {
+    "id": "lid_01",
+    "agree": "The coach has the final word, and the rules apply equally to everyone, stars included.",
+    "disagree": "The coach negotiates with the stars, and they can be treated differently."
+  },
+  {
+    "id": "lid_02",
+    "agree": "A good atmosphere and a united group are the basis of performance.",
+    "disagree": "Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere."
+  },
+  {
+    "id": "lid_03",
+    "agree": "The coach talks to the squad's leaders and takes their view into account in his decisions.",
+    "disagree": "The line-up is the coach's decision alone, and the players' opinions don't come into it."
+  },
+  {
+    "id": "lid_04",
+    "agree": "Indiscipline brings a clear punishment, and it applies to any player.",
+    "disagree": "Being late is settled with a talk, without needing to drop the player."
+  },
+  {
+    "id": "lid_05",
+    "agree": "A coach is above all a manager of people, who looks after the group's well-being and confidence.",
+    "disagree": "A coach is above all the one in charge, who sets the rules and makes sure they are followed."
+  }
+]

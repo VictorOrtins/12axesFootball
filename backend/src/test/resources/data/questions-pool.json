@@ -4,7 +4,12 @@
     "axisId": "pos",
     "agreePole": "LEFT",
     "weight": 1,
-    "text": "Afirmação de teste 1 do eixo Posse."
+    "text": "Afirmação de teste 1 do eixo Posse.",
+    "secondary": {
+      "axisId": "blo",
+      "agreePole": "RIGHT",
+      "weight": 0.5
+    }
   },
   {
     "id": "pos_02",

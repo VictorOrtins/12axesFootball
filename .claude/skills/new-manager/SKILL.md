@@ -33,7 +33,7 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 
 - Ambiguous subject or spells: ask the user and stop (FOOTBALL_RESEARCH.md step 1).
 - Counted work shorter than about half a season (~15 competitive matches): tell the user and stop unless they say to go on.
-- After step 7 (research saved and validated), **stop**: the football question pool doesn't exist yet, so there is no audit. Report to the user as described at the end of FOOTBALL_RESEARCH.md.
+- After step 7 (research saved and validated), **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report to the user as described at the end of FOOTBALL_RESEARCH.md.
 
 ## Rules that can't be broken
 
