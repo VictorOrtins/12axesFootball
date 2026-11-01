@@ -49,7 +49,7 @@ export function QuestionCard({ question, axisLabel, axis, number, options, selec
         ) : (
           <p className="question-axis">{axisLabel ?? question.axisId.replace('-', ' ')}</p>
         )}
-        <h2 id="question-title"><GlossaryText text={question.text} terms={question.terms} /></h2>
+        <h2 id="question-title"><GlossaryText key={question.text} text={question.text} terms={question.terms} /></h2>
       </header>
       <div className="answer-grid" role="radiogroup" aria-label={t.answersAria}>
         {options.map((option) => {

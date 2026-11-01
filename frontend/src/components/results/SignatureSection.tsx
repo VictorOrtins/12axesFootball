@@ -120,7 +120,7 @@ function SignatureCard({ outlier, strong, label, results }: SignatureCardProps) 
   const median = clamp(100 - outlier.catalogMedian);
   const you = clamp(100 - outlier.userPercent);
 
-  let big = '';
+  let big: string;
   let cap: string;
   if (strong) {
     big = outlier.balanced ? '' : String(outlier.abovePercent >= 99.5 ? 100 : Math.round(outlier.abovePercent));

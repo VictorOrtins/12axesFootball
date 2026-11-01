@@ -3,7 +3,7 @@ import { selectAndBalanceQuestions } from './utils/quizSelection';
 import { HOME_AXES } from './data/homeAxes';
 import { LANG, setLang, t } from './i18n';
 import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
-import type { AnswerValue, ArchetypeQuestion, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
+import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
@@ -151,12 +151,8 @@ function MainApp() {
   }, []);
 
   useEffect(() => {
-    if (screen !== 'home') {
-      setIsHomeSeoReady(false);
-      return;
-    }
+    if (screen !== 'home') return;
 
-    setIsHomeSeoReady(false);
     const idleWindow = window as Window & {
       requestIdleCallback?: (callback: IdleRequestCallback, options?: IdleRequestOptions) => number;
       cancelIdleCallback?: (handle: number) => void;
@@ -164,11 +160,17 @@ function MainApp() {
 
     if (idleWindow.requestIdleCallback) {
       const idleId = idleWindow.requestIdleCallback(() => setIsHomeSeoReady(true), { timeout: 1600 });
-      return () => idleWindow.cancelIdleCallback?.(idleId);
+      return () => {
+        idleWindow.cancelIdleCallback?.(idleId);
+        setIsHomeSeoReady(false);
+      };
     }
 
     const timeoutId = window.setTimeout(() => setIsHomeSeoReady(true), 900);
-    return () => window.clearTimeout(timeoutId);
+    return () => {
+      window.clearTimeout(timeoutId);
+      setIsHomeSeoReady(false);
+    };
   }, [screen]);
 
   // Home: blocos abaixo da dobra entram ao rolar (conteudo editorial longo).
