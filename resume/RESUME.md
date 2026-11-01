@@ -1,5 +1,7 @@
 # Resume point — 2026-10-14
 
+> Historical snapshot. Current status: `tasks/8. PROFILES_TO_APP_REMAINING.md`. Since this was written, the audit (step 8) was built and run for all profiles, and catalogs, vectors and images were added.
+
 Branch `football-logic`. Nothing from this session is committed (user asks before commits).
 
 ## What "profile" means here
