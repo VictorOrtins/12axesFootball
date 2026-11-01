@@ -1,0 +1,368 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Combination game (Scottish passing game)" (catalog: football-ideology), answering as the football ideology Combination game (Scottish passing game), answering as a coach committed to it would, as its exemplars practised it in its era. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/football-ideology/combination-game.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK football-ideology:combination-game".
+
+=== RESEARCH FILE (football-ideology/combination-game.json) ===
+{
+  "id": "combination-game",
+  "catalog": "football-ideology",
+  "name": "Combination game (Scottish passing game)",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1872",
+    "end": "1889"
+  },
+  "scopeNote": "The 'combination' game: playing together as a team and moving the ball between team-mates (passing, often mixed with short dribbles), in contrast to the English individual dribbling and 'backing up' game. Period runs from 1872, the first dated evidence (Queen's Park's FA Cup semi-final against Wanderers, March 1872, and Scotland, all Queen's Park players, v England on 30 November 1872), to 1889, when Preston North End, built on Scottish professionals ('Scotch Professors'), won the first League and the FA Cup unbeaten. After that, combination play and the 2-3-5 were the norm everywhere, so the idea is no longer a separate school. Partial dates (years only) because the start and end are eras, not single events. Label: the period term is 'combination' (Alcock, 1874: 'what I may call a combination game'; Robinson, 1920: 'Combination was the chief characteristic of the Queen's Park play'). 'Scottish passing game' is a later label and overstates the passing: The Field (1872) says Queen's Park 'dribble little and usually convey the ball by a series of long kicks, combined with a judicious plan of passing on', and the SFHG calls the 1872 Scots 'hardly the passing-game as we know it'. The period sources are 1872-73 newspaper quotes and Alcock's writing, read through later pages that quote them; there are no coaches, so 'stated view' means period theorists (Alcock). Distinct from Kick and rush (the English direct/individual tradition it opposed), the Danubian school (its later Central European heir via Scots and Hogan) and WM (Chapman's 1925 offside-law response).",
+  "exemplars": [
+    {
+      "id": "queens-park-1872-89",
+      "kind": "team",
+      "reason": "The club credited with developing the systematic combination game; 2-2-6 with forwards in pairs; 'Combination was the chief characteristic of the Queen's Park play' (Robinson, 1920)."
+    },
+    {
+      "id": "scotland-1872-87",
+      "kind": "team",
+      "reason": "Scotland's early internationals (the 1872 XI were all Queen's Park players): 'adepts in passing the ball' (The Graphic, 14 Dec 1872); won 10 and lost 2 against England 1872-1887."
+    },
+    {
+      "id": "preston-north-end-1888-89",
+      "kind": "team",
+      "reason": "The 'Invincibles', built by William Sudell from 1883 on Scottish professionals (ten Scots in 1889); the main English club carrying the Scottish style."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Who invented it is disputed. Frederick Wall credits the Royal Engineers ('Sappers moved in unison'); Sheffield FC had a 'passing on' game from 1865; the Scottish case credits Queen's Park; Alcock (1891) says Cambridge University 1883 'were the first to illustrate the full possibilities of a systematic combination'. This profile follows the catalog's scope (Queen's Park/Scotland). Decide whether Cambridge 1883 and the Royal Engineers belong as exemplars.",
+    "How much passing? Period reports of the same March 1872 Queen's Park v Wanderers tie disagree: The Field says they 'dribble little' and use 'long kicks, combined with a judicious plan of passing on'; a report quoted by These Football Times says 'dribbling and passing'. The Scotsman's 1872 international report (per Wikipedia, not read) describes the Scottish attacks as dribbling. Alcock (1883) credits 'the combination of dribbling and passing'. The audit should treat it as a dribble-and-pass team game, not modern short-passing possession.",
+    "End date: 1889 is a judgement (Preston's double, the last point where the Scottish style is clearly a separate school). Sunderland's 'Team of All Talents' (1890s, largely Scottish) could extend it. Confirm.",
+    "Marking: no source says how the Scots defended against dribblers beyond Wikipedia's own analysis that they 'paired up to stop the dribbling runs'. Zone vs man is anachronistic for a 2-2-6 era; the mar axis rests on inference.",
+    "Width: Arnott (1906) describes wingers 'rushing down the wing and centring the ball'; the SFHG notes the 1874 Scottish goals 'came down the centre and the left'. Both central combinations and wing runs appear; width is not clear-cut.",
+    "Wikipedia's Scotch Professors page dates Preston's double to 1892; the double was 1888-89 (These Football Times 2023 and 2016). That page's dates were not used."
+  ],
+  "sources": [
+    {
+      "title": "Match report: England v Scotland 1872 (Glasgow Herald, 2 December 1872, reproduced)",
+      "url": "https://www.open.edu/openlearn/history-the-arts/history/match-report-england-v-scotland-1872",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Period report (Glasgow Herald, 2 Dec 1872) of Scotland 0-0 England, Hamilton Crescent, 30 Nov 1872: \"The home club played well together, and carried the ball down into the enemy's quarters by vigorous rushes\"; \"The strong point with the home club was that they played excellently well together.\" OpenLearn page carries the original report; article date unknown (2026 used).",
+      "verified": true
+    },
+    {
+      "title": "Match report: England v Scotland 1872 (Glasgow Herald, 2 December 1872, reproduced)",
+      "url": "https://www.open.edu/openlearn/history-the-arts/history/match-report-england-v-scotland-1872",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Glasgow Herald, 2 Dec 1872: the English were \"about two stones heavier than the Scotchmen\" and \"they had also the advantage in pace.\" The lighter, slower Scots relied on playing together instead.",
+      "verified": true
+    },
+    {
+      "title": "Match report: England v Scotland 1872 (Glasgow Herald, 2 December 1872, reproduced)",
+      "url": "https://www.open.edu/openlearn/history-the-arts/history/match-report-england-v-scotland-1872",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Glasgow Herald, 2 Dec 1872: \"the magnificent play of the backs\" of Scotland; late on \"the Scotch were hard pressed by their opponents\" but held a 0-0. Defence by the two backs; nothing on marking.",
+      "verified": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-12-14",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Period quotes cited by the article: The Graphic, 14 Dec 1872, on the Scots in the first international: \"adepts in passing the ball\"; Glasgow Herald, 17 Feb 1873, Queen's Park v Vale of Leven: \"working beautifully to each other's feet\". Robinson's club history (1920, retrospective): \"Combination was the chief characteristic of the Queen's Park play.\"",
+      "verified": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-03",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "The Field on Queen's Park v Wanderers, FA Cup, March 1872 (cited via Sanders, Beastly Fury, 2009, p. 66): \"They dribble little and usually convey the ball by a series of long kicks, combined with a judicious plan of passing on.\" Alcock (Football Annual, 1883): \"It has been the combination of dribbling and passing that has made the Queen's Park\". Progression mixes long kicks, passing on and short dribbles, not patient short passing only.",
+      "verified": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Queen's Park used a 2-2-6 in 1872, which became their preferred line-up for the rest of the decade; Arnott (1906, Queen's Park/Scotland player) notes the Scots' \"forward work was done in pairs\" while English forwards \"played an individual game\". Cambridge University (1883) introduced the \"'pyramid' 2 3 5\"; Alcock (1891): about 1883 \"the third half back came to be recognized as a necessity of the new formation\".",
+      "verified": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Walter Arnott (chapter in Gibson and Pickford, Association Football and the Men Who Made It, 1906) describes Weir and a partner \"rushing down the wing and centring the ball with great accuracy right into the goal-mouth.\" A participant's recollection written 30+ years later.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "The article's own analysis (no period quote): when defending, the Scots \"paired up to stop the dribbling runs of the England players\". The only hint at marking found.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1883",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "C. W. Alcock (FA secretary, England captain), the period's main theorist, cited by the article: \"Nothing succeeds better than what I may call a 'combination game'\" (Football: our winter game, 1874); \"Combination is the great object to be studied in the attainment of success in Association football\" and \"By combination I mean much more than the mere 'passing on' which seems to be the one common idea of perfection\" (The Football Annual, 1883, pp. 12-13). Read on Wikipedia, not in the books.",
+      "verified": true
+    },
+    {
+      "title": "Combination Game",
+      "url": "https://en.wikipedia.org/wiki/Combination_Game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1887",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Results only: \"Between 1872 and 1887 Scotland would win 10 times and lose only twice against England\". Says nothing about changing plans by opponent; kept as context, does not close the game-management gap.",
+      "verified": false
+    },
+    {
+      "title": "Formation Formation (From Chaos to The Cross)",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/formationformation",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Scots Football Historians Group (undated, copyright 2022-2026). Scotland, Nov 1872: a \"Box-Four\" of two full-backs and two half-backs \"tasked with expanding in step in attack and retreating, still in step, under pressure\"; \"Defensive football had been invented.\" In 1880 \"all three of the home nations reverting to 2-2-6\"; by 1888 (Renton) the Scottish centre-half was \"the not defensive but attacking, Scottish centre-half, its fulcrum.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Formation Formation (From Chaos to The Cross)",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/formationformation",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1874-03",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Scotland v England, March 1874: \"The Scottish goals came down the centre and the left.\" Vale of Leven, late 1870s: forward pairings \"initially seemingly horizontal, wing, centre, wing,\" later more vertical.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1872 - The First International",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/1872thefirstinternational",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "SFHG (undated): the Scots' play was \"hardly the passing-game as we know it\" though it was \"both 'scientific' and 'combination'\"; contrasts the Scots' combined play with the Englishmen's \"individualism\". Caution against reading 1872 as modern passing.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Scotland v England in 1872: the first 'official' international",
+      "url": "https://www.scottishsporthistory.com/scotland-v-england-1872.html",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Andy Mitchell's site quoting the Glasgow Herald: \"The Englishmen had all the advantage of weight, their average being about two stones heavier than the Scotchmen\" and \"the strong point of the home club [sic] was that they played excellently well together\", which the page reads as an allusion to the Scots' combination play. Corroborates the OpenLearn reproduction.",
+      "verified": true
+    },
+    {
+      "title": "The tale of Queen's Park: the early innovators who became last of the amateurs",
+      "url": "https://thesefootballtimes.co/2023/02/06/the-tale-of-queens-park-the-early-innovators-who-became-last-of-the-amateurs/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-02-06",
+      "eventDate": "1872-03",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Dominic Hougham. Period report of the March 1872 FA Cup tie v Wanderers: \"the Queen's Park men dribbling and passing, while their opponents indulged chiefly in heavy kicking.\" 1872: \"Scotland went 2-2-6 while England fielded a more attacking 1-1-8.\" Note: contradicts The Field's 'long kicks' on the same tie (see openQuestions).",
+      "verified": true
+    },
+    {
+      "title": "The tale of Queen's Park: the early innovators who became last of the amateurs",
+      "url": "https://thesefootballtimes.co/2023/02/06/the-tale-of-queens-park-the-early-innovators-who-became-last-of-the-amateurs/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-02-06",
+      "eventDate": "1889",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Hougham: Scottish players \"known as the 'Scotch Professors', who brought down their passing game to many of the northern teams\"; \"a significant number of Scottish players relocated south of the border\"; Preston's 1889 title side \"fielded ten Scottish professionals.\" Queen's Park itself stayed amateur (gentlemen players, \"professionals in other fields\"). Squads built on Scottish-trained players, not on youth or veterans as such.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Why Preston North End are football's greatest Invincibles",
+      "url": "https://thesefootballtimes.co/2016/11/23/why-preston-north-end-are-footballs-greatest-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-11-23",
+      "eventDate": "1888/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Jack Kevin Portley. Club historian Ian Rigby on William Sudell: \"He was like a trainer, come masseur, come groundsman, come kit man, come player\"; players \"were paid with boot money\" before the League; \"there were no sports scientists, nutritionists or physios\". Preston played 2-3-5 and conceded no FA Cup goal in 1888-89. Says nothing on discipline or on passing style. Thin for leadership.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Scotch Professors",
+      "url": "https://en.wikipedia.org/wiki/Scotch_Professors",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1885",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Name from the Scots' \"combination football\", \"a passing game with greater teamwork\"; FA \"formally legitimised professionalism in 1885\"; Scotland adopted professionalism in 1893. Preston's double dated 1892 on this page, which is wrong (1888-89): page not relied on for dates, kept unverified.",
+      "verified": false
+    },
+    {
+      "title": "The \"Combination\" Game",
+      "url": "https://www.scotsfootballworldwide.scot/thecombinationgame",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Iain Campbell Whittle (undated, copyright 2018-2026). Defines the pass as \"the deliberate rather than accidental transference of a ball between two players\", against \"the knock-off or knock-down\" of English backing up; Scotland 1872 \"a Box-Four, two full-backs and two half-back\"; argues the combination game matured \"within the decade\" after 1872, possibly influenced by shinty and the Vale of Leven.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Nothing succeeds better than what I may call a 'combination game'.",
+      "date": "1874",
+      "source": "https://en.wikipedia.org/wiki/Combination_Game",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "By combination I mean much more than the mere 'passing on' which seems to be the one common idea of perfection",
+      "date": "1883",
+      "source": "https://en.wikipedia.org/wiki/Combination_Game",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://en.wikipedia.org/wiki/1872_Scotland_versus_England_football_match",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.11v11.com/history/part-10-early-scottish-football-queens-park-dominance/",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.11v11.com/history/part-10-early-scottish-football-queens-park-dominance/",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "transitions",
+      "set-pieces",
+      "game-management"
+    ],
+    "axes": [
+      "pla"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Several dated period quotes (Glasgow Herald 2 Dec 1872 read in a reproduction; The Graphic 1872, The Field 1872, Glasgow Herald 1873 and Alcock 1874/1883 read as quoted on Wikipedia) agree on the core idea (playing together, passing on, 2-2-6, lighter Scots), but most shape, width, defending and management facts come from retrospective tier B-C pages, the evidence clusters in 1872-74 with little on the 1880s, period reports disagree on how much passing vs dribbling there was, and there is no coach's stated view (Alcock's words are attributed, read only via Wikipedia)."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

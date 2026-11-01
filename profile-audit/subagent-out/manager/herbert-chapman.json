@@ -1,0 +1,129 @@
+{
+  "pos": {
+    "personaBrief": "Chapman's Arsenal (verified: WM shape with three defenders close to the goalkeeper, SI) were built to hold a shape and strike on the break rather than to chase the ball, so possession was a tool, not an identity. The possession questions are answered from general knowledge of the period, not from verified evidence.",
+    "answers": {
+      "pos_04": "D",
+      "pos_01": "D",
+      "pos_05": "C",
+      "pos_02": "C",
+      "pos_03": "N"
+    }
+  },
+  "pro": {
+    "personaBrief": "The verified WM description (SI) has a deep, compact defence and an emphasis on quick attacks from wide and inside forwards, which favours direct release to forwards but not reckless long balls under pressure. The progression answers come from general knowledge of this profile, not from verified evidence.",
+    "answers": {
+      "pro_05": "D",
+      "pro_01": "C",
+      "pro_03": "D",
+      "pro_02": "D",
+      "pro_04": "C"
+    }
+  },
+  "est": {
+    "personaBrief": "The verified WM shape (SI, Woolwich blog) is a set structure: a stopper centre-half, a link player, and wingers held wide, with defenders staying near the goalkeeper. Positional discipline is the core of it, but the centre-forward is not a roaming playmaker.",
+    "answers": {
+      "est_05": "C",
+      "est_02": "D",
+      "est_01": "C",
+      "est_04": "D",
+      "est_03": "C"
+    }
+  },
+  "lar": {
+    "personaBrief": "The verified WM description has wingers held on the touchline and the Woolwich blog credits the shape with using the flanks, while the link player and inside forwards work the middle. Width is essential to the system, but Chapman's Arsenal did not rely on a single route. The width answers come from general knowledge of this profile, not from verified evidence.",
+    "answers": {
+      "lar_01": "C",
+      "lar_03": "C",
+      "lar_02": "D",
+      "lar_05": "C",
+      "lar_04": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "The verified SI and Woolwich sources describe a defence that stayed deep, with the three defenders close to the goalkeeper and no holding midfielder, criticised as a step back. The block is low and compact, and the team waits rather than presses the build-up.",
+    "answers": {
+      "blo_01": "D",
+      "blo_03": "D",
+      "blo_05": "D",
+      "blo_04": "C",
+      "blo_02": "C"
+    }
+  },
+  "mar": {
+    "personaBrief": "The verified SI piece says a centre-back (the stopper) marked the opposing centre-forward, which is individual marking of the key attacker. Marking of the full-backs and half-backs and corners is not evidenced, so those answers come from general knowledge of the period.",
+    "answers": {
+      "mar_03": "C",
+      "mar_02": "C",
+      "mar_04": "D",
+      "mar_05": "D",
+      "mar_01": "N"
+    }
+  },
+  "pla": {
+    "personaBrief": "Chapman is credited with responding to the 1925 offside change by building the WM (SI, Woolwich blog), which shows he adapted the system to the rules rather than to a fixed identity. He kept a consistent shape once it was set, so the game plan answers mix both tendencies. These answers come from general knowledge of this profile, not from verified evidence.",
+    "answers": {
+      "pla_03": "C",
+      "pla_01": "D",
+      "pla_02": "D",
+      "pla_04": "D",
+      "pla_05": "C"
+    }
+  },
+  "res": {
+    "personaBrief": "The verified sources describe a pragmatic reaction to defeat (the 7-0 loss to Newcastle led to a rapid change) and a defence built to protect results, with the WM praised as balance rather than spectacle. Results came first, and the verified evidence supports that over style.",
+    "answers": {
+      "res_03": "C",
+      "res_01": "D",
+      "res_02": "C",
+      "res_04": "D",
+      "res_05": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "The verified SI piece credits Chapman with building a shape that the players had to fit (the WM, with defined roles and a stopper marking the centre-forward), and the Woolwich blog calls the change a revolution in tactics. The system counted for more than individual flair, though that is partly general knowledge.",
+    "answers": {
+      "sis_04": "D",
+      "sis_03": "C",
+      "sis_05": "C",
+      "sis_01": "C",
+      "sis_02": "D"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified evidence covers the player-type axis, so these answers come from general knowledge of this profile. Chapman's Arsenal had technically gifted attackers and a disciplined, physically sound defence, which is consistent with valuing technique in the attacking players and organisation in the back line.",
+    "answers": {
+      "jog_03": "C",
+      "jog_02": "C",
+      "jog_05": "D",
+      "jog_04": "D",
+      "jog_01": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "The verified Woolwich blog says Chapman signed Buchan in 1925 to be the captain, which shows reliance on bought-in experienced players rather than a youth-first model. These squad answers come from general knowledge of this profile and are consistent with that signing pattern.",
+    "answers": {
+      "bas_01": "D",
+      "bas_04": "C",
+      "bas_02": "C",
+      "bas_05": "D",
+      "bas_03": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence covers the leadership axis, so these answers come from general knowledge of this profile. Chapman is generally described as a strict disciplinarian who kept final authority over the squad, and the verified sources show him deciding tactical change himself after the 1925 defeat.",
+    "answers": {
+      "lid_02": "D",
+      "lid_01": "C",
+      "lid_04": "C",
+      "lid_03": "D",
+      "lid_05": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "B",
+    "elenco": "B",
+    "organizacao": "A",
+    "treinador": "D",
+    "final": "A"
+  }
+}

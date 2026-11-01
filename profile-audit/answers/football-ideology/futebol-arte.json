@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "The 1970 side had more of the ball and 'defended with the ball' (Coaches' Voice, Trivela) and Telê's São Paulo was built on 'posse de bola', but Telê scorned sterile passing as 'um espetáculo feio': possession serves attacking play.", "answers": { "pos_01": "C", "pos_03": "C", "pos_05": "C", "pos_04": "D", "pos_02": "N" } },
-  "pro": { "personaBrief": "Build-up started on the ground with Piazza, Clodoaldo and the full-backs in 1970, São Paulo valued 'bola no chão', and Telê said 'tocar não quer dizer jogar para trás': patient ground progression with a forward intent and creative midfielders.", "answers": { "pro_02": "C", "pro_03": "C", "pro_01": "D", "pro_05": "D", "pro_04": "D" } },
-  "est": { "personaBrief": "Tactics are 'only a referencial', with freedom to take up space (Maluly); in 1970 the front five moved freely, Tostão dropped and Rivellino came inside, and in 1982 Falcão, Sócrates and Zico rotated into the right-wing space.", "answers": { "est_02": "C", "est_05": "D", "est_03": "D", "est_04": "CT", "est_01": "D" } },
-  "lar": { "personaBrief": "The 1958-62 sides had real wingers, but the emblematic 1970 and 1982 teams packed central 10s and got their width from full-backs (Carlos Alberto, Júnior/Leandro), with the best players in the middle.", "answers": { "lar_04": "C", "lar_03": "N", "lar_05": "D", "lar_01": "D", "lar_02": "C" } },
-  "blo": { "personaBrief": "No source shows pressing; in 1970 the team dropped into a lower 4-4-1-1 against structured attacks, and Zagallo relied on the heat making high pressing impossible. The stars saved their energy for the ball.", "answers": { "blo_02": "N", "blo_03": "D", "blo_01": "D", "blo_05": "D", "blo_04": "C" } },
-  "mar": { "personaBrief": "Marking is never stated, so this is inference: the Brazilian back four descends from Zezé Moreira's zonal reform, and in 1970 it was Italy that used the 'marcação individual' that opened space for Carlos Alberto, the futebol-força contrast.", "answers": { "mar_01": "C", "mar_04": "N", "mar_05": "D", "mar_02": "D", "mar_03": "D" } },
-  "pla": { "personaBrief": "Telê sent his teams out to 'jogar bem' and went looking for a winner against Italy in 1982; Zagallo kept his '4-3-3 anterior' and an unchanged XI, with only small opponent-specific tweaks like 'forçar o lado esquerdo italiano'.", "answers": { "pla_02": "D", "pla_03": "C", "pla_01": "N", "pla_05": "C", "pla_04": "DT" } },
-  "res": { "personaBrief": "'Não bastaria apenas vencer, mas vencer jogando bonito'. Telê rejected 'ganhar de qualquer maneira', and the 1982 side is still remembered as a losing team, with spectacle and audacity as the period press's measure.", "answers": { "res_03": "D", "res_05": "D", "res_02": "D", "res_01": "CT", "res_04": "C" } },
-  "sis": { "personaBrief": "Zagallo kept his best players on the pitch and believed talent would excel when supported by order, and Telê fielded all his stars even at a tactical cost in 1982. Talent decides, with some duties (Rivellino marking) but no rigid system.", "answers": { "sis_04": "C", "sis_03": "D", "sis_01": "D", "sis_02": "C", "sis_05": "DT" } },
-  "jog": { "personaBrief": "Futebol-arte is defined against Coutinho's futebol-força of 'lutadores' (1978 press). Its markers are dribbling, ginga and fundamentals, which Telê drilled. The 1970 Cooper fitness supported technique and did not replace it.", "answers": { "jog_04": "DT", "jog_03": "CT", "jog_05": "DT", "jog_01": "CT", "jog_02": "D" } },
-  "bas": { "personaBrief": "Feola ignored the psychologist and played the young Pelé and Garrincha in 1958, and Telê's São Paulo won without big signings, betting on young talents like Cafu, Leonardo and Antônio Carlos.", "answers": { "bas_03": "C", "bas_01": "C", "bas_05": "N", "bas_02": "D", "bas_04": "D" } },
-  "lid": { "personaBrief": "Zagallo demanded 'discipline and order, will and self-sacrifice' and picked the side on his own judgment; Telê dropped Éder and Renato Gaúcho for indiscipline and clashed with stars. Authority sat alongside the 'alegria de jogar'.", "answers": { "lid_05": "D", "lid_02": "N", "lid_03": "D", "lid_01": "C", "lid_04": "C" } }
+  "pos": {
+    "personaBrief": "The 1970 side had more of the ball and 'defended with the ball' (Coaches' Voice, Trivela) and Telê's São Paulo was built on 'posse de bola', but Telê scorned sterile passing as 'um espetáculo feio': possession serves attacking play.",
+    "answers": {
+      "pos_01": "C",
+      "pos_03": "C",
+      "pos_05": "C",
+      "pos_04": "D",
+      "pos_02": "N"
+    }
+  },
+  "pro": {
+    "personaBrief": "Build-up started on the ground with Piazza, Clodoaldo and the full-backs in 1970, São Paulo valued 'bola no chão', and Telê said 'tocar não quer dizer jogar para trás': patient ground progression with a forward intent and creative midfielders.",
+    "answers": {
+      "pro_02": "C",
+      "pro_03": "C",
+      "pro_01": "D",
+      "pro_05": "D",
+      "pro_04": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "Tactics are 'only a referencial', with freedom to take up space (Maluly); in 1970 the front five moved freely, Tostão dropped and Rivellino came inside, and in 1982 Falcão, Sócrates and Zico rotated into the right-wing space.",
+    "answers": {
+      "est_02": "C",
+      "est_05": "D",
+      "est_03": "D",
+      "est_04": "CT",
+      "est_01": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "The 1958-62 sides had real wingers, but the emblematic 1970 and 1982 teams packed central 10s and got their width from full-backs (Carlos Alberto, Júnior/Leandro), with the best players in the middle.",
+    "answers": {
+      "lar_04": "C",
+      "lar_03": "N",
+      "lar_05": "D",
+      "lar_01": "D",
+      "lar_02": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "No source shows pressing; in 1970 the team dropped into a lower 4-4-1-1 against structured attacks, and Zagallo relied on the heat making high pressing impossible. The stars saved their energy for the ball.",
+    "answers": {
+      "blo_02": "N",
+      "blo_03": "D",
+      "blo_01": "D",
+      "blo_05": "D",
+      "blo_04": "C"
+    }
+  },
+  "mar": {
+    "personaBrief": "Marking is never stated, so this is inference: the Brazilian back four descends from Zezé Moreira's zonal reform, and in 1970 it was Italy that used the 'marcação individual' that opened space for Carlos Alberto, the futebol-força contrast.",
+    "answers": {
+      "mar_01": "C",
+      "mar_04": "N",
+      "mar_05": "D",
+      "mar_02": "D",
+      "mar_03": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "Telê sent his teams out to 'jogar bem' and went looking for a winner against Italy in 1982; Zagallo kept his '4-3-3 anterior' and an unchanged XI, with only small opponent-specific tweaks like 'forçar o lado esquerdo italiano'.",
+    "answers": {
+      "pla_02": "D",
+      "pla_03": "C",
+      "pla_01": "N",
+      "pla_05": "C",
+      "pla_04": "DT"
+    }
+  },
+  "res": {
+    "personaBrief": "'Não bastaria apenas vencer, mas vencer jogando bonito'. Telê rejected 'ganhar de qualquer maneira', and the 1982 side is still remembered as a losing team, with spectacle and audacity as the period press's measure.",
+    "answers": {
+      "res_03": "D",
+      "res_05": "D",
+      "res_02": "D",
+      "res_01": "CT",
+      "res_04": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "Zagallo kept his best players on the pitch and believed talent would excel when supported by order, and Telê fielded all his stars even at a tactical cost in 1982. Talent decides, with some duties (Rivellino marking) but no rigid system.",
+    "answers": {
+      "sis_04": "C",
+      "sis_03": "D",
+      "sis_01": "D",
+      "sis_02": "C",
+      "sis_05": "DT"
+    }
+  },
+  "jog": {
+    "personaBrief": "Futebol-arte is defined against Coutinho's futebol-força of 'lutadores' (1978 press). Its markers are dribbling, ginga and fundamentals, which Telê drilled. The 1970 Cooper fitness supported technique and did not replace it.",
+    "answers": {
+      "jog_04": "DT",
+      "jog_03": "CT",
+      "jog_05": "DT",
+      "jog_01": "CT",
+      "jog_02": "D"
+    }
+  },
+  "bas": {
+    "personaBrief": "Feola ignored the psychologist and played the young Pelé and Garrincha in 1958, and Telê's São Paulo won without big signings, betting on young talents like Cafu, Leonardo and Antônio Carlos.",
+    "answers": {
+      "bas_03": "C",
+      "bas_01": "C",
+      "bas_05": "N",
+      "bas_02": "D",
+      "bas_04": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "Zagallo demanded 'discipline and order, will and self-sacrifice' and picked the side on his own judgment; Telê dropped Éder and Renato Gaúcho for indiscipline and clashed with stars. Authority sat alongside the 'alegria de jogar'.",
+    "answers": {
+      "lid_05": "D",
+      "lid_02": "N",
+      "lid_03": "D",
+      "lid_01": "C",
+      "lid_04": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "D",
+    "elenco": "C",
+    "organizacao": "B",
+    "treinador": "B",
+    "final": "D"
+  }
 }

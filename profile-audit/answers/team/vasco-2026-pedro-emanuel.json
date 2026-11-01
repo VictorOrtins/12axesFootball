@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Pedro Emanuel prepared 'para ter a bola e não permitir contra-ataques' (Santos) and wants possession 'mais objetiva', with offensive transition part of the game; the Fluminense win also used a counter. Ball-leaning, but not sterile possession.", "answers": { "pos_01": "C", "pos_05": "C", "pos_02": "N", "pos_03": "C", "pos_04": "D" } },
-  "pro": { "personaBrief": "He asks for more objectivity when reaching 'entrelinhas' and says offensive transition is part of the game; the 2-0 vs Fluminense came from a fast counter. Build-up under pressure is a verified gap, so pro_02 leans on general knowledge.", "answers": { "pro_01": "C", "pro_05": "C", "pro_04": "D", "pro_03": "D", "pro_02": "N" } },
-  "est": { "personaBrief": "VAVEL describes a 'rigoroso' 4-2-3-1 / 4-1-4-1 with defined roles (Gómez left, Paulo Henrique overlapping right) and he talks of rigour and a shared 'processo de jogo'; players float between the lines, so wingers can come inside.", "answers": { "est_02": "D", "est_01": "C", "est_05": "C", "est_04": "C", "est_03": "D" } },
-  "lar": { "personaBrief": "Against Fluminense the attack ran through Andrés Gómez on the left and constant overlaps of Paulo Henrique on the right, with a low cross for Brenner's goal: the flanks are a main route.", "answers": { "lar_03": "C", "lar_04": "D", "lar_02": "D", "lar_05": "N", "lar_01": "C" } },
-  "blo": { "personaBrief": "Mid/high 4-1-4-1 block with individual marking that 'asfixiaram a saída de bola' of Fluminense, and 23 recoveries in the offensive half vs Santos with coordinated pressure: a pressing team.", "answers": { "blo_04": "D", "blo_05": "C", "blo_01": "C", "blo_02": "D", "blo_03": "CT" } },
-  "mar": { "personaBrief": "The only analysis shows 'marcações individuais' encaixed on Fluminense's build-up, possibly a match plan; set-piece marking is a gap, so corners lean on general Portuguese-coach knowledge (zonal/mixed).", "answers": { "mar_03": "C", "mar_01": "D", "mar_02": "N", "mar_05": "D", "mar_04": "C" } },
-  "pla": { "personaBrief": "He 'zerou tudo' and installed his plan, but the Fluminense win was a tailored organization 'que neutralizou o sistema de Zubeldía', and he switches 'modo campeonato' to 'modo copas': identity with strong opponent-specific adaptation.", "answers": { "pla_04": "C", "pla_05": "D", "pla_01": "C", "pla_03": "D", "pla_02": "N" } },
-  "res": { "personaBrief": "Result-driven: 'cirúrgico' changes and a late back five to 'fechar a casa' vs Fluminense, an unbeaten cup run with few goals conceded, and a relegation fight in the league.", "answers": { "res_04": "D", "res_01": "D", "res_03": "CT", "res_05": "C", "res_02": "N" } },
-  "sis": { "personaBrief": "'Todos intervêm, todos fazem parte do nosso processo de jogo' and 'para se entrar na equipe, tem que ser melhor': the collective plan and pressing duties come before individual licence.", "answers": { "sis_02": "D", "sis_05": "C", "sis_03": "C", "sis_01": "C", "sis_04": "D" } },
-  "jog": { "personaBrief": "No verified evidence on player type (gap); from general knowledge and consistent with the verified intensity (pressing, 'colocar o mais fresco para correr', midfield trio that 'esmagou' Fluminense) he values intensity but also passing quality in midfield.", "answers": { "jog_02": "C", "jog_05": "D", "jog_03": "D", "jog_04": "D", "jog_01": "N" } },
-  "bas": { "personaBrief": "He praises academy player Ramon Rique and wants more like him, but 'não quero queimar etapas' and won't drop performing players for a new one: youth is developed gradually while experience carries the team.", "answers": { "bas_02": "C", "bas_03": "N", "bas_01": "D", "bas_05": "D", "bas_04": "C" } },
-  "lid": { "personaBrief": "Demanding meritocracy ('quem tiver a oportunidade terá que mostrar serviço, senão outro entra') with emphasis on mental freshness and a united group; authority with care for the group.", "answers": { "lid_03": "D", "lid_01": "CT", "lid_02": "C", "lid_04": "C", "lid_05": "N" } }
+  "pos": {
+    "personaBrief": "Pedro Emanuel prepared 'para ter a bola e não permitir contra-ataques' (Santos) and wants possession 'mais objetiva', with offensive transition part of the game; the Fluminense win also used a counter. Ball-leaning, but not sterile possession.",
+    "answers": {
+      "pos_01": "C",
+      "pos_05": "C",
+      "pos_02": "N",
+      "pos_03": "C",
+      "pos_04": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "He asks for more objectivity when reaching 'entrelinhas' and says offensive transition is part of the game; the 2-0 vs Fluminense came from a fast counter. Build-up under pressure is a verified gap, so pro_02 leans on general knowledge.",
+    "answers": {
+      "pro_01": "C",
+      "pro_05": "C",
+      "pro_04": "D",
+      "pro_03": "D",
+      "pro_02": "N"
+    }
+  },
+  "est": {
+    "personaBrief": "VAVEL describes a 'rigoroso' 4-2-3-1 / 4-1-4-1 with defined roles (Gómez left, Paulo Henrique overlapping right) and he talks of rigour and a shared 'processo de jogo'; players float between the lines, so wingers can come inside.",
+    "answers": {
+      "est_02": "D",
+      "est_01": "C",
+      "est_05": "C",
+      "est_04": "C",
+      "est_03": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "Against Fluminense the attack ran through Andrés Gómez on the left and constant overlaps of Paulo Henrique on the right, with a low cross for Brenner's goal: the flanks are a main route.",
+    "answers": {
+      "lar_03": "C",
+      "lar_04": "D",
+      "lar_02": "D",
+      "lar_05": "N",
+      "lar_01": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "Mid/high 4-1-4-1 block with individual marking that 'asfixiaram a saída de bola' of Fluminense, and 23 recoveries in the offensive half vs Santos with coordinated pressure: a pressing team.",
+    "answers": {
+      "blo_04": "D",
+      "blo_05": "C",
+      "blo_01": "C",
+      "blo_02": "D",
+      "blo_03": "CT"
+    }
+  },
+  "mar": {
+    "personaBrief": "The only analysis shows 'marcações individuais' encaixed on Fluminense's build-up, possibly a match plan; set-piece marking is a gap, so corners lean on general Portuguese-coach knowledge (zonal/mixed).",
+    "answers": {
+      "mar_03": "C",
+      "mar_01": "D",
+      "mar_02": "N",
+      "mar_05": "D",
+      "mar_04": "C"
+    }
+  },
+  "pla": {
+    "personaBrief": "He 'zerou tudo' and installed his plan, but the Fluminense win was a tailored organization 'que neutralizou o sistema de Zubeldía', and he switches 'modo campeonato' to 'modo copas': identity with strong opponent-specific adaptation.",
+    "answers": {
+      "pla_04": "C",
+      "pla_05": "D",
+      "pla_01": "C",
+      "pla_03": "D",
+      "pla_02": "N"
+    }
+  },
+  "res": {
+    "personaBrief": "Result-driven: 'cirúrgico' changes and a late back five to 'fechar a casa' vs Fluminense, an unbeaten cup run with few goals conceded, and a relegation fight in the league.",
+    "answers": {
+      "res_04": "D",
+      "res_01": "D",
+      "res_03": "CT",
+      "res_05": "C",
+      "res_02": "N"
+    }
+  },
+  "sis": {
+    "personaBrief": "'Todos intervêm, todos fazem parte do nosso processo de jogo' and 'para se entrar na equipe, tem que ser melhor': the collective plan and pressing duties come before individual licence.",
+    "answers": {
+      "sis_02": "D",
+      "sis_05": "C",
+      "sis_03": "C",
+      "sis_01": "C",
+      "sis_04": "D"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified evidence on player type (gap); from general knowledge and consistent with the verified intensity (pressing, 'colocar o mais fresco para correr', midfield trio that 'esmagou' Fluminense) he values intensity but also passing quality in midfield.",
+    "answers": {
+      "jog_02": "C",
+      "jog_05": "D",
+      "jog_03": "D",
+      "jog_04": "D",
+      "jog_01": "N"
+    }
+  },
+  "bas": {
+    "personaBrief": "He praises academy player Ramon Rique and wants more like him, but 'não quero queimar etapas' and won't drop performing players for a new one: youth is developed gradually while experience carries the team.",
+    "answers": {
+      "bas_02": "C",
+      "bas_03": "N",
+      "bas_01": "D",
+      "bas_05": "D",
+      "bas_04": "C"
+    }
+  },
+  "lid": {
+    "personaBrief": "Demanding meritocracy ('quem tiver a oportunidade terá que mostrar serviço, senão outro entra') with emphasis on mental freshness and a united group; authority with care for the group.",
+    "answers": {
+      "lid_03": "D",
+      "lid_01": "CT",
+      "lid_02": "C",
+      "lid_04": "C",
+      "lid_05": "N"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "A",
+    "organizacao": "B",
+    "treinador": "D",
+    "final": "A"
+  }
 }

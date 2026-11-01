@@ -1,0 +1,556 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Futebol-arte / jogo bonito" (catalog: football-ideology), answering as the football ideology Futebol-arte / jogo bonito, answering as a coach committed to it would, as its exemplars practised it in its era. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/football-ideology/futebol-arte.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK football-ideology:futebol-arte".
+
+=== RESEARCH FILE (football-ideology/futebol-arte.json) ===
+{
+  "id": "futebol-arte",
+  "catalog": "football-ideology",
+  "name": "Futebol-arte / jogo bonito",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1958",
+    "end": "1993"
+  },
+  "scopeNote": "Brazilian flair football where individual talent comes first, defined against 'futebol-força' / 'futebol de resultado'. Includes the 'street football / fluid freedom' idea merged into this entry. Period = the era in which it was practised by its exemplars: Brazil's 1958 World Cup (Feola) through Telê Santana's São Paulo double world club title of 1993; partial dates (years only) because the idea has no single founding match. The name predates the period: academic sources trace the idea to Gilberto Freyre's 'Foot-ball mulato' (Diário de Pernambuco, 17 June 1938), who opposed a 'dionisíaco' Brazilian style to an 'apolíneo' European one (Marques & César, FuLiA/UFMG 2018); it is a journalist/intellectual label, not a manager's. The explicit 'futebol-arte x futebol-força' opposition is documented in the 1978 press around Coutinho's Brazil (Cabo, Intercom 2016), and Telê Santana became its symbol in the 1980s-90s press (Maluly 1998, on Armando Nogueira). Maluly's working definition: 'o jogo tido como espetáculo, que valoriza a técnica do jogador através da exploração de sua habilidade, criação e liberdade em campo... com a tática servindo apenas como referencial, mantendo uma consonância entre o indivíduo e o conjunto.' The evidence supports 'futebol-arte' as the label, with the caveat that several academics (Guedes 2014, Helal) call it partly a media construction built on rare highlight moments.",
+  "exemplars": [
+    {
+      "id": "brazil-1958",
+      "kind": "team",
+      "reason": "First world title; 4-2-4 with Didi, Garrincha and the 17-year-old Pelé, balanced by Zagallo as a withdrawn left winger."
+    },
+    {
+      "id": "brazil-1962",
+      "kind": "team",
+      "reason": "Second title under Aymoré Moreira, carried by Garrincha's individual talent after Pelé's injury; a more conservative 4-2-4 close to 4-3-3."
+    },
+    {
+      "id": "brazil-1970",
+      "kind": "team",
+      "reason": "The emblem of futebol-arte: Zagallo's 'five 10s' fitted into a 4-3-3 with free movement up front."
+    },
+    {
+      "id": "brazil-1982",
+      "kind": "team",
+      "reason": "Telê Santana's side, remembered as the last Brazil team of pure futebol-arte; lost 3-2 to Italy at Sarrià."
+    },
+    {
+      "id": "sao-paulo-1992-93",
+      "kind": "team",
+      "reason": "Telê's São Paulo, double Libertadores and Intercontinental winner, hailed in 1993 as the rebirth of 'futebol jogado com engenho e arte'."
+    },
+    {
+      "id": "vicente-feola",
+      "kind": "manager",
+      "reason": "Brazil manager in 1958; brought in Garrincha, Vavá and Pelé for the decisive group game."
+    },
+    {
+      "id": "aymore-moreira",
+      "kind": "manager",
+      "reason": "Brazil manager in 1962."
+    },
+    {
+      "id": "mario-zagallo",
+      "kind": "manager",
+      "reason": "Left winger in 1958/62 and manager in 1970; fitted the 'five 10s' into one team."
+    },
+    {
+      "id": "tele-santana",
+      "kind": "manager",
+      "reason": "Brazil 1982/86 and São Paulo 1990-96; the press's symbol of futebol-arte and its most explicit defender."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Where the exemplars differ: 1958/62 depended on Zagallo as a defensive 'falso extremo' and 1970 on order, discipline and Cooper-method fitness ('I want discipline and order, will and self-sacrifice', Zagallo 1970), while 1982 fielded all its stars with no right winger and 'defendeu muito mal' (Trivela). Is futebol-arte 'talent inside a structure' (1958-70, São Paulo) or 'talent first, structure second' (1982)? The sis and est axes depend on this.",
+    "Width conflict for 1982: Goal (2020) says the attacking full-backs Leandro and Júnior 'proved particularly effective'; Trivela (2020/22) says against Italy the lack of a right winger left 'almost no play down the flanks' as Júnior and Leandro moved inside. The 1958-70 teams had real wingers (Garrincha, Jairzinho) and Saldanha in 1978 lamented the 'incrível falta de ponteiros'. Decide the lar axis by era.",
+    "Marking (mar) is not stated for any exemplar. A Coaches' Voice explainer (2022-08-19, https://learning.coachesvoice.com/cv/zonal-marking-football-tactics-explained-mourinho-conte-simeone/) credits Zezé Moreira's Fluminense in the 1950s with moving from man-marking to a zonal back four, but does not link it to the 1958-70 national team; Zagallo's 'pressão, meia-pressão, campo todo' marking levels for 1970 appear only in a Revista Oeste column summary (not read). The mar axis rests on inference.",
+    "Pressing and transitions have no verified fact: no source read describes how the exemplars pressed or what they did on winning/losing the ball.",
+    "Label: academic critics (Guedes 2014, Helal 2002/2012, quoted in Marques & César 2018) argue futebol-arte is a memory built on rare moments and that the 1970 side 'se utilizou de métodos de preparação física dos mais modernos da época'. Should the profile describe the idea as the media and Telê preached it (spectacle, talent) or as the teams actually played (more structured)?",
+    "Period: 1958-1993 covers the exemplars; the idea itself is older (Freyre 1938). Confirm the start date, and whether Brazil 1986 (Telê) belongs among the exemplars.",
+    "Manager ids not yet in the catalog: 'vicente-feola', 'aymore-moreira', 'mario-zagallo' (he is often just 'Zagallo'); team ids 'brazil-1958', 'brazil-1962', 'sao-paulo-1992-93'. Confirm before reuse.",
+    "1982 v Italy: Goal says Telê 'instructed his side to go looking for a winner' when a draw sufficed; Trivela says the equaliser after Italy's third goal was sought 'sem muita urgência'. The famous 'rather win playing well than lose playing badly' line appears only in Goal's English rendering with no date or primary source and was not saved.",
+    "Distinctness: La Nuestra shares the dribbling/improvisation core but is Argentine criollo football (Helal's '\"Jogo Bonito\" y Fútbol Criollo' treats them as rival national myths). The 1958 4-2-4 overlaps with the Hungarian fluid 4-2-4 (Coaches' Voice links it to Guttmann). validate.py already uses brazil-1970 and brazil-1982 as 'relational' anchors on est, which overlaps with Relationism / Diniz: keep futebol-arte defined by its purpose (spectacle, talent first) rather than by structure."
+  ],
+  "sources": [
+    {
+      "title": "O futebol-arte brasileiro: uma tradição continuamente reinventada e contestada",
+      "url": "https://periodicos.ufmg.br/index.php/fulia/article/download/13876/11063/37589",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2018",
+      "eventDate": "1938-06-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "José Carlos Marques & Nathaly Barbieri Marcondes César (FuLiA/UFMG v.3 n.2, 2018). Origin of the label: 'conceito que tem origem no sociólogo, antropólogo e escritor Gilberto Freyre, com o artigo \"Foot-ball mulato\", publicado no Diário de Pernambuco em 17 de junho de 1938.' Freyre's Brazilian style 'dionisíaco... caracterizado pelo floreio e pelo improviso, ganhando liberdade para ostentar talentos individuais'. Context only: the event is before the profile period and Freyre is not a manager. PDF text extracted locally (pdftotext).",
+      "verified": false
+    },
+    {
+      "title": "O futebol-arte brasileiro: uma tradição continuamente reinventada e contestada",
+      "url": "https://periodicos.ufmg.br/index.php/fulia/article/download/13876/11063/37589",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2018",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Helal (O Globo, 2012), quoted: the 1970 team 'é idealizada como uma equipe que não precisava treinar. No entanto, temos evidências de que aquela seleção se utilizou de métodos de preparação física dos mais modernos da época.' Also: Pelé and Zico 'construíram suas carreiras a partir da dedicação aos treinos'. Futebol-arte defined by 'os dribles, a ginga, a malandragem'; 'não bastaria ao futebol brasileiro apenas vencer, mas vencer jogando bonito.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Futebol Força x Futebol-arte. O debate em torno do \"estilo\" brasileiro no Mundial da Argentina em 1978",
+      "url": "https://www.leme.uerj.br/wp-content/uploads/2017/03/r11-3274-1.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2016-09",
+      "eventDate": "1978-06-23",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Alvaro Vicente do Cabo (Intercom 2016), quoting period press. Placar n.426, 23 Jun 1978: 'Reinaldo que acordou no domingo como titular foi barrado para que Roberto (com mais força em todos os sentidos) entrasse... Coutinho na verdade queria um time \"de força\"... Queria Chicão e Batista lutando pela posse de bola'. Jornal do Brasil reader letter, 15 Jun 1978: 'Jamais compreenderei a razão de se trocar o maravilhoso futebol veloz, espontâneo, versátil e inigualável dos sul-americanos pelo esquematizado, lento, estudado e pesado futebol dos europeus... os jogadores não são robôs.' Defines futebol-arte by contrast: technical, skilful players over strong 'lutadores'. Text extracted locally from the PDF.",
+      "verified": true
+    },
+    {
+      "title": "Futebol Força x Futebol-arte. O debate em torno do \"estilo\" brasileiro no Mundial da Argentina em 1978",
+      "url": "https://www.leme.uerj.br/wp-content/uploads/2017/03/r11-3274-1.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2016-09",
+      "eventDate": "1978-06-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "João Saldanha, 'Futebol brasileiro é assim', Jornal do Brasil n.78, 25 Jun 1978, p.30: 'Passamos a Copa inteira fazendo \"jogo europeu\"... Nossos jogadores, hábeis dribladores, começaram a dar dribles. Coisa que não se via há muito tempo. Reinaldo com sua grande capacidade de deslocamento supriu a incrível falta de ponteiros que sempre tivemos nessa Copa do Mundo.' Clarín, 15 Jun 1978: 'juego refinado con el toque de primera y la pelota al ras del suelo'. The futebol-arte camp expected wingers and dribbling.",
+      "verified": true
+    },
+    {
+      "title": "Futebol Força x Futebol-arte. O debate em torno do \"estilo\" brasileiro no Mundial da Argentina em 1978",
+      "url": "https://www.leme.uerj.br/wp-content/uploads/2017/03/r11-3274-1.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2016-09",
+      "eventDate": "1978",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Guedes (2014), quoted: 'às \"manhas e astúcias\" do \"futebol-arte\" se opõe a eficiência do \"futebol-força\", a espontaneidade, liberdade e criatividade individuais opõem-se a disciplina tática.' Cabo: in 1978 the 'futebol artístico' was confronted with Coutinho's modernisation 'inspirado em inovações táticas europeias e que enfatizavam a preparação física dos atletas'. The defining contrast is individual freedom vs tactical discipline; the Guedes line is a 2014 retrospective framing of the 1978 debate.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Zagallo: o ponto de equilíbrio no Brasil de Pelé e Garrincha",
+      "url": "https://www.abola.pt/noticias/zagallo-o-ponto-de-equilibrio-no-brasil-de-pele-e-garrincha-2024010617101695310",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-01-06",
+      "eventDate": "1958",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Luís Mateus (A Bola). 1958: Feola's team made 'Mario Zagallo o ponto de equilíbrio do 4x2x4'; Zagallo 'funciona como falso extremo-esquerdo, recuando nos momentos sem bola'. 'O talento está obviamente no futebol de rua dos dois jovens' (Pelé and Garrincha). 1962 under Aymoré Moreira: 'um 4x2x4 ainda um pouco mais conservador e, na verdade, mais próximo do 4x3x3', Zagallo 'a partir de um posicionamento mais baixo, ao lado dos médios'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Zagallo: o ponto de equilíbrio no Brasil de Pelé e Garrincha",
+      "url": "https://www.abola.pt/noticias/zagallo-o-ponto-de-equilibrio-no-brasil-de-pele-e-garrincha-2024010617101695310",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-01-06",
+      "eventDate": "1958",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Feola set aside the reports of psychologist João Carvalhães on 'a alegada falta de maturidade de Pelé e Garrincha' and played them. 1962: the title 'surge quase só assente no talento individual do pequeno pássaro Garrincha' after 'Pelé lesiona-se ao segundo jogo'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O homem que inventou o 4-3-3",
+      "url": "https://decalcanhar.substack.com/p/o-homem-que-inventou-o-4-3-3",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-01-08",
+      "eventDate": "1958",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Miguel L. Pereira (De Calcanhar). 1958: 'um claro 4-2-4 que utilizava a famosa diagonal'; Garrincha, Vavá and Pelé 'introduzidos pelo técnico Vicente Feola para o terceiro e decisivo jogo da fase de grupos contra a União Soviética'. 'Zagallo oferecia pela esquerda mais trabalho táctico do que Garrincha no lado oposto.' On 1970: the balance came 'mais pelo génio dos jogadores do que pela genialidade táctica de Zagallo' (author's opinion).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Tony Hodson (Coaches' Voice). 1970: 'something resembling a false 4-3-3 formation'; the back four and Clodoaldo gave structure while the front five, the 'Five 10s', moved freely. 'The principle of pass and move was at the heart of everything.' 'No player was allowed to stand still.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "'The build-up started with Piazza, who linked with Clodoaldo or one of the full-backs.' 'The idea was that Piazza's ability on the ball would improve the team's build-up play from deep' (midfielder converted to centre-back).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Against structured attacks the team 'set up with a much lower block', shifting towards a 4-4-1-1; 'Zagallo had built a team to defend with the ball'. Zagallo 'knew that the Mexican heat would make it almost impossible for teams to sustain high-pressing tactics against them.' Does not say zonal or man.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "'The full-backs provided attacking width'; Carlos Alberto and Everaldo were pushed forward 'to attack almost as wingers'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Zagallo 'believed that his best players should always be on the pitch.' 'His belief was that individual talent would always excel, as long as it was supported by order and teamwork.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "At his first meeting with the 1970 squad Zagallo reportedly said: 'I want discipline and order, will and self-sacrifice from all of you.' Undated in the article.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: a Alemanha Ocidental fica com o bronze e Zagallo detalha a tática da Seleção",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-20",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Leandro Stein (Trivela), reproducing a Zagallo interview to Jornal dos Sports during the 1970 World Cup (exact date not given; around the third-place match). Zagallo calls his plan the '4-3-3 anterior' and would not depart from it. Rivellino was fitted on the left not as a fixed winger: he 'passou a combater e a marcar'; Tostão dropped and moved across to open space for Pelé, who was asked to drop back to help the midfield; from the Czechoslovakia game Jairzinho had to track the opposing full-back. Period quote.",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: a Alemanha Ocidental fica com o bronze e Zagallo detalha a tática da Seleção",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-20",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Same Jornal dos Sports interview (1970): Zagallo praises Jairzinho's 'absoluta disciplina de jogo', calls the squad's team spirit extraordinary, says the team 'precisava também apurar o seu estado físico', and presents the selection as his own judgment rather than press pressure. Period quote.",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: a apoteose do inigualável esquadrão, o Brasil é tricampeão mundial",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-apoteose-do-inigualavel-esquadrao-o-brasil-e-tricampeao-mundial/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06-21",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Leandro Stein (Trivela) on the 1970 final v Italy (4-1): Brazil 'era uma equipe bem composta e que tinha mais posse de bola'; Italy kept its 'estratégia de marcação individual', which 'abria uma avenida a Carlos Alberto Torres'. The team 'virou um emblema do futebol-arte'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: a apoteose do inigualável esquadrão, o Brasil é tricampeão mundial",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-apoteose-do-inigualavel-esquadrao-o-brasil-e-tricampeao-mundial/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06-21",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Zagallo on the final plan: 'Pedi para os jogadores forçarem o lado esquerdo italiano' (undated in the article; an opponent-specific instruction). Unchanged XI from the semi-final. 'A preparação física da seleção brasileira era baseada nos métodos de Kenneth Cooper.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "An extraordinary Selecao - how Guardiola was shaped by Brazil's 1982 World Cup failure",
+      "url": "https://www.goal.com/en-ug/news/an-extraordinary-selecao---how-guardiola-was-shaped-by-brazils-1982-world-cup-failure/e2n4wi14yxl1mkgso2jsndu5",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-14",
+      "eventDate": "1982",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Jonathan Smith (Goal). 1982 side 'built around a brilliant midfield made up of Socrates, Toninho Cerezo and Zico, and flexible forwards Falcao and Eder'; 'the use of offensive full-backs, in Leandro and Junior, proved particularly effective.' Before Italy Telê 'instructed his side to go looking for a winner' though a draw sufficed (no source given).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "5 de julho de 1982: o dia que o encanto do Brasil caiu para a Itália no Sarrià",
+      "url": "https://trivela.com.br/copa-do-mundo/5-de-julho-de-1982-o-dia-que-o-encanto-do-brasil-caiu-para-a-italia-no-sarria/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-07-05",
+      "eventDate": "1982-07-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Bruno Bonsanti (Trivela, first published 2020-03-30). 'A grande questão tática do time brasileiro foi a ausência de um ponta direita'; Falcão, Sócrates and Zico rotated into the right-wing space and Júnior and Leandro moved inside, leaving almost no flank play. Jô Soares's 'Bota ponta, Telê!'. XI: Valdir Peres; Leandro, Oscar, Luizinho, Júnior; Falcão, Cerezo, Sócrates, Zico; Éder, Serginho.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "5 de julho de 1982: o dia que o encanto do Brasil caiu para a Itália no Sarrià",
+      "url": "https://trivela.com.br/copa-do-mundo/5-de-julho-de-1982-o-dia-que-o-encanto-do-brasil-caiu-para-a-italia-no-sarria/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-07-05",
+      "eventDate": "1982-07-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Telê fielded his most talented players even at a tactical cost; nobody tracked Cabrini's forward runs and Brazil 'defendeu muito mal'. Does not describe the marking scheme or line height.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1982-06-20",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Luciano V. B. Maluly (UMESP, 1998), quoting O Estado de S. Paulo of 20 Jun 1982 on the foreign press's words for Brazil: '\"Deuses\", \"monstro de 11 cabeças\", \"mágicos\", \"bruxos\", \"exibição de arte\"'; and the Journal de Genève after the elimination: 'A alegria de jogar, a elegância de movimentos de homens talentosos'. Period quotes. PDF downloaded and text extracted locally.",
+      "verified": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1993-01-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Reali Júnior, O Estado de S. Paulo, 5 Jan 1993 (quoted): after São Paulo v Barcelona, Brazil 'voltou a ser o país a executar o jogo mais bonito do planeta'; French press: 'um espetáculo exemplar pela delicadeza e habilidade de seus atores'; 'Telê seria o \"futebol-audácia\", enquanto Parreira e Zagalo ainda hesitam um pouco entre duas fórmulas'. Armando Nogueira, Estadão 1 Jan 1993: São Paulo would 'restituir ao rebanho dos estádios a santa alegria do futebol jogado com engenho e arte'. Period press framing: spectacle and audacity as the purpose.",
+      "verified": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1993",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Roberto Benevides (Estadão sports editor), interview for the dissertation, 1997, on Telê's São Paulo: 'o Telê é um técnico que trabalha mais do que todos os outros os fundamentos... exige permanentemente que seus jogadores saibam passar, saibam driblar, saibam chutar e treina isso... Com o Telê, o Cafu passou a acertar cruzamentos.' Technique trained, not only selected.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1993",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Alberto Helena Júnior (Folha), interview 1997: São Paulo became 'bicampeão do mundo, sem grandes contratações, sem ir buscar, sem montar um supertime no sentido de contratar jogadores... utilizando os recursos limitados de um clube brasileiro'. Helena Júnior, Folha 15 Aug 1993: Telê's 1982 Brazil and São Paulo 'praticavam um futebol com a eficiência dos tempos atuais e com a beleza do passado'.",
+      "verified": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1986",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Before the 1986 World Cup, Telê's preparation saw 'a dispensa de Éder e Renato Gaúcho por indisciplina'; in 1989 'uma discussão com o atacante Renato Gaúcho' led Telê to resign from Flamengo. Telê criticised 'árbitros, dirigentes, treinadores e até jogadores que prejudicavam a apresentação do futebol como espetáculo'. Authority over stars.",
+      "verified": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1998",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Maluly's definition (from Castañon Rodrigues 1993, Proença, Lever): futebol-arte 'valoriza a técnica do jogador através da exploração de sua habilidade, criação e liberdade em campo; baseada na prática do jogo ofensivo que favorece as jogadas individuais... em que a marcação também incentiva ao ataque e aos gols, concedendo liberdade para o jogador se posicionar de acordo com o espaço deixado em campo pelo adversário, com a tática servindo apenas como referencial'. Futebol-força: 'obediência ao esquema tático rígido do treinador; centrado no jogo defensivo, tendo cada jogador a sua função e seu espaço predeterminado'. Context: a later definition, not tied to a match in the period.",
+      "verified": false
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo; jogos, títulos e legado",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Lance! (Lancepédia). Telê took over in October 1990 and 'apostou em jovens talentos que ainda não eram unanimidade': Cafu, Leonardo, Antônio Carlos, Ronaldão and Elivelton gained prominence 'em um sistema que valorizava a bola no chão'; Raí, under-used before Telê, became the 'líder técnico e emocional'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo; jogos, títulos e legado",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "The base of the São Paulo identity: 'posse de bola, técnica apurada, disciplina tática e excelência nos fundamentos'; 'um futebol ofensivo e sofisticado'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo; jogos, títulos e legado",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Training routine with long sessions and 'repetição exaustiva de fundamentos', including intensive set-piece work (page reader's paraphrase; no verbatim line on set pieces). 'Cobrança constante de concentração'; Telê 'elevou o nível de exigência nos treinos'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Continuam falando essa bobagem de que, em futebol, ou é jogar bem e perder, ou é mal e vencer. Acredito firmemente que se possa jogar bem e vencer. Não perdemos Copas anteriores por termos jogado bem. Aliás, mandar um time a campo para jogar bem é a obrigação de todo técnico. Vitórias ou derrotas são conseqüências.",
+      "date": "1994-06-15",
+      "source": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "provenance": "primary",
+      "note": "Telê Santana's own column 'Brasil deve sucesso aos seus jogadores', Folha de S. Paulo, 15 Jun 1994, as quoted with full reference in Maluly (1998); the Folha original was not opened."
+    },
+    {
+      "quote": "Mas tocar não quer dizer jogar para trás, rolar a bola do central para o lateral, do lateral para o central, do central para o outro central. Além de inútil, é um espetáculo feio.",
+      "date": "1994-07-01",
+      "source": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "provenance": "primary",
+      "note": "Telê Santana, 'Não dá pra entender tanta intranqüilidade', Folha de S. Paulo, 1 Jul 1994, quoted in Maluly (1998). Against sterile possession."
+    },
+    {
+      "quote": "Eu quero ganhar de qualquer maneira. O resto não interessa. Eu quero sair de campo com a vitória. É só isso que me interessa. Então, isso realmente acaba com o belíssimo futebol. (...) há um entendimento entre os jogadores para que tenhamos um bom conjunto, e neste conjunto então, que saiam as boas jogadas, e das boas jogadas então, vem a vitória e vem o título ou títulos. Assim que deve ser jogado o futebol.",
+      "date": "1997-07",
+      "source": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "provenance": "primary",
+      "note": "Telê Santana interview given exclusively for Maluly's dissertation, Belo Horizonte, July 1997. The first sentences describe the result-first attitude he rejects."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.gazetaesportiva.com/especiais/entre-atritos-e-glorias-tele-transformou-sao-paulo-com-elenco-viciado-em-titulos/",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.gazetaesportiva.com/especiais/entre-atritos-e-glorias-tele-transformou-sao-paulo-com-elenco-viciado-em-titulos/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.pressreader.com/australia/fourfourtwo/20211020/282097754889127",
+      "reason": "403"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "transitions"
+    ],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "hungarian-4-2-4",
+      "kind": "football-ideology",
+      "note": "Coaches' Voice ties the 1958 Brazil 4-2-4 to Béla Guttmann's approach; shared fluid 4-2-4 lineage."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "Good spread of verified facts (11 of 13 dimensions) and real period material: Zagallo's 1970 Jornal dos Sports interview, 1978 and 1982-93 press quoted in two academic works, and three primary Telê statements. But most tactical facts come from later retrospectives (one tier A Coaches' Voice piece, the rest tier B-C), pressing and transitions have nothing, marking is never stated as zonal or man, the exemplars disagree on structure and width (1970 vs 1982), and academics question how far the label describes how the teams played."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

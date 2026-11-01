@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Verified: Ajax controlled possession and 'retained the ball for a long time' against Milan in the 1995 final (single match); the team is built to have the ball, not to concede it and counter.", "answers": { "pos_04": "DT", "pos_01": "CT", "pos_03": "CT", "pos_05": "CT", "pos_02": "D" } },
-  "pro": { "personaBrief": "Verified: progression 'relied mostly on the speed of their passing in simple combinations' and long retention, with some vertical passes that were lost; patient short build-up from the back, but quick passing rather than sterile circulation.", "answers": { "pro_01": "N", "pro_02": "CT", "pro_03": "DT", "pro_05": "D", "pro_04": "D" } },
-  "est": { "personaBrief": "Verified: a 3-3-4 structure in possession that 'occupied the back line very well while controlling the center', i.e. fixed, spread positional occupation; wide players held width while the forwards linked play.", "answers": { "est_03": "C", "est_04": "C", "est_05": "CT", "est_02": "D", "est_01": "CT" } },
-  "lar": { "personaBrief": "Verified: the 3-3-4 occupied the whole back line and Finidi on the wing receiving from Reiziger was a key outlet; the team relied on two genuine wingers (Finidi, Overmars) holding width.", "answers": { "lar_03": "C", "lar_04": "D", "lar_02": "D", "lar_05": "CT", "lar_01": "C" } },
-  "blo": { "personaBrief": "Pressing is a research gap (no verified source); from general knowledge Van Gaal's Ajax defended high and pressed immediately after losing the ball, consistent with the verified dominant possession game in the opponent's half.", "answers": { "blo_05": "C", "blo_01": "CT", "blo_02": "DT", "blo_03": "CT", "blo_04": "DT" } },
-  "mar": { "personaBrief": "No verified evidence (gap); from general knowledge Ajax defended by spaces within a high, compact positional structure rather than dedicated man-markers, with aggressive pressing on whoever entered the zone.", "answers": { "mar_02": "D", "mar_05": "D", "mar_01": "C", "mar_04": "N", "mar_03": "D" } },
-  "pla": { "personaBrief": "No verified stated view (gap); from general knowledge Van Gaal imposed a fixed game model and played it against everyone, consistent with the verified 3-3-4 possession game used even against Milan in the final.", "answers": { "pla_04": "DT", "pla_01": "CT", "pla_05": "CT", "pla_03": "C", "pla_02": "D" } },
-  "res": { "personaBrief": "No verified evidence (gap); from general knowledge Van Gaal valued winning through his process, playing to win everywhere, while the final itself was won 1-0 with long possession rather than spectacle.", "answers": { "res_04": "D", "res_03": "D", "res_02": "D", "res_01": "N", "res_05": "D" } },
-  "sis": { "personaBrief": "No verified evidence (gap); from general knowledge Van Gaal's Ajax was a system-first team where every player, stars included, had a defined role, consistent with the rehearsed 3-3-4 structure that was verified.", "answers": { "sis_01": "CT", "sis_05": "CT", "sis_04": "DT", "sis_03": "CT", "sis_02": "D" } },
-  "jog": { "personaBrief": "No verified evidence (gap); from general knowledge the team prioritised technique and passing (consistent with verified fast combination play) while also demanding work rate and athleticism from everyone.", "answers": { "jog_05": "D", "jog_04": "D", "jog_02": "N", "jog_01": "C", "jog_03": "D" } },
-  "bas": { "personaBrief": "Verified: starting XI averaged 22 (24 with the experienced defenders), 18-year-old Kluivert scored the final winner; the unverified count says 13 of 18 came from the academy, with Rijkaard and Blind as the experienced core.", "answers": { "bas_05": "CT", "bas_03": "CT", "bas_01": "CT", "bas_02": "D", "bas_04": "DT" } },
-  "lid": { "personaBrief": "No verified evidence on people management (gap); from general knowledge Van Gaal ran the group with strict discipline and the coach's final word, applied equally to everyone.", "answers": { "lid_02": "D", "lid_01": "CT", "lid_03": "D", "lid_05": "D", "lid_04": "C" } }
+  "pos": {
+    "personaBrief": "Verified: Ajax controlled possession and 'retained the ball for a long time' against Milan in the 1995 final (single match); the team is built to have the ball, not to concede it and counter.",
+    "answers": {
+      "pos_04": "DT",
+      "pos_01": "CT",
+      "pos_03": "CT",
+      "pos_05": "CT",
+      "pos_02": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "Verified: progression 'relied mostly on the speed of their passing in simple combinations' and long retention, with some vertical passes that were lost; patient short build-up from the back, but quick passing rather than sterile circulation.",
+    "answers": {
+      "pro_01": "N",
+      "pro_02": "CT",
+      "pro_03": "DT",
+      "pro_05": "D",
+      "pro_04": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "Verified: a 3-3-4 structure in possession that 'occupied the back line very well while controlling the center', i.e. fixed, spread positional occupation; wide players held width while the forwards linked play.",
+    "answers": {
+      "est_03": "C",
+      "est_04": "C",
+      "est_05": "CT",
+      "est_02": "D",
+      "est_01": "CT"
+    }
+  },
+  "lar": {
+    "personaBrief": "Verified: the 3-3-4 occupied the whole back line and Finidi on the wing receiving from Reiziger was a key outlet; the team relied on two genuine wingers (Finidi, Overmars) holding width.",
+    "answers": {
+      "lar_03": "C",
+      "lar_04": "D",
+      "lar_02": "D",
+      "lar_05": "CT",
+      "lar_01": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "Pressing is a research gap (no verified source); from general knowledge Van Gaal's Ajax defended high and pressed immediately after losing the ball, consistent with the verified dominant possession game in the opponent's half.",
+    "answers": {
+      "blo_05": "C",
+      "blo_01": "CT",
+      "blo_02": "DT",
+      "blo_03": "CT",
+      "blo_04": "DT"
+    }
+  },
+  "mar": {
+    "personaBrief": "No verified evidence (gap); from general knowledge Ajax defended by spaces within a high, compact positional structure rather than dedicated man-markers, with aggressive pressing on whoever entered the zone.",
+    "answers": {
+      "mar_02": "D",
+      "mar_05": "D",
+      "mar_01": "C",
+      "mar_04": "N",
+      "mar_03": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "No verified stated view (gap); from general knowledge Van Gaal imposed a fixed game model and played it against everyone, consistent with the verified 3-3-4 possession game used even against Milan in the final.",
+    "answers": {
+      "pla_04": "DT",
+      "pla_01": "CT",
+      "pla_05": "CT",
+      "pla_03": "C",
+      "pla_02": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "No verified evidence (gap); from general knowledge Van Gaal valued winning through his process, playing to win everywhere, while the final itself was won 1-0 with long possession rather than spectacle.",
+    "answers": {
+      "res_04": "D",
+      "res_03": "D",
+      "res_02": "D",
+      "res_01": "N",
+      "res_05": "D"
+    }
+  },
+  "sis": {
+    "personaBrief": "No verified evidence (gap); from general knowledge Van Gaal's Ajax was a system-first team where every player, stars included, had a defined role, consistent with the rehearsed 3-3-4 structure that was verified.",
+    "answers": {
+      "sis_01": "CT",
+      "sis_05": "CT",
+      "sis_04": "DT",
+      "sis_03": "CT",
+      "sis_02": "D"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified evidence (gap); from general knowledge the team prioritised technique and passing (consistent with verified fast combination play) while also demanding work rate and athleticism from everyone.",
+    "answers": {
+      "jog_05": "D",
+      "jog_04": "D",
+      "jog_02": "N",
+      "jog_01": "C",
+      "jog_03": "D"
+    }
+  },
+  "bas": {
+    "personaBrief": "Verified: starting XI averaged 22 (24 with the experienced defenders), 18-year-old Kluivert scored the final winner; the unverified count says 13 of 18 came from the academy, with Rijkaard and Blind as the experienced core.",
+    "answers": {
+      "bas_05": "CT",
+      "bas_03": "CT",
+      "bas_01": "CT",
+      "bas_02": "D",
+      "bas_04": "DT"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence on people management (gap); from general knowledge Van Gaal ran the group with strict discipline and the coach's final word, applied equally to everyone.",
+    "answers": {
+      "lid_02": "D",
+      "lid_01": "CT",
+      "lid_03": "D",
+      "lid_05": "D",
+      "lid_04": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "A",
+    "organizacao": "B",
+    "treinador": "D",
+    "final": "B"
+  }
 }

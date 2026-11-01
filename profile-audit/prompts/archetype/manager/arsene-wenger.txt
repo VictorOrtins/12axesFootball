@@ -1,0 +1,125 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Arsène Wenger" (catalog: manager), answering as the manager Arsène Wenger, across the spells counted in the research file (spellsCounted). Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/arsene-wenger.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK manager:arsene-wenger".
+
+=== RESEARCH FILE (manager/arsene-wenger.json) ===
+{
+  "id": "arsene-wenger",
+  "catalog": "manager",
+  "name": "Arsène Wenger",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1987",
+    "end": "2018"
+  },
+  "scopeNote": "Manager profile of Arsène Wenger across two counted spells: Monaco (1987 to 17 September 1994: Ligue 1 1987-88, Coupe de France 1991) and Arsenal (1 October 1996 to 2018, when he stepped down: Premier League 1997-98, 2001-02 and 2003-04; FA Cups). Dates from the Wikipedia career section read at step 1: the Arsenal end is given only as 2018 in the excerpt read. Excluded: Nagoya Grampus Eight (1995-96; Emperor's Cup and Super Cup, outside the English era, not researched for tactics). Style: no tactical fact about Wenger's teams was read in the pages opened; the pages read give only quotes about his personal approach. The style claims in the search results (possession, quick passing, total football) are not verified and are not counted.",
+  "spellsCounted": [
+    {
+      "club": "Monaco",
+      "start": "1987",
+      "end": "1994-09-17",
+      "reason": "Ligue 1 1987-88 and the 1991 Coupe de France."
+    },
+    {
+      "club": "Arsenal",
+      "start": "1996-10-01",
+      "end": "2018",
+      "reason": "Three Premier League titles, including the 2003-04 unbeaten season, and six FA Cups; the era he is known for. End is the year given in the page excerpt (exact day not read)."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Nagoya Grampus Eight",
+      "start": "1995",
+      "end": "1996-08-28",
+      "reason": "Japanese club; Emperor's Cup and Super Cup, tactics not researched for this profile."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Wenger's tactics (shape, possession, pressing, marking) are not documented in any page read: the profile needs tier A-B sources before it can be audited with confidence."
+  ],
+  "sources": [],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "est",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table only; no tactical source read; the audit will answer the style from general knowledge."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

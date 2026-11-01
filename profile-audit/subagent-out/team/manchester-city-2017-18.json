@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "City averaged 70 per cent possession and aimed to dominate through long spells of possession that break the opponent tactically and mentally (Spielverlagerung; Coaches' Voice), though not possession for its own sake.", "answers": { "pos_04": "DT", "pos_05": "CT", "pos_02": "D", "pos_01": "CT", "pos_03": "CT" } },
-  "pro": { "personaBrief": "Build-up was patient and short through Ederson, Stones and Fernandinho as midfield libero, with the full-backs tucked in to keep circulation stable. Ederson could still hit long passes to near the opposition box, and the stated goal is moving the ball to move the opponent.", "answers": { "pro_01": "C", "pro_03": "DT", "pro_02": "CT", "pro_05": "D", "pro_04": "D" } },
-  "est": { "personaBrief": "Guardiola's positional play in a fixed 4-3-3: wingers held the touchline and players occupied set zones, with rotations to unbalance the opponent (Spielverlagerung; StatsBomb on Stoke).", "answers": { "est_04": "N", "est_03": "C", "est_02": "D", "est_01": "C", "est_05": "CT" } },
-  "lar": { "personaBrief": "Wingers stayed wide (Sané very wide, someone always at the byline) and low crosses were a feature. De Bruyne and Silva ran central midfield from the half-spaces, so play went both through the middle and down the wings.", "answers": { "lar_03": "C", "lar_05": "C", "lar_01": "D", "lar_02": "C", "lar_04": "D" } },
-  "blo": { "personaBrief": "High line, high press with full-backs pushing up, immediate counter-pressing that took away passing options, and only 10 per cent of opponent final-third entries coming from fast transitions. City only dropped compact at the box when pushed back.", "answers": { "blo_04": "DT", "blo_03": "CT", "blo_01": "CT", "blo_02": "D", "blo_05": "C" } },
-  "mar": { "personaBrief": "The press started man-oriented early in the season, but the centre-backs became less man-oriented as it went on, and the base remained zonal, space-oriented positional defending with no dedicated man-markers.", "answers": { "mar_02": "D", "mar_04": "C", "mar_01": "C", "mar_03": "D", "mar_05": "D" } },
-  "pla": { "personaBrief": "City kept the 4-3-3 and their own model, changing the structure only occasionally, while Guardiola adjusted match plans when he saw fit (Spielverlagerung). He imposed his model and bought players to fit it.", "answers": { "pla_04": "DT", "pla_02": "D", "pla_05": "C", "pla_01": "C", "pla_03": "C" } },
-  "res": { "personaBrief": "Guardiola rejects passing without purpose and wants intent toward goal (statedView 2014). His City attacked relentlessly to 100 points, and how they won mattered to him as much as the result.", "answers": { "res_05": "D", "res_04": "C", "res_03": "D", "res_02": "DT", "res_01": "C" } },
-  "sis": { "personaBrief": "A drilled positional system defined every role (Delph turned into an inverted full-back, everyone counter-presses). Still, the wingers were isolated to beat their man, and De Bruyne and Silva were 'the freest eights'.", "answers": { "sis_01": "C", "sis_04": "D", "sis_02": "C", "sis_03": "C", "sis_05": "C" } },
-  "jog": { "personaBrief": "A technical team (ball-playing keeper, passing centre-backs, Silva and De Bruyne), but with strong, athletic defenders underneath and an intense press, so physicality was required too.", "answers": { "jog_05": "D", "jog_02": "C", "jog_04": "DT", "jog_03": "D", "jog_01": "C" } },
-  "bas": { "personaBrief": "Built through about 463 million euros of signings, replacing older full-backs with younger ones and bringing in a 24-year-old Ederson. Young players like Sané and Jesus were key to the title, and the academy was a minor source.", "answers": { "bas_04": "D", "bas_01": "D", "bas_03": "N", "bas_05": "D", "bas_02": "D" } },
-  "lid": { "personaBrief": "No verified evidence (gap). From general knowledge, Guardiola ran the group with clear authority and demanding standards, and stars such as Yaya Toure were marginalised when they did not fit, which is consistent with the system-first evidence.", "answers": { "lid_03": "D", "lid_05": "N", "lid_01": "CT", "lid_02": "D", "lid_04": "C" } }
+  "pos": {
+    "personaBrief": "City averaged 70 per cent possession and aimed to dominate through long spells of possession that break the opponent tactically and mentally (Spielverlagerung; Coaches' Voice), though not possession for its own sake.",
+    "answers": {
+      "pos_04": "DT",
+      "pos_05": "CT",
+      "pos_02": "D",
+      "pos_01": "CT",
+      "pos_03": "CT"
+    }
+  },
+  "pro": {
+    "personaBrief": "Build-up was patient and short through Ederson, Stones and Fernandinho as midfield libero, with the full-backs tucked in to keep circulation stable. Ederson could still hit long passes to near the opposition box, and the stated goal is moving the ball to move the opponent.",
+    "answers": {
+      "pro_01": "C",
+      "pro_03": "DT",
+      "pro_02": "CT",
+      "pro_05": "D",
+      "pro_04": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "Guardiola's positional play in a fixed 4-3-3: wingers held the touchline and players occupied set zones, with rotations to unbalance the opponent (Spielverlagerung; StatsBomb on Stoke).",
+    "answers": {
+      "est_04": "N",
+      "est_03": "C",
+      "est_02": "D",
+      "est_01": "C",
+      "est_05": "CT"
+    }
+  },
+  "lar": {
+    "personaBrief": "Wingers stayed wide (Sané very wide, someone always at the byline) and low crosses were a feature. De Bruyne and Silva ran central midfield from the half-spaces, so play went both through the middle and down the wings.",
+    "answers": {
+      "lar_03": "C",
+      "lar_05": "C",
+      "lar_01": "D",
+      "lar_02": "C",
+      "lar_04": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "High line, high press with full-backs pushing up, immediate counter-pressing that took away passing options, and only 10 per cent of opponent final-third entries coming from fast transitions. City only dropped compact at the box when pushed back.",
+    "answers": {
+      "blo_04": "DT",
+      "blo_03": "CT",
+      "blo_01": "CT",
+      "blo_02": "D",
+      "blo_05": "C"
+    }
+  },
+  "mar": {
+    "personaBrief": "The press started man-oriented early in the season, but the centre-backs became less man-oriented as it went on, and the base remained zonal, space-oriented positional defending with no dedicated man-markers.",
+    "answers": {
+      "mar_02": "D",
+      "mar_04": "C",
+      "mar_01": "C",
+      "mar_03": "D",
+      "mar_05": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "City kept the 4-3-3 and their own model, changing the structure only occasionally, while Guardiola adjusted match plans when he saw fit (Spielverlagerung). He imposed his model and bought players to fit it.",
+    "answers": {
+      "pla_04": "DT",
+      "pla_02": "D",
+      "pla_05": "C",
+      "pla_01": "C",
+      "pla_03": "C"
+    }
+  },
+  "res": {
+    "personaBrief": "Guardiola rejects passing without purpose and wants intent toward goal (statedView 2014). His City attacked relentlessly to 100 points, and how they won mattered to him as much as the result.",
+    "answers": {
+      "res_05": "D",
+      "res_04": "C",
+      "res_03": "D",
+      "res_02": "DT",
+      "res_01": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "A drilled positional system defined every role (Delph turned into an inverted full-back, everyone counter-presses). Still, the wingers were isolated to beat their man, and De Bruyne and Silva were 'the freest eights'.",
+    "answers": {
+      "sis_01": "C",
+      "sis_04": "D",
+      "sis_02": "C",
+      "sis_03": "C",
+      "sis_05": "C"
+    }
+  },
+  "jog": {
+    "personaBrief": "A technical team (ball-playing keeper, passing centre-backs, Silva and De Bruyne), but with strong, athletic defenders underneath and an intense press, so physicality was required too.",
+    "answers": {
+      "jog_05": "D",
+      "jog_02": "C",
+      "jog_04": "DT",
+      "jog_03": "D",
+      "jog_01": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "Built through about 463 million euros of signings, replacing older full-backs with younger ones and bringing in a 24-year-old Ederson. Young players like Sané and Jesus were key to the title, and the academy was a minor source.",
+    "answers": {
+      "bas_04": "D",
+      "bas_01": "D",
+      "bas_03": "N",
+      "bas_05": "D",
+      "bas_02": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence (gap). From general knowledge, Guardiola ran the group with clear authority and demanding standards, and stars such as Yaya Toure were marginalised when they did not fit, which is consistent with the system-first evidence.",
+    "answers": {
+      "lid_03": "D",
+      "lid_05": "N",
+      "lid_01": "CT",
+      "lid_02": "D",
+      "lid_04": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "C",
+    "organizacao": "B",
+    "treinador": "D",
+    "final": "D"
+  }
 }

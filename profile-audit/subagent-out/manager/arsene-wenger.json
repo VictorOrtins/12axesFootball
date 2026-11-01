@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's Arsenal wanted the ball and dominated through quick passing possession, though the 2003-04 side was also lethal on the break with Henry.", "answers": { "pos_04": "D", "pos_03": "CT", "pos_02": "D", "pos_05": "C", "pos_01": "C" } },
-  "pro": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's teams played out on the ground with fast one-touch passing and took risks to break lines, while still hitting quick vertical balls for runners like Henry.", "answers": { "pro_02": "C", "pro_04": "D", "pro_01": "C", "pro_03": "D", "pro_05": "C" } },
-  "est": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger gave attackers freedom to move and combine (Henry drifting wide, Bergkamp dropping, Pires and Ljungberg coming inside) rather than drilling fixed zones.", "answers": { "est_01": "D", "est_04": "CT", "est_03": "D", "est_05": "D", "est_02": "C" } },
-  "lar": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's Arsenal attacked through intricate central combinations with wide players tucking inside, rarely relying on wingers crossing.", "answers": { "lar_02": "C", "lar_01": "D", "lar_05": "D", "lar_03": "D", "lar_04": "C" } },
-  "blo": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's teams defended in a compact mid-block 4-4-2 with a fairly high line rather than an aggressive high press or a deep low block.", "answers": { "blo_01": "D", "blo_03": "D", "blo_02": "D", "blo_04": "N", "blo_05": "D" } },
-  "mar": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's sides defended zonally, including his often-discussed zonal marking at set pieces, and he did not assign man-markers to stars.", "answers": { "mar_02": "D", "mar_03": "D", "mar_05": "D", "mar_01": "C", "mar_04": "CT" } },
-  "pla": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger was famously committed to his own way of playing and reluctant to adapt to opponents, even in big games against stronger rivals.", "answers": { "pla_01": "C", "pla_02": "D", "pla_03": "CT", "pla_04": "DT", "pla_05": "CT" } },
-  "res": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger saw football as an art meant to entertain and kept attacking rather than shutting games down.", "answers": { "res_05": "D", "res_03": "D", "res_04": "C", "res_01": "C", "res_02": "D" } },
-  "sis": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger trusted the intelligence and talent of his players, giving stars like Henry and Bergkamp freedom over rigid tactical drilling.", "answers": { "sis_01": "D", "sis_04": "C", "sis_02": "C", "sis_05": "D", "sis_03": "D" } },
-  "jog": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger prized technique and creative playmakers (Bergkamp, Fabregas, Ozil, Cazorla) while also valuing athletic power and pace (Vieira, Henry).", "answers": { "jog_02": "C", "jog_05": "D", "jog_04": "D", "jog_01": "C", "jog_03": "C" } },
-  "bas": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger trusted and developed young players (Fabregas, Wilshere, Henry and Vieira as young signings), mostly bought young rather than built from the club's own academy.", "answers": { "bas_05": "C", "bas_03": "C", "bas_01": "D", "bas_04": "D", "bas_02": "D" } },
-  "lid": { "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger led as a calm, trusting educator who protected his players and favoured a united group over iron-fist discipline, while keeping the final say.", "answers": { "lid_05": "C", "lid_02": "CT", "lid_01": "N", "lid_03": "C", "lid_04": "D" } }
+  "pos": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's Arsenal wanted the ball and dominated through quick passing possession, though the 2003-04 side was also lethal on the break with Henry.",
+    "answers": {
+      "pos_04": "D",
+      "pos_03": "CT",
+      "pos_02": "D",
+      "pos_05": "C",
+      "pos_01": "C"
+    }
+  },
+  "pro": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's teams played out on the ground with fast one-touch passing and took risks to break lines, while still hitting quick vertical balls for runners like Henry.",
+    "answers": {
+      "pro_02": "C",
+      "pro_04": "D",
+      "pro_01": "C",
+      "pro_03": "D",
+      "pro_05": "C"
+    }
+  },
+  "est": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger gave attackers freedom to move and combine (Henry drifting wide, Bergkamp dropping, Pires and Ljungberg coming inside) rather than drilling fixed zones.",
+    "answers": {
+      "est_01": "D",
+      "est_04": "CT",
+      "est_03": "D",
+      "est_05": "D",
+      "est_02": "C"
+    }
+  },
+  "lar": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's Arsenal attacked through intricate central combinations with wide players tucking inside, rarely relying on wingers crossing.",
+    "answers": {
+      "lar_02": "C",
+      "lar_01": "D",
+      "lar_05": "D",
+      "lar_03": "D",
+      "lar_04": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's teams defended in a compact mid-block 4-4-2 with a fairly high line rather than an aggressive high press or a deep low block.",
+    "answers": {
+      "blo_01": "D",
+      "blo_03": "D",
+      "blo_02": "D",
+      "blo_04": "N",
+      "blo_05": "D"
+    }
+  },
+  "mar": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger's sides defended zonally, including his often-discussed zonal marking at set pieces, and he did not assign man-markers to stars.",
+    "answers": {
+      "mar_02": "D",
+      "mar_03": "D",
+      "mar_05": "D",
+      "mar_01": "C",
+      "mar_04": "CT"
+    }
+  },
+  "pla": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger was famously committed to his own way of playing and reluctant to adapt to opponents, even in big games against stronger rivals.",
+    "answers": {
+      "pla_01": "C",
+      "pla_02": "D",
+      "pla_03": "CT",
+      "pla_04": "DT",
+      "pla_05": "CT"
+    }
+  },
+  "res": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger saw football as an art meant to entertain and kept attacking rather than shutting games down.",
+    "answers": {
+      "res_05": "D",
+      "res_03": "D",
+      "res_04": "C",
+      "res_01": "C",
+      "res_02": "D"
+    }
+  },
+  "sis": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger trusted the intelligence and talent of his players, giving stars like Henry and Bergkamp freedom over rigid tactical drilling.",
+    "answers": {
+      "sis_01": "D",
+      "sis_04": "C",
+      "sis_02": "C",
+      "sis_05": "D",
+      "sis_03": "D"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger prized technique and creative playmakers (Bergkamp, Fabregas, Ozil, Cazorla) while also valuing athletic power and pace (Vieira, Henry).",
+    "answers": {
+      "jog_02": "C",
+      "jog_05": "D",
+      "jog_04": "D",
+      "jog_01": "C",
+      "jog_03": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger trusted and developed young players (Fabregas, Wilshere, Henry and Vieira as young signings), mostly bought young rather than built from the club's own academy.",
+    "answers": {
+      "bas_05": "C",
+      "bas_03": "C",
+      "bas_01": "D",
+      "bas_04": "D",
+      "bas_02": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, Wenger led as a calm, trusting educator who protected his players and favoured a united group over iron-fist discipline, while keeping the final say.",
+    "answers": {
+      "lid_05": "C",
+      "lid_02": "CT",
+      "lid_01": "N",
+      "lid_03": "C",
+      "lid_04": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "A",
+    "organizacao": "A",
+    "treinador": "D",
+    "final": "D"
+  }
 }

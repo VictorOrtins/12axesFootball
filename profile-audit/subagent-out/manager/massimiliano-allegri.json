@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "No verified possession evidence (gap axis); from general knowledge Allegri openly dismisses possession as a measure of control, consistent with the verified pundit view of his pragmatic, defensive style at Juventus 2021-24.", "answers": { "pos_02": "CT", "pos_05": "D", "pos_03": "C", "pos_04": "C", "pos_01": "DT" } },
-  "pro": { "personaBrief": "No verified build-up evidence (gap axis); from general knowledge his sides mixed calm, unhurried circulation with direct long balls from Bonucci to target forwards, and avoided risk near their own box, fitting the verified 'pragmatic' label.", "answers": { "pro_02": "D", "pro_03": "DT", "pro_01": "CT", "pro_05": "D", "pro_04": "C" } },
-  "est": { "personaBrief": "The verified switches from Conte's 3-5-2 to a back four and occasional departures from it (2014-17) show a flexible, non-dogmatic structure built around players' interpretation rather than fixed positional zones.", "answers": { "est_03": "D", "est_01": "D", "est_05": "D", "est_02": "N", "est_04": "C" } },
-  "lar": { "personaBrief": "No verified width evidence (gap axis); from general knowledge his Milan 4-3-1-2 and Juventus 3-5-2 favoured extra central midfielders, with width from full-backs and crosses to target men rather than classic touchline wingers.", "answers": { "lar_03": "C", "lar_01": "D", "lar_04": "C", "lar_05": "D", "lar_02": "C" } },
-  "blo": { "personaBrief": "Verified: under Allegri Juventus became less aggressive in pressing off the ball (2014-15), and pundits note his defensive tactics (2021-24), pointing to a compact mid-to-low block rather than a high press.", "answers": { "blo_01": "D", "blo_02": "CT", "blo_05": "D", "blo_03": "D", "blo_04": "C" } },
-  "mar": { "personaBrief": "No direct marking fact; his defensive tactics (verified pundit view) were built on an Italian zonal back line covering spaces compactly, without dedicated man-markers on stars.", "answers": { "mar_04": "N", "mar_05": "D", "mar_02": "D", "mar_01": "C", "mar_03": "D" } },
-  "pla": { "personaBrief": "Verified formation changes between 3-5-2 and back four, praised for departing from the trademark shape (2016-17), plus the 'pragmatic' label show a coach who adapts to his players and opponents rather than imposing a fixed model.", "answers": { "pla_02": "C", "pla_04": "CT", "pla_01": "DT", "pla_03": "D", "pla_05": "DT" } },
-  "res": { "personaBrief": "Pundits' verified assessment of his rigid, pragmatic, defensive style (2021-24) and his trophy haul with Juventus fit a coach for whom the result is everything and aesthetics are secondary.", "answers": { "res_04": "DT", "res_03": "CT", "res_01": "DT", "res_02": "C", "res_05": "CT" } },
-  "sis": { "personaBrief": "His flexibility in shape (verified 2014-17) served to fit his best players; he trusts champions to decide games and gives stars like Dybala or Ronaldo freedom, while expecting work rate from the rest.", "answers": { "sis_03": "D", "sis_01": "D", "sis_04": "C", "sis_05": "D", "sis_02": "C" } },
-  "jog": { "personaBrief": "No verified player-profile evidence (gap axis); from general knowledge he valued technical playmakers like Pirlo and Pjanic and creative forwards, while his pragmatic sides also leaned on duels and physical defenders.", "answers": { "jog_03": "CT", "jog_04": "D", "jog_05": "C", "jog_02": "N", "jog_01": "C" } },
-  "bas": { "personaBrief": "No verified squad-building evidence (gap axis); from general knowledge his title sides relied on veterans and big signings, with youngsters like Fagioli, Miretti and Yildiz used mainly in 2022-24 out of necessity.", "answers": { "bas_01": "D", "bas_04": "CT", "bas_02": "C", "bas_03": "D", "bas_05": "D" } },
-  "lid": { "personaBrief": "No verified people-management evidence (gap axis); from general knowledge Allegri runs a calm, relaxed dressing room built on dialogue, but asserted authority when needed, for example dropping Bonucci to the stands in 2017.", "answers": { "lid_04": "C", "lid_05": "C", "lid_02": "C", "lid_03": "N", "lid_01": "C" } }
+  "pos": {
+    "personaBrief": "No verified possession evidence (gap axis); from general knowledge Allegri openly dismisses possession as a measure of control, consistent with the verified pundit view of his pragmatic, defensive style at Juventus 2021-24.",
+    "answers": {
+      "pos_02": "CT",
+      "pos_05": "D",
+      "pos_03": "C",
+      "pos_04": "C",
+      "pos_01": "DT"
+    }
+  },
+  "pro": {
+    "personaBrief": "No verified build-up evidence (gap axis); from general knowledge his sides mixed calm, unhurried circulation with direct long balls from Bonucci to target forwards, and avoided risk near their own box, fitting the verified 'pragmatic' label.",
+    "answers": {
+      "pro_02": "D",
+      "pro_03": "DT",
+      "pro_01": "CT",
+      "pro_05": "D",
+      "pro_04": "C"
+    }
+  },
+  "est": {
+    "personaBrief": "The verified switches from Conte's 3-5-2 to a back four and occasional departures from it (2014-17) show a flexible, non-dogmatic structure built around players' interpretation rather than fixed positional zones.",
+    "answers": {
+      "est_03": "D",
+      "est_01": "D",
+      "est_05": "D",
+      "est_02": "N",
+      "est_04": "C"
+    }
+  },
+  "lar": {
+    "personaBrief": "No verified width evidence (gap axis); from general knowledge his Milan 4-3-1-2 and Juventus 3-5-2 favoured extra central midfielders, with width from full-backs and crosses to target men rather than classic touchline wingers.",
+    "answers": {
+      "lar_03": "C",
+      "lar_01": "D",
+      "lar_04": "C",
+      "lar_05": "D",
+      "lar_02": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "Verified: under Allegri Juventus became less aggressive in pressing off the ball (2014-15), and pundits note his defensive tactics (2021-24), pointing to a compact mid-to-low block rather than a high press.",
+    "answers": {
+      "blo_01": "D",
+      "blo_02": "CT",
+      "blo_05": "D",
+      "blo_03": "D",
+      "blo_04": "C"
+    }
+  },
+  "mar": {
+    "personaBrief": "No direct marking fact; his defensive tactics (verified pundit view) were built on an Italian zonal back line covering spaces compactly, without dedicated man-markers on stars.",
+    "answers": {
+      "mar_04": "N",
+      "mar_05": "D",
+      "mar_02": "D",
+      "mar_01": "C",
+      "mar_03": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "Verified formation changes between 3-5-2 and back four, praised for departing from the trademark shape (2016-17), plus the 'pragmatic' label show a coach who adapts to his players and opponents rather than imposing a fixed model.",
+    "answers": {
+      "pla_02": "C",
+      "pla_04": "CT",
+      "pla_01": "DT",
+      "pla_03": "D",
+      "pla_05": "DT"
+    }
+  },
+  "res": {
+    "personaBrief": "Pundits' verified assessment of his rigid, pragmatic, defensive style (2021-24) and his trophy haul with Juventus fit a coach for whom the result is everything and aesthetics are secondary.",
+    "answers": {
+      "res_04": "DT",
+      "res_03": "CT",
+      "res_01": "DT",
+      "res_02": "C",
+      "res_05": "CT"
+    }
+  },
+  "sis": {
+    "personaBrief": "His flexibility in shape (verified 2014-17) served to fit his best players; he trusts champions to decide games and gives stars like Dybala or Ronaldo freedom, while expecting work rate from the rest.",
+    "answers": {
+      "sis_03": "D",
+      "sis_01": "D",
+      "sis_04": "C",
+      "sis_05": "D",
+      "sis_02": "C"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified player-profile evidence (gap axis); from general knowledge he valued technical playmakers like Pirlo and Pjanic and creative forwards, while his pragmatic sides also leaned on duels and physical defenders.",
+    "answers": {
+      "jog_03": "CT",
+      "jog_04": "D",
+      "jog_05": "C",
+      "jog_02": "N",
+      "jog_01": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "No verified squad-building evidence (gap axis); from general knowledge his title sides relied on veterans and big signings, with youngsters like Fagioli, Miretti and Yildiz used mainly in 2022-24 out of necessity.",
+    "answers": {
+      "bas_01": "D",
+      "bas_04": "CT",
+      "bas_02": "C",
+      "bas_03": "D",
+      "bas_05": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified people-management evidence (gap axis); from general knowledge Allegri runs a calm, relaxed dressing room built on dialogue, but asserted authority when needed, for example dropping Bonucci to the stands in 2017.",
+    "answers": {
+      "lid_04": "C",
+      "lid_05": "C",
+      "lid_02": "C",
+      "lid_03": "N",
+      "lid_01": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "B",
+    "elenco": "B",
+    "organizacao": "A",
+    "treinador": "A",
+    "final": "A"
+  }
 }

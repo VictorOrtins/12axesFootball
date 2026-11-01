@@ -1,0 +1,483 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Barcelona 2008–12" (catalog: team), answering as the team Barcelona 2008–12, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/barcelona-2008-12.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:barcelona-2008-12".
+
+=== RESEARCH FILE (team/barcelona-2008-12.json) ===
+{
+  "id": "barcelona-2008-12",
+  "catalog": "team",
+  "name": "Barcelona 2008–12",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2008-08-13",
+    "end": "2012-05-25"
+  },
+  "scopeNote": "Guardiola's first-team spell: all competitions 2008/09 to 2011/12. First competitive match Barcelona 4-0 Wisla Krakow, Champions League third qualifying round first leg, 2008-08-13; last Barcelona 3-0 Athletic Bilbao, Copa del Rey final, 2012-05-25 (both read on the Wikipedia season pages). Guardiola was appointed on 2008-07-01 per the manager file (friendlies from 24 July 2008 excluded) and his departure was announced on 2012-04-27. Style: positional play (juego de posición), which Spielverlagerung calls interpreted \"in a most extraordinary way\" by Guardiola's Barcelona (that piece was not saved as a source here, only seen in the manager file); evidence read here shows a 4-3-3 that becomes 3-4-3 or 4-2-4, Messi as false nine, high press and high line. Guardiola rejected the label \"tiki-taka\" (2014, in the manager file); mark the era as four seasons with changes (Eto'o/Henry wide forwards in 2008/09, Villa/Pedro in 2010/11, Busquets or Touré/Mascherano in defence).",
+  "managers": [
+    {
+      "managerId": "pep-guardiola",
+      "start": "2008-08-13",
+      "end": "2012-05-25"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Only two tier A match pieces cover 2009 and one the 2011 final; 2009/10 and 2011/12 rest on one fan-analysis blog and one undated-match TFA piece. The UEFA 2008/09 technical report (already used in the pep-guardiola manager file) was too large to fetch (over 10 MB), so it was not re-read here.",
+    "The Total Football Analysis Athletic piece (articleDate 2025-07-09) does not give the match date within 2011/12 (league or Copa del Rey final); its man-marking press claim is tied to that match only.",
+    "Game-management has no verified source: whether Guardiola changed plans by opponent or score is memory only.",
+    "Set-pieces have no verified source for this era (Barcelona's marking at corners, zonal vs man, not found).",
+    "People management (lid axis): only the June 2008 Ronaldinho/Deco/Eto'o statement was read; the later Ibrahimovic/Eto'o story (2009) has only search-summary support and is not saved.",
+    "Profile weights across four seasons: confirm whether the 2008/09 (Eto'o-Henry) and 2010-12 (Villa, Pedro, Fabregas, 3-4-3) versions should weigh equally."
+  ],
+  "sources": [
+    {
+      "title": "2008–09 FC Barcelona season",
+      "url": "https://en.wikipedia.org/wiki/2008–09_FC_Barcelona_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Dates only (read in parts, characters 0-300000): Champions League third qualifying round listed from 13 August 2008; first leg Barcelona 4-0 Wisla Krakow on 13 August 2008 (Camp Nou), second leg Wisla 1-0 Barcelona on 26 August 2008 (1-4 agg.). Earliest friendly listed: Hibernian 0-6 Barcelona, 24 July 2008. Used for the period, not as tactical evidence.",
+      "verified": false
+    },
+    {
+      "title": "2011–12 FC Barcelona season",
+      "url": "https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Dates only: last competitive match 25 May 2012, Copa del Rey final, Barcelona 3-0 Athletic Bilbao (\"Barcelona claimed its 26th Copa del Rey with a 0–3 victory over Athletic Bilbao\"); \"manager Pep Guardiola announced he would step down as coach at the end of the season\" (27 April 2012). Used for the period, not as tactical evidence.",
+      "verified": false
+    },
+    {
+      "title": "Pep Guardiola",
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2008/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Dates only: Guardiola announced he would step down on 27 April 2012; 14 trophies in four seasons; Tito Vilanova succeeded him. Titles in the period: 2008/09 treble, 2009 six-trophy calendar year, La Liga 2009/10 (99 points) and 2010/11, Champions League 2009 and 2011, Super Cup and Club World Cup 2011/12. Not tactical evidence.",
+      "verified": false
+    },
+    {
+      "title": "Barcelona – Tactical Evolution Keeping Them Ahead?",
+      "url": "https://thehardtackle.com/2011/barcelona-%E2%80%93-tactical-evolution-keeping-them-ahead/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-08-07",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"he sometimes deployed a loose 4-2-4 formation where Messi played off the striker\" (2009/10); for 2010/11, against Valencia \"Guardiola started the game with 3 centre backs, Busquets playing in the back line\". The article never uses \"4-3-3\".",
+      "verified": true
+    },
+    {
+      "title": "Bielsa vs Guardiola: Athletic Club vs Barcelona from 2011/12",
+      "url": "https://totalfootballanalysis.com/article/bielsa-vs-guardiola-athletic-club-vs-barcelona-from-201112",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-07-09",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"The starting 4-3-3 formation was often adjusted depending on the phase of the game\"; \"In those situations, they formed a 3-4-3, with Abidal joining the centre-backs and Alves joining the midfielders.\"",
+      "verified": true
+    },
+    {
+      "title": "Barcelona 3 Manchester United 1 (2011 classic matches)",
+      "url": "https://learning.coachesvoice.com/cv/barcelona-3-manchester-united-1-2011-classic-matches/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-28",
+      "eventDate": "2011-05-28",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"Barcelona were organised by their manager Pep Guardiola into a 4-3-3 formation led by the potent front three\" (Wembley final, 2011-05-28).",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 2009, Barcelona 2-0 Manchester United",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-2009-barcelona-2-0-manchester-united/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-28",
+      "eventDate": "2009-05-27",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"Messi lined up here as a False 9, with Eto'o and Thierry Henry either side of him as wide forwards\", \"essentially at the head of a diamond that had Sergio Busquets at its base\" (Rome final, 2009-05-27).",
+      "verified": true
+    },
+    {
+      "title": "Bielsa vs Guardiola: Athletic Club vs Barcelona from 2011/12",
+      "url": "https://totalfootballanalysis.com/article/bielsa-vs-guardiola-athletic-club-vs-barcelona-from-201112",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-07-09",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Barcelona tried to play from the back using their technical superiority to play in tight spaces and beat the pressure.\" \"The main goal when playing from the back was to create spaces using the whole width of the pitch.\"",
+      "verified": true
+    },
+    {
+      "title": "Barcelona 3 Manchester United 1 (2011 classic matches)",
+      "url": "https://learning.coachesvoice.com/cv/barcelona-3-manchester-united-1-2011-classic-matches/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-28",
+      "eventDate": "2011-05-28",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Mascherano and Piqué played into the feet of any of their three midfielders or Messi\"; \"Barça quickly establishing control of possession and managing the tempo of play\".",
+      "verified": true
+    },
+    {
+      "title": "Barcelona – Tactical Evolution Keeping Them Ahead?",
+      "url": "https://thehardtackle.com/2011/barcelona-%E2%80%93-tactical-evolution-keeping-them-ahead/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-08-07",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Retaining possession and quick interchange of passes\" was a core trait; in 2010/11 \"the center backs were to move towards the wings, which created plenty of space for Busquets\" to drop between them.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 2009, Barcelona 2-0 Manchester United",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-2009-barcelona-2-0-manchester-united/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-28",
+      "eventDate": "2009-05-27",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Barcelona \"started to string together long sequences of controlled and progressive possession\" (2009 final). No possession percentages in the piece.",
+      "verified": true
+    },
+    {
+      "title": "Messi Moments with Álex Delmás: Real Madrid 2-6 Barcelona, May 2009",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/messi-moments-with-alex-delmas-real-madrid-2-6-barcelona-may-2009/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-01",
+      "eventDate": "2009-05-02",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Dorrington: the 2008/09 side \"defended higher up and slightly more proactively than the 2006-07 team\"; Delmás: \"They were a team who occupied space in a very rational manner.\"",
+      "verified": true
+    },
+    {
+      "title": "Barcelona – Tactical Evolution Keeping Them Ahead?",
+      "url": "https://thehardtackle.com/2011/barcelona-%E2%80%93-tactical-evolution-keeping-them-ahead/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-08-07",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"intense pressing high up the opposition's half, have become the trademark of this team\"; in 2009/10 \"the team took their pressing to another level – it became quicker and more intense than the previous season.\"",
+      "verified": true
+    },
+    {
+      "title": "Bielsa vs Guardiola: Athletic Club vs Barcelona from 2011/12",
+      "url": "https://totalfootballanalysis.com/article/bielsa-vs-guardiola-athletic-club-vs-barcelona-from-201112",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-07-09",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"As was usual, Guardiola ordered his team to press very high.\" \"When Athletic tried to play from the back, Barcelona pressed very intensely all around the pitch.\" \"Barcelona almost man-mark every player, closing down every easy passing option.\" (man-oriented press in the opponent's build-up; the match is not dated in the extract).",
+      "verified": true
+    },
+    {
+      "title": "Barcelona – Tactical Evolution Keeping Them Ahead?",
+      "url": "https://thehardtackle.com/2011/barcelona-%E2%80%93-tactical-evolution-keeping-them-ahead/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-08-07",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "The defence \"played a high line and ran the risk of being caught out with a ball over the top\"; Yaya Touré's job \"was to protect the center-backs if the full backs were caught out position\".",
+      "verified": true
+    },
+    {
+      "title": "Messi Moments with Álex Delmás: Real Madrid 2-6 Barcelona, May 2009",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/messi-moments-with-alex-delmas-real-madrid-2-6-barcelona-may-2009/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-01",
+      "eventDate": "2009-05-02",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Dorrington: \"This season, only three teams defended higher up against Barça than Madrid did in this match.\" Gives no Barcelona line height, only that the side defended higher than in 2006/07.",
+      "verified": true
+    },
+    {
+      "title": "Bielsa vs Guardiola: Athletic Club vs Barcelona from 2011/12",
+      "url": "https://totalfootballanalysis.com/article/bielsa-vs-guardiola-athletic-club-vs-barcelona-from-201112",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-07-09",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"Barcelona were positioned as a block high up the pitch while in possession\" (not a line-height claim for defending).",
+      "verified": true
+    },
+    {
+      "title": "Barcelona 3 Manchester United 1 (2011 classic matches)",
+      "url": "https://learning.coachesvoice.com/cv/barcelona-3-manchester-united-1-2011-classic-matches/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-28",
+      "eventDate": "2011-05-28",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"Barça attempted to negate that with a particularly intense out-of-possession approach\"; \"It was even Barça's counter-press that led to their third goal\" (2011 final).",
+      "verified": true
+    },
+    {
+      "title": "Barcelona – Tactical Evolution Keeping Them Ahead?",
+      "url": "https://thehardtackle.com/2011/barcelona-%E2%80%93-tactical-evolution-keeping-them-ahead/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-08-07",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"On the left, Henry hugged the touch line while Messi would always cut in from the right\"; Alves \"bombing up and down the right flank\".",
+      "verified": true
+    },
+    {
+      "title": "Messi Moments with Álex Delmás: Real Madrid 2-6 Barcelona, May 2009",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/messi-moments-with-alex-delmas-real-madrid-2-6-barcelona-may-2009/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-01",
+      "eventDate": "2009-05-02",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Delmás: Guardiola \"instructed the two wide forwards, Thierry Henry and Samuel Eto'o, to consistently make runs in behind from the flanks\"; the wide forwards must \"pin back the opposition full-backs\" and Henry \"holds a very high and wide position on the left\".",
+      "verified": true
+    },
+    {
+      "title": "Barcelona 3 Manchester United 1 (2011 classic matches)",
+      "url": "https://learning.coachesvoice.com/cv/barcelona-3-manchester-united-1-2011-classic-matches/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-28",
+      "eventDate": "2011-05-28",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"Barça responded by playing with increased width\"; Pedro and Villa \"remained high and wide\" (2011 final).",
+      "verified": true
+    },
+    {
+      "title": "La Evolución de Lionel Messi, Capítulo 2: El Falso Nueve",
+      "url": "https://blogarchive.statsbomb.com/es/articulos/futbol/la-evolucion-de-lionel-messi-capitulo-2-el-falso-nueve/",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2020-04-01",
+      "eventDate": "2009",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"los dos extremos, Thierry Henry y Samuel Eto'o, busquen de manera constante los desmarques en profundidad\"; the false nine \"va absolutamente relacionada con el sistema 4-3-3 o el 3-4-3\".",
+      "verified": true
+    },
+    {
+      "title": "Bielsa vs Guardiola: Athletic Club vs Barcelona from 2011/12",
+      "url": "https://totalfootballanalysis.com/article/bielsa-vs-guardiola-athletic-club-vs-barcelona-from-201112",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-07-09",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "\"The remaining three players – Messi, Fábregas and Iniesta – took turns to occupy the false nine position\"; \"As Guardiola didn't use a proper striker, Barcelona always had a numerical advantage outside the box.\"",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 2009, Barcelona 2-0 Manchester United",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-2009-barcelona-2-0-manchester-united/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-28",
+      "eventDate": "2009-05-27",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "With the regular full-backs and Márquez unavailable, Barcelona fielded \"Yaya Touré alongside Piqué in the centre of defence\", who \"played as if he was still in midfield\": midfielders used as centre-backs.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona – Tactical Evolution Keeping Them Ahead?",
+      "url": "https://thehardtackle.com/2011/barcelona-%E2%80%93-tactical-evolution-keeping-them-ahead/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-08-07",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Messi in the false nine role \"would drop very deep, often closer to Xavi than to the forwards\" (2010/11).",
+      "verified": true
+    },
+    {
+      "title": "FC Barcelona become World Champions with 9 home grown players in starting line up",
+      "url": "https://www.catalannews.com/sports/item/fc-barcelona-become-world-champions-with-9-home-grown-players-in-starting-line-up",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-12-19",
+      "eventDate": "2011-12-18",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"nine of the starting eleven players being the product of the Club's academy system\" (Club World Cup final, Dec 2011); \"only Abidal and Alves have not been groomed at the FC Barcelona\".",
+      "verified": true
+    },
+    {
+      "title": "Guardiola confirmó que no tiene en cuenta a Ronaldinho, Eto'o y Deco",
+      "url": "https://cooperativa.cl/noticias/deportes/futbol/fc-barcelona/guardiola-confirmo-que-no-tiene-en-cuenta-a-ronaldinho-eto-o-y-deco/2008-06-17/082726.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2008-06-17",
+      "eventDate": "2008-06-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "\"Estamos contemplando la plantilla sin ellos\"; reasons \"cuestiones de rendimiento y las temporadas que llevan en el equipo\" and \"cuestiones poco tangibles\"; \"Si estuvieran a su nivel, estarían con nosotros.\" Eto'o ultimately stayed (Wikipedia, Pep Guardiola, not tactical). Said before the period starts (appointment announcement), so kept as context only.",
+      "verified": false
+    },
+    {
+      "title": "Guardiola: \"We both want the ball and suffer without it\"",
+      "url": "https://www.catalannews.com/sports/item/guardiola-we-both-want-the-ball-and-suffer-without-it",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-02-16",
+      "eventDate": "2011-02-16",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "\"We want possession for as long as possible in order to make as many attacking situations as we can.\" \"we have to be egotistical and want the ball.\" (before Arsenal, Champions League last 16).",
+      "verified": true
+    },
+    {
+      "title": "Attack the best form of defence for Barça",
+      "url": "https://www.uefa.com/uefachampionsleague/news/01d7-0e7107f2f752-7ad63941d069-1000--attack-the-best-form-of-defence-for-barca",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-03-11",
+      "eventDate": "2009-03-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Guardiola: \"The best way to defend is to attack well.\" \"We have to be smart and not give away fouls in the last third of the pitch.\"",
+      "verified": true
+    },
+    {
+      "title": "Guardiola: Barcelona have got our game back",
+      "url": "https://www.uefa.com/uefachampionsleague/news/01ea-0e75e4514e3d-5de665df7ef9-1000--guardiola-barcelona-have-got-our-game-back",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-10-20",
+      "eventDate": "2010-10-20",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Only post-match quotes (\"In the end our football won the day.\"); no tactical or opponent-specific content, so it does not close the dimension.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "We want possession for as long as possible in order to make as many attacking situations as we can.",
+      "date": "2011-02-16",
+      "source": "https://www.catalannews.com/sports/item/guardiola-we-both-want-the-ball-and-suffer-without-it",
+      "provenance": "primary",
+      "note": "Press conference before Arsenal, Champions League last 16; Catalan News report."
+    },
+    {
+      "quote": "The best way to defend is to attack well.",
+      "date": "2009-03-11",
+      "source": "https://www.uefa.com/uefachampionsleague/news/01d7-0e7107f2f752-7ad63941d069-1000--attack-the-best-form-of-defence-for-barca",
+      "provenance": "primary",
+      "note": "UEFA.com, Graham Hunter, before Barcelona v Lyon."
+    },
+    {
+      "quote": "Estamos contemplando la plantilla sin ellos",
+      "date": "2008-06-17",
+      "source": "https://cooperativa.cl/noticias/deportes/futbol/fc-barcelona/guardiola-confirmo-que-no-tiene-en-cuenta-a-ronaldinho-eto-o-y-deco/2008-06-17/082726.html",
+      "provenance": "primary",
+      "note": "About Ronaldinho, Deco and Eto'o; about management, not tactics."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "game-management",
+      "people-management",
+      "set-pieces"
+    ],
+    "axes": [
+      "lid",
+      "pla"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Several tier A (StatsBomb, Coaches' Voice) and tier B sources agree on 4-3-3/3-4-3, false nine, high press and high line, but they are single-match snapshots (2009, 2011 final) or a 2011 fan blog; game-management, people-management and set-pieces have no verified facts."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

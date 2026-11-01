@@ -1,0 +1,817 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "José Mourinho" (catalog: manager), answering as the manager José Mourinho, across the spells counted in the research file (spellsCounted). Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/jose-mourinho.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK manager:jose-mourinho".
+
+=== RESEARCH FILE (manager/jose-mourinho.json) ===
+{
+  "id": "jose-mourinho",
+  "catalog": "manager",
+  "name": "José Mourinho",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2002-01-23",
+    "end": "2024-01-16"
+  },
+  "scopeNote": "Manager profile of José Mourinho across seven counted spells (Porto 2002-04 to Roma 2021-24), chosen with the 'known for' test; União de Leiria and Benfica 2025-26 excluded by the user. Spell dates come from the Wikipedia biography read at step 1 (characters 0-200000): exact days for most spells; partial where the page gives none. Partial dates: Leiria start is 'July 2001' (2001-07, day not given), so profilePeriod.start is partial; Real Madrid's end is 2013-06 (Pérez announced about 2013-05-20 that he would leave at the end of the season; the exact leaving day wasn't found); Benfica 2000 start is 'September 2000'. Porto's end is set to 2004-06-02, the day Chelsea appointed him (no separate Porto exit date found). Roma's start is the appointment, 2021-05-04 (he took charge from the start of 2021/22). The 2025-26 Benfica spell and the July 2026 return to Real Madrid rest on Wikipedia only (11 June 2026 reappointment; Benfica told the CMVM on 9 June that he would leave). Style: the evidence supports no single label. Sources call it 'pragmatic' (PortuGOAL, 2024), stress 'defensive solidity' and 'counter-attacking' (PortuGOAL, beIN), and Mourinho himself (Coaches' Voice, 2019) says a team without the ball can control a game, that the best team 'dominates all these moments of the game', and that he will 'go against your own ideas' for the competition and players. The popular 'defensive / park the bus' label fits Inter 2010 at Camp Nou and leads defended deep (Wikipedia, Spielverlagerung 2014), but not Porto's high zonal press ('pressing zonal alto', Bola na Rede), the Inter plan to push the line 20 metres higher (his own words) or the high-pressing first leg against Barcelona (These Football Times). Evidence per spell is uneven: Porto, Chelsea 2004-07 and Inter are best covered; Leiria (one player account), Chelsea 2013-15 (one Spielverlagerung match), Manchester United (one match), Roma (one final and a youth piece) and Benfica 2025-26 (one column, one press conference) are thin. Marking: Porto's press is described as zonal, Real Madrid's back line as zonal 'in certain matches', Chelsea 2014 as zonal at set pieces; man-marking appears as opponent-specific jobs (Herrera on Hazard 2017, close watch on Napoli's midfielders 2025). The 'seven rules for big games' ('whoever has the ball has fear'), attributed by Diego Torres's biography, was only seen in search summaries and is not recorded.",
+  "spellsCounted": [
+    {
+      "club": "Porto",
+      "start": "2002-01-23",
+      "end": "2004-06-02",
+      "reason": "Two league titles, Taça de Portugal, UEFA Cup 2003, Champions League 2004; move to Chelsea."
+    },
+    {
+      "club": "Chelsea",
+      "start": "2004-06-02",
+      "end": "2007-09-20",
+      "reason": "Two Premier League titles, FA Cup, two League Cups; the Makélélé 4-3-3 with tactical coverage."
+    },
+    {
+      "club": "Inter",
+      "start": "2008-06-02",
+      "end": "2010-05-28",
+      "reason": "Two Serie A titles, Coppa Italia, Champions League 2010 (treble); the Barcelona semi-final low block."
+    },
+    {
+      "club": "Real Madrid",
+      "start": "2010-05-28",
+      "end": "2013-06",
+      "reason": "La Liga 2011-12, Copa del Rey 2011, Supercopa 2012; counter-attacking 4-2-3-1 with tactical coverage. End partial: departure announced about 2013-05-20 for the end of the season."
+    },
+    {
+      "club": "Chelsea",
+      "start": "2013-06-03",
+      "end": "2015-12-17",
+      "reason": "Premier League 2014-15 and League Cup 2015."
+    },
+    {
+      "club": "Manchester United",
+      "start": "2016-05-27",
+      "end": "2018-12-18",
+      "reason": "Europa League 2017, League Cup 2017, Community Shield 2016."
+    },
+    {
+      "club": "Roma",
+      "start": "2021-05-04",
+      "end": "2024-01-16",
+      "reason": "Europa Conference League 2022 (UEFA trophy); Europa League final 2023."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Benfica",
+      "start": "2000-09",
+      "end": "2000-12-05",
+      "reason": "About three months, no title, next job (União de Leiria) was smaller; not what he is known for."
+    },
+    {
+      "club": "Tottenham Hotspur",
+      "start": "2019-11-20",
+      "end": "2021-04-19",
+      "reason": "No title (reached a League Cup final but was sacked before it), next job not bigger; style there is covered (Total Football Analysis) but it isn't what he is known for."
+    },
+    {
+      "club": "Fenerbahçe",
+      "start": "2024-06-02",
+      "end": "2025-08-29",
+      "reason": "No title found, sacked after the Champions League qualifier; next job (Benfica 2025-26) a lateral move."
+    },
+    {
+      "club": "Real Madrid",
+      "start": "2026-06-11",
+      "end": "ongoing",
+      "reason": "Current job, about four months old: no titles or tactical coverage yet."
+    },
+    {
+      "club": "União de Leiria",
+      "start": "2001-07",
+      "end": "2002-01-23",
+      "reason": "Excluded by the user's decision: not part of the profile. Evidence from this spell removed."
+    },
+    {
+      "club": "Benfica",
+      "start": "2025-09-18",
+      "end": "2026-06-09",
+      "reason": "Excluded by the user's decision: most recent Benfica spell not used. Evidence from this spell removed."
+    }
+  ],
+  "teamProfiles": [
+    "inter-2009-10"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Inter 2010 v Barcelona: the 'low block' reputation comes from the second leg at Camp Nou (deep after Motta's red card); These Football Times calls the first leg 'high pressing'. Mourinho's own Coaches' Voice account says Inter were 'phenomenal in a low block' in 2008/09 and he wanted the line 20 metres higher. Weigh blo with both.",
+    "Marking (mar): no source describes his teams' default open-play marking scheme in detail. Zonal: Porto 'pressing zonal alto' (retrospective), Real Madrid back line 'in certain matches', Chelsea 2014 at set pieces. Man-oriented: one-match jobs (Herrera on Hazard 2017, Napoli midfielders 2025). Tottenham's 'mix of man-oriented and zonal' is from an excluded spell. Treat mar as thin.",
+    "Diego Torres's 'seven rules for big games' ('whoever has the ball has fear'), in his biography (Prepárense para perder, 2013), was only seen in search summaries; the book wasn't read and Torres is a known critic. Decide whether to look for it.",
+    "The 'park the bus' line (about Tottenham, Chelsea 0-0, September 2004) is about an opponent, not his own football; only seen in search summaries, not recorded.",
+    "The 2004-06-02 press-conference quotes were read in a 2018 Sky Sports retrospective (marked primary with the press-conference date, as with Shankly's 1981 interview); the 2006 book quotes (Oliveira et al., Mourinho: porquê tantas vitórias?, Gradiva) were read in a Brazilian article that uses Brazilian spelling ('equipe'), so the wording may differ from the book.",
+    "The Coaches' Voice piece is dated 2019-11-20 (the day he joined Tottenham); the interview was presumably recorded earlier. It looks back on Chelsea and Inter.",
+    "Influences (Bobby Robson and Louis van Gaal as his bosses, Vítor Frade's tactical periodisation) were not researched; influences[] left empty.",
+    "Squad-building evidence is mixed: a near-30 Inter final XI, a 'small squad' stated in 2004, and debuts for Roma youngsters (Bove, Volpato, Keramitsis, Missori). His record with youth at Chelsea and United wasn't researched (search budget ran out)."
+  ],
+  "sources": [
+    {
+      "title": "José Mourinho - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Tactics passage (read at characters 100000-200000, the tool's paraphrase, not a verbatim quote): at Porto (2002-04) a diamond 4-4-2 with the midfield giving numerical superiority; at Chelsea (2004-06) a fluid 4-3-3 with Makélélé as the deep midfielder, giving a three-v-two in midfield; 4-1-3-2 in 2006/07 after Shevchenko arrived; at Inter a 4-3-3 / diamond in 2008/09 and a 4-2-3-1 in 2009/10 with Eto'o effectively a left winger; at Real Madrid a 4-2-3-1 with Xabi Alonso and Khedira as holding midfielders. Page undated (articleDate = access date). eventDate set to the Porto season; the passage covers 2002-2013.",
+      "verified": true
+    },
+    {
+      "title": "Mourinho, Tears and Defiance: The Story of Inter's 2009-10 Season (Nicky Bandini, The Guardian, republished by Asharq Al-Awsat)",
+      "url": "https://english.aawsat.com/node/2275076",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-09",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"Inter began with a 4-3-1-2 centered on Sneijder's individual creativity.\" \"It was a triumph at home and almost a disaster in Europe, where its narrowness was repeatedly exposed.\" Eto'o \"moving out to the left wing as Inter adapted mid-season into a 4-2-3-1.\" Also mentions \"the 4-3-3 that served him so brilliantly at Porto and Chelsea\".",
+      "verified": true
+    },
+    {
+      "title": "No Hazard, no Chelsea: Mourinho's tactical masterclass on how to stop PL leaders (Kris Voakes, Goal)",
+      "url": "https://www.goal.com/en/news/no-hazard-no-chelsea-mourinhos-tactical-masterclass-on-how-to-stop-epl-leaders/99zqvh24fi8105dnzo9cmmde",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-04-16",
+      "eventDate": "2017-04-16",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Manchester United 2-0 Chelsea: Mourinho \"again went for a back three\"; \"opening up the United back three\". One match.",
+      "verified": true
+    },
+    {
+      "title": "Sevilla – Roma: Sevilla Prevail After War Of Attrition (Josh Manley, Between the Posts)",
+      "url": "https://betweentheposts.net/sevilla-roma-sevilla-prevail-after-war-of-attrition-1-1-4-1-after-penalties/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-06-01",
+      "eventDate": "2023-05-31",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Europa League final 2023: Roma \"approached this game in a cautious fashion in their compact 3-5-2 system\", back three Mancini, Smalling, Ibañez, wing-backs Çelik and Spinazzola. Only the free excerpt was readable (rest behind a paywall, see unreadable). One match.",
+      "verified": true
+    },
+    {
+      "title": "Manchester United - Chelsea 1:1 (Adin Osmanbasic, Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2014/10/30/manchester-united-chelsea-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-10-30",
+      "eventDate": "2014-10-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Chelsea (Mourinho): Cesc and Matic dropped into the defensive line to progress the ball past United's first line of pressure; build-up was sometimes \"forced and hastened\" despite a numerical advantage, then a calmer rhythm. One match.",
+      "verified": true
+    },
+    {
+      "title": "Jose Mourinho Tactics: What Can We Expect From The Special One At AS Roma? (Adam Scully, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/jose-mourinho-as-roma-202122-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-06",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Context only, not evidence: describes Mourinho's teams as \"often bypassing it and going long from the goalkeeper\", and at Tottenham the full-backs and double pivot dropping low to draw the press, illustrated with a Spurs match. Written about Tottenham 2019-21, an excluded spell. Page stamped 2025-12-11 but image paths and content date it to June 2021 (articleDate 2021-06, partial).",
+      "verified": false
+    },
+    {
+      "title": "O melhor treinador de sempre do FC Porto: José Mourinho (Francisco Sampaio, Bola na Rede)",
+      "url": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "On Porto's model: \"ter bola é essencial para controlar o jogo\"; the team had \"fome de bola\"; \"organização coletiva próxima da perfeição\". Page shows only \"27/09\" with no year (articleDate = access date). Retrospective column, no period quote.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O melhor treinador de sempre do FC Porto: José Mourinho (Francisco Sampaio, Bola na Rede)",
+      "url": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Porto: \"zonas de pressão asfixiantes marcavam o momento defensivo da equipa\"; reaction to losing the ball: \"a reação à perda de bola deve sempre ser asfixiante (com recurso a um pressing zonal alto)\". Explicitly a high zonal press. Page year unknown (articleDate = access date). Retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Play to win (José Mourinho, Coaches' Voice, in his own words)",
+      "url": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2019-11-20",
+      "eventDate": "2009",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Mourinho on Inter after the 2009 Champions League exit to Manchester United: \"we needed to bring the line 20 metres higher, to make the team much more dominant, to press higher.\" (club/season context per the page; Inter years not given on the page, the United exit was March 2009).",
+      "verified": true
+    },
+    {
+      "title": "Mourinho, Tears and Defiance: The Story of Inter's 2009-10 Season (Nicky Bandini, The Guardian, republished by Asharq Al-Awsat)",
+      "url": "https://english.aawsat.com/node/2275076",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-09",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Mourinho was determined to get Inter pressing higher up the pitch\"; \"his goal had been to bring the defensive line forward by 20 meters\" (citing his Coaches' Voice interview).",
+      "verified": true
+    },
+    {
+      "title": "Inter v Barcelona: revisiting the Mourinho-Guardiola classic from 2010 (Fergal McAlinden, These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/10/23/inter-v-barcelona-revisiting-the-mourinho-guardiola-classic-from-2010/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-10-23",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "First leg (Inter 3-1 Barcelona): \"an unexpectedly thrilling display of high pressing and marauding attacking\". Second leg: \"Mourinho's well-drilled Inter proved unflinchingly obdurate even in the face of Barça's famed attack\". No detail on block depth or marking.",
+      "verified": true
+    },
+    {
+      "title": "Manchester United - Chelsea 1:1 (Adin Osmanbasic, Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2014/10/30/manchester-united-chelsea-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-10-30",
+      "eventDate": "2014-10-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Chelsea forced United wide and isolated them; the counterpress weakened after Drogba's goal because Mourinho wanted more players behind the ball, so pressure moved toward midfield and was less aggressive. One match.",
+      "verified": true
+    },
+    {
+      "title": "Play to win (José Mourinho, Coaches' Voice, in his own words)",
+      "url": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2019-11-20",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Mourinho on his first Inter season: \"We were a team that, defensively, was phenomenal in a low block.\" (the page places it before the decision to press higher).",
+      "verified": true
+    },
+    {
+      "title": "José Mourinho - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Tactics passage (characters 100000-200000, paraphrase): Inter sat deep to defend leads, most notably in the 2010 Champions League semi-final against Barcelona. Page undated.",
+      "verified": true
+    },
+    {
+      "title": "Manchester United - Chelsea 1:1 (Adin Osmanbasic, Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2014/10/30/manchester-united-chelsea-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-10-30",
+      "eventDate": "2014-10-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Chelsea were \"quite compact\" in the first half and, after going ahead, \"dropped much deeper\"; when United advanced Chelsea set up in their usual 6-3-1 shape with players marking the opposing full-backs. The man-oriented defence the article names is United's, not Chelsea's. One match.",
+      "verified": true
+    },
+    {
+      "title": "Zonal marking: football tactics explained (Coaches' Voice)",
+      "url": "https://learning.coachesvoice.com/cv/zonal-marking-football-tactics-explained-mourinho-conte-simeone/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2012",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"In certain matches with Real Madrid, his back line would defend zonally, protecting against various runs from the opposition.\" \"José Mourinho has prioritised compact and organised defending throughout his career.\" The double pivot of Khedira and Xabi Alonso \"were effective at sliding across and screening passes in central spaces\". No season given; eventDate 2012 is approximate inside the Real Madrid spell.",
+      "verified": true
+    },
+    {
+      "title": "No Hazard, no Chelsea: Mourinho's tactical masterclass on how to stop PL leaders (Kris Voakes, Goal)",
+      "url": "https://www.goal.com/en/news/no-hazard-no-chelsea-mourinhos-tactical-masterclass-on-how-to-stop-epl-leaders/99zqvh24fi8105dnzo9cmmde",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-04-16",
+      "eventDate": "2017-04-16",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Manchester United 2-0 Chelsea: \"employing Herrera as a man-marker on Eden Hazard\"; \"Herrera rarely ventured more than a couple of yards out of Hazard's shadow\"; \"pinning Herrera to Hazard for the duration\". A one-match man-marking job on the opponent's key player inside an otherwise unspecified scheme.",
+      "verified": true
+    },
+    {
+      "title": "Jose Mourinho Tactics: What Can We Expect From The Special One At AS Roma? (Adam Scully, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/jose-mourinho-as-roma-202122-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-06",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Context only, not evidence: at Tottenham (excluded spell) Mourinho told players to \"deal with the opposition's forward passing options in a mix of a man-oriented and zonal fashion\"; generally \"does tend to frustrate teams by sitting in a low block\".",
+      "verified": false
+    },
+    {
+      "title": "Play to win (José Mourinho, Coaches' Voice, in his own words)",
+      "url": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2019-11-20",
+      "eventDate": "2005/06",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Mourinho on Chelsea 2005/06: opponents were wary of attacking because \"they knew we could kill them in transition\"; \"we had that capacity to kill teams in transition.\"",
+      "verified": true
+    },
+    {
+      "title": "Champions League Great Teams - Porto 2003-04 (Joel Richards, beIN Sports)",
+      "url": "https://www.beinsports.com/en-mena/football/uefa-champions-league/articles/champions-league-great-teams-porto-2003-04",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"the ability to soak up pressure, waste time if necessary, and attempt to punish on the counter-attack\"; \"allowed Porto to spring their trademark counter-attacks to devastating effect\". Page undated (articleDate = access date). Fragments as returned by the page reader.",
+      "verified": true
+    },
+    {
+      "title": "O melhor treinador de sempre do FC Porto: José Mourinho (Francisco Sampaio, Bola na Rede)",
+      "url": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Porto \"tanto conseguia ser letal em transição (pela sistematização dos processos)\". Retrospective, page year unknown.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "No Hazard, no Chelsea: Mourinho's tactical masterclass on how to stop PL leaders (Kris Voakes, Goal)",
+      "url": "https://www.goal.com/en/news/no-hazard-no-chelsea-mourinhos-tactical-masterclass-on-how-to-stop-epl-leaders/99zqvh24fi8105dnzo9cmmde",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-04-16",
+      "eventDate": "2017-04-16",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "United's plan was to \"look to hit Chelsea on the break\". One match.",
+      "verified": true
+    },
+    {
+      "title": "José Mourinho - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Tactics passage (paraphrase): at Porto the full-backs were free to move forward in the diamond; at Real Madrid Cristiano Ronaldo and Di María played on the flanks of the 4-2-3-1. Page undated.",
+      "verified": true
+    },
+    {
+      "title": "Mourinho, Tears and Defiance: The Story of Inter's 2009-10 Season (Nicky Bandini, The Guardian, republished by Asharq Al-Awsat)",
+      "url": "https://english.aawsat.com/node/2275076",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-09",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Inter's early 4-3-1-2 was exposed in Europe by \"its narrowness\"; Mourinho moved Eto'o \"out to the left wing\" as Inter became a 4-2-3-1 mid-season.",
+      "verified": true
+    },
+    {
+      "title": "How Zonal Marking Cost Chelsea (Nicolas Berg, HuffPost UK blog)",
+      "url": "https://huffingtonpost.co.uk/amp/entry/chelsea-man-utd_b_6053294",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-10-27",
+      "eventDate": "2014-10-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "\"José Mourinho didn't help himself through applying a zonal marking approach on set pieces.\" \"As we see on the picture, the Chelsea players have lined up in a zonal marking set-up.\" Blog post, one match (Man Utd 1-1 Chelsea).",
+      "verified": true
+    },
+    {
+      "title": "Manchester United - Chelsea 1:1 (Adin Osmanbasic, Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2014/10/30/manchester-united-chelsea-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-10-30",
+      "eventDate": "2014-10-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Chelsea's goal came from a corner (Drogba). No detail on routines or marking at set pieces.",
+      "verified": true
+    },
+    {
+      "title": "José Mourinho - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2014-04-08",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Tactics passage (paraphrase): in the 2014 Champions League knockout tie against PSG he switched late to a risky 4-1-2-3 to get the goal Chelsea needed; across his career he is noted for preparing in detail for the next opponent. Page undated.",
+      "verified": true
+    },
+    {
+      "title": "Manchester United - Chelsea 1:1 (Adin Osmanbasic, Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2014/10/30/manchester-united-chelsea-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-10-30",
+      "eventDate": "2014-10-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Plan: isolate United on the flanks and win the ball there; after scoring, Mourinho shifted to a more defensive posture with more men behind the ball. One match.",
+      "verified": true
+    },
+    {
+      "title": "No Hazard, no Chelsea: Mourinho's tactical masterclass on how to stop PL leaders (Kris Voakes, Goal)",
+      "url": "https://www.goal.com/en/news/no-hazard-no-chelsea-mourinhos-tactical-masterclass-on-how-to-stop-epl-leaders/99zqvh24fi8105dnzo9cmmde",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-04-16",
+      "eventDate": "2017-04-16",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Opponent-specific plan: back three, Herrera assigned to Hazard for the whole match, hit Chelsea on the break (the article paraphrases the plan; no Mourinho quote).",
+      "verified": true
+    },
+    {
+      "title": "Disrupting the elite: Jose Mourinho's success as FC Porto Manager (PortuGOAL)",
+      "url": "https://portugoal.net/classics-topmenu/3710-disrupting-the-elite-jose-mourinhos-success-as-fc-porto-manager",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-02-21",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "\"Mourinho's ability to adapt his tactics based on the opposition's strengths and weaknesses was instrumental in Porto's success.\" \"Employing a pragmatic yet effective style of play\". Byline unclear (Tom Kundert at top, Callum McFadden at the end). Retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O melhor treinador de sempre do FC Porto: José Mourinho (Francisco Sampaio, Bola na Rede)",
+      "url": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Counterpoint: at Porto \"essas ideias eram inalteráveis, mesmo que o adversário fosse o Manchester United FC\"; the author contrasts this with today's Mourinho, \"um treinador que adapta as suas equipas aos contextos e aos adversários\". Retrospective, page year unknown.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Play to win (José Mourinho, Coaches' Voice, in his own words)",
+      "url": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2019-11-20",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "On signing Lúcio for Inter: \"He was fast. Really fast. He would give us exactly what we needed.\" \"a fast central defender – that was crucial for us.\" Wants \"mental strength, being compact, tactical discipline.\"",
+      "verified": true
+    },
+    {
+      "title": "O melhor treinador de sempre do FC Porto: José Mourinho (Francisco Sampaio, Bola na Rede)",
+      "url": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Porto: \"todos os futebolistas do meio-campo do FC Porto eram prodígios ao nível técnico\"; some players came from smaller Portuguese clubs (Paulo Ferreira). Retrospective, page year unknown.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Champions League Great Teams - Porto 2003-04 (Joel Richards, beIN Sports)",
+      "url": "https://www.beinsports.com/en-mena/football/uefa-champions-league/articles/champions-league-great-teams-porto-2003-04",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "\"Shorn of world-class talent, this Porto side was greater than the sum of its parts\"; \"rugged defenders such as Paulo Ferreira and Ricardo Carvalho\"; \"the tactical intelligence of creative midfielder Deco\". Page undated.",
+      "verified": true
+    },
+    {
+      "title": "FEATURE | On this day in 2010: When José Mourinho's Inter ruled over Europe (Sam Brookes, Get Football News Italy)",
+      "url": "https://www.getfootballnewsitaly.com/2020/feature-on-this-day-in-2010-when-jose-mourinhos-inter-ruled-over-europe/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"The average age of Inter's starting line-up in the Champions League final had been just a touch under 30.\" \"Mourinho had got everything he could out of a vastly experienced squad\". Reused from team/inter-2009-10.json (read on the page by that research on 2026-10-12, not re-read in this run).",
+      "verified": true
+    },
+    {
+      "title": "Bove, Frattesi e l'importanza dei giovani (il 'caso studio' della Roma) (Francesco Castorani, 90min)",
+      "url": "https://www.90min.com/it/posts/bove-frattesi-e-importanza-dei-giovani-il-caso-studio-della-roma",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-07-25",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Bove: \"José Mourinho l'ha voluto con sè tutta la stagione e l'ha mandato in campo quasi una quindicina di volte, una sola da titolare\" (68 Serie A minutes); Zalewski \"si è dimostrato determinante sia in Serie A che nel percorso di Conference League\"; Keramitsis and Missori \"hanno avuto modo di esordire\"; \"Bove e Volpato hanno segnato la prima rete tra i professionisti.\" Youth given debuts and some minutes at Roma, but mostly as squad players.",
+      "verified": true
+    },
+    {
+      "title": "O melhor treinador de sempre do FC Porto: José Mourinho (Francisco Sampaio, Bola na Rede)",
+      "url": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "\"sempre que a equipa não ganhava Mourinho assumia a responsabilidade; sempre que a equipa ganhava, Mourinho atribuía integralmente os créditos da vitória aos seus jogadores\". Retrospective, page year unknown.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mourinho, Tears and Defiance: The Story of Inter's 2009-10 Season (Nicky Bandini, The Guardian, republished by Asharq Al-Awsat)",
+      "url": "https://english.aawsat.com/node/2275076",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-09",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "\"Emotionally, though, Mourinho understood how to get under the skin of his players.\" On his media fights: \"It was all nonsense, transparent distraction, but what mattered was that his players bought in.\" Sneijder said he would \"kill and die\" for Mourinho; Stankovic \"would have thrown myself into a fire.\" Materazzi \"a kindred spirit, a player who bought into the Portuguese's approach absolutely\".",
+      "verified": true
+    },
+    {
+      "title": "A warning to Pogba? How Mourinho fell out with Casillas at Real Madrid (Daniel Edwards, Goal)",
+      "url": "https://www.goal.com/en/news/a-warning-to-pogba-how-mourinho-fell-out-with-casillas-at-real-madrid/zg54lyl2kisy1mxefs88xi4z7",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-02-24",
+      "eventDate": "2013-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "\"The final breakdown came in January 2013.\" Diego López \"immediately got the nod as Madrid's starting keeper\", \"with Casillas relegated to the bench for the first time since he broke into the Merengue XI as a teenager.\" Mourinho saw Casillas' 2011 peace pact with Xavi as \"a sign of weakness and a betrayal\" of an \"us against the world\" dressing room. Casillas (after leaving): \"Our relationship started to fall apart when the team was not playing well\". The piece draws a parallel with Pogba benched at United (Feb 2018).",
+      "verified": true
+    },
+    {
+      "title": "Disrupting the elite: Jose Mourinho's success as FC Porto Manager (PortuGOAL)",
+      "url": "https://portugoal.net/classics-topmenu/3710-disrupting-the-elite-jose-mourinhos-success-as-fc-porto-manager",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-02-21",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "\"One of Mourinho's defining traits as a manager is his knack for fostering a siege mentality within his team.\" \"Mourinho galvanized his players, instilling self-belief and a relentless work ethic.\" Retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Tenho a certeza de que vamos ser campeões nacionais para o ano. Tenho a certeza absoluta.",
+      "date": "2002-01-23",
+      "source": "https://bolanarede.pt/nacional/porto/o-melhor-treinador-de-sempre-do-fc-porto-jose-mourinho",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Please don't call me arrogant, but I'm European champion and I think I'm a special one.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "To give my best, to improve things and to create the football team in relation to my image and my football philosophy.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I'm a great defender of team spirit and team work.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I don't want special relations with one of them.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Players don't win you trophies, teams win trophies, squads win trophies.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I cannot say I love this player, but generally I love the players who love to win.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I want a small squad - 21 players plus the goalkeepers and no more.",
+      "date": "2004-06-02",
+      "source": "https://www.skysports.com/football/news/15116/11522231/special-one-remembering-jose-mourinho-s-first-ever-chelsea-press-conference",
+      "provenance": "primary"
+    },
+    {
+      "quote": "O mais importante numa equipe é ter um determinado modelo de jogo, um conjunto de princípios de jogo, conhecê-los bem, interpretá-los bem, independente de ser utilizado este ou aquele jogador",
+      "date": "2006",
+      "source": "https://efdeportes.com/efd163/periodizacao-tatica.htm",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Por isso é que eu digo que não acredito em equipes bem ou mal preparadas fisicamente, mas em equipes identificadas ou não com uma determinada matriz de jogo, adaptadas ou não com uma determinada forma de jogar",
+      "date": "2006",
+      "source": "https://efdeportes.com/efd163/periodizacao-tatica.htm",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Many people believe that the team with more possession is the team that is more dominant.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "a team without the ball can still be in control of the game.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "A team that is more comfortable with the ball must also know what to do when they don't have it.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "For me, the best team is the one that dominates all these moments of the game.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "To sometimes go against your own ideas and choose the right way to succeed",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "The right way is, in my opinion, a question of the competition you play and the players that you have.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I have to play to win.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Sometimes, simplicity is genius and complexity is to hide that you are not good enough.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Even socially, you have to understand the needs, the aims and the motivations of everyone.",
+      "date": "2019-11-20",
+      "source": "https://learning.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://thesefootballtimes.co/2019/07/22/jose-mourinho-the-porto-years",
+      "reason": "404"
+    },
+    {
+      "url": "https://web.archive.org/web/2020/https://thesefootballtimes.co/2019/07/22/jose-mourinho-the-porto-years/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://zonalmarking.net/2010/04/29/barcelona-1-0-inter-tactics/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.coachesvoice.com/jose-mourinho-inter-milan-serie-a/",
+      "reason": "403"
+    },
+    {
+      "url": "https://learning.coachesvoice.com/jose-mourinho-inter-milan-serie-a/",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://www.coachesvoice.com/jose-mourinho-chelsea-inter-champions-league/",
+      "reason": "403"
+    },
+    {
+      "url": "https://learning.coachesvoice.com/cv/jose-mourinho-inter-milan-barcelona-pep-guardiola/",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://www.manutd.com/en/amp/news/detail/utd-podcast-ander-herrera-explains-how-he-stopped-eden-hazard-in-man-utd-v-chelsea-in-2017",
+      "reason": "404"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/serie-a/2023/01/17/roma-mourinho-bambini",
+      "reason": "empty"
+    },
+    {
+      "url": "https://betweentheposts.net/sevilla-roma-sevilla-prevail-after-war-of-attrition-1-1-4-1-after-penalties/",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "All 13 dimensions have a verified fact, and Mourinho's own Coaches' Voice account (tier A) plus a Spielverlagerung match analysis (tier B) anchor Chelsea, Inter and Chelsea 2014; but most sources are tier C (Wikipedia, press, retrospective columns), several are one-match snapshots, and coverage across seven counted spells is uneven (United and Roma rest on one or two facts each). Marking and set pieces are thin."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

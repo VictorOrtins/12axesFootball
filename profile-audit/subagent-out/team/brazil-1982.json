@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Jairo dos Santos describes an 'extremamente ofensivo' side whose average positions looked like a 2-3-5, and the midfield four 'knew what to do with the ball' (Falcao via FIFA): Brazil dominated by having the ball and attacking with it, never by ceding it.", "answers": { "pos_02": "D", "pos_03": "C", "pos_04": "D", "pos_01": "C", "pos_05": "C" } },
-  "pro": { "personaBrief": "The midfield 'passed with invention' and Telê wanted midfielders who knew what to do with the ball (FIFA), with Falcao and Cerezo as the two playmakers (ESPN); progression came through combination play rather than direct long balls, though a static target Serginho was kept up front.", "answers": { "pro_03": "D", "pro_05": "D", "pro_02": "C", "pro_04": "D", "pro_01": "N" } },
-  "est": { "personaBrief": "Falcao: Telê 'wanted us to play intuitively and not systematically'; the midfield rotated so as not to give reference points (Trellini), Zico, Socrates and Falcao took turns on the right (Trivela), and Telê said fixed wingers 'ja estao mortos', a clearly relational structure, even though Serginho stayed as a static centre-forward.", "answers": { "est_02": "CT", "est_05": "D", "est_04": "N", "est_01": "D", "est_03": "DT" } },
-  "lar": { "personaBrief": "Telê dropped the right winger for a fourth central midfielder (Trellini: the right wing 'deve se tornar cada vez mais um espaco vazio'), there were practically no Brazilian moves down the right flank v Italy (Trivela), and width came from Eder on the left and the attacking full-backs; the best players were concentrated in the centre.", "answers": { "lar_03": "D", "lar_02": "C", "lar_04": "CT", "lar_01": "D", "lar_05": "DT" } },
-  "blo": { "personaBrief": "After losing the ball Brazil tried to win it back at once (Trivela) and the whole team pushed forward even at 2-2 (ESPN), but Zico and Socrates 'couldn't drop back' and Serginho was a static forward, so the press was immediate rather than an organised high press led by the forwards.", "answers": { "blo_01": "C", "blo_02": "D", "blo_05": "D", "blo_03": "D", "blo_04": "D" } },
-  "mar": { "personaBrief": "No source says whether Brazil marked zonally or man-to-man (openQuestions); Zico's rule 'Whoever was closer to the ball had to close down' points to a space-based logic, and unlike Bearzot (Gentile on Zico) Telê assigned no man-markers, so the answers lean zonal by inference.", "answers": { "mar_05": "D", "mar_03": "D", "mar_01": "C", "mar_02": "D", "mar_04": "N" } },
-  "pla": { "personaBrief": "Brazil kept attacking at 2-2 against Italy when a draw would have been enough (ESPN, Jornal de Brasilia), Telê imposed his no-fixed-winger idea with Zico playing on the right 'a contragosto' (Trellini), and he reportedly brushed off warnings about Italy; at half-time against the USSR he took risks but kept the attacking plan.", "answers": { "pla_05": "CT", "pla_04": "DT", "pla_02": "D", "pla_01": "C", "pla_03": "C" } },
-  "res": { "personaBrief": "Telê: 'Quem gosta de futebol gosta de ver aquele futebol de 82' (1992); the team kept attacking when a draw was enough against Italy, but his primary statements reject choosing beauty over winning, so how you win matters without being a choice between the two.", "answers": { "res_01": "CT", "res_04": "C", "res_03": "D", "res_05": "D", "res_02": "D" } },
-  "sis": { "personaBrief": "Telê fitted four creators together and asked them to play 'intuitively and not systematically' (Falcao); Zico and Socrates were spared defensive work while Falcao and Cerezo covered (Zico, The Blizzard): talent decided, and the system served it.", "answers": { "sis_03": "D", "sis_02": "C", "sis_04": "C", "sis_01": "D", "sis_05": "DT" } },
-  "jog": { "personaBrief": "Even the holding pair were playmakers (Falcao and Cerezo, ESPN), and the squad was picked for technique, with midfielders 'who knew what to do with the ball' (FIFA); the creators did not drop back and still played, so technique clearly beats physicality.", "answers": { "jog_04": "DT", "jog_01": "C", "jog_05": "D", "jog_02": "D", "jog_03": "CT" } },
-  "bas": { "personaBrief": "The core was experienced (Zico 29, Socrates/Falcao 28, others 27), but Telê gave the young Leandro the right-back place over Edevaldo and made the 21-year-old Careca first-choice striker; as a national team it was built from the best players anywhere, overseas-based included (FIFA).", "answers": { "bas_01": "D", "bas_02": "D", "bas_03": "C", "bas_05": "N", "bas_04": "D" } },
-  "lid": { "personaBrief": "No verified evidence for this axis; from general knowledge Telê was a strict, demanding disciplinarian (described as 'stubbornly strict', Game of the People), consistent with his insistence on full autonomy over call-ups (context, 1980): authority over harmony.", "answers": { "lid_04": "C", "lid_01": "CT", "lid_02": "D", "lid_05": "D", "lid_03": "D" } }
+  "pos": {
+    "personaBrief": "Jairo dos Santos describes an 'extremamente ofensivo' side whose average positions looked like a 2-3-5, and the midfield four 'knew what to do with the ball' (Falcao via FIFA): Brazil dominated by having the ball and attacking with it, never by ceding it.",
+    "answers": {
+      "pos_02": "D",
+      "pos_03": "C",
+      "pos_04": "D",
+      "pos_01": "C",
+      "pos_05": "C"
+    }
+  },
+  "pro": {
+    "personaBrief": "The midfield 'passed with invention' and Telê wanted midfielders who knew what to do with the ball (FIFA), with Falcao and Cerezo as the two playmakers (ESPN); progression came through combination play rather than direct long balls, though a static target Serginho was kept up front.",
+    "answers": {
+      "pro_03": "D",
+      "pro_05": "D",
+      "pro_02": "C",
+      "pro_04": "D",
+      "pro_01": "N"
+    }
+  },
+  "est": {
+    "personaBrief": "Falcao: Telê 'wanted us to play intuitively and not systematically'; the midfield rotated so as not to give reference points (Trellini), Zico, Socrates and Falcao took turns on the right (Trivela), and Telê said fixed wingers 'ja estao mortos', a clearly relational structure, even though Serginho stayed as a static centre-forward.",
+    "answers": {
+      "est_02": "CT",
+      "est_05": "D",
+      "est_04": "N",
+      "est_01": "D",
+      "est_03": "DT"
+    }
+  },
+  "lar": {
+    "personaBrief": "Telê dropped the right winger for a fourth central midfielder (Trellini: the right wing 'deve se tornar cada vez mais um espaco vazio'), there were practically no Brazilian moves down the right flank v Italy (Trivela), and width came from Eder on the left and the attacking full-backs; the best players were concentrated in the centre.",
+    "answers": {
+      "lar_03": "D",
+      "lar_02": "C",
+      "lar_04": "CT",
+      "lar_01": "D",
+      "lar_05": "DT"
+    }
+  },
+  "blo": {
+    "personaBrief": "After losing the ball Brazil tried to win it back at once (Trivela) and the whole team pushed forward even at 2-2 (ESPN), but Zico and Socrates 'couldn't drop back' and Serginho was a static forward, so the press was immediate rather than an organised high press led by the forwards.",
+    "answers": {
+      "blo_01": "C",
+      "blo_02": "D",
+      "blo_05": "D",
+      "blo_03": "D",
+      "blo_04": "D"
+    }
+  },
+  "mar": {
+    "personaBrief": "No source says whether Brazil marked zonally or man-to-man (openQuestions); Zico's rule 'Whoever was closer to the ball had to close down' points to a space-based logic, and unlike Bearzot (Gentile on Zico) Telê assigned no man-markers, so the answers lean zonal by inference.",
+    "answers": {
+      "mar_05": "D",
+      "mar_03": "D",
+      "mar_01": "C",
+      "mar_02": "D",
+      "mar_04": "N"
+    }
+  },
+  "pla": {
+    "personaBrief": "Brazil kept attacking at 2-2 against Italy when a draw would have been enough (ESPN, Jornal de Brasilia), Telê imposed his no-fixed-winger idea with Zico playing on the right 'a contragosto' (Trellini), and he reportedly brushed off warnings about Italy; at half-time against the USSR he took risks but kept the attacking plan.",
+    "answers": {
+      "pla_05": "CT",
+      "pla_04": "DT",
+      "pla_02": "D",
+      "pla_01": "C",
+      "pla_03": "C"
+    }
+  },
+  "res": {
+    "personaBrief": "Telê: 'Quem gosta de futebol gosta de ver aquele futebol de 82' (1992); the team kept attacking when a draw was enough against Italy, but his primary statements reject choosing beauty over winning, so how you win matters without being a choice between the two.",
+    "answers": {
+      "res_01": "CT",
+      "res_04": "C",
+      "res_03": "D",
+      "res_05": "D",
+      "res_02": "D"
+    }
+  },
+  "sis": {
+    "personaBrief": "Telê fitted four creators together and asked them to play 'intuitively and not systematically' (Falcao); Zico and Socrates were spared defensive work while Falcao and Cerezo covered (Zico, The Blizzard): talent decided, and the system served it.",
+    "answers": {
+      "sis_03": "D",
+      "sis_02": "C",
+      "sis_04": "C",
+      "sis_01": "D",
+      "sis_05": "DT"
+    }
+  },
+  "jog": {
+    "personaBrief": "Even the holding pair were playmakers (Falcao and Cerezo, ESPN), and the squad was picked for technique, with midfielders 'who knew what to do with the ball' (FIFA); the creators did not drop back and still played, so technique clearly beats physicality.",
+    "answers": {
+      "jog_04": "DT",
+      "jog_01": "C",
+      "jog_05": "D",
+      "jog_02": "D",
+      "jog_03": "CT"
+    }
+  },
+  "bas": {
+    "personaBrief": "The core was experienced (Zico 29, Socrates/Falcao 28, others 27), but Telê gave the young Leandro the right-back place over Edevaldo and made the 21-year-old Careca first-choice striker; as a national team it was built from the best players anywhere, overseas-based included (FIFA).",
+    "answers": {
+      "bas_01": "D",
+      "bas_02": "D",
+      "bas_03": "C",
+      "bas_05": "N",
+      "bas_04": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence for this axis; from general knowledge Telê was a strict, demanding disciplinarian (described as 'stubbornly strict', Game of the People), consistent with his insistence on full autonomy over call-ups (context, 1980): authority over harmony.",
+    "answers": {
+      "lid_04": "C",
+      "lid_01": "CT",
+      "lid_02": "D",
+      "lid_05": "D",
+      "lid_03": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "C",
+    "organizacao": "B",
+    "treinador": "B",
+    "final": "D"
+  }
 }

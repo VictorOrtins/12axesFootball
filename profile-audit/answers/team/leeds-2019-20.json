@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Leeds averaged about 60% possession with 'forward thinking possession' (Premier League/Opta, TheMastermindSite), and Bielsa says teams should be ready to have the ball and win it back. The ball is something to keep and attack with, not something to give away on purpose.", "answers": { "pos_05": "C", "pos_02": "D", "pos_01": "C", "pos_03": "C", "pos_04": "D" } },
-  "pro": { "personaBrief": "Build-up came from the back through the White-Cooper-Phillips triangle, but possession was vertical and forward-thinking, and Leeds attacked quickly after counter-press recoveries (Opta, TheMastermindSite).", "answers": { "pro_02": "C", "pro_01": "C", "pro_04": "D", "pro_05": "C", "pro_03": "D" } },
-  "est": { "personaBrief": "This was a heavily drilled 4-1-4-1 / 3-3-1-3 with set roles (Phillips holding, the back triangle 'always in place') plus positional rotation, and wide wingers stretching the pitch (Harrison, Costa).", "answers": { "est_05": "CT", "est_02": "D", "est_04": "D", "est_01": "C", "est_03": "C" } },
-  "lar": { "personaBrief": "Bielsa is quoted saying most dangerous situations come from the flanks (La Grinta), and the side used two industrious wingers, Harrison and Costa, with full-backs pushing on (Opta, Cross).", "answers": { "lar_02": "D", "lar_04": "D", "lar_03": "CT", "lar_05": "C", "lar_01": "C" } },
-  "blo": { "personaBrief": "The evidence is unanimous on a high press with return-pass triggers and immediate counter-pressing, and Leeds ranked 2nd for aggression (TFA, Opta, StatsBomb). Defending is collective and starts from the striker.", "answers": { "blo_03": "CT", "blo_05": "C", "blo_04": "DT", "blo_01": "CT", "blo_02": "DT" } },
-  "mar": { "personaBrief": "Leeds marked man-to-man across the pitch with a spare man at the back (Cross via FFS; TFA 'partial man-marking'; the midfield three were tightly marked). Corner marking has no verified source, so that answer is inferred from this man-oriented approach.", "answers": { "mar_02": "C", "mar_01": "D", "mar_04": "D", "mar_03": "C", "mar_05": "C" } },
-  "pla": { "personaBrief": "There was a fixed identity (4-1-4-1 in 36 of 46 games, the same aggressive style throughout), with shape tweaks to keep a spare man against one or two strikers. Bielsa studies every opponent obsessively (2019 press conference) but serves his own model.", "answers": { "pla_03": "C", "pla_04": "DT", "pla_05": "C", "pla_01": "CT", "pla_02": "D" } },
-  "res": { "personaBrief": "Bielsa's stated view is that if a team must be unbalanced, it should be to attack. This attacking, intense Leeds kept its style while winning the title, and the profile values how it plays as well as the result.", "answers": { "res_01": "CT", "res_03": "D", "res_05": "D", "res_02": "D", "res_04": "C" } },
-  "sis": { "personaBrief": "A small core of twelve regulars in an extremely drilled collective system (TheMastermindSite, StatsBomb) lifted ordinary Championship players. Everyone presses from the striker back, so there are no free roles.", "answers": { "sis_01": "CT", "sis_05": "C", "sis_02": "N", "sis_04": "D", "sis_03": "CT" } },
-  "jog": { "personaBrief": "No verified evidence; this comes from general knowledge of Bielsa's Leeds, known for extreme fitness demands ('murderball') and intensity. That fits the verified high press and aggression, while technical passers like Phillips were still valued.", "answers": { "jog_03": "D", "jog_02": "CT", "jog_04": "D", "jog_01": "N", "jog_05": "D" } },
-  "bas": { "personaBrief": "The squad mixed loans (White, Harrison, Meslier, Nketiah) with academy products such as Phillips. Young players like White (every league start) and the 19-year-old Meslier were central to the title win (Wikipedia, TheMastermindSite).", "answers": { "bas_03": "C", "bas_04": "D", "bas_05": "C", "bas_01": "C", "bas_02": "D" } },
-  "lid": { "personaBrief": "No verified evidence; this comes from general knowledge of Bielsa as a demanding, rigid authority who applies the same rules to everyone. That is consistent with the verified strict collective tactical duties.", "answers": { "lid_04": "C", "lid_03": "D", "lid_01": "CT", "lid_02": "D", "lid_05": "D" } }
+  "pos": {
+    "personaBrief": "Leeds averaged about 60% possession with 'forward thinking possession' (Premier League/Opta, TheMastermindSite), and Bielsa says teams should be ready to have the ball and win it back. The ball is something to keep and attack with, not something to give away on purpose.",
+    "answers": {
+      "pos_05": "C",
+      "pos_02": "D",
+      "pos_01": "C",
+      "pos_03": "C",
+      "pos_04": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "Build-up came from the back through the White-Cooper-Phillips triangle, but possession was vertical and forward-thinking, and Leeds attacked quickly after counter-press recoveries (Opta, TheMastermindSite).",
+    "answers": {
+      "pro_02": "C",
+      "pro_01": "C",
+      "pro_04": "D",
+      "pro_05": "C",
+      "pro_03": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "This was a heavily drilled 4-1-4-1 / 3-3-1-3 with set roles (Phillips holding, the back triangle 'always in place') plus positional rotation, and wide wingers stretching the pitch (Harrison, Costa).",
+    "answers": {
+      "est_05": "CT",
+      "est_02": "D",
+      "est_04": "D",
+      "est_01": "C",
+      "est_03": "C"
+    }
+  },
+  "lar": {
+    "personaBrief": "Bielsa is quoted saying most dangerous situations come from the flanks (La Grinta), and the side used two industrious wingers, Harrison and Costa, with full-backs pushing on (Opta, Cross).",
+    "answers": {
+      "lar_02": "D",
+      "lar_04": "D",
+      "lar_03": "CT",
+      "lar_05": "C",
+      "lar_01": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "The evidence is unanimous on a high press with return-pass triggers and immediate counter-pressing, and Leeds ranked 2nd for aggression (TFA, Opta, StatsBomb). Defending is collective and starts from the striker.",
+    "answers": {
+      "blo_03": "CT",
+      "blo_05": "C",
+      "blo_04": "DT",
+      "blo_01": "CT",
+      "blo_02": "DT"
+    }
+  },
+  "mar": {
+    "personaBrief": "Leeds marked man-to-man across the pitch with a spare man at the back (Cross via FFS; TFA 'partial man-marking'; the midfield three were tightly marked). Corner marking has no verified source, so that answer is inferred from this man-oriented approach.",
+    "answers": {
+      "mar_02": "C",
+      "mar_01": "D",
+      "mar_04": "D",
+      "mar_03": "C",
+      "mar_05": "C"
+    }
+  },
+  "pla": {
+    "personaBrief": "There was a fixed identity (4-1-4-1 in 36 of 46 games, the same aggressive style throughout), with shape tweaks to keep a spare man against one or two strikers. Bielsa studies every opponent obsessively (2019 press conference) but serves his own model.",
+    "answers": {
+      "pla_03": "C",
+      "pla_04": "DT",
+      "pla_05": "C",
+      "pla_01": "CT",
+      "pla_02": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "Bielsa's stated view is that if a team must be unbalanced, it should be to attack. This attacking, intense Leeds kept its style while winning the title, and the profile values how it plays as well as the result.",
+    "answers": {
+      "res_01": "CT",
+      "res_03": "D",
+      "res_05": "D",
+      "res_02": "D",
+      "res_04": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "A small core of twelve regulars in an extremely drilled collective system (TheMastermindSite, StatsBomb) lifted ordinary Championship players. Everyone presses from the striker back, so there are no free roles.",
+    "answers": {
+      "sis_01": "CT",
+      "sis_05": "C",
+      "sis_02": "N",
+      "sis_04": "D",
+      "sis_03": "CT"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified evidence; this comes from general knowledge of Bielsa's Leeds, known for extreme fitness demands ('murderball') and intensity. That fits the verified high press and aggression, while technical passers like Phillips were still valued.",
+    "answers": {
+      "jog_03": "D",
+      "jog_02": "CT",
+      "jog_04": "D",
+      "jog_01": "N",
+      "jog_05": "D"
+    }
+  },
+  "bas": {
+    "personaBrief": "The squad mixed loans (White, Harrison, Meslier, Nketiah) with academy products such as Phillips. Young players like White (every league start) and the 19-year-old Meslier were central to the title win (Wikipedia, TheMastermindSite).",
+    "answers": {
+      "bas_03": "C",
+      "bas_04": "D",
+      "bas_05": "C",
+      "bas_01": "C",
+      "bas_02": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence; this comes from general knowledge of Bielsa as a demanding, rigid authority who applies the same rules to everyone. That is consistent with the verified strict collective tactical duties.",
+    "answers": {
+      "lid_04": "C",
+      "lid_03": "D",
+      "lid_01": "CT",
+      "lid_02": "D",
+      "lid_05": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "C",
+    "elenco": "E",
+    "organizacao": "B",
+    "treinador": "D",
+    "final": "C"
+  }
 }

@@ -1,0 +1,452 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Danubian school" (catalog: football-ideology), answering as the football ideology Danubian school, answering as a coach committed to it would, as its exemplars practised it in its era. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/football-ideology/danubian-school.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK football-ideology:danubian-school".
+
+=== RESEARCH FILE (football-ideology/danubian-school.json) ===
+{
+  "id": "danubian-school",
+  "catalog": "football-ideology",
+  "name": "Danubian school",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1912",
+    "end": "1938"
+  },
+  "scopeNote": "The Central European (Austria, Hungary, Czechoslovakia) passing game between the wars. Period starts in 1912, when Jimmy Hogan's Dordrecht contract ended and he went back to Vienna to coach Austria (Jimmy Hogan, Wikipedia); Hugo Meisl was Austria's Teamchef 1913-1937 (profil). It ends in 1938, when Austria withdrew from the World Cup after the Anschluss (Wunderteam, Wikipedia). Day and month can't be pinned for an ideology; years only. The core is Meisl's Austria 'Wunderteam' (14 unbeaten April 1931 to December 1932) and Hogan's MTK Budapest. Name: Willy Meisl, Hugo's brother and a journalist, 'coined the phrase \"The Whirl\"' for the Wunderteam (Willy Meisl, Wikipedia); 'Die Italiener prägten für diese Art des Fußballspiels die Bezeichnung \"Calcio Danubiano\"' (profil, 2015); in Vienna it was called the 'Scheiberlspiel' ('schnelle, kurze, trickreiche Kombinationen', Austria-Forum). The evidence supports 'short-passing combination game in a 2-3-5 with an attacking centre-half': the Wunderteam played 'das schottische 2-3-5-System' with 'kurzen flachen Pässen' (Austria-Forum), 'wide-running half-backs and an attacking centre half' and 'a slightly deep-lying centre forward' (Game of the People, 2017). The 'withdrawn centre forward' part of the label rests on that one tier C line plus descriptions of Sindelar as a playmaker. Distinct from the Combination game (sources describe the Danubian game as derived from it: 'a quick-passing style inspired by the Scottish teams'), from the WM (no source shows a third back) and from the Hungarian 4-2-4 of the 1950s (profil places the end of 'Donaufußball' at the 1956 Hungarian crisis; that later phase is left to the separate entry).",
+  "exemplars": [
+    {
+      "id": "hugo-meisl",
+      "kind": "manager",
+      "reason": "Austria Teamchef 1913-1937 (sole control from 1919); built the 1931-34 Wunderteam, the style's showcase."
+    },
+    {
+      "id": "jimmy-hogan",
+      "kind": "manager",
+      "reason": "English coach whose short ground-passing teaching in Vienna (1912) and at MTK Budapest (from 1914/1916) is credited as the school's foundation; helped Meisl again in the 1930s."
+    },
+    {
+      "id": "austria-1931-34",
+      "kind": "team",
+      "reason": "The Wunderteam: 2-3-5 with short flat passes, an attacking centre-half and Sindelar at centre forward; 5-0 v Scotland (1931-05-16), 4-3 loss at Stamford Bridge (1932-12-07), fourth at the 1934 World Cup."
+    },
+    {
+      "id": "mtk-budapest-1914-21",
+      "kind": "team",
+      "reason": "Hogan's MTK, the Hungarian root of the school; Sebes later said 'We played football as Jimmy Hogan taught us.' Spell dates disputed (see openQuestions)."
+    },
+    {
+      "id": "sparta-prague-1927-35",
+      "kind": "team",
+      "reason": "Czechoslovak exemplar, Central European Cup winners 1927 and 1935; weakly sourced for style (see openQuestions)."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Withdrawn centre forward: only one source read (Game of the People, tier C, 2017) says 'a slightly deep-lying centre forward', and the same article says Meisl 'preferred a strong, English-type centre forward' (Uridil). Sindelar was out of the team until the journalists forced his recall in 1931. Was the deep centre forward a principle of the school or a trait of Sindelar alone? Confirm in Wilson's Inverting the Pyramid before the audit.",
+    "Marking and defending: no source read describes how Danubian teams defended (zonal vs man, high vs deep, pressing). The 2-3-5 with an attacking centre-half implies two backs; one paraphrase from WSC (2001) says Austria's defence 'retreated' at Stamford Bridge, saved as unverified. The blo and mar axes rest on memory alone.",
+    "Czechoslovakia: Sparta's 1918-26 nickname 'Iron Sparta' is for fighting qualities, and profil (2015) assigns Prague the 'Steilpass' (through pass) against Budapest's 'Kurzpass' and Vienna's 'Spielwitz'. Is Prague the same school or a more direct variant? Sparta is kept as an exemplar on thin evidence (club history praises Braine's and Košťálek's passing).",
+    "MTK and Hogan dates: Wikipedia's infobox says 1914-1921, its text says 1914-1918, and Nemzeti Sport (2021) says he arrived in Hungary in spring 1916. The exemplar id uses 1914-21; check before creating the team profile.",
+    "Hogan and Meisl in the 1930s: Wikipedia says Hogan 'formed a partnership with Hugo Meisl in 1931'; WSC (2001) calls Hogan the national coach at Stamford Bridge 1932. The extent of Hogan's direct role in the Wunderteam is unclear.",
+    "Period end: profil places the end of 'Donaufußball' after the 1954 World Cup and the 1956 Hungarian crisis. This file stops at 1938 to stay distinct from the Hungarian 4-2-4 entry; confirm that cut.",
+    "Purpose (res): the sources describe the style as an art ('Viennese football art', Tschammer, 1938) and Simmons (1932) criticised the lack of 'individual effort' when combinations broke down; the Wunderteam 'regularly lacked efficiency' (Wikipedia). Spectacle over result is suggested, but no Meisl or Hogan statement on the point was found.",
+    "Labels: 'Danubian Whirl' / 'The Whirl' (Willy Meisl), 'Calcio Danubiano' (Italian), 'Scheiberlspiel' (Viennese) and 'Danubian school' all name the same idea in the sources read; none was found to be wrong."
+  ],
+  "sources": [
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "The team took over 'das schottische 2-3-5-System' and played it with 'kurzen flachen Pässen'. Recall line-up v Scotland (1931-05-16, 5-0): Sindelar back at centre forward, Gschweidl as Rechtsverbinder, Zischek on the right wing, Schall and Vogl on the left. Five-man forward line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "'Scheiberlspiel' = 'schnelle, kurze, trickreiche Kombinationen' (with 'Wiener Schmäh'). After the 1929 loss on snow to a South German XI, Sindelar reportedly said they should have 'noch mehr \"scheiberln\"' (1929, attributed). After England 4-3 Austria in London (1932-12-07), The Times praised the team's 'Kombinationsgabe' (period press, quoted in German translation).",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1931-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Meisl gave in to pressure from fans and journalists and handed a line-up to the journalists at the Ring-Café, saying 'Da habt's euer Schmieranskiteam!' (anecdote, 1931, before the 5-0 v Scotland). Hiden replaced the more experienced Franzl in goal.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "At half-time against England (London, 1932-12-07) Meisl is said ('soll gerufen haben') to have shouted 'Spüts euer Spüü!' ('play your game'): stick to the own style rather than adapt. Anecdote, no primary source.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Wunderteam",
+      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "'The forward line was complemented by wide half-backs and an attacking centre-half.' Quick-passing style 'introduced by Englishman Jimmy Hogan'. Unbeaten in 14 games from April 1931 to December 1932; Meisl's death in 1937 'marked the beginning of the end'; Austria withdrew from the 1938 World Cup after the Anschluss.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul",
+      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-23",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Neil Fredrik Jensen. The system 'introduced wide-running half-backs and an attacking centre half' with 'a slightly deep-lying centre forward', built on 'the short-passing game adopted by Scotland'. The only source read that states the withdrawn centre forward.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul",
+      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-23",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Centre-half Josef 'Pepi' Smistik was 'renowned for his speed and ability to pick out a player with long-balls out of defence': the attacking centre-half as the link from the back, not only short passes. Hiden in goal; Nausch 'rated among the best in the world in his position'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul",
+      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-23",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "'Hugo Meisl, who preferred a strong, English-type centre forward'; Sindelar 'known as \"the Mozart of football\"'. The style's star was the slight technician, against the manager's own stated preference for a physical number 9.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Austria's Wunderteam defied the Nazis for one last act of greatness",
+      "url": "https://thesefootballtimes.co/2020/06/02/how-austrias-wunderteam-defied-the-nazis-for-one-last-act-of-greatness/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-06-02",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Aidan Williams. Meisl's 'Danubian Whirl': 'a ground-breaking approach involving the interchanging of the five forward players, and a quick-passing style inspired by the Scottish teams that toured Vienna in the early 20th-century.' Forwards, wingers included, swapped positions; does not say whether attacks went mainly wide or central.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Austria's Wunderteam defied the Nazis for one last act of greatness",
+      "url": "https://thesefootballtimes.co/2020/06/02/how-austrias-wunderteam-defied-the-nazis-for-one-last-act-of-greatness/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-06-02",
+      "eventDate": "1938",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "'the sophisticated, advanced and technical approach of the Austrians' against 'the robust, physically strong Germans' (1938 Anschluss match). Period quote, Reichssportführer Hans von Tschammer (1938, after the Anschluss): 'Viennese football art and the Viennese football school are unique in the world, and we would be fools to destroy it.'",
+      "verified": true
+    },
+    {
+      "title": "Matthias Sindelar",
+      "url": "https://en.wikipedia.org/wiki/Matthias_Sindelar",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Goldblatt (quoted): Sindelar fell 'out of favour with the disciplinarian Meisl' after his 1926 debut; after commentators argued for him at the Ring Café in 1931, 'Meisl changed his mind. Sindelar played.' Goldblatt's 'four years in the international wilderness' is contradicted by the page's own caps table (1928, 1930 caps).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Matthias Sindelar",
+      "url": "https://en.wikipedia.org/wiki/Matthias_Sindelar",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Dietschy (quoted): the 2-3-5 had 'such fluidity' that the Austrian system was nicknamed 'the Viennese whirlpool'. The team 'regularly lacked efficiency', compensated by Sindelar's skill and vision; Goldblatt calls him the Wunderteam's 'playmaker'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The extraordinary life and death of Matthias Sindelar",
+      "url": "https://thesefootballtimes.co/2015/01/18/matthias-sindelar-paper-man/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-18",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Stephen Tudor. Alfred Polgar: 'He had brains in his legs and many remarkable and unexpected things occurred to them while they were running.' A newspaper 'at the time' said he played 'like a grandmaster played chess'. The article dates neither quote (Polgar's piece is usually given as his 1939 obituary; not confirmed on a page read). Event = his play in the Wunderteam years.",
+      "verified": true
+    },
+    {
+      "title": "Paper tigers",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Cris Freddi (When Saturday Comes 170) quoting the 1932 English press on England 4-3 Austria: 'the Austrians had nothing to learn from us in heading and ball control'; 'There has been nothing better in this country for a long time'; critics noted their 'unwillingness to dribble'; columnist George Wagstaffe Simmons: when the combinations broke down 'there is no individual effort to carry on.' Sindelar's 'beautiful ground pass' set up Zischek. Period quotes (match date taken from Austria-Forum; the article does not give it).",
+      "verified": true
+    },
+    {
+      "title": "Paper tigers",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Paraphrase only (no verbatim quote obtained): Austria's defence retreated and baffled England's forwards; Smistik, the attacking centre-half, handled centre forward Hampson. Saved unverified because the page reader gave no exact wording; one match only.",
+      "verified": false,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "\"We played football as Jimmy Hogan taught us\"",
+      "url": "https://www.nemzetisport.hu/english/2021/10/we-played-football-as-jimmy-hogan-taught-us",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-10-09",
+      "eventDate": "1916",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Mátyás Szeli. Hogan arrived in Hungary in spring 1916 and won three league titles with MTK; his short-passing style is described as the 'Scottish style'. Sebes (about the 1953 Wembley match, outside the period, context only): 'We played football as Jimmy Hogan taught us.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Jimmy Hogan",
+      "url": "https://en.wikipedia.org/wiki/Jimmy_Hogan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Context, outside the period: Ron Atkinson (Hogan's apprentice at Aston Villa, 1950s): 'Everything Hogan did was geared around ball control and passing'; Barcs after Hungary 6-3 England (1953): 'Jimmy Hogan taught us everything we know about football.' Pages 0-100000 of 109774 read.",
+      "verified": false
+    },
+    {
+      "title": "Fußballkolumne: Rückkehr des Donaufußballs",
+      "url": "https://www.profil.at/gesellschaft/fussballkolumne-rueckkehr-donaufussballs-6066362",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2015-11-18",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Stephan Wabl. Vienna stood for 'Spielwitz', Budapest for 'Kurzpass', Prague for 'Steilpass', against English 'Kick and Rush'; 'Die Italiener prägten für diese Art des Fußballspiels die Bezeichnung \"Calcio Danubiano\"'. Ties the style to Meisl's time as Teamchef (1913-1937).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Sparta Prague: European dominance (club history)",
+      "url": "https://sparta.cz/en/klub/history/european-dominance",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1935",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Central European Cup won 1927 (Sparta 6-2 Rapid, 30 Oct 1927) and 1935 (Sparta 3-0 Ferencváros, 15 Sep 1935). Raymond Braine, centre forward, 'could pass the ball well'; Josef Košťálek had a 'refined sense of passing and interplay'; Nejedlý 'a constructor and a cannonballer'. History section '1918-1926: The Iron Sparta'. No description of team tactics.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Before Total Football, there was the Wunderteam",
+      "url": "https://theuntoldgame.co.uk/?p=1016",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-07-28",
+      "eventDate": "1934",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Martyn Green. For the 1934 World Cup, 'Most were the wrong side of 30 going into the tournament': the Wunderteam was kept together into its players' thirties rather than renewed.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Before Total Football, there was the Wunderteam",
+      "url": "https://theuntoldgame.co.uk/?p=1016",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-07-28",
+      "eventDate": "1934-06-03",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "1934 World Cup semi-final v Italy: Austria concentrated on 'their waltz' while Italy prepared a physical contest with hard tackling and man-marking (Italy's plan, not Austria's). Meisl in 1912 admired 'fast passing and movement introduced to the Dutch side by' Hogan.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Willy Meisl",
+      "url": "https://en.wikipedia.org/wiki/Willy_Meisl",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Origin of the name: Willy Meisl (journalist, Hugo's brother) 'coined the phrase \"The Whirl\" to describe the play of his brother's Austrian \"Wunderteam\" of the 1930s.' No date for the coinage; Willy was a journalist, not the manager, so this is not Hugo Meisl's stated view. Saved unverified as a stated-view fact.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "speaker": "Jimmy Hogan",
+      "quote": "I am a teacher and lover of constructive football with every pass, every kick, every movement an object.",
+      "date": "1936",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Hogan",
+      "provenance": "attributed"
+    },
+    {
+      "speaker": "Hugo Meisl",
+      "quote": "Spüts euer Spüü!",
+      "date": "1932-12-07",
+      "source": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "provenance": "attributed"
+    },
+    {
+      "speaker": "Hugo Meisl",
+      "quote": "Da habt's euer Schmieranskiteam!",
+      "date": "1931-05",
+      "source": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "provenance": "attributed"
+    },
+    {
+      "speaker": "Matthias Sindelar (player)",
+      "quote": "man hätte noch mehr \"scheiberln\" müssen",
+      "date": "1929",
+      "source": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Danubian_school",
+      "reason": "404"
+    },
+    {
+      "url": "https://services.phaidra.univie.ac.at/api/object/o:1256112/download",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.theviennareview.at/archives/2012/the-other-viennese-school",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://web.archive.org/web/2020/https://www.theviennareview.at/archives/2012/the-other-viennese-school",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "defensive-block",
+      "transitions",
+      "set-pieces",
+      "stated-view"
+    ],
+    "axes": [
+      "blo",
+      "mar"
+    ]
+  },
+  "influences": [
+    {
+      "id": "combination-game",
+      "kind": "football-ideology",
+      "note": "Sources derive the Danubian game from the Scottish passing game: 'a quick-passing style inspired by the Scottish teams that toured Vienna' (TFT 2020); Hogan's 'Scottish style' (Nemzeti Sport 2021)."
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "Mostly tier C reference and press narrative (AustriaWiki, Wikipedia, Game of the People, WSC, profil) with two tier B These Football Times pieces; no tactical study read (Wilson's Inverting the Pyramid not reachable). Some period quotes (1932 English press via WSC, Tschammer 1938, Polgar) support the passing/technique core, but the withdrawn centre forward rests on one tier C line, nothing at all on defending, pressing, marking or transitions, all stated views are attributed anecdotes, and the Hungarian and Czechoslovak strands (MTK, Sparta) are thinly covered."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

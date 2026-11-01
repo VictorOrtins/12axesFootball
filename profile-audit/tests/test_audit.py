@@ -21,6 +21,9 @@ def output(code="C"):
     data = {ax: {"personaBrief": "brief", "answers": {}} for ax in AXES}
     for qid, q in QMAP.items():
         data[q["axisId"]]["answers"][qid] = code
+    archetypes = profile_vector.archetype_questions()
+    if archetypes:
+        data[profile_vector.ARCHETYPE_KEY] = {q["id"]: q["options"][0]["id"] for q in archetypes}
     return data
 
 
@@ -59,7 +62,9 @@ class Vector(unittest.TestCase):
         self.assertEqual(v, {"pos": 80.0, "lar": 100.0})
 
     def test_real_pool_all_neutral_is_center(self):
-        self.assertTrue(all(v == 50.0 for v in profile_vector.compute_vector(output("N")).values()))
+        data = output("N")
+        del data[profile_vector.ARCHETYPE_KEY]
+        self.assertTrue(all(v == 50.0 for v in profile_vector.compute_vector(data).values()))
 
 
 class AuditValidation(unittest.TestCase):
@@ -95,6 +100,13 @@ class AuditValidation(unittest.TestCase):
         code, out = run(data)
         self.assertEqual(code, 1)
         self.assertIn("lid: personaBrief vazio", out)
+
+    def test_missing_archetype_block(self):
+        data = output()
+        del data[profile_vector.ARCHETYPE_KEY]
+        code, out = run(data)
+        self.assertEqual(code, 1)
+        self.assertIn("bloco 'archetype' ausente", out)
 
     def test_two_neutrals_in_one_axis(self):
         data = output()

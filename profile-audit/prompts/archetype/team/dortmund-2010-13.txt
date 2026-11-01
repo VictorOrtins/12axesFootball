@@ -1,0 +1,621 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Borussia Dortmund 2010–13" (catalog: team), answering as the team Borussia Dortmund 2010–13, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/dortmund-2010-13.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:dortmund-2010-13".
+
+=== RESEARCH FILE (team/dortmund-2010-13.json) ===
+{
+  "id": "dortmund-2010-13",
+  "catalog": "team",
+  "name": "Borussia Dortmund 2010–13",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2010-08-14",
+    "end": "2013-05-25"
+  },
+  "scopeNote": "Borussia Dortmund under Klopp across 2010/11 to 2012/13: from the DFB-Pokal first round win at Wacker Burghausen (14 Aug 2010, 3-0) to the Champions League final defeat to Bayern Munich at Wembley (25 May 2013, 1-2). Bundesliga titles 2010/11 (clinched 30 Apr 2011) and 2011/12 (81 points, plus the DFB-Pokal for the double), 2nd in 2012/13. Style: Gegenpressing from a 4-2-3-1 with fast vertical transitions (Spielverlagerung 2011: \"Gegenpressing direkt nach Ballverlust\"; Klopp's own label \"heavy metal\", 2013). Exact match totals not read from a source; the period is well above the ~15-match minimum. One manager throughout. Note: Wikipedia lists a DFL-Supercup in July/Aug 2011 inside 2011/12; it falls inside the period.",
+  "managers": [
+    {
+      "managerId": "jurgen-klopp",
+      "start": "2010-08-14",
+      "end": "2013-05-25"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (mar): Breaking The Lines says the press early on 'looked like a man-oriented press' and was then supplemented by Raum-Deckung, without dating the change; Klopp (2026) calls ball-oriented defending / Raumdeckung his base. No source dates the shift to 2010-13 seasons. Confirm how to read it (likely ball-oriented zonal base with man-oriented pressing jumps).",
+    "Set pieces: no source read covers Dortmund set pieces in this period.",
+    "Possession: only a Spielverlagerung preparation note (Ballbesitz focus in 2010/11 pre-season); no possession figures. The 2012/13 final is long balls to Lewandowski, so Gegenpressing / counter vs possession reading rests on few facts.",
+    "The 2010/11 formation after Kagawa's injury and the 2011/12 shape (Gündogan, Kagawa, Götze, Lewandowski) lack a season-specific tactical analysis; shapes rest on a 2011 portrait and a 2022 retrospective (mostly 2012/13).",
+    "Most tactical sources are retrospective or era-wide (Sky 2020, TFA 2020, BTL 2022); only Spielverlagerung 2011 and 2013 and schwatzgelb 2011 are contemporary. No in-period Klopp quote on his tactics found; stated view comes from Nov 2013 (just after the period) and 2026.",
+    "Pressing height: Sky says medium block rarely full-pitch; Spielverlagerung's final describes 'direct attacking pressing' in a 4-4-2 with a high line. Confirm whether to treat 2013 as a distinct, higher-pressing variant."
+  ],
+  "sources": [
+    {
+      "title": "2010–11 Borussia Dortmund season",
+      "url": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Borussia_Dortmund_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-14",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read characters 0-100000 of 151029 (rest truncated). \"began on 14 August 2010 with a DFB-Pokal match against Wacker Burghausen\" (won 3-0 away). \"Dortmund were crowned league champions on 30 April 2011.\" 34 Bundesliga matches. No tactics on this page.",
+      "verified": true
+    },
+    {
+      "title": "2011–12 Borussia Dortmund season",
+      "url": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Borussia_Dortmund_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-05-12",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read characters 0-100000 of 155066 (rest truncated). Finished 1st with 81 points (25W 6D 3L, 80 scored, 25 conceded). \"It ended with Dortmund completing the league and cup double with Bayern Munich as runners-up.\" Squad entries include Perisic from Club Brugge. No tactics on this page.",
+      "verified": true
+    },
+    {
+      "title": "2012–13 Borussia Dortmund season",
+      "url": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Borussia_Dortmund_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-25",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read characters 0-100000 of 285652 (rest truncated). Finished 2nd with 66 points (19W 9D 6L). Champions League final 25 May 2013 v Bayern Munich, lost 2-1 (last match of the period). No tactics on this page.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"die offensive Dreierreihe im 4-2-3-1-System\" in 2010/11; the attacking three pushed far into the middle. After Kagawa's injury Klopp was \"gezwungen sein System zur Rückrunde umzustellen\".",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"ruhiger Spielaufbau über die Innenverteidiger\"; Sahin to help against deep-lying opponents.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Preparation for 2010/11 put the focus on Ballbesitzspiel (\"auf das Ballbesitzspiel zu legen\"). Paraphrase from page; no possession figures.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"Gegenpressing direkt nach Ballverlust\" and \"Schnelles vertikales Spiel nach Ballgewinn in Mittelfeld oder Angriff\".",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Paraphrase: Piszczek played more centrally, \"nicht mehr so sehr an der Außenlinie\"; Błaszczykowski was more of a classic winger.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Champion team \"in der nur Torhüter Weidenfeller älter als 26 Jahre war\"; Hummels-Subotić pair called \"Kinderriegel\"; Klopp interlocks youth and professionals.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Klopp dealt with different types (Zidan, Kehl) \"den einzelnen Typen gerecht zu werden\"; Watzke: \"So einen Menschenfänger habe ich noch nicht kennen gelernt.\"",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp, der Menschenfänger (Spielverlagerung)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Page mentions Raumdeckung only as introduced in Germany by Wolfgang Frank at Mainz (\"die Raumdeckung\"); it does not say how Dortmund defended in 2010/11. Context only.",
+      "verified": false
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"The basic setup on paper was the 4-2-3-1\", shifting to a 2-2-6 in possession; v Real Madrid out of possession \"maintained a 4-1-4-1/4-4-2 shape\" (examples mainly 2012/13).",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Hummels \"was responsible for organizing the build-up in phase 1\"; intent \"a vertical pass breaking the lines\"; when Gündogan was marked Klopp dropped him into a back three with Hummels and Subotić.",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Early on the press \"looked like a man-oriented press\" with players close together; it was \"proving to be unsustainable over a season with the same intensity\", so Klopp added Raum-Deckung. Aim: close down \"in Phase 1 of the transition within 8 seconds\". V Madrid: \"Press high and isolate Alonso.\" Article does not date the man-oriented phase to a season, so kept unverified for the period.",
+      "verified": false
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Raum-Deckung aimed at \"closing down passing lanes to prevent progression\"; v Madrid \"narrow and compact\", shifting into a \"4-5-1 block\" to guard the half-spaces.",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"entering the final third as soon as possible\"; \"systematic counter-attacking\"; \"Dortmund was first to arrive at every 2nd ball\" v Real Madrid (2013 semi-final).",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Wide players tucked in while \"the fullbacks pushing high\"; wingers valued for \"holding width, crossing and arriving late at the far post\".",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Reus, Gündoğan, Lewandowski and Götze \"were players who were quick on and off the ball\"; Götze \"was really good in tight spaces\".",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Klopp \"created the core of this team around hard-working young players\" who \"lacked in quality\" but made up with \"superb intensity and organization\".",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Jürgen Klopp's Borussia Dortmund (Breaking The Lines)",
+      "url": "https://breakingthelines.com/historical/tactical-analysis-jurgen-klopps-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-02-07",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Plan changes by opponent: against Real Madrid, \"Press high and isolate Alonso\" and a 4-5-1 block; when Gündoğan was marked Klopp changed the build-up to a back three.",
+      "verified": true
+    },
+    {
+      "title": "Borussia Dortmund - Bayern Munich 1:2, Champions League final (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2013/07/28/english-borussia-dortmund-bayern-munich-12-champions-league-final/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-07-28",
+      "eventDate": "2013-05-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "V Bayern: \"Lewandowski and Reus pushed out side by side in a 4-4-2, just in front of the opposing central defenders\"; \"Against the ball, the BVB was positioned in direct attacking pressing\"; they controlled \"the crucial key points and pass routes\" rather than hunting the centre-backs. The man-orientation named on the page is Bayern's. One match.",
+      "verified": true
+    },
+    {
+      "title": "Borussia Dortmund - Bayern Munich 1:2, Champions League final (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2013/07/28/english-borussia-dortmund-bayern-munich-12-champions-league-final/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-07-28",
+      "eventDate": "2013-05-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"Dortmund's high position carried the risk that small errors could become extremely dangerous\"; after about 20 minutes they \"positioned themselves somewhat deeper\". One match.",
+      "verified": true
+    },
+    {
+      "title": "Borussia Dortmund - Bayern Munich 1:2, Champions League final (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2013/07/28/english-borussia-dortmund-bayern-munich-12-champions-league-final/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-07-28",
+      "eventDate": "2013-05-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Besides the counter-attacks, the BVB acted mostly with long balls to Lewandowski.\" One match.",
+      "verified": true
+    },
+    {
+      "title": "Borussia Dortmund - Bayern Munich 1:2, Champions League final (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/2013/07/28/english-borussia-dortmund-bayern-munich-12-champions-league-final/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-07-28",
+      "eventDate": "2013-05-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "After Bayern's 60th-minute goal \"Borussia took more of a risk in build-up play\" and the full-backs \"pushed forward earlier\"; Klopp \"opted for the established alternative\" with Reus central. One match.",
+      "verified": true
+    },
+    {
+      "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-04-17",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Dortmund rarely used a full-pitch press, because doing so encouraged the opposition to kick the ball long.\" Typically a medium block, pressing once the ball reached full-backs or midfielders; they \"piled players into the immediate vicinity of the player in possession\". Era-level, undated.",
+      "verified": true
+    },
+    {
+      "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-04-17",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"They were perfectly solid without possession, and defending deep actually suited their counter-attacking.\"",
+      "verified": true
+    },
+    {
+      "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-04-17",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Wide midfielders \"usually Kevin Grosskreutz and Jakub Blaszczykowski, tucked inside\".",
+      "verified": true
+    },
+    {
+      "title": "Klopp: his tactical evolution from Dortmund to Liverpool (Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Dortmund \"attacked with a rather narrow shape\"; in a mid-block \"a compact 4-4-1-1 against Bayern\" with the two forwards using cover shadows. Match and season not dated on the page.",
+      "verified": true
+    },
+    {
+      "title": "Klopp: his tactical evolution from Dortmund to Liverpool (Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Triggers: \"A bad pass, miscontrol of the ball or a closed body shape of a receiving player\"; if the opponent passed backwards Dortmund \"would not necessarily continue their press\". Does not address zonal vs man.",
+      "verified": true
+    },
+    {
+      "title": "Klopp: his tactical evolution from Dortmund to Liverpool (Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"Dortmund would often build up their play through one side of the pitch\"; overload on the right leaves space on the left, but the left-back sat too deep so they \"fail to switch sides\".",
+      "verified": true
+    },
+    {
+      "title": "Klopp: his tactical evolution from Dortmund to Liverpool (Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Klopp \"especially attempted to bring the defensive transitioning of his team to perfection\" with a quick press after losing the ball.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp: how Borussia Dortmund won the 2010/11 German top flight (bundesliga.com)",
+      "url": "https://bundesliga.com/en/bundesliga/news/jurgen-klopp-how-borussia-dortmund-won-2010-11-german-top-flight-15665",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-04-30",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Klopp's side were \"further down the line with their aggressive pressing and rapid counter-attacks\" (matchday 10 v Mainz).",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp: how Borussia Dortmund won the 2010/11 German top flight (bundesliga.com)",
+      "url": "https://bundesliga.com/en/bundesliga/news/jurgen-klopp-how-borussia-dortmund-won-2010-11-german-top-flight-15665",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-04-30",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Matchday 24 side in Munich was \"the youngest team in their Bundesliga history - with an average age of 22.3 years\"; \"Germany's youngest ever champions\". Piszczek from Hertha Berlin, Kagawa from Cerezo Osaka, Lewandowski from Lech Poznan.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp: how Borussia Dortmund won the 2010/11 German top flight (bundesliga.com)",
+      "url": "https://bundesliga.com/en/bundesliga/news/jurgen-klopp-how-borussia-dortmund-won-2010-11-german-top-flight-15665",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-04-30",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Watzke (2019): \"In this year of the first title, he was a locomotive who gave the power to the rest.\" Hummels: Klopp introduced a system that worked and a desire to \"give it everything and go the extra yard\".",
+      "verified": true
+    },
+    {
+      "title": "Major Klopp - championship maker (schwatzgelb.de)",
+      "url": "https://schwatzgelb.de/artikel/2011/archiv/2011_08_02_heroes-in-blackyellow_klopp",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-08-02",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "\"The extreme flexibility of Die Borussen's tactics allowed them to adapt to and defeat their opponents' strategies.\" Also \"intense pressing whenever an opponent had possession\", \"lightning-fast counterattacks in numbers\".",
+      "verified": true
+    },
+    {
+      "title": "Major Klopp - championship maker (schwatzgelb.de)",
+      "url": "https://schwatzgelb.de/artikel/2011/archiv/2011_08_02_heroes-in-blackyellow_klopp",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-08-02",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"With an average age of just 23\"; \"Klopp managed to motivate and mould a young, raw, and inexperienced squad into a team of title-winners.\"",
+      "verified": true
+    },
+    {
+      "title": "How Jurgen Klopp built an empire out of ruin at Borussia Dortmund (These Football Times)",
+      "url": "https://thesefootballtimes.co/2019/07/05/how-jurgen-klopp-built-an-empire-out-of-ruin-at-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-07-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Błaszczykowski and Lewandowski bought \"for a pittance from Poland\"; Subotić, Hummels, Bender, Großkreutz and Piszczek \"for similarly small sums from an assortment of German rivals\"; Götze \"promoted from within\"; Klopp drew \"astutely from his club's youth academy\". Retrospective.",
+      "verified": true
+    },
+    {
+      "title": "How Jurgen Klopp built an empire out of ruin at Borussia Dortmund (These Football Times)",
+      "url": "https://thesefootballtimes.co/2019/07/05/how-jurgen-klopp-built-an-empire-out-of-ruin-at-borussia-dortmund/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-07-05",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"lightning-quick transitions from defence to attack\" and \"gegenpressing, or counter-pressing\"; an \"aggressive, exuberant, albeit exhausting, fast-paced system\". Retrospective.",
+      "verified": true
+    },
+    {
+      "title": "Wie gut war eigentlich Borussia Dortmund von 2010 bis 2013? (90min.de)",
+      "url": "https://www.90min.de/wie-gut-war-eigentlich-borussia-dortmund-von-2010-bis-2013",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2020",
+      "eventDate": "2010-13",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Paraphrase from the page: Klopp's teams played intense Gegenpressing from a 4-2-3-1 with fast transitions; the core stayed together for years; 2010/11 Europa League and 2011/12 Champions League exits came in the group stage. Page reader gave a summary, not verbatim quotes.",
+      "verified": false
+    },
+    {
+      "title": "Iconic teams: Dortmund double winners 2011/12 (bundesliga.com)",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/iconic-teams-borussia-dortmund-double-winners-2011-12-klopp-lewandowski-gundogan-24944",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-09-29",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Gündoğan arrived summer 2011 \"something of an unknown\"; Kagawa's \"technique and creative vision consistently had opponents in knots\"; Kehl was \"doing the dirty work so that those around him could express themselves\"; Hummels and Subotić the \"foundation of the side\". No tactics on the page.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "It's like an orchestra, but they play a silent song. I like heavy metal, I always want it to be loud.",
+      "date": "2013-11-05",
+      "source": "https://www.hurriyetdailynews.com/dortmunds-heavy-metal-klopp-out-to-silence-arsenal-57413",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Arsenal have a philosophy from Arsene Wenger, I love that, but I can't coach that way, I am different.",
+      "date": "2013-11-05",
+      "source": "https://www.hurriyetdailynews.com/dortmunds-heavy-metal-klopp-out-to-silence-arsenal-57413",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Gegenpressing lets you win back the ball nearer to the goal. It's only one pass away from a really good opportunity.",
+      "date": "2020-04-17",
+      "source": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Für andere sah es chaotisch aus, für uns war es organisiert.",
+      "date": "2026-09-23",
+      "source": "https://www.leinetal24.de/sport/fussball/juergen-klopp-das-erweckungserlebnis-und-das-organisierte-chaos-zr-94505802.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "das ballorientierte Verteidigen, also die Raumdeckung, eingeführt wurde.",
+      "date": "2026-09-23",
+      "source": "https://www.leinetal24.de/sport/fussball/juergen-klopp-das-erweckungserlebnis-und-das-organisierte-chaos-zr-94505802.html",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Borussia_Dortmund_season",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Borussia_Dortmund_season",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Borussia_Dortmund_season",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "football-ideology-gegenpressing",
+      "kind": "football-ideology",
+      "note": "Gegenpressing, coined and practised by Klopp's Dortmund; Raumdeckung learnt from Wolfgang Frank at Mainz."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "Contemporary tier B evidence (Spielverlagerung 2011 and the 2013 final) agrees with era-level tier B-C pieces on a 4-2-3-1 Gegenpressing team with fast vertical transitions and a very young squad, but most pieces are retrospective or era-wide, season-specific detail for 2011/12 is thin, set pieces are uncovered, marking is not dated, and the stated view is from outside the period."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

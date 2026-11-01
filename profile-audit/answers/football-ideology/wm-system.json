@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Joy's 'deliberately drawing on the opponents by retreating and funneling to our own goal' and the counter-attacking style credited to Chapman's Arsenal show ball and territory ceded on purpose to exploit space behind with fast forwards.", "answers": { "pos_04": "CT", "pos_01": "DT", "pos_02": "CT", "pos_05": "D", "pos_03": "D" } },
-  "pro": { "personaBrief": "Buchan's plan of 'a goal from three or four touches out of defence' via the link man and James's pass from his own half to Lambert in the 1930 final show quick, forward, direct progression, though through a planned passing link rather than hit-and-chase.", "answers": { "pro_05": "CT", "pro_03": "C", "pro_01": "CT", "pro_04": "D", "pro_02": "D" } },
-  "est": { "personaBrief": "The WM (3-2-2-3) fixed each player to a numbered position, Chapman 'set out methodically to organize the winning of matches', with a stopper, a link inside-forward and goalscoring wide forwards spread across the pitch.", "answers": { "est_02": "D", "est_01": "C", "est_03": "D", "est_05": "C", "est_04": "D" } },
-  "lar": { "personaBrief": "Chapman called 'inside passing' 'more deadly, if less spectacular' than running down the wings and crossing, yet the system's outlets and top scorers were the wide forwards Hulme and Bastin fed by James.", "answers": { "lar_01": "D", "lar_02": "N", "lar_03": "C", "lar_05": "C", "lar_04": "D" } },
-  "blo": { "personaBrief": "Joy's 'retreating and funneling to our own goal' describes a deep block with no high pressing; the ball is won near the own box and the counter launched from there.", "answers": { "blo_05": "D", "blo_02": "CT", "blo_01": "DT", "blo_03": "D", "blo_04": "CT" } },
-  "mar": { "personaBrief": "Sources disagree: Buchan's idea had the stopper guarding a zone, but the WM as practised had the centre-back 'to stop the opposing centre-forward' and by 1953 English WM defences marked 'whoever was wearing a particular number', a man-oriented norm.", "answers": { "mar_05": "C", "mar_01": "D", "mar_03": "C", "mar_02": "C", "mar_04": "D" } },
-  "pla": { "personaBrief": "Chapman held 'complete control' and defended a 'winning system' ('why change a winning system?'), applying the same counter-attacking model home and away rather than reshaping it per opponent.", "answers": { "pla_05": "C", "pla_01": "C", "pla_03": "C", "pla_04": "D", "pla_02": "D" } },
-  "res": { "personaBrief": "Chapman: 'It is no longer necessary for a team to play well. They must get goals, no matter how, and the points'; the counter-attacking model was used to win away from home, and 'a team can attack for too long'.", "answers": { "res_05": "CT", "res_04": "DT", "res_01": "D", "res_02": "D", "res_03": "C" } },
-  "sis": { "personaBrief": "Chapman was the first to methodically organize winning and preached 'service before self', though the system relied on the rare Alex James as its hub inside a defined link role.", "answers": { "sis_01": "C", "sis_02": "D", "sis_04": "D", "sis_03": "C", "sis_05": "C" } },
-  "jog": { "personaBrief": "The stopper Roberts was picked for 'height, positional intelligence and physical strength' and the wide forwards for pace, while James, a technical withdrawn number 10, was the creative hub.", "answers": { "jog_02": "C", "jog_05": "N", "jog_03": "C", "jog_01": "D", "jog_04": "D" } },
-  "bas": { "personaBrief": "Chapman built Arsenal through signings of veterans (Buchan 34, Stephenson 33) and record fees (David Jack), with nursery teams as a secondary source.", "answers": { "bas_04": "C", "bas_03": "D", "bas_05": "D", "bas_02": "C", "bas_01": "D" } },
-  "lid": { "personaBrief": "Chapman was 'a disciplinarian' with 'complete control' over selection and tactics, though supportive of players and open to their views, inviting Buchan to shape the system at a team meeting.", "answers": { "lid_04": "C", "lid_02": "D", "lid_03": "C", "lid_01": "CT", "lid_05": "D" } }
+  "pos": {
+    "personaBrief": "Joy's 'deliberately drawing on the opponents by retreating and funneling to our own goal' and the counter-attacking style credited to Chapman's Arsenal show ball and territory ceded on purpose to exploit space behind with fast forwards.",
+    "answers": {
+      "pos_04": "CT",
+      "pos_01": "DT",
+      "pos_02": "CT",
+      "pos_05": "D",
+      "pos_03": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "Buchan's plan of 'a goal from three or four touches out of defence' via the link man and James's pass from his own half to Lambert in the 1930 final show quick, forward, direct progression, though through a planned passing link rather than hit-and-chase.",
+    "answers": {
+      "pro_05": "CT",
+      "pro_03": "C",
+      "pro_01": "CT",
+      "pro_04": "D",
+      "pro_02": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "The WM (3-2-2-3) fixed each player to a numbered position, Chapman 'set out methodically to organize the winning of matches', with a stopper, a link inside-forward and goalscoring wide forwards spread across the pitch.",
+    "answers": {
+      "est_02": "D",
+      "est_01": "C",
+      "est_03": "D",
+      "est_05": "C",
+      "est_04": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "Chapman called 'inside passing' 'more deadly, if less spectacular' than running down the wings and crossing, yet the system's outlets and top scorers were the wide forwards Hulme and Bastin fed by James.",
+    "answers": {
+      "lar_01": "D",
+      "lar_02": "N",
+      "lar_03": "C",
+      "lar_05": "C",
+      "lar_04": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "Joy's 'retreating and funneling to our own goal' describes a deep block with no high pressing; the ball is won near the own box and the counter launched from there.",
+    "answers": {
+      "blo_05": "D",
+      "blo_02": "CT",
+      "blo_01": "DT",
+      "blo_03": "D",
+      "blo_04": "CT"
+    }
+  },
+  "mar": {
+    "personaBrief": "Sources disagree: Buchan's idea had the stopper guarding a zone, but the WM as practised had the centre-back 'to stop the opposing centre-forward' and by 1953 English WM defences marked 'whoever was wearing a particular number', a man-oriented norm.",
+    "answers": {
+      "mar_05": "C",
+      "mar_01": "D",
+      "mar_03": "C",
+      "mar_02": "C",
+      "mar_04": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "Chapman held 'complete control' and defended a 'winning system' ('why change a winning system?'), applying the same counter-attacking model home and away rather than reshaping it per opponent.",
+    "answers": {
+      "pla_05": "C",
+      "pla_01": "C",
+      "pla_03": "C",
+      "pla_04": "D",
+      "pla_02": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "Chapman: 'It is no longer necessary for a team to play well. They must get goals, no matter how, and the points'; the counter-attacking model was used to win away from home, and 'a team can attack for too long'.",
+    "answers": {
+      "res_05": "CT",
+      "res_04": "DT",
+      "res_01": "D",
+      "res_02": "D",
+      "res_03": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "Chapman was the first to methodically organize winning and preached 'service before self', though the system relied on the rare Alex James as its hub inside a defined link role.",
+    "answers": {
+      "sis_01": "C",
+      "sis_02": "D",
+      "sis_04": "D",
+      "sis_03": "C",
+      "sis_05": "C"
+    }
+  },
+  "jog": {
+    "personaBrief": "The stopper Roberts was picked for 'height, positional intelligence and physical strength' and the wide forwards for pace, while James, a technical withdrawn number 10, was the creative hub.",
+    "answers": {
+      "jog_02": "C",
+      "jog_05": "N",
+      "jog_03": "C",
+      "jog_01": "D",
+      "jog_04": "D"
+    }
+  },
+  "bas": {
+    "personaBrief": "Chapman built Arsenal through signings of veterans (Buchan 34, Stephenson 33) and record fees (David Jack), with nursery teams as a secondary source.",
+    "answers": {
+      "bas_04": "C",
+      "bas_03": "D",
+      "bas_05": "D",
+      "bas_02": "C",
+      "bas_01": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "Chapman was 'a disciplinarian' with 'complete control' over selection and tactics, though supportive of players and open to their views, inviting Buchan to shape the system at a team meeting.",
+    "answers": {
+      "lid_04": "C",
+      "lid_02": "D",
+      "lid_03": "C",
+      "lid_01": "CT",
+      "lid_05": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "B",
+    "elenco": "A",
+    "organizacao": "A",
+    "treinador": "D",
+    "final": "A"
+  }
 }

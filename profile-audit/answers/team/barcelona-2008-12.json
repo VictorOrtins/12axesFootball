@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Guardiola: 'We want possession for as long as possible' (2011) and 'the best way to defend is to attack well' (2009); StatsBomb notes long sequences of controlled possession in the 2009 final.", "answers": { "pos_05": "CT", "pos_03": "CT", "pos_04": "DT", "pos_02": "D", "pos_01": "CT" } },
-  "pro": { "personaBrief": "Centre-backs play into midfielders' feet and the team plays out from the back under pressure using technical superiority (2011 final, 2011/12 Athletic); 'retaining possession and quick interchange of passes' is a core trait, with Busquets dropping between the centre-backs.", "answers": { "pro_04": "C", "pro_05": "D", "pro_02": "CT", "pro_03": "DT", "pro_01": "D" } },
-  "est": { "personaBrief": "Positional play with wide forwards holding high and wide positions (Henry on the touchline 2009; Pedro and Villa 2011) and rational occupation of space, combined with a false nine who drops close to Xavi and a 4-3-3 that becomes 3-4-3.", "answers": { "est_03": "C", "est_04": "CT", "est_01": "C", "est_05": "CT", "est_02": "C" } },
-  "lar": { "personaBrief": "Width is used to pin full-backs and stretch the pitch (Henry/Eto'o, Pedro/Villa high and wide, Alves overlapping), but the goal route runs through the middle via Messi, Xavi and Iniesta with no proper striker, not via crosses.", "answers": { "lar_03": "D", "lar_05": "C", "lar_04": "N", "lar_01": "DT", "lar_02": "C" } },
-  "blo": { "personaBrief": "'Intense pressing high up the opposition's half' is the trademark, Guardiola 'ordered his team to press very high' (2011/12), a high line is played and the counter-press produced the third goal in the 2011 final.", "answers": { "blo_04": "DT", "blo_02": "DT", "blo_01": "CT", "blo_05": "C", "blo_03": "CT" } },
-  "mar": { "personaBrief": "Space-based positional defending with a high line and Touré covering spaces, though the press on the opponent's build-up became nearly man-oriented in one 2011/12 match; corner marking is not verified and comes from general knowledge.", "answers": { "mar_02": "D", "mar_01": "C", "mar_03": "D", "mar_05": "D", "mar_04": "C" } },
-  "pla": { "personaBrief": "No verified evidence on game-management (gap axis); from general knowledge Guardiola imposed a fixed game model and kept it against any opponent, adjusting shapes (3-4-3, 4-2-4) by detail, consistent with 'in the end our football won the day'.", "answers": { "pla_05": "C", "pla_01": "C", "pla_03": "C", "pla_02": "D", "pla_04": "DT" } },
-  "res": { "personaBrief": "A Cruyffian side that attacked to defend and sought possession to create as many attacking situations as possible, while winning 14 trophies; it played to win away and did not shut games down.", "answers": { "res_03": "D", "res_05": "D", "res_01": "C", "res_04": "C", "res_02": "D" } },
-  "sis": { "personaBrief": "A highly drilled collective where everyone presses, Messi included as the false nine with a defined role, and stars judged on performance ('si estuvieran a su nivel, estarían con nosotros'), though built around Messi's talent.", "answers": { "sis_04": "D", "sis_03": "C", "sis_05": "D", "sis_02": "N", "sis_01": "C" } },
-  "jog": { "personaBrief": "Technical superiority to play in tight spaces, midfielders used as centre-backs (Touré, Mascherano) and a small technical midfield of Xavi, Iniesta, Busquets define the team.", "answers": { "jog_03": "CT", "jog_05": "DT", "jog_04": "DT", "jog_02": "D", "jog_01": "C" } },
-  "bas": { "personaBrief": "Nine academy products started the 2011 Club World Cup final; young players like Busquets and Pedro were promoted straight into a title-winning XI.", "answers": { "bas_02": "D", "bas_04": "D", "bas_03": "CT", "bas_05": "C", "bas_01": "CT" } },
-  "lid": { "personaBrief": "Little verified evidence (gap axis): only the pre-period June 2008 decision to plan without Ronaldinho, Deco and Eto'o for performance and 'less tangible' reasons; from general knowledge Guardiola was a demanding authority who protected group unity and treated stars by the same rules.", "answers": { "lid_01": "CT", "lid_03": "D", "lid_04": "C", "lid_02": "C", "lid_05": "D" } }
+  "pos": {
+    "personaBrief": "Guardiola: 'We want possession for as long as possible' (2011) and 'the best way to defend is to attack well' (2009); StatsBomb notes long sequences of controlled possession in the 2009 final.",
+    "answers": {
+      "pos_05": "CT",
+      "pos_03": "CT",
+      "pos_04": "DT",
+      "pos_02": "D",
+      "pos_01": "CT"
+    }
+  },
+  "pro": {
+    "personaBrief": "Centre-backs play into midfielders' feet and the team plays out from the back under pressure using technical superiority (2011 final, 2011/12 Athletic); 'retaining possession and quick interchange of passes' is a core trait, with Busquets dropping between the centre-backs.",
+    "answers": {
+      "pro_04": "C",
+      "pro_05": "D",
+      "pro_02": "CT",
+      "pro_03": "DT",
+      "pro_01": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "Positional play with wide forwards holding high and wide positions (Henry on the touchline 2009; Pedro and Villa 2011) and rational occupation of space, combined with a false nine who drops close to Xavi and a 4-3-3 that becomes 3-4-3.",
+    "answers": {
+      "est_03": "C",
+      "est_04": "CT",
+      "est_01": "C",
+      "est_05": "CT",
+      "est_02": "C"
+    }
+  },
+  "lar": {
+    "personaBrief": "Width is used to pin full-backs and stretch the pitch (Henry/Eto'o, Pedro/Villa high and wide, Alves overlapping), but the goal route runs through the middle via Messi, Xavi and Iniesta with no proper striker, not via crosses.",
+    "answers": {
+      "lar_03": "D",
+      "lar_05": "C",
+      "lar_04": "N",
+      "lar_01": "DT",
+      "lar_02": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "'Intense pressing high up the opposition's half' is the trademark, Guardiola 'ordered his team to press very high' (2011/12), a high line is played and the counter-press produced the third goal in the 2011 final.",
+    "answers": {
+      "blo_04": "DT",
+      "blo_02": "DT",
+      "blo_01": "CT",
+      "blo_05": "C",
+      "blo_03": "CT"
+    }
+  },
+  "mar": {
+    "personaBrief": "Space-based positional defending with a high line and Touré covering spaces, though the press on the opponent's build-up became nearly man-oriented in one 2011/12 match; corner marking is not verified and comes from general knowledge.",
+    "answers": {
+      "mar_02": "D",
+      "mar_01": "C",
+      "mar_03": "D",
+      "mar_05": "D",
+      "mar_04": "C"
+    }
+  },
+  "pla": {
+    "personaBrief": "No verified evidence on game-management (gap axis); from general knowledge Guardiola imposed a fixed game model and kept it against any opponent, adjusting shapes (3-4-3, 4-2-4) by detail, consistent with 'in the end our football won the day'.",
+    "answers": {
+      "pla_05": "C",
+      "pla_01": "C",
+      "pla_03": "C",
+      "pla_02": "D",
+      "pla_04": "DT"
+    }
+  },
+  "res": {
+    "personaBrief": "A Cruyffian side that attacked to defend and sought possession to create as many attacking situations as possible, while winning 14 trophies; it played to win away and did not shut games down.",
+    "answers": {
+      "res_03": "D",
+      "res_05": "D",
+      "res_01": "C",
+      "res_04": "C",
+      "res_02": "D"
+    }
+  },
+  "sis": {
+    "personaBrief": "A highly drilled collective where everyone presses, Messi included as the false nine with a defined role, and stars judged on performance ('si estuvieran a su nivel, estarían con nosotros'), though built around Messi's talent.",
+    "answers": {
+      "sis_04": "D",
+      "sis_03": "C",
+      "sis_05": "D",
+      "sis_02": "N",
+      "sis_01": "C"
+    }
+  },
+  "jog": {
+    "personaBrief": "Technical superiority to play in tight spaces, midfielders used as centre-backs (Touré, Mascherano) and a small technical midfield of Xavi, Iniesta, Busquets define the team.",
+    "answers": {
+      "jog_03": "CT",
+      "jog_05": "DT",
+      "jog_04": "DT",
+      "jog_02": "D",
+      "jog_01": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "Nine academy products started the 2011 Club World Cup final; young players like Busquets and Pedro were promoted straight into a title-winning XI.",
+    "answers": {
+      "bas_02": "D",
+      "bas_04": "D",
+      "bas_03": "CT",
+      "bas_05": "C",
+      "bas_01": "CT"
+    }
+  },
+  "lid": {
+    "personaBrief": "Little verified evidence (gap axis): only the pre-period June 2008 decision to plan without Ronaldinho, Deco and Eto'o for performance and 'less tangible' reasons; from general knowledge Guardiola was a demanding authority who protected group unity and treated stars by the same rules.",
+    "answers": {
+      "lid_01": "CT",
+      "lid_03": "D",
+      "lid_04": "C",
+      "lid_02": "C",
+      "lid_05": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "A",
+    "organizacao": "B",
+    "treinador": "D",
+    "final": "B"
+  }
 }

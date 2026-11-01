@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Verified: Simeone's teams are built on defensive compactness and quick counter-attacks, defending deep in a narrow 4-4-2, so possession is willingly conceded to attack space on the break.", "answers": { "pos_04": "CT", "pos_02": "CT", "pos_05": "D", "pos_01": "DT", "pos_03": "D" } },
-  "pro": { "personaBrief": "The verified quick counter-attacks imply fast, vertical progression after recoveries; build-up is a gap, so the preference for safe, low-risk exits under pressure comes from general knowledge of his Atlético sides.", "answers": { "pro_05": "C", "pro_04": "C", "pro_01": "CT", "pro_03": "D", "pro_02": "D" } },
-  "est": { "personaBrief": "The verified 4-4-2 from Estudiantes onward and the narrow compact block point to rehearsed, fixed positions in two banks of four, though the wide midfielders tuck inside and the second striker links play.", "answers": { "est_05": "CT", "est_01": "C", "est_03": "D", "est_04": "C", "est_02": "D" } },
-  "lar": { "personaBrief": "Width is a gap; from general knowledge, consistent with the verified narrow 4-4-2, his sides use central/tucked-in midfielders rather than touchline wingers, with full-backs and crosses (set pieces matter, verified 2013-14) providing the outlet wide.", "answers": { "lar_04": "C", "lar_02": "N", "lar_05": "D", "lar_03": "C", "lar_01": "D" } },
-  "blo": { "personaBrief": "Verified: deep defending in their own defensive third in a narrow 4-4-2 with defensive compactness; the team drops and regroups rather than counter-pressing high.", "answers": { "blo_01": "D", "blo_05": "D", "blo_04": "C", "blo_03": "D", "blo_02": "CT" } },
-  "mar": { "personaBrief": "Marking is flagged as an open question; the verified compact zonal 4-4-2 block suggests space-protecting defenders, while set-piece defending relies on duels and individual responsibility from general knowledge.", "answers": { "mar_05": "D", "mar_01": "C", "mar_03": "N", "mar_02": "D", "mar_04": "D" } },
-  "pla": { "personaBrief": "His game is reactive and opponent-focused ('partido a partido'), and he verified-ly changed systems to back threes (5-3-2, 3-5-2) in 2020-21, yet he imposes his demanding work ethic on whoever arrives.", "answers": { "pla_02": "C", "pla_04": "C", "pla_01": "C", "pla_03": "D", "pla_05": "D" } },
-  "res": { "personaBrief": "Deep defending, counters and decisive set-piece goals such as the 2014 title winner (verified) show a manager who measures everything by the result and happily shuts games down.", "answers": { "res_05": "CT", "res_04": "DT", "res_01": "D", "res_03": "CT", "res_02": "C" } },
-  "sis": { "personaBrief": "The verified collective compactness of a narrow 4-4-2 depends on every player fulfilling defensive duties; the system elevates ordinary players and stars get no exemption.", "answers": { "sis_05": "CT", "sis_02": "D", "sis_03": "CT", "sis_01": "CT", "sis_04": "D" } },
-  "jog": { "personaBrief": "Player profile is a gap; from general knowledge, consistent with the verified deep compact block and set-piece reliance, he prizes intensity, duels and aerial strength over pure technique.", "answers": { "jog_04": "C", "jog_03": "D", "jog_01": "D", "jog_02": "CT", "jog_05": "CT" } },
-  "bas": { "personaBrief": "Squad-building is a gap; from general knowledge he trusts seasoned, committed players for titles while giving chances to academy products like Koke and Saul, but winning remains the priority.", "answers": { "bas_03": "N", "bas_04": "C", "bas_02": "C", "bas_01": "D", "bas_05": "D" } },
-  "lid": { "personaBrief": "People management is a gap; from general knowledge 'Cholismo' is an intense, authoritative leadership where the coach decides and rules apply to all, while also demanding a fiercely united group.", "answers": { "lid_01": "CT", "lid_02": "N", "lid_03": "D", "lid_05": "D", "lid_04": "C" } }
+  "pos": {
+    "personaBrief": "Verified: Simeone's teams are built on defensive compactness and quick counter-attacks, defending deep in a narrow 4-4-2, so possession is willingly conceded to attack space on the break.",
+    "answers": {
+      "pos_04": "CT",
+      "pos_02": "CT",
+      "pos_05": "D",
+      "pos_01": "DT",
+      "pos_03": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "The verified quick counter-attacks imply fast, vertical progression after recoveries; build-up is a gap, so the preference for safe, low-risk exits under pressure comes from general knowledge of his Atlético sides.",
+    "answers": {
+      "pro_05": "C",
+      "pro_04": "C",
+      "pro_01": "CT",
+      "pro_03": "D",
+      "pro_02": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "The verified 4-4-2 from Estudiantes onward and the narrow compact block point to rehearsed, fixed positions in two banks of four, though the wide midfielders tuck inside and the second striker links play.",
+    "answers": {
+      "est_05": "CT",
+      "est_01": "C",
+      "est_03": "D",
+      "est_04": "C",
+      "est_02": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "Width is a gap; from general knowledge, consistent with the verified narrow 4-4-2, his sides use central/tucked-in midfielders rather than touchline wingers, with full-backs and crosses (set pieces matter, verified 2013-14) providing the outlet wide.",
+    "answers": {
+      "lar_04": "C",
+      "lar_02": "N",
+      "lar_05": "D",
+      "lar_03": "C",
+      "lar_01": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "Verified: deep defending in their own defensive third in a narrow 4-4-2 with defensive compactness; the team drops and regroups rather than counter-pressing high.",
+    "answers": {
+      "blo_01": "D",
+      "blo_05": "D",
+      "blo_04": "C",
+      "blo_03": "D",
+      "blo_02": "CT"
+    }
+  },
+  "mar": {
+    "personaBrief": "Marking is flagged as an open question; the verified compact zonal 4-4-2 block suggests space-protecting defenders, while set-piece defending relies on duels and individual responsibility from general knowledge.",
+    "answers": {
+      "mar_05": "D",
+      "mar_01": "C",
+      "mar_03": "N",
+      "mar_02": "D",
+      "mar_04": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "His game is reactive and opponent-focused ('partido a partido'), and he verified-ly changed systems to back threes (5-3-2, 3-5-2) in 2020-21, yet he imposes his demanding work ethic on whoever arrives.",
+    "answers": {
+      "pla_02": "C",
+      "pla_04": "C",
+      "pla_01": "C",
+      "pla_03": "D",
+      "pla_05": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "Deep defending, counters and decisive set-piece goals such as the 2014 title winner (verified) show a manager who measures everything by the result and happily shuts games down.",
+    "answers": {
+      "res_05": "CT",
+      "res_04": "DT",
+      "res_01": "D",
+      "res_03": "CT",
+      "res_02": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "The verified collective compactness of a narrow 4-4-2 depends on every player fulfilling defensive duties; the system elevates ordinary players and stars get no exemption.",
+    "answers": {
+      "sis_05": "CT",
+      "sis_02": "D",
+      "sis_03": "CT",
+      "sis_01": "CT",
+      "sis_04": "D"
+    }
+  },
+  "jog": {
+    "personaBrief": "Player profile is a gap; from general knowledge, consistent with the verified deep compact block and set-piece reliance, he prizes intensity, duels and aerial strength over pure technique.",
+    "answers": {
+      "jog_04": "C",
+      "jog_03": "D",
+      "jog_01": "D",
+      "jog_02": "CT",
+      "jog_05": "CT"
+    }
+  },
+  "bas": {
+    "personaBrief": "Squad-building is a gap; from general knowledge he trusts seasoned, committed players for titles while giving chances to academy products like Koke and Saul, but winning remains the priority.",
+    "answers": {
+      "bas_03": "N",
+      "bas_04": "C",
+      "bas_02": "C",
+      "bas_01": "D",
+      "bas_05": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "People management is a gap; from general knowledge 'Cholismo' is an intense, authoritative leadership where the coach decides and rules apply to all, while also demanding a fiercely united group.",
+    "answers": {
+      "lid_01": "CT",
+      "lid_02": "N",
+      "lid_03": "D",
+      "lid_05": "D",
+      "lid_04": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "B",
+    "elenco": "D",
+    "organizacao": "A",
+    "treinador": "D",
+    "final": "A"
+  }
 }

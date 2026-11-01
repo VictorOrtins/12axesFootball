@@ -1,0 +1,197 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Diego Simeone" (catalog: manager), answering as the manager Diego Simeone, across the spells counted in the research file (spellsCounted). Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/diego-simeone.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK manager:diego-simeone".
+
+=== RESEARCH FILE (manager/diego-simeone.json) ===
+{
+  "id": "diego-simeone",
+  "catalog": "manager",
+  "name": "Diego Simeone",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "2006-05-18",
+    "end": "ongoing"
+  },
+  "scopeNote": "Manager profile of Diego Simeone across four counted spells: Estudiantes (18 May 2006 to 3 December 2007: 2006 Apertura), River Plate (15 December 2007 to 7 November 2008: 2008 Clausura), and Atlético Madrid (23 December 2011 to the present: Europa League 2011-12 and 2017-18, La Liga 2013-14 and 2020-21, Champions League runner-up 2013-14 and 2015-16). Dates from the Wikipedia statistics table, read at step 1. Excluded: Racing Club 2006 and 2011 (short spells, no titles), San Lorenzo 2009-10 and Catania 2011 (no titles). The period is ongoing because the Atlético spell is listed as present on the page.",
+  "spellsCounted": [
+    {
+      "club": "Estudiantes",
+      "start": "2006-05-18",
+      "end": "2007-12-03",
+      "reason": "2006 Apertura, the first side where he used the 4-4-2 the page describes."
+    },
+    {
+      "club": "River Plate",
+      "start": "2007-12-15",
+      "end": "2008-11-07",
+      "reason": "2008 Clausura."
+    },
+    {
+      "club": "Atlético Madrid",
+      "start": "2011-12-23",
+      "end": "ongoing",
+      "reason": "The side he is known for: La Liga, two Europa Leagues, Champions League finals."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Racing Club",
+      "start": "2006-02-18",
+      "end": "2006-05-04",
+      "reason": "Fourteen matches, no titles."
+    },
+    {
+      "club": "San Lorenzo",
+      "start": "2009-04-15",
+      "end": "2010-04-03",
+      "reason": "No titles."
+    },
+    {
+      "club": "Catania",
+      "start": "2011-01-19",
+      "end": "2011-06-01",
+      "reason": "Eighteen matches, no titles."
+    },
+    {
+      "club": "Racing Club",
+      "start": "2011-06-21",
+      "end": "2011-12-23",
+      "reason": "Twenty matches, no titles."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The marking facts (zone or man-oriented) are not in the page read; the defensive-block facts are general career statements with no season."
+  ],
+  "sources": [
+    {
+      "title": "Diego Simeone - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2006",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"Simeone's preferred formation is the 4–4–2, which he first practised when he was manager of Estudiantes in 2006.\"",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2011",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"deep defending in their own defensive third in a narrow 4–4–2\" (Atlético, general career; no season given)",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2011",
+      "accessedOn": "2026-10-17",
+      "dimension": "transitions",
+      "evidence": "\"A common feature of Simeone's teams is defensive compactness and quick counter-attacks.\" (general career; no season given)",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2013",
+      "accessedOn": "2026-10-17",
+      "dimension": "set-pieces",
+      "evidence": "\"Several important goals, including the one that gave Atlético the 2014 La Liga title, have been scored from set-pieces.\" (2013-14)",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2020",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "\"Simeone experimented with back three formations, such as 5–3–2 and 3–5–2.\" (2020-21)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "squad-building",
+      "stated-view",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "jog",
+      "lar",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Dated career table and five tactical facts from the Wikipedia career section; no tier A-B season analysis read."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

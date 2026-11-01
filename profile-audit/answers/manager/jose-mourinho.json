@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Mourinho says possession is not dominance and 'a team without the ball can still be in control' (Coaches' Voice 2019), and his Chelsea 'could kill them in transition'; yet Porto's model held that 'ter bola é essencial para controlar o jogo' (Bola na Rede).", "answers": { "pos_02": "C", "pos_03": "C", "pos_04": "C", "pos_01": "DT", "pos_05": "D" } },
-  "pro": { "personaBrief": "His teams are built to kill in transition (Chelsea 2005/06, Porto counter-attacks per beIN), with a safe screening holder (Makélélé, Khedira/Xabi), while Chelsea 2014 dropped Cesc and Matic to progress rather than force risky play under pressure (Spielverlagerung).", "answers": { "pro_05": "C", "pro_01": "C", "pro_02": "D", "pro_04": "C", "pro_03": "D" } },
-  "est": { "personaBrief": "He stresses a defined game model and tactical discipline ('um determinado modelo de jogo', 2006; 'tactical discipline', Coaches' Voice), with structured shapes such as the Makélélé 4-3-3 and wide forwards like Ronaldo and Di María who were allowed to come inside (Wikipedia).", "answers": { "est_02": "D", "est_05": "CT", "est_04": "D", "est_01": "C", "est_03": "D" } },
-  "lar": { "personaBrief": "Porto's diamond relied on central superiority with full-backs giving width, but Inter's narrow 4-3-1-2 was 'repeatedly exposed' in Europe and he moved Eto'o out to the left wing (Bandini), and Real Madrid used Ronaldo and Di María on the flanks (Wikipedia).", "answers": { "lar_05": "N", "lar_02": "C", "lar_01": "D", "lar_03": "C", "lar_04": "D" } },
-  "blo": { "personaBrief": "Porto pressed high and zonally after losing the ball (Bola na Rede) and he wanted Inter's line 20 metres higher, but Inter were 'phenomenal in a low block', sat deep against Barcelona, and Chelsea 2014 'dropped much deeper' after scoring (Wikipedia, Spielverlagerung).", "answers": { "blo_01": "N", "blo_02": "C", "blo_04": "C", "blo_03": "D", "blo_05": "D" } },
-  "mar": { "personaBrief": "The default shape is zonal (Porto's zonal press, Real Madrid's zonal back line 'in certain matches', Chelsea's zonal set pieces in 2014), with man-marking jobs on a key opponent such as Herrera on Hazard in 2017 (Goal).", "answers": { "mar_05": "D", "mar_04": "C", "mar_03": "D", "mar_01": "C", "mar_02": "C" } },
-  "pla": { "personaBrief": "He says he will 'go against your own ideas' depending on the competition and the players, adapts to opponents (PortuGOAL, the Hazard plan, the late 4-1-2-3 against PSG), and also arrives wanting a team made 'in relation to my image and my football philosophy' (2004).", "answers": { "pla_04": "CT", "pla_02": "C", "pla_05": "D", "pla_03": "D", "pla_01": "C" } },
-  "res": { "personaBrief": "'I have to play to win'; he is called pragmatic (PortuGOAL), and his teams defend leads deep, including the 2010 semi-final at Camp Nou and the cautious 2023 final (Wikipedia, Between the Posts).", "answers": { "res_05": "CT", "res_03": "CT", "res_02": "C", "res_04": "DT", "res_01": "DT" } },
-  "sis": { "personaBrief": "'Players don't win you trophies, teams win trophies' (2004), a Porto 'shorn of world-class talent' but 'greater than the sum of its parts' (beIN), and a game model that matters 'independente de ser utilizado este ou aquele jogador' (2006).", "answers": { "sis_01": "CT", "sis_03": "C", "sis_02": "D", "sis_04": "D", "sis_05": "CT" } },
-  "jog": { "personaBrief": "He prizes pace and mental strength ('a fast central defender, that was crucial' on Lúcio) and 'rugged defenders', while building around technical playmakers such as Deco and Sneijder (beIN, Bandini).", "answers": { "jog_03": "C", "jog_02": "C", "jog_05": "C", "jog_04": "N", "jog_01": "D" } },
-  "bas": { "personaBrief": "His Inter final XI averaged nearly 30 and was a 'vastly experienced squad' (GFNI); Roma youngsters such as Bove got debuts but mostly as squad players (90min).", "answers": { "bas_01": "D", "bas_02": "CT", "bas_03": "D", "bas_04": "CT", "bas_05": "DT" } },
-  "lid": { "personaBrief": "He built a siege, 'us against the world' dressing room (PortuGOAL, Goal), dropped Casillas when he saw disloyalty, and said 'I don't want special relations with one of them', while players said they would 'kill and die' for him (Bandini).", "answers": { "lid_02": "D", "lid_04": "C", "lid_03": "D", "lid_05": "D", "lid_01": "CT" } }
+  "pos": {
+    "personaBrief": "Mourinho says possession is not dominance and 'a team without the ball can still be in control' (Coaches' Voice 2019), and his Chelsea 'could kill them in transition'; yet Porto's model held that 'ter bola é essencial para controlar o jogo' (Bola na Rede).",
+    "answers": {
+      "pos_02": "C",
+      "pos_03": "C",
+      "pos_04": "C",
+      "pos_01": "DT",
+      "pos_05": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "His teams are built to kill in transition (Chelsea 2005/06, Porto counter-attacks per beIN), with a safe screening holder (Makélélé, Khedira/Xabi), while Chelsea 2014 dropped Cesc and Matic to progress rather than force risky play under pressure (Spielverlagerung).",
+    "answers": {
+      "pro_05": "C",
+      "pro_01": "C",
+      "pro_02": "D",
+      "pro_04": "C",
+      "pro_03": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "He stresses a defined game model and tactical discipline ('um determinado modelo de jogo', 2006; 'tactical discipline', Coaches' Voice), with structured shapes such as the Makélélé 4-3-3 and wide forwards like Ronaldo and Di María who were allowed to come inside (Wikipedia).",
+    "answers": {
+      "est_02": "D",
+      "est_05": "CT",
+      "est_04": "D",
+      "est_01": "C",
+      "est_03": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "Porto's diamond relied on central superiority with full-backs giving width, but Inter's narrow 4-3-1-2 was 'repeatedly exposed' in Europe and he moved Eto'o out to the left wing (Bandini), and Real Madrid used Ronaldo and Di María on the flanks (Wikipedia).",
+    "answers": {
+      "lar_05": "N",
+      "lar_02": "C",
+      "lar_01": "D",
+      "lar_03": "C",
+      "lar_04": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "Porto pressed high and zonally after losing the ball (Bola na Rede) and he wanted Inter's line 20 metres higher, but Inter were 'phenomenal in a low block', sat deep against Barcelona, and Chelsea 2014 'dropped much deeper' after scoring (Wikipedia, Spielverlagerung).",
+    "answers": {
+      "blo_01": "N",
+      "blo_02": "C",
+      "blo_04": "C",
+      "blo_03": "D",
+      "blo_05": "D"
+    }
+  },
+  "mar": {
+    "personaBrief": "The default shape is zonal (Porto's zonal press, Real Madrid's zonal back line 'in certain matches', Chelsea's zonal set pieces in 2014), with man-marking jobs on a key opponent such as Herrera on Hazard in 2017 (Goal).",
+    "answers": {
+      "mar_05": "D",
+      "mar_04": "C",
+      "mar_03": "D",
+      "mar_01": "C",
+      "mar_02": "C"
+    }
+  },
+  "pla": {
+    "personaBrief": "He says he will 'go against your own ideas' depending on the competition and the players, adapts to opponents (PortuGOAL, the Hazard plan, the late 4-1-2-3 against PSG), and also arrives wanting a team made 'in relation to my image and my football philosophy' (2004).",
+    "answers": {
+      "pla_04": "CT",
+      "pla_02": "C",
+      "pla_05": "D",
+      "pla_03": "D",
+      "pla_01": "C"
+    }
+  },
+  "res": {
+    "personaBrief": "'I have to play to win'; he is called pragmatic (PortuGOAL), and his teams defend leads deep, including the 2010 semi-final at Camp Nou and the cautious 2023 final (Wikipedia, Between the Posts).",
+    "answers": {
+      "res_05": "CT",
+      "res_03": "CT",
+      "res_02": "C",
+      "res_04": "DT",
+      "res_01": "DT"
+    }
+  },
+  "sis": {
+    "personaBrief": "'Players don't win you trophies, teams win trophies' (2004), a Porto 'shorn of world-class talent' but 'greater than the sum of its parts' (beIN), and a game model that matters 'independente de ser utilizado este ou aquele jogador' (2006).",
+    "answers": {
+      "sis_01": "CT",
+      "sis_03": "C",
+      "sis_02": "D",
+      "sis_04": "D",
+      "sis_05": "CT"
+    }
+  },
+  "jog": {
+    "personaBrief": "He prizes pace and mental strength ('a fast central defender, that was crucial' on Lúcio) and 'rugged defenders', while building around technical playmakers such as Deco and Sneijder (beIN, Bandini).",
+    "answers": {
+      "jog_03": "C",
+      "jog_02": "C",
+      "jog_05": "C",
+      "jog_04": "N",
+      "jog_01": "D"
+    }
+  },
+  "bas": {
+    "personaBrief": "His Inter final XI averaged nearly 30 and was a 'vastly experienced squad' (GFNI); Roma youngsters such as Bove got debuts but mostly as squad players (90min).",
+    "answers": {
+      "bas_01": "D",
+      "bas_02": "CT",
+      "bas_03": "D",
+      "bas_04": "CT",
+      "bas_05": "DT"
+    }
+  },
+  "lid": {
+    "personaBrief": "He built a siege, 'us against the world' dressing room (PortuGOAL, Goal), dropped Casillas when he saw disloyalty, and said 'I don't want special relations with one of them', while players said they would 'kill and die' for him (Bandini).",
+    "answers": {
+      "lid_02": "D",
+      "lid_04": "C",
+      "lid_03": "D",
+      "lid_05": "D",
+      "lid_01": "CT"
+    }
+  },
+  "archetype": {
+    "epoca": "B",
+    "elenco": "B",
+    "organizacao": "C",
+    "treinador": "A",
+    "final": "A"
+  }
 }

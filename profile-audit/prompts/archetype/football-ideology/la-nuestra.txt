@@ -1,0 +1,347 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "La Nuestra / Rioplatense" (catalog: football-ideology), answering as the football ideology La Nuestra / Rioplatense, answering as a coach committed to it would, as its exemplars practised it in its era. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/football-ideology/la-nuestra.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK football-ideology:la-nuestra".
+
+=== RESEARCH FILE (football-ideology/la-nuestra.json) ===
+{
+  "id": "la-nuestra",
+  "catalog": "football-ideology",
+  "name": "La Nuestra / Rioplatense",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1920",
+    "end": "1958"
+  },
+  "scopeNote": "The Río de la Plata (Argentine and Uruguayan) tradition the El Gráfico writers of the 1920s-40s called the 'criollo' style and later 'la nuestra': dribbling (gambeta), short passing, grace and improvisation by small, technical players, defined explicitly against the 'British' style of force and discipline. Period is partial-year by design: 1920 covers the El Gráfico canon (Jorge Brown's 1921 contrast of the 'más fino y artístico' criollo game with the Alumni's 'más brusco, pero viril'; Borocotó and Chantecler 1928-33) and Uruguay's 1924 Olympic title; the end, 1958, is the Argentine World Cup failure in Sweden that later writers treat as the rupture of the style (seen only in search summaries, not verified on a page). The on-pitch exemplar is River Plate's 'La Máquina' (around 1941-47; name coined by Borocotó after the 6-2 v Chacarita, 12 June 1942). Label: 'la nuestra' is the term Wilson uses for 'what came to be perceived as the true Argentinian style' (SI, 2015); period sources say 'criollo'. Distinct from Futebol-arte (Brazil, 1958-70 onwards) and the Danubian school (Central European, 'scientific' passing), though it shares short passing and a withdrawn centre-forward with the latter.",
+  "exemplars": [
+    {
+      "id": "river-plate-1941-47",
+      "kind": "team",
+      "reason": "'La Máquina': Muñoz, Moreno, Pedernera, Labruna, Loustau; rotating forwards, short passing and dribbling; Wilson says it defined 'what came to be perceived as the true Argentinian style, la nuestra'."
+    },
+    {
+      "id": "uruguay-1924-30",
+      "kind": "team",
+      "reason": "Olympic champions 1924 and 1928, world champions 1930; Hanot (1924) praised 'the art of the feint and the swerve and the dodge'. Thinly sourced here."
+    },
+    {
+      "id": "carlos-peucelle",
+      "kind": "manager",
+      "reason": "Called 'the strategist' of La Máquina; moved Pedernera to centre-forward; brought homegrown players up 'with the system already adopted'."
+    },
+    {
+      "id": "renato-cesarini",
+      "kind": "manager",
+      "reason": "River Plate coach in 1941 when La Máquina took shape."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Uruguay: the brief names Uruguay 1924-30 and the 1950 context. Only one verified fact covers Uruguay (Hanot 1924, via a 2011 SI column). A search summary of an ORT (Montevideo) paper, not read, says 'garra charrúa' is a later construction projected onto 1924-30, that period Spanish press preferred to describe Uruguay's 'toque y gambeta', and that Chantecler distinguished more 'romantic' Uruguayans from more powerful Argentines. Uruguay 1950 (Maracanazo) is usually told through garra and Obdulio Varela, not la nuestra: decide whether 1950 belongs in this profile at all, and whether the Uruguayan strand should be its own entry.",
+    "Stated view: an ideology has no single manager. The defining statements here are by journalists (Borocotó, Chantecler, Frascara in El Gráfico) and players (Stábile 1930, Muñoz undated), recorded in sources[] under stated-view. statedView[] is empty: no primary quote from Peucelle or Cesarini was found (Peucelle's book 'Fútbol Todotiempo' was not reached). Confirm journalist statements may feed res/sis.",
+    "Myth vs practice: Archetti (1995) argues the pibe/potrero/criollo narrative was built by El Gráfico as a canon; the Brazilian Universidade do Futebol piece (search summary only) calls it a 'mythological narrative'. The res and jog evidence is mostly this discourse, not match analysis.",
+    "Machine vs improvisation: Archetti says Panzeri framed La Máquina as playing 'like a machine', which clashed with the criollo self-image of improvisation; Muñoz calls it 'instinctive'. Whether la nuestra is relational (improvised) or a rehearsed rotation matters for est.",
+    "Overlap with the Danubian school: both prize short passing and use a withdrawn centre-forward (Pedernera as an early 'false nine' per Wikipedia, like Sindelar). The distinction in the period sources is cultural (criollo vs British/European), not tactical. Check before scoring est/pro.",
+    "Defence: only verified fact is Yácono's man-marking ('Estampilla'); one retrospective says La Máquina was 'un tanto descompensado en el aspecto defensivo'. Nothing on pressing or block height; the W-M of the 1940s implies man-oriented marking but this is not stated for the tradition as a whole.",
+    "End date 1958 (Argentina in Sweden) and the 1957 Copa América 'Carasucias' side as a late exemplar were seen only in search summaries; El Gráfico's 1958 chronicle returned 403."
+  ],
+  "sources": [
+    {
+      "title": "Estilo y virtudes masculinas en El Gráfico: la creación del imaginario del fútbol argentino (part 3)",
+      "url": "https://efdeportes.com/efd16/elgraf3.htm",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1999-10",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Eduardo P. Archetti (Desarrollo Económico 1995, reprinted Lecturas EF y Deportes 1999), quoting El Gráfico. Borocotó (1931, Nº 614: 6): \"Allá la técnica depurada, severa, concienzuda; aquí la gambeta, la gracia, la improvisación.\" and \"Entre el pizarrón y el baldío, entre los de allá y lo de aquí, mil veces los nuestros, aunque pierdan\". Stábile in El Gráfico (1930, Nº 589: 37): \"Hace muchos años que en el arte de gambetear y marcar goles venimos haciendo cátedra\". Period statements: style over result, improvisation over the blackboard.",
+      "verified": true
+    },
+    {
+      "title": "Estilo y virtudes masculinas en El Gráfico: la creación del imaginario del fútbol argentino (part 3)",
+      "url": "https://efdeportes.com/efd16/elgraf3.htm",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1999-10",
+      "eventDate": "1928",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Archetti quoting El Gráfico. Chantecler (1928, Nº 467: 21): the European style needs \"grandes y fuertes\" players, the criollo style \"pequeños y débiles\" ones. Anonymous (1931, Nº 619: 5): \"Fue de los del potrero; su falta de corpulencia le indicó la necesidad de arreglárselas con maña\". Borocotó (1933, Nº 716: 4): \"Tiene el baldío metido en el alma\". Jorge Brown (1921, Nº 107: 11): criollo play \"más fino y artístico\" vs the Alumni's \"más brusco, pero viril, hermoso, pujante\".",
+      "verified": true
+    },
+    {
+      "title": "Estilo y virtudes masculinas en El Gráfico: la creación del imaginario del fútbol argentino (part 3)",
+      "url": "https://efdeportes.com/efd16/elgraf3.htm",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1999-10",
+      "eventDate": "1940",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Archetti quoting Frascara in El Gráfico (1940, Nº 1107: 4-5). On Zumelsu: \"quite limpio, de pase corto, de acción pulcrísima, todo inteligencia\". On Sosa: \"construía lento, delicado, suave... ponía el cerebro en cada planteo\", contrasted with Ferreyra, who \"iba bruscamente hacia el fin sin considerar los medios\" (Sosa worked 'a mano', Ferreyra 'a máquina'). Frascara on Carricaberry (1940, Nº 1105: 35): \"Despreció la gambeta y el centro a cambio de la cortada y el shot\" (presented as the exception). Slow, short-pass construction is the ideal.",
+      "verified": true
+    },
+    {
+      "title": "El fútbol de la Argentina. Aproximaciones desde las ciencias sociales (II). Entrevista a Eduardo Archetti",
+      "url": "https://efdeportes.com/efd22/archett.htm",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "2000-06",
+      "eventDate": "1924",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Interview by Frydenberg and Di Giano. Jorge Brown, ex-Alumni captain, quoted in La Nación and El Gráfico (1924) after the win over Plymouth: \"Ha habido un cambio\" (Archetti notes journalists shaped the quote). Archetti's reading (not a period quote): the criollo player avoids bodily contact and deceives: \"Porque no necesito chocar al contrario, al otro; tengo que engañarlo.\" He also says Panzeri framed 1940s River as playing 'like a machine', in tension with the criollo self-image.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Jonathan Wilson. River c. 1941-47 defined \"what came to be perceived as the true Argentinian style, la nuestra\". \"They played a rough W-M shape with an attacking center half in Néstor Rossi\"; \"it was Moreno and Pedernera who dropped off into the space in front of the half line.\" The front five \"only played as a quintet 18 times over a five-year period.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Wilson: Loustau, the 'ventilador-wing', was \"a winger who gave air to the midfield by doing some of their running for them\", which let the left-half shift across and the right-half Yácono take a more defensive brief.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Wilson: Yácono was known as \"The Stamp\" for \"the way he would stick to the player he was marking\" (man-marking). In the hypothetical he would pick up Mazzola while Loustau covered Torino's left winger. Nothing on block height or pressing.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Juan Carlos Muñoz (undated): \"They called us the 'Knights of Anguish' because we didn't look for the goal.\" Wilson: \"River was not a relentless winner, lifting just four titles in those seven years\"; calls the period's Argentine football \"self-conscious romanticism\". Lazzatti (Boca): \"You play against La Máquina with the intention of winning.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Muñoz (undated) on how they played: \"take the ball, give it to me, a gambeta, this, that and the goal came by itself\"; \"It was instinctive.\" Wilson's hypothetical has Rossi, Ramos and a dropping Pedernera letting River dominate possession.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The clockwork of La Máquina, the team that reinvented Argentine football",
+      "url": "https://thesefootballtimes.co/2021/03/22/the-clockwork-of-la-maquina-the-team-that-reinvented-argentine-football/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-03-22",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Andrew Flint. Maggio on Peucelle's influence: \"mobility on the pitch and short passes\"; play with \"movements full of dribbles and multiple combinations\"; Fazzini: \"they practised the speed of the ball\"; \"They were five, but they changed positions\". River \"would more often than not win by the slenderest of margins.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The clockwork of La Máquina, the team that reinvented Argentine football",
+      "url": "https://thesefootballtimes.co/2021/03/22/the-clockwork-of-la-maquina-the-team-that-reinvented-argentine-football/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-03-22",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Maggio: Peucelle's knowledge of the lower divisions \"allowed all the homegrown players to reach professionalism with the system already adopted.\" Pedernera debuted at 16 under Hirschl. Wikipedia (separate source) notes Di Stéfano and Carrizo debuted with the side.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The clockwork of La Máquina, the team that reinvented Argentine football",
+      "url": "https://thesefootballtimes.co/2021/03/22/the-clockwork-of-la-maquina-the-team-that-reinvented-argentine-football/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-03-22",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Cesarini was the coach and earned the players' respect; \"Peucelle was the strategist.\" Moreno was reputed to lead a lascivious nightlife and sometimes turned up \"drunk to matches\" and kept playing: tolerance of the star rather than strict discipline (no team discipline measures described).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The clockwork of La Máquina, the team that reinvented Argentine football",
+      "url": "https://thesefootballtimes.co/2021/03/22/the-clockwork-of-la-maquina-the-team-that-reinvented-argentine-football/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2021-03-22",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Gómez on Moreno (undated): \"What mastery of the ball, what strength, what precision, what style!\"; \"Pelé broke into a sweat; Moreno played in tails.\" Frascara on Pedernera (undated): \"In a game where the ball should be everything, he made the ball a secondary thing.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "La Máquina",
+      "url": "https://en.wikipedia.org/wiki/La_M%C3%A1quina",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1942-06-12",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Nickname covers 1941-1947; coined by Borocotó in El Gráfico after River beat Chacarita 6-2 on 12 June 1942. Coaches Cesarini and Peucelle in 1941 moved left winger Pedernera to \"a more central and withdrawn role\" (called one of the first false nines). Team credited for \"dynamism and rotating positions\". Primera División titles 1941, 1942, 1945, 1947.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "La Máquina del 40: el equipo que cambió la historia del fútbol argentino",
+      "url": "https://lapaginamillonaria.com/riverplate/la-maquina-del-40-el-equipo-que-cambio-la-historia-del-futbol-argentino-20231031-LPM-28382.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-10-31",
+      "eventDate": "1942",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Gabriel Casazza. The team's traits were \"cambio constante de posiciones en ataque y la constante posesión del balón\"; Pedernera dropped as a \"falso nueve\" to run play with Moreno, Muñoz and Loustau opened the pitch; the team sometimes \"quedaba un tanto descompensado en el aspecto defensivo\". No marking system described.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Norberto Yácono",
+      "url": "https://en.wikipedia.org/wiki/Norberto_Y%C3%A1cono",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Yácono (River 1938/39-1953, 393 apps, La Máquina) \"particularly praised for his man-marking skills\"; nickname 'Estampilla' \"due to his man-to-man mark.\" Supports man-oriented marking; says nothing about block height or pressing.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Expect Suarez to make a speedy adjustment to the Premier League",
+      "url": "https://www.si.com/more-sports/2011/02/10/luis-suarez",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-02-10",
+      "eventDate": "1924",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Tim Vickery quoting Gabriel Hanot on Uruguay at the 1924 Olympics (publication not named): \"pushed toward perfection the art of the feint and the swerve and the dodge\", \"but they also know how to play directly and quickly\"; \"a beautiful football, elegant but at the same time varied, rapid, powerful and effective\"; Uruguayans \"are to the English professionals like Arab thoroughbreds next to farm horses.\" Period quote, but only via a 2011 English translation.",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/5076/la-maquina-de-river",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.elgrafico.com.ar/articulo/1090/31567/1958--argentina-fracasa-en-suecia-no-es-cuestion-de-hombres",
+      "reason": "403"
+    },
+    {
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "reason": "403"
+    },
+    {
+      "url": "https://ocsp.ort.edu.uy/letras-internacionales/article/download/355/356/1402",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "transitions",
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "The doctrine (gambeta, short passing, improvisation, small technical players, style over result) rests on dated period quotes from El Gráfico 1921-1940 read via Archetti's academic work (tier B), plus Hanot 1924. The on-pitch mechanics come almost entirely from later retrospectives of one team, La Máquina (Wilson, These Football Times, Wikipedia); Uruguay is barely covered; pressing, transitions and set pieces have no verified fact; the only marking evidence is one man-marking full-back."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

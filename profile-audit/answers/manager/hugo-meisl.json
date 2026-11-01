@@ -1,0 +1,129 @@
+{
+  "pos": {
+    "personaBrief": "Meisl's Wunderteam was built on quick passing taught by Jimmy Hogan (verified, Wunderteam article), so the ball is the team's main weapon and a means of defending, but the sources do not show a rule of always having more possession than the opponent. The answers therefore lean to possession as protection and as a way to break down sides that sit back, while accepting that the team can dominate without the ball.",
+    "answers": {
+      "pos_05": "C",
+      "pos_01": "C",
+      "pos_03": "C",
+      "pos_02": "D",
+      "pos_04": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "No verified evidence on progression (gaps.axes); from general knowledge, the Wunderteam played short, combining football with groundwork rather than long balls (the Hogan 'dispensing with aerial passing' sentence is unverified). The answers keep a patient, short-passing build-up that accepts risk under pressure, rejecting pure directness.",
+    "answers": {
+      "pro_03": "DT",
+      "pro_02": "C",
+      "pro_01": "D",
+      "pro_04": "D",
+      "pro_05": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "The verified shape fact says the forward line was complemented by wide half-backs and an attacking centre-half, and the Sindelar profile (verified) describes a technical forward who glided past challengers, which points to combinations and players linking up rather than fixed zones. The answers favour relational, close combination play with a centre-forward who drops into midfield.",
+    "answers": {
+      "est_02": "C",
+      "est_03": "D",
+      "est_01": "D",
+      "est_05": "D",
+      "est_04": "C"
+    }
+  },
+  "lar": {
+    "personaBrief": "No verified evidence on width (gaps.axes); from general knowledge the Wunderteam used a central, combinative forward line with width supplied by the wide half-backs rather than by pure touchline wingers (verified shape fact). The answers favour the middle as the main route while rejecting wingers as the decisive tool.",
+    "answers": {
+      "lar_04": "D",
+      "lar_05": "D",
+      "lar_02": "C",
+      "lar_03": "D",
+      "lar_01": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "No verified evidence on pressing or the defensive block (gaps.axes); from general knowledge the Wunderteam was a possession side that defended with compact lines and did not rely on high pressing. The answers favour a deep, compact block and a drop-off against sides that build well, with no immediate high press.",
+    "answers": {
+      "blo_03": "D",
+      "blo_05": "D",
+      "blo_02": "C",
+      "blo_01": "D",
+      "blo_04": "C"
+    }
+  },
+  "mar": {
+    "personaBrief": "No verified evidence on marking (gaps.axes); the open questions say it was not covered by any page read. From general knowledge, interwar football was largely man-marking, so the answers keep a dedicated marker for the star and individual responsibility, while defenders hold their assigned opponent rather than a zone.",
+    "answers": {
+      "mar_05": "C",
+      "mar_03": "C",
+      "mar_02": "C",
+      "mar_04": "D",
+      "mar_01": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "No verified evidence on game plan (gaps.axes). The verified statedView and the Wunderteam sources show a strong, fixed own style of quick passing that the coach kept across the period, which the answers reflect: the team keeps its plan at half-time and across opponents, and rejects building the plan around the opponent.",
+    "answers": {
+      "pla_03": "C",
+      "pla_04": "D",
+      "pla_01": "C",
+      "pla_05": "C",
+      "pla_02": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "No verified evidence on purpose directly (gaps.axes), but the Wunderteam was remembered for its 14-game unbeaten run (verified) and for its spectacle, so the answers value how a team plays and keep attacking even when ahead, while still accepting that a draw abroad is a good result.",
+    "answers": {
+      "res_03": "D",
+      "res_02": "D",
+      "res_01": "C",
+      "res_04": "C",
+      "res_05": "D"
+    }
+  },
+  "sis": {
+    "personaBrief": "No verified evidence on system versus talent (gaps.axes). The verified Sindelar profile shows that the team's identity rested on an individual technical forward given a free role, while the coach drilled a collective style, so the answers mix a drilled system with freedom for the creative star.",
+    "answers": {
+      "sis_01": "D",
+      "sis_05": "D",
+      "sis_04": "C",
+      "sis_03": "D",
+      "sis_02": "C"
+    }
+  },
+  "jog": {
+    "personaBrief": "The verified Sindelar profile (a technical, elusive forward) and the Wunderteam's quick passing show that technique was the team's basis, so the answers rank technique above pace and physicality, while still expecting midfielders to win enough duels to compete.",
+    "answers": {
+      "jog_04": "DT",
+      "jog_03": "CT",
+      "jog_02": "D",
+      "jog_05": "D",
+      "jog_01": "CT"
+    }
+  },
+  "bas": {
+    "personaBrief": "No verified evidence on squad age policy (gaps.axes). The unverified Sindelar debut note (1923) shows the coach was willing to bring in young players but cautious about them, so the answers are mixed: youth selected when it is level, experience preferred in the run-in, and developing players treated as a real but not overriding goal.",
+    "answers": {
+      "bas_05": "N",
+      "bas_02": "D",
+      "bas_01": "D",
+      "bas_04": "D",
+      "bas_03": "C"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence on leadership (gaps.axes). The verified statedView (the 1931 remark about a squad picked to suit journalists) shows a coach who was blunt about selection, so the answers keep firm rules for everyone and final decisions by the coach, with care for the group but not a manager of feelings first.",
+    "answers": {
+      "lid_02": "C",
+      "lid_03": "D",
+      "lid_04": "C",
+      "lid_05": "D",
+      "lid_01": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "C",
+    "organizacao": "A",
+    "treinador": "D",
+    "final": "D"
+  }
+}

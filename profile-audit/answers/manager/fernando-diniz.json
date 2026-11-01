@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Every spell is built on keeping the ball: Audax 2016 'grande posse de bola', Lance 2019 'valorização da posse de bola se tornará prioridade', Hamilton 'they dominated possession'. Fluminense also 'não quer o jogo de transição e de contragolpes' (Rolim 2022).", "answers": { "pos_04": "DT", "pos_05": "CT", "pos_02": "D", "pos_01": "CT", "pos_03": "CT" } },
-  "pro": { "personaBrief": "Short build-up from the goalkeeper with the risk accepted ('Erro não é fracasso', 2023; the 'corda bamba' metaphor) and long passing sequences in their own box (Between the Posts 2023). He goes long only by exception (Colo-Colo away 2024).", "answers": { "pro_01": "D", "pro_03": "DT", "pro_05": "D", "pro_02": "CT", "pro_04": "D" } },
-  "est": { "personaBrief": "He calls his football 'quase que aposicional' and 'quase o oposto' of Guardiola's. Players gather in one corridor around the ball ('aglutinar jogadores em um só corredor', 'organised chaos', 'intuition and spontaneity').", "answers": { "est_01": "DT", "est_04": "CT", "est_02": "CT", "est_03": "DT", "est_05": "D" } },
-  "lar": { "personaBrief": "'Eu também gosto mais de jogar por dentro, quando é possível'; his teams overload the ball-side and leave the far flank empty (Olé 2023), while the full-backs give the width as 'alas' (Lance 2019).", "answers": { "lar_03": "D", "lar_02": "C", "lar_01": "D", "lar_04": "C", "lar_05": "DT" } },
-  "blo": { "personaBrief": "'marcação em linha alta, pressão no adversário', pressing straight after losing the ball (Lance 2019, Olé 2023), and 'a tendência é marcar alto' even after conceding over the top (2023).", "answers": { "blo_03": "CT", "blo_05": "C", "blo_04": "DT", "blo_01": "CT", "blo_02": "D" } },
-  "mar": { "personaBrief": "The evidence is thin. 'Tivemos dificuldade de encaixar a marcação alta' and the 'encaixes e perseguições' around his games point to man-oriented jumps in the press, but defensive balance comes 'pelo ajuste tático... do que ter um jogador específico de marcação'. Defensive set pieces are scouted and drilled.", "answers": { "mar_03": "N", "mar_05": "C", "mar_04": "C", "mar_02": "D", "mar_01": "D" } },
-  "pla": { "personaBrief": "He keeps his own model in every spell (kept the build-up after errors, kept the style against Man City), with pragmatic exceptions: 'Fizemos o que o jogo pedia' (Colo-Colo 2024) and the 5-3-2 step back against Botafogo (Vasco 2025).", "answers": { "pla_04": "D", "pla_02": "D", "pla_01": "C", "pla_03": "C", "pla_05": "C" } },
-  "res": { "personaBrief": "He wants 'estética boa' and 'muito competitivo', carries 'scars' from Brazil 1982, and says 'temos que ter coragem para experimentar', yet insists 'a equipe não joga bonito para jogar bonito... fica mais perto de ganhar'.", "answers": { "res_02": "D", "res_04": "D", "res_03": "D", "res_05": "D", "res_01": "C" } },
-  "sis": { "personaBrief": "He wants players to be 'o Pelé que ele quer ser' and gives them freedom and spontaneity, but inside a collective dynamic where 'todos tem que participar da marcação'. His legacy is players improved by the team, such as Sara 'praticamente desconhecido'.", "answers": { "sis_02": "C", "sis_01": "CT", "sis_04": "C", "sis_03": "C", "sis_05": "N" } },
-  "jog": { "personaBrief": "His teams are technical and 'leve' by his own word ('com um time leve que a gente tem'), with 'muitos jogadores de qualidade técnica'. Fluminense 2023 started veterans like Ganso.", "answers": { "jog_02": "D", "jog_03": "CT", "jog_04": "DT", "jog_01": "CT", "jog_05": "DT" } },
-  "bas": { "personaBrief": "It varies by spell. At São Paulo, Cotia youth (Brenner, Sara, Igor Gomes) were his 'legado'; at Vasco, 18-year-old Rayan was trusted ('dá muita confiança para os mais novos'); but Fluminense won the Libertadores with seven starters over 33.", "answers": { "bas_02": "D", "bas_04": "D", "bas_05": "C", "bas_03": "C", "bas_01": "N" } },
-  "lid": { "personaBrief": "He is very demanding ('eu cobro muito'; 'grandes problemas comigo' when commitment fails) but affectionate and a 'paizão' ('duro... mas muito amoroso', 'afeto, carinho'). He apologised to Tchê Tchê and Volpi, and he stresses 'alegria'.", "answers": { "lid_03": "C", "lid_04": "D", "lid_05": "C", "lid_01": "C", "lid_02": "C" } }
+  "pos": {
+    "personaBrief": "Every spell is built on keeping the ball: Audax 2016 'grande posse de bola', Lance 2019 'valorização da posse de bola se tornará prioridade', Hamilton 'they dominated possession'. Fluminense also 'não quer o jogo de transição e de contragolpes' (Rolim 2022).",
+    "answers": {
+      "pos_04": "DT",
+      "pos_05": "CT",
+      "pos_02": "D",
+      "pos_01": "CT",
+      "pos_03": "CT"
+    }
+  },
+  "pro": {
+    "personaBrief": "Short build-up from the goalkeeper with the risk accepted ('Erro não é fracasso', 2023; the 'corda bamba' metaphor) and long passing sequences in their own box (Between the Posts 2023). He goes long only by exception (Colo-Colo away 2024).",
+    "answers": {
+      "pro_01": "D",
+      "pro_03": "DT",
+      "pro_05": "D",
+      "pro_02": "CT",
+      "pro_04": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "He calls his football 'quase que aposicional' and 'quase o oposto' of Guardiola's. Players gather in one corridor around the ball ('aglutinar jogadores em um só corredor', 'organised chaos', 'intuition and spontaneity').",
+    "answers": {
+      "est_01": "DT",
+      "est_04": "CT",
+      "est_02": "CT",
+      "est_03": "DT",
+      "est_05": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "'Eu também gosto mais de jogar por dentro, quando é possível'; his teams overload the ball-side and leave the far flank empty (Olé 2023), while the full-backs give the width as 'alas' (Lance 2019).",
+    "answers": {
+      "lar_03": "D",
+      "lar_02": "C",
+      "lar_01": "D",
+      "lar_04": "C",
+      "lar_05": "DT"
+    }
+  },
+  "blo": {
+    "personaBrief": "'marcação em linha alta, pressão no adversário', pressing straight after losing the ball (Lance 2019, Olé 2023), and 'a tendência é marcar alto' even after conceding over the top (2023).",
+    "answers": {
+      "blo_03": "CT",
+      "blo_05": "C",
+      "blo_04": "DT",
+      "blo_01": "CT",
+      "blo_02": "D"
+    }
+  },
+  "mar": {
+    "personaBrief": "The evidence is thin. 'Tivemos dificuldade de encaixar a marcação alta' and the 'encaixes e perseguições' around his games point to man-oriented jumps in the press, but defensive balance comes 'pelo ajuste tático... do que ter um jogador específico de marcação'. Defensive set pieces are scouted and drilled.",
+    "answers": {
+      "mar_03": "N",
+      "mar_05": "C",
+      "mar_04": "C",
+      "mar_02": "D",
+      "mar_01": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "He keeps his own model in every spell (kept the build-up after errors, kept the style against Man City), with pragmatic exceptions: 'Fizemos o que o jogo pedia' (Colo-Colo 2024) and the 5-3-2 step back against Botafogo (Vasco 2025).",
+    "answers": {
+      "pla_04": "D",
+      "pla_02": "D",
+      "pla_01": "C",
+      "pla_03": "C",
+      "pla_05": "C"
+    }
+  },
+  "res": {
+    "personaBrief": "He wants 'estética boa' and 'muito competitivo', carries 'scars' from Brazil 1982, and says 'temos que ter coragem para experimentar', yet insists 'a equipe não joga bonito para jogar bonito... fica mais perto de ganhar'.",
+    "answers": {
+      "res_02": "D",
+      "res_04": "D",
+      "res_03": "D",
+      "res_05": "D",
+      "res_01": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "He wants players to be 'o Pelé que ele quer ser' and gives them freedom and spontaneity, but inside a collective dynamic where 'todos tem que participar da marcação'. His legacy is players improved by the team, such as Sara 'praticamente desconhecido'.",
+    "answers": {
+      "sis_02": "C",
+      "sis_01": "CT",
+      "sis_04": "C",
+      "sis_03": "C",
+      "sis_05": "N"
+    }
+  },
+  "jog": {
+    "personaBrief": "His teams are technical and 'leve' by his own word ('com um time leve que a gente tem'), with 'muitos jogadores de qualidade técnica'. Fluminense 2023 started veterans like Ganso.",
+    "answers": {
+      "jog_02": "D",
+      "jog_03": "CT",
+      "jog_04": "DT",
+      "jog_01": "CT",
+      "jog_05": "DT"
+    }
+  },
+  "bas": {
+    "personaBrief": "It varies by spell. At São Paulo, Cotia youth (Brenner, Sara, Igor Gomes) were his 'legado'; at Vasco, 18-year-old Rayan was trusted ('dá muita confiança para os mais novos'); but Fluminense won the Libertadores with seven starters over 33.",
+    "answers": {
+      "bas_02": "D",
+      "bas_04": "D",
+      "bas_05": "C",
+      "bas_03": "C",
+      "bas_01": "N"
+    }
+  },
+  "lid": {
+    "personaBrief": "He is very demanding ('eu cobro muito'; 'grandes problemas comigo' when commitment fails) but affectionate and a 'paizão' ('duro... mas muito amoroso', 'afeto, carinho'). He apologised to Tchê Tchê and Volpi, and he stresses 'alegria'.",
+    "answers": {
+      "lid_03": "C",
+      "lid_04": "D",
+      "lid_05": "C",
+      "lid_01": "C",
+      "lid_02": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "A",
+    "organizacao": "B",
+    "treinador": "D",
+    "final": "A"
+  }
 }

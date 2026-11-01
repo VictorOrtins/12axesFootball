@@ -1,0 +1,129 @@
+{
+  "pos": {
+    "personaBrief": "Verified: Van Gaal 'believed in playing attractive attacking football based on possession', so his Ajax and Barcelona sides were built to keep the ball and control games through it.",
+    "answers": {
+      "pos_01": "CT",
+      "pos_04": "D",
+      "pos_02": "D",
+      "pos_05": "CT",
+      "pos_03": "CT"
+    }
+  },
+  "pro": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge, his possession game (verified) relied on patient, secure ball circulation from the back with set patterns, not direct long balls.",
+    "answers": {
+      "pro_01": "D",
+      "pro_04": "C",
+      "pro_03": "DT",
+      "pro_02": "CT",
+      "pro_05": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "Verified: 'set patterns of play inspired by Dutch total football' at Ajax; from general knowledge this meant a rigid positional 4-3-3/3-4-3 where every player held a defined zone, wingers stayed wide and the striker was the fixed point.",
+    "answers": {
+      "est_03": "CT",
+      "est_02": "D",
+      "est_05": "CT",
+      "est_04": "D",
+      "est_01": "CT"
+    }
+  },
+  "lar": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge his Ajax and Barcelona sides used touchline wingers (Overmars, Finidi, Figo) to stretch play, consistent with the verified total-football structure.",
+    "answers": {
+      "lar_03": "C",
+      "lar_05": "CT",
+      "lar_04": "D",
+      "lar_01": "C",
+      "lar_02": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "No verified evidence (gap axis, open question on Ajax pressing); from general knowledge his Ajax pressed high and won the ball back quickly in the opponent's half, in line with total-football principles (verified).",
+    "answers": {
+      "blo_05": "C",
+      "blo_01": "CT",
+      "blo_02": "DT",
+      "blo_03": "CT",
+      "blo_04": "DT"
+    }
+  },
+  "mar": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge his teams defended zonally, covering spaces within the positional structure rather than man-marking.",
+    "answers": {
+      "mar_05": "D",
+      "mar_03": "D",
+      "mar_02": "D",
+      "mar_01": "CT",
+      "mar_04": "C"
+    }
+  },
+  "pla": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge Van Gaal imposed his own game model ('set patterns', verified) on every club and opponent, with players fitting the system.",
+    "answers": {
+      "pla_03": "CT",
+      "pla_02": "D",
+      "pla_04": "DT",
+      "pla_01": "CT",
+      "pla_05": "CT"
+    }
+  },
+  "res": {
+    "personaBrief": "No verified evidence (gap axis); the verified 'attractive attacking football' leans to spectacle, though from general knowledge he also stressed winning through the process, so he plays to win rather than to protect a result.",
+    "answers": {
+      "res_02": "D",
+      "res_04": "C",
+      "res_05": "D",
+      "res_01": "C",
+      "res_03": "D"
+    }
+  },
+  "sis": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge the collective system came first (e.g. insisting Rivaldo play wide at Barcelona), consistent with verified set patterns.",
+    "answers": {
+      "sis_02": "D",
+      "sis_05": "CT",
+      "sis_04": "DT",
+      "sis_01": "CT",
+      "sis_03": "CT"
+    }
+  },
+  "jog": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge he wanted technically secure players for his possession game (verified) but also athletic, hard-running ones, with no room for a static number 10.",
+    "answers": {
+      "jog_02": "C",
+      "jog_04": "D",
+      "jog_03": "D",
+      "jog_05": "D",
+      "jog_01": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "No verified evidence (gap axis); scopeNote mentions youth players at Ajax, and from general knowledge he built the 1995 side on academy products (Kluivert, Seedorf, Davids) and later promoted Xavi and Puyol at Barcelona.",
+    "answers": {
+      "bas_01": "CT",
+      "bas_03": "CT",
+      "bas_02": "D",
+      "bas_04": "DT",
+      "bas_05": "C"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence (gap axis); from general knowledge Van Gaal was a strict, authoritarian disciplinarian who clashed with stars and kept decisions to himself.",
+    "answers": {
+      "lid_03": "D",
+      "lid_01": "CT",
+      "lid_04": "CT",
+      "lid_02": "D",
+      "lid_05": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "A",
+    "elenco": "A",
+    "organizacao": "B",
+    "treinador": "B",
+    "final": "D"
+  }
+}

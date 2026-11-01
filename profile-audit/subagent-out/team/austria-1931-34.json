@@ -1,0 +1,129 @@
+{
+  "pos": {
+    "personaBrief": "Verified evidence is thin here: only the 'short flat passes' build-up from the 1931 Scotland match (AustriaWiki) points to a ball-based game. The possession answers rest on general knowledge of the Wunderteam as a technical passing side that kept the ball, not on verified facts for this period.",
+    "answers": {
+      "pos_01": "C",
+      "pos_02": "D",
+      "pos_03": "C",
+      "pos_05": "C",
+      "pos_04": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "The verified 'short flat passes' line (AustriaWiki, 1931) supports a patient combination game rather than direct play. Answers on the long ball and the high press come from general knowledge of the Wunderteam's short-passing style, not from verified facts.",
+    "answers": {
+      "pro_05": "C",
+      "pro_03": "D",
+      "pro_01": "D",
+      "pro_02": "C",
+      "pro_04": "D"
+    }
+  },
+  "est": {
+    "personaBrief": "The 'quick combinations' idea (Scheiberlspiel, 1929, outside the period) and the short-passing build-up point to close, combining play with fluid roles; Sindelar's return to centre-forward for the 1931 match is verified. Other answers come from general knowledge of the Wunderteam's fluid positions, not from verified facts.",
+    "answers": {
+      "est_02": "C",
+      "est_01": "D",
+      "est_04": "C",
+      "est_05": "D",
+      "est_03": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "No verified width evidence exists in the research file. From general knowledge, the Wunderteam built its attacks through central combination around Sindelar rather than through wingers crossing, so the answers lean to the middle. This is general knowledge, not verified.",
+    "answers": {
+      "lar_03": "D",
+      "lar_05": "D",
+      "lar_02": "C",
+      "lar_04": "C",
+      "lar_01": "D"
+    }
+  },
+  "blo": {
+    "personaBrief": "No verified pressing or defensive-block evidence was found. The answers come from general knowledge: a 1930s WM-style side defended in its own half and did not run a gegenpressing system, while its compact shape is consistent with the verified 2-3-5 shape. This is general knowledge, not verified.",
+    "answers": {
+      "blo_04": "D",
+      "blo_02": "C",
+      "blo_01": "D",
+      "blo_03": "D",
+      "blo_05": "D"
+    }
+  },
+  "mar": {
+    "personaBrief": "No verified marking evidence exists. From general knowledge, European teams of the early 1930s marked man-to-man, and the 2-3-5 with its designated defenders fits that practice. This is general knowledge, not verified.",
+    "answers": {
+      "mar_01": "D",
+      "mar_05": "C",
+      "mar_04": "D",
+      "mar_03": "C",
+      "mar_02": "C"
+    }
+  },
+  "pla": {
+    "personaBrief": "No Meisl statement on tactics was found (statedView is empty). From general knowledge, Meisl was a theorist who built a fixed style of combination play and kept it across opponents, which the verified 'Scottish style' adoption supports. This is general knowledge, not verified.",
+    "answers": {
+      "pla_01": "C",
+      "pla_03": "C",
+      "pla_04": "D",
+      "pla_05": "C",
+      "pla_02": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "The verified 'short flat passes' line and the Wunderteam's reputation as an attractive team that played for spectacle point to valuing how the team plays. The 'beautiful loser is remembered' answer is consistent with that; the others come from general knowledge, not verified evidence.",
+    "answers": {
+      "res_03": "D",
+      "res_05": "D",
+      "res_01": "C",
+      "res_02": "D",
+      "res_04": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "The verified 2-3-5 system adoption shows a structured shape, while Sindelar's central role was built around his talent. The team balanced a shape with a free star. The answer on well-drilled average players versus improvising stars is genuinely balanced, so it gets the single N. Other answers come from general knowledge, not verified evidence.",
+    "answers": {
+      "sis_04": "C",
+      "sis_02": "C",
+      "sis_03": "D",
+      "sis_05": "N",
+      "sis_01": "C"
+    }
+  },
+  "jog": {
+    "personaBrief": "The verified 'short flat passes' and Sindelar-centred attack point to technique over physicality. The Wunderteam is known for elegant technical players, from general knowledge rather than verified evidence.",
+    "answers": {
+      "jog_05": "D",
+      "jog_04": "D",
+      "jog_03": "C",
+      "jog_01": "CT",
+      "jog_02": "D"
+    }
+  },
+  "bas": {
+    "personaBrief": "No verified squad or academy evidence was found. From general knowledge, the Wunderteam was a national side selected from the best players in Vienna's clubs, so it was built on experienced players in their prime, not on an academy. This is general knowledge, not verified.",
+    "answers": {
+      "bas_02": "C",
+      "bas_05": "D",
+      "bas_03": "D",
+      "bas_04": "C",
+      "bas_01": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "No verified evidence on people management was found (statedView is empty). From general knowledge, Meisl ran the side with a firm, authoritarian hand as Teamchef, so authority beats harmony. This is general knowledge, not verified.",
+    "answers": {
+      "lid_03": "D",
+      "lid_01": "C",
+      "lid_02": "D",
+      "lid_04": "C",
+      "lid_05": "D"
+    }
+  },
+  "archetype": {
+    "epoca": "D",
+    "elenco": "C",
+    "organizacao": "A",
+    "treinador": "B",
+    "final": "B"
+  }
+}

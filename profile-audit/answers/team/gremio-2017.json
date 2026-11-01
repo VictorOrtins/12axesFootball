@@ -1,14 +1,129 @@
 {
-  "pos": { "personaBrief": "Grêmio 2017 averaged 53% possession in the Libertadores and 51% in the Brasileirão and 'soube trabalhar a bola, envolver os adversários', yet was also 'letal nos contra-ataques': a ball-keeping team that was not dogmatic about possession.", "answers": { "pos_04": "D", "pos_03": "C", "pos_05": "C", "pos_02": "C", "pos_01": "D" } },
-  "pro": { "personaBrief": "Arthur was 'extremamente importante para a saída de bola' and protected possession, and the team built 'jogadas bem encadeadas', but it also kept the 'verticalidade no ataque' and Fernandinho's speed on fast counters.", "answers": { "pro_01": "C", "pro_02": "C", "pro_03": "D", "pro_04": "C", "pro_05": "C" } },
-  "est": { "personaBrief": "A nominal 4-2-3-1 inherited from Roger Machado, but the attack ran through Luan 'na criação e finalização', with close combinations and fluid movement around Barrios, alongside the 'obediência tática' the press praised.", "answers": { "est_02": "C", "est_05": "N", "est_04": "C", "est_03": "D", "est_01": "D" } },
-  "lar": { "personaBrief": "No verified width evidence (gap): from general knowledge, the 4-2-3-1 played through Luan in the centre, with Ramiro as a narrow right-sided midfielder and full-backs giving width, which fits Luan being the creative hub.", "answers": { "lar_05": "D", "lar_03": "D", "lar_01": "D", "lar_02": "C", "lar_04": "C" } },
-  "blo": { "personaBrief": "Pressing evidence rests on the Libertadores final, where the team worked 'sem a bola, pressionando, agressivos'; otherwise it is described as solid defensively and counter-attacking, with no documented block depth.", "answers": { "blo_05": "D", "blo_02": "N", "blo_04": "D", "blo_01": "C", "blo_03": "C" } },
-  "mar": { "personaBrief": "Marking is not documented (openQuestions); from memory, a standard zonal-based Brazilian back four, with no dedicated man-markers on opponents' stars.", "answers": { "mar_04": "D", "mar_02": "D", "mar_03": "D", "mar_01": "C", "mar_05": "D" } },
-  "pla": { "personaBrief": "Renato inherited Roger Machado's scheme and built around the players he found, and his statedView ('quem sabe, sabe') dismisses study, so the team mostly played its own way, adjusting through personnel changes (Pachuca semi-final).", "answers": { "pla_04": "C", "pla_05": "C", "pla_03": "C", "pla_02": "D", "pla_01": "D" } },
-  "res": { "personaBrief": "Praised for 'o futebol mais vistoso do Brasil', but Renato framed it as 'jogarmos bem e ganharmos os jogos'. A pragmatic, results-first cup team that won the Libertadores.", "answers": { "res_02": "C", "res_01": "D", "res_05": "C", "res_04": "D", "res_03": "C" } },
-  "sis": { "personaBrief": "The team leaned on Luan as 'principal líder técnico' and on recovering players 'tidos como refugos' through man-management, which means trusting talent over a system that turns ordinary players into great ones.", "answers": { "sis_01": "D", "sis_04": "C", "sis_02": "C", "sis_03": "D", "sis_05": "D" } },
-  "jog": { "personaBrief": "Technique-led spine (Arthur in build-up, Luan 'muito habilidoso e veloz') with pace in Fernandinho and Everton, and an aggressive intensity without the ball.", "answers": { "jog_05": "D", "jog_01": "C", "jog_02": "C", "jog_04": "D", "jog_03": "C" } },
-  "bas": { "personaBrief": "The approach is captioned 'Recuperação de jogadores, mescla com jovens': cheap veterans (Léo Moura, Cortez, Barrios, Jael) were mixed with young key men like Arthur and Luan, and Renato talked a lot with the youth categories.", "answers": { "bas_03": "C", "bas_02": "N", "bas_01": "C", "bas_05": "D", "bas_04": "D" } },
-  "lid": { "personaBrief": "The relationship with the squad is Renato's 'trunfo mais evidente': he 'sabe como dialogar', no player criticised him, and there was no 'crise de vaidades' despite rotation. Clear harmony-based leadership.", "answers": { "lid_02": "CT", "lid_01": "N", "lid_03": "C", "lid_04": "D", "lid_05": "C" } }
+  "pos": {
+    "personaBrief": "Grêmio 2017 averaged 53% possession in the Libertadores and 51% in the Brasileirão and 'soube trabalhar a bola, envolver os adversários', yet was also 'letal nos contra-ataques': a ball-keeping team that was not dogmatic about possession.",
+    "answers": {
+      "pos_04": "D",
+      "pos_03": "C",
+      "pos_05": "C",
+      "pos_02": "C",
+      "pos_01": "D"
+    }
+  },
+  "pro": {
+    "personaBrief": "Arthur was 'extremamente importante para a saída de bola' and protected possession, and the team built 'jogadas bem encadeadas', but it also kept the 'verticalidade no ataque' and Fernandinho's speed on fast counters.",
+    "answers": {
+      "pro_01": "C",
+      "pro_02": "C",
+      "pro_03": "D",
+      "pro_04": "C",
+      "pro_05": "C"
+    }
+  },
+  "est": {
+    "personaBrief": "A nominal 4-2-3-1 inherited from Roger Machado, but the attack ran through Luan 'na criação e finalização', with close combinations and fluid movement around Barrios, alongside the 'obediência tática' the press praised.",
+    "answers": {
+      "est_02": "C",
+      "est_05": "N",
+      "est_04": "C",
+      "est_03": "D",
+      "est_01": "D"
+    }
+  },
+  "lar": {
+    "personaBrief": "No verified width evidence (gap): from general knowledge, the 4-2-3-1 played through Luan in the centre, with Ramiro as a narrow right-sided midfielder and full-backs giving width, which fits Luan being the creative hub.",
+    "answers": {
+      "lar_05": "D",
+      "lar_03": "D",
+      "lar_01": "D",
+      "lar_02": "C",
+      "lar_04": "C"
+    }
+  },
+  "blo": {
+    "personaBrief": "Pressing evidence rests on the Libertadores final, where the team worked 'sem a bola, pressionando, agressivos'; otherwise it is described as solid defensively and counter-attacking, with no documented block depth.",
+    "answers": {
+      "blo_05": "D",
+      "blo_02": "N",
+      "blo_04": "D",
+      "blo_01": "C",
+      "blo_03": "C"
+    }
+  },
+  "mar": {
+    "personaBrief": "Marking is not documented (openQuestions); from memory, a standard zonal-based Brazilian back four, with no dedicated man-markers on opponents' stars.",
+    "answers": {
+      "mar_04": "D",
+      "mar_02": "D",
+      "mar_03": "D",
+      "mar_01": "C",
+      "mar_05": "D"
+    }
+  },
+  "pla": {
+    "personaBrief": "Renato inherited Roger Machado's scheme and built around the players he found, and his statedView ('quem sabe, sabe') dismisses study, so the team mostly played its own way, adjusting through personnel changes (Pachuca semi-final).",
+    "answers": {
+      "pla_04": "C",
+      "pla_05": "C",
+      "pla_03": "C",
+      "pla_02": "D",
+      "pla_01": "D"
+    }
+  },
+  "res": {
+    "personaBrief": "Praised for 'o futebol mais vistoso do Brasil', but Renato framed it as 'jogarmos bem e ganharmos os jogos'. A pragmatic, results-first cup team that won the Libertadores.",
+    "answers": {
+      "res_02": "C",
+      "res_01": "D",
+      "res_05": "C",
+      "res_04": "D",
+      "res_03": "C"
+    }
+  },
+  "sis": {
+    "personaBrief": "The team leaned on Luan as 'principal líder técnico' and on recovering players 'tidos como refugos' through man-management, which means trusting talent over a system that turns ordinary players into great ones.",
+    "answers": {
+      "sis_01": "D",
+      "sis_04": "C",
+      "sis_02": "C",
+      "sis_03": "D",
+      "sis_05": "D"
+    }
+  },
+  "jog": {
+    "personaBrief": "Technique-led spine (Arthur in build-up, Luan 'muito habilidoso e veloz') with pace in Fernandinho and Everton, and an aggressive intensity without the ball.",
+    "answers": {
+      "jog_05": "D",
+      "jog_01": "C",
+      "jog_02": "C",
+      "jog_04": "D",
+      "jog_03": "C"
+    }
+  },
+  "bas": {
+    "personaBrief": "The approach is captioned 'Recuperação de jogadores, mescla com jovens': cheap veterans (Léo Moura, Cortez, Barrios, Jael) were mixed with young key men like Arthur and Luan, and Renato talked a lot with the youth categories.",
+    "answers": {
+      "bas_03": "C",
+      "bas_02": "N",
+      "bas_01": "C",
+      "bas_05": "D",
+      "bas_04": "D"
+    }
+  },
+  "lid": {
+    "personaBrief": "The relationship with the squad is Renato's 'trunfo mais evidente': he 'sabe como dialogar', no player criticised him, and there was no 'crise de vaidades' despite rotation. Clear harmony-based leadership.",
+    "answers": {
+      "lid_02": "CT",
+      "lid_01": "N",
+      "lid_03": "C",
+      "lid_04": "D",
+      "lid_05": "C"
+    }
+  },
+  "archetype": {
+    "epoca": "D",
+    "elenco": "E",
+    "organizacao": "A",
+    "treinador": "B",
+    "final": "B"
+  }
 }

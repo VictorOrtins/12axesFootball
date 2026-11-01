@@ -1,0 +1,168 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Manchester United 1995/96" (catalog: team), answering as the team Manchester United 1995/96, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/manchester-united-1995-96.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:manchester-united-1995-96".
+
+=== RESEARCH FILE (team/manchester-united-1995-96.json) ===
+{
+  "id": "manchester-united-1995-96",
+  "catalog": "team",
+  "name": "Manchester United 1995/96",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "1995-08-19",
+    "end": "1996-05-11"
+  },
+  "scopeNote": "Style not established: sources support only a 4-4-2-family shape in general terms (Wilson, on Ferguson's sides across the 1990s, not this season) and a youth-led squad rebuild (Premier League review, Wikipedia). Period 1995-08-19 (Aston Villa 1-3, first match) to 1996-05-11 (FA Cup final 1-0 Liverpool); league clinched 1996-05-05. Tactical dimensions have no period-specific verified source; they are gaps, not evidence of absence. Second pass: Hansen/Goal pieces add Ferguson using Hansen's remark to motivate the squad (secondary paraphrase) and the opening-day line-up only; still no season-wide tactical source (Spielverlagerung/TFT/Coaches' Voice searches returned nothing).",
+  "managers": [
+    {
+      "managerId": "alex-ferguson",
+      "start": "1995-08-19",
+      "end": "1996-05-11"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [],
+  "sources": [
+    {
+      "title": "1995/96 Season Review",
+      "url": "https://www.premierleague.com/en/news/693495",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-05-24",
+      "eventDate": "1995/96",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "United surprised by \"selling established first-team trio Paul Ince, Andrei Kanchelskis and Mark Hughes\" with no major signings; Ferguson \"threw a host of academy stars into the fold\" (Beckham, Scholes, the Nevilles, Butt became regular starters). Hansen on Match of the Day: \"You can't win anything with kids.\" Title won by four points.",
+      "verified": true
+    },
+    {
+      "title": "1995-96 Manchester United F.C. season",
+      "url": "https://en.wikipedia.org/wiki/1995–96_Manchester_United_F.C._season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1995/96",
+      "accessedOn": "2026-10-17",
+      "dimension": "squad-building",
+      "evidence": "First 100k chars read. \"Having started the season without a major summer signing\"; only summer arrival Nick Culkin (York City). Ferguson \"drafted in young players like Nicky Butt, David Beckham, Paul Scholes\" and the Nevilles, paired with veterans Bruce, Keane, Schmeichel. First match 1995-08-19 Aston Villa (a) 1-3; league clinched 1996-05-05 Middlesbrough (a) 3-0; last match FA Cup final 1996-05-11 Liverpool 1-0. Page has no tactics.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson, Guardian News Service)",
+      "url": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fsir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-15",
+      "eventDate": "1995/96",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "Ferguson's sides \"had always been part of the 4-4-2 family\" before the 2000 shift. Career-wide, not specific to 1995/96, so context only; no pressing/marking content.",
+      "verified": false
+    },
+    {
+      "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+      "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-19",
+      "eventDate": "1995-08-19",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "Opening-match line-up only (Aston Villa 1-3): \"Butt partnered Roy Keane in midfield\"; \"Scholes played off the front with veteran Scottish forward Brian McClair.\" Also \"four players aged 20 or younger\" (G. Neville, P. Neville, Butt, Scholes); \"Potential aside, it was a huge gamble from Ferguson\". One match, not a season-wide system.",
+      "verified": true
+    },
+    {
+      "title": "You can't win anything with kids: Alan Hansen's infamous Man Utd rant and the aftermath (Goal)",
+      "url": "https://www.goal.com/en-gb/news/you-cant-win-anything-with-kids-alan-hansen-infamous-man-utd-rant-aftermath/1gn0os7ix8fp418q3pequhf9j0",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-19",
+      "eventDate": "1995/96",
+      "accessedOn": "2026-10-17",
+      "dimension": "people-management",
+      "evidence": "Ferguson \"often went back to Hansen's comments to motivate his side throughout the season\" (article paraphrase, no direct Ferguson quote). Hansen later: \"The kids were great, but so were the goalkeeper, two centre-backs and the centre forward.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://www.manutd.com/en/news/detail/utd-podcast-phil-neville-reveals-devastating-effect-of-famous-alan-hansen-class-of-92-criticism",
+      "reason": "empty"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "pro",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "res",
+      "sis",
+      "jog"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Squad-building verified (Premier League review, Wikipedia); people-management and opening-day shape only from secondary tier C pieces (SI, Goal); no season-wide tactical analysis or direct Ferguson quote found."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time
