@@ -1,0 +1,235 @@
+{
+  "id": "hungary-1950-56",
+  "catalog": "team",
+  "name": "Hungary 1950–56 (Golden Team)",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1950-06",
+    "end": "1956"
+  },
+  "scopeNote": "Hungary national team, 1950–1956 (Golden Team), under Gusztáv Sebes (in charge from 1949). Unbeaten run from June 1950 to the 1954 World Cup final (Wikipedia: 'unbeaten in their last 32 matches' before the final, lost 3–2 to West Germany on 1954-07-04). Start day and end day not found: start is month-only (first unbeaten match not located), end is year-only (the end of the era, linked to 1956, not pinned to a day). Key matches: 1952 Helsinki Olympics gold, Wembley 6–3 on 1953-11-25, World Cup 1954 quarter-final v Brazil 4–2 (1954-06-27), semi-final v Uruguay 4–2 (1954-06-30). Named style: 'a deep-lying centre forward who pulled defenders out of position' (guidetofootball.com), i.e. Hidegkuti as a withdrawn centre-forward. Wikipedia names the shape 'an extremely flexible 3–2–3–2 formation' that 'eventually evolv[ed] into the 4–2–4 formation'. The 4–2–4 label is therefore disputed for this era, not verified for it. Tactical evidence is retrospective (Wikipedia, guidetofootball) plus one tier B source (These Football Times) with a few dated match facts; no period tactical analysis was read.",
+  "managers": [
+    {
+      "managerId": "gusztav-sebes",
+      "start": "1949",
+      "end": "1956"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Formation conflict: Wikipedia says 3–2–3–2 evolving into 4–2–4; guidetofootball contrasts the side with the W-M formation without naming a formation. Decide whether this profile is the 4–2–4 exemplar, as the ideology file says, or 3–2–3–2 with 4–2–4 as later evolution.",
+    "Start day (first unbeaten match, June 1950) and end day (1956) are not verified: check before the audit if a day is needed.",
+    "Marking: no source read says whether Hungary marked zonally or man-oriented. The only verified evidence is that centre-halves who marked the centre-forward followed Hidegkuti into midfield (Wikipedia, guidetofootball). Wembley 1953 (Johnston drawn out of position) comes from a search summary only, not verified.",
+    "Sebes's stated view on tactics was not found: no dated primary interview. The only Sebes quote found (TFT, 'The bitter struggle between capitalism and communism...') is undated and unsourced, so not saved as statedView.",
+    "Quotes in this file were extracted by the page-reading tool and checked against its summaries, not copied by hand: spot-check the quotes against the pages before the audit.",
+    "Pressing, set pieces, build-up and squad building: no verified fact found. People management and Sebes's dressing-room relationships (e.g. Grosics: 'made a political issue of every important match') are undated and were not saved as facts."
+  ],
+  "sources": [
+    {
+      "title": "Golden Team (Wikipedia), 'Key people' section",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"Sebes's tactic was to withdraw the centre forward back to the midfield.\" Retrospective account, no period quote.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team (Wikipedia), 'Key people' section",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "The approach \"created an extremely flexible 3–2–3–2 formation\"; the 3–2–3–2 \"eventually evolv[ed] into the 4–2–4 formation\". This conflicts with the 4–2–4 label used in the ideology file.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team (Wikipedia), 'Key people' section",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "\"The tactic also drew defenders out of position.\" Centre halves who usually marked the centre forward followed him into midfield. Retrospective; no zonal/man label given.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team (Wikipedia), 'Key people' section",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "\"Wingers also dropped back when needed.\" Retrospective account.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team (Wikipedia), 'Key people' section",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "player-profile",
+      "evidence": "\"The ideal would be for any of his players to be able to play in any position.\" Retrospective article text, not a dated Sebes quote.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team (Wikipedia), 'Key people' section",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "transitions",
+      "evidence": "Puskás, undated: \"When we attacked, everyone attacked, and in defence it was the same.\" Quoted in a later retrospective; no date for the remark.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Magical Magyars (Guide to Football, history)",
+      "url": "https://guidetofootball.com/history/magical-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"playing its centre forward, Nándor Hidegkuti, much deeper than usual\"; the team's innovation summarised as \"a deep-lying centre forward who pulled defenders out of position\". Describes the W-M formation as the common alternative; does not name Hungary's own formation.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Magical Magyars (Guide to Football, history)",
+      "url": "https://guidetofootball.com/history/magical-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "\"If he followed Hidegkuti into midfield, he opened space behind for the inside forwards to attack.\" Describes the opposing centre-back's dilemma; does not describe Hungary's own marking.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Magical Magyars (Guide to Football, history)",
+      "url": "https://guidetofootball.com/history/magical-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "\"The wingers tucked in to support the inside forwards.\" Retrospective account; the page does not mention full-backs.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Magical Magyars (Guide to Football, history)",
+      "url": "https://guidetofootball.com/history/magical-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "Bozsik, a half-back, \"often pushed forward into the spaces vacated by Hidegkuti\". Read through the page-reading tool, not copied verbatim: spot-check before relying on it.",
+      "verified": false,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars (These Football Times)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "Before the 1953 match at Wembley, Sebes gave a four-hour tactical talk, and the squad trained with the heavier ball used in England. Article text read through the page-reading tool; spot-check the wording.",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars (These Football Times)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "Ahead of internationals Sebes arranged warm-up games against local club sides and had them adopt the tactics of the upcoming opponent. No date given for the practice; period not pinned.",
+      "verified": false
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars (These Football Times)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1954-06-30",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "Hidegkuti moved to outside left for the 1954 World Cup semi-final against Uruguay (4–2, 1954-06-30, confirmed on the Golden Team page). Sebes was criticised after the 1954 final for selecting Tóth on the left and Czibor on the right.",
+      "verified": true
+    },
+    {
+      "title": "Match of the Century, England v Hungary 1953 (Wikipedia, via search summary only)",
+      "url": "https://en.wikipedia.org/wiki/Match_of_the_Century_(1953_England_v_Hungary_football_match)",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "Search summary only, not read: England centre-half Harry Johnston was pulled out of position by the deep-lying Hidegkuti. Not verified.",
+      "verified": false
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "stated-view",
+      "squad-building",
+      "people-management"
+    ],
+    "axes": [
+      "bas",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Mostly tier C retrospectives (Wikipedia, Guide to Football) plus one tier B source; all tactical facts are retrospective, with no period quote. Formation disputed (3–2–3–2 per Wikipedia vs 4–2–4). Marking, pressing, Sebes's stated view and most dimensions unverified."
+  }
+}

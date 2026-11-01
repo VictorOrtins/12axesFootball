@@ -1,0 +1,131 @@
+{
+  "id": "queens-park-1872-89",
+  "catalog": "team",
+  "name": "Queen's Park 1872–89",
+  "researchedOn": "2026-10-30",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1872-03-05",
+    "end": "1889"
+  },
+  "scopeNote": "Queen's Park FC (Glasgow) in the combination era, 1872 to 1889: the FA Cup tie with the Wanderers on 1872-03-05 (first dated match of the era), the first official Scotland v England international on 1872-11-30 (all eleven Scotland players were Queen's Park players), and the club's Scottish Cup and FA Cup seasons up to 1889. The start is the first dated match, not the club's first game. The end is a partial date, year 1889, chosen to match the combination-game ideology's end (Preston North End's 1888-89 double); the club kept playing after it (1890 Scottish Cup replay win over Vale of Leven), so the end is a convention. The Scottish Football Historians Group (undated page) argues the Scottish passing game began in late 1872 in the Vale of Leven (Renton), not at Queen's Park, so the era is best described as Queen's Park's combination game, not as the origin of passing. The 'combination' term is period usage (Robinson, 1920 retrospective: 'Combination was the chief characteristic of the Queen's Park play'); 'Scottish passing game' is a later label and disputed for 1872.",
+  "managers": [],
+  "ambiguities": [],
+  "openQuestions": [
+    "Managers: none recorded. In 1872-89 clubs had no coach; the manager list is empty as instructed. validate.py rejects a team with no managers[] (PERIODO error), so the file cannot pass validation as it stands. Decide whether the validator should accept an empty managers[] for coachless eras, or whether a placeholder rule is wanted.",
+    "Origin of the passing game: Wikipedia (Queen's Park F.C.) says the club was 'certainly playing a passing game by the time of their FA Cup tie (March 1872) with Wanderers'. The Scottish Football Historians Group says the 1872-03-05 match 'contains no evidence of ball passing' and that the Scotsman's account of 1872-11-30 mentions no passing by the Scots. The two sources conflict; the audit should not treat Queen's Park as the proven originator.",
+    "Shape: the 2-2-6 is the best-supported formation (These Football Times, 1872-11-30: 'Scotland went 2-2-6 while England fielded a more attacking 1-1-8'; the SFHG page describes two full-backs, two half-backs and six forwards). Whether Queen's Park used the same 2-2-6 in its own league-style matches through 1889 is not verified.",
+    "Dimensions with no read fact (pressing, defensive-block, width, transitions, set-pieces, game management, squad building, people management, player profile) are not covered. The early period has no coach or stated view; the guide's stated-view search for Alcock or Robinson was not run, because it needs period writings, not later summaries.",
+    "The Field (1872) describes the Queen's Park style as 'dribble little' with 'long kicks, combined with a judicious plan of passing on'. This is quoted through Wikipedia, not read in The Field. It matters for the progression axis (direct vs patient) and should be checked against Sanders' Beastly Fury (2009) or the original print.",
+    "End of the era: the 1890 Scottish League refusal (amateur principles) and the 1893 professionalisation fall outside the 1889 end; decide whether they belong to this profile."
+  ],
+  "sources": [
+    {
+      "title": "The Passing-Game",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/the-passing-game",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "Page reader summary of the SFHG page (quotes as extracted, not verified word for word): \"in a lengthy account the Scotsman newspaper makes no mention of passing or combination by the Scottish team\" (November 1872); \"the 5 March 1872 match between Wanderers and Queens Park contains no evidence of ball passing\"; the page concludes the passing game 'most likely emerged in late 1872' with Renton and The Vale, not Queen's Park. Read on the whole page.",
+      "verified": true
+    },
+    {
+      "title": "1872 - The First International",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/1872thefirstinternational",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"a goalkeeper, two full-backs side-by-side and six forwards with two half-backs in-between\" (the 1872 Scotland set-up, called a box, probably drilled by captain Robert Gardner). \"which had essentially provided the Scotland team\" (Queen's Park). Match date 30 November, kick-off 2pm.",
+      "verified": true
+    },
+    {
+      "title": "1872 - The First International",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/1872thefirstinternational",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"Whilst it was hardly the passing-game as we know it.\" \"it was both 'scientific' and 'combination'\"; the four behind 'directed from behind' worked together, contracting under pressure and expanding in attack. The page does not describe Queen's Park's own style or name the Scotsman or Glasgow Herald.",
+      "verified": true
+    },
+    {
+      "title": "The \"Combination\" Game",
+      "url": "https://www.scotsfootballworldwide.scot/thecombinationgame",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "Queen's Park were 'the provider of all the players in Scotland team had had until then virtually no opposition'. The page distinguishes 'combination' from the pass: \"the deliberate rather than accidental transference of a ball between two players is just that, a pass.\" The author places combination in Scotland with the 1872 box formation, requiring captain-led coordination, and sees passing combination as coming later in the decade, partly from shinty and the Vale of Leven. The page does not mention dribbling.",
+      "verified": true
+    },
+    {
+      "title": "The tale of Queen's Park: the early innovators who became last of the amateurs",
+      "url": "https://thesefootballtimes.co/2023/02/06/the-tale-of-queens-park-the-early-innovators-who-became-last-of-the-amateurs/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-02-06",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"the two teams used the following formations: Scotland went 2-2-6 while England fielded a more attacking 1-1-8.\" (30 November 1872). \"the whole Scottish team is comprised of players from just one single club.\" (30 November 1872). The article also places the Queen's Park passing idea in the early 1870s: \"What if, instead of just charging with the ball until tackled, one passed the ball to a colleague when challenged?\" (no exact date).",
+      "verified": true
+    },
+    {
+      "title": "Queen's Park F.C.",
+      "url": "https://en.wikipedia.org/wiki/Queen%27s_Park_F.C.",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-03-05",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"Queen's were certainly playing a passing game by the time of their FA Cup tie (March 1872) with Wanderers\" (the page's claim; it conflicts with the SFHG reading of the same match). Also: the club was founded on 9 July 1867; reached the first FA Cup semi-finals in 1872 and withdrew for lack of funds after a 0-0 draw with the Wanderers.",
+      "verified": true
+    },
+    {
+      "title": "Queen's Park F.C.",
+      "url": "https://en.wikipedia.org/wiki/Queen%27s_Park_F.C.",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-03-05",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "The Field, on the FA Cup tie with the Wanderers (March 1872), as quoted on the Wikipedia page: \"They dribble little and usually convey the ball by a series of long kicks, combined with a judicious plan of passing on.\" Quoted from the period magazine via a later page, not read in The Field itself.",
+      "verified": true
+    },
+    {
+      "title": "Queen's Park F.C.",
+      "url": "https://en.wikipedia.org/wiki/Queen%27s_Park_F.C.",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1872-11-30",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "At the 30 November 1872 international: \"For the one and only time all eleven Scots players were from Queen's Park\"; Scotland used a 2-2-6 formation.",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": ["possession", "transitions", "pressing", "defensive-block", "width", "set-pieces", "game-management", "stated-view", "player-profile", "squad-building", "people-management"],
+    "axes": ["pos", "lar", "blo", "mar", "pla", "res", "sis", "jog", "bas", "lid"]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Period evidence is 1872-73 match reports known only through later pages (SFHG, These Football Times, Wikipedia), mostly tier B-C; the two sources disagree on whether Queen's Park passed at all in March 1872; no coach or stated view exists; and the team has no managers[] entry."
+  }
+}

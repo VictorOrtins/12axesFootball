@@ -1,0 +1,218 @@
+{
+  "id": "stan-cullis",
+  "catalog": "manager",
+  "name": "Stan Cullis",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1948-06",
+    "end": "1964-09"
+  },
+  "scopeNote": "Manager profile of Stan Cullis, one counted spell: Wolverhampton Wanderers, June 1948 (appointment, Wikipedia: 'In June 1948') to September 1964 (sacked, Wikipedia: 'surprisingly sacked in September 1964'). Day-level dates are not in the pages read. Three league titles (1953-54, 1957-58, 1958-59) and two FA Cup wins (1949, 1960) per the Wolves hall-of-fame summary and the Wikipedia season table. Style: the evidence supports direct, long-passing football with pace down the wings (Mullen, Hancocks) and high tempo, which Cullis himself called 'scientific kick-and-rush football' in All For the Wolves (1960). 'Kick and rush' is the critics' label that Cullis accepted; the Football Times piece also ties the approach to Charles Reep's direct-play theories. Marking (zonal or man) is not documented in the pages read.",
+  "spellsCounted": [
+    {
+      "club": "Wolverhampton Wanderers",
+      "start": "1948-06",
+      "end": "1964-09",
+      "reason": "Three league titles, two FA Cup wins and the direct, winger-led style the 'kick and rush' label is attached to."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Birmingham City",
+      "start": "1965-12",
+      "end": "1970-03",
+      "reason": "Later spell (appointed December 1965, retired March 1970 per Wikipedia) with no titles or tactical coverage found in the pages read."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The 'Mighty Magyars' influence on Cullis's direct style (a Sunday Post piece) was seen only in a search summary and is not verified; check it against a primary or tier B source.",
+    "Zonal or man-oriented marking under Cullis is not documented: the search found only match reports (Cardiff 1955) and no system description. Marking (mar) stays a gap unless a tactical source is found.",
+    "Most Cullis quotes from All For the Wolves (1960) are undated on the Spartacus page: confirm the dates against the book or another primary source.",
+    "Exact day of the June 1948 appointment and the September 1964 departure are not in the pages read (partial dates used)."
+  ],
+  "sources": [
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"Goals came throughout the side thanks to the direct playing style that Cullis encouraged.\" (Direct play section, 1958-1960 as the page frames it.)",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "Cullis's team played \"the percentages game,\" using quick distribution from defence out to Mullen and Hancocks. (Tactics and style section; the page gives no separate season for this line.)",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "\"Wingers were very important to the way Cullis's team played,\" with Jimmy Mullen and Johnny Hancocks supplying crosses. (Tactics and style section; no separate season given.)",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1960",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"every pass is if, possible, decisive and long rather than pretty and short.\" (From All For the Wolves, 1960, quoted on the page; the page gives no season for this passage.)",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1960",
+      "accessedOn": "2026-10-30",
+      "dimension": "transitions",
+      "evidence": "\"put the ball into the opponents' penalty-area from any quarter of the field in a maximum of three passes\" (From All For the Wolves, 1960; undated on the page.)",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1960",
+      "accessedOn": "2026-10-30",
+      "dimension": "pressing",
+      "evidence": "\"rapid tackling by every player so that we obtain possession of the ball before the other side has it under control.\" (From All For the Wolves, 1960; undated on the page.)",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1960",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "\"Every full-back who plays for Wolves is instructed to find one of his forwards with the pass if he can.\" (From All For the Wolves, 1960; undated on the page.)",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1950-05",
+      "accessedOn": "2026-10-30",
+      "dimension": "squad-building",
+      "evidence": "Peter Broadbent, May 1950: Cullis thought the 17-year-old \"could well develop into one of the outstanding inside-forwards of his day.\"",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1957",
+      "accessedOn": "2026-10-30",
+      "dimension": "squad-building",
+      "evidence": "Johnny Hancocks, 1957: Cullis said he \"felt that it was necessary to prepare for the future\" when releasing him.",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1962",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "Ron Flowers, 1962: \"our manager never sets out to copy the tactics of any other club.\"",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "1960",
+      "eventDate": "1962",
+      "accessedOn": "2026-10-30",
+      "dimension": "people-management",
+      "evidence": "Ron Flowers, 1962, on Cullis: \"He never adds to our worries at such a time by large-scale inquests.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Cullis accepts that critics may call Wolves \"scientific kick-and-rush football.\"",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Those tactics demand that Wolves play at a tempo which is beyond the capacity of the other side.",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I tell my players that they must train until it hurts because it makes them better players on Saturday.",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "The primary duty of a team is to entertain the public and, for entertainment, the people of Wolverhampton demand first of all...",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.expressandstar.com/sport/football/wolverhampton-wanderers-fc/2016/10/27/wolves-legend-stan-cullis-remembered-the-management-years",
+      "reason": "403"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "defensive-block",
+      "player-profile",
+      "possession",
+      "set-pieces",
+      "shape"
+    ],
+    "axes": [
+      "jog"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "One 18-year span with a tier B history site (These Football Times) and a tier B educational site quoting Cullis's 1960 book All For the Wolves; many book quotes are undated on the page; no marking, shape or set-piece source read."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "hugo-meisl",
+  "catalog": "manager",
+  "name": "Hugo Meisl",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1913",
+    "end": "1937-02-17"
+  },
+  "scopeNote": "Manager profile of Hugo Meisl as Austria's national team coach (Teamchef, also called Bundeskapitan in one source), from 1913 to his death from a heart attack on 1937-02-17 in Vienna (Wikipedia; ORF). Sole control of the side from 1919 (Wikipedia). The 1931-34 Wunderteam years are inside the spell. The start is pinned to 1913 because the Wikipedia body text says he became coach 'in 1913' and the brief says 1913; the infobox says 1912-14 and ORF gives 22 Dec 1912 as his first match (see openQuestions). The day is not found, so the start is partial. The only counted spell is the national team. His 1912-13 club spells (Wiener Amateure, FK Austria Wien) are excluded: no tactical coverage and not what he is known for. Style: the pages read support 'quick passing' (Wunderteam article, crediting Englishman Jimmy Hogan) and a forward line complemented by wide half-backs and an attacking centre-half. The 'Danubian school' label is not verified on any page read: the English Wikipedia article on the Danubian school returned 404, and the Danubian passing and 'Danubian Whirl' accounts come from search summaries and blogs that were not read as evidence. Marking is unknown.",
+  "spellsCounted": [
+    {
+      "club": "Austria (national team)",
+      "start": "1913",
+      "end": "1937-02-17",
+      "reason": "Austria's national team coach from 1913 (sole control from 1919) to his death in 1937; the Wunderteam of 1931-34 and the 1934 World Cup. Known for the national side's style and the team's name."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Wiener Amateure",
+      "start": "1912",
+      "end": "1913",
+      "reason": "Club coaching spell before the national-team appointment (Wikipedia infobox). Not known for tactics; no coverage read."
+    },
+    {
+      "club": "FK Austria Wien",
+      "start": "1912",
+      "end": "1913",
+      "reason": "Club coaching spell listed in Wikipedia's club manager list (1912-13). Not known for tactics; no coverage read."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Start date conflict: the Wikipedia body says Meisl became national coach 'in 1913 alongside Heinrich Retschury'; the infobox says 1912-14; ORF (wien.orf.at, read) says his first match as Austria's coach was 22 Dec 1912, a 3-1 win over Italy in Genoa. The profile uses 1913 because the brief says 1913 and the body text agrees. Confirm the start, or move it to 1912-12-22.",
+    "1934 World Cup: the Wunderteam Wikipedia article says Austria were eliminated by Italy in the semi-final; the Hugo Meisl article, as read, says quarter-final. Only the semi-final is in the verified sources; the conflict is not resolved.",
+    "The Danubian school: the en.wikipedia page returned 404, so the label and its characteristics (short passing, 'Danubian Whirl', 2-3-5 variant) rest on search summaries and blogs that were not read as evidence. Confirm the ideology's own research before linking Meisl to it as exemplar.",
+    "The ORF quote 'Da habt's euer Schmieranski-Team' is dated only to May 1931 (before the 5-0 win over Scotland). It is about the squad picked to suit journalists, not about tactics. Search summaries spell it 'Schmiranski'. Confirm spelling and original source.",
+    "Marking (mar), pressing, defensive block and transitions were searched for, and none of the pages read covers them. Need a dedicated tactical history (for example Jonathan Wilson's Inverting the Pyramid, which a review cites but which was not read)."
+  ],
+  "sources": [
+    {
+      "title": "Wunderteam",
+      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1931/32",
+      "accessedOn": "2026-10-30",
+      "dimension": "possession",
+      "evidence": "\"The style of the team focused on quick passing introduced by Englishman Jimmy Hogan.\" The page also says \"The team had an unbeaten streak of 14 games between April 1931 and December 1932.\" (Wikipedia has no article date; access date used.)",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam",
+      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1931/32",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"The forward line was complemented by wide half-backs and an attacking centre-half.\" The page does not give a formation name.",
+      "verified": true
+    },
+    {
+      "title": "Hugo Meisl",
+      "url": "https://en.wikipedia.org/wiki/Hugo_Meisl",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1913",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "Page-reader output: Jimmy Hogan \"helped Meisl develop a technique for dispensing with aerial passing and placing emphasis on groundwork.\" The sentence has no date and is only placed in Meisl's time by context, so it is not counted as verified.",
+      "verified": false
+    },
+    {
+      "title": "Hugo Meisl",
+      "url": "https://en.wikipedia.org/wiki/Hugo_Meisl",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1931/32",
+      "accessedOn": "2026-10-30",
+      "dimension": "player-profile",
+      "evidence": "Page-reader output: \"Among their players was Matthias Sindelar, the man of paper, 'Der Papierene', known for gliding past rough challengers.\" Describes a technical, elusive forward in the Wunderteam; no season given in the sentence.",
+      "verified": true
+    },
+    {
+      "title": "The Untold Game: Before Total Football, there was the Wunderteam",
+      "url": "https://theuntoldgame.co.uk/?p=1016",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1923",
+      "accessedOn": "2026-10-30",
+      "dimension": "squad-building",
+      "evidence": "Page-reader paraphrase, not a quote: Meisl was concerned that Matthias Sindelar was too frail when he debuted (1923). Not a verbatim quote, so not verified.",
+      "verified": false
+    },
+    {
+      "title": "The Untold Game: Before Total Football, there was the Wunderteam",
+      "url": "https://theuntoldgame.co.uk/?p=1016",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1912",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "Page-reader paraphrase, not a quote: Meisl was impressed by the fast passing and movement that Englishman Jimmy Hogan introduced to the Dutch side in 1912. Before the profile period (starts 1913), so not verified for this profile.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Da habt's euer Schmieranski-Team",
+      "date": "1931-05",
+      "source": "https://wien.orf.at/v2/news/stories/2782239/index.html",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    { "url": "https://en.wikipedia.org/wiki/Danubian_school", "reason": "404" }
+  ],
+  "gaps": {
+    "dimensions": ["build-up", "pressing", "defensive-block", "transitions", "width", "set-pieces", "game-management", "stated-view", "squad-building", "people-management"],
+    "axes": ["pro", "lar", "blo", "mar", "pla", "res", "sis", "bas", "lid"]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "A single national-team spell of about 24 years, but the pages read are mostly tier C (Wikipedia). Three verified facts cover possession, shape and the player profile. Nothing verified on pressing, defence, marking, transitions, set pieces, game management, squad building or people management. The Danubian school label is unverified (its Wikipedia page was 404), and the only dated quote is a jocular remark about squad selection."
+  }
+}

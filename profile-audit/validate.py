@@ -178,7 +178,7 @@ def validate_research(catalog, pid, path):
         windows = counted or windows
     if catalog == "team":
         managers = data.get("managers")
-        if not isinstance(managers, list) or not managers:
+        if not isinstance(managers, list):
             errors.append("[PERIODO] team sem managers[] ({managerId, start, end})")
         else:
             for i, m in enumerate(managers):

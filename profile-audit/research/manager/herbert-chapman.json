@@ -1,0 +1,152 @@
+{
+  "id": "herbert-chapman",
+  "catalog": "manager",
+  "name": "Herbert Chapman",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1921-03-31",
+    "end": "1934-01-06"
+  },
+  "scopeNote": "Manager profile of Herbert Chapman across two counted spells: Huddersfield Town (31 March 1921 to 11 June 1925) and Arsenal (11 June 1925 to 6 January 1934, the day he died). Dates from the Wikipedia infobox and career table; the Huddersfield start is disputed (see openQuestions). Excluded: Northampton Town (1907-08-01 to 1912-08-01) and Leeds City (1912-08-01 to 1918-12-09): no titles and no tactical coverage found in the pages read. Style: the evidence supports the WM (3-2-2-3) at Arsenal after the 1925 offside change, with a stopper centre-half and a link player feeding the wide forwards (SI and Arsenal fan blog, both describing the shape). The origin of the stopper is disputed: the Woolwich Arsenal blog credits Charlie Buchan, not Chapman, with the invention; the SI piece credits Chapman with the W-M response. Huddersfield tactics and Chapman's own tactical words were not evidenced in any page read.",
+  "spellsCounted": [
+    {
+      "club": "Huddersfield Town",
+      "start": "1921-03-31",
+      "end": "1925-06-11",
+      "reason": "Titles (1923-24, 1924-25) and the step up to Arsenal; titles from search summaries, not checked on a page read."
+    },
+    {
+      "club": "Arsenal",
+      "start": "1925-06-11",
+      "end": "1934-01-06",
+      "reason": "First Division titles (1930-31, 1932-33 per SI) and the WM system the evidence describes; the spell ends with his death."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Northampton Town",
+      "start": "1907-08-01",
+      "end": "1912-08-01",
+      "reason": "Early player-manager spell; no titles or recognised style in the pages read."
+    },
+    {
+      "club": "Leeds City",
+      "start": "1912-08-01",
+      "end": "1918-12-09",
+      "reason": "No titles or tactical coverage in the pages read; the evidence on the club is about its wartime collapse, not its style."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Huddersfield start date: Wikipedia gives 31 March 1921 as manager; a search summary said he joined as assistant in February 1921 and a secretary in September 1920. Confirm the appointment date before the audit uses the period start.",
+    "Origin of the stopper and the WM: the Woolwich Arsenal blog says it 'seems' to be Buchan's invention, not Chapman's; the SI piece credits Chapman. The dispute matters for how the audit names the system.",
+    "Stated view: the Wikipedia Chapman page carries quotes ('a team can attack for too long', 'the most opportune time for scoring is immediately after repelling an attack', 'the rock bottom of football') that the article leaves undated and unsourced. No primary, dated quote was found, so statedView is empty. Search for the 1934 book 'Herbert Chapman on Football' or a dated interview.",
+    "Marking (mar): no dedicated marking search was run. The only marking facts are the stopper's role marking the opposing centre-forward (SI) and the Woolwich blog's account of the stopper; no source says how the full-backs and half-backs marked.",
+    "The Arsenal.com 7-0 Newcastle feature returned HTTP 503 and was not read. Retry it: it is the most likely source for the link man and squad changes after 1925.",
+    "Trophies (Huddersfield league titles 1923-24 and 1924-25, FA Cup 1922; Arsenal 1930-31 and 1932-33 titles) come from search summaries and the SI article; only the SI titles were read on a page."
+  ],
+  "sources": [
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics - Woolwich Arsenal blog",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1925-10-03",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "\"On 3 October 1925 Arsenal lost 0-7 to Newcastle\" (opening line). Page reader paraphrase: Chapman began discussions on changing tactics straight after the defeat, and asked Buchan to explain his views more fully.",
+      "verified": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics - Woolwich Arsenal blog",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"it was (it seems) the invention of Buchan not Chapman\" (article's own view on the W-M). Buchan: \"New methods were required and Arsenal were the first to exploit them\".",
+      "verified": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics - Woolwich Arsenal blog",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "\"It has many times been said that the change in law brought into operation the 'stopper' centre half\". Page reader: the author argues Buchan's stopper existed well before the 1925 law change.",
+      "verified": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics - Woolwich Arsenal blog",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1925-06",
+      "accessedOn": "2026-10-30",
+      "dimension": "squad-building",
+      "evidence": "Page reader paraphrase: Buchan had pressed for the change since joining Arsenal in summer 1925, and the post-match meeting came after the 3 October defeat. Buchan was the captain Chapman signed in 1925 (Wikipedia search summary; not read on a page).",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman: One of Football's Great Innovators & Mastermind Behind the 'W-M' Formation - SI",
+      "url": "https://www.si.com/soccer/2019/06/25/herbert-chapman-one-footballs-great-innovators-mastermind-behind-w-m-formation",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-06-25",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "Page reader paraphrase: Chapman \"duly responded with the 'W-M' formation\" after Arsenal's 1925 defeat to Newcastle, which followed a change to the offside rule; the shape is \"referred to as a 3-2-5, 3-4-3, or more precisely a 3-2-2-3\".",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman: One of Football's Great Innovators & Mastermind Behind the 'W-M' Formation - SI",
+      "url": "https://www.si.com/soccer/2019/06/25/herbert-chapman-one-footballs-great-innovators-mastermind-behind-w-m-formation",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-06-25",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "Page reader paraphrase of the WM shape: three defenders stayed close to the goalkeeper when defending, a centre-back marked the opposing centre-forward, and there was no holding midfielder. Critics called it a defensive step back; the article argues it prioritised balance.",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    { "url": "https://www.arsenal.com/feature/why-a-7-0-loss-at-newcastle-led-to-our-golden-era-ajy5Q5Z8Lbbg", "reason": "not-accessible" }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "possession",
+      "pressing",
+      "transitions",
+      "width",
+      "set-pieces",
+      "stated-view",
+      "player-profile",
+      "people-management"
+    ],
+    "axes": [
+      "jog",
+      "lar",
+      "lid",
+      "pos",
+      "pro"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Six verified facts from one fan blog (tier B) and one SI piece (tier C), all describing the WM shape rather than Chapman's own tactics; no tier A source, no dated primary quote, and the origin of the stopper is disputed. The Arsenal.com feature returned 503 and was not read."
+  }
+}

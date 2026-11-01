@@ -99,9 +99,15 @@ class Blocks(unittest.TestCase):
         data["spellsExcluded"][0]["reason"] = ""
         self.assertBlocks(data, "spellsExcluded[0] sem club ou reason")
 
-    def test_team_without_managers(self):
+    def test_team_without_managers_is_allowed(self):
         data = fixture("team-valid.json")
         data["managers"] = []
+        code, out = run(data)
+        self.assertEqual(code, 0, out)
+
+    def test_team_managers_not_a_list_blocks(self):
+        data = fixture("team-valid.json")
+        data["managers"] = None
         self.assertBlocks(data, "team sem managers")
 
     def test_team_linked_by_name(self):

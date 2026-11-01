@@ -1,0 +1,177 @@
+{
+  "id": "wolves-1949-60",
+  "catalog": "team",
+  "name": "Wolverhampton Wanderers 1949–60",
+  "researchedOn": "2026-10-30",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1949-01-01",
+    "end": "1960-12-31"
+  },
+  "scopeNote": "Wolves under Stan Cullis as the 'kick and rush' exemplar, taking the user's calendar range 1949–60: from the 1949 FA Cup win to the 1960 FA Cup win. Cullis was appointed in June 1948 (Wikipedia), so the 1948/49 season is only partly in scope. Sources cover the 1953/54 and 1957–60 sides; no source gives a season-by-season tactical account for the whole period. The style is 'kick and rush' as the label rivals used: TFT calls it 'a sophisticated \"kick and rush\"' and says it 'relied upon fitness, pace and aggression but it was not a case of kick it anywhere at all costs'. The label is critics' language, not a Cullis term. Shape, pressing, defensive block and marking are not verified in any source read. Partial dates: Cullis's start (1948-06) and end (1964-09) are month-only, as Wikipedia gives them; the exact days were not found.",
+  "managers": [
+    {
+      "managerId": "stan-cullis",
+      "start": "1948-06",
+      "end": "1964-09"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Period: the user gave 1949–60. Confirm whether the profile starts at Cullis's June 1948 appointment (1948/49 season) or at 1949 as written. The file uses 1949-01-01 to 1960-12-31.",
+    "Manager id: 'stan-cullis' has no research file in profile-audit/research/manager/ yet. Create it before auditing the manager axes separately.",
+    "Express & Star (2016-10-25, 'Wolves legend Stan Cullis remembered: The early years') carries Cullis's own defence of 'kick and rush' and the 'yardstick' quote. The page returned 403 and the archive was refused, so the quote is seen only in search summaries and is not in statedView[]. Also the same 'yardstick' words appear in Express & Star 'From the archive - Stan Cullis is sacked' (2016-05-11/12) as a sacking remark, so the context is disputed. Read the page by another route before using it.",
+    "Marking (mar): no source read says whether Wolves marked zonally or man-to-man. Needs a dedicated search (Billy Wright or Bill Slater accounts; tactical histories of the 2-3-5/WM era).",
+    "Shape: no source read gives a formation. The sources name half-backs (Slater, Wright, Flowers) and five forwards, but not a shape.",
+    "Stated view: no primary Cullis interview from the period was read. The 'champions of the world' remark (1954 Budapest Honvéd friendly, via Wikipedia's Budapest match article) is paraphrased, not quoted, so it was not recorded.",
+    "Youth and squad: the FA Youth Cup record (1958 win) is verified, but no source read says how Cullis picked his squad from youth or how often debutants played."
+  ],
+  "sources": [
+    {
+      "title": "Stan Cullis – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stan_Cullis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "Honours as Wolves manager (page read, list form): Football League First Division \"1953–54, 1957–58, 1958–59\"; FA Cup \"1948–49, 1959–60\"; FA Charity Shield \"1949 (shared), 1954 (shared), 1959, 1960 (shared)\"; FA Youth Cup \"1958; runner-up: 1953, 1954, 1962\". Appointment: \"In June 1948, aged just 31, Cullis became manager of Wolverhampton Wanderers\". Departure: \"Cullis was surprisingly sacked in September 1964\". Page gives no tactical description. eventDate 1953/54 is the first title year, the list covers 1948–60 and beyond.",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis – Wikipedia (youth record)",
+      "url": "https://en.wikipedia.org/wiki/Stan_Cullis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1958",
+      "accessedOn": "2026-10-30",
+      "dimension": "squad-building",
+      "evidence": "FA Youth Cup \"1958; runner-up: 1953, 1954, 1962\" (honours list, Wolves as manager). Only the youth record is read here; it does not say how youth players were picked or used in the first team.",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "1958-59: \"It was pretty much the same side and the same style of play.\" The article presents this as the continuity of the style across the 1950s. Season-level, not a match-by-match account.",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "\"Wingers were very important to the way Cullis's team played.\" 1953-54: \"This exploited the speed of players like Johnny Hancocks and Jimmy Mullen.\" Forward line 1953-54: \"a free-scoring forward line comprising Hancocks, Dennis Wilshaw and Roy Swinbourne\". Article names Mullen and Hancocks as the key wide players.",
+      "verified": true
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 – the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1957/58",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"quick distribution from the defence out to Mullen and Hancocks, who would fire crosses into the area.\" The article covers the 1957–60 side; the quote has no season, so eventDate is the start of the article's period. Fan-run blog.",
+      "verified": true
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 – the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-10-30",
+      "dimension": "transitions",
+      "evidence": "\"Reep theorised that the ball should be propelled into danger zones as quickly as possible, ideally with long passes.\" The article links Cullis's approach to Charles Reep. This is a claim about Reep's theory, not a verified Wolves transition pattern, so it is recorded as unverified.",
+      "verified": false
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 – the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1949",
+      "accessedOn": "2026-10-30",
+      "dimension": "people-management",
+      "evidence": "\"strict discipline, giving your all in training\". The article says this is what Cullis inherited from Major Frank Buckley. Undated, and about Buckley's principles, so not a verified Cullis fact.",
+      "verified": false
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1949",
+      "accessedOn": "2026-10-30",
+      "dimension": "player-profile",
+      "evidence": "\"Cullis placed huge emphasis on fitness and power.\" Undated general statement about the era, not tied to a season. Recorded as unverified.",
+      "verified": false
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://expressandstar.com/sport/football/wolverhampton-wanderers-fc/2016/10/25/wolves-legend-stan-cullis-remembered-the-early-years",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.expressandstar.com/sport/football/wolverhampton-wanderers/from-the-archive-stan-cullis-is-sacked-6328967",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.expressandstar.com/sport/football/wolverhampton-wanderers-fc/2016/11/21/ron-atkinson-how-cullis-changed-the-world",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2016/https://expressandstar.com/sport/football/wolverhampton-wanderers-fc/2016/10/25/wolves-legend-stan-cullis-remembered-the-early-years",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "shape",
+      "possession",
+      "pressing",
+      "defensive-block",
+      "transitions",
+      "set-pieces",
+      "stated-view",
+      "player-profile",
+      "people-management"
+    ],
+    "axes": [
+      "pos",
+      "blo",
+      "mar",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [
+    {
+      "id": "charles-reep",
+      "kind": "manager",
+      "note": "Reep's theory of direct passes into danger zones is cited as the basis of Cullis's approach (gameofthepeople, 2019). Not a catalog id yet."
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "Short evidence base: one Wikipedia honours list, two fan-run or retrospective blogs (tier B) and one undated summary. Three Express & Star pages carrying Cullis's own words are blocked (403), so no primary Cullis quote is verified."
+  }
+}

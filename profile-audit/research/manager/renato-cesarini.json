@@ -1,0 +1,139 @@
+{
+  "id": "renato-cesarini",
+  "catalog": "manager",
+  "name": "Renato Cesarini",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1939",
+    "end": "1960"
+  },
+  "scopeNote": "Manager profile of Renato Cesarini across two counted spells: River Plate (1939 to 1944, partial dates: the day of appointment and departure were not found; the coach of 'La Máquina' in 1941 and 1942 Primera División titles, with Carlos Peucelle as co-coach in 1941) and Juventus (1959 to 1960, partial dates: Serie A 1959/60 per Spanish Wikipedia; English Wikipedia's infobox gives 1946 to 1948 instead, so the dates are in conflict). The River Plate spell is the subject of this profile. Excluded: Racing (1945), Banfield (1949), Boca Juniors (1950), Pordenone (1958 to 1959), Pumas UNAM (1964 to 1965), River Plate return (1965 to 1966), Argentina national team (1967 to 1968) and Huracán (1968), none of which had titles or tactical facts in the pages read. All spell dates here are years only (partial), because the sources give no days. Style: the evidence on the 1941 side is retrospective: Adolfo Pedernera moved from the left wing to a 'more central and withdrawn role' (en.wiki, 'La Máquina', 'one of the first uses of the figure of the false nine'). No period quote from Cesarini on his tactics was found, and no primary source on his coaching style was read.",
+  "spellsCounted": [
+    {
+      "club": "River Plate",
+      "start": "1939",
+      "end": "1944",
+      "reason": "Primera División titles 1941 and 1942 (en.wiki and es.wiki coach entries), with Carlos Peucelle the co-coach of La Máquina in 1941."
+    },
+    {
+      "club": "Juventus",
+      "start": "1959",
+      "end": "1960",
+      "reason": "Serie A 1959/60 (es.wiki, coaching table and titles). English Wikipedia's infobox gives 1946 to 1948: date conflict recorded in openQuestions."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Racing Club",
+      "start": "1945",
+      "end": "1945",
+      "reason": "Listed only in the es.wiki coaching table; no titles or tactical facts found."
+    },
+    {
+      "club": "Banfield",
+      "start": "1949",
+      "end": "1949",
+      "reason": "Listed in both infoboxes; no titles or tactical facts found."
+    },
+    {
+      "club": "Boca Juniors",
+      "start": "1950",
+      "end": "1950",
+      "reason": "Listed in both infoboxes; no titles or tactical facts found."
+    },
+    {
+      "club": "Pordenone",
+      "start": "1958",
+      "end": "1959",
+      "reason": "Infobox only; no titles or tactical facts found."
+    },
+    {
+      "club": "Pumas UNAM",
+      "start": "1964",
+      "end": "1965",
+      "reason": "Founding of the youth club only; no titles or tactical facts found."
+    },
+    {
+      "club": "River Plate",
+      "start": "1965",
+      "end": "1966",
+      "reason": "Second spell; no titles or tactical facts found in the pages read."
+    },
+    {
+      "club": "Argentina",
+      "start": "1967",
+      "end": "1968",
+      "reason": "National team; no titles or tactical facts found in the pages read."
+    },
+    {
+      "club": "Huracán",
+      "start": "1967",
+      "end": "1968",
+      "reason": "Infobox only; no titles or tactical facts found."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "River Plate start date: en.wiki infobox gives 1939, es.wiki table gives 1939 and 1940-1944, and the team file river-plate-1941-47.json uses 1940-07-07 to 1944-10-22 (source not read in this run). Confirm the appointment date.",
+    "River Plate end: no departure date or reason was found (a 1944 El Gráfico coaches article returned 403).",
+    "Juventus dates conflict: en.wiki infobox 1946-1948 versus es.wiki 1959-1960 (Serie A 1959/60 and 1960/61 titles). Check before the audit uses this spell.",
+    "Whether Cesarini led River's 1941 side alone or jointly with Carlos Peucelle is not settled by the sources read (en.wiki 'La Máquina' names both as coaches)."
+  ],
+  "sources": [
+    {
+      "title": "La Máquina - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/La_M%C3%A1quina",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1941",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "Page reader summary: in 1941 Cesarini and Peucelle, as coaches, 'started using the left winger Adolfo Pedernera as a man of reference', switching him to 'a more central and withdrawn role' and 'inviting him to alternate between driving into the box to finish moves off and sitting back to direct them'; 'It was one of the first uses of the figure of the false nine.' Retrospective, no period quote.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://elgrafico.com.ar/articulo/primera-division/102457/los-anios-con-mayor-cantidad-de-entrenadores-en-la-historia-de-river",
+      "reason": "403"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Thin career: two counted spells with partial and conflicting dates, mostly tier C Wikipedia pages, one retrospective shape fact, no stated view and no period quote on his tactics."
+  }
+}

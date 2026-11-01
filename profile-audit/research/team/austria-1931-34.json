@@ -1,0 +1,144 @@
+{
+  "id": "austria-1931-34",
+  "catalog": "team",
+  "name": "Austria 1931–34 (Wunderteam)",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1931-05-16",
+    "end": "1934-06-07"
+  },
+  "scopeNote": "Austria national team, from the 5-0 win over Scotland in Vienna (1931-05-16) to the third-place match at the 1934 World Cup, lost 3-2 to Germany in Naples (1934-06-07). Shape: the team 'took over the Scottish 2-3-5 system' (AustriaWiki, 1931). Build-up: the Scottish style with 'short flat passes' (AustriaWiki, 1931). Wikipedia's 'quick passing introduced by Jimmy Hogan' is undated and kept as context only. The popular label 'Danubian Whirl' and the 'Scheiberlspiel' come from pieces outside the period (1929) or undated, so they are not used as style names here. Evidence for pressing, marking, defence and transitions was not found in the sources read.",
+  "managers": [
+    {
+      "managerId": "hugo-meisl",
+      "start": "1931-05-16",
+      "end": "1934-06-07"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Period end 1934-06-07 comes from a search summary citing the FIFA data centre (3rd-place match, Naples); the page itself was not read.",
+    "Hugo Meisl's own Teamchef spell is longer (from 1912/13 to 1937, per the Danubian-school file and search summaries). The team dates above use the Wunderteam era, not his full spell. Confirm.",
+    "No Meisl statement on tactics, pressing, marking or the centre forward was found; no statedView entries.",
+    "The 2-3-5 label rests on one German-language page (AustriaWiki, tier C); the WM question is open. Check Wilson's Inverting the Pyramid or a match-report source before the audit.",
+    "The en.wikipedia 'wide half-backs and an attacking centre-half' line is undated; a dated source for the wing-back role is needed.",
+    "The 'interchanging of the five forward players' line (These Football Times, 2020) is undated ('early 1930s'); not counted as evidence."
+  ],
+  "sources": [
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1931-05-16",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"Man übernahm das schottische 2-3-5-System für die eigene Mannschaft.\" (Austria took over the Scottish 2-3-5 for its own team; section on the 1931 Scotland match.) Also: \"Für die anstehende Partie kehrte Sindelar zurück auf die Position des Mittelstürmers.\" (Sindelar back at centre-forward for the match.)",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1931-05-16",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"...die schottische Spielweise mit kurzen flachen Pässen zu praktizieren.\" (The team tried to play the Scottish style with short flat passes; section on the 1931 Scotland match.)",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (AustriaWiki)",
+      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "1929-01-07",
+      "accessedOn": "2026-10-30",
+      "dimension": "possession",
+      "evidence": "\"Das österreichische Team versuchte damals ihr 'Scheiberlspiel'\" (quick, short, tricky combinations) in a 0:5 friendly defeat to a Süddeutsche Auswahl on 1929-01-07. Outside the period: context only.",
+      "verified": false
+    },
+    {
+      "title": "Wunderteam",
+      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-30",
+      "dimension": "width",
+      "evidence": "\"The forward line was complemented by wide half-backs and an attacking centre-half.\" Undated in the article; the article covers the 1930s team as a whole. Context only.",
+      "verified": false
+    },
+    {
+      "title": "Wunderteam",
+      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-30",
+      "dimension": "build-up",
+      "evidence": "\"The style of the team focused on quick passing introduced by Englishman Jimmy Hogan.\" Undated in the article; the Hogan link is a 1912-era origin. Context only.",
+      "verified": false
+    },
+    {
+      "title": "How Austria's Wunderteam defied the Nazis for one last act of greatness",
+      "url": "https://thesefootballtimes.co/2020/06/02/how-austrias-wunderteam-defied-the-nazis-for-one-last-act-of-greatness/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-06-02",
+      "eventDate": "1931",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "\"the interchanging of the five forward players\" (Danubian Whirl approach, described as 'early 1930s'). The article gives no exact date for it.",
+      "verified": false
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://gameofthepeople.com/page/184",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "possession",
+      "transitions",
+      "width",
+      "pressing",
+      "defensive-block",
+      "set-pieces",
+      "game-management",
+      "stated-view",
+      "player-profile",
+      "squad-building",
+      "people-management"
+    ],
+    "axes": [
+      "pos",
+      "lar",
+      "blo",
+      "mar",
+      "pla",
+      "res",
+      "sis",
+      "jog",
+      "bas",
+      "lid"
+    ]
+  },
+  "influences": [
+    { "id": "jimmy-hogan", "kind": "manager", "note": "Short ground-passing teaching in Vienna; credited as the origin of the passing style (Wikipedia, undated)." },
+    { "id": "danubian-school", "kind": "football-ideology", "note": "The Wunderteam is the school's showcase exemplar." }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "Only two dated, verified facts (2-3-5 shape and short flat passes, both from one tier C German page on the 1931 Scotland match). Pressing, defence, marking, stated view and squad are unverified; no tier A or B source for the exact period was found."
+  }
+}

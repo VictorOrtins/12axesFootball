@@ -1,0 +1,206 @@
+{
+  "id": "arsenal-1925-34",
+  "catalog": "team",
+  "name": "Arsenal 1925–34",
+  "status": "complete",
+  "researchedOn": "2026-10-30",
+  "profilePeriod": {
+    "start": "1925-06-11",
+    "end": "1934-01-06"
+  },
+  "scopeNote": "Arsenal under Herbert Chapman, from his appointment (1925-06-11) to his death in office (1934-01-06), league and cups. Evidence is retrospective: club and history sites (tier B) and Wikipedia (tier C). The WM label is supported for the shape (3-2-2-3 / 3-4-3, These Football Times and Wikipedia); These Football Times says Chapman 'may not have invented' it but 'certainly popularised' it, and the Woolwich and Scots Football Historians sources dispute his authorship, crediting Charlie Buchan or calling the Chapman credit a myth. No source found describes pressing or set pieces.",
+  "managers": [
+    {
+      "managerId": "herbert-chapman",
+      "start": "1925-06-11",
+      "end": "1934-01-06"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Chapman's stated view not found: 'No attempt was made to organise victory' and 'the day of the haphazard football has gone' are undated secondary attributions, so they are not saved in statedView. A primary source is needed.",
+    "WM authorship is disputed: Chapman (These Football Times, Wikipedia, arsenal.com) vs Charlie Buchan (Woolwich blog); the Scots Football Historians' Group calls the Chapman credit a myth.",
+    "Marking is contested: the SFHG source (wing-halves mark the wingers, 1928) and the Woolwich source (zonal marking for one player) disagree. Check 1920s match reports or Buchan's autobiography.",
+    "Period end: Chapman died on 1934-01-06, and the 1933-34 title was won under caretakers Joe Shaw and George Allison. Confirm whether the era ends at Chapman's death or at the end of 1933-34.",
+    "Pressing, set pieces and the offside-trap detail still need a dedicated source."
+  ],
+  "sources": [
+    {
+      "title": "Herbert Chapman: the mastermind who reimagined football in the early 20th century (These Football Times)",
+      "url": "https://thesefootballtimes.co/2019/02/13/herbert-chapman-the-mastermind-who-reimagined-football-in-the-early-20th-century/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "Chapman \"became synonymous with the 3-2-2-3 'W-M' formation which, while he may not have invented, he certainly popularised on these shores.\" Retrospective article, read in full.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman: the mastermind who reimagined football in the early 20th century (These Football Times)",
+      "url": "https://thesefootballtimes.co/2019/02/13/herbert-chapman-the-mastermind-who-reimagined-football-in-the-early-20th-century/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "The formation change came with \"the changing of the offside law which reduced the number of defenders required to be behind the ball to avoid offside from three to two.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman: the mastermind who reimagined football in the early 20th century (These Football Times)",
+      "url": "https://thesefootballtimes.co/2019/02/13/herbert-chapman-the-mastermind-who-reimagined-football-in-the-early-20th-century/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "possession",
+      "evidence": "\"That system saw the inside forwards move further back, allowing Chapman's side to dominate midfield and carry out his wish for quick, incisive passing.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (Woolwich Arsenal blog)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10-03",
+      "accessedOn": "2026-10-30",
+      "dimension": "game-management",
+      "evidence": "Arsenal lost 7-0 at Newcastle on 3 October 1925; \"Manager Herbert Chapman quickly began talks about changing the team's tactics.\" Fan-run blog, read in full.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (Woolwich Arsenal blog)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "\"Buchan was, in fact, inventing zonal marking for this player, leaving the others free to cover the flow of the play.\" The post credits Charlie Buchan with the idea, and it conflicts with the SFHG man-marking account.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (Woolwich Arsenal blog)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "transitions",
+      "evidence": "Buchan's counter-attacking aim was a goal \"resulting in a goal from three or four touches out of defence\" (the roving inside-forward, Andy Neil, was chosen for quick passing). Stated aim, not a match record.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chapman, McGrory, Dean, Roberts and the Myth of Arsenal and W:M (Scots Football Historians' Group)",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/thearsenalwmmyth",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02",
+      "eventDate": "1928",
+      "accessedOn": "2026-10-30",
+      "dimension": "defensive-block",
+      "evidence": "Quoting Jimmy McMullen after the 1928 \"Wizards\" match: \"It is a common thing in England to let wing-halves, and not full-backs, mark the wingers.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Chapman, McGrory, Dean, Roberts and the Myth of Arsenal and W:M (Scots Football Historians' Group)",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/thearsenalwmmyth",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "Describes Chapman's 1925–26 side as using a \"defensive-distributive model\"; the article also argues Chapman was \"rather than inventing M:W at all\" the originator, so the authorship is contested.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-30",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "shape",
+      "evidence": "Page describes the shift \"from 2–3–5 to 3–4–3, or a 'WM'\"; \"The system involved three defenders, two half-backs, two inside-forwards and three forwards.\" Wikipedia has no tactical text beyond this, and the first 100,000 characters were read.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on (Arsenal.com)",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-11",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-10-30",
+      "dimension": "transitions",
+      "evidence": "\"his counter-attacking tactics took the rest of the country by storm\"; \"The rest of the league were simply unable to cope with the speed of our transitions into attack.\" Club history feature, retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on (Arsenal.com)",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-11",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "people-management",
+      "evidence": "\"a master tactician, a disciplinarian, but was also hugely supportive of them when needed\"; \"Chapman had established a boot room, entrusting a select group of men to help build and run the system.\" General description of the era, not a single date.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on (Arsenal.com)",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-11",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-30",
+      "dimension": "squad-building",
+      "evidence": "Chapman \"Championed the introduction of nursery/feeder teams.\" General description of the era, not a single date.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "pressing",
+      "set-pieces",
+      "width",
+      "stated-view",
+      "player-profile"
+    ],
+    "axes": [
+      "lar",
+      "jog"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Five tier B and one tier C sources cover the exact period, but all are retrospective (no contemporary tactical analysis or period quote), the WM authorship is contested, and the marking evidence conflicts (SFHG vs Woolwich). Build-up (goalkeeper role, short vs long), pressing, set pieces, width and stated view have no verified fact."
+  }
+}
