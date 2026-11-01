@@ -5,6 +5,7 @@ import type { FootballIdeologyMatch } from '../../types/quiz';
 // recolhida, a descricao longa.
 export function PhraseSection({ match }: { match: FootballIdeologyMatch }) {
   const about = match.longDescription || match.description;
+  const exemplars = [match.teamName, match.managerName].filter(Boolean).join(' · ');
 
   if (!match.phrase && !about) {
     return null;
@@ -20,6 +21,12 @@ export function PhraseSection({ match }: { match: FootballIdeologyMatch }) {
             <blockquote>{match.phrase}</blockquote>
           </div>
         </figure>
+      )}
+      {exemplars && (
+        <div className="e-exemplars">
+          <p className="e-eyebrow">{t.exemplarsTitle}</p>
+          <p>{exemplars}</p>
+        </div>
       )}
       {about && (
         <details className="e-about">

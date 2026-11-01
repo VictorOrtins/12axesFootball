@@ -63,6 +63,7 @@
 .rp .quote .eb{color:var(--cat)}
 .rp .quote blockquote{font-family:var(--display);font-weight:600;font-size:16px;line-height:1.35;letter-spacing:-.015em;color:var(--cat);margin-top:2mm}
 .rp .quote figcaption{margin-top:3mm;font-size:9.5px;color:var(--cat)}
+.rp .exemplars{margin:0 0 4mm;font-size:9pt}
 .rp .kpis{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--card-line);border-radius:10px;background:var(--card-bg)}
 .rp .kpis div{padding:4mm 4.5mm;display:flex;flex-direction:column}
 .rp .kpis div+div{border-left:1px solid var(--borda)}

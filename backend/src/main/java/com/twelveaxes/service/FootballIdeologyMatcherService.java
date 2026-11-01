@@ -4,6 +4,8 @@ import com.twelveaxes.model.AxisResult;
 import com.twelveaxes.model.FootballIdeology;
 import com.twelveaxes.model.FootballIdeologyMatch;
 import com.twelveaxes.model.FootballIdeologyProfile;
+import com.twelveaxes.model.Manager;
+import com.twelveaxes.model.Team;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
@@ -86,6 +88,8 @@ public class FootballIdeologyMatcherService {
         FootballIdeology ideology = candidate.ideology();
         String shortDescription = shortDescription(ideology.description());
         String longDescription = longDescription(ideology.description(), lang);
+        Team team = ideology.teamId() == null ? null : dataService.getTeamById(ideology.teamId(), lang);
+        Manager manager = ideology.managerId() == null ? null : dataService.getManagerById(ideology.managerId(), lang);
         return new FootballIdeologyMatch(
                 ideology.id(),
                 ideology.name(),
@@ -94,7 +98,9 @@ public class FootballIdeologyMatcherService {
                 longDescription,
                 ideology.phrase(),
                 candidate.compatibility(),
-                candidate.compatibilityPercentile()
+                candidate.compatibilityPercentile(),
+                team == null ? null : team.name(),
+                manager == null ? null : manager.name()
         );
     }
 

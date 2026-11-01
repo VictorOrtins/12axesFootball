@@ -8,6 +8,8 @@ public record FootballIdeologyMatch(
         String longDescription,
         String phrase,
         double compatibility,
-        double compatibilityPercentile
+        double compatibilityPercentile,
+        String teamName,
+        String managerName
 ) {
 }

@@ -283,6 +283,9 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-phrase blockquote{font-family:var(--font-display);font-weight:500;font-size:clamp(18px,2vw,24px);line-height:1.35;letter-spacing:-.02em;color:var(--cat)}
 .e-phrase .e-eyebrow{color:var(--cat)}
 .e-phrase figcaption{margin-top:18px;font-size:15px;color:var(--cat)}
+.e-exemplars{margin-top:18px}
+.e-exemplars p{margin:0}
+.e-exemplars .e-eyebrow{color:var(--cat);margin-bottom:6px}
 /* axes */
 .e-sec-title{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:clamp(26px,3.2vw,34px);letter-spacing:-.04em;line-height:1.1}
 .e-idx{font:600 12px var(--font-body);letter-spacing:.08em;color:var(--texto-suave);border:1px solid var(--borda);background:var(--papel);border-radius:999px;padding:4px 10px}

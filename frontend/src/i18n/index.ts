@@ -210,6 +210,7 @@ interface Strings {
   phraseTitle: string;
   phraseNote: (idea: string) => string;
   aboutFootballIdeology: (idea: string) => string;
+  exemplarsTitle: string;
   knowMoreAbout: (name: string) => string;
   showLess: string;
   matchTopKicker: string;
@@ -528,6 +529,7 @@ const pt: Strings = {
   phraseTitle: 'Uma frase que te descreve',
   phraseNote: (idea) => `É assim que alguém do ${idea} resumiria o futebol que quer.`,
   aboutFootballIdeology: (idea) => `Sobre o ${idea}`,
+  exemplarsTitle: 'Exemplos',
   knowMoreAbout: (name) => `Saber mais sobre ${name}`,
   showLess: 'Mostrar menos',
   matchTopKicker: 'Mais compatível',
@@ -866,6 +868,7 @@ const en: Strings = {
   phraseTitle: 'A sentence that describes you',
   phraseNote: (idea) => `This is how someone from ${idea} would sum up the football they want.`,
   aboutFootballIdeology: (idea) => `About ${idea}`,
+  exemplarsTitle: 'Examples',
   knowMoreAbout: (name) => `Learn more about ${name}`,
   showLess: 'Show less',
   matchTopKicker: 'Most compatible',
@@ -893,7 +896,13 @@ const en: Strings = {
   signatureAtMedian: 'At the median',
   signatureAtCentre: 'At the centre',
   tensionRareShort: (count, total) => `Only ${count} of ${total} football ideas combine these two positions.`,
-  managerCategories: {},
+  managerCategories: {
+    'Posse e estrutura': 'Possession and structure',
+    'Pressão e intensidade': 'Pressing and intensity',
+    'Defensiva e reativa': 'Defensive and reactive',
+    'Relacional e liberdade': 'Relational and freedom-based',
+    'Híbrida e moderna': 'Hybrid and modern'
+  },
   futPosition: 'MGR',
   futOpenAria: (name, rating) => `${name}, ${rating} compatibility: see details`,
   pesPrev: 'Previous team',

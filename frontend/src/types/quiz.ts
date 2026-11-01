@@ -106,6 +106,8 @@ export interface FootballIdeologyMatch {
   longDescription: string;
   phrase: string;
   compatibility: number;
+  teamName: string | null;
+  managerName: string | null;
 }
 
 export interface TeamMatch {

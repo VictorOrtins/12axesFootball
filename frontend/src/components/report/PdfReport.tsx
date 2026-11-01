@@ -5,6 +5,7 @@ import type {
   AxisOutlier,
   AxisResult,
   AxisTension,
+  FootballIdeologyMatch,
   TeamDimensionMatch,
   TeamMatch,
   QuizResult
@@ -83,6 +84,11 @@ export function PdfReport({ result, axes, axisResults, answeredCount }: PdfRepor
         </div>
         <div className="cv-body">
           {top?.phrase && <Quote phrase={top.phrase} />}
+          {top && exemplarsLine(top) && (
+            <p className="exemplars">
+              <span className="eb">{t.exemplarsTitle}</span> {exemplarsLine(top)}
+            </p>
+          )}
           <div className="kpis">
             {top && (
               <div>
@@ -366,6 +372,10 @@ function Quote({ phrase }: { phrase: string }) {
   );
 }
 
+function exemplarsLine(match: FootballIdeologyMatch): string {
+  return [match.teamName, match.managerName].filter(Boolean).join(' · ');
+}
+
 function SectionHead({ title }: { title: string }) {
   return (
     <div className="sh">
@@ -424,7 +434,7 @@ function SignatureCard({ outlier, strong, label, axisResults }: {
   const you = clamp(100 - outlier.userPercent);
   const axisResult = axisResults.get(outlier.axisId);
 
-  let big = '';
+  let big: string;
   let cap: string;
   if (strong) {
     big = outlier.balanced ? '' : String(outlier.abovePercent >= 99.5 ? 100 : Math.round(outlier.abovePercent));
