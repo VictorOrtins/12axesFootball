@@ -1,0 +1,554 @@
+{
+  "id": "atletico-nacional-1989",
+  "catalog": "team",
+  "name": "Atlético Nacional 1989 (Maturana)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1989-02-15",
+    "end": "1989-12-17"
+  },
+  "scopeNote": "Atlético Nacional (Medellín) of Francisco Maturana, 1989 Copa Libertadores (final 24 and 31 May 1989 vs Olimpia, won on penalties 5-4) and the Intercontinental Cup final lost 0-1 aet to Milan in Tokyo on 17 December 1989. Press label 'puros criollos' (only Colombian players). profilePeriod.start 1989-02-15 is the first 1989 Copa Libertadores match (1-1 at Millonarios, per the El Colombiano Pulso Verde blog), not the start of Maturana's spell at Nacional (appointed 1987, not date-verified). Tactical coverage is thin: no tier A-B 1989-specific analysis was found, so shape, pressing, width and transitions rest on retrospective press; Maturana's 4-2-2-2 and 4-line zonal statements in sources refer to the Colombia national team. Width evidence is match-specific (final second leg: Usuriaga and Leonel Alvarez on the right, crosses from Alexis Garcia); possession rests on Maturana's 2020 Semana interview ('posesión con progresión', Dutch total football) and a 2009 blog.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Maturana's appointment date at Nacional (1987) and Nacional's 1989 spell start were not date-verified; profilePeriod.start uses the first 1989 Libertadores match (15 Feb 1989), a conservative scope.",
+    "Round naming conflict: Telemedellín says octavos vs Racing then cuartos vs Danubio; Minuto30 and Pulso Verde call Danubio the semifinal, and Pulso Verde has Millonarios in the quarterfinal (Racing not mentioned). Not resolved.",
+    "Sources on Nacional's 1989 shape and pressing are missing: Italian chronicles (glieroidelcalcio.com) and gestiopolis were not readable; a Higuita sweeper-keeper claim and a Sacchi/Milan reading came only from search summaries (not verified).",
+    "Maturana's 4-2-2-2 and 'línea de cuatro y marca zonal' (Noticias RCN) describe the Colombia national team (1987, 1993), not the 1989 club; only the El País quote ties zonal marking to Atlético Nacional, and without a date.",
+    "Gildardo Gómez quote (El Colombiano) has no extractable publication date ('entrevista reciente').",
+    "Searches for 1989-specific shape/pressing found no tier A-B source; shape and pressing remain unverified. Gap pass ran for width and possession.",
+    "Cassiani, Herrera, Arango, Arboleda and Tréllez in the Infobae lineup are as printed there; the Infobae piece is a translated column and its lineup was not cross-checked.",
+    "El Colombiano 'El legado de los puros criollos' has no readable publication date; articleDate set to 2016 because the text refers to Nacional's second Libertadores ('esta Copa Libertadores', 2016). Its evidence text was repaired from the miner's mis-decoded UTF-8.",
+    "Width and possession evidence is a single final (31 May 1989) from a 2009 blog plus Maturana's 2020 recollection; Herrera's 2016 interview is retrospective. No contemporary 1989 match reports were reachable (El Tiempo archive not found)."
+  ],
+  "sources": [
+    {
+      "title": "El legado de los Puros criollos (El Colombiano)",
+      "url": "https://www.elcolombiano.com/especiales/nacional-campeon-copa-libertadores/historia-de-atletico-nacional/el-legado-de-los-puros-criollos-LE4655793",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Era un equipo que tenía mucho equilibrio. Que se partía de la idea de mantener el cero y ser muy sólidos en defensa. De ahí hacia arriba se esperaba una genialidad de J. J. Tréllez, Albeiro Usuriaga o Jaime Arango.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El legado de los Puros criollos (El Colombiano)",
+      "url": "https://www.elcolombiano.com/especiales/nacional-campeon-copa-libertadores/historia-de-atletico-nacional/el-legado-de-los-puros-criollos-LE4655793",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Era un equipo que tenía mucho equilibrio. Que se partía de la idea de mantener el cero y ser muy sólidos en defensa. De ahí hacia arriba se esperaba una genialidad de J. J. Tréllez, Albeiro Usuriaga o Jaime Arango.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El legado de los Puros criollos (El Colombiano)",
+      "url": "https://www.elcolombiano.com/especiales/nacional-campeon-copa-libertadores/historia-de-atletico-nacional/el-legado-de-los-puros-criollos-LE4655793",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "La gesta conseguida por Atlético Nacional en esta Copa Libertadores invita a recordar indefectiblemente a ese mítico equipo compuesto solo por jugadores colombianos que en 1989 se alzó con el primer trofeo para Colombia del certamen continental",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Jugué el fútbol que quise: Pacho Maturana, 30 años después (El País Cali)",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Cuando aparece el tema zonal, con los profesores Luis Cubillas y Ricardo de León, me sentí cómodo, e implementé en Atlético Nacional, que fue el origen de todo, ese juego. (...) Una marcación en zona, pero con un contenido holístico.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "18 penaltis para gritar campeón (Minuto30)",
+      "url": "https://www.minuto30.com/amp/18-penaltis-para-gritar-campeon-asi-se-recuerda-la-primera-libertadores-de-nacional/915474/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-11-05",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "El Atlético Nacional de Francisco Maturana, equipo al que habían denominado «el de los puros criollos», por tener en su plantilla sólo jugadores colombianos, llegó a esa Copa de 1989 a cambiar la historia de fracasos para los colombianos.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "18 penaltis para gritar campeón (Minuto30)",
+      "url": "https://www.minuto30.com/amp/18-penaltis-para-gritar-campeon-asi-se-recuerda-la-primera-libertadores-de-nacional/915474/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-11-05",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Maturana contaba con una nómina de lujo: el guardameta René Higuita; los defensas Andrés Escobar y Luis Carlos Perea; los mediocampistas Leonel Álvarez y Alexis García y los delanteros Albeiro ‘el Palomo’ Usuriaga y John Jairo ‘la Turbina’ Tréllez.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "18 penaltis para gritar campeón (Minuto30)",
+      "url": "https://www.minuto30.com/amp/18-penaltis-para-gritar-campeon-asi-se-recuerda-la-primera-libertadores-de-nacional/915474/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-11-05",
+      "eventDate": "1989-05-17",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Y llegó el uruguayo Danubio a disputar con los colombianos la semifinal. En el estadio Centenario de Montevideo no se hicieron daño pero el 17 de mayo de 1989 en el Atanasio Girardot, de Medellín, el Nacional lo aplastó con un 6-0 en el que ‘el Palomo’ Usuriaga destacó al anotar cuatro goles.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "18 penaltis para gritar campeón (Minuto30)",
+      "url": "https://www.minuto30.com/amp/18-penaltis-para-gritar-campeon-asi-se-recuerda-la-primera-libertadores-de-nacional/915474/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-11-05",
+      "eventDate": "1989-05-24",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "En el partido de ida, y ante 40.000 espectadores en el estadio Defensores del Chaco, el Atlético Nacional cayó por 2-0 con tantos de Rafael Bobadilla y Vidal Sanabria.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "18 penaltis para gritar campeón (Minuto30)",
+      "url": "https://www.minuto30.com/amp/18-penaltis-para-gritar-campeon-asi-se-recuerda-la-primera-libertadores-de-nacional/915474/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-11-05",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Pero el 31 de mayo de 1989 llegó para la gloria colombiana. El encuentro, que se jugó en el estadio El Campín de Bogotá, y no en Medellín, por disposiciones de la Confederación Sudamericana de Fútbol (Conmebol), paralizó a todo un país que anhelaba un título internacional. (...) Un autogol de Fidel Miño en el minuto 46 y el empate de Albeiro Usuriaga en el minuto 65, mandaron la definición a los tiros desde el punto penal.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1989 Copa Libertadores finals (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1989_Copa_Libertadores_finals",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-07-16",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "After both finalists were tied on aggregate after the two legs, Atlético Nacional won the second leg 5–4 in the penalty shootout. The winner was finally determined after the two teams had taken a combined 18 penalties in the marathon second leg.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Nacional celebra 34 años (Telemedellín)",
+      "url": "https://telemedellin.tv/?p=96904",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-05-31",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Nacional disputó 14 partidos en la Copa Libertadores de 1989. En octavos de final venció a Racing; en los cuartos de final, dejó en el camino a Danubio de Montevideo y en la final al poderoso Olimpia de Paraguay.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Nacional recuerda con nostalgia a 32 años (Goal)",
+      "url": "https://www.goal.com/es-ar/noticias/atletico-nacional-recuerda-con-nostalgia-a-32-anos-de-su-primera-/gvd295qg7m8z15atsasursaum",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2021-05-31",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "En la edición 1989 de la Libertadores, René Higuita marcó dos goles; en total, anotó cinco goles en el certamen, siendo el segundo arquero con más goles en la competencia",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Las figuras de Nacional que esperan emular a las de 1989 (El Espectador)",
+      "url": "https://www.elespectador.com/?p=2986893",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016-07-14",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Maturana le dio toda la confianza y la libertad para que demostrará todas sus ‘locuras’. De esta manera, fue pieza clave a lo largo de la Copa, tanto así, que en la serie de penales, Higuita atajó cuatro y convirtió uno.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Las figuras de Nacional que esperan emular a las de 1989 (El Espectador)",
+      "url": "https://www.elespectador.com/?p=2986893",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016-07-14",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Maturana le dio toda la confianza y la libertad para que demostrará todas sus ‘locuras’.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Las figuras de Nacional que esperan emular a las de 1989 (El Espectador)",
+      "url": "https://www.elespectador.com/?p=2986893",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016-07-14",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Con 23 años el central era el complemento perfecto en la defensa verdolaga. Había hecho su debut como profesional dos años atrás y desde ahí se empezaba a perfilar como uno de los mejores en su puesto dentro del país.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Las figuras de Nacional que esperan emular a las de 1989 (El Espectador)",
+      "url": "https://www.elespectador.com/?p=2986893",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016-07-14",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "El volante de marca arribó en 1987 al cuadro verte proveniente de Independiente Medellín. Su visión de juego, entrega y capacidad de mando, lo llevaron a ser un referente en el medio campo del cuadro campeón.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chronicle: 33 years ago Atlético Nacional faced Milan (Infobae)",
+      "url": "https://www.infobae.com/en/2022/04/16/chronicle-33-years-ago-atletico-nacional-faced-milan-de-van-basten-in-tokyo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-04-16",
+      "eventDate": "1989-12-17",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "In the team led by Maturana, the starters were Higuita, Escobar, Cassiani, Herrera, Arango; Perez, Gómez, Alvarez; García, Arboleda and Tréllez. Among the alternates was a certain Albeiro Usuriaga, who at that time was just 23 years old.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chronicle: 33 years ago Atlético Nacional faced Milan (Infobae)",
+      "url": "https://www.infobae.com/en/2022/04/16/chronicle-33-years-ago-atletico-nacional-faced-milan-de-van-basten-in-tokyo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-04-16",
+      "eventDate": "1989-12-17",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "In that last play, which is so agonizing for both the Italian and Colombian teams, Evani takes the ball to kick a free kick at minute 119 ′ and ends up keeping it inside the net after a very good execution.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chronicle: 33 years ago Atlético Nacional faced Milan (Infobae)",
+      "url": "https://www.infobae.com/en/2022/04/16/chronicle-33-years-ago-atletico-nacional-faced-milan-de-van-basten-in-tokyo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-04-16",
+      "eventDate": "1989-12-17",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Nacional and Milan met on December 17 of that year 89, at the National Stadium in Tokyo, in Japan (...) The match seemed to be pre-sentenced, but the Colombians were very good during the 90 minutes. If the game was so intense that it had to be defined in extra time, with very little to go to penalties.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Intercontinental Club Cup 1989 (RSSSF)",
+      "url": "https://rsssf.org/tablest/toyota89.html",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2005-02-13",
+      "eventDate": "1989-12-17",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "December 17, 1989  Att: 60,228     Ref: Fredriksson (SWE) (...) Milan AC (ITA)                1-0 (0-0) aet Atl. Nacional Medellín (COL)",
+      "verified": true
+    },
+    {
+      "title": "¡No se guardó nada! Pacho Maturana habló de la Libertadores de 1989 (Win Sports)",
+      "url": "https://www.winsports.co/futbol-internacional/noticias/no-se-guardo-nada-pacho-maturana-hablo-de-la-libertadores-de-1989-101106",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-06-05",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "“Nosotros, de 360 días, manteníamos concentrados 200, entonces si teníamos eso comprado para qué nos vamos a concentrar.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Colombia 4-2-2-2 sistema 1987 (Noticias RCN)",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "El estilo partía del orden, según palabras del propio Maturana, con una línea de cuatro atrás y una marca zonal.",
+      "verified": false,
+      "note": "national team 1993, not Nacional 1989; out of period"
+    },
+    {
+      "title": "Pulso Verde, 20 años de una gesta histórica (El Colombiano blog)",
+      "url": "https://www.elcolombiano.com/blogs/pulsoverde/?p=49",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2009-06-01",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "El primer tanto del partido llegaría en el minuto 36 después de que el “Palomo” Usuriaga gambeteara un par de veces por la banda derecha, llegara hasta el fondo de la cancha y metiera un centro rastrero que sería enviado al fondo de la red por Miño",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pulso Verde, 20 años de una gesta histórica (El Colombiano blog)",
+      "url": "https://www.elcolombiano.com/blogs/pulsoverde/?p=49",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2009-06-01",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Andrés Escobar sale jugando con el balón desde territorio nacionalista, se la toca a Leonel Álvarez que avanza con el esférico por la banda derecha, frena y ve justo a su lado, fuera de el área rival, a Alexis García, este recibe el esférico y de inmediato mete un centro elevado",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pulso Verde, 20 años de una gesta histórica (El Colombiano blog)",
+      "url": "https://www.elcolombiano.com/blogs/pulsoverde/?p=49",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2009-06-01",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "como siempre el verde con la serenidad que transmitia Maturana y un estilo de juego vistoso con el balón al piso y avanzando constantemente hacia el área rival",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pulso Verde, 20 años de una gesta histórica (El Colombiano blog)",
+      "url": "https://www.elcolombiano.com/blogs/pulsoverde/?p=49",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2009-06-01",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Andrés Escobar sale jugando con el balón desde territorio nacionalista, se la toca a Leonel Álvarez que avanza con el esférico por la banda derecha",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pulso Verde, 20 años de una gesta histórica (El Colombiano blog)",
+      "url": "https://www.elcolombiano.com/blogs/pulsoverde/?p=49",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2009-06-01",
+      "eventDate": "1989-05-31",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "El partido continuó y los paisas seguían manejando los hilos del partido, el buen toque imperaba y las opciones iban y venían",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pulso Verde, 20 años de una gesta histórica (El Colombiano blog)",
+      "url": "https://www.elcolombiano.com/blogs/pulsoverde/?p=49",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2009-06-01",
+      "eventDate": "1989-02-15",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "El 15 de febrero de 1989 los verdes debutarían ante un encopetado Millonarios en el estadio “El Campín” de Bogotá, el marcador final seria 1-1, y el gol para el equipo verde lo anotaría René Higuita de pena máxima.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Maturana defiende a Zidane (Semana interview)",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Nosotros quitábamos la pelota y atacábamos… Entonces, ahí es donde viene la posesión, pero la posesión con progresión, nosotros teníamos progresión, porque si el rival estaba armado, ¿para qué sirve la velocidad?",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Maturana defiende a Zidane (Semana interview)",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Cuando Carlos Bilardo fue entrenador de la Selección lo nuestro era desactivar al rival. En mi época de entrenador con Nacional y la Selección, era al contrario, salíamos a crear.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Maturana defiende a Zidane (Semana interview)",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Nuestra idea futbolística era la de Holanda, el fútbol total, donde no son diez jugadores y un portero, sino once jugadores de campo. (...) Entonces, cuando el equipo estaba en el terreno del rival, todo el mundo iba progresando, no dejaba distancias largas.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "'Nacional puede ganarle a Real Madrid': Chonto Herrera (El Espectador)",
+      "url": "https://www.elespectador.com/?p=2986283",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016-07-28",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Hoy es Daniel Bocanegra, en 1989 fue Luis Fernando Herrera, el ‘Chonto’, uno de los mejores laterales derechos en la historia del balompié colombiano.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "'Nacional puede ganarle a Real Madrid': Chonto Herrera (El Espectador)",
+      "url": "https://www.elespectador.com/?p=2986283",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2016-07-28",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Darle y ofrecerle al jugador toda la confianza del mundo, tratarlos bien, pensar en cosas grandes, en logros importantes y transmitirle esos pensamientos que él tenía a sus dirigidos",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Aux origines du Toque (La Grinta)",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Francisco « Pacho » Maturana, opte pour un 4-4-2 assez proche d’un diamant durant cette période.",
+      "verified": false,
+      "retrospectiveOnly": true,
+      "note": "Colombia national team 1993-94, out of period; not used as evidence for Nacional 1989"
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "“We are going to play football,” I told the players. “We are going to search for order, so that we can disrupt that order once we are in control of the ball.”",
+      "date": "2020-04-12",
+      "source": "Coaches' Voice, The vehicle for change (https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Until then, our game strategy had been to neutralise our opponent. At the end of every game we were worn out from running – in tears, almost, and feeling as if we had not really played.",
+      "date": "2020-04-12",
+      "source": "Coaches' Voice, The vehicle for change (https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Cuando aparece el tema zonal, con los profesores Luis Cubillas y Ricardo de León, me sentí cómodo, e implementé en Atlético Nacional, que fue el origen de todo, ese juego.",
+      "date": "2020-06-06",
+      "source": "El País Cali interview",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Nosotros quitábamos la pelota y atacábamos… Entonces, ahí es donde viene la posesión, pero la posesión con progresión",
+      "date": "2020-07-30",
+      "source": "Semana interview with Maturana (https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Nuestra idea futbolística era la de Holanda, el fútbol total, donde no son diez jugadores y un portero, sino once jugadores de campo.",
+      "date": "2020-07-30",
+      "source": "Semana interview with Maturana",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.elespectador.com/deportes/futbol-internacional/copa-libertadores/el-historico-triunfo-de-nacional-en-la-colombia-de-1989-articulo-863585",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.elespectador.com/deportes/futbolinternacional/francisco-maturana-el-tecnico-abrio-el-camino-articulo-645475",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.glieroidelcalcio.com/?p=5280",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.glieroidelcalcio.com/?p=10854",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.gestiopolis.com/atletico-nacional-89/",
+      "reason": "403"
+    },
+    {
+      "url": "https://h13n.com/?p=295061",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.elespectador.com/deportes/futbol-colombiano/francisco-maturana-y-sus-frases-iconicas/",
+      "reason": "404"
+    },
+    {
+      "url": "https://espndeportes.espn.com/futbol/copa-libertadores/nota/_/id/6866264/nacional-recuerdo-de-los-titulos-logro-campeonatos-1989-2016",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "Ajax/Netherlands model cited by Maturana for Colombia (Coaches' Voice, 2020)",
+    "Luis Cubilla and Ricardo de León (zonal marking, per El País)"
+  ],
+  "managers": [
+    {
+      "managerId": "francisco-maturana",
+      "start": "1989-02-15",
+      "end": "1989-12-17"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "shape",
+      "pressing",
+      "transitions"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "low",
+    "reason": "Only tier C retrospective press for 1989 (plus RSSSF results); no tier A-B tactical analysis of the 1989 side found. Width and possession now have verified but thin evidence; shape and pressing unverified."
+  }
+}

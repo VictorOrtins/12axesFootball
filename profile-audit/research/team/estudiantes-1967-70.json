@@ -1,0 +1,564 @@
+{
+  "id": "estudiantes-1967-70",
+  "catalog": "team",
+  "name": "Estudiantes de La Plata 1967-1970 (Zubeldía)",
+  "status": "complete",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1967-03-03",
+    "end": "1970-05-27"
+  },
+  "scopeNote": "Estudiantes under Osvaldo Zubeldía from the 1967 Metropolitano (the tournament ran 3 March to 6 August 1967; Estudiantes' own opener, a 2-1 away win at Huracán, has no exact date in the sources, so 1967-03-03 is the tournament start) to the second leg of the 1970 Copa Libertadores final (Peñarol, Montevideo, 1970-05-27). Includes the 1967 Metropolitano title, Libertadores 1968, 1969 and 1970, and the 1968 Intercontinental Cup. Argentine calendar-year tournaments, so facts are dated by year or exact date. The popular label 'antifútbol' is contested: Zubeldía rejected it as partial and unjust (El Gráfico 2017), and El Gráfico 1967 itself called the team 'ultradefensivo-mordedor-destructivo' at the moment of the title. Sources describe the style with these terms: marcas personales / marca fija, offside line ('ley del offside'), pelota parada ('laboratorio'), studying rivals, concentraciones largas, doble turno, juego al límite del reglamento. No source found names a formation numerically or describes pressing, build-up or possession in positional terms. Most of the tactical evidence is retrospective (El Gráfico 2013-2023, Cadena 3 2022); the contemporary pieces are El Gráfico 1967 (Manera profile) and the Old Trafford 1968 quotes reported in El Gráfico.",
+  "managers": [
+    {
+      "managerId": "osvaldo-zubeldia",
+      "start": "1967-03-03",
+      "end": "1970-05-27"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Zubeldía stayed until 1971 (Cadena 3: 'Zubeldía se fue de Estudiantes en 1971'; Wikipedia infobox says 1965-1970). His exact last match is not found. The 1970 Libertadores final ended 1970-05-27, but the 1969 Intercontinental Cup (Milan, Oct 1969) and the 1970 Intercontinental Cup (Feyenoord, Sept-Oct 1970) fall partly outside or after the chosen end and are not used as evidence.",
+    "Exact date of Estudiantes' first Metropolitano 1967 match (v Huracán, 2-1 away) not found; 1967-03-03 is the competition start date.",
+    "No source found for marking system in zonal vs man terms beyond 'marca personal' / 'marca fija' (Togneri on Charlton) and 'marcador que encimaba al delantero' (Malbernat); the mix with a zonal element is unconfirmed.",
+    "Credits are contested: Cadena 3 and El Gráfico credit Zubeldía as 'precursor' of the offside trap, concentraciones largas, set pieces; El Gráfico credits Mogilevsky and Amándola for the long concentrations. Rinus Michels' remark about the Estudiantes forwards' 'movimiento de pinzas' is attributed (El Gráfico), not found in a primary source.",
+    "Pressing, build-up and possession have no source that describes them directly; possession has no verified fact at all.",
+    "Contested label: 'antifútbol' vs 'innovation'. The Poletti claim that forwards chased rivals to the own box and the Aimar quote are retrospective.",
+    "Where Poletti came from: El Gráfico describes him as a youth product, while Trivela's account is inconsistent with that; not resolved."
+  ],
+  "sources": [
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Uno de los principales secretos del Estudiantes de Zubeldía es que su formación presentaba un equilibrio casi perfecto: cada uno le daba al compañero lo que al compañero le faltaba (...) Oscar Malbernat, un típico marcador que encimaba al delantero y no se iba nunca al ataque (...) Carlos Pachamé, el cinco",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "En el centro de la defensa, Ramón Aguirre Suárez, un tipo fuerte, recio, que rompía el juego con sus salidas, y Raúl Madero, dueño de una técnica depuradísima, que le cuidaba las espaldas. (...) Osvaldo me enseñó a marcarlo",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Ese equipo sabía jugar cuando no tenía la pelota. Nuestros delanteros corrían a los rivales hasta nuestra área. Esa dinámica la impuso Osvaldo, era algo novedoso aquí (...) que jugaban de diez, aunque también corrían al rival hasta su propia área",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Ese equipo sabía jugar cuando no tenía la pelota. Nuestros delanteros corrían a los rivales hasta nuestra área. (...) Arriba, había dos tipos que se cruzaban permanentemente: Felipe Ribaudo y Marcos Conigliaro.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "a la Bruja Verón, clásico wing izquierdo, criticado por la platea estudiantil en sus comienzos por excesos de gambetas, en algunas ocasiones lo hacía jugar un tiempo por la punta izquierda y otro por la derecha (...) Ribaudo arrancaba por la punta derecha, pero como había sido nueve, solía tomar por sorpresa a los marcadores.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "estudiaba a los rivales y les daba mucho espacio a las jugadas con pelota detenida. Les cambiaba el número tradicional a los jugadores para confundir a los rivales y también a los periodistas.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "El equipo iba tomando forma, a partir de una amalgama entre los más veteranos y un grupo de jovencitos que integraban la Tercera División, que fue segunda en 1964 y campeona en 1965. (...) Lo que significó la consagración de un equipo humilde en presupuesto y plantel",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967-08-08",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Estudiantes le ganó a su convicción y a sus limitaciones de equipo ultradefensivo-mordedor-destructivo. Y terminó ganándonos a todos (...) El jueves siguiente, 3 de agosto, produjo uno de los vuelcos más increíbles de los que se tenía registro hasta el momento, cuando derrotó a Platense por 4-3 en la cancha de Boca.",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Las charlas técnicas duraban horas, y no se hacían sólo antes del partido sino también después o durante la concentración (...) Osvaldo tiraba una idea y hablábamos todos. Había discusiones, lógicamente, pero de ahí salíamos todos convencidos.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Estudiantes de Zubeldía: El equipo que rompió las reglas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34676/estudiantes-de-zubledia-el-equipo-que-rompio-las-reglas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-01-17",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Carlos Bilardo era el más inteligente, el más frío, el que sabía leer el partido, era la representación de Zubeldía dentro de la cancha. Era el hombre en el que más confiaba el técnico. (...) Madero, también, más de una vez jugó de volante central.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1967. El panadero a la derecha (El Gráfico, Manera profile)",
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/35045/1967-el-%C2%A8panadero%C2%A8-a-la-derecha",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1967-09-01",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Entre las muchas preocupaciones marcadamente defensivas de Estudiantes de La Plata (...) donde una disciplinada mayoría construye, destruye, complica y traba el engranaje del equipo rival (...) Una de las grandes virtudes de Estudiantes y una de las grandes inquietudes de Zubeldía es conseguir que TODOS cumplan TODAS LAS FUNCIONES: marcar, desmarcarse, defender, atacar, destruir, construir.",
+      "verified": true
+    },
+    {
+      "title": "1967. El panadero a la derecha (El Gráfico, Manera profile)",
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/35045/1967-el-%C2%A8panadero%C2%A8-a-la-derecha",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1967-09-01",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "por los costados, se crean zonas descubiertas por las que resulta más fácil arrancar \"vacío\" y sorprender. Especialmente en Estudiantes, donde practicamos toda la semana jugadas elaboradas que se basan en el cambio de frente (...) \"...PARA QUE MANERA SE VAYA LIBREMENTE...\"",
+      "verified": true
+    },
+    {
+      "title": "1967. El panadero a la derecha (El Gráfico, Manera profile)",
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/35045/1967-el-%C2%A8panadero%C2%A8-a-la-derecha",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1967-09-01",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "practicamos toda la semana jugadas elaboradas que se basan en el cambio de frente, para el hombre que ataca por la espalda de la defensa",
+      "verified": true
+    },
+    {
+      "title": "1967. El panadero a la derecha (El Gráfico, Manera profile)",
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/35045/1967-el-%C2%A8panadero%C2%A8-a-la-derecha",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1967-09-01",
+      "eventDate": "1967-06-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "El 18 de junio de 1967, Manera decretó el triunfo de Estudiantes sobre Racing, entrando al cabezazo por la izquierda ante un tiro libre lanzado desde el costado opuesto. (...) EL LABORATORIO DE ZUBELDIA (...) estudiar jugadas y practicarlas hasta que salgan automáticamente es una de las claves del éxito del equipo",
+      "verified": true
+    },
+    {
+      "title": "1967. El panadero a la derecha (El Gráfico, Manera profile)",
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/35045/1967-el-%C2%A8panadero%C2%A8-a-la-derecha",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1967-09-01",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "NADIE ME HA HECHO TRABAJAR TANTO COMO EL. Sobre todo para mejorar mi pierna izquierda (...) Pero a Osvaldo no le gusta que sus jugadores hablen de él",
+      "verified": true
+    },
+    {
+      "title": "1967. El panadero a la derecha (El Gráfico, Manera profile)",
+      "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/35045/1967-el-%C2%A8panadero%C2%A8-a-la-derecha",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "1967-09-01",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "En 1964 pasó del Sacachispas a Estudiantes, sobre el cierre del libro de transferencias. Fue campeón con la cuarta (...) En la tercera campeona de 1965 Ignomirielo lo ubicó definitivamente como marcador de punta",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes campeón del mundo: A la gloria no se llega por un camino de rosas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4958/estudiantes-campeon-del-mundo-a-la-gloria-no-se-llega-por-un-camino-de-rosas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-10-16",
+      "eventDate": "1968-10-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "El entrenador era un defensor de la pelota parada (“dos cabezazos en el área son gol”), de la marca personal, del juego al límite del reglamento, de las concentraciones eternas (...) Estudiantes pegaba y especulaba, pero también era un equipo balanceado, inteligente y atlético (...) Togneri, la marca fija de Bobby Charlton",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes campeón del mundo: A la gloria no se llega por un camino de rosas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4958/estudiantes-campeon-del-mundo-a-la-gloria-no-se-llega-por-un-camino-de-rosas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-10-16",
+      "eventDate": "1968-10-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Para la Copa Intercontinental de 1968 el equipo de Estudiantes ya salía de memoria: Poletti; Malbernat, Aguirre Suárez, Madero, Medina; Bilardo, Pachamé, Togneri; Ribaudo, Conigliaro y Verón.",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes campeón del mundo: A la gloria no se llega por un camino de rosas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4958/estudiantes-campeon-del-mundo-a-la-gloria-no-se-llega-por-un-camino-de-rosas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-10-16",
+      "eventDate": "1968-10-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "La jugada de laboratorio había tenido el sello de Zubeldía: centro pasado al segundo palo desde la izquierda, a la salida de un tiro libre, y cabezazo de Verón, apareciendo sin marca para aprovechar la distracción de la defensa contraria.",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes campeón del mundo: A la gloria no se llega por un camino de rosas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4958/estudiantes-campeon-del-mundo-a-la-gloria-no-se-llega-por-un-camino-de-rosas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-10-16",
+      "eventDate": "1968-10-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Con la ventaja a su favor Estudiantes se encontró en una situación inmejorable. Manejó el partido a su antojo y jugó con la desesperación del Manchester. Bilardo, el edecán de Zubeldía dentro de la cancha, exprimió cada circunstancia del juego para enfriar los avances locales. (...) “algunos partidos tienen 180 minutos”, repetía Zubeldía",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes campeón del mundo: A la gloria no se llega por un camino de rosas (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4958/estudiantes-campeon-del-mundo-a-la-gloria-no-se-llega-por-un-camino-de-rosas",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-10-16",
+      "eventDate": "1968-10-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Zubeldía confió en su equipo desde el primer momento y con el tiempo recogió los frutos. (...) una breve consigna que su entrenador escribió en una pizarra del vestuario visitante de Old Trafford",
+      "verified": true
+    },
+    {
+      "title": "Osvaldo Zubeldía: El primer adelantado (Cadena 3)",
+      "url": "https://www.cadena3.com/noticia/la-previa/osvaldo-zubeldia-el-primer-adelantado_281208",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-01-22",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "implementÃ³ la ley del offside, marcas personales, los carrileros (...) Osvaldo Zubeldia fue el precursor de la ley del offside",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Osvaldo Zubeldía: El primer adelantado (Cadena 3)",
+      "url": "https://www.cadena3.com/noticia/la-previa/osvaldo-zubeldia-el-primer-adelantado_281208",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-01-22",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "por idea de VerÃ³n (padre) y Ribaudo surgieron los corners al primer palo, para que alguien la peinara",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Osvaldo Zubeldía: El primer adelantado (Cadena 3)",
+      "url": "https://www.cadena3.com/noticia/la-previa/osvaldo-zubeldia-el-primer-adelantado_281208",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-01-22",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "demorar el juego, enojar al rival con provocaciones sistemÃ¡ticas y poner la patita un poco mÃ¡s arriba de lo prudente para amedrentar a los que osaban gambetear",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Osvaldo Zubeldía: El primer adelantado (Cadena 3)",
+      "url": "https://www.cadena3.com/noticia/la-previa/osvaldo-zubeldia-el-primer-adelantado_281208",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-01-22",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Llamamos a nuestras novias y nos casamos siete. (...) O se casan ahora o se casan el aÃ±o que viene, durante el aÃ±o ya no se casa nadie",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os mitos de La Plata (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/os-mitos-de-la-plata/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2009-08-21",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Zubeldía implementou maior marcação no meio-campo, o uso da linha de impedimento e as cobranças de escanteio na primeira trave (...) Já com um preparo físico invejável, aliado a um esquema de jogo bastante moderno para a época",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os mitos de La Plata (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/os-mitos-de-la-plata/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2009-08-21",
+      "eventDate": "1967",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "o uso da linha de impedimento (...) após vencer o Racing por 3 a 0, no dia 6 de agosto, na final disputada no Velho Gasômetro",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os mitos de La Plata (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/os-mitos-de-la-plata/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2009-08-21",
+      "eventDate": "1969",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "o time de Zubeldía já começava a sofrer com as acusações de atitudes anti-desportivas, em pleno gramado (...) Essa suposta política de “vencer a qualquer custo” chegou a criar histórias, como as de que Bilardo jogava com palitos de dente, para espetar os adversários. Nenhuma confirmada.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os mitos de La Plata (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/os-mitos-de-la-plata/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2009-08-21",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Grande parte dos pilares saiu da base comandada por Ignomiriello (...) A esses, somariam-se reforços escolhidos a dedo pelo técnico, como o goleiro Alberto Poletti, o defensor Raúl Madero",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A 41 años de la muerte de Osvaldo Zubeldía (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1047/18745/se-cumplen-35-anios-de-la-muerte-de-osvaldo-zubeldia",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2017-01-16",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Zubeldía resultó un pionero en advertir la importancia de una buena preparación física, del estudio de los rivales, de romper con la inercia de las posiciones fijas (...) una etiqueta, la del antifútbol, que rechazó de plano por considerarla parcial, injusta",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1968. ¡Estudiantes de América! (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/35744/1968-%C2%A1estudiantes-de-america!",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-05-16",
+      "eventDate": "1968",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Carácter, disciplina, coraje, sacrificio, entrega total...",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El 68, los pincharratas, el Lobo y yo (Izquierda Diario)",
+      "url": "https://www.izquierdadiario.es/El-68-los-pincharratas-el-Lobo-y-yo",
+      "tier": "D",
+      "language": "es",
+      "articleDate": "2018-10-28",
+      "eventDate": "1967-08-03",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Opinion/memoir column. Platense 4-3 (3 Aug 1967): \"Zubeldía lo mandó a Bilardo a molestar al arquero Hutt ... el árbitro cobró el penal con el que Estudiantes ganó el pleito\". Not verified because of the column type and a conflicting detail with El Gráfico (which says goals by Verón, Bilardo and Madero).",
+      "verified": false
+    },
+    {
+      "title": "1970 Copa Libertadores finals (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1970_Copa_Libertadores_Finals",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-09-13",
+      "eventDate": "1970-05-27",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "The first leg was hosted by Estudiantes in Estudiantes Stadium in La Plata on May 21, 1970, while the second leg was held in Estadio Centenario of Montevideo on May 27, 1970. (...) Estudiantes won the series 1-0 on aggregate",
+      "verified": true
+    },
+    {
+      "title": "1967 Argentine Primera División (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1967_Argentine_Primera_Divisi%C3%B3n",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2008-06-16",
+      "eventDate": "1967-08-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "It was contested between twenty-two teams directed affiliated with the Argentine Football Association from March 3 to August 6. (...) Estudiantes de La Plata won the Metropolitano under the leadership of Osvaldo Zubeldía.",
+      "verified": true
+    },
+    {
+      "title": "Osvaldo Zubeldía - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Osvaldo_Zubeld%C3%ADa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2005-01-07",
+      "eventDate": "1967/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "he combined many prospects from Estudiantes' la tercera que mata (\"the killer juveniles\") with a small number of outside talent, and built one of the most successful teams in the history of Argentine football.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Search summary: no man-to-man vs zonal source",
+      "url": "https://www.cadena3.com/noticia/la-previa/osvaldo-zubeldia-el-primer-adelantado_281208",
+      "tier": "D",
+      "language": "es",
+      "articleDate": "2022-01-22",
+      "eventDate": "1968",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "No page read describes possession or positional play.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Los jugadores están preparados para cualquier empresa. Los que deben prepararse son los hinchas y los dirigentes.",
+      "date": "1967",
+      "source": "El Gráfico, after the first round of the Metropolitano 1967 (via El Gráfico 2023 retrospective)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "No creo que todo sea tan fácil para ellos, hasta lo que pude investigar son seres humanos como nosotros.",
+      "date": "1968-10",
+      "source": "El Gráfico, before the first leg of the Intercontinental (via El Gráfico 2013)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Ellos son flojos en defensa, todos los jugadores siguen una marca fija y sólo nos preocupan los delanteros cuando se desmarcan. Togneri puede anular a Charlton.",
+      "date": "1968-10",
+      "source": "Zubeldía to Osvaldo Ardizzone, El Gráfico special envoy (via El Gráfico 2013)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "A la gloria no se llega por un camino de rosas",
+      "date": "1968-10-16",
+      "source": "Written on the visitors' dressing-room board at Old Trafford (El Gráfico 2013)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "dos cabezazos en el área son gol / algunos partidos tienen 180 minutos",
+      "date": "1968",
+      "source": "El Gráfico 2013 (no date for the original sayings)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Es lo primero que le digo a los jugadores: cuando a usted le pregunten por qué perdimos, écheme la culpa a mí",
+      "date": "1965",
+      "source": "El Gráfico interview, 1965 (outside the profile period, kept as stated view)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "en el fútbol no hay misterios y los directores técnicos no ganan los partidos. Los directores técnicos planifican y dan elementos para que se gane un partido",
+      "date": "1965",
+      "source": "El Gráfico interview, 1965 (outside the profile period, kept as stated view)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Si hacemos lo que tenemos que hacer nos va a ir bien. Si no, van a tener que ir a trabajar, pero de verdad",
+      "date": "1967",
+      "source": "Zubeldía at Constitución station, as told by Bilardo (Cadena 3 2022)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "los vagos que creen que preparar un equipo es entrenar un rato cuatro veces por semana y cuando los jugadores están por salir a la cancha limitarse a decirles que hagan lo que saben (rejecting the 'antifútbol' label)",
+      "date": "2017-01-16",
+      "source": "El Gráfico 2017 attributing it to Zubeldía; original source not found",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://gameofthepeople.com/2014/09/13/south-american-way-estudiantes-de-la-plata-the-one-time-bogey-men/",
+      "reason": "403"
+    },
+    {
+      "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/6909597/mayo-el-mes-de-la-gloria-continental-para-el-estudiantes-de-zubeldia",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "Argentino Geronazzo (assistant and co-author of 'Táctica y estrategia del fútbol', 1965)",
+    "Miguel Ignomiriello (youth coach, 'La Tercera que mata')",
+    "Jorge Kistenmacher (fitness)"
+  ],
+  "gaps": {
+    "dimensions": [
+      "possession"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "low",
+    "reason": "Almost all tactical evidence is retrospective tier C Spanish press (El Gráfico 2013-2023, Cadena 3) plus one contemporary 1967 El Gráfico profile; no tier A source (Coaches' Voice and These Football Times returned nothing); pressing, build-up and possession are thin or missing."
+  }
+}

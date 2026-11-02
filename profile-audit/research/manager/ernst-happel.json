@@ -1,0 +1,679 @@
+{
+  "id": "ernst-happel",
+  "catalog": "manager",
+  "name": "Ernst Happel",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1969-08-01",
+    "end": "1987-06-30"
+  },
+  "scopeNote": "Austrian manager (1925-1992). Counted spells: Feyenoord, Club Brugge, Netherlands (1978 World Cup), Hamburger SV. Sources name his style as an early form of pressing with quick passing (The Blizzard), a pressing 4-3-3 (These Football Times), a three-man midfield against the 4-2-4 (90min/SI), zonal marking (player quote, NOS). He is sometimes labelled a Total Football or Michels-style coach; sources instead place him as a separate figure (Israel: 'a very different type to Rinus Michels'). Exact start/end days of spells come from search summaries of Wikipedia-type pages (not read in a digest): see openQuestions. Quotes without a known date are in statedView with date 'undated'. Excluded-spell years (1962, 1969, 1973, 1975, 1979, 1981, 1987, 1991, 1992) are year-only because the exact days were not found.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Spell dates are not verified in any digest paragraph: Feyenoord 1969-08-01 to 1973-05-30, Club Brugge 1974-01-23 to 1978-10-26, Hamburg 1981-07-01 to 1987-06-30 come from Wikipedia-type search summaries (the infobox says they are first and last matches, not contract dates). Digests confirm only: Brugge appointed January 1974 (The Blizzard) and he left in November 1978 (The Blizzard) vs 26 October 1978 (summary); Netherlands from May 1977 (NOS). Check Brugge exit (Oct vs Nov 1978).",
+    "Netherlands 1978: The World Soccer article (2014) says Jan Zwartkruis took over tactics and preparation after the group stage and Happel became a figurehead; Wildschut is quoted crediting Zwartkruis. Credit for the 1978 tactical choices is contested, so Netherlands facts are weak evidence of Happel's own style. Netherlands end date set to the final (1978-06-25), start 1977-05-01 is a month-level date from NOS ('vanaf mei 1977').",
+    "Pressing origin: FourFourTwo (via Uli Hesse) says Happel used pressing at Hamburg; the Blizzard calls it an early form of pressing at Brugge; 90min lists Maslov as innovator. No source found with tactical analysis (movement, line height, triggers) for Feyenoord 1969-73 or Hamburg beyond one-line descriptions.",
+    "Feyenoord zonal marking rests on one player quote (Van Duivenbode, NOS 2020). Hamburg 1983 final: Wilson via TFT says Gentile was told to man-mark Bastrup (Juventus man-marking), while Happel's own side marking system is not described. A search summary (not read) says he asked players whether to man-mark Platini: unverified.",
+    "Quotes 'Gentlemen, two points' and 'A day without football is a day wasted' have no primary source found (attributed).",
+    "Excluded spells not researched: ADO Den Haag 1962-69 (1968 KNVB Cup win over Ajax, 4-3-3 against 4-2-4 per TFT; domestic cup only, taken as the step towards Feyenoord), Sevilla 1973-75 (second-division spell, 'uneventful' per 90min), Standard Liege 1979-81 (Belgian Cup, few tactical sources), Swarovski Tirol 1987-91 (two Austrian titles, almost no tactical coverage found), Austria 1992 (under a year, died November 1992, few matches). Swarovski Tirol could be added if the user wants the four-country titles in scope.",
+    "set-pieces: no verified fact in-period (only a Hrubesch 2000 quote about Bananenflanke-Kopf, not a set piece); statedView dates are article dates where the quote is undated."
+  ],
+  "spellsCounted": [
+    {
+      "club": "Feyenoord",
+      "start": "1969-08-01",
+      "end": "1973-05-30",
+      "reason": "1970 European Cup, 1970 Intercontinental Cup, 1971 Eredivisie; recognisable 3-man midfield, zonal marking; move to Sevilla/Brugge (dates from search summary, see openQuestions)"
+    },
+    {
+      "club": "Club Brugge",
+      "start": "1974-01-23",
+      "end": "1978-10-26",
+      "reason": "three Belgian titles 1976-78, 1976 UEFA Cup final and 1978 European Cup final; detailed tactical and squad coverage in The Blizzard"
+    },
+    {
+      "club": "Netherlands",
+      "start": "1977-05-01",
+      "end": "1978-06-25",
+      "reason": "1978 World Cup final; part-time role alongside Brugge; tactical credit contested (see openQuestions)"
+    },
+    {
+      "club": "Hamburger SV",
+      "start": "1981-07-01",
+      "end": "1987-06-30",
+      "reason": "Bundesliga 1982 and 1983, 1983 European Cup, 1987 DFB-Pokal; pressing 4-3-3"
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "ADO Den Haag",
+      "start": "1962",
+      "end": "1969",
+      "reason": "domestic cup only (1968); only a TFT mention of 4-3-3 vs Ajax; mostly a relegation-fighting club before"
+    },
+    {
+      "club": "Sevilla",
+      "start": "1973",
+      "end": "1975",
+      "reason": "second-division spell described as uneventful and with little success"
+    },
+    {
+      "club": "Standard Liege",
+      "start": "1979",
+      "end": "1981",
+      "reason": "Belgian Cup only, no tactical coverage found"
+    },
+    {
+      "club": "Swarovski Tirol",
+      "start": "1987",
+      "end": "1991",
+      "reason": "two Austrian league titles but no tactical coverage found in this run"
+    },
+    {
+      "club": "Austria",
+      "start": "1992",
+      "end": "1992",
+      "reason": "under one year, died in November 1992, too few matches"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ernst Happel: the quiet Austrian who conquered Europe",
+      "url": "https://thesefootballtimes.co/2016/04/27/ernst-happel-the-quiet-austrian-who-conquered-europe/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-27",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Celtic played a 4-2-4 formation, like Ajax had done in De Klassieker, and like Ajax, the Scottish side struggled to manage Feyenoord’s extra man in midfield.",
+      "verified": true
+    },
+    {
+      "title": "Ernst Happel: the quiet Austrian who conquered Europe",
+      "url": "https://thesefootballtimes.co/2016/04/27/ernst-happel-the-quiet-austrian-who-conquered-europe/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-27",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Happel built his Feyenoord side around three players: captain Rinus Israël, known as “Iron Rinus”, the great Willem van Hanegem and Coen Moulijn.",
+      "verified": true
+    },
+    {
+      "title": "Ernst Happel: The 'Weird Man' Who Conquered European Football and Helped Shape the Modern Game",
+      "url": "https://www.si.com/soccer/2019/08/08/ernst-happel-weird-man-who-conquered-european-football-and-helped-shape-modern-game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-08",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "At a time when the 4-2-4 formation prevailed, Happel was one of the first managers to opt for a three-man midfield to allow his side to dictate play from the middle of the park.",
+      "verified": true
+    },
+    {
+      "title": "Hoe Michels' fout en Happels vernuft Feyenoord aan de Europa Cup I hielpen",
+      "url": "https://nos.nl/artikel/2332913-hoe-michels-fout-en-happels-vernuft-feyenoord-aan-de-europa-cup-i-hielpen",
+      "tier": "C",
+      "language": "nl",
+      "articleDate": "2020-05-06",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Happel is tactisch de beste trainer die ik heb meegemaakt. Hij speelde positievoetbal, stapte af van mandekking en paste zonedekking toe. De oefeningen op de training waren haast altijd met bal.",
+      "verified": true
+    },
+    {
+      "title": "Hoe Michels' fout en Happels vernuft Feyenoord aan de Europa Cup I hielpen",
+      "url": "https://nos.nl/artikel/2332913-hoe-michels-fout-en-happels-vernuft-feyenoord-aan-de-europa-cup-i-hielpen",
+      "tier": "C",
+      "language": "nl",
+      "articleDate": "2020-05-06",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Happel hield van dat soort voetballers. Hij wist: die Johnstone is verdomd snel en handig. Dus op het moment dat ik een duel aan zou gaan, moest ik rugdekking krijgen van Willem van Hanegem of Wim Jansen.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1969/73",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "While at Feyenoord, Happel nurtured Wim van Hanegem into becoming a gifted central commander, and trusted the Dutchman’s vision to ensure his team predominated in the middle.",
+      "verified": true
+    },
+    {
+      "title": "Ernst Happel: the quiet Austrian who conquered Europe",
+      "url": "https://thesefootballtimes.co/2016/04/27/ernst-happel-the-quiet-austrian-who-conquered-europe/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-27",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Needless to say, the session is done when Happel says it’s done.",
+      "verified": true
+    },
+    {
+      "title": "Ook 25 jaar na zijn overlijden is er groot respect voor Ernst Happel",
+      "url": "https://nos.nl/artikel/2202724-ook-25-jaar-na-zijn-overlijden-is-er-groot-respect-voor-ernst-happel",
+      "tier": "C",
+      "language": "nl",
+      "articleDate": "2017-11-14",
+      "eventDate": "1969/70",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Daarvoor hadden we trainers gehad die niet echt boven de spelers stonden. (...) Maar bij Happel ging dat wel anders.",
+      "verified": true
+    },
+    {
+      "title": "Ook 25 jaar na zijn overlijden is er groot respect voor Ernst Happel",
+      "url": "https://nos.nl/artikel/2202724-ook-25-jaar-na-zijn-overlijden-is-er-groot-respect-voor-ernst-happel",
+      "tier": "C",
+      "language": "nl",
+      "articleDate": "2017-11-14",
+      "eventDate": "1973-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "\"We hebben zo veel meegemaakt, dat ik moet stoppen\", zei de Oostenrijker bij zijn vertrek in 1973. \"Met te veel overwinningen wordt de discipline minder, we worden te veel vrienden.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1974-01",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "The professionalism of the players meanwhile would skyrocket – from the day Happel joined the club and said to his expectant new charges, with his typical brevity, and in German: “Hello! I’m Ernst Happel. It’s 10 to 10 and training begins at 10 o’clock.” He then left the dressing room.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "A number of senior players who Cools said couldn’t cope with Happel’s hard-running style were offloaded at the end of the 73-74 season. (...) “They are all in their 30s,” said Happel, “and as a coach you just can’t change players in their 30s.” Energetic youngsters were brought in to replace them, like Roger Van Gool, aged 24, and the 21-year-old René Vandereycken.",
+      "verified": true
+    },
+    {
+      "title": "Ernst Happel: Grande em vários clubes",
+      "url": "https://trivela.com.br/sem-categoria/ernst-happel-grande-em-varios-clubes/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2010-10-18",
+      "eventDate": "1975/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Sem os medalhões e com jovens talentos, o Club Brugge conquistou três títulos nacionais consecutivos: 75/76, 52 pontos em 36 jogos, 76/77, 52 pontos em 34 jogos e 77/78, 51 pontos em 34 jogos.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1974/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Those two words go a long way to summarising Happel’s footballing philosophy of tidy and quick passing coupled with an early form of pressing. Cools explained that every training session under Happel featured matches in which the players were limited to two touches.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "While he would ask his players to switch between a 4-4-2 and 4-3-3 at times, both systems were characterised by the Austrian’s desire to get on the front foot with attacking full-backs.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "both systems were characterised by the Austrian’s desire to get on the front foot with attacking full-backs.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1974/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "“There was very little in the way of tactical preparation in Belgian matches,” Cools said. “It was the other team that had to adapt to us – that was Happel’s philosophy.”",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "The Austrian Eddie Krieger was signed in the summer of 1975 and would prove to be a valuable figure as Club Brugge’s sweeper.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "“In sudden sharp breakaways that showed the menace and the skills of this top-class Belgian side, Van Gool shot inches wide three times in the last ten minutes.”",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1977/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Instead of trying to cling on and somehow scrape through, though, Happel went for broke by bringing on an extra striker, Bernard Verheecke, and Brugge scored two away goals to progress 4-3 on aggregate.",
+      "verified": true
+    },
+    {
+      "title": "Ernst Happel: The 'Weird Man' Who Conquered European Football and Helped Shape the Modern Game",
+      "url": "https://www.si.com/soccer/2019/08/08/ernst-happel-weird-man-who-conquered-european-football-and-helped-shape-modern-game",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-08",
+      "eventDate": "1977/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "With injuries to two key players, Brugge were forced to play defensively and as such, they struggled to create many chances and attempted to shut their opponents out.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1974/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "He reordered the pay structure at the club, providing generous bonuses for every win, albeit while reducing base salaries. He also dropped his intensity and distance to provide help when his players needed it in private matters.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1978-07",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "After losing 4-1 to Everton and 6-0 to Benfica there, Happel temporarily demoted four first-team regulars to the reserves as punishment.",
+      "verified": true
+    },
+    {
+      "title": "In Bruges - The Blizzard",
+      "url": "https://theblizzard.co.uk/in-bruges/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-29",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Happel asked his men, “Can’t you see that this Roma are shit?” Lambert duly scored in the second-half for another 1-0 win and Happel’s post-match verdict was, “This is even more evidence that Italians can’t attack.” Before the final, the Austrian, who was no fan of the English long-ball style either, said, “Liverpool don’t play football, all they do is run, run and run.”",
+      "verified": true
+    },
+    {
+      "title": "Ook 25 jaar na zijn overlijden is er groot respect voor Ernst Happel",
+      "url": "https://nos.nl/artikel/2202724-ook-25-jaar-na-zijn-overlijden-is-er-groot-respect-voor-ernst-happel",
+      "tier": "C",
+      "language": "nl",
+      "articleDate": "2017-11-14",
+      "eventDate": "1978-06-25",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "\"Zeg die joker dat ik dan drie uur nodig heb om het elftal tactisch te wijzigen\", reageerde Happel tegenover Krol.",
+      "verified": true
+    },
+    {
+      "title": "Jan Zwartkruis, the power behind the throne for Holland in 1978",
+      "url": "https://www.worldsoccer.com/?p=349908",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-03-08",
+      "eventDate": "1978-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "under no circumstances should the opposition be allowed to settle into their usual rhythm this was done by playing a high defensive line – pressing further up the pitch – which allowed his famed offside trap to come into play.",
+      "verified": true
+    },
+    {
+      "title": "Jan Zwartkruis, the power behind the throne for Holland in 1978",
+      "url": "https://www.worldsoccer.com/?p=349908",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-03-08",
+      "eventDate": "1978-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "A keen admirer of possession-based football his sides often dictated every game they played.",
+      "verified": true
+    },
+    {
+      "title": "Jan Zwartkruis, the power behind the throne for Holland in 1978",
+      "url": "https://www.worldsoccer.com/?p=349908",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-03-08",
+      "eventDate": "1978-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "He was there for the cameras, tactics as well as preparation taken out of his hands.",
+      "verified": true
+    },
+    {
+      "title": "Jan Zwartkruis, the power behind the throne for Holland in 1978",
+      "url": "https://www.worldsoccer.com/?p=349908",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-03-08",
+      "eventDate": "1978-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Zwartkruis and Happel from a tactical point of view were polar opposites, but when it came to man-management, both possessed an innate ability of getting the best out of their players.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1981/82",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Happel introduced a pressing 4-3-3 that suited Magath perfectly, and he thrived, passing HSV to another Bundesliga title in 1982.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1981/82",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Happel introduced a pressing 4-3-3 that suited Magath perfectly, and he thrived, passing HSV to another Bundesliga title in 1982.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1983-05-25",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Happel had switched things up, moving to a more asymmetric formation for the contest with Juve; most notably, Lars Bastrup was switched from left to right to pin down Antonio Cabrini.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1983-05-25",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Claudio Gentile followed Bastrup, under strict instruction from il Trap to man-mark the Dane.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1983-05-25",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Importantly, that left a gap on Juve’s right, “through which Felix Magath ran to score the only goal of the game”, as described by Jonathan Wilson in Inverting the Pyramid.",
+      "verified": true
+    },
+    {
+      "title": "The Felix Magath before Felix Magath",
+      "url": "https://thesefootballtimes.co/2015/01/19/the-felix-magath-before-felix-magath/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-01-19",
+      "eventDate": "1981/86",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "He was virtually ever-present in the league from the time the Austrian took over, playing a part in 157 of the 170 Bundesliga matches from 1981 to his retirement in 1986.",
+      "verified": true
+    },
+    {
+      "title": "Germania: Is fussball coming home?",
+      "url": "https://fourfourtwo.com/features/germania-fussball-coming-home",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-11-25",
+      "eventDate": "1981/87",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "But when I discussed Happel with Uli Hesse, author of the seminal German football history Tor!, he reminded me that the Austrian had used this very tactic as Hamburg coach in the 1980s.",
+      "verified": true
+    },
+    {
+      "title": "Germania: Is fussball coming home?",
+      "url": "https://fourfourtwo.com/features/germania-fussball-coming-home",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-11-25",
+      "eventDate": "1981/87",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "His players were never quite sure what he was going to say to them before a match.",
+      "verified": true
+    },
+    {
+      "title": "Before Ajax, Michels And Cruyff: The forgotten Feyenoord team of 1970",
+      "url": "https://thehardtackle.com/2014/before-ajax-michels-and-cruyff-the-forgotten-feyenoord-team-of-1970/amp/",
+      "tier": "B",
+      "articleDate": "2014-04-03",
+      "eventDate": "1969/70",
+      "dimension": "build-up",
+      "evidence": "Having always believed that, ‘the games always unfolds from the midfield’, Happel’s 3-man linchpin of Jansen, fellow Austrian Hasil and van Hanegem proved to be the key element in overcoming a much more experienced Celtic side.",
+      "accessedOn": "2026-11-02",
+      "verified": true,
+      "language": "en"
+    },
+    {
+      "title": "Before Ajax, Michels And Cruyff: The forgotten Feyenoord team of 1970",
+      "url": "https://thehardtackle.com/2014/before-ajax-michels-and-cruyff-the-forgotten-feyenoord-team-of-1970/amp/",
+      "tier": "B",
+      "articleDate": "2014-04-03",
+      "eventDate": "1969/70",
+      "dimension": "transitions",
+      "evidence": "Moulijn would drop back to cover the space between Celtic fullback David Hay and arguably their most influential player, Jinky Johnstone, such that the balls played to the right winger would be intercepted to distributed to van Hanegem who would look up to try and find Swede Kindvall",
+      "accessedOn": "2026-11-02",
+      "verified": true,
+      "language": "en"
+    },
+    {
+      "title": "Before Ajax, Michels And Cruyff: The forgotten Feyenoord team of 1970",
+      "url": "https://thehardtackle.com/2014/before-ajax-michels-and-cruyff-the-forgotten-feyenoord-team-of-1970/amp/",
+      "tier": "B",
+      "articleDate": "2014-04-03",
+      "eventDate": "1969/70",
+      "dimension": "defensive-block",
+      "evidence": "The 3v2 situation in midfield while Feyenoord defended meant that Jansen could always clean up and retrieve the loose ball, having been relieved of man-marking duties.",
+      "accessedOn": "2026-11-02",
+      "verified": true,
+      "language": "en"
+    },
+    {
+      "title": "Der Hammer",
+      "url": "https://taz.de/Der-Hammer/!1234322/",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2000-05-09",
+      "eventDate": "1981/82",
+      "dimension": "people-management",
+      "evidence": "Man kann von ihm lernen, wie man knallhart einen Kurs konsequent durchzieht, ohne sich von irgendetwas irritieren zu lassen.",
+      "verified": true,
+      "accessedOn": "2026-11-02",
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Spielt man Manndeckung, dann hat man elf Esel auf dem Platz.",
+      "date": "2017-11-14",
+      "source": "https://inside.fifa.com/de/news/happels-beste-spruche-1166210 (date = article date, quote undated)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Mir ist ein 5:4 lieber als ein 1:0!",
+      "date": "2017-11-14",
+      "source": "https://inside.fifa.com/de/news/happels-beste-spruche-1166210 (date = article date, quote undated)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Wenn wir etwas erreichen wollen, müssen wir Risiko auf uns nehmen.",
+      "date": "2017-11-14",
+      "source": "https://inside.fifa.com/de/news/happels-beste-spruche-1166210 (date = article date, quote undated)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Dieser Beruf verlangt Naturbegabung. Wissenschaftlich kann man ihn nicht erlernen.",
+      "date": "2017-11-14",
+      "source": "https://inside.fifa.com/de/news/happels-beste-spruche-1166210 (date = article date, quote undated)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Wir haben soviel erlebt, ich muss aufhören. Mit zuviel Siegen geht die Disziplin zurück. Wir werden zu sehr Freunde.",
+      "date": "1973-05",
+      "source": "https://inside.fifa.com/de/news/happels-beste-spruche-1166210 (Dutch version in https://nos.nl/artikel/2202724-ook-25-jaar-na-zijn-overlijden-is-er-groot-respect-voor-ernst-happel, 'bij zijn vertrek in 1973')",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Ik noem de spelers bij hun voornaam wanneer ik dat wil, maar de jongens kunnen geen Ernst tegen mij zeggen. Dat kan niet. Dan is er geen afstand en geen respect. Een trainer moet menselijk zijn, maar ook hard.",
+      "date": "2020-08-09",
+      "source": "https://nos.nl/artikel/2343438-ats-ernst-happel-succesvol-als-voetbaltrainer-mysterieus-als-mens (date = article date, quote undated)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Als het nodig is, ben ik hard, maar ik heb ook een klein hartje.",
+      "date": "1978-06",
+      "source": "https://nos.nl/artikel/2343438-ats-ernst-happel-succesvol-als-voetbaltrainer-mysterieus-als-mens (return flight after the 1978 World Cup)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Zeg die joker dat ik dan drie uur nodig heb om het elftal tactisch te wijzigen",
+      "date": "1978-06-25",
+      "source": "https://nos.nl/artikel/2202724-ook-25-jaar-na-zijn-overlijden-is-er-groot-respect-voor-ernst-happel (told to Krol, final vs Argentina)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Can’t you see that this Roma are shit? (...) This is even more evidence that Italians can’t attack. (...) Liverpool don’t play football, all they do is run, run and run.",
+      "date": "1976",
+      "source": "https://theblizzard.co.uk/in-bruges/featured/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "They are all in their 30s, and as a coach you just can’t change players in their 30s.",
+      "date": "1974",
+      "source": "https://theblizzard.co.uk/in-bruges/featured/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Gentlemen, two points.",
+      "date": "1978-06-25",
+      "source": "https://www.si.com/soccer/2019/08/08/ernst-happel-weird-man-who-conquered-european-football-and-helped-shape-modern-game (also footballheritage.co.uk); no primary source found",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "A day without football is a day wasted",
+      "date": "2016-04-27",
+      "source": "https://thesefootballtimes.co/2016/04/27/ernst-happel-the-quiet-austrian-who-conquered-europe/ (date = article date, quote undated)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "And don't forget the pressing.",
+      "date": "2011-11-25",
+      "source": "https://fourfourtwo.com/features/germania-fussball-coming-home (Hamburg players' recollection; sentence garbled by encoding in the digest) (date = article date, quote said at Hamburg 1981-87)",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://thesefootballtimes.co/2019/04/03/ernst-happel-the-feyenoord-years",
+      "reason": "404"
+    },
+    {
+      "url": "https://beyondthelastman.com/2020/10/30/keegan-magath-happel-and-hamburgs-heyday/",
+      "reason": "403"
+    },
+    {
+      "url": "https://beyondthelastman.com/2020/10/20/remembering-feyenoords-1968-71-zenith/",
+      "reason": "403"
+    },
+    {
+      "url": "https://footballmakeshistory.eu/ernst-happel/",
+      "reason": "403"
+    },
+    {
+      "url": "https://footballbh.net/?p=520774",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.pressreader.com/south-africa/business-day/20200506/281925955181573",
+      "reason": "empty"
+    }
+  ],
+  "influences": [],
+  "gaps": {
+    "dimensions": [
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good tier B coverage for Brugge (The Blizzard) and Hamburg shape/pressing (TFT), but Feyenoord marking rests on one player quote, spell dates are not verified in digests, the Netherlands 1978 tactical credit is contested, and the Feyenoord TFT page and two Hamburg/Feyenoord pages were unreadable."
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "id": "bayern-1973-76",
+  "catalog": "team",
+  "name": "Bayern Munich 1973/74-1975/76 (three European Cups)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1973-08-25",
+    "end": "1976-06-30"
+  },
+  "scopeNote": "Bayern Munich across 1973/74, 1974/75 and 1975/76, winners of the European Cup in 1974 (Atletico Madrid, 1-1 and 4-0 replay), 1975 (Leeds 2-0) and 1976 (Saint-Etienne 1-0). Udo Lattek coached to January 1975, Dettmar Cramer from 16 January 1975. Period start (first Bundesliga match, 25 Aug 1973) and end (end of 1975/76 season) are approximate boundaries: the exact first and last match dates were not verified in a read page. The 1976 Intercontinental Cup (Nov-Dec 1976, under Cramer) falls in 1976/77 and is excluded. Sources describe Beckenbauer as an attacking libero/sweeper in a still man-marking era (Champions Journal: 'strict man-marking'); the often-repeated 'Total Football' label for this Bayern is a Glanville-attributed claim, not a source-backed Dutch-style system. Tactical coverage is thin: the 1975 final is the only match with a tactical account, and it is atypical (Bayern deliberately defensive, Mueller deep). Cramer's and Lattek's own words on tactics were not found.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Lattek end date: DFB Datencenter (search summary only, not read) gives 1975-01-02; Wikipedia gives only 'January 1975'. Cramer start 16 Jan 1975 verified (Wikipedia).",
+    "Period start 1973-08-25 is from memory and unverified; confirm Bayern's first 1973/74 competitive match.",
+    "Marking: UEFA FR (unread) says Cramer and Lattek used individual marking in a 1-3-3-3 with Beckenbauer as libero; only one source, unverified. Zonal vs man not otherwise confirmed.",
+    "Whether the 1975 final (Mueller as defensive midfielder, Bayern sitting deep) reflects Cramer's usual approach or a one-off plan for Leeds is unclear.",
+    "Wikipedia says Cramer was criticised for a 'passive management style'; no other source corroborates.",
+    "Lattek-Cramer attribution of the 1974-76 style: FourFourTwo and Champions Journal credit Beckenbauer more than either coach."
+  ],
+  "sources": [
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Their maestro was their sweeper, or more precisely: their libero. Because Beckenbauer had done what almost nobody else had ever done – he had invented a new role on the field for himself, in the process changing his team’s entire approach to the game. Beckenbauer wasn’t content with sweeping up at the back, unlike his counterparts in Italy, where the libero position had been pioneered. Instead, he regularly dashed forward across the midfield line",
+      "verified": true
+    },
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Back in those days of strict man-marking, he took a long, hard look at the Italian game and noticed that sweepers were never marked because they always stayed put.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Beckenbauer’s constant forays up field would have been very dangerous indeed if nobody had covered for him, but Schwarzenbeck seemed to sense what the Kaiser was going to do even before it happened and would quietly, efficiently slot into the position Beckenbauer was about to vacate.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Schwarzenbeck’s most valuable skill was not his tenacity or his strength, it was his almost telepathic rapport with Der Kaiser.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "the 1974 European Cup final against Atlético de Madrid. Still, they knew the match would be over in a few seconds and the trophy was as good as lost because the Spanish side had taken a 1-0 lead in extra time against an inexplicably listless, aimless Bayern team.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1976",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Bayern would remain unbeaten in 16 consecutive ties in the continent’s premier competition and win the trophy two more times before finally being knocked out by Dynamo Kyiv in the quarter-finals almost three years later",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "An appalling battle, peppered with brutality and irregularities, between a team (Leeds) who had deliberately deprived themselves of the tactical means to impose their offensive will, illustrated by an overwhelming territorial domination; and a formation (Bayern) deliberately refusing to play.",
+      "verified": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Worse, this appeared to have been a choice of the Bayern coach Dettmar Cramer, to use Müller as a defensive midfielder and play without any attacking threat at all. Midfielder Franz Roth was furthest forward, where he was busily trying to mark Johnny Giles. Cramer seemed to have been planning for counter-attacking",
+      "verified": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Leeds dominated the match while Gerd Müller, the great West German World Cup winning striker, played nearer his own goal than his opponent's.",
+      "verified": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Bayern — knackered from years of playing exhibition games to pay for their success, from summers winning Euros and World Cups instead of holidaying — were conserving their energy and finding motivation in the fact that, an hour into the final, they could still win.",
+      "verified": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Leeds dominated the match while Gerd Müller, the great West German World Cup winning striker, played nearer his own goal than his opponent's.",
+      "verified": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Madeley ran to meet it, unmarked, heading the ball down towards the Leeds forwards.",
+      "verified": true
+    },
+    {
+      "title": "Leedsista: One hand raised, 1975 European Cup final",
+      "url": "https://www.leedsista.com/one-hand-raised-leeds-united-against-bayern-munich-in-the-european-cup-final-28th-may-1975/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-28",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "the encyclopaedic Cramer may have also calculated that Leeds' manager Jimmy Armfield, whose indecision was already infamous, wouldn't rush into bringing either of them on.",
+      "verified": true
+    },
+    {
+      "title": "Classic Teams #2 Bayern Munich (1972-74), Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-08",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "They could raise themselves for these 5 or 6 games that mattered, but they couldn’t do it week in week out anymore. I think by 75/76, Bayern were a spent force",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Classic Teams #2 Bayern Munich (1972-74), Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-08",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "With the squad arguably past their peak, the ability to focus on a handful of European games, rather than that of a full Bundesliga campaign, highlights Bayern’s perceived lack of motivation beyond the ‘74 season. Having to prioritise Europe, however, wasn’t just a damning indictment of the team’s motivation. In a time before large playing squads, clubs were uber reliant on the contributions of star players.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Classic Teams #2 Bayern Munich (1972-74), Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-08",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "In a team well known for their interchanging of positions and revolutionary use of an attacking Libero, it is perhaps fitting that the crucial goal should have come from a defender",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Classic Teams #2 Bayern Munich (1972-74), Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-08",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Bild journalist Christian Falk maintains that friendships within the squad were vital to their success, with Gerd and Franz forming a particularly close bond",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Classic Teams #2 Bayern Munich (1972-74), Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-08",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "After a sluggish start to the 74/75 season, Lattek was unceremoniously fired from Bayern, only to be hired by rivals Borussia Monchengladbach a few months later.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Dettmar Cramer, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dettmar_Cramer",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2007-03-11",
+      "eventDate": "1975-01-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Then, on 16 January 1975, he took over the reins as manager of West German giants FC Bayern Munich. At the beginning, Cramer faced heavy criticism in Munich, mostly because of his passive management style. With rumors of a sacking swirling around Cramer, he was strongly backed by team captain Franz Beckenbauer",
+      "verified": true
+    },
+    {
+      "title": "Dettmar Cramer, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dettmar_Cramer",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2007-03-11",
+      "eventDate": "1975-01-16",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "| Bayern Munich | 16 January 1975 | 27 November 1977 | 136 | 63 | 31 | 42 | 46.32 |  |",
+      "verified": true
+    },
+    {
+      "title": "Udo Lattek, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Udo_Lattek",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2005-08-13",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "A poor start to the 1974–75 domestic season saw Lattek's tenure come to an end, with Bayern replacing him with Dettmar Cramer, who was also recommended to the club by Beckenbauer. According to Lattek, after telling club president Wilhelm Neudecker that, given the club's poor domestic form changes were necessary, Neudecker replied, \"Correct. You're sacked.\"",
+      "verified": true
+    },
+    {
+      "title": "How Beckenbauer became the brains, guts and vision of Bayern Munich, FourFourTwo",
+      "url": "https://fourfourtwo.com/features/how-beckenbauer-became-brains-guts-and-vision-bayern-munich",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-01-13",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Between 1974 and 1976, Bayern became the third team to win three successive European Cups. Although the Roten’s treble was achieved under the management of Dettmar Cramer and Udo Lattek, you could make a case that Beckenbauer, directing play as the sweeper, was the true architect of that golden era.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Beckenbauer became the brains, guts and vision of Bayern Munich, FourFourTwo",
+      "url": "https://fourfourtwo.com/features/how-beckenbauer-became-brains-guts-and-vision-bayern-munich",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-01-13",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "As Brian Glanville noted in his Guardian obituary for the Italian idol, “Watching Facchetti’s spectacular incursions from left-back, his thundering right-footed shots, Beckenbauer asked himself why he, as a libero and a sweeper, should not attack from a more central role. He did, and total football was born at Bayern Munich.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Der größte Erfolg in der Geschichte des ruhmreichen FC Bayern, leinetal24",
+      "url": "https://www.leinetal24.de/sport/fussball/der-groesste-erfolg-in-der-geschichte-des-ruhmreichen-fc-bayern-zr-93727552.html",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2025-05-12",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Ein simpler Freistoß-Trick vom Kaiser – Beckenbauer schob den Ball einen Meter nach rechts in den Lauf von Roth - manövrierte die gesamte Mauer von AS St. Etienne aus.",
+      "verified": true
+    },
+    {
+      "title": "Der größte Erfolg in der Geschichte des ruhmreichen FC Bayern, leinetal24",
+      "url": "https://www.leinetal24.de/sport/fussball/der-groesste-erfolg-in-der-geschichte-des-ruhmreichen-fc-bayern-zr-93727552.html",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2025-05-12",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "In der Bundesliga chancenlos auf den Meistertitel konzentrierten sich die Bayern in jener Zeit hauptsächlich auf den Europapokal – und dies äußerst erfolgreich",
+      "verified": true
+    },
+    {
+      "title": "Der größte Erfolg in der Geschichte des ruhmreichen FC Bayern, leinetal24",
+      "url": "https://www.leinetal24.de/sport/fussball/der-groesste-erfolg-in-der-geschichte-des-ruhmreichen-fc-bayern-zr-93727552.html",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2025-05-12",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Insgesamt war es über weite Strecken ein Spiel auf Augenhöhe. Die routinierten Bayern trafen auf eine technisch hochversierte Mannschaft.",
+      "verified": true
+    },
+    {
+      "title": "Dettmar Cramer (search summary, UEFA FR Grandes équipes: Bayern 1973-76)",
+      "url": "https://fr.uefa.com/news-media/news/0221-0f8a9afd6344-5b419058e13c-1000--grandes-equipes-bayern-1973-76/",
+      "tier": "A",
+      "language": "fr",
+      "articleDate": "2016-01-01",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Comme Lattek, son successeur en 1975 et 1976, Dettmar Cramer utilisa le marquage individuel et un jeu tourné vers l'attaque. Le Bayern jouait en 1-3-3-3 avec un libéro nommé Beckenbauer ayant mandat pour jouer partout sur le terrain.",
+      "verified": false,
+      "note": "seen only in search summary; page not accessible"
+    },
+    {
+      "title": "DFB Datencenter Bayern 1974-75 (search summary)",
+      "url": "https://datencenter.dfb.de/en/competitions/bundesliga/seasons/1974-1975/teams/bayern-munich",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-02",
+      "eventDate": "1975-01-02",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Lattek as coach (until 1975-01-02)",
+      "verified": false,
+      "note": "search summary only"
+    },
+    {
+      "title": "Classic Teams #2 Bayern Munich (1972-74), Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-05-08",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Franz Beckenbauer is similarly glowing about his former coach; “Lattek understood how to unite the team”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Der Kaiser (Champions Journal)",
+      "url": "https://www.champions-journal.com/1000/der-kaiser",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-12-01",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "As Beckenbauer would later explain, “Facchetti, as a left-back, could only move forward or to his right. But since I was playing in a central role, I could also move to my left. I was free to roam.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Facchetti, as a left-back, could only move forward or to his right. But since I was playing in a central role, I could also move to my left. I was free to roam.",
+      "date": "2025",
+      "source": "https://www.champions-journal.com/1000/der-kaiser",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Correct. You're sacked.",
+      "date": "1975-01",
+      "source": "https://en.wikipedia.org/wiki/Udo_Lattek",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "He was a big motivator, he was informed on tactics, and could get the best out of every player",
+      "date": "2020",
+      "source": "https://www.getfootballnewsgermany.com/2020/classic-teams-2-bayern-munich-1972-74",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "When Franz and I are together we're always on the same wavelength.",
+      "date": "2015",
+      "source": "https://fcbayern.com/en/news/2015/09/dettmar-cramer-obituary-180915",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d7ff546eab3-5cb419e6b81a-1000--great-teams-bayern-1973-76/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://fr.uefa.com/news-media/news/0221-0f8a9afd6344-5b419058e13c-1000--grandes-equipes-bayern-1973-76/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://gameofthepeople.com/2020/01/08/europes-champions-1973-74-bayern-munich/",
+      "reason": "403"
+    },
+    {
+      "url": "https://fcbayern.com/en/club/history/milestones/1966-to-1979-golden-years",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://fcbayern.com/en/news/2025/04/interview-with-karl-heinz-rummenigge-about-dettmar-cramer",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.heidelberg24.de/sport/fussball/das-beste-fcb-spiel-aller-zeiten-erstmals-europas-fussball-koenige-zr-94309712.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://fcbayern.com/en/news/2025/05/1975-european-cup-a-final-that-had-consequences",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://fcbayern.com/de/news/2025/04/interview-mit-karl-heinz-rummenigge-ueber-dettmar-cramer",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://fcbayern.com/en/news/2015/09/dettmar-cramer-obituary-180915",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/0253-0d80a92b009a-60d763e82521-1000--germany-and-bayern-mourn-coach-cramer/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/features/robbery-rioting-and-brave-frenchman-leeds-1975-european-cup-final-retold",
+      "reason": "404"
+    }
+  ],
+  "influences": [],
+  "managers": [
+    {
+      "managerId": "udo-lattek",
+      "start": "1973-08-25",
+      "end": "1975-01-02"
+    },
+    {
+      "managerId": "dettmar-cramer",
+      "start": "1975-01-16",
+      "end": "1976-06-30"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "low",
+    "reason": "Few tier A-B tactical sources readable (UEFA and Bayern pages inaccessible, thefootballtimes/coachesvoice returned nothing); tactics rest on one atypical final and retrospective profiles of Beckenbauer; marking regime and Lattek/Cramer differences unconfirmed."
+  }
+}

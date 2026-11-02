@@ -1,0 +1,659 @@
+{
+  "id": "luiz-felipe-scolari",
+  "catalog": "manager",
+  "name": "Luiz Felipe Scolari (Felipão)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1993",
+    "end": "2008-06"
+  },
+  "scopeNote": "Four counted spells: Grêmio (1993-Dec 1996: Copa do Brasil 1994, Libertadores 1995, Brasileirão 1996), Palmeiras (May 1997-2000: Copa do Brasil 1998, Libertadores 1999), Brazil (June 2001-Aug 2002: 2002 World Cup) and Portugal (Nov 2002-June 2008: Euro 2004 final, 2006 World Cup semi-final). Exact start/end days for Grêmio, Palmeiras and Portugal were not found in the mined pages, so the profilePeriod uses partial dates (Brazil: 'June 2001' and 'August 2002' are from Wikipedia only). Style label used by sources: 4-4-2 (Grêmio/Palmeiras, Wikipedia), 4-2-2-2 'looking like a 4-2-3-1' (Goal, Grêmio 1995), back three with wing-backs 'Cafu and Roberto Carlos' (Brazil 2002, Scolari himself says three centre-backs after Geninho convinced him), 4-2-3-1 / 3-4-3 option (Portugal). No source found that names zonal or man-marking explicitly: pressing and marking evidence is thin. Coverage is mostly Brazilian/Portuguese press (tier C) and club-era retrospectives; no tier A source (Coaches' Voice, StatsBomb) found, so the tactical dimensions rest on tier B-C material. The record.pt 3x4x3 piece (4 July 2004) is a pre-match prediction of what Portugal 'could' do, not an account of what they did. All spell and profilePeriod dates are partial (year or year-month) because no mined page gave exact days; the record.pt 2008 column is dated 2008 and covers the whole Portugal spell.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Exact start and end dates for Grêmio (1993-1996), Palmeiras (May 1997-2000) and Portugal (announced Nov 2002) not confirmed from a mined page; Brazil dates only from Wikipedia.",
+    "Brazil 2012-14 (2013 Confederations Cup win, 7-1 vs Germany) and Palmeiras 2010-12 (Copa do Brasil 2012) were excluded for budget reasons and because the brief's core is 1993-2008; could be added later if a 'known for' test favours them.",
+    "Zonal vs man-marking: no source found; the Itatiaia/Goal pieces describe 'forte marcação' of Dinho and Goiano only in search summaries (not verified).",
+    "Brazil 2002 shape: sources disagree on label (3-5-2, 3-4-1-2, 3-4-2-1, 5-3-2 when defending); Scolari's own account only confirms 'três zagueiros'.",
+    "Emerson injury circumstances differ: FIFA says dislocated shoulder while playing in goal in a kickabout; Scolari (Estadão) says while playing goalkeeper in a warm-up; Metropoles (search summary) says pitch reconnaissance.",
+    "Date of the Palmeiras press conference (palmeiras.com.br ?p=56290, page metadata date 2026-11-01 is wrong; text says Friday 18, Paulistão just ended vs São Bernardo, Copa do Brasil upcoming) is probably March 2011, i.e. second Palmeiras spell, used only as statedView."
+  ],
+  "sources": [
+    {
+      "title": "A campanha do Grêmio na Copa Libertadores de 1995: análise completa | Rádio Itatiaia",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-do-sul/gremio/a-campanha-do-gremio-na-copa-libertadores-de-1995-analise-completa/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "A filosofia de trabalho de Scolari, focada na disciplina tática, na força defensiva e na intensidade, moldou uma equipe competitiva e com forte identidade.",
+      "verified": true
+    },
+    {
+      "title": "A campanha do Grêmio na Copa Libertadores de 1995: análise completa | Rádio Itatiaia",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-do-sul/gremio/a-campanha-do-gremio-na-copa-libertadores-de-1995-analise-completa/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "A mescla de jogadores experientes com jovens talentos, aliada à liderança de Felipão, criou um ambiente propício para buscar o título continental, repetindo o feito de 1983.",
+      "verified": true
+    },
+    {
+      "title": "A campanha do Grêmio na Copa Libertadores de 1995: análise completa | Rádio Itatiaia",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-do-sul/gremio/a-campanha-do-gremio-na-copa-libertadores-de-1995-analise-completa/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Francisco Arce: Lateral-direito paraguaio, exímio cobrador de faltas e cruzamentos.",
+      "verified": true
+    },
+    {
+      "title": "A campanha do Grêmio na Copa Libertadores de 1995: análise completa | Rádio Itatiaia",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-do-sul/gremio/a-campanha-do-gremio-na-copa-libertadores-de-1995-analise-completa/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1995-08-23",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Na partida de volta, no Estádio Atanasio Girardot, em Medellín, a equipe gaúcha soube controlar a pressão adversária. Apesar do gol de Aristizábal para os colombianos, o Grêmio segurou o empate em 1 a 1 com gol de Dinho, de pênalti, conquistando o bicampeonato da América.",
+      "verified": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores | Goal.com Brasil",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "O esquema tático usado por Felipão colocava em campo um 4-2-2-2, esquema bastante usado desde a década de 1980 no Brasil. No entanto, a execução era tão dinâmica que se assemelhava a um 4-2-3-1. Atacante de muita velocidade, Paulo Nunes se movimentava tanto que muitas vezes fechava uma trinca de jogadores atrás de Jardel, a referência no ataque.",
+      "verified": true
+    },
+    {
+      "title": "De Espinosa a Renato: as táticas que levaram o Grêmio ao tri na Libertadores | Goal.com Brasil",
+      "url": "https://www.goal.com/br/not%C3%ADcias/de-espinosa-a-renato-as-taticas-que-levaram-o-gremio-ao-tri-na-libertadores/ickdcdueybti10ytuu8x5rspl",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Atacante de muita velocidade, Paulo Nunes se movimentava tanto que muitas vezes fechava uma trinca de jogadores atrás de Jardel, a referência no ataque.",
+      "verified": true
+    },
+    {
+      "title": "Copero, peleador y campeón: O Grêmio de Felipão se imortalizou no Brasileiro de 96 | Trivela",
+      "url": "https://trivela.com.br/brasil/copero-peleador-y-campeon-o-gremio-de-felipao-se-imortalizou-no-brasileiro-de-96/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2016-12-16",
+      "eventDate": "1996",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Luizão abriu o placar no primeiro tempo, mas, na segunda etapa, os anfitriões balançaram as redes três vezes, com Emerson, Zé Afonso e Luis Carlos Goiano. Três gols de cabeça, uma arma clássica daquela equipe.",
+      "verified": true
+    },
+    {
+      "title": "Copero, peleador y campeón: O Grêmio de Felipão se imortalizou no Brasileiro de 96 | Trivela",
+      "url": "https://trivela.com.br/brasil/copero-peleador-y-campeon-o-gremio-de-felipao-se-imortalizou-no-brasileiro-de-96/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2016-12-16",
+      "eventDate": "1996",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Aquele timaço do Grêmio manteve boa parte da base campeã da Libertadores. Danrlei era o ídolo sob as traves. Arce, um cracaço na lateral. A zaga mantinha a segurança com o capitão Adílson e o paraguaio Rivarola, além de Roger oferecendo potência pela esquerda. Na cabeça de área, sobrava firmeza com a dupla formada por Dinho e Luis Carlos Goiano.",
+      "verified": true
+    },
+    {
+      "title": "Copero, peleador y campeón: O Grêmio de Felipão se imortalizou no Brasileiro de 96 | Trivela",
+      "url": "https://trivela.com.br/brasil/copero-peleador-y-campeon-o-gremio-de-felipao-se-imortalizou-no-brasileiro-de-96/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2016-12-16",
+      "eventDate": "1996",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "As duas equipes abusaram das faltas e o árbitro Sidrack Marinho distribuiu três cartões vermelhos: Leandro Ávila deixou os alviverdes com um a menos, enquanto Paulo Nunes e Clébão se estranharam e foram para os vestiários juntos.",
+      "verified": true
+    },
+    {
+      "title": "Campeão em 99, Arce detalha estilo copeiro de Felipão e elogia Palmeiras | Lance!",
+      "url": "https://www.lance.com.br/palmeiras/campeao-arce-detalha-estilo-copeiro-felipao-elogia.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-08-26",
+      "eventDate": "1999",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Por ser o mesmo treinador, com certeza o estilo é parecido, mas aquele time acho que tinha mais variantes para decidir. Bola parada, jogadas individuais, jogo aéreo forte.",
+      "verified": true
+    },
+    {
+      "title": "Campeão em 99, Arce detalha estilo copeiro de Felipão e elogia Palmeiras | Lance!",
+      "url": "https://www.lance.com.br/palmeiras/campeao-arce-detalha-estilo-copeiro-felipao-elogia.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-08-26",
+      "eventDate": "1999",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Eu fui educado em casa do jeito que ele nos trata, com firmeza, mas com carinho, com correção. Sem agressividade. Ele dava tudo por nós, facilitava e transmitia para o pessoal se doar ao máximo pelo companheiro, pelo time, pelo objetivo.",
+      "verified": true
+    },
+    {
+      "title": "Campeão em 99, Arce detalha estilo copeiro de Felipão e elogia Palmeiras | Lance!",
+      "url": "https://www.lance.com.br/palmeiras/campeao-arce-detalha-estilo-copeiro-felipao-elogia.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-08-26",
+      "eventDate": "1999",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Naquela campanha, começamos sem ganhar do Vasco (1 a 1 no Palestra Itália na ida das oitavas de final), perdemos para o River (1 a 0 na Argentina pela ida da semifinal) e demos a volta em casa. Mesmo na final (contra o Deportivo Cáli), que todos achavam fácil, só vencemos nos pênaltis.",
+      "verified": true
+    },
+    {
+      "title": "Scolari's Seleção of '02 in numbers | FIFA",
+      "url": "https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2002-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "21 players made match appearances for Brazil at Korea/Japan 2002 – a joint-record for a World Cup-winning squad along with Italy from 2006. Only reserve goalkeepers Dida and Rogerio Ceni failed to feature.",
+      "verified": true
+    },
+    {
+      "title": "Scolari's Seleção of '02 in numbers | FIFA",
+      "url": "https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2002-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "3 members of Scolari’s squad had never even won an international cap heading into 2002: Anderson Polga, Kleberson, who became a key figure in their triumph, and Kaká.",
+      "verified": true
+    },
+    {
+      "title": "Scolari's Seleção of '02 in numbers | FIFA",
+      "url": "https://inside.fifa.com/tournaments/mens/worldcup/2002korea-japan/news/scolari-s-selecao-of-02-in-numbers-2925828",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2002-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "The Brazil coach had recently had dinner with the superlatively talented yet equally polemic playmaker in Barcelona, and told him: “I need you at the World Cup – just stay out of trouble.” Scolari subsequently omitted Djalminha and called up Kaka.",
+      "verified": true
+    },
+    {
+      "title": "‘Ronaldo confiou na gente’, afirma Luiz Felipe Scolari sobre a Copa de 2002 | Estadão Conteúdo",
+      "url": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-04-11",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Naquela Copa, a seleção jogou com três zagueiros, incomum ao futebol brasileiro. “O Geninho, técnico do Atlhetico-PR na ocasião, me convenceu de que era seguro e melhor. Então, tínhamos o Roque Júnior, que fazia cobertura como poucos. O Edmilson, que atuou de volante no São Paulo, e o Lúcio, que ia bem quando conseguia dominar a bola”, disse Felipão.",
+      "verified": true
+    },
+    {
+      "title": "‘Ronaldo confiou na gente’, afirma Luiz Felipe Scolari sobre a Copa de 2002 | Estadão Conteúdo",
+      "url": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-04-11",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Ele relembrou a contusão do volante e capitão Emerson às vésperas da estreia com a Turquia. Ele se machucou brincando de goleiro num aquecimento. “Optei pelo Gilberto Silva e ele fez uma ótima Copa.”",
+      "verified": true
+    },
+    {
+      "title": "‘Ronaldo confiou na gente’, afirma Luiz Felipe Scolari sobre a Copa de 2002 | Estadão Conteúdo",
+      "url": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-04-11",
+      "eventDate": "2001-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Ele chegou a essa conclusão após a derrota do Brasil por 1 a 0 para o Uruguai, em Montevidéu, em sua estreia ainda nas Eliminatórias. “Romário não foi bem em campo e ainda tivemos problemas de relacionamento com atletas.” Apesar do grande pedido popular, o Baixinho não foi convocado.",
+      "verified": true
+    },
+    {
+      "title": "‘Ronaldo confiou na gente’, afirma Luiz Felipe Scolari sobre a Copa de 2002 | Estadão Conteúdo",
+      "url": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-04-11",
+      "eventDate": "2002-06-21",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Contra a Inglaterra, quando Ronaldinho Gaúcho foi expulso, Rivaldo recuou para o meio e fez duas ou três funções”, ressaltou Felipão.",
+      "verified": true
+    },
+    {
+      "title": "‘Ronaldo confiou na gente’, afirma Luiz Felipe Scolari sobre a Copa de 2002 | Estadão Conteúdo",
+      "url": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-04-11",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "O Marcos tinha receio de errar. E foram os colegas mais agitados, como Luizão, Vampeta e Edilson que trataram de deixar o Marcos mais calmo e seguro. Com as brincadeiras, tiraram o receio dele.",
+      "verified": true
+    },
+    {
+      "title": "‘Ronaldo confiou na gente’, afirma Luiz Felipe Scolari sobre a Copa de 2002 | Estadão Conteúdo",
+      "url": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-04-11",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "“Ronaldo acreditou na gente, fez tudo o que se pediu a ele e foi um dos melhores da Copa”, disse ao Estado o técnico Luiz Felipe Scolari",
+      "verified": true
+    },
+    {
+      "title": "Qualquer convocação não é unânime e a escolha do elenco de 2002 comprova isso | Jovem Pan",
+      "url": "https://jovempan.com.br/colunistas/thiago-uberreich/qualquer-convocacao-nao-e-unanime-e-a-escolha-do-elenco-de-2002-comprova-isso/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-05-28",
+      "eventDate": "2002-05-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "A maioria dos convocados atuava no Brasil, doze, algo inédito desde a Copa de 1986, no México. A média de idade era de 26,1 anos",
+      "verified": true
+    },
+    {
+      "title": "Qualquer convocação não é unânime e a escolha do elenco de 2002 comprova isso | Jovem Pan",
+      "url": "https://jovempan.com.br/colunistas/thiago-uberreich/qualquer-convocacao-nao-e-unanime-e-a-escolha-do-elenco-de-2002-comprova-isso/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-05-28",
+      "eventDate": "2002-05-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Ricardo Teixeira me chamou para uma reunião antes da convocação. Ele não queria saber os convocados, mas disse assim: ‘Pensa, se convocar determinado jogador e for campeão, sem problemas; se não convocar e não formos campeões, eles te matam. A decisão é sua’. Tudo bem, tomei a decisão e pronto”.",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "During his first stint as Brazil's manager, he initially played a more defensive style, but took a more attacking approach during the 2002 World Cup, using a 3–5–2, 3–4–1–2, or 3–4–2–1 formation with Cafu and Roberto Carlos as attacking wing-backs supporting the front line",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "His side also made use of quick transitions and counter-attacks.",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "With Grêmio and Palmeiras, he often used a 4–4–2 formation, which was solid defensively, and which made use of quick transitions and counter-attacks.",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "2006",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "During the latter tournament, Scolari used a 4–2–3–1 formation with wingers Cristiano Ronaldo and Luís Figo on the left and right flanks respectively, often switching sides and running at opposing defenders.",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "2004/06",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "With Portugal, Scolari also adopted an entertaining playing style based on passing, which highlighted the skill of his players, but also placed an emphasis on tactical preparation, pragmatism, and the psychological aspect of the game.",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "2001-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Despite losing his first match 1–0 to Uruguay, and also suffering a 2–1 defeat to rivals Argentina in September, Scolari eventually guided the team to qualification for the tournament.",
+      "verified": true
+    },
+    {
+      "title": "Portugal 2004: Seis jogos, sete gols, um título | Trivela",
+      "url": "https://trivela.com.br/europa/eurocopa/portugal-2004-seis-jogos-sete-gols-um-titulo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2012-06-08",
+      "eventDate": "2004-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Felipão comandaria um time que, se mantinha alguns da velha guarda que chegara às semifinais na Bélgica/Holanda, como Fernando Couto, Rui Costa, Nuno Gomes, Pauleta e Figo (que teriam ficado melindrados com Scolari, no início do trabalho), apostava alto ora na geração que nascia pelos pés de Cristiano Ronaldo e Tiago, ora em gente já estabelecida, mas que não tivera muitas chances, como Maniche, Miguel, o recém-naturalizado Deco e Ricardo",
+      "verified": true
+    },
+    {
+      "title": "Portugal 2004: Seis jogos, sete gols, um título | Trivela",
+      "url": "https://trivela.com.br/europa/eurocopa/portugal-2004-seis-jogos-sete-gols-um-titulo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2012-06-08",
+      "eventDate": "2004-06-24",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "A quinze minutos do fim, Luiz Felipe Scolari foi para o tudo ou nada: colocou Hélder Postiga no lugar de Figo e, quatro minutos depois, pôs Rui Costa na vaga de Miguel.",
+      "verified": true
+    },
+    {
+      "title": "Portugal 2004: Seis jogos, sete gols, um título | Trivela",
+      "url": "https://trivela.com.br/europa/eurocopa/portugal-2004-seis-jogos-sete-gols-um-titulo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2012-06-08",
+      "eventDate": "2004-06-24",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Daí para a frente, Portugal tentou exercer uma sufocante pressão, mas os britânicos sempre se seguravam.",
+      "verified": true
+    },
+    {
+      "title": "Portugal 2004: Seis jogos, sete gols, um título | Trivela",
+      "url": "https://trivela.com.br/europa/eurocopa/portugal-2004-seis-jogos-sete-gols-um-titulo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2012-06-08",
+      "eventDate": "2004-06-30",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "abrindo o placar aos 26 do 1º, com Cristiano Ronaldo cabeceando um escanteio de Deco.",
+      "verified": true
+    },
+    {
+      "title": "Portugal 2004: Seis jogos, sete gols, um título | Trivela",
+      "url": "https://trivela.com.br/europa/eurocopa/portugal-2004-seis-jogos-sete-gols-um-titulo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2012-06-08",
+      "eventDate": "2004-07-04",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "a Grécia deixava Portugal lambuzar-se no meio, sem sequer fazer um chute ao gol de Ricardo. Mesmo com a perda de Miguel, contundido no final do primeiro tempo, Portugal mantinha o controle.",
+      "verified": true
+    },
+    {
+      "title": "O 3x4x3 porque agora é que vão ser... Dellas | Record",
+      "url": "https://www.record.pt/internacional/competicoes-de-selecoes/europeu/euro-2004/detalhe/o-3x4x3-porque-agora-e-que-vao-ser-dellas",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2004-07-04",
+      "eventDate": "2004-07-04",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Portugal parece, pois, convidado a explorar uma táctica que até é a gosto de Scolari, o 3x4x3 que anule a liberdade de Dellas.",
+      "verified": true
+    },
+    {
+      "title": "O 3x4x3 porque agora é que vão ser... Dellas | Record",
+      "url": "https://www.record.pt/internacional/competicoes-de-selecoes/europeu/euro-2004/detalhe/o-3x4x3-porque-agora-e-que-vao-ser-dellas",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2004-07-04",
+      "eventDate": "2004-07-04",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "quer como zona de envolvimento atacante (Miguel e Nuno Valente têm fôlego suficiente para fazer o \"dois contra um\" junto de Fyssas e Seitaridis), quer como espaço de interrupção do venenoso contra-ataque helénico (ou não fossem Maniche e Deco também jogadores de validade defensiva).",
+      "verified": true
+    },
+    {
+      "title": "O \"timing\" e o olho de Scolari | Record",
+      "url": "https://www.record.pt/opiniao/detalhe/o-timing-e-o-olho-de-scolari",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2008-06-12",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Nunca compreendi a sua aversão a mudar o esquema táctico consoante os adversários (só o faz quando está a perder e nos últimos minutos)",
+      "verified": true
+    },
+    {
+      "title": "O \"timing\" e o olho de Scolari | Record",
+      "url": "https://www.record.pt/opiniao/detalhe/o-timing-e-o-olho-de-scolari",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2008-06-12",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "jamais entendi a \"birra\" com Vítor Baía (ele que sempre garantiu não \"emprenhar pelos ouvidos\" vetou um jogador que nunca treinou) ou algumas convocatórias por simpatia (ignorando o momento de forma dos atletas).",
+      "verified": true
+    },
+    {
+      "title": "O \"timing\" e o olho de Scolari | Record",
+      "url": "https://www.record.pt/opiniao/detalhe/o-timing-e-o-olho-de-scolari",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2008-06-12",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "algumas convocatórias por simpatia (ignorando o momento de forma dos atletas)",
+      "verified": true
+    },
+    {
+      "title": "Luiz Felipe Scolari: How the Enigmatic 'Big Phil' Succeeded as Much as He Failed on the Big Stage | SI",
+      "url": "https://www.si.com/soccer/2019/07/03/luiz-felipe-scolari-how-enigmatic-big-phil-succeeded-much-he-failed-big-stage",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-07-03",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "\"Pro-Zone stats in one hand, Bible in the other. Scolari is a throwback and a model of modern management, a mass of contradictions leading to tantrums and triumphs in equal measure.\"",
+      "verified": true
+    },
+    {
+      "title": "Felipão diz que bom e barato depende da qualidade dos jogadores | palmeiras.com.br",
+      "url": "https://www.palmeiras.com.br/?p=56290",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-03-18",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Em 1995, o Grêmio vendeu o Agnaldo (zagueiro) para o Flamengo, e de lá vieram o Paulo Nunes e o Magno. Com a sobra do dinheiro, conseguimos contratar o Dinho e o Luís Carlos Goiano (volantes). E ainda com o restante, foi contratado o Rivarola (zagueiro paraguaio).",
+      "verified": false
+    },
+    {
+      "title": "Luiz Felipe Scolari | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "2004",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "The midfielders were paramount to his sides' offensive strategy, as they were required to make runs through central areas.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "É uma opção minha. Sou técnico da seleção e quero ter a oportunidade de dizer: escolhi esses jogadores por entender que eles são os melhores para esse momento. Agora, na base da força e da pressão, não. Ninguém vai me fazer mudar de ideia",
+      "date": "2002-05-06",
+      "source": "https://jovempan.com.br/colunistas/thiago-uberreich/qualquer-convocacao-nao-e-unanime-e-a-escolha-do-elenco-de-2002-comprova-isso/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Romário não foi bem em campo e ainda tivemos problemas de relacionamento com atletas.",
+      "date": "2020-04-11",
+      "source": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "provenance": "primary"
+    },
+    {
+      "quote": "O Geninho, técnico do Atlhetico-PR na ocasião, me convenceu de que era seguro e melhor. [três zagueiros]",
+      "date": "2020-04-11",
+      "source": "https://www.tribunadosertao.com.br/geral/2020/04/11/310524-ronaldo-confiou-na-gente-afirma-luiz-felipe-scolari-sobre-a-copa-de-2002",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I will go down in history as the Brazil coach who lost to Honduras – it's horrible. But Honduras played better, they deserved their win.",
+      "date": "2001-07-12",
+      "source": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "A formação de um time mais modesto depende muito da qualidade dos atletas. Às vezes, não é porque o jogador tenha um valor elevado que seja o melhor jogador. Podemos encontrar jogadores de muito boa qualidade em times de menor expressão, ou então que não são tão reconhecidos, e fazer com que eles cresçam e se tornem grandes",
+      "date": "2011-03-18",
+      "source": "https://www.palmeiras.com.br/?p=56290",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Se eu mudo, é pelo bem do Palmeiras, é pelas necessidades do momento.",
+      "date": "2011-03-18",
+      "source": "https://www.palmeiras.com.br/?p=56290",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Yes, that is one of the reasons [financial reason for joining Chelsea]",
+      "date": "2008-06-15",
+      "source": "https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7b46490cb7-9a76f279daab-1000--ruthless-scolari-reaps-rewards/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/lembra-do-teu-gremio-tite-o-3-5-2-campeao-da-copa-do-brasil-2001-como-alternativa-para-a-selecao/amp/",
+      "reason": "404"
+    },
+    {
+      "url": "https://tds-images.thedailystar.net/2004/07/02/d40702040437.htm",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7b44c2007a-bb74ae2ec515-1000--portugal-to-shuffle-the-deck",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7b1f403347-d47a8c1d56c7-1000--scolari-states-intent",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7b45170877-2f3078291e5b-1000--brazil-backs-big-phil",
+      "reason": "not-accessible"
+    }
+  ],
+  "spellsCounted": [
+    {
+      "club": "Grêmio",
+      "start": "1993",
+      "end": "1996-12",
+      "reason": "Copa do Brasil 1994, Libertadores 1995, Brasileirão 1996; Trivela confirms he left for Júbilo Iwata after the 1996 title. Exact days not found."
+    },
+    {
+      "club": "Palmeiras",
+      "start": "1997-05",
+      "end": "2000",
+      "reason": "Copa do Brasil 1998, Libertadores 1999; Trivela says he returned to Brazil in May 1997 to coach Palmeiras. End date not found."
+    },
+    {
+      "club": "Brazil national team",
+      "start": "2001-06",
+      "end": "2002-08",
+      "reason": "2002 World Cup; appointed June 2001, resigned August 2002 (Wikipedia, day not given)."
+    },
+    {
+      "club": "Portugal national team",
+      "start": "2002-11",
+      "end": "2008-06",
+      "reason": "Euro 2004 final, 2006 World Cup semi-final; appointed November 2002 (Wikipedia), left after Euro 2008 for Chelsea."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Chelsea",
+      "start": "2008-07-01",
+      "end": "2009-02",
+      "reason": "no title, short; style coverage not gathered."
+    },
+    {
+      "club": "Brazil national team (second)",
+      "start": "2012-11",
+      "end": "2014-07",
+      "reason": "Confederations Cup 2013 but 7-1 defeat; not researched within budget, see openQuestions."
+    },
+    {
+      "club": "Palmeiras (second)",
+      "start": "2010",
+      "end": "2012",
+      "reason": "Copa do Brasil 2012; not researched within budget. One press conference kept only as statedView."
+    },
+    {
+      "club": "Guangzhou Evergrande",
+      "start": "2015",
+      "end": "2017",
+      "reason": "Chinese/Asian titles, no tactical coverage found; later spells (Atlético-MG, Athletico-PR etc.) also excluded."
+    }
+  ],
+  "influences": [
+    "Geninho (convinced him of the back three in 2002, stated by Scolari)"
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "low",
+    "reason": "Only tier C sources (Brazilian/Portuguese press, FIFA.com, Wikipedia); no tier A-B tactical study found; no explicit source on zonal vs man-marking or pressing structure; spell dates partial."
+  }
+}

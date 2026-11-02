@@ -1,0 +1,406 @@
+{
+ "id": "dynamo-kyiv-1974-75",
+ "catalog": "team",
+ "name": "Dynamo Kyiv 1974-75",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1974-04-12",
+  "end": "1975-10-06"
+ },
+ "scopeNote": "Dynamo Kyiv under Valeriy Lobanovskyi with Oleg Bazilevich: 1974 Soviet title and Soviet Cup, 1974/75 Cup Winners' Cup (final v Ferencvaros, Basel, 14 May 1975, 3-0) and 1975 Super Cup v Bayern (9 Sep 1975, 1-0 away; 6 Oct 1975, 2-0 home). Period start is the first 1974 league match (12 Apr 1974, Wikipedia, unverified by digest) and end is the second Super Cup leg (6 Oct 1975), not the end of the 1975 Soviet season. Sources call the style pressing and universality (universalism); no source in the digest uses zonal or man-marking wording. 1985-86 Dynamo and USSR national team facts excluded (TFT final-1986 paragraphs and Blizzard Baltacha quotes from 1978 on are not used). Insidefutbol wrongly calls the 1975 trophy the UEFA Cup.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Zonal vs man-marking: only the Lovchev pressing-trigger description (undated, retrospective) was found; no explicit label for 1974-75.",
+  "Bazilevich: Insidefutbol says Lobanovskyi was head coach and invited Bazilevich; Blizzard, Sport-Express and Veremeev present them as a duo. Listed as co-coach in managers[]; formal title not confirmed.",
+  "Set-pieces: no in-period evidence found.",
+  "1974 Soviet title and Soviet Cup are asserted by TFT (league and cup double) but the start date 12 April 1974 comes from a Wikipedia table; year of Lobanovskyi's start (1973 per Insidefutbol vs 1974 per Blizzard 1973-74) differs.",
+  "TFT final lineup (Kolotov, Matvienko, Troshkin in midfield/back) differs slightly from the club lineup (Rudakov, Troshkin, Matviyenko, Reshko, Fomenko, Muntian, Konkov, Buriak, Kolotov, Onyshchenko, Blokhin)."
+ ],
+ "managers": [
+  {
+   "managerId": "valeriy-lobanovskyi",
+   "start": "1974-04-12",
+   "end": "1975-10-06"
+  },
+  {
+   "managerId": "oleg-bazilevich",
+   "start": "1974-04-12",
+   "end": "1975-10-06"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-05-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "They pressed from the off, closing down space when out of possession and limiting opportunities for their gifted Hungarian counterparts to work attacks of their own.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-05-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Like those great Dutch sides of the time, Dynamo valued possession, asserted themselves when with the ball and made life difficult for the opposition when without.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-05-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "There are different ways to interpret the system Dynamo used, which in itself is a testimony to their interchanging movement. Volodymyr Onyshchenko and Leonid Buryak played behind the lone striker, Oleh Blokhin",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-05-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "The full-backs, Vladimir Troshkin and Viktor Matvienko, got forward at pace throughout.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-05-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Vladimir Muntyan, Anatoliy Konkov and captain Viktor Kolotov combined skill with ceaseless running, intercepting and harrying as a midfield three.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Aware of the capabilities of that Bayern side, Dynamo sat deeper, inviting the Germans on so that they may be hit on the counter.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Blokhin was sent away down the left in a quick transition following incessant Bayern pressure.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "He was happy to adapt his team to the rigours of the specific match at hand. If he felt his team would be better off sitting deeper, they would.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Lobanovskyi was instantly seen frantically motioning for his players to get back. He wanted them to see the match out, and they did, winning 1-0 in Munich before a 2-0 home victory",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1973/74",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Zelentsov was responsible for the preparation of individual players, using innovative computerised testing to measure and correct their fitness levels and predicted performance.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Zelentsov following Lobanovskyi when Dynamo Kyiv came calling for his services in 1973.",
+   "verified": false,
+   "note": "eventDate 1973 precedes profilePeriod"
+  },
+  {
+   "title": "Beskov v Lobanovskyi (The Blizzard)",
+   "url": "https://theblizzard.co.uk/?p=4115",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-12-11",
+   "eventDate": "1973/74",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Valeriy Lobanovskyi and Oleh Bazilevich gained prominence through their collaboration with Anatoliy Zelentsov",
+   "verified": true
+  },
+  {
+   "title": "Beskov v Lobanovskyi (The Blizzard)",
+   "url": "https://theblizzard.co.uk/?p=4115",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-12-11",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Then Blokhin, the leftsided forward, runs to cut off the rightback, [Volodymyr] Onyshchenko dashes on the other side to cut off the pass to the left-back, [Viktor] Kolotov goes straight for the centre-back",
+   "verified": true
+  },
+  {
+   "title": "Beskov v Lobanovskyi (The Blizzard)",
+   "url": "https://theblizzard.co.uk/?p=4115",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-12-11",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Konkov moves forward to take over from Kolotov, covering yet another passing lane… they cut off all the players closest to the ball!",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Beskov v Lobanovskyi (The Blizzard)",
+   "url": "https://theblizzard.co.uk/?p=4115",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-12-11",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Remarkable success followed as Dynamo swept domestic and European trophies, winning the Cup Winners’ Cup and the European Super Cup in 1975.",
+   "verified": true
+  },
+  {
+   "title": "Dynamo Kyiv: 50 years since first European Cup triumph (dynamo.kiev.ua)",
+   "url": "https://dynamo.kiev.ua/en/news/670603-50-years-since-dynamos-first-european-cup-triumph-on-may-14-1975-the-kyiv-team-won-the-cup-winners-cup-amp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-14",
+   "eventDate": "1975-05-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "For the final match, Lobanovskyi fielded the following lineup: Rudakov, Troshkin, Matviyenko, Reshko, Fomenko, Muntian, Konkov, Buriak, Kolotov, Onyshchenko, Blokhin. The Dynamo players played without substitutions and won with a score of 3:0.",
+   "verified": true
+  },
+  {
+   "title": "Dynamo Kyiv: 50 years since first European Cup triumph (dynamo.kiev.ua)",
+   "url": "https://dynamo.kiev.ua/en/news/670603-50-years-since-dynamos-first-european-cup-triumph-on-may-14-1975-the-kyiv-team-won-the-cup-winners-cup-amp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-14",
+   "eventDate": "1974/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "The Kyiv team successively defeated Bulgarian CSKA Sofia (1:0 and 1:0), German Eintracht Frankfurt (3:2 and 2:1), Turkish club Bursaspor (1:0, 2:0), and Dutch PSV (3:0 and 1:2).",
+   "verified": true
+  },
+  {
+   "title": "October 6, 1975 UEFA Super Cup (dynamo.kiev.ua)",
+   "url": "https://dynamo.kiev.ua/en/news/699084-october-6-in1975-dynamo-having-beaten-munichs-bayern-became-the-holder-ofthe-uefa-super-cup-video",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-06",
+   "eventDate": "1975-10-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "After defeating Bayern in Munich in the first leg (1:0), on October 6 at home, the Kyiv team convincingly secured an overall victory — 3:0 on aggregate!",
+   "verified": false
+  },
+  {
+   "title": "1974 FC Dynamo Kyiv season (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/1974_FC_Dynamo_Kyiv_season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-03-10",
+   "eventDate": "1974-04-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "| 12 April 1974 1 | Zorya Voroshilovgrad | 1–1 | Dynamo Kyiv | Luhansk |",
+   "verified": false
+  },
+  {
+   "title": "Sport-Express dossier on Anatoliy Konkov",
+   "url": "https://www.sport-express.net/newspaper/2001-04-07/8_2/",
+   "tier": "C",
+   "language": "ru",
+   "articleDate": "2001-04-07",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "в киевском \"Динамо\" оказалась предопределенной одним, причем совершенно рядовым, матчем чемпионата страны - в Ростове-на-Дону против СКА в 1975 году.",
+   "verified": true
+  },
+  {
+   "title": "Sport-Express dossier on Anatoliy Konkov",
+   "url": "https://www.sport-express.net/newspaper/2001-04-07/8_2/",
+   "tier": "C",
+   "language": "ru",
+   "articleDate": "2001-04-07",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "отодвинули на позицию либеро Конькова. При этом ему, футболисту с кругозором классного хавбека, вменили в обязанность не просто банально подчищать грешки партнеров по обороне, отбивая мяч куда подальше, но поставили сверхзадачу: начинать атаки своей команды.",
+   "verified": true
+  },
+  {
+   "title": "Sport-Express dossier on Anatoliy Konkov",
+   "url": "https://www.sport-express.net/newspaper/2001-04-07/8_2/",
+   "tier": "C",
+   "language": "ru",
+   "articleDate": "2001-04-07",
+   "eventDate": "1974",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Олег Базилевич, у которого футболист проработал три сезона в \"Шахтере\", как раз в это же время объединился в \"Динамо\" с Лобановским",
+   "verified": true
+  },
+  {
+   "title": "Sport-Express dossier on Anatoliy Konkov",
+   "url": "https://www.sport-express.net/newspaper/2001-04-07/8_2/",
+   "tier": "C",
+   "language": "ru",
+   "articleDate": "2001-04-07",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Хорошо еще, что Лобановский перед началом церемонии меня успокоил: \"Не переживай. Мы восстановим справедливость\".",
+   "verified": true
+  },
+  {
+   "title": "Veremeev interview (fcdynamo.com)",
+   "url": "https://fcdynamo.com/en/news/vladimir_veremeev_v_1975_godu_dinamo_nazvali_luchshey_komandoy_mira",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-14",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "That year 12-13 players were Dynamo and USSR first team regulars.",
+   "verified": true
+  },
+  {
+   "title": "Veremeev interview (fcdynamo.com)",
+   "url": "https://fcdynamo.com/en/news/vladimir_veremeev_v_1975_godu_dinamo_nazvali_luchshey_komandoy_mira",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-14",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Our young coaches Valeriy Lobanovskyi and Oleh Bazylevych could deprive us of complexes about Western clubs.",
+   "verified": true
+  },
+  {
+   "title": "Veremeev interview (fcdynamo.com)",
+   "url": "https://fcdynamo.com/en/news/vladimir_veremeev_v_1975_godu_dinamo_nazvali_luchshey_komandoy_mira",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-14",
+   "eventDate": "1975-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "The only thing I would have changed is my red card in the semifinal against PSV.",
+   "verified": true
+  },
+  {
+   "title": "Legend of Valeryi Lobanovsky Part 2 (Inside Futbol)",
+   "url": "https://insidefutbol.com/2008/07/19/legend-of-valeryi-lobanovsky-part-2/589",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-07-19",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Immediately he called his former teammate and friend Oleh Bazilevich, who was working with Shakhtar Donetsk, and asked Bazilevich to join him at the wheel of the Dynamo machine.",
+   "verified": false,
+   "note": "eventDate 1973 precedes profilePeriod"
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "If an opponent has found a counter-play, then we need to find a new strategy. That is the dialectic of the game.",
+   "date": "2016-05-30",
+   "source": "These Football Times 2016-05-30, quoting Lobanovskyi",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://gameofthepeople.com/2020/09/03/dynamo-kiev-1975-the-soviet-school-of-science/",
+   "reason": "403"
+  },
+  {
+   "url": "https://beyondthelastman.com/2016/01/12/dynamo-kiev-1975-1986-eleven/",
+   "reason": "403"
+  },
+  {
+   "url": "https://beyondthelastman.com/2022/03/09/art-and-engineering-dynamo-kyivs-european-dominance/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.obozrevatel.com/sport-oboz/kakoj-god-stal-luchshim-v-istorii-dinamo.htm",
+   "reason": "403"
+  },
+  {
+   "url": "https://sport24.ru/football/article-50-let-nazad-klub-iz-sssr-vpervyye-vzyal-yevrokubok-legendarnyy-lobanovskiy-proslavilsya-na-ves-mir-pobeda-dinamo-v-kubke-kubkov-197475",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Viktor Maslov (pressing, 4-4-2)",
+  "Anatoliy Zelentsov (scientific preparation)"
+ ],
+ "gaps": {
+  "dimensions": [
+   "build-up",
+   "set-pieces",
+   "stated-view"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier B coverage of pressing, Bayern counter and Zelentsov, but the Lovchev press description is retrospective, no marking label, no build-up or set-piece evidence, and several tier C sources."
+ }
+}

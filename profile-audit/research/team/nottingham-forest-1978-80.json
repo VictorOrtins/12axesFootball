@@ -1,0 +1,578 @@
+{
+ "id": "nottingham-forest-1978-80",
+ "catalog": "team",
+ "name": "Nottingham Forest 1978/79-1979/80 (Brian Clough, two European Cups)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1978-08-19",
+  "end": "1980-05-28"
+ },
+ "scopeNote": "Nottingham Forest under Brian Clough from the first league match of 1978/79 (home 1-1 v Tottenham, 19 August 1978, taken from a search summary) to the 1980 European Cup final win over Hamburg (28 May 1980). The 12 August 1978 Charity Shield (5-0 v Ipswich) is treated as an exhibition and excluded. Includes the 1979 final (Malmo, 30 May 1979) and the 1980 final. Peter Taylor was assistant, mentioned in evidence only. The 1977/78 title season is out of period: facts about it (4-3-3, Shilton and Burns signings) are kept unverified. Sources call the style simple and direct, built on a solid defence, Robertson's crossing and counter-attacks; no source here uses 'zonal' or 'man-marking' for the side. Tactical coverage is thin and mostly retrospective (players' interviews, tier B-C); no tier A tactical study was found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "No source found describing the marking system (zonal vs man); only Burns/Lloyd on Keegan in 1980 is documented.",
+  "Shape in 1978-80 (4-4-2 vs 4-3-3) not verified in period; the only 4-3-3 mention is for 1977/78 and FM sites claim 4-4-2.",
+  "Pressing is not documented for this side.",
+  "Start date of the first competitive match (19 Aug 1978) and the Charity Shield date (12 Aug 1978) come from a search summary and Wikipedia knowledge, not a mined page.",
+  "The 1979 first-leg quote date (11 April 1979 v Cologne) is from memory.",
+  "Whether the 1980 final was played with a 4-4-2 or five across midfield: only the blog states five in midfield after Mills dropped back."
+ ],
+ "managers": [
+  {
+   "managerId": "brian-clough",
+   "start": "1978-08-19",
+   "end": "1980-05-28"
+  }
+ ],
+ "sources": [
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Forest had no option other than to spread five across midfield.",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "With the absence of Francis, assistant manager Peter Taylor admitted that Forest would have to change their game plan drastically. “If you’re a betting man get your money on us to win 1-0,” Taylor said",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "the fact that Forest kept Keegan quiet was a telling factor on the night.",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "“Defending well is just as important as attacking well. We weren’t lucky, we were good.”",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "A scramble after a corner saw the ball strike Ivan Buljan five yards out and go wide.",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "“We’ve got a little fat guy that will turn him inside out,” he noted.",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Travelling to Madrid with only a 15-man squad, Forest could not even fill the allocated five spaces on the substitutes bench.",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "The task of filling the boots of Francis would fall to 18-year-old Gary Mills.",
+   "verified": true
+  },
+  {
+   "title": "That 1980s Sports Blog: 1980 European Cup final Nottingham Forest v Hamburg",
+   "url": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-25",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Clough left Francis devastated when he told his £1 million man not to attend the final on crutches.",
+   "verified": true
+  },
+  {
+   "title": "Il Fatto Quotidiano: Brian Clough diventa mito 40 anni fa",
+   "url": "https://www.ilfattoquotidiano.it/2020/05/28/brian-clough-diventa-mito-40-anni-fa-vince-la-seconda-coppa-dei-campioni-alla-guida-del-nottingham-forest-ed-entra-nella-storia/5816670/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-28",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Difesa e contropiede. Ancora e ancora e ancora. Solidità e ripartenze.",
+   "verified": true
+  },
+  {
+   "title": "Il Fatto Quotidiano: Brian Clough diventa mito 40 anni fa",
+   "url": "https://www.ilfattoquotidiano.it/2020/05/28/brian-clough-diventa-mito-40-anni-fa-vince-la-seconda-coppa-dei-campioni-alla-guida-del-nottingham-forest-ed-entra-nella-storia/5816670/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-28",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Keegan viene seguito, viene raddoppiato, viene contrastato.",
+   "verified": true
+  },
+  {
+   "title": "The Scotsman: John McGovern on leading a band of Scots to 1980 European Cup glory",
+   "url": "https://www.scotsman.com/heritage-and-retro/retro/john-mcgovern-leading-band-scots-1980-european-cup-glory-nottingham-forest-2866770",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-28",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "He was able to produce the cross for the goal in the 1979 final because he could take two defenders out by going to his left.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Scotsman: John McGovern on leading a band of Scots to 1980 European Cup glory",
+   "url": "https://www.scotsman.com/heritage-and-retro/retro/john-mcgovern-leading-band-scots-1980-european-cup-glory-nottingham-forest-2866770",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-28",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "John could do it with both feet.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Scotsman: John McGovern on leading a band of Scots to 1980 European Cup glory",
+   "url": "https://www.scotsman.com/heritage-and-retro/retro/john-mcgovern-leading-band-scots-1980-european-cup-glory-nottingham-forest-2866770",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-28",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "We went to Mallorca for a week’s retreat before it and there were only two rules: no training, and no curfew",
+   "verified": true
+  },
+  {
+   "title": "The Scotsman: John McGovern on leading a band of Scots to 1980 European Cup glory",
+   "url": "https://www.scotsman.com/heritage-and-retro/retro/john-mcgovern-leading-band-scots-1980-european-cup-glory-nottingham-forest-2866770",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-28",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Despairing he worried about being “rusty”, Peter Shilton begged for a training session in the lead-up to the final",
+   "verified": true
+  },
+  {
+   "title": "The Scotsman: John McGovern on leading a band of Scots to 1980 European Cup glory",
+   "url": "https://www.scotsman.com/heritage-and-retro/retro/john-mcgovern-leading-band-scots-1980-european-cup-glory-nottingham-forest-2866770",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-28",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "We had lost through injury our main striker Trevor Francis",
+   "verified": true
+  },
+  {
+   "title": "The Scotsman: Leading a life of Brian",
+   "url": "https://www.scotsman.com/sport/football/leading-a-life-of-brian-2474842",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2003-01-26",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Go out there, pass the ball and perform.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Scotsman: Leading a life of Brian",
+   "url": "https://www.scotsman.com/sport/football/leading-a-life-of-brian-2474842",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2003-01-26",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Kenny Burns removed his false teeth and grimaced at Kevin Keegan.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Scotsman: Leading a life of Brian",
+   "url": "https://www.scotsman.com/sport/football/leading-a-life-of-brian-2474842",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2003-01-26",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Take them out, Kenneth.",
+   "verified": false,
+   "note": "1978 League Cup final replay (March 1978) is before profilePeriod"
+  },
+  {
+   "title": "Late Tackle Magazine: How Clough and Forest pulled off miracles",
+   "url": "https://latetacklemagazine.com/?p=858",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-12-07",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Malmo were doubling up on me, and it was my first opportunity to get a run at them.",
+   "verified": true
+  },
+  {
+   "title": "Late Tackle Magazine: How Clough and Forest pulled off miracles",
+   "url": "https://latetacklemagazine.com/?p=858",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-12-07",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "I wanted his approval and when I got that my game went up 20 per cent.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "he got the ball out wide, put a wonderful cross in",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "If you look across the box there are four of us attacking: one at the near post, another one in the middle",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Larry Lloyd kicked their centre-forward, Dieter Müller, and he went off injured after 15 minutes I think",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Everybody said: “You’ve got no chance away from home.” Apart from Peter Taylor who said: “If you’re writing us off, think again.”",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Clough took our medals off us in the dressing room after.",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Before a game, I had this thing where I didn’t shave.",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Two months earlier Brian Clough had shocked the British football by signing Trevor Francis from Birmingham City for a record £1m.",
+   "verified": true
+  },
+  {
+   "title": "Champions Journal: Forest fire",
+   "url": "https://www.champions-journal.com/1000/forest-fire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "They triumphed with possession-based, on-the-deck football",
+   "verified": false,
+   "note": "Passage spans the 1977 promotion and 1977/78 title as well as the European Cups; not dated to the profile period"
+  },
+  {
+   "title": "Champions Journal: History repeats itself (McGovern interview)",
+   "url": "https://www.champions-journal.com/interview/nottingham-forest-malmo-european-cup-brian-clough",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "there were times when he spoke to me, even as the captain",
+   "verified": false,
+   "note": "not seen in digest in this form"
+  },
+  {
+   "title": "Champions Journal: History repeats itself (McGovern interview)",
+   "url": "https://www.champions-journal.com/interview/nottingham-forest-malmo-european-cup-brian-clough",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“Go and get Peter (Taylor) and I a whiskey and a cigar”",
+   "verified": false,
+   "note": "Home league matches; paraphrased from digest, quote uses different wording; kept unverified"
+  },
+  {
+   "title": "World Football Index: John McGovern interview",
+   "url": "https://worldfootballindex.com/2021/11/john-mcgovern-brian-clough-peter-taylor-derby-county-and-conquering-europe-with-nottingham-forest/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-19",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "We never changed the tactics much under Brian.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Football Index: Martin O'Neill interview",
+   "url": "https://worldfootballindex.com/2022/11/martin-oneill-on-nottingham-forest-brian-clough-celtic-aston-villa-and-working-with-roy-keane/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "our quarter-final opponents in the second European Cup success were Dynamo Berlin. While we knew that they were a fine side, we relied on first-hand accounts from scouting",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Football Index: Martin O'Neill interview",
+   "url": "https://worldfootballindex.com/2022/11/martin-oneill-on-nottingham-forest-brian-clough-celtic-aston-villa-and-working-with-roy-keane/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Everything was tailored around what we could do to hurt the opposition rather than worrying about their perceived strengths.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "FourFourTwo: When Nottingham Forest ruled Europe",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "A flexible 4-3-3 allowed Robertson to push deep on the left",
+   "verified": false,
+   "note": "Describes the 1977/78 title season, before profilePeriod"
+  },
+  {
+   "title": "OffTheBall: Trevor Francis shares his Brian Clough memories",
+   "url": "https://www.offtheball.com/trevor-francis-on-brian-cloughs-forest-284402",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-11-12",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "signing mid-season and registration rules meant the first continental game he was eligible for was the final against Malmo.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "OffTheBall: Trevor Francis shares his Brian Clough memories",
+   "url": "https://www.offtheball.com/trevor-francis-on-brian-cloughs-forest-284402",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-11-12",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Clough had huge, huge respect for officials and he always used to instill this into his players",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Planet Football: An ode to Peter Taylor",
+   "url": "https://www.planetfootball.com/nostalgia/an-ode-to-peter-taylor-a-man-who-history-has-done-a-great-disservice",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Converting Kenny Burns from a wayward forward at Birmingham into a terrifying-but-cultured centre-half was a visionary decision",
+   "verified": false,
+   "note": "Conversion took place in 1977, before profilePeriod"
+  },
+  {
+   "title": "LeftLion: One Night in Munich",
+   "url": "https://leftlion.co.uk/read/2019/may/nottingham-forest-european-cup-win-1979",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-06-05",
+   "eventDate": "1978/79",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "I hope anybody’s not stupid enough to write us off.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Defending well is just as important as attacking well.",
+   "date": "1980-05-28",
+   "source": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "provenance": "attributed",
+   "note": "The 1980 final press conference date is approximate; Il Fatto Quotidiano gives no primary source"
+  },
+  {
+   "quote": "You win something once and people say it is all down to luck. You win it twice and it shuts the buggers up.",
+   "date": "1980-05-28",
+   "source": "https://that1980ssportsblog.blogspot.com/2020/05/1980-european-cup-nottingham-forest-v-hamburg.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I hope anybody's not stupid enough to write us off.",
+   "date": "1979-04-11",
+   "source": "https://leftlion.co.uk/read/2019/may/nottingham-forest-european-cup-win-1979",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Non mi preoccupa Keegan, mi preoccupa più l'assenza di Trevor Francis.",
+   "date": "1980-05-27",
+   "source": "https://www.ilfattoquotidiano.it/2020/05/28/brian-clough-diventa-mito-40-anni-fa-vince-la-seconda-coppa-dei-campioni-alla-guida-del-nottingham-forest-ed-entra-nella-storia/5816670/",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2220793.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://gameofthepeople.com/2018/01/08/great-reputations-nottingham-forest-under-clough",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/newsid=1488414.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://extratime.com/articles/14425/oneill-recalls-forest-european-cup-victory",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/0230-0e94d3c75702-a1eaf9b76b5e-1000--perfil-brian-clough/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.pressreader.com/uk/scottish-daily-mail/20200526/283081301422078",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [
+   "build-up",
+   "pressing"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Mostly tier C and retrospective player interviews; tactical dimensions (shape, pressing, marking, build-up) have little in-period evidence."
+ }
+}

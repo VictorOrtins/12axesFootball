@@ -1,0 +1,532 @@
+{
+  "id": "francisco-maturana",
+  "catalog": "manager",
+  "name": "Francisco \"Pacho\" Maturana",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1987",
+    "end": "2001"
+  },
+  "scopeNote": "Counted spells: Atlético Nacional 1987-1990 (1989 Copa Libertadores), Colombia 1987-1990 (Copa America 1987 third place, Italia 90), Colombia 1993-1994 (USA 94 qualifying incl. 5-0 v Argentina, 1994 World Cup) and Colombia 2001 (Copa America winners). Only years were found for start and end of each spell (no source gave day/month), so dates are partial and the validator-facing profilePeriod uses years. Style names used by sources: 'fútbol total' (Dutch model, via Ricardo De León/Luis Cubilla), 'marcación en zona' ('una marcación en zona, pero con un contenido holístico'), 'toque' (the popular label 'toque-toque' for his teams; Maturana says it was possession with progression, not horizontal tapping). Excluded: Once Caldas 1986-87 (pre-period, no tactical coverage), Real Valladolid 1990-92 (ninth place, sacked in relegation fight; no tactical coverage found), América de Cali 1992 (league title, but a single season with no tactical coverage found), Atlético Madrid 1994 (a few months), Ecuador 1995-97 (no World Cup), Millonarios, Costa Rica, Peru, Al-Hilal, Colombia 2002-03 and later jobs. Most tactical evidence is from retrospective interviews and a 1993 match analysis; no match-by-match source for the 1989 Nacional team or the 2001 team beyond Maturana's own words.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Exact start/end days of each spell (Nacional 1987-90, Colombia 1987-90, 1993-94, 2001) were not found in any read page; only years. Wikipedia infobox years (1987-1990 and 1993-1994) came from a search summary, not a read page.",
+    "Whether América de Cali 1992 (Colombian league title) and Real Valladolid 1990-92 should be counted: excluded here for lack of tactical coverage, could be added if sources are found.",
+    "Dates of quotes in The Blizzard (cited via Planet Football, FourFourTwo, La Grinta and Trivela) are 'years later' and not dated; primary Blizzard issue not found, so these are attributed.",
+    "Set-pieces: no source found for the spells.",
+    "The 2001 team is covered only by Maturana's own retrospective words (Coaches' Voice), no independent tactical analysis.",
+    "statedView dates for the Blizzard quote use the earliest read page (FourFourTwo 2018-09-05); the Blizzard issue date was not found."
+  ],
+  "spellsCounted": [
+    {
+      "club": "Atlético Nacional",
+      "start": "1987",
+      "end": "1990",
+      "reason": "1989 Copa Libertadores, first for a Colombian club; base of the national team; zonal 'fútbol total' style (month/day unknown; the end in 1990 is the year of the Valladolid move per El País/Semana, not a dated departure)"
+    },
+    {
+      "club": "Colombia national team",
+      "start": "1987",
+      "end": "1990",
+      "reason": "Copa America 1987 third place, first World Cup in 28 years, Italia 90 round of 16 (month/day unknown)"
+    },
+    {
+      "club": "Colombia national team",
+      "start": "1993",
+      "end": "1994",
+      "reason": "USA 94 qualifying won 5-0 in Buenos Aires, 24 straight wins per La Grinta, World Cup first-round exit (month/day unknown)"
+    },
+    {
+      "club": "Colombia national team",
+      "start": "2001",
+      "end": "2001",
+      "reason": "Copa America 2001 won without conceding a goal; Maturana called it a team ahead of its time (month/day unknown)"
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Real Valladolid",
+      "start": "1990",
+      "end": "1992",
+      "reason": "Ninth in the first season, sacked in a relegation fight; no tactical coverage found"
+    },
+    {
+      "club": "América de Cali",
+      "start": "1992",
+      "end": "1992",
+      "reason": "League title but a single season; no tactical coverage found"
+    },
+    {
+      "club": "Atlético Madrid",
+      "start": "1994",
+      "end": "1994",
+      "reason": "Few months only"
+    },
+    {
+      "club": "Ecuador national team",
+      "start": "1995",
+      "end": "1997",
+      "reason": "Did not reach World Cup, no tactical coverage read"
+    },
+    {
+      "club": "Colombia national team",
+      "start": "2002",
+      "end": "2003",
+      "reason": "Not a title spell, no coverage read"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aux origines du Toque: la Colombie 1993-1994 de Francisco Pacho Maturana",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Francisco « Pacho » Maturana, opte pour un 4-4-2 assez proche d’un diamant durant cette période.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque: la Colombie 1993-1994 de Francisco Pacho Maturana",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "En phase de sortie de balle, les défenseurs centraux sont sollicités pour faire tourner le ballon, pour assurer la conservation de celui-ci. (...) c’est souvent les latéraux ou les milieux Gomez, Alvarez ou bien même Valderrama qui décrochent à tour de rôle pour assurer les premières passes.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque: la Colombie 1993-1994 de Francisco Pacho Maturana",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "il n’est pas un fervent partisan d’un pressing tout terrain. Celui-ci se met en place par séquence en fonction du contexte du match.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque: la Colombie 1993-1994 de Francisco Pacho Maturana",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "il a tenté d’imposer une forme de « modernité » défensive incarnée à travers la défense en zone.",
+      "verified": true
+    },
+    {
+      "title": "\"Jugué el fútbol que quise\": Pacho Maturana, 30 años después",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Cuando aparece el tema zonal, con los profesores Luis Cubillas y Ricardo de León, me sentí cómodo, e implementé en Atlético Nacional, que fue el origen de todo, ese juego. (...) Una marcación en zona, pero con un contenido holístico.",
+      "verified": true
+    },
+    {
+      "title": "\"Jugué el fútbol que quise\": Pacho Maturana, 30 años después",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1990-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "planteamos un partido para ganar. ¿Cómo? Con nuestro fútbol, posesión de pelota y transición en el momento justo.",
+      "verified": true
+    },
+    {
+      "title": "\"Jugué el fútbol que quise\": Pacho Maturana, 30 años después",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1990-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "El gol no nació de una casualidad. Nació de una recuperación de pelota con presión, y a pesar del tiempo, la jugada no se gestó con desesperación o un puntazo arriba, sino a partir de lo que los muchachos sabían hacer",
+      "verified": true
+    },
+    {
+      "title": "\"Jugué el fútbol que quise\": Pacho Maturana, 30 años después",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1990-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Nos fuimos para Villa Pallavicini, nos juntamos, lloramos, nos dijimos las cosas, nos abrazamos, y al otro día ya estábamos fuertes y queríamos jugar contra Alemania. Sabíamos que el empate nos daba la posibilidad de clasificar, pero planteamos un partido para ganar.",
+      "verified": true
+    },
+    {
+      "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993",
+      "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Inspired by the Dutch, his team pressed high, dominated possession and utilised their pace and creativity up front.",
+      "verified": true
+    },
+    {
+      "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993",
+      "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "We were a team that never gave the ball away to anyone,\" striker Adolfo Valencia told FIFA.com. \"We knew that it was up to Argentina to dictate the pace, though, so we sat back and hit them on the break.",
+      "verified": true
+    },
+    {
+      "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993",
+      "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "a young Oscar Cordoba in goal stood as tall as anyone that night. The 23-year-old likely wouldn’t even have been playing had Rene Higuita not been forced to watch the match on TV from a jail cell",
+      "verified": true
+    },
+    {
+      "title": "A forensic analysis of Argentina 0-5 Colombia, 1993",
+      "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-07-06",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Rincon found some space, slightly deeper and near the right touchline. He spotted Asprilla running into that same space behind the defence and set him away with a raking cross-field pass.",
+      "verified": true
+    },
+    {
+      "title": "A forensic analysis of Argentina 0-5 Colombia, 1993",
+      "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-07-06",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "The game started with similar intensity, both sides looking to press the other high up.",
+      "verified": true
+    },
+    {
+      "title": "Maturana defiende a Zidane: \"James y su entorno tienen que resolver sus cosas\"",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Nuestra idea futbolística era la de Holanda, el fútbol total, donde no son diez jugadores y un portero, sino once jugadores de campo. (...) Entonces, cuando el equipo estaba en el terreno del rival, todo el mundo iba progresando, no dejaba distancias largas.",
+      "verified": true
+    },
+    {
+      "title": "Maturana defiende a Zidane: \"James y su entorno tienen que resolver sus cosas\"",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Nosotros quitábamos la pelota y atacábamos… Entonces, ahí es donde viene la posesión, pero la posesión con progresión, nosotros teníamos progresión, porque si el rival estaba armado, ¿para qué sirve la velocidad?",
+      "verified": true
+    },
+    {
+      "title": "Maturana defiende a Zidane: \"James y su entorno tienen que resolver sus cosas\"",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Cuando Carlos Bilardo fue entrenador de la Selección lo nuestro era desactivar al rival. En mi época de entrenador con Nacional y la Selección, era al contrario, salíamos a crear.",
+      "verified": true
+    },
+    {
+      "title": "Maturana defiende a Zidane: \"James y su entorno tienen que resolver sus cosas\"",
+      "url": "https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-07-30",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "la gente de la Federación Colombiana decidió que Nacional fuera la base de la Selección que iba a los Preolímpicos en Bolivia. No clasificamos a Seúl 88, pero le ganamos a Brasil y Argentina.",
+      "verified": true
+    },
+    {
+      "title": "O realismo mágico do futebol colombiano não foi Gabo quem escreveu: 70 anos de Pacho Maturana",
+      "url": "https://trivela.com.br/america-do-sul/o-realismo-magico-do-futebol-colombiano-nao-foi-gabo-quem-escreveu-70-anos-de-pacho-maturana/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-02-16",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Levou alguns jogadores de Manizales, bem como aproveitou os pratas da casa, a exemplo de Andrés Escobar e René Higuita. Montou um esquadrão baseado apenas em ‘criollos', colombianos",
+      "verified": true
+    },
+    {
+      "title": "O realismo mágico do futebol colombiano não foi Gabo quem escreveu: 70 anos de Pacho Maturana",
+      "url": "https://trivela.com.br/america-do-sul/o-realismo-magico-do-futebol-colombiano-nao-foi-gabo-quem-escreveu-70-anos-de-pacho-maturana/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-02-16",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "“Eu queria deixar as histórias em quadrinho de lado. Eu dei poesia a eles. Vamos ler Mario Benedetti, disse aos jogadores. Logo falei para melhorarem a relação com as pessoas e a maneira como se vestiam.",
+      "verified": true
+    },
+    {
+      "title": "O realismo mágico do futebol colombiano não foi Gabo quem escreveu: 70 anos de Pacho Maturana",
+      "url": "https://trivela.com.br/america-do-sul/o-realismo-magico-do-futebol-colombiano-nao-foi-gabo-quem-escreveu-70-anos-de-pacho-maturana/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-02-16",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Horas antes do jogo contra os Estados Unidos, o treinador recebeu uma mensagem em seu hotel. Uma declaração de que, se escalasse Gabriel Jaime Gómez, sua vida estava em risco, assim como a do próprio atleta e de sua família. ‘Barrabás' não jogou.",
+      "verified": true
+    },
+    {
+      "title": "O realismo mágico do futebol colombiano não foi Gabo quem escreveu: 70 anos de Pacho Maturana",
+      "url": "https://trivela.com.br/america-do-sul/o-realismo-magico-do-futebol-colombiano-nao-foi-gabo-quem-escreveu-70-anos-de-pacho-maturana/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-02-16",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "também tivemos a seriedade e o trabalho do manizaleño e o paisa na posse da ordem, que eram muito bons na zona de marcação. Não foi ao acaso que escolhi cada jogador.",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "1989",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "In the same way the Netherlands had up to nine players from Ajax, we had up to nine players from Nacional.",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Among all of the advice I was given, every manager agreed on one thing. “Pacho, you have to ringfence your environment.” So I did.",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "2001",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "That national team had a soul. Elkin Murillo, Freddy “Totono” Grisales, Giovanni Hernández, Víctor Hugo Aristizabal, Gerardo Bedoya. It was those boys who brought home the Copa America",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "2001",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "We won every match, and without conceding a single goal. It was a team ahead of their time.",
+      "verified": true
+    },
+    {
+      "title": "Agradecido al fútbol - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/pacho-maturana-colombia",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2019-06-14",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Hasta ese momento el plan de juego de la selección consistía en tratar de desactivar al rival. Terminabas los partidos cansado de correr, llorando, con la sensación de que no habías jugado.",
+      "verified": true
+    },
+    {
+      "title": "Agradecido al fútbol - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/pacho-maturana-colombia",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2019-06-14",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "\"Para mí la táctica es el alma del fútbol. No sé si es una idea demasiado romántica, pero entiendo que el fútbol debe tener un sentido\"",
+      "verified": true
+    },
+    {
+      "title": "Agradecido al fútbol - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/pacho-maturana-colombia",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2019-06-14",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“Vamos a jugar al fútbol. Vamos a buscar un orden que nos permita desordenarnos cuando tengamos el balón”, nos dijimos.",
+      "verified": true
+    },
+    {
+      "title": "Agradecido al fútbol - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/pacho-maturana-colombia",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2019-06-14",
+      "eventDate": "2001",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "\"Si quieres encontrar un parentesco con lo que es la táctica actual hay que mirar a Colombia 2001. Un equipo adelantado a su tiempo\"",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque: la Colombie 1993-1994 de Francisco Pacho Maturana",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "la première qualité qui saute aux yeux du téléspectateur lorsqu’il regarde les matchs : la qualité technique très élevée partagée par la globalité des joueurs sur le terrain.",
+      "verified": true
+    },
+    {
+      "title": "National revival",
+      "url": "https://www.wsc.co.uk/the-archive/national-revival/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-11-21",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "He encouraged his players to seek further education and counselled them and their partners on how to dress and speak.",
+      "verified": true
+    },
+    {
+      "title": "National revival",
+      "url": "https://www.wsc.co.uk/the-archive/national-revival/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-11-21",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "He melded together the pressing techniques of the influential Uruguayan coach José Ricardo De León with a short passing style focused on the retention of possession, but with the ever-present threat of an explosion of power and pace in the final third.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Nuestra idea futbolística era la de Holanda, el fútbol total, donde no son diez jugadores y un portero, sino once jugadores de campo.",
+      "date": "2020-07-30",
+      "source": "Semana interview (https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Una marcación en zona, pero con un contenido holístico.",
+      "date": "2020-06-06",
+      "source": "El País Cali interview (https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Para mí la táctica es el alma del fútbol. No sé si es una idea demasiado romántica, pero entiendo que el fútbol debe tener un sentido",
+      "date": "2019-06-14",
+      "source": "Coaches' Voice, first-person account (https://es.coachesvoice.com/pacho-maturana-colombia)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Vamos a buscar un orden que nos permita desordenarnos cuando tengamos el balón",
+      "date": "2019-06-14",
+      "source": "Coaches' Voice (https://es.coachesvoice.com/pacho-maturana-colombia)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "En ese tiempo ridiculizaban al toque, ahora usted ve que todo el mundo habla de la posesión.",
+      "date": "2020-07-30",
+      "source": "Semana interview (https://www.semana.com/deportes/articulo/maturana-defiende-a-zidane-james-y-su-entorno-tienen-que-resolver-sus-cosas/690431)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Before [I arrived in] 1987, we had never found our own way. We used a style of play to express what Colombia the country was all about: people who are known for being happy, people who are dreamers, people who are easily inspired.",
+      "date": "2018-09-05",
+      "source": "The Blizzard (issue undated, not found), earliest read appearance FourFourTwo 2018-09-05, also Planet Football",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Si quieres encontrar un parentesco con lo que es la táctica actual hay que mirar a Colombia 2001. Un equipo adelantado a su tiempo",
+      "date": "2019-06-14",
+      "source": "Coaches' Voice (https://es.coachesvoice.com/pacho-maturana-colombia)",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.elespectador.com/deportes/futbol-colombiano/francisco-maturana-y-sus-frases-iconicas/",
+      "reason": "404"
+    }
+  ],
+  "influences": [
+    "Ricardo De León",
+    "Luis Cubilla",
+    "Aníbal Maño Ruiz",
+    "Rinus Michels / Dutch total football",
+    "Arrigo Sacchi",
+    "Osvaldo Zubeldía (his coach as a player)"
+  ],
+  "gaps": {
+    "dimensions": [
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Two tier A Coaches' Voice first-person accounts and one tier B tactical analysis agree on zonal 'fútbol total' with short passing, but most evidence is retrospective interviews or press; no set-piece source; dates only to year; 1989 Nacional and 2001 teams lack independent analysis."
+  }
+}

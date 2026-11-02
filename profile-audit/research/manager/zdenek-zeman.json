@@ -1,0 +1,885 @@
+{
+ "id": "zdenek-zeman",
+ "catalog": "manager",
+ "name": "Zdeněk Zeman",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1989-07-01",
+  "end": "2012-06-30"
+ },
+ "scopeNote": "Counted spells: Foggia 1989-94, Lazio 1994-Jan 1997, Roma 1997-99, Pescara 2011-12. Exact appointment and departure days were not found in the mined pages; start/end dates are approximations (summer 1989, June 2011, June 2012) and partial. Style is called Zemanlandia (Foggia dei Miracoli): 4-3-3 with zonal marking, high line, offside trap, pressing, sweeper-keeper and full-backs/forwards overloading; Pescara described as 'anarchy'. Popular label 'ultra-offensive' omits that sources say he drilled zone defending ('applies defence by attacking'). Partial dates in spellsExcluded (years/months) are approximate, taken from digests, not verified by day. Calcio e Finanza style facts are unverified (2014 article about Cagliari, outside counted spells; same style described in counted spells by other sources). Excluded: Licata, Parma, Messina, Fenerbahce, Napoli, Salernitana, Avellino, Lecce, Roma 2012-13, Cagliari, Lugano, Pescara 2017-18/2023-24, Foggia 2021-22 (no title or recognised style coverage, failures or short stints).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact dates not verified in digest: Foggia start (summer 1989), Lazio start (1994) and sacking (January 1997, after loss to Bologna), Roma 1997-99 (end summer 1999), Pescara start (June 2011) and end; profilePeriod uses approximations.",
+  "Licata (1983-86, promotion to C1) and Roma 2012-13 considered but excluded; Roma 2012-13 quotes (Blitz 2013) kept only in statedView.",
+  "Zeman's Lazio shape: Lazio Stories says he changed from 4-3-3 once at Lazio; not detailed.",
+  "Doping accusations of 1998 (Roma) are context, not tactics; Calcio e Finanza dates them to 'Lecce 1998', which conflicts with other sources (Roma).",
+  "Two TFT pieces: 2018 text found in a 2016 version too; Il Fatto Quotidiano URL mined returned unrelated content and was discarded.",
+  "Primary dated sources for statedView are mostly secondary quotations; the 2012 Blizzard interview and La bellezza non ha prezzo (2022) were not mined."
+ ],
+ "sources": [
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Zemanlandia would not have been possible without young players. (...) And in Foggia, just as in Licata, the exuberance of youth was integral to the formation of a team welded to his preferences.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The intense pressing and high defensive line he sought required an inherent indefatigability, a willingness and ability to run and move constantly.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The intense pressing and high defensive line he sought required an inherent indefatigability, a willingness and ability to run and move constantly. It also required a goalkeeper comfortable in coming off his line to sweep up any loose balls, thwart opposition attackers and build possession.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "It also required a goalkeeper comfortable in coming off his line to sweep up any loose balls, thwart opposition attackers and build possession.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Zeman was a hard taskmaster, asking everything of his players to adhere to his system. (...) Thus, his youngsters were tested, but in return they gained an acute tactical awareness and technical mastery that served them well as a team and, in many cases, on an individual level as their careers progressed.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "The players have to follow him, put themselves at his beck and call: tactically and psychologically. This is the reason why Zeman works better with youngsters than with well-known players.” And this had a lot to do with Foggia’s success in the early 1990s.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "At the age of 20, Francesco Mancini was promoted to first choice goalkeeper upon Zeman’s return to the club in 1989. He would, over time, grow comfortable with the specific demands of his role within a unique system, where he was called upon to be permanently alert and confident in possession, proactive rather than reactive.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Pasquale Padalino became a regular fixture in the centre of defence as a 19-year-old. (...) Meanwhile, the attacking trident was made up of two 23-year-olds born within a week of each other in Signori and Baiano, and Roberto Rambaudi, who had joined the club at the same age in ’89.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "in his first season in Rome, he gave more opportunities to an elegant teenage centre-back by the name of Alessandro Nesta (...) The board wanted to send him out on loan to Serie C, but I persuaded them to keep him.”",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "His refined technique and ball-playing capabilities would not go unrecognised by the Czech coach, who threw the youngster in at the deep end without hesitation. By 19, Nesta was a regular in Lazio’s starting line-up.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Totti had been a frequent starter for three seasons by the time he came under Zeman’s influence, but had yet to hit double figures. He scored 14 goals in 1997/98, 16 in 1998/99, and took both the number 10 shirt and the club captaincy in the process.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "A devotee of the 4-3-3 system with zonal marking and pressing all over the pitch, having players whose stamina could keep them running for the ninety minutes and beyond was essential.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The way that they hounded opponents for the ball was relentless, pioneering a way of playing that was a couple of decades ahead of its time.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "often shocking teams with the ferocity and intensity of their pressing.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Given the aggressive pressing and high defensive line that Zeman demanded, he needed a goalkeeper who wasn’t simply a good shot-stopper but also had the speed and presence of mind to sweep up behind his defenders.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Mancini could perform his role to perfection, making him one of the first sweeper-keepers; an oddity in football of that era but ultimately a pioneer of a new way of playing that role.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Foggia were expected to play once they won the Serie B in 1991. After all they were a small club managed by an unknown and with a squad full of inexperienced players, none of whom was even a remotely familiar name. But instead of doing what many others had done before them and cowered when put in front of the mighty elite of Italian football, Foggia went on the attack",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "As before, Foggia went for quality at a reduced price and, at Zeman’s prompting, brought in three players from Eastern Europe: Igor Shalimov, Igor Kolyvanov and Dan Petrescu.",
+   "verified": true
+  },
+  {
+   "title": "The birth of Zemanlandia (These Football Times)",
+   "url": "https://thesefootballtimes.co/2014/10/30/the-birth-of-zemanlandia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-10-30",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Another of Zeman’s favoured training methods was having players run up and down the terracing of the Pino Zaccheria stadium. (...) All of this physical work was necessary for Zeman’s systems to work.",
+   "verified": true
+  },
+  {
+   "title": "Tactics: Pure Attacking Football in Pescara (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/02/tactics-pure-attacking-football-in-pescara/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "When you watch Pescara play it’s easy to describe their setup as a relatively conventional 4-3-3 with fluid movement from back to front. (...) if I was forced to describe this sytem in a word that word would be anarchy.",
+   "verified": true
+  },
+  {
+   "title": "Tactics: Pure Attacking Football in Pescara (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/02/tactics-pure-attacking-football-in-pescara/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Pescara ignore any sense of balance as their players pour forwards in waves creating overloads all the way across the pitch but leaving the team exposed defensively.",
+   "verified": true
+  },
+  {
+   "title": "Tactics: Pure Attacking Football in Pescara (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/02/tactics-pure-attacking-football-in-pescara/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Once more Zdenek Zeman has built a side based around absolute attacking football with little apparent consideration to the defensive phase of play.",
+   "verified": true
+  },
+  {
+   "title": "Tactics: Pure Attacking Football in Pescara (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/02/tactics-pure-attacking-football-in-pescara/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Zdenek Zeman has also come to believe wholeheartedly in the vibrancy of youth. Loan signings such as Ciro Immobile, from Juventus, and Lorenzo Insigne, from Napoli, have shown that they have real ability to go alongside their apparent potential. It’s a homegrown player that perhaps provides the key to the side though with 19 year old playmaker Marco Verratti dictating the waves of attacking pressure",
+   "verified": true
+  },
+  {
+   "title": "Tactics: Pure Attacking Football in Pescara (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/02/tactics-pure-attacking-football-in-pescara/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "players being encouraged to be expressive and to attempt things that more tactically disciplined coaches would reproach them for.",
+   "verified": true
+  },
+  {
+   "title": "Legend of Calcio: Zdenek Zeman (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/04/legend-of-calcio-zdenek-zeman/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-04-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "He introduced the 4-3-3 to Serie A and whilst most teams preferred to pack their midfield the Foggia coach preferred to pack his attack.",
+   "verified": true
+  },
+  {
+   "title": "Legend of Calcio: Zdenek Zeman (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/04/legend-of-calcio-zdenek-zeman/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-04-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "they will be expected to play as high up the pitch as possible, relying on the offside trap, an extreme form of zonal marking and the goalkeeper to deal with any incursions that they fail to repel.",
+   "verified": true
+  },
+  {
+   "title": "Legend of Calcio: Zdenek Zeman (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/04/legend-of-calcio-zdenek-zeman/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-04-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "When out of possession, the Czech asks the nearest players to crowd out the opposition in an attempt to strangle the space around him so that he is more likely to lose the ball.",
+   "verified": true
+  },
+  {
+   "title": "Legend of Calcio: Zdenek Zeman (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/04/legend-of-calcio-zdenek-zeman/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-04-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "the most important elements of his ‘defence’ are the full backs and they are tasked with tirelessly running the flanks and provide support not only to the midfield but to the trident attack.",
+   "verified": true
+  },
+  {
+   "title": "Legend of Calcio: Zdenek Zeman (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/04/legend-of-calcio-zdenek-zeman/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-04-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "He expects as many players as possible to fill the final third of the pitch in order to maximise the chances his team create by outnumbering their opponent.",
+   "verified": true
+  },
+  {
+   "title": "Manager Series: Zdenek Zeman (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/manager-series-zdenek-zeman",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-02-03",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "The manager who never changed his 4-3-3 formation no matter what (he did once with Lazio though)",
+   "verified": true
+  },
+  {
+   "title": "Manager Series: Zdenek Zeman (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/manager-series-zdenek-zeman",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-02-03",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "He chose players that could thrive in his 4-3-3 formation. They did not necessarily need to have a footballing pedigree but it was important they could be functional to his tactical vision.",
+   "verified": true
+  },
+  {
+   "title": "Manager Series: Zdenek Zeman (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/manager-series-zdenek-zeman",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-02-03",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "One thing however is training a bunch of players who were not that famous and another is telling experienced pros that how they had trained for years in pre-season was completely wrong. Zeman was bound to have problems in trying to change Lazio’s mentality.",
+   "verified": true
+  },
+  {
+   "title": "Manager Series: Zdenek Zeman (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/manager-series-zdenek-zeman",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-02-03",
+   "eventDate": "1996/97",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "The players seemed tired of following Zeman. Occasionally spectacular, it was difficult to keep the rhythm that the manager wanted and, in the end, Lazio were unable to deliver the goods. Zeman was sacked after losing to Bologna at home in January and replaced by Dino Zoff.",
+   "verified": true
+  },
+  {
+   "title": "Manager Series: Zdenek Zeman (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/manager-series-zdenek-zeman",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-02-03",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "The positives were that Roma played very well arriving 4th, for the first time in years Roma finishing above Lazio, the players thriving with the new 4-3-3 formation such as Francesco Totti and Cafu",
+   "verified": true
+  },
+  {
+   "title": "Manager Series: Zdenek Zeman (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/manager-series-zdenek-zeman",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-02-03",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In 2011 he joined Pescara. With a bunch of very young players (Ciro Immobile, Marco Verrati and Lorenzo Insigne) the old magic was back and Pescara were promoted to Serie A.",
+   "verified": true
+  },
+  {
+   "title": "January 5, 1992: Lazio Foggia 5-2 (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/january-5-1992-lazio-foggia-5-2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-01-05",
+   "eventDate": "1992-01-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "beating Foggia's assiduous offside trap, raced towards goal and hammered an unstoppable shot past Franco Mancini. 1-0 to Lazio who had taken advantage of Zeman's characteristic high defensive line with a perfectly timed move.",
+   "verified": true
+  },
+  {
+   "title": "January 5, 1992: Lazio Foggia 5-2 (Lazio Stories)",
+   "url": "https://www.laziostories.com/post/january-5-1992-lazio-foggia-5-2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-01-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Foggia were managed by Zdenek Zeman (later to coach both Roman teams) and played a very aggressive and modern 4-3-3 style of football.",
+   "verified": true
+  },
+  {
+   "title": "Zdenek Zeman, un boemo in Sardegna (Calcio e Finanza)",
+   "url": "https://www.calcioefinanza.it/2014/06/26/zdenek-cagliari-sardegna-zeman/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-06-26",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Attacco asfissiante modellato su di un 4-3-3 con esterni molto alti, marcatura a zona e fuorigioco cercato costantemente. Questo è il suo calcio e non lo ha mai abbandonato indipendentemente dalla squadra allenata.",
+   "verified": false
+  },
+  {
+   "title": "Zdenek Zeman, un boemo in Sardegna (Calcio e Finanza)",
+   "url": "https://www.calcioefinanza.it/2014/06/26/zdenek-cagliari-sardegna-zeman/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-06-26",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Non è assolutamente vero, infatti, che il boemo non preveda schemi difensivi. Solo che li applica…attaccando!",
+   "verified": false
+  },
+  {
+   "title": "Zdeněk Zeman: Bohemian Rhapsody in Serie A (Vice)",
+   "url": "https://vice.com/en/article/zdenek-zeman-bohemian-rhapsody-in-serie-a",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-03-11",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Zeman decided to employ an extremely aggressive calico style based on a high-tempo 4-3-3 formation, offside tactics, and frenzied movements of players and ball.",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman: Bohemian Rhapsody in Serie A (Vice)",
+   "url": "https://vice.com/en/article/zdenek-zeman-bohemian-rhapsody-in-serie-a",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-03-11",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Under the relentless 4-3-3 of Zeman, the genius of Totti was most evident, and the result was fourth and then fifth in the following seasons, bringing some outstanding football with it.",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman & Pescara: the enduring legacy of the 2011/12 promotion season (Gentleman Ultra)",
+   "url": "https://www.gentlemanultra.com/?p=200",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-04-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Zeman is famous not only for his attacking style of play but for consistently playing a 4-3-3 system throughout his career, and that was exactly what he implemented at Pescara.",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman & Pescara: the enduring legacy of the 2011/12 promotion season (Gentleman Ultra)",
+   "url": "https://www.gentlemanultra.com/?p=200",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-04-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "recognising Verratti’s sublime technique and vision, Zeman moved him back into the heart of the midfield three, to operate as the team’s regista, a role he has since made his own for both Paris Saint-Germain and Italy.",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman & Pescara: the enduring legacy of the 2011/12 promotion season (Gentleman Ultra)",
+   "url": "https://www.gentlemanultra.com/?p=200",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-04-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "The Pescara squad consisted of a mix of youth prospects and Italian journeymen. But Zeman brought with him a couple of players who had played under him at Foggia, including Lorenzo Insigne (on loan from Napoli). He also recruited Carlo Pinsoglio and Ciro Immobile, both loanees from Juventus.",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman & Pescara: the enduring legacy of the 2011/12 promotion season (Gentleman Ultra)",
+   "url": "https://www.gentlemanultra.com/?p=200",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-04-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Immobile playing through the middle as a number 9, and Insigne and Marco Sansovini as inverted wingers alongside him.",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman & Pescara: the enduring legacy of the 2011/12 promotion season (Gentleman Ultra)",
+   "url": "https://www.gentlemanultra.com/?p=200",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-04-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“He told me ‘You just worry about attacking’,” Insigne later recalled, “he advised me to play like I was in the the street and just enjoy myself.”",
+   "verified": true
+  },
+  {
+   "title": "Zdeněk Zeman & Pescara: the enduring legacy of the 2011/12 promotion season (Gentleman Ultra)",
+   "url": "https://www.gentlemanultra.com/?p=200",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-04-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "“The year with Zeman changed my life. Before, I only went back to defend if someone was injured.",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Il boemo è un fautore del gioco a zona ed è convinto che il 4-3-3 sia il modulo che copre meglio il campo.",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Il Foggia di Zeman era una squadra che si difendeva altissima anche con il suo portiere Franco Mancini, il primo vero ‘portiere libero’ italiano, il che voleva dire potenzialmente due cose: scoprirsi e prendere diversi goal, ma anche recuperare palla e ripartire quando gli avversari erano ancora in proiezione offensiva.",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "recuperare palla e ripartire quando gli avversari erano ancora in proiezione offensiva.",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Così come imposto dal credo zemaniano, difficilmente arretra nella propria metà campo, ma la fascia destra la copre meravigliosamente, sempre coadiuvato da Shalimov e Petrescu",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "E’ cresciuto nelle giovanili del Torino, ma prima che il tecnico boemo intravedesse in lui l’uomo giusto per completare il reparto avanzato che aveva in mente, la sua era stata una carriera che si era sviluppata esclusivamente tra C2 e C1.",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "La volontà di Zeman è quella di proporre una formazione che se la giochi a viso aperto con tutti e che sfoggi questa sua spavalderia anche contro gli avversari di maggior rango.",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "I giocatori del Foggia, pur di guardare tutti gli avversari negli occhi, e tra l’altro in un periodo nel quale la Serie A era ricca come non mai di campioni, si sottopongono a sedute di allenamento massacranti. Tanto fondo, tanti gradoni",
+   "verified": true
+  },
+  {
+   "title": "A San Siro l'inizio della favola di Zemanlandia (Lettere Meridiane)",
+   "url": "https://letteremeridiane.org/2022/09/a-san-siro-linizio-della-leggenda-di-zemanlandia/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-09-01",
+   "eventDate": "1991-09-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Quattro difensori in linea, tre centrocampisti e davanti la premiata ditta Rambaudi-Baiano-Signori, ha fatto vedere i sorci verdi a Bergomi e compagni.” A stupire il commentatore della Rai fu la “zona pura” praticata da Zeman, “con dieci uomini raggruppati in trenta metri”.",
+   "verified": true
+  },
+  {
+   "title": "A San Siro l'inizio della favola di Zemanlandia (Lettere Meridiane)",
+   "url": "https://letteremeridiane.org/2022/09/a-san-siro-linizio-della-leggenda-di-zemanlandia/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-09-01",
+   "eventDate": "1991-09-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Assieme a Matrecano, Zeman mandò in campo per altri sei debuttanti in serie A.",
+   "verified": true
+  },
+  {
+   "title": "A San Siro l'inizio della favola di Zemanlandia (Lettere Meridiane)",
+   "url": "https://letteremeridiane.org/2022/09/a-san-siro-linizio-della-leggenda-di-zemanlandia/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-09-01",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "segnalandosi per il gioco spumeggiante e una zona aggressiva",
+   "verified": true
+  },
+  {
+   "title": "A San Siro l'inizio della favola di Zemanlandia (Lettere Meridiane)",
+   "url": "https://letteremeridiane.org/2022/09/a-san-siro-linizio-della-leggenda-di-zemanlandia/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-09-01",
+   "eventDate": "1991-09-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Non direi che abbiamo dato lezioni, abbiamo cercato di giocare il nostro calcio, sono contento se a qualcuno è piaciuto come gioca la squadra",
+   "verified": true
+  },
+  {
+   "title": "Rambaudi, la freccia del trio delle meraviglie di Zemanlandia (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/rambaudi-trio-zemanlandia/xvqqkdm8ygz1k7hr8dks1r43",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-01-12",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Ai giocatori non piace difendere, loro sono felici quando attaccano”.",
+   "verified": true
+  },
+  {
+   "title": "Zemanlandia: the truth behind the cult (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/12/10/zemanlandia-the-truth-behind-the-cult",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-10",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“I want my team to entertain the fans and … [give] them strong emotional responses.”",
+   "verified": true
+  },
+  {
+   "title": "Legend of Calcio: Zdenek Zeman (Forza Italian Football)",
+   "url": "https://forzaitalianfootball.com/2012/04/legend-of-calcio-zdenek-zeman/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-04-05",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "When out of possession, the Czech asks the nearest players to crowd out the opposition in an attempt to strangle the space around him so that he is more likely to lose the ball.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "“In Italy, managers are afraid that losing a game might mean losing their job. That’s why most teams … tend to not make the opponents play, rather than play themselves,” (...) “You have to make every effort … in order not to lose. That’s miles away from my mentality.”",
+   "date": "2012",
+   "source": "The Blizzard interview, as quoted in These Football Times (2018-12-10)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“I want my team to entertain the fans and … [give] them strong emotional responses.”",
+   "date": "2012",
+   "source": "These Football Times (2018-12-10)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“Da piccolo a Praga mi dissero ‘prendi quella posizione’ e mai ‘prendi quell’uomo’: da quel giorno non ho più cambiato idea, sarebbe stata la zona il mio modulo di gioco ideale.”",
+   "date": "2014-06-26",
+   "source": "Calcio e Finanza, 2014-06-26",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“Se la gente va allo stadio, dopo aver già dormito per metà settimana, e si addormenta pure lì, è finita. Il calcio deve suscitare emozioni, dare la sveglia….”",
+   "date": "2014-06-26",
+   "source": "Calcio e Finanza, 2014-06-26",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“Ai giocatori non piace difendere, loro sono felici quando attaccano”.",
+   "date": "2023-01-12",
+   "source": "Goal.com Italia, 2023-01-12",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“Non direi che abbiamo dato lezioni, abbiamo cercato di giocare il nostro calcio, sono contento se a qualcuno è piaciuto come gioca la squadra”",
+   "date": "1991-09-01",
+   "source": "Lettere Meridiane (2022-09-01), post-match TV interview Foggia-Inter",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“Without Lazio I’m a destroyed man, I have never done so badly. I’m disappointed but not with myself. I’ve always given everything I had to Lazio. I must have made a few mistakes: the main one was that I wasn’t convincing enough”",
+   "date": "1997-01",
+   "source": "Lazio Stories (2023-02-03), after sacking",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“Servono regole e disciplina. Senza queste componenti, non potrà mai esserci una squadra”.",
+   "date": "2013-01-29",
+   "source": "Blitzquotidiano, 2013-01-29",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "“this sport is hugely popular not because of big business or pharmacies but because in every corner of the world there is a child having fun with a football…”",
+   "date": "2012-04-05",
+   "source": "Forza Italian Football, 2012-04-05",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://sport.sky.it/calcio/foggia-zeman-formazione-calciatori",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.ilfattoquotidiano.it/2012/02/01/quando-mano-boemo/188239/",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Cestmir Vycpalek (uncle)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Foggia",
+   "start": "1989-07-01",
+   "end": "1994-06-30",
+   "reason": "Zemanlandia: Serie B 1990/91 title, three Serie A seasons, sweeper-keeper, 4-3-3 zone, youth"
+  },
+  {
+   "club": "Lazio",
+   "start": "1994-07-01",
+   "end": "1997-01-31",
+   "reason": "2nd and 3rd place finishes, Nesta, sacked January 1997 (days approximate)"
+  },
+  {
+   "club": "Roma",
+   "start": "1997-07-01",
+   "end": "1999-06-30",
+   "reason": "4th and 5th place, Totti (days approximate)"
+  },
+  {
+   "club": "Pescara",
+   "start": "2011-06-01",
+   "end": "2012-06-30",
+   "reason": "Serie B title 2011/12, Immobile/Insigne/Verratti (days approximate)"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Licata",
+   "start": "1983",
+   "end": "1986",
+   "reason": "lower-league, little tactical coverage; origin of the style"
+  },
+  {
+   "club": "Roma",
+   "start": "2012-06",
+   "end": "2013-02",
+   "reason": "failed return, sacked Feb 2013"
+  },
+  {
+   "club": "Pescara",
+   "start": "2017-02",
+   "end": "2017-05",
+   "reason": "relegation job, not known for"
+  },
+  {
+   "club": "Parma",
+   "start": "1987",
+   "end": "1987",
+   "reason": "7 games"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Multiple tier B-C sources agree on style for Foggia and Pescara; Lazio and Roma coverage thin; no tier A source and stated-view mostly secondary quotations."
+ }
+}

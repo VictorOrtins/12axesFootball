@@ -1,0 +1,698 @@
+{
+ "id": "spain-2008-12",
+ "catalog": "team",
+ "name": "Spain national team 2008-12",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2008-06-10",
+  "end": "2012-07-01"
+ },
+ "scopeNote": "Spain national team from the Euro 2008 opener (10 June 2008, v Russia) to the Euro 2012 final (1 July 2012). Euro 2008 under Luis Aragones (spell cut at the 29 June 2008 final); World Cup 2010 and Euro 2012 under Vicente del Bosque (appointed 15 July 2008 per search summary of Wikipedia-derived page, first match 20 Aug 2008 per RFEF summary; neither date verified on a mined page). Style named by sources: possession game / toque de balon (Aragones, Del Bosque kept it); popular label tiki-taka is used loosely by press, Del Bosque said the players were not tiki-taka Talibans (search summary only). Euro 2012 shape is often called 4-6-0 (Football Espana) but FourFourTwo argues the final was not 4-6-0. No Barcelona club matches and no 2013 Confederations Cup or 2014 World Cup events used. Marking, pressing triggers and build-up detail are thin in readable sources.",
+ "managers": [
+  {
+   "managerId": "luis-aragones",
+   "start": "2008-06-10",
+   "end": "2008-06-29"
+  },
+  {
+   "managerId": "vicente-del-bosque",
+   "start": "2008-07-15",
+   "end": "2012-07-01"
+  }
+ ],
+ "ambiguities": [],
+ "openQuestions": [
+  "Del Bosque appointment date (11 March 2008 announced, 15 July 2008 confirmed) not verified on a mined page",
+  "Aragones to Del Bosque handover: Aragones left after the 29 June 2008 final; exact contract end not verified",
+  "Pressing, marking (zonal vs man) and build-up for the 2010 side lack a readable tier A-B source",
+  "UEFA pages for Euro 2008 squad selection were not accessible"
+ ],
+ "sources": [
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Spain became the first side to win the European Championships with the same starting XI in both their opening game and the final, but while the names were identical, Fabregas’ role was completely different",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Del Bosque started the tournament with Cesc Fabregas as a false nine, dropping deep into midfield to link play, and switching positions with David Silva on the right.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-07-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Spain didn’t start the final with a natural striker, but neither were they playing 4-6-0.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06-14",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "the Chelsea striker was particularly impressive with his pressing high up the pitch, constantly forcing the Irish defenders into misplaced passes.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-07-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "his role in the final was simply that of a true centre-forward",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06-23",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Like against Italy, Fabregas dropped deep, often to the right of the pitch, but now Spain offered reverse movement",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "As a result, Fabregas was dropped for Spain’s next game against the Republic of Ireland, with Fernando Torres starting up front.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): How Spain evolved their system during Euro 2012",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "the first ten names on Spain’s teamsheet were ever-present. Iker Casillas, Alvaro Arbeloa, Gerard Pique, Sergio Ramos, Jordi Alba, Sergio Busquets, Xavi Hernandez, Xabi Alonso, Andres Iniesta and David Silva started every game.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): Italy's back three plus Spain's false nine",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "as Cesc Fabregas admitted after the match, “We’d never trained in that system.” Del Bosque may have surprised Italy, but he also surprised his own players.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): Italy's back three plus Spain's false nine",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Spain concentrated their passing in a very small area of the pitch. Italy were relatively comfortable.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): Italy's back three plus Spain's false nine",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2010-06-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "the same issues they’d faced in the 1-0 defeat to Switzerland in their opening game of World Cup 2010. Then, they fielded Villa as a lone striker, but with Andres Iniesta and David Silva both moving inside and crowding the middle, the Swiss shut out Spain easily, by defending very narrow.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): Italy's back three plus Spain's false nine",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "with right-back Alvaro Arbeloa playing a defensive-minded role and scared to move forward for fear of giving Italy’s strikers space in the channels, Navas started to draw Italy’s back three out of position.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo (Michael Cox): Italy's back three plus Spain's false nine",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "The passes Torres received were extremely straight, and often balls played in behind the defence",
+   "verified": true
+  },
+  {
+   "title": "Football Espana: Aragones to Del Bosque, Spain's evolution",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Aragones then employed a more direct approach with two strikers in front of a four-man midfield.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana: Aragones to Del Bosque, Spain's evolution",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Aragones used just the single midfield anchor in the imposing Marcos Senna.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana: Aragones to Del Bosque, Spain's evolution",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Central to Del Bosque’s philosophy meanwhile was the use of the double pivot in midfield, usually in the form of Xabi Alonso and Sergio Busquets. In South Africa he sacrificed a striker by pulling back David Villa on to the left side to make room for a second anchor.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana: Aragones to Del Bosque, Spain's evolution",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Del Bosque sacrificed his remaining striker and played six in midfield. With such domination of possession, La Roja conceded just a single goal in the entire tournament.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana: Aragones to Del Bosque, Spain's evolution",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Their incisiveness ensured Spain averaged two goals per game with notable high-scoring wins, 4-1 and 3-0, over an excellent Russia side.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Euro 2012 Final, how Del Bosque won the tactical war",
+   "url": "https://bleacherreport.com/articles/1243347-euro-2012-final-how-del-bosque-won-the-tactical-war-against-prandelli",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-06",
+   "eventDate": "2012-07-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Alvaro Arbeloa and Jordi Alba are used to being pushed high up as fullbacks, but Arbeloa in particular found himself higher up than ever before.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bleacher Report: Euro 2012 Final, how Del Bosque won the tactical war",
+   "url": "https://bleacherreport.com/articles/1243347-euro-2012-final-how-del-bosque-won-the-tactical-war-against-prandelli",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-06",
+   "eventDate": "2012-07-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Torres aligned himself right on the shoulder of Giorgio Chiellini and forced the defensive line backwards.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bleacher Report: Euro 2012 Final, how Del Bosque won the tactical war",
+   "url": "https://bleacherreport.com/articles/1243347-euro-2012-final-how-del-bosque-won-the-tactical-war-against-prandelli",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-06",
+   "eventDate": "2012-07-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "He sprang quick counterattacks and had Italy reeling, forcing a Gianluigi Buffon tackle and a penalty appeal whilst also missing with two shots.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "RFEF Museo virtual XIII: 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "los de Luis Aragonés dieron una lección táctica y de capacidad de controlar los tiempos de la finalísima, de manejar el relato del partido y de tener un amplio repertorio de juego.",
+   "verified": true
+  },
+  {
+   "title": "RFEF Museo virtual XIII: 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "El equipo apostó no solo por poseer el balón sino también por jugar al contragolpe. En uno de ellos, encontró en Fernando Torres a su hombre-gol que anotó el tanto de la victoria.",
+   "verified": true
+  },
+  {
+   "title": "RFEF Museo virtual XIII: 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "“el que es dueño del balón es dueño del juego”",
+   "verified": true
+  },
+  {
+   "title": "RFEF Museo virtual XIII: 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "un bloque en el que las grandes individualidades estaban al servicio del grupo.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: We had Serious Issues (Del Bosque)",
+   "url": "https://learning.coachesvoice.com/?p=1369",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-06-12",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "he was also appointed at a time when hostilities between Barcelona and Real Madrid were becoming particularly fierce. Speaking exclusively to The Coaches' Voice, the Spaniard reveals how he and his coaching staff overcame that tension",
+   "verified": true
+  },
+  {
+   "title": "Libertad Digital: Del Bosque, Nuestro estilo nos lo ha dado todo (La Gazzetta dello Sport)",
+   "url": "https://www.libertaddigital.com/deportes/2012-06-30/del-bosque-nuestro-estilo-nos-lo-ha-dado-todo-1276462727/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2012-06-30",
+   "eventDate": "2012-06-30",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Hay momento del encuentro que parece que queremos solo tener el balón, pero no es así. Estamos buscando una solución, un camino, una apertura decisiva. Es nuestro estilo, que nos ha dado todo.",
+   "verified": true
+  },
+  {
+   "title": "Libertad Digital: Del Bosque, Nuestro estilo nos lo ha dado todo (La Gazzetta dello Sport)",
+   "url": "https://www.libertaddigital.com/deportes/2012-06-30/del-bosque-nuestro-estilo-nos-lo-ha-dado-todo-1276462727/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2012-06-30",
+   "eventDate": "2012-06-30",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“no existe un entrenador que no sea criticado, ni siquiera los que vencen”",
+   "verified": true
+  },
+  {
+   "title": "Libertad Digital: Del Bosque, Nuestro estilo nos lo ha dado todo (La Gazzetta dello Sport)",
+   "url": "https://www.libertaddigital.com/deportes/2012-06-30/del-bosque-nuestro-estilo-nos-lo-ha-dado-todo-1276462727/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2012-06-30",
+   "eventDate": "2012-06-30",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "de Balotelli ... futbolísticamente hablando es “súper completo, rápido, técnico, sabe regatear y con la cabeza”.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana: Del Bosque on 25 years of coaching (AS)",
+   "url": "https://www.football-espana.net/2012/09/04/del-bosque-on-25-years-of-coaching",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-04",
+   "eventDate": "2012-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "And then, for what makes a technician, common sense and good relations within and outside the dressing room.",
+   "verified": false
+  },
+  {
+   "title": "Football Espana: Del Bosque on 25 years of coaching (AS)",
+   "url": "https://www.football-espana.net/2012/09/04/del-bosque-on-25-years-of-coaching",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-04",
+   "eventDate": "2012-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“With the media, your assistants, with the players…with everyone. Good relationships are vital. Also, the team’s philosophy has to fit in with the club.",
+   "verified": false
+  },
+  {
+   "title": "Libertad Digital: Aragonés, La Eurocopa es cuando mejor jugó la selección",
+   "url": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-04-10",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Iniciamos el trabajo por dos caminos, pero principalmente por el toque de balón, porque España no tenía una condición física y sí jugadores para hacernos superiores con el balón”",
+   "verified": true
+  },
+  {
+   "title": "Libertad Digital: Aragonés, La Eurocopa es cuando mejor jugó la selección",
+   "url": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-04-10",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "“Xavi ha coincido conmigo transmitiendo el juego que yo quería. He tenido bastantes charlas con él sobre cómo llevar a España por un camino que necesitaba y él ha sido el que mejor lo ha sabido ejecutar”",
+   "verified": true
+  },
+  {
+   "title": "WorldSoccerTalk: Spain holds on for a 1-0 victory over Germany",
+   "url": "https://worldsoccertalk.com/2010/07/08/world-cup-2010-spain-holds-on-for-a-1-0-victory-over-germany-despite-their-dominance/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-08",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "With Spain’s lack of height, Xavi usually decides to execute a short corner routine, and Germany caught on to this tactic and sent an extra man around the corner flag.",
+   "verified": true
+  },
+  {
+   "title": "WorldSoccerTalk: Spain holds on for a 1-0 victory over Germany",
+   "url": "https://worldsoccertalk.com/2010/07/08/world-cup-2010-spain-holds-on-for-a-1-0-victory-over-germany-despite-their-dominance/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-08",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The extra man sent to mark Iniesta for the short corner combined with Germany’s zonal marking gave Puyol the opportunity to have an unmolested attempt at the header.",
+   "verified": true
+  },
+  {
+   "title": "WorldSoccerTalk: Spain holds on for a 1-0 victory over Germany",
+   "url": "https://worldsoccertalk.com/2010/07/08/world-cup-2010-spain-holds-on-for-a-1-0-victory-over-germany-despite-their-dominance/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-08",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Spain manager Vicente del Bosque is intent on playing this possession game set forth by previous manager Luis Aragonés.",
+   "verified": true
+  },
+  {
+   "title": "WorldSoccerTalk: Spain holds on for a 1-0 victory over Germany",
+   "url": "https://worldsoccertalk.com/2010/07/08/world-cup-2010-spain-holds-on-for-a-1-0-victory-over-germany-despite-their-dominance/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-08",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Fernando Torres could not get into stride as he struggled for form from his April knee surgery and was eventually benched in favor of Pedro Rodríguez against Germany.",
+   "verified": true
+  },
+  {
+   "title": "WorldSoccerTalk: Spain holds on for a 1-0 victory over Germany",
+   "url": "https://worldsoccertalk.com/2010/07/08/world-cup-2010-spain-holds-on-for-a-1-0-victory-over-germany-despite-their-dominance/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-08",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Iker Casillas has been the captain of the Spanish national team since Euro 2008",
+   "verified": true
+  },
+  {
+   "title": "SI: Del Bosque won't close Spain door to Raúl",
+   "url": "https://www.si.com/soccer/2008/12/15/raul-spain",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-15",
+   "eventDate": "2008-12-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "“I can hardly put down a barrier and say Raúl will not return to the squad,” he told the press.",
+   "verified": true
+  },
+  {
+   "title": "SI: Del Bosque won't close Spain door to Raúl",
+   "url": "https://www.si.com/soccer/2008/12/15/raul-spain",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-15",
+   "eventDate": "2008-12-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“I’ve not decided, but there is a chance that Fernando Llorente will take part,” said del Bosque of his next squad.",
+   "verified": true
+  },
+  {
+   "title": "Soccerway: Vicente del Bosque exclusive interview (retrospective, 2025)",
+   "url": "https://www.soccerway.com/news/soccer-world-cup-exclusive-vicente-del-bosque-discusses-world-cup-glory-the-top-spanish-coaches-and-more/WxjD6nAk",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-09",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "I think it is the best and most important thing in a team to do the things you believe in and to always try to do the best possible, with love and affection for the players, but knowing that football has a singularity, which is to choose 11 players out of 23.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Soccerway: Vicente del Bosque exclusive interview (retrospective, 2025)",
+   "url": "https://www.soccerway.com/news/soccer-world-cup-exclusive-vicente-del-bosque-discusses-world-cup-glory-the-top-spanish-coaches-and-more/WxjD6nAk",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-09",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "There was a lot of controversy about Sergio Busquets and Xabi Alonso playing in midfield, both as central midfielders",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Soccerway: Vicente del Bosque exclusive interview (retrospective, 2025)",
+   "url": "https://www.soccerway.com/news/soccer-world-cup-exclusive-vicente-del-bosque-discusses-world-cup-glory-the-top-spanish-coaches-and-more/WxjD6nAk",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-09",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Paraguay. They were very complicated as well. A very similar style to the Chileans, with great pressure. Physically they didn't let us play.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bleacher Report: Spain's Euro 2008 Crown a Deserved Triumph",
+   "url": "https://bleacherreport.com/articles/34329-spains-euro-2008-crown-a-deserved-triumph",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Spain concentrated on doing what they do best, namely keeping the ball and letting their rivals exhaust themselves trying to win it back.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bleacher Report: Spain's Euro 2008 Crown a Deserved Triumph",
+   "url": "https://bleacherreport.com/articles/34329-spains-euro-2008-crown-a-deserved-triumph",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Aragones built his team around the creative talents who came up through the Barcelona youth teams—Xavi, Iniesta, and Fabregas—and stuck with them to the end.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bleacher Report: Spain's Euro 2008 Crown a Deserved Triumph",
+   "url": "https://bleacherreport.com/articles/34329-spains-euro-2008-crown-a-deserved-triumph",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Villa was the team’s first defender, and captain Iker Casillas invited everybody to his room to play cards at night. The collective was again above the individual.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bleacher Report: Spain's Euro 2008 Crown a Deserved Triumph",
+   "url": "https://bleacherreport.com/articles/34329-spains-euro-2008-crown-a-deserved-triumph",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-07-02",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Villa was the team’s first defender",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Into the Calderon: Luis Aragones, the Godfather of Atletico Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2004/08",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In a symbolic move, he dropped Raúl during Euro 2008 qualification, as he preferred to focus on the development of younger strikers - David Villa and Fernando Torres",
+   "verified": false
+  },
+  {
+   "title": "Into the Calderon: Luis Aragones, the Godfather of Atletico Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2004/08",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Aragonés tossed out the 4-2-3-1 and empowered smaller central midfielders like Xavi Hernández and Andrés Iniesta as the fulcrum of the squad.",
+   "verified": false
+  },
+  {
+   "title": "Football Espana 2025: Spain's Football Tactics (SEO-style retrospective)",
+   "url": "https://www.football-espana.net/2025/06/16/tactics-of-spains-football-squad-how-spain-changed-football-forever",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2025-06-16",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "The tactical approach known as tiki-taka emphasizes short, precise passes, maintaining possession, patient build-up play, and relentless pressing when not in possession.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Hay momento del encuentro que parece que queremos solo tener el balón, pero no es así. Estamos buscando una solución, un camino, una apertura decisiva. Es nuestro estilo, que nos ha dado todo.",
+   "date": "2012-06-30",
+   "source": "https://www.libertaddigital.com/deportes/2012-06-30/del-bosque-nuestro-estilo-nos-lo-ha-dado-todo-1276462727/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Iniciamos el trabajo por dos caminos, pero principalmente por el toque de balón, porque España no tenía una condición física y sí jugadores para hacernos superiores con el balón",
+   "date": "2011-04-10",
+   "source": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I can hardly put down a barrier and say Raúl will not return to the squad",
+   "date": "2008-12-15",
+   "source": "https://www.si.com/soccer/2008/12/15/raul-spain",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://issuu.com/prozone/docs/prozone_wc_analysis_summary",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7c0d02e33c-c1ff386e10b9-1000--aragones-enjoys-spanish-waltz",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.soccer-spain.com/ssdocs/euro2008/reports/report17.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7be25967df-80e348ae74d2-1000--aragones-springs-selection-surprises",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuro/history/news/0253-0d7c9a251dd5-039496f51183-1000--el-triunfo-de-espana-es-la-referencia/",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Luis Aragones (toque de balon, Euro 2008)",
+  "FC Barcelona / Real Madrid core of players"
+ ],
+ "gaps": {
+  "dimensions": [
+   "build-up"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B sources (FourFourTwo/Cox, Coaches Voice intro only) for Euro 2012 shape; 2008 and 2010 coverage is tier C and mostly press; no readable tier A-B source on build-up, pressing triggers or marking; Del Bosque interview material partly retrospective"
+ }
+}

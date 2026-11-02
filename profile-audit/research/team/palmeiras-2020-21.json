@@ -1,0 +1,660 @@
+{
+ "id": "palmeiras-2020-21",
+ "catalog": "team",
+ "name": "Palmeiras 2020-21 (Abel Ferreira)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2020-11-05",
+  "end": "2021-12-31"
+ },
+ "scopeNote": "Palmeiras under Abel Ferreira from his first match (2020-11-05, Copa do Brasil vs Bragantino; hired 2020-10-30, first training 2020-11-03 per search summaries only) to the end of the 2021 calendar year. Covers the 2020 Libertadores (final 2021-01-30) and Copa do Brasil 2020 (final 2021-03-07) titles, and the 2021 Libertadores (final 2021-11-27 vs Flamengo). End date 2021-12-31 is a convention (exact last 2021 match not verified). Sources use 'marcacao zonal/mista' and 'bloco medio/baixo' with 3-4-3 / 5-4-1 / 4-2-3-1 variants; popular 'defensive' label is partly right (Trivela argues the reading is reductive). Total Football Analysis piece covers 2023/24, so only its explicit 2021 data point is verified; its zonal-marking and 5-2-3/5-4-1 statements are unverified for this period. Pre-Abel 2020 (Luxemburgo, interim Andrey Lopes) excluded.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Marking: Coaches' Voice (ES) says pressing on goal kicks references individual marking, while TFA (2023/24) says zonal; no 2020-21 source states the out-of-possession system as zonal or man-oriented explicitly.",
+  "Exact Brasileirao 2021 end date for profilePeriod.end not confirmed.",
+  "Set-pieces: no source describes Palmeiras' own set-piece routines in the period."
+ ],
+ "managers": [
+  {
+   "managerId": "abel-ferreira",
+   "start": "2020-11-05",
+   "end": "2021-12-31"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Abel Ferreira Masterclass - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=58544",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-08-04",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "He explains the thinking behind his preferred 3-4-3 formation, and how in possession the team would look to create a box of four attacking players behind number nine Rony, with the two wide attackers pushed inside to create doubt in the Flamengo defence.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Masterclass - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=58544",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-08-04",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "how in possession the team would look to create a box of four attacking players behind number nine Rony, with the two wide attackers pushed inside to create doubt in the Flamengo defence.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Masterclass - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=58544",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-08-04",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Out of possession, he explains why the team dropped back into a defensive line of four and why left wing-back Gustavo Scarpa had a very specific role to play against dangerous Flamengo right-back Mauricio Isla.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Masterclass - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=58544",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-08-04",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Ferreira expands on the three different options his team employed when building from the back, and how they looked to use the wing-backs to create overloads against the Flamengo defence.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Masterclass - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=58544",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-08-04",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "they looked to use the wing-backs to create overloads against the Flamengo defence.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Masterclass - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=58544",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-08-04",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "the pressing triggers that ultimately helped create the winning goal after their opponents had equalised in normal time.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "O esquema mais utilizado é o 4-2-3-1, com a variante de armar uma linha com três defensores durante a dinâmica do jogo, quando necessário. Outro esquema que recorre em diferentes ocasiões é o 3-5-2.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Quando enfrenta uma defesa com linhas de marcação médias ou baixas, seja por estratégia rival ou por uma situação derivada do resultado momentâneo do jogo, geralmente opta por uma primeira linha composta por três jogadores. Com a variante de usar um dos volantes entre os dois zagueiros de origem ou centralizar um dos laterais para compor o trio de zaga.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "A principal intenção tática é atrair a pressão do rival com toques curtos para depois escapar pelas pontas. Outra ideia é a ligação direta com um lançamento frontal aos atacantes. Nessas zonas do campo, a equipe assume o menor risco possível e não abusa da troca de passes para ir superando linhas defensivas rivais.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "O conjunto dirigido por Abel Ferreira costuma aplicar o conceito do 'perde-pressiona' quando está posicionado no ataque. Além de adotar um posicionamento alto para pressionar a saída de bola rival, seja em tiros de meta ou faltas em zonas próximas à área adversária. Nessas situações, tem como referência a marcação individual, pressionando o jogador com a bola e mantendo duelos individuais com os possíveis receptores do passe curto",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Quando se retrai e arma sua defesa com um bloco médio de marcação, mantém a estrutura de seu esquema tático original. Na primeira linha de pressão, o centroavante tende a se posicionar para cortar linhas de passe por dentro, recebendo o auxílio dos externos. Atrás deles, os meio-campistas vigiam os adversários que buscam posicionamentos entre as linhas de marcação.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "O Palmeiras se caracteriza por conseguir manter uma distância curta entre suas linhas em fase defensiva. Uma estrutura que está condicionada em parte pelas características de seus zagueiros, que são agressivos quando perseguem os atacantes rivais em suas movimentações em zonas intermediárias.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "uma marca registrada de suas equipes é a busca por verticalidade nas transições ofensivas. Jogadas que partem de uma organização defensiva aliada à uma reestruturação de acordo com os movimentos do rival.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Esta estrutura propicia contextos ideais para contra-atacar em caso de recuperação de bola. Sobretudo, quando o Palmeiras consegue encaixar a marcação ao ponto de fazer com que seu lateral assuma a marcação deixada pelo externo.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Assim, quando os laterais rivais ganham terreno para avançar no campo, subindo pelos corredores abertos, os atacantes velozes do Palmeiras ficam livres para ocupar a posição deixada pelo adversário",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "O Palmeiras não toma a iniciativa do jogo de forma permanente no contexto competitivo do Brasileirão. A equipe de Abel se destaca mais pela praticidade e capacidade de se adaptar às diferentes necessidades de cada partida.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "tem sido capaz de manter sua essência de técnico formador, com capacidade para potencializar os jovens talentos.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira: Análise Tática - Coaches' Voice (Héctor Riazuelo)",
+   "url": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "tier": "A",
+   "language": "pt",
+   "articleDate": "2021-11-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Para saber se a sua equipe trabalha bem a bola ou não, o domingo é o dia da prova. Mas sempre digo aos atletas: 'Vamos nos concentrar em nossos objetivos'. Afinal, quanto mais você pensa no resultado, mais ansioso fica.",
+   "verified": true
+  },
+  {
+   "title": "Libertadores: Palmeiras superou o Flamengo taticamente e mereceu o título - A Gazeta",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/libertadores-palmeiras-superou-o-flamengo-taticamente-e-mereceu-o-titulo-1121",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Um esquema de jogo que todo mundo já conhece: time mais recuado, marcação muito forte e saída rápida em velocidade.",
+   "verified": true
+  },
+  {
+   "title": "Libertadores: Palmeiras superou o Flamengo taticamente e mereceu o título - A Gazeta",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/libertadores-palmeiras-superou-o-flamengo-taticamente-e-mereceu-o-titulo-1121",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Um esquema de jogo que todo mundo já conhece: time mais recuado, marcação muito forte e saída rápida em velocidade.",
+   "verified": true
+  },
+  {
+   "title": "Libertadores: Palmeiras superou o Flamengo taticamente e mereceu o título - A Gazeta",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/libertadores-palmeiras-superou-o-flamengo-taticamente-e-mereceu-o-titulo-1121",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Foi quando a tática do Palmeiras se sentiu pressionada. O elenco rubro-negro é muito bom e buscava o gol desesperadamente, e nesse momento o Palmeiras encolheu no jogo.",
+   "verified": true
+  },
+  {
+   "title": "Libertadores: Palmeiras superou o Flamengo taticamente e mereceu o título - A Gazeta",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/libertadores-palmeiras-superou-o-flamengo-taticamente-e-mereceu-o-titulo-1121",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "O primeiro tempo seguiu com o Flamengo dono da posse de bola, mas sofrendo com a forte marcação do Verdão em que os jogadores pareciam se multiplicar no setor defensivo.",
+   "verified": true
+  },
+  {
+   "title": "Libertadores: Palmeiras superou o Flamengo taticamente e mereceu o título - A Gazeta",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/libertadores-palmeiras-superou-o-flamengo-taticamente-e-mereceu-o-titulo-1121",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Ainda assim, o time carioca só conseguia chegar nas bolas paradas. Teve três boas chances (David Luiz, Arão e Bruno Henrique), mas não conseguiu marcar.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Foi ele que decidiu voltar ao esquema de três zagueiros, que utilizou em boa parte da campanha da Libertadores, mas não vinha sendo usado nos últimos jogos. Ele recuou Joaquín Piquerez para ser o terceiro zagueiro pelo lado esquerdo, colocando Mayke no lugar do suspenso Marcos Rocha na direita.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Abel Ferreira sabe bem disso. Entende que é preciso lidar com as ameaças do seu adversário para que suas qualidades se sobressaiam.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Abel é por vezes acusado de pensar demais no adversário e por vezes descaracterizar seu próprio time. O excesso de preocupação com os adversários por vezes é visto como um excesso de cautela, fruto de ser um treinador mais defensivo.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Abel sabia que a descida do lateral direito do Flamengo era perigosa e armou o time para impedir isso. Fez várias vezes esse tipo de adaptação no seu time.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "O Flamengo tinha menos velocidade pelo lado direito, Mayke atacou ali. Scarpa estava como ala para conter Isla e poder chegar ao ataque, buscando o espaço deixado por ele.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "O segundo gol do Palmeiras nasce de uma falha individual de Andreas Pereira, mas também porque o técnico mandou pressionar em todos os passes para trás, como o próprio Deyverson contou na coletiva.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "A má fase de alguns jogadores, que deixaram de ser titulares, também pesou, como Luiz Adriano, especialmente, no ataque. Sem uma opção de referência, o técnico deu chance a Deyverson e acabou fechando o time com Dudu e Rony como seus principais atacantes.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "até o questionamento pela falta de minutos de alguns jogadores, como Gustavo Scarpa, que se tornaria titular na reta final e com uma grande atuação na final, mesmo jogando na ala esquerda",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Abel Ferreira é um técnico inquieto, tentou mexer no time algumas vezes, em jogadores e ficou por vezes nervoso demais, tomando cartões e até sendo expulso.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Danilo e Zé Rafael formaram um meio que dava pouco espaço.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira se coloca como um dos maiores da história do Palmeiras - Trivela (Mayke quote)",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/abel-ferreira-se-coloca-como-um-dos-maiores-da-historia-do-palmeiras-em-uma-conquista-que-tem-suas-digitais/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“O professor Abel tem grande parte dessa vitória, ele é um cara que estuda muito, nos ajuda muito dentro de campo, entramos em campo sabendo o que vamos fazer, e deu tudo certo.”",
+   "verified": true
+  },
+  {
+   "title": "Palmeiras retain Copa Libertadores title - Inside World Football",
+   "url": "https://www.insideworldfootball.com/2021/11/28/palmeiras-retain-copa-libertadores-title-extra-time-win-flamengo/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Under Ferreira, Palmeiras’s DNA has been stubbornly defensive. Once again, he fielded a back-five defence, with Gustavo Scarpa, an attacking midfielder, dropping back to defend.",
+   "verified": true
+  },
+  {
+   "title": "Palmeiras retain Copa Libertadores title - Inside World Football",
+   "url": "https://www.insideworldfootball.com/2021/11/28/palmeiras-retain-copa-libertadores-title-extra-time-win-flamengo/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "As ever, Palmeiras emphasised the collective, defending deep and denying their opponent space.",
+   "verified": true
+  },
+  {
+   "title": "Palmeiras retain Copa Libertadores title - Inside World Football",
+   "url": "https://www.insideworldfootball.com/2021/11/28/palmeiras-retain-copa-libertadores-title-extra-time-win-flamengo/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Ferreira revelled in his opponent’s impotence, considering the game an elaborate game of chess, one he would ultimately win.",
+   "verified": true
+  },
+  {
+   "title": "Palmeiras retain Copa Libertadores title - Inside World Football",
+   "url": "https://www.insideworldfootball.com/2021/11/28/palmeiras-retain-copa-libertadores-title-extra-time-win-flamengo/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“The Brazilian calendar is insane and inhuman.” His team played its 105th game in 387 days against Flamengo.",
+   "verified": true
+  },
+  {
+   "title": "Palmeiras retain Copa Libertadores title - Inside World Football",
+   "url": "https://www.insideworldfootball.com/2021/11/28/palmeiras-retain-copa-libertadores-title-extra-time-win-flamengo/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-28",
+   "eventDate": "2021-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Mayke exploited the space in behind Filipe Luis to tee up Raphael Veiga, 1-0.",
+   "verified": true
+  },
+  {
+   "title": "Chegou, viu e venceu (outra vez) - Observador",
+   "url": "https://observador.pt/2021/03/07/chegou-viu-e-venceu-outra-vez-abel-conquista-taca-do-brasil-e-soma-segundo-trofeu-pelo-palmeiras-em-quatro-meses/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-03-07",
+   "eventDate": "2021-03-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "um segundo golo num contra-ataque iniciado por Rony, com assistência de Willian e golo de Gabriel Menino (84′).",
+   "verified": true
+  },
+  {
+   "title": "Chegou, viu e venceu (outra vez) - Observador",
+   "url": "https://observador.pt/2021/03/07/chegou-viu-e-venceu-outra-vez-abel-conquista-taca-do-brasil-e-soma-segundo-trofeu-pelo-palmeiras-em-quatro-meses/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-03-07",
+   "eventDate": "2021-03-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "E também aqui Abel Ferreira teve mérito, com dois suplentes lançados em campo a fabricarem o 2-0 final.",
+   "verified": true
+  },
+  {
+   "title": "Chegou, viu e venceu (outra vez) - Observador",
+   "url": "https://observador.pt/2021/03/07/chegou-viu-e-venceu-outra-vez-abel-conquista-taca-do-brasil-e-soma-segundo-trofeu-pelo-palmeiras-em-quatro-meses/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-03-07",
+   "eventDate": "2021-03-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Abel Ferreira, que pouco antes tinha corrido toda a área técnica a protestar com um possível atraso de um defesa para o guarda-redes Paulo Vítor, pedia calma e concentração aos jogadores",
+   "verified": true
+  },
+  {
+   "title": "Chegou, viu e venceu (outra vez) - Observador",
+   "url": "https://observador.pt/2021/03/07/chegou-viu-e-venceu-outra-vez-abel-conquista-taca-do-brasil-e-soma-segundo-trofeu-pelo-palmeiras-em-quatro-meses/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-03-07",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "o Verdão não sofreu golos em mais de metade dos encontros (18)",
+   "verified": true
+  },
+  {
+   "title": "Chegou, viu e venceu (outra vez) - Observador",
+   "url": "https://observador.pt/2021/03/07/chegou-viu-e-venceu-outra-vez-abel-conquista-taca-do-brasil-e-soma-segundo-trofeu-pelo-palmeiras-em-quatro-meses/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-03-07",
+   "eventDate": "2020-11-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "O treinador português que se estreou pelo Palmeiras no início de novembro leva um total de 37 jogos",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Tactics At Palmeiras 2023/2024 - Total Football Analysis",
+   "url": "https://totalfootballanalysis.com/article/abel-ferreira-palmeiras-2021-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-12-15",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The previous section helps us understand why Palmeiras made a relatively low number of interceptions and engaged in a relatively low number of defensive duels in 2021—they are a more passive team defensively, especially in the early stages of an opposition attack.",
+   "verified": true
+  },
+  {
+   "title": "Abel Ferreira Tactics At Palmeiras 2023/2024 - Total Football Analysis",
+   "url": "https://totalfootballanalysis.com/article/abel-ferreira-palmeiras-2021-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-12-15",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Palmeiras operate with a zonal marking system that’s position-oriented and generally quite organised.",
+   "verified": false
+  },
+  {
+   "title": "Abel Ferreira Tactics At Palmeiras 2023/2024 - Total Football Analysis",
+   "url": "https://totalfootballanalysis.com/article/abel-ferreira-palmeiras-2021-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-12-15",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Further upfield, as shown in Figure 1, Palmeiras’ wingers sit higher, and the shape is more of a 5-2-3. However, in deeper areas, the wingers drop deeper, transforming this shape into more of a 5-4-1.",
+   "verified": false
+  },
+  {
+   "title": "Abel Ferreira estreia - search summary (Lance/Trivela/Goal)",
+   "url": "https://www.lance.com.br/palmeiras/5-anos-da-estreia-de-abel-no-palmeiras-relembre-primeira-escalacao-do-treinador.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-05",
+   "eventDate": "2020-11-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "debut 5 Nov 2020, 1-0 Copa do Brasil vs Red Bull Bragantino (search summary only, page not mined)",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Eu costumo dizer que é mais [seu estilo] que uma filosofia de jogo, é uma filosofia de vida, é uma forma de estar, seja na vida ou no esporte. Porque não consigo separar o homem na vida do jogador e não separo o treinador do homem",
+   "date": "2020-10-28",
+   "source": "https://istoe.com.br/em-video-abel-ferreira-explica-sua-visao-de-futebol-mais-que-uma-ideia-de-jogo/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Para saber se a sua equipe trabalha bem a bola ou não, o domingo é o dia da prova. Mas sempre digo aos atletas: 'Vamos nos concentrar em nossos objetivos'. Afinal, quanto mais você pensa no resultado, mais ansioso fica.",
+   "date": "2021-11",
+   "source": "https://es.coachesvoice.com/cv/abel-ferreira-analise-tatica-palmeiras-libertadores-brasileirao/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Over time, I have learned that there is no point in giving players too much information about their opponents. The important thing is that they understand what we have to do both on and off the ball.",
+   "date": "2022-06",
+   "source": "https://learning.coachesvoice.com/cv/abel-ferreira-palmeiras-copa-libertadores/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Palmeiras interviewed me three times before choosing me. They knew how I played. They knew very well who they were hiring.",
+   "date": "2022-06",
+   "source": "https://learning.coachesvoice.com/cv/abel-ferreira-palmeiras-copa-libertadores/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "The Brazilian calendar is insane and inhuman.",
+   "date": "2021-11-27",
+   "source": "https://www.insideworldfootball.com/2021/11/28/palmeiras-retain-copa-libertadores-title-extra-time-win-flamengo/",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.lance.com.br/palmeiras/abel-ferreira-rebate-fala-de-cuca-e-revela-o-que-o-atletico-mg-deveria-ter-feito-para-vencer-o-palmeiras.html",
+   "reason": "404"
+  },
+  {
+   "url": "https://anythingpalmeiras.com/2021/08/18/palmeiras-3-0-sao-paulo-on-to-the-semifinals/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.lance.com.br/palmeiras/abel-explica-como-as-variacoes-taticas-estao-dando-resultados-para-o-palmeiras-o-futebol-moderno-e-isso.html",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "Jesualdo Ferreira (per Goal.com Brasil, 2020-10-31)",
+  "Jose Mourinho school (per Trivela, 2021-11-28)"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Two tier A Coaches' Voice pieces (one a masterclass summary only, not the full text) cover the period and agree on 3-4-3/4-2-3-1 variants and perde-pressiona; the rest is tier C press on the 2021 final. No tier A-B source states zonal vs man marking for 2020-21; set-pieces thin; 2020 titles little tactical coverage."
+ }
+}

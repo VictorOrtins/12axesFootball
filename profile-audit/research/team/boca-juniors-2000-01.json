@@ -1,0 +1,623 @@
+{
+ "id": "boca-juniors-2000-01",
+ "catalog": "team",
+ "name": "Boca Juniors 2000-01 (Carlos Bianchi)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2000-02",
+  "end": "2001-11-27"
+ },
+ "scopeNote": "Boca Juniors under Carlos Bianchi from the 2000 Copa Libertadores (debut away to Blooming; exact day of that match NOT verified on a page, only the month is approximate) to the 2001 Intercontinental Cup final vs Bayern Munich on 27 November 2001 (date appears on a Página/12 page as 'el 27 de noviembre contra Bayern Munich', year from search summary only). Style named by sources: 4-3-1-2 with Riquelme as enganche, tactically flexible and adapting systems to players (not a fixed philosophy). Evidence is dense for the 2000 Libertadores final and the 2000 Intercontinental vs Real Madrid; the 2001 Libertadores run and the Bayern final are thin or absent. Tier A sources absent; mostly retrospectives (2016-2025) quoting 2000 events. Period start 2000-02 is month-level only (first match day not found).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact date of the first 2000 Libertadores match (Blooming away) not found on a page; period start is month-level only. Gap-pass searches were blocked by the session search budget.",
+  "Bayern final date 27 November 2001 is verified only by a search summary (La Nación) plus a Página/12 quote about 'el 27 de noviembre contra Bayern Munich'; the year is not stated on that page.",
+  "No source found on whether Boca's defence marked zonally or man-to-man in general; only Matellán's personal marking of Figo (Intercontinental 2000) and the offside trap/achique are documented.",
+  "Pressing and transitions have only single-match evidence (Intercontinental 2000); no 2001 Libertadores tactical coverage was found.",
+  "Página/12 piece (Boca-Racing, Apertura/Clausura 2001) has no stated match date in the digest; eventDate set to 2001-11 from the URL date 2001-11-02.",
+  "Source venue conflict for the 2000 Intercontinental: These Football Times says Tokyo National Stadium; 2001 final venue reported as Tokyo or Kyoto in search summaries (unverified).",
+  "Most evidence is retrospective (2016-2025) but quotes match events with dates; statedView quotes without a primary date carry the article date (La Nación 2020-06-20; Correio Braziliense 2023-10-06)."
+ ],
+ "sources": [
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Boca jugaba 4-3-1-2.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "El equipo que levantó la Copa ante Palmeiras, en Brasil (4-3-1-2): Oscar Córdoba; Hugo Ibarra, Jorge Bermúdez, Walter Samuel y Rodolfo Arruabarrena; José Basualdo, Cristian Traverso y Sebastián Battaglia; Juan Román Riquelme; Guillermo Barros Schelotto y Martín Palermo.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Boca, en los papeles, salió a jugar como (casi) siempre: 4-3-1-2, con Córdoba; Ibarra, Bermúdez, Traverso y Matellán; Battaglia, Serna y Basualdo; Riquelme; Delgado y Palermo. Pero hubo una (sutil) diferencia. Por momentos, el equipo del Virrey se paró 4-3-2-1",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "El 4-3-1-2 no se modificaría y los laterales Ibarra y Arruabarrena seguirían pasando al ataque, pero en la línea de volantes necesitaba reforzar la marca, el oficio y el despliegue físico: así fue que quienes rodearon al enganche ese día fueron José Basualdo, Cristian Traverso y Sebastián Battaglia.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Real Madrid kicked off but Boca began building up momentum by keeping possession from the back and waiting for the right opportunity.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Esa estrategia de buscar con pelotazos entre la espalda de Geremi y los cierres de Fernando Hierro Boca la aplicó también para sus tiros libres defensivos",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Los dos goles de Boca se generaron con lanzamientos largos de Matellán para Delgado (en el 1-0) y de Riquelme directo para Palermo (en el 2-0).",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Every time when they won possession, regardless of whether they were on the back foot or pressing forward, they looked towards their inspirational number 10 for calmness and composure.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Tiene razón Bianchi cuando dice que su equipo manejó los tiempos de ese partido, incluso cuando en algunos pasajes le costó tener la pelota.",
+   "verified": true
+  },
+  {
+   "title": "Planet Football: forensic analysis of Riquelme v Real Madrid",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-riquelmes-magnum-opus-mundial-display-v-real-madrid",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-02-11",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "He was not a great one for defending, but if you can keep the ball in the opposition half, push them back and draw fouls, then you do not need to.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Y así siguió jugando Boca: si Battaglia y Basualdo recuperaban la pelota, enseguida \"tac\", debían jugar para adelante.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Bianchi’s seven-man military defence held firm, but the absence of Makélélé meant Real were beginning to look vulnerable at the back, as every Boca counter could have easily killed off the game.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Battaglia won the ball from Raúl before passing to Riquelme.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "By now, Boca were playing with almost seven at the back. Battaglia had moved to the right to help Ibarra contain Roberto Carlos",
+   "verified": true
+  },
+  {
+   "title": "Planet Football: forensic analysis of Riquelme v Real Madrid",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-riquelmes-magnum-opus-mundial-display-v-real-madrid",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-02-11",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Unfortunately for them, the offside trap set by Bianchi was working perfectly. Twice Madrid put the ball into the Boca net in the second period, twice the assistant’s flag was raised.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Para el segundo tiempo iba a aparecer otra sorpresa táctica de Boca: el ‘achique’ para defender los tiros libres frontales y laterales. La orden la dio Bermúdez",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: En el recuerdo, Boca campeón Intercontinental 2000",
+   "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/8031/en-el-recuerdo-boca-campeon-intercontinental-2000",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "sacó del equipo a Daniel Fagiani, que había sido titular durante todo el proceso previo, y en su lugar incluyó a Aníbal Matellán, que se encargaría de la marca personal de Figo.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "On the left he opted to drop Fagiani, who had featured heavily that year, for Aníbal Matellán, whom he gave the task of marking Figo.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "El 4-3-1-2 no se modificaría y los laterales Ibarra y Arruabarrena seguirían pasando al ataque",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Delgado took his time before crossing the ball into the penalty box towards Palermo",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Para el segundo tiempo iba a aparecer otra sorpresa táctica de Boca: el ‘achique’ para defender los tiros libres frontales y laterales.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Riquelme had another free-kick which went straight into Casillas’ hands.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Boca iba a atacar en Brasil (de hecho, le anularon mal un gol a Palermo a los tres minutos por un off-side inexistente de Arruabarrena) pero iba a elegir cuándo.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Bianchi había hecho un cambio a los 26 minutos del primer tiempo (Battaglia por Marchant), algo inusual en él.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Segundo tiempo, 29 minutos. Bianchi decide el ingreso de Battaglia por Gustavo Barros Schelotto.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: En el recuerdo, Boca campeón Intercontinental 2000",
+   "url": "https://elgrafico.com.ar/articulo/%C2%A1habla-memoria!/8031/en-el-recuerdo-boca-campeon-intercontinental-2000",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Real Madrid descontó a los 12, a través de Roberto Carlos.",
+   "verified": true
+  },
+  {
+   "title": "Página/12: Boca-Racing, Pablo Vignone",
+   "url": "https://www.pagina12.com.ar/2001/01-11/01-11-02/pag27.htm",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-11-02",
+   "eventDate": "2001-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Boca supo lo que quería”  Exultante por el triunfo sobre Racing, Carlos Bianchi se mostró                conforme e ilusionado con la producción de su equipo.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Los sistemas siempre los definí en función a los jugadores que tenía, me acomodaba a las situaciones\"",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Ganamos jugando al fútbol. Para los que decían que utilizábamos un sistema viejo y para los que hablan porque tienen horas para hablar; demostramos que fuimos campeones jugando al fútbol.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Antes de salir a la cancha, en la charla técnica, les dije a los jugadores: ‘Acá no es momento de palabrerío. Es el momento para usar la inteligencia. Si nosotros somos inteligentes, la final la ganamos'.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Si nosotros les dejábamos espacios, tal vez ellos podían haber jugado como pretendían. Y, en el segundo tiempo, digamos que sabíamos que teníamos que jugarlo tácticamente a la perfección\"",
+   "verified": true
+  },
+  {
+   "title": "Página/12: Boca-Racing, Pablo Vignone",
+   "url": "https://www.pagina12.com.ar/2001/01-11/01-11-02/pag27.htm",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-11-02",
+   "eventDate": "2001-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Esta                era una buena ocasión para cada uno de los jugadores, en                el sentido de decirme a mí que tienen que estar presentes                el 27 de noviembre contra Bayern Munich.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Riquelme was given the freedom to roam whilst up front Marcelo Delgado was chosen to partner Palermo.",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: Boca Juniors and the unforgettable Intercontinental Cup win of 2000",
+   "url": "https://thesefootballtimes.co/2017/11/02/boca-juniors-and-the-unforgettable-intercontinental-cup-win-of-2000/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-11-02",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Mauricio Serna would take the holding midfield role with the veteran Basualdo and versatile Battaglia supporting him.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "El Virrey siempre confió en el despliegue del hoy DT de la reserva xeneize, un futbolista completo porque tenía quite y recuperación",
+   "verified": true
+  },
+  {
+   "title": "Planet Football: forensic analysis of Riquelme v Real Madrid",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-riquelmes-magnum-opus-mundial-display-v-real-madrid",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-02-11",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Riquelme was in and Makelele, as good a man-to-man defender as he was, was forced to pull him down.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Los tres habían llegado a mitad de año, no habían sido partícipes del camino recorrido por el grupo para llegar a Japón.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "En realidad, fue un equipo con más de 20 titulares.",
+   "verified": true
+  },
+  {
+   "title": "Página/12: Boca-Racing, Pablo Vignone",
+   "url": "https://www.pagina12.com.ar/2001/01-11/01-11-02/pag27.htm",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-11-02",
+   "eventDate": "2001-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "los juveniles                Joel Barbosa y Gustavo Pinto, “que cumplieron a la perfección”",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-02",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El equipo que debutó ante Blooming, en Bolivia (4-4-2): Oscar Córdoba; Hugo Ibarra, Jorge Bermúdez, Walter Samuel y Aníbal Matellán; José Basualdo, Cristian Traverso, Sebastián Battaglia y José Pereda; Guillermo Barros Schelotto y Antonio Barijho.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Todos en el plantel de Boca sabían que las decisiones las tomaba yo y que siempre buscaba lo mejor para el equipo.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "'Daniel, todo lo que estuvimos hablando, en el banco es lo mismo. Acá se trata de no joder al grupo'.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: La primera Copa Libertadores de Bianchi en Boca",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Los jugadores de Boca fueron entrando en una fila casi perfecta, sin salirse del carril de su conductor, Carlos Bianchi, siempre el primero en ingresar en los camarines.",
+   "verified": true
+  },
+  {
+   "title": "442 Perfil: El recuerdo de Riquelme dedicado a Bianchi",
+   "url": "https://442.perfil.com/noticias/futbol/riquelme-bianchi-boca-copa-libertadores-2000.phtml",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-22",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "El grupo fue lo más importante para mí porque comprendió que todos iban a ser importantes.",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A 20 años de Boca-Real Madrid",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-28",
+   "eventDate": "2000-11-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "\"Facilísimo, porque eran todas personas que lo único que hacían era escuchar y trabajar. Los grandes grupos son inteligentes.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Los sistemas siempre los definí en función a los jugadores que tenía, me acomodaba a las situaciones",
+   "date": "2020-06-20",
+   "source": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Ganamos jugando al fútbol. Para los que decían que utilizábamos un sistema viejo (...) demostramos que fuimos campeones jugando al fútbol.",
+   "date": "2000-06-21",
+   "source": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Acá no es momento de palabrerío. Es el momento para usar la inteligencia. Si nosotros somos inteligentes, la final la ganamos",
+   "date": "2000-11-28",
+   "source": "https://www.lanacion.com.ar/deportes/futbol/a-20-anos-boca-real-madrid-la-charla-nid2522822/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Un treinador precisa de jogadores bons e inteligentes para fazer as coisas, não de fenômenos.",
+   "date": "2023-10-06",
+   "source": "https://blogs.correiobraziliense.com.br/dribledecorpo/boca-juniors-ressuscita-metodo-bianchi-no-triunfo-contra-o-palmeiras/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "El grupo fue lo más importante para mí porque comprendió que todos iban a ser importantes.",
+   "date": "2020-06-22",
+   "source": "https://442.perfil.com/noticias/futbol/riquelme-bianchi-boca-copa-libertadores-2000.phtml",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Esta era una buena ocasión para cada uno de los jugadores, en el sentido de decirme a mí que tienen que estar presentes el 27 de noviembre contra Bayern Munich.",
+   "date": "2001-11-02",
+   "source": "https://www.pagina12.com.ar/2001/01-11/01-11-02/pag27.htm",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://espndeportes.espn.com/futbol/nota/_/id/16013051/carlos-bianchi-boca-vs-real-madrid-copa-intercontinental-tokio-2000",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "managers": [
+  {
+   "managerId": "carlos-bianchi",
+   "start": "2000-02",
+   "end": "2001-11-27"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good Spanish and English coverage of 2000 Libertadores final and Intercontinental 2000, but mostly tier B-C retrospectives, no tier A, nothing on the 2001 run; pressing/transitions rest on one match."
+ }
+}

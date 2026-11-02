@@ -1,0 +1,614 @@
+{
+ "id": "leverkusen-2023-24",
+ "catalog": "team",
+ "name": "Bayer Leverkusen 2023/24 (Xabi Alonso)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2023-08-12",
+  "end": "2024-05-25"
+ },
+ "scopeNote": "Bayer Leverkusen 2023/24 under Xabi Alonso: unbeaten Bundesliga title, DFB-Pokal win (final 25 May 2024 vs Kaiserslautern), Europa League final lost 0-3 to Atalanta (22 May 2024). Period runs from the DFB-Pokal first round at Teutonia Ottensen (12 Aug 2023) to the Pokal final. Sources call the system a 3-4-2-1 (Bundesliga.com) that is a 5-2-3 out of possession (Transfer Hub, Coaches' Voice), with a back four against the ball in Europa League group games and for the Bayern match of 10 Feb 2024; Coaches' Voice calls it 3-4-3. 2024/25 pieces (e.g. Bundesliga.com on Bayern 21 Feb 2025, Yahoo on Milan Oct 2024) were read and excluded. Several event dates are season-level (YYYY/YY) because the articles describe the whole season.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Formation label differs by source: 3-4-2-1 (Bundesliga.com Taktik-Check), 3-4-3 (Coaches' Voice), 5-2-3 out of possession (Transfer Hub). Same structure, different counting.",
+  "Man-marking high then space-based defending (Transfer Hub, March 2024) is one analyst's reading; no coach statement found confirming the pressing scheme.",
+  "Alonso primary interviews on tactics (Coaches' Voice, Players' Tribune) not mined; statedView holds only two in-period quotes.",
+  "Dates of first match (12 Aug 2023, from Sport1) and Pokal final (25 May 2024, from Wikipedia) rest on single sources; the final date was not confirmed in a second mined page."
+ ],
+ "sources": [
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Alonso also shifted to a more permanent 3-4-3 shape at Leverkusen. Within this, he could either deploy two number 10s, with the width provided by the wing-backs, or a flatter front trio with the wing-backs then supporting deeper and narrower.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "bevorzugte 3-4-2-1-Formation ... Auf diese Formation setzte Alonso in diesem Spieljahr bislang in jeder Bundesliga-Partie. Vor Torwart Lukáš Hrádecký verteidigen drei Spieler im Abwehrzentrum, unterstützt von zwei zentralen Mittelfeldakteuren mit Xhaka und Argentiniens Weltmeister Exequiel Palacios.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Xabi Alonso's Bayer Leverkusen - Control Over Chaos",
+   "url": "https://transferhub.substack.com/p/tactical-analysis-xabi-alonsos-bayer",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-13",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "while 5-2-3 is his system overall, they only defend in that shape and move into something else when in possession.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner: How Alonso's Leverkusen neutralised Tuchel's Bayern",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-how-xabi-alonso-s-bayer-leverkusen-neutralised-thomas-tuchel-s-bayern-munich-26233",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-16",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Unlike normally, it wasn't the right-sided defender (Frimpong, or in this case Stanišić) who broke out from the back line to create a flat four, but Alejandro Grimaldo on the left. By going forward, he then formed a 4-2-3-1 formation in possession",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Die Realformationen von Bayer 04 beim 4:0 gegen den 1. FC Union Berlin am vergangenen Spieltag zeigen, dass die Außenbahnspieler bei Ballbesitz der Werkself weit aufrücken.",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "This adapted shape and personnel changes have allowed Leverkusen to dominate the ball for longer spells, increasing their average possession to 59 per cent after 18 games of the 2023/24 Bundesliga.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Leverkusen hat durchschnittlich 58 Prozent Ballbesitz – nur der FC Bayern mehr – und sogar die meisten Zuspiele in der Bundesliga kommen mit 90 Prozent an.",
+   "verified": true
+  },
+  {
+   "title": "Transfer Gurus: Bayer Leverkusen's Simon Rolfes - Analytics FC",
+   "url": "https://analyticsfc.co.uk/blog/2024/07/04/transfer-gurus-bayer-leverkusens-simon-rolfes/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-04",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "The team had the highest average possession (61.8%) in the league and controlled the flow of the game. That control translated into the fewest shots faced (8.56 per 90 min) and the lowest expected goals against (29.9).",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Xabi Alonso's Bayer Leverkusen - Control Over Chaos",
+   "url": "https://transferhub.substack.com/p/tactical-analysis-xabi-alonsos-bayer",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-13",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Alonso's men generally go for man-v-man marking when pressing high. The above image is a clear depiction of that. Once the opposition plays through or clears it out, they revert to space defending",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Xabi Alonso's Bayer Leverkusen - Control Over Chaos",
+   "url": "https://transferhub.substack.com/p/tactical-analysis-xabi-alonsos-bayer",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-13",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "With 238 high turnovers in the league (29 better than second-placed Bayern in this metric), they are dangerous with this method of winning the ball back high.",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The wing-backs aggressively jump out to press, as seen with the full-backs at Sociedad, but with Leverkusen's back five it has been rare that the double pivot is needed to cover.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Opponents like RB Leipzig planned to exploit Leverkusen by deploying a 4-2-2-2 with two No.10s and two ball-sided strikers creating an issue for Bayer's high press. Leipzig's plan initially held Leverkusen's juggernaut to just 0.2 xG, but Alonso adjusted near the end of the first half.",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Leverkusen's organised block has often become a 5-2-3, with the two 10s narrowing alongside centre-forward Boniface (below). This limits central access, as seen with Sociedad, giving Leverkusen lots of defensive numbers, but also a solid platform to centrally transition and combine.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner: How Alonso's Leverkusen neutralised Tuchel's Bayern",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-how-xabi-alonso-s-bayer-leverkusen-neutralised-thomas-tuchel-s-bayern-munich-26233",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-16",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Stanišić's inclusion allowed Leverkusen to create a back five out of players whose strengths lie in defending. ... This approach meant the Werkself were able to defend one-to-one against Bayern's front three and their high wing-backs",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner: How Alonso's Leverkusen neutralised Tuchel's Bayern",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-how-xabi-alonso-s-bayer-leverkusen-neutralised-thomas-tuchel-s-bayern-munich-26233",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-16",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "But this time Alonso decided he wanted his team to form a solid defensive block and challenge Bayern to find a way through. They were even less eager to regain possession throughout, managing a ball recovery time of 22.6 seconds. That figure had stood at 18.7 seconds in the reverse fixture.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Xabi Alonso's Bayer Leverkusen - Control Over Chaos",
+   "url": "https://transferhub.substack.com/p/tactical-analysis-xabi-alonsos-bayer",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-13",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "This is the standard 5-2-3 formation Leverkusen falls into when defending in a mid-block. ... There are hardly 15 yards between the last and the forward line.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Taktisch diszipliniert kassierten die Leverkusener als eins von lediglich zwei Teams noch kein Tor bei einem Konter",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Despite Leverkusen not being a crossing team, they have made use of their widest players in the front line in transition. This has especially been the case when using a flatter front-line trio in a 3-4-3",
+   "verified": true
+  },
+  {
+   "title": "Analysing Alonso's unbeaten run vs. Bayern Munich",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/xabi-alonso-bayer-leverkusen-bayern-munich-bundesliga-31019",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-02-21",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Leverkusen would finish the game with an average 38 per cent possession, their lowest during the season by that point. They would limit Bayern to an Expected Goals (xG) tally of just 0.3, underlining their defensive excellence throughout the win.",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "In Alonso's first season with Bayer Leverkusen, his side recorded the second-lowest number of crosses in the Bundesliga. This indicated his preference for penetrating and progressing centrally.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Wenn Leverkusen die Kugel aber verliert, ziehen sich die Flügelmänner Richtung Mittellinie zurück.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "In 29 Prozent der Fälle attackieren sie über links, in 20 über halblinks, in 18 über halbrechts und in 33 über rechts.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Bayer erzielte bereits acht Tore nach Standards: vier nach Ecken, zwei nach Freistößen und zwei per Elfmeter – eine weitere ligaweite Bestmarke!",
+   "verified": true
+  },
+  {
+   "title": "Analysing Alonso's unbeaten run vs. Bayern Munich",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/xabi-alonso-bayer-leverkusen-bayern-munich-bundesliga-31019",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-02-21",
+   "eventDate": "2023-09-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Leverkusen respond with a blockbuster of their own, Grimaldo curling in a picture-perfect free-kick after 24 minutes to equalise matters.",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso's coaching career analysed - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/xabi-alonso-bayer-leverkusen-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-05-16",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "A significant aspect of their superb start to the 2023/24 Bundesliga has been Leverkusen's ability to score first. In their initial 18 matches, they scored the first goal on 14 occasions. Alonso has then had more flexibility with his game plan, giving the possibility to defend in a more compact block and counter against opposition chasing the game.",
+   "verified": true
+  },
+  {
+   "title": "Analysing Alonso's unbeaten run vs. Bayern Munich",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/xabi-alonso-bayer-leverkusen-bayern-munich-bundesliga-31019",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-02-21",
+   "eventDate": "2023-09-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Perhaps unexpectedly the game-changing substitution from Alonso was replacing Robert Andrich with Palacios. ... Palacios would haunt Bayern once again from the spot, to deliver a dramatic late equaliser, the first of 17 stoppage-time goals Leverkusen would go on to score during the season.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner: How Alonso's Leverkusen neutralised Tuchel's Bayern",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-how-xabi-alonso-s-bayer-leverkusen-neutralised-thomas-tuchel-s-bayern-munich-26233",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-16",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Alonso told the media ahead of kick-off that Frimpong's omission was down to \"tactical reasons\". He later explained in more detail: \"We can dominate the game, but sometimes we also have to wait and defend in a compact way.\"",
+   "verified": true
+  },
+  {
+   "title": "CL-Duell: Wie Leverkusen die Bayern entzaubern will - ZDFheute",
+   "url": "https://www.zdfheute.de/sport/fussball-champions-league-bayern-muenchen-bayer-leverkusen-alonso-taktik-100.html",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2025-03-05",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Vor allem im Bundesliga-Spiel gegen die Bayern am 10. Februar 2024 erlangte Alonso ein Taktikdiplom mit Sternchen. Er ließ mit einer Viererkette und zwei defensiven sowie zwei offensiven Mittelfeldspielern, dem Halbstürmer Tella und dem Zentrumsangreifer Amine Adli spielen.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Alonso also demonstrated that he is flexible and adaptable based on opponent quality, while retaining many of the key principles - positional play, quick but methodical ball progression, associative play in the final third and immediate counter-pressing",
+   "verified": true
+  },
+  {
+   "title": "Xabi Alonso confirms that he will stay at Bayer Leverkusen - Get German Football News",
+   "url": "https://www.getfootballnewsgermany.com/2024/xabi-alonso-confirms-that-he-will-stay-at-bayer-leverkusen-next-season/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-29",
+   "eventDate": "2024-03-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"I had a good meeting with Bayer Leverkusen and I informed them that I informed them that I will continue as coach of Leverkusen…I feel this is the right place for me to be and to develop as a coach.\"",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner: How Alonso's Leverkusen neutralised Tuchel's Bayern",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-how-xabi-alonso-s-bayer-leverkusen-neutralised-thomas-tuchel-s-bayern-munich-26233",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-16",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"We can dominate the game, but sometimes we also have to wait and defend in a compact way.\"",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner: How Alonso's Leverkusen neutralised Tuchel's Bayern",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-how-xabi-alonso-s-bayer-leverkusen-neutralised-thomas-tuchel-s-bayern-munich-26233",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-16",
+   "eventDate": "2024-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Stanišić, a more defensive-minded right-sider, in place of the flying Dutchman. Further forward, Nathan Tella ... was chosen to stretch the play. The Werkself boss also opted for the speed of Amine Adli at centre-forward instead of the physical presence of Schick.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Granit Xhaka (Pressure Handling in 2023/24: 79 percent), who combines leadership, experience, technical and tactical skills with a workmanlike attitude and elegance reminiscent of Alonso.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Victor Boniface: a combinative, dribbling striker who can hold the ball up, run behind on counters, move out wide, but also dominate the box.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Tatsächlich nahm Alonso dort erst sieben Wechsel in seiner ersten Elf vor, was mit Abstand die wenigsten in der Bundesliga bedeutet.",
+   "verified": true
+  },
+  {
+   "title": "Taktik-Check: Was macht die Werkself unter Alonso so stark?",
+   "url": "https://www.bundesliga.com/de/bundesliga/news/taktik-check-bayer-04-leverkusen-xabi-alonso-starken-25271",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2023-11-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In der letzten Transferperiode baute der Spanier seine Mannschaft mit Sportdirektor Simon Rolfes seinen Wünschen entsprechend um: mit den Neuzugängen Granit Xhaka, Alejandro Grimaldo, Victor Boniface und Jonas Hofmann",
+   "verified": true
+  },
+  {
+   "title": "Transfer Gurus: Bayer Leverkusen's Simon Rolfes - Analytics FC",
+   "url": "https://analyticsfc.co.uk/blog/2024/07/04/transfer-gurus-bayer-leverkusens-simon-rolfes/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-04",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "If the average age of Rolfes' incoming transfers from the 2019/20 season to the 2022/23 season was 21.6 years, the average age of Leverkusen's ingoing transfers and loaned in the 2023/24 season – Alonso's first full season – jumped to 25.9 years.",
+   "verified": true
+  },
+  {
+   "title": "Simon Rolfes interview, Sky Sports",
+   "url": "https://www.skysports.com/football/news/12040/13141104/xabi-alonso-florian-wirtz-and-bayer-leverkusens-remarkable-season-discussed-by-club-chief-simon-rolfes",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-22",
+   "eventDate": "2024-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "We had a small squad so had to decide to sign more players or not. A winter transfer window is always difficult and so we went with a smaller squad to show we have trust in them.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "giving youngsters like Gustavo Puerta or Noah Mbamba chances to start in the last two games when the group was won.",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "The staff rewarded the sacrifices of Andrich for giving up his starting job, playing as makeshift centre-back, never complaining, despite potentially losing his Germany spot for the Euros, by deploying him in central midfield. At the same time, Alonso's emotional intelligence and leadership skills were on evidence",
+   "verified": true
+  },
+  {
+   "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+   "url": "https://bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "the Spanish coach made sure that the Wirtz-Hofmann-Boniface trio got some rest. They played only 40 percent of available minutes in the group stage",
+   "verified": true
+  },
+  {
+   "title": "Simon Rolfes interview, Sky Sports",
+   "url": "https://www.skysports.com/football/news/12040/13141104/xabi-alonso-florian-wirtz-and-bayer-leverkusens-remarkable-season-discussed-by-club-chief-simon-rolfes",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-22",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "He does not have an ego, he is on the same level as the guys. It helps create this special team spirit and this special energy.",
+   "verified": true
+  },
+  {
+   "title": "Transfer Gurus: Bayer Leverkusen's Simon Rolfes - Analytics FC",
+   "url": "https://analyticsfc.co.uk/blog/2024/07/04/transfer-gurus-bayer-leverkusens-simon-rolfes/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-04",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "\"Atmosphere\" focuses on personality and behaviour. They look for players who foster a stable and harmonious dressing room. Take Robert Andrich, for example.",
+   "verified": true
+  },
+  {
+   "title": "2023-24 Bayer 04 Leverkusen season - Wikipedia",
+   "url": "https://en.wikipedia.com/wiki/2023%E2%80%9324_Bayer_04_Leverkusen_season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-07-03",
+   "eventDate": "2024-05-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "On 25 May, Leverkusen won the DFB-Pokal final against Kaiserslautern and completed an undefeated domestic double, finishing their campaign with just one defeat in 53 competitive matches.",
+   "verified": true
+  },
+  {
+   "title": "2023-24 Bayer 04 Leverkusen season - Wikipedia",
+   "url": "https://en.wikipedia.com/wiki/2023%E2%80%9324_Bayer_04_Leverkusen_season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-07-03",
+   "eventDate": "2023-08-19",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "| 19 August 2023 1 | Bayer Leverkusen | 3–2 | RB Leipzig | Leverkusen |",
+   "verified": true
+  },
+  {
+   "title": "Diesmal kein Patzer: Leverkusen locker in zweiter Pokalrunde - Sport1",
+   "url": "https://www.sport1.de/news/fussball/dfb-pokal/2023/08/diesmal-kein-patzer-leverkusen-locker-in-zweiter-pokalrunde",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-08-12",
+   "eventDate": "2023-08-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Beim Hamburger Regionalligisten FC Teutonia 05 Ottensen setzten sich die Westdeutschen ungefährdet mit 8:0 (3:0) durch",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "We can dominate the game, but sometimes we also have to wait and defend in a compact way.",
+   "date": "2024-02",
+   "source": "Bundesliga.com Tactics Corner, 16 Feb 2024",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I feel this is the right place for me to be and to develop as a coach.",
+   "date": "2024-03-28",
+   "source": "Get German Football News, press conference before Hoffenheim",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://amp.bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.tntsports.co.uk/football/europa-league/2023-2024/xabi-alonso-exclusive-good-football-not-flashy-football-behind-bayer-leverkusens-unbeaten-charge_sto20005581/story.shtml",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Rafael Benitez, Jose Mourinho, Carlo Ancelotti, Pep Guardiola (as named by Alonso in press; not mined)"
+ ],
+ "managers": [
+  {
+   "managerId": "xabi-alonso",
+   "start": "2023-08-12",
+   "end": "2024-05-25"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B Bundesliga.com/Transfer Hub/Analytics FC analyses agree on structure and dates, but no match-level data for all 53 games, stated view is thin, and several pieces are season-level."
+ }
+}

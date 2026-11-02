@@ -1,0 +1,480 @@
+{
+ "id": "penarol-1960-66",
+ "catalog": "team",
+ "name": "Peñarol 1960–1966",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1960-04-19",
+  "end": "1966-10-26"
+ },
+ "scopeNote": "Peñarol from the first Copa Libertadores 1960 match (19 April 1960, 7-1 v Jorge Wilstermann, RSSSF) to the 1966 Intercontinental Cup second leg (26 October 1966, Madrid, 2-0, 4-0 on points). Two eras of coaching: Roberto Scarone 1960-62 (4-2-4 / 4-4-2 per Trivela) and Roque Máspoli by 1965-66; coaches for 1962-65 not verified in sources read (web search budget ran out before the gap pass). Style named by sources: 4-2-4 / 4-4-2, a team that defended and counterattacked at speed ('nos dejábamos dominar') per a player in El Observador. Tactical coverage is thin and mostly tier C; no zonal/man-marking description of Peñarol itself was found (Spencer's remark on Real Madrid's man-marking is about the opponent). Dates for coach tenures are by year only.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Who coached Peñarol between Scarone's exit (1962 per Trivela) and Máspoli (verified only for 1965 and 1966)? A search summary (not read on a page) named Béla Guttmann in 1962; El Observador mentions Rafael Milans and Oswaldo Brandão only for the 1966-69 unbeaten run. Unverified; the managers[] ends for Scarone and start for Máspoli are approximate.",
+  "Possibly two eras: Scarone's side (1960-62, Cubilla, Hohberg, Sasía, Joya, Ledesma) versus Máspoli's 1965-66 side (Mazurkiewicz, Gonçalves, Caetano, Rocha, Abbadie, Figueroa). Spencer is the only constant star.",
+  "The El Observador defensive quote (played in Italy 1956-62, returned in 1962) is unnamed in the digest paragraph; speaker not identified, so it covers 1962-66 only loosely.",
+  "Gonçalves's 1966 playoff quote (rough play v River Plate) comes from a Wikipedia page quoting El Gráfico, years later.",
+  "Pressing, possession, build-up, set-pieces and shape in the Máspoli years have no verified fact; Hugo Bagnulo coached 1958-59 only (outside the period), so excluded from managers[].",
+  "Scarone's departure year (1962) comes from a single tier C source; Wikipedia gives 1959-1962 vaguely; no exact day found."
+ ],
+ "sources": [
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1960/61",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Adepto do 4-2-4 e também do 4-4-2, seu time era extremamente eficiente no ataque e coeso no meio campo e defesa.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1961",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "tinha no esquema 4-2-4 / 4-4-2 o alicerce para construir vitórias incontestáveis, quase sempre com muitos gols",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1960/61",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Time-base: Luis Maidana; Willian Martinez, Núber Cano (Salvador), Edgardo González (Roberto Matosas) e Néstor Gonçalves ; Walter Aguerre e Luis Cubilla (Omar Caetano); Ernesto Ledesma (Carlos Linazza), José Sasía (Juan Hohberg / Pedro Rocha), Alberto Spencer e Juan Joya (Carlos Borges). Técnico: Roberto Scarone.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1961",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Oportunista, Sasía marcou gols decisivos, como na final da Libertadores de 1961, contra o Palmeiras. Fez uma ótima dupla com Spencer.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1960",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Carlos Linazza: Argentino, Linazza chegou ao Peñarol no mesmo momento que Spencer, trazido do futebol peruano. O ponta defendeu o clube apenas em 1960, mas foi titular nas principais conquistas do período, antes de se transferir ao futebol chileno.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1960",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Juan Hohberg: Veterano do esquadrão do Peñarol que formou a base da seleção na Copa de 1950 (...) já estava em fim de carreira quando a era vitoriosa se iniciava além das fronteiras. Mesmo assim, foi o titular em ambos os duelos contra o Real Madrid.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1961",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Ernesto Ledesma: revelado pelo Peñarol em 1950, Ledesma deixou o clube em 1954, passou por Universidad de Chile e Portuguesa, até voltar em 1961 a tempo de conquistar uma Libertadores, um Mundial e um Campeonato Uruguaio.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1960",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Salvador: O primeiro brasileiro a se consagrar campeão da Libertadores. (...) Era um dos mais tarimbados do elenco em 1960, saindo pouco depois, vendido ao River Plate.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1960",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Depois da goleada por 7 a 1 e do empate em 1 a 1 contra os bolivianos, o time avançou até as semifinais. No duelo contra os argentinos do San Lorenzo, após dois empates em 1 a 1 e 0 a 0, foi necessário um terceiro jogo.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1961",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Joya, Sasía e Spencer foram os destaques do ataque do time, marcando, cada um, três gols nos seis jogos disputados pelo time aurinegro.",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1961",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Na volta, no Centenário, o Peñarol se inflou, mostrou o extremo de sua eficiência e massacrou os europeus: 5 a 0, gols de Sasía, Joya (2) e Spencer (2).",
+   "verified": true
+  },
+  {
+   "title": "Os 20 anos do 'Quinquenio de Oro' do Peñarol, a última era de domínio inapelável no Uruguai",
+   "url": "https://trivela.com.br/america-do-sul/os-20-anos-do-quinquenio-de-oro-do-penarol-ultima-era-de-dominio-inapelavel-no-uruguai/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-14",
+   "eventDate": "1960/62",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "A resposta aurinegra tardou vinte anos e foi dada entre 1958 e 1962, por meio da geração marcada nos primórdios da Libertadores: Alberto Spencer, Juan Joya, Juan Hohberg, Luis Cubilla, Néstor Gonçalves, entre outros grandes nomes.",
+   "verified": true
+  },
+  {
+   "title": "Os 20 anos do 'Quinquenio de Oro' do Peñarol, a última era de domínio inapelável no Uruguai",
+   "url": "https://trivela.com.br/america-do-sul/os-20-anos-do-quinquenio-de-oro-do-penarol-ultima-era-de-dominio-inapelavel-no-uruguai/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-14",
+   "eventDate": "1965",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "cujos remanescentes são o mesmo árbitro (Aírton Vieira de Moraes) e o mesmo técnico aurinegro (Roque Máspoli).",
+   "verified": true
+  },
+  {
+   "title": "Peñarol y el mayor récord de partidos invicto por el Campeonato Uruguayo",
+   "url": "https://www.elobservador.com.uy/nota/penarol-y-el-mayor-record-de-partidos-invicto-por-el-campeonato-uruguayo-202042922634",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2020-04-30",
+   "eventDate": "1962/66",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Teníamos un buen equipo. Jugábamos distinto, de atrás para adelante. No atacábamos, pese a los jugadorazos que teníamos. No íbamos a regalarnos, nos dejábamos dominar, que vinieran, porque era muy difícil jugar contra una defensa cerrada. Los contrarios nos decían: 'Contra ustedes no se puede jugar'. ¿Porqué? Porque nos defendíamos y ahora se habla de atacar.",
+   "verified": true
+  },
+  {
+   "title": "Peñarol y el mayor récord de partidos invicto por el Campeonato Uruguayo",
+   "url": "https://www.elobservador.com.uy/nota/penarol-y-el-mayor-record-de-partidos-invicto-por-el-campeonato-uruguayo-202042922634",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2020-04-30",
+   "eventDate": "1962/66",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Pero ojo, cuando teníamos la pelota, porque contraatacábamos con una gran velocidad.",
+   "verified": true
+  },
+  {
+   "title": "Peñarol y el mayor récord de partidos invicto por el Campeonato Uruguayo",
+   "url": "https://www.elobservador.com.uy/nota/penarol-y-el-mayor-record-de-partidos-invicto-por-el-campeonato-uruguayo-202042922634",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-30",
+   "eventDate": "1966",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "el equipo que comandaba Roque Máspoli y preparaba físicamente Alberto Langlade, jugó otros tres encuentros por el Uruguayo.",
+   "verified": true
+  },
+  {
+   "title": "Peñarol y el mayor récord de partidos invicto por el Campeonato Uruguayo",
+   "url": "https://www.elobservador.com.uy/nota/penarol-y-el-mayor-record-de-partidos-invicto-por-el-campeonato-uruguayo-202042922634",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-30",
+   "eventDate": "1966",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "A los uruguayos Abbadie, Gonçalves, Mazurkiewicz y Rocha, le agregó extranjeros como el paraguayo Néstor Lezcano, el ecuatoriano Spencer y el chileno Elías Ricardo Figueroa entre otros.",
+   "verified": true
+  },
+  {
+   "title": "1966. Spencer: el amanecer de un moreno",
+   "url": "https://elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/32659/1966-spencer-el-amanecer-de-un-moreno",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2020-04-13",
+   "eventDate": "1966",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "a mí me gustan los punteros que la levantan... ¿Cómo lo dicen? ¿A la olla? Pues a mí me gusta eso... Será porque soy alto y les gano a todos saltando… (...) Es como opina Julio Abbadie. \"¿Para qué vamos a jugar a otra cosa con un morocho como éste que las agarro todas?\"",
+   "verified": true
+  },
+  {
+   "title": "1966. Spencer: el amanecer de un moreno",
+   "url": "https://elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/32659/1966-spencer-el-amanecer-de-un-moreno",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2020-04-13",
+   "eventDate": "1966",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Pero el Real no me ha gustado... Yo no entiendo esa marcación donde un hombre corre a otro todo el partido... Al final no marcan a nadie, como ha pasado esta vez. Podíamos haber marcado varios goles más...",
+   "verified": true
+  },
+  {
+   "title": "1966. Spencer: el amanecer de un moreno",
+   "url": "https://elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/32659/1966-spencer-el-amanecer-de-un-moreno",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2020-04-13",
+   "eventDate": "1959/60",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Peñarol pagó por mi pase 13.000 dólares, algo así como 100.000 pesos uruguayos... Eso fue a fines de 1959. Jugué algunos partidos amistosos y debuté oficialmente justo en el clásico, en febrero de 1960, frente a Nacional",
+   "verified": true
+  },
+  {
+   "title": "1966. Spencer: el amanecer de un moreno",
+   "url": "https://elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/32659/1966-spencer-el-amanecer-de-un-moreno",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2020-04-13",
+   "eventDate": "1966-10-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "El equipo de Uruguay ya había ganado el primer partido en el Centenario, con dos goles de Spencer. En la revancha en el Bernabeu,  los “Manyas” ganarían con idéntico score, con un gol del ecuatoriano y otro de Pedro Rocha de penal",
+   "verified": true
+  },
+  {
+   "title": "Peñarol's golden five-year periods",
+   "url": "https://www.topscorersfootball.com/penarol-s-golden-five-year-periods",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-09-22",
+   "eventDate": "1958/59",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In 1958, Gaston Guelfi arrived as president of the club, accompanied by Washington Cataldi and together they would begin a new golden era for the club, bringing in coach Hugo Bagnulo, who had just been coach of the Uruguay national team.",
+   "verified": false
+  },
+  {
+   "title": "Peñarol's golden five-year periods",
+   "url": "https://www.topscorersfootball.com/penarol-s-golden-five-year-periods",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-09-22",
+   "eventDate": "1959/60",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In 1959, a Peñarol scout saw an Ecuadorian striker playing with his national team that left him impressed and after Bagnulo's approval, he went to Ecuador to close his signing",
+   "verified": true
+  },
+  {
+   "title": "Peñarol's golden five-year periods",
+   "url": "https://www.topscorersfootball.com/penarol-s-golden-five-year-periods",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-09-22",
+   "eventDate": "1960/62",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Bagnulo also led the team to win the 1959 championship, the year in which he left office and was succeeded by Roberto Scarone, with whom Peñarol would win 3 more championships, achieving its first golden five-year period. As a curious fact, the team only lost one match in each season it won between 1960 and 1962.",
+   "verified": true
+  },
+  {
+   "title": "Peñarol's golden five-year periods",
+   "url": "https://www.topscorersfootball.com/penarol-s-golden-five-year-periods",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-09-22",
+   "eventDate": "1961",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "A year later, the black and gold team was reinforced by Joya and Sasia and won the Copa Libertadores again, this time against Palmeiras.",
+   "verified": true
+  },
+  {
+   "title": "Peñarol in Copa Libertadores 1960-1969",
+   "url": "https://rsssf.org/sacups/penarol-copa1969.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2001-05-01",
+   "eventDate": "1960-04-19",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "001  19th April 1960  (1st Round - Group 2) (...) PEÑAROL - JORGE WILSTERMANN (BOL)  7-1  (4-0)",
+   "verified": true
+  },
+  {
+   "title": "Peñarol in Intercontinental Cup",
+   "url": "https://rsssf.org/sacups/penarol-icc.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2001-05-01",
+   "eventDate": "1966-10-26",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "7  Real Madrid            Spain      26-10-1966  A  Madrid, ESP            2-0  4-0  (1)",
+   "verified": true
+  },
+  {
+   "title": "Peñarol in Intercontinental Cup",
+   "url": "https://rsssf.org/sacups/penarol-icc.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2001-05-01",
+   "eventDate": "1966-10-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "6  Real Madrid            Spain      12-10-1966  H  Montevideo, URU        2-0",
+   "verified": true
+  },
+  {
+   "title": "1966 Copa Libertadores finals - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1966_Copa_Libertadores_Finals",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-18",
+   "eventDate": "1966-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "After both teams won one match each, a third game was hosted at Estadio Nacional in Santiago de Chile on 20 May 1966. Peñarol beat River by 4–2 therefore winning their 3rd. Copa Libertadores title.",
+   "verified": true
+  },
+  {
+   "title": "1966 Copa Libertadores finals - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1966_Copa_Libertadores_Finals",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-18",
+   "eventDate": "1966-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "We were desperate and therefore we drew from illicit resources, that's true. We even said them that in case they won, we would look for them to their changing room and hotel. It became a climate of war from which we took a great advantage, given the pasiveness of River players.",
+   "verified": true
+  },
+  {
+   "title": "Roberto Scarone - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roberto_Scarone",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-07",
+   "eventDate": "1959/62",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "two Copa Libertadores titles (in 1960 and 1961) and the 1961 Intercontinental Cup.[1]",
+   "verified": true
+  },
+  {
+   "title": "[Imortais do Futebol] Há 60 anos, o Peñarol se consagrava como o primeiro campeão da Libertadores",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/imortais-do-futebol-ha-60-anos-o-penarol-se-consagrava-como-o-primeiro-campeao-da-libertadores/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-06-19",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Venceu 7 títulos com o clube, até deixar o Carbonero em 1962 para assumir a comissão técnica da seleção uruguaia na Copa de 1962",
+   "verified": true
+  },
+  {
+   "title": "Roque Máspoli - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roque_M%C3%A1spoli",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2004-03-18",
+   "eventDate": "1966",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Máspoli also coached Uruguayan club Peñarol,[5] with which he won five national championships, the Copa Libertadores and the 1966 Intercontinental Cup, when the team beat Real Madrid 4–0 on aggregate.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Yo no entiendo esa marcación donde un hombre corre a otro todo el partido... Al final no marcan a nadie, como ha pasado esta vez.",
+   "date": "1966-10",
+   "source": "El Gráfico, interview with Alberto Spencer (player, not coach) between the two 1966 Intercontinental legs",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Jugábamos distinto, de atrás para adelante. No atacábamos, pese a los jugadorazos que teníamos. No íbamos a regalarnos, nos dejábamos dominar, que vinieran",
+   "date": "2020-04-30",
+   "source": "El Observador, unnamed Peñarol player (player, not coach)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://beyondthelastman.com/2020/08/18/the-1960s-glory-years-of-penarol/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.pressreader.com/uk/late-tackle-football-magazine/20190113/281629601453388",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/7034761/crossDomain",
+   "reason": "empty"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/B%C3%A9la_Gutmann",
+   "reason": "404"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/copa-libertadores/nota/_/id/14355684/las-libertadores-que-gano-penarol-lo-largo-historia-cuantas-veces-campeon-copa",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "managers": [
+  {
+   "managerId": "roberto-scarone",
+   "start": "1960-01-01",
+   "end": "1962-12-31"
+  },
+  {
+   "managerId": "roque-maspoli",
+   "start": "1965-01-01",
+   "end": "1966-10-26"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "build-up",
+   "possession",
+   "pressing",
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Thin tactical coverage, mostly tier C, coaches for 1962-65 unverified, no gap-pass searches possible (search budget exhausted)."
+ }
+}

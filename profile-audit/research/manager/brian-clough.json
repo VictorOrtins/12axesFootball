@@ -1,0 +1,695 @@
+{
+ "id": "brian-clough",
+ "catalog": "manager",
+ "name": "Brian Clough",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1967-05",
+  "end": "1993-05"
+ },
+ "scopeNote": "Two counted spells: Derby County (May 1967 to October 1973, Second Division 1968/69, First Division 1971/72, European Cup semi-final 1972/73) and Nottingham Forest (6 January 1975 to May 1993: First Division 1977/78, European Cups 1979 and 1980, League Cups). Exact day not found in a read page for the Derby start/end (Sky: 'joined Derby in May 1967', 'resigned in October 1973'), nor for the Forest end ('relegation in 1993'); partial dates used. The Forest start of 6 January 1975 is from a search summary of the EFL page (unreadable), so profilePeriod uses '1975-01' in the spell record. Style label: sources do not name a system; Clough himself rejected the word 'tactics' and spoke of 'philosophy' (Wilson: 'tactics by another name'): simple passing football 'on the floor', fixed player roles, fitness of personnel over formations, and psychology. Evidence for marking, pressing, transitions is thin: no page read states zonal or man-marking. Popular label 'no tactics' is the manager's own pose and Viv Anderson's recollection, contradicted by Wilson, and by the 1980 five-man midfield. Partial dates (1967-05, 1973-10, 1993-05, and the excluded spells) are used because no read page gives the day; excluded-spell dates (Hartlepools 1965-67, Brighton 1973-74, Leeds 1974) come from memory and are unverified.",
+ "ambiguities": [],
+ "openQuestions": [
+  "No read source describes marking scheme (zonal vs man-to-man), pressing or transitions for either spell; Viv Anderson's 'If I kick my marker' line is about his own duel on the wing, not a team system.",
+  "Exact start day of Derby (May 1967) and end (October 1973; Sky says resigned October 1973), and Forest end (May 1993) come from partial dates; exact days not taken from memory.",
+  "Forest start 6 January 1975 appears in FourFourTwo only as 'January 1975' and in the EFL page, which returned no paragraphs; Viv Anderson's account places the first match as the FA Cup replay against Tottenham.",
+  "Shilton fee: FourFourTwo says £270,000; another source in search summaries says £250,000 or £350,000.",
+  "Whether Clough's own autobiographies (Clough, 1994; Walking on Water, 2002) can be cited primary was not verified: only attributed quotes found in secondary pages.",
+  "Excluded Hartlepools 1965-67 (Fourth Division, eighth in the last season, no titles, no tactical coverage found), Brighton 1973-74 (Third Division, no titles, short, Taylor-led) and Leeds 1974 (44 days, under 10 matches). Dates from memory not used; Leeds 44 days from FourFourTwo.",
+  "Peter Taylor was absent for the first months at Forest (rejoined after about a year, per McGovern; Planet Football says 1976); counted spell includes the Taylor-less period."
+ ],
+ "spellsCounted": [
+  {
+   "club": "Derby County",
+   "start": "1967-05",
+   "end": "1973-10",
+   "reason": "Second Division 1968/69, First Division title 1971/72, European Cup semi-final; recognisable team-building coverage"
+  },
+  {
+   "club": "Nottingham Forest",
+   "start": "1975-01-06",
+   "end": "1993-05",
+   "reason": "First Division 1977/78, European Cups 1979 and 1980, League Cups; core of reputation"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Hartlepools United",
+   "start": "1965",
+   "end": "1967",
+   "reason": "Fourth Division, eighth place the last season, no titles, no tactical coverage"
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "start": "1973-10",
+   "end": "1974-07",
+   "reason": "Third Division, short, no titles, little tactical coverage"
+  },
+  {
+   "club": "Leeds United",
+   "start": "1974-07",
+   "end": "1974-09",
+   "reason": "44 days, fewer than 15 competitive matches, no coherent style"
+  }
+ ],
+ "sources": [
+  {
+   "title": "The life of Brian (When Saturday Comes review of Jonathan Wilson biography)",
+   "url": "https://www.wsc.co.uk/book-reviews/the-life-of-brian-2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-12-21",
+   "eventDate": "1975/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "These players tended to react with ill-disguised hostility to the sight of anybody drawing formational diagrams on a blackboard.",
+   "verified": true
+  },
+  {
+   "title": "The life of Brian (When Saturday Comes review of Jonathan Wilson biography)",
+   "url": "https://www.wsc.co.uk/book-reviews/the-life-of-brian-2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-12-21",
+   "eventDate": "1975/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Clough’s main contribution to coaching was to select players who fitted together and could fulfil the roles he had fixed for them. Forwards, for example, needed to receive the ball with their back to goal and either turn the defender or hold play up until midfield support arrived.",
+   "verified": true
+  },
+  {
+   "title": "The life of Brian (When Saturday Comes review of Jonathan Wilson biography)",
+   "url": "https://www.wsc.co.uk/book-reviews/the-life-of-brian-2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-12-21",
+   "eventDate": "1979/81",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "which is why Trevor Francis spent much of his time at the City Ground playing on the wing.",
+   "verified": true
+  },
+  {
+   "title": "The life of Brian (When Saturday Comes review of Jonathan Wilson biography)",
+   "url": "https://www.wsc.co.uk/book-reviews/the-life-of-brian-2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-12-21",
+   "eventDate": "1967/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "When it came to man-management Clough was a law unto himself. Influenced primarily by old-school disciplinarians Harry Storer and Alan Brown, he ruled his teams by fear (...) It seems that Clough’s unpredictable and erratic behaviour – which was at least partially fuelled by drink – was often his most powerful weapon.",
+   "verified": true
+  },
+  {
+   "title": "The life of Brian (When Saturday Comes review of Jonathan Wilson biography)",
+   "url": "https://www.wsc.co.uk/book-reviews/the-life-of-brian-2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-12-21",
+   "eventDate": "1967/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Clough, a manager who claimed to have no interest or belief in tactics whatsoever. As Wilson points out, however, while apparently rejecting tactics, Clough was more than happy to expound on his “philosophy”, “which was tactics by another name”.",
+   "verified": true
+  },
+  {
+   "title": "The life of Brian (When Saturday Comes review of Jonathan Wilson biography)",
+   "url": "https://www.wsc.co.uk/book-reviews/the-life-of-brian-2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-12-21",
+   "eventDate": "1967/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Clough and Peter Taylor, the author says, had a rare ability to boil down tactical planning to a few concise instructions to individual players.",
+   "verified": true
+  },
+  {
+   "title": "John McGovern On Derby, Clough & Taylor And Conquering Europe With Nottingham Forest",
+   "url": "https://worldfootballindex.com/2021/11/john-mcgovern-brian-clough-peter-taylor-derby-county-and-conquering-europe-with-nottingham-forest/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-19",
+   "eventDate": "1968/69",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "“The signing of Dave McKay was massive and that was down to Taylor. He was the talent scout as well as being assistant manager.",
+   "verified": true
+  },
+  {
+   "title": "John McGovern On Derby, Clough & Taylor And Conquering Europe With Nottingham Forest",
+   "url": "https://worldfootballindex.com/2021/11/john-mcgovern-brian-clough-peter-taylor-derby-county-and-conquering-europe-with-nottingham-forest/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-19",
+   "eventDate": "1975/76",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "they were also fortunate to have players like Ian Bowyer, Tony Woodcock, Martin O’Neill, Viv Anderson and John Robertson already at the club. Those five players went on to be international players, so they had the basis of a side.",
+   "verified": true
+  },
+  {
+   "title": "John McGovern On Derby, Clough & Taylor And Conquering Europe With Nottingham Forest",
+   "url": "https://worldfootballindex.com/2021/11/john-mcgovern-brian-clough-peter-taylor-derby-county-and-conquering-europe-with-nottingham-forest/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-19",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“No, he would never change. We never changed the tactics much under Brian. He always put you in the right frame of mind so that when you went out on the pitch, you knew that you were expected to do your job and know your job.",
+   "verified": true
+  },
+  {
+   "title": "John McGovern On Derby, Clough & Taylor And Conquering Europe With Nottingham Forest",
+   "url": "https://worldfootballindex.com/2021/11/john-mcgovern-brian-clough-peter-taylor-derby-county-and-conquering-europe-with-nottingham-forest/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-19",
+   "eventDate": "1967/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "“Sometimes signings cost next to no money, so they were also able to build sides on a budget. They spent money at times too and broke transfer records on Trevor Francis and others",
+   "verified": true
+  },
+  {
+   "title": "John McGovern On Derby, Clough & Taylor And Conquering Europe With Nottingham Forest",
+   "url": "https://worldfootballindex.com/2021/11/john-mcgovern-brian-clough-peter-taylor-derby-county-and-conquering-europe-with-nottingham-forest/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-19",
+   "eventDate": "1967/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“If they were both brilliant instilling discipline and managing a side, then you would only need Clough.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "A flexible 4-3-3 allowed Robertson to push deep on the left and curl crosses towards Woodcock and Peter Withe. In midfield, Archie Gemmill roamed from the left and O’Neill drifted in from the right, with McGovern a ball-winner and passer.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Behind them, the view was uncompromising: Clark on the left, Lloyd and Burns in the centre, Viv Anderson on the right. That irresistible mix of pragmatism and technique was easily the equal of the giants of Anfield.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1976/77",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Peter Shilton was rescued from relegated Stoke for £270,000, a world record fee for a goalkeeper. Taylor also persuaded Clough to buy Birmingham’s striker Kenny Burns (...) On arrival, Burns was converted into a central defender",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1974/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Promising striker Tony Woodcock was about to be sold on to Lincoln City. Disenchanted midfielders Martin O’Neill and John Robertson were on the transfer list.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1980/81",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Within weeks, Burns, Birtles, Clark, Francis and Lloyd were all gone as Clough planned his second great team. But Taylor was unable to continue his success with transfers.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“At half-time, I wondered how we could last,” admitted Clough. “We could have taken three off.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1975/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Expensive signings would be ordered to retrieve balls from nettle patches. Poor performances resulted in rambles down the banks of the Trent for catering van soup. Team talks could consist of the squad staring at a football for five minutes while Clough soliloquised.",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Yet there was a sour smell in the air, put there by Clough’s short-lived attempt to strip O’Neill of the captaincy",
+   "verified": true
+  },
+  {
+   "title": "When Nottingham Forest ruled Europe: The story of Brian Clough's continental conquerors",
+   "url": "https://www.fourfourtwo.com/features/when-nottingham-forest-ruled-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-29",
+   "eventDate": "1976/77",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“Peter would have a sixth sense of how you were feeling,” said the forward, signed from non-league Long Eaton United in 1976. “Brian would take on what he said and reach into your psychological DNA to find the way to motivate you.”",
+   "verified": true
+  },
+  {
+   "title": "The men who made Brian Clough",
+   "url": "https://www.fourfourtwo.com/features/men-who-made-brian-clough",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-01-27",
+   "eventDate": "1967/87",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Impressed, Clough would buy such bravehearts as Mackay, Larry Lloyd, Kenny Burns and Stuart Pearce.",
+   "verified": true
+  },
+  {
+   "title": "An ode to Peter Taylor, a man who history has done a great disservice",
+   "url": "https://www.planetfootball.com/nostalgia/an-ode-to-peter-taylor-a-man-who-history-has-done-a-great-disservice",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "1976/77",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Tony Woodcok, who was playing in midfield and on the verge of moving to Lincoln for £4,000 when Taylor moved to the City Ground but who would join FC Cologne for £600,000 three years later. (...) Garry Birtles. A carpet-fitter by trade, converted into an indefatigable forward on the basis of a single, sparkling drag-back in a reserve game.",
+   "verified": true
+  },
+  {
+   "title": "An ode to Peter Taylor, a man who history has done a great disservice",
+   "url": "https://www.planetfootball.com/nostalgia/an-ode-to-peter-taylor-a-man-who-history-has-done-a-great-disservice",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "1967/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Taylor’s ability to identify latent talent was at the root of the two great teams they built – at both the Baseball and City Grounds.",
+   "verified": true
+  },
+  {
+   "title": "An ode to Peter Taylor, a man who history has done a great disservice",
+   "url": "https://www.planetfootball.com/nostalgia/an-ode-to-peter-taylor-a-man-who-history-has-done-a-great-disservice",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "But the fractious relationship with chairman Sam Longson would compel them to resign",
+   "verified": true
+  },
+  {
+   "title": "50 Years On: How Brian Clough Masterminded Derby County's 1971/72 Title Success",
+   "url": "https://www.dcfc.co.uk/news/2022/06/50-years-on-how-derby-county-won-the-first-division-title",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-06-01",
+   "eventDate": "1967/68",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "They had seen a lot of the youngster, who had played the full season with Tranmere Rovers and achieved promotion from the Fourth Division at the age of just 19. Taylor described him as an ‘uncut diamond’",
+   "verified": true
+  },
+  {
+   "title": "50 Years On: How Brian Clough Masterminded Derby County's 1971/72 Title Success",
+   "url": "https://www.dcfc.co.uk/news/2022/06/50-years-on-how-derby-county-won-the-first-division-title",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-06-01",
+   "eventDate": "1968",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Clough raided his former club Hartlepools and brought in the talented John McGovern, whilst influential pair John O’Hare and Alan Hinton were shrewdly recruited.",
+   "verified": true
+  },
+  {
+   "title": "50 Years On: How Brian Clough Masterminded Derby County's 1971/72 Title Success",
+   "url": "https://www.dcfc.co.uk/news/2022/06/50-years-on-how-derby-county-won-the-first-division-title",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-06-01",
+   "eventDate": "1968/69",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Mackay brought the best out of everybody. He formed a good partnership with McFarland and improved his game, whilst his defensive displays allowed the attacking players to thrive.",
+   "verified": true
+  },
+  {
+   "title": "50 Years On: How Brian Clough Masterminded Derby County's 1971/72 Title Success",
+   "url": "https://www.dcfc.co.uk/news/2022/06/50-years-on-how-derby-county-won-the-first-division-title",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-06-01",
+   "eventDate": "1971",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Clough had already stated in the press that the club couldn’t afford the Sunderland defender. But, as was his way, Clough never did things by half. Later that afternoon, the Rams boss sent a telegram to owner Longson informing him of Todd’s signing and the size of the transfer fee. It would be a British record figure.",
+   "verified": true
+  },
+  {
+   "title": "50 Years On: How Brian Clough Masterminded Derby County's 1971/72 Title Success",
+   "url": "https://www.dcfc.co.uk/news/2022/06/50-years-on-how-derby-county-won-the-first-division-title",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-06-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Todd and McFarland created an understanding immediately and even added an attacking threat from corners and Webster and Robson both scored key goals during the campaign.",
+   "verified": true
+  },
+  {
+   "title": "50 Years On: How Brian Clough Masterminded Derby County's 1971/72 Title Success",
+   "url": "https://www.dcfc.co.uk/news/2022/06/50-years-on-how-derby-county-won-the-first-division-title",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-06-01",
+   "eventDate": "1967/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "They needed to recruit well, which was Taylor’s forte, whilst Clough was the man-manager and the motivator.",
+   "verified": true
+  },
+  {
+   "title": "The Clough legacy",
+   "url": "https://www.skysports.com/football/news/4758576/the-clough-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-01-07",
+   "eventDate": "1968/69",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "The signing of defender Dave Mackay proved the catalyst for a run to the Division Two title in 1968-69 as the managerial duo’s talent for team-building began to show itself.",
+   "verified": true
+  },
+  {
+   "title": "The Clough legacy",
+   "url": "https://www.skysports.com/football/news/4758576/the-clough-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-01-07",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "The fact they considered leaving hinted at a deteriorating relationship with the board and, in particular, Rams chairman Sam Longson, which was eventually to spell the end for the managerial duo.",
+   "verified": true
+  },
+  {
+   "title": "Martin O'Neill On Nottingham Forest, Brian Clough, Celtic, Aston Villa, And Working With Roy Keane",
+   "url": "https://worldfootballindex.com/2022/11/martin-oneill-on-nottingham-forest-brian-clough-celtic-aston-villa-and-working-with-roy-keane/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "“Everything was tailored around what we could do to hurt the opposition rather than worrying about their perceived strengths.",
+   "verified": true
+  },
+  {
+   "title": "Martin O'Neill On Nottingham Forest, Brian Clough, Celtic, Aston Villa, And Working With Roy Keane",
+   "url": "https://worldfootballindex.com/2022/11/martin-oneill-on-nottingham-forest-brian-clough-celtic-aston-villa-and-working-with-roy-keane/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "1979/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“Brian would not be dismissive of talented players or teams but he seldom spoke about them in the lead-up to a game.",
+   "verified": true
+  },
+  {
+   "title": "Certainly a one-off - Viv Anderson recalls special times under Brian Clough",
+   "url": "https://www.offalyexpress.ie/sport/certainly-a-one-off-viv-anderson-recalls-special-times-under-brian-clough-7033468",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-19",
+   "eventDate": "1975-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "“I was a young lad getting in the team and it was just a shock that I had played on the Saturday, but then I wasn’t involved in the replay on the Wednesday – because it was only cramp!”",
+   "verified": true
+  },
+  {
+   "title": "Certainly a one-off - Viv Anderson recalls special times under Brian Clough",
+   "url": "https://www.offalyexpress.ie/sport/certainly-a-one-off-viv-anderson-recalls-special-times-under-brian-clough-7033468",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-19",
+   "eventDate": "1975/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "“He could instil the right attitudes and the right virtues into the younger players, then he bought the likes of Frank Clark, Colin Barrett, Larry Lloyd and Peter Shilton, a lot of experienced players to help us young lads get through.",
+   "verified": true
+  },
+  {
+   "title": "Certainly a one-off - Viv Anderson recalls special times under Brian Clough",
+   "url": "https://www.offalyexpress.ie/sport/certainly-a-one-off-viv-anderson-recalls-special-times-under-brian-clough-7033468",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-19",
+   "eventDate": "1980-05-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "“In the 1980 European Cup final against Hamburg, we played five in midfield, with young Gary Mills out wide and Garry Birtles playing up front on his own,”",
+   "verified": true
+  },
+  {
+   "title": "Certainly a one-off - Viv Anderson recalls special times under Brian Clough",
+   "url": "https://www.offalyexpress.ie/sport/certainly-a-one-off-viv-anderson-recalls-special-times-under-brian-clough-7033468",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-19",
+   "eventDate": "1975/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“We never followed strict regimes in training. It was like a bit of five-a-side and then go out and play matches whenever it was.",
+   "verified": true
+  },
+  {
+   "title": "Viv Anderson: 'Clough was better than Ferguson'",
+   "url": "https://gulfnews.com/sport/football/viv-anderson-clough-was-better-than-ferguson-1.1614667",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-11-06",
+   "eventDate": "1975/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Neither were tacticians,” he added of Clough, who died in 2004 aged 69 and Ferguson",
+   "verified": true
+  },
+  {
+   "title": "Viv Anderson: 'Clough was better than Ferguson'",
+   "url": "https://gulfnews.com/sport/football/viv-anderson-clough-was-better-than-ferguson-1.1614667",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-11-06",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "“If I kick my marker and he doesn’t play we’ve got a chance of winning, it was as simple as that”.",
+   "verified": true
+  },
+  {
+   "title": "Viv Anderson: 'Clough was better than Ferguson'",
+   "url": "https://gulfnews.com/sport/football/viv-anderson-clough-was-better-than-ferguson-1.1614667",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-11-06",
+   "eventDate": "1975/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "they both wanted to play football in the right way, on the floor and always entertaining",
+   "verified": true
+  },
+  {
+   "title": "Viv Anderson: 'Clough was better than Ferguson'",
+   "url": "https://gulfnews.com/sport/football/viv-anderson-clough-was-better-than-ferguson-1.1614667",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-11-06",
+   "eventDate": "1975/93",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“Clough would come in at quarter to three, pick up a ball, throw it at someone and say ‘you pass to him and that’s how you’ll win’ there were no tactics, just good players who knew what was expected of them.",
+   "verified": true
+  },
+  {
+   "title": "If You Know Your History (1977/78) - The Set Pieces",
+   "url": "https://thesetpieces.com/features/if-you-know-your-history-197778/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-03",
+   "eventDate": "1977/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "their team was significantly comprised of players that were there when Clough arrived in 1975, in the nether regions of the Second Division. But the likes of John Robertson, Viv Anderson, Tony Woodcock and Ian Bowyer were augmented by the signings of Peter Shilton, Archie Gemmill and a new, fairly brutal centre-back pairing of Kenny Burns and Larry Lloyd.",
+   "verified": true
+  },
+  {
+   "title": "If You Know Your History (1977/78) - The Set Pieces",
+   "url": "https://thesetpieces.com/features/if-you-know-your-history-197778/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-03",
+   "eventDate": "1977-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Clough wouldn’t even let in the chairman, but when he swung open the door his face changed. “Come in,” he said, “delighted to see you.”",
+   "verified": true
+  },
+  {
+   "title": "If You Know Your History (1977/78) - The Set Pieces",
+   "url": "https://thesetpieces.com/features/if-you-know-your-history-197778/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-03",
+   "eventDate": "1977-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Geoffrey Green in the Times called Forest ‘unadventurous’ and ‘hardly championship material’",
+   "verified": true
+  },
+  {
+   "title": "Clough - 20 years on from death of a football genius",
+   "url": "https://www.rte.ie/sport/soccer/2024/0919/1470872-clough-20-years-on-from-death-of-a-football-genius",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-20",
+   "eventDate": "1975/80",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Clough built a fantastic team at the City Ground, with the likes of Kenny Burns, John Robertson, John McGovern and - perhaps best of all - goalkeeper Peter Shilton key to the transformation.",
+   "verified": true
+  },
+  {
+   "title": "Clough - 20 years on from death of a football genius",
+   "url": "https://www.rte.ie/sport/soccer/2024/0919/1470872-clough-20-years-on-from-death-of-a-football-genius",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-20",
+   "eventDate": "1983",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "His sidekick retired, but then took on a coaching job at Derby and signed Forest's star man Robertson from under Clough's nose.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "I would warn our supporters that this is not the start of anything special",
+   "date": "1975-01",
+   "source": "FourFourTwo, When Nottingham Forest ruled Europe (2025)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I’m not looking to just stay up with the Liverpools, Man Uniteds and Arsenals. I’m going up to piss all over them. The lot of them.",
+   "date": "1977-08",
+   "source": "FourFourTwo, When Nottingham Forest ruled Europe (2025), told reporters at the start of 1977/78",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We showed all the clever clogs in the media that we were good enough to win the title",
+   "date": "1977-12",
+   "source": "The Set Pieces, If You Know Your History (1977/78) (2016)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "the last time Nottingham were five ahead of anybody was in a cricket match",
+   "date": "1977-12",
+   "source": "The Set Pieces, If You Know Your History (1977/78) (2016)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "was barmy, we were worried that some players might age too quickly – we’d never worried about that before, only about talent",
+   "date": "1981",
+   "source": "FourFourTwo, When Nottingham Forest ruled Europe (2025) (undated later reflection on the 1980 sales); year approximate",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Liverpool aren’t the best team in the country, ’cos we are",
+   "date": "1977-10",
+   "source": "FourFourTwo, When Nottingham Forest ruled Europe (2025)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "you pass to him and that’s how you’ll win",
+   "date": "1975",
+   "source": "Gulf News, Viv Anderson interview (2015) (recalled by Viv Anderson); year approximate, spans 1975-1993",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2220793.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://gameofthepeople.com/2023/12/28/how-the-team-was-built-derbys-first-league-title-winners/",
+   "reason": "403"
+  },
+  {
+   "url": "https://gameofthepeople.com/2018/01/08/great-reputations-nottingham-forest-under-clough",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Harry Storer",
+  "Alan Brown",
+  "Peter Taylor"
+ ],
+ "gaps": {
+  "dimensions": [
+   "pressing",
+   "transitions"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several consistent sources on squad-building, people-management and stated view but mostly tier C and B; no tier A tactical study, and no coverage of marking, pressing or transitions."
+ }
+}

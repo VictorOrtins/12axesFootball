@@ -1,0 +1,539 @@
+{
+  "id": "bob-paisley",
+  "catalog": "manager",
+  "name": "Bob Paisley",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1974-07-26",
+    "end": "1983-05-14"
+  },
+  "scopeNote": "Liverpool manager 1974-1983 (appointed late July 1974, first match 17 Aug 1974, last match 14 May 1983). Start date 1974-07-26 comes from the club article dated 26 July 2024 saying 'Today marks 50 years' since the appointment; the Liverpool Echo piece is dated 27 July 1974. Style is described by sources as a patient, possession-based build-up from the back with versatility (counter-attacks in three to four passes), 4-4-2 shifting to 4-4-1-1 with Dalglish; Paisley himself rejected the label tactician. The Boot Room is context only. No source found on zonal versus man-marking: that dimension is not covered. Shankly-era and assistant-years facts excluded.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Exact appointment day (club article dated 2024-07-26 says 'Today marks 50 years'; Shankly's retirement announcement was earlier in July 1974): confirm from a dated 1974 source. Start date set from that article, not from memory.",
+    "End date 1983-05-14 is the final league match per LFChistory; Paisley's retirement announcement came earlier (April 1983) and the 1983 League Cup final was in March.",
+    "No source found on marking (zonal versus man) or set-pieces; two searches returned nothing on Paisley.",
+    "Phil Thompson says a high line, pressing up to the halfway line and a sweeper keeper were already in place when Shankly handed over (retrospective, 2024); the 1973 changes under Shankly pre-date the counted spell, so how much is Paisley's own is unclear.",
+    "SI and Tomkins describe 4-4-2 / 4-4-1-1 after Dalglish; Paisley's own quote says 4-4-2 with accent on passing versus 4-3-3 in the past. Source disagreement on whether the base was 4-4-2 or 4-4-1-1 is a labelling difference.",
+    "Search tool rate-limited some queries, which were retried; coachesvoice.com returned no Paisley page.",
+    "statedView entries dated 2016-05-05 or 2009-09-14 use the publication date of the earliest page found (the original utterance date is unknown, provenance attributed).",
+    "scopeNote: excluded spell dates (1939-05 signing as player, 1974-07 end) are partial because only the month is established; irrelevant to counted spell."
+  ],
+  "spellsCounted": [
+    {
+      "club": "Liverpool",
+      "start": "1974-07-26",
+      "end": "1983-05-14",
+      "reason": "Six First Division titles, three European Cups (1977, 1978, 1981), UEFA Cup 1976, League Cups; recognisable possession/versatile style."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Liverpool (player, physio, reserves coach, assistant to Shankly)",
+      "start": "1939-05",
+      "end": "1974-07",
+      "reason": "Not manager; facts from this period are not evidence."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bob Paisley: the gentle giant who couldn't stop winning",
+      "url": "https://thesefootballtimes.co/2016/05/05/bob-paisley-the-gentle-man-who-couldnt-stop-winning/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-05-05",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "A team with the ability to connect passes and play a Brian Clough-esque style and standard of ‘keep it on the deck’ football is dangerous. A team willing and able to switch from possession-based tactics to route one or counter attacking football is ruthless.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: the gentle giant who couldn't stop winning",
+      "url": "https://thesefootballtimes.co/2016/05/05/bob-paisley-the-gentle-man-who-couldnt-stop-winning/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-05-05",
+      "eventDate": "1977-09",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Liverpool’s football under Paisley showed how a team could transition from winning and regaining possession to scoring 90 yards down the field in three to four passes. And this wasn’t hoof ball, but rather a clinic in pinpoint passing over distance.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: the gentle giant who couldn't stop winning",
+      "url": "https://thesefootballtimes.co/2016/05/05/bob-paisley-the-gentle-man-who-couldnt-stop-winning/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-05-05",
+      "eventDate": "1977-09",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Paisley’s back-line executed the diagonal pass into space with precision; his wingers executed the ability to delivery quality, first-time service on-the-run with excellent technique; and his strikers timed their runs to perfection.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: the gentle giant who couldn't stop winning",
+      "url": "https://thesefootballtimes.co/2016/05/05/bob-paisley-the-gentle-man-who-couldnt-stop-winning/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-05-05",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "the attacking, midfield and defensive blocks moved in territorial unison (...) The proclivity of Paisley’s teams to attack and defend together coincided with what is known as “The Liverpool Way” of playing football.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: the gentle giant who couldn't stop winning",
+      "url": "https://thesefootballtimes.co/2016/05/05/bob-paisley-the-gentle-man-who-couldnt-stop-winning/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-05-05",
+      "eventDate": "1976/77",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "replacing the star-struck, Hamburg-bound talisman Kevin Keegan with Celtic’s ace, Kenny Dalglish, Paisley’s ability to evolve an already-dominant Liverpool to a footballing factory is a testament to the man’s knowledge of footballing application.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: the gentle giant who couldn't stop winning",
+      "url": "https://thesefootballtimes.co/2016/05/05/bob-paisley-the-gentle-man-who-couldnt-stop-winning/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-05-05",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "The man exuded class and calm and once spoke of the importance of speaking softly so people actually make the effort to listen. Paisley knew man-management was about being listened to over being heard.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: The Understated Tactician Who Conquered All of Europe With Liverpool",
+      "url": "https://www.si.com/soccer/2019/08/05/bob-paisley-understated-tactician-who-conquered-all-europe-liverpool",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-05",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "The result was a more possession-based approach to building from the back that took the place of the high-octane attack-at-all-costs football",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: The Understated Tactician Who Conquered All of Europe With Liverpool",
+      "url": "https://www.si.com/soccer/2019/08/05/bob-paisley-understated-tactician-who-conquered-all-europe-liverpool",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-05",
+      "eventDate": "1977/78",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "it was the signing of the latter that was the final piece of the puzzle, as his subtlety and ability to read the game allowed Paisley's 4-4-2 to shift into a 4-4-1-1.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: The Understated Tactician Who Conquered All of Europe With Liverpool",
+      "url": "https://www.si.com/soccer/2019/08/05/bob-paisley-understated-tactician-who-conquered-all-europe-liverpool",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-05",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "He based his management on his ability to judge a player, feeling that if the 11 players fit the basic system and were intelligent enough to read the game themselves, then tactical coaching could be kept to a minimum.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley: The Understated Tactician Who Conquered All of Europe With Liverpool",
+      "url": "https://www.si.com/soccer/2019/08/05/bob-paisley-understated-tactician-who-conquered-all-europe-liverpool",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-05",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Paisley knew when a player was past his sell-by date, ruthlessly moving on the likes of John Toshack, Tommy Smith and Ray Clemence when he felt they no longer fit the team.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley rides again (Liverpool Echo, 19 May 1977)",
+      "url": "https://playupliverpool.com/1977/05/19/bob-paisley-rides-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1977-05-19",
+      "eventDate": "1977-05-19",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“If our tactics are all that predictable why can’t other teams stop us beating them so often?” he asks – and it is unanswerable.",
+      "verified": true
+    },
+    {
+      "title": "Bob Paisley rides again (Liverpool Echo, 19 May 1977)",
+      "url": "https://playupliverpool.com/1977/05/19/bob-paisley-rides-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1977-05-19",
+      "eventDate": "1977-05-19",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "McDermott and Johnson cost big money, but both had to be content with the knowledge that they were brought to get used to the feel of the substitute’s bench. “The biggest mistake any manager can make is to feel that he has to justify a transfer fee by immediately plunging a new player into the first team.”",
+      "verified": true
+    },
+    {
+      "title": "Bob Paisley rides again (Liverpool Echo, 19 May 1977)",
+      "url": "https://playupliverpool.com/1977/05/19/bob-paisley-rides-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1977-05-19",
+      "eventDate": "1977-05-19",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "“It was the mistakes I made in my first year which caused us to finish second instead of champions,” he said.",
+      "verified": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "While the Reds rarely set up specifically to counter the opposition (although European away games were treated differently to those at Anfield), that did not mean in-game changes weren’t made. (...) The coaches adapted to the circumstances as the play unfolded — shifted players around if need be, or made a substitution — but the first instinct was to go with their natural game.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "“I’d really rather have someone limping around, as long as he isn’t doing damage to himself,” he said, “because if you bring on some young sub, he just raises the tempo of the game, running around like a blue-arsed fly, and then all of a sudden the whole flow of your game can disappear, and you can finish up losing it.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "“Because of the difference between them, there was a change in Liverpool’s style when we signed Kenny. With his subtlety, a 4-4-2 formation with the accent on passing was clearly our most effective line-up, whereas in the past we had often employed 4-3-3 as well.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1973/77",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "“We realised it was no use winning the ball if you finished up on your backside. The top Europeans showed us how to break out of defence effectively. The pace of their movement was dictated by their first pass. We had to learn how to be patient like that and think about the next two or three moves when we had the ball.”",
+      "verified": false,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Phil Neal never had to worry if he wanted to go on an overlap; someone would have the nous to cover him. Neal was told that if he joined an attack, to stay with it. He was now a forward, until the move broke down.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "the manager then moved the former Arsenal man a little deeper, to play behind the more established strike pairing. (...) it was only the following season that he nailed down a role in the side — on the left of midfield.",
+      "verified": false,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "And a big part of Paisley’s great tactical brilliance was knowing which players were needed, and where they would fit into the team. Get that right, and the tactics are more able to dictate themselves.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+      "url": "https://lfchistory.net/articles/2837/page/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-09-14",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "the Boot Room concluded that the position needed someone more technically adept, able to bring the ball out of defence and start attacks, rather than just repel them.",
+      "verified": false,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley - Liverpool manager 1974-1983 - LFChistory.net",
+      "url": "https://www.lfchistory.net/managers/manager/profile/10",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1996-02-22",
+      "eventDate": "1974-08-17",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "378 league games · First match 17 August 1974 · Final match 14 May 1983",
+      "verified": true
+    },
+    {
+      "title": "Bob Paisley - Liverpool manager 1974-1983 - LFChistory.net",
+      "url": "https://www.lfchistory.net/managers/manager/profile/10",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1996-02-22",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Continuity on the pitch was vital to the club's success. The sort of wholesale buying and selling that would be commonplace long after his retirement was not part of Paisley’s agenda. Changes were made gradually and the newcomers integrated carefully into an already successful side.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley - Liverpool manager 1974-1983 - LFChistory.net",
+      "url": "https://www.lfchistory.net/managers/manager/profile/10",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1996-02-22",
+      "eventDate": "1975/76",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Jimmy Case was promoted from the reserves to replace the industrious Brian Hall.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Bob Paisley quotes - LFChistory.net",
+      "url": "https://www.lfchistory.net/articles/2532",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2008-08-21",
+      "eventDate": "1983-04-21",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "My policy is to ideally have five or six men around the age of 26, a couple of youngsters, a couple round the 28 mark and one or two in their 30s. But the nucleus of the team should be experienced and not too old.",
+      "verified": true
+    },
+    {
+      "title": "Bob Paisley quotes - LFChistory.net",
+      "url": "https://www.lfchistory.net/articles/2532",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2008-08-21",
+      "eventDate": "1983-04-21",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "The secret is that our Liverpool team never know when to stop running and working. At Anfield we have always believed in players supporting each other and concentrating on not giving the ball away. You can't go charging forward all the time, willy-nilly. You must have patience, and this is where we can play the Continentals at their own game.",
+      "verified": true
+    },
+    {
+      "title": "Bob Paisley quotes - LFChistory.net",
+      "url": "https://www.lfchistory.net/articles/2532",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2008-08-21",
+      "eventDate": "1975-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "I'll admit, right away, that I am disappointed that we did not have a major trophy to show for our efforts. We were in four and we had a good side, but when you count second place as failure, then standards are becoming fantastically high. We never celebrate second place here.",
+      "verified": true
+    },
+    {
+      "title": "Bob Paisley quotes - LFChistory.net",
+      "url": "https://www.lfchistory.net/articles/2532",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2008-08-21",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "We liked everyone to air their views and you probably got a more wide-ranging discussion in the Boot room than you would in the boardroom. But nothing spilled out of there.",
+      "verified": true
+    },
+    {
+      "title": "Today marks 50 years to the day that Bob Paisley was appointed - Liverpool FC",
+      "url": "https://liverpoolfc.com/news/why-liverpool-fc-has-so-much-thank-bob-paisley",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-07-26",
+      "eventDate": "1974-07-26",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Today marks 50 years since Bob Paisley was appointed Liverpool manager as successor to Bill Shankly",
+      "verified": true
+    },
+    {
+      "title": "Today marks 50 years to the day that Bob Paisley was appointed - Liverpool FC",
+      "url": "https://liverpoolfc.com/news/why-liverpool-fc-has-so-much-thank-bob-paisley",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-07-26",
+      "eventDate": "1974/77",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "with Emlyn Hughes and myself at the back playing out from the back, Ray Clemence the sweeper 'keeper and playing a high line, pressing and pushing up to the halfway line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Today marks 50 years to the day that Bob Paisley was appointed - Liverpool FC",
+      "url": "https://liverpoolfc.com/news/why-liverpool-fc-has-so-much-thank-bob-paisley",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-07-26",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Bob took the captaincy off me and gave it to Graeme Souness. (...) Bob told me I was taking too much responsibility for goals that were being conceded and he wanted to take that onus off me, and it worked.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Today marks 50 years to the day that Bob Paisley was appointed - Liverpool FC",
+      "url": "https://liverpoolfc.com/news/why-liverpool-fc-has-so-much-thank-bob-paisley",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-07-26",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Bob had his own ways in the dressing room. He didn't go in for grand speeches and motivation.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Today marks 50 years to the day that Bob Paisley was appointed - Liverpool FC",
+      "url": "https://liverpoolfc.com/news/why-liverpool-fc-has-so-much-thank-bob-paisley",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-07-26",
+      "eventDate": "1974/83",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Look at some of the other signings under Bob – Alan Hansen, Phil Neal, Terry McDermott, Graeme Souness, Ian Rush",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "It's not about the long ball or the short ball, it's about the right ball.",
+      "date": "2016-05-05",
+      "source": "https://www.planetfootball.com/quick-reads/17-of-the-best-bob-paisley-quotes-on-liverpool-100-years-on-from-his-birth",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I didn't talk tactics because I wasn't taught tactics. I was merely advised on certain things about my game.",
+      "date": "2009-09-14",
+      "source": "https://lfchistory.net/articles/2837/page/2",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "There are people who can talk me under the table about football, but if they had to explain what they are talking about they would be under it.",
+      "date": "2009-09-14",
+      "source": "https://lfchistory.net/articles/2837/page/2",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "We realised it was no use winning the ball if you finished up on your backside. The top Europeans showed us how to break out of defence effectively.",
+      "date": "2009-09-14",
+      "source": "https://lfchistory.net/articles/2837/page/2",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "If our tactics are all that predictable why can't other teams stop us beating them so often?",
+      "date": "1977-05-19",
+      "source": "https://playupliverpool.com/1977/05/19/bob-paisley-rides-again",
+      "provenance": "primary"
+    },
+    {
+      "quote": "The biggest mistake any manager can make is to feel that he has to justify a transfer fee by immediately plunging a new player into the first team.",
+      "date": "1977-05-19",
+      "source": "https://playupliverpool.com/1977/05/19/bob-paisley-rides-again",
+      "provenance": "primary"
+    },
+    {
+      "quote": "My policy is to ideally have five or six men around the age of 26, a couple of youngsters, a couple round the 28 mark and one or two in their 30s.",
+      "date": "1983-04-21",
+      "source": "https://www.lfchistory.net/articles/2532 (Liverpool Daily Post, 21 April 1983)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I'm only minding the shop until a real manager comes along.",
+      "date": "1974",
+      "source": "https://www.si.com/soccer/2019/08/05/bob-paisley-understated-tactician-who-conquered-all-europe-liverpool",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://footballparadise.com/bricklayer-who-built-the-bastion-bob-paisleys-liverpool-legacy-through-anecdotes",
+      "reason": "403"
+    },
+    {
+      "url": "https://legacy.liverpoolfc.com/news/first-team/184898-in-quotes-paisley-s-words-of-wisdom",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://angryofislington.com/2012/06/10/is-this-why-liverpool-were-so-successful-in-the-1970s1980s",
+      "reason": "403"
+    }
+  ],
+  "influences": [
+    "Bill Shankly",
+    "Continental European sides (Red Star Belgrade 1973 lesson)",
+    "Boot Room staff (Fagan, Moran, Evans)"
+  ],
+  "gaps": {
+    "dimensions": [
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good coverage of build-up, shape, squad-building and stated view with dated 1977 and 1983 primary quotes, but mostly tier C retrospectives; no marking or set-piece evidence."
+  }
+}
