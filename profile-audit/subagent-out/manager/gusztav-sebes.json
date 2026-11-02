@@ -1,57 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "Gap axis, no verified possession evidence, so this rests on general knowledge: Sebes's Golden Team built its play on fluid passing and collective movement (FIFA, undated 'socialist football' label), so the ball is valued for attack and control, but the side was not a slow possession team that held the ball for its own sake.",
-    "answers": { "pos_05": "CT", "pos_03": "C", "pos_02": "C", "pos_04": "D", "pos_01": "C" }
-  },
-  "pro": {
-    "personaBrief": "Gap axis, general knowledge only: the Hidegkuti-led attack progressed through short passing and drop-off movement (UEFA, verified: 'deep-lying centre-forward ... draw defenders out of position'), so patient build-up is preferred, while the side still struck quickly on the counter.",
-    "answers": { "pro_03": "D", "pro_05": "D", "pro_02": "C", "pro_04": "D", "pro_01": "N" }
-  },
-  "est": {
-    "personaBrief": "Verified (UEFA, Wikipedia): the 4-2-4 used a deep-lying centre-forward who dropped into midfield while Puskas and Kocsis took space, and tactical discussions were regular with the captain's input, so the shape was drilled but roles were fluid and interchangeable.",
-    "answers": { "est_03": "D", "est_04": "C", "est_02": "C", "est_05": "C", "est_01": "D" }
-  },
-  "lar": {
-    "personaBrief": "Gap axis, general knowledge only: the 4-2-4 kept wingers, but the verified facts show the attacks were built through the centre with Hidegkuti and Puskas, so the middle is the main route while the flanks remain a secondary option.",
-    "answers": { "lar_02": "C", "lar_04": "D", "lar_05": "D", "lar_01": "D", "lar_03": "D" }
-  },
-  "blo": {
-    "personaBrief": "Gap axis, general knowledge only: no verified pressing or block evidence was read. The verified in-game switch to Hidegkuti when 2-0 down to Switzerland in 1952 (Wikipedia) points to a team that changes and attacks rather than sitting deep, so the answers lean to a high, active side without relying on a verified press.",
-    "answers": { "blo_05": "D", "blo_01": "C", "blo_02": "D", "blo_03": "C", "blo_04": "D" }
-  },
-  "mar": {
-    "personaBrief": "Gap axis, general knowledge only: the verified Hidegkuti move was designed to pull defenders out of position, which implies opponents marked tightly and Sebes exploited it, so the team gains from movement against man-marking and treats zonal space as useful.",
-    "answers": { "mar_01": "C", "mar_02": "D", "mar_03": "D", "mar_04": "N", "mar_05": "C" }
-  },
-  "pla": {
-    "personaBrief": "Verified: Sebes kept the team's own collective style ('socialist football', FIFA) yet changed it in-game (Hidegkuti in for Palotas in 1952 at 2-0 down, Wikipedia) and prepared for specific conditions (Wembley-sized training pitch and heavier balls in 1953, Wikipedia), so the identity is kept but the game is adjusted to the match.",
-    "answers": { "pla_05": "C", "pla_02": "D", "pla_01": "C", "pla_03": "D", "pla_04": "D" }
-  },
-  "res": {
-    "personaBrief": "Verified: the team won the 1952 Olympics and reached the 1954 World Cup final with an attacking, technical style (Wikipedia, FIFA), so winning mattered but the football was part of the purpose, and it did not settle for draws or shut games down late.",
-    "answers": { "res_05": "D", "res_02": "D", "res_04": "C", "res_03": "D", "res_01": "CT" }
-  },
-  "sis": {
-    "personaBrief": "Verified: the Golden Team was built as a collective, with a defined tactical plan and roles even for the stars (Hidegkuti's role was set by Sebes, Wikipedia; regular tactical discussions, UEFA), so the system is the frame and the talent works inside it.",
-    "answers": { "sis_02": "D", "sis_04": "D", "sis_05": "C", "sis_01": "C", "sis_03": "C" }
-  },
-  "jog": {
-    "personaBrief": "Gap axis, general knowledge only: the Golden Team combined technique with fitness (heavy training, Wembley preparation, Wikipedia), so technique and organisation were prioritised over physical duels, with stamina a requirement rather than the main selection criterion.",
-    "answers": { "jog_02": "C", "jog_05": "D", "jog_03": "D", "jog_01": "C", "jog_04": "D" }
-  },
-  "bas": {
-    "personaBrief": "Verified: Sebes 'did away with the established stars' soon after taking charge in 1949 (UEFA), bringing in newer players, so youth and form were preferred over reputation, but the title-winning squad still relied on experienced core players such as Puskas.",
-    "answers": { "bas_02": "D", "bas_03": "C", "bas_04": "D", "bas_05": "C", "bas_01": "N" }
-  },
-  "lid": {
-    "personaBrief": "Verified: the captain's input shaped tactical discussions (UEFA), so the coach listened to his best player, yet the coach set the rules and the structure, and the group's discipline was tight, so the leadership is firm and inclusive at once.",
-    "answers": { "lid_05": "D", "lid_01": "C", "lid_03": "C", "lid_04": "C", "lid_02": "D" }
-  },
-  "archetype": {
-    "epoca": "A",
-    "elenco": "A",
-    "organizacao": "B",
-    "treinador": "D",
-    "final": "D"
-  }
+  "pos": { "personaBrief": "Bukovi and Sebes wanted 'many movements, short passes, changing positions, speed' (Nemzeti Sport), and the FA Year Book describes ball control 'amounting to elegance'. That is a Danubian side built on keeping the ball, though it also used long passes.", "answers": { "pos_05": "C", "pos_03": "C", "pos_02": "D", "pos_04": "D", "pos_01": "C" } },
+  "pro": { "personaBrief": "Short passing with flexible positioning, but 'they did not drop the long pass' and the play was 'a mingling of short and long passes'. Bozsik's 'piercing through-balls' show a willingness to take risks going forward.", "answers": { "pro_03": "D", "pro_05": "N", "pro_02": "C", "pro_04": "D", "pro_01": "C" } },
+  "est": { "personaBrief": "The structure was relational: Hidegkuti dropped deep as a false nine, the forwards interchanged ('If I went forward, Puskás dropped back'), the wingers tucked in, and 'socialist football' meant every player could play anywhere. Zakariás was the one fixed holding role.", "answers": { "est_03": "DT", "est_04": "CT", "est_02": "C", "est_05": "D", "est_01": "D" } },
+  "lar": { "personaBrief": "UEFA has 'wingers who could slot into midfield' and Guide to Football has 'wingers tucked in to support the inside forwards'. The attack was concentrated through the middle, around Hidegkuti, Puskás, Kocsis and Bozsik.", "answers": { "lar_02": "C", "lar_04": "C", "lar_05": "D", "lar_01": "D", "lar_03": "D" } },
+  "blo": { "personaBrief": "Buzánszky recalled that on losing the ball 'there were no empty spaces', so the team won it back quickly, and Puskás said 'in defence it was the same'. The shape itself was more defensive than the WM, with Zakariás screening the back three.", "answers": { "blo_05": "D", "blo_01": "C", "blo_02": "D", "blo_03": "C", "blo_04": "D" } },
+  "mar": { "personaBrief": "No source covers marking. In a WM-derived era the three defenders probably picked up opposing forwards, and Sebes's opponent-specific preparation points towards direct individual duties.", "answers": { "mar_05": "D", "mar_03": "C", "mar_01": "N", "mar_02": "C", "mar_04": "D" } },
+  "pla": { "personaBrief": "Sebes had a clear identity ('players and tactics to compete with anyone') but prepared in great detail for each opponent: English balls, a pitch with Wembley's dimensions, clubs imitating the next opponent. That preparation served his own system rather than replacing it.", "answers": { "pla_05": "C", "pla_02": "D", "pla_01": "C", "pla_03": "C", "pla_04": "DT" } },
+  "res": { "personaBrief": "'We had done what we had to do, and we had done it in style' pairs result with style, but Sebes made 'a political issue of every important match' and defeat was not tolerated. The team always played to win.", "answers": { "res_05": "C", "res_02": "D", "res_04": "D", "res_03": "D", "res_01": "N" } },
+  "sis": { "personaBrief": "'The system always trumped the individual', and 'socialist football' meant equal responsibility for every player. Sebes was an organiser who chose malleable players to fit the collective.", "answers": { "sis_02": "D", "sis_04": "D", "sis_05": "C", "sis_01": "CT", "sis_03": "C" } },
+  "jog": { "personaBrief": "The team played 'superb technical and tactical football' (Glanville), and Sebes added swimming for lung power. That was fitness work on top of technique, never a replacement for it.", "answers": { "jog_02": "N", "jog_05": "DT", "jog_03": "C", "jog_01": "C", "jog_04": "D" } },
+  "bas": { "personaBrief": "After Prague in 1949 he 'did away with the established stars' for 'youthful, malleable fresh faces like Kocsis and Czibor'. He built the core by concentrating players at Honvéd through the army takeover, not by developing them in an academy.", "answers": { "bas_02": "D", "bas_03": "C", "bas_04": "D", "bas_05": "C", "bas_01": "D" } },
+  "lid": { "personaBrief": "Sebes was an authoritarian, political organiser with a 'rather strict timetable' and holistic control over the players' lives (museums instead of drinking). He still held regular tactical discussions that 'usually included input from captain Puskás'.", "answers": { "lid_05": "D", "lid_01": "C", "lid_03": "C", "lid_04": "C", "lid_02": "D" } },
+  "archetype": { "epoca": "A", "elenco": "A", "organizacao": "B", "treinador": "D", "final": "D" }
 }

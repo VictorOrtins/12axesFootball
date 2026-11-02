@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "La Máquina set out to hold the ball ('El objetivo de aquel equipo era tener la posesión de la pelota', 1941 debut report) and to outpass opponents with no hurry, so the possession-first answers are strong. The sources say nothing about giving the ball up on purpose, so the counter-attacking statements are rejected.",
-    "answers": {
-      "pos_02": "D",
-      "pos_01": "C",
-      "pos_04": "DT",
-      "pos_03": "CT",
-      "pos_05": "C"
-    }
-  },
-  "pro": {
-    "personaBrief": "The debut-day build-up aim was 'toque preciso y comenzar bien la jugada desde la defensa' and the side played 'pases cortos' (La Página Millonaria, 2011), so patient, short-passing progression fits. Direct long-ball and three-touch finishing are not supported by any source, and the 'every sideways pass is wasted' view is rejected.",
-    "answers": {
-      "pro_01": "D",
-      "pro_05": "D",
-      "pro_02": "C",
-      "pro_03": "DT",
-      "pro_04": "D"
-    }
-  },
-  "est": {
-    "personaBrief": "The FIFA article describes five forwards 'capable of swapping positions', Pedernera and Moreno dropping into midfield (Wilson), and Labruna cutting into space, which is a relational rather than zonal structure. Fixed zones and rigid positions are rejected, while the striker dropping out to combine is accepted.",
-    "answers": {
-      "est_02": "C",
-      "est_01": "DT",
-      "est_03": "D",
-      "est_05": "D",
-      "est_04": "CT"
-    }
-  },
-  "lar": {
-    "personaBrief": "The verified shape evidence puts the creative weight in the centre: Moreno and Pedernera dropped into the middle and Labruna and Muñoz worked through the inside channels (Wilson, Los Andes). Loustau did patrol the left flank, so the flanks are used, but crosses and wingers beating full-backs are not supported.",
-    "answers": {
-      "lar_04": "C",
-      "lar_01": "D",
-      "lar_03": "D",
-      "lar_02": "CT",
-      "lar_05": "D"
-    }
-  },
-  "blo": {
-    "personaBrief": "No pressing fact was verified (pressing is a listed gap), so this axis rests on general knowledge of the period's forward line and on the verified idea of short build-up play. The team is taken to counter-press from its five forwards and to avoid dropping back into a deep block.",
-    "answers": {
-      "blo_03": "C",
-      "blo_04": "D",
-      "blo_05": "D",
-      "blo_01": "C",
-      "blo_02": "D"
-    }
-  },
-  "mar": {
-    "personaBrief": "The only marking fact is Norberto Yácono's personal man-marking, 'The Stamp', who stuck to the player he was marking (Wilson, retrospective), and the failed 'M-defence' (Game of the People) points to a man-oriented defensive idea. Individual marking of the star is therefore accepted, and corner and space-based zonal ideas are rejected.",
-    "answers": {
-      "mar_02": "C",
-      "mar_05": "C",
-      "mar_03": "C",
-      "mar_04": "D",
-      "mar_01": "D"
-    }
-  },
-  "pla": {
-    "personaBrief": "The team's own identity is the strongest verified theme: 'we went out on the pitch and played our way' (Muñoz) and rivals playing against it 'with the intention of winning' (Lazzatti). Peucelle's habit of moving players to exploit their strengths shows adaptation to personnel, but not to opponents, so the team keeps its own way regardless of opponent or half-time score.",
-    "answers": {
-      "pla_04": "D",
-      "pla_02": "D",
-      "pla_01": "D",
-      "pla_05": "C",
-      "pla_03": "C"
-    }
-  },
-  "res": {
-    "personaBrief": "The sources praise how the team played ('no hurry to score but preferred instead to outpass their opponents', Game of the People; Muñoz on 'playing our way'), and the side is remembered for it, yet it also won its titles. Playing beautifully is valued, but the team does not shut up shop or settle for draws away from home.",
-    "answers": {
-      "res_01": "C",
-      "res_03": "D",
-      "res_04": "C",
-      "res_05": "D",
-      "res_02": "D"
-    }
-  },
-  "sis": {
-    "personaBrief": "The verified evidence is about individual talent working inside a collective: Pedernera 'dreamed up passes that no-one else saw' and was given freedom to alternate between finishing and directing (FIFA, Tighe). Stars are not benched for defensive duty and the system is not credited with making ordinary players great, so talent decides the answers.",
-    "answers": {
-      "sis_04": "C",
-      "sis_03": "D",
-      "sis_05": "D",
-      "sis_02": "C",
-      "sis_01": "D"
-    }
-  },
-  "jog": {
-    "personaBrief": "Every verified player description is technical (Pedernera's vision, Labruna's ability to 'aprovechar los espacios para recibir pases en cortada', the short-passing game). Physical intensity and strength-first signings are not supported, so technique is preferred and the classic playmaker is kept.",
-    "answers": {
-      "jog_02": "D",
-      "jog_04": "D",
-      "jog_01": "C",
-      "jog_03": "CT",
-      "jog_05": "D"
-    }
-  },
-  "bas": {
-    "personaBrief": "GAP: no verified evidence exists for this axis; these answers come from general knowledge. The core forwards (Pedernera, Moreno, Labruna, Loustau, Muñoz) were largely River-developed and young, and Di Stéfano and Carrizo debuted in the side, so youth development is backed and veteran-first selection is rejected.",
-    "answers": {
-      "bas_05": "C",
-      "bas_01": "C",
-      "bas_02": "D",
-      "bas_03": "C",
-      "bas_04": "D"
-    }
-  },
-  "lid": {
-    "personaBrief": "Cesarini was known for his 'authority on all matters pertaining to the sport' and as 'La Biblia del fútbol' (Wikipedia), so the coach as the boss with equal rules for stars fits. The group's cohesion is accepted, but line-ups are the coach's decision rather than something the best player's view decides.",
-    "answers": {
-      "lid_05": "D",
-      "lid_02": "C",
-      "lid_04": "C",
-      "lid_01": "C",
-      "lid_03": "D"
-    }
-  },
-  "archetype": {
-    "epoca": "A",
-    "elenco": "C",
-    "organizacao": "B",
-    "treinador": "B",
-    "final": "B"
-  }
+  "pos": {"personaBrief": "La Máquina aimed at possession (La Página Millonaria), played short passes and dominated 'abrumadoramente' (El Gráfico 2014); Muñoz: 'agarrar la pelota, tocarla'.", "answers": {"pos_02": "D", "pos_01": "C", "pos_04": "DT", "pos_03": "CT", "pos_05": "C"}},
+  "pro": {"personaBrief": "Patient short-passing build-up from the defence (seven-pass Loustau goal, Juvenal), no hurry to score (Muñoz); Moreno dropped deep to feed the forwards.", "answers": {"pro_01": "D", "pro_05": "D", "pro_02": "C", "pro_03": "D", "pro_04": "D"}},
+  "est": {"personaBrief": "Forwards constantly swapped positions ('todos suben, todos bajan'), Moreno and Pedernera dropped to form a 'cuadrado mágico', tight combination play; positions were nominal.", "answers": {"est_02": "C", "est_01": "DT", "est_03": "D", "est_05": "D", "est_04": "CT"}},
+  "lar": {"personaBrief": "Muñoz and Loustau were true wide extremos who 'oxygenated' the team, while the creative playmakers Pedernera, Moreno and Labruna operated centrally with combination play.", "answers": {"lar_04": "D", "lar_01": "D", "lar_03": "C", "lar_02": "C", "lar_05": "C"}},
+  "blo": {"personaBrief": "No pressing evidence; the team outpassed opponents and attacked 'sin pruritos conservadores', with no sign of a deep block or of a systematic high press by the forwards.", "answers": {"blo_03": "D", "blo_04": "D", "blo_05": "D", "blo_01": "N", "blo_02": "DT"}},
+  "mar": {"personaBrief": "Yácono was the 'precursor de la marca personal' and specialist man-marker; the Argentine 2-3-5 of the 1940s defaulted to man-oriented marking.", "answers": {"mar_02": "C", "mar_05": "C", "mar_03": "C", "mar_04": "D", "mar_01": "D"}},
+  "pla": {"personaBrief": "River played its own possession game against all opponents ('You play against La Máquina with the intention of winning'); Peucelle only moved players to exploit their strengths and never gave instructions.", "answers": {"pla_04": "DT", "pla_02": "DT", "pla_01": "DT", "pla_05": "CT", "pla_03": "C"}},
+  "res": {"personaBrief": "Spectacle: 'fútbol de lujo', 'se divertían en el medio', attacking vocation, and an ethos of beauty and romanticism (La Nuestra), while still winning titles in 1941, 42, 45 and 47.", "answers": {"res_01": "C", "res_03": "DT", "res_04": "C", "res_05": "DT", "res_02": "DT"}},
+  "sis": {"personaBrief": "Talent-driven: Peucelle 'never gave an indication', play came from the players; stars like Pedernera and Moreno roamed freely.", "answers": {"sis_04": "CT", "sis_03": "D", "sis_05": "DT", "sis_02": "C", "sis_01": "D"}},
+  "jog": {"personaBrief": "A team of technical virtuosos (Moreno 'gran gambeteador', Loustau's gambeta, 'exquisitez técnica'); Pedernera the cerebral playmaker; physical duels were not the identity.", "answers": {"jog_02": "D", "jog_04": "DT", "jog_01": "C", "jog_03": "CT", "jog_05": "DT"}},
+  "bas": {"personaBrief": "Mixed: youth promotions (Rossi, Carrizo, Peucelle's youth work) alongside signings of established players (Giudice, Rodríguez); title-winning core of experienced stars.", "answers": {"bas_05": "D", "bas_01": "D", "bas_02": "D", "bas_03": "C", "bas_04": "D"}},
+  "lid": {"personaBrief": "Low-authority coaches: Peucelle disliked the DT title and gave no instructions, and the star line shaped the team; discipline came from the board, not the coach.", "answers": {"lid_05": "C", "lid_02": "C", "lid_04": "DT", "lid_01": "DT", "lid_03": "CT"}},
+  "archetype": {"epoca": "A", "elenco": "C", "organizacao": "B", "treinador": "B", "final": "B"}
 }

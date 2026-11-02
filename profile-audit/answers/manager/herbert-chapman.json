@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "Chapman's Arsenal (verified: WM shape with three defenders close to the goalkeeper, SI) were built to hold a shape and strike on the break rather than to chase the ball, so possession was a tool, not an identity. The possession questions are answered from general knowledge of the period, not from verified evidence.",
-    "answers": {
-      "pos_04": "D",
-      "pos_01": "D",
-      "pos_05": "C",
-      "pos_02": "C",
-      "pos_03": "N"
-    }
-  },
-  "pro": {
-    "personaBrief": "The verified WM description (SI) has a deep, compact defence and an emphasis on quick attacks from wide and inside forwards, which favours direct release to forwards but not reckless long balls under pressure. The progression answers come from general knowledge of this profile, not from verified evidence.",
-    "answers": {
-      "pro_05": "D",
-      "pro_01": "C",
-      "pro_03": "D",
-      "pro_02": "D",
-      "pro_04": "C"
-    }
-  },
-  "est": {
-    "personaBrief": "The verified WM shape (SI, Woolwich blog) is a set structure: a stopper centre-half, a link player, and wingers held wide, with defenders staying near the goalkeeper. Positional discipline is the core of it, but the centre-forward is not a roaming playmaker.",
-    "answers": {
-      "est_05": "C",
-      "est_02": "D",
-      "est_01": "C",
-      "est_04": "D",
-      "est_03": "C"
-    }
-  },
-  "lar": {
-    "personaBrief": "The verified WM description has wingers held on the touchline and the Woolwich blog credits the shape with using the flanks, while the link player and inside forwards work the middle. Width is essential to the system, but Chapman's Arsenal did not rely on a single route. The width answers come from general knowledge of this profile, not from verified evidence.",
-    "answers": {
-      "lar_01": "C",
-      "lar_03": "C",
-      "lar_02": "D",
-      "lar_05": "C",
-      "lar_04": "D"
-    }
-  },
-  "blo": {
-    "personaBrief": "The verified SI and Woolwich sources describe a defence that stayed deep, with the three defenders close to the goalkeeper and no holding midfielder, criticised as a step back. The block is low and compact, and the team waits rather than presses the build-up.",
-    "answers": {
-      "blo_01": "D",
-      "blo_03": "D",
-      "blo_05": "D",
-      "blo_04": "C",
-      "blo_02": "C"
-    }
-  },
-  "mar": {
-    "personaBrief": "The verified SI piece says a centre-back (the stopper) marked the opposing centre-forward, which is individual marking of the key attacker. Marking of the full-backs and half-backs and corners is not evidenced, so those answers come from general knowledge of the period.",
-    "answers": {
-      "mar_03": "C",
-      "mar_02": "C",
-      "mar_04": "D",
-      "mar_05": "D",
-      "mar_01": "N"
-    }
-  },
-  "pla": {
-    "personaBrief": "Chapman is credited with responding to the 1925 offside change by building the WM (SI, Woolwich blog), which shows he adapted the system to the rules rather than to a fixed identity. He kept a consistent shape once it was set, so the game plan answers mix both tendencies. These answers come from general knowledge of this profile, not from verified evidence.",
-    "answers": {
-      "pla_03": "C",
-      "pla_01": "D",
-      "pla_02": "D",
-      "pla_04": "D",
-      "pla_05": "C"
-    }
-  },
-  "res": {
-    "personaBrief": "The verified sources describe a pragmatic reaction to defeat (the 7-0 loss to Newcastle led to a rapid change) and a defence built to protect results, with the WM praised as balance rather than spectacle. Results came first, and the verified evidence supports that over style.",
-    "answers": {
-      "res_03": "C",
-      "res_01": "D",
-      "res_02": "C",
-      "res_04": "D",
-      "res_05": "C"
-    }
-  },
-  "sis": {
-    "personaBrief": "The verified SI piece credits Chapman with building a shape that the players had to fit (the WM, with defined roles and a stopper marking the centre-forward), and the Woolwich blog calls the change a revolution in tactics. The system counted for more than individual flair, though that is partly general knowledge.",
-    "answers": {
-      "sis_04": "D",
-      "sis_03": "C",
-      "sis_05": "C",
-      "sis_01": "C",
-      "sis_02": "D"
-    }
-  },
-  "jog": {
-    "personaBrief": "No verified evidence covers the player-type axis, so these answers come from general knowledge of this profile. Chapman's Arsenal had technically gifted attackers and a disciplined, physically sound defence, which is consistent with valuing technique in the attacking players and organisation in the back line.",
-    "answers": {
-      "jog_03": "C",
-      "jog_02": "C",
-      "jog_05": "D",
-      "jog_04": "D",
-      "jog_01": "C"
-    }
-  },
-  "bas": {
-    "personaBrief": "The verified Woolwich blog says Chapman signed Buchan in 1925 to be the captain, which shows reliance on bought-in experienced players rather than a youth-first model. These squad answers come from general knowledge of this profile and are consistent with that signing pattern.",
-    "answers": {
-      "bas_01": "D",
-      "bas_04": "C",
-      "bas_02": "C",
-      "bas_05": "D",
-      "bas_03": "D"
-    }
-  },
-  "lid": {
-    "personaBrief": "No verified evidence covers the leadership axis, so these answers come from general knowledge of this profile. Chapman is generally described as a strict disciplinarian who kept final authority over the squad, and the verified sources show him deciding tactical change himself after the 1925 defeat.",
-    "answers": {
-      "lid_02": "D",
-      "lid_01": "C",
-      "lid_04": "C",
-      "lid_03": "D",
-      "lid_05": "D"
-    }
-  },
-  "archetype": {
-    "epoca": "B",
-    "elenco": "B",
-    "organizacao": "A",
-    "treinador": "D",
-    "final": "A"
-  }
+  "pos": { "personaBrief": "Chapman's sides were counter-attacking: opponents 'dominated territorially for no tangible reward' ('lucky Arsenal'), and his best chances came after being 'driven back' and breaking away; 'the most opportune time for scoring is immediately after repelling an attack'.", "answers": { "pos_04": "C", "pos_01": "D", "pos_05": "D", "pos_02": "CT", "pos_03": "D" } },
+  "pro": { "personaBrief": "Progression was fast and direct: forwards told to go like 'flying columns' and 'make for goal direct', James and Wadsworth hitting accurate long passes straight to the forwards.", "answers": { "pro_05": "C", "pro_01": "CT", "pro_03": "C", "pro_02": "D", "pro_04": "D" } },
+  "est": { "personaBrief": "Roles were fixed and rehearsed on the magnetic table so 'every player was fully aware of the role'; the stopper stayed in the box and Buchan was kept 'up in attack scoring goals', yet the wingers cut inside rather than hugging the line.", "answers": { "est_05": "CT", "est_02": "D", "est_01": "C", "est_04": "D", "est_03": "DT" } },
+  "lar": { "personaBrief": "Chapman called wing-running and crossing a 'senseless policy' and preferred 'inside passing'; Bastin and Hulme stood in from the touchline and cut inside to score.", "answers": { "lar_01": "DT", "lar_03": "D", "lar_02": "C", "lar_05": "D", "lar_04": "C" } },
+  "blo": { "personaBrief": "Defenders were told to 'play deep' in a 'defence in depth'; Huddersfield 'defended first and attacked later' and Arsenal retreated and funnelled, with no evidence of pressing.", "answers": { "blo_01": "D", "blo_03": "D", "blo_05": "D", "blo_04": "CT", "blo_02": "CT" } },
+  "mar": { "personaBrief": "Buchan's 1925 plan gave the centre-half a zonal 'beat', but in practice 'Policeman Roberts' blotted out the centre-forward, full-backs marked wingers and wing-halves the inside-forwards; weighted to practice, man-oriented.", "answers": { "mar_03": "C", "mar_02": "C", "mar_04": "D", "mar_05": "N", "mar_01": "D" } },
+  "pla": { "personaBrief": "'Never mind what the other team does - this is what you are going to do': Chapman imposed his system (James had to change to fit 'those we favoured') and rarely changed the team.", "answers": { "pla_03": "C", "pla_01": "CT", "pla_02": "DT", "pla_04": "D", "pla_05": "CT" } },
+  "res": { "personaBrief": "A pragmatic, results-first counter-attacking style that 'traditionalists hated' but was 'highly successful'; the 'lucky Arsenal' tag shows winning mattered more than spectacle.", "answers": { "res_03": "C", "res_01": "D", "res_02": "N", "res_04": "D", "res_05": "C" } },
+  "sis": { "personaBrief": "The collective plan came first: James was dropped until he accepted the link role, Neil was pulled from the third team and Roberts excelled because 'he did what he was told', though play to plan 'not so as to stifle individuality'.", "answers": { "sis_04": "D", "sis_03": "C", "sis_05": "C", "sis_01": "CT", "sis_02": "D" } },
+  "jog": { "personaBrief": "Chapman prized ball control and passing in the link role (Neil 'as slow as a funeral but has ball control', James, Stephenson the 'schemer') while demanding a disciplined fitness regime and pacy wingers.", "answers": { "jog_03": "C", "jog_02": "C", "jog_05": "D", "jog_04": "D", "jog_01": "C" } },
+  "bas": { "personaBrief": "A mix: scouting networks and young signings who played key roles early (Hapgood at 19, Bastin at 18, a strong reserve side) alongside veteran schemers and record fees for established players.", "answers": { "bas_01": "D", "bas_04": "D", "bas_02": "N", "bas_05": "D", "bas_03": "C" } },
+  "lid": { "personaBrief": "A disciplinarian who sold Islip for bad behaviour, dropped James, policed lifestyles and took team selection from directors, while also holding player-conferences and encouraging players to 'express their views'.", "answers": { "lid_02": "D", "lid_01": "CT", "lid_04": "C", "lid_03": "C", "lid_05": "D" } },
+  "archetype": { "epoca": "B", "elenco": "A", "organizacao": "A", "treinador": "D", "final": "A" }
 }

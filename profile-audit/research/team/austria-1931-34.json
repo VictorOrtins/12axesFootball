@@ -3,12 +3,12 @@
   "catalog": "team",
   "name": "Austria 1931–34 (Wunderteam)",
   "status": "complete",
-  "researchedOn": "2026-10-30",
+  "researchedOn": "2026-11-01",
   "profilePeriod": {
     "start": "1931-05-16",
     "end": "1934-06-07"
   },
-  "scopeNote": "Austria national team, from the 5-0 win over Scotland in Vienna (1931-05-16) to the third-place match at the 1934 World Cup, lost 3-2 to Germany in Naples (1934-06-07). Shape: the team 'took over the Scottish 2-3-5 system' (AustriaWiki, 1931). Build-up: the Scottish style with 'short flat passes' (AustriaWiki, 1931). Wikipedia's 'quick passing introduced by Jimmy Hogan' is undated and kept as context only. The popular label 'Danubian Whirl' and the 'Scheiberlspiel' come from pieces outside the period (1929) or undated, so they are not used as style names here. Evidence for pressing, marking, defence and transitions was not found in the sources read.",
+  "scopeNote": "Austria national team under Hugo Meisl, from the 5-0 win over Scotland at the Hohe Warte, Vienna (1931-05-16, the match de.wikipedia calls the 'Geburtsstunde des Wunderteams') to the 1934 World Cup third-place match, lost 3-2 to Germany in Naples (1934-06-07, en.wikipedia 1934 FIFA World Cup final tournament). The Irish Times (2018) uses the same span ('The Wunderteam: May 1931 to June 1934'). Style: a 2-3-5 taken from the Scottish model, played with short flat ground passes and constant combination ('Man übernahm das schottische 2-3-5-System ... mit kurzen flachen Pässen', de.wikipedia), with an attacking centre-half (Smistik), wide-running half-backs and a slightly withdrawn centre-forward (Sindelar, 'a kind of 1930s prototype false nine', Irish Times). Willy Meisl's own name for it was 'The Whirl' (gottfriedfuchs blog); 'Danubian Whirl' (These Football Times, 2020) and 'Danubian waltz' (Irish Times) are later labels for the same thing and are acceptable; 'Scheiberlspiel' is the Viennese term for the short combination game but the de.wikipedia passage that uses it describes a 1929 match, before the period. Period evidence comes mostly from the 1932 England match (WSC, quoting the 1932 press). Pressing is not covered by any source, and marking rests on one retrospective line about Sesta plus the 'retreating defence' of 1932.",
   "managers": [
     {
       "managerId": "hugo-meisl",
@@ -18,127 +18,441 @@
   ],
   "ambiguities": [],
   "openQuestions": [
-    "Period end 1934-06-07 comes from a search summary citing the FIFA data centre (3rd-place match, Naples); the page itself was not read.",
-    "Hugo Meisl's own Teamchef spell is longer (from 1912/13 to 1937, per the Danubian-school file and search summaries). The team dates above use the Wunderteam era, not his full spell. Confirm.",
-    "No Meisl statement on tactics, pressing, marking or the centre forward was found; no statedView entries.",
-    "The 2-3-5 label rests on one German-language page (AustriaWiki, tier C); the WM question is open. Check Wilson's Inverting the Pyramid or a match-report source before the audit.",
-    "The en.wikipedia 'wide half-backs and an attacking centre-half' line is undated; a dated source for the wing-back role is needed.",
-    "The 'interchanging of the five forward players' line (These Football Times, 2020) is undated ('early 1930s'); not counted as evidence."
+    "Kept decision: the period runs to the 1934 World Cup (1934-06-07), as in the previous file and the Irish Times list. de.wikipedia says the Wunderteam is 'im Allgemeinen' considered to end with the 4-0 in Paris (1933-02-12), after which Hiden and others left for abroad with 'deutliche Einbußen im technischen Spiel'. Confirm whether the profile should stop in February 1933 instead.",
+    "Kept decision: Meisl's Teamchef spell is far longer (1912–14 and 1919–37); the team dates use only the Wunderteam era.",
+    "Marking: no source says whether the 2-3-5 defended by zone or by man. The only lines are WSC's 'Austria's retreating defence' (1932-12-07) and Game of the People's retrospective 'Karl Sesta ... renowned for his robust play and man-marking skills'. The audit should treat mar as weak.",
+    "Pressing: nothing found. 'Retreating defence' (1932) points to a deep, non-pressing side but is one match.",
+    "Smistik's role: Game of the People 2017 says he was known for 'long-balls out of defence', and 2025 for 'long balls from one end of the pitch to the other', which sits awkwardly with the short-passing label; WSC 1932 calls him an 'attacking centre-half' who fed his forwards. Both are kept.",
+    "No primary Meisl statement on his tactics was found. 'Spüts euer Spüü!' (half-time, 1932-12-07) and 'Da habt's euer Schmieranskiteam!' (1931) come from de.wikipedia, and the second is called 'nicht hundertprozentig nachprüfbar' there; 'Our game is the study of many systems' is undated (Game of the People, 2025). Jonathan Wilson's Inverting the Pyramid and the Hafer biography of Meisl would be the sources to check.",
+    "The ademirtozizinho blog (2011, no sources) says Meisl was one of the two anglophiles who 'most resisted' the third-back (W-M) system; the claim is plausible (he kept the 2-3-5) but unsourced, so it is not counted."
   ],
   "sources": [
     {
-      "title": "Wunderteam (AustriaWiki)",
-      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
       "tier": "C",
       "language": "de",
-      "articleDate": "2026",
+      "articleDate": "2026-11-01",
       "eventDate": "1931-05-16",
-      "accessedOn": "2026-10-30",
+      "accessedOn": "2026-11-01",
       "dimension": "shape",
-      "evidence": "\"Man übernahm das schottische 2-3-5-System für die eigene Mannschaft.\" (Austria took over the Scottish 2-3-5 for its own team; section on the 1931 Scotland match.) Also: \"Für die anstehende Partie kehrte Sindelar zurück auf die Position des Mittelstürmers.\" (Sindelar back at centre-forward for the match.)",
+      "evidence": "Section on the Scotland match (cites Horak/Maderthaner, Mehr als ein Spiel, 1997, p.159): \"Man übernahm das schottische 2-3-5-System für die eigene Mannschaft\". Line-up table lists Centerhalf Smistik/Hofmann, Rechter Flügel Zischek, Linker Flügel Vogl, Sindelar at centre-forward. Read in the raw wikitext. The austria-forum.org AustriaWiki page is a mirror of this article.",
       "verified": true
     },
     {
-      "title": "Wunderteam (AustriaWiki)",
-      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
       "tier": "C",
       "language": "de",
-      "articleDate": "2026",
+      "articleDate": "2026-11-01",
       "eventDate": "1931-05-16",
-      "accessedOn": "2026-10-30",
+      "accessedOn": "2026-11-01",
       "dimension": "build-up",
-      "evidence": "\"...die schottische Spielweise mit kurzen flachen Pässen zu praktizieren.\" (The team tried to play the Scottish style with short flat passes; section on the 1931 Scotland match.)",
+      "evidence": "\"...und versuchte, auch die schottische Spielweise mit kurzen flachen Pässen zu praktizieren.\" (Scotland match, 1931-05-16.)",
       "verified": true
     },
     {
-      "title": "Wunderteam (AustriaWiki)",
-      "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2026",
-      "eventDate": "1929-01-07",
-      "accessedOn": "2026-10-30",
-      "dimension": "possession",
-      "evidence": "\"Das österreichische Team versuchte damals ihr 'Scheiberlspiel'\" (quick, short, tricky combinations) in a 0:5 friendly defeat to a Süddeutsche Auswahl on 1929-01-07. Outside the period: context only.",
-      "verified": false
-    },
-    {
-      "title": "Wunderteam",
-      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "title": "World Cup moments: Austria's forgotten Wunderteam",
+      "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
       "tier": "C",
       "language": "en",
-      "articleDate": "2026",
-      "eventDate": "1931",
-      "accessedOn": "2026-10-30",
-      "dimension": "width",
-      "evidence": "\"The forward line was complemented by wide half-backs and an attacking centre-half.\" Undated in the article; the article covers the 1930s team as a whole. Context only.",
-      "verified": false
+      "articleDate": "2018-06-10",
+      "eventDate": "1931/32",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "John Ashdown: \"Josef Smistik was hugely influential in the centre-half role in Meisl's 2-3-5.\" On Sindelar after his May 1931 recall: \"Over the next two years Sindelar, playing as a kind of 1930s prototype false nine, would score 16 goals in 16 games\".",
+      "verified": true,
+      "retrospectiveOnly": true
     },
     {
-      "title": "Wunderteam",
-      "url": "https://en.wikipedia.org/wiki/Wunderteam",
+      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul",
+      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
       "tier": "C",
       "language": "en",
-      "articleDate": "2026",
-      "eventDate": "1931",
-      "accessedOn": "2026-10-30",
-      "dimension": "build-up",
-      "evidence": "\"The style of the team focused on quick passing introduced by Englishman Jimmy Hogan.\" Undated in the article; the Hogan link is a 1912-era origin. Context only.",
-      "verified": false
+      "articleDate": "2017-02-23",
+      "eventDate": "1932",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Neil Fredrik Jensen: \"It was not a million miles from the short-passing game adopted by Scotland, but it introduced wide-running half-backs and an attacking centre half, as well as a slightly deep-lying centre forward.\" Era-wide, no date.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Hugo Meisl and Jimmy Hogan – The Danubian School (Before The 'D')",
+      "url": "https://gottfriedfuchs.blogspot.com/2012/11/hugo-meisl-and-jimmy-hogan-danubian.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-08",
+      "eventDate": "1932",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "\"The style of play was described by Willy Meisl, Hugo's brother, as The Whirl. This involved a perpetual interchanging and fluidity between all 10 outfield players, in which there would be no such thing as a purely defensive or a purely attacking player.\" \"Essentially the 2-3-5 pyramid remained untouched ... The forward line was complemented by wide half-backs and an attacking centre-half.\" Era-wide (Meisl's whole tenure), no date.",
+      "verified": true,
+      "retrospectiveOnly": true
     },
     {
       "title": "How Austria's Wunderteam defied the Nazis for one last act of greatness",
       "url": "https://thesefootballtimes.co/2020/06/02/how-austrias-wunderteam-defied-the-nazis-for-one-last-act-of-greatness/",
-      "tier": "B",
+      "tier": "C",
       "language": "en",
       "articleDate": "2020-06-02",
-      "eventDate": "1931",
-      "accessedOn": "2026-10-30",
+      "eventDate": "1932",
+      "accessedOn": "2026-11-01",
       "dimension": "shape",
-      "evidence": "\"the interchanging of the five forward players\" (Danubian Whirl approach, described as 'early 1930s'). The article gives no exact date for it.",
+      "evidence": "\"Under the pioneering coach Hugo Meisl, Austria had developed the 'Danubian Whirl'; a ground-breaking approach involving the interchanging of the five forward players, and a quick-passing style inspired by the Scottish teams that toured Vienna in the early 20th-century.\" Era-wide, no date.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paper tigers (WSC 170)",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Cris Freddi's reconstruction of England 4-3 Austria from the 1932 match reports: \"Smistik a good enough attacking centre-half to cope with Hampson as well as feed his forwards.\" Sindelar's \"beautiful ground pass\" (period report) set up Zischek's goal.",
+      "verified": true
+    },
+    {
+      "title": "Paper tigers (WSC 170)",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "\"Towards the end of the first half, Austria's famous combination play was giving them an obvious edge.\" \"they may have relied too much on that web of inter-passing. Others emphasised their unwillingness to dribble.\" Referee-columnist George Wagstaffe Simmons (1932): when it broke down \"there is no individual effort to carry on\". Match report (1932): \"the Austrians had nothing to learn from us in heading and ball control\". Two reports congratulated them \"for blending the best of the English style and the classic Scottish short-passing game\".",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026-11-01",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "England match: the Austrians were 0:2 down at half-time and played nervously \"ehe sie in der zweiten Halbzeit ihr berühmtes Kombinationsspiel aufzogen\". Period press via Horak/Maderthaner (p.176): the Times \"schwärmte von der 'Kombinationsgabe' und Schnelligkeit des österreichischen Teams\".",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam 1931-32 (Before The 'D')",
+      "url": "https://gottfriedfuchs.blogspot.com/2012/11/wunderteam.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-05",
+      "eventDate": "1931-05-16",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "\"In May 1931 they demolished a depleted Scotland team by outplaying them at their own game, based on short passing.\" On the 1932 England match it quotes the period press: \"There could not be the slightest doubt that as a team (Austria) were the superiors.\" (Manchester Guardian); \"It was victory and no more, and it was by no means easily earned.\" (The Times).",
+      "verified": true
+    },
+    {
+      "title": "Das Wunderteam – the side we all wish we'd seen",
+      "url": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "1932",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Neil Fredrik Jensen (abridged from The Great Uncrowned, 2022): their \"fluid, organic style, where the player with the ball is supported by his team-mates and gaps are filled by whoever is closest at hand\" ... \"This style allowed Austria's fleet-footed team to move from defence to attack in a seamless manner and vice versa.\" Era-wide, no date; says nothing about counter-pressing or counter-attacks as such.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paper tigers (WSC 170)",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "\"With the England forwards baffled by Austria's retreating defence, they now needed luck to stay ahead\". \"At the back, Sesta was scary (a former wrestler)\". Also: \"Hiden was well known as a keeper who came a long way off his line\". One match; does not say whether the defence marked by zone or man.",
+      "verified": true
+    },
+    {
+      "title": "Das Wunderteam – the side we all wish we'd seen",
+      "url": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "1934",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "\"Wiener AC's Karl Sesta, a defender who represented both Austria and Germany, was not only renowned for his robust play and man-marking skills, but also his singing.\" The only marking line found for the team; it is about one full-back's individual quality, not the team's marking scheme.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paper tigers (WSC 170)",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Sindelar ended a \"scintillating movement\" with \"the best shot of the match\" (period report) \"from a typical run and cross by Vogl\" (outside-left). Sindelar's \"beautiful ground pass\" sent outside-right Zischek in for 2-1. Wingers were part of the attack, alongside the central combinations.",
+      "verified": true
+    },
+    {
+      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul",
+      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-23",
+      "eventDate": "1932",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "\"...it introduced wide-running half-backs and an attacking centre half\". Era-wide, no date.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Paper tigers (WSC 170)",
+      "url": "https://www.wsc.co.uk/?p=2329",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2001-04-14",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "set-pieces",
+      "evidence": "\"Zischek's header from a right-wing free-kick (one paper says a left-wing corner!) arrived too late.\" England's third came from an Eric Houghton free-kick that deflected past Hiden. Single incidents; nothing on routines or their importance.",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026-11-01",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "At 0:2 down at half-time at Stamford Bridge: \"Hugo Meisl schickte seine Mannschaft mit den Worten „Spüts euer Spüü!“ („Spielt euer Spiel“) zurück auf das Spielfeld.\" Meisl's answer to a losing score was to insist on the team's own game, not to change it. No reference given for the quote.",
+      "verified": true
+    },
+    {
+      "title": "World Cup moments: Austria's forgotten Wunderteam",
+      "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-10",
+      "eventDate": "1932-12",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "\"With his team slightly off-colour in the matches leading up to the game at Stamford Bridge Meisl invited his old friend Jimmy Hogan, an Englishman and proponent of the passing style ... back into the coaching set-up\". For the 1934 semi-final: \"a classic clash of styles – Pozzo's man-marking, bruising, steamroller versus Hugo Meisl's 'Danubian waltz'\", with Sindelar \"marked out of the game by Monti\".",
+      "verified": true
+    },
+    {
+      "title": "1934 FIFA World Cup final tournament (en.wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1934_FIFA_World_Cup_final_tournament",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1934-06-03",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Semi-final v Italy: \"A torrential downpour hampered the Austrians' passing game while benefiting the more varied Italian game.\" Third-place match (1934-06-07, Naples, Germany 3-2 Austria): \"Both teams changed their usual line-ups, resting several players.\" Used here also to fix the period end date.",
+      "verified": true
+    },
+    {
+      "title": "Victory or Death: The World Cups of 1934 and 1938",
+      "url": "https://printthelegend.substack.com/p/victory-or-death-the-world-cups-of",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-06",
+      "eventDate": "1934-06-03",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "\"Pozzo deployed nationalized defender Luis Monti to man mark Sindelar\". About Italy's marking of Austria, not Austria's own defending, so not counted for this profile.",
+      "verified": false
+    },
+    {
+      "title": "World Cup moments: Austria's forgotten Wunderteam",
+      "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-10",
+      "eventDate": "1931-05",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Before the period Meisl \"turned back to the more traditional centre-forward strengths of Josef Uridil\"; then \"Meisl could ignore the clamour for his inclusion no longer and Sindelar was thrown back into the fray when Scotland visited Vienna in May 1931.\" Willy Meisl on Sindelar: \"He was truly symbolical of Austrian soccer at its peak period: no brawn but any amount of brain\". \"The centre-forward was the embodiment of the Austrian style – the triumph of mind over muscle\".",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026-11-01",
+      "eventDate": "1932-12-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Period press via Horak/Maderthaner (p.176): the Daily Mail \"erkannte „Spieler von Genie“, im österreichischen Angriff eine „Offenbarung“ und zählte Sindelar, Smistik, Nausch und Vogl zu den „größten Spielern der Welt“\". \"Das technisch hochwertige Spiel der Österreicher wurde vor allem von den britischen Journalisten gelobt\".",
+      "verified": true
+    },
+    {
+      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul",
+      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-23",
+      "eventDate": "1929",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "\"Although at first rejected by Hugo Meisl, who preferred a strong, English-type centre forward, 'Sindi', as he was known, became the figurehead of Austrian football.\" Meisl's preference before 1931; context for his May 1931 change, not evidence for the period itself.",
+      "verified": false
+    },
+    {
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026-11-01",
+      "eventDate": "1931-05-16",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "\"Die österreichische Nationalmannschaft wurde vor dem Spiel komplett umbesetzt und spielte teilweise mit Debütanten.\" \"...der neu gebildeten, ausnahmslos mit Spielern aus Wiener Vereinen zusammengesetzten Nationalmannschaft\". But: \"die späteren Stammkräfte Rudolf Hiden, Karl Rainer, Leopold Hofmann und Friedrich Gschweidl\" had already played in 1930. End of the core: after Paris (1933-02-12) Hiden and \"mehrere Nationalspieler\" went abroad.",
+      "verified": true
+    },
+    {
+      "title": "Das Wunderteam – the side we all wish we'd seen",
+      "url": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "1934-05",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "\"Of the team that ran England close in 1932, only five members were in Meisl's squad for Italy.\" For the quarter-final \"Meisl brought in Johan Horvath, the 31 year-old FC Wien inside-left\"; goals from \"Schall and the young Josef Bican\" v France. Irish Times (2018): \"Josef Bican was only 21 at the time of the 1934 World Cup\".",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam 1931-32 (Before The 'D')",
+      "url": "https://gottfriedfuchs.blogspot.com/2012/11/wunderteam.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-05",
+      "eventDate": "1931/32",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "\"The unbeaten run featured the following personnel\": fifteen players, two per defensive/half-back position (e.g. \"Center Halves: Josef Smistik, Leopold Hofmann\") and a fixed forward line Zischek, Gschweidl, Sindelar, Schall, Vogl. A stable core through the 1931–32 run.",
+      "verified": true
+    },
+    {
+      "title": "Wunderteam (de.wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Wunderteam",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026-11-01",
+      "eventDate": "1931-05",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"Der Verbandskapitän Hugo Meisl stand unter dem Druck der Fans, Journalisten und Sportfachleute, die eine Umbesetzung der Nationalmannschaft, insbesondere den Einsatz von Matthias Sindelar, vehement forderten.\" In the Ring-Café \"gab Meisl schließlich den anwesenden Sportjournalisten nach\" and threw them the line-up they wanted (anecdote \"bis heute nicht hundertprozentig nachprüfbar\", cites Hafer 2008). Earlier (1929, outside the period) Sindelar's answer after a defeat displeased \"dem tobenden Hugo Meisl\".",
+      "verified": true
+    },
+    {
+      "title": "Das Wunderteam – the side we all wish we'd seen",
+      "url": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "1934",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"the right wing state tried to influence who was selected for the national team\"; quoting David Goldblatt, the team was \"'tired and troubled'\" on arrival in Italy; \"Meisl had also lost some impetus.\" Undated within 1933–34; about outside pressure, not Meisl's own handling of players.",
+      "verified": false
+    },
+    {
+      "title": "Das Wunderteam – the side we all wish we'd seen",
+      "url": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "1932-12",
+      "accessedOn": "2026-11-01",
+      "dimension": "stated-view",
+      "evidence": "On arrival in London (December 1932): \"Jimmy Hogan, their coach, told the press: 'Whatever happens, you will find our boys play real football.'\" Said by Hogan, Meisl's trainer, not by Meisl, so it is not Meisl's stated view.",
       "verified": false
     }
   ],
-  "statedView": [],
+  "statedView": [
+    {
+      "quote": "Spüts euer Spüü!",
+      "date": "1932-12-07",
+      "source": "https://de.wikipedia.org/wiki/Wunderteam",
+      "provenance": "attributed",
+      "note": "Half-time at Stamford Bridge, 0:2 down ('Spielt euer Spiel'). de.wikipedia gives no reference; no earlier appearance found."
+    },
+    {
+      "quote": "Da habt's euer Schmieranskiteam!",
+      "date": "1931-05",
+      "source": "https://de.wikipedia.org/wiki/Wunderteam",
+      "provenance": "attributed",
+      "note": "Said to journalists in the Ring-Café before the Scotland match, handing them the line-up they had demanded. de.wikipedia cites Hafer/Hafer, 'Hugo Meisl und die Erfindung des modernen Fußballs' (2008, p.112) and calls the anecdote not fully verifiable. About selection, not tactics."
+    },
+    {
+      "quote": "Our game is the study of many systems, for we are always playing other continental opponents.",
+      "date": "2025-06-13",
+      "source": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
+      "provenance": "attributed",
+      "note": "Undated Vienna interview quoted by Neil Fredrik Jensen (chapter of The Great Uncrowned, 2022). The same piece says Meisl felt the English game 'had become too mechanised' and told Chapman Arsenal's 'defence-oriented approach' didn't get the best out of Alex James. No earlier source found."
+    }
+  ],
   "unreadable": [
     {
-      "url": "https://gameofthepeople.com/page/184",
+      "url": "https://paperspast.natlib.govt.nz/newspapers/PBH19321208.2.90",
+      "reason": "403"
+    },
+    {
+      "url": "https://medium.com/whatahowler/the-start-of-hugo-meisls-wunderteam-ec7ea533c720",
+      "reason": "403"
+    },
+    {
+      "url": "https://aftcc2.odoo.com/blog/teams-7/the-austrian-wunderteam-1931-36-29",
       "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.theviennareview.at/archives/2012/the-other-viennese-school",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/019c-0e6adb9fef90-ab94132361d1-1000--1934-mussolini-pulls-the-levers",
+      "reason": "empty"
+    },
+    {
+      "url": "https://data.gesis.org/gesiskg/resource/gesis-ssoar-57700",
+      "reason": "empty"
     }
   ],
   "gaps": {
     "dimensions": [
-      "possession",
-      "transitions",
-      "width",
       "pressing",
-      "defensive-block",
-      "set-pieces",
-      "game-management",
-      "stated-view",
-      "player-profile",
-      "squad-building",
-      "people-management"
+      "stated-view"
     ],
-    "axes": [
-      "pos",
-      "lar",
-      "blo",
-      "mar",
-      "pla",
-      "res",
-      "sis",
-      "jog",
-      "bas",
-      "lid"
-    ]
+    "axes": []
   },
   "influences": [
-    { "id": "jimmy-hogan", "kind": "manager", "note": "Short ground-passing teaching in Vienna; credited as the origin of the passing style (Wikipedia, undated)." },
-    { "id": "danubian-school", "kind": "football-ideology", "note": "The Wunderteam is the school's showcase exemplar." }
+    {
+      "id": "jimmy-hogan",
+      "kind": "manager",
+      "note": "Meisl's trainer; brought back into the set-up before Stamford Bridge 1932 (Irish Times); credited with the ground-passing, ball-control style (gottfriedfuchs, Game of the People)."
+    },
+    {
+      "id": "danubian-school",
+      "kind": "football-ideology",
+      "note": "The Wunderteam is the school's showcase exemplar ('The Whirl', 'Danubian Whirl')."
+    }
   ],
   "confidence": {
-    "level": "low",
-    "reason": "Only two dated, verified facts (2-3-5 shape and short flat passes, both from one tier C German page on the 1931 Scotland match). Pressing, defence, marking, stated view and squad are unverified; no tier A or B source for the exact period was found."
+    "level": "medium",
+    "reason": "Shape, passing, width, player profile and squad have several agreeing sources, and the 1932 England match has dated period press quotes (WSC, tier B; de.wikipedia citing Horak/Maderthaner). But it is mostly tier C and retrospective, there is no tier A source, pressing has nothing, marking rests on one retrospective line about Sesta plus 'retreating defence' in one match, and no primary Meisl statement on tactics was found."
   }
 }
