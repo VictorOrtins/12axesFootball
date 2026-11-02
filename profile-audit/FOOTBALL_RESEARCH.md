@@ -4,6 +4,8 @@ Used by `/new-manager`, `/new-team` and `/new-football-ideology`. It turns the m
 
 Every football profile gets a research file **before** any audit. The research file is the evidence the audit answers from, so the audit isn't working from memory alone.
 
+**Who runs it.** The skills don't follow this guide in the main session: they hand the case to the `football-researcher` agent (`.claude/agents/football-researcher.md`, Sonnet, tools Read/Write/Bash/WebSearch). Its brief is a condensed copy of steps 1–7 and it never reads this file, so the run costs about 50k tokens instead of 95–155k. Pages are read by `profile-audit/miner.py`, not by the model (step 3). **This guide is the reference: when you change a rule here, change the agent brief too**, and restart Claude Code (agent files load only at session start).
+
 ```
 1. Verify the case and pin the period ── ambiguous? ask the user and STOP
 2. Plan searches by dimension
@@ -82,26 +84,31 @@ Fix the 13 dimensions before searching, so the research doesn't just collect wha
 - one dedicated search for marking (`zonal` / `man-oriented` / `man-to-man` + the subject);
 - one search for the manager's stated view (interviews, quotes);
 - one search for squad building and people management when the broad results don't cover them;
-- **in the local language** for non-English football cultures (FR-7): Portuguese for Brazil and Portugal, Spanish for Spain and Argentina, Italian, German, French, Dutch, etc. Portuguese sources were much better than English for Grêmio and Vasco.
+- **in the local language** for non-English football cultures (FR-7): Portuguese for Brazil and Portugal, Spanish for Spain and Argentina, Italian, German, French, Dutch, etc. Portuguese sources were much better than English for Grêmio and Vasco;
+- at least two searches restricted to quality domains (UEFA, FIFA, Coaches' Voice, StatsBomb, These Football Times, club history sites, the main national press), **one `site:` per search**: WebSearch ignores `OR` between sites. They matter most when a famous topic's results are flooded with junk (SEO pages, Football Manager tactics, Wikipedia mirrors).
 
-When a famous topic's results are flooded with junk (SEO pages, Football Manager tactics, Wikipedia mirrors), repeat the search restricted to quality domains (UEFA, FIFA, Coaches' Voice, StatsBomb, These Football Times, club history sites, the main national press).
+After the first validate, one **gap pass** is required when `gaps.axes` isn't empty: 1–3 targeted searches for those axes' dimensions, mine again, update the file.
 
-Budget: about 3 searches and 3 page reads per case. A famous case can stop earlier; a small or recent one needs more.
+Budget: about 10 searches and 15 pages per case, gap pass included. A famous case can stop earlier; a small or recent one needs more.
 
 ## Step 3 — Search to find, read to verify (FR-5, FR-8)
 
 **The search summary is never evidence.** Search tools return links plus an AI-written summary; in the manual test that summary got years wrong (Renato's quote "2017", actually 8 Dec 2016), mixed up seasons (2018 pieces as 2017, 2022/23 as 2021/22) and invented claims (Liverpool 2021/22 "mid-block": the source says a higher press and a high line).
 
 Rules:
-1. Use search results **only to find pages**. Open the page and read it.
-2. A fact is `verified: true` **only if it was read on the source page**. Ask the page reader for **verbatim quotes** and put them in `evidence`. A paraphrase is weaker than a quote.
+1. Use search results **only to find pages**. Read the pages through the miner, all URLs in one call:
+   ```
+   uv run profile-audit/miner.py <catalog> <id> <url> <url> ... --terms "<surname>,<club>" [--grep "appointed|1925"]
+   ```
+   It fetches each page (cached in `profile-audit/raw/.cache/`), extracts the main text and publication date, and keeps only the paragraphs that match a dimension keyword (EN, PT, ES, IT, DE, HU), a formation, or `--grep`, ranked by `--terms` and quotes, plus the next paragraph as context (12 per page, 1500 characters each). It writes a digest to `profile-audit/raw/<catalog>/<id>.md` (`<id>.2.md` on the next run) and prints its path; the model reads only the digest. `profile-audit/raw/` is git-ignored. No tokens are spent on fetching or filtering.
+2. A fact is `verified: true` **only if it was read on the source page**: a paragraph in the digest counts, since it is verbatim page text. Put **verbatim quotes** in `evidence`. A paraphrase is weaker than a quote.
 3. A fact seen only in a search summary may be saved, but as `verified: false`. It never counts toward closing a gap.
-4. Long pages get truncated (~100k characters): read them in parts and say in `evidence` which part, or record `truncated` in `unreadable[]` if the relevant part couldn't be reached.
-5. **Blocked, empty or dead pages (FR-8):** try, in order:
+4. The digest keeps the best paragraphs only. If a page's relevant part isn't in it, mine again with `--grep` for that part, or record `truncated` in `unreadable[]`.
+5. **Blocked, empty or dead pages (FR-8):** the miner tries the Wayback Machine copy by itself and lists every page that still failed under `## Unreadable` in the digest. Then try, in order:
    - a mirror: `legacy.` subdomains (`legacy.liverpoolfc.com`), `inside.fifa.com` for FIFA.com pages that come back empty;
    - an archive copy (`web.archive.org/web/<url>`);
    - the same author or data quoted elsewhere (FBref numbers quoted in an article; Jonathan Wilson's columns republished outside The Guardian).
-   If all fail, add `{ url, reason }` to `unreadable[]` with `reason` one of `403`, `404`, `empty`, `truncated`, `not-accessible`. **Never skip a source silently.** Known: FBref, IOL and foot-africa.com return 403; The Guardian and BBC aren't accessible to the search tool; FIFA.com articles need JavaScript.
+   If all fail, add `{ url, reason }` to `unreadable[]` (every line of every digest's `## Unreadable` list goes there) with `reason` one of `403`, `404`, `empty`, `truncated`, `not-accessible`. **Never skip a source silently.** Known: FBref, IOL and foot-africa.com return 403; The Guardian and BBC aren't accessible to the search tool; FIFA.com articles need JavaScript.
 
 ## Step 4 — Rank sources and check the period (FR-6)
 
@@ -207,4 +214,5 @@ End every run with: the profile id and period (and spells, for managers), confid
 ## Testing
 
 - **The research check:** `python3 -m unittest discover -s profile-audit/tests` runs the unit tests for `validate.py research` and for the grader (fixtures in `profile-audit/tests/fixtures/`).
+- **The miner:** `uv run profile-audit/miner.py manager test <url>` on any page, then read the digest.
 - **The agent (acceptance):** `profile-audit/tests/acceptance/cases.json` holds the expected results of the 8 manual cases in `docs/04-research-test-profiles.md`. Run a case's `input` command in Claude Code, then grade the file it saved: `python3 profile-audit/grade_research.py <case>` (`--list` shows the cases). A FAIL on a "must" check fails the case; a WARN is a "should". The grader can't confirm that a fact is really on its page: spot-check a few by hand. Re-run the cases after any change to this guide.

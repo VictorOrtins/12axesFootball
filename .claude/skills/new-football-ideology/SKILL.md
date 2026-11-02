@@ -1,15 +1,20 @@
 ---
 name: new-football-ideology
-description: Researches a new football ideology profile for the 12axes football catalog (era, exemplar managers and teams, sourced evidence by dimension, gaps, confidence) and saves the research file, following FOOTBALL_RESEARCH.md.
+description: Researches a new football ideology profile for the 12axes football catalog (era, exemplar managers and teams, sourced evidence by dimension, gaps, confidence) and saves the research file, with the football-researcher agent.
 ---
 
 # /new-football-ideology <name>
 
 Creates the research for a new **football ideology**: a way of playing or running a team (Total Football, Gegenpressing, Catenaccio, positional play).
 
-## Before anything
+## How to run it
 
-Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step.
+Don't read `profile-audit/FOOTBALL_RESEARCH.md` and don't research in the main session.
+
+1. Pick the `id` (table below) and check `profile-audit/research/football-ideology/` for a collision.
+2. Launch the **`football-researcher`** agent (Agent tool, `subagent_type: "football-researcher"`) with: catalog `football-ideology`, the id, the ideology, any era the user fixed, and the ideology-specific notes below. It searches, mines the pages with `profile-audit/miner.py`, saves and validates the research file.
+3. If it saved a stub (`"status": "awaiting-user"`), ask the user its questions, then launch it again with the answers.
+4. Relay its reply to the user. Spot-check two or three `verified` facts in the file against the digest in `profile-audit/raw/football-ideology/`.
 
 ## Fixed parameters
 
@@ -30,8 +35,8 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 
 ## Stop rules
 
-- Ambiguous name (one label used for two different ideas): ask the user and stop.
-- After step 7, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report to the user as described at the end of FOOTBALL_RESEARCH.md.
+- Ambiguous name (one label used for two different ideas): the agent saves a stub and stops; ask the user.
+- After the research is saved and validated, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report the agent's reply to the user.
 
 ## Rules that can't be broken
 

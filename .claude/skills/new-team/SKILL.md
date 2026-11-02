@@ -1,15 +1,20 @@
 ---
 name: new-team
-description: Researches a new team-era profile for the 12axes football catalog (exact period, managers by id, sourced evidence by dimension, gaps, confidence) and saves the research file, following FOOTBALL_RESEARCH.md.
+description: Researches a new team-era profile for the 12axes football catalog (exact period, managers by id, sourced evidence by dimension, gaps, confidence) and saves the research file, with the football-researcher agent.
 ---
 
 # /new-team <team and season/era>
 
 Creates the research for a new **team** profile: one team in one era ("Liverpool 2021/22", "Netherlands, 1974 World Cup"). For a manager's whole career, use `/new-manager`.
 
-## Before anything
+## How to run it
 
-Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step.
+Don't read `profile-audit/FOOTBALL_RESEARCH.md` and don't research in the main session.
+
+1. Pick the `id` (table below) and check `profile-audit/research/team/` for a collision.
+2. Launch the **`football-researcher`** agent (Agent tool, `subagent_type: "football-researcher"`) with: catalog `team`, the id, the team and era, the manager if the user named one, and the team-specific notes below. It searches, mines the pages with `profile-audit/miner.py`, saves and validates the research file.
+3. If it saved a stub (`"status": "awaiting-user"`), ask the user its questions, then launch it again with the answers.
+4. Relay its reply to the user. Spot-check two or three `verified` facts in the file against the digest in `profile-audit/raw/team/`.
 
 ## Fixed parameters
 
@@ -19,7 +24,7 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 | `id` | kebab-case team + era, no accents (`liverpool-2021-22`, `netherlands-1974`, `gremio-2017`); when the era covers several managers and the case is one manager's part, end with that manager's id (`vasco-2026-pedro-emanuel`); check `profile-audit/research/team/` for a collision |
 | Research file | `profile-audit/research/team/<id>.json` |
 | Period | `profilePeriod` = the era's exact first and last competitive match (or the tournament's dates) |
-| Managers | `managers[]` = `{ managerId, start, end }` for every manager in the period. `managerId` is the manager catalog id (`jurgen-klopp`), **never the team name or a display name**; reuse an existing id (FOOTBALL_RESEARCH.md step 1) |
+| Managers | `managers[]` = `{ managerId, start, end }` for every manager in the period. `managerId` is the manager catalog id (`jurgen-klopp`), **never the team name or a display name**; reuse an existing id |
 | Validate | `python3 profile-audit/validate.py research team <id>` |
 
 ## Team-specific notes
@@ -30,9 +35,9 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 
 ## Stop rules
 
-- Ambiguous team, era or calendar (e.g. "Sundowns 2025": calendar 2025 or 2024/25?): ask the user and stop.
-- Era shorter than about half a season (~15 competitive matches): tell the user and stop unless they say to go on. A single tournament (a World Cup) is fine.
-- After step 7, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report to the user as described at the end of FOOTBALL_RESEARCH.md.
+- Ambiguous team, era or calendar (e.g. "Sundowns 2025": calendar 2025 or 2024/25?): the agent saves a stub and stops; ask the user.
+- Era shorter than about half a season (~15 competitive matches): the agent stops; go on only if the user says so. A single tournament (a World Cup) is fine.
+- After the research is saved and validated, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report the agent's reply to the user.
 
 ## Rules that can't be broken
 

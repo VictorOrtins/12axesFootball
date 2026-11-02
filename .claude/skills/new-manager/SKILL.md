@@ -1,15 +1,20 @@
 ---
 name: new-manager
-description: Researches a new manager profile for the 12axes football catalog (period and spells, sourced evidence by dimension, gaps, confidence) and saves the research file, following FOOTBALL_RESEARCH.md.
+description: Researches a new manager profile for the 12axes football catalog (period and spells, sourced evidence by dimension, gaps, confidence) and saves the research file, with the football-researcher agent.
 ---
 
 # /new-manager <name>
 
 Creates the research for a new **manager** profile. A manager is profiled by the body of work they're **known for**, across every counted spell, not by one season. For one team in one season, use `/new-team`.
 
-## Before anything
+## How to run it
 
-Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step.
+Don't read `profile-audit/FOOTBALL_RESEARCH.md` and don't research in the main session.
+
+1. Pick the `id` (table below) and check `profile-audit/research/manager/` for a collision.
+2. Launch the **`football-researcher`** agent (Agent tool, `subagent_type: "football-researcher"`) with: catalog `manager`, the id, the subject, the counted spells or period if the user fixed them, and the manager-specific notes below. It searches, mines the pages with `profile-audit/miner.py`, saves and validates the research file.
+3. If it saved a stub (`"status": "awaiting-user"`), ask the user its questions, then launch it again with the answers.
+4. Relay its reply to the user. Spot-check two or three `verified` facts in the file against the digest in `profile-audit/raw/manager/`.
 
 ## Fixed parameters
 
@@ -31,9 +36,9 @@ Read **`profile-audit/FOOTBALL_RESEARCH.md` in full** and follow it step by step
 
 ## Stop rules
 
-- Ambiguous subject or spells: ask the user and stop (FOOTBALL_RESEARCH.md step 1).
-- Counted work shorter than about half a season (~15 competitive matches): tell the user and stop unless they say to go on.
-- After step 7 (research saved and validated), **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report to the user as described at the end of FOOTBALL_RESEARCH.md.
+- Ambiguous subject or spells: the agent saves a stub and stops; ask the user.
+- Counted work shorter than about half a season (~15 competitive matches): the agent stops; go on only if the user says so.
+- After the research is saved and validated, **stop**: the audit is a separate run (`profile-audit/FOOTBALL_AUDIT.md`). Report the agent's reply to the user.
 
 ## Rules that can't be broken
 
