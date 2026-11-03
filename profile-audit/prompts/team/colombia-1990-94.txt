@@ -1,0 +1,1088 @@
+You are auditing, question by question and fully independently, the football profile "Colombia 1990-94 (Maturana)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Colombia 1990-94 (Maturana), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/colombia-1990-94.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
+}
+
+After writing the file, reply only with "OK team:colombia-1990-94" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (team/colombia-1990-94.json) ===
+{
+  "id": "colombia-1990-94",
+  "catalog": "team",
+  "name": "Colombia 1990-94 (Maturana)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1990-06-09",
+    "end": "1994-06-26"
+  },
+  "scopeNote": "Colombia national team from the Italia 90 group stage to the USA 94 group stage, centred on the 1993-94 side (24 wins in a row per La Grinta; 5-0 in Buenos Aires, 5 Sept 1993). Style named by sources as 'toque toque' (touch-touch), zonal marking with a back four, formally 4-2-2-2 (RCN) or 4-4-2 / near-diamond (TFT, La Grinta). Tactical detail in sources is almost all from 1993-94 (5-0, Romania, USA); Italia 90 appears only in Maturana's own recollection. Start and end dates (9 June 1990 v UAE; 26 June 1994 v Switzerland) come from memory, not from a mined page; the 18 June 1994 Romania date comes from a search-result URL title. The second Maturana spell start is given only as 1993 (no day found). Many eventDates are partial (YYYY/YY or YYYY-MM) because sources give no days. Popular label 'tiki-taka of Colombia' is only a journalist's comparison (Paris Review).",
+  "ambiguities": [],
+  "openQuestions": [
+    "Who coached Colombia between Italia 90 (June 1990) and Maturana return in 1992/93? Wikipedia says Maturana returned to Colombia in 1992 (América) and led the national team from 1993; the 1991 Copa America coach is unconfirmed (possibly Luis Augusto 'Chiqui' Garcia). Not listed in managers[] until verified.",
+    "Hernan Dario Gomez was assistant to Maturana in 1993-94 (RCN, El Colombiano) and was not head coach in the period; he took over after USA 94 (from memory).",
+    "Shape label disagrees: 4-2-2-2 with Valderrama behind the striker (RCN) vs 4-4-2 near diamond (La Grinta, TFT). Trivela lineup has Rincon-Gomez-Alvarez with Valderrama and two strikers, a 4-3-1-2.",
+    "Pressing: FourFourTwo and Trivela say high press, La Grinta says no all-pitch press, sequences by context; Valencia says they sat back and countered in the 2nd half of the 5-0.",
+    "Italia 90 (Higuita as sweeper-keeper, Germany 1-1) has no verified tactical page in this file; the 1990 spell is thinly covered.",
+    "Whether the 5-0 and a heavy friendlies schedule hurt preparation for USA 94 is contested (Maradona, Gomez, Maturana say the threats mattered more)."
+  ],
+  "sources": [
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Francisco Maturana, in his second spell as Colombia manager, set his team up in a bold 4-4-2, with the explicit instruction to get the ball to the influential Carlos Valderrama.",
+      "verified": true
+    },
+    {
+      "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "El 4-2-2-2, como todo esquema, no era estático. Se desplegaba en 4-2-3-1 con el Pibe detrás del centrodelantero o, en defensa, 4-4-1-1 o 4-4-2.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Francisco « Pacho » Maturana, opte pour un 4-4-2 assez proche d’un diamant durant cette période.",
+      "verified": true
+    },
+    {
+      "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+      "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Colômbia: Córdoba; Herrera, Perea, Mendoza e Pérez; Rincón, Gómez e Álvarez; Valderrama; Asprilla e Valencia. Técnico: Francisco Maturana.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "En phase de sortie de balle, les défenseurs centraux sont sollicités pour faire tourner le ballon, pour assurer la conservation de celui-ci.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "c’est souvent les latéraux ou les milieux Gomez, Alvarez ou bien même Valderrama qui décrochent à tour de rôle pour assurer les premières passes.",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "the former Montpellier man used his body shape to befuddle three opposing defenders, which opened up space for him to slide the ball into the path of Freddy Rincón.",
+      "verified": true
+    },
+    {
+      "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Con el balón, a menos que hubiera una posibilidad clara de pelotazo que dejara a los atacantes con ventaja en campo rival, había que tocar y tocar… mover a los contrarios para encontrar espacios, con Valderrama ideando las acciones y los delanteros haciendo constantes diagonales.",
+      "verified": true
+    },
+    {
+      "title": "Pacho Maturana, otra vez en el camino de Argentina - Perfil 442",
+      "url": "https://442.perfil.com/2019-06-25-673128-pacho-maturana-otra-vez-en-el-camino-de-argentina/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-06-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "El colombiano había construido un equipo magnífico que sometía a sus rivales con posesión de balón y velocidad en cada ataque",
+      "verified": true
+    },
+    {
+      "title": "The Rebirth of Colombia - The Paris Review",
+      "url": "https://www.theparisreview.org/blog/2014/05/15/the-rebirth-of-colombia/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-05-15",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Under its coach Francisco Maturana, the team developed a style of play known as “toque toque,” or “touch touch.”",
+      "verified": true
+    },
+    {
+      "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993 - FourFourTwo",
+      "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Inspired by the Dutch, his team pressed high, dominated possession and utilised their pace and creativity up front.",
+      "verified": true
+    },
+    {
+      "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+      "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "o time amarelo estava concentrado e disposto a esfriar todo e qualquer ataque do rival com a marcação adiantada e um ótimo toque de bola sempre passando pelos pés de Valderrama.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "il n’est pas un fervent partisan d’un pressing tout terrain. Celui-ci se met en place par séquence en fonction du contexte du match.",
+      "verified": true
+    },
+    {
+      "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-07-06",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "The game started with similar intensity, both sides looking to press the other high up.",
+      "verified": true
+    },
+    {
+      "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "El estilo partía del orden, según palabras del propio Maturana, con una línea de cuatro atrás y una marca zonal.",
+      "verified": true
+    },
+    {
+      "title": "Jugue el futbol que quise: Pacho Maturana, 30 anos despues - El Pais",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Una marcación en zona, pero con un contenido holístico.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "MATURANA EN AVANT GARDE : L’UN DES PREMIERS MAITRES DE LA DEFENSE DE ZONE EN AMERIQUE DU SUD",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Si Maturana a su instaurer suffisamment de discipline pour rendre difficile à l’adversaire la pénétration par l’axe",
+      "verified": true
+    },
+    {
+      "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-11-09",
+      "eventDate": "1994-06-22",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Balboa and Alexi Lalas held the creative Colombians at bay in the center of the defense while Earnie Stewart and John Harkes led several counterattacks against Colombia.",
+      "verified": true
+    },
+    {
+      "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-06-17",
+      "eventDate": "1994-06-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Gheorghe Hagi and Florin Raducioiu were naively afforded space, goalkeeper Cordoba had a day to forget, and Colombia could not rally a comeback.",
+      "verified": true
+    },
+    {
+      "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-07-06",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Second, Colombia were happy with that, content to hit them on the break.",
+      "verified": true
+    },
+    {
+      "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993 - FourFourTwo",
+      "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "“We knew that it was up to Argentina to dictate the pace, though, so we sat back and hit them on the break.”",
+      "verified": true
+    },
+    {
+      "title": "Jugue el futbol que quise: Pacho Maturana, 30 anos despues - El Pais",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1990-06-19",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Con nuestro fútbol, posesión de pelota y transición en el momento justo.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Valderrama nous propose encore sa spéciale : la passe courte parfaitement dosée entre les 2 joueurs et dans la course de Rincon.",
+      "verified": true
+    },
+    {
+      "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+      "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Nos primeiros dez minutos, a Argentina tentou avançar pelo setor direito em busca de brechas na marcação adiantada, mas falhou na pontaria.",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "El Pibe then upped the ante, launching an audacious outside-of-the-foot pass down the left-wing into the path of Asprilla",
+      "verified": true
+    },
+    {
+      "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+      "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Rincón avançou pela direita e tocou para Valencia",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Là encore il faut souligner le rôle des défenseurs latéraux, primordial pour attaquer les couloirs à la récupération.",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "After 41 minutes Colombia launched a long throw-in deep into Argentine territory, and the cleared defensive header was picked up by the frizzy-haired icon Valderrama.",
+      "verified": true
+    },
+    {
+      "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-11-09",
+      "eventDate": "1994-06-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Valencia pulled a goal back for the Colombians in the 43rd minute when he headed in a corner from Perez.",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Colombia were hell-bent on revenge against their arrogant opponents and wanted to show the world that they belonged at the highest level.",
+      "verified": true
+    },
+    {
+      "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-07-06",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Colombia were happy with that, content to hit them on the break.",
+      "verified": true
+    },
+    {
+      "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+      "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Os albicelestes buscavam o gol e a Colômbia esfriava as ações, se mostrando contente com o empate (que lhe dava a vaga)",
+      "verified": true
+    },
+    {
+      "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993 - FourFourTwo",
+      "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Los Cafeteros had already ended their rivals’ 33-match unbeaten streak just weeks before",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "1990",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Until then, our game strategy had been to neutralise our opponent. At the end of every game we were worn out from running",
+      "verified": true
+    },
+    {
+      "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Y se hizo famosa la frase de Hernán Darío Gómez, entonces asistente de Maturana: “Nos jodimos, Pacho. Ahora tenemos que ser campeones del mundo”.",
+      "verified": true
+    },
+    {
+      "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+      "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-09-05",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Valderrama praticamente flutuando no meio de campo e Rincón bastante solto, sem se prender às obrigações defensivas, atuando quase como um falso atacante.",
+      "verified": true
+    },
+    {
+      "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+      "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2019-10-25",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "la qualité technique très élevée partagée par la globalité des joueurs sur le terrain. Personne n’hésite à donner en jeu court ou en jeu long à son partenaire",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Displaying a trait shared by playmakers of the highest order, the former Montpellier man used his body shape to befuddle three opposing defenders",
+      "verified": true
+    },
+    {
+      "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Maturana alineó a un joven René Higuita de 20 años porque deseaba “11 futbolistas que produjeran juego”.",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1993-09-05",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Óscar Córdoba, the youngest Colombian on the pitch at just 23, would go on to have the game of his life",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "“Colombia is the only national team able to train on a daily basis,” he said. “Because the squad is so rooted at Atletico Nacional.”",
+      "verified": true
+    },
+    {
+      "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-06-17",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Death threats came, demanding that Barrabas Gomez, brother of Maturana's assistant Hernan Dario Gomez, should not play. Barrabas left the squad, but players say the impact of the threats lingered.",
+      "verified": true
+    },
+    {
+      "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-11-09",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Gabriel Jaime Gomez Jaramillo (known as Barabas) was dropped from the squad presumably because of threats, with Hernán Gaviria taking his place.",
+      "verified": true
+    },
+    {
+      "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+      "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-23",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "The gruelling schedule of friendlies undertaken by Colombia in the lead up to the tournament didn’t help either, ensuring the players landed in the US in far from optimal condition.",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Among all of the advice I was given, every manager agreed on one thing. “Pacho, you have to ringfence your environment.” So I did.",
+      "verified": true
+    },
+    {
+      "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-11-09",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Coach Francisco Maturana was reported to have received death threats over matters of team selection.",
+      "verified": true
+    },
+    {
+      "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-06-17",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "After Colombia were knocked out, coach Pacho Maturana told the players that they were welcome to stay in the US until tensions back home cooled down.",
+      "verified": true
+    },
+    {
+      "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+      "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-04-09",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "A él le enviaron una carta amenazándolo, para alinear a un jugador y sacar a otro.",
+      "verified": true
+    },
+    {
+      "title": "The vehicle for change - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-12",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“We are going to play football,” I told the players. “We are going to search for order, so that we can disrupt that order once we are in control of the ball.”",
+      "verified": true
+    },
+    {
+      "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-07-06",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“Before [I arrived in] 1987, we had never found our own way,” Maturana told The Blizzard years later.",
+      "verified": true
+    },
+    {
+      "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-06-17",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Pacho Maturana, the coach, showed a disarming lack of confidence when he told a reporter: \"For me, the important thing is to compete... to leave a mark, a footprint.\"",
+      "verified": true
+    },
+    {
+      "title": "Jugue el futbol que quise: Pacho Maturana, 30 anos despues - El Pais",
+      "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-06",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Una marcación en zona, pero con un contenido holístico.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "We are going to play football... We are going to search for order, so that we can disrupt that order once we are in control of the ball.",
+      "date": "2020-04-12",
+      "source": "Coaches' Voice, The vehicle for change",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Before [I arrived in] 1987, we had never found our own way. We used a style of play to express what Colombia the country was all about: people who are known for being happy, people who are dreamers, people who are easily inspired.",
+      "date": "2018-09-05",
+      "source": "Planet Football / FourFourTwo quoting The Blizzard",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Una marcación en zona, pero con un contenido holístico.",
+      "date": "2020-06-06",
+      "source": "El Pais (Cali) interview",
+      "provenance": "primary"
+    },
+    {
+      "quote": "For me, the important thing is to compete... to leave a mark, a footprint.",
+      "date": "1994-06",
+      "source": "FourFourTwo, reporter unnamed",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Nos jodimos, Pacho. Ahora tenemos que ser campeones del mundo.",
+      "date": "1993-09-05",
+      "source": "Noticias RCN 2023",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/7560068/seleccion-colombia-historia-venezuela-mal-resultado-maturana-chiqui-garcia-eliminatorias",
+      "reason": "empty"
+    },
+    {
+      "url": "https://colombiareports.com/?p=187364",
+      "reason": "not-accessible"
+    }
+  ],
+  "managers": [
+    {
+      "managerId": "francisco-maturana",
+      "start": "1990-06-09",
+      "end": "1990-06-23"
+    },
+    {
+      "managerId": "francisco-maturana",
+      "start": "1993",
+      "end": "1994-06-26"
+    }
+  ],
+  "influences": [
+    "Ricardo de Leon",
+    "Luis Cubilla",
+    "Dutch Total Football (via de Leon, Michels)",
+    "Arrigo Sacchi's Milan (zonal defence)"
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good verified coverage of 1993-94 (tier A-B: Coaches' Voice, La Grinta, TFT) on most dimensions, but period start/end from memory, sources disagree on shape and pressing, 1990-92 coach and tactics thin."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+2. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+3. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+4. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+5. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+2. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+3. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+4. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+5. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+2. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+3. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+4. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+5. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+2. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+3. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+4. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+5. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+2. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+3. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+4. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+5. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+2. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+3. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+4. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+5. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+2. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+3. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+4. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+5. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+2. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+3. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+4. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+5. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+2. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+3. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+4. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+5. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+2. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+3. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+4. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+5. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+2. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+3. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+4. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+5. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.
+2. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+3. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+4. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+5. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

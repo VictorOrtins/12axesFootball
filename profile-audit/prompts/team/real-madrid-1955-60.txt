@@ -1,0 +1,951 @@
+You are auditing, question by question and fully independently, the football profile "Real Madrid 1955-1960 (five European Cups)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Real Madrid 1955-1960 (five European Cups), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/real-madrid-1955-60.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
+}
+
+After writing the file, reply only with "OK team:real-madrid-1955-60" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (team/real-madrid-1955-60.json) ===
+{
+  "id": "real-madrid-1955-60",
+  "catalog": "team",
+  "name": "Real Madrid 1955-1960 (five European Cups)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1955-09-08",
+    "end": "1960-05-18"
+  },
+  "scopeNote": "From Real Madrid's first European Cup match (Servette 0-2 Real Madrid, Geneva, 8 September 1955) to the 1960 final (7-3 v Eintracht Frankfurt, Hampden Park, 18 May 1960). European seasons 1955/56 to 1959/60. Style label used by sources: W-M / 3-2-5 (3-2-2-3) with a roving deep centre-forward (Di Stefano); StatsBomb and Spielverlagerung say this, not 4-2-4 (a popular label for this side that no read source supports). Coaches in the period: Villalonga (1955/56, 1956/57), Carniglia (1957/58, 1958/59, with Munoz as interim Feb-Apr 1959), Fleitas Solich (1959/60 until April 1960), Munoz (from April 1960, coached the Hampden final). Most tactical coverage is retrospective (Spielverlagerung 2014, StatsBomb 2020, Holding Midfield 2012); no period source on the marking scheme was found. Day of Villalonga's departure and Carniglia's arrival not found (only June 1957, month level). Tactical evidence for 1955/56-1957/58 is thin: almost all of it concerns 1959/60 and the Di Stefano/Puskas partnership. Manager dates are month-level where marked partial: Villalonga end and Carniglia start 1957-06, Carniglia end 1959-07 (all from Wikipedia 'June 1957 to July 1959'), Fleitas start 1959-07 inferred from Carniglia's end and the 1959-60 season page; Fleitas end and Munoz start 1960-04-11 from Wikipedia's 1959-60 season page.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Who left Puskas out of the 1959 final? Wikipedia (Luis Carniglia) and SI say Carniglia left him out and was sacked in part for it; These Football Times says injury kept Puskas out of the 1959 final. Not resolved.",
+    "Fleitas Solich's last day: Wikipedia 1959-60 season says until 11 April 1960; a search summary of an Italian page (not read) said 17 April. Munoz's start is taken as 11 April 1960 from Wikipedia only. RSSSF coach list assigns 1959-60 wholly to Fleitas and 1960-61 to Munoz, but it is a season-level list and contradicts the three pages that put Munoz on the bench for the semi-finals and the final.",
+    "Villalonga's end and Carniglia's start: Wikipedia gives Carniglia from June 1957; RSSSF lists Jose A. Ipina and Carniglia for 1957-58. Villalonga's end date set to 1957-06 from this, not confirmed by a second source. Villalonga start (mid 1954-55 per Wikipedia) predates the period; clipped to 8 September 1955.",
+    "Marking scheme of Madrid itself (zonal or man) not found in any read page. StatsBomb only says the era was one of man-marking schemes and describes Frankfurt's Stein exploiting channels; treated as indirect evidence. No period source.",
+    "Spielverlagerung's 3-2-4-1/3-2-2-3 remark about Puskas is undated; eventDate set to 1959/60 as the first season Puskas started a final, not confirmed by the source.",
+    "Di Stefano's and Pachin's quotes are undated attributions; recorded in statedView as attributed with date unknown.",
+    "Set-pieces: nothing on corners or free kicks of this Madrid was found; only a kick-off move in the 1960 final is recorded.",
+    "The 7 coaches in 1955-1960 claimed by These Football Times does not match the four listed here; the extra names (for example Ipina, Munoz interim) were not checked further.",
+    "stated-view has no verified in-period fact: the only quotes found are undated or later attributions (statedView dates are article dates, not original dates)."
+  ],
+  "managers": [
+    {
+      "managerId": "jose-villalonga",
+      "start": "1955-09-08",
+      "end": "1957-06"
+    },
+    {
+      "managerId": "luis-carniglia",
+      "start": "1957-06",
+      "end": "1959-07"
+    },
+    {
+      "managerId": "fleitas-solich",
+      "start": "1959-07",
+      "end": "1960-04-11"
+    },
+    {
+      "managerId": "miguel-munoz",
+      "start": "1960-04-11",
+      "end": "1960-05-18"
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Data History of the European Cup: 1960, Real Madrid 7-3 Eintracht Frankfurt",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "This is still more or less the era of the 3-2-2-3 (WM) formation, with wingers, inside forwards and a centre-forward making up the front line. With certain variations, both teams employed that system.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "As a center forward, he often fell back between the defender in the 3-2-5 to fetch balls directly from his own penalty area and then march forwards.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "In many cases, Madrid then played in a clearer 3-2-4-1/3-2-2-3 formation, which helped Puskás",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Set up in a W-M formation, there was nothing particularly special about Madrid tactically – they were a basic passing team that weren’t even particularly good at winning the ball back",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "In this match, Real Madridâs average was 48.86 metres; Frankfurtâs 50.93.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "There were very few passing moves built up patiently from deeper areas. Real Madrid elaborated a little more inside their defensive third, but both teams mainly sought to quickly get the ball forward into the attacking half.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Somewhere in the stands a boy named Alex cries with joy.",
+      "verified": false,
+      "note": "Describes a circulation sequence in the 1960 final (Zárraga diagonal, Gento, Vidal, del Sol, Di Stéfano; 'gorgeous circulation'); evidence line only partial and kept unverified."
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Real Madrid completed just 69% of their passes; Frankfurt only 61%.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "those completion rates feel more like a consequence of the directness with which both teams played. This is the textbook example of a back and forth shot-fest.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "When playing behind the strikers he sought supporting positions in the (then, of course, unstructured) pressing, put the opponent under pressure very dynamically with his physical presence",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "they were a basic passing team that weren’t even particularly good at winning the ball back",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "In an era of man-marking schemes, it was interesting to note just how disruptive his peeled runs into the right channel proved for the Madrid defence.",
+      "verified": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Behind them Jose Maria Zarrago in midfield and Jose Emilio Santamaria in defence would offer uncompromising defensive steel.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "In defensive transitions he tracked back with extreme presence and covered a lot of ground.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Upon gaining possession, both teams moved forward at a faster rate than modern-day teams, and the final shot count of 42 was 13 more than the tally in the 2018-19 final",
+      "verified": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Puskás added the fourth Madrid goal from the penalty spot and five minutes later completed his hat-trick with a rare header, the cross supplied by Paco Gento.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "23 minutes: A cross from Paco Gento into the left side of the box. Di Stéfano is in the penalty area but surrounded by two players, one of the defenders clears it.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "The third came from a kickoff. After exchanges with Gento and Del Sol, he accelerated through the centre of the pitch before firing home a crisp effort into the corner from outside the area.",
+      "verified": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "After 18 minutes, Frankfurt took the lead and almost made it 2-0 when they hit they hit the bar. The Spanish giants looked bewildered. Then Di Stéfano started to dominate proceedings.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Thus, a short break was abruptly introduced into the game; all previous free-runs or coverage movements could be completely reorganized. The cards were, in a way, redealt.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Las cinco Copas de Europa de Di Stefano (realmadrid.com)",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/las-cinco-copas-de-europa-de-di-stefano",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-07-07",
+      "eventDate": "1956/57",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "La vuelta en Old Trafford estuvo protagonizada por el ruido infernal que llegaba desde las gradas. El Madrid se sobrepuso al ambiente hostil y pasó la eliminatoria.",
+      "verified": true
+    },
+    {
+      "title": "Las cinco Copas de Europa de Di Stefano (realmadrid.com)",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/las-cinco-copas-de-europa-de-di-stefano",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-07-07",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "El Rapid de Viena fue un duro rival en la primera ronda, y estuvo a punto de eliminarlo de la competición. Un acrobático gol de Di Stéfano en el encuentro de vuelta en Austria sirvió para forzar un tercer partido de desempate.",
+      "verified": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "operating in the role of a deep-lying centre-forward, he was extremely effective. As the doyen of football correspondents Brian Glanville noted, “to his strength, stamina and electric change of pace, Di Stéfano added superb ball control.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "In Luis del Sol, an inside forward of energy and class, he had a key accomplice. They exchanged more passes than any other pair of players.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "nominally the inside left but more often than not Madridâs most advanced player.",
+      "verified": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Paco Gento would mix blistering pace with technical brillianceÂ on the left, while Luis Del Sol wasn’t quite as quick but would run much harder",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Santiago Bernabéu was desperate to add Puskás to his 1950s version of the Galácticos, seeing him as the ideal partner for Di Stéfano now that Kopa had returned to France. Despite opposition from other board members, he signed him prior to the start of the 1958/59 season",
+      "verified": true
+    },
+    {
+      "title": "1959-60 Real Madrid CF season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Real_Madrid_CF_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-02",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "During the summer French playmaker Raymond Kopa returned to Just Fontaine's Stade de Reims after three successful campaigns at Chamartín.",
+      "verified": true
+    },
+    {
+      "title": "1959-60 Real Madrid CF season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Real_Madrid_CF_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-02",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "the club hired a new manager, former Brazilian tournament winner Manuel Fleitas Solich[2] from Flamengo and transferred in the club's first ever black player Brazilian World Cup winner midfielder Didí[3] (who only played 19 matches and abandoned the team in January). Also, from América-RJ, came Brazilian midfielder Canário[4] and in April arrived from Real Betis youngstar Luis del Sol",
+      "verified": true
+    },
+    {
+      "title": "Las cinco Copas de Europa de Di Stefano (realmadrid.com)",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/las-cinco-copas-de-europa-de-di-stefano",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-07-07",
+      "eventDate": "1955-09-08",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "El Real Madrid y Di Stéfano debutaron en Copa de Europa el 8 de septiembre de 1955. Lo hicieron en Ginebra, contra el Servette, y ganaron 0-2.",
+      "verified": true
+    },
+    {
+      "title": "In celebration of Miguel Muñoz, Real Madrid's greatest manager (These Football Times)",
+      "url": "https://thesefootballtimes.co/2017/12/01/in-celebration-of-miguel-munoz-real-madrids-greatest-manager/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-12-01",
+      "eventDate": "1959-02",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "In February 1959, Muñoz took charge of the first team for a spell after Luis Carniglia fell ill. In April 1960, Muñoz took charge once again after Fleitas Solich was sacked.",
+      "verified": true
+    },
+    {
+      "title": "In celebration of Miguel Muñoz, Real Madrid's greatest manager (These Football Times)",
+      "url": "https://thesefootballtimes.co/2017/12/01/in-celebration-of-miguel-munoz-real-madrid-greatest-manager/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-12-01",
+      "eventDate": "1960-04",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "During their golden age between 1955 and 1960, they went through seven coaches. Then, in 1960, former club captain and reserve coach Miguel Muñoz took charge of Los Blancos.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Muñoz: The Man Who Told Alfredo Di Stefano to F*ck Off (SI/90min)",
+      "url": "https://www.si.com/soccer/2019/07/25/miguel-munoz-man-who-told-alfredo-di-stefano-fck-led-ye-yes-european-glory",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-07-25",
+      "eventDate": "1959",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "manager Luis Carniglia was sacked (in part for leaving Puskas out of the starting lineup in the final) and, after a brief interlude underÂ Manuel Fleitas Solich,Â back came MuÃ±oz to lead his former teammates from the bench.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Luis Carniglia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Luis_Carniglia",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-06",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Carniglia did not have a high opinion of Puskás when he arrived, as he had not played professionally in over a year and was considerably over weight. Carniglia whipped him into shape with Puskás losing 15 kg before his first La Liga game against Oviedo.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Puskás proved to be the perfect foil for Di Stéfano but more importantly he was happy for his partner to be considered the star of the team. In the final game of his first season, he and Di Stéfano were level as the top scorers in LaLiga. Puskás rounded the goalkeeper but instead of scoring, passed the ball across an open goal for his partner to bury it into the empty net.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1959-60 Real Madrid CF season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Real_Madrid_CF_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-02",
+      "eventDate": "1960-04-11",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "After the squad lost the league title mathematically in round 29, Fleitas was fired. Then, former club player Miguel Muñoz took the head coach job in time for the semi-finals and final of the European Cup",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“The great thing about Di Stéfano was that when he was on your team you had two players at any position” – Miguel Muñoz",
+      "verified": false,
+      "note": "Undated quote by Muñoz (a player in the period), no primary source; cannot be placed inside the period."
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "He stated, “I think nothing of popping up at centre-half or full-back to cover a colleague who has to leave his position.”",
+      "verified": false,
+      "note": "Undated, no primary source; Di Stéfano was a player, not coach."
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Defender Pachin said “there never has been anybody who can be compared with Don Alfredo.",
+      "verified": false,
+      "note": "Retrospective interview of a player, undated."
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "The great thing about Di Stéfano was that when he was on your team you had two players at any position",
+      "date": "2014-09-10",
+      "source": "Miguel Muñoz, quoted in Spielverlagerung, https://spielverlagerung.com/?p=212 (date = article date; original date of the remark not found)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I think nothing of popping up at centre-half or full-back to cover a colleague who has to leave his position.",
+      "date": "2018-08-27",
+      "source": "Alfredo Di Stéfano, quoted in These Football Times 2018-08-27 (date = article date; original date not found)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Muñoz told me to fuck off and they kicked me out of the club because I told him to fuck off back.",
+      "date": "1964",
+      "source": "Di Stéfano on Muñoz, via Sid Lowe's Fear and Loathing in La Liga, quoted in These Football Times 2017-12-01",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d7ff5480c22-d63d36f4632d-1000--the-greatest-teams-of-all-time-real-madrid-1956-60",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://uefa.com/uefachampionsleague/news/0253-0d7b1dc17e3e-c896eaba1732-1000--1959-60-dazzling-madrid-crush-frankfurt",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://beyondthelastman.com/2014/08/05/real-madrids-galactico-lesson-from-history-1958/",
+      "reason": "403"
+    },
+    {
+      "url": "https://gameofthepeople.com/2019/08/07/europes-champions-1957-58-real-madrid/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.realmadrid.com/StaticFiles/RealMadrid/landings/copas-de-europa-ganadas/quinta-copa-de-europa.html",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.manutd.com/en/news/detail/sir-alex-ferguson-and-paddy-crerand-share-memories-of-1960-real-madrid-team",
+      "reason": "empty"
+    }
+  ],
+  "influences": [],
+  "gaps": {
+    "dimensions": [
+      "stated-view"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good tier A-B coverage of the 1960 final (StatsBomb data, Spielverlagerung, These Football Times) and of the 1959-60 coaching changes, but 1955/56-1957/58 are almost uncovered tactically, the team's marking scheme and set-pieces have no real source, stated views are undated attributions, and nearly all tactical sources are retrospective."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+2. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+3. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+4. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+5. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+2. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+3. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+4. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+5. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+2. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+3. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+4. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+5. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+2. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+3. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+4. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+5. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+2. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+3. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+4. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+5. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+2. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+3. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+4. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+5. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+2. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+3. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+4. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+5. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+2. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+3. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+4. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+5. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+2. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+3. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+4. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+5. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+2. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+3. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+4. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+5. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+2. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+3. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+4. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+5. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+2. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+3. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+4. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.
+5. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time
