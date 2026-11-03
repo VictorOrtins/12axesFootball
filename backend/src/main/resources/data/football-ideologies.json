@@ -61,5 +61,77 @@
     "phrase": "Quero um time técnico, de drible e passe curto, que tenha a sua própria identidade.",
     "teamId": "river-plate-1941-47",
     "managerId": "renato-cesarini"
+  },
+  {
+    "id": "total-football",
+    "name": "Futebol total",
+    "category": "Pressão e intensidade",
+    "description": "Escola holandesa dos anos 1960 e 70: todos atacam e todos defendem, os jogadores trocam de posição, o time pressiona alto e ocupa o espaço de forma coletiva.",
+    "phrase": "Quero um time que pressiona alto e em que os jogadores troquem de posição, de modo que todos ataquem e todos defendam.",
+    "teamId": "ajax-1971-73",
+    "managerId": "rinus-michels"
+  },
+  {
+    "id": "catenaccio",
+    "name": "Catenaccio",
+    "category": "Defensiva e reativa",
+    "description": "Sistema defensivo italiano dos anos 1950 e 60: um líbero atrás de marcadores individuais, defesa funda e contra-ataque rápido, com foco no resultado.",
+    "phrase": "Quero defender fundo, com marcação individual e um líbero atrás, e vencer no contra-ataque.",
+    "teamId": "inter-1963-65",
+    "managerId": "helenio-herrera"
+  },
+  {
+    "id": "gegenpressing",
+    "name": "Gegenpressing",
+    "category": "Pressão e intensidade",
+    "description": "Pressão logo após a perda da bola, desenvolvida na Alemanha por Rangnick, Klopp e outros: recuperar a bola perto do gol adversário e atacar antes de a defesa se organizar.",
+    "phrase": "Quero que o time pressione assim que perder a bola, para recuperá-la perto do gol adversário e atacar rápido.",
+    "teamId": "dortmund-2010-13",
+    "managerId": "jurgen-klopp"
+  },
+  {
+    "id": "soviet-scientific-football",
+    "name": "Futebol científico soviético",
+    "category": "Pressão e intensidade",
+    "description": "Escola soviética de Maslov e Lobanovskyi: pressão sistemática, preparação física e análise de dados, com jogo coletivo em zona e o sistema acima dos nomes.",
+    "phrase": "Quero um time que pressiona de forma sistemática, treina com ciência e joga em zona, com o sistema acima dos nomes.",
+    "teamId": "dynamo-kyiv-1985-86",
+    "managerId": "valeriy-lobanovskyi"
+  },
+  {
+    "id": "cruyffism",
+    "name": "Cruyffismo",
+    "category": "Posse e estrutura",
+    "description": "Filosofia de Johan Cruyff no Barcelona: ataque, a bola como defesa, jogo de posição e formação de jogadores na base, com o time dominando o jogo.",
+    "phrase": "Quero um time que ataque sempre, use a bola como defesa e seja formado na base, com jogo de posição.",
+    "teamId": "barcelona-1990-94",
+    "managerId": "johan-cruyff"
+  },
+  {
+    "id": "tiki-taka",
+    "name": "Tiki-taka",
+    "category": "Posse e estrutura",
+    "description": "Nome popular do futebol espanhol de passes curtos e posse paciente da Espanha e do Barcelona de 2008 a 2012; Guardiola rejeitou o termo, e há quem o trate como outro nome para o jogo de posição.",
+    "phrase": "Quero um time técnico que troque passes curtos e domine a posse de bola com paciência.",
+    "teamId": "spain-2008-12",
+    "managerId": "vicente-del-bosque"
+  },
+  {
+    "id": "bielsismo",
+    "name": "Bielsismo",
+    "category": "Pressão e intensidade",
+    "description": "Estilo de Marcelo Bielsa e seus seguidores, como Sampaoli: marcação individual por todo o campo, pressão alta, ataques verticais e treino muito intenso.",
+    "phrase": "Quero marcação individual por todo o campo, pressão alta e ataques verticais, com treino muito intenso.",
+    "teamId": "chile-2015-16",
+    "managerId": "marcelo-bielsa"
+  },
+  {
+    "id": "positional-play",
+    "name": "Jogo de posição",
+    "category": "Posse e estrutura",
+    "description": "Modelo de jogo em que o time ocupa zonas do campo com espaçamento definido, busca superioridade entre linhas e usa o terceiro homem; associado a Cruyff, Van Gaal, Lillo e Guardiola.",
+    "phrase": "Quero um time organizado por zonas, com espaçamento definido e superioridade entre as linhas, que domine a posse.",
+    "teamId": "manchester-city-2017-18",
+    "managerId": "pep-guardiola"
   }
 ]
