@@ -57,6 +57,15 @@ After writing the file, reply only with "OK {catalog}:{id}" and a 1-line summary
 === QUESTIONS BY AXIS ===
 """
 
+IGNORED_SPELLS = {
+    "marcelo-gallardo": "River Plate second spell (August 2024 to 2026-02-26): every fact, quote and openQuestion dated 2024-08 or later, including the 2025 zonal set-piece marking and the Copa Argentina man-to-man switch",
+    "xabi-alonso": "Real Madrid spell (2025-06-01 to 2026-01-12): every fact, quote and openQuestion dated 2025-06 or later, including the 2025/26 Opta pressing and build-up figures",
+}
+IGNORED_NOTE = (
+    "\nDISREGARD the {spell}: it is in the research file but must not shape any answer. Ignore its facts "
+    "(eventDate in that spell) and its statedView quotes, and judge only the other counted spells.\n"
+)
+
 GAPS_NONE = "\nEvery axis has at least one verified fact (gaps.axes is empty).\n"
 GAPS_SOME = (
     "\nAxes WITHOUT verified evidence (gaps.axes): {axes}. Your answers there come from general knowledge of "
@@ -129,7 +138,8 @@ def build_prompt(catalog, pid, research):
     header = HEADER.format(
         name=research["name"], catalog=catalog, id=pid,
         subject=SUBJECT[catalog].format(name=research["name"]),
-        gaps=GAPS_SOME.format(axes=", ".join(gaps)) if gaps else GAPS_NONE,
+        gaps=(GAPS_SOME.format(axes=", ".join(gaps)) if gaps else GAPS_NONE)
+        + (IGNORED_NOTE.format(spell=IGNORED_SPELLS[pid]) if pid in IGNORED_SPELLS else ""),
         out_path=out_path, format_lines=format_lines(axes),
         max_n=int(len(load("questions-pool.json")) * MAX_N_TOTAL),
         research=json.dumps(research, ensure_ascii=False, indent=2),

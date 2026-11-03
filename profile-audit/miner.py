@@ -100,7 +100,7 @@ def fetch(url):
         return None, "403"
     if r.status_code >= 400:
         return None, "not-accessible"
-    return r.text, None
+    return r.content, None
 
 
 def extract(html):
