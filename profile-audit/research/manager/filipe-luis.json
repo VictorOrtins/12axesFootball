@@ -1,0 +1,755 @@
+{
+ "id": "filipe-luis",
+ "catalog": "manager",
+ "name": "Filipe Luís",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2024-09-30",
+  "end": "2026-03-03"
+ },
+ "scopeNote": "Proposed counted spell: Flamengo first team, interim named 30 Sep 2024 (Soccerway BR; Trivela and Beinsports date the confirmation to 1 Oct 2024, first match 2 Oct vs Corinthians) to 3 Mar 2026 (sacked after the 8-0 vs Madureira); 101 matches (63W 23D 15L, Itatiaia). Style term used by sources: Jogo de Posição / positional play with high pressing and perde-pressiona (PPP), narrow 4-2-3-1 / 4-4-2 with 3-2 build-up; Simeone influence is declared by him, but sources describe a possession team, not a counter-attacking Simeone side (morning-foot, TFA). Youth spells (U17/U20, Jan-Sep 2024) and Monaco (appointed 6 Jul 2026, ongoing as of Nov 2026) are not counted. Tactical coverage is mostly the 2025 season; 2024 and early 2026 are thinner. Most tactical sources are tier B blogs/analysis; Coaches' Voice, These Football Times, Zonal Marking and StatsBomb returned nothing. Youth spell dates (Jan 2024 to Sep 2024) are partial: exact days not found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Start date: Soccerway says he took over on 30 Sep 2024 as interim and was confirmed the next day; Trivela/Beinsports date it 1 Oct 2024. Confirm which counts.",
+  "Monaco spell (appointed 2026-07-06, contract to June 2028, still in post per searches but no status source dated Nov 2026) is excluded for lack of match-level tactical coverage; revisit once analyses exist.",
+  "No source found on Flamengo's own marking scheme (zonal vs man); sources only say opponents (Palmeiras in the Libertadores final) used individual marking.",
+  "Set pieces: no tier A-B coverage found.",
+  "Dismissal reasons are contested (results vs board/football director José Boto decision, Trivela 'controversa').",
+  "Sports Mole, Soccerway, Itatiaia and Lance are tier C; stats cited by clubs differ (AS Monaco: 62-21-16 over two seasons vs Itatiaia 63-23-15 in 101 games)."
+ ],
+ "sources": [
+  {
+   "title": "Filipe Luís Tactics At Flamengo 2025 (Total Football Analysis)",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/filipe-luis-flamengo-2025-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "It’s typical to find Filipe Luís’ side in an extremely narrow shape",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís Tactics At Flamengo 2025 (Total Football Analysis)",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/filipe-luis-flamengo-2025-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Their final third attacks can be summarised by their narrow structure, with width provided by a player who will assume that role on the ball-near side when required",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís Tactics At Flamengo 2025 (Total Football Analysis)",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/filipe-luis-flamengo-2025-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Filipe Luís’ side has been imposing across all phases of play, in and out of possession.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís Tactics At Flamengo 2025 (Total Football Analysis)",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/filipe-luis-flamengo-2025-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "We’ll examine Flamengo’s narrow shape, fluid zone occupation, frequent positional rotations, quick short passing play, and devastating runs from deep",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís Tactics At Flamengo 2025 (Total Football Analysis)",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/filipe-luis-flamengo-2025-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Flamengo’s shape in the chance creation phase is adaptive, changing based on context, and requires a lot of intelligence from the players",
+   "verified": true
+  },
+  {
+   "title": "Antes do Mundial, Flamengo desbanca europeus (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-06-09",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Uma das principais características e virtudes do trabalho de Filipe Luís nesse seu início de carreira como técnico é a pressão alta.",
+   "verified": true
+  },
+  {
+   "title": "Antes do Mundial, Flamengo desbanca europeus (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-06-09",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Prova disso é o levantamento recente feito pelo Centro Internacional de Estudos dos Esportes (CIES). Com o Mais Querido no topo do ranking",
+   "verified": true
+  },
+  {
+   "title": "Antes do Mundial, Flamengo desbanca europeus (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-06-09",
+   "eventDate": "2025-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "tem a fase defensiva que são quatro fases, que é o tiro de meta, a pressão alta, o bloco médio e o bloco baixo",
+   "verified": true
+  },
+  {
+   "title": "Antes do Mundial, Flamengo desbanca europeus (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-06-09",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Após perder Bruno Henrique por expulsão em jogo contra o Corinthians no ano passado (pela Copa do Brasil), Filipe ajustou a formação para uma linha de cinco defensores e outra linha de quatro no meio.",
+   "verified": true
+  },
+  {
+   "title": "Antes do Mundial, Flamengo desbanca europeus (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-06-09",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Se as coisas não dão certo e/ou exigem mudanças, ele não titubeia ao voltar atrás em suas convicções.",
+   "verified": true
+  },
+  {
+   "title": "Antes do Mundial, Flamengo desbanca europeus (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-06-09",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "A ideia de evitar utilizar Pedro e Arrascaeta juntos é um exemplo de tal premissa. Geralmente joga um ou outro.",
+   "verified": true
+  },
+  {
+   "title": "O que esperar de Filipe Luís no Flamengo? (Trivela)",
+   "url": "https://trivela.com.br/brasil/filipe-luis-flamengo-estilo-novo-treinador/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-10-01",
+   "eventDate": "2024-10-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Ele quer concretizar o esquema com uma pressão alta no campo de ataque, buscando recuperar a posse de bola rapidamente.",
+   "verified": true
+  },
+  {
+   "title": "O que esperar de Filipe Luís no Flamengo? (Trivela)",
+   "url": "https://trivela.com.br/brasil/filipe-luis-flamengo-estilo-novo-treinador/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-10-01",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Filipe Luís também adotou um esquema com dois externos bem abertos no corredor, característicos de um jogo posicional.",
+   "verified": true
+  },
+  {
+   "title": "O que esperar de Filipe Luís no Flamengo? (Trivela)",
+   "url": "https://trivela.com.br/brasil/filipe-luis-flamengo-estilo-novo-treinador/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-10-01",
+   "eventDate": "2024-10-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "O ex-jogador chega ao time de cima com quatro nomes para a comissão técnica: Ivan Palanco, Márcio Torres e Daniel Alegria (auxiliares), além de Diogo Linhares, preparador físico. Todos trabalharam com Filipe Luís em categorias inferiores do Flamengo.",
+   "verified": true
+  },
+  {
+   "title": "Por que o Flamengo vai romper com ideias de Filipe Luís (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-contramao-filipe-luis-leonardo-jardim-estilos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-03-03",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "volantes com muita qualidade no passe que descem entre os zagueiros para criar um 3-2 na saída de bola.",
+   "verified": true
+  },
+  {
+   "title": "Por que o Flamengo vai romper com ideias de Filipe Luís (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-contramao-filipe-luis-leonardo-jardim-estilos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-03-03",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Se tornou um time que mexe no posicionamento da defesa adversária com atacantes móveis e pontas que se aproximam da bola, criando superioridade numérica.",
+   "verified": true
+  },
+  {
+   "title": "Por que o Flamengo vai romper com ideias de Filipe Luís (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-contramao-filipe-luis-leonardo-jardim-estilos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-03-03",
+   "eventDate": "2025-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Das que mais pressionam, defendem alto e tentam controlar o jogo com a posse de bola.",
+   "verified": true
+  },
+  {
+   "title": "Por que o Flamengo vai romper com ideias de Filipe Luís (Trivela)",
+   "url": "https://trivela.com.br/brasil/flamengo-contramao-filipe-luis-leonardo-jardim-estilos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-03-03",
+   "eventDate": "2026-03-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Rubro-Negro faria troca brusca de estilo e deixaria ainda mais dúvidas sobre decisão controversa de demitir ex-lateral",
+   "verified": false
+  },
+  {
+   "title": "Filipe Luís: como os adversários tentaram miná-lo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-virou-estudo-de-caso-e-inspira-teses-sobre-como-derrota-lo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-10-02",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "No primeiro turno, o Cruzeiro venceu o Flamengo apostando em uma das virtudes dos times de Leonardo Jardim: a transição em altíssima velocidade.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís: como os adversários tentaram miná-lo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-virou-estudo-de-caso-e-inspira-teses-sobre-como-derrota-lo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-10-02",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Usou e abusou das bolas longas nas costas dos volantes e em cima da dupla de zaga formada por Léo Ortiz e Léo Pereira. O Flamengo tinha dificuldade para ganhar a primeira bola pelo alto.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís: como os adversários tentaram miná-lo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-virou-estudo-de-caso-e-inspira-teses-sobre-como-derrota-lo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-10-02",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "O Mirassol foi ousado no Maracanã. A sensação do Campeonato Brasileiro se propôs a disputar a posse da bola com o Flamengo durante o jogo inteiro.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís: como os adversários tentaram miná-lo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-virou-estudo-de-caso-e-inspira-teses-sobre-como-derrota-lo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-10-02",
+   "eventDate": "2025-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "O Bayern de Munique sufocou a saída de bola do Flamengo como se estivesse fazendo uma malhação intermitente.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís: como os adversários tentaram miná-lo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-virou-estudo-de-caso-e-inspira-teses-sobre-como-derrota-lo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2025-10-02",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Filipe Luís deixou escapar pelo menos duas características de jogo que o incomodam. Um deles é a utilização de uma linha defensiva com cinco homens.",
+   "verified": true
+  },
+  {
+   "title": "Como a ingenuidade de Filipe Luís virou arma (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-ingenuidade-de-filipe-luis-virou-arma-contra-o-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-02-20",
+   "eventDate": "2026-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Sem espaço, o time carioca ostentou 65% de posse de bola, mas errava passes, não conseguia conexões, frustrava-se e entregava o que os anfitriões desejavam: transições, contra-ataques",
+   "verified": true
+  },
+  {
+   "title": "Como a ingenuidade de Filipe Luís virou arma (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-ingenuidade-de-filipe-luis-virou-arma-contra-o-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-02-20",
+   "eventDate": "2026-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Filipe Luís deu armas para os inimigos e perdeu o jogo por falar demais em momentos que demandam silêncio.",
+   "verified": true
+  },
+  {
+   "title": "Como a ingenuidade de Filipe Luís virou arma (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-ingenuidade-de-filipe-luis-virou-arma-contra-o-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2026-02-20",
+   "eventDate": "2026-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Dos nove jogos em 2026 com o elenco profissional, o Flamengo só não foi vazado pelo Vasco na vitória por 1 x 0.",
+   "verified": true
+  },
+  {
+   "title": "Como Filipe Luís espelhou tática do Galo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-filipe-luis-espelhou-tatica-do-galo-e-construiu-vantagem-do-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-11-03",
+   "eventDate": "2024-11-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Gabriel Milito não abre mão do formato 3-4-3 [...] O que fez Filipe Luís? Formatou o Flamengo em um falso 3-4-3. Em tese, parecia 4-2-3-1. Na prática, o lateral-esquerdo Alex Sandro alinhava com Léo Ortiz e Léo Pereira na zaga.",
+   "verified": true
+  },
+  {
+   "title": "Como Filipe Luís espelhou tática do Galo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-filipe-luis-espelhou-tatica-do-galo-e-construiu-vantagem-do-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-11-03",
+   "eventDate": "2024-11-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Filipe Luís venceu o debate de ideias contra Gabriel Milito no primeiro tempo desse domingo, no Maracanã, ao espelhar o sistema tático do Atlético.",
+   "verified": true
+  },
+  {
+   "title": "Como Filipe Luís espelhou tática do Galo (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-filipe-luis-espelhou-tatica-do-galo-e-construiu-vantagem-do-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-11-03",
+   "eventDate": "2024-11-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "A intensidade do Flamengo tem caído muito na etapa final. Foi assim contra o Internacional no segundo tempo de quarta-feira.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís impõe estilo, buga Corinthians (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-impoe-estilo-buga-corinthians-mas-flamengo-nao-mata-serie/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-10-03",
+   "eventDate": "2024-10-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Jorge Jesus, uma das referências de Filipe Luís, escalava o time no 4-1-3-2. O ex-lateral tentou emular o sistema.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís impõe estilo, buga Corinthians (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-impoe-estilo-buga-corinthians-mas-flamengo-nao-mata-serie/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-10-03",
+   "eventDate": "2024-10-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "chamou a atenção também uma espécie de pressão intermitente no campo de ataque. O Flamengo avançava para fazer o perde-pressiona, recuava a linha defensiva para descansar e novamente subia a marcação.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís impõe estilo, buga Corinthians (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-impoe-estilo-buga-corinthians-mas-flamengo-nao-mata-serie/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-10-03",
+   "eventDate": "2024-11-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "O técnico não gosta do atacante recuando para buscar jogo. Prefere vê-lo perto da área atacando espaço.",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores: What explains Filipe Luis's meteoric rise (Sports Mole)",
+   "url": "https://www.sportsmole.co.uk/football/flamengo/news/what-explains-filipe-luis-meteoric-rise-as-a-manager-after-libertadores-triumph_586849.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "2025-11-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "a team that exceeded 70% of ball possession during the game, defended with the ball, pressed hard and, when they needed to drop the lines, prevented the rivals' creation",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores: What explains Filipe Luis's meteoric rise (Sports Mole)",
+   "url": "https://www.sportsmole.co.uk/football/flamengo/news/what-explains-filipe-luis-meteoric-rise-as-a-manager-after-libertadores-triumph_586849.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "2025-11-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "In addition to Jorginho and Pulgar dropping between the defenders to create a 3v2 on the ball.",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores: What explains Filipe Luis's meteoric rise (Sports Mole)",
+   "url": "https://www.sportsmole.co.uk/football/flamengo/news/what-explains-filipe-luis-meteoric-rise-as-a-manager-after-libertadores-triumph_586849.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "2025-11-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "In the final against Palmeiras, he managed to create opportunities by dragging the markers who spent practically the entire game under individual pressure.",
+   "verified": true
+  },
+  {
+   "title": "FlashFocus: Flamengo de Filipe Luís (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-flashfocus-como-o-flamengo-de-filipe-luis-tem-mais-titulos-do-que-derrotas/nyNfBp9d",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-04-19",
+   "eventDate": "2025-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Filipe Luís implantou um sistema de jogo flexível em seu time, atuando principalmente no esquema 4-2-3-1 ou com um 4-4-2 que tem a dupla de ataque bastante fluida.",
+   "verified": true
+  },
+  {
+   "title": "FlashFocus: Flamengo de Filipe Luís (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-flashfocus-como-o-flamengo-de-filipe-luis-tem-mais-titulos-do-que-derrotas/nyNfBp9d",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-04-19",
+   "eventDate": "2025-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "O Flamengo ataca rápido, pressiona alto, domina o meio-campo e é extremamente eficiente pelas laterais.",
+   "verified": true
+  },
+  {
+   "title": "FlashFocus: Flamengo de Filipe Luís (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-flashfocus-como-o-flamengo-de-filipe-luis-tem-mais-titulos-do-que-derrotas/nyNfBp9d",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-04-19",
+   "eventDate": "2025-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "A habilidade em lidar com as estrelas do plantel também é um segredo de seu meteórico sucesso.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís sobre rodízio do Flamengo no Carioca (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-carioca-filipe-luis-sobre-rodizio-do-flamengo-no-carioca-se-isso-custar-o-meu-trabalho-azar/AqaBPWkd",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-02-09",
+   "eventDate": "2025-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Eu não vou dar sequência de quatro, cinco jogos para os jogadores agora no começo do ano, porque eu quero que eles façam essa curva e estejam no ápice da performance no começo do Brasileiro.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís sobre rodízio do Flamengo no Carioca (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-carioca-filipe-luis-sobre-rodizio-do-flamengo-no-carioca-se-isso-custar-o-meu-trabalho-azar/AqaBPWkd",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-02-09",
+   "eventDate": "2025-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Eu não vou dar sequência de quatro, cinco jogos para os jogadores agora no começo do ano",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís chega a 3 títulos (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-carioca-filipe-luis-chega-a-3-titulos-como-tecnico-do-fla-e-tem-mais-trofeus-que-derrotas/QJynWJOP",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-03-17",
+   "eventDate": "2025-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "O Flamengo sofreu duas derrotas no estadual deste ano, para Boavista e Nova Iguaçu, mas ambas foram com Cleber dos Santos. O técnico do sub-20 comandou o elenco alternativo nas rodadas iniciais do campeonato",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís mantém estilo de jogo para encarar o Chelsea (Lance)",
+   "url": "https://www.lance.com.br/mundial-de-clubes/filipe-luis-mantem-estilo-de-jogo-para-flamengo-encarar-o-chelsea.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025-06-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Nunca, jamais iria mudar o meu time de jogo por causa de um adversário. Seria, completamente e absolutamente, na minha visão e opinião, errado para os jogadores.",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís mantém estilo de jogo para encarar o Chelsea (Lance)",
+   "url": "https://www.lance.com.br/mundial-de-clubes/filipe-luis-mantem-estilo-de-jogo-para-flamengo-encarar-o-chelsea.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-06-19",
+   "eventDate": "2025-06-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "vamos ter que correr todo mundo, do jeito que a gente faz sempre, em todos os jogos [...] a única forma de você vencer jogos é com todos os 11 jogadores na mesma direção, com a mesma ideia",
+   "verified": true
+  },
+  {
+   "title": "Pitaco do Guffo: Gérson e Pulgar (Lance)",
+   "url": "https://www.lance.com.br/flamengo/gerson-e-pulgar-no-flamengo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-02-03",
+   "eventDate": "2025-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Pulgar pressiona a saída de bola do Volta Redonda no campo adversário e começa ali um contra-ataque que termina em finalização.",
+   "verified": true
+  },
+  {
+   "title": "Pitaco do Guffo: Gérson e Pulgar (Lance)",
+   "url": "https://www.lance.com.br/flamengo/gerson-e-pulgar-no-flamengo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-02-03",
+   "eventDate": "2025-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Gérson e Erick Pulgar representam o seu técnico dentro de campo",
+   "verified": true
+  },
+  {
+   "title": "O que piorou tanto no Flamengo de Filipe Luís (Goal Brasil)",
+   "url": "https://www.goal.com/br/listas/piorou-tanto-flamengo-filipe-luis-2025-para-2026/bltbe5ac57cd8971af3",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-02-20",
+   "eventDate": "2026-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Dominado do início ao fim pelo campeão da Sul-Americana, o Flamengo poderia ter saído goleado. Foram 17 finalizações sofridas contra apenas oito produzidas.",
+   "verified": true
+  },
+  {
+   "title": "O que piorou tanto no Flamengo de Filipe Luís (Goal Brasil)",
+   "url": "https://www.goal.com/br/listas/piorou-tanto-flamengo-filipe-luis-2025-para-2026/bltbe5ac57cd8971af3",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-02-20",
+   "eventDate": "2026-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "começou 2026 irreconhecível. Reforçado, mais caro e teoricamente mais forte, o elenco perdeu rumo, padrão tático e confiança sob o comando de Filipe Luís.",
+   "verified": true
+  },
+  {
+   "title": "Da novela à saída (Itatiaia)",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/flamengo/da-novela-a-saida-filipe-luis-vai-de-pilar-do-flamengo-a-demitido-em-64-dias/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-03-03",
+   "eventDate": "2026-03-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Distante das atuações seguras que levaram o Flamengo aos títulos da Libertadores e do Brasileirão [...] o Flamengo foi vice-campeão da Recopa Sul-Americana e da Supercopa do Brasil.",
+   "verified": true
+  },
+  {
+   "title": "Monaco : à quoi s'attendre avec Filipe Luis (Morning Foot)",
+   "url": "https://morning-foot.com/ligue-1/monaco/monaco-filipe-luis-style-jeu-projet/",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2026-07-18",
+   "eventDate": "2026-07-15",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "J’aime beaucoup attaquer, avoir la possession, que le porteur ait toujours des possibilités de passes quand on l’a, être dominant en fait (Monaco-era statement, outside counted spell; kept in statedView)",
+   "verified": false
+  },
+  {
+   "title": "Monaco : à quoi s'attendre avec Filipe Luis (Morning Foot)",
+   "url": "https://morning-foot.com/ligue-1/monaco/monaco-filipe-luis-style-jeu-projet/",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2026-07-18",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "la possession (93) et surtout la résistance au pressing (97) [...] Le jeu long (31) et la verticalité (58) ressortent en revanche nettement plus bas (Flamengo data, Data'Scout via L'Équipe; outside spell scoring only as data on Flamengo)",
+   "verified": true
+  },
+  {
+   "title": "Filipe Luís, o aprendiz de Simeone (Soccerway BR)",
+   "url": "https://br.soccerway.com/noticias/futebol-copa-do-mundo-de-clubes-fifa-filipe-luis-o-aprendiz-de-simeone-que-desafia-os-gigantes-europeus-na-copa-de-clubes/rPTrQCtg",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-06-16",
+   "eventDate": "2025-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Treinadores como Simeone e como Jorge (Jesus) foram os caras que me inspiraram [...] Há uma frase: 'só há um caminho no futebol, ganhar, ganhar e ganhar de novo'.",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores: What explains Filipe Luis's meteoric rise (Sports Mole)",
+   "url": "https://www.sportsmole.co.uk/football/flamengo/news/what-explains-filipe-luis-meteoric-rise-as-a-manager-after-libertadores-triumph_586849.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Rodrigo Caio, a defensive partner as a player, was also part of his coaching staff. By appointing Filipe, the Rubro-Negro created a \"homely\" and rarely healthy environment.",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores: What explains Filipe Luis's meteoric rise (Sports Mole)",
+   "url": "https://www.sportsmole.co.uk/football/flamengo/news/what-explains-filipe-luis-meteoric-rise-as-a-manager-after-libertadores-triumph_586849.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-12-01",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "He was a teammate of the vast majority of players before becoming a manager and knew a lot about the internal environment of the club.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Sempre pensei que o treinador tem que falar o menos possível, dar menos pistas possíveis. Mas o meu modelo de jogo é de propor sempre, sair jogando com a bola, posse no campo ofensivo e ataque ao espaço. É um jogo mais vertical neste ponto e baseado muito no último conceito, que é a pressão.",
+   "date": "2024-10-01",
+   "source": "https://trivela.com.br/brasil/filipe-luis-flamengo-estilo-novo-treinador/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "O que a gente olha é a pressão alta. Só que para mim o jogo é feito de fases, então tem a fase defensiva que são quatro fases, que é o tiro de meta, a pressão alta, o bloco médio e o bloco baixo.",
+   "date": "2025-05",
+   "source": "https://trivela.com.br/brasil/flamengo-filipe-luis-pressao-lider-ranking/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Nunca, jamais iria mudar o meu time de jogo por causa de um adversário.",
+   "date": "2025-06-19",
+   "source": "https://www.lance.com.br/mundial-de-clubes/filipe-luis-mantem-estilo-de-jogo-para-flamengo-encarar-o-chelsea.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Eu não vou dar sequência de quatro, cinco jogos para os jogadores agora no começo do ano",
+   "date": "2025-02-09",
+   "source": "https://br.soccerway.com/noticias/futebol-carioca-filipe-luis-sobre-rodizio-do-flamengo-no-carioca-se-isso-custar-o-meu-trabalho-azar/AqaBPWkd",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "O que eu reclamo? De jogo picotado. Isso não existe, nada me irrita mais no mundo que jogo picotado",
+   "date": "2025",
+   "source": "https://blogs.correiobraziliense.com.br/dribledecorpo/filipe-luis-virou-estudo-de-caso-e-inspira-teses-sobre-como-derrota-lo/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Vous pouvez beaucoup attaquer mais si vous prenez beaucoup de buts, ce ne sera pas bon. Je dis toujours qu’attaquer vous permet de gagner des matches, mais la défense permet de gagner des titres",
+   "date": "2026-07-15",
+   "source": "https://morning-foot.com/ligue-1/monaco/monaco-filipe-luis-style-jeu-projet/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Como entrenador, tengo conceptos tácticos de Simeone, y también de otros técnicos",
+   "date": "2025-11-28",
+   "source": "https://www.abc.com.py/deportes/futbol/libertadores/2025/11/28/filipe-luis-atribuye-su-exito-en-flamengo-a-la-influencia-del-cholo-simeone/",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://global.espn.com/football/story/_/id/48097228/why-did-flamengo-sack-their-coach-four-titles-year-8-0-win",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.lance.com.br/flamengo/filipe-luis-aponta-saida-jesus-como-determinante-para-eliminacoes-elogia-rogerio-ceni-completo.html",
+   "reason": "404"
+  },
+  {
+   "url": "https://betweentheposts.net/palmeiras-flamengo-filipe-luis-wins-the-libertadores-in-his-first-year-as-a-head-coach-0-1/",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Diego Simeone",
+  "Jorge Jesus",
+  "Domènec Torrent",
+  "Paulo Sousa",
+  "Luis Aragonés (quoted maxim)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Flamengo",
+   "start": "2024-09-30",
+   "end": "2026-03-03",
+   "reason": "Proposed: 101 matches, 5 titles (2024 Copa do Brasil, 2025 Supercopa, Carioca, Brasileirão, Libertadores), tier B tactical coverage; Monaco later job. Start date to confirm (1 Oct 2024 in some sources)."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Flamengo U17/U20",
+   "start": "2024-01",
+   "end": "2024-09",
+   "reason": "Youth teams, not first team; only 37 games and no tier A-B tactical coverage beyond a Trivela note."
+  },
+  {
+   "club": "AS Monaco",
+   "start": "2026-07-06",
+   "end": "ongoing",
+   "reason": "Appointed 6 Jul 2026 (club release), contract to 2028; only preview articles, no match analysis found; counted work uncertain."
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "One counted spell of ~17 months mostly documented in 2025 by one tier B analysis (TFA), Trivela and a Correio Braziliense blog; no Coaches' Voice/StatsBomb/Zonal Marking; no marking-scheme or set-piece coverage; Monaco status post-July 2026 undocumented."
+ }
+}

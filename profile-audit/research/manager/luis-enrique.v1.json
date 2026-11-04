@@ -1,0 +1,1191 @@
+{
+ "id": "luis-enrique",
+ "catalog": "manager",
+ "name": "Luis Enrique Martínez",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2014-05-19",
+  "end": "ongoing"
+ },
+ "scopeNote": "Counted spells: Barcelona 2014-17 (2015 treble, MSN), Spain 2018-19 and 2019-22 (Euro 2020 semi-final, 2022 World Cup), PSG from 2023 (Champions League 2025 and 2026, still in post: contract extended to 2030 on 2026-09-04). Narrowed to spells with titles or tier A-B tactical coverage. Roma 2011-12 and Celta 2013-14 are context only. Style terms used by sources: juego de posición / positional play with a vertical edge (Coaches' Voice), 'a more direct approach' at Barcelona (Scotsman, 2016, Messi quoted: 'more vertical'), 'jeu de position 2.0' / 3-2-2-3 / 3-1-2-2-2-0 at PSG (Lefaucheux via CulturePSG). Popular label 'tiki-taka' does not fit his Barcelona per these sources. Marking: Barcelona changed set-piece defending from zonal to man (Bleacher Report 2014, tier C); PSG set pieces use a mixed zone (CulturePSG 2024); in open play PSG presses player-to-player against build-up (Coaches' Voice 2025 final) while Spain used a mid-block 4-1-4-1. Spain first spell dates: appointment 2018-07-09 (The Local, verified); the 2019 break and 2022 exit dates come from search summaries, not mined pages (see openQuestions). Barcelona exit date also unverified from a mined page. Excluded-spell dates are partial (months/years) because no day was needed for context-only spells; the podcast articleDate 2023 is approximate (page shows only fetch date).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Spain spell dates: appointment 2018-07-09 verified (thelocal.es). Stepped down 2019-06 (family/health, Robert Moreno interim) and returned 2019-11-19, and left 2022-12-08 (search result: ESPN says leaves post two days after Morocco loss; ESPN page was empty when mined). Barcelona last match 2017-05-27 / contract end 2017-06-30 and announcement 2017-03-01 are from memory, not mined.",
+  "Contested label: some press say Spain 'sacked' him in Dec 2022, others that he left at contract end.",
+  "Tactical coverage for Barcelona is mostly tier C (no Zonal Marking / Spielverlagerung page mined); Michael Cox/The Athletic and Zonal Marking pieces were not found in searches.",
+  "PSG 2025/26 and 2026/27 (current season to Nov 2026) have thin tier A-B coverage; TFA match breakdowns of PSG-Newcastle, PSG-Chelsea 2025/26 exist but were not mined.",
+  "Pressing at Barcelona in the 2015 treble: no tier A-B source mined states the press scheme (zonal vs man)."
+ ],
+ "sources": [
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "His favoured shape is a 4-3-3 (below), but he has also regularly experimented with a 3-4-3 and 3-4-2-1.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "His teams impress with their vertical and transitional play, as well as how well they keep the ball.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "The aim is always to try to use the goalkeeper playing out to create numerical superiority elsewhere on the pitch",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The press is led by the wingers, who press the outside shoulder of the opposing centre-backs",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "If the front line are unable to win the ball back high up the pitch, the team drops back into a compact 4-1-4-1 structure.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Orthodox wide forwards are used out wide rather than creative attacking midfielders who drift infield.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Once any initial press has been beaten, Enrique's teams look to progress forwards swiftly.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Enrique likes to be able to make changes during games without changing personnel.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Enrique used 43 different players in qualifying for the 2022 World Cup",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/luis-enrique-spain-barcelona/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-04-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Enrique selects players here who are good at dribbling directly towards goal at pace.",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Luis Enrique set Spain up into a 4-3-3 formation built on the midfield three of Sergio Busquets, Koke and Pedri.",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "defended with a 4-1-4-1, and mostly a mid-block",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "With Spain soon applying an even more aggressive press on the left, switches of play to Chiesa offered a suitable route forwards",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Spain's wide forwards remained high and wide, and Jorginho prioritised Pedri.",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "It was when Spain instead broke forwards that they advanced, and provided overlaps outside of Ferran Torres and Mikel Oyarzabal.",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "When Rodri came on to provide further defensive protection during moments of transition, and Gerard Moreno to support Morata, Spain's shape became a 4-2-3-1.",
+   "verified": true
+  },
+  {
+   "title": "Italy 1 Spain 1: Euro 2020 Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=45412",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-07",
+   "eventDate": "2021-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "partly did so because of the advanced positioning of their goalkeeper Unai Simón",
+   "verified": true
+  },
+  {
+   "title": "Euro 2020 - Tactics deep dive: Why intense press has Spain, Italy alive & France at home",
+   "url": "https://newswav.com/article/A2107_Vs7VBj",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-07-03",
+   "eventDate": "2021-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Spain are without question the most effective pressing team at Euro 2020.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2020 - Tactics deep dive: Why intense press has Spain, Italy alive & France at home",
+   "url": "https://newswav.com/article/A2107_Vs7VBj",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-07-03",
+   "eventDate": "2021-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Spain gained the upper hand by constantly swarming their opponents, at speed, whenever Croatia won possession.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique en estado puro: «No tenemos la piedra filosofal»",
+   "url": "https://www.menorca.info/deportes/mundial-qatar/2022/12/05/1841365/mundial-qatar-2022-luis-enrique-tenemos-piedra-filosofal.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-12-05",
+   "eventDate": "2022-12-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "El marcador dictamina los riesgos que quieres correr y España si va ganando, sigue atacando",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique en estado puro: «No tenemos la piedra filosofal»",
+   "url": "https://www.menorca.info/deportes/mundial-qatar/2022/12/05/1841365/mundial-qatar-2022-luis-enrique-tenemos-piedra-filosofal.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-12-05",
+   "eventDate": "2022-12-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "No significa dominar a todos los rivales todos los minutos por el nivel de otras selecciones.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique en estado puro: «No tenemos la piedra filosofal»",
+   "url": "https://www.menorca.info/deportes/mundial-qatar/2022/12/05/1841365/mundial-qatar-2022-luis-enrique-tenemos-piedra-filosofal.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-12-05",
+   "eventDate": "2022-12-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Tenemos muy clara la idea y no la vamos a cambiar.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique en estado puro: «No tenemos la piedra filosofal»",
+   "url": "https://www.menorca.info/deportes/mundial-qatar/2022/12/05/1841365/mundial-qatar-2022-luis-enrique-tenemos-piedra-filosofal.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-12-05",
+   "eventDate": "2022-12-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Luis Enrique está convencido de la respuesta de sus jugadores en la presión",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Right man, right time - Football España",
+   "url": "https://www.football-espana.net/2018/07/11/luis-enrique-right-man-right-time",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "critics of the former midfielder insist on his previous confrontations with several high-profile players, most notably Lionel Messi during his time at Barcelona and Francesco Totti at Roma",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: Right man, right time - Football España",
+   "url": "https://www.football-espana.net/2018/07/11/luis-enrique-right-man-right-time",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Enrique is a progressive coach who prefers more variation and flexibility in the team's style of play",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down How Luis Enrique Has Changed Barcelona Tactically",
+   "url": "https://bleacherreport.com/articles/2283669-breaking-down-how-luis-enrique-has-changed-barcelona-tactically",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-11-29",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Enrique has changed Barcelona’s zonal marking style of set piece defending for one that focuses on man defending.",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down How Luis Enrique Has Changed Barcelona Tactically",
+   "url": "https://bleacherreport.com/articles/2283669-breaking-down-how-luis-enrique-has-changed-barcelona-tactically",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-11-29",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Rarely will you see both full-backs up in attack at the same time",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down How Luis Enrique Has Changed Barcelona Tactically",
+   "url": "https://bleacherreport.com/articles/2283669-breaking-down-how-luis-enrique-has-changed-barcelona-tactically",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-11-29",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Barcelona may still be using the 4-3-3 formation, but it has started to look a lot like a 4-3-1-2 as games progress.",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down How Luis Enrique Has Changed Barcelona Tactically",
+   "url": "https://bleacherreport.com/articles/2283669-breaking-down-how-luis-enrique-has-changed-barcelona-tactically",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-11-29",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "under Enrique, he has returned to his days of dropping into the midfield and attacking from deep.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique changes Barcelona's style but substance remains",
+   "url": "https://www.scotsman.com/sport/football/luis-enrique-changes-barcelonas-style-substance-remains-1467591",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-09-10",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "favouring a more direct approach from his team, whose primary goal is getting the ball to their fabled front three",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique changes Barcelona's style but substance remains",
+   "url": "https://www.scotsman.com/sport/football/luis-enrique-changes-barcelonas-style-substance-remains-1467591",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-09-10",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "a well-documented falling out with Messi",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique changes Barcelona's style but substance remains",
+   "url": "https://www.scotsman.com/sport/football/luis-enrique-changes-barcelonas-style-substance-remains-1467591",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-09-10",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Over the summer, Barca made six signings",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique changes Barcelona's style but substance remains",
+   "url": "https://www.scotsman.com/sport/football/luis-enrique-changes-barcelonas-style-substance-remains-1467591",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-09-10",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "“evolution” was the word he used to describe the changes he would make",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: How the Iron Fist learned the art of diplomacy at Barcelona",
+   "url": "https://sportskeeda.com/football/luis-enrique-how-iron-fist-learned-art-diplomacy-barcelona",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-03-22",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "players fined for arriving a minute or two late for training sessions",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: How the Iron Fist learned the art of diplomacy at Barcelona",
+   "url": "https://sportskeeda.com/football/luis-enrique-how-iron-fist-learned-art-diplomacy-barcelona",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-03-22",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "relaxing his need for strict, unwavering discipline",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: How the Iron Fist learned the art of diplomacy at Barcelona",
+   "url": "https://sportskeeda.com/football/luis-enrique-how-iron-fist-learned-art-diplomacy-barcelona",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-03-22",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "he decided to let Cesc Fabregas go and brought in Ivan Rakitic",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique: How the Iron Fist learned the art of diplomacy at Barcelona",
+   "url": "https://sportskeeda.com/football/luis-enrique-how-iron-fist-learned-art-diplomacy-barcelona",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-03-22",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "What Enrique has been trying to inculcate is a measure of calm possession that transitions into moments of full-throttle attack.",
+   "verified": true
+  },
+  {
+   "title": "How Barcelona's tactics helped it beat Juventus in Champions League final",
+   "url": "https://www.si.com/soccer/2015/06/07/barcelona-juventus-champions-league-final-tactical-analysis",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-06-07",
+   "eventDate": "2015-06-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "keeping 61 percent possession throughout the match",
+   "verified": true
+  },
+  {
+   "title": "How Barcelona's tactics helped it beat Juventus in Champions League final",
+   "url": "https://www.si.com/soccer/2015/06/07/barcelona-juventus-champions-league-final-tactical-analysis",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-06-07",
+   "eventDate": "2015-06-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Barcelona's ability to cover passing lanes and quickly recover the ball",
+   "verified": true
+  },
+  {
+   "title": "How Barcelona's tactics helped it beat Juventus in Champions League final",
+   "url": "https://www.si.com/soccer/2015/06/07/barcelona-juventus-champions-league-final-tactical-analysis",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-06-07",
+   "eventDate": "2015-06-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Barcelona’s unchanged lineup set out in its traditional 4-3-3 system.",
+   "verified": true
+  },
+  {
+   "title": "How Barcelona's tactics helped it beat Juventus in Champions League final",
+   "url": "https://www.si.com/soccer/2015/06/07/barcelona-juventus-champions-league-final-tactical-analysis",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-06-07",
+   "eventDate": "2015-06-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "the fullbacks also provided width when the forwards tucked in",
+   "verified": true
+  },
+  {
+   "title": "Barcelona 3-1 Juventus: UEFA Champions League final tactical review",
+   "url": "https://playingfor90.com/2015/06/07/uefa-champions-league-final-tactical-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-07",
+   "eventDate": "2015-06-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Barca kept Juve humble, pressing against",
+   "verified": true
+  },
+  {
+   "title": "Barcelona 3-1 Juventus: UEFA Champions League final tactical review",
+   "url": "https://playingfor90.com/2015/06/07/uefa-champions-league-final-tactical-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-07",
+   "eventDate": "2015-06-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Despite nearly disastrous set piece that saw Barcelona counter five against three",
+   "verified": true
+  },
+  {
+   "title": "How PSG smashed Barca and what it means for Enrique",
+   "url": "https://web.archive.org/web/2/https://theworldgame.sbs.com.au/article/2017/02/15/how-psg-smashed-barca-and-what-it-means-enrique",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-02-15",
+   "eventDate": "2016-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Barca have struggled this season when pressed very high.",
+   "verified": true
+  },
+  {
+   "title": "How PSG smashed Barca and what it means for Enrique",
+   "url": "https://web.archive.org/web/2/https://theworldgame.sbs.com.au/article/2017/02/15/how-psg-smashed-barca-and-what-it-means-enrique",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-02-15",
+   "eventDate": "2016-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "There build up from the back was insipid.",
+   "verified": true
+  },
+  {
+   "title": "Quelle organisation tactique en défense pour ce PSG version Luis Enrique en 2023-2023 ? - Soccerway FR",
+   "url": "https://fr.soccerway.com/actualites/quelle-organisation-tactique-en-defense-pour-ce-psg-version-luis-enrique-en-2023-2023/CdjcfgRP",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2023-07-25",
+   "eventDate": "2023-07-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "l'animation a divulgué une idée de jeu tournée vers une défense à trois",
+   "verified": true
+  },
+  {
+   "title": "PSG : Luis Enrique's rotation strategy pays off - Ligue1.com",
+   "url": "https://web.archive.org/web/2/https://www.ligue1.com/Articles/News/2024/04/29/psg-luis-enrique-s-rotation-strategy-pays-off",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-04-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "deploying Vitinha in a deeper role to gradually integrating Bradley Barcola on the left flank",
+   "verified": true
+  },
+  {
+   "title": "Les coups de pied arrêtés du PSG travaillés... un peu - CulturePSG",
+   "url": "https://www.culturepsg.com/news/club/les-coups-de-pieds-arretes-du-psg-travailles-un-peu/52973",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2024-09-14",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "pour un système en zone mixte avec quatre joueurs libres répartis en deux duos",
+   "verified": true
+  },
+  {
+   "title": "Les coups de pied arrêtés du PSG travaillés... un peu - CulturePSG",
+   "url": "https://www.culturepsg.com/news/club/les-coups-de-pieds-arretes-du-psg-travailles-un-peu/52973",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2024-09-14",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Pour la première fois, les Parisiens ont joué le hors-jeu pratiquement à chaque coup de pied arrêté des Lillois",
+   "verified": true
+  },
+  {
+   "title": "Les coups de pied arrêtés du PSG travaillés... un peu - CulturePSG",
+   "url": "https://www.culturepsg.com/news/club/les-coups-de-pieds-arretes-du-psg-travailles-un-peu/52973",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2024-09-14",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Le PSG a abandonné son système à trois joueurs qui défendaient la zone près du but plus le reste en individuel",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique Tactics At PSG Without Kylian Mbappé - TFA",
+   "url": "https://totalfootballanalysis.com/team-analysis/psg-202425-post-mbappe-attack-tactical-analysis-scouting-report-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-30",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "needless to say, Mbappé offers little defensive contribution",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique Tactics At PSG Without Kylian Mbappé - TFA",
+   "url": "https://totalfootballanalysis.com/team-analysis/psg-202425-post-mbappe-attack-tactical-analysis-scouting-report-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-30",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "we see PSG counterattacking on the right, with space for Barcola to sprint into behind the defence on the left.",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique Tactics At PSG Without Kylian Mbappé - TFA",
+   "url": "https://totalfootballanalysis.com/team-analysis/psg-202425-post-mbappe-attack-tactical-analysis-scouting-report-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-30",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "often rotating with midfielders and wingers while dropping out of the forward line",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique Tactics At PSG Without Kylian Mbappé - TFA",
+   "url": "https://totalfootballanalysis.com/team-analysis/psg-202425-post-mbappe-attack-tactical-analysis-scouting-report-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-30",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "PSG will have been well aware of Neves",
+   "verified": true
+  },
+  {
+   "title": "5 dedans - 5 dehors : Luis Enrique réinvente le jeu de position au PSG (extrait) - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/es/news/club/5-dedans-5-dehors-luis-enrique-reinvente-le-jeu-de-position-au-psg-extrait/54826",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2025-02-27",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "face à un bloc replié, en 3-2-2-3",
+   "verified": true
+  },
+  {
+   "title": "5 dedans - 5 dehors : Luis Enrique réinvente le jeu de position au PSG (extrait) - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/es/news/club/5-dedans-5-dehors-luis-enrique-reinvente-le-jeu-de-position-au-psg-extrait/54826",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2025-02-27",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "chercher directement la verticalité depuis un central ou un latéral",
+   "verified": true
+  },
+  {
+   "title": "5 dedans - 5 dehors : Luis Enrique réinvente le jeu de position au PSG (extrait) - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/es/news/club/5-dedans-5-dehors-luis-enrique-reinvente-le-jeu-de-position-au-psg-extrait/54826",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2025-02-27",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "des ailiers à la fois larges, et capables de fondre vers le but",
+   "verified": true
+  },
+  {
+   "title": "5 dedans - 5 dehors : Luis Enrique réinvente le jeu de position au PSG (extrait) - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/es/news/club/5-dedans-5-dehors-luis-enrique-reinvente-le-jeu-de-position-au-psg-extrait/54826",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2025-02-27",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Le 4213/424 initial du PSG face au pressing haut de Girona",
+   "verified": true
+  },
+  {
+   "title": "Club World Cup: A look at Paris Saint-Germain's outstanding tactics - Sports Mole (Trivela)",
+   "url": "https://www.sportsmole.co.uk/football/psg/club-world-cup/feature/club-world-cup-why-have-psg-been-so-difficult-to-stop-this-summer_577250.html",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-07-12",
+   "eventDate": "2025-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Whether with one, two, three, or four forwards pressing, Luis Enrique will try to create numerical superiority to play through the goalkeeper.",
+   "verified": true
+  },
+  {
+   "title": "Club World Cup: A look at Paris Saint-Germain's outstanding tactics - Sports Mole (Trivela)",
+   "url": "https://www.sportsmole.co.uk/football/psg/club-world-cup/feature/club-world-cup-why-have-psg-been-so-difficult-to-stop-this-summer_577250.html",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-07-12",
+   "eventDate": "2025-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "if the pressure is man-to-man, PSG's constant movement will disrupt the opponent's system.",
+   "verified": true
+  },
+  {
+   "title": "Club World Cup: A look at Paris Saint-Germain's outstanding tactics - Sports Mole (Trivela)",
+   "url": "https://www.sportsmole.co.uk/football/psg/club-world-cup/feature/club-world-cup-why-have-psg-been-so-difficult-to-stop-this-summer_577250.html",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-07-12",
+   "eventDate": "2025-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "the Spanish coach encouraged his players to play long balls toward the wings to exploit the space behind their opponent.",
+   "verified": true
+  },
+  {
+   "title": "Club World Cup: A look at Paris Saint-Germain's outstanding tactics - Sports Mole (Trivela)",
+   "url": "https://www.sportsmole.co.uk/football/psg/club-world-cup/feature/club-world-cup-why-have-psg-been-so-difficult-to-stop-this-summer_577250.html",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-07-12",
+   "eventDate": "2025-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "everyone, without exception, participates in the offensive build-ups and defensive recomposition.",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "From their 4-3-3 structure, PSG initially attacked the wide areas",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The rest of the PSG front line and higher midfielders then moved player-to-player, as Inter tried to play over the PSG press.",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Willian Pacho and Marquinhos followed the two Inter forwards, ready to duel for the first contact.",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Kvaratskhelia often held the width on the left, dragging his marker with him",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "often operated without a defined centre-forward",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "They scored a second from an incisive counter",
+   "verified": true
+  },
+  {
+   "title": "PSG 5 Inter 0: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "We put the right pressure in defence and we didn't allow them to play their normal football",
+   "verified": true
+  },
+  {
+   "title": "Analysis-Soccer-No Mbappe, no problem as Luis Enrique completes PSG transformation - Reuters via The Star",
+   "url": "https://www.thestar.com.my/sport/football/2025/06/01/analysis-soccer-no-mbappe-no-problem-as-luis-enrique-completes-psg-transformation-with-a-bang",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "When Dembele was late to training ahead of a Champions League match at Arsenal, Luis Enrique left him out of the squad.",
+   "verified": true
+  },
+  {
+   "title": "Analysis-Soccer-No Mbappe, no problem as Luis Enrique completes PSG transformation - Reuters via The Star",
+   "url": "https://www.thestar.com.my/sport/football/2025/06/01/analysis-soccer-no-mbappe-no-problem-as-luis-enrique-completes-psg-transformation-with-a-bang",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the youngest squad in the last 16 of the competition",
+   "verified": true
+  },
+  {
+   "title": "Analysis-Soccer-No Mbappe, no problem as Luis Enrique completes PSG transformation - Reuters via The Star",
+   "url": "https://www.thestar.com.my/sport/football/2025/06/01/analysis-soccer-no-mbappe-no-problem-as-luis-enrique-completes-psg-transformation-with-a-bang",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-06-01",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "January signing Khvicha Kvaratskhelia added versatility and energy to a system that rewarded effort over ego.",
+   "verified": true
+  },
+  {
+   "title": "Tenemos estrellas, pero están en función del equipo - Soccerway ES",
+   "url": "https://es.soccerway.com/noticias/futbol-champions-league-tenemos-estrellas-pero-estan-en-funcion-del-equipo-desvela-luis-enrique/Gh2MM62k",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-05-31",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Hemos sabido gestionar el exceso de presión",
+   "verified": true
+  },
+  {
+   "title": "Tenemos estrellas, pero están en función del equipo - Soccerway ES",
+   "url": "https://es.soccerway.com/noticias/futbol-champions-league-tenemos-estrellas-pero-estan-en-funcion-del-equipo-desvela-luis-enrique/Gh2MM62k",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-05-31",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "¿Lo habéis visto presionar hoy? Cuando uno lo hace así, el resto le sigue",
+   "verified": true
+  },
+  {
+   "title": "Tenemos estrellas, pero están en función del equipo - Soccerway ES",
+   "url": "https://es.soccerway.com/noticias/futbol-champions-league-tenemos-estrellas-pero-estan-en-funcion-del-equipo-desvela-luis-enrique/Gh2MM62k",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-05-31",
+   "eventDate": "2025-05-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "tenemos estrellas pero están en función del equipo y no al revés",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique no necesita a Mbappé para hacer del PSG un gran equipo - Ara",
+   "url": "https://es.ara.cat/deportes/futbol/luis-enrique-no-necesita-mbappe-psg-gran-equipo_1_4748164.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-07-05",
+   "eventDate": "2023-07-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Con Mbappé o sin él, promete \"juego de ataque\".",
+   "verified": true
+  },
+  {
+   "title": "PSG 2.0 : Luis Enrique poursuit sa quête d'imprévisibilité - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/it/news/club/psg-2-0-luis-enrique-poursuit-sa-quete-dimprevisibilite/59238",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2026-04-14",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "un 3-1-2-2-2-0",
+   "verified": true
+  },
+  {
+   "title": "PSG 2.0 : Luis Enrique poursuit sa quête d'imprévisibilité - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/it/news/club/psg-2-0-luis-enrique-poursuit-sa-quete-dimprevisibilite/59238",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2026-04-14",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "les cinq joueurs extérieurs qui sont donc autour du (et non devant le…) bloc adverse garantissent de sécuriser la possession",
+   "verified": true
+  },
+  {
+   "title": "PSG 2.0 : Luis Enrique poursuit sa quête d'imprévisibilité - CulturePSG / Sky Sport Suisse",
+   "url": "https://www.culturepsg.com/it/news/club/psg-2-0-luis-enrique-poursuit-sa-quete-dimprevisibilite/59238",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2026-04-14",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "aucun repère individuel fixe",
+   "verified": true
+  },
+  {
+   "title": "PSG's defensive improvement the main difference this season, says Luis Enrique - beIN Sports",
+   "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/psgs-defensive-improvement-the-main-difference-this-season-says-luis-enrique-2026-05-26",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-26",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "We defended much better against Chelsea than we did in the final of the Club World Cup.",
+   "verified": true
+  },
+  {
+   "title": "PSG's defensive improvement the main difference this season, says Luis Enrique - beIN Sports",
+   "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/psgs-defensive-improvement-the-main-difference-this-season-says-luis-enrique-2026-05-26",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-26",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "We prefer to get the ball, we prefer to keep the ball, but when you have to adapt because the other side is better than you during moments of the match, you have to adapt, and you have to defend even better.",
+   "verified": true
+  },
+  {
+   "title": "Neither team deserved to win - Luis Enrique - Goal.com",
+   "url": "https://www.goal.com/en/lists/luis-enrique-denies-psg-better-arsenal-champions-league-final/blt7183c92b4834fa07",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-31",
+   "eventDate": "2026-05-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "The final was a tactical chess match that saw Arsenal drop into a deep defensive block, limiting PSG's usual fluid attacking movement.",
+   "verified": true
+  },
+  {
+   "title": "Neither team deserved to win - Luis Enrique - Goal.com",
+   "url": "https://www.goal.com/en/lists/luis-enrique-denies-psg-better-arsenal-champions-league-final/blt7183c92b4834fa07",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-31",
+   "eventDate": "2026-05-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Neither team deserved to win this match. But if I analyse the season, we deserve to win our second Champions League.",
+   "verified": true
+  },
+  {
+   "title": "PSG's Luis Enrique made a big statement about Arsenal ahead of UCL final - Flashscore",
+   "url": "https://www.flashscore.com/news/soccer-premier-league-they-re-the-best-in-the-world-luis-enrique-says-nobody-beats-arsenal-out-of-possession/hzPMxmp2/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-21",
+   "eventDate": "2026-05-20",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "“He defends all the time, no matter the match or the minute,",
+   "verified": true
+  },
+  {
+   "title": "Luis Enrique extends his contract with PSG until 2030 - Ara",
+   "url": "https://en.ara.cat/sports/luis-enrique-extends-his-contract-with-psg-until-2030_25_5840662.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-09-04",
+   "eventDate": "2026-09-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Paris Saint-Germain has announced the renewal of Luis Enrique as the team's coach until 2030.",
+   "verified": true
+  },
+  {
+   "title": "Táctica y Sistemas - Luis Enrique - Coaches' Voice (podcast)",
+   "url": "https://es.coachesvoice.com/?p=60811",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2023",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Si logras convencer al jugador, después empezarás a hablar con él de todo lo demás",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Si logras convencer al jugador, después empezarás a hablar con él de todo lo demás: cómo vamos a ejecutar nuestro modelo de juego, dónde nos vamos a colocar, qué tipos de espacios necesitamos ocupar…",
+   "date": "2022",
+   "source": "https://es.coachesvoice.com/?p=60811",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Tenemos muy clara la idea y no la vamos a cambiar.",
+   "date": "2022-12-05",
+   "source": "https://www.menorca.info/deportes/mundial-qatar/2022/12/05/1841365/mundial-qatar-2022-luis-enrique-tenemos-piedra-filosofal.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Lo que menos me preocupa es el resultado.",
+   "date": "2022-12-05",
+   "source": "https://www.menorca.info/deportes/mundial-qatar/2022/12/05/1841365/mundial-qatar-2022-luis-enrique-tenemos-piedra-filosofal.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Con Mbappé o sin él, promete \"juego de ataque\" (paraphrase by Ara, not a verbatim quote)",
+   "date": "2023-07",
+   "source": "https://es.ara.cat/deportes/futbol/luis-enrique-no-necesita-mbappe-psg-gran-equipo_1_4748164.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Tienes que hacerles creer que es posible. Me gusta mucho porque tenemos estrellas pero están en función del equipo y no al revés y eso no es muy fácil en el fútbol.",
+   "date": "2025-05",
+   "source": "https://es.soccerway.com/noticias/futbol-champions-league-tenemos-estrellas-pero-estan-en-funcion-del-equipo-desvela-luis-enrique/Gh2MM62k",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We put the right pressure in defence and we didn't allow them to play their normal football.",
+   "date": "2025-05",
+   "source": "https://learning.coachesvoice.com/cv/psg-inter-2025-champions-league-final-tactics/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We prefer to get the ball, we prefer to keep the ball, but when you have to adapt because the other side is better than you during moments of the match, you have to adapt, and you have to defend even better.",
+   "date": "2026-05",
+   "source": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/psgs-defensive-improvement-the-main-difference-this-season-says-luis-enrique-2026-05-26",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Neither team deserved to win this match. But if I analyse the season, we deserve to win our second Champions League.",
+   "date": "2026-05",
+   "source": "https://www.goal.com/en/lists/luis-enrique-denies-psg-better-arsenal-champions-league-final/blt7183c92b4834fa07",
+   "provenance": "primary"
+  },
+  {
+   "quote": "That was my best decision of the season (on leaving Dembele out after he was late to training)",
+   "date": "2025-05",
+   "source": "https://www.thestar.com.my/sport/football/2025/06/01/analysis-soccer-no-mbappe-no-problem-as-luis-enrique-completes-psg-transformation-with-a-bang",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We have reinforced the squad brilliantly. On paper, I have the best squad in my three years here",
+   "date": "2016-09",
+   "source": "https://www.scotsman.com/sport/football/luis-enrique-changes-barcelonas-style-substance-remains-1467591",
+   "provenance": "attributed"
+  }
+ ],
+ "spellsCounted": [
+  {
+   "club": "FC Barcelona",
+   "start": "2014-05-19",
+   "end": "2017-05-27",
+   "reason": "Treble 2014/15 (La Liga, Copa del Rey, Champions League), MSN front three, 2015/16 double; start per football-espana (2014-05-19); end date (last match) not verified from a mined page"
+  },
+  {
+   "club": "Spain (first spell)",
+   "start": "2018-07-09",
+   "end": "2019-06-19",
+   "reason": "Appointed 2018-07-09 (The Local); Nations League qualifying, Euro 2020 qualifying; left for family reasons, end date from search summary, not mined"
+  },
+  {
+   "club": "Spain (second spell)",
+   "start": "2019-11-19",
+   "end": "2022-12-08",
+   "reason": "Euro 2020 semi-final (lost on penalties to Italy), Nations League final 2021, 2022 World Cup last 16; Coaches' Voice tier A coverage; dates from search summary, not mined"
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "start": "2023-07-05",
+   "end": "ongoing",
+   "reason": "Presented 2023-07-05 (Ara); Champions League 2025 (5-0 Inter) and 2026 (Arsenal on penalties), repeated Ligue 1 titles; contract extended to 2030 on 2026-09-04"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Barcelona B",
+   "start": "2008",
+   "end": "2011",
+   "reason": "Reserve team, no tier A-B tactical coverage"
+  },
+  {
+   "club": "AS Roma",
+   "start": "2011-06",
+   "end": "2012-05",
+   "reason": "One season, failed project; context for his positional play/4-3-3 attempt; no tier A-B coverage mined"
+  },
+  {
+   "club": "Celta Vigo",
+   "start": "2013-06",
+   "end": "2014-05",
+   "reason": "Ninth place, praised attacking style (football-espana); no titles; context only"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.ligue1.com/Articles/Opinion/2023/12/22/luis-enrique-s-tactical-evolution-at-psg",
+   "reason": "404"
+  },
+  {
+   "url": "https://betweentheposts.net/?p=74581",
+   "reason": "empty"
+  },
+  {
+   "url": "https://themastermindsite.com/2021/07/06/italy-1-1-spain-euro-2020-semi-final-tactical-analysis/",
+   "reason": "403"
+  },
+  {
+   "url": "https://global.espn.com/football/story/_/id/37634698/luis-enrique-leaves-post-spain-boss-following-shock-world-cup-exit",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Barcelona positional play (juego de posición), absorbed as a player at Barça, per Coaches' Voice",
+  "Pep Guardiola's Barcelona (predecessor model he made more vertical)"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Tier A-B evidence strong for PSG 2024-26 and Spain 2021/22 (Coaches' Voice, TFA, CulturePSG/Lefaucheux), but Barcelona 2014-17 coverage is tier C and several dates are unverified from mined pages."
+ }
+}
