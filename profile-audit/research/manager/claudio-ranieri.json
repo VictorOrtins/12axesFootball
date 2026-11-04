@@ -1,0 +1,829 @@
+{
+ "id": "claudio-ranieri",
+ "catalog": "manager",
+ "name": "Claudio Ranieri",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2015-07-13",
+  "end": "2017-02-23"
+ },
+ "scopeNote": "Proposed by the researcher (user asked not to stop for confirmation): ONE counted spell, Leicester City 2015-17, because it is the signature era (2015/16 Premier League title) and the only one with dense tactical coverage found (Spielverlagerung, Sports Illustrated, Opta/Sky data). The 2015/16 title season is the core; the 2016/17 months are kept only as evidence of what happened after Kante left and Ranieri changed shape, not as the style. Style term used by sources: a compact 4-4-2 / 4-4-1-1 with zonal marking with man-orientations (Spielverlagerung) in a mid-low block, built on counter-attacks (Premier League: 'compact 4-4-2 system built to counter-attack'); 42.43% possession, lowest of any PL champion since 2003/04. Popular label 'catenaccio/Italian defensive' is rejected by SI (his approach is 'a bit more advanced than that', Sacchi-style zonal). Caveat for the low-block-counter-attack ideology: SI and Spielverlagerung describe a compact, fairly high-for-English-football line with 'high' pressure when the ball goes wide, so 'low block' is only partly supported: Spielverlagerung calls it a 'mid-low block'. Spells with titles at Valencia (Copa del Rey 1999) and earlier Chelsea/Monaco/Roma/Inter/Fulham/Nantes were not mined: no tactical evidence gathered in this run. Appointment 2015-07-13 (FourFourTwo); sacking 2017-02-23 (theScore, 'lost his job Thursday', dated 2017-02-23).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Block depth: Spielverlagerung says 'mid-low block' and that lack of speed prevents a higher line; SI says the back line is 'high enough to catch a forward offside' and describes Sacchi-like squeezing with Schmeichel kicking long so 'it can press high'. Sources disagree on how low the block was; the 'low-block' label is not clearly supported.",
+  "Should Valencia 1997-99 (Copa del Rey) or Chelsea 2000-04 be added as counted spells? No tactical sources mined for them; Sacchi influence is only claimed by SI for Leicester.",
+  "Corriere della Sera Italian original of the 'afraid of Italian tactics' interview not found; English translation via Telegraph/FourFourTwo only.",
+  "Set-pieces: only one in-period fact (Ranieri says Leicester were usually solid at corners/free-kicks, from 2016/17) and no data on routines; man vs zonal at set-pieces not found.",
+  "Zonal Marking (Michael Cox), Coaches' Voice and These Football Times returned no Ranieri pages in site: searches; Jonathan Wilson not found."
+ ],
+ "sources": [
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The Italian made the switch to a compact 4-4-2 system built to counter-attack with devastating efficiency.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Leicester, who had used 11 different formations the year before, stuck with this 4-4-2, which became a 4-4-1-1 out of possession, in 35 of their 38 matches.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "One of Ranieri's most decisive early calls was to move away from the back-three set-up that had worked so well during the closing stages of 2014/15.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "His plan was to operate with two disciplined banks of four, with an energetic deep-lying striker operating behind a speedy centre-forward, who could punish opponents on the break.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Realising their goal threat was enhanced by game plans that revolved around transitions, Leicester are the only champions to have adopted a non-possession-based strategy.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Their average possession figure (42.43 per cent) is by some distance the lowest on record for a Premier League winning team, since such data started being collected in 2003/04.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "The Foxes' resolute defensive shape proved hard to break down. And rival teams, perhaps showing a degree of complacency, continued to leave themselves open to counter-attacks.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "During an astonishing campaign in which they lost only three times, Ranieri made just 33 changes to his starting XI.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The little-known French midfielder cost £5.6million from Caen and was a revelation in central midfield. His 175 tackles and 156 interceptions were the most in the division.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2016-02-14",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Ranieri picked the same starting eleven for the sixth consecutive match as they featured in their usual 4-4-2 formation",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Ranieri’s side have been a welcome change in the Premier League as they employ a zonal marking system with man-orientations which sees them stay stable and compact in a 4-4-1-1 shape.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Within such a defence, a team will organize themselves zonally where the primary reference point for the defenders is the opposition. When not tasked with covering a nearby attacker, the team will maintain their shape in their base positions and cover the space in a zonal structure.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Leicester’s compactness must also be noted as it plays an important role in their organisation. Through the zonal scheme they maintain their shape and do so with strong distances both horizontally and vertically. There were some issues in the spatial compactness, with some open spaces between the midfield and defence but they generally restricted Arsenal’s access through good pressure.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2016-02-14",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Arsenal’s dominance of possession against Leicester’s mid-low block suggests a control that they very rarely had, which was in many ways because of their sub-par spacing.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Through their zonal defence, they maintained a clear shape and the wingers didn’t closely mark the Arsenal full-backs – a role which most wingers are accustomed to in the English leagues. Instead they would maintain good spacing between the full-back and the centre of the pitch, meaning that they could provide strong support to the midfield pairing.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Leicester are one of the strategically strongest teams in England this year through their stable defending and great transition game",
+   "verified": true
+  },
+  {
+   "title": "Arsenal - Leicester City 2:1 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/02/14/arsenal-capitalise-on-leicester-dismissal-to-win-crucial-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-02-14",
+   "eventDate": "2016-02-14",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Danny Simpson’s dismissal was a pivotal moment in the game as Leicester moved to a 4-4-1 with Gray and Wasilewski replacing Mahrez and Okazaki.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The Foxes line up in a standard English 4-4-2, with Riyad Mahrez’s tendency to drift inside and next to the front two passing as their most complicated wrinkle.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "With how close Leicester’s players sit in their defensive starting positions, opponents have to break down three lines of pressure in quick succession to get behind without hitting a ball over the top. If they go long, the back line is usually high enough to catch a forward offside, or goalkeeper Kasper Schmeichel can easily deal with overhit passes.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "As the opposition builds out of the back, wingers Mahrez and Marc Albrighton pinch in toward the middle, enticing wide play. Once the ball moves left or right, the near-side forward and winger can close down and win the ball back or force a long ball that Leicester’s defenders can win.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Once it wins the ball—Leicester has a league-high 357 interceptions, indicative of its pressing ability—the club tries to get forward as quickly as possible. That often includes going wide to Albrighton or an overlapping fullback, or looking for a diagonal ball over the top from central midfield to Mahrez as he cuts inside.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Schmeichel almost always looks long out of the back. In the last three matches, only two of the passes he attempted weren’t long. His passing percentage is poor, but Leicester prefers having the ball far away from its goal so it can press high.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "The Foxes squeeze the available attacking space and tend to leave opponents frustrated, even when the numbers would suggest that they should be outnumbered in the middle.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Even on the counterattack, Leicester rarely finds itself with a numerical advantage. Even numbers is about as good as it gets, but that hasn’t been necessary with Vardy’s execution.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "The ball rarely stays centrally for very long before whoever is on it looks for a diagonal penetrative ball or at least a wide option.",
+   "verified": true
+  },
+  {
+   "title": "Il ritorno alla normalità del Leicester (Il Post)",
+   "url": "https://www.ilpost.it/2016/09/24/leicester-normale/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2016-09-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Schierato in campo con un 4-4-2, il Leicester non teneva molto la palla ma occupava bene le posizioni in campo. Ranieri sfruttava l’elevata velocità della squadra, comune a quasi tutti i giocatori fra centrocampo e attacco, per impostare contropiedi rapidissimi che in pochi passaggi riuscivano a portare i giocatori fino all’area avversaria.",
+   "verified": true
+  },
+  {
+   "title": "Il ritorno alla normalità del Leicester (Il Post)",
+   "url": "https://www.ilpost.it/2016/09/24/leicester-normale/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2016-09-24",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Il reparto offensivo è l’unico che è stato veramente rinforzato. Non è stato ceduto nessun giocatore, è arrivato Bartosz Kapustka, giovane promettente ala polacca, la punta nigeriana Ahmed Musa",
+   "verified": true
+  },
+  {
+   "title": "Il ritorno alla normalità del Leicester (Il Post)",
+   "url": "https://www.ilpost.it/2016/09/24/leicester-normale/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2016-09-24",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Gli avversari hanno ormai imparato ad affrontare il Leicester e non si fanno più cogliere impreparati dal pressing e dai rapidi contropiedi.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "by the opening day he'd implemented the season-sensation 4-4-2 from Pearson's season-saving 3-5-2.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Leicester’s hard running caught countless teams off guard, their devastating counter-attacks tearing open tight matches that could often have gone either way.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "for starters he only brought in two staff members, keeping Walsh and Pearson's trusted assistant Craig Shakespeare",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "There was an obvious starting XI that the rest of the squad knew was near-impenetrable, but a collective spirit that shone around the bench and beyond too.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Giving them two days off every week helped – Sundays and Wednesdays were freed up, Monday’s training was light, Tuesdays and Thursdays intense, and Friday reserved for tactical tweaking – but when he had their time, they gave him everything.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "it was that vital filtering of title talk out of his dressing room that impressed most about his management last year.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo's 50 Best Football Managers 2016: No.8 Claudio Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "even as the matches became more excruciating to watch – five 1-0 victories in six games from late February to early April – the calmest head in every room was Ranieri’s.",
+   "verified": true
+  },
+  {
+   "title": "Claudio Ranieri: The man who defied preconceptions (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/claudio-ranieri-man-who-defied-preconceptions-and-wont-ever-ask-apology",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-30",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Their possession (ranked 18th) and pass-completion (20th) stats have turned the received wisdom of football’s tiki-taka era on its head.",
+   "verified": true
+  },
+  {
+   "title": "Claudio Ranieri: The man who defied preconceptions (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/claudio-ranieri-man-who-defied-preconceptions-and-wont-ever-ask-apology",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-30",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "The excessive, self-destructive changes to his team which left an indelible impression in England after Chelsea were dumped out of the semi-finals of the Champions League by Monaco in 2004, are a thing of the past.",
+   "verified": true
+  },
+  {
+   "title": "Claudio Ranieri: The man who defied preconceptions (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/claudio-ranieri-man-who-defied-preconceptions-and-wont-ever-ask-apology",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-30",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "He comes into our team meetings where he’s been up all night watching 50-60 clips of just one of the opposition’s players and he will tell you exactly what he’s done in 49 of them and what he did in the other 11.",
+   "verified": true
+  },
+  {
+   "title": "Claudio Ranieri: The man who defied preconceptions (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/claudio-ranieri-man-who-defied-preconceptions-and-wont-ever-ask-apology",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-30",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Always show me everything you’ve got and every now and again I will explain a little football to you",
+   "verified": true
+  },
+  {
+   "title": "Claudio Ranieri: The man who defied preconceptions (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/claudio-ranieri-man-who-defied-preconceptions-and-wont-ever-ask-apology",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-30",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "if my team doesn’t know how to keep the ball, why should I kill myself making my team play possession football when by doing so you risk conceding a goal? If I have a team that can play possession football, I will play possession football but if I don’t…",
+   "verified": true
+  },
+  {
+   "title": "Ranieri: My pact with players has been the secret of our success (Telegraph via Gulf News)",
+   "url": "https://gulfnews.com/sport/football/ranieri-my-pact-with-players-has-been-the-secret-of-our-success-1.1668923",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-02-10",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "They so need to be relaxed and not harassed. They expect calm and respect in the dressing room, so if you want to be a prima donna, they won’t forgive you for it.",
+   "verified": true
+  },
+  {
+   "title": "Ranieri: My pact with players has been the secret of our success (Telegraph via Gulf News)",
+   "url": "https://gulfnews.com/sport/football/ranieri-my-pact-with-players-has-been-the-secret-of-our-success-1.1668923",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-02-10",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "I always thought the most important thing a good coach must do is to build the team around the characteristics of his players. So I told the players that I trusted them and would speak very little of tactics.",
+   "verified": true
+  },
+  {
+   "title": "Leicester were afraid of Italian tactics (FourFourTwo, Corriere della Sera interview)",
+   "url": "https://fourfourtwo.com/news/leicester-were-afraid-italian-tactics-ranieri-reveals-his-secret",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-02-08",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "When I spoke with the players I realised that they were afraid of the Italian tactics,",
+   "verified": true
+  },
+  {
+   "title": "Leicester were afraid of Italian tactics (FourFourTwo, Corriere della Sera interview)",
+   "url": "https://fourfourtwo.com/news/leicester-were-afraid-italian-tactics-ranieri-reveals-his-secret",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-02-08",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "I make sure the players have at least two days away from the ball each week. This is the pact I made [with the players] on the first day",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Ranieri's Leicester City has overtaken the EPL (SI)",
+   "url": "https://www.si.com/soccer/2015/12/15/leicester-city-premier-league-ranieri-vardy-mahrez-tactics-epl",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "When Ranieri came in, he insisted that he didn’t “want to change too much but just give the Italian tactical way” to his new players.",
+   "verified": true
+  },
+  {
+   "title": "Leicester boss Ranieri admits to tactical mistakes (FourFourTwo)",
+   "url": "https://fourfourtwo.com/news/leicester-boss-ranieri-admits-tactical-mistakes",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-01-22",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The Italian deployed a back three in the 3-0 defeat to Premier League leaders Chelsea last weekend and reverted to a four-man defence for Sunday's trip to Southampton.",
+   "verified": true
+  },
+  {
+   "title": "Leicester boss Ranieri admits to tactical mistakes (FourFourTwo)",
+   "url": "https://fourfourtwo.com/news/leicester-boss-ranieri-admits-tactical-mistakes",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-01-22",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "My players are familiar with the 4-4-1-1 and know the positions. I wanted to give something more, but I made mistakes.",
+   "verified": true
+  },
+  {
+   "title": "Leicester City: Premier League champions to relegation risk (Sky Sports, Opta data)",
+   "url": "https://www.skysports.com/football/news/11712/10760909/leicester-city-premier-league-champions-to-relegation-risk",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-02-10",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "During this campaign, Leicester have won 35 per cent fewer interceptions, 30 per cent fewer tackles and 17 per cent fewer duels.",
+   "verified": true
+  },
+  {
+   "title": "Leicester City: Premier League champions to relegation risk (Sky Sports, Opta data)",
+   "url": "https://www.skysports.com/football/news/11712/10760909/leicester-city-premier-league-champions-to-relegation-risk",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-02-10",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Leicester have attempted a similar number of long balls per game this season, a linchpin of their title-winning counter-attack style",
+   "verified": true
+  },
+  {
+   "title": "Leicester City: Premier League champions to relegation risk (Sky Sports, Opta data)",
+   "url": "https://www.skysports.com/football/news/11712/10760909/leicester-city-premier-league-champions-to-relegation-risk",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-02-10",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "This season, the Foxes have recorded an almost identical average possession of around 40 per cent",
+   "verified": true
+  },
+  {
+   "title": "Where it went wrong: 5 flash points (theScore)",
+   "url": "https://www.thescore.com/epl/news/1238502",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-02-23",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "It is not possible to concede three goals from corners. That means you are not concentrating,\" Ranieri said at the time, some of his first openly critical comments. \"We are usually very solid at corners and free-kicks",
+   "verified": true
+  },
+  {
+   "title": "Where it went wrong: 5 flash points (theScore)",
+   "url": "https://www.thescore.com/epl/news/1238502",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-02-23",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The Italian also began to rotate his squad in anticipation of the Champions League, dropping club-record signing Islam Slimani and the slumping Riyad Mahrez to the bench.",
+   "verified": true
+  },
+  {
+   "title": "Where it went wrong: 5 flash points (theScore)",
+   "url": "https://www.thescore.com/epl/news/1238502",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-02-23",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "His comments followed the Guardian's report suggesting Ranieri had lost \"his grip\" on the dressing room.",
+   "verified": true
+  },
+  {
+   "title": "Where it went wrong: 5 flash points (theScore)",
+   "url": "https://www.thescore.com/epl/news/1238502",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-02-23",
+   "eventDate": "2017-02-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ranieri lost his job Thursday as Leicester's owners, however regrettably, attempted to kick-start a season gone horribly wrong.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo Season Preview 2015/16: Leicester",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwo-season-preview-201516-leicester-city",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-07-28",
+   "eventDate": "2015-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "They’ve secured the permanent signing of Robert Huth, whose February arrival sparked a vital defensive improvement, snapped up one of the Bundesliga’s finest strikers in Shinji Okazaki and improved their backline with the signing of Schalke’s Christian Fuchs on a free.",
+   "verified": true
+  },
+  {
+   "title": "How many games did it really take before this season's Leicester XI emerged? (OffTheBall)",
+   "url": "https://www.offtheball.com/leicester-back-four-273331",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-03",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Stability and no tinkering helped hone their understanding, with Simpson and Fuchs starting all but one match each after both players had become the established full-backs, and Kante and Drinkwater rarely missing minutes.",
+   "verified": true
+  },
+  {
+   "title": "How many games did it really take before this season's Leicester XI emerged? (OffTheBall)",
+   "url": "https://www.offtheball.com/leicester-back-four-273331",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-03",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Jamie Vardy's searing pace and energy stretched most of the league's defences while Shinji Okazaki's work-rate acted as the perfect foil.",
+   "verified": true
+  },
+  {
+   "title": "On this day in 2015: Leicester appoint Claudio Ranieri (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/on-this-day-in-2015-leicester-appoint-claudio-ranieri-as-first-team-manager-1657631398000",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-07-13",
+   "eventDate": "2015-07-13",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Claudio Ranieri was appointed first-team manager at Leicester, on this day in 2015.",
+   "verified": true
+  },
+  {
+   "title": "On this day in 2015: Leicester appoint Claudio Ranieri (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/on-this-day-in-2015-leicester-appoint-claudio-ranieri-as-first-team-manager-1657631398000",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-07-13",
+   "eventDate": "2017-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ranieri was sacked by Leicester in February 2017 with the club in 17th position and just one point above the relegation zone.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "I don't want to change too much but just to give my Italian, tactical way",
+   "date": "2015-07",
+   "source": "https://www.fourfourtwo.com/features/fourfourtwo-season-preview-201516-leicester-city",
+   "provenance": "primary",
+   "note": "first press conference at Leicester, as quoted by FourFourTwo"
+  },
+  {
+   "quote": "They did not look convinced, and neither was I. I have great admiration for those who build new tactical systems, but I always thought the most important thing a good coach must do is to build the team around the characteristics of his players.",
+   "date": "2016-02-08",
+   "source": "https://fourfourtwo.com/news/leicester-were-afraid-italian-tactics-ranieri-reveals-his-secret",
+   "provenance": "primary",
+   "note": "Corriere della Sera interview (Italian original not found), translated by Telegraph/FourFourTwo"
+  },
+  {
+   "quote": "if my team doesn’t know how to keep the ball, why should I kill myself making my team play possession football when by doing so you risk conceding a goal? If I have a team that can play possession football, I will play possession football but if I don’t…",
+   "date": "2016-04",
+   "source": "https://www.fourfourtwo.com/features/claudio-ranieri-man-who-defied-preconceptions-and-wont-ever-ask-apology",
+   "provenance": "primary",
+   "note": "Sky Italia, as quoted by FourFourTwo"
+  },
+  {
+   "quote": "My players are familiar with the 4-4-1-1 and know the positions. I wanted to give something more, but I made mistakes.",
+   "date": "2017-01-22",
+   "source": "https://fourfourtwo.com/news/leicester-boss-ranieri-admits-tactical-mistakes",
+   "provenance": "primary",
+   "note": "Sky Sports, after changing to back three and diamond"
+  },
+  {
+   "quote": "It is not possible to concede three goals from corners. That means you are not concentrating",
+   "date": "2016-09-24",
+   "source": "https://www.thescore.com/epl/news/1238502",
+   "provenance": "primary",
+   "note": "after Manchester United 4-1 Leicester"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.football-italia.net/84100/ranieri-my-tactics-explained",
+   "reason": "404"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=57636",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://arsenal.com/node/21470",
+   "reason": "404"
+  },
+  {
+   "url": "https://themastermindsite.com/2016/12/20/why-leicester-city-have-struggled-so-far-in-2016-17/",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Arrigo Sacchi (flat back four, zonal defending; per SI, 'highly influenced')"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Leicester City",
+   "start": "2015-07-13",
+   "end": "2017-02-23",
+   "reason": "Premier League title 2015/16 and the only spell with extensive tactical coverage; signature low-possession counter-attacking 4-4-2"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Chelsea",
+   "start": "2000-09",
+   "end": "2004-05",
+   "reason": "Not mined; dates approximate; 'Tinkerman' rotation era, contrast to Leicester; no titles"
+  },
+  {
+   "club": "Valencia",
+   "start": "1997",
+   "end": "1999",
+   "reason": "Not mined; dates approximate; Copa del Rey 1999 but no tactical sources gathered"
+  },
+  {
+   "club": "Monaco",
+   "start": "2012",
+   "end": "2014",
+   "reason": "Not mined; dates approximate; second place in Ligue 1 2013/14, no tactical sources gathered"
+  },
+  {
+   "club": "Roma, Inter, Juventus, Fulham, Nantes, Greece, Napoli, Fiorentina, Atletico Madrid, Parma, Cagliari, Sampdoria, Watford, Genoa",
+   "start": "1986",
+   "end": "2025",
+   "reason": "Not mined; dates not checked; no major title or no tactical coverage; context only"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B sources (Spielverlagerung, SI, Opta/Sky data) agree on the 2015/16 4-4-2/4-4-1-1 zonal, counter-attacking approach, but there is only one counted spell, mostly tier C for people management and squad building, set-pieces thin, and block depth contested."
+ }
+}
