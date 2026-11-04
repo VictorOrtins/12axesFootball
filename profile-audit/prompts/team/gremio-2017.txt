@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): lar. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK team:gremio-2017" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,7 +45,7 @@ After writing the file, reply only with "OK team:gremio-2017" and a 1-line summa
   "id": "gremio-2017",
   "catalog": "team",
   "name": "Grêmio 2017",
-  "researchedOn": "2026-10-12",
+  "researchedOn": "2026-11-04",
   "status": "complete",
   "profilePeriod": {
     "start": "2017-02-02",
@@ -60,8 +61,11 @@ After writing the file, reply only with "OK team:gremio-2017" and a 1-line summa
   ],
   "ambiguities": [],
   "openQuestions": [
-    "Marking (zonal vs man-oriented) is not documented by any source read; the only pressing evidence is a press description of the Libertadores final second leg. Treat 'mar' as memory-based.",
-    "No source read describes the width/full-back pattern, the depth of the defensive block or set-piece routines for 2017."
+    "Marking (zonal vs man-oriented) is not documented by any source read; treat 'mar' as memory-based.",
+    "WIDTH: sources read show Fernandinho on the left wing in the final (Bola na Rede) and Everton as a pacy wide man down the left (FIFA), with the Meon lineup listing Luan in the right/central attacking-midfield slot with Léo Moura, Everton or Arroyo as alternates; no source states whether the front three stayed wide or came inside, nor gives crossing/heat-map data or full-back overlap roles (Edílson, Cortez, Léo Moura, Marcelo Oliveira). Evidence supports 'wingers with pace on the flank, Luan as inside creator', not the v1 claim that width is only 'through Luan'.",
+    "Shape label: Goal BR and Bola na Rede say 4-2-3-1; Bola na Rede's final report says 4x5x1 (a 4-2-3-1 variant with Barrios isolated).",
+    "Defensive-block depth documented only for the final 2nd leg (high lines in first half, lowered lines in second); no season-long data. Set pieces: nothing found.",
+    "Tactical analyses (Torcedores 'papo tático', Trivela player-by-player) exist but could not be read; Zonal Marking, Coaches' Voice and Spielverlagerung returned nothing for this team."
   ],
   "sources": [
     {
@@ -243,6 +247,150 @@ After writing the file, reply only with "OK team:gremio-2017" and a 1-line summa
       "dimension": "people-management",
       "evidence": "Retrospective, quoting Grêmio staff of the period. Espinosa: \"Ele (Renato Portaluppi) sabe como dialogar, dar a cada jogador chance de mostrar seu futebol.\" Kroeff: \"Além de dialogar muito com quem está nas categorias de base, Renato assiste a vários jogos\". Espinosa: \"Todas as contratações eram discutidas, mas o mérito maior sempre foi do Renato.\"",
       "verified": true
+    },
+    {
+      "title": "CA Lanús 1-2 Grêmio FB Porto Alegre: Soy Loco Por Tri, América",
+      "url": "https://bolanarede.pt/internacional/taca-libertadores/ca-lanus-1-2-gremio-fb-porto-alegre-soy-loco-por-tri-america",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "\"O Grêmio começou o jogo no 4x5x1 tradicional do treinador Renato Gaúcho. Nesse esquema tático o paraguaio Lucas Barrios joga mais enfiado na área, mas conta com a aproximação do Fernandinho e do Luan.\" (Libertadores final 2nd leg; the Lanús wingers Silva and Acosta are the ones described as 'mais abertos pelas pontas'.)",
+      "verified": true
+    },
+    {
+      "title": "CA Lanús 1-2 Grêmio FB Porto Alegre: Soy Loco Por Tri, América",
+      "url": "https://bolanarede.pt/internacional/taca-libertadores/ca-lanus-1-2-gremio-fb-porto-alegre-soy-loco-por-tri-america",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "\"Aos nove minutos o Grêmio deu o primeiro susto no goleiro Andrada. Barrios recebeu a bola e abriu o lance para a ponta esquerda. Fernandinho recebeu a bola e chutou cruzado.\"",
+      "verified": true
+    },
+    {
+      "title": "CA Lanús 1-2 Grêmio FB Porto Alegre: Soy Loco Por Tri, América",
+      "url": "https://bolanarede.pt/internacional/taca-libertadores/ca-lanus-1-2-gremio-fb-porto-alegre-soy-loco-por-tri-america",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "\"O Grêmio começou o jogo no 4x5x1 tradicional do treinador Renato Gaúcho.\"",
+      "verified": true
+    },
+    {
+      "title": "CA Lanús 1-2 Grêmio FB Porto Alegre: Soy Loco Por Tri, América",
+      "url": "https://bolanarede.pt/internacional/taca-libertadores/ca-lanus-1-2-gremio-fb-porto-alegre-soy-loco-por-tri-america",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Second half: \"A equipe brasileira abaixou as suas linhas de marcação e o Lanús não conseguia intensificar o jogo.\" and \"o Grêmio recuava de maneira perigosa e deixava o Lanús trabalhar com a bola\"; first half: \"A estratégia de atuar com as linhas avançadas estavam fazendo a diferença a favor do Grêmio.\"",
+      "verified": true
+    },
+    {
+      "title": "CA Lanús 1-2 Grêmio FB Porto Alegre: Soy Loco Por Tri, América",
+      "url": "https://bolanarede.pt/internacional/taca-libertadores/ca-lanus-1-2-gremio-fb-porto-alegre-soy-loco-por-tri-america",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-11-30",
+      "eventDate": "2017-11-29",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "\"Aos 27 minutos a defesa argentina falha ao tentar sair jogando e o veloz atacante Fernandinho pegou a bola no meio de campo, partiu rumo ao gol e fuzilou o arqueiro Andrada.\"",
+      "verified": true
+    },
+    {
+      "title": "Everton executes Renato's masterplan to perfection",
+      "url": "https://www.inside.fifa.com/news/everton-cumple-con-el-plan-maestro-de-renato-gaucho-2924564-2924565",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-13",
+      "eventDate": "2017-12-12",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "\"The pacy Brazilian wide man surged down the left flank time and time again, causing the Pachuca defence, which had been compact up to then, to lose shape.\" (Everton off the bench v Pachuca.) Subhead: \"The speedy winger lets us in on Renato Gaucho's gameplan\".",
+      "verified": true
+    },
+    {
+      "title": "Everton executes Renato's masterplan to perfection",
+      "url": "https://www.inside.fifa.com/news/everton-cumple-con-el-plan-maestro-de-renato-gaucho-2924564-2924565",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-13",
+      "eventDate": "2017-12-12",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Everton (primary, quoted): \"We saw it in Pachuca's previous game; their defenders are very tall but they're slower than us. So, he knew that he needed the speed of Fernandinho and me. And we managed to get the better of their defence.\" Also: Everton \"picked up possession right on the touchline\" before the winner.",
+      "verified": true
+    },
+    {
+      "title": "Everton executes Renato's masterplan to perfection",
+      "url": "https://www.inside.fifa.com/news/everton-cumple-con-el-plan-maestro-de-renato-gaucho-2924564-2924565",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-13",
+      "eventDate": "2017-12-12",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "\"he knew that he needed the speed of Fernandinho and me\" (Everton on Renato's plan v Pachuca, Club World Cup semi-final).",
+      "verified": true
+    },
+    {
+      "title": "Renato fecha treino e faz mistério sobre escalação de Luan e Geromel no Grêmio",
+      "url": "https://www.meon.com.br/noticias/meon/esporte/brasil-mundo/renato-fecha-treino-e-faz-misterio-sobre-escalacao-de-luan-e-geromel-no-gremio",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-09-19",
+      "eventDate": "2017-09-20",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Likely XI for the Libertadores quarter-final second leg v Botafogo: \"Marcelo Grohe; Edílson, Pedro Geromel, Kannemann e Cortez; Michel, Arthur, Fernandinho, Ramiro e Luan (Léo Moura, Everton ou Arroyo); Barrios.\" Full-backs Edílson and Cortez; Luan's slot is listed with Léo Moura, Everton or Arroyo as alternatives. The article gives no wide/inside role description.",
+      "verified": true
+    },
+    {
+      "title": "Renato fecha treino e faz mistério sobre escalação de Luan e Geromel no Grêmio",
+      "url": "https://www.meon.com.br/noticias/meon/esporte/brasil-mundo/renato-fecha-treino-e-faz-misterio-sobre-escalacao-de-luan-e-geromel-no-gremio",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-09-19",
+      "eventDate": "2017-09-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "\"No Rio, Renato optou por Léo Moura\" (first leg v Botafogo, 0-0, without Luan and Geromel); for the second leg he \"pode escolher uma alternativa mais ofensiva, como Everton ou Arroyo\". Renato: \"Não pode ficar somente no plano A, tem que ter o plano B também.\"",
+      "verified": true
+    },
+    {
+      "title": "Luan: temporada 2017 é um divisor de águas para o \"Messi\" tricolor",
+      "url": "https://www.goal.com/story/brasileirao-2017-luan-melhor-atacante/1fh02g7nj5twv1kzart7egu2nm/index.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "\"Após ser usado como um falso nove na última temporada, Luan foi deslocado para o meio, recebendo a responsabilidade de criar as jogadas do time de Renato Gaúcho.\" \"Sem o veterano Douglas, lesionado, Luan virou o 'cérebro' do Grêmio em 2017\"; strength: \"movimentar-se entre as linhas do sistema defensivo adversário\".",
+      "verified": true
+    },
+    {
+      "title": "Torcedores - Papo tático: a estrela de Renato Gaúcho na vitória do Grêmio no primeiro round da final",
+      "url": "https://www.torcedores.com/noticias/2017/11/papo-tatico-estrela-de-renato-gaucho-na-vitoria-do-gremio-no-primeiro-round-da-final-da-libertadores-da-america",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2017-11",
+      "eventDate": "2017-11-22",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Only seen in a search summary (miner returned page navigation, not the article): Fernandinho replaced by Everton at 58 min of the 1st leg final, Everton tracking the opposing right-back's runs. Not verified.",
+      "verified": false
     }
   ],
   "statedView": [
@@ -258,6 +406,13 @@ After writing the file, reply only with "OK team:gremio-2017" and a 1-line summa
       "source": "https://www.gazetaesportiva.com/gremio/renato-nao-se-ve-desatualizado-futebol-e-como-andar-de-bicicleta/",
       "provenance": "primary",
       "note": "Earliest appearance; the Bola na Rede piece (2017-06-22) repeats a variant. About his management, not his team's tactics."
+    },
+    {
+      "quote": "We saw it in Pachuca's previous game; their defenders are very tall but they're slower than us. So, he knew that he needed the speed of Fernandinho and me.",
+      "date": "2017-12-13",
+      "source": "Everton executes Renato's masterplan to perfection (https://www.inside.fifa.com/news/everton-cumple-con-el-plan-maestro-de-renato-gaucho-2924564-2924565)",
+      "provenance": "attributed",
+      "note": "Everton on Renato's plan; a player's account of the coach's view, not Renato's own words."
     }
   ],
   "unreadable": [
@@ -272,17 +427,33 @@ After writing the file, reply only with "OK team:gremio-2017" and a 1-line summa
     {
       "url": "https://en.wikipedia.org/wiki/2017_Primeira_Liga_(Brazil)",
       "reason": "404"
+    },
+    {
+      "url": "https://trivela.com.br/america-do-sul/libertadores/jogador-por-jogador-como-o-gremio-encaixou-as-pecas-e-montou-o-elenco-finalista-da-libertadores/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.fifa.com/clubworldcup/news/everton-cumple-con-el-plan-maestro-de-renato-gaucho-2924564-2924565",
+      "reason": "empty"
+    },
+    {
+      "url": "https://espndeportes.espn.com/futbol/reporte/_/juegoId/498268",
+      "reason": "empty"
+    },
+    {
+      "url": "https://africa.espn.com/football/story/_/id/37486956/cicero-hands-gremio-advantage-copa-libertadores-final-first-leg",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.fifa.com/tournaments/mens/clubworldcup/uae2017/news/renato-gaucho-bringing-belief-to-gremio-2920869",
+      "reason": "empty"
     }
   ],
   "gaps": {
     "dimensions": [
-      "defensive-block",
-      "width",
       "set-pieces"
     ],
-    "axes": [
-      "lar"
-    ]
+    "axes": []
   },
   "influences": [
     {
@@ -293,7 +464,7 @@ After writing the file, reply only with "OK team:gremio-2017" and a 1-line summa
   ],
   "confidence": {
     "level": "low",
-    "reason": "All evidence is tier C Brazilian/Portuguese press for 2017 (Goal BR, Trivela, Bola na Rede, Lance); no tier A–B season analysis was found (searches returned only 2019–2024 analyses). Pressing and game management rest on single matches; marking orientation, block depth, width and set pieces are undocumented."
+    "reason": "Width now has verified (tier C) evidence from the Libertadores final report and FIFA's Club World Cup piece, but still no tier A-B analysis, no crossing data and no full-back role description; pressing, block depth and game management rest on single matches; marking and set pieces undocumented."
   }
 }
 
@@ -579,3 +750,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: A coach's role is more about looking after people than giving orders.
    Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
    Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

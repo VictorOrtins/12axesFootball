@@ -1,0 +1,138 @@
+{
+  "id": "alex-ferguson",
+  "catalog": "manager",
+  "name": "Alex Ferguson",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1974-10-01",
+    "end": "2013-05"
+  },
+  "scopeNote": "Manager profile of Sir Alex Ferguson across three counted spells: St Mirren (October 1974 to 1978: First Division 1977), Aberdeen (June 1978 to 1986: three league titles, four Scottish Cups, 1983 Cup Winners' Cup) and Manchester United (6 November 1986 to the end of the 2012-13 season: 13 Premier League titles, five FA Cups, two Champions Leagues). Dates from the Wikipedia career table; the Manchester United end is given as the season's end (no day in the page read). Excluded: none beyond the East Stirlingshire spell (1974, no dates). Style: the evidence supports wingers in a 4-4-2 structure at Manchester United (Kanchelskis, Giggs), a valued youth policy and a siege mentality at Aberdeen. The formation and marking facts are not in the pages read; the tactical sources found (Football Manager pages and opinion blogs) were not counted.",
+  "spellsCounted": [
+    {
+      "club": "St Mirren",
+      "start": "1974-10-01",
+      "end": "1978-05-31",
+      "reason": "First Division champions 1977 and the attacking football the page describes."
+    },
+    {
+      "club": "Aberdeen",
+      "start": "1978-06-01",
+      "end": "1986-10-31",
+      "reason": "Three league titles and the 1983 Cup Winners' Cup."
+    },
+    {
+      "club": "Manchester United",
+      "start": "1986-11-06",
+      "end": "2013-05",
+      "reason": "Thirteen Premier League titles, five FA Cups and two Champions Leagues; the sides he is known for."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "East Stirlingshire",
+      "start": "1974-06-01",
+      "end": "1974-09-30",
+      "reason": "Short spell, no titles, no dates beyond the start."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Formation and marking across the 1986-2013 spell are not documented by a tier A-B source read in this run."
+  ],
+  "sources": [
+    {
+      "title": "Alex Ferguson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-17",
+      "dimension": "width",
+      "evidence": "\"Kanchelskis was signed for the right wing, 'giving him a more attacking alternative to older midfielders.'\" (Manchester United, 1991-92)",
+      "verified": true
+    },
+    {
+      "title": "Alex Ferguson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1998",
+      "accessedOn": "2026-10-17",
+      "dimension": "width",
+      "evidence": "\"Giggs moved to the right wing and Blomqvist started on the left, with 'changes the manager felt would prevent the opposition from playing narrow.'\" (Manchester United, 1998-99)",
+      "verified": true
+    },
+    {
+      "title": "Alex Ferguson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1990",
+      "accessedOn": "2026-10-17",
+      "dimension": "squad-building",
+      "evidence": "\"often credited for valuing youth during his time at Manchester United\" (Manchester United, 1990s)",
+      "verified": true
+    },
+    {
+      "title": "Alex Ferguson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1980",
+      "accessedOn": "2026-10-17",
+      "dimension": "people-management",
+      "evidence": "\"siege mentality\" used to motivate the team (Aberdeen, 1980s)",
+      "verified": true
+    },
+    {
+      "title": "Alex Ferguson - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1979",
+      "accessedOn": "2026-10-17",
+      "dimension": "people-management",
+      "evidence": "\"I finally had the players believing in me.\" (Aberdeen, 1979-80)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "stated-view",
+      "transitions"
+    ],
+    "axes": [
+      "blo",
+      "est",
+      "jog",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Dated career table and five dated facts about wingers and squad, read on the Wikipedia career section; the tactical analysis is undocumented."
+  }
+}

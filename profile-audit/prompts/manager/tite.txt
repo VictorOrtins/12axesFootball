@@ -47,23 +47,11 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
   "name": "Tite (Adenor Leonardo Bacchi)",
   "researchedOn": "2026-11-02",
   "profilePeriod": {
-    "start": "2010-12-01",
+    "start": "2016-06-20",
     "end": "2022-12-09"
   },
-  "scopeNote": "Counted: Corinthians 2010-2013 (Brasileirao 2011, Libertadores and Club World Cup 2012; sources describe a compact, defensive side that scored little), Corinthians 2015-Jun 2016 (Brasileirao 2015; sources call the shape 4-1-4-1 with triangular combinations) and Brazil Jun 2016-Dec 2022 (4-1-4-1 flexing to 4-3-3, zonal marking confirmed by assistant Cleber Xavier at the 2018 World Cup). Start/end dates for Corinthians 2010-13 and the Brazil exit are from memory and unconfirmed (see openQuestions). Excluded: Gremio 2001-03 (Copa do Brasil 2001, 3-5-2 'retranqueiro' per Goal, but a single source and early career), Internacional 2008-09 (4-man defence, only thin coverage), Flamengo 2023-24 (no major title, outside the profile of his known style), Palmeiras, Atletico-MG, Al Ain, Sao Caetano. Sources use '4-1-4-1', 'zonal defence', 'triangular combinations'; a popular label 'retranqueiro/empatite' refers to the pre-2015 Corinthians and 2001 Gremio, not to Brazil.",
+  "scopeNote": "Narrowed on 2026-11-04 (user decision): only Brazil 2016-22 is counted; both Corinthians spells are excluded and their sources stay in the file as context with verified false. Counted: Corinthians 2010-2013 (Brasileirao 2011, Libertadores and Club World Cup 2012; sources describe a compact, defensive side that scored little), Corinthians 2015-Jun 2016 (Brasileirao 2015; sources call the shape 4-1-4-1 with triangular combinations) and Brazil Jun 2016-Dec 2022 (4-1-4-1 flexing to 4-3-3, zonal marking confirmed by assistant Cleber Xavier at the 2018 World Cup). Start/end dates for Corinthians 2010-13 and the Brazil exit are from memory and unconfirmed (see openQuestions). Excluded: Gremio 2001-03 (Copa do Brasil 2001, 3-5-2 'retranqueiro' per Goal, but a single source and early career), Internacional 2008-09 (4-man defence, only thin coverage), Flamengo 2023-24 (no major title, outside the profile of his known style), Palmeiras, Atletico-MG, Al Ain, Sao Caetano. Sources use '4-1-4-1', 'zonal defence', 'triangular combinations'; a popular label 'retranqueiro/empatite' refers to the pre-2015 Corinthians and 2001 Gremio, not to Brazil.",
   "spellsCounted": [
-    {
-      "club": "Corinthians",
-      "start": "2010-12-01",
-      "end": "2013-12-01",
-      "reason": "Brasileirao 2011, Libertadores and Club World Cup 2012; compact 4-line defence style (dates from memory, see openQuestions)"
-    },
-    {
-      "club": "Corinthians",
-      "start": "2014-12-15",
-      "end": "2016-06-20",
-      "reason": "Brasileirao 2015; 4-1-4-1 with triangulations; left for Brazil job (dates from memory)"
-    },
     {
       "club": "Brazil",
       "start": "2016-06-20",
@@ -89,6 +77,18 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "start": "2023",
       "end": "2024",
       "reason": "no major title, outside the known-for periods"
+    },
+    {
+      "club": "Corinthians",
+      "start": "2010-12-01",
+      "end": "2013-12-01",
+      "reason": "excluded on 2026-11-04 to narrow the profile (user decision): Brasileirao 2011, Libertadores and Club World Cup 2012; compact 4-line defence style (dates from memory, see openQuestions)"
+    },
+    {
+      "club": "Corinthians",
+      "start": "2014-12-15",
+      "end": "2016-06-20",
+      "reason": "excluded on 2026-11-04 to narrow the profile (user decision): Brasileirao 2015; 4-1-4-1 with triangulations; left for Brazil job (dates from memory)"
     }
   ],
   "ambiguities": [],
@@ -111,8 +111,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2011/12",
       "accessedOn": "2026-11-02",
       "dimension": "shape",
-      "evidence": "he experimented with formations – 4-2-3-1, 4-3-1-2 and 4-4-2 – but all were built on a narrow and compact defensive line of four.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] he experimented with formations – 4-2-3-1, 4-3-1-2 and 4-4-2 – but all were built on a narrow and compact defensive line of four.",
+      "verified": false
     },
     {
       "title": "Coach Watch: Tite - Coaches' Voice",
@@ -123,8 +123,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2012",
       "accessedOn": "2026-11-02",
       "dimension": "defensive-block",
-      "evidence": "Full-backs and central defenders must always play in the same rhythm, and always be in line – it was this approach that denied a young Neymar the spaces he so loves to attack in Corinthians’ Copa Libertadores semi-final victory over Santos in 2012",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Full-backs and central defenders must always play in the same rhythm, and always be in line – it was this approach that denied a young Neymar the spaces he so loves to attack in Corinthians’ Copa Libertadores semi-final victory over Santos in 2012",
+      "verified": false
     },
     {
       "title": "Coach Watch: Tite - Coaches' Voice",
@@ -135,8 +135,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2012",
       "accessedOn": "2026-11-02",
       "dimension": "possession",
-      "evidence": "In possession, Tite favoured a simple attacking approach featuring frequent combinations between full-backs and wingers. In a 4-2-3-1 system, one central midfielder should maintain his positioning to protect the defence; the other was expected to make late runs to support the front line.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] In possession, Tite favoured a simple attacking approach featuring frequent combinations between full-backs and wingers. In a 4-2-3-1 system, one central midfielder should maintain his positioning to protect the defence; the other was expected to make late runs to support the front line.",
+      "verified": false
     },
     {
       "title": "Coach Watch: Tite - Coaches' Voice",
@@ -147,8 +147,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "width",
-      "evidence": "This shape also featured a ‘false 10’ on the right side of midfield (...) Jadson to start on the right side, but in possession come inside and combine with the likes of Renato Augusto, Elias, Malcom and Vágner Love. Those inside movements also created space for the right-back, most often Fagner, to join the attacks out wide.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] This shape also featured a ‘false 10’ on the right side of midfield (...) Jadson to start on the right side, but in possession come inside and combine with the likes of Renato Augusto, Elias, Malcom and Vágner Love. Those inside movements also created space for the right-back, most often Fagner, to join the attacks out wide.",
+      "verified": false
     },
     {
       "title": "Coach Watch: Tite - Coaches' Voice",
@@ -243,8 +243,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2011/12",
       "accessedOn": "2026-11-02",
       "dimension": "shape",
-      "evidence": "In five years across three spells at Corinthians, he tested at least five different systems.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] In five years across three spells at Corinthians, he tested at least five different systems.",
+      "verified": false
     },
     {
       "title": "Tite é do Flamengo! Lembre como jogavam times importantes - Lance!",
@@ -255,8 +255,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "build-up",
-      "evidence": "O Corinthians de 2015 tinha duas variações na saída de bola. Na primeira, Ralf era um volante de contenção entre quatro meias e fazia uma saída de três, à frente e próximo aos dois defensores.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] O Corinthians de 2015 tinha duas variações na saída de bola. Na primeira, Ralf era um volante de contenção entre quatro meias e fazia uma saída de três, à frente e próximo aos dois defensores.",
+      "verified": false
     },
     {
       "title": "Tite é do Flamengo! Lembre como jogavam times importantes - Lance!",
@@ -267,8 +267,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "pressing",
-      "evidence": "Na parte da marcação, o Corinthians não tinha um bloco necessariamente alto. As linhas de defesa eram bem postadas no esquema 4-1-4-1. O esquema concentrava uma pressão maior no meio-campo e no campo defensivo. Mas também, o Timão, tinha uma pressão pós-perda",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Na parte da marcação, o Corinthians não tinha um bloco necessariamente alto. As linhas de defesa eram bem postadas no esquema 4-1-4-1. O esquema concentrava uma pressão maior no meio-campo e no campo defensivo. Mas também, o Timão, tinha uma pressão pós-perda",
+      "verified": false
     },
     {
       "title": "Tite é do Flamengo! Lembre como jogavam times importantes - Lance!",
@@ -363,8 +363,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2012",
       "accessedOn": "2026-11-02",
       "dimension": "defensive-block",
-      "evidence": "And that, too, was a result earned through a dogged, defensive showing, albeit with a genuine centre-forward following the arrival of Paolo Guerrero.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] And that, too, was a result earned through a dogged, defensive showing, albeit with a genuine centre-forward following the arrival of Paolo Guerrero.",
+      "verified": false
     },
     {
       "title": "'I was fired from almost every job I've ever had' - Goal",
@@ -375,8 +375,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2012",
       "accessedOn": "2026-11-02",
       "dimension": "people-management",
-      "evidence": "Vital to the unprecedented success of this Corinthians side was the structural and tactical harmony Tite fostered in his squad. With no big names, no superstars demanding attention both on and off the field, the Timao hit the big time with the little guys.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Vital to the unprecedented success of this Corinthians side was the structural and tactical harmony Tite fostered in his squad. With no big names, no superstars demanding attention both on and off the field, the Timao hit the big time with the little guys.",
+      "verified": false
     },
     {
       "title": "'I was fired from almost every job I've ever had' - Goal",
@@ -387,8 +387,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "pressing",
-      "evidence": "They placed a much greater emphasis on ball possession, pushed considerably higher up the pitch, pressed, and looked to punish the opposition in quick transitions, while the two wide forwards were given some freedom to roam.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] They placed a much greater emphasis on ball possession, pushed considerably higher up the pitch, pressed, and looked to punish the opposition in quick transitions, while the two wide forwards were given some freedom to roam.",
+      "verified": false
     },
     {
       "title": "'I was fired from almost every job I've ever had' - Goal",
@@ -399,8 +399,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "shape",
-      "evidence": "a considerably more attacking 4-5-1 than the shape offered his previous sides. Vagner Love led the line, and was flanked by the creative Jadson and the flying Malcom. Renato Augusto conducted the play from the midfield, alongside box-to-box midfielder Elias.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] a considerably more attacking 4-5-1 than the shape offered his previous sides. Vagner Love led the line, and was flanked by the creative Jadson and the flying Malcom. Renato Augusto conducted the play from the midfield, alongside box-to-box midfielder Elias.",
+      "verified": false
     },
     {
       "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
@@ -411,8 +411,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "shape",
-      "evidence": "Tite has experimented with a few formations – last season’s 4-2-3-1, 4-5-1, even trying something as adventurous as playing two strikers up front – but he has settled on 4-1-4-1, which provides defensive rigidity as well as ample space further forward for the midfielders to burst into.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Tite has experimented with a few formations – last season’s 4-2-3-1, 4-5-1, even trying something as adventurous as playing two strikers up front – but he has settled on 4-1-4-1, which provides defensive rigidity as well as ample space further forward for the midfielders to burst into.",
+      "verified": false
     },
     {
       "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
@@ -423,8 +423,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "transitions",
-      "evidence": "This understanding means they feel comfortable to sit back and soak pressure, confident in their structure, and then spring forward on the counter.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] This understanding means they feel comfortable to sit back and soak pressure, confident in their structure, and then spring forward on the counter.",
+      "verified": false
     },
     {
       "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
@@ -435,8 +435,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "pressing",
-      "evidence": "The 4-1-4-1 system itself though is set up to be compact with two lines of four, with the pitbull that is Ralf in between defence and midfield to mop up any danger that slips through the cracks. His marking job on Ganso is the primary reason why São Paulo have failed to score against Corinthians on two occasions so far this year.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] The 4-1-4-1 system itself though is set up to be compact with two lines of four, with the pitbull that is Ralf in between defence and midfield to mop up any danger that slips through the cracks. His marking job on Ganso is the primary reason why São Paulo have failed to score against Corinthians on two occasions so far this year.",
+      "verified": false
     },
     {
       "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
@@ -447,8 +447,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "squad-building",
-      "evidence": "The manager has rotated sensibly to keep the squad fresh in the gruelling Brazilian football schedule, meaning he has mainly played mixed-strength or reserve teams in the Campeonato Paulista.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] The manager has rotated sensibly to keep the squad fresh in the gruelling Brazilian football schedule, meaning he has mainly played mixed-strength or reserve teams in the Campeonato Paulista.",
+      "verified": false
     },
     {
       "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
@@ -459,8 +459,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "player-profile",
-      "evidence": "Petros seems like the type of player Tite would love – versatile, tenacious and hard-working – but he has been regularly shunned this year, while 18-year old Malcom is an out-and-out forward who lacks the stamina and defensive discipline to play in a deeper role.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Petros seems like the type of player Tite would love – versatile, tenacious and hard-working – but he has been regularly shunned this year, while 18-year old Malcom is an out-and-out forward who lacks the stamina and defensive discipline to play in a deeper role.",
+      "verified": false
     },
     {
       "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
@@ -471,8 +471,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "game-management",
-      "evidence": "On three occasions this year, against Once Caldas, Palmeiras and São Paulo – each one a big game – they have gone down to ten men and yet their record for these periods reads: 131 minutes played, 3 scored, 0 conceded. (...) the formation simply became a 4-4-1 and they continued to be very difficult to break down.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] On three occasions this year, against Once Caldas, Palmeiras and São Paulo – each one a big game – they have gone down to ten men and yet their record for these periods reads: 131 minutes played, 3 scored, 0 conceded. (...) the formation simply became a 4-4-1 and they continued to be very difficult to break down.",
+      "verified": false
     },
     {
       "title": "Is another World Cup-winning Brazil squad on the horizon and is Tite the man for the job? - These Football Times",
@@ -495,8 +495,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "shape",
-      "evidence": "Tite’s Corinthians side of 2015 won the Brasileiro and used a 4-1-4-1 formation that relied on organised defending, playing on the break if necessary, but most of all, passing.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Tite’s Corinthians side of 2015 won the Brasileiro and used a 4-1-4-1 formation that relied on organised defending, playing on the break if necessary, but most of all, passing.",
+      "verified": false
     },
     {
       "title": "Is another World Cup-winning Brazil squad on the horizon and is Tite the man for the job? - These Football Times",
@@ -675,8 +675,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2011/12",
       "accessedOn": "2026-11-02",
       "dimension": "defensive-block",
-      "evidence": "Tite montou um time que marcava poucos gols mas conseguia fazer com que geralmente bastassem, pois seu sistema defensivo era quase inexpugnável. A fórmula funcionava, mas não deslumbrava.",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Tite montou um time que marcava poucos gols mas conseguia fazer com que geralmente bastassem, pois seu sistema defensivo era quase inexpugnável. A fórmula funcionava, mas não deslumbrava.",
+      "verified": false
     },
     {
       "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
@@ -687,8 +687,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "transitions",
-      "evidence": "o time voltou a praticar o mesmo futebol do início do ano, com o 4-1-4-1 como esquema principal, mais a flexibilidade para adotar instantaneamente alternativas ao sabor das circunstâncias. Troca de passes eficiente e rápida, excelente concatenação dos contra-ataques, muitas jogadas ensaiadas",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] o time voltou a praticar o mesmo futebol do início do ano, com o 4-1-4-1 como esquema principal, mais a flexibilidade para adotar instantaneamente alternativas ao sabor das circunstâncias. Troca de passes eficiente e rápida, excelente concatenação dos contra-ataques, muitas jogadas ensaiadas",
+      "verified": false
     },
     {
       "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
@@ -699,8 +699,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "squad-building",
-      "evidence": "na lapidação de jovens promissores como Luciano, Rodriguinho e Lucca (os dois últimos a caminho do estrelato",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] na lapidação de jovens promissores como Luciano, Rodriguinho e Lucca (os dois últimos a caminho do estrelato",
+      "verified": false
     },
     {
       "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
@@ -711,8 +711,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "people-management",
-      "evidence": "Foi quando o bom relacionamento de Tite com os jogadores salvou a pátria alvinegra. Por acreditarem no seu técnico, rejeitaram ofertas vantajosas e esforçaram-se muito para viabilizar a recuperação",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] Foi quando o bom relacionamento de Tite com os jogadores salvou a pátria alvinegra. Por acreditarem no seu técnico, rejeitaram ofertas vantajosas e esforçaram-se muito para viabilizar a recuperação",
+      "verified": false
     },
     {
       "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
@@ -723,8 +723,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2015",
       "accessedOn": "2026-11-02",
       "dimension": "game-management",
-      "evidence": "nas mudanças efetuadas ao longo das partidas, quase sempre para melhor (é frequente a participação dos substitutos nos gols salvadores);",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] nas mudanças efetuadas ao longo das partidas, quase sempre para melhor (é frequente a participação dos substitutos nos gols salvadores);",
+      "verified": false
     },
     {
       "title": "Tite - revivalist, revolutionary or reactionary? - Yahoo Sports",
@@ -747,8 +747,8 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "eventDate": "2014",
       "accessedOn": "2026-11-02",
       "dimension": "stated-view",
-      "evidence": "“It allowed me the time to study and to ensure I did not rest on my laurels,” he told Brasil Global Tour . “That is what I look for, to give me the fuel to improve, to add more to myself as a coach, to evolve and make sure I keep evolving.”",
-      "verified": true
+      "evidence": "[Outside the counted spells, kept as context] “It allowed me the time to study and to ensure I did not rest on my laurels,” he told Brasil Global Tour . “That is what I look for, to give me the fuel to improve, to add more to myself as a coach, to evolve and make sure I keep evolving.”",
+      "verified": false
     },
     {
       "title": "LeBron James was the blueprint for Tite's Brazil success - FourFourTwo",
@@ -760,6 +760,222 @@ After writing the file, reply only with "OK manager:tite" and a 1-line summary. 
       "accessedOn": "2026-11-02",
       "dimension": "stated-view",
       "evidence": "Tite used the attitude of Cleveland Cavaliers icon LeBron James as the blueprint for the atmosphere and philosophy he wanted to develop in his Brazil squad. (...) \"I told my players, 'This is the kind of atmosphere we need here to be successful. Everyone fighting for one another, even the stars.'",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Brazil 2 Costa Rica 0 - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/tactics-brazil-costa-rica-neymar-coutinho/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-06-25",
+      "eventDate": "2018-06-22",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "Their 70 per cent possession was not only a result of their ability to keep the ball, but also the intensity and quality with which they won it back in transition.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/world-cup-brazil-tite-neymar/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "The team had lots of possession, but struggled against solid defensive systems – they needed two late goals to beat Costa Rica in the group stage, and failed to convince against Mexico in the last 16. Despite having 58 per cent of possession against Belgium in the quarter finals",
+      "verified": true
+    },
+    {
+      "title": "The rise of Philippe Coutinho ... Brazil's four-year recovery under Tite",
+      "url": "https://uk.news.yahoo.com/world-cup-2018-rise-philippe-085000468.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "2018-06-17",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "he was the one player who could dictate the tempo, vital to the possession-based approach his contemporary coach was eager to restore to Brazilian football.",
+      "verified": true
+    },
+    {
+      "title": "How England Helped Brazil By Assisting Tite's Capacity For Learning",
+      "url": "https://worldfootballindex.com/2018/06/brazil-tite-learned-from-england-and-europe/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-16",
+      "eventDate": "2017-11-14",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "Tite decided that a double pivot of Casemiro and Augusto was unnecessary against a deep block.",
+      "verified": true
+    },
+    {
+      "title": "The rise of Philippe Coutinho ... Brazil's four-year recovery under Tite",
+      "url": "https://uk.news.yahoo.com/world-cup-2018-rise-philippe-085000468.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "2018-06-17",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Casemiro was the pivot and Renato sat to conduct, leaving Paulinho shuttle up and down, timing late runs forward.",
+      "verified": true
+    },
+    {
+      "title": "The rise of Philippe Coutinho ... Brazil's four-year recovery under Tite",
+      "url": "https://uk.news.yahoo.com/world-cup-2018-rise-philippe-085000468.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "2017-11-14",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "The cerebral and elegant Renato Augusto, who'd been key to Tite's success, would be dropped.",
+      "verified": true
+    },
+    {
+      "title": "Silencing the critics - How Brazil boss Tite transformed Paulinho",
+      "url": "https://au.sports.yahoo.com/silencing-critics-brazil-boss-tite-233617787.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-09-19",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Paulinho has brought experience and organisation the midfield. He chases back, and dashes forward from his shuttling role, grabbing both goals and assists.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/world-cup-brazil-tite-neymar/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2017-03-23",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "it looked like Tite had settled on his ideal midfield three: Casemiro sitting behind Renato Augusto on the left, and Paulinho.",
+      "verified": true
+    },
+    {
+      "title": "Na estreia de Tite, Brasil faz 3 a 0 no Equador",
+      "url": "https://www.tnh1.com.br/noticia/nid/na-estreia-de-tite-brasil-faz-3-a-0-no-equador/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2016-09-01",
+      "eventDate": "2016-09-01",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Brasil: Alisson; Daniel Alves, Marquinhos, Miranda e Marcelo; Paulinho, Casemiro, Renato Augusto e Willian (Philippe Coutinho); Neymar e Gabriel Jesus.",
+      "verified": true
+    },
+    {
+      "title": "From World Cup favourites to rebuilding for Copa America - Brazil's 2018 - Goal.com",
+      "url": "https://www.goal.com/en/news/from-world-cup-favourites-to-rebuilding-for-copa-america---brazils-2018/1staq8awxptg41g693yho93mh3",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-11-30",
+      "eventDate": "2018-07-06",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Unbalanced with Coutinho, Neymar and Marcelo all operating on the left, Belgium exploited the space brilliantly through Kevin De Bruyne in the first period.",
+      "verified": true
+    },
+    {
+      "title": "3 changes Tite made to bring Brazil back to its best - theScore",
+      "url": "https://thescore.com/wcqcon/news/1264818",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-03-28",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Tite dumped Elias and Gustavo in favour of Paulinho, currently in China. He, Augusto, and lynchpin Casemiro now form Brazil's midfield trio.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/world-cup-brazil-tite-neymar/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2019",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "Tite instead relied more on his full-backs to occupy central areas in possession and to open spaces through midfield with short passing combinations. With this approach, Dani Alves and whoever plays on the left would operate almost as box-to-box midfielders.",
+      "verified": true
+    },
+    {
+      "title": "World Cup Preview: How Tite's flexible setup makes Brazil dangerous (The Football Faithful)",
+      "url": "https://thefootballfaithful.com/world-cup-preview-how-tites-flexible-setup-makes-brazil-dangerous/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-11-15",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "Brazil tend to dominate possession in most games, methodically working the ball until a quick burst of movement and interchange can create a chance.",
+      "verified": true
+    },
+    {
+      "title": "World Cup Preview: How Tite's flexible setup makes Brazil dangerous (The Football Faithful)",
+      "url": "https://thefootballfaithful.com/world-cup-preview-how-tites-flexible-setup-makes-brazil-dangerous/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-11-15",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Paqueta, another nominal central midfielder, has a much more offensive role. He drives forward with the ball, makes runs into the box to pose as a late-arriving goal threat, and spends lots of time in the half spaces as a creative focal point.",
+      "verified": true
+    },
+    {
+      "title": "World Cup Preview: How Tite's flexible setup makes Brazil dangerous (The Football Faithful)",
+      "url": "https://thefootballfaithful.com/world-cup-preview-how-tites-flexible-setup-makes-brazil-dangerous/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-11-15",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "In midfield, Fred often drifts to the left wide space to provide defensive cover for the fullback and winger on that flank.",
+      "verified": true
+    },
+    {
+      "title": "Tite admite preocupação com Neymar e explica nova função do craque na seleção brasileira (Jovem Pan)",
+      "url": "https://jovempan.com.br/esportes/futebol/tite-admite-preocupacao-com-neymar-e-explica-nova-funcao-do-craque-na-selecao-brasileira/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-03-23",
+      "eventDate": "2022-03-23",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "O Neymar tem uma estrutura há bastante tempo na seleção para potencializar a criatividade dele. Cada um trabalha em seu setor para que ele possa ter a criatividade em seu setor.",
+      "verified": true
+    },
+    {
+      "title": "Vinicius Junior returns to Brazil squad as Tite rotates youngsters (Stadium Astro)",
+      "url": "https://english.stadiumastro.com/football/vinicius-junior-returns-brazil-squad-tite-rotates-youngsters-178360",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-10-24",
+      "eventDate": "2020-10-23",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "[Vinicius] is a player that offers width, goes one on one, has extraordinary physical attributes. Say a normal car has five gears – he has six or seven.",
+      "verified": true
+    },
+    {
+      "title": "Brazil at the 2022 FIFA World Cup (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brazil_at_the_2022_FIFA_World_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-12-27",
+      "eventDate": "2022-11",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "| 3 | DF | Thiago Silva (captain) | 22 September 1984 (aged 38) | 109 | 7 | Chelsea |",
       "verified": true
     }
   ],

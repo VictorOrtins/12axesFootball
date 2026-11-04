@@ -1,0 +1,719 @@
+{
+ "id": "liverpool-2018-19",
+ "catalog": "team",
+ "name": "Liverpool 2018/19",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2018-08-12",
+  "end": "2019-06-01"
+ },
+ "scopeNote": "Liverpool under Jürgen Klopp, 2018/19: 97 PL points (2nd), Champions League winners (2-0 v Tottenham, 1 June 2019). Period = first competitive match (PL v West Ham, 12 Aug 2018; pre-season friendlies excluded) to the final. Style term used by sources: gegenpressing / counter-pressing, 'organised chaos' (Melwood term, Goal Feb 2019); 'heavy metal football' is Klopp's own phrase vs Wenger's possession football (c.2013). Season-specific features: Fabinho and Keita signed, 4-3-3 with a switch to 4-2-3-1 (Firmino roving No.10, Salah No.9, Shaqiri on the right) in autumn/winter 2018, abandoned in winter; Alisson as sweeper-keeper and long passer; more controlled, less vertical than 2017/18 per Alisson. Coaches' Voice is a 2024 retrospective but states 2018/19 facts. Set-piece defending marking system for 2018/19 not verified from a reliable source (only an FM Scout blog describing a zonal/man hybrid); PPDA figures not verified from an accessible page.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Marking at defensive corners in 2018/19: only an FM Scout blog (tier D) describes a zonal + man hybrid with three zonal at the six-yard box, two post men, four man-markers and one outlet; Klopp's own quote (Monday Night Football 2016/17) says he moved away from Dortmund man-marking. No tier A-C 2018/19 source found.",
+  "PPDA: Tifo/This Is Anfield summary gives 8.05 (16/17), 9.45 (17/18), 10.08 (18/19) but the page was 403; Premier League site gives 11.2 for 2017/18 (different definition). Do not mix definitions.",
+  "Heavy-metal link: Goal (2021) ties 'heavy metal football' to gegenpress, high line, front three and attacking full-backs and cites 2018/19 points record; but 2018/19 sources (Premier League Nov 2018, Alisson in SI, Tifo) describe a less relentless, more controlled press than 2016-18. Candidate team link for heavy-metal-football is therefore weaker than 2016/17 or 2017/18 on pressing; stronger on front three, full-back width and transitions.",
+  "Distinctness from 2021/22: 2018/19 had a 4-3-3 with Fabinho/Henderson/Wijnaldum, a stretch of 4-2-3-1, Alisson long passing, no Diogo Jota/Thiago; 60% possession or more (Coaches' Voice). Build-up detail (long balls to the front three) is thin: only Alisson's 172 accurate long passes and 'back to front incisiveness'.",
+  "Alexander-Arnold inverting to midfield and 3-2 build-up in Coaches' Voice belongs to 2022-24, not 2018/19; not recorded.",
+  "Several Coaches' Voice facts come from a 2024 retrospective; set-pieces line about full-backs' deliveries is not dated precisely to 2018/19.",
+  "Squad age: only FourFourTwo's 'just reaching or not yet at their prime'; no exact average age found.",
+  "Pressure/PPDA and corner-taker data (Alexander-Arnold corners) not found beyond the Barcelona quick corner and Coaches' Voice line."
+ ],
+ "sources": [
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Moving into the 2018/19 season, his side were still averaging 60 per cent possession or above, with full-backs Trent Alexander-Arnold and Andy Robertson now key figures.",
+   "verified": true
+  },
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "These two worked high up the pitch, giving Liverpool an additional edge to their attacks. This complemented Salah and Mané’s dribbles, intelligent positioning and inward runs off the ball, as well as the continued dropping of Firmino.",
+   "verified": true
+  },
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Alexander-Arnold ranked joint-third for assists in the 2018/19 Premier League, with Robertson fifth.",
+   "verified": true
+  },
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "At least one of the midfielders — usually the number eights — would usually also make a forward run",
+   "verified": true
+  },
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "The full-backs’ deliveries from set-pieces were also a valuable element of Klopp’s attack.",
+   "verified": true
+  },
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "the narrow front line — most commonly Salah, Mané and Firmino — proved their worth. For a period they were probably the most effective front three in world football.",
+   "verified": true
+  },
+  {
+   "title": "The evolution of Jürgen Klopp's tactics at Liverpool - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jurgen-klopp-tactics-liverpool/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "But it was their attacking transitions, with Mané, Coutinho and Firmino, that made them such an attacking force.",
+   "verified": false
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "We found a good solution to change to 4-4-2 (4-2-3-1). And from that moment it helped so much, and then you saw the real Fabinho.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Firmino, meanwhile, has seen his role evolve too, often finding himself as a roving No.10 in the 4-2-3-1 system, with Mohamed Salah used as the No.9.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "we both really agreeing on was how our midfield play could improve.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "that we could create a free player more easily, that we could find him in an easier way.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "“Organised chaos,” is a term used at Melwood to describe Klopp’s philosophy, but the chaos has not always been matched by the organisation.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Inside the ‘organised chaos’ that we want, that we like, he is like a lighthouse,” says Lijnders. “He controls it.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Gini is a player who can drop and create three at the back for a short period of time, bring the ball out, and at the same time turn in midfield and find somebody straight away in between the lines.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "His impulse of defending forward is absolutely of the highest level, elite.",
+   "verified": true
+  },
+  {
+   "title": "Fabinho, Salah and organising the chaos - Inside Liverpool's tactical evolution under Klopp | Goal.com UK",
+   "url": "https://www.goal.com/en-gb/news/fabinho-salah-and-organising-the-chaos-inside-liverpools/z2u85ts9k0q1kz3yg35brr4r",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-14",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Fabinho was recruited from Monaco to bolster Klopp’s midfield options. With Naby Keita arriving from RB Leipzig on July 1, Liverpool had spent more than £90 million",
+   "verified": false
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "We again saw new signings slowly being integrated, with Fabinho and (to some extent) Naby Keita showing exactly why they were identified as long-term signings for Liverpool, and not just to be thrown in from day one.",
+   "verified": true
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Signings are needed, despite Liverpool’s squad being full of players who are just reaching or not yet at their prime – in contrast to Manchester City’s squad.",
+   "verified": true
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Even backup goalkeeper Simon Mignolet, despite making just two appearances in domestic cup competitions, was an important part of the squad behind the scenes and acted as a perfect professional despite wanting to leave last summer.",
+   "verified": true
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Robertson and Trent Alexander-Arnold must be rested and rotated more effectively than they were this season.",
+   "verified": true
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Klopp shelved Xherdan Shaqiri from his rotation options in attack once he abandoned the 4-2-3-1 shape in winter.",
+   "verified": true
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2019-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "I'm really disappointed about your question. We don't play PlayStation.”",
+   "verified": true
+  },
+  {
+   "title": "5 things we've learned about Liverpool in 2018/19 - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-21",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "four draws in six league games – against Leicester, West Ham, Man United and Everton – are what ultimately proved decisive in the title race.",
+   "verified": true
+  },
+  {
+   "title": "Alisson saving points in Liverpool's title bid - premierleague.com",
+   "url": "https://www.premierleague.com/news/1197918",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-04-24",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Alisson has been a calming influence and his passing ability enables Liverpool to go from back to front with greater incisiveness.",
+   "verified": true
+  },
+  {
+   "title": "Alisson saving points in Liverpool's title bid - premierleague.com",
+   "url": "https://www.premierleague.com/news/1197918",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-04-24",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "His 172 accurate long passes this season are second only to Van Dijk for Liverpool",
+   "verified": true
+  },
+  {
+   "title": "Alisson saving points in Liverpool's title bid - premierleague.com",
+   "url": "https://www.premierleague.com/news/1197918",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-04-24",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Liverpool have conceded only 20 goals all season, fewer than any other team.",
+   "verified": true
+  },
+  {
+   "title": "Alisson saving points in Liverpool's title bid - premierleague.com",
+   "url": "https://www.premierleague.com/news/1197918",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-04-24",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Alisson has not been the busiest of goalkeepers, thanks in large to the impressive Liverpool defence marshalled by Virgil van Dijk.",
+   "verified": true
+  },
+  {
+   "title": "Outstanding Alisson the man to rival De Gea - premierleague.com (Adrian Clarke)",
+   "url": "https://premierleague.com/news/789387",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-07-29",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Liverpool’s ferocious pressing style means they often have to play with a high defensive line, but until now they have not had a goalkeeper who is natural at sweeping up.",
+   "verified": false
+  },
+  {
+   "title": "Alisson Reveals the Tactical Change Which Led to Liverpool's Champions League Win - SI",
+   "url": "https://www.si.com/soccer/2019/06/09/alisson-reveals-tactical-change-which-led-liverpools-champions-league-win",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-09",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "From last year to here, our team has evolved a lot. I can control when I have to control and we have worked more on ball possession.",
+   "verified": true
+  },
+  {
+   "title": "Alisson Reveals the Tactical Change Which Led to Liverpool's Champions League Win - SI",
+   "url": "https://www.si.com/soccer/2019/06/09/alisson-reveals-tactical-change-which-led-liverpools-champions-league-win",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-09",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Because it was very vertical [last season], we would take counter-attacks. This year we were more consistent, more knowledgeable in-game.",
+   "verified": true
+  },
+  {
+   "title": "Alisson Reveals the Tactical Change Which Led to Liverpool's Champions League Win - SI",
+   "url": "https://www.si.com/soccer/2019/06/09/alisson-reveals-tactical-change-which-led-liverpools-champions-league-win",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-09",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "we have this mix of midfield players who know how to control the game and know the right moment to accelerate, to tire the opponent a little and to manage the match.",
+   "verified": true
+  },
+  {
+   "title": "Alisson Reveals the Tactical Change Which Led to Liverpool's Champions League Win - SI",
+   "url": "https://www.si.com/soccer/2019/06/09/alisson-reveals-tactical-change-which-led-liverpools-champions-league-win",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-09",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "This more measured approach in their football led to the Reds keeping 21 league clean sheets this season, conceding a measly 22 goals.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool learning from life without high press - premierleague.com",
+   "url": "https://premierleague.com/news/915764",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-11-20",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "And yet, the result is an overall impression that the pressing has not been quite so relentless as before.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool learning from life without high press - premierleague.com",
+   "url": "https://premierleague.com/news/915764",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-11-20",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "the number of turnovers in possession that Liverpool are forcing in advanced areas is still high, among the top two totals in the Premier League this season.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool learning from life without high press - premierleague.com",
+   "url": "https://premierleague.com/news/915764",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-11-20",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "But the number of those turnovers that are ending in a shot on the opposition goal is remarkably low.",
+   "verified": true
+  },
+  {
+   "title": "Tifo PPDA figures via This Is Anfield (page 403, search summary only)",
+   "url": "https://thisisanfield.com/?p=217001",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-09",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Liverpool PPDA 16/17 (8.05), 17/18 (9.45), 18/19 (10.08); press eased as full-backs got attacking freedom (search summary only)",
+   "verified": false
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2018-08-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Liverpool's opening Premier League fixture was at Anfield against West Ham United on 12 August.",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-06-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "On 1 June, in their second successive Champions League Final, Liverpool defeated fellow English club Tottenham Hotspur 2–0",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-05-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Liverpool's total of 97 points was the highest number of points a second-placed team had ever finished with in the Premier League and in any of Europe's top league flights.",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-01-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Klopp made nine changes to the team, with only Milner and Lovren keeping their places from the defeat at City, giving first-team debuts to academy graduates Curtis Jones and Rafa Camacho and starting Fabinho at centre-back",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-01-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Ki-Jana Hoever (who had been signed for the academy in the summer), became the youngest-ever Liverpool player to debut for the first-team, at age 16.",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-05-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Origi struck again following a quickly taken corner from Alexander-Arnold, completely overturning the tie into the Reds' favour",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-05-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "substitute Origi headed in Shaqiri's free-kick as the Reds won 3–2",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2018-11-24",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "a free-kick goal from Trent Alexander-Arnold, who scored his first goal of the season.",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-03-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Ashley Westwood scored directly from a corner after just six minutes",
+   "verified": true
+  },
+  {
+   "title": "2018–19 Liverpool F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Liverpool_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06",
+   "eventDate": "2019-06-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "a poorly cleared corner found Origi just inside the penalty-area and he scored into the bottom right corner of the net",
+   "verified": true
+  },
+  {
+   "title": "Defending Corners: The Jürgen Klopp Way (FM19) | FM Scout",
+   "url": "https://www.fmscout.com/a-defending-corners-the-jurgen-klopp-way-fm19.html",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2018-10-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Does a system which uses both zonal marking and man marking work? Yes, it can work, if you have the players for it.",
+   "verified": false
+  },
+  {
+   "title": "Liverpool's set-piece problem under Jurgen Klopp must be addressed - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11669/10833681/liverpools-set-piece-problem-under-jurgen-klopp-must-be-addressed",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-04-13",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "At Dortmund we had a lot of man marking because we had a lot of tall players. Here, we had to find a different solution.",
+   "verified": false
+  },
+  {
+   "title": "Klopp rotation policy speaks volumes about squad - Rush the Kop",
+   "url": "https://rushthekop.com/2018/09/03/liverpool-leicester-premier-league-klopp-rotation-policy-squad",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2018-09-03",
+   "eventDate": "2018-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the former Manchester City man is now clearly a favourite of Klopp and you can see why.",
+   "verified": false
+  },
+  {
+   "title": "What is heavy metal football - Goal.com",
+   "url": "https://www.goal.com/en/news/what-is-heavy-metal-football--how-has-jurgen-klopp-used-it-at-liverpool/gvxzni0i7rne1enr3bayptwcr",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The crux of the approach for Klopp’s teams is that if you immediately lose the ball, you have to win it back instantly. This strategy involves a great deal of running and intense focus, with the defensive line played high and the players organised in packs in their hunt to regain possession of the ball.",
+   "verified": false
+  },
+  {
+   "title": "What is heavy metal football - Goal.com",
+   "url": "https://www.goal.com/en/news/what-is-heavy-metal-football--how-has-jurgen-klopp-used-it-at-liverpool/gvxzni0i7rne1enr3bayptwcr",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "While defending, Klopp teams have a high back line that populates the midfield, which allows the rest of the team to press for the ball through the centre",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "He [Arsene Wenger] likes having the ball, playing football, passes. It’s like an orchestra. But it’s a silent song. But I like heavy metal more. I always want it loud.",
+   "date": "2013",
+   "source": "https://www.goal.com/en/news/what-is-heavy-metal-football--how-has-jurgen-klopp-used-it-at-liverpool/gvxzni0i7rne1enr3bayptwcr (citing Daily Mail; year per search summaries, not on page)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "The best moment to win the ball is immediately after your team just lost it. The opponent is still looking for orientation where to pass the ball.",
+   "date": "2021-11-15",
+   "source": "https://www.goal.com/en/news/what-is-heavy-metal-football--how-has-jurgen-klopp-used-it-at-liverpool/gvxzni0i7rne1enr3bayptwcr (original date unknown; date is the article date)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I don’t like winning with 80 per cent (of possession). Sorry that is not enough for me. Fighting football, not serenity football, that is what I like.",
+   "date": "2021-11-15",
+   "source": "https://www.goal.com/en/news/what-is-heavy-metal-football--how-has-jurgen-klopp-used-it-at-liverpool/gvxzni0i7rne1enr3bayptwcr (original date unknown; date is the article date)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "no playmaker in the world can be as good as a good counter-pressing situation",
+   "date": "2024-01-31",
+   "source": "(original date unknown; article date) https://anfieldindex.com/?p=63031 ; https://premierleague.com/news/915764",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I'm really disappointed about your question. We don't play PlayStation.",
+   "date": "2019-03",
+   "source": "https://www.fourfourtwo.com/features/5-things-weve-learned-about-liverpool-201819",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "At Dortmund we had a lot of man marking because we had a lot of tall players. Here, we had to find a different solution.",
+   "date": "2017-04-13",
+   "source": "(said on Monday Night Football in 2016/17; article date) https://www.skysports.com/football/news/11669/10833681/liverpools-set-piece-problem-under-jurgen-klopp-must-be-addressed",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://thisisanfield.com/?p=217001",
+   "reason": "403"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=241711",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://medium.com/the-sports-scientist/how-do-you-defend-against-liverpool-36c1a6996638",
+   "reason": "403"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=119143",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.thisisanfield.com/?p=163760",
+   "reason": "404"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=73150",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Ralf Rangnick (Demba Ba says Hoffenheim side pioneered the approach; unverified in this file)",
+  "Klopp's Dortmund and Mainz gegenpressing"
+ ],
+ "managers": [
+  {
+   "managerId": "jurgen-klopp",
+   "start": "2018-08-12",
+   "end": "2019-06-01"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier A-B sources for shape, width, possession (Coaches Voice, Goal Feb 2019 with Lijnders) but set-piece defending, marking, PPDA and build-up detail rely on tier C or unverified pages"
+ }
+}

@@ -3,8 +3,11 @@
   "catalog": "manager",
   "name": "Mário Zagallo",
   "researchedOn": "2026-11-02",
-  "profilePeriod": {"start": "1970-03-16", "end": "1998-07-12"},
-  "scopeNote": "Zagallo as Brazil head coach in two spells: 1970-1974 (1970 World Cup win, 1974 fourth place) and 1994/95-1998 (1997 Copa America, 1997 Confederations Cup, 1998 World Cup final). The 1970 side is described by sources as a 4-2-4 on paper that played as a fluid/false 4-3-3 with five number tens (Wikipedia: fluid 4-2-3-1, 4-4-1-1 off the ball); the popular label of pure all-out attack is questioned by These Football Times, which says the team was tactically more careful than its myth. The 1998 side is a 4-2-2-2 with a double pivot (Coaches Voice). Excluded spells carry partial dates (years only) because exact days were not found. The 1994 role as technical coordinator under Parreira is excluded (not head coach). Start of spell 1 (16 March 1970) comes from a search summary of Revista Oeste/ESPN (page returned 403) and from FIFA's 75 days before the World Cup; the end dates are approximate (see openQuestions).",
+  "profilePeriod": {
+    "start": "1970-03-16",
+    "end": "1974-07-06"
+  },
+  "scopeNote": "Narrowed on 2026-11-04 (user decision): only the first Brazil spell (1970-74) is counted; the 1995-98 spell is excluded and its sources stay in the file as context with verified false. Zagallo as Brazil head coach in two spells: 1970-1974 (1970 World Cup win, 1974 fourth place) and 1994/95-1998 (1997 Copa America, 1997 Confederations Cup, 1998 World Cup final). The 1970 side is described by sources as a 4-2-4 on paper that played as a fluid/false 4-3-3 with five number tens (Wikipedia: fluid 4-2-3-1, 4-4-1-1 off the ball); the popular label of pure all-out attack is questioned by These Football Times, which says the team was tactically more careful than its myth. The 1998 side is a 4-2-2-2 with a double pivot (Coaches Voice). Excluded spells carry partial dates (years only) because exact days were not found. The 1994 role as technical coordinator under Parreira is excluded (not head coach). Start of spell 1 (16 March 1970) comes from a search summary of Revista Oeste/ESPN (page returned 403) and from FIFA's 75 days before the World Cup; the end dates are approximate (see openQuestions).",
   "ambiguities": [],
   "openQuestions": [
     "Exact start of the 1970 spell: 16 March 1970 comes from a search summary of Revista Oeste citing ESPN (page 403); FIFA says 75 days before the World Cup start (31 May), which computes to about 17 March. Check against a second primary source.",
@@ -19,74 +22,611 @@
     "The 1994 role under Parreira (World Cup win) is excluded as coordinator/assistant, not head coach. Single game in November 2002 (3-2 in South Korea, Wikipedia) excluded as too short."
   ],
   "sources": [
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "shape", "evidence": "Ahead of Clodoaldo, the team's single pivot, Zagallo selected a group of five attacking players who constantly interchanged positions. (...) As a collective, Zagallo used his so-called ‘Five 10s’ (below) in a dynamic, fluid attacking structure.", "verified": true},
-    {"title": "Mário Zagallo: Brazil's habitual World Cup winner", "url": "https://thesefootballtimes.co/2015/10/25/in-celebration-of-mario-zagallo-brazils-habitual-world-cup-winner/", "tier": "B", "language": "en", "articleDate": "2015-10-25", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "shape", "evidence": "The Seleção had qualified for the competition playing 4-2-4 – a formation Zagallo felt was out of date and would leave them exposed at a major international tournament. He would instead utilise a 4-3-3 – the same formation with which Brazil were victorious in 1958 – and brought the mesmerising talents of Rivellino into midfield.", "verified": true},
-    {"title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)", "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/", "tier": "C", "language": "pt", "articleDate": "2020-06-21", "eventDate": "1970-06", "accessedOn": "2026-11-02", "dimension": "shape", "evidence": "Não me afastaria um centímetro da minha ideia geral de jogo, que podem classificar de 4-3-3 anterior.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1998", "accessedOn": "2026-11-02", "dimension": "shape", "evidence": "The next-generation Brazil team Zagallo brought to the 1998 World Cup in France utilised a defined 4-2-2-2 formation. (...) Unlike in 1970, however, Zagallo now turned to a double pivot in midfield. Dunga and César Sampaio were to provide defensive solidity in front of potentially exposed centre-backs.", "verified": true},
-    {"title": "From beauty to beast: Brazil's transition from 1970 to 1974", "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/", "tier": "B", "language": "en", "articleDate": "2016-12-08", "eventDate": "1974", "accessedOn": "2026-11-02", "dimension": "shape", "evidence": "A heavily restructured squad, added to by Zagallo’s expectation for an overtly physical European show of intent, all meant that Brazil took a very different approach to the 1974 World Cup to the one they did in Mexico.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "build-up", "evidence": "Once Zagallo took over, however, he was moved back to play as a central defender. The idea was that Piazza's ability on the ball would improve the team’s build-up play from deep.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1998", "accessedOn": "2026-11-02", "dimension": "build-up", "evidence": "Also unlike the 1970 team, Zagallo’s 1998 vintage started the build-up from the goalkeeper. Claudio Taffarel’s ability with the ball at his feet allowed him to find either centre-back – Aldair or Júnior Baiano – or one of the central midfielders with the first pass.", "verified": true},
-    {"title": "Brazil, 1970 and the most beautiful football in history", "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/", "tier": "B", "language": "en", "articleDate": "2018-06-17", "eventDate": "1970-06-21", "accessedOn": "2026-11-02", "dimension": "possession", "evidence": "Zagallo expected the Italians to man-mark his players as the Uruguayans did before. To counter their measure, he instructed his men to keep possession and constantly pass the ball around to exhaust the Italians. It worked to perfection.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "possession", "evidence": "Zagallo had built a team to defend with the ball, however.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "pressing", "evidence": "He knew that the Mexican heat would make it almost impossible for teams to sustain high-pressing tactics against them.", "verified": true},
-    {"title": "Brazil, 1970 and the most beautiful football in history", "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/", "tier": "B", "language": "en", "articleDate": "2018-06-17", "eventDate": "1970-06-21", "accessedOn": "2026-11-02", "dimension": "pressing", "evidence": "Brazil moved fast. They did not focus on hogging the ball nor defending deep.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "defensive-block", "evidence": "Zagallo also wanted to compress the pitch as much as possible in the defensive phase. When they progressed into the opponents’ half, a covering back line of three – both centre-backs and usually Everaldo, the less attacking full-back would push up as high as the halfway line.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "defensive-block", "evidence": "When facing more structured attacks by their opponents, Brazil set up with a much lower block and dropped into a defensive shape more resembling a 4-4-1-1. The back four would start a few metres from the penalty area, with Gérson dropping alongside Clodoaldo into a midfield two ahead of them.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1998", "accessedOn": "2026-11-02", "dimension": "defensive-block", "evidence": "Brazil kept only one clean sheet at the 1998 World Cup – against Morocco, in the group stages – and conceded 10 goals across the whole tournament. No team in France that summer conceded more.", "verified": true},
-    {"title": "From beauty to beast: Brazil's transition from 1970 to 1974", "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/", "tier": "B", "language": "en", "articleDate": "2016-12-08", "eventDate": "1974", "accessedOn": "2026-11-02", "dimension": "defensive-block", "evidence": "Undone by a combination of their own zonal marking, a wider self-expression of footballing anger and the sheer brilliance of Rinus Michels’ total football.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "transitions", "evidence": "When they then won the ball back, Gérson was the player to whom they looked. A fine technician, he was capable of launching a quick counter-attack or holding possession while the team reorganised into its offensive shape.", "verified": true},
-    {"title": "From beauty to beast: Brazil's transition from 1970 to 1974", "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/", "tier": "B", "language": "en", "articleDate": "2016-12-08", "eventDate": "1974-06-13", "accessedOn": "2026-11-02", "dimension": "transitions", "evidence": "A tentative opening goalless draw against Yugoslavia was marked by Brazil operating a shoot-on-sight policy, as if too scared to swarm forward in high numbers, perhaps caught within the fear of falling for the threat of the counter-attack.", "verified": true},
-    {"title": "Brazil, 1970 and the most beautiful football in history", "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/", "tier": "B", "language": "en", "articleDate": "2018-06-17", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "width", "evidence": "Carlos Alberto was instructed to bomb down the right flank when Brazil were in possession, leaving Piazza, Brito and Everaldo to cover for the whole team.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1998", "accessedOn": "2026-11-02", "dimension": "width", "evidence": "Relying on the full-backs to offer attacking width in this way gave Zagallo the freedom to push the team’s two attacking midfielders into more central and potentially threatening areas.", "verified": true},
-    {"title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)", "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/", "tier": "C", "language": "pt", "articleDate": "2020-06-21", "eventDate": "1970-06", "accessedOn": "2026-11-02", "dimension": "width", "evidence": "Rivellino compreendeu que eu o queria na ponta esquerda, mas não como um ponta fixo, e sim alguém que executasse uma função de cobertura do setor.", "verified": true},
-    {"title": "Brazil, 1970 and the most beautiful football in history", "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/", "tier": "B", "language": "en", "articleDate": "2018-06-17", "eventDate": "1970-06-21", "accessedOn": "2026-11-02", "dimension": "set-pieces", "evidence": "Their first goal came from a throw-in. Taken short to Rivellino, he lofted it into the air towards Pelé. Brazil’s star man out-jumped his defender and headed the ball into the net", "verified": true},
-    {"title": "Brazil, 1970 and the most beautiful football in history", "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/", "tier": "B", "language": "en", "articleDate": "2018-06-17", "eventDate": "1970-06-14", "accessedOn": "2026-11-02", "dimension": "set-pieces", "evidence": "They could create chances in all forms, be it a short corner, a pass over the defence, overlapping runs from the full-backs", "verified": true},
-    {"title": "Mário Zagallo: Brazil's habitual World Cup winner", "url": "https://thesefootballtimes.co/2015/10/25/in-celebration-of-mario-zagallo-brazils-habitual-world-cup-winner/", "tier": "B", "language": "en", "articleDate": "2015-10-25", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "game-management", "evidence": "Zagallo took his team to Guanajuato for a 21-day training camp. The location was at a similar altitude to Mexico City where the World Cup final would be held. It played an important role in getting a team of undoubtedly gifted players into the best physical shape of their careers.", "verified": true},
-    {"title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)", "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/", "tier": "C", "language": "pt", "articleDate": "2020-06-21", "eventDate": "1970-06", "accessedOn": "2026-11-02", "dimension": "game-management", "evidence": "Slides, botões, conversa, usei tudo o que foi possível, para incutir no jogador a certeza de que não se vence Copa do Mundo com o trivial dos clubes.", "verified": true},
-    {"title": "Derrota brasileira na final da Copa de 1998 ainda gera discussão e polêmica (Jovem Pan)", "url": "https://jovempan.com.br/colunistas/thiago-uberreich/derrota-brasileira-na-final-da-copa-de-1998-ainda-gera-discussao-e-polemica/", "tier": "C", "language": "pt", "articleDate": "2025-07-10", "eventDate": "1998-07-12", "accessedOn": "2026-11-02", "dimension": "game-management", "evidence": "O “Fenômeno” foi liberado pelo técnico Zagallo, depois de insistir para que o treinador o colocasse em campo. (...) Edmundo entrou no lugar de César Sampaio e Denílson substituiu Leonardo.", "verified": true},
-    {"title": "From beauty to beast: Brazil's transition from 1970 to 1974", "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/", "tier": "B", "language": "en", "articleDate": "2016-12-08", "eventDate": "1974", "accessedOn": "2026-11-02", "dimension": "game-management", "evidence": "Zagallo, despite being an attacking player himself, was a man who was inspired in a coaching capacity by the experiences of the man who entrusted him with a place in the Brazil side for the 1958 World Cup final. Vicente Feola would leave a lasting impact upon Zagallo, an impact which imparted to him just how important defensive cohesion was.", "verified": true},
-    {"title": "A tribute to Mario Zagallo: 1931-2024 (FIFA)", "url": "https://inside.fifa.com/news/a-tribute-to-mario-zagallo-1931-2024", "tier": "C", "language": "en", "articleDate": "2024-01-06", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "stated-view", "evidence": "Just 75 days before the start of the FIFA World Cup 1970, Zagallo was put in charge of the Brazil team to replace João Saldanha, who led them through the qualifying campaign. Although there was little time to play with, Zagallo changed both the players and the system. “I had already formed the opinion that if Brazil took that (old) system to the World Cup, we wouldn’t get anywhere,” he told FIFA on his 90th birthday.", "verified": true},
-    {"title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)", "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/", "tier": "C", "language": "pt", "articleDate": "2020-06-21", "eventDate": "1970-06", "accessedOn": "2026-11-02", "dimension": "stated-view", "evidence": "Eu tinha tudo na cabeça: o sistema que devia aplicar, a doutrinação que precisava fazer nos jogadores a fim de que adotassem um jogo verdadeiro de Copa do Mundo – que me gabo de conhecer – e, em acréscimo, a mudança de estilo de alguns, em proveito da equipe.", "verified": true},
-    {"title": "Desabafo de Zagallo marcou título da Copa América pela seleção em 1997 (Jovem Pan)", "url": "https://jovempan.com.br/colunistas/thiago-uberreich/desabafo-de-zagallo-marcou-titulo-da-copa-america-pela-selecao-em-1997/", "tier": "C", "language": "pt", "articleDate": "2025-07-21", "eventDate": "1997-06-29", "accessedOn": "2026-11-02", "dimension": "stated-view", "evidence": "Ganhamos, com dificuldade. Não tínhamos a mesma velocidade, mas tínhamos o coração. É pra você. Vocês sabem quem são. Não preciso dizer mais nada. Vocês vão ter que me engolir!", "verified": true},
-    {"title": "Derrota brasileira na final da Copa de 1998 ainda gera discussão e polêmica (Jovem Pan)", "url": "https://jovempan.com.br/colunistas/thiago-uberreich/derrota-brasileira-na-final-da-copa-de-1998-ainda-gera-discussao-e-polemica/", "tier": "C", "language": "pt", "articleDate": "2025-07-10", "eventDate": "1998-07-12", "accessedOn": "2026-11-02", "dimension": "stated-view", "evidence": "Entrou porque entrou. Você quer baixar o nível, quer aparecer? Estou aqui porque sou homem, vocês devem muito a mim.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "stated-view", "evidence": "Zagallo believed that his best players should always be on the pitch. That sometimes meant having to convince them to play in unfamiliar roles.", "verified": true},
-    {"title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)", "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/", "tier": "C", "language": "pt", "articleDate": "2020-06-21", "eventDate": "1970-06", "accessedOn": "2026-11-02", "dimension": "player-profile", "evidence": "Tostão tinha de jogar para que se soubesse se os dias em que parou de treinar seriam contrabalançados até a Copa. Mas preveni a Tostão que sua atividade no ataque teria de ser diferente. Em vez de vir tabelando com Pelé, deveria ficar na frente, de um lado para o outro, no sacrifício, porque Pelé voltaria para auxiliar o meio de campo.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1998", "accessedOn": "2026-11-02", "dimension": "player-profile", "evidence": "Ahead of them, Zagallo played with two strikers. Bebeto, retained from the World Cup-winning team of 1994, was a busy forward constantly looking to find space away from opposition centre-backs.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "squad-building", "evidence": "Piazza was a central midfielder who had been called up by Saldanha to play in his preferred position. Once Zagallo took over, however, he was moved back to play as a central defender.", "verified": true},
-    {"title": "Imagem da seleção, Zagallo faz 80 anos sem esquecer forma astuta - Jornal de Brasília", "url": "https://jornaldebrasilia.com.br/futebol/imagem-da-selecao-zagallo-faz-80-anos-sem-esquecer-forma-astuta/", "tier": "C", "language": "pt", "articleDate": "2011-08-09", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "squad-building", "evidence": "Em 1969, eu tinha sido cortado da seleção pelo João Saldanha (técnico), mas o Zagallo assumiu o cargo e me trouxe de volta porque tinha confiança em mim", "verified": true},
-    {"title": "Mário Zagallo - Wikipedia", "url": "https://en.wikipedia.org/wiki/M%C3%A1rio_Zagallo", "tier": "C", "language": "en", "articleDate": "2024-01-06", "eventDate": "1974", "accessedOn": "2026-11-02", "dimension": "squad-building", "evidence": "At the 1974 FIFA World Cup in West Germany, Zagallo was disadvantaged by the international retirement of Pelé in 1971, as well as injuries to Tostão and Carlos Alberto Torres, meaning that only two starting players from the 1970 final were in the squad.", "verified": true, "retrospectiveOnly": true},
-    {"title": "Seleção Brasileira 1996-1997 (RSSSF Brasil)", "url": "https://www.rsssfbrasil.com/sel/brazil199697.htm", "tier": "B", "language": "pt", "articleDate": "2026-07-02", "eventDate": "1996/97", "accessedOn": "2026-11-02", "dimension": "squad-building", "evidence": "10 - Arílson [Kaiserslautern] (6) (16 - Zé Elias) [Corinthians] (4) 7 - Caio [Internazionale] (4) 11 - Sávio [Flamengo] (19) Técnico (Coach): Zagallo (76 / 89)", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970-03", "accessedOn": "2026-11-02", "dimension": "people-management", "evidence": "I want discipline and order, will and self-sacrifice from all of you,” he reportedly said in his first meeting with members of the team led by Pelé (above).", "verified": true},
-    {"title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)", "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/", "tier": "C", "language": "pt", "articleDate": "2020-06-21", "eventDate": "1970-06", "accessedOn": "2026-11-02", "dimension": "people-management", "evidence": "Mas depois do último jogo, em Irapuato, comuniquei-lhe que, a partir do jogo contra a Tchecoslováquia, não poderia dar liberdade ao lateral, se este avançasse. Teria de voltar e combatê-lo. Felizmente, o espírito de equipe desta seleção é extraordinário e o Jair tem feito tudo com absoluta disciplina de jogo", "verified": true},
-    {"title": "Derrota brasileira na final da Copa de 1998 ainda gera discussão e polêmica (Jovem Pan)", "url": "https://jovempan.com.br/colunistas/thiago-uberreich/derrota-brasileira-na-final-da-copa-de-1998-ainda-gera-discussao-e-polemica/", "tier": "C", "language": "pt", "articleDate": "2025-07-10", "eventDate": "1998-07-12", "accessedOn": "2026-11-02", "dimension": "people-management", "evidence": "O Ronaldo respondeu que sim e o Zagallo liberou. Não tinha outra alternativa. O médico o vetou às 17h30m e às 20h, não falou nada.", "verified": true},
-    {"title": "Mário Zagallo: The Tactical Masters - Coaches' Voice", "url": "https://learning.coachesvoice.com/?p=52149", "tier": "A", "language": "en", "articleDate": "2021-12-21", "eventDate": "1970", "accessedOn": "2026-11-02", "dimension": "people-management", "evidence": "On the back of a tense relationship with the influential Pelé and some poor friendly results, he was fired in the build-up to the World Cup. Zagallo, then Botafogo manager and still only 38 years old, was hired.", "verified": true}
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Ahead of Clodoaldo, the team's single pivot, Zagallo selected a group of five attacking players who constantly interchanged positions. (...) As a collective, Zagallo used his so-called ‘Five 10s’ (below) in a dynamic, fluid attacking structure.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: Brazil's habitual World Cup winner",
+      "url": "https://thesefootballtimes.co/2015/10/25/in-celebration-of-mario-zagallo-brazils-habitual-world-cup-winner/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-25",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "The Seleção had qualified for the competition playing 4-2-4 – a formation Zagallo felt was out of date and would leave them exposed at a major international tournament. He would instead utilise a 4-3-3 – the same formation with which Brazil were victorious in 1958 – and brought the mesmerising talents of Rivellino into midfield.",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Não me afastaria um centímetro da minha ideia geral de jogo, que podem classificar de 4-3-3 anterior.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1998",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] The next-generation Brazil team Zagallo brought to the 1998 World Cup in France utilised a defined 4-2-2-2 formation. (...) Unlike in 1970, however, Zagallo now turned to a double pivot in midfield. Dunga and César Sampaio were to provide defensive solidity in front of potentially exposed centre-backs.",
+      "verified": false
+    },
+    {
+      "title": "From beauty to beast: Brazil's transition from 1970 to 1974",
+      "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-12-08",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "A heavily restructured squad, added to by Zagallo’s expectation for an overtly physical European show of intent, all meant that Brazil took a very different approach to the 1974 World Cup to the one they did in Mexico.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Once Zagallo took over, however, he was moved back to play as a central defender. The idea was that Piazza's ability on the ball would improve the team’s build-up play from deep.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1998",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] Also unlike the 1970 team, Zagallo’s 1998 vintage started the build-up from the goalkeeper. Claudio Taffarel’s ability with the ball at his feet allowed him to find either centre-back – Aldair or Júnior Baiano – or one of the central midfielders with the first pass.",
+      "verified": false
+    },
+    {
+      "title": "Brazil, 1970 and the most beautiful football in history",
+      "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "1970-06-21",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Zagallo expected the Italians to man-mark his players as the Uruguayans did before. To counter their measure, he instructed his men to keep possession and constantly pass the ball around to exhaust the Italians. It worked to perfection.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Zagallo had built a team to defend with the ball, however.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "He knew that the Mexican heat would make it almost impossible for teams to sustain high-pressing tactics against them.",
+      "verified": true
+    },
+    {
+      "title": "Brazil, 1970 and the most beautiful football in history",
+      "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "1970-06-21",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Brazil moved fast. They did not focus on hogging the ball nor defending deep.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Zagallo also wanted to compress the pitch as much as possible in the defensive phase. When they progressed into the opponents’ half, a covering back line of three – both centre-backs and usually Everaldo, the less attacking full-back would push up as high as the halfway line.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "When facing more structured attacks by their opponents, Brazil set up with a much lower block and dropped into a defensive shape more resembling a 4-4-1-1. The back four would start a few metres from the penalty area, with Gérson dropping alongside Clodoaldo into a midfield two ahead of them.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1998",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] Brazil kept only one clean sheet at the 1998 World Cup – against Morocco, in the group stages – and conceded 10 goals across the whole tournament. No team in France that summer conceded more.",
+      "verified": false
+    },
+    {
+      "title": "From beauty to beast: Brazil's transition from 1970 to 1974",
+      "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-12-08",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Undone by a combination of their own zonal marking, a wider self-expression of footballing anger and the sheer brilliance of Rinus Michels’ total football.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "When they then won the ball back, Gérson was the player to whom they looked. A fine technician, he was capable of launching a quick counter-attack or holding possession while the team reorganised into its offensive shape.",
+      "verified": true
+    },
+    {
+      "title": "From beauty to beast: Brazil's transition from 1970 to 1974",
+      "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-12-08",
+      "eventDate": "1974-06-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "A tentative opening goalless draw against Yugoslavia was marked by Brazil operating a shoot-on-sight policy, as if too scared to swarm forward in high numbers, perhaps caught within the fear of falling for the threat of the counter-attack.",
+      "verified": true
+    },
+    {
+      "title": "Brazil, 1970 and the most beautiful football in history",
+      "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Carlos Alberto was instructed to bomb down the right flank when Brazil were in possession, leaving Piazza, Brito and Everaldo to cover for the whole team.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1998",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] Relying on the full-backs to offer attacking width in this way gave Zagallo the freedom to push the team’s two attacking midfielders into more central and potentially threatening areas.",
+      "verified": false
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Rivellino compreendeu que eu o queria na ponta esquerda, mas não como um ponta fixo, e sim alguém que executasse uma função de cobertura do setor.",
+      "verified": true
+    },
+    {
+      "title": "Brazil, 1970 and the most beautiful football in history",
+      "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "1970-06-21",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Their first goal came from a throw-in. Taken short to Rivellino, he lofted it into the air towards Pelé. Brazil’s star man out-jumped his defender and headed the ball into the net",
+      "verified": true
+    },
+    {
+      "title": "Brazil, 1970 and the most beautiful football in history",
+      "url": "https://thesefootballtimes.co/2017/12/14/brazil-1970-and-the-most-beautiful-football-in-history/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-17",
+      "eventDate": "1970-06-14",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "They could create chances in all forms, be it a short corner, a pass over the defence, overlapping runs from the full-backs",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: Brazil's habitual World Cup winner",
+      "url": "https://thesefootballtimes.co/2015/10/25/in-celebration-of-mario-zagallo-brazils-habitual-world-cup-winner/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-25",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Zagallo took his team to Guanajuato for a 21-day training camp. The location was at a similar altitude to Mexico City where the World Cup final would be held. It played an important role in getting a team of undoubtedly gifted players into the best physical shape of their careers.",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Slides, botões, conversa, usei tudo o que foi possível, para incutir no jogador a certeza de que não se vence Copa do Mundo com o trivial dos clubes.",
+      "verified": true
+    },
+    {
+      "title": "Derrota brasileira na final da Copa de 1998 ainda gera discussão e polêmica (Jovem Pan)",
+      "url": "https://jovempan.com.br/colunistas/thiago-uberreich/derrota-brasileira-na-final-da-copa-de-1998-ainda-gera-discussao-e-polemica/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-07-10",
+      "eventDate": "1998-07-12",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] O “Fenômeno” foi liberado pelo técnico Zagallo, depois de insistir para que o treinador o colocasse em campo. (...) Edmundo entrou no lugar de César Sampaio e Denílson substituiu Leonardo.",
+      "verified": false
+    },
+    {
+      "title": "From beauty to beast: Brazil's transition from 1970 to 1974",
+      "url": "https://thesefootballtimes.co/2016/12/08/from-beauty-to-beast-brazils-transition-from-1970-to-1974/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-12-08",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Zagallo, despite being an attacking player himself, was a man who was inspired in a coaching capacity by the experiences of the man who entrusted him with a place in the Brazil side for the 1958 World Cup final. Vicente Feola would leave a lasting impact upon Zagallo, an impact which imparted to him just how important defensive cohesion was.",
+      "verified": true
+    },
+    {
+      "title": "A tribute to Mario Zagallo: 1931-2024 (FIFA)",
+      "url": "https://inside.fifa.com/news/a-tribute-to-mario-zagallo-1931-2024",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-01-06",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Just 75 days before the start of the FIFA World Cup 1970, Zagallo was put in charge of the Brazil team to replace João Saldanha, who led them through the qualifying campaign. Although there was little time to play with, Zagallo changed both the players and the system. “I had already formed the opinion that if Brazil took that (old) system to the World Cup, we wouldn’t get anywhere,” he told FIFA on his 90th birthday.",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Eu tinha tudo na cabeça: o sistema que devia aplicar, a doutrinação que precisava fazer nos jogadores a fim de que adotassem um jogo verdadeiro de Copa do Mundo – que me gabo de conhecer – e, em acréscimo, a mudança de estilo de alguns, em proveito da equipe.",
+      "verified": true
+    },
+    {
+      "title": "Desabafo de Zagallo marcou título da Copa América pela seleção em 1997 (Jovem Pan)",
+      "url": "https://jovempan.com.br/colunistas/thiago-uberreich/desabafo-de-zagallo-marcou-titulo-da-copa-america-pela-selecao-em-1997/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-07-21",
+      "eventDate": "1997-06-29",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] Ganhamos, com dificuldade. Não tínhamos a mesma velocidade, mas tínhamos o coração. É pra você. Vocês sabem quem são. Não preciso dizer mais nada. Vocês vão ter que me engolir!",
+      "verified": false
+    },
+    {
+      "title": "Derrota brasileira na final da Copa de 1998 ainda gera discussão e polêmica (Jovem Pan)",
+      "url": "https://jovempan.com.br/colunistas/thiago-uberreich/derrota-brasileira-na-final-da-copa-de-1998-ainda-gera-discussao-e-polemica/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-07-10",
+      "eventDate": "1998-07-12",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] Entrou porque entrou. Você quer baixar o nível, quer aparecer? Estou aqui porque sou homem, vocês devem muito a mim.",
+      "verified": false
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Zagallo believed that his best players should always be on the pitch. That sometimes meant having to convince them to play in unfamiliar roles.",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Tostão tinha de jogar para que se soubesse se os dias em que parou de treinar seriam contrabalançados até a Copa. Mas preveni a Tostão que sua atividade no ataque teria de ser diferente. Em vez de vir tabelando com Pelé, deveria ficar na frente, de um lado para o outro, no sacrifício, porque Pelé voltaria para auxiliar o meio de campo.",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1998",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] Ahead of them, Zagallo played with two strikers. Bebeto, retained from the World Cup-winning team of 1994, was a busy forward constantly looking to find space away from opposition centre-backs.",
+      "verified": false
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Piazza was a central midfielder who had been called up by Saldanha to play in his preferred position. Once Zagallo took over, however, he was moved back to play as a central defender.",
+      "verified": true
+    },
+    {
+      "title": "Imagem da seleção, Zagallo faz 80 anos sem esquecer forma astuta - Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/futebol/imagem-da-selecao-zagallo-faz-80-anos-sem-esquecer-forma-astuta/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-08-09",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Em 1969, eu tinha sido cortado da seleção pelo João Saldanha (técnico), mas o Zagallo assumiu o cargo e me trouxe de volta porque tinha confiança em mim",
+      "verified": true
+    },
+    {
+      "title": "Mário Zagallo - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M%C3%A1rio_Zagallo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-01-06",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "At the 1974 FIFA World Cup in West Germany, Zagallo was disadvantaged by the international retirement of Pelé in 1971, as well as injuries to Tostão and Carlos Alberto Torres, meaning that only two starting players from the 1970 final were in the squad.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Seleção Brasileira 1996-1997 (RSSSF Brasil)",
+      "url": "https://www.rsssfbrasil.com/sel/brazil199697.htm",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-07-02",
+      "eventDate": "1996/97",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] 10 - Arílson [Kaiserslautern] (6) (16 - Zé Elias) [Corinthians] (4) 7 - Caio [Internazionale] (4) 11 - Sávio [Flamengo] (19) Técnico (Coach): Zagallo (76 / 89)",
+      "verified": false
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970-03",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "I want discipline and order, will and self-sacrifice from all of you,” he reportedly said in his first meeting with members of the team led by Pelé (above).",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos da Copa de 70: Zagallo detalha a tática da Seleção (Trivela)",
+      "url": "https://trivela.com.br/copa-do-mundo/os-50-anos-da-copa-de-70-a-alemanha-ocidental-fica-com-o-bronze-e-zagallo-detalha-a-tatica-da-selecao/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-06-21",
+      "eventDate": "1970-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Mas depois do último jogo, em Irapuato, comuniquei-lhe que, a partir do jogo contra a Tchecoslováquia, não poderia dar liberdade ao lateral, se este avançasse. Teria de voltar e combatê-lo. Felizmente, o espírito de equipe desta seleção é extraordinário e o Jair tem feito tudo com absoluta disciplina de jogo",
+      "verified": true
+    },
+    {
+      "title": "Derrota brasileira na final da Copa de 1998 ainda gera discussão e polêmica (Jovem Pan)",
+      "url": "https://jovempan.com.br/colunistas/thiago-uberreich/derrota-brasileira-na-final-da-copa-de-1998-ainda-gera-discussao-e-polemica/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-07-10",
+      "eventDate": "1998-07-12",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "[Outside the counted spell (1995-98), kept as context] O Ronaldo respondeu que sim e o Zagallo liberou. Não tinha outra alternativa. O médico o vetou às 17h30m e às 20h, não falou nada.",
+      "verified": false
+    },
+    {
+      "title": "Mário Zagallo: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=52149",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-21",
+      "eventDate": "1970",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "On the back of a tense relationship with the influential Pelé and some poor friendly results, he was fired in the build-up to the World Cup. Zagallo, then Botafogo manager and still only 38 years old, was hired.",
+      "verified": true
+    }
   ],
   "statedView": [
-    {"quote": "I want discipline and order, will and self-sacrifice from all of you. When I was a player, I was criticised a lot for my style, but I kept on fighting. That is what I want today from every member of the Brazilian national team. In today’s football, everyone has to fight, regardless of your role.", "date": "1970-03", "source": "Coaches' Voice (learning.coachesvoice.com, reported speech at first meeting with the squad; primary source not found)", "provenance": "attributed"},
-    {"quote": "Não me afastaria um centímetro da minha ideia geral de jogo, que podem classificar de 4-3-3 anterior.", "date": "1970-06", "source": "Trivela 2020 compilation of 1970 press (exact paper not named in the page)", "provenance": "attributed"},
-    {"quote": "Slides, botões, conversa, usei tudo o que foi possível, para incutir no jogador a certeza de que não se vence Copa do Mundo com o trivial dos clubes. E tudo isso com parte da imprensa me chamando de ultrapassado, até de burro.", "date": "1970-06", "source": "Trivela 2020 compilation of 1970 press (exact paper not named in the page)", "provenance": "attributed"},
-    {"quote": "I had already formed the opinion that if Brazil took that (old) system to the World Cup, we wouldn’t get anywhere", "date": "2021-08-09", "source": "FIFA interview for his 90th birthday, quoted by inside.fifa.com tribute 2024-01-06", "provenance": "primary"},
-    {"quote": "Ganhamos, com dificuldade. Não tínhamos a mesma velocidade, mas tínhamos o coração. É pra você. Vocês sabem quem são. Não preciso dizer mais nada. Vocês vão ter que me engolir!", "date": "1997-06-29", "source": "Live TV interview after the Copa América final in La Paz, quoted by Jovem Pan 2025", "provenance": "primary"},
-    {"quote": "Entrou porque entrou. Você quer baixar o nível, quer aparecer? Estou aqui porque sou homem, vocês devem muito a mim.", "date": "1998-07-12", "source": "Press conference after the World Cup final, quoted by Jovem Pan 2025", "provenance": "attributed"}
+    {
+      "quote": "I want discipline and order, will and self-sacrifice from all of you. When I was a player, I was criticised a lot for my style, but I kept on fighting. That is what I want today from every member of the Brazilian national team. In today’s football, everyone has to fight, regardless of your role.",
+      "date": "1970-03",
+      "source": "Coaches' Voice (learning.coachesvoice.com, reported speech at first meeting with the squad; primary source not found)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Não me afastaria um centímetro da minha ideia geral de jogo, que podem classificar de 4-3-3 anterior.",
+      "date": "1970-06",
+      "source": "Trivela 2020 compilation of 1970 press (exact paper not named in the page)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Slides, botões, conversa, usei tudo o que foi possível, para incutir no jogador a certeza de que não se vence Copa do Mundo com o trivial dos clubes. E tudo isso com parte da imprensa me chamando de ultrapassado, até de burro.",
+      "date": "1970-06",
+      "source": "Trivela 2020 compilation of 1970 press (exact paper not named in the page)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I had already formed the opinion that if Brazil took that (old) system to the World Cup, we wouldn’t get anywhere",
+      "date": "2021-08-09",
+      "source": "FIFA interview for his 90th birthday, quoted by inside.fifa.com tribute 2024-01-06",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Ganhamos, com dificuldade. Não tínhamos a mesma velocidade, mas tínhamos o coração. É pra você. Vocês sabem quem são. Não preciso dizer mais nada. Vocês vão ter que me engolir!",
+      "date": "1997-06-29",
+      "source": "Live TV interview after the Copa América final in La Paz, quoted by Jovem Pan 2025",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Entrou porque entrou. Você quer baixar o nível, quer aparecer? Estou aqui porque sou homem, vocês devem muito a mim.",
+      "date": "1998-07-12",
+      "source": "Press conference after the World Cup final, quoted by Jovem Pan 2025",
+      "provenance": "attributed"
+    }
   ],
   "spellsCounted": [
-    {"club": "Brazil national team (head coach)", "start": "1970-03-16", "end": "1974-07-06", "reason": "1970 World Cup win with the 'Five 10s' system and fourth place in 1974; tactical coverage from Coaches' Voice and These Football Times. Start from search summary/FIFA (75 days before the Cup); end date from memory, flagged in openQuestions."},
-    {"club": "Brazil national team (head coach)", "start": "1995-01-01", "end": "1998-07-12", "reason": "1997 Copa America and Confederations Cup titles, 1998 World Cup final; Coaches' Voice tactical coverage of the 4-2-2-2. Start is a placeholder year start (see openQuestions), end is the date of the final."}
+    {
+      "club": "Brazil national team (head coach)",
+      "start": "1970-03-16",
+      "end": "1974-07-06",
+      "reason": "1970 World Cup win with the 'Five 10s' system and fourth place in 1974; tactical coverage from Coaches' Voice and These Football Times. Start from search summary/FIFA (75 days before the Cup); end date from memory, flagged in openQuestions."
+    }
   ],
   "spellsExcluded": [
-    {"club": "Botafogo (head coach)", "start": "1967", "end": "1970", "reason": "Won the Carioca in his first season (FIFA), but no tactical coverage found in the sources mined; exact dates not found."},
-    {"club": "Brazil national team (technical coordinator under Parreira)", "start": "1994", "end": "1994", "reason": "Coordinator/assistant, not head coach; the 1994 title is not counted as his own tactical work."},
-    {"club": "Kuwait, Al-Hilal, Saudi Arabia, UAE (1989-90)", "start": "1976", "end": "1990", "reason": "Only mentioned in passing (FIFA, TFT); no tactical coverage found. UAE qualified for the 1990 World Cup but he left days before it began."},
-    {"club": "Flamengo, Fluminense, Vasco, Botafogo (later stints)", "start": "1990", "end": "2001", "reason": "Club spells without tactical coverage in the sources; the last title was the Carioca with Flamengo in 2001 (FIFA)."},
-    {"club": "Brazil national team (single friendly)", "start": "2002-11-20", "end": "2002-11-20", "reason": "One match only (3-2 in South Korea per Wikipedia), under the 15-match threshold."}
+    {
+      "club": "Botafogo (head coach)",
+      "start": "1967",
+      "end": "1970",
+      "reason": "Won the Carioca in his first season (FIFA), but no tactical coverage found in the sources mined; exact dates not found."
+    },
+    {
+      "club": "Brazil national team (technical coordinator under Parreira)",
+      "start": "1994",
+      "end": "1994",
+      "reason": "Coordinator/assistant, not head coach; the 1994 title is not counted as his own tactical work."
+    },
+    {
+      "club": "Kuwait, Al-Hilal, Saudi Arabia, UAE (1989-90)",
+      "start": "1976",
+      "end": "1990",
+      "reason": "Only mentioned in passing (FIFA, TFT); no tactical coverage found. UAE qualified for the 1990 World Cup but he left days before it began."
+    },
+    {
+      "club": "Flamengo, Fluminense, Vasco, Botafogo (later stints)",
+      "start": "1990",
+      "end": "2001",
+      "reason": "Club spells without tactical coverage in the sources; the last title was the Carioca with Flamengo in 2001 (FIFA)."
+    },
+    {
+      "club": "Brazil national team (single friendly)",
+      "start": "2002-11-20",
+      "end": "2002-11-20",
+      "reason": "One match only (3-2 in South Korea per Wikipedia), under the 15-match threshold."
+    },
+    {
+      "club": "Brazil national team (head coach) (second spell)",
+      "start": "1995-01-01",
+      "end": "1998-07-12",
+      "reason": "excluded on 2026-11-04 to narrow the profile to 1970-74 (user decision): 1997 Copa America and Confederations Cup titles, 1998 World Cup final; Coaches' Voice tactical coverage of the 4-2-2-2. Start is a placeholder year start (see openQuestions), end is the date of the final."
+    }
   ],
-  "teamProfiles": ["brazil-1970"],
+  "teamProfiles": [
+    "brazil-1970"
+  ],
   "unreadable": [
-    {"url": "https://revistaoeste.com/brasil/voce-sabia-zagallo-treinou-a-melhor-selecao-da-historia/", "reason": "403"},
-    {"url": "https://global.espn.com/football/story/_/id/39252588/brazil-legend-mario-zagallo-death-leaves-enduring-legacy", "reason": "empty"},
-    {"url": "https://global.espn.com/football/story/_/id/37582937/brazil-1970-world-cup-squad-were-pioneers-physical-preparation", "reason": "empty"}
+    {
+      "url": "https://revistaoeste.com/brasil/voce-sabia-zagallo-treinou-a-melhor-selecao-da-historia/",
+      "reason": "403"
+    },
+    {
+      "url": "https://global.espn.com/football/story/_/id/39252588/brazil-legend-mario-zagallo-death-leaves-enduring-legacy",
+      "reason": "empty"
+    },
+    {
+      "url": "https://global.espn.com/football/story/_/id/37582937/brazil-1970-world-cup-squad-were-pioneers-physical-preparation",
+      "reason": "empty"
+    }
   ],
-  "influences": ["Vicente Feola (defensive cohesion, per These Football Times)", "João Saldanha (4-2-4 at Botafogo and the 1970 qualifying side)"],
-  "gaps": {"dimensions": [], "axes": []},
-  "confidence": {"level": "medium", "reason": "One tier A source (Coaches' Voice) covers both 1970 and 1998 and These Football Times (tier B) covers 1970 and 1974, but 1998 and the 1995-97 years rest mostly on that single source plus press; two spell dates are placeholders and the stated view is mostly 1970 press compilations."}
+  "influences": [
+    "Vicente Feola (defensive cohesion, per These Football Times)",
+    "João Saldanha (4-2-4 at Botafogo and the 1970 qualifying side)"
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "One tier A source (Coaches' Voice) covers both 1970 and 1998 and These Football Times (tier B) covers 1970 and 1974, but 1998 and the 1995-97 years rest mostly on that single source plus press; two spell dates are placeholders and the stated view is mostly 1970 press compilations."
+  }
 }

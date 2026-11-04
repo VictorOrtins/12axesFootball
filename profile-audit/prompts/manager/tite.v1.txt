@@ -1,0 +1,1136 @@
+You are auditing, question by question and fully independently, the football profile "Tite (Adenor Leonardo Bacchi)" (catalog: manager) on the 12 axes of the 12axes football quiz. Answer as the manager Tite (Adenor Leonardo Bacchi), across the spells counted in the research file (spellsCounted). Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/tite.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
+}
+
+After writing the file, reply only with "OK manager:tite" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (manager/tite.json) ===
+{
+  "id": "tite",
+  "catalog": "manager",
+  "name": "Tite (Adenor Leonardo Bacchi)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "2010-12-01",
+    "end": "2022-12-09"
+  },
+  "scopeNote": "Counted: Corinthians 2010-2013 (Brasileirao 2011, Libertadores and Club World Cup 2012; sources describe a compact, defensive side that scored little), Corinthians 2015-Jun 2016 (Brasileirao 2015; sources call the shape 4-1-4-1 with triangular combinations) and Brazil Jun 2016-Dec 2022 (4-1-4-1 flexing to 4-3-3, zonal marking confirmed by assistant Cleber Xavier at the 2018 World Cup). Start/end dates for Corinthians 2010-13 and the Brazil exit are from memory and unconfirmed (see openQuestions). Excluded: Gremio 2001-03 (Copa do Brasil 2001, 3-5-2 'retranqueiro' per Goal, but a single source and early career), Internacional 2008-09 (4-man defence, only thin coverage), Flamengo 2023-24 (no major title, outside the profile of his known style), Palmeiras, Atletico-MG, Al Ain, Sao Caetano. Sources use '4-1-4-1', 'zonal defence', 'triangular combinations'; a popular label 'retranqueiro/empatite' refers to the pre-2015 Corinthians and 2001 Gremio, not to Brazil.",
+  "spellsCounted": [
+    {
+      "club": "Corinthians",
+      "start": "2010-12-01",
+      "end": "2013-12-01",
+      "reason": "Brasileirao 2011, Libertadores and Club World Cup 2012; compact 4-line defence style (dates from memory, see openQuestions)"
+    },
+    {
+      "club": "Corinthians",
+      "start": "2014-12-15",
+      "end": "2016-06-20",
+      "reason": "Brasileirao 2015; 4-1-4-1 with triangulations; left for Brazil job (dates from memory)"
+    },
+    {
+      "club": "Brazil",
+      "start": "2016-06-20",
+      "end": "2022-12-09",
+      "reason": "Qualified first for 2018 World Cup, Copa America 2019; 4-1-4-1, zonal marking (dates from memory)"
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Gremio",
+      "start": "2001",
+      "end": "2003",
+      "reason": "Copa do Brasil 2001 but only one tactical source (3-5-2, retranqueiro); early career"
+    },
+    {
+      "club": "Internacional",
+      "start": "2008",
+      "end": "2009",
+      "reason": "thin tactical coverage (4-man defence, D Alessandro)"
+    },
+    {
+      "club": "Flamengo",
+      "start": "2023",
+      "end": "2024",
+      "reason": "no major title, outside the known-for periods"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Exact start of Corinthians spell 1 (set to 2010-12-01 from memory, not verified in any digest) and its end (late 2013; memory, unverified; Mano Menezes replaced him per sources).",
+    "Exact end date of Corinthians spell 2 (set to 2016-06-20 from memory, the Brazil appointment; digest only says 'appointed in June 2016') and start (Dec 2014/Jan 2015, not verified).",
+    "Brazil spell: start 2016-06-20 and end 2022-12-09 (after the Croatia quarter-final loss) are from memory; digests only confirm 'appointed in June 2016'.",
+    "Digest pages cover 2015 Corinthians and Brazil 2016-2018 well; Brazil 2019-2022 (Copa America 2019 win, 2021 final loss, Qatar 2022) and Corinthians 2011-13 pressing/transitions are thinly covered.",
+    "Cleber Xavier (assistant) describes the zonal defence, not Tite himself; treated as the coaching staff's method since Tite is quoted as sharing the 'methodology' of Corinthians.",
+    "Whether to count Gremio 2001-03 (Copa do Brasil) and Internacional 2008-09 (Sudamericana) is a judgement; excluded here because tactical coverage found is one paragraph or two.",
+    "Lance (2023) describes Tite's Brazil system as basically the same as Corinthians 2015; Raphael Rabello disputes labelling him a positional-play coach (search summary only, not mined)."
+  ],
+  "sources": [
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "he experimented with formations – 4-2-3-1, 4-3-1-2 and 4-4-2 – but all were built on a narrow and compact defensive line of four.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2012",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Full-backs and central defenders must always play in the same rhythm, and always be in line – it was this approach that denied a young Neymar the spaces he so loves to attack in Corinthians’ Copa Libertadores semi-final victory over Santos in 2012",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2012",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "In possession, Tite favoured a simple attacking approach featuring frequent combinations between full-backs and wingers. In a 4-2-3-1 system, one central midfielder should maintain his positioning to protect the defence; the other was expected to make late runs to support the front line.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "This shape also featured a ‘false 10’ on the right side of midfield (...) Jadson to start on the right side, but in possession come inside and combine with the likes of Renato Augusto, Elias, Malcom and Vágner Love. Those inside movements also created space for the right-back, most often Fagner, to join the attacks out wide.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Their impressive run was built on the same 4-1-4-1 formation, with a fast-paced circulation in possession based on triangular combinations.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Casemiro performed the same role for Brazil he did for Real – sitting in front of their central defence and covering any spaces exposed in defensive transition.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2019",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "The captain would play as a regular right-back out of possession, but during periods of build-up he would move inside and operate almost as an authentic midfielder – not unlike the way Pep Guardiola has been known to use his full-backs",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Against narrow and compact defensive systems, Tite adapted his team’s approach. Willian and Neymar remained wide (below), leaving Paulinho, Coutinho and central striker Gabriel Jesus to play between the lines.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "In the 1-0 victory away in Germany in early 2018, Tite employed a much more rigid and narrow back four. The full-backs were much less offensive, Manchester City’s Fernandinho came into midfield",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "it looked like Tite had settled on his ideal midfield three: Casemiro sitting behind Renato Augusto on the left, and Paulinho. They combined intelligence and discipline, and understood the triangular patterns Tite preferred.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2019",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "there are also young players coming through. Atlético Madrid left-back Renan Lodi is 22, Everton is 24, and Real's Rodrygo and Vinícius Júnior are teenagers.",
+      "verified": true
+    },
+    {
+      "title": "Coach Watch: Tite - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=28657",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-19",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "In five years across three spells at Corinthians, he tested at least five different systems.",
+      "verified": true
+    },
+    {
+      "title": "Tite é do Flamengo! Lembre como jogavam times importantes - Lance!",
+      "url": "https://www.lance.com.br/flamengo/tite-na-mira-do-flamengo-relembre-como-jogavam-os-times-comandados-pelo-tecnico.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-10-09",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "O Corinthians de 2015 tinha duas variações na saída de bola. Na primeira, Ralf era um volante de contenção entre quatro meias e fazia uma saída de três, à frente e próximo aos dois defensores.",
+      "verified": true
+    },
+    {
+      "title": "Tite é do Flamengo! Lembre como jogavam times importantes - Lance!",
+      "url": "https://www.lance.com.br/flamengo/tite-na-mira-do-flamengo-relembre-como-jogavam-os-times-comandados-pelo-tecnico.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-10-09",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "Na parte da marcação, o Corinthians não tinha um bloco necessariamente alto. As linhas de defesa eram bem postadas no esquema 4-1-4-1. O esquema concentrava uma pressão maior no meio-campo e no campo defensivo. Mas também, o Timão, tinha uma pressão pós-perda",
+      "verified": true
+    },
+    {
+      "title": "Tite é do Flamengo! Lembre como jogavam times importantes - Lance!",
+      "url": "https://www.lance.com.br/flamengo/tite-na-mira-do-flamengo-relembre-como-jogavam-os-times-comandados-pelo-tecnico.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-10-09",
+      "eventDate": "2016/18",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Tite também tentou aliar bastante o jogo ofensivo com a solidez defensiva, com um rígido sistema de marcação por zona.",
+      "verified": true
+    },
+    {
+      "title": "Coach explains five keys to Brazil's defensive strength - FIFA",
+      "url": "https://www.inside.fifa.com/news/the-five-keys-to-brazil-s-defensive-strength",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-07-05",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "“We operate a zonal defence, both in open play and at set pieces. That’s the basis for everything,” explained Cleber. “Thanks to zonal marking we’re the most disciplined team in the competition. We commit very few fouls – nine per game.”",
+      "verified": true
+    },
+    {
+      "title": "Coach explains five keys to Brazil's defensive strength - FIFA",
+      "url": "https://www.inside.fifa.com/news/the-five-keys-to-brazil-s-defensive-strength",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-07-05",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "“We operate a zonal defence, both in open play and at set pieces. That’s the basis for everything,”",
+      "verified": true
+    },
+    {
+      "title": "Coach explains five keys to Brazil's defensive strength - FIFA",
+      "url": "https://www.inside.fifa.com/news/the-five-keys-to-brazil-s-defensive-strength",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-07-05",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "“There are three phases when we defend: high press, mid press and low press. We pretty much tailor our pressing game to the opposition, and any adjustments we make will usually be to the high press. The mid and low press are more systematic.”",
+      "verified": true
+    },
+    {
+      "title": "Coach explains five keys to Brazil's defensive strength - FIFA",
+      "url": "https://www.inside.fifa.com/news/the-five-keys-to-brazil-s-defensive-strength",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-07-05",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "But when the team goes on the attack, it does so in a way that it can’t be caught off guard defensively. That’s what we call it “attacking while defending\". And that way, by defending, we’re already in a position to win the ball back if we lose it.",
+      "verified": true
+    },
+    {
+      "title": "Coach explains five keys to Brazil's defensive strength - FIFA",
+      "url": "https://www.inside.fifa.com/news/the-five-keys-to-brazil-s-defensive-strength",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-07-05",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "“If Neymar plays on a Sunday with PSG and joins us on a Monday, as soon as he arrives in the dressing room and checks his phone, he’ll have a message with edited images, giving him an idea of what to expect.",
+      "verified": true
+    },
+    {
+      "title": "Coach explains five keys to Brazil's defensive strength - FIFA",
+      "url": "https://www.inside.fifa.com/news/the-five-keys-to-brazil-s-defensive-strength",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2018-07-05",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "“It’s a characteristic of ours, one we developed at Corinthians, where we had more time. That was our best time together, in terms of clear thinking and putting ideas into practice. It’s our methodology.",
+      "verified": true
+    },
+    {
+      "title": "'I was fired from almost every job I've ever had' - Goal",
+      "url": "https://www.goal.com/en-gb/news/i-was-fired-from-almost-every-job-ive-ever-had-but-i-keep/1iqz7fy8l9xv41t6yt9zhh4uh7",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-02-25",
+      "eventDate": "2012",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "And that, too, was a result earned through a dogged, defensive showing, albeit with a genuine centre-forward following the arrival of Paolo Guerrero.",
+      "verified": true
+    },
+    {
+      "title": "'I was fired from almost every job I've ever had' - Goal",
+      "url": "https://www.goal.com/en-gb/news/i-was-fired-from-almost-every-job-ive-ever-had-but-i-keep/1iqz7fy8l9xv41t6yt9zhh4uh7",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-02-25",
+      "eventDate": "2012",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Vital to the unprecedented success of this Corinthians side was the structural and tactical harmony Tite fostered in his squad. With no big names, no superstars demanding attention both on and off the field, the Timao hit the big time with the little guys.",
+      "verified": true
+    },
+    {
+      "title": "'I was fired from almost every job I've ever had' - Goal",
+      "url": "https://www.goal.com/en-gb/news/i-was-fired-from-almost-every-job-ive-ever-had-but-i-keep/1iqz7fy8l9xv41t6yt9zhh4uh7",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-02-25",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "They placed a much greater emphasis on ball possession, pushed considerably higher up the pitch, pressed, and looked to punish the opposition in quick transitions, while the two wide forwards were given some freedom to roam.",
+      "verified": true
+    },
+    {
+      "title": "'I was fired from almost every job I've ever had' - Goal",
+      "url": "https://www.goal.com/en-gb/news/i-was-fired-from-almost-every-job-ive-ever-had-but-i-keep/1iqz7fy8l9xv41t6yt9zhh4uh7",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-02-25",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "a considerably more attacking 4-5-1 than the shape offered his previous sides. Vagner Love led the line, and was flanked by the creative Jadson and the flying Malcom. Renato Augusto conducted the play from the midfield, alongside box-to-box midfielder Elias.",
+      "verified": true
+    },
+    {
+      "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
+      "url": "https://thebotafogostar.com/2015/03/24/tite-corinthains-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-03-24",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Tite has experimented with a few formations – last season’s 4-2-3-1, 4-5-1, even trying something as adventurous as playing two strikers up front – but he has settled on 4-1-4-1, which provides defensive rigidity as well as ample space further forward for the midfielders to burst into.",
+      "verified": true
+    },
+    {
+      "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
+      "url": "https://thebotafogostar.com/2015/03/24/tite-corinthains-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-03-24",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "This understanding means they feel comfortable to sit back and soak pressure, confident in their structure, and then spring forward on the counter.",
+      "verified": true
+    },
+    {
+      "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
+      "url": "https://thebotafogostar.com/2015/03/24/tite-corinthains-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-03-24",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "The 4-1-4-1 system itself though is set up to be compact with two lines of four, with the pitbull that is Ralf in between defence and midfield to mop up any danger that slips through the cracks. His marking job on Ganso is the primary reason why São Paulo have failed to score against Corinthians on two occasions so far this year.",
+      "verified": true
+    },
+    {
+      "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
+      "url": "https://thebotafogostar.com/2015/03/24/tite-corinthains-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-03-24",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "The manager has rotated sensibly to keep the squad fresh in the gruelling Brazilian football schedule, meaning he has mainly played mixed-strength or reserve teams in the Campeonato Paulista.",
+      "verified": true
+    },
+    {
+      "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
+      "url": "https://thebotafogostar.com/2015/03/24/tite-corinthains-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-03-24",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Petros seems like the type of player Tite would love – versatile, tenacious and hard-working – but he has been regularly shunned this year, while 18-year old Malcom is an out-and-out forward who lacks the stamina and defensive discipline to play in a deeper role.",
+      "verified": true
+    },
+    {
+      "title": "Tite's Tactics See Corinthians Back To Their Best - The Botafogo Star",
+      "url": "https://thebotafogostar.com/2015/03/24/tite-corinthains-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-03-24",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "On three occasions this year, against Once Caldas, Palmeiras and São Paulo – each one a big game – they have gone down to ten men and yet their record for these periods reads: 131 minutes played, 3 scored, 0 conceded. (...) the formation simply became a 4-4-1 and they continued to be very difficult to break down.",
+      "verified": true
+    },
+    {
+      "title": "Is another World Cup-winning Brazil squad on the horizon and is Tite the man for the job? - These Football Times",
+      "url": "https://thesefootballtimes.co/2017/04/08/is-another-world-cup-winning-brazil-squad-on-the-horizon-and-is-tite-the-man-for-the-job/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-04-08",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "“This one [Tite] has moved the defensive line 20 meters higher and brought the lines together.",
+      "verified": true
+    },
+    {
+      "title": "Is another World Cup-winning Brazil squad on the horizon and is Tite the man for the job? - These Football Times",
+      "url": "https://thesefootballtimes.co/2017/04/08/is-another-world-cup-winning-brazil-squad-on-the-horizon-and-is-tite-the-man-for-the-job/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-04-08",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Tite’s Corinthians side of 2015 won the Brasileiro and used a 4-1-4-1 formation that relied on organised defending, playing on the break if necessary, but most of all, passing.",
+      "verified": true
+    },
+    {
+      "title": "Is another World Cup-winning Brazil squad on the horizon and is Tite the man for the job? - These Football Times",
+      "url": "https://thesefootballtimes.co/2017/04/08/is-another-world-cup-winning-brazil-squad-on-the-horizon-and-is-tite-the-man-for-the-job/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-04-08",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "The former Corinthians manager, who helped the Brazilian club to a Copa Libertadores title in 2012, had seen something in Paulinho and decided to ignore the controversy that came with it.",
+      "verified": true
+    },
+    {
+      "title": "Tite - revivalist, revolutionary or reactionary? - Yahoo Sports",
+      "url": "https://sports.yahoo.com/tite-revivalist-revolutionary-reactionary-brazil-100000220.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-11-14",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "These three positions are the heart of the new Brazil - a holder, a playmaker and a box-to-box raider - just as Ralf, Jadson and Elias drove Corinthians on from the same berths. (...) they have the flexibility to spring from 4-1-4-1 to 4-3-3",
+      "verified": true
+    },
+    {
+      "title": "Tite - revivalist, revolutionary or reactionary? - Yahoo Sports",
+      "url": "https://sports.yahoo.com/tite-revivalist-revolutionary-reactionary-brazil-100000220.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-11-14",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Renato Augusto, a 2016 Olympic gold medallist, was already in Dunga's side but has been transformed into a deep-lying playmaker in the Andrea Pirlo mode by Tite who used him there for Corinthians.",
+      "verified": true
+    },
+    {
+      "title": "Tite - revivalist, revolutionary or reactionary? - Yahoo Sports",
+      "url": "https://sports.yahoo.com/tite-revivalist-revolutionary-reactionary-brazil-100000220.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-11-14",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Last March Paulinho scored a hat-trick in a 1-4 victory over Uruguay in Montevideo",
+      "verified": true
+    },
+    {
+      "title": "Tite - revivalist, revolutionary or reactionary? - Yahoo Sports",
+      "url": "https://sports.yahoo.com/tite-revivalist-revolutionary-reactionary-brazil-100000220.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-11-14",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "The coach's habit of rotating the captaincy apparently indiscriminately would make the armband fetishists among the England correspondents apoplectic but he does it simply to stress the team counts more than any of its components",
+      "verified": true
+    },
+    {
+      "title": "How England Helped Brazil By Assisting Tite's Capacity For Learning - World Football Index",
+      "url": "https://worldfootballindex.com/2018/06/brazil-tite-learned-from-england-and-europe/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-16",
+      "eventDate": "2017-11-14",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "The match caused Tite to change his approach against more conservative opponents. It was the last time that Renato Augusto started in the Seleção midfield. Tite decided that a double pivot of Casemiro and Augusto was unnecessary against a deep block.",
+      "verified": true
+    },
+    {
+      "title": "How England Helped Brazil By Assisting Tite's Capacity For Learning - World Football Index",
+      "url": "https://worldfootballindex.com/2018/06/brazil-tite-learned-from-england-and-europe/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-06-16",
+      "eventDate": "2018",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Coutinho, Willian and Marcelo form a tight triangle on the left, which means one of them always has at least one out ball at all times. (...) On the right, Willian is much more of a “chalk on the boots” vintage and he keeps the pitch nice and wide",
+      "verified": true
+    },
+    {
+      "title": "Full-backs a la Pep, Coutinho taking centre-stage - Goal",
+      "url": "https://www.goal.com/en/news/full-backs-a-la-pep-coutinho-taking-centre-stage---five-lessons-from-serbia-0-2-brazil/e1w2bvyexqdj19yxwye4rxfak",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-28",
+      "eventDate": "2018-06-27",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "full-backs Marcelo and Fagner were asked to adopt an approach made famous by Pep Guardiola, by tucking into central midfield positions when their team are in possession.",
+      "verified": true
+    },
+    {
+      "title": "Full-backs a la Pep, Coutinho taking centre-stage - Goal",
+      "url": "https://www.goal.com/en/news/full-backs-a-la-pep-coutinho-taking-centre-stage---five-lessons-from-serbia-0-2-brazil/e1w2bvyexqdj19yxwye4rxfak",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-28",
+      "eventDate": "2018-06-27",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "did cap his performance by whipping in a corner for Thiago Silva to head the second goal – a move the defender later revealed had come straight off the training field.",
+      "verified": true
+    },
+    {
+      "title": "Full-backs a la Pep, Coutinho taking centre-stage - Goal",
+      "url": "https://www.goal.com/en/news/full-backs-a-la-pep-coutinho-taking-centre-stage---five-lessons-from-serbia-0-2-brazil/e1w2bvyexqdj19yxwye4rxfak",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-28",
+      "eventDate": "2018-06-27",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "It was only in March this year that Thiago Silva ended a three-year wait to be a first-team Brazil player again, and the PSG stopper is repaying his coach’s faith.",
+      "verified": true
+    },
+    {
+      "title": "Willian, Paulinho, Renato Augusto, Marcelo e Fernandinho; Tite deixa veteranos fora - Goal Brasil",
+      "url": "https://www.goal.com/br/not%C3%ADcias/willian-paulinho-renato-augusto-marcelo-e-fernandinho-tite-deixa-veteranos-fora/bhj5u273f1w81v09uuzx0rimo",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-02-28",
+      "eventDate": "2019-02-28",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "A relação conta com algumas novidades que podem ter impacto imediato, como são os casos de Vinícius Júnior e Felipe Anderson. Ainda assim, alguns chamados \"medalhões\" acabaram perdendo espaço e dificilmente conseguirão vaga para jogar na Copa América",
+      "verified": true
+    },
+    {
+      "title": "Nove jogadores estiveram em todas convocações que Tite fez após a Copa - Jovem Pan",
+      "url": "https://jovempan.com.br/esportes/futebol/nove-jogadores-estiveram-em-todas-convocacoes-que-tite-fez-apos-a-copa/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-26",
+      "eventDate": "2018-10",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Tite considera que a principal fase de testes e oportunidades acabará com os amistosos contra Uruguai e Camarões, nos dias 16 e 20 de novembro, respectivamente. No ano que vem ele tentará fechar uma base mais fixa, por causa da disputa da Copa América.",
+      "verified": true
+    },
+    {
+      "title": "Nove jogadores estiveram em todas convocações que Tite fez após a Copa - Jovem Pan",
+      "url": "https://jovempan.com.br/esportes/futebol/nove-jogadores-estiveram-em-todas-convocacoes-que-tite-fez-apos-a-copa/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-10-26",
+      "eventDate": "2018-10",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Entre os outros 6 jogadores, quem conquistou mais espaço foi Marquinhos, que agora é titular absoluto na zaga do Brasil. Roberto Firmino também tem recebido mais chances e elogios de Tite.",
+      "verified": true
+    },
+    {
+      "title": "LeBron James was the blueprint for Tite's Brazil success - FourFourTwo",
+      "url": "https://fourfourtwo.com/news/lebron-james-was-blueprint-tites-brazil-success",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-05-14",
+      "eventDate": "2016-09",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Former Corinthians boss Tite recalled Marcelo for his first match in charge away at Ecuador in a World Cup qualifier, while Silva – the captain during the Selecao's ill-fated 2014 World Cup campaign – returned to the fold at a later date.",
+      "verified": true
+    },
+    {
+      "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
+      "url": "https://congressoemfoco.com.br/artigo/43228/tite-e-o-grande-nome-do-hexa-corinthiano-e-a-maior-esperanca-do-hexa-brasileiro",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2015-11-21",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Tite montou um time que marcava poucos gols mas conseguia fazer com que geralmente bastassem, pois seu sistema defensivo era quase inexpugnável. A fórmula funcionava, mas não deslumbrava.",
+      "verified": true
+    },
+    {
+      "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
+      "url": "https://congressoemfoco.com.br/artigo/43228/tite-e-o-grande-nome-do-hexa-corinthiano-e-a-maior-esperanca-do-hexa-brasileiro",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2015-11-21",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "o time voltou a praticar o mesmo futebol do início do ano, com o 4-1-4-1 como esquema principal, mais a flexibilidade para adotar instantaneamente alternativas ao sabor das circunstâncias. Troca de passes eficiente e rápida, excelente concatenação dos contra-ataques, muitas jogadas ensaiadas",
+      "verified": true
+    },
+    {
+      "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
+      "url": "https://congressoemfoco.com.br/artigo/43228/tite-e-o-grande-nome-do-hexa-corinthiano-e-a-maior-esperanca-do-hexa-brasileiro",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2015-11-21",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "na lapidação de jovens promissores como Luciano, Rodriguinho e Lucca (os dois últimos a caminho do estrelato",
+      "verified": true
+    },
+    {
+      "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
+      "url": "https://congressoemfoco.com.br/artigo/43228/tite-e-o-grande-nome-do-hexa-corinthiano-e-a-maior-esperanca-do-hexa-brasileiro",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2015-11-21",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Foi quando o bom relacionamento de Tite com os jogadores salvou a pátria alvinegra. Por acreditarem no seu técnico, rejeitaram ofertas vantajosas e esforçaram-se muito para viabilizar a recuperação",
+      "verified": true
+    },
+    {
+      "title": "Tite é o grande nome do hexa corinthiano - Congresso em Foco",
+      "url": "https://congressoemfoco.com.br/artigo/43228/tite-e-o-grande-nome-do-hexa-corinthiano-e-a-maior-esperanca-do-hexa-brasileiro",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2015-11-21",
+      "eventDate": "2015",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "nas mudanças efetuadas ao longo das partidas, quase sempre para melhor (é frequente a participação dos substitutos nos gols salvadores);",
+      "verified": true
+    },
+    {
+      "title": "Tite - revivalist, revolutionary or reactionary? - Yahoo Sports",
+      "url": "https://sports.yahoo.com/tite-revivalist-revolutionary-reactionary-brazil-100000220.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-11-14",
+      "eventDate": "2017",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“The collective empowers the individual,” the coach says. “If the ball arrives to Neymar, they mark [him], but the other side is more exposed.",
+      "verified": true
+    },
+    {
+      "title": "'I was fired from almost every job I've ever had' - Goal",
+      "url": "https://www.goal.com/en-gb/news/i-was-fired-from-almost-every-job-ive-ever-had-but-i-keep/1iqz7fy8l9xv41t6yt9zhh4uh7",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-02-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“It allowed me the time to study and to ensure I did not rest on my laurels,” he told Brasil Global Tour . “That is what I look for, to give me the fuel to improve, to add more to myself as a coach, to evolve and make sure I keep evolving.”",
+      "verified": true
+    },
+    {
+      "title": "LeBron James was the blueprint for Tite's Brazil success - FourFourTwo",
+      "url": "https://fourfourtwo.com/news/lebron-james-was-blueprint-tites-brazil-success",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-05-14",
+      "eventDate": "2016-09",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Tite used the attitude of Cleveland Cavaliers icon LeBron James as the blueprint for the atmosphere and philosophy he wanted to develop in his Brazil squad. (...) \"I told my players, 'This is the kind of atmosphere we need here to be successful. Everyone fighting for one another, even the stars.'",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "The collective empowers the individual. If the ball arrives to Neymar, they mark [him], but the other side is more exposed. Coutinho creates chances. Enter Fagner, enter Paulinho. We take Neymar to one side, let him be isolated and make room for another. If they mark two, somewhere there are going to be people free. [We have to] find these alternative areas.",
+      "date": "2017-03",
+      "source": "FourFourTwo interview, quoted in These Football Times 2017-04-08 and Yahoo Sports 2017-11-14 (translation; original Portuguese not found)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I've only been able to make it this far because people showed the faith to hire me. I often joke that I've been fired from almost every job I've ever had... I want to evolve and keep evolving.",
+      "date": "2018-02",
+      "source": "Brasil Global Tour interview, quoted in Goal 2018-02-25",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "It allowed me the time to study and to ensure I did not rest on my laurels. That is what I look for, to give me the fuel to improve, to add more to myself as a coach, to evolve and make sure I keep evolving.",
+      "date": "2018-02",
+      "source": "Brasil Global Tour interview, quoted in Goal 2018-02-25 (on the 2014 sabbatical)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "When we all convened before the Ecuador match, one of the first things we did was show the players a video from a basketball game, if you can believe that! (...) I told my players, 'This is the kind of atmosphere we need here to be successful. Everyone fighting for one another, even the stars.'",
+      "date": "2018-05",
+      "source": "The Players' Tribune, quoted in FourFourTwo 2018-05-14 (about Sep 2016)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I have learned how to learn.",
+      "date": "2018-06",
+      "source": "quoted in World Football Index 2018-06-16",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.gazetaesportiva.com/?p=867699",
+      "reason": "403"
+    }
+  ],
+  "influences": [
+    "Carlo Ancelotti (visited during the 2014 sabbatical)",
+    "Arsene Wenger (visited during the 2014 sabbatical)",
+    "Luiz Felipe Scolari (former PE teacher and team-mate per Yahoo)"
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good tier A-B coverage of Brazil 2017-2019 and Corinthians 2015, but Corinthians 2011-13 and Brazil 2020-22 are thin, stated-view quotes are all attributed (secondary), and spell dates are from memory."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+2. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+3. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+4. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+5. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+2. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+3. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+4. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+5. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+2. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+3. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+4. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+5. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+2. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+3. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+4. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+5. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+2. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+3. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+4. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+5. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+2. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+3. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+4. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+5. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+2. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+3. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+4. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+5. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+2. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+3. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+4. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+5. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+2. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+3. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+4. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+5. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+2. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+3. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+4. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+5. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+2. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+3. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+4. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+5. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+2. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+3. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+4. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+5. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

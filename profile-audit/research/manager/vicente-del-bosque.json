@@ -4,10 +4,10 @@
  "name": "Vicente del Bosque",
  "researchedOn": "2026-11-02",
  "profilePeriod": {
-  "start": "1999-11-17",
+  "start": "2008-07-15",
   "end": "2016-07-04"
  },
- "scopeNote": "Counted spells: Real Madrid (Nov 1999 - Jun 2003: Champions League 2000 and 2002, La Liga 2001 and 2003) and Spain (Jul 2008 - Jul 2016: World Cup 2010, Euro 2012). Exact start/end days are not in the mined pages (only month-level: 'noviembre del 99', 'noviembre de 1999' in the Flashscore question, 'July 2016' via search results); day-level values in spellsCounted are approximate and flagged in openQuestions. Style term used by sources: possession football / 'tiki-taka' inherited from Luis Aragonés and refined with a double pivot (Busquets + Xabi Alonso); 4-6-0 without striker at Euro 2012. At Madrid: back three won the 2000 Champions League, then 4-4-2. Tactical coverage of Madrid is thin (mostly his own retrospective interviews); Spain is better covered. Excluded spells carry year-only dates because sources give only years (1994 for two months, 1996, Beşiktaş 2004-05).",
+ "scopeNote": "Narrowed on 2026-11-04 (user decision): only the Spain spell (Jul 2008 - Jul 2016) is counted. The Real Madrid spell (1999-2003) is excluded; its sources stay in the file as context with verified false because they fall outside the profile period. Counted spells: Real Madrid (Nov 1999 - Jun 2003: Champions League 2000 and 2002, La Liga 2001 and 2003) and Spain (Jul 2008 - Jul 2016: World Cup 2010, Euro 2012). Exact start/end days are not in the mined pages (only month-level: 'noviembre del 99', 'noviembre de 1999' in the Flashscore question, 'July 2016' via search results); day-level values in spellsCounted are approximate and flagged in openQuestions. Style term used by sources: possession football / 'tiki-taka' inherited from Luis Aragonés and refined with a double pivot (Busquets + Xabi Alonso); 4-6-0 without striker at Euro 2012. At Madrid: back three won the 2000 Champions League, then 4-4-2. Tactical coverage of Madrid is thin (mostly his own retrospective interviews); Spain is better covered. Excluded spells carry year-only dates because sources give only years (1994 for two months, 1996, Beşiktaş 2004-05).",
  "ambiguities": [],
  "openQuestions": [
   "Spell day-level dates: Madrid start 1999-11-17 inferred (Periodico de Ibiza 1999-11-18 says the club welcomes him 'hoy'; day from memory/search, not mined text); Madrid end 2003-06-24 from Irish Times article date; Spain start 2008-07-15 and end 2016-07-04 (football-espana URL date) not confirmed in mined pages.",
@@ -30,8 +30,8 @@
    "eventDate": "2000",
    "accessedOn": "2026-11-02",
    "dimension": "shape",
-   "evidence": "se inventó una nueva posición para Zinedine Zidane en el Real Madrid de ‘Los Galácticos’ o apostó por una defensa de tres centrales en el equipo blanco para ganar la Champions League",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] se inventó una nueva posición para Zinedine Zidane en el Real Madrid de ‘Los Galácticos’ o apostó por una defensa de tres centrales en el equipo blanco para ganar la Champions League",
+   "verified": false
   },
   {
    "title": "Táctica y Sistemas - Vicente del Bosque - The Coaches' Voice",
@@ -78,8 +78,8 @@
    "eventDate": "2000",
    "accessedOn": "2026-11-02",
    "dimension": "defensive-block",
-   "evidence": "One of the keys was tactics, from the quarter-finals right through to the final. We changed a few things. We tried to strengthen our full-backs, to give Michel Salgado and Roberto Carlos more freedom, so we played with three experienced central defenders. Then we had a midfielder in front, a player like Fernando Redondo, who needed to be on his own, to handle and control the ball.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] One of the keys was tactics, from the quarter-finals right through to the final. We changed a few things. We tried to strengthen our full-backs, to give Michel Salgado and Roberto Carlos more freedom, so we played with three experienced central defenders. Then we had a midfielder in front, a player like Fernando Redondo, who needed to be on his own, to handle and control the ball.",
+   "verified": false
   },
   {
    "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
@@ -90,8 +90,8 @@
    "eventDate": "2000",
    "accessedOn": "2026-11-02",
    "dimension": "width",
-   "evidence": "We tried to strengthen our full-backs, to give Michel Salgado and Roberto Carlos more freedom",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] We tried to strengthen our full-backs, to give Michel Salgado and Roberto Carlos more freedom",
+   "verified": false
   },
   {
    "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
@@ -102,8 +102,8 @@
    "eventDate": "1999/03",
    "accessedOn": "2026-11-02",
    "dimension": "squad-building",
-   "evidence": "We've tried to treat all the players equally, in the same way. To give them all their place in the team. (...) (Fernando) Hierro, Raul, Redondo, Roberto Carlos, Michel Salgado - all these players formed a base to which all those who arrived later adapted perfectly into",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] We've tried to treat all the players equally, in the same way. To give them all their place in the team. (...) (Fernando) Hierro, Raul, Redondo, Roberto Carlos, Michel Salgado - all these players formed a base to which all those who arrived later adapted perfectly into",
+   "verified": false
   },
   {
    "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
@@ -114,8 +114,8 @@
    "eventDate": "2002/03",
    "accessedOn": "2026-11-02",
    "dimension": "people-management",
-   "evidence": "I think he's one of the happiest players I've ever had under my command, and who were we as coaches to interfere with his happiness?",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] I think he's one of the happiest players I've ever had under my command, and who were we as coaches to interfere with his happiness?",
+   "verified": false
   },
   {
    "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
@@ -126,8 +126,8 @@
    "eventDate": "2002/03",
    "accessedOn": "2026-11-02",
    "dimension": "transitions",
-   "evidence": "He was good in transition, he distributed the play to Figo or Roberto Carlos with ease. In short, he got the ball back and was the first launch pad, so that nobody was hindered.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] He was good in transition, he distributed the play to Figo or Roberto Carlos with ease. In short, he got the ball back and was the first launch pad, so that nobody was hindered.",
+   "verified": false
   },
   {
    "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
@@ -474,8 +474,8 @@
    "eventDate": "2003",
    "accessedOn": "2026-11-02",
    "dimension": "squad-building",
-   "evidence": "“Hemos entendido que necesitamos otro perfil de entrenador. Vicente del Bosque tiene un librillo muy tradicional. Nos gustaría un librillo más sofisticado desde el punto de vista de la técnica y la estrategia”",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] “Hemos entendido que necesitamos otro perfil de entrenador. Vicente del Bosque tiene un librillo muy tradicional. Nos gustaría un librillo más sofisticado desde el punto de vista de la técnica y la estrategia”",
+   "verified": false
   },
   {
    "title": "Vicente del Bosque: “Ustedes son los alemanes de Sudamérica” (El Gráfico)",
@@ -498,8 +498,8 @@
    "eventDate": "1999-11",
    "accessedOn": "2026-11-02",
    "dimension": "squad-building",
-   "evidence": "se dio un interinato, y luego otro, y lo hice con naturalidad, como si estuviera entrenando a los chavales del Castilla o de los equipos inferiores del Madrid",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] se dio un interinato, y luego otro, y lo hice con naturalidad, como si estuviera entrenando a los chavales del Castilla o de los equipos inferiores del Madrid",
+   "verified": false
   },
   {
    "title": "Entrevista exclusiva Del Bosque (Soccerway ES)",
@@ -510,8 +510,8 @@
    "eventDate": "1999/03",
    "accessedOn": "2026-11-02",
    "dimension": "people-management",
-   "evidence": "Yo creo que es muy importante que un vestuario reine la cordialidad, el afecto, el llevarse bien. Un clima laboral sano es importante para que podamos obtener resultados. (...) Yo creo que hay que aceptarlos a cada uno como son.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] Yo creo que es muy importante que un vestuario reine la cordialidad, el afecto, el llevarse bien. Un clima laboral sano es importante para que podamos obtener resultados. (...) Yo creo que hay que aceptarlos a cada uno como son.",
+   "verified": false
   },
   {
    "title": "Entrevista exclusiva Del Bosque (Soccerway ES)",
@@ -522,8 +522,8 @@
    "eventDate": "1999/03",
    "accessedOn": "2026-11-02",
    "dimension": "squad-building",
-   "evidence": "a pesar de que estuvo durante un periodo de una semana o dos semanas apartado del equipo por un hecho poco trascendente, luego nos ayudó también a ser campeones de Europa",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] a pesar de que estuvo durante un periodo de una semana o dos semanas apartado del equipo por un hecho poco trascendente, luego nos ayudó también a ser campeones de Europa",
+   "verified": false
   },
   {
    "title": "Vicente del Bosque: Tenemos que creer en nosotros, pero no pensar que somos los mejores del mundo (RFEF)",
@@ -546,8 +546,8 @@
    "eventDate": "2000-04",
    "accessedOn": "2026-11-02",
    "dimension": "defensive-block",
-   "evidence": "he moved his defensive midfielder, Iván Helguera, into a back three, adding more solidity and freeing up his explosive full-backs Roberto Carlos and Míchel Salgado.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] he moved his defensive midfielder, Iván Helguera, into a back three, adding more solidity and freeing up his explosive full-backs Roberto Carlos and Míchel Salgado.",
+   "verified": false
   },
   {
    "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
@@ -558,8 +558,8 @@
    "eventDate": "2000-04",
    "accessedOn": "2026-11-02",
    "dimension": "transitions",
-   "evidence": "It was a move that gave them more counter-attacking supremacy, and they raced to a 3-0 within an hour as Raúl’s brace and Roy Keane’s own goal put them in the driver’s seat.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] It was a move that gave them more counter-attacking supremacy, and they raced to a 3-0 within an hour as Raúl’s brace and Roy Keane’s own goal put them in the driver’s seat.",
+   "verified": false
   },
   {
    "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
@@ -570,8 +570,8 @@
    "eventDate": "2001/02",
    "accessedOn": "2026-11-02",
    "dimension": "shape",
-   "evidence": "With a diamond shape line-up in the middle of the park, he had Makélélé as a single pivot who would signal the start of a revolutionary phase in the role. (...) The 4-1-3-2 was completed by the two hitmen up top, Raúl and Morientes.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] With a diamond shape line-up in the middle of the park, he had Makélélé as a single pivot who would signal the start of a revolutionary phase in the role. (...) The 4-1-3-2 was completed by the two hitmen up top, Raúl and Morientes.",
+   "verified": false
   },
   {
    "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
@@ -582,8 +582,8 @@
    "eventDate": "2001/02",
    "accessedOn": "2026-11-02",
    "dimension": "player-profile",
-   "evidence": "The signing of Zidane allowed Del Bosque to build a more enterprising midfield. (...) He was supported by Figo and the reinvigorated Santiago Solari out wide, while at the tip of the diamond stood Zidane.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] The signing of Zidane allowed Del Bosque to build a more enterprising midfield. (...) He was supported by Figo and the reinvigorated Santiago Solari out wide, while at the tip of the diamond stood Zidane.",
+   "verified": false
   },
   {
    "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
@@ -594,8 +594,8 @@
    "eventDate": "1999/00",
    "accessedOn": "2026-11-02",
    "dimension": "squad-building",
-   "evidence": "Local players like Iker Casillas and Raúl were the future, while the likes of Fernando Hierro and Fernando Redondo had been around for some time.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] Local players like Iker Casillas and Raúl were the future, while the likes of Fernando Hierro and Fernando Redondo had been around for some time.",
+   "verified": false
   },
   {
    "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
@@ -630,8 +630,8 @@
    "eventDate": "1999/03",
    "accessedOn": "2026-11-02",
    "dimension": "people-management",
-   "evidence": "More of an expert man-manager than a master tactician, dialogue is what Vicente del Bosque’s managerial success relied on.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] More of an expert man-manager than a master tactician, dialogue is what Vicente del Bosque’s managerial success relied on.",
+   "verified": false
   },
   {
    "title": "Real part company with manager Del Bosque",
@@ -642,8 +642,8 @@
    "eventDate": "2003-06",
    "accessedOn": "2026-11-02",
    "dimension": "people-management",
-   "evidence": "Real Madrid have parted company with manager Vicente del Bosque and captain Fernando Hierro just hours after clinching the Spanish League title on Sunday.",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] Real Madrid have parted company with manager Vicente del Bosque and captain Fernando Hierro just hours after clinching the Spanish League title on Sunday.",
+   "verified": false
   },
   {
    "title": "Real’s loss, Spain’s gain - Football España",
@@ -690,8 +690,8 @@
    "eventDate": "1999-11",
    "accessedOn": "2026-11-02",
    "dimension": "squad-building",
-   "evidence": "He finally took over in a full-time capacity in November 1999 and never looked back",
-   "verified": true
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] He finally took over in a full-time capacity in November 1999 and never looked back",
+   "verified": false
   },
   {
    "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
@@ -787,12 +787,6 @@
  ],
  "spellsCounted": [
   {
-   "club": "Real Madrid",
-   "start": "1999-11-17",
-   "end": "2003-06-24",
-   "reason": "2 Champions Leagues (2000, 2002), 2 La Liga (2001, 2003); start day unverified (Periodico de Ibiza 1999-11-18 says Madrid 'recibirá hoy' Del Bosque; Toshack sacked about 1999-11-17); end 2003-06-24 per Irish Times article date (parted 'just hours after' the title on Sunday 2003-06-22)"
-  },
-  {
    "club": "Spain national team",
    "start": "2008-07-15",
    "end": "2016-07-04",
@@ -811,6 +805,12 @@
    "start": "2004",
    "end": "2005",
    "reason": "no major titles, no tactical coverage found, no move to a bigger job"
+  },
+  {
+   "club": "Real Madrid",
+   "start": "1999-11-17",
+   "end": "2003-06-24",
+   "reason": "excluded on 2026-11-04 to narrow the profile to his Spain era (user decision): 2 Champions Leagues (2000, 2002), 2 La Liga (2001, 2003); start day unverified (Periodico de Ibiza 1999-11-18 says Madrid 'recibirá hoy' Del Bosque; Toshack sacked about 1999-11-17); end 2003-06-24 per Irish Times article date (parted 'just hours after' the title on Sunday 2003-06-22)"
   }
  ],
  "gaps": {
