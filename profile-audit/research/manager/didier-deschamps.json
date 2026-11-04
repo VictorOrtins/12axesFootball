@@ -1,0 +1,924 @@
+{
+ "id": "didier-deschamps",
+ "catalog": "manager",
+ "name": "Didier Deschamps",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2012-07-08",
+  "end": "2026-07-18"
+ },
+ "scopeNote": "Counted spell proposed by the researcher: France national team, appointed Sunday 8 July 2012 (FFF announcement, Maxifoot same day; Blanc left after Euro 2012) to his 185th and last match, the 6-4 third-place play-off defeat to England on 18 July 2026 (Reuters/TimesLive 19 July). The brief expected an end in November 2026; sources show the tenure ended in July 2026 (Al Jazeera, 28 July, says it ended 'two weeks' before Zidane's appointment, roughly consistent). Raw results: 185 matches, 120 wins, 2018 World Cup, 2020-21 Nations League, Euro 2016 and 2022 World Cup finals. Monaco 2001-05 (Champions League final 2004), Juventus 2006-07 and Marseille 2009-12 are excluded: no tier A-B tactical coverage was found for them in this run and the national-team spell has the richest evidence. Excluded-spell dates are partial (month only, not verified in this run). The style is described by sources as pragmatic and result-first: a compact, deep mid/low block, ceding possession, quick vertical counters through Mbappe, set-piece work, 4-2-3-1 base (2014-2022), moving to back-three/five-man variants from 2021; 'defensive' is a press label, he himself rejects possession for its own sake. No source found states zonal vs man-marking at set pieces for France; only a 2016 pundit comparison implying man-marking. Evidence is mostly 2018 and 2022; 2012-17 and 2023-26 coverage is thin.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Spells proposed by the researcher and flagged: only France 2012-2026 counted; Monaco 2001-05, Juventus 2006-07 and Marseille 2009-12 excluded for lack of mined tactical evidence. Confirm or ask for a club-spell pass.",
+  "End date: 2026-07-18 (last match) used; brief expected November 2026, which no source supports. Al Jazeera says the tenure ended 'two weeks' before the 28 July announcement, slightly earlier than 18 July; FFF tribute dated 19 July.",
+  "Zonal vs man-marking at set pieces for France is not documented in any source read; Maxifoot 2016 only has a pundit (Boumsong) proposing a return to zonal, implying individual marking in 2016.",
+  "Euro 2024 and 2026 World Cup tactics (loss to Spain in semi-final, 6-4 loss to England) are not covered by tier A-B sources here (ESPN and UEFA pages failed).",
+  "Mourinhismo exemplar link: result-first pragmatism, deep block and set-piece work are well supported; 'adapting to the opponent' is supported by the 2018 Uruguay and Belgium set-piece adjustments and the 2021 half-time reshape."
+ ],
+ "sources": [
+  {
+   "title": "France National Team: Tactical Analysis (MBP School)",
+   "url": "https://mbpschool.com/en/france-national-team-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The initial set-up of the side usually fluctuates between two different systems: the GK-4-3-3 and the GK-5-2-1-2. Depending on the players available and the opposition, Deschamps varies between the two, but always maintains the same general principles of play.",
+   "verified": true
+  },
+  {
+   "title": "France National Team: Tactical Analysis (MBP School)",
+   "url": "https://mbpschool.com/en/france-national-team-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "In terms of the dynamic organisation of the team in the defensive phase, France usually maintain the same structure as their base formation. Depending on the height of one of the central midfielders, they play a GK-5-3-2 or GK-5-2-1-2, or a GK-4-3-3 when they play with a line of four defenders at the back.",
+   "verified": true
+  },
+  {
+   "title": "France National Team: Tactical Analysis (MBP School)",
+   "url": "https://mbpschool.com/en/france-national-team-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "For this reason, the French coach seeks to accumulate a lot of players in the central channel, leaving the wings free for the wingers or full backs depending on the base structure he uses from the start.",
+   "verified": true
+  },
+  {
+   "title": "France National Team: Tactical Analysis (MBP School)",
+   "url": "https://mbpschool.com/en/france-national-team-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Another of the team’s characteristics in the offensive phase is the role played by players such as Griezmann and Nkunku. In their teams, both usually operate as strikers, but in the national team they act as attacking midfielders, playing a very important role in the moments of dynamic build-up and progression of the play.",
+   "verified": true
+  },
+  {
+   "title": "France National Team: Tactical Analysis (MBP School)",
+   "url": "https://mbpschool.com/en/france-national-team-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Although Deschamps always tries to prioritise 3+1 behind the ball in order to rationally protect space in the event of a turnover, France are also physically imposing.",
+   "verified": true
+  },
+  {
+   "title": "France National Team: Tactical Analysis (MBP School)",
+   "url": "https://mbpschool.com/en/france-national-team-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-11-23",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "regardless of the dynamic organisation they use, Deschamps’ team has a tendency to create defensive sub-blocks, i.e. to split into two blocks of players, forming a first block of eight players plus the goalkeeper, and another block of two players further forward, who are alert to a possible defence-attack transition.",
+   "verified": true
+  },
+  {
+   "title": "Behind France's World Cup 2022 campaign (Halfspaces)",
+   "url": "https://halfspaces.substack.com/p/behind-frances-world-cup-2022-campaign",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-12-18",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "When teams attack France, they press very little, set up in a mid-block, and prefer to sit deeper.",
+   "verified": true
+  },
+  {
+   "title": "Behind France's World Cup 2022 campaign (Halfspaces)",
+   "url": "https://halfspaces.substack.com/p/behind-frances-world-cup-2022-campaign",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-12-18",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "France, however, are not a possession-heavy team. France prefer to hit teams on the counter, where Griezmann and Dembelé can cut through defences to find Giroud and Mbappé",
+   "verified": true
+  },
+  {
+   "title": "Behind France's World Cup 2022 campaign (Halfspaces)",
+   "url": "https://halfspaces.substack.com/p/behind-frances-world-cup-2022-campaign",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-12-18",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "if France need a late goal, Deschamps subs on Marcus Thuram, who is a useful outlet on the left, with Mbappé playing as a number 9. This was a key substitution that also led to France’s second goal vs Morocco.",
+   "verified": true
+  },
+  {
+   "title": "Behind France's World Cup 2022 campaign (Halfspaces)",
+   "url": "https://halfspaces.substack.com/p/behind-frances-world-cup-2022-campaign",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-12-18",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "France’s formations vary from 2-4-4 to 2-3-5. Varane and Upamecano remain at the back to aid in the build-up",
+   "verified": true
+  },
+  {
+   "title": "Behind France's World Cup 2022 campaign (Halfspaces)",
+   "url": "https://halfspaces.substack.com/p/behind-frances-world-cup-2022-campaign",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-12-18",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Hernandez and Koundé push forward, providing width.",
+   "verified": true
+  },
+  {
+   "title": "France 3 Switzerland 3: Euro 2020 Tactical Analysis (Coaches' Voice)",
+   "url": "https://www.coachesvoice.com/?p=44991",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-03",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Didier Deschamps set France up in a 3-4-1-2 structure against Switzerland’s 5-2-3 mid-block. Adrien Rabiot was used in an unfamiliar left wing-back role",
+   "verified": true
+  },
+  {
+   "title": "France 3 Switzerland 3: Euro 2020 Tactical Analysis (Coaches' Voice)",
+   "url": "https://www.coachesvoice.com/?p=44991",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-03",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "At half-time and a goal down, Deschamps reorganised his team to use a back four. Kingsley Coman replaced Clément Lenglet and, thereafter, France used a 4-4-2",
+   "verified": true
+  },
+  {
+   "title": "France 3 Switzerland 3: Euro 2020 Tactical Analysis (Coaches' Voice)",
+   "url": "https://www.coachesvoice.com/?p=44991",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-03",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "France continued to attack with a 4-4-2 and a low block, when needed, in defence, but with Olivier Giroud and Moussa Sissoko having been introduced to join Mbappé in attack, they posed too little threat on the break.",
+   "verified": true
+  },
+  {
+   "title": "France 3 Switzerland 3: Euro 2020 Tactical Analysis (Coaches' Voice)",
+   "url": "https://www.coachesvoice.com/?p=44991",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-07-03",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "France’s front two moved wider as a consequence, and looked to combine with their wing-backs, reducing France's attacking presence close to their opposing central defenders",
+   "verified": true
+  },
+  {
+   "title": "Tactical confusion and Mbappe missing in action (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/tactical-confusion-and-mbappe-missing-in-action-what-went-wrong-for-france-1624958756000",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-06-29",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "there was no press from the front three and that left the midfield exposed.",
+   "verified": true
+  },
+  {
+   "title": "Tactical confusion and Mbappe missing in action (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/tactical-confusion-and-mbappe-missing-in-action-what-went-wrong-for-france-1624958756000",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-06-29",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "With no fit left-back Deschamps switched to a back three, a formation France had not played this year, and Adrien Rabiot, more used to pulling the strings in midfield, was asked to do a shift as left wing-back.",
+   "verified": true
+  },
+  {
+   "title": "Tactical confusion and Mbappe missing in action (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/tactical-confusion-and-mbappe-missing-in-action-what-went-wrong-for-france-1624958756000",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-06-29",
+   "eventDate": "2021-06-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "It was a fudge and the France boss recognised as much with 10 minutes of the first half remaining by switching to a back four.",
+   "verified": true
+  },
+  {
+   "title": "World Cup: Deschamps' calm tactics usher France into final (Sport360)",
+   "url": "https://amp.sport360.com/article/football/world_cup_2018/293009/didier-deschamps-tactics-calmly-ushers-france-to-victory-over-belgium-and-into-the-final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Didier Deschamps kept faith with his 4-2-3-1 system and pulled no surprises with a predictable but formidable line-up.",
+   "verified": true
+  },
+  {
+   "title": "World Cup: Deschamps' calm tactics usher France into final (Sport360)",
+   "url": "https://amp.sport360.com/article/football/world_cup_2018/293009/didier-deschamps-tactics-calmly-ushers-france-to-victory-over-belgium-and-into-the-final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Once France gained the lead though, they formed a low block, with even Giroud retreating to the edge of his own box at times.",
+   "verified": true
+  },
+  {
+   "title": "World Cup: Deschamps' calm tactics usher France into final (Sport360)",
+   "url": "https://amp.sport360.com/article/football/world_cup_2018/293009/didier-deschamps-tactics-calmly-ushers-france-to-victory-over-belgium-and-into-the-final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Unsurprisingly, France were happy to invite Belgium onto them and didn’t get caught up in some of their movement in forward areas.",
+   "verified": true
+  },
+  {
+   "title": "World Cup: Deschamps' calm tactics usher France into final (Sport360)",
+   "url": "https://amp.sport360.com/article/football/world_cup_2018/293009/didier-deschamps-tactics-calmly-ushers-france-to-victory-over-belgium-and-into-the-final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "As soon as France won possession, they shifted the ball with quick exchanges before looking for the through ball, usually directed at the pacey Mbappe.",
+   "verified": true
+  },
+  {
+   "title": "Deschamps vindicated as he stands on verge of history (Guardian via Irish Times)",
+   "url": "https://www.irishtimes.com/sport/world-cup/group-c/deschamps-vindicated-as-he-stands-on-verge-of-history-1.3561783",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "They were content to retreat from the outset, sitting deep rather than pressing from the front, remaining narrow while soaking up possession – Belgium had 64 per cent of the ball – and then breaking with alacrity in the transition.",
+   "verified": true
+  },
+  {
+   "title": "Deschamps vindicated as he stands on verge of history (Guardian via Irish Times)",
+   "url": "https://www.irishtimes.com/sport/world-cup/group-c/deschamps-vindicated-as-he-stands-on-verge-of-history-1.3561783",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Belgium finished the game with just about every attacking player that Martínez could call upon on the pitch and still never looked like penetrating that wall of blue shirts.",
+   "verified": true
+  },
+  {
+   "title": "Deschamps vindicated as he stands on verge of history (Guardian via Irish Times)",
+   "url": "https://www.irishtimes.com/sport/world-cup/group-c/deschamps-vindicated-as-he-stands-on-verge-of-history-1.3561783",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Deschamps would argue that his decision to bring Giroud back into the team, after an unconvincing win over Australia in the opening match that drew criticism back home, has given them more balance up front",
+   "verified": true
+  },
+  {
+   "title": "Deschamps vindicated as he stands on verge of history (Guardian via Irish Times)",
+   "url": "https://www.irishtimes.com/sport/world-cup/group-c/deschamps-vindicated-as-he-stands-on-verge-of-history-1.3561783",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-11",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Samuel Umtiti was not so forgiving when he met Antoine Griezmann’s inswinging corner early in the second half, heading home the goal that ended up being the defining moment in a game that played out exactly how Deschamps had hoped.",
+   "verified": true
+  },
+  {
+   "title": "How Deschamps's pragmatic approach took France to final (SBS/AFP)",
+   "url": "https://www.sbs.com.au/news/article/how-deschampss-pragmatic-approach-took-france-to-final/9b6yb4srv",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-13",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "In both games they found an opening from a set piece and then sat back, ceded possession, stayed solid and looked to pick their opponents off on the break.",
+   "verified": true
+  },
+  {
+   "title": "How Deschamps's pragmatic approach took France to final (SBS/AFP)",
+   "url": "https://www.sbs.com.au/news/article/how-deschampss-pragmatic-approach-took-france-to-final/9b6yb4srv",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-13",
+   "eventDate": "2018-06-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "But with his plan falling flat and his side drawing 1-1 midway through the second half, Deschamps reverted to type, bringing on Giroud for Dembele and replacing Corentin Tolisso with the more experienced Blaise Matuidi.",
+   "verified": true
+  },
+  {
+   "title": "How Deschamps's pragmatic approach took France to final (SBS/AFP)",
+   "url": "https://www.sbs.com.au/news/article/how-deschampss-pragmatic-approach-took-france-to-final/9b6yb4srv",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-13",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "the key to his strategy has been his ability to convince flair players like Paul Pogba to take on extra defensive duties.",
+   "verified": true
+  },
+  {
+   "title": "How Deschamps's pragmatic approach took France to final (SBS/AFP)",
+   "url": "https://www.sbs.com.au/news/article/how-deschampss-pragmatic-approach-took-france-to-final/9b6yb4srv",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-13",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Both Lucas Hernandez and Benjamin Pavard have plenty of experience playing in central defence, meaning they do not madly commit themselves forward.",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Manager Didier Deschamps worked on that collective mentality for years, only selecting players who fit into the dynamic. It's why Deschamps excluded Karim Benzema and Adrien Rabiot, whose relationship with the national team and trust with the coaching staff had deteriorated.",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "What he recognised, however, is that tournaments are won not necessarily by the most entertaining sides but the most efficient ones. So he put together a system that promoted his players' strengths and camouflaged their weaknesses.",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "It didn't matter that France finished 18th in terms of possession at the World Cup.",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Deschamps built this team in the image of himself, a former defensive midfielder who knew his limitations. He gave his players singular tasks, avoiding the headache of a more intricate style of play",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "The counter-attack also emerged as a useful weapon, giving Mbappe the chance to use his speed, Pogba the opportunity to release his patented long balls",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "He wouldn't let this young team - with more than half making their World Cup debuts - give in to the temptation of doing too much.",
+   "verified": true
+  },
+  {
+   "title": "5 reasons why France won the World Cup (theScore)",
+   "url": "https://www.thescore.com/news/1557915",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-15",
+   "eventDate": "2018-07-15",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "In all, France scored six of its 14 goals from dead-ball situations.",
+   "verified": true
+  },
+  {
+   "title": "5 reasons why France won the World Cup (theScore)",
+   "url": "https://www.thescore.com/news/1557915",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-15",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Deschamps was dismissed as a poor tactician in the months leading up to the World Cup, and again faced an inquisition when he decided to field midfielder Blaise Matuidi on the left wing. But the added insurance allowed France to use its speed on the counter",
+   "verified": true
+  },
+  {
+   "title": "5 reasons why France won the World Cup (theScore)",
+   "url": "https://www.thescore.com/news/1557915",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-15",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Paul Pogba silenced his critics at the World Cup, demonstrating the restraint to play in Deschamps' defensive system and the range of passing to kick-start France's myriad counter-attacks.",
+   "verified": true
+  },
+  {
+   "title": "Didier Deschamps Triumphed by Building France in His Own Image (Guardian via inkl)",
+   "url": "https://www.inkl.com/news/didier-deschamps-triumphed-by-building-france-in-his-own-image",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-15",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Didier Deschamps, ever the arch pragmatist, will earn no plaudits for aesthetics after France’s 1-0 win over Belgium. The manager chose to pack his midfield and employ a low defensive block, but France were devastatingly effective.",
+   "verified": true
+  },
+  {
+   "title": "France's World Cup title defense once seemed unlikely (theScore)",
+   "url": "https://www.thescore.com/fran/news/2515126",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-12-15",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Deschamps made sure everyone in his squad felt important. He selected not only the most talented players available to him, but those who genuinely clicked. Even when Benzema ruled himself out of contention, Deschamps doubled down on the team at his disposal, choosing not to call up a replacement.",
+   "verified": true
+  },
+  {
+   "title": "France's World Cup title defense once seemed unlikely (theScore)",
+   "url": "https://www.thescore.com/fran/news/2515126",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-12-15",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Adrien Rabiot - who refused to be a reserve four years ago - replaced Pogba in midfield. Theo Hernandez swapped places with his brother and made the left-back position his own. Ibrahima Konate exchanged minutes with Dayot Upamecano in central defense",
+   "verified": true
+  },
+  {
+   "title": "France's World Cup title defense once seemed unlikely (theScore)",
+   "url": "https://www.thescore.com/fran/news/2515126",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-12-15",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "At times, the team struggled to play the swift counterattacking football that powered its run to the title in 2018, but it made most of its chances count.",
+   "verified": true
+  },
+  {
+   "title": "Equipe de France : les petits secrets tactiques de Deschamps (Maxifoot, JDD interview)",
+   "url": "https://www.maxifoot.fr/football/article-39572.htm",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-03-24",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "On a modifié un ou deux placements. Pareil offensivement",
+   "verified": true
+  },
+  {
+   "title": "Equipe de France : les petits secrets tactiques de Deschamps (Maxifoot, JDD interview)",
+   "url": "https://www.maxifoot.fr/football/article-39572.htm",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-03-24",
+   "eventDate": "2018-07-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Contre l'Uruguay, on a cherché cet axe dans lequel ils mettaient leurs trois meilleurs joueurs de tête.",
+   "verified": true
+  },
+  {
+   "title": "Equipe de France : les petits secrets tactiques de Deschamps (Maxifoot, JDD interview)",
+   "url": "https://www.maxifoot.fr/football/article-39572.htm",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-03-24",
+   "eventDate": "2018-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "On est en demi-finale et on ne commet que sept fautes. Sept fautes qui n'amènent aucune situation dangereuse.",
+   "verified": true
+  },
+  {
+   "title": "Equipe de France : les coups de pied arrêtés, le point noir avant l'Euro (Maxifoot)",
+   "url": "https://m.maxifoot.fr/football/article-28252.htm",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2016-03-30",
+   "eventDate": "2016-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Une phase de jeu responsable de 49% des buts encaissés sous l'ère Didier Deschamps !",
+   "verified": true
+  },
+  {
+   "title": "Equipe de France : les coups de pied arrêtés, le point noir avant l'Euro (Maxifoot)",
+   "url": "https://m.maxifoot.fr/football/article-28252.htm",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2016-03-30",
+   "eventDate": "2016-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Jean-Alain Boumsong a par exemple proposé de repasser à un marquage en zone sur ce type d'action afin de permettre aux Tricolores de retrouver plus de confiance qu'avec un marquage individuel, plus responsabilisant.",
+   "verified": true
+  },
+  {
+   "title": "France United (FourFourTwo)",
+   "url": "https://fourfourtwo.com/features/france-united-how-deschamps-made-les-bleus-perfect-team-2014",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-04",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Deschamps was looking for someone grounded, self-motivated, professional and capable of keeping his spirits high while accepting he stands virtually no chance of kicking or catching a ball in competitive action.",
+   "verified": true
+  },
+  {
+   "title": "France United (FourFourTwo)",
+   "url": "https://fourfourtwo.com/features/france-united-how-deschamps-made-les-bleus-perfect-team-2014",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-04",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Another quality Deschamps shares with Jacquet is loyalty towards players that serve him well. There were quizzical looks from English fans when Mamadou Sakho got the nod over Laurent Koscielny",
+   "verified": true
+  },
+  {
+   "title": "France United (FourFourTwo)",
+   "url": "https://fourfourtwo.com/features/france-united-how-deschamps-made-les-bleus-perfect-team-2014",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-04",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "France have been all about a cohesive game plan, a team collective and, unlike other recent campaigns, harmony on and off the pitch.",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/2064411-2014-world-cup-tactics-board-analysing-didier-deschamps-france",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-15",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Under Deschamps, France have most frequently played a clear 4-2-3-1, operating with two athletic central midfielders who can both win back the ball and break forward when required.",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/2064411-2014-world-cup-tactics-board-analysing-didier-deschamps-france",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-15",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "They'll build play from deep, but not unnecessarily so—a quick wide ball to the overlapping full-backs or in to feet of the more creative midfielders dropping off will be the centre-backs' first port of call when receiving possession.",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/2064411-2014-world-cup-tactics-board-analysing-didier-deschamps-france",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-15",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "France's power in midfield is undeniably both a deliberate ploy and a major strength of Deschamps'",
+   "verified": true
+  },
+  {
+   "title": "Des Bleus encore verts (FIFA)",
+   "url": "https://inside.fifa.com/fr/news/des-bleus-encore-verts",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2018-06-16",
+   "eventDate": "2018-06-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Contre les Socceroos, pas un joueur de champ n’avait plus de 27 ans côté français.",
+   "verified": true
+  },
+  {
+   "title": "Des Bleus encore verts (FIFA)",
+   "url": "https://inside.fifa.com/fr/news/des-bleus-encore-verts",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2018-06-16",
+   "eventDate": "2018-06-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Deschamps a cependant surpris son monde en alignant deux latéraux comptabilisant moins de 15 capes à eux deux.",
+   "verified": true
+  },
+  {
+   "title": "Combien de joueurs Deschamps a lancé en Bleu (90min)",
+   "url": "https://www.90min.com/fr/posts/combien-de-joueur-didier-deschamps-a-t-il-lance-en-bleu-depuis-sa-nomination-en-2012",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2024-06-06",
+   "eventDate": "2024-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Barcola devient aussi le 78e joueur lancé par Deschamps en Équipe de France.",
+   "verified": true
+  },
+  {
+   "title": "Equipe de France : ces jeunes joueurs d'avenir (Maxifoot)",
+   "url": "https://m.maxifoot.fr/football/article-18132.htm",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2013-03-13",
+   "eventDate": "2013-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "l'ancien coach de l'Olympique de Marseille n'a pas hésité à donner sa chance à de jeunes joueurs comme Mapou Yanga-Mbiwa, Moussa Sissoko, Maxime Gonalons ou encore Etienne Capoue",
+   "verified": true
+  },
+  {
+   "title": "France, Deschamps est agacé par certains commentateurs (Goal FR, Midi Libre interview)",
+   "url": "https://www.goal.com/fr/news/france-deschamps-est-agace-par-certains-commentateurs/1sqjq2777rxk91egj7i7yq1wjo",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2019-09-23",
+   "eventDate": "2019-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"La possession pour la possession, si elle est stérile… Le football est comme ça, il n’est pas rationnel.",
+   "verified": true
+  },
+  {
+   "title": "France, Deschamps est agacé par certains commentateurs (Goal FR, Midi Libre interview)",
+   "url": "https://www.goal.com/fr/news/france-deschamps-est-agace-par-certains-commentateurs/1sqjq2777rxk91egj7i7yq1wjo",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2019-09-23",
+   "eventDate": "2019-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Il vaut mieux reculer un petit peu. Le problème, c’est quand vous restez entre les deux.",
+   "verified": true
+  },
+  {
+   "title": "Deschamps takes responsibility for unacceptable first half (TimesLive/Reuters)",
+   "url": "https://www.timeslive.co.za/sport/fifa-world-cup-2026/2026-07-19-deschamps-takes-responsibility-for-unacceptable-first-half-in-last-game-in-charge-of-france/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-07-19",
+   "eventDate": "2026-07-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Didier Deschamps embodied high standards, rigour, a sense of the collective and love for the blue shirt",
+   "verified": true
+  },
+  {
+   "title": "Deschamps takes responsibility for unacceptable first half (TimesLive/Reuters)",
+   "url": "https://www.timeslive.co.za/sport/fifa-world-cup-2026/2026-07-19-deschamps-takes-responsibility-for-unacceptable-first-half-in-last-game-in-charge-of-france/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-07-19",
+   "eventDate": "2026-07-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "France trailed 4-0 at halftime in the World Cup third-place playoff before mounting a spirited recovery, but their late rally was not enough to prevent Deschamps’ 185th and final match in charge from ending in a loss.",
+   "verified": true
+  },
+  {
+   "title": "Deschamps takes responsibility for unacceptable first half (TimesLive/Reuters)",
+   "url": "https://www.timeslive.co.za/sport/fifa-world-cup-2026/2026-07-19-deschamps-takes-responsibility-for-unacceptable-first-half-in-last-game-in-charge-of-france/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-07-19",
+   "eventDate": "2026-07-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "“It is a defeat, but we were 4-0 down. We produced an unacceptable first half,” Deschamps told reporters.",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"The most important choices are made when we choose the 23 players,\" he said. \"You need to choose the men so you can build up a group that can go as far as possible.",
+   "verified": true
+  },
+  {
+   "title": "Making of a champion (theScore)",
+   "url": "https://www.thescore.com/fra_fed/news/1572083",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-07-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "\"If you know how to defend well, you are guaranteed to have two or three opportunities on the counter-attack or on a set piece.",
+   "verified": true
+  },
+  {
+   "title": "World Cup 2018 TSG set pieces (FIFA)",
+   "url": "https://inside.fifa.com/fr/tournaments/mens/worldcup/2018russia/news/coups-de-pied-arretes-et-iarretables",
+   "tier": "A",
+   "language": "fr",
+   "articleDate": "2018-07-13",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Que l’on utilise le marquage en zone, le marquage individuel ou un mélange des deux, il suffit qu’un seul joueur se déconcentre [generic FIFA TSG remark, not about France; not used]",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "La possession pour la possession, si elle est stérile… Le football est comme ça, il n’est pas rationnel.",
+   "date": "2019-09",
+   "source": "https://www.goal.com/fr/news/france-deschamps-est-agace-par-certains-commentateurs/1sqjq2777rxk91egj7i7yq1wjo (Midi Libre interview)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Il vaut mieux reculer un petit peu. Le problème, c’est quand vous restez entre les deux. Ça laisse beaucoup d’espaces, de profondeur, d’intervalles",
+   "date": "2019-09",
+   "source": "https://www.goal.com/fr/news/france-deschamps-est-agace-par-certains-commentateurs/1sqjq2777rxk91egj7i7yq1wjo (Midi Libre interview)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "The most important choices are made when we choose the 23 players. You need to choose the men so you can build up a group that can go as far as possible. You need to find balance, on the pitch of course, but also a human balance because it is so fragile.",
+   "date": "2018-07",
+   "source": "https://www.thescore.com/fra_fed/news/1572083",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "The teams that had the highest level of possession, the highest level of control, were all punished by fast forwards. That is football. If you know how to defend well, you are guaranteed to have two or three opportunities on the counter-attack or on a set piece.",
+   "date": "2018-07",
+   "source": "https://www.thescore.com/fra_fed/news/1572083",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "On a modifié un ou deux placements.",
+   "date": "2018-07",
+   "source": "https://www.maxifoot.fr/football/article-39572.htm",
+   "provenance": "primary"
+  },
+  {
+   "quote": "It is a defeat, but we were 4-0 down. We produced an unacceptable first half",
+   "date": "2026-07-18",
+   "source": "https://www.timeslive.co.za/sport/fifa-world-cup-2026/2026-07-19-deschamps-takes-responsibility-for-unacceptable-first-half-in-last-game-in-charge-of-france/",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.espn.com/soccer/story/_/id/49431120/france-announce-zinedine-zidane-new-coach-replacing-didier-deschamps",
+   "reason": "empty"
+  },
+  {
+   "url": "https://themastermindsite.com/2022/12/15/didier-deschamps-france-tactical-analysis-world-cup-2022/",
+   "reason": "403"
+  },
+  {
+   "url": "https://global.espn.com/football/story/_/id/37618405/france-euro-2020-progress-being-guided-man-united-star",
+   "reason": "empty"
+  },
+  {
+   "url": "https://africa.espn.com/football/story/_/id/40476041/euro-2024-france-deschamps-defensive-beat-belgium-last-16",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.passion4fm.com/world-cup-2022-tactical-preview-deschamps-france-tactics/",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuro/history/news/028e-1b31465f100b-e4733f9f1798-1000--netherlands-0-0-france-analysis-kante-rolls-back-the-years-w/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.fff.fr/article/17135-deschamps-une-page-d-histoire.html",
+   "reason": "403"
+  },
+  {
+   "url": "https://betweentheposts.net/france-england-deschamps-bows-out-in-blockbuster-defeat-4-6/",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Aime Jacquet (captain in 1998; loyalty to players and own-man selection per FourFourTwo 2014)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "France national team",
+   "start": "2012-07-08",
+   "end": "2026-07-18",
+   "reason": "Proposed by researcher: 2018 World Cup, Euro 2016 and 2022 World Cup finals, 2021 Nations League; best tactical coverage"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "AS Monaco",
+   "start": "2001-09",
+   "end": "2005-07",
+   "reason": "Champions League final 2004 but no tactical source mined; dates not verified in this run"
+  },
+  {
+   "club": "Juventus",
+   "start": "2006-07",
+   "end": "2007-06",
+   "reason": "Serie B title after Calciopoli; short spell, no tactical coverage mined"
+  },
+  {
+   "club": "Olympique de Marseille",
+   "start": "2009-07",
+   "end": "2012-07",
+   "reason": "Ligue 1 2010 and Coupe de la Ligue titles; no tactical coverage mined, left early July 2012 per Maxifoot"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Strong tier A-B coverage for 2021 (Coaches' Voice) and 2022 (MBP, Halfspaces) plus many tier C reports for 2018, but 2012-16 and 2023-26 are thin, set-piece marking scheme is undocumented, and most tactical text is retrospective match/tournament coverage."
+ }
+}

@@ -1,0 +1,1938 @@
+You are auditing, question by question and fully independently, the football profile "Barcelona 2024-25 (Hansi Flick era, 2024-26)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Barcelona 2024-25 (Hansi Flick era, 2024-26), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/barcelona-2024-25.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
+}
+
+After writing the file, reply only with "OK team:barcelona-2024-25" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (team/barcelona-2024-25.json) ===
+{
+  "id": "barcelona-2024-25",
+  "catalog": "team",
+  "name": "Barcelona 2024-25 (Hansi Flick era, 2024-26)",
+  "researchedOn": "2026-11-04",
+  "profilePeriod": {
+    "start": "2024-08-17",
+    "end": "2026-10-25"
+  },
+  "managers": [
+    {
+      "managerId": "hansi-flick",
+      "start": "2024-08-17",
+      "end": "2026-10-25"
+    }
+  ],
+  "scopeNote": "Id and name keep 24/25 per the user, but the research covers Flick's whole Barcelona era: first competitive match Valencia 1-2 Barcelona, La Liga matchday 1, 17 August 2024 (fcbarcelona.com match report; Flick took charge 1 July 2024), to the latest verifiable competitive match, the El Clasico at Camp Nou on 25 October 2026 (Real Madrid 2-1, single tier C source: Depor; the Depor lineups contain oddities such as 'Xavi Espart', so treat the 2026/27 details with caution). Every source carries its season in eventDate (2024/25, 2025/26, 2026/27). Best documented: 2024/25 (Coaches' Voice, UEFA technical observers, Ara, Soccerway, Cubarsi quotes) and the autumn of 2025/26 (Opta Analyst, Fussball Coaches Newsletter, Total Football Analysis, Sempre Barca on the high-line crisis). 2026/27 is thin (Ara, Al Jazeera, Football Espana, Depor). A narrowing to 2024/25 is possible by filtering eventDate. Style terms used by sources: very high defensive line with offside trap, counter-press, vertical transitions ('more direct towards goal'); the old tiki-taka label is only partly right (Coaches' Voice: fewest long passes in La Liga yet most through balls; Soccerway: Barcelona accept giving Bayern the ball to be more vertical). Marking: UEFA technical observers state Barcelona's back four used a zonal marking system in open play against Bayern (Oct 2024); no source read states the corner-marking system (zonal, man or mixed), so that is open. Season outcomes: 2024/25 domestic treble (La Liga, Copa, Supercopa; Champions League semi-final loss to Inter); 2025/26 La Liga champions (fcbarcelona.es 'Los 10 datos del campeon de Liga', 2026-05-26).",
+  "ambiguities": [],
+  "openQuestions": [
+    "Corner marking (zonal, man-to-man or mixed) is not stated in any page read; needs a set-piece-specific analysis.",
+    "El Gol Digital (tier C) reports players questioned the high line after the Copa del Rey semi-final at Atletico (reported 2026-02-14); no official player statement confirms it, and the report is single-source.",
+    "2026/27 evidence is thin and the Depor El Clasico report (25 Oct 2026, 1-2 loss) is a single tier C source with odd lineup names; verify against a second source.",
+    "Press label 'tiki-taka' versus Flick's own wish to be 'more direct towards goal' (July 2024): possession stayed high (66.5% after 22 games, 68.91% over 2025/26) while through balls led the league.",
+    "The Ara 2026-09-10 article says 'tres temporadas de Flick'; consistent with 2024-26 but the 2026/27 Champions League stats should be checked against UEFA.",
+    "Average squad age for 2025/26 and 2026/27 and La Masia debut counts per season were not found; only 2024/25 (second-youngest in La Liga; XI average 24.5 vs Bayern in Oct 2024)."
+  ],
+  "sources": [
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "After 22 La Liga games under Flick, Barcelona had the highest average ball possession (66.5 per cent), ahead of Real Madrid (60.7 per cent).",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "For Flick’s Barcelona, this build by the back line and midfield involves searching for number eights and a front-line trio in a 4-3-3, or number 10 in a 4-2-3-1.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "For Flick’s Barcelona, this build by the back line and midfield involves searching for number eights and a front-line trio in a 4-3-3, or number 10 in a 4-2-3-1.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "At time of writing, Barcelona had played the fewest long passes in the league, with Flick heavily enforcing their classic passing style.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "As such, Barcelona had played by far the most through balls (218) in La Liga after 22 matchdays – nearly 100 more than the team third on the list.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "In this part of Barcelona's build, passes create time for the full-backs to advance, with left-back Alejandro Balde keen to get forward. He often does so much earlier than right-back Jules Koundé",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "On Barcelona’s right side, Lamine Yamal has tended to hold the width for longer, with Robert Lewandowski operating as the single central forward",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Barcelona had the second-lowest PPDA (7.67) after 22 games.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Given that Flick encourages his full-backs to advance, they tend to be available to press inwards should possession be lost in the middle third.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "As a result, Barcelona’s team has been the second-youngest by average age in the 2024/25 La Liga.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Yamal’s dribbling and deft, last-second releases – or his outstanding outside-of-the-foot passes and crosses – created chances for Lewandowski.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "The aggressive nature of this youthful contingent helps Barcelona regain the ball, and quickly.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Barcelona tactics - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/hansi-flick-tactics-barcelona/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-02-07",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "Should the midfielders be unavailable to receive and play forward – often due to aggressive player-oriented marking – then Barcelona have been capable of spinning balls in behind for the wingers to run on to.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "But that high line is the essence of the system. Without it, this wouldn’t be Flick’s Barcelona.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "His ambitious counter-press and high defensive line can look brave one moment and chaotic the next.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Barcelona’s high turnovers per 90 have dropped this season, from 10.1 to 8.1.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "he was arguably the most important part of Barcelona’s press in 2024-25 as well. He understood when to jump and when not to press.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "There will be goals, and there will be excitement. Barcelona will press high, suffocate opponents, and win a lot of games. But there will also be lapses, moments when the structure cracks and the cover breaks.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "“It’s all about positioning, to be well placed,” Flick said recently. “If the distances are too big, you’ve lost because you have to run more and you give more time to the opponent and that kills you defensively. That is something we have to change.”",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "he has played 798 minutes this season across a variety of positions.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "He was given freedom to drop between the lines, drift centrally or move outside to find spaces to alter the opposition’s defensive shape.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick's Flawed Barcelona Face Their Biggest Test in Clasico Showdown | Opta Analyst",
+      "url": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-10-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "In the three matches where Barça have truly struggled this season, they recorded fewer than 10 sequences of 10+ passes. In every other game, they’ve had at least 15 such sequences.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick cuestionado por el vestuario del Barca (El Gol Digital)",
+      "url": "https://www.elgoldigital.com/futbol/fc-barcelona/flick-cuestionado-vestuario-barca-plan-tactico-metropolitano/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-02-14",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "El postpartido de la semifinal de Copa del Rey ha abierto la primera gran grieta en el proyecto de Hansi Flick.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick cuestionado por el vestuario del Barca (El Gol Digital)",
+      "url": "https://www.elgoldigital.com/futbol/fc-barcelona/flick-cuestionado-vestuario-barca-plan-tactico-metropolitano/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-02-14",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "La plantilla cree que confiar ciegamente en una presión tan adelantada y una línea defensiva alta ante un rival con la pegada del Atlético de Madrid fue una apuesta temeraria que les dejó totalmente expuestos.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick cuestionado por el vestuario del Barca (El Gol Digital)",
+      "url": "https://www.elgoldigital.com/futbol/fc-barcelona/flick-cuestionado-vestuario-barca-plan-tactico-metropolitano/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-02-14",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Mientras Flick insiste en que su modelo es el camino correcto y que los problemas derivan de una ejecución física deficiente, los jugadores reclaman una mayor flexibilidad estratégica",
+      "verified": true
+    },
+    {
+      "title": "Opponents have learned how to punish Barcelona's high line (Sempre Barca)",
+      "url": "https://semprebarca.com/opponents-have-learned-how-to-punish-barcelonas-high-line-but-system-can-be-protected-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-21",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "The line is non-negotiable.",
+      "verified": true
+    },
+    {
+      "title": "Opponents have learned how to punish Barcelona's high line (Sempre Barca)",
+      "url": "https://semprebarca.com/opponents-have-learned-how-to-punish-barcelonas-high-line-but-system-can-be-protected-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-21",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "A striking percentage, nearly half, follow a familiar pattern: a ball played into the space behind the defence, a forward sprinting through, and often a second runner arriving from deep to finish.",
+      "verified": true
+    },
+    {
+      "title": "Opponents have learned how to punish Barcelona's high line (Sempre Barca)",
+      "url": "https://semprebarca.com/opponents-have-learned-how-to-punish-barcelonas-high-line-but-system-can-be-protected-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-21",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "The high line has not changed dramatically. What has changed is the way rivals attack it.",
+      "verified": true
+    },
+    {
+      "title": "Opponents have learned how to punish Barcelona's high line (Sempre Barca)",
+      "url": "https://semprebarca.com/opponents-have-learned-how-to-punish-barcelonas-high-line-but-system-can-be-protected-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-21",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Barcelona’s aggressive line is the reason Lamine Yamal and Raphinha can press with freedom. It compresses the field. It allows Frenkie de Jong and Pedri to dictate tempo in advanced zones.",
+      "verified": true
+    },
+    {
+      "title": "Opponents have learned how to punish Barcelona's high line (Sempre Barca)",
+      "url": "https://semprebarca.com/opponents-have-learned-how-to-punish-barcelonas-high-line-but-system-can-be-protected-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-21",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "Flick’s Barcelona 2.0 is more controlled than the chaotic, all-action version of last season. There is less rock and roll, more rhythm.",
+      "verified": true
+    },
+    {
+      "title": "Opponents have learned how to punish Barcelona's high line (Sempre Barca)",
+      "url": "https://semprebarca.com/opponents-have-learned-how-to-punish-barcelonas-high-line-but-system-can-be-protected-analysis/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-21",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "They only need to drop the ball into the corridor between full-back and centre-back.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona defender reveals fresh tactical wrinkle 2025-26 (Football Espana)",
+      "url": "https://www.football-espana.net/2025/08/01/barcelona-defender-reveals-fresh-tactical-wrinkle-for-hansi-flicks-side-in-2025-26",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-08-01",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "The Catalan giants pressed high all season, with the defensive line at times close to halfway, and was heavily criticised before it helped Hansi Flick win a domestic treble in his first season in Spain.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona defender reveals fresh tactical wrinkle 2025-26 (Football Espana)",
+      "url": "https://www.football-espana.net/2025/08/01/barcelona-defender-reveals-fresh-tactical-wrinkle-for-hansi-flicks-side-in-2025-26",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-08-01",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "In the second half of the season, Barcelona were less dedicated to pushing quite as high, but it was still a central tenet of their game.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona defender reveals fresh tactical wrinkle 2025-26 (Football Espana)",
+      "url": "https://www.football-espana.net/2025/08/01/barcelona-defender-reveals-fresh-tactical-wrinkle-for-hansi-flicks-side-in-2025-26",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-08-01",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "“He has told us that we should be ourselves, and that we trust each other, and that we have to impose a different pace,” Cubarsi revealed to TV3.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona defender reveals fresh tactical wrinkle 2025-26 (Football Espana)",
+      "url": "https://www.football-espana.net/2025/08/01/barcelona-defender-reveals-fresh-tactical-wrinkle-for-hansi-flicks-side-in-2025-26",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-08-01",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Cubarsi explained that FLick again required his side to ‘press high for 90 minutes.’",
+      "verified": true
+    },
+    {
+      "title": "The blemish that most penalizes Hansi Flick's Barca in Europe (Ara)",
+      "url": "https://en.ara.cat/sports/the-crutch-that-most-penalizes-hansi-flick-s-barca-in-europe_1_5630787.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-28",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "In the top continental competition, Barça has conceded 13 goals, an average of 1.9 goals conceded per game, without managing a single clean sheet.",
+      "verified": true
+    },
+    {
+      "title": "The blemish that most penalizes Hansi Flick's Barca in Europe (Ara)",
+      "url": "https://en.ara.cat/sports/the-crutch-that-most-penalizes-hansi-flick-s-barca-in-europe_1_5630787.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-28",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "Barça has already conceded seven goals from corner kicks this season across all competitions (against Slavia Prague, Real Madrid, Rayo Vallecano, Real Betis, Chelsea, and Alavés).",
+      "verified": true
+    },
+    {
+      "title": "The blemish that most penalizes Hansi Flick's Barca in Europe (Ara)",
+      "url": "https://en.ara.cat/sports/the-crutch-that-most-penalizes-hansi-flick-s-barca-in-europe_1_5630787.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-28",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "The Barcelona team usually defends these plays with shorter players, such as Pau Cubarsí (1.84 m) and Eric Garcia (1.82 m)",
+      "verified": true
+    },
+    {
+      "title": "The blemish that most penalizes Hansi Flick's Barca in Europe (Ara)",
+      "url": "https://en.ara.cat/sports/the-crutch-that-most-penalizes-hansi-flick-s-barca-in-europe_1_5630787.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-28",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Barça has conceded goals in ten consecutive Champions League matches for the first time in its history.",
+      "verified": true
+    },
+    {
+      "title": "By the Numbers: FC Barcelona under Hansi Flick (fcbarcelona.com)",
+      "url": "https://fcbarcelona.com/en/news/4146521/by-the-numbers-fc-barcelona-under-hansi-flick",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-12",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Barça's opponents have been flagged for offside 62 times this season. The team that's second on the list, Osasuna, is way behind on 26.",
+      "verified": true
+    },
+    {
+      "title": "By the Numbers: FC Barcelona under Hansi Flick (fcbarcelona.com)",
+      "url": "https://fcbarcelona.com/en/news/4146521/by-the-numbers-fc-barcelona-under-hansi-flick",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-12",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Flick likes to push his back-line forward, and if that can be combined with an effective offside trap, then you have a winning formula.",
+      "verified": true
+    },
+    {
+      "title": "By the Numbers: FC Barcelona under Hansi Flick (fcbarcelona.com)",
+      "url": "https://fcbarcelona.com/en/news/4146521/by-the-numbers-fc-barcelona-under-hansi-flick",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-12",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "There have been 56 occasions this season when opposing defences have been forced to put the ball over their own back line, three more than Real Betis in second.",
+      "verified": true
+    },
+    {
+      "title": "By the Numbers: FC Barcelona under Hansi Flick (fcbarcelona.com)",
+      "url": "https://fcbarcelona.com/en/news/4146521/by-the-numbers-fc-barcelona-under-hansi-flick",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-12",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "With 67.65% of possession, Barça edge out Real Madrid and Real Sociedad to claim top spot.",
+      "verified": true
+    },
+    {
+      "title": "Improvements needed as Barcelona concede five goals from one set-piece situation only in April (Sempre Barca)",
+      "url": "https://semprebarca.com/improvements-needed-as-barcelona-concede-five-goals-from-one-set-piece-situation-only-in-april/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "SPORT notes that the Blaugrana side conceded five goals from corners only in the month of April.",
+      "verified": true
+    },
+    {
+      "title": "Improvements needed as Barcelona concede five goals from one set-piece situation only in April (Sempre Barca)",
+      "url": "https://semprebarca.com/improvements-needed-as-barcelona-concede-five-goals-from-one-set-piece-situation-only-in-april/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "Two of these five goals came in the match against Inter Milan, with Denzel Dumfries scoring both of these goals from corners.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona tactics criticised - You can't win titles playing like that (Football Espana)",
+      "url": "https://www.football-espana.net/2025/11/06/barcelona-hansi-flick-criticism-ruud-gullit",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "there has been strong criticism of Hansi Flick’s determination to continue utilising a very high defensive line, with which Barcelona were caught out on multiple occasions in Brugge.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona tactics criticised - You can't win titles playing like that (Football Espana)",
+      "url": "https://www.football-espana.net/2025/11/06/barcelona-hansi-flick-criticism-ruud-gullit",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "“Why insist on a plan doomed to failure? Every turnover is an invitation to counterattack. You can’t win titles playing like that.”",
+      "verified": true
+    },
+    {
+      "title": "Barcelona tactics criticised - You can't win titles playing like that (Football Espana)",
+      "url": "https://www.football-espana.net/2025/11/06/barcelona-hansi-flick-criticism-ruud-gullit",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "They have since lost Inigo Martinez, who marshalled the defence expertly, and a solution has yet to be found.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick criticised over Barcelona tactics against PSG (Football Espana)",
+      "url": "https://www.football-espana.net/2025/10/04/barcelona-hansi-flick-criticism-thierry-henry",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-10-04",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "“You cannot play in the Champions League with such a high line, I’m sorry. When you play against great teams, you are going to expose yourself.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona under Flick: A High Line and High Risk - A Tactical Breakdown (Fussball Coaches Newsletter)",
+      "url": "https://fussballs-newsletter-4ebdfb.beehiiv.com/p/barcelona-under-flick-a-high-line-and-high-risk-a-tactical-breakdown",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-11-18",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "One defender stepping up a fraction too late is enough to keep an attacker onside and destabilise the entire unit.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona under Flick: A High Line and High Risk - A Tactical Breakdown (Fussball Coaches Newsletter)",
+      "url": "https://fussballs-newsletter-4ebdfb.beehiiv.com/p/barcelona-under-flick-a-high-line-and-high-risk-a-tactical-breakdown",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-11-18",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "When Barcelona fail to apply immediate counter-pressing after losing the ball, their high line becomes vulnerable very quickly.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona under Flick: A High Line and High Risk - A Tactical Breakdown (Fussball Coaches Newsletter)",
+      "url": "https://fussballs-newsletter-4ebdfb.beehiiv.com/p/barcelona-under-flick-a-high-line-and-high-risk-a-tactical-breakdown",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-11-18",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "A high line naturally leaves large spaces in behind, and against teams who can transition quickly, those spaces become dangerous.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona under Flick: A High Line and High Risk - A Tactical Breakdown (Fussball Coaches Newsletter)",
+      "url": "https://fussballs-newsletter-4ebdfb.beehiiv.com/p/barcelona-under-flick-a-high-line-and-high-risk-a-tactical-breakdown",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-11-18",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "pressing aggressively, counter-pressing immediately after losing the ball, and giving opponents as little time and space as possible to build up play.",
+      "verified": true
+    },
+    {
+      "title": "Quien gano el clasico FC Barcelona vs. Real Madrid por LaLiga 2026 (Depor)",
+      "url": "https://depor.com/futbol-internacional/quien-gano-el-clasico-fc-barcelona-vs-real-madrid-en-vivo-hoy-por-laliga-2026-resultados-final-en-directo-nnda-nnrt-noticia/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-10-25",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "El triunfo puso fin a la racha de imbatibilidad del Barcelona en LaLiga. Pese a la presión azulgrana durante los últimos minutos, el Real Madrid conservó la ventaja y se llevó los tres puntos del Spotify Camp Nou.",
+      "verified": true
+    },
+    {
+      "title": "Quien gano el clasico FC Barcelona vs. Real Madrid por LaLiga 2026 (Depor)",
+      "url": "https://depor.com/futbol-internacional/quien-gano-el-clasico-fc-barcelona-vs-real-madrid-en-vivo-hoy-por-laliga-2026-resultados-final-en-directo-nnda-nnrt-noticia/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-10-25",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "La lesión de Xavi Espart obligó a modificar la defensa en la primera mitad.",
+      "verified": true
+    },
+    {
+      "title": "It's El Clasico time! (EWN)",
+      "url": "https://www.ewn.co.za/2026/10/23/it-s-el-clasico-time",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-23",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "The two sides meet on Sunday, 25 October 2026, in the first El Clásico of the 2026/27 LALIGA EA SPORTS season.",
+      "verified": true
+    },
+    {
+      "title": "It's El Clasico time! (EWN)",
+      "url": "https://www.ewn.co.za/2026/10/23/it-s-el-clasico-time",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-23",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "The Catalan giants have also turned their home ground into a fortress, winning 23 consecutive LALIGA home matches since September 2025.",
+      "verified": true
+    },
+    {
+      "title": "Barca begin LaLiga 26/27 against Athletic Club at Spotify Camp Nou (fcbarcelona.com)",
+      "url": "https://www.fcbarcelona.com/en/news/4528913/barca-begin-laliga-2627-against-athletic-club-at-spotify-camp-nou",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-06-30",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "It's two LaLiga wins out of two for Barça with Hansi Flick at the helm.",
+      "verified": false
+    },
+    {
+      "title": "Flick Keeps Lamine Yamal on the Right Flank (Football Espana)",
+      "url": "https://www.football-espana.net/2026/07/24/lamine-yamal-right-flank-barcelona-plan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-07-24",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Hansi Flick is not planning to use Lamine Yamal as a false nine, with Barcelona’s coaching staff firmly committed to keeping the teenager on the right flank for the foreseeable future, according to El País.",
+      "verified": true
+    },
+    {
+      "title": "Flick Keeps Lamine Yamal on the Right Flank (Football Espana)",
+      "url": "https://www.football-espana.net/2026/07/24/lamine-yamal-right-flank-barcelona-plan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-07-24",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Flick’s attacking recruitment this summer has been built around giving Yamal a support structure, not a new position.",
+      "verified": true
+    },
+    {
+      "title": "Lamine Yamal getting back to 'top level', Barcelona coach Flick says (Al Jazeera)",
+      "url": "https://www.aljazeera.com/amp/sports/2026/8/30/lamine-yamal-getting-back-to-top-level-barcelona-coach-flick-says",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-08-30",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "“I know everyone is worried about how is Lamine, how is he doing. And of course, look at his situation – he played a World Cup after a huge injury,” Flick told reporters on Sunday.",
+      "verified": true
+    },
+    {
+      "title": "Lamine Yamal getting back to 'top level', Barcelona coach Flick says (Al Jazeera)",
+      "url": "https://www.aljazeera.com/amp/sports/2026/8/30/lamine-yamal-getting-back-to-top-level-barcelona-coach-flick-says",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-08-30",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "“He played 90 minutes against Bilbao. And for him at the moment, it’s also good to [have] 90 minutes on the pitch,” Flick continued.",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Este año, el técnico hizo entrar a Gavi, Fermín López, Gabriel Jesús, Anthony Gordon y Marc Bernal como revulsivos. Un cambio abismal.",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "El alemán hizo hasta cinco cambios respecto al triunfo en Valencia y consiguió que no se notase sobre el campo. El fondo de banquillo, el motivo principal.",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "La presión alta es otro de los puntos importantes de este Barça. Contra el Feyenoord, los azulgranas recuperaron seis veces el balón en campo contrario (un 12% del total), según datos facilitados por Opta.",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Otras acciones, que han acabado con gol o con parada del portero de Sallent, han sido anuladas por fuera de juego, lo cual crea un peligro falso en los aficionados. El Feyenoord cayó ocho veces en posición antirreglamentaria",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "Cubarsí completó 105 pases de los 106 que intentó",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "Con una media de 4,4 goles por partido, es el equipo de las principales ligas europeas que más ha visto portería en este inicio de competición",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "La movilidad en la figura del nueve, con diversos jugadores intercambiándose las posiciones, y el buen nivel de Raphinha —máximo goleador del equipo con ocho dianas— han contribuido a aumentar este dato.",
+      "verified": true
+    },
+    {
+      "title": "Por que el Barca de Flick ha empezado tan bien la temporada? (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/barca-flick-empezado-temporada_130_5845623.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-09-10",
+      "eventDate": "2026/27",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "“Tenemos diferentes perfiles. Dani Olmo es bueno controlando el juego, mientras que Raphinha es intenso y profundo”, apuntaba el entrenador azulgrana.",
+      "verified": true
+    },
+    {
+      "title": "Pau Cubarsi: Thriving with Barca despite Flick's high risk tactics (FotMob)",
+      "url": "https://www.fotmob.com/topnews/18698-pau-cubarsi-thriving-barca-despite-flicks-high-risk-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02-06",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "The German coach likes to position his backline high up the pitch. Extremely high. This means there is frequently half the pitch behind Cubarsí for the 18-year-old to protect.",
+      "verified": true
+    },
+    {
+      "title": "Pau Cubarsi: Thriving with Barca despite Flick's high risk tactics (FotMob)",
+      "url": "https://www.fotmob.com/topnews/18698-pau-cubarsi-thriving-barca-despite-flicks-high-risk-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02-06",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "“Tactically, we train the defensive line but above all it is a matter of communication, that the four of us communicate and that we work well together. If one goes out, the others follow the line,” said Cubarsí",
+      "verified": true
+    },
+    {
+      "title": "Pau Cubarsi: Thriving with Barca despite Flick's high risk tactics (FotMob)",
+      "url": "https://www.fotmob.com/topnews/18698-pau-cubarsi-thriving-barca-despite-flicks-high-risk-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02-06",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "“If there’s pressure, it’s easier to push up because it’s harder to play it behind us.”",
+      "verified": true
+    },
+    {
+      "title": "Pau Cubarsi: Thriving with Barca despite Flick's high risk tactics (FotMob)",
+      "url": "https://www.fotmob.com/topnews/18698-pau-cubarsi-thriving-barca-despite-flicks-high-risk-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02-06",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Lamine Yamal, Cubarsí, Alejandro Balde, Marc Casadó, Gavi, Pedri and Fermín López all key figures having come through the Catalan club’s famed youth academy.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona in Freefall: Hansi Flick Can't Find His Defensive Wall (beIN Sports)",
+      "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/barcelona-in-freefall-hansi-flick-can-t-find-his-defensive-wall-and-rivals-are-taking-advantage-2026-02-17",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-02-17",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "The German coach has already used 16 different defensive lineups across the 38 matches played so far this season:",
+      "verified": true
+    },
+    {
+      "title": "Barcelona in Freefall: Hansi Flick Can't Find His Defensive Wall (beIN Sports)",
+      "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/barcelona-in-freefall-hansi-flick-can-t-find-his-defensive-wall-and-rivals-are-taking-advantage-2026-02-17",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-02-17",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "the most repeated backline has been Jules Koundé – Cubarsí – Eric García – Balde, used in 12 matches.",
+      "verified": true
+    },
+    {
+      "title": "Esta perdiendo fuerza el metodo Flick en el Barca? (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-champions-league-esta-perdiendo-fuerza-el-metodo-flick-en-el-barca/hOSbwovn",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2025-10-20",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Sin el vasco, la línea defensiva, siempre posicionada en zona muy alta en el campo para provocar el fuera de juego, está desorientada",
+      "verified": true
+    },
+    {
+      "title": "Esta perdiendo fuerza el metodo Flick en el Barca? (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-champions-league-esta-perdiendo-fuerza-el-metodo-flick-en-el-barca/hOSbwovn",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2025-10-20",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "los jugadores culés pierden muchas más pelotas que el pasado curso y recuperan muchas menos, debido a una presión menos efectiva y fácilmente superada por los rivales",
+      "verified": true
+    },
+    {
+      "title": "Esta perdiendo fuerza el metodo Flick en el Barca? (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-champions-league-esta-perdiendo-fuerza-el-metodo-flick-en-el-barca/hOSbwovn",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2025-10-20",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "\"Cuando presionas mal y tienes la línea tan arriba es muy fácil para el contrario tener ocasiones.",
+      "verified": true
+    },
+    {
+      "title": "La defensa del Barcelona es un coladero (El Gol Digital)",
+      "url": "https://www.elgoldigital.com/futbol/opinion/la-defensa-del-barcelona-es-un-coladero/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2025-11-09",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "El propio míster cuestionó la falta de intensidad de su equipo en el Jan Breydel.",
+      "verified": true
+    },
+    {
+      "title": "La defensa del Barcelona es un coladero (El Gol Digital)",
+      "url": "https://www.elgoldigital.com/futbol/opinion/la-defensa-del-barcelona-es-un-coladero/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2025-11-09",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "El Brujas lo expuso sin piedad: 23 ataques, 11 tiros, seis ocasiones claras.",
+      "verified": true
+    },
+    {
+      "title": "Flick holding firm on Barca high line despite defensive woes (theScore)",
+      "url": "https://www.thescore.com/news/3389597",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "\"We can (play a) low block and defend in the final third, or we go on our way, our philosophy, how we want to do it, and make things much better,\" said Flick on Wednesday.",
+      "verified": true
+    },
+    {
+      "title": "Flick holding firm on Barca high line despite defensive woes (theScore)",
+      "url": "https://www.thescore.com/news/3389597",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "\"We don't want to defend in a low block and then make some transition to win 1-0.\"",
+      "verified": true
+    },
+    {
+      "title": "Flick holding firm on Barca high line despite defensive woes (theScore)",
+      "url": "https://www.thescore.com/news/3389597",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "Barcelona have been riddled with injuries this season which Flick believes is part of the reason his team are not at their best.",
+      "verified": true
+    },
+    {
+      "title": "Flick holding firm on Barca high line despite defensive woes (theScore)",
+      "url": "https://www.thescore.com/news/3389597",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-06",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Frenkie de Jong said the team was failing defensively for several reasons.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick under fire: kamikaze high defensive line (Goal.com)",
+      "url": "https://www.goal.com/en/lists/hansi-flick-under-fire-barcelona-high-defensive-line-criticism/blt30a29a515433f99d",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "\"We are Barca, and we play with our DNA,\" he declared in Bruges. \"I won't change our style out of fear of losing. I'm not going to sit back and defend a 1-0 lead.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick under fire: kamikaze high defensive line (Goal.com)",
+      "url": "https://www.goal.com/en/lists/hansi-flick-under-fire-barcelona-high-defensive-line-criticism/blt30a29a515433f99d",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "He also insists that the high line isn't as \"dangerous\" as it looks. But even the players that enjoy adopting such an adventurous approach have referred to it as a \"risk\"",
+      "verified": true
+    },
+    {
+      "title": "Flick y su Barca: Es clave ser mas directos hacia el gol (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-flick-y-su-barca-es-clave-ser-mas-directos-hacia-el-gol/thCER5Za",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-07-22",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "En ataque, la tradición es jugar al toque y encadenar pases para generar espacios, pero yo quiero que mis futbolistas se centren en llegar antes a la portería y en marcar goles. Es clave ser más directos hacía el gol.",
+      "verified": true
+    },
+    {
+      "title": "Flick y su Barca: Es clave ser mas directos hacia el gol (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-flick-y-su-barca-es-clave-ser-mas-directos-hacia-el-gol/thCER5Za",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-07-22",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Busco lo mismo que anteriores entrenadores, presionar muy arriba y jugar en la mitad del campo rival",
+      "verified": true
+    },
+    {
+      "title": "Flick y su Barca: Es clave ser mas directos hacia el gol (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-flick-y-su-barca-es-clave-ser-mas-directos-hacia-el-gol/thCER5Za",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-07-22",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "La disciplina es necesaria. Me gusta conectar con los jugadores, es crucial. Quiero que me pregunten cosas, tienen mi puerta abierta.",
+      "verified": true
+    },
+    {
+      "title": "Flick y su Barca: Es clave ser mas directos hacia el gol (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-flick-y-su-barca-es-clave-ser-mas-directos-hacia-el-gol/thCER5Za",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-07-22",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Tenemos que seguirlos, estar con ellos y acompañarlos. Lo que he visto en los jugadores jóvenes y los más experimentados es que llevan la calidad, la intensidad y la actividad en el entrenamiento. Si lo hacen bien, contaré con ellos.",
+      "verified": true
+    },
+    {
+      "title": "Valencia 1-2 Barca: Flick starts with win as Lewy scores a brace (fcbarcelona.com)",
+      "url": "https://www.fcbarcelona.com/en/news/4086449/valencia-1-2-barca-flick-starts-with-win-as-lewy-scores-a-brace",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-08-17",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "17 year old Bernal was also making his competitive first team debut.",
+      "verified": true
+    },
+    {
+      "title": "Valencia 1-2 Barca: Flick starts with win as Lewy scores a brace (fcbarcelona.com)",
+      "url": "https://www.fcbarcelona.com/en/news/4086449/valencia-1-2-barca-flick-starts-with-win-as-lewy-scores-a-brace",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-08-17",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Flick gave a debut to Gerard Martín",
+      "verified": true
+    },
+    {
+      "title": "Valencia 1-2 Barca: Flick starts with win as Lewy scores a brace (fcbarcelona.com)",
+      "url": "https://www.fcbarcelona.com/en/news/4086449/valencia-1-2-barca-flick-starts-with-win-as-lewy-scores-a-brace",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-08-17",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "a factor that led to Pau Víctor becoming the third to debut this evening",
+      "verified": true
+    },
+    {
+      "title": "Valencia 1-2 Barca: Flick starts with win as Lewy scores a brace (fcbarcelona.com)",
+      "url": "https://www.fcbarcelona.com/en/news/4086449/valencia-1-2-barca-flick-starts-with-win-as-lewy-scores-a-brace",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-08-17",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "Hansi Flick's faith in a place in the starting lineup for Marc Casadó and Marc Bernal remained true to his approach to rewarding hard work after both had superb preseasons.",
+      "verified": true
+    },
+    {
+      "title": "In the Zone: How Barcelona overcame Bayern's marking in impressive triumph (UEFA)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-10-24",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Barcelona's back four defending from the halfway line and using a zonal marking system when Bayern had the ball",
+      "verified": true
+    },
+    {
+      "title": "In the Zone: How Barcelona overcame Bayern's marking in impressive triumph (UEFA)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-10-24",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "overcame the one-to-one marking approach of Vincent Kompany's players",
+      "verified": true
+    },
+    {
+      "title": "In the Zone: How Barcelona overcame Bayern's marking in impressive triumph (UEFA)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-10-24",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "The youthfulness of Barcelona's team was also notable, with an average age of 24.5 years in their starting XI compared to Bayern's 29.5. Six Barça players were aged 21 or under",
+      "verified": true
+    },
+    {
+      "title": "In the Zone: How Barcelona overcame Bayern's marking in impressive triumph (UEFA)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-10-24",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Their attacking players, including Lamine Yamal and Raphinha, switched sides to unsettle the Bundesliga leaders",
+      "verified": true
+    },
+    {
+      "title": "Manual para convertir al Barca en una maquina (en solo 14 partidos) (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-29",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Es impresionante ver cómo Cubarsí e Iñigo entienden quién debe marcar la línea en cada momento en función de dónde está el balón y de quién es el defensa que no puede ver al resto de compañeros.",
+      "verified": true
+    },
+    {
+      "title": "Manual para convertir al Barca en una maquina (en solo 14 partidos) (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-29",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "El Madrid cayó en la trampa una y otra vez y acabó desesperado. 12 fueras de juego, 8 de Mbappé.",
+      "verified": true
+    },
+    {
+      "title": "Manual para convertir al Barca en una maquina (en solo 14 partidos) (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-29",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "El equipo siguió jugando con la defensa bien arriba, aunque quizá fue necesario matizar un poco la altura, con la intención de presionar la salida del rival",
+      "verified": true
+    },
+    {
+      "title": "Manual para convertir al Barca en una maquina (en solo 14 partidos) (Ara)",
+      "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-29",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "La identidad la dan los jóvenes de la casa (La Masia, el gran tesoro del Barça)",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick on how Barcelona will improve at set pieces ahead of Inter (Football Espana)",
+      "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "Denzel Dumfries scored twice from corners during the first leg.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick on how Barcelona will improve at set pieces ahead of Inter (Football Espana)",
+      "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "“I think we can defend much better. It’s not just the height, it’s how you make your blocks, the one-on-ones, how you take responsibility in defence…",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick on how Barcelona will improve at set pieces ahead of Inter (Football Espana)",
+      "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "stated-view",
+      "evidence": "“Of course our style of play involves risks, but I love it.",
+      "verified": true
+    },
+    {
+      "title": "Hansi Flick on how Barcelona will improve at set pieces ahead of Inter (Football Espana)",
+      "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "the ball starts with the goalkeeper, and ends with the forward.",
+      "verified": true
+    },
+    {
+      "title": "La especialidad del Barca de Flick: fuera de juego (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-26",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "En total, ¡la trampa ha saltado 65 veces en 10 partidos!",
+      "verified": true
+    },
+    {
+      "title": "La especialidad del Barca de Flick: fuera de juego (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-26",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "esta victoria fue tanto más interesante desde el punto de vista táctico cuanto que se inscribió en una línea poco utilizada hasta entonces: la aceptación de dejar la mayor parte del balón al rival para imponer más verticalidad en la recuperación. Esto quedó patente en los 4 goles blaugranas, todos ellos procedentes de transiciones rápidas.",
+      "verified": true
+    },
+    {
+      "title": "La especialidad del Barca de Flick: fuera de juego (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-10-26",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Esto se traduce en una posición media en la que sólo los dos centrales están sistemáticamente en campo propio",
+      "verified": true
+    },
+    {
+      "title": "Bayern Munich Alumni: Hansi Flick praised for integrating youngsters at FC Barcelona",
+      "url": "https://www.bavarianfootballworks.com/2025/3/2/24331370/bayern-munich-alumni-hansi-flick-praised-for-integrating-youngsters-at-fc-barcelona",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "One name that can really be linked with Flick is Marc Casado, nobody really had him on their radar",
+      "verified": true
+    },
+    {
+      "title": "Bayern Munich Alumni: Hansi Flick praised for integrating youngsters at FC Barcelona",
+      "url": "https://www.bavarianfootballworks.com/2025/3/2/24331370/bayern-munich-alumni-hansi-flick-praised-for-integrating-youngsters-at-fc-barcelona",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-02",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Flick’s impact has been undeniable and his ability integrate young players is certainly a positive",
+      "verified": true
+    },
+    {
+      "title": "Los 10 datos del campeon de Liga (fcbarcelona.es)",
+      "url": "https://www.fcbarcelona.es/es/noticias/4509687/los-10-datos-del-campeon-de-liga/amp",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-05-26",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "el conjunto de Flick ha acumulado un total del 68,91% de la posesión en los partidos que ha jugado.",
+      "verified": true
+    },
+    {
+      "title": "Los 10 datos del campeon de Liga (fcbarcelona.es)",
+      "url": "https://www.fcbarcelona.es/es/noticias/4509687/los-10-datos-del-campeon-de-liga/amp",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-05-26",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "también es quien más fueras de juego ha provocado (164), con la famosa y comentada línea defensiva adelantada.",
+      "verified": true
+    },
+    {
+      "title": "Los 10 datos del campeon de Liga (fcbarcelona.es)",
+      "url": "https://www.fcbarcelona.es/es/noticias/4509687/los-10-datos-del-campeon-de-liga/amp",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-05-26",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "El conjunto culer es el equipo que más córners ha lanzado en la Liga (262)",
+      "verified": true
+    },
+    {
+      "title": "Los 10 datos del campeon de Liga (fcbarcelona.es)",
+      "url": "https://www.fcbarcelona.es/es/noticias/4509687/los-10-datos-del-campeon-de-liga/amp",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-05-26",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "El gran fondo de armario del Barça ha servido para sumar un total de 16 futbolistas que han conseguido marcar, como mínimo, un gol en la Liga.",
+      "verified": true
+    },
+    {
+      "title": "Los 10 datos del campeon de Liga (fcbarcelona.es)",
+      "url": "https://www.fcbarcelona.es/es/noticias/4509687/los-10-datos-del-campeon-de-liga/amp",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-05-26",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "la defensa del Barça también ha tenido que ver, siendo el equipo con menos remates recibidos (346)",
+      "verified": true
+    },
+    {
+      "title": "Life After Inigo Martinez & The Search For Defensive Balance At Barcelona (Total Football Analysis)",
+      "url": "https://totalfootball.beehiiv.com/p/barcelona-defensive-tactics-hansi-flick-2025-2026-analysis-mario-hermoso-as-roma-scout-report",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-11-09",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Over the first 13 matches of the 2025/2026 campaign, Flick has experimented with several partners alongside Cubarsí, including Ronald Araújo, Eric García, and Andreas Christensen",
+      "verified": true
+    },
+    {
+      "title": "Life After Inigo Martinez & The Search For Defensive Balance At Barcelona (Total Football Analysis)",
+      "url": "https://totalfootball.beehiiv.com/p/barcelona-defensive-tactics-hansi-flick-2025-2026-analysis-mario-hermoso-as-roma-scout-report",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-11-09",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Martínez’s composure, aerial strength, and leadership, combined with Cubarsí’s anticipation, timing, and distribution, created a balanced pairing that perfectly suited Flick’s high defensive line.",
+      "verified": true
+    },
+    {
+      "title": "Barca, leaders from corners too (fcbarcelona.com)",
+      "url": "https://www.fcbarcelona.com/en/news/4475082/barca-leaders-from-corners-too",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-03-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "the league leaders have found the net 11 times from this particular set piece, three more than second placed Oviedo",
+      "verified": true
+    },
+    {
+      "title": "Barcelona's defence faces new challenge without Inigo Martinez (FotMob)",
+      "url": "https://www.fotmob.com/en-GB/topnews/22491-barcelonas-defence-faces-new-challenge-without-inigo-martinez",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-08-14",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Flick took the concept to a new extreme, positioning Barca on the halfway line regardless of where the opposition had possession.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona's defence faces new challenge without Inigo Martinez (FotMob)",
+      "url": "https://www.fotmob.com/en-GB/topnews/22491-barcelonas-defence-faces-new-challenge-without-inigo-martinez",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-08-14",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "Martínez was also Barcelona’s best long passer last season, averaging 4.9 long balls per 90 minutes in 28 LaLiga appearances.",
+      "verified": true
+    },
+    {
+      "title": "Barcelona's defence faces new challenge without Inigo Martinez (FotMob)",
+      "url": "https://www.fotmob.com/en-GB/topnews/22491-barcelonas-defence-faces-new-challenge-without-inigo-martinez",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-08-14",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "Martínez’s departure is that Barcelona have removed €14 from their wage bill which will help them register new signings Joan García and Marcus Rashford",
+      "verified": true
+    },
+    {
+      "title": "Marking at corners (no source found)",
+      "url": "https://www.fcbarcelona.com/en/news/4475082/barca-leaders-from-corners-too",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-03-25",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "No page read states whether Barcelona mark corners zonally, by man or mixed; only open-play zonal marking (UEFA, Oct 2024) was found.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "We can (play a) low block and defend in the final third, or we go on our way, our philosophy, how we want to do it, and make things much better",
+      "date": "2025-11-05",
+      "source": "https://www.thescore.com/news/3389597",
+      "provenance": "primary"
+    },
+    {
+      "quote": "We are Barca, and we play with our DNA. I won't change our style out of fear of losing. I'm not going to sit back and defend a 1-0 lead.",
+      "date": "2025-11-05",
+      "source": "https://www.goal.com/en/lists/hansi-flick-under-fire-barcelona-high-defensive-line-criticism/blt30a29a515433f99d",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Es clave ser más directos hacía el gol.",
+      "date": "2024-07-22",
+      "source": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-flick-y-su-barca-es-clave-ser-mas-directos-hacia-el-gol/thCER5Za",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Of course our style of play involves risks, but I love it.",
+      "date": "2025-05-02",
+      "source": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+      "provenance": "primary"
+    },
+    {
+      "quote": "If the distances are too big, you’ve lost because you have to run more and you give more time to the opponent and that kills you defensively. That is something we have to change.",
+      "date": "2025-10",
+      "source": "https://theanalyst.com/articles/barcelona-hansi-flick-flaw-clasico-tactics",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "La disciplina es necesaria. Me gusta conectar con los jugadores, es crucial. Quiero que me pregunten cosas, tienen mi puerta abierta.",
+      "date": "2024-07-22",
+      "source": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-flick-y-su-barca-es-clave-ser-mas-directos-hacia-el-gol/thCER5Za",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Gerard Lopez (ex-Barca): It's one thing to push forward and do it well ... and another to be... suicidal (criticism of Flick, press label)",
+      "date": "2025-11",
+      "source": "https://www.goal.com/en/lists/hansi-flick-under-fire-barcelona-high-defensive-line-criticism/blt30a29a515433f99d",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://global.espn.com/football/story/_/id/43037831/barcelonas-high-line-how-key-strength-became-big-weakness",
+      "reason": "empty"
+    }
+  ],
+  "influences": [],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Several tier A-B sources (Coaches' Voice, UEFA technical observers, Opta Analyst, Total Football Analysis, newsletter breakdown) agree on the high line, offside trap and counter-press for 2024/25 and autumn 2025/26, but corner marking is undocumented, the 2026/27 period rests on tier C pages, and much of the criticism is press commentary."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+2. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+3. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+4. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+5. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+2. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+3. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+4. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+5. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+2. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+3. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+4. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+5. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+2. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+3. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+4. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+5. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+2. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+3. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+4. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+5. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+2. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+3. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+4. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+5. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+2. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+3. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+4. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+5. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+2. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+3. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+4. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+5. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+2. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+3. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+4. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+5. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+2. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+3. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+4. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+5. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+2. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+3. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+4. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+5. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+2. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+3. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+4. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.
+5. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time
