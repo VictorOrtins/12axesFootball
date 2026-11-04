@@ -1,0 +1,733 @@
+{
+ "id": "red-bull-school",
+ "catalog": "football-ideology",
+ "name": "Red Bull school (vertical pressing)",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2012",
+  "end": "ongoing"
+ },
+ "scopeNote": "Red Bull school as practised at Salzburg and Leipzig from Rangnick's arrival as sporting director in 2012 (exact day not found, partial date used) through Nagelsmann (Leipzig 2019-21) and Marsch (Salzburg 2019-21; New York 2015-18 not mined). Sources use 'Gegenpressing', 'pressing traps and trigger mechanisms' (Spielverlagerung) and Rangnick's own 'heavy metal' / 'Red Bull football'. Popular label 'gegenpressing' is incomplete: sources describe a pressing trap system with fast vertical attack, and it varies by coach: Rangnick/Schmidt man-oriented back line, Hasenhuttl trigger-based zonal press, Nagelsmann 5-2-3 with trap out wide and more possession, Marsch man-oriented 2v1 press. Nagelsmann himself moved away from 'unconditional team pressing' towards possession (RBLive 2018). Set-pieces not covered. Nagelsmann 70/30 quote has no original date; the Coaches Voice article date 2024-06-28 is used.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Proposed ids: ralf-rangnick exists in manager catalog; julian-nagelsmann and jesse-marsch not found in profile-audit/research/manager, proposed ids julian-nagelsmann and jesse-marsch.",
+  "Rangnick's own Red Bull-era tactical coverage is mostly via Spielverlagerung 2017 (Leipzig 2015/16) and quotes; no primary tier A study of Salzburg 2012-15 found.",
+  "Marking: Spielverlagerung says Rangnick's Leipzig back line marked strikers and Breaking the Lines says Marsch's Salzburg is man-oriented, but a search summary (unverified) called Salzburg ball-oriented; The Master Minds pages were 403.",
+  "Marsch's New York Red Bulls (2015-18) and Hasenhuttl/Schmidt as exemplars not researched; Nagelsmann's quotes undated in Coaches' Voice.",
+  "Set-pieces: no in-period source found.",
+  "Spielverlagerung article says Hasenhuttl's Leipzig is 'in contrary to the public opinion' not full-force in first pressing phase, which contradicts the popular total-press image."
+ ],
+ "sources": [
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Granted, Gegenpressing was not invented in the late 2000s or early 2010s, though the conscious use of pressing traps and trigger mechanisms to force transition attacks was certainly an aspect that had rarely appeared in that specific form.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Under his supervision, Schmidt built up Salzburg as said Gegenpressing powerhouse.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Leipzig first and foremost relied on a 4-4-2/4-2-2-2 formation with two outside-in wingers and, most of the time, one auxiliary striker as a connecting piece between midfield and the players upfront.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "the formation helped Leipzig to make use of four pressing players upfront and basically shut down all passing options the opponents might have had in the early stages of their build-up plays",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Leipzig's back line usually dropped behind the halfway line in order to mark opposing strikers which created a significant gap in which the two centre-midfielders looked like they were in no-man's-land.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Leipzig were often desperately waiting for the other team to leave their mouse hole and vertically stretch the effective playing field.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Under Hasenhüttl's guidance, Leipzig have learned to start fast attacking plays out of a slow ball- circulation from a back three.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "If it is possible, a so-called laser pass (driving ground pass) to Forsberg or to one striker who returns from the wing to the middle is the first option.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Leipzig abandon the ball-far side. The two players near the ball make use of their cover shadows in order to block vertical and horizontal passing lanes.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Hasenhüttl has established a balanced structure in which only tactical triggers lead to the application of pressure. ... Yet as soon as a centre-back or deep-positioned centre-midfielder reveals through body position and/or viewing direction what he intends to do or the ball circulations happens to be inaccurate, the trap springs.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "A turnover in the middle allows Leipzig to produce an immediate breakthrough by getting the pressing players involved who are already in motion.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "In these cases, the Roten Bullen occasionally overreact and move with too many players into the ball-near zones. This turns into a problem when these wild scenes happen in spaces at the sideline",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "The Saxons, moreover, deliver a consistent ball-circulation through their deepest line and, therefore, are resistant against customary pressing schemes.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Leipzig possess the individual quality in the middle of the park to bypass opposing midfield lines via dribbles or through quick combination plays. On top of that, the aggressive half-space penetrator Emil Forsberg, accompanied by Keïta, assists Leipzig's three lightning-fast strikers in Marcel Sabitzer, Yussuf Poulsen and Timo Werner effectively.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Leipzig spent 50 million Euro last summer, signing a decent amount of prospects. Both Oliver Burke and Naby Keïta cost 15 million Euro. Timo Werner was signed for a transfer fee of 10 million.",
+   "verified": true
+  },
+  {
+   "title": "Beyond the business model: RB Leipzig's football philosophy (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2017/01/02/beyond-the-business-model-rb-leipzigs-football-philosophy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Footballers like Keïta and Werner are in strong demand across Europe, yet Leipzig offers the perfect package of ambition, resources and professionality to convince these talents",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Nagelsmann's Leipzig side were successful in pressing with a lone striker supported by two attacking central midfielders, with the three of them aiming to force play into traps out wide.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "After allowing an initial pass out from a goal-kick, the defence pushed up as high as possible so that the diamond had support underneath it.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "opponents were often forced to attempt long balls over their press, leading to regains in their own half, or battles for second balls in midfield.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "With a better squad at Leipzig, Nagelsmann's favoured approach evolved. His team's basic structure was a 5-2-3",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Their wing-backs – usually Angeliño on the left and Nordi Mukiele on the right – initially provided their attacking width, but Leipzig's focus on central rotations (below) meant that the wing-backs sometimes moved infield",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "There was also more variety when Leipzig built possession (above) compared to Hoffenheim",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "The team's rotations were made possible by the versatility of Marcel Sabitzer, Dani Olmo, Emil Forsberg and others; players who were comfortable in a number of positions and could happily swap positions during a game",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Under Nagelsmann, Bayern had many different routes by which to win the ball back, and they attacked directly towards goal quickly following a regain, with lots of players already in central positions.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "His three central defenders played out from the back. Kevin Vogt, in particular, was given responsibility for playing the ball forwards and progressing possession.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Nagelsmann encouraged a high press throughout 2020/21, and he was rewarded with an increase in the number of regains in the attacking half and attacking third for Leipzig.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann tactics and style of play - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-06-28",
+   "eventDate": "2019",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Nagelsmann has been heavily influenced by the pressing philosophy of Ralf Rangnick, who was behind RB Leipzig recruiting him from Hoffenheim in 2019.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Salzburg's main idea off the ball is to form situations where they are pressing with two men against one opponent with the close options for the opponent with the ball man-marked.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Red Bull Salzburg they use a man-marking orientation to prevent opponents from being able to escape the press through passing. An advantage of this is that it is easy to coach and can be effective against a rigid structure.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "In the games I analysed, Salzburg used a 4-4-2, a 4-2-3-1 and a 4-3-3, sometimes changing their shape mid-game.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Salzburg don't always stop the ball from passing this line so they leave themselves exposed to fast transitions as soon as this line is broken.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "When pressing, Salzburg sprints at players committing as quickly as they can in order to give the opponents no time to make a decision.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "The biggest thing Salzburg could improve on is their ability when in possession as they lack structure and can only form attacks consistently by playing long balls down the line.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Jesse Marsch (Red Bull Salzburg's coach) has stated that he is a big admirer of Ralf Ragnick's footballing philosophy and tries to implement his own version of Rangnick's methodology.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "can only form attacks consistently by playing long balls down the line.",
+   "verified": true
+  },
+  {
+   "title": "A Masterclass in Pressing: Red Bull Salzburg (Breaking the Lines)",
+   "url": "https://breakingthelines.com/tactical-analysis/a-masterclass-in-pressing-red-bull-salzburg/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-04-05",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "they are limited by the funding of the league they are in which makes it difficult for them to keep players due to relying on selling talented young players for income.",
+   "verified": true
+  },
+  {
+   "title": "Spotlight: Jesse Marsch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jesse-marsch-leeds-red-bull-salzburg-pressing/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Marsch goes into detail about the specifics of his pressing game, which was influenced – like so many others – by Manchester United manager Ralf Rangnick.",
+   "verified": true
+  },
+  {
+   "title": "Spotlight: Jesse Marsch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/jesse-marsch-leeds-red-bull-salzburg-pressing/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "\"As much as this is a difficult way of playing and it requires a big physical output, there's a contagiousness to the feeling of overwhelming the opponent by outrunning them, by pressing them, by giving them no time on the ball\"",
+   "verified": true
+  },
+  {
+   "title": "13 quotes to explain Ralf Rangnick's philosophy: 'Heavy metal football' (Planet Football)",
+   "url": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "\"We like to press high, with a very intense counter-pressure. When we have the ball, we do not like any square or back passes.",
+   "verified": true
+  },
+  {
+   "title": "13 quotes to explain Ralf Rangnick's philosophy: 'Heavy metal football' (Planet Football)",
+   "url": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "\"Our Red Bull football is heavy metal, rock and roll, it's not a slow waltz. We hate square passes, back passes, just having the ball ourselves doesn't make sense.\"",
+   "verified": true
+  },
+  {
+   "title": "13 quotes to explain Ralf Rangnick's philosophy: 'Heavy metal football' (Planet Football)",
+   "url": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "\"He only brought in players that were right for playing his way,\" Gross, Rangnick's mentor, told The Athletic. \"They were mostly young, Under-23s, open-minded, physically strong and quick in a cognitive sense.",
+   "verified": true
+  },
+  {
+   "title": "13 quotes to explain Ralf Rangnick's philosophy: 'Heavy metal football' (Planet Football)",
+   "url": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "The goalkeeper also should not be the one with the most contact on the ball.",
+   "verified": true
+  },
+  {
+   "title": "13 quotes to explain Ralf Rangnick's philosophy: 'Heavy metal football' (Planet Football)",
+   "url": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "\"He's always there for us and helps when he can. He also gets loud when we need it,\" the RB Leipzig midfielder said in 2018.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann: Von Rangnick geprägt, vom Total-Pressing abgerückt (RBLive)",
+   "url": "https://rblive.de/news/julian-nagelsmann-von-rangnick-gepraegt-vom-total-pressing-abgerueckt-3304066",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-10-29",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Der Fußball damals, mit dem überfallartigen Pressing, im Moment des Ballgewinns mit sechs sieben Spieler in den gegnerischen Strafraum zu sprinten. Die Methodik hat auch unseren Nachwuchs geprägt, als ich zu Hoffenheim gekommen bin.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann: Von Rangnick geprägt, vom Total-Pressing abgerückt (RBLive)",
+   "url": "https://rblive.de/news/julian-nagelsmann-von-rangnick-gepraegt-vom-total-pressing-abgerueckt-3304066",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-10-29",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Vom bedingungslosen Teampressing ist Julian Nagelsmann mittlerweile abgerückt und fügte der Rangnickschen Abteilung Attacke spielerische Elemente hinzu.",
+   "verified": true
+  },
+  {
+   "title": "Julian Nagelsmann: Von Rangnick geprägt, vom Total-Pressing abgerückt (RBLive)",
+   "url": "https://rblive.de/news/julian-nagelsmann-von-rangnick-gepraegt-vom-total-pressing-abgerueckt-3304066",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-10-29",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Gerade was das Ästhetische angeht, arbeiten wir jetzt mit sehr viel Ballbesitz, interessantem Spielaufbau, kaum langen Bällen.",
+   "verified": true
+  },
+  {
+   "title": "Red Bull Salzburg coach Marsch reveals why Klopp and Liverpool keep signing their players (Goal)",
+   "url": "https://www.goal.com/en/news/red-bull-salzburg-coach-marsch-reveals-why-klopp-and/16gm2j31atbb819dq981i1vb5b",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "\"In our database, the day a player turns 22, then he is kicked out.",
+   "verified": true
+  },
+  {
+   "title": "Red Bull Salzburg coach Marsch reveals why Klopp and Liverpool keep signing their players (Goal)",
+   "url": "https://www.goal.com/en/news/red-bull-salzburg-coach-marsch-reveals-why-klopp-and/16gm2j31atbb819dq981i1vb5b",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "\"That's the first step often to find the best young talent that are also naturally built to play the way we want to play. Can they go into our academy, Liefering and then Salzburg?",
+   "verified": true
+  },
+  {
+   "title": "Red Bull Salzburg coach Marsch reveals why Klopp and Liverpool keep signing their players (Goal)",
+   "url": "https://www.goal.com/en/news/red-bull-salzburg-coach-marsch-reveals-why-klopp-and/16gm2j31atbb819dq981i1vb5b",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2019-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Marsch and his Salzburg team are best known in the UK for having come from 3-0 down at Anfield last October to level at 3-3 following the coach's famous half-time team talk.",
+   "verified": true
+  },
+  {
+   "title": "How RB Leipzig's business model and recruitment strategy... (City AM)",
+   "url": "https://www.cityam.com/?p=1335908",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "A study by the CIES Football Observatory in April 2019 found the average age of Leipzig's signings was 21 years and 156 days, making them the youngest recruiter of any club in Europe's top five leagues.",
+   "verified": true
+  },
+  {
+   "title": "How RB Leipzig's business model and recruitment strategy... (City AM)",
+   "url": "https://www.cityam.com/?p=1335908",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "has given Nagelsmann a youthful, talented and hungry group of players to mould.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Our Red Bull football is heavy metal, rock and roll, it's not a slow waltz. We hate square passes, back passes, just having the ball ourselves doesn't make sense.",
+   "speaker": "Ralf Rangnick",
+   "date": "2021",
+   "source": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We like to press high, with a very intense counter-pressure. When we have the ball, we do not like any square or back passes.",
+   "speaker": "Ralf Rangnick",
+   "date": "2020",
+   "source": "https://www.planetfootball.com/quick-reads/13-quotes-to-explain-ralf-rangnicks-philosophy-heavy-metal-football",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Thirty per cent of coaching is tactics, 70 per cent social competence",
+   "speaker": "Julian Nagelsmann",
+   "date": "2024-06-28",
+   "source": "https://learning.coachesvoice.com/cv/julian-nagelsmann-bayern-munich-red-bull-rangnick/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Der Fußball damals, mit dem überfallartigen Pressing, im Moment des Ballgewinns mit sechs sieben Spieler in den gegnerischen Strafraum zu sprinten.",
+   "speaker": "Julian Nagelsmann",
+   "date": "2018-10",
+   "source": "https://rblive.de/news/julian-nagelsmann-von-rangnick-gepraegt-vom-total-pressing-abgerueckt-3304066",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I have even often said to our scouting department maybe the best way of thinking about how to scout players is to think about what leagues and clubs around the world play a similar brand of football to what we do.",
+   "speaker": "Jesse Marsch",
+   "date": "2020-08",
+   "source": "https://www.goal.com/en/news/red-bull-salzburg-coach-marsch-reveals-why-klopp-and/16gm2j31atbb819dq981i1vb5b",
+   "provenance": "primary"
+  },
+  {
+   "quote": "there's a contagiousness to the feeling of overwhelming the opponent by outrunning them, by pressing them, by giving them no time on the ball",
+   "speaker": "Jesse Marsch",
+   "date": "2021-02",
+   "source": "https://learning.coachesvoice.com/cv/jesse-marsch-leeds-red-bull-salzburg-pressing/",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://themastermindsite.com/2021/02/18/julian-nagelsmann-rb-leipzig-tactical-analysis-2020-21-edition/",
+   "reason": "403"
+  },
+  {
+   "url": "https://africa.espn.com/football/german-bundesliga/story/4218884/ralf-rangnick-on-rb-leipzigs-success-and-being-the-godfather-of-gegenpressing",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.onceametro.com/2015/10/19/9548103/ralfball-tactics-edition-the-formation-jesse-marsch-ali-curtis-new-york-red-bulls-ralf-rangnick/in/9202722",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://themastermindsite.com/2021/02/14/jesse-marsch-rb-salzburg-tactical-analysis/",
+   "reason": "403"
+  },
+  {
+   "url": "https://betweentheposts.net/red-bull-salzburg-rasenballsport-leipzig-1-0-counterpressing-rangnick/",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Valeriy Lobanovskyi's Dynamo Kyiv (via Rangnick, unverified)",
+  "Arrigo Sacchi's Milan (unverified)",
+  "Stuttgart football school (Rangnick)",
+  "Jurgen Klopp / Dortmund as parallel"
+ ],
+ "exemplars": [
+  {
+   "id": "ralf-rangnick",
+   "kind": "manager",
+   "reason": "Founder: Leipzig 2015/16 and sporting director at Salzburg and Leipzig"
+  },
+  {
+   "id": "julian-nagelsmann",
+   "kind": "manager",
+   "reason": "Rangnick-schooled; Leipzig 2019-21 trap press out wide, more possession"
+  },
+  {
+   "id": "jesse-marsch",
+   "kind": "manager",
+   "reason": "Salzburg 2019-21 man-oriented 2v1 press, self-declared admirer of Rangnick"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Tier A-B sources for Leipzig 2016/17, Nagelsmann Leipzig 2020/21 and Marsch Salzburg 2020/21 agree on pressing traps, but Rangnick's own era is covered by one analyst piece and quotes, and Master Minds pages were 403."
+ }
+}

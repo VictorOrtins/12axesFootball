@@ -66,3 +66,21 @@ export function fetchCompare(type: CompareType, id: string, leftPercents: number
     `/api/compare?type=${type}&id=${encodeURIComponent(id)}&v=${values}&lang=${LANG}`
   );
 }
+
+interface Described {
+  id: string;
+  description: string;
+}
+
+// Descrições dos três catálogos, chaveadas por "tipo:id" (o catálogo de comparação não as traz).
+export async function fetchCatalogDescriptions(): Promise<Map<string, string>> {
+  const sources: [CompareType, string][] = [
+    ['manager', '/api/managers'],
+    ['team', '/api/teams'],
+    ['football-ideology', '/api/football-ideologies']
+  ];
+  const lists = await Promise.all(sources.map(([, path]) => request<Described[]>(`${path}?lang=${LANG}`)));
+  const out = new Map<string, string>();
+  lists.forEach((list, index) => list.forEach((item) => out.set(`${sources[index][0]}:${item.id}`, item.description)));
+  return out;
+}

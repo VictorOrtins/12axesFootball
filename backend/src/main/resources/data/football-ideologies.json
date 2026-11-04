@@ -133,5 +133,104 @@
     "phrase": "Quero um time organizado por zonas, com espaçamento definido e superioridade entre as linhas, que domine a posse.",
     "teamId": "manchester-city-2017-18",
     "managerId": "pep-guardiola"
+  },
+  {
+    "id": "low-block-counter-attack",
+    "name": "Bloco baixo e contra-ataque",
+    "category": "Defensiva e reativa",
+    "description": "Ideia, não um time só: absorver a pressão num bloco compacto e fundo, ceder a posse e atacar o espaço na transição com atacantes rápidos; do Inter de Mourinho ao Leicester de Ranieri.",
+    "phrase": "Quero um time compacto e fundo que ceda a bola ao rival e ataque o espaço no contra-ataque.",
+    "teamId": "inter-2009-10",
+    "managerId": "jose-mourinho"
+  },
+  {
+    "id": "cholismo",
+    "name": "Cholismo",
+    "category": "Defensiva e reativa",
+    "description": "Estilo de Diego Simeone no Atlético de Madrid: 4-4-2 fundo e estreito, o coletivo acima do individual, intensidade e o jogo 'partido a partido'.",
+    "phrase": "Quero um time fundo e coletivo, que trabalhe mais que o rival e pense um jogo de cada vez.",
+    "teamId": "atletico-madrid-2013-14",
+    "managerId": "diego-simeone"
+  },
+  {
+    "id": "mourinhismo",
+    "name": "Mourinhismo",
+    "category": "Defensiva e reativa",
+    "description": "Pragmatismo do resultado: o plano e o sistema mudam conforme o adversário e o elenco, com defesa compacta e contra-ataque; de Mourinho a Capello, Scolari e Deschamps.",
+    "phrase": "Quero um time que busque o resultado primeiro e mude o plano conforme o adversário e o elenco.",
+    "teamId": null,
+    "managerId": "jose-mourinho"
+  },
+  {
+    "id": "heavy-metal-football",
+    "name": "Futebol heavy metal",
+    "category": "Pressão e intensidade",
+    "description": "Futebol de alta energia nascido com Klopp e levado à escola Red Bull de Rangnick, Nagelsmann e Marsch: pressão e contrapressão, ritmo máximo e transições verticais.",
+    "phrase": "Quero um futebol de alta energia, com pressão, ritmo máximo e ataques rápidos depois de recuperar a bola.",
+    "teamId": null,
+    "managerId": "jurgen-klopp"
+  },
+  {
+    "id": "relationism",
+    "name": "Relacionismo",
+    "category": "Relacional e liberdade",
+    "description": "Ideia ligada a Fernando Diniz e ao 'jogo funcional': a posição é uma função das relações entre os jogadores, sem estrutura de zonas, com a bola no centro do jogo.",
+    "phrase": "Quero um time sem posições fixas em que os jogadores se organizem pelas relações em torno da bola.",
+    "teamId": "fluminense-2023",
+    "managerId": "fernando-diniz"
+  },
+  {
+    "id": "player-empowerment",
+    "name": "Empoderamento dos jogadores",
+    "category": "Relacional e liberdade",
+    "description": "Futebol de gestão de pessoas, como o de Ancelotti, Zidane e Scaloni: estrutura leve, regras de disciplina e de defesa, e liberdade com a bola construída pela confiança.",
+    "phrase": "Quero pouca regra tática, liberdade com a bola e um treinador que lidere pela confiança nos jogadores.",
+    "teamId": null,
+    "managerId": "carlo-ancelotti"
+  },
+  {
+    "id": "vertical-football",
+    "name": "Futebol vertical",
+    "category": "Pressão e intensidade",
+    "description": "Ganhar a bola, muitas vezes na contrapressão, e jogá-la logo para a frente com corrida para o espaço, sem construir pelo meio-campo; ligado ao Dortmund de Klopp.",
+    "phrase": "Quero recuperar a bola e jogá-la logo para a frente, correndo para o espaço em vez de construir devagar.",
+    "teamId": "dortmund-2010-13",
+    "managerId": "jurgen-klopp"
+  },
+  {
+    "id": "sarriball",
+    "name": "Sarribol",
+    "category": "Posse e estrutura",
+    "description": "O Napoli de Sarri: 4-3-3 de passes rápidas e combinações em tabela, corridas de terceiro homem e linha defensiva alta, num ritmo vertical.",
+    "phrase": "Quero passes rápidos e triangulações, com linha defensiva alta e o time jogando em bloco.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "build-up-baiting",
+    "name": "Saída de bola provocativa",
+    "category": "Posse e estrutura",
+    "description": "Jogo de De Zerbi: atrair a pressão adversária na saída de bola, de dentro da própria área, para criar espaço e atacar atrás do pressing.",
+    "phrase": "Quero provocar a pressão do rival na saída de bola e, quando ele vier, achar o espaço atrás dela.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "modern-man-to-man",
+    "name": "Marcação individual moderna",
+    "category": "Pressão e intensidade",
+    "description": "Marcação individual por boa parte do campo, com pressão agressiva e defesa de três, como no Atalanta de Gasperini.",
+    "phrase": "Quero marcar homem a homem por boa parte do campo, com pressão agressiva e uma defesa de três.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "zona-mista",
+    "name": "Zona mista",
+    "category": "Defensiva e reativa",
+    "description": "Gioco all'italiana de Trapattoni: marcação individual sobre o criador ou o atacante rival, mais cobertura de zona, líbero, quatro defensores e transições rápidas.",
+    "phrase": "Quero marcar o craque rival homem a homem, cobrir o resto em zona e buscar o resultado em transições rápidas.",
+    "teamId": null,
+    "managerId": null
   }
 ]

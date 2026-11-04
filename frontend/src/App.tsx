@@ -7,6 +7,7 @@ import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
+import { CatalogScreen } from './components/editorial/CatalogScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
 import { useQuizTheme } from './hooks/useQuizTheme';
@@ -20,7 +21,7 @@ import {
   type SavedProgress
 } from './utils/quizProgress';
 
-type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results';
+type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results' | 'catalog';
 
 const ProgressHeader = lazy(() =>
   import('./components/ProgressHeader').then((module) => ({ default: module.ProgressHeader }))
@@ -96,7 +97,7 @@ function MainApp() {
   const [quiz, setQuiz] = useState<QuizPayload | null>(null);
   const [answers, setAnswers] = useState<Record<string, AnswerValue>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [screen, setScreen] = useState<Screen>('home');
+  const [screen, setScreen] = useState<Screen>(() => (window.location.pathname.startsWith('/catalog') ? 'catalog' : 'home'));
   const [selectedVariant, setSelectedVariant] = useState<QuizVariant>('short');
   const [result, setResult] = useState<QuizResult | null>(null);
   const [isLoading, setIsLoading] = useState(SHARED_RESULT_VALUES !== null);
@@ -226,7 +227,16 @@ function MainApp() {
 
   function goHome() {
     setIsMenuOpen(false);
+    if (window.location.pathname.replace(/\/+$/, '').includes('/catalog')) {
+      window.history.replaceState(null, '', '/');
+    }
     setScreen('home');
+  }
+
+  function openCatalog() {
+    setIsMenuOpen(false);
+    window.history.replaceState(null, '', '/catalog');
+    setScreen('catalog');
   }
 
   function resetSharedUrl() {
@@ -605,6 +615,15 @@ function MainApp() {
               >
                 <a href="#como-funciona">{t.navHow}</a>
                 <a href="#guia-eixos">{t.navAxes}</a>
+                <a
+                  href="/catalog"
+                  onClick={(event) => {
+                    event.preventDefault();
+                    openCatalog();
+                  }}
+                >
+                  {t.navCatalog}
+                </a>
                 <button
                   className="e-lang"
                   type="button"
@@ -627,6 +646,22 @@ function MainApp() {
                 <span />
                 <span />
                 <span />
+              </button>
+            </>
+          )}
+          {screen === 'catalog' && (
+            <>
+              <button className="e-back" type="button" onClick={goHome}>
+                <ArrowIcon />
+                {t.backToStart}
+              </button>
+              <button
+                className="e-lang"
+                type="button"
+                onClick={() => setLang(LANG === 'pt' ? 'en' : 'pt')}
+                aria-label={t.langToggleAria}
+              >
+                {t.langToggleLabel}
               </button>
             </>
           )}
@@ -698,6 +733,14 @@ function MainApp() {
         />
       )}
 
+      {screen === 'catalog' && <CatalogScreen
+          axes={homeAxes}
+          onHome={goHome}
+          onStartQuiz={() => {
+            window.history.replaceState(null, '', '/');
+            openVariantChooser();
+          }}
+        />}
       {screen === 'variant' && <VariantScreen error={error} onStart={(variant) => void startQuiz(variant)} />}
 
       {/* Quiz e perguntas de arquétipo dividem o mesmo layout: o cabeçalho e a
@@ -837,7 +880,7 @@ function MainApp() {
         />
       )}
 
-      {(screen === 'home' || screen === 'results') && <SiteFooter />}
+      {(screen === 'home' || screen === 'results' || screen === 'catalog') && <SiteFooter />}
     </div>
   );
 }

@@ -34,7 +34,7 @@ function searchItems(items: CompareItem[], query: string): CompareItem[] {
 }
 
 // Treinador = retrato; time = escudo; ideia de jogo = bolinha.
-function ProfileFace({ item, className }: { item: CompareItem; className: string }) {
+export function ProfileFace({ item, className }: { item: CompareItem; className: string }) {
   if (item.type === 'manager') {
     return (
       <SafeImg

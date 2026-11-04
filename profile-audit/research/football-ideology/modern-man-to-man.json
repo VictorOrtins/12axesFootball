@@ -1,0 +1,787 @@
+{
+ "id": "modern-man-to-man",
+ "catalog": "football-ideology",
+ "name": "Modern man-to-man",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2016-06",
+  "end": "ongoing"
+ },
+ "scopeNote": "Man-marking over most of the pitch combined with a high or aggressive press and a back three, 2016 to today. Gasperini's Atalanta (2016-2025, Europa League 2024) is the core (Il Foglio: 'marcatura individuale a tutto campo'; Il Post 2017 'marcandoli a uomo a tutto campo'), carried to Roma 2025/26. Tudor (Verona 2021/22, Marseille 2022/23, Juventus 2025) is a derivative: tier A/B sources only support man-orientated marking in defensive transitions with a mid-block press (Verona; The Analyst) and 'marquage individuel' at Marseille (Rothen, a pundit); no verified man-marking source for Juventus. Distinct from bielsismo (that file is 1990-2020, Bielsa's own lineage with a spare centre-back and 3-3-1-3); here the exemplars are Gasperini's 3-4-2-1/3-4-3 five-at-the-back version. Start is year-month only (Gasperini's Atalanta start in June 2016 per Il Foglio 'a Bergamo dal 2016' / TFT pre-contract; exact day not checked). Stricter label: 'man-oriented' rather than pure man-to-man, since Atalanta mix zonal concepts (Crooks).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Ids: no catalog entry exists for Gasperini, Tudor or Atalanta. Proposed: manager 'gian-piero-gasperini', manager 'igor-tudor', team 'atalanta-2016-25' (or atalanta-2016-24, to Europa League). Roma 2025/26 could be a team entry 'roma-2025-26'.",
+  "Tudor as exemplar is weakly supported: The Analyst says his man-orientation was NOT pitch-wide at Verona (mid-block); Il Foglio only lists him among those inspired by the Gasperini model. Consider Ivan Juric (Gasperini's former pupil, These Football Times) as a closer second exemplar.",
+  "Gasperini's end at Atalanta and Roma appointment (2025-06) and the Roma 2025/26 season rest on Il Foglio/Chiesa di Totti/Corriere dello Sport; exact leaving date not verified.",
+  "Search-summary only (not verified): UEFA Europa League final analysis (man-for-man marking vs Leverkusen) was not-accessible; Tudor's Juventus man-marking not found in any readable source.",
+  "Gap pass search on Tudor/Verona found no explicit Gasperini link in a 2021/22 source; a 'man-marking all over the pitch' Tudor claim at Marseille comes only from Rothen's quote and an unread match report."
+ ],
+ "sources": [
+  {
+   "title": "Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Whereas many teams have transitioned to zonal marking, Gasperini has remained true to his man-marking tactics throughout his coaching career.",
+   "verified": true
+  },
+  {
+   "title": "Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "That man-marking has really worked its way into the high press, which is now becoming a standard item. They're going with the high pressure and the man-marking, which is a risk, but it brings success.",
+   "verified": true
+  },
+  {
+   "title": "Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Operating in a 3-4-1-2, Roma will look to squeeze their opponent into one side of the pitch and, once the ball has reached their desired target, typically a fullback that's slightly uncomfortable on the ball, they will immediately close him down.",
+   "verified": true
+  },
+  {
+   "title": "Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "each center back closely following their man and even running across the pitch whenever the opposing forwards rotate",
+   "verified": true
+  },
+  {
+   "title": "Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Roma can hit their opponents with this tight man-marking and quick counter-attacking",
+   "verified": true
+  },
+  {
+   "title": "Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "There are zonal concepts to it, but that's the thing that stands out to me about Gasperini and his teams: the man-marking.",
+   "verified": true
+  },
+  {
+   "title": "https://scoutedftbl.com/gasperini-atalanta-five-principles/",
+   "url": "The Five Principles of Gasperini's Atalanta (Scouted, SkillCorner data)",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-11",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "that is certainly obvious in the way this team presses man-to-man and looks to choke the opposition",
+   "verified": true
+  },
+  {
+   "title": "The Five Principles of Gasperini's Atalanta (Scouted, SkillCorner data)",
+   "url": "https://scoutedftbl.com/gasperini-atalanta-five-principles/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-11",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Atalanta's wing-backs must get forward, but they must get back in even greater measure.",
+   "verified": true
+  },
+  {
+   "title": "The Five Principles of Gasperini's Atalanta (Scouted, SkillCorner data)",
+   "url": "https://scoutedftbl.com/gasperini-atalanta-five-principles/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-11",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Athletic wing-backs, who can comfortably cover their entire flank, especially defensively - to provide wingers with added freedom to press high and block central spaces.",
+   "verified": true
+  },
+  {
+   "title": "The Five Principles of Gasperini's Atalanta (Scouted, SkillCorner data)",
+   "url": "https://scoutedftbl.com/gasperini-atalanta-five-principles/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-11",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "For a team that finished fourth in Serie A, Atalanta ranked middle of the pack for possession. They like to make things happen quickly, and will take risks to seek maximum damage while the opposition's structure is out of shape.",
+   "verified": true
+  },
+  {
+   "title": "The Five Principles of Gasperini's Atalanta (Scouted, SkillCorner data)",
+   "url": "https://scoutedftbl.com/gasperini-atalanta-five-principles/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-11",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Lookman is a player that Gasperini takes liberties with. Often in a 3-4-3 set-up, he gives Lookman the freedom to push higher, get out in transition",
+   "verified": true
+  },
+  {
+   "title": "The Five Principles of Gasperini's Atalanta (Scouted, SkillCorner data)",
+   "url": "https://scoutedftbl.com/gasperini-atalanta-five-principles/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-11",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "they don't press crazily high, but are very active in positioning to cut balls off through midfield",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini, The Antithesis of Italian Defensive Football (Kompas)",
+   "url": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-27",
+   "eventDate": "2024-05-23",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Gasperini instructed his players to apply individual marking tactics (man to man marking) and high pressing (high defense) to prevent Leverkusen from finding a way out of scoring goals.",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini, The Antithesis of Italian Defensive Football (Kompas)",
+   "url": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-27",
+   "eventDate": "2024-05-23",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "This defensive approach is considered extreme and not without risk.",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini, The Antithesis of Italian Defensive Football (Kompas)",
+   "url": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-27",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "His favorite formation is not far from 3-4-3, which is sometimes modified to 3-4-2-1 or 3-4-1-2.",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini, The Antithesis of Italian Defensive Football (Kompas)",
+   "url": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-27",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "The two midfielders will be flanked by two wing-backs whose main task is to stretch the opponent's defense and take advantage of the width of the field to send crosses.",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini, The Antithesis of Italian Defensive Football (Kompas)",
+   "url": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-27",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Gasperini transformed Ademola Lookman, who failed to shine at Everton, into a counted striker in the Italian league.",
+   "verified": true
+  },
+  {
+   "title": "Dentro i segreti dell'Atalanta (Il Foglio)",
+   "url": "https://www.ilfoglio.it/sport/2024/05/25/news/dentro-i-segreti-dellatalanta--101517",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-05-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "un sistema di gioco contraddistinto dalla marcatura individuale a tutto campo, dal pressing forte in avanti e dalla costruzione di quadrilateri mobili nella zona della palla",
+   "verified": true
+  },
+  {
+   "title": "Dentro i segreti dell'Atalanta (Il Foglio)",
+   "url": "https://www.ilfoglio.it/sport/2024/05/25/news/dentro-i-segreti-dellatalanta--101517",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-05-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Una versione post-moderna però, liquida e attiva, con i terzi che si spingono in avanti fino a invadere l'area avversaria e ad andare al tiro in prima persona.",
+   "verified": true
+  },
+  {
+   "title": "Dentro i segreti dell'Atalanta (Il Foglio)",
+   "url": "https://www.ilfoglio.it/sport/2024/05/25/news/dentro-i-segreti-dellatalanta--101517",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-05-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "la marcatura individuale in una difesa a cinque di Gasperini diventa una sorta di anticorpo ideale per quel tipo di approccio",
+   "verified": true
+  },
+  {
+   "title": "Dentro i segreti dell'Atalanta (Il Foglio)",
+   "url": "https://www.ilfoglio.it/sport/2024/05/25/news/dentro-i-segreti-dellatalanta--101517",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-05-25",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "una efficace politica acquisti e cessioni che ha consentito all'Atalanta di arrivare dove è arrivata pur disponendo di un budget paragonabile a quello di un club di bassa Premier League",
+   "verified": true
+  },
+  {
+   "title": "Dentro i segreti dell'Atalanta (Il Foglio)",
+   "url": "https://www.ilfoglio.it/sport/2024/05/25/news/dentro-i-segreti-dellatalanta--101517",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-05-25",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "tutti quei tecnici che si sono ispirati al modello gasperiniano, come i vari Tudor, Juric, Palladino in Italia",
+   "verified": true
+  },
+  {
+   "title": "L'Atalanta come una grande squadra (Il Post)",
+   "url": "https://www.ilpost.it/2017/02/26/atalanta-gasperini/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-02-26",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "La squadra poi gioca sempre molto corta e pressa costantemente gli avversari, anche marcandoli a uomo a tutto campo, con l'obiettivo di recuperare palla il più vicino possibile alla porta avversaria",
+   "verified": true
+  },
+  {
+   "title": "L'Atalanta come una grande squadra (Il Post)",
+   "url": "https://www.ilpost.it/2017/02/26/atalanta-gasperini/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-02-26",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "fa giocare le sue squadre con il 3-4-3, che a Bergamo utilizza spesso nella variante del 3-4-1-2",
+   "verified": true
+  },
+  {
+   "title": "L'Atalanta come una grande squadra (Il Post)",
+   "url": "https://www.ilpost.it/2017/02/26/atalanta-gasperini/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-02-26",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Il ruolo-simbolo di questa squadra è quello dell'esterno di centrocampo: lo può fare solo un giocatore di grande corsa disposto sia a ripiegare in difesa sia a spingere sulle fasce al momento opportuno.",
+   "verified": true
+  },
+  {
+   "title": "L'Atalanta come una grande squadra (Il Post)",
+   "url": "https://www.ilpost.it/2017/02/26/atalanta-gasperini/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-02-26",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "all'Atalanta la sua disponibilità a giocare con i compagni e difendere il pallone, due cose che Gasperini chiede ai propri centravanti, lo hanno fatto diventare un titolare fisso a discapito di due attaccanti esperti come Alberto Paloschi e Mauricio Pinilla",
+   "verified": true
+  },
+  {
+   "title": "L'Atalanta come una grande squadra (Il Post)",
+   "url": "https://www.ilpost.it/2017/02/26/atalanta-gasperini/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-02-26",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Persino i difensori provano spesso l'anticipo, una giocata solitamente rischiosa ma che permette di far ripartire l'azione con grande rapidità",
+   "verified": true
+  },
+  {
+   "title": "Gasperini a tutta Roma (Corriere dello Sport)",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2025/06/01-141082524/gasperini_a_tutta_roma_segreti_schemi_e_obiettivi_del_nuovo_tecnico_giallorosso",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2025-06-01",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "il meccanismo uomo contro uomo a tutto campo è un sistema che sorprende gli avversari",
+   "verified": true
+  },
+  {
+   "title": "Gasperini a tutta Roma (Corriere dello Sport)",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2025/06/01-141082524/gasperini_a_tutta_roma_segreti_schemi_e_obiettivi_del_nuovo_tecnico_giallorosso",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2025-06-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Gasperini pesca dal laghetto di Zingonia tre pesciolini sconosciuti: il terzino Conti, il difensore Caldara, il centrocampista Gagliardini. Hanno tutti 22 anni.",
+   "verified": true
+  },
+  {
+   "title": "Gasperini a tutta Roma (Corriere dello Sport)",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2025/06/01-141082524/gasperini_a_tutta_roma_segreti_schemi_e_obiettivi_del_nuovo_tecnico_giallorosso",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2025-06-01",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Gasperini si evolve in base agli interpreti che via via gli capitano tra le mani. La sua prima Atalanta, bravissima nelle transizioni ma scolastica nella gestione del pallone, è molto diversa dalla nona",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini: the mastermind who's turned Atalanta into a bastion of young talent (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Gasperini had sensed his days were numbered and offered an opportunity to two relatively unknown Italian youth players as a last throw of the dice to save his neck.",
+   "verified": true
+  },
+  {
+   "title": "Gian Piero Gasperini: the mastermind who's turned Atalanta into a bastion of young talent (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Critics would suggest that Gasperini had been unable to get egotistical players to buy into his methods, and his recruitment since would suggest an element of truth.",
+   "verified": false
+  },
+  {
+   "title": "Gasperini: Grato a Koopmeiners e Lookman (Calciomercato/Sky Sport)",
+   "url": "https://www.calciomercato.com/news/atalanta-gasperini-grato-a-koopmeiners-e-lookman-nessuno-se-lo-a-10527",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-08-19",
+   "eventDate": "2024-08-19",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Devo molto a Koopmeiners e Lookman, con me hanno avuto un rapporto di grande sincerità.",
+   "verified": true
+  },
+  {
+   "title": "Marseille's Summer of Change Continues to Pay Dividends (The Analyst/Opta)",
+   "url": "https://theanalyst.com/articles/marseilles-summer-of-change-continues-to-pay-dividends",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-14",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "using man-orientated tactics during defensive transitions, not too dissimilar to Marcelo Bielsa's Leeds United set-up. However, this was not implemented throughout the pitch. Instead, it was a mid-block press, and this gave his side space to hit during counter-attacking situations.",
+   "verified": true
+  },
+  {
+   "title": "Marseille's Summer of Change Continues to Pay Dividends (The Analyst/Opta)",
+   "url": "https://theanalyst.com/articles/marseilles-summer-of-change-continues-to-pay-dividends",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "his 3-4-2-1 shape looks to defend with five players and attack with five",
+   "verified": true
+  },
+  {
+   "title": "Marseille's Summer of Change Continues to Pay Dividends (The Analyst/Opta)",
+   "url": "https://theanalyst.com/articles/marseilles-summer-of-change-continues-to-pay-dividends",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "The width comes from the wing-backs and the former Juventus assistant manager wants the two supporting the centre-forward to be goal threats too",
+   "verified": true
+  },
+  {
+   "title": "Marseille's Summer of Change Continues to Pay Dividends (The Analyst/Opta)",
+   "url": "https://theanalyst.com/articles/marseilles-summer-of-change-continues-to-pay-dividends",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "OM don't hunt for the ball straight after losing it, they instead drop off and lure the opposition onto them to create the space",
+   "verified": true
+  },
+  {
+   "title": "Marseille's Summer of Change Continues to Pay Dividends (The Analyst/Opta)",
+   "url": "https://theanalyst.com/articles/marseilles-summer-of-change-continues-to-pay-dividends",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "It is a horses-for-courses situation right now for Tudor.",
+   "verified": true
+  },
+  {
+   "title": "Marseille's Summer of Change Continues to Pay Dividends (The Analyst/Opta)",
+   "url": "https://theanalyst.com/articles/marseilles-summer-of-change-continues-to-pay-dividends",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Tudor may have been a surprise appointment, but he did not waste time putting his stamp on things.",
+   "verified": true
+  },
+  {
+   "title": "OM: Jerome Rothen pointe les limites du systeme Tudor (Goal FR)",
+   "url": "https://www.goal.com/fr/news/om-jerome-rothen-pointe-les-limites-du-systeme-tudor/bltfc646ec455b60d1b",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2023-02-07",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Souvent l''équipe adverse arrive à prendre la mesure de ce fameux pressing, ce marquage individuel.",
+   "verified": true
+  },
+  {
+   "title": "OM: Jerome Rothen pointe les limites du systeme Tudor (Goal FR)",
+   "url": "https://www.goal.com/fr/news/om-jerome-rothen-pointe-les-limites-du-systeme-tudor/bltfc646ec455b60d1b",
+   "tier": "C",
+   "language": "fr",
+   "articleDate": "2023-02-07",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "tu ne peux pas y arriver comme ça face à des grandes équipes",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Hellas Verona 2021/2022 (TFA)",
+   "url": "https://totalfootballanalysis.com/article/igor-tudor-at-hellas-verona-2021-22-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-23",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Tudor has started to transform Verona and has surprised many of his opponents with his team's high-pressing intensity and attacking flair.",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Hellas Verona 2021/2022 (TFA)",
+   "url": "https://totalfootballanalysis.com/article/igor-tudor-at-hellas-verona-2021-22-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-23",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Often, their over-commitment to it makes it difficult for them to regroup and defend as a unit should their opponents bypass the pressing structures.",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Hellas Verona 2021/2022 (TFA)",
+   "url": "https://totalfootballanalysis.com/article/igor-tudor-at-hellas-verona-2021-22-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-23",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Verona were previously most frequently set up in a 3-4-2-1 formation, and Tudor didn't change much about that.",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Hellas Verona 2021/2022 (TFA)",
+   "url": "https://totalfootballanalysis.com/article/igor-tudor-at-hellas-verona-2021-22-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-11-23",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Centrally, Tudor relies on very active wing-backs in the face of Darko Lazović and the experienced Davide Faraoni.",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Juventus 2025/2026 (TFA data analysis)",
+   "url": "https://totalfootballanalysis.com/data-analysis/igor-tudor-at-juve-2025",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-09-14",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Tudor's Verona were also Serie A's standout high-pressing unit, registering the league's best PPDA of 8.18",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Juventus 2025/2026 (TFA data analysis)",
+   "url": "https://totalfootballanalysis.com/data-analysis/igor-tudor-at-juve-2025",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-09-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Their pressing game was among the most aggressive in Ligue 1, reflected in a PPDA of 8.34",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Juventus 2025/2026 (TFA data analysis)",
+   "url": "https://totalfootballanalysis.com/data-analysis/igor-tudor-at-juve-2025",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-09-14",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "He established Juventus in a 3-4-3 shape, with the build-up often morphing into a 4-2 base or even a 5-2, depending on opposition pressure.",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Juventus 2025/2026 (TFA data analysis)",
+   "url": "https://totalfootballanalysis.com/data-analysis/igor-tudor-at-juve-2025",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-09-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Tudor created a system where centre-backs were expected to contribute to ball circulation",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Juventus 2025/2026 (TFA data analysis)",
+   "url": "https://totalfootballanalysis.com/data-analysis/igor-tudor-at-juve-2025",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-09-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "allowed the team to recycle possession with an average of just under five passes per possession",
+   "verified": true
+  },
+  {
+   "title": "Igor Tudor Tactics At Juventus 2025/2026 (TFA data analysis)",
+   "url": "https://totalfootballanalysis.com/data-analysis/igor-tudor-at-juve-2025",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-09-14",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "The Marseille backline operated within a counterpressing framework, transitioning swiftly from possession into defensive organisation.",
+   "verified": true
+  },
+  {
+   "title": "Who is Spurs' new head coach Igor Tudor? (premierleague.com)",
+   "url": "https://www.premierleague.com/en/news/4592313/who-is-new-spurs-head-coach-igor-tudor-and-what-are-his-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-02-17",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "He has used a back three in 120 of his 124 league matches in Europe's top five leagues.",
+   "verified": true
+  },
+  {
+   "title": "Who is Spurs' new head coach Igor Tudor? (premierleague.com)",
+   "url": "https://www.premierleague.com/en/news/4592313/who-is-new-spurs-head-coach-igor-tudor-and-what-are-his-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-02-17",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "When in charge of Marseille, he dropped the club's most gifted player, Dimitri Payet, because the Frenchman was not known for his running work.",
+   "verified": true
+  },
+  {
+   "title": "Who is Spurs' new head coach Igor Tudor? (premierleague.com)",
+   "url": "https://www.premierleague.com/en/news/4592313/who-is-new-spurs-head-coach-igor-tudor-and-what-are-his-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-02-17",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "\"In modern football, physicality cancels out quality so much,\" he said when in charge of Juventus last year.",
+   "verified": true
+  },
+  {
+   "title": "Marseille analysis with Andy Brassell (tottenhamhotspur.com)",
+   "url": "https://www.tottenhamhotspur.com/news/990649/marseille-analysis-with-european-football-expert-andy-brassell",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-09-06",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Tudor came in and basically said, in his opinion, that the players didn't run enough!",
+   "verified": true
+  },
+  {
+   "title": "Who is Spurs' new head coach Igor Tudor? (premierleague.com)",
+   "url": "https://www.premierleague.com/en/news/4592313/who-is-new-spurs-head-coach-igor-tudor-and-what-are-his-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-02-17",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The Frenchman was a regular starter under Tudor when on loan with Juventus last season",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Defense makes you invincible. But if you want to win, you have to attack. This is the spirit and mentality that I want my team to have.",
+   "date": "2024-05",
+   "source": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia (quoting Football Italia)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I know some people say I train with an iron fist. But I always think you get the best results when you convince a player.",
+   "date": "2024-05",
+   "source": "https://www.kompas.id/baca/english/2024/05/25/en-gian-piero-gasperini-antitesis-sepak-bola-defensif-italia",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Inizialmente adottavo il 4-3-3, poi ero stanco di dire a un terzino di inserirsi e all'altro di fermarsi. In Europa vidi l'Ajax fare questo sistema e capii che poteva funzionare",
+   "date": "2024-05-25",
+   "source": "https://www.ilfoglio.it/sport/2024/05/25/news/dentro-i-segreti-dellatalanta--101517",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Affrontare l'Atalanta è come andare dal dentista, non è piacevole",
+   "date": "2025-06-01",
+   "source": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2025/06/01-141082524/gasperini_a_tutta_roma_segreti_schemi_e_obiettivi_del_nuovo_tecnico_giallorosso",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "In modern football, physicality cancels out quality so much. Quality is always important, of course, but without physicality, it doesn't exist.",
+   "date": "2025",
+   "source": "https://www.premierleague.com/en/news/4592313/who-is-new-spurs-head-coach-igor-tudor-and-what-are-his-tactics (Tudor, Juventus)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefaeuropaleague/news/028d-1af728f14d65-2d603f3b58f8-1000--analysis-europa-league-final",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://themastermindsite.com/2021/05/11/gian-piero-gasperini-atalanta-tactical-analysis-2020-21/",
+   "reason": "403"
+  },
+  {
+   "url": "https://legaseriea.it/it/media/serie-a/brocchi-discusses-tudor-s-juve-73c77c4",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.fanpage.it/sport/calcio/quanto-e-bella-e-forte-latalanta-dove-puo-arrivare-la-squadra-di-gasperini/",
+   "reason": "403"
+  },
+  {
+   "url": "https://completesports.com/completetips/news/unleashing-tudors-game-juventus-aggressive-tactics-of-pressing-and-man-marking-a-hammer-of-a-strategy",
+   "reason": "404"
+  },
+  {
+   "url": "https://betweentheposts.net/atalanta-bergamo-bologna-mottas-manoeuvre-counters-the-gasperini-game-plan-1-2/",
+   "reason": "empty"
+  },
+  {
+   "url": "https://betweentheposts.net/olympique-marseille-toulouse-om-thrash-toulouse-to-start-the-second-half-of-the-season-6-1/",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Ajax (Gasperini's 3-4-3, per his own account)",
+  "Marcelo Bielsa (comparison by The Analyst for Tudor's Verona; separate profile bielsismo)",
+  "Ivan Juric, Raffaele Palladino as followers (Il Foglio)"
+ ],
+ "exemplars": [
+  {
+   "id": "gian-piero-gasperini",
+   "kind": "manager",
+   "reason": "Atalanta 2016-25 and Roma 2025/26: individual marking all over the pitch with a back three/five."
+  },
+  {
+   "id": "atalanta-2016-25",
+   "kind": "team",
+   "reason": "Europa League 2024 winners; man-to-man press, Il Foglio/Kompas/Scouted."
+  },
+  {
+   "id": "igor-tudor",
+   "kind": "manager",
+   "reason": "Verona 2021/22, Marseille 2022/23: man-orientated press (partly), 3-4-2-1; derivative of the Gasperini model."
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Gasperini is well covered by tier B/C and Italian press agreeing on man-marking all over the pitch; no tier A coach-written page was readable; Tudor evidence is thinner and qualified; set-pieces not covered."
+ }
+}

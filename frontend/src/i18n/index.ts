@@ -46,6 +46,10 @@ export function setLang(lang: Lang) {
   if (langForcedByPath(url.pathname)) {
     url.pathname = lang === 'en' ? '/en' : '/br';
   }
+  if (url.toString() === window.location.href) {
+    window.location.reload();
+    return;
+  }
   window.location.href = url.toString();
 }
 
@@ -79,6 +83,48 @@ interface Strings {
   mainNavAria: string;
   navHow: string;
   navAxes: string;
+  navCatalog: string;
+  catalogTitle: string;
+  catalogHome: string;
+  catalogLeads: Record<'manager' | 'team' | 'football-ideology', (n: number) => string>;
+  catalogStats: [string, string, string];
+  catalogViewProfile: string;
+  catalogFilterAria: string;
+  catalogTabManagers: string;
+  catalogTabTeams: string;
+  catalogTabIdeologies: string;
+  catalogSearchLabel: string;
+  catalogSearchPlaceholder: string;
+  catalogCount: (n: number) => string;
+  catalogEmpty: string;
+  catalogError: string;
+  catalogLoading: string;
+  profile: {
+    tabsAria: string;
+    tabs: { axes: string; ideologies: string; managers: string; teams: string };
+    kpiIdeology: string;
+    kpiManager: string;
+    kpiTeam: string;
+    axesTitle: string;
+    distinctTitle: (name: string) => string;
+    rareTag: string;
+    commonTag: string;
+    rareText: (name: string, pole: string, percent: number) => string;
+    rareNote: (axis: string, name: string) => string;
+    commonText: (name: string) => string;
+    ideologiesTitle: (name: string) => string;
+    managersTitle: string;
+    teamsTitle: string;
+    mostCompatible: string;
+    matchWord: string;
+    byDimension: string;
+    similar: string;
+    distant: (name: string) => string;
+    ctaTitle: string;
+    ctaText: (name: string) => string;
+    ctaButton: string;
+    imageSource: string;
+  };
   langToggleLabel: string;
   langToggleAria: string;
   redoQuiz: string;
@@ -339,6 +385,55 @@ const pt: Strings = {
   mainNavAria: 'Navegação principal',
   navHow: 'Como funciona',
   navAxes: '12 Eixos',
+  navCatalog: 'Catálogo',
+  catalogTitle: 'Catálogo',
+  catalogHome: 'Início',
+  catalogLeads: {
+    manager: (n) => `${n} treinadores mapeados pelo 12 Axes, organizados pelo estilo de jogo. Cada um tem foto, resumo da carreira e perfil completo nos 12 eixos.`,
+    team: (n) => `${n} times, cada um num período definido, com escudo, resumo e perfil completo nos 12 eixos.`,
+    'football-ideology': (n) => `${n} ideias e escolas de jogo, das origens do futebol aos dias de hoje, cada uma com perfil completo nos 12 eixos.`
+  },
+  catalogStats: ['perfis', 'categorias', 'eixos por perfil'],
+  catalogViewProfile: 'Ver perfil',
+  catalogFilterAria: 'Filtrar por categoria',
+  catalogTabManagers: 'Treinadores',
+  catalogTabTeams: 'Times',
+  catalogTabIdeologies: 'Ideias de jogo',
+  catalogSearchLabel: 'Buscar no catálogo',
+  catalogSearchPlaceholder: 'Buscar por nome',
+  catalogCount: (n) => (n === 1 ? '1 perfil' : `${n} perfis`),
+  catalogEmpty: 'Nenhum perfil encontrado.',
+  catalogError: 'Não foi possível carregar o catálogo.',
+  catalogLoading: 'Carregando o catálogo…',
+  profile: {
+    tabsAria: 'Seções do perfil',
+    tabs: { axes: 'Eixos', ideologies: 'Ideias de jogo', managers: 'Treinadores', teams: 'Times' },
+    kpiIdeology: 'Ideia de jogo mais próxima',
+    kpiManager: 'Treinador mais próximo',
+    kpiTeam: 'Time mais próximo',
+    axesTitle: 'Perfil nos 12 eixos',
+    distinctTitle: (name) => `O que distingue ${name}`,
+    rareTag: 'Posição mais incomum',
+    commonTag: 'Posição mais comum',
+    rareText: (name, pole, percent) =>
+      percent >= 99.5
+        ? `Nenhuma ideia de jogo do catálogo puxa tanto para ${pole.toLowerCase()} quanto ${name}.`
+        : `${name} puxa mais para ${pole.toLowerCase()} que ${Math.round(percent)}% das ideias de jogo do catálogo.`,
+    rareNote: (axis, name) => `De todos os eixos, ${axis} é onde ${name} mais se afasta do conjunto.`,
+    commonText: (name) => `Aqui ${name} está em terreno comum com a maioria das ideias de jogo.`,
+    ideologiesTitle: (name) => `As ideias de jogo mais próximas de ${name}`,
+    managersTitle: 'Treinadores mais próximos',
+    teamsTitle: 'Times mais próximos',
+    mostCompatible: 'Mais compatível',
+    matchWord: 'de afinidade',
+    byDimension: 'Também próximos, por dimensão',
+    similar: 'Outros perfis parecidos',
+    distant: (name) => `Os mais distantes de ${name}`,
+    ctaTitle: 'E você, com quem se parece?',
+    ctaText: (name) => `Responda ao quiz e veja sua compatibilidade com ${name} e com os outros treinadores, times e ideias de jogo nos 12 eixos.`,
+    ctaButton: 'Fazer o teste',
+    imageSource: 'Fonte da imagem'
+  },
   langToggleLabel: 'EN',
   langToggleAria: 'Switch to English',
   redoQuiz: 'Refazer quiz',
@@ -666,6 +761,55 @@ const en: Strings = {
   mainNavAria: 'Main navigation',
   navHow: 'How it works',
   navAxes: '12 Axes',
+  navCatalog: 'Catalog',
+  catalogTitle: 'Catalog',
+  catalogHome: 'Home',
+  catalogLeads: {
+    manager: (n) => `${n} managers mapped by 12 Axes, organised by style of play. Each one has a photo, a career summary and a full profile across the 12 axes.`,
+    team: (n) => `${n} teams, each in a defined period, with crest, summary and a full profile across the 12 axes.`,
+    'football-ideology': (n) => `${n} ideas and schools of play, from the origins of football to today, each with a full profile across the 12 axes.`
+  },
+  catalogStats: ['profiles', 'categories', 'axes per profile'],
+  catalogViewProfile: 'View profile',
+  catalogFilterAria: 'Filter by category',
+  catalogTabManagers: 'Managers',
+  catalogTabTeams: 'Teams',
+  catalogTabIdeologies: 'Football ideas',
+  catalogSearchLabel: 'Search the catalog',
+  catalogSearchPlaceholder: 'Search by name',
+  catalogCount: (n) => (n === 1 ? '1 profile' : `${n} profiles`),
+  catalogEmpty: 'No profile found.',
+  catalogError: 'Could not load the catalog.',
+  catalogLoading: 'Loading the catalog…',
+  profile: {
+    tabsAria: 'Profile sections',
+    tabs: { axes: 'Axes', ideologies: 'Football ideas', managers: 'Managers', teams: 'Teams' },
+    kpiIdeology: 'Closest football idea',
+    kpiManager: 'Closest manager',
+    kpiTeam: 'Closest team',
+    axesTitle: 'Profile across the 12 axes',
+    distinctTitle: (name) => `What sets ${name} apart`,
+    rareTag: 'Most unusual position',
+    commonTag: 'Most common position',
+    rareText: (name, pole, percent) =>
+      percent >= 99.5
+        ? `No football idea in the catalog leans as far toward ${pole.toLowerCase()} as ${name}.`
+        : `${name} leans further toward ${pole.toLowerCase()} than ${Math.round(percent)}% of the football ideas in the catalog.`,
+    rareNote: (axis, name) => `Of all the axes, ${axis} is where ${name} stands furthest from the rest.`,
+    commonText: (name) => `Here ${name} is on common ground with most football ideas.`,
+    ideologiesTitle: (name) => `The football ideas closest to ${name}`,
+    managersTitle: 'Closest managers',
+    teamsTitle: 'Closest teams',
+    mostCompatible: 'Most compatible',
+    matchWord: 'match',
+    byDimension: 'Also close, by dimension',
+    similar: 'Other similar profiles',
+    distant: (name) => `Furthest from ${name}`,
+    ctaTitle: 'And you, who are you most like?',
+    ctaText: (name) => `Take the quiz and see how you match ${name} and the other managers, teams and football ideas across the 12 axes.`,
+    ctaButton: 'Take the quiz',
+    imageSource: 'Image source'
+  },
   langToggleLabel: 'PT',
   langToggleAria: 'Mudar para português',
   redoQuiz: 'Retake quiz',

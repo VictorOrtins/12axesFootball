@@ -55,7 +55,7 @@ export function axisLeaning(axis: Axis, result: AxisResult) {
   return { balanced, rightWins, leftWins, accent };
 }
 
-function AxisRow({
+export function AxisRow({
   axis,
   result
 }: {
