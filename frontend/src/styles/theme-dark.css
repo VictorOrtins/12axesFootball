@@ -59,7 +59,7 @@ html[data-theme="dark"] {
     radial-gradient(40% 36% at 96% 0%, rgba(224, 98, 107, 0.04), transparent 72%);
 
   --papel: #121513;
-  --floresta: #348264;
+  --floresta: #4CC37E;
   --carmim: #E0626B;
   --tinta: #F4F1E8;
   --superficie: #1A1E1B;
@@ -69,6 +69,10 @@ html[data-theme="dark"] {
   --floresta-claro: #1E3329;
 
   --cat: var(--green-400);
+  --headline: #4CC37E;
+  --rule: #2D332F;
+  --meta: #A9A79C;
+  --bar-bg: #0A6630;
   --app-bg: #121513;
   --card-bg: #1A1E1B;
   --card-line: #2D332F;
@@ -92,25 +96,29 @@ html[data-theme="dark"] {
 
 /* Blocos verdes e rodapé: foram desenhados com as cores do tema claro (texto claro sobre verde),
    então dentro deles as variáveis editoriais voltam aos valores claros. */
-html[data-theme="dark"] :is(.e-dark, .e-foot, .e-oss, .e-fmt-card.e-hi, .e-prof-cta) {
+html[data-theme="dark"] :is(.e-dark:not(.e-sec), .e-foot, .e-oss, .e-fmt-card.e-hi, .e-prof-cta) {
   --papel: var(--fixed-canvas);
   --tinta: var(--fixed-ink-950);
-  --floresta: var(--fixed-green-500);
+  --floresta: var(--bar-bg);
   --borda: var(--fixed-ink-100);
   --texto-suave: var(--fixed-ink-700);
 }
 
-html[data-theme="dark"] .e-nav {
-  background: var(--dark-canvas-a90);
-}
 html[data-theme="dark"] .e-btn-primary,
 html[data-theme="dark"] .primary-button {
-  background: var(--green-500);
-  color: var(--ink-950);
+  background: var(--headline);
+  color: var(--canvas);
 }
 html[data-theme="dark"] .e-btn-primary:hover:not(:disabled),
 html[data-theme="dark"] .primary-button:hover:not(:disabled) {
-  background: var(--dark-green-500);
+  background: var(--accent-bright);
+}
+html[data-theme="dark"] :is(.e-nav, .e-hero) .e-btn-primary {
+  background: var(--pitch-text);
+  color: var(--fixed-green-500);
+}
+html[data-theme="dark"] :is(.e-nav, .e-hero) .e-btn-primary:hover {
+  background: var(--pitch-text-soft);
 }
 html[data-theme="dark"] .primary-button:disabled {
   background: var(--ink-100);

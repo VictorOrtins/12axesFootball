@@ -1067,3 +1067,89 @@ html:not([data-theme="dark"]) .question-card{background:var(--card-bg);border:1p
   .e-prof-grid,.e-prof-dims{grid-template-columns:repeat(2,1fr)}
   .e-prof-ideas,.e-prof-fars{grid-template-columns:1fr}
 }
+
+/* ── Visual de portal esportivo ──────────────────────────────────────────
+   Barra verde sólida, página cinza sem painéis flutuantes, seções separadas
+   por fios, manchetes em negrito e cantos quase retos. Vem por último e
+   sobrepõe as camadas anteriores. */
+.ed{--r-lg:6px;--r-md:4px}
+.ed h1,.ed h2,.ed h3,.ed h4{font-weight:800;letter-spacing:-.015em}
+.ed h3,.ed h4{font-weight:700}
+.e-btn{border-radius:4px;font-weight:700}
+.e-tag{border-radius:4px}
+
+.e-nav .e-wrap{height:64px}
+.e-nav-links a{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.e-nav .e-lang{border-radius:4px}
+
+.e-hero{display:flex;align-items:flex-end;min-height:min(460px,62vh);padding:0}
+.e-hero::after{content:"";position:absolute;inset:0;z-index:0;background:var(--hero-shade);pointer-events:none}
+.e-hero .e-pitch{-webkit-mask-image:none;mask-image:none}
+.e-hero .e-wrap{display:block;width:100%;padding:0 40px 40px;z-index:1}
+.e-hero h1{max-width:15ch;font-size:clamp(34px,min(4.6vw,7vh),60px);font-weight:800;line-height:1.02;letter-spacing:-.01em;text-transform:uppercase}
+.e-hero .e-lead{max-width:56ch}
+
+.ed .e-sec{padding:0}
+.ed .e-sec:first-of-type{padding-top:0}
+.ed .e-sec>.e-wrap{padding:40px 0 48px;background:transparent;border:0;border-top:1px solid var(--rule);border-radius:0;box-shadow:none}
+.ed .e-hero+.e-sec>.e-wrap,.ed .e-sec:first-of-type>.e-wrap{border-top:0}
+.ed .e-sec.e-dark{background:transparent;color:var(--tinta)}
+.ed .e-sec.e-dark>.e-wrap{background:transparent}
+.ed .e-sec h2{font-size:clamp(24px,2.6vw,30px)}
+
+.e-sec.e-dark .e-lead,.e-step p{color:var(--texto-suave)}
+.e-step{border-top:3px solid var(--headline);padding-top:20px}
+.e-step .e-n{color:var(--headline);font-weight:800}
+.e-step h3{font-size:22px}
+
+.e-disc-list{border-top-color:var(--rule)}
+.e-disc-item{border-bottom-color:var(--rule)}
+.e-disc-item .e-ico{color:var(--headline)}
+
+.e-axes-grid{gap:0 28px}
+.e-axis-card{padding:20px 0;background:transparent;border:0;border-top:1px solid var(--rule);border-radius:0}
+.e-axis-top .e-num{color:var(--headline);font-weight:800}
+.e-axis-top h3{color:var(--headline)}
+
+.e-ver-card{background:var(--card-bg);border:1px solid var(--card-line);border-top:4px solid var(--rule);color:var(--tinta)}
+.e-ver-card.e-hi{background:var(--card-bg);border-color:var(--card-line);border-top-color:var(--headline)}
+.e-ver-tag,.e-hi .e-ver-tag{color:var(--headline);font-weight:700}
+.e-ver-desc,.e-ver-time,.e-hi .e-ver-desc,.e-hi .e-ver-time{color:var(--meta)}
+.e-ver-card:not(.e-hi) .e-btn-primary{background:transparent;border-color:var(--headline);color:var(--headline)}
+.e-hi .e-btn-light{background:var(--headline);color:var(--card-bg)}
+.e-rec{border-radius:4px;background:var(--headline);color:var(--card-bg)}
+
+.e-resume-card,.e-fmt-card,.e-panel{border-radius:var(--r-lg)}
+
+.e-tabs{gap:24px;padding:0;background:transparent;border-radius:0;border-bottom:1px solid var(--rule)}
+.e-tabs button{margin-bottom:-1px;padding:10px 0;border-radius:0;border-bottom:3px solid transparent;font-weight:700;color:var(--meta)}
+.e-tabs button[aria-selected=true]{background:transparent;color:var(--headline);border-bottom-color:var(--headline)}
+
+/* Catálogo: lista de matérias, com foto à esquerda, manchete verde e fio entre os itens. */
+.e-cat-tiles button,.e-cat-chips button,.e-cat-toolbar .e-cmp-input{border-radius:4px}
+.e-cat-toolbar{background:var(--app-bg);border-bottom-color:var(--rule)}
+.ed .e-cat-title{margin-bottom:14px}
+.e-cat-group-head{padding:0 0 10px;border-left:0;border-bottom:3px solid var(--headline)}
+.e-cat-grid{gap:0 28px}
+.e-cat-card{gap:10px;padding:18px 0;background:transparent;border:0;border-top:1px solid var(--rule);border-radius:0}
+.e-cat-card:hover,.e-cat-card:focus-visible{border-color:var(--rule)}
+.e-cat-card-name strong{color:var(--headline);font-size:19px;font-weight:700;line-height:1.2}
+.e-cat-card:hover .e-cat-card-name strong{text-decoration:underline;text-underline-offset:3px}
+.e-cat-face{width:72px;height:72px;border-radius:4px}
+.e-cat-crest{background:transparent}
+.e-cat-desc{color:var(--meta)}
+.e-cat-card-name .e-tag-neutral{padding:0;background:none;color:var(--meta);font-size:13px;font-weight:600}
+.e-cat-toolbar .e-cmp-input{background:var(--card-bg);border-color:var(--card-line)}
+.e-cat-more{align-self:flex-start;color:var(--meta);font-size:13px}
+
+.e-prof-hero,.e-prof-match{border-top-color:var(--headline)}
+.e-prof-match,.e-prof-mini,.e-prof-idea,.e-prof-fars button{border-radius:var(--r-lg)}
+
+@media (max-width:980px){
+  .e-hero{margin:0;border-radius:0}
+  .e-hero .e-wrap{padding:0 24px 32px}
+}
+@media (max-width:720px){
+  .e-hero{min-height:420px}
+  .ed .e-sec>.e-wrap{margin:0 16px;padding:32px 0 40px}
+}

@@ -530,12 +530,11 @@ function MainApp() {
     try {
       if (document.fonts) {
         await Promise.allSettled([
-          document.fonts.load('400 30px "Poppins"'),
-          document.fonts.load('500 30px "Poppins"'),
-          document.fonts.load('600 30px "Poppins"'),
-          document.fonts.load('600 30px "Sora"'),
-          document.fonts.load('700 30px "Sora"'),
-          document.fonts.load('800 30px "Sora"')
+          document.fonts.load('400 30px "Open Sans"'),
+          document.fonts.load('500 30px "Open Sans"'),
+          document.fonts.load('600 30px "Open Sans"'),
+          document.fonts.load('700 30px "Open Sans"'),
+          document.fonts.load('800 30px "Open Sans"')
         ]);
         await document.fonts.ready;
       }

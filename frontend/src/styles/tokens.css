@@ -164,13 +164,13 @@
     radial-gradient(40% 36% at 96% 0%, rgba(136, 9, 18, 0.04), transparent 72%),
     radial-gradient(52% 46% at 90% 98%, rgba(27, 107, 52, 0.04), transparent 74%);
 
-  --font-display: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-body: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Open Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
 
   /* ── Identidade — tokens nomeados conforme o guia de marca ───────────── */
   --papel: var(--fixed-canvas);
-  --floresta: var(--fixed-green-500);
+  --floresta: #06803A;
   --carmim: var(--fixed-red-500);
   --tinta: var(--fixed-ink-950);
 
@@ -193,11 +193,16 @@
   --ball-black: #101010;
 
   /* ── Estilo app de placar (Sofascore): fundo cinza, cartões brancos, barra sólida ── */
-  --app-bg: #EDF2EE;
+  --app-bg: #F5F5F5;
   --card-bg: #FFFFFF;
-  --card-line: #DFE7E0;
+  --card-line: #E1E1E1;
   --card-shadow: 0 1px 3px rgba(16, 16, 16, 0.08);
-  --bar-bg: #155A2B;
+  --bar-bg: #06803A;
+  /* ── Portal esportivo: manchete verde, fios cinza, sombra da foto do destaque ── */
+  --headline: #06803A;
+  --rule: #DCDCDC;
+  --meta: #666666;
+  --hero-shade: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.28) 55%, rgba(0, 0, 0, 0) 100%);
   --share-panel: rgba(5, 30, 14, 0.45);
   --share-panel-line: rgba(250, 252, 248, 0.16);
 

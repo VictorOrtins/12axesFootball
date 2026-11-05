@@ -15,8 +15,8 @@ import { ratingTier, topAgreements } from './agreement';
 export const SHARE_WIDTH = 1080;
 export const SHARE_HEIGHT = 1920;
 
-const SHARE_FONT_DISPLAY = '"Sora"';
-const SHARE_FONT_BODY = '"Poppins"';
+const SHARE_FONT_DISPLAY = '"Open Sans"';
+const SHARE_FONT_BODY = '"Open Sans"';
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
 export const SHARE_COLORS = {
