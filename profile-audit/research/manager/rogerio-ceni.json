@@ -1,0 +1,821 @@
+{
+ "id": "rogerio-ceni",
+ "catalog": "manager",
+ "name": "Rogério Ceni",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2017-11-10",
+  "end": "2021-07-10"
+ },
+ "scopeNote": "Narrowed to Fortaleza 2018-19 (spell 2017-11-10 to 2019-08-11, 4-2-4 / four mobile forwards, possession-based and offensive, called 'esquema 4-2-4' by Diario do Nordeste) and Flamengo 2020/21 (spell 2020-11-10 to 2021-07-10; Domenec Torrent was sacked 2020-11-09, so only Ceni's part is counted). The Flamengo style is described by local press as a 3-4-2-1/3-4-3 build-up with a back four without the ball, borrowing Jorge Jesus 2019 concepts (high pressure on the opponent's build-up); it is not 'Guardiola positional play', although Correio Braziliense says he tried to apply Guardiola concepts at Sao Paulo and Fortaleza (2020, outside counted spell). Brazilian sources are thin: almost no tier A, no source states zonal or man-marking, and the Flamengo spell has no dedicated tactical study (Total Football Analysis covers only his 2022 Sao Paulo). Partial dates: excluded Sao Paulo start 2017-01 and excluded Fortaleza second spell start 2020-01 are approximate (day not found). Spell start at Fortaleza is the signing date; the exact first day in charge was not found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Fortaleza start: signing 2017-11-10 versus first day in charge (presentation the following Wednesday, first match Jan 2018). Confirm.",
+  "No source found on zonal vs man-marking for either spell; only 'marcacao encaixada' (Fortaleza 2020, Diario do Nordeste, excluded) and 'marca a frente'.",
+  "Several summaries said Flamengo won the 2020 Brasileirao under Ceni; O POVO counts it among his three trophies (Serie A 2020, Supercopa 2021, Carioca 2021) although he took over mid-season. Check how much of that title is credited to Torrent vs Ceni (Flamengo were 3rd, 1 point behind, when he arrived).",
+  "Ceni's game count at Flamengo: O POVO says 44 games (23W 11D 10L), CNN Brasil says 45 (23W 11D 11L).",
+  "Fortaleza second spell (2020) start date not verified; it is excluded from the counted spells but would give better tactical coverage (Diario do Nordeste, Correio Braziliense).",
+  "Alleged friction with the board over signing Fortaleza players (leaked audio, 2021-07) is unconfirmed."
+ ],
+ "sources": [
+  {
+   "title": "O POVO: Fortaleza pode entrar com quatro atacantes na final do Cearense",
+   "url": "https://mais.opovo.com.br/jornal/esportes/2019/04/12/de-olho-na-vitoria--fortaleza-pode-entrar-com-quatro-atacantes-na-final-do-cearense.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-04-12",
+   "eventDate": "2019-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "a formação com quatro atacantes que vem sendo usada há três jogos",
+   "verified": true
+  },
+  {
+   "title": "O POVO: Fortaleza pode entrar com quatro atacantes na final do Cearense",
+   "url": "https://mais.opovo.com.br/jornal/esportes/2019/04/12/de-olho-na-vitoria--fortaleza-pode-entrar-com-quatro-atacantes-na-final-do-cearense.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-04-12",
+   "eventDate": "2019-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Éderson era peça constante entre os quatro atacantes porque improvisava a função de camisa 10 - sem a bola o time formava um 4-2-3-1",
+   "verified": true
+  },
+  {
+   "title": "Diario do Nordeste: Rogerio Ceni acerta com o Cruzeiro e deixa o Fortaleza apos quase dois anos",
+   "url": "https://diariodonordeste.verdesmares.com.br/jogada/rogerio-ceni-acerta-com-o-cruzeiro-e-deixa-o-fortaleza-apos-quase-dois-anos-1.2134272",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-08-11",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Com filosofia de trabalho focada no esquema 4-2-4, com quatro atacantes móveis, Ceni implantou uma ideia de jogo ofensiva",
+   "verified": true
+  },
+  {
+   "title": "O POVO: Fortaleza pode entrar com quatro atacantes na final do Cearense",
+   "url": "https://mais.opovo.com.br/jornal/esportes/2019/04/12/de-olho-na-vitoria--fortaleza-pode-entrar-com-quatro-atacantes-na-final-do-cearense.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-04-12",
+   "eventDate": "2019-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Talvez não seja possível toda partida (usar quatro atacantes), mas em determinado jogo podemos usar, desde que eles cumpram a parte defensiva",
+   "verified": true
+  },
+  {
+   "title": "Trivela (Medium repost): O trabalho de Rogerio Ceni o coloca como um dos melhores tecnicos do ano",
+   "url": "https://trivela.com.br/brasil/lado-b-de-brasil/o-trabalho-de-rogerio-ceni-o-coloca-como-um-dos-melhores-tecnicos-do-ano-ate-agora/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-08-13",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Baseando-se em um futebol ofensivo, prezando pela manutenção da posse de bola (conceitos que Rogério Ceni sempre manifestou seu interesse em aplicar)",
+   "verified": true
+  },
+  {
+   "title": "Trivela (Medium repost): O trabalho de Rogerio Ceni o coloca como um dos melhores tecnicos do ano",
+   "url": "https://trivela.com.br/brasil/lado-b-de-brasil/o-trabalho-de-rogerio-ceni-o-coloca-como-um-dos-melhores-tecnicos-do-ano-ate-agora/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-08-13",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "1º time do campeonato em passes trocados, 1º em posse de bola, 2º que mais finaliza, 20º em faltas e 20º em lançamentos",
+   "verified": true
+  },
+  {
+   "title": "Trivela (Medium repost): O trabalho de Rogerio Ceni o coloca como um dos melhores tecnicos do ano",
+   "url": "https://trivela.com.br/brasil/lado-b-de-brasil/o-trabalho-de-rogerio-ceni-o-coloca-como-um-dos-melhores-tecnicos-do-ano-ate-agora/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-08-13",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Segundo melhor ataque da competição, com 28 gols marcados, e melhor defesa, com apenas 13 gols sofridos.",
+   "verified": true
+  },
+  {
+   "title": "O POVO Paginas Azuis: entrevista com Rogerio Ceni",
+   "url": "https://mais.opovo.com.br/jornal/paginasazuis/2018/11/o-fortaleza-continuara-grande-com-minha-presenca-ou-nao.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-11-19",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Na Série B, o Fortaleza é o time com maior média de posse de bola, maior número de passes certos e o melhor ataque.",
+   "verified": true
+  },
+  {
+   "title": "O POVO Paginas Azuis: entrevista com Rogerio Ceni",
+   "url": "https://mais.opovo.com.br/jornal/paginasazuis/2018/11/o-fortaleza-continuara-grande-com-minha-presenca-ou-nao.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-11-16",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Se me sinto inferior, vou preparar uma estratégia para ter o contra-ataque como referência.",
+   "verified": true
+  },
+  {
+   "title": "O POVO Paginas Azuis: entrevista com Rogerio Ceni",
+   "url": "https://mais.opovo.com.br/jornal/paginasazuis/2018/11/o-fortaleza-continuara-grande-com-minha-presenca-ou-nao.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-11-19",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Se me sinto melhor ou igual ao adversário, vou agredir.",
+   "verified": true
+  },
+  {
+   "title": "Trivela: Rogerio Ceni tera o desafio da sua carreira",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/rogerio-ceni-tera-o-desafio-da-sua-carreira-e-o-flamengo-tera-um-tecnico-de-muito-potencial/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Na Série B, Ceni montou uma equipe majoritariamente agressiva, o que manteve em parte na Série A, mas com muito mais cuidados defensivos em 2019.",
+   "verified": true
+  },
+  {
+   "title": "O POVO Paginas Azuis: entrevista com Rogerio Ceni",
+   "url": "https://mais.opovo.com.br/jornal/paginasazuis/2018/11/o-fortaleza-continuara-grande-com-minha-presenca-ou-nao.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-11-19",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Se tenho três ótimos zagueiros, vou usar três zagueiros; se tenho três ótimos atacantes, vou usar três atacantes.",
+   "verified": true
+  },
+  {
+   "title": "O POVO Paginas Azuis: entrevista com Rogerio Ceni",
+   "url": "https://mais.opovo.com.br/jornal/paginasazuis/2018/11/o-fortaleza-continuara-grande-com-minha-presenca-ou-nao.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-11-19",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Aqui não tem essa de \"o Rogério mandou\". Eu não mando em nada. Eu emito uma opinião sobre o que eu acho que ficaria melhor.",
+   "verified": true
+  },
+  {
+   "title": "Trivela: Ceni tomou uma decisao delicada, mas a historia que construiu no Fortaleza permanece",
+   "url": "https://trivela.com.br/brasil/ceni-tomou-uma-decisao-delicada-mas-a-historia-que-construiu-no-fortaleza-permanece/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-08-11",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Criou laços e, por isso, era tão adorado.",
+   "verified": true
+  },
+  {
+   "title": "Trivela: Ceni tomou uma decisao delicada, mas a historia que construiu no Fortaleza permanece",
+   "url": "https://trivela.com.br/brasil/ceni-tomou-uma-decisao-delicada-mas-a-historia-que-construiu-no-fortaleza-permanece/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-08-11",
+   "eventDate": "2019",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Mesmo com mudanças significativas no elenco, a equipe produziu bem durante a competição",
+   "verified": true
+  },
+  {
+   "title": "O POVO: O criterioso estilo do ex-goleiro a frente do Tricolor",
+   "url": "https://mais.opovo.com.br/jornal/esportes/2020/09/23/o-criterioso-estilo-do-ex-goleiro-a-frente-do-tricolor.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-09-23",
+   "eventDate": "2020-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "A ideia de trabalhar com elenco menor porém mais qualificado foi abraçada pela diretoria",
+   "verified": false,
+   "note": "Covers the whole 1000 days, including the excluded 2020 spell; kept as context"
+  },
+  {
+   "title": "O POVO+ (Sergio Redes): A tatica do Leao",
+   "url": "https://mais.opovo.com.br/colunistas/sergioredes/2020/03/12/a-tatica-do-leao--de-goleiro-para-o-lateral--do-lateral-para-o-velocista.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-03-12",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "O goleiro faz uma linha de três junto com os zagueiros. Uma segunda linha é composta pelos dois volantes, que voltam fazendo um \"M\".",
+   "verified": false,
+   "note": "2020 Fortaleza spell, outside counted period; context"
+  },
+  {
+   "title": "Babagol: Rogerio Ceni, An Eternal Champion",
+   "url": "https://www.babagol.net/blog/2018/11/21/an-eternal-champion",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "He even points out that Ceni helped him a lot with his free kick.",
+   "verified": true
+  },
+  {
+   "title": "Babagol: Rogerio Ceni, An Eternal Champion",
+   "url": "https://www.babagol.net/blog/2018/11/21/an-eternal-champion",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Ceni likes that his teams play beautiful football, with short touches of the ball and much intensity.",
+   "verified": false,
+   "note": "Babagol is a blog; no primary quote, so not verified"
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Quando tinha a bola, o Flamengo parecia posicionado no sistema 3-4-2-1/3-4-3.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Sem a bola, o Flamengo se fechava com linha de quatro.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Entendo que Rogério Ceni queria mais qualidade na saída de bola da zaga para o meio de campo.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Quando se posicionava com linha de três, Isla e Bruno Henrique abriam nas pontas e davam amplitude ao time como se fossem alas.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Não sofreu gol pelo segundo jogo consecutivo.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "O time da vitória sobre o Palmeiras tem pouco de “jesuísmo”. É “cenismo” na veia.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo (Correio Braziliense): Como a linha de tres virou trunfo de Ceni para vencer o Palmeiras",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-linha-de-tres-virou-trunfo-do-aniversariante-rogerio-ceni-para-vencer-o-palmeiras/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-01-22",
+   "eventDate": "2021-01-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "com Willian Arão, Isla e Filipe Luís alternando momentos de zagueiro na capital do país",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Estreia de Rogerio no Flamengo tem mais de Jorge Jesus e menos de Domenec",
+   "url": "https://www.goal.com/br/not%C3%ADcias/estreia-de-rogerio-no-flamengo-mais-de-jorge-jesus-e-menos/ubqgnx34ahop1w30eb7qmg6fe",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-12",
+   "eventDate": "2020-11-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Com a pressão, o Fla conseguiu roubar diversas bolas em seu campo de ataque e criou oportunidades claras desta forma.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Estreia de Rogerio no Flamengo tem mais de Jorge Jesus e menos de Domenec",
+   "url": "https://www.goal.com/br/not%C3%ADcias/estreia-de-rogerio-no-flamengo-mais-de-jorge-jesus-e-menos/ubqgnx34ahop1w30eb7qmg6fe",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-12",
+   "eventDate": "2020-11-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "o Flamengo também voltou a marcar forte a saída de bola adversária, um dos principais pilares no estilo Jorge Jesus",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Estreia de Rogerio no Flamengo tem mais de Jorge Jesus e menos de Domenec",
+   "url": "https://www.goal.com/br/not%C3%ADcias/estreia-de-rogerio-no-flamengo-mais-de-jorge-jesus-e-menos/ubqgnx34ahop1w30eb7qmg6fe",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-12",
+   "eventDate": "2020-11-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Ao contrário do que acontecia com Dome, a defesa não ficou exposta, não tomou muitos contra-ataques e teve uma atuação mais segura",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Estreia de Rogerio no Flamengo tem mais de Jorge Jesus e menos de Domenec",
+   "url": "https://www.goal.com/br/not%C3%ADcias/estreia-de-rogerio-no-flamengo-mais-de-jorge-jesus-e-menos/ubqgnx34ahop1w30eb7qmg6fe",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-12",
+   "eventDate": "2020-11-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "a defesa não ficou exposta, não tomou muitos contra-ataques",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Estreia de Rogerio no Flamengo tem mais de Jorge Jesus e menos de Domenec",
+   "url": "https://www.goal.com/br/not%C3%ADcias/estreia-de-rogerio-no-flamengo-mais-de-jorge-jesus-e-menos/ubqgnx34ahop1w30eb7qmg6fe",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-12",
+   "eventDate": "2020-11-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Gabigol e Bruno Henrique se movimentaram, tabelaram pelo meio, abriram pelas pontas e, principalmente, finalizaram.",
+   "verified": true
+  },
+  {
+   "title": "90min: Flamengo de Ceni ainda sofre com erros da era Dome",
+   "url": "https://www.90min.com/pt-br/posts/flamengo-de-ceni-ainda-sofre-com-erros-da-era-dome-mas-ha-boas-diferencas-e-a-nacao-precisa-ter-paciencia",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-11-15",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "montar uma equipe mais compacta, com mais mobilidade nas linhas ofensivas e maior pressão no ataque",
+   "verified": true
+  },
+  {
+   "title": "90min: Flamengo de Ceni ainda sofre com erros da era Dome",
+   "url": "https://www.90min.com/pt-br/posts/flamengo-de-ceni-ainda-sofre-com-erros-da-era-dome-mas-ha-boas-diferencas-e-a-nacao-precisa-ter-paciencia",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-11-15",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ontem, o Flamengo foi mais previsível, mostrou um repertório mais curto",
+   "verified": true
+  },
+  {
+   "title": "Tupi: Com Rogerio, defesa do Flamengo passou invicta duas vezes",
+   "url": "https://www.tupi.fm/esportes/com-rogerio-defesa-do-flamengo-passou-invicta-duas-vezes-na-atual-temporada/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-05-20",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "O maior problema do Flamengo na temporada de 2021 está na quantidade de gols sofridos.",
+   "verified": true
+  },
+  {
+   "title": "Tupi: Com Rogerio, defesa do Flamengo passou invicta duas vezes",
+   "url": "https://www.tupi.fm/esportes/com-rogerio-defesa-do-flamengo-passou-invicta-duas-vezes-na-atual-temporada/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-05-20",
+   "eventDate": "2021-05-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "No último jogo, foi a vez de Rogério levar a campo uma situação inédita, tendo três zagueiros de oficio entre os titulares.",
+   "verified": true
+  },
+  {
+   "title": "Tupi: Com Rogerio, defesa do Flamengo passou invicta duas vezes",
+   "url": "https://www.tupi.fm/esportes/com-rogerio-defesa-do-flamengo-passou-invicta-duas-vezes-na-atual-temporada/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-05-20",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "A falta de bons resultados do sistema defensivo pode ser atribuída também à falta de continuidade nas escalações.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Fla passou respaldo a Ceni antes de estreia no Brasileiro",
+   "url": "https://www.goal.com/br/not%C3%ADcias/fla-passou-respaldo-a-ceni-antes-de-estreia-no-brasileiro-mas-cobrou-melhora-defensiva/1v5rb6xmaf5vp1vyx1qgujkaxr",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-05-31",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "o Flamengo tem média de 1.04 gols sofridos por partida: entraram 24 bolas na rede em 23 jogos",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Fla passou respaldo a Ceni antes de estreia no Brasileiro",
+   "url": "https://www.goal.com/br/not%C3%ADcias/fla-passou-respaldo-a-ceni-antes-de-estreia-no-brasileiro-mas-cobrou-melhora-defensiva/1v5rb6xmaf5vp1vyx1qgujkaxr",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-05-31",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "dirigentes do Flamengo conversaram com Ceni e respaldaram o treinador",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Titulares do Flamengo retornam com meninos em alta",
+   "url": "https://www.goal.com/br/not%C3%ADcias/titulares-do-flamengo-retornam-com-meninos-em-alta-como-ceni/z6f5nfvssvg51hxex1pcp8x7o",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-03-31",
+   "eventDate": "2021-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Prestigiado por Ceni, que pediu o retorno do jogador que estava emprestado ao Coritiba, Muniz anotou cinco gols em seis partidas.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Titulares do Flamengo retornam com meninos em alta",
+   "url": "https://www.goal.com/br/not%C3%ADcias/titulares-do-flamengo-retornam-com-meninos-em-alta-como-ceni/z6f5nfvssvg51hxex1pcp8x7o",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2021-03-31",
+   "eventDate": "2021-03",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Embora Diego tenha ganhado a condição de titular, o camisa 10 já tem 36 anos",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Filipe Luis ve Rogerio Ceni com aspectos parecidos a Jorge Jesus e Simeone",
+   "url": "https://www.goal.com/br/not%C3%ADcias/filipe-luis-ve-rogerio-ceni-com-aspectos-parecidos-a-jorge-jesus-/1sy008rae2k491cjlta9zhqsmt",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-01-15",
+   "eventDate": "2021-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "O Rogério é o que mais parecido joga com o Jesus. O 4-4-2, com algumas ideias diferentes.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Brasil: Filipe Luis ve Rogerio Ceni com aspectos parecidos a Jorge Jesus e Simeone",
+   "url": "https://www.goal.com/br/not%C3%ADcias/filipe-luis-ve-rogerio-ceni-com-aspectos-parecidos-a-jorge-jesus-/1sy008rae2k491cjlta9zhqsmt",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-01-15",
+   "eventDate": "2021-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Sob esse aspecto do cara que vive o futebol 24 horas por dia, Rogério é igual ao Simeone.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Rogerio Ceni cita Zico e promete Flamengo ofensivo",
+   "url": "https://dol.com.br/esporte/esporte-brasil/615044/rogerio-ceni-cita-zico-e-promete-flamengo-ofensivo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2020-11-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "A longo prazo, temos que seguir o estilo do Flamengo, que é de um time ofensivo, que marca à frente e gosta da posse de bola.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Rogerio Ceni cita Zico e promete Flamengo ofensivo",
+   "url": "https://dol.com.br/esporte/esporte-brasil/615044/rogerio-ceni-cita-zico-e-promete-flamengo-ofensivo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2020-11-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Se tenho bons jogadores em uma mesma posição, tenho de encontrar um jeito de colocá-los para jogar.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Rogerio Ceni cita Zico e promete Flamengo ofensivo",
+   "url": "https://dol.com.br/esporte/esporte-brasil/615044/rogerio-ceni-cita-zico-e-promete-flamengo-ofensivo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2020-11-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "acho que erro defensivo é fruto de [erros de] sistema de jogo",
+   "verified": true
+  },
+  {
+   "title": "DOL: Rogerio Ceni cita Zico e promete Flamengo ofensivo",
+   "url": "https://dol.com.br/esporte/esporte-brasil/615044/rogerio-ceni-cita-zico-e-promete-flamengo-ofensivo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2020-11-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Até mandei uma mensagem ao Zico antes de chegar aqui, se ele me permitia a entrada.",
+   "verified": true
+  },
+  {
+   "title": "90min: Renato Gaucho detecta erro grave de Ceni no time do Flamengo",
+   "url": "https://www.90min.com/pt-br/posts/renato-gaucho-detecta-erro-grave-de-ceni-no-time-do-flamengo-e-prepara-mudancas-entenda",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-07-14",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "no esquema do ex-goleiro do São Paulo, os pontas eram obrigados a voltar para marcar a lateral e ajudar na recomposição",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Single-journalist report (Mauro Sant'Anna) relayed after the sacking"
+  },
+  {
+   "title": "Trivela: Rogerio Ceni tera o desafio da sua carreira",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/rogerio-ceni-tera-o-desafio-da-sua-carreira-e-o-flamengo-tera-um-tecnico-de-muito-potencial/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Segundo Paulo Vinícius Coelho, no GE, os jogadores queriam a contratação de Rogério Ceni.",
+   "verified": true
+  },
+  {
+   "title": "Trivela: Rogerio Ceni tera o desafio da sua carreira",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/rogerio-ceni-tera-o-desafio-da-sua-carreira-e-o-flamengo-tera-um-tecnico-de-muito-potencial/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-11-10",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ceni se mostrou maleável no seu trabalho pelo Fortaleza, montando times que podiam ser ofensivos ou mais defensivos",
+   "verified": true
+  },
+  {
+   "title": "O POVO: Flamengo anuncia a demissao de Rogerio Ceni",
+   "url": "https://www.opovo.com.br/esportes/futebol/times/flamengo/2021/07/10/flamengo-anuncia-a-demissao-de-rogerio-ceni.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-07-10",
+   "eventDate": "2021-07-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Internamente, o clima para Rogério Ceni já não estava dos melhores no Flamengo.",
+   "verified": true
+  },
+  {
+   "title": "O POVO: Flamengo anuncia a demissao de Rogerio Ceni",
+   "url": "https://www.opovo.com.br/esportes/futebol/times/flamengo/2021/07/10/flamengo-anuncia-a-demissao-de-rogerio-ceni.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2021-07-10",
+   "eventDate": "2021-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "afirmou que Rogério forçava a barra para a contratação de jogadores que estão ou já foram do Fortaleza",
+   "verified": false,
+   "note": "Allegation in a leaked audio by a club analyst, not confirmed"
+  },
+  {
+   "title": "CNN Brasil: Marcos Braz lamenta ter mandado o Rogerio Ceni embora",
+   "url": "https://www.cnnbrasil.com.br/esportes/futebol/flamengo/flamengo-marcos-braz-lamenta-ter-mandando-o-rogerio-ceni-embora/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-12-18",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "ele revelou que o treinador pediu a demissão do cargo por duas vezes “antes de ser campeão brasileiro”, ainda no vestiário",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Executive recalling in 2024"
+  },
+  {
+   "title": "Drible de Corpo: Como a escassez no Fortaleza e a fartura no Flamengo ensinaram Ceni a domar o Sao Paulo",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/como-a-escassez-no-fortaleza-e-a-fartura-no-flamengo-ensinaram-ceni-a-domar-o-sao-paulo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-07-21",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "ao recuar Willian Arão para a defesa e escolher Diego como substituto de Gerson na campanha do título brasileiro do Flamengo em 2020",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wikipedia: Rogerio Ceni",
+   "url": "https://en.wikipedia.org/wiki/Rog%C3%A9rio_Ceni",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-01-01",
+   "eventDate": "2020-11-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Rogério Ceni é o novo técnico do Flamengo",
+   "verified": false,
+   "note": "Reference title only, used for dates; Flamengo start 2020-11-10 confirmed by Trivela, O POVO and Goal"
+  },
+  {
+   "title": "Drible de Corpo: Dome x Ceni",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dome-x-ceni-quando-o-tecnico-do-fortaleza-aprendeu-com-o-ex-chefe-do-comandante-do-flamengo/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2020-09-05",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Rogério Ceni tentou implementar conceitos de Pep Guardiola no São Paulo e também os aplica no Fortaleza.",
+   "verified": false,
+   "note": "2020 Fortaleza spell, excluded; context only"
+  },
+  {
+   "title": "O POVO Paginas Azuis: entrevista com Rogerio Ceni",
+   "url": "https://mais.opovo.com.br/jornal/paginasazuis/2018/11/o-fortaleza-continuara-grande-com-minha-presenca-ou-nao.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-11-19",
+   "eventDate": "2018-11-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Mas onde eu estiver, vou propor sempre jogar em função do gol sem parar.",
+   "verified": true
+  },
+  {
+   "title": "O POVO: Fortaleza pode entrar com quatro atacantes na final do Cearense",
+   "url": "https://mais.opovo.com.br/jornal/esportes/2019/04/12/de-olho-na-vitoria--fortaleza-pode-entrar-com-quatro-atacantes-na-final-do-cearense.html",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-04-12",
+   "eventDate": "2019-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "A gente trabalha de acordo com a forma que o adversário joga.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "E eu não mudo meu estilo de jogo. Eu tenho sempre uma coisa na minha cabeça: se me sinto melhor ou igual ao adversário, vou agredir. Se me sinto inferior, vou preparar uma estratégia para ter o contra-ataque como referência.",
+   "date": "2018-11-16",
+   "source": "O POVO, Paginas Azuis interview (published 2018-11-19)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Mas onde eu estiver, vou propor sempre jogar em função do gol sem parar.",
+   "date": "2018-11-16",
+   "source": "O POVO, Paginas Azuis interview",
+   "provenance": "primary"
+  },
+  {
+   "quote": "A gente trabalha de acordo com a forma que o adversário joga. Talvez não seja possível toda partida (usar quatro atacantes), mas em determinado jogo podemos usar, desde que eles cumpram a parte defensiva",
+   "date": "2019-04",
+   "source": "O POVO, 2019-04-12",
+   "provenance": "primary"
+  },
+  {
+   "quote": "A longo prazo, temos que seguir o estilo do Flamengo, que é de um time ofensivo, que marca à frente e gosta da posse de bola.",
+   "date": "2020-11-10",
+   "source": "DOL, presentation press conference",
+   "provenance": "primary"
+  },
+  {
+   "quote": "acho que erro defensivo é fruto de [erros de] sistema de jogo",
+   "date": "2020-11-10",
+   "source": "DOL, presentation press conference",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Vamos sofrer bastante neste início, pelas lesões, convocações e desgaste",
+   "date": "2020-11-14",
+   "source": "90min, post-match after Vasco game, 2020-11-15",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.lance.com.br/flamengo/escolhas-nao-funcionam-rogerio-ceni-volta-conviver-com-questionamentos.html",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=3042506",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2970182",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.lance.com.br/flamengo/rogerio-ceni-minimiza-gramado-admite-baixa-producao-ofensiva.html",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "Jorge Jesus (Flamengo 2019 concepts, per Goal)",
+  "Pep Guardiola (study trip 2016, per Correio Braziliense)",
+  "Juan Carlos Osorio (per Babagol)",
+  "Antonio Conte, Sampaoli (visited 2016)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Fortaleza",
+   "start": "2017-11-10",
+   "end": "2019-08-11",
+   "reason": "Signed 2017-11-10 (Wikipedia ref/Diario do Nordeste: in charge 'desde novembro de 2017'); first official matches Jan 2018 and exact first day in charge not found; left to join Cruzeiro 2019-08-11. Brought Serie B 2018, Cearense and Copa do Nordeste 2019; catalog team Fortaleza 2018-19."
+  },
+  {
+   "club": "Flamengo",
+   "start": "2020-11-10",
+   "end": "2021-07-10",
+   "reason": "Announced 2020-11-10 after Domenec Torrent was dismissed on 2020-11-09 following the 4-0 loss to Atletico-MG; Ceni's first match was 2020-11-11 vs Sao Paulo (Copa do Brasil). Dismissed by club statement in the early hours of 2021-07-10. Catalog team Flamengo 2020 (Ceni part only)."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Sao Paulo",
+   "start": "2017-01",
+   "end": "2017-07-03",
+   "reason": "Outside catalog teams; start month approximate; 37 matches per Babagol; sacked 2017-07-03 per Wikipedia reference"
+  },
+  {
+   "club": "Cruzeiro",
+   "start": "2019-08-11",
+   "end": "2019-09-26",
+   "reason": "Short, outside catalog teams (reference dates from Wikipedia citations)"
+  },
+  {
+   "club": "Fortaleza (second spell)",
+   "start": "2020-01",
+   "end": "2020-11-09",
+   "reason": "Not asked (catalog has Fortaleza 2018-19 only); start date not confirmed, left 2020-11-09 per O POVO/Folha PE; Dome x Ceni and Sergio Redes sources about it kept as verified:false context. Later São Paulo and Bahia spells are outside the profile period."
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Mostly Brazilian press and blogs (tier B-C), no tier A, no marking source, Flamengo spell has single-match tactical pieces, several facts retrospective."
+ }
+}

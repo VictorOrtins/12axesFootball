@@ -1,0 +1,788 @@
+{
+ "id": "fabio-carille",
+ "catalog": "manager",
+ "name": "Fábio Carille",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2016-12-22",
+  "end": "2018-05-22"
+ },
+ "scopeNote": "Counted spell: Corinthians, first spell as permanent head coach, 2016-12-22 (efetivado) to 2018-05-22 (accepted Al-Wehda); 114 games, Paulista 2017 and 2018, Brasileirão 2017. Catalog team is Corinthians 2017, so facts centred on 2017 (4-2-3-1 predominant, 4-1-4-1 variant, defence-first), with 2018 H1 facts inside the spell (false nine/4-4-2 from 2018-02-24). Sources call it a pragmatic, defensively organised side following Mano Menezes and Tite; no source calls it zonal or man-marking. Short career: low confidence. Later spells not given dates here (second Corinthians spell from 2018-12-07, V-Varen Nagasaki from 2022-06-12, Vitória, Vasco) are excluded as outside the catalog team and not researched. Carille's interim stints (2010, Sept-Dec 2016, ten games) are excluded.",
+ "ambiguities": [],
+ "openQuestions": [
+  "No source found on zonal vs man-marking (open play or set pieces) in 2017: needs a tactical analyst or match study.",
+  "Pressing: only fragments (marking the São Paulo build-up in the April 2017 semifinal; 'marcação adiantada' in 2018); no data-based pressing analysis found. Tier A-B sources (Coaches' Voice, These Football Times, Trivela) returned nothing.",
+  "Lance article dated 2016-09-20 by metadata says Carille was 'promovido' as new coach; Cristóvão Borges was sacked 2016-09-17 and Carille was interim for ten games before being made permanent 2016-12-22 (Lance, Wikipedia refs): confirm interim start date.",
+  "Second Corinthians spell (from 2018-12-07), Santos, Athletico-PR, V-Varen Nagasaki, Vitória, Vasco: not researched; end dates of the second spell not verified.",
+  "Formation labels differ by source: 4-2-3-1 'predominante' (Lance) vs 4-1-4-1 'fã' (Tribuna PR 2017-04); likely both used, 4-1-4-1 early in the Paulista.",
+  "Betweentheposts.net tactical match reports on 2017 Corinthians returned only security pages; season/dates unconfirmed."
+ ],
+ "sources": [
+  {
+   "title": "Lance: Corinthians fica mais compacto no 4-2-3-1",
+   "url": "https://www.lance.com.br/corinthians/fica-mais-compacto-mas-ainda-sofre-ataque.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-02-19",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "O técnico Fábio Carille voltou a escalar o Corinthians no 4-2-3-1, esquema predominante nos títulos paulista e brasileiro de 2017.",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Kleina e Carille",
+   "url": "https://www.tribunapr.com.br/esportes/com-estilos-diferentes-kleina-e-carille-fazem-confronto-pelo-titulo-paulista/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-04-27",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Fábio Carille também é fã do 4-1-4-1 e prioriza a organização defensiva. Tanto que o Corinthians levou apenas 10 gols no Campeonato Paulista e a defesa é o setor mais elogiado da equipe.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Após baixas, Carille recua sobre mudar esquema",
+   "url": "https://www.lance.com.br/corinthians/apos-baixas-carille-recua-sobre-mudar-esquema-para.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-26",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Ele gostaria de sair do 4-2-3-1 para o 4-1-4-1.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille explica mudança de esquema",
+   "url": "https://dol.com.br/esporte/mundo/noticia-491247-fabio-carille-explica-mudanca-de-esquema-no-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-03-05",
+   "eventDate": "2018-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Depois de começar a temporada utilizando o 4-1-4-1, Fábio Carille alterou a forma de atuar do Corinthians e passou a utilizar um falso 9 a partir da partida contra o Palmeiras.",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Carille se reinventa",
+   "url": "https://www.tribunapr.com.br/esportes/carille-se-reinventa-mostra-versatilidade-e-se-mantem-no-topo-como-treinador/amp/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-09",
+   "eventDate": "2018-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "A partir daquele dia, o Corinthians passou a ter um novo esquema tático. Ao invés do 4-1-4-1 ou 4-2-3-1, a equipe passou a adotar o 4-4-2 ou o 4-2-4, dependendo do ponto de vista.",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Kleina e Carille (saída de bola do rival)",
+   "url": "https://www.tribunapr.com.br/esportes/com-estilos-diferentes-kleina-e-carille-fazem-confronto-pelo-titulo-paulista/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-04-27",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Contra o São Paulo, na semifinal do Estadual, armou um esquema tático para marcar a saída de bola do rival e forçá-lo ao erro, para tentar fazer mais gols, mesmo tendo vencido o primeiro jogo por 2 a 0.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille elogia sistema defensivo e jogo de pé em pé",
+   "url": "https://dol.com.br/esporte/mundo/noticia-502224-carille-elogia-sistema-defensivo-e-jogo-de-pe-em-pe-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-19",
+   "eventDate": "2018-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Com a bola no nosso domínio, tínhamos que terminar de um lado e do outro. De pé em pé conseguimos criar várias oportunidades",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille festeja gordura",
+   "url": "https://dol.com.br/esporte/mundo/noticia-438947-carille-festeja-gordura-mas-avisa-precisamos-saber-usa-la.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-03",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Mesmo com a pressão exercida pelo adversário, a ideia dada aos atletas foi de segurar mais a posse de bola quando o time estivesse recuado.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Após baixas (posse)",
+   "url": "https://www.lance.com.br/corinthians/apos-baixas-carille-recua-sobre-mudar-esquema-para.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-26",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Queria sim dois de lado, com meio de campo mais técnico, com posse de bola, condução",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Kleina e Carille (pressão à saída)",
+   "url": "https://www.tribunapr.com.br/esportes/com-estilos-diferentes-kleina-e-carille-fazem-confronto-pelo-titulo-paulista/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-04-27",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Contra o São Paulo, na semifinal do Estadual, armou um esquema tático para marcar a saída de bola do rival e forçá-lo ao erro",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille elogia sistema defensivo (Independiente)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-502224-carille-elogia-sistema-defensivo-e-jogo-de-pe-em-pe-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-19",
+   "eventDate": "2018-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Já começa a marcação e a posição em um setor do campo mais adiantado.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille festeja gordura (pressão pós-perda)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-438947-carille-festeja-gordura-mas-avisa-precisamos-saber-usa-la.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-03",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Quando rouba a bola, jogadores puxam a marcação e outros encostam para a gente trocar passes e ter a bola nos pés.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Pablo e Balbuena encantam Carille",
+   "url": "https://dol.com.br/esporte/mundo/noticia-404649-pablo-e-balbuena-encantam-carille-com-tres-gols-sofridos-em-12-jogos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-04-06",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "apenas três gols sofridos em 12 jogos disputados em 2017",
+   "verified": true
+  },
+  {
+   "title": "AP/KSL: Carille emerging from Tite shadow",
+   "url": "https://www.ksl.com/article/45321000",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-07",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "I love to see how little the gaps between defense and midfield have shrunk, how everyone helps marking.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille elogia sistema defensivo (funil)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-502224-carille-elogia-sistema-defensivo-e-jogo-de-pe-em-pe-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-19",
+   "eventDate": "2018-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "O que chamou mais a nossa atenção é que o Independiente roda bastante a bola e gosta de aproveitar o centro do campo, o funil. Nós conseguimos fechar bem ali.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Mapa da mina? bola aérea",
+   "url": "https://www.lance.com.br/corinthians/mapa-mina-rivais-insistem-600-vezes-bola-aerea-castiga-timao.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-30",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "De 11 gols sofridos pelo Corinthians no Nacional, sete tiveram sua origem em bolas cruzadas na área",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille elogia sistema defensivo (contra-ataque)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-502224-carille-elogia-sistema-defensivo-e-jogo-de-pe-em-pe-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-19",
+   "eventDate": "2018-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "exaltar não só a solidez defensiva, mas também as rápidas puxadas de contra-ataque da equipe.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille festeja gordura (recuperação)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-438947-carille-festeja-gordura-mas-avisa-precisamos-saber-usa-la.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-03",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "E sempre com alguém infiltrando: meia, lateral, volante",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Carille se reinventa (2017)",
+   "url": "https://www.tribunapr.com.br/esportes/carille-se-reinventa-mostra-versatilidade-e-se-mantem-no-topo-como-treinador/amp/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-09",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Eram dois jogadores caindo pelas laterais e um centroavante, Jô, que era o responsável por marcar os gols da equipe.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Corinthians 4-2-3-1 vs Red Bull Brasil",
+   "url": "https://www.lance.com.br/corinthians/fica-mais-compacto-mas-ainda-sofre-ataque.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-02-19",
+   "eventDate": "2018-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "com Romero e Clayson abertos em cada ponta e Júnior Dutra se movimentando a todo instante",
+   "verified": true
+  },
+  {
+   "title": "Lance: Mapa da mina (posicionamento em cruzamentos)",
+   "url": "https://www.lance.com.br/corinthians/mapa-mina-rivais-insistem-600-vezes-bola-aerea-castiga-timao.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-30",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Na quarta-feira, terceiro dia de trabalhos após a paralisação do Brasileiro, os reservas do Corinthians realizaram treinos de posicionamento em bola aérea durante mais de 40 minutos.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Mapa da mina (bola parada sofrida)",
+   "url": "https://www.lance.com.br/corinthians/mapa-mina-rivais-insistem-600-vezes-bola-aerea-castiga-timao.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-30",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Bola parada que dificilmente tomávamos gol e agora tomamos, precisa consertar",
+   "verified": true
+  },
+  {
+   "title": "Lance: Após baixas (bola aérea defensiva)",
+   "url": "https://www.lance.com.br/corinthians/apos-baixas-carille-recua-sobre-mudar-esquema-para.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-26",
+   "eventDate": "2017-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Outra preocupação do treinador para a temporada 2018 é a bola aérea defensiva.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille elogia futebol (Otero)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-468696-carille-elogia-futebol-do-time-e-da-meritos-a-ortega-por-gols-do-galo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-26",
+   "eventDate": "2017-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Atlético é um time forte por cima, Leonardo e Fred. Mérito da equipe deles, muito forte na bola parada",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Kleina e Carille (não joga pelo resultado)",
+   "url": "https://www.tribunapr.com.br/esportes/com-estilos-diferentes-kleina-e-carille-fazem-confronto-pelo-titulo-paulista/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-04-27",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ao contrário de Gilson Kleina, não gosta de armar o time de acordo com o resultado mais propício. Se o empate basta para ele se classificar, vai para o ataque mesmo sabendo que isso pode custar caro ao time.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille explica mudança de esquema (etapas)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-491247-fabio-carille-explica-mudanca-de-esquema-no-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-03-05",
+   "eventDate": "2018-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Acho que tudo são etapas, primeira a consistência defensiva e depois ir soltando o time.",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Carille se reinventa (clássico divisor)",
+   "url": "https://www.tribunapr.com.br/esportes/carille-se-reinventa-mostra-versatilidade-e-se-mantem-no-topo-como-treinador/amp/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-09",
+   "eventDate": "2018-02-24",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "A mudança aconteceu justamente no clássico contra o Palmeiras, pela primeira fase do Paulistão, dia 24 de fevereiro.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Pablo e Balbuena (declaração)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-404649-pablo-e-balbuena-encantam-carille-com-tres-gols-sofridos-em-12-jogos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-04-06",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Hoje (quarta) foi o 18º jogo oficial, sete jogos com Balbuena e Pablo que a gente não toma gol. Um número muito bom, uma dupla de zaga firme, isso é muito importante",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille usa vitória (prioridade defensiva)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-420776-carille-usa-vitoria-para-enaltecer-melhora-ofensiva-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-06-03",
+   "eventDate": "2017-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Sem ter vergonha de dizer que sempre priorizou ter um Corinthians seguro defensivamente a envolvente no ataque",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille festeja gordura (ideia de jogo)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-438947-carille-festeja-gordura-mas-avisa-precisamos-saber-usa-la.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-03",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "É uma equipe organizada defensivamente, que procura triangulações para jogar.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Explica mudança de esquema",
+   "url": "https://dol.com.br/esporte/mundo/noticia-491247-fabio-carille-explica-mudanca-de-esquema-no-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-03-05",
+   "eventDate": "2018-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Primeiro começamos no 4-1-4-1 e a resposta na Flórida foi muito boa.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Após baixas (visão de 4-1-4-1)",
+   "url": "https://www.lance.com.br/corinthians/apos-baixas-carille-recua-sobre-mudar-esquema-para.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-11-26",
+   "eventDate": "2017-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Já tem um tempo que quero organizar uma linha de quatro ali (no meio)",
+   "verified": true
+  },
+  {
+   "title": "AP/KSL: Spotlight (Tite)",
+   "url": "https://www.ksl.com/article/45321000",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-07",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "And much of this I owe to Tite. I am doing well now because I learned from the best in the business.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Carille quer usar jovens (apresentação)",
+   "url": "https://www.lance.com.br/corinthians/carille-quer-usar-jovens-brecar-novas-saidas-mais-reforcos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-01-11",
+   "eventDate": "2017-01-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "O torcedor pode esperar preparação, dedicação e uma equipe muito organizada dentro de campo.",
+   "verified": true
+  },
+  {
+   "title": "AP/KSL: Spotlight (Jô)",
+   "url": "https://www.ksl.com/article/45321000",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-07",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Carille even managed to revive the career of striker Jo, who flopped at other Brazilian clubs and at Manchester City.",
+   "verified": true
+  },
+  {
+   "title": "Bola na Rede: Carille e Corinthians",
+   "url": "https://bolanarede.pt/internacional/liga-brasileira/carille-e-corinthians-uniao-de-sucesso",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-06-07",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "As atuações do meia Rodriguinho e do atacante Jô – ambos jogadores em baixa no futebol nacional há pouco tempo – tem sido um diferencial na equipe campeã do Paulistão.",
+   "verified": true
+  },
+  {
+   "title": "Goal: Retrospectiva 2017",
+   "url": "https://www.goal.com/br/not%C3%ADcias/retrospectiva-2017-futebol-paulista-corinthians-sao-paulo-palmeiras-brasileirao/1bc53v1w55yb81xvcjq3xmb6v2",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-12-25",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Todos tiveram seus momentos de brilhantismo e ajudaram o Corinthians não só nos títulos como também na superioridade nos clássicos",
+   "verified": true
+  },
+  {
+   "title": "Lance: Carille quer usar jovens",
+   "url": "https://www.lance.com.br/corinthians/carille-quer-usar-jovens-brecar-novas-saidas-mais-reforcos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-01-11",
+   "eventDate": "2017-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "A nova logística definida pelo treinador tem uma explicação que vai ao encontro de seu projeto para 2017: mais espaço para os jovens jogadores nas competições ao longo da temporada.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille realista financeira",
+   "url": "https://dol.com.br/esporte/mundo/noticia-470350-carille-diz-ser-realista-e-respeitar-a-realidade-financeira-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-12-04",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "O clube também foi econômico nos reforços para a temporada em que foi campeão estadual e nacional.",
+   "verified": true
+  },
+  {
+   "title": "Bola na Rede: Carille e Corinthians (elenco)",
+   "url": "https://bolanarede.pt/internacional/liga-brasileira/carille-e-corinthians-uniao-de-sucesso",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-06-07",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Curiosamente as maiores contratações realizadas pelo clube em 2016 não vingaram. Os meias Giovanni Augusto e Marquinhos Gabriel são reservas e os atacantes Guilherme e André já deixaram o clube.",
+   "verified": true
+  },
+  {
+   "title": "Goal: Retrospectiva 2017 (convocados e banco)",
+   "url": "https://www.goal.com/br/not%C3%ADcias/retrospectiva-2017-futebol-paulista-corinthians-sao-paulo-palmeiras-brasileirao/1bc53v1w55yb81xvcjq3xmb6v2",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-12-25",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "No banco, jogadores como Marquinhos Gabriel, Giovanni Augusto, Walter, Pedrinho, Léo Santos, Clayson... Todos tiveram seus momentos de brilhantismo",
+   "verified": true
+  },
+  {
+   "title": "Lance: Carille quer usar jovens (interino)",
+   "url": "https://www.lance.com.br/corinthians/carille-quer-usar-jovens-brecar-novas-saidas-mais-reforcos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-01-11",
+   "eventDate": "2017-01-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Aquele período como interino foi minha auto-afirmação.",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille festeja gordura (grupo)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-438947-carille-festeja-gordura-mas-avisa-precisamos-saber-usa-la.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-08-03",
+   "eventDate": "2017-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Estamos fortalecendo o grupo cada vez mais para terminar bem o turno e fazer um grande segundo turno",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Carille se reinventa (grupo)",
+   "url": "https://www.tribunapr.com.br/esportes/carille-se-reinventa-mostra-versatilidade-e-se-mantem-no-topo-como-treinador/amp/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-09",
+   "eventDate": "2018-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Tenho um grupo maravilhoso, que compra a ideia, sabe das nossas dificuldades e procura cumprir da melhor forma possível.",
+   "verified": true
+  },
+  {
+   "title": "Tribuna PR: Carille se reinventa (Walmir Cruz)",
+   "url": "https://www.tribunapr.com.br/esportes/carille-se-reinventa-mostra-versatilidade-e-se-mantem-no-topo-como-treinador/amp/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-04-09",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "É um cara simples demais e que merece tudo que tem conquistado",
+   "verified": true
+  },
+  {
+   "title": "DOL: Carille realista financeira (people)",
+   "url": "https://dol.com.br/esporte/mundo/noticia-470350-carille-diz-ser-realista-e-respeitar-a-realidade-financeira-do-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2017-12-04",
+   "eventDate": "2017-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Sou muito realista em relação ao momento do Corinthians.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Ex-zagueiro e especialista em defesa (apresentação de 2016 como interino)",
+   "url": "https://www.lance.com.br/corinthians/zagueiro-especialista-defesa-carille-tenta-reorganizar.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2016-09-20",
+   "eventDate": "2016-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Novo comandante do Timão já era o responsável por orientar os treinos de marcação da equipe.",
+   "verified": false
+  },
+  {
+   "title": "Lance: Ex-zagueiro (bola parada)",
+   "url": "https://www.lance.com.br/corinthians/zagueiro-especialista-defesa-carille-tenta-reorganizar.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2016-09-20",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Com Mano Menezes Carille já era o encarregado de organizar o posicionamento em treinos de bola parada, função que ficou ainda mais definida com Tite.",
+   "verified": false
+  },
+  {
+   "title": "Lance: Carille tem pedidos atendidos (2019)",
+   "url": "https://www.lance.com.br/corinthians/carille-tem-pedidos-atendidos-inicia-ano-com-opcoes-corinthians.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-01-08",
+   "eventDate": "2019-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Carille teve pelo menos 90% dos desejos atendidos nesta janela.",
+   "verified": false
+  },
+  {
+   "title": "Wikipedia: Fábio Carille",
+   "url": "https://en.wikipedia.org/wiki/F%C3%A1bio_Carille",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-09-25",
+   "eventDate": "2021-09-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "On 8 September 2021, Carille was appointed head coach of Santos, after signing a contract until the end of 2022.[22] He was sacked on 18 February 2022, after a poor start of the new campaign.[23]",
+   "verified": false
+  },
+  {
+   "title": "Lance: Efetivado há dois anos",
+   "url": "https://www.lance.com.br/corinthians/efetivado-dois-anos-carille-volta-timao-como-salvador-patria.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-12-21",
+   "eventDate": "2016-12-22",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Técnico foi efetivado no dia 22 de dezembro de 2016, quando ainda era visto com desconfiança.",
+   "verified": true
+  },
+  {
+   "title": "Lance: Carille aceita proposta do Al Wehda",
+   "url": "https://www.lance.com.br/corinthians/carille-aceita-proposta-wehda-deixara.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-05-22",
+   "eventDate": "2018-05-22",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Carille disse em julho de 2017, em entrevista à Rádio Jovem Pan, que não sairia do Corinthians \"nem por um caminhão de dinheiro\".",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Claro que precisamos voltar a ser muito fortes defensivamente, e isso inclui todo mundo. [...] A princípio é isso: defesa sólida, mas também chegando bem ao ataque",
+   "date": "2016-09",
+   "source": "https://www.lance.com.br/corinthians/zagueiro-especialista-defesa-carille-tenta-reorganizar.html",
+   "provenance": "primary",
+   "note": "presentation interview as interim; out of counted spell (context). Lance page date 2016-09-20 per metadata"
+  },
+  {
+   "quote": "O torcedor pode esperar preparação, dedicação e uma equipe muito organizada dentro de campo. Tenho certeza que será um ano de vitórias.",
+   "date": "2017-01-11",
+   "source": "https://www.lance.com.br/corinthians/carille-quer-usar-jovens-brecar-novas-saidas-mais-reforcos.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Sem ter vergonha de dizer que sempre priorizou ter um Corinthians seguro defensivamente a envolvente no ataque",
+   "date": "2017-06-03",
+   "source": "https://dol.com.br/esporte/mundo/noticia-420776-carille-usa-vitoria-para-enaltecer-melhora-ofensiva-do-corinthians.html",
+   "provenance": "attributed",
+   "note": "journalist paraphrase, not a direct quote"
+  },
+  {
+   "quote": "É uma equipe organizada defensivamente, que procura triangulações para jogar.",
+   "date": "2017-08-02",
+   "source": "https://dol.com.br/esporte/mundo/noticia-438947-carille-festeja-gordura-mas-avisa-precisamos-saber-usa-la.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I am doing well now because I learned from the best in the business.",
+   "date": "2017-08",
+   "source": "https://www.ksl.com/article/45321000",
+   "provenance": "primary",
+   "note": "AP interview; language en"
+  },
+  {
+   "quote": "Já tem um tempo que quero organizar uma linha de quatro ali (no meio)... Queria sim dois de lado, com meio de campo mais técnico, com posse de bola, condução",
+   "date": "2017-11-26",
+   "source": "https://www.lance.com.br/corinthians/apos-baixas-carille-recua-sobre-mudar-esquema-para.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Acho que tudo são etapas, primeira a consistência defensiva e depois ir soltando o time.",
+   "date": "2018-03",
+   "source": "https://dol.com.br/esporte/mundo/noticia-491247-fabio-carille-explica-mudanca-de-esquema-no-corinthians.html",
+   "provenance": "primary",
+   "note": "Mesa Redonda, TV Gazeta"
+  },
+  {
+   "quote": "Isso não é de hoje. O Corinthians sempre teve defesas sólidas, com o Mano, o Tite. É a volta da ideia do que é o DNA do Corinthians",
+   "date": "2018-03-14",
+   "source": "https://dol.com.br/esporte/mundo/noticia-493784-com-defesa-em-alta-carille-celebra-resgate-do-dna-corintiano.html",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2410581",
+   "reason": "403"
+  },
+  {
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/para-entender-o-corinthians-campeao-em-novembro-e-preciso-se-lembrar-do-time-sonolento-de-fevereiro/",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2554154",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2444061",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2453072",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2411980",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/times/corinthians/carille-explica-jogo-lento-e-avisa-foi-maravilhoso-mas-quero-mais/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/futebol/carille-ve-melhora-e-pretende-manter-dois-volantes-no-derby/",
+   "reason": "403"
+  },
+  {
+   "url": "https://betweentheposts.net/corinthians-gremio-0-0-brasileiro-teams-split-result-offensive-struggles/",
+   "reason": "empty"
+  },
+  {
+   "url": "https://betweentheposts.net/corinthians-sao-paulo-1-0-completely-shut-down-taking-early-lead/",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Tite",
+  "Mano Menezes"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Corinthians",
+   "start": "2016-12-22",
+   "end": "2018-05-22",
+   "reason": "Brasileirão 2017, Paulista 2017 and 2018; recognisable defence-first style; led to Al-Wehda job. Spell starts at efetivação; earlier interim games excluded"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Corinthians (interim)",
+   "start": "2016-09-17",
+   "end": "2016-12-22",
+   "reason": "ten games as interim before being made permanent; start date approximate, from Cristóvão Borges' exit"
+  },
+  {
+   "club": "Al-Wehda",
+   "start": "2018-05-22",
+   "end": "2018-12-07",
+   "reason": "about six months, little coverage; end = date Corinthians announced his return (ge 2018-12-07)"
+  },
+  {
+   "club": "Santos",
+   "start": "2021-09-08",
+   "end": "2022-02-18",
+   "reason": "sacked after poor start; short, no titles"
+  },
+  {
+   "club": "Athletico Paranaense",
+   "start": "2022-04-13",
+   "end": "2022-05-04",
+   "reason": "21 days, seven matches"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Short head-coach career in the spell (114 games, one season of titles); sources are almost all tier C Brazilian press (Lance, DOL, Tribuna PR) with one AP interview; no tier A tactical study, no zonal/man-marking source, pressing only fragmentary."
+ }
+}

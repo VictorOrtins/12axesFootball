@@ -1,0 +1,548 @@
+{
+ "id": "botafogo-2024",
+ "catalog": "team",
+ "name": "Botafogo 2024 (Artur Jorge)",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2024-04-05",
+  "end": "2025-01-03"
+ },
+ "scopeNote": "Botafogo under Artur Jorge (b. 1972), 2024 season: Brasileirão and Libertadores winners. Spell counted: presented 2024-04-05 (Soccerway PT; contract to end 2025), first match the 1-0 loss at LDU in the Libertadores, mutual contract termination announced 2025-01-03 (Folha Vitória); 55 matches (31W 15D 9L). Last competitive matches were Dec 2024 (Intercontinental Cup), so the effective competitive period ends Dec 2024. Counted all of it as one spell. Earlier 2024 Botafogo (Jan-Mar, Renato Paiva) and the 2025 team (other coaches) excluded. Style named by sources: 4-2-3-1 (also read as 4-2-4/2-4-4 in possession), vertical, high-press early, 4-4-2 mid-block later; sources disagree on press intensity (open question). Tactical coverage is thin and mostly tier B-C: confidence low on tactics. Marking system (zonal vs man) not found. Dates: appointment 2024-04-05 (Soccerway PT 'apresentado esta sexta-feira'), termination 2025-01-03 (Folha Vitoria, 55 matches 31W 15D 9L). Final vs Atletico-MG (2024-11-30): 6-man defensive line after Gregore red card, then back three.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Pressing: Trivela/90min (Apr-Jun 2024) say high press; TFA (Aug) says not a particularly high-pressing side (PPDA 10.25); FotMob (Dec) says they hardly press and drop to a 4-4-2 block. Likely evolution during the year.",
+  "Zonal vs man-marking not found in any source.",
+  "Shape labelled 4-2-3-1, 4-2-4 and 4-2-2-2 depending on source.",
+  "the-footballanalyst.com page unreadable; its 1-3-1-5-1 build-up claim is unverified."
+ ],
+ "sources": [
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Building from the back is something that was discussed in the aforementioned analysis of Artur Jorge’s Braga team, and some of those principles followed him to Brazil.",
+   "verified": true
+  },
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Botafogo are no strangers to taking their time in the initial stages of the build-up phase, passing the ball between themselves at a casual pace the back until the opposition decide to trigger the press – usually on the central player of the back three.",
+   "verified": true
+  },
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Botafogo can be a destructive force in attacking transitions—their fast-paced approach comes in clutch in these moments.",
+   "verified": true
+  },
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "They aren’t a particularly high-pressing side — their challenge intensity rate of 5.3 is just above the league average, and their PPDA of 10.25 also makes them slightly more aggressive than the league average",
+   "verified": true
+  },
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "While Botafogo does have games where they dominate possession, generally speaking, their games are more even (in terms of possession percentage).",
+   "verified": true
+  },
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Botafogo have a real knack of kicking up the speed of an attack in the blink of an eye",
+   "verified": true
+  },
+  {
+   "title": "TFA scout report",
+   "url": "https://totalfootballanalysis.com/team-analysis/botafogo-2024-artur-jorge-attacking-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-08-20",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Botafogo have been dominant from set plays this season, scoring from nine corners",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Lining up in some variation of a 4-2-2-2 to 4-2-3-1 formation, they do not gradually progress through the thirds but instead like to look for their front four in transitional situations. That is why they play so many long balls.",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Jorge’s side do keep a healthy amount of possession as their average of 54.6% in the league this season places them sixth on that metric, but much of it is spent circulating the ball around the back looking for an opening.",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Fogo are also the top crossers in the Brasileirão with an average of 5.8 accurate deliveries per 90, using them both in transition and to try and cause chaos against low blocks.",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Dropping into a 4-4-2 block lower down the pitch, Botafogo have been able to restrict their opponents quite effectively through the sheer number of players they have behind the ball.",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "They hardly look to press as a result, so their defensive line gradually drops back to prevent being breached in behind.",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Botafogo’s defending also feeds into their attacking approach as they tend to drop back out of possession, creating counterattacking opportunities after turnovers.",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "They do have an exciting cohort of attackers including former Real Betis winger Luiz Henrique, Brazil national team striker Igor Jesus, Venezuelan international Jefferson Savarino and former MLS star Thiago Almada",
+   "verified": true
+  },
+  {
+   "title": "FotMob analysis",
+   "url": "https://www.fotmob.com/topnews/16823-analysis-how-botafogo-have-put-together-their-best-ever-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-03",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the fact that a whopping 28 players have chipped in with either a goal or an assist is why Botafogo have managed to keep scoring week in week out.",
+   "verified": true
+  },
+  {
+   "title": "Trivela early defensive stats",
+   "url": "https://trivela.com.br/brasil/comeco-artur-jorge-botafogo-estatistica-defensiva/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-05-04",
+   "eventDate": "2024-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Desde a chegada do português, a equipe passou a atuar com uma marcação alta, pressionando a saída de bola adversária.",
+   "verified": true
+  },
+  {
+   "title": "Trivela early defensive stats",
+   "url": "https://trivela.com.br/brasil/comeco-artur-jorge-botafogo-estatistica-defensiva/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-05-04",
+   "eventDate": "2024-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Foram apenas seis gols sofridos nos sete jogos com o novo treinador.",
+   "verified": true
+  },
+  {
+   "title": "Trivela early defensive stats",
+   "url": "https://trivela.com.br/brasil/comeco-artur-jorge-botafogo-estatistica-defensiva/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-05-04",
+   "eventDate": "2024-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Na partida contra o Vitória, por exemplo, foram sete mudanças entre os onze iniciais em relação ao jogo contra o Flamengo, no último domingo.",
+   "verified": true
+  },
+  {
+   "title": "Hudl Libertadores final review",
+   "url": "https://www.hudl.com/blog/copa-libertadores-final-botafogo",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-04",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Lining up in the familiar 4-2-3-1, the only enforced change was Adryelson replacing the injured Bastos in central defence.",
+   "verified": true
+  },
+  {
+   "title": "Hudl Libertadores final review",
+   "url": "https://www.hudl.com/blog/copa-libertadores-final-botafogo",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-04",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Pace in the transition, a physical focal point in Brazil International Igor Jesus, midfield runners, incisive passing and bags of individual flair to unlock defences.",
+   "verified": true
+  },
+  {
+   "title": "Hudl Libertadores final review",
+   "url": "https://www.hudl.com/blog/copa-libertadores-final-botafogo",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-04",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Moments after manager Artur Jorge had taken the opportunity to speak with both Luiz Henrique and Thiago Almada during a brief delay in play, the pair combined for the first time high up the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Hudl Libertadores final review",
+   "url": "https://www.hudl.com/blog/copa-libertadores-final-botafogo",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-12-04",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Danilo was introduced to help captain Marlon Freitas in central midfield and it was the fresh legs brought into the attack that sealed the victory.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo 4-2-4",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/estilo-retro-do-botafogo-vai-do-4-2-4-ao-2-4-4-contra-o-universitario/amp/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-04-25",
+   "eventDate": "2024-04-24",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "O time dele é todo trabalhado no 4-2-4",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo 4-2-4",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/estilo-retro-do-botafogo-vai-do-4-2-4-ao-2-4-4-contra-o-universitario/amp/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-04-25",
+   "eventDate": "2024-04-24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "A primeira vitória no torneio foi praticamente construída no 2-4-4.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo 4-2-4",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/estilo-retro-do-botafogo-vai-do-4-2-4-ao-2-4-4-contra-o-universitario/amp/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-04-25",
+   "eventDate": "2024-04-24",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Os laterais Damián Suárez e Hugo alinharam no meio de campo com Marlon Freitas e Gregore.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo LDU",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/os-pares-de-artur-jorge-na-construcao-da-vitoria-do-botafogo-contra-a-ldu/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-05-09",
+   "eventDate": "2024-05-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "O técnico português gosta de formar pares na construção. Ele vê a aproximação como um atalho para chegar ao gol adversário.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo LDU",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/os-pares-de-artur-jorge-na-construcao-da-vitoria-do-botafogo-contra-a-ldu/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-05-09",
+   "eventDate": "2024-05-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "sempre com uma proposta vertical de jogo explorando a velocidade dos homens de frente",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo LDU",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/os-pares-de-artur-jorge-na-construcao-da-vitoria-do-botafogo-contra-a-ldu/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-05-09",
+   "eventDate": "2024-05-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Damián Suárez, por exemplo, deu um belíssimo lançamento longo no início do primeiro tempo e deixou o falso nove Junior Santos na cara do gol.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo LDU",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/os-pares-de-artur-jorge-na-construcao-da-vitoria-do-botafogo-contra-a-ldu/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-05-09",
+   "eventDate": "2024-05-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Além das aproximações, Arthur Jorge trabalha com trocas de posição. Dá uma “bugada” na marcação do adversário.",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia balanço",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/botafogo/artur-jorge-faz-balanco-do-trabalho-destaca-paixao-e-busca-pelo-espetaculo-no-botafogo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-10-25",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Nós teremos um Botafogo sempre igual, onde quer que fosse e contra quem quer que fosse. É uma questão de abordagem ao jogo",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia balanço",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/botafogo/artur-jorge-faz-balanco-do-trabalho-destaca-paixao-e-busca-pelo-espetaculo-no-botafogo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-10-25",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Um ajuste posicional, no meio de campo, para sermos mais eficientes defensivamente, e aumentar a velocidade para conseguir criar espaços",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia balanço",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/botafogo/artur-jorge-faz-balanco-do-trabalho-destaca-paixao-e-busca-pelo-espetaculo-no-botafogo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-10-25",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Há momento de dar uma dura neles e há momentos que é preciso mais carinho, incentivar dentro daquilo que está a ser feito.",
+   "verified": true
+  },
+  {
+   "title": "90min fatores",
+   "url": "https://www.90min.com/pt-br/posts/fatores-motivossucesso-imediato-artur-jorge-botafogo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-06-18",
+   "eventDate": "2024-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Artur Jorge fez o Botafogo deixar o 4-4-2 de lado com a utilização do 4-2-3-1",
+   "verified": true
+  },
+  {
+   "title": "90min fatores",
+   "url": "https://www.90min.com/pt-br/posts/fatores-motivossucesso-imediato-artur-jorge-botafogo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-06-18",
+   "eventDate": "2024-06",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Artur Jorge promoveu John (goleiro), Bastos (zagueiro) e Cuiabano (meio-campo) como titulares, além de adotar rodízio no meio-campo.",
+   "verified": true
+  },
+  {
+   "title": "Placar zaga",
+   "url": "https://placar.com.br/brasil/zaga-do-botafogo-passa-de-800-minutos-sem-sofrer-gols/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-11-22",
+   "eventDate": "2024-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Esta performance coloca o Botafogo como a melhor defesa do Brasileirão de 2024, sofrendo apenas 26 gols em 34 partidas.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo, aula tática final",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/da-magia-do-numero-mitico-a-aula-tatica-do-botafogo-campeao-da-america/amp/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-11-30",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "A defesa passou a se defender com uma linha de seis jogadores: Luiz Henrique, como se fosse o Samuel Eto’o daquela Internazionale de José Mourinho, e Marlon Freitas juntaram-se ao quarteto",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo, aula tática final",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/da-magia-do-numero-mitico-a-aula-tatica-do-botafogo-campeao-da-america/amp/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-11-30",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "O Botafogo passou a usar três zagueiros com a entrada de Danilo Barbosa no lugar de Savarino para formar três torres ao lado de Adryelson e de Aleksander Barboza.",
+   "verified": true
+  },
+  {
+   "title": "Drible de Corpo, aula tática final",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/da-magia-do-numero-mitico-a-aula-tatica-do-botafogo-campeao-da-america/amp/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-11-30",
+   "eventDate": "2024-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Eduardo Vargas entrou bem e diminuiu o placar com um belíssima cabeçada depois da cobrança de escanteio de Hulk",
+   "verified": true
+  },
+  {
+   "title": "Trivela, Já tem a cara de Artur Jorge?",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/artur-jorge-botafogo-evolui-novo-tecnico/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-29",
+   "eventDate": "2024-04-28",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Mesmo com menos posse de bola, o Glorioso fechou bem a área e dificultou as ações ofensivas do time adversário",
+   "verified": true
+  },
+  {
+   "title": "Trivela, Já tem a cara de Artur Jorge?",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/artur-jorge-botafogo-evolui-novo-tecnico/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-29",
+   "eventDate": "2024-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Artur Jorge já parece ter encontrado parte a solução para o setor defensivo, com a entrada de Bastos no time titular.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "É característica da equipe pressionar muito alto, procurar recuperar bolas em zonas altas, estar posicionado em zonas mais altas para recuperar, condicionar ou obrigar o adversário a definir mal.",
+   "date": "2024-05",
+   "source": "Trivela, after win vs Vitória (Copa do Brasil)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Começamos a defender em zonas altas e dentro do campo de ataque. É uma missão coletiva.",
+   "date": "2024-05",
+   "source": "Trivela",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Uma equipe que propõe ao jogo, que possa ser intensa dentro de campo, que possa ser viva, alegre e fluída.",
+   "date": "2024-10-25",
+   "source": "Itatiaia, interview with BotafogoTV",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Acho que nesta altura conseguimos ter uma ideia daquilo que pretendo para o time. Não totalmente, mas estruturalmente está bem perto disso. Falta agora acrescentar mais intensidade",
+   "date": "2024-04-28",
+   "source": "Trivela, after 2-0 vs Flamengo",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://the-footballanalyst.com/?p=5342",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [],
+ "managers": [
+  {
+   "managerId": "artur-jorge",
+   "start": "2024-04-05",
+   "end": "2025-01-03"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Tactical coverage is mostly one TFA scout report, a FotMob piece, Hudl final review and Brazilian blogs/press; sources disagree on pressing; no marking source."
+ }
+}
