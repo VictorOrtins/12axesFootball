@@ -9362,14 +9362,7 @@
 }
 
 .answer-button::before {
-  transition:
-    opacity var(--dur-press) var(--ease-press),
-    width var(--dur-press) var(--ease-press);
-}
-
-.answer-button:hover:not(:disabled):not(.selected)::before {
-  opacity: 1;
-  width: 6px;
+  content: none;
 }
 
 .answer-button:hover:not(:disabled):not(.selected) .answer-icon {
@@ -9750,28 +9743,11 @@
   .quiz-progress-segs span, .quiz-progress-segs i { transition: none; }
 }
 
-/* ── Quiz: numero da pergunta ───────────────────────────────────────────  */
 .question-card {
   position: relative;
 }
-.question-card > :not(.question-number) {
+.question-card > * {
   position: relative;
-}
-.question-number {
-  position: absolute;
-  right: clamp(20px, 3vw, 36px);
-  top: clamp(8px, 1.8vh, 18px);
-  font-family: 'Sora', var(--font-display), system-ui, sans-serif;
-  font-weight: 600;
-  font-size: clamp(64px, 12vh, 132px);
-  line-height: 1;
-  letter-spacing: -.06em;
-  color: var(--fixed-ink-50);
-  pointer-events: none;
-  user-select: none;
-}
-@media (max-width: 760px) {
-  .question-number { font-size: 56px; }
 }
 
 /* ── Quiz: selo do eixo (icone e cor do polo de concordancia) ───────────  */
@@ -9791,7 +9767,7 @@
   align-items: center;
   gap: 10px;
   margin: 0;
-  padding: clamp(4px, .7vh, 7px) 16px clamp(4px, .7vh, 7px) 8px;
+  padding: clamp(4px, .7vh, 7px) 14px;
   border-radius: 999px;
   background: color-mix(in srgb, var(--pole) 14%, var(--fixed-paper-soft));
   font-family: var(--font-body);
@@ -9800,20 +9776,6 @@
   letter-spacing: .12em;
   text-transform: uppercase;
   color: var(--fixed-ink-950);
-}
-.question-axis-tag i {
-  width: clamp(24px, 3.4vh, 30px);
-  height: clamp(24px, 3.4vh, 30px);
-  border-radius: 50%;
-  background: var(--pole);
-  display: grid;
-  place-items: center;
-  color: var(--fixed-paper-soft);
-  flex: none;
-}
-.question-axis-tag .question-axis-tag-ico {
-  width: 16px;
-  height: 16px;
 }
 @media (max-width: 760px) {
   .question-axis-tag { font-size: 11px; }

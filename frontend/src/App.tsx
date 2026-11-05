@@ -634,7 +634,7 @@ function MainApp() {
                 </button>
               </nav>
               <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={openVariantChooser}>
-                {t.navStart} <ArrowIcon />
+                {t.navStart}
               </button>
               <button
                 className="e-menu-btn"
@@ -675,13 +675,13 @@ function MainApp() {
             <div className="e-nav-actions">
               <QuizThemeToggle theme={quizTheme.theme} onToggle={quizTheme.toggle} />
               <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
-                {t.restartQuiz} <ArrowIcon />
+                {t.restartQuiz}
               </button>
             </div>
           )}
           {screen === 'results' && (
             <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
-              {t.redoQuiz} <ArrowIcon />
+              {t.redoQuiz}
             </button>
           )}
         </div>
@@ -776,7 +776,6 @@ function MainApp() {
                 question={currentQuestion}
                 axisLabel={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)?.label}
                 axis={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)}
-                number={currentIndex + 1}
                 options={quiz.answerOptions}
                 selected={answers[currentQuestion.id]}
                 disabled={isAdvancing || isSubmitting}

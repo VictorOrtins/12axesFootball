@@ -7,7 +7,7 @@ import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
 import { topAgreements } from '../../utils/agreement';
 import { FutCard } from './FutCard';
-import { FarList, SimilarityNote } from './parts';
+import { FarList } from './parts';
 import { SheetMatch } from './SheetMatch';
 
 interface ManagersSectionProps {
@@ -35,7 +35,6 @@ export function ManagersSection({ top, dimensions, distant, axes, results }: Man
   return (
     <section className="e-panel" id="treinadores" data-reveal>
       <h2>{t.managersSectionTitle}</h2>
-      <SimilarityNote />
 
       <div className="fut-hero">
         <FutCard match={top} size="lg" special stats={topAgreements(top.vector, axes, results, 6)} />

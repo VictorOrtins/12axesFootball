@@ -11,7 +11,6 @@ import type {
   QuizResult
 } from '../../types/quiz';
 import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImage';
-import { PoleIcon } from '../AxisIcon';
 import { PitchMarkings, pct, RatingBadge } from '../editorial/primitives';
 import { axisLeaning, displayRank } from '../results/AxesSection';
 import { compassClamp, compassView, findCompassAxes, type CompassAxes } from '../results/CompassSection';
@@ -410,12 +409,10 @@ function AxisRow({ axis, result }: { axis: Axis; result: AxisResult }) {
       </div>
       <div className="ax-e">
         <div className={leftWins ? 'pl l win' : 'pl l'}>
-          <PoleIcon axisId={axis.id} side="left" className="ico" />
           <span>{result.leftPole}</span>
         </div>
         <div className={rightWins ? 'pl r win' : 'pl r'}>
           <span>{result.rightPole}</span>
-          <PoleIcon axisId={axis.id} side="right" className="ico" />
         </div>
       </div>
     </li>

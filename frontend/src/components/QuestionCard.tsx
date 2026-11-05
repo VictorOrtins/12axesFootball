@@ -1,7 +1,6 @@
 import { useState, type CSSProperties } from 'react';
 import { t } from '../i18n';
 import type { AnswerOption, AnswerValue, Axis, Question, QuestionHelp } from '../types/quiz';
-import { PoleIcon } from './AxisIcon';
 import { GlossaryText } from './GlossaryText';
 import { InfoButton, InfoSheet } from './results/InfoSheet';
 
@@ -19,29 +18,22 @@ interface QuestionCardProps {
   /** Eixo da pergunta: icone e cor do polo de concordancia no selo. */
   axis?: Axis;
   /** Numero da pergunta exibido no canto superior direito. */
-  number?: number;
   options: AnswerOption[];
   selected?: AnswerValue;
   disabled?: boolean;
   onSelect: (answer: AnswerValue) => void;
 }
 
-export function QuestionCard({ question, axisLabel, axis, number, options, selected, disabled = false, onSelect }: QuestionCardProps) {
+export function QuestionCard({ question, axisLabel, axis, options, selected, disabled = false, onSelect }: QuestionCardProps) {
   const [isAxisInfoOpen, setIsAxisInfoOpen] = useState(false);
   const agreeColor = axis && (question.agreePole === 'LEFT' ? axis.leftColor : axis.rightColor);
 
   return (
     <article className="question-card" aria-labelledby="question-title">
-      {number !== undefined && (
-        <span className="question-number" aria-hidden="true">{String(number).padStart(2, '0')}</span>
-      )}
       <header className="question-card-header">
         {axis ? (
           <div className="question-axis-help">
             <p className="question-axis-tag" style={{ '--pole': agreeColor } as CSSProperties}>
-              <i aria-hidden="true">
-                <PoleIcon axisId={axis.id} side={question.agreePole === 'LEFT' ? 'left' : 'right'} className="question-axis-tag-ico" />
-              </i>
               <span>{question.agreePole === 'LEFT' ? axis.leftPole : axis.rightPole}</span>
             </p>
             <InfoButton label={question.help ? t.questionHelpAria : t.axisInfoAria(axis.label)} onClick={() => setIsAxisInfoOpen(true)} />

@@ -1,7 +1,6 @@
 import type { CSSProperties } from 'react';
 import { t } from '../../i18n';
 import type { Axis, AxisResult } from '../../types/quiz';
-import { PoleIcon } from '../AxisIcon';
 import { pct } from '../editorial/primitives';
 import { tokens } from '../../styles/tokens.generated';
 
@@ -85,12 +84,10 @@ export function AxisRow({
       </div>
       <div className="e-axis-poles">
         <div className={leftWins ? 'e-pole e-left e-win' : 'e-pole e-left'}>
-          <PoleIcon axisId={axis.id} side="left" className="e-ico" />
           <b>{result.leftPole}</b>
         </div>
         <div className={rightWins ? 'e-pole e-right e-win' : 'e-pole e-right'}>
           <b>{result.rightPole}</b>
-          <PoleIcon axisId={axis.id} side="right" className="e-ico" />
         </div>
       </div>
     </li>

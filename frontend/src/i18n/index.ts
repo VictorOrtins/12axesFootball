@@ -129,7 +129,6 @@ interface Strings {
   langToggleAria: string;
   redoQuiz: string;
   restartQuiz: string;
-  heroEyebrow: string;
   h1Pre: string;
   h1Em: string;
   h1Post: string;
@@ -172,21 +171,17 @@ interface Strings {
   compareValues: (pole: string, you: number, them: number, name: string) => string;
   compareOptionAria: (name: string, type: string) => string;
   homeAxes: Record<string, { label: string; leftPole: string; rightPole: string }>;
-  howEyebrow: string;
   howTitle: string;
   howLead: string;
   steps: { title: string; text: string }[];
-  axesGuideEyebrow: string;
   axesGuideTitle: string;
   axesGuideLead: string;
-  discoveryEyebrow: string;
   discoveryTitle: string;
   discoveryLead: string;
   discoveryItems: { icon: string; title: string; text: string }[];
   navStart: string;
   menuAria: string;
   roseAria: string;
-  versionsEyebrow: string;
   versionsTitle: string;
   versionsLead: string;
   variantEyebrow: string;
@@ -210,7 +205,6 @@ interface Strings {
   errCalc: string;
   errImage: string;
   errHttp: (status: number) => string;
-  resultsEyebrow: string;
   resultsH1Pre: string;
   resultsH1Em: string;
   resultsLead: (count: number) => string;
@@ -438,7 +432,6 @@ const pt: Strings = {
   langToggleAria: 'Switch to English',
   redoQuiz: 'Refazer quiz',
   restartQuiz: 'Reiniciar quiz',
-  heroEyebrow: 'Filosofia de futebol',
   h1Pre: 'Que futebol ',
   h1Em: 'você defende',
   h1Post: '?',
@@ -510,7 +503,6 @@ const pt: Strings = {
     lid: 'Avalia se o treinador deve liderar com autoridade e disciplina ou com diálogo, confiança e harmonia no vestiário.'
   },
   homeAxes: {},
-  howEyebrow: 'Como funciona',
   howTitle: 'Como funciona o 12 Axes Football',
   howLead:
     'Você responde a afirmações sobre como o futebol deve ser jogado e conduzido, e o 12 Axes calcula onde você fica em cada dimensão.',
@@ -528,11 +520,9 @@ const pt: Strings = {
       text: 'Veja sua posição em cada eixo e com que ideias de jogo, times e treinadores você mais combina.'
     }
   ],
-  axesGuideEyebrow: '12 eixos',
   axesGuideTitle: 'O que significa cada eixo?',
   axesGuideLead:
     'Seis eixos táticos, quatro de filosofia de jogo e dois de gestão. Cada um é medido separadamente, então seu resultado guarda combinações incomuns.',
-  discoveryEyebrow: 'O que você vai descobrir',
   discoveryTitle: 'Um retrato completo do seu futebol',
   discoveryLead: 'Mais do que um rótulo: seu resultado mostra com quem e com que intensidade suas ideias combinam.',
   discoveryItems: [
@@ -546,7 +536,6 @@ const pt: Strings = {
   navStart: 'Começar',
   menuAria: 'Abrir menu',
   roseAria: 'Rosa dos 12 eixos',
-  versionsEyebrow: 'Versões',
   versionsTitle: 'Escolha a profundidade',
   versionsLead:
     'Comece pelo quiz rápido ou aprofunde a análise para um retrato mais preciso. Todas as versões usam os mesmos 12 eixos e mostram o resultado na hora.',
@@ -571,7 +560,6 @@ const pt: Strings = {
   errCalc: 'Não foi possível calcular o resultado.',
   errImage: 'Não foi possível gerar a imagem do resultado.',
   errHttp: (status) => `Erro HTTP ${status}`,
-  resultsEyebrow: 'Análise concluída',
   resultsH1Pre: 'Seu perfil ',
   resultsH1Em: 'de futebol',
   resultsLead: (count) =>
@@ -814,7 +802,6 @@ const en: Strings = {
   langToggleAria: 'Mudar para português',
   redoQuiz: 'Retake quiz',
   restartQuiz: 'Restart quiz',
-  heroEyebrow: 'Football philosophy',
   h1Pre: 'What football ',
   h1Em: 'do you believe in',
   h1Post: '?',
@@ -899,7 +886,6 @@ const en: Strings = {
     bas: { label: 'Squad', leftPole: 'Youth', rightPole: 'Experience' },
     lid: { label: 'Leadership', leftPole: 'Authority', rightPole: 'Harmony' }
   },
-  howEyebrow: 'How it works',
   howTitle: 'How 12 Axes Football works',
   howLead: 'You answer statements about how football should be played and run, and 12 Axes works out where you stand on each dimension.',
   steps: [
@@ -916,11 +902,9 @@ const en: Strings = {
       text: 'See where you stand on each axis and which football ideas, teams and managers match you best.'
     }
   ],
-  axesGuideEyebrow: '12 axes',
   axesGuideTitle: 'What does each axis mean?',
   axesGuideLead:
     'Six tactical axes, four on philosophy of play and two on management. Each one is measured separately, so your result keeps unusual combinations.',
-  discoveryEyebrow: 'What you will find out',
   discoveryTitle: 'A full picture of your football',
   discoveryLead: 'More than a label: your result shows who your ideas match, and how strongly.',
   discoveryItems: [
@@ -934,7 +918,6 @@ const en: Strings = {
   navStart: 'Start',
   menuAria: 'Open menu',
   roseAria: 'Rose of the 12 axes',
-  versionsEyebrow: 'Versions',
   versionsTitle: 'Choose the depth',
   versionsLead:
     'Start with the quick quiz or go deeper for a more precise picture. Every version uses the same 12 axes and shows the result right away.',
@@ -959,7 +942,6 @@ const en: Strings = {
   errCalc: 'The result could not be calculated.',
   errImage: 'The result image could not be generated.',
   errHttp: (status) => `HTTP error ${status}`,
-  resultsEyebrow: 'Analysis complete',
   resultsH1Pre: 'Your ',
   resultsH1Em: 'football profile',
   resultsLead: (count) =>

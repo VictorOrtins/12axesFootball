@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 import { t } from '../../i18n';
 import type { Axis, QuizVariant } from '../../types/quiz';
-import { PoleIcon } from '../AxisIcon';
 import { QUIZ_FORMATS } from './formats';
 import { ArrowIcon, ClockIcon, PitchMarkings } from './primitives';
 
@@ -63,7 +62,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
         <PitchMarkings withBall />
         <div className="e-wrap">
           <div>
-            <p className="e-eyebrow">{t.heroEyebrow}</p>
             <h1>
               {t.h1Pre}
               <span className="e-accent">
@@ -90,7 +88,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
             <div className="e-wrap" data-reveal>
               <div className="e-split-head">
                 <div>
-                  <p className="e-eyebrow">{t.discoveryEyebrow}</p>
                   <h2>{t.discoveryTitle}</h2>
                 </div>
                 <p className="e-lead">{t.discoveryLead}</p>
@@ -114,7 +111,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
           <section className="e-sec e-dark" id="como-funciona">
             <div className="e-wrap" data-reveal>
               <div className="e-sec-head">
-                <p className="e-eyebrow">{t.howEyebrow}</p>
                 <h2>{t.howTitle}</h2>
                 <p className="e-lead">{t.howLead}</p>
               </div>
@@ -134,7 +130,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
             <div className="e-wrap" data-reveal>
               <div className="e-split-head">
                 <div>
-                  <p className="e-eyebrow">{t.axesGuideEyebrow}</p>
                   <h2>{t.axesGuideTitle}</h2>
                 </div>
                 <p className="e-lead">{t.axesGuideLead}</p>
@@ -147,11 +142,9 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
                       <h3>{axis.label}</h3>
                     </div>
                     <p className="e-poles">
-                      <PoleIcon axisId={axis.id} side="left" className="e-ico" />
                       <span>{axis.leftPole}</span>
                       <em>↔</em>
                       <span>{axis.rightPole}</span>
-                      <PoleIcon axisId={axis.id} side="right" className="e-ico" />
                     </p>
                     <p>{t.axisExplanations[axis.id]}</p>
                   </li>
@@ -163,7 +156,6 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
           <section className="e-sec e-dark" id="versoes">
             <div className="e-wrap" data-reveal>
               <div className="e-sec-head">
-                <p className="e-eyebrow">{t.versionsEyebrow}</p>
                 <h2>{t.versionsTitle}</h2>
                 <p className="e-lead">{t.versionsLead}</p>
               </div>
@@ -187,7 +179,7 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
                       type="button"
                       onClick={() => onStart(format.variant)}
                     >
-                      {format.action} <ArrowIcon />
+                      {format.action}
                     </button>
                   </li>
                 ))}

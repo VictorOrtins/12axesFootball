@@ -3,12 +3,6 @@ type AxisIconProps = {
   className?: string;
 };
 
-type PoleIconProps = {
-  axisId: string;
-  side: 'left' | 'right';
-  className?: string;
-};
-
 // Ícones neutros até existirem ícones próprios para cada eixo do futebol:
 // um campo para o eixo e uma seta para cada polo.
 const AXIS_GLYPH = (
@@ -28,16 +22,6 @@ export function AxisIcon({ className = 'axis-symbol' }: AxisIconProps) {
   return (
     <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
       {AXIS_GLYPH}
-    </svg>
-  );
-}
-
-export function PoleIcon({ side, className = 'axis-symbol' }: PoleIconProps) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
-      {POLE_GLYPH_PATHS[side].map((d) => (
-        <path key={d} d={d} />
-      ))}
     </svg>
   );
 }

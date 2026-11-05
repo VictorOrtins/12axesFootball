@@ -4,7 +4,7 @@ import type { Axis, AxisResult, ManagerMatch } from '../../types/quiz';
 import { topAgreements } from '../../utils/agreement';
 import { FutCard } from './FutCard';
 import { ManagerInfoSheet } from './ManagersSection';
-import { SimilarityNote, Tabs } from './parts';
+import { Tabs } from './parts';
 
 interface AreasSectionProps {
   axes: Axis[];
@@ -25,7 +25,6 @@ export function AreasSection({ generalMatches, areaMatches, axes, results }: Are
   return (
     <section className="e-panel" id="areas" data-reveal>
       <h2>{tab === 'general' ? t.areasGeneralTitle : t.areasSectionTitle}</h2>
-      <SimilarityNote />
       <Tabs
         label={t.areasTabsAria}
         value={tab}

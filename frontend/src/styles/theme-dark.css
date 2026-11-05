@@ -102,9 +102,6 @@ html[data-quiz-theme="dark"] .primary-button:disabled {
 html[data-quiz-theme="dark"] .question-card::after {
   background: radial-gradient(ellipse at top, var(--dark-green-400-a10), transparent 70%);
 }
-html[data-quiz-theme="dark"] .question-number {
-  color: var(--ink-50);
-}
 html[data-quiz-theme="dark"] .question-axis-tag {
   background: color-mix(in srgb, var(--pole) 22%, var(--paper-soft));
   color: var(--ink-900);
