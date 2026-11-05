@@ -16,8 +16,10 @@ import { ThemeToggle } from './components/ThemeToggle';
 import {
   answeredCount as savedAnsweredCount,
   clearProgress,
+  loadLastResult,
   loadProgress,
   restoreQuiz,
+  saveLastResult,
   saveProgress,
   type SavedProgress
 } from './utils/quizProgress';
@@ -58,9 +60,9 @@ function parseSharedResultUrl(): number[] | null {
 }
 
 const SHARED_RESULT_VALUES = parseSharedResultUrl();
-function sharedResultUrl(result: QuizResult): string {
-  const query = result.axes
-    .map((axis, index) => `${AXIS_URL_KEYS[index] ?? `x${index}`}=${axis.leftPercent}`)
+function resultUrlFromValues(leftPercents: number[]): string {
+  const query = leftPercents
+    .map((value, index) => `${AXIS_URL_KEYS[index] ?? `x${index}`}=${value}`)
     .join('&');
   return `/results?${query}`;
 }
@@ -128,6 +130,7 @@ function MainApp() {
   const [savedProgress, setSavedProgress] = useState<SavedProgress | null>(() =>
     SHARED_RESULT_VALUES ? null : loadProgress()
   );
+  const [lastResult] = useState<number[] | null>(() => (SHARED_RESULT_VALUES ? null : loadLastResult()));
   const advanceTimerRef = useRef<number | null>(null);
   const isAdvancingRef = useRef(false);
   // Pool completo recebido do backend, guardado para poder
@@ -507,9 +510,11 @@ function MainApp() {
       const nextResult = await submitResults(quiz.variant ?? selectedVariant, payload, archetype);
       setResult(nextResult);
       clearProgress();
+      const leftPercents = nextResult.axes.map((axis) => axis.leftPercent);
+      saveLastResult(leftPercents);
       setIsSharedView(false);
       // URL compartilhável: quem abrir este link vê o mesmo resultado.
-      window.history.replaceState(null, '', sharedResultUrl(nextResult));
+      window.history.replaceState(null, '', resultUrlFromValues(leftPercents));
       setScreen('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errCalc);
@@ -755,6 +760,29 @@ function MainApp() {
                 </>
               )}
               {error && <p className="e-resume-error" role="alert">{error}</p>}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {screen === 'home' && lastResult && !savedProgress && (
+        <div className="ed e-resume">
+          <div className="e-wrap">
+            <div className="e-resume-card e-dark">
+              <div className="e-resume-body">
+                <p className="e-eyebrow">{t.lastResultEyebrow}</p>
+                <h3>{t.lastResultTitle}</h3>
+                <p className="e-resume-text">{t.lastResultBody}</p>
+              </div>
+              <div className="e-resume-actions">
+                <button
+                  className="e-btn e-btn-light"
+                  type="button"
+                  onClick={() => window.location.assign(resultUrlFromValues(lastResult))}
+                >
+                  {t.lastResultOpen} <ArrowIcon />
+                </button>
+              </div>
             </div>
           </div>
         </div>

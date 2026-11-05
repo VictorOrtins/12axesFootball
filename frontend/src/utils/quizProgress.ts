@@ -123,3 +123,39 @@ export function restoreQuiz(payload: QuizPayload, progress: SavedProgress): Quiz
     questionCount: questions.length
   };
 }
+
+// Último resultado terminado: os 12 leftPercents bastam para reconstruí-lo via /results?...
+const LAST_RESULT_KEY = '12axes-last-result';
+const AXIS_COUNT = 12;
+
+export function parseLastResult(raw: string | null): number[] | null {
+  if (!raw) {
+    return null;
+  }
+  try {
+    const data: unknown = JSON.parse(raw);
+    if (!Array.isArray(data) || data.length !== AXIS_COUNT) {
+      return null;
+    }
+    const valid = data.every((value) => typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= 100);
+    return valid ? (data as number[]) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function loadLastResult(): number[] | null {
+  try {
+    return parseLastResult(window.localStorage.getItem(LAST_RESULT_KEY));
+  } catch {
+    return null;
+  }
+}
+
+export function saveLastResult(leftPercents: number[]): void {
+  try {
+    window.localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(leftPercents));
+  } catch {
+    // localStorage indisponível: o resultado só não fica guardado.
+  }
+}

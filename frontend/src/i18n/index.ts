@@ -77,6 +77,10 @@ interface Strings {
   resumeBody: (answered: number, total: number) => string;
   resumeContinue: string;
   resumeDiscard: string;
+  lastResultEyebrow: string;
+  lastResultTitle: string;
+  lastResultBody: string;
+  lastResultOpen: string;
   resumeUnavailable: string;
   skipToContent: string;
   backToStartAria: string;
@@ -381,6 +385,10 @@ const pt: Strings = {
   resumeBody: (answered, total) => `Você já respondeu ${answered} de ${total} perguntas. Suas respostas estão guardadas neste navegador.`,
   resumeContinue: 'Continuar',
   resumeDiscard: 'Começar de novo',
+  lastResultEyebrow: 'Seu último resultado',
+  lastResultTitle: 'Veja de novo o seu perfil',
+  lastResultBody: 'O resultado do seu último quiz ficou guardado neste navegador.',
+  lastResultOpen: 'Ver resultado',
   resumeUnavailable: 'Não foi possível retomar o quiz anterior. Comece um novo.',
   skipToContent: 'Pular para o conteúdo',
   backToStartAria: 'Voltar para o início',
@@ -809,6 +817,10 @@ const en: Strings = {
   resumeBody: (answered, total) => `You have answered ${answered} of ${total} questions. Your answers are saved in this browser.`,
   resumeContinue: 'Continue',
   resumeDiscard: 'Start over',
+  lastResultEyebrow: 'Your last result',
+  lastResultTitle: 'See your profile again',
+  lastResultBody: 'The result of your last quiz is saved in this browser.',
+  lastResultOpen: 'See result',
   resumeUnavailable: 'The previous quiz could not be resumed. Start a new one.',
   skipToContent: 'Skip to content',
   backToStartAria: 'Back to start',

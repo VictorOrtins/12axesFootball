@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { answeredCount, parseProgress, restoreQuiz, type SavedProgress } from './quizProgress';
+import { answeredCount, parseLastResult, parseProgress, restoreQuiz, type SavedProgress } from './quizProgress';
 import type { QuizPayload } from '../types/quiz';
 
 const NOW = 1_800_000_000_000;
@@ -81,5 +81,21 @@ describe('restoreQuiz', () => {
 describe('answeredCount', () => {
   it('conta só respostas de perguntas desta sequência', () => {
     expect(answeredCount(progress({ answers: { pos_01: 'AGREE', fora_01: 'AGREE' } }))).toBe(1);
+  });
+});
+
+describe('parseLastResult', () => {
+  const values = [48, 35, 70, 58, 53, 44, 55, 54, 58, 34, 34, 43.5];
+
+  it('reads 12 saved percents', () => {
+    expect(parseLastResult(JSON.stringify(values))).toEqual(values);
+  });
+
+  it('ignores missing or broken data', () => {
+    expect(parseLastResult(null)).toBeNull();
+    expect(parseLastResult('{')).toBeNull();
+    expect(parseLastResult(JSON.stringify(values.slice(1)))).toBeNull();
+    expect(parseLastResult(JSON.stringify([...values.slice(1), 101]))).toBeNull();
+    expect(parseLastResult(JSON.stringify([...values.slice(1), '50']))).toBeNull();
   });
 });
