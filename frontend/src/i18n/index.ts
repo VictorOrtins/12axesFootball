@@ -137,6 +137,18 @@ interface Strings {
   seeAxes: string;
   formats: { short: QuizFormatStrings; extended: QuizFormatStrings };
   axisExplanations: Record<string, string>;
+  axisPoles: Record<string, { left: string; right: string }>;
+  axesPageTitle: string;
+  axesPageLead: string;
+  axesPageExamples: string;
+  axesPageNoExamples: string;
+  axesPageLean: (percent: number) => string;
+  axesPageLoading: string;
+  axesPageError: string;
+  axesPageCtaTitle: string;
+  axesPageCtaText: string;
+  axesPageIndexAria: string;
+  homeAxesMore: string;
   axisInfoAria: (label: string) => string;
   questionHelpAria: string;
   themeToDarkAria: string;
@@ -194,9 +206,7 @@ interface Strings {
   formatNotes: string[];
   variantLead: string;
   quizNavAria: string;
-  autoAdvance: string;
   back: string;
-  next: string;
   calculating: string;
   seeResult: string;
   archetypeSkip: string;
@@ -326,8 +336,6 @@ interface Strings {
     managerPct: number
   ) => string;
   progress: (current: number, total: number) => string;
-  progressDone: (percent: number) => string;
-  archetypeHeader: string;
   archetypeStep: (current: number, total: number) => string;
   progressAria: (percent: number) => string;
   answersAria: string;
@@ -502,6 +510,68 @@ const pt: Strings = {
     bas: 'Compara dar minutos a jovens e formar o elenco com apostar em jogadores experientes e prontos.',
     lid: 'Avalia se o treinador deve liderar com autoridade e disciplina ou com diálogo, confiança e harmonia no vestiário.'
   },
+  axisPoles: {
+    pos: {
+      left: 'Ter a bola é a melhor forma de atacar e de se defender. O time circula, empurra o rival para trás e escolhe a hora de acelerar.',
+      right: 'A bola pode ficar com o rival. O time se organiza sem ela e ataca o espaço que o adversário deixa quando sobe.'
+    },
+    pro: {
+      left: 'A jogada nasce no goleiro e nos zagueiros, com passes curtos que atraem a pressão até aparecer o homem livre.',
+      right: 'Quanto menos toques até a área, melhor: bola longa, disputa da segunda bola e ataque antes de a defesa se arrumar.'
+    },
+    est: {
+      left: 'Cada jogador ocupa uma zona definida e o time se espalha pelo campo, com movimentos treinados para criar superioridade.',
+      right: 'Os jogadores se aproximam da bola, trocam de posição e criam as jogadas pela tabela e pelo improviso.'
+    },
+    lar: {
+      left: 'O ataque passa pelo meio, com meias e atacantes próximos, tabelas curtas e passes entre as linhas.',
+      right: 'O campo é aberto pelos pontas e laterais, com um contra um, ultrapassagens e cruzamentos.'
+    },
+    blo: {
+      left: 'O time marca perto da área rival e tenta recuperar a bola nos primeiros segundos depois de perdê-la.',
+      right: 'O time recua, fecha os espaços perto da própria área e espera o erro do rival ou a hora de sair.'
+    },
+    mar: {
+      left: 'Cada defensor cuida de um espaço, e a linha se move junta conforme a bola.',
+      right: 'Cada defensor tem um adversário para seguir, por onde ele for.'
+    },
+    pla: {
+      left: 'O time joga do mesmo jeito contra qualquer adversário: quem se adapta é o outro.',
+      right: 'O plano muda a cada jogo, conforme as forças e as fraquezas do rival.'
+    },
+    res: {
+      left: 'Vencer importa, mas do jeito certo: futebol ofensivo, bonito e que valha o ingresso.',
+      right: 'O que conta é o placar. Um 1 a 0 feio vale o mesmo que uma goleada.'
+    },
+    sis: {
+      left: 'O coletivo treinado decide os jogos, e cada jogador cumpre uma função dentro dele.',
+      right: 'Os craques têm liberdade para resolver, e o time se organiza para servir a eles.'
+    },
+    jog: {
+      left: 'O jogador ideal domina, passa e pensa rápido, mesmo que não seja o mais forte.',
+      right: 'O jogador ideal corre, disputa cada bola e aguenta o ritmo do jogo inteiro.'
+    },
+    bas: {
+      left: 'O elenco aposta nos jovens, que ganham minutos, crescem jogando e aprendem com os erros.',
+      right: 'O elenco confia em jogadores prontos, que já sabem ganhar e lidar com a pressão.'
+    },
+    lid: {
+      left: 'O treinador manda, cobra disciplina e decide sem consultar o grupo.',
+      right: 'O treinador lidera pelo diálogo, cuida do ambiente e ganha a confiança dos jogadores.'
+    }
+  },
+  axesPageTitle: 'Os 12 eixos',
+  axesPageLead:
+    'Cada eixo vai de um polo a outro, e seu resultado mostra onde você fica entre os dois. Ao lado de cada polo estão os treinadores do catálogo que mais puxam para ele.',
+  axesPageExamples: 'Quem mais puxa para este lado',
+  axesPageNoExamples: 'Nenhum treinador do catálogo puxa forte para este lado.',
+  axesPageLean: (percent) => `${percent}%`,
+  axesPageLoading: 'Carregando treinadores…',
+  axesPageError: 'Não foi possível carregar os treinadores. Recarregue a página para tentar de novo.',
+  axesPageCtaTitle: 'Onde você fica em cada eixo?',
+  axesPageCtaText: 'Responda ao quiz e veja sua posição nos 12 eixos.',
+  axesPageIndexAria: 'Ir para um eixo',
+  homeAxesMore: 'Conheça os 12 eixos',
   homeAxes: {},
   howTitle: 'Como funciona o 12 Axes Football',
   howLead:
@@ -549,9 +619,7 @@ const pt: Strings = {
   formatNotes: ['Todas as versões usam os mesmos 12 eixos', 'Anônimo, sem cadastro', 'Resultado imediato'],
   variantLead: 'A versão curta revela o resultado de forma rápida. A completa aumenta a precisão.',
   quizNavAria: 'Navegação do quiz',
-  autoAdvance: 'Avançar ao responder',
   back: 'Voltar',
-  next: 'Avançar',
   calculating: 'Calculando…',
   seeResult: 'Ver resultado',
   archetypeSkip: 'Pular',
@@ -690,8 +758,6 @@ const pt: Strings = {
     `${manager} - ${managerPct}% de compatibilidade\n\n` +
     `👉 Faça o teste e compartilhe seu resultado:\nhttps://12axes.vercel.app/`,
   progress: (current, total) => `Pergunta ${current} de ${total}`,
-  progressDone: (percent) => `${percent}% concluído`,
-  archetypeHeader: 'Identificando seu arquétipo',
   archetypeStep: (current, total) => `${current} de ${total}`,
   progressAria: (percent) => `Progresso do quiz: ${percent}%`,
   answersAria: 'Opções de resposta',
@@ -872,6 +938,68 @@ const en: Strings = {
     bas: 'Giving minutes to young players and building the squad, against trusting experienced, ready-made players.',
     lid: 'Whether the manager should lead with authority and discipline, or with dialogue, trust and harmony in the dressing room.'
   },
+  axisPoles: {
+    pos: {
+      left: 'Having the ball is the best way to attack and to defend. The team circulates it, pushes the opponent back and picks the moment to speed up.',
+      right: 'The opponent can keep the ball. The team organises without it and attacks the space left behind when the opponent pushes up.'
+    },
+    pro: {
+      left: 'Moves start with the goalkeeper and centre-backs, with short passes that draw the press until a free man appears.',
+      right: 'The fewer touches to the box, the better: long balls, winning the second ball and attacking before the defence is set.'
+    },
+    est: {
+      left: 'Each player holds a set zone and the team spreads across the pitch, with rehearsed movements to create overloads.',
+      right: 'Players come close to the ball, swap positions and build moves through one-twos and improvisation.'
+    },
+    lar: {
+      left: 'Attacks go through the middle, with midfielders and forwards close together, quick one-twos and passes between the lines.',
+      right: 'Wingers and full-backs stretch the pitch, with one-on-ones, overlaps and crosses.'
+    },
+    blo: {
+      left: 'The team defends near the opponent’s box and tries to win the ball back in the first seconds after losing it.',
+      right: 'The team drops back, closes the space near its own box and waits for a mistake or the moment to break.'
+    },
+    mar: {
+      left: 'Each defender covers a space, and the line moves together with the ball.',
+      right: 'Each defender has an opponent to follow, wherever he goes.'
+    },
+    pla: {
+      left: 'The team plays the same way against anyone: it is the opponent who has to adapt.',
+      right: 'The plan changes every game, to fit the opponent’s strengths and weaknesses.'
+    },
+    res: {
+      left: 'Winning matters, but the right way: attacking, good-looking football that is worth the ticket.',
+      right: 'The score is what counts. An ugly 1–0 is worth as much as a thrashing.'
+    },
+    sis: {
+      left: 'The trained collective decides games, and each player has a job inside it.',
+      right: 'The stars are free to decide, and the team is organised to serve them.'
+    },
+    jog: {
+      left: 'The ideal player controls, passes and thinks quickly, even if he is not the strongest.',
+      right: 'The ideal player runs, fights for every ball and keeps up the pace for the whole game.'
+    },
+    bas: {
+      left: 'The squad backs young players, who get minutes, grow by playing and learn from their mistakes.',
+      right: 'The squad trusts ready-made players who already know how to win and handle pressure.'
+    },
+    lid: {
+      left: 'The manager is in charge, demands discipline and decides without consulting the group.',
+      right: 'The manager leads through dialogue, looks after the atmosphere and earns the players’ trust.'
+    }
+  },
+  axesPageTitle: 'The 12 axes',
+  axesPageLead:
+    'Each axis runs from one pole to another, and your result shows where you sit between them. Next to each pole are the catalog managers who lean furthest towards it.',
+  axesPageExamples: 'Who leans furthest this way',
+  axesPageNoExamples: 'No manager in the catalog leans strongly to this side.',
+  axesPageLean: (percent) => `${percent}%`,
+  axesPageLoading: 'Loading managers…',
+  axesPageError: 'Could not load the managers. Reload the page to try again.',
+  axesPageCtaTitle: 'Where do you sit on each axis?',
+  axesPageCtaText: 'Take the quiz and see your position on all 12 axes.',
+  axesPageIndexAria: 'Go to an axis',
+  homeAxesMore: 'Explore the 12 axes',
   homeAxes: {
     pos: { label: 'Possession', leftPole: 'Ball', rightPole: 'Counter' },
     pro: { label: 'Progression', leftPole: 'Patient build-up', rightPole: 'Direct play' },
@@ -931,9 +1059,7 @@ const en: Strings = {
   formatNotes: ['Every version uses the same 12 axes', 'Anonymous, no sign-up', 'Instant result'],
   variantLead: 'The quick version gives a fast result. The full version adds precision.',
   quizNavAria: 'Quiz navigation',
-  autoAdvance: 'Advance on answer',
   back: 'Back',
-  next: 'Next',
   calculating: 'Calculating…',
   seeResult: 'See result',
   archetypeSkip: 'Skip',
@@ -1078,8 +1204,6 @@ const en: Strings = {
     `${manager} - ${managerPct}% compatibility\n\n` +
     `👉 Take the quiz and share your result:\nhttps://12axes.vercel.app/en`,
   progress: (current, total) => `Question ${current} of ${total}`,
-  progressDone: (percent) => `${percent}% done`,
-  archetypeHeader: 'Identifying your archetype',
   archetypeStep: (current, total) => `${current} of ${total}`,
   progressAria: (percent) => `Quiz progress: ${percent}%`,
   answersAria: 'Answer options',

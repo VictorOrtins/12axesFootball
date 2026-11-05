@@ -8,6 +8,7 @@ interface HomeScreenProps {
   axes: Axis[];
   showBelowFold: boolean;
   onOpenChooser: () => void;
+  onOpenAxes: () => void;
   onStart: (variant: QuizVariant) => void;
 }
 
@@ -55,7 +56,7 @@ const DISCOVERY_ICONS: Record<string, ReactNode> = {
   )
 };
 
-export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: HomeScreenProps) {
+export function HomeScreen({ axes, showBelowFold, onOpenChooser, onOpenAxes, onStart }: HomeScreenProps) {
   return (
     <div className="ed">
       <section className="e-hero" id="inicio">
@@ -74,7 +75,14 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
               <button className="e-btn e-btn-primary" type="button" onClick={onOpenChooser}>
                 {t.startQuiz} <ArrowIcon />
               </button>
-              <a className="e-btn e-btn-ghost" href="#guia-eixos">
+              <a
+                className="e-btn e-btn-ghost"
+                href="/axes"
+                onClick={(event) => {
+                  event.preventDefault();
+                  onOpenAxes();
+                }}
+              >
                 {t.seeAxes}
               </a>
             </div>
@@ -134,22 +142,27 @@ export function HomeScreen({ axes, showBelowFold, onOpenChooser, onStart }: Home
                 </div>
                 <p className="e-lead">{t.axesGuideLead}</p>
               </div>
-              <ul className="e-axes-grid">
+              <ol className="e-axes-mini">
                 {axes.map((axis, index) => (
-                  <li className="e-axis-card" key={axis.id}>
-                    <div className="e-axis-top">
-                      <span className="e-num">{String(index + 1).padStart(2, '0')}</span>
-                      <h3>{axis.label}</h3>
-                    </div>
-                    <p className="e-poles">
-                      <span>{axis.leftPole}</span>
-                      <em>↔</em>
-                      <span>{axis.rightPole}</span>
-                    </p>
-                    <p>{t.axisExplanations[axis.id]}</p>
+                  <li key={axis.id}>
+                    <span className="e-num">{String(index + 1).padStart(2, '0')}</span>
+                    <strong>{axis.label}</strong>
+                    <span className="e-poles">
+                      {axis.leftPole} <em>↔</em> {axis.rightPole}
+                    </span>
                   </li>
                 ))}
-              </ul>
+              </ol>
+              <a
+                className="e-btn e-btn-primary"
+                href="/axes"
+                onClick={(event) => {
+                  event.preventDefault();
+                  onOpenAxes();
+                }}
+              >
+                {t.homeAxesMore}
+              </a>
             </div>
           </section>
 

@@ -208,6 +208,21 @@ export interface CompareItem {
   category: string;
 }
 
+/** Treinador que puxa forte para um polo do eixo (página dos 12 eixos). */
+export interface AxisExemplar {
+  id: string;
+  name: string;
+  period: string;
+  imagePath?: string | null;
+  leftPercent: number;
+}
+
+export interface AxisExemplars {
+  axisId: string;
+  left: AxisExemplar[];
+  right: AxisExemplar[];
+}
+
 export interface CompareDetail {
   item: CompareItem;
   description: string;

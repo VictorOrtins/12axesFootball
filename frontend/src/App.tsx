@@ -8,6 +8,7 @@ import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
 import { CatalogScreen } from './components/editorial/CatalogScreen';
+import { AxesScreen } from './components/editorial/AxesScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
 import { useTheme } from './hooks/useTheme';
@@ -21,7 +22,7 @@ import {
   type SavedProgress
 } from './utils/quizProgress';
 
-type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results' | 'catalog';
+type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results' | 'catalog' | 'axes';
 
 const ProgressHeader = lazy(() =>
   import('./components/ProgressHeader').then((module) => ({ default: module.ProgressHeader }))
@@ -93,11 +94,18 @@ function QuizSkeleton({ message }: { message: string }) {
   );
 }
 
+function initialScreen(): Screen {
+  const path = window.location.pathname;
+  if (path.startsWith('/catalog')) return 'catalog';
+  if (path.replace(/\/+$/, '') === '/axes') return 'axes';
+  return 'home';
+}
+
 function MainApp() {
   const [quiz, setQuiz] = useState<QuizPayload | null>(null);
   const [answers, setAnswers] = useState<Record<string, AnswerValue>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [screen, setScreen] = useState<Screen>(() => (window.location.pathname.startsWith('/catalog') ? 'catalog' : 'home'));
+  const [screen, setScreen] = useState<Screen>(() => initialScreen());
   const [selectedVariant, setSelectedVariant] = useState<QuizVariant>('short');
   const [result, setResult] = useState<QuizResult | null>(null);
   const [isLoading, setIsLoading] = useState(SHARED_RESULT_VALUES !== null);
@@ -105,7 +113,6 @@ function MainApp() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAdvancing, setIsAdvancing] = useState(false);
   // Toggle do desktop; no mobile fica escondido e sempre ligado.
-  const [autoAdvance, setAutoAdvance] = useState(true);
   // 'forward' | 'back': define de que lado a proxima pergunta entra.
   const [navDirection, setNavDirection] = useState<'forward' | 'back'>('forward');
   const [isSharing, setIsSharing] = useState(false);
@@ -184,8 +191,6 @@ function MainApp() {
 
 
   const currentQuestion = quiz?.questions[currentIndex];
-  const answeredCount = Object.keys(answers).length;
-  const canFinish = Boolean(quiz && answeredCount === quiz.questions.length);
 
   // Guarda o andamento a cada resposta: se a página recarregar ou quebrar, dá para continuar.
   useEffect(() => {
@@ -226,12 +231,29 @@ function MainApp() {
     window.scrollTo(0, 0);
   }, [screen]);
 
+  useEffect(() => {
+    const onPop = () => setScreen((current) => (current === 'catalog' || current === 'axes' ? initialScreen() : current));
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
+
   function goHome() {
     setIsMenuOpen(false);
-    if (window.location.pathname.replace(/\/+$/, '').includes('/catalog')) {
+    if (/\/(catalog|axes)/.test(window.location.pathname)) {
       window.history.replaceState(null, '', '/');
     }
     setScreen('home');
+  }
+
+  function openAxes() {
+    setIsMenuOpen(false);
+    window.history.pushState(null, '', '/axes');
+    setScreen('axes');
+  }
+
+  function openManager(id: string) {
+    window.history.pushState(null, '', `/catalog/manager/${id}`);
+    setScreen('catalog');
   }
 
   function openCatalog() {
@@ -357,15 +379,6 @@ function MainApp() {
     setCurrentIndex((index) => Math.max(0, index - 1));
   }
 
-  function goToNextQuestion() {
-    if (!currentQuestion || !answers[currentQuestion.id] || isAdvancingRef.current) {
-      return;
-    }
-    clearPendingAdvance();
-    setNavDirection('forward');
-    setCurrentIndex((index) => Math.min((quiz?.questions.length ?? 1) - 1, index + 1));
-  }
-
   function selectAnswer(answer: AnswerValue) {
     if (!currentQuestion || !quiz || isSubmitting || isAdvancingRef.current) {
       return;
@@ -374,10 +387,6 @@ function MainApp() {
     const nextAnswers = { ...answers, [currentQuestion.id]: answer };
     setAnswers(nextAnswers);
     setError(null);
-
-    if (!autoAdvance) {
-      return;
-    }
 
     if (questionIndex === quiz.questions.length - 1) {
       handleQuizEnd(nextAnswers);
@@ -591,6 +600,15 @@ function MainApp() {
     );
   }
 
+  const progress = quiz && (
+    <ProgressHeader
+      current={screen === 'archetype' ? quiz.questions.length : currentIndex + 1}
+      total={quiz.questions.length}
+      extraCount={archetypeSteps.length}
+      extraCurrent={screen === 'archetype' ? archetypeIndex + 1 : undefined}
+    />
+  );
+
   if (!quiz && screen === 'quiz') {
     return null;
   }
@@ -614,7 +632,15 @@ function MainApp() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 <a href="#como-funciona">{t.navHow}</a>
-                <a href="#guia-eixos">{t.navAxes}</a>
+                <a
+                  href="/axes"
+                  onClick={(event) => {
+                    event.preventDefault();
+                    openAxes();
+                  }}
+                >
+                  {t.navAxes}
+                </a>
                 <a
                   href="/catalog"
                   onClick={(event) => {
@@ -652,7 +678,7 @@ function MainApp() {
               </div>
             </>
           )}
-          {screen === 'catalog' && (
+          {(screen === 'catalog' || screen === 'axes') && (
             <div className="e-nav-actions">
               <button className="e-back" type="button" onClick={goHome}>
                 <ArrowIcon />
@@ -739,6 +765,7 @@ function MainApp() {
           axes={homeAxes}
           showBelowFold={isHomeSeoReady}
           onOpenChooser={openVariantChooser}
+          onOpenAxes={openAxes}
           onStart={(variant) => void startQuiz(variant)}
         />
       )}
@@ -751,6 +778,16 @@ function MainApp() {
             openVariantChooser();
           }}
         />}
+      {screen === 'axes' && (
+        <AxesScreen
+          axes={homeAxes}
+          onOpenManager={openManager}
+          onStartQuiz={() => {
+            window.history.replaceState(null, '', '/');
+            openVariantChooser();
+          }}
+        />
+      )}
       {screen === 'variant' && <VariantScreen error={error} onStart={(variant) => void startQuiz(variant)} />}
 
       {/* Quiz e perguntas de arquétipo dividem o mesmo layout: o cabeçalho e a
@@ -765,15 +802,6 @@ function MainApp() {
           )}
         >
         <section className="quiz-layout">
-          <ProgressHeader
-            current={screen === 'archetype' ? quiz.questions.length : currentIndex + 1}
-            total={quiz.questions.length}
-            questionsPerAxis={quiz.questionsPerAxis}
-            axisCount={quiz.axes.length}
-            extraCount={archetypeSteps.length}
-            extraCurrent={screen === 'archetype' ? archetypeIndex + 1 : undefined}
-          />
-
           {screen === 'quiz' && currentQuestion ? (
             <>
               <div
@@ -792,52 +820,16 @@ function MainApp() {
                 onSelect={selectAnswer}
               />
               </div>
-
-              <nav className="quiz-actions" aria-label={t.quizNavAria}>
+              {progress}
+              <nav className="qz-nav" aria-label={t.quizNavAria}>
                 <button
-                  className="secondary-button"
+                  className="qz-link"
                   type="button"
                   onClick={goToPreviousQuestion}
                   disabled={currentIndex === 0 || isAdvancing}
                 >
-                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
-                    <path d="M5 12h14" />
-                    <path d="m13 6 6 6-6 6" />
-                  </svg>
-                  {t.back}
+                  <span aria-hidden="true">←</span> {t.back}
                 </button>
-                <button
-                  className="auto-advance-toggle"
-                  type="button"
-                  role="switch"
-                  aria-checked={autoAdvance}
-                  onClick={() => setAutoAdvance((value) => !value)}
-                >
-                  <span className="auto-advance-switch" aria-hidden="true" />
-                  {t.autoAdvance}
-                </button>
-                {currentIndex < quiz.questions.length - 1 ? (
-                  <button
-                    className="primary-button"
-                    type="button"
-                    onClick={goToNextQuestion}
-                    disabled={!answers[currentQuestion.id] || isAdvancing}
-                  >
-                    {t.next}
-                    <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M5 12h14" />
-                      <path d="m13 6 6 6-6 6" />
-                    </svg>
-                  </button>
-                ) : (
-                  <button className="primary-button" type="button" onClick={() => handleQuizEnd()} disabled={!canFinish || isSubmitting}>
-                    {t.next}
-                    <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M5 12h14" />
-                      <path d="m13 6 6 6-6 6" />
-                    </svg>
-                  </button>
-                )}
               </nav>
             </>
           ) : archetypeSteps[archetypeIndex] ? (
@@ -848,26 +840,18 @@ function MainApp() {
                 {isSubmitting ? <QuizSkeleton message={t.loadingAnalysis} /> : <ArchetypeCard
                   key={archetypeSteps[archetypeIndex].id}
                   question={archetypeSteps[archetypeIndex]}
-                  index={archetypeIndex}
                   selected={archetypeChoices[archetypeSteps[archetypeIndex].id]}
                   disabled={isAdvancing || isSubmitting}
                   onSelect={chooseArchetype}
                 />}
               </div>
-              <nav className="quiz-actions" aria-label={t.quizNavAria}>
-                <button className="secondary-button" type="button" onClick={goBackFromArchetype} disabled={isAdvancing || isSubmitting}>
-                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
-                    <path d="M5 12h14" />
-                    <path d="m13 6 6 6-6 6" />
-                  </svg>
-                  {t.back}
+              {progress}
+              <nav className="qz-nav" aria-label={t.quizNavAria}>
+                <button className="qz-link" type="button" onClick={goBackFromArchetype} disabled={isAdvancing || isSubmitting}>
+                  <span aria-hidden="true">←</span> {t.back}
                 </button>
-                <button className="secondary-button archetype-skip" type="button" onClick={skipArchetype} disabled={isAdvancing || isSubmitting}>
-                  {isSubmitting ? t.calculating : t.archetypeSkip}
-                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M5 12h14" />
-                    <path d="m13 6 6 6-6 6" />
-                  </svg>
+                <button className="qz-link" type="button" onClick={skipArchetype} disabled={isAdvancing || isSubmitting}>
+                  {isSubmitting ? t.calculating : t.archetypeSkip} <span aria-hidden="true">→</span>
                 </button>
               </nav>
             </>
@@ -889,7 +873,7 @@ function MainApp() {
         />
       )}
 
-      {(screen === 'home' || screen === 'results' || screen === 'catalog') && <SiteFooter />}
+      {(screen === 'home' || screen === 'results' || screen === 'catalog' || screen === 'axes') && <SiteFooter />}
     </div>
   );
 }

@@ -166,7 +166,7 @@ function buildShareHeader(): HTMLElement {
   const brand = header.firstChild as HTMLElement;
   brand.append(
     el('span', { color: SHARE_COLORS.accent }, '12'),
-    el('span', { fontFamily: SHARE_FONT_BODY, fontWeight: '400' }, 'axes')
+    el('span', { fontFamily: SHARE_FONT_BODY, fontWeight: '800' }, 'Axes Football')
   );
   return header;
 }

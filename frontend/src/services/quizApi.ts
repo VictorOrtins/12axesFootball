@@ -1,5 +1,5 @@
 import { LANG, t } from '../i18n';
-import type { CompareDetail, CompareItem, CompareType, QuizPayload, QuizResult, QuizVariant, SubmittedAnswer } from '../types/quiz';
+import type { AxisExemplars, CompareDetail, CompareItem, CompareType, QuizPayload, QuizResult, QuizVariant, SubmittedAnswer } from '../types/quiz';
 
 const API_URL = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '');
 
@@ -54,6 +54,10 @@ export function submitResults(
 
 export function fetchSharedResult(leftPercents: number[]): Promise<QuizResult> {
   return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}`);
+}
+
+export function fetchAxisExemplars(): Promise<AxisExemplars[]> {
+  return request<AxisExemplars[]>(`/api/axes/exemplars?lang=${LANG}`);
 }
 
 export function fetchCompareCatalog(): Promise<CompareItem[]> {

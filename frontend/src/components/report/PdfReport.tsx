@@ -325,7 +325,7 @@ function formatPct(value: number, decimals: number): string {
 function Logo() {
   return (
     <span className="logo">
-      <b>12</b> axes
+      <b>12</b> Axes Football
     </span>
   );
 }

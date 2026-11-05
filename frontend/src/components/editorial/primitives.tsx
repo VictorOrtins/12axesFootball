@@ -7,7 +7,7 @@ export function Logo({ onClick }: { onClick?: () => void }) {
   const content = (
     <>
       <b>12</b>
-      <span>axes</span>
+      <span>Axes Football</span>
     </>
   );
   if (!onClick) {
