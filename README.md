@@ -14,7 +14,19 @@ Portuguese and English · no sign-up
 
 This is a fork of [12 Axes](https://12axes.vercel.app), a political quiz, rebuilt for football. Instead of ideologies, countries and political figures, your answers are matched against football ideas (schools of play), team eras and managers. [FORK_README.md](FORK_README.md) has the motivation and inspirations.
 
-**Status: work in progress.** The political content is gone and the code runs on the football axes. The question pool has its first 60 statements (5 per axis), enough for the short and extended quizzes, and the three catalogs are still empty. Profiles are being researched first (see [Adding profiles](#adding-football-ideas-teams-or-managers)).
+**Status: work in progress, not released yet.** The political content is gone and the whole app runs on the football axes.
+
+- **Questions:** 60 statements (5 per axis) and 5 multiple-choice archetype questions.
+- **Catalogs:** 25 football ideas, 79 team eras and 65 managers. Each one has a research file, an audit and a 12-axis vector (see [Adding profiles](#adding-football-ideas-teams-or-managers)).
+- **Interface:** dark by default, with a sports-portal look, a catalog page for every profile and a page explaining the 12 axes.
+
+Before release:
+
+- Image credits need review. Several crests are fair use or from the wrong era, and CC BY photos need their attribution shown.
+- The texts of the newest teams and managers, written from the research, still need a human review.
+- `ScorerBenchmarkTest` is still disabled until it is recalibrated on the football catalogs.
+
+The task notes in [tasks/](tasks/) track this work in detail.
 
 ## About the project
 
@@ -57,7 +69,7 @@ The football compass on the results page uses Possession as the x axis, Block as
 | Disagree | 0.25 |
 | Strongly disagree | 0.00 |
 
-The quiz has three lengths (short, extended and extreme), drawn from a pool balanced across the axes, plus optional multiple-choice "archetype" questions that score several axes at once. A statement can also count for a second axis at a lower weight (`secondary` in the pool). The pool has 60 statements so far, so the extreme quiz has the same questions as the extended one until it grows to 240.
+The quiz has two lengths, drawn from a pool balanced across the axes: short (3 statements per axis, 36 in all) and extended (5 per axis, 60 in all). After the statements come optional multiple-choice "archetype" questions that score several axes at once. A statement can also count for a second axis at a lower weight (`secondary` in the pool).
 
 ### Methodological note
 
@@ -71,8 +83,11 @@ This is a tool for exploring ideas about football, not a scientific instrument. 
 - Closest manager as an Ultimate Team-style card, managers per dimension and by category.
 - A football compass (possession × block, with purpose as a strip).
 - An "axis tension" readout for pairs of positions that rarely appear together.
-- Comparison with any manager, team or football idea, axis by axis.
+- Comparison with any manager, team or football idea, axis by axis. Every manager, team and football idea named on the results page opens its details.
 - Share card (PNG), PDF report, and shareable result link.
+- A quiz left halfway can be resumed, and the last result stays in the browser, ready to reopen from the home page.
+- A catalog page for every football idea, team and manager, and a page explaining the 12 axes with the managers at each pole.
+- Portuguese and English, dark and light themes.
 
 ## Architecture
 
@@ -98,10 +113,10 @@ All data lives in `backend/src/main/resources/data/`, with English translations 
 | `axes.json` | The 12 football axes, their poles and labels |
 | `questions-pool.json` | The question pool, with axis, polarity, weight and an optional second axis |
 | `question-help.json` / `glossary.json` | What agreeing and disagreeing mean for each statement, and the football terms underlined in them |
-| `archetype-questions.json` | The multiple-choice questions (empty for now) |
-| `football-ideologies.json` / `football-ideology-profiles.json` | Football ideas and their 12-axis vectors |
-| `teams.json` / `team-profiles.json` | Team eras (a club or national team over a set period) |
-| `managers.json` / `manager-profiles.json` | Managers, profiled by the body of work they're known for |
+| `archetype-questions.json` | The 5 multiple-choice archetype questions |
+| `football-ideologies.json` / `football-ideology-profiles.json` | The 25 football ideas and their 12-axis vectors |
+| `teams.json` / `team-profiles.json` | The 79 team eras (a club or national team over a set period) |
+| `managers.json` / `manager-profiles.json` | The 65 managers, profiled by the body of work they're known for |
 
 On startup the backend refuses to run if any catalog entry lacks a vector or a vector does not have exactly the 12 known axes. Empty catalogs are allowed: their results come back as `null` or empty lists. The backend tests run on a synthetic fixture in `backend/src/test/resources/data`.
 
@@ -143,7 +158,7 @@ Each catalog is ranked separately. `ScorerBenchmarkTest` guarded the calibration
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/health` | Health check |
-| `GET` | `/api/quiz?variant=short\|extended\|extreme` | Quiz metadata and the question pool |
+| `GET` | `/api/quiz?variant=short\|extended` | Quiz metadata and the question pool |
 | `POST` | `/api/results` | Scores answers and returns axes and matches |
 | `GET` | `/api/results/by-axes?v=...` | Rebuilds a result from 12 values, for shared links |
 | `GET` | `/api/football-ideologies[/{id}]` | Football idea catalog |
@@ -151,8 +166,9 @@ Each catalog is ranked separately. `ScorerBenchmarkTest` guarded the calibration
 | `GET` | `/api/managers[/{id}]` | Manager catalog |
 | `GET` | `/api/compare/catalog` | Every profile that can be compared |
 | `GET` | `/api/compare?type=manager\|team\|football-ideology&id=...&v=...` | Compares a profile with 12 values |
+| `GET` | `/api/axes/exemplars` | The managers who lean furthest toward each pole, for the 12-axes page |
 
-Endpoints accept `lang=pt|en`. `/api/**` answers only requests whose `Origin` or `Referer` is in `FRONTEND_ORIGINS`, and returns `403` otherwise. `/api/health` stays open for the Render health check.
+Endpoints accept `lang=pt|en`. `/api/**` answers only requests whose `Origin` or `Referer` is in `FRONTEND_ORIGINS` and that carry the `User-Agent` and `Sec-Fetch-Site` headers every browser sends. Anything else gets `403`, so a plain `curl` is refused. Set `API_ORIGIN_ENFORCEMENT=false` to test the API from the command line. `/api/health` stays open for the Render health check.
 
 <details>
 <summary>Example request</summary>
@@ -207,7 +223,7 @@ python3 scripts/check_i18n.py                     # every catalog entry has its 
 python3 -m unittest discover -s profile-audit/tests
 ```
 
-The backend suite covers the question pool, the three formats, catalog vectors, links between catalogs, the REST endpoints and matching, all on the synthetic test fixture. The frontend suite covers question selection, saved progress, the compass and the design tokens.
+The backend suite covers the question pool, the three formats, catalog vectors, links between catalogs, the REST endpoints and matching, all on the synthetic test fixture. The frontend suite covers question selection, saved progress and the saved last result, compatibility levels, the axis-by-axis comparison, the compass, the glossary, translations, the theme and the design tokens.
 
 ### Deploy
 
