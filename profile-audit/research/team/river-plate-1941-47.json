@@ -1,0 +1,422 @@
+{
+  "id": "river-plate-1941-47",
+  "catalog": "team",
+  "name": "River Plate 1941–47 (La Máquina)",
+  "researchedOn": "2026-11-01",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1941-09-21",
+    "end": "1947"
+  },
+  "scopeNote": "River Plate's 'La Máquina', from the first match of the new forward line with Pedernera at centre-forward, 21 Sep 1941 (4-0 at Independiente, three goals by Pedernera; Juvenal, El Gráfico), to the end of the core group in 1947 (Los Andes: 'la base de este equipo perduró hasta 1947 inclusive'). Sources differ on the end: El Gráfico (2014) says the era runs 'desde 1941 hasta 1946 inclusive'; the last match of the classic five forwards was 17 Nov 1946 (El Litoral); Pedernera left for Atlanta after that and Di Stéfano took his place for the 1947 title (Wikipedia). The partial end '1947' is kept from the earlier decision; the day is not fixed. Managers follow the official list (Cesarini to 1944-10-22, Peucelle from 1944-10-29 to 1946-12-08); Peucelle was the influence behind the scenes before that (Juvenal: Pedernera was moved to centre-forward 'por el técnico Renato Cesarini a sugerencia de Carlos Peucelle'). Style named in the evidence: a fluid, possession-first forward line with constant position swaps, which Peucelle called 'todotiempo' and 'todacancha' (El Gráfico, 2013); the shape is recorded as a nominal 2-3-5 (El Gráfico 2014, El Litoral 2021) that Wilson reads as a 'rough W-M'. 'Fútbol total' / 'precursor of the Clockwork Orange' are later retrospective labels, not the period's own terms. The 1947 season under Minella falls inside the partial end but no fact here is specific to it beyond Di Stéfano's arrival.",
+  "managers": [
+    { "managerId": "renato-cesarini", "start": "1940-07-07", "end": "1944-10-22" },
+    { "managerId": "carlos-peucelle", "start": "1944-10-29", "end": "1946-12-08" }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Managers: kept the official dates (en.wikipedia List of River Plate managers: Cesarini 7 Jul 1940 – 22 Oct 1944, Peucelle 29 Oct 1944 – 8 Dec 1946). El Gráfico (2013) says Peucelle played for River until 1941, worked in the youth divisions from 1942 to 1949 and 'dirigió la Primera del club en 1945 y 1946'; Juvenal credits the 1941 Pedernera switch to Cesarini 'a sugerencia de Carlos Peucelle'; FIFA (2020) says credit is still disputed. Decide whether Peucelle's informal role from 1941 should be recorded. José María Minella (from 29 Mar 1947) coached the 1947 season, which falls inside the partial end '1947' but is not in managers[]; decide whether to add him or end the period in 1946.",
+    "Period end: 1946 (El Gráfico 2014: 'desde 1941 hasta 1946 inclusive'; last match of the five forwards 17 Nov 1946, El Litoral) vs 1947 (Los Andes: 'hasta 1947 inclusive'; Wilson: 'around 1941 to 1947'). Kept '1947' from the earlier decision.",
+    "Shape conflict: nominal 2-3-5 (El Gráfico 2014: 'En el 2-3-5 de Renato Cesarini'; La Página Millonaria 2011; El Litoral 2021) vs 'rough W-M' with Rossi as attacking centre-half (Wilson, SI 2015) vs '3-2-5' (La Página Millonaria 2012). El Gráfico (2014) calls Vaghi and Yácono 'los centrales' and Rodolfi, Ramos and Ferreira 'los mediocampistas'; Juvenal says Moreno and Pedernera dropped to join Rodolfi and Ramos in a 'cuadrado mágico', which reads like a W-M midfield square. Decide which label to use.",
+    "Marking (mar): no source says whether River's team defence was zonal or man-oriented. The only marking facts are individual: Yácono was 'precursor de la marca personal' ('Estampilla'; El Gráfico 2014 and 2017) and 'the specialist man-marker' (Game of the People). In the Argentine 2-3-5/W-M of the 1940s man-marking by the half-backs is the likely default, but that is memory, not evidence.",
+    "Pressing, transitions and set pieces: no fact found in any source read. The likeliest primary source, Peucelle's book 'Fútbol Todotiempo e historia de La Máquina' (1975, reissued), was not available online.",
+    "Peucelle's stated-view quotes come from his 1975 book 'Fútbol Todotiempo', but were read only in El Gráfico's July 2013 piece, so they are recorded as 'attributed' with the 2013 date. If the book can be checked, they could become primary.",
+    "Nickname: Borocotó popularised it in El Gráfico after the 6-2 win over Chacarita in 1942, headline 'Jugó como una máquina el puntero' (El Gráfico 2014); Peucelle said the team was 'invented' by 'Doña Rosa Pedernera, la mamá de Adolfo' (El Gráfico 2013). The Peucelle line is about credit for the team, not the name. The exact date of the Chacarita match (12 Jun 1942 in Wikipedia) was not read on a page.",
+    "José Manuel Moreno's memoir 'El destino, la pelota y yo' was read in El Gráfico's 2020 republication; the original publication date of the memoir is not given on the page."
+  ],
+  "sources": [
+    {
+      "title": "La Máquina de River (El Gráfico, ¡Habla memoria!, Matías Rodríguez)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-02-28",
+      "eventDate": "1941/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Read via web.archive.org (snapshot 2024-04-22; the live page returns 403). Juan Carlos Muñoz on the forward line: \"Salíamos a la cancha y nuestra táctica era clara: agarrar la pelota, tocarla, meter una gambeta, esto, lo otro y el gol caía sólo. Generalmente tardaba en llegar y la angustia era porque los partidos nunca podíamos definirlos pronto. Dentro del área claro que queríamos hacer el gol, pero en el medio nos divertíamos, si nadie nos apuraba\". The writer adds that they were in no hurry 'fruto del dominio abrumador que desplegaban'. Player quote from the period's protagonist, undated in the article.",
+      "verified": true
+    },
+    {
+      "title": "La Máquina de River (El Gráfico, ¡Habla memoria!, Matías Rodríguez)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-02-28",
+      "eventDate": "1941/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Read via web.archive.org. \"En el 2-3-5 de Renato Cesarini el arquero era el peruano José Eusebio Soriano [...]; Vaghi y Yácono –precursor de la marca personal, apodado Estampilla- los centrales; Rodolfi, Ramos y Ferreira los mediocampistas; y Muñoz, Moreno, Pedernera, Labruna y Loustau el quinteto de delanteros\". Quoting Pablo Ramírez's appendix to Peucelle's book: \"Todos hacían todo. Entraban, salían, tocaban y devolvían. 'Cambiaban de posiciones con una sincronización matemática'\". The writer calls it 'Una idea ancestral del Fútbol total y del juego de posición de la Holanda de Cruyff' (retrospective label).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "La Máquina de River (El Gráfico, ¡Habla memoria!, Matías Rodríguez)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-02-28",
+      "eventDate": "1941/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Read via web.archive.org. \"José Manuel Moreno era un tiempista, el que más se retrasaba del quinteto para abastecer a sus compañeros desde el comienzo mismo de la jugada\"; \"Adolfo Pedernera era el jugador cerebral, el estratega desde el medio para adelante\". Build-up ran through the inside-forwards dropping deep, not the defenders.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "La Máquina de River (El Gráfico, ¡Habla memoria!, Matías Rodríguez)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-02-28",
+      "eventDate": "1941/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Read via web.archive.org. \"Juan Carlos Muñoz y Félix Loustau oficiaban de extremos. Se ocupaban de oxigenar al equipo por los costados.\" Loustau \"era una debilidad de Peucelle, que lo llamaba 'Ventilador'. Según él, era el encargado de darle aire y una posibilidad de descarga siempre fresca a ese River que se abalanzaba en ataque sin pruritos conservadores a cuestas.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "La Máquina de River (El Gráfico, ¡Habla memoria!, Matías Rodríguez)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-02-28",
+      "eventDate": "1941/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Read via web.archive.org. Right-back Yácono described as \"precursor de la marca personal, apodado Estampilla\". Individual man-marking by one defender; the article says nothing about how the rest of the defence marked (zonal or man).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "La Máquina de River (El Gráfico, ¡Habla memoria!, Matías Rodríguez)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/5076/la-maquina-de-river",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-02-28",
+      "eventDate": "1941/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Read via web.archive.org. The forwards were the 'Caballeros de la Angustia que demostraban todo su potencial cuando iban perdiendo y sorprendían al público –cuando no lo desesperaban- por su tranquilidad'; 'ese equipo que rara vez se vio eclipsado por el juego rival'. Titles: 'River fue campeón en 1941, 1942 y 1945'. The five forwards played together in only 18 matches.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945) (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-(1941-1945)",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "1990",
+      "eventDate": "1941-09-21",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Read via web.archive.org (snapshot 2024-06-02; live page 403). Text by Juvenal (1990), republished by El Gráfico on 2019-11-07. \"River comenzó a definirse como un gran equipo a mediados de la temporada cuando Adolfo Pedernera fue colocado como centreforward por el técnico Renato Cesarini a sugerencia de Carlos Peucelle. Entonces surge 'La Máquina', cuando por primera vez juegan juntos, Muñoz, Moreno, Pedernera, Labruna, y Deambrosi. Eso ocurrió el 21 de setiembre, en Avellaneda, donde River venció 4 a 0 a Independiente\". 1942: \"Pedernera es el director, a la derecha Moreno [...]. Ellos bajan y se juntan con Rodolfi y el 'Tuerto' José Ramos, para 'hacer juego' en lo que en Europa llamaban 'el cuadrado mágico'\"; \"Juegan como de memoria. Inventan otro fútbol. Se desmarcan, cambian de posiciones.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945) (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-(1941-1945)",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "1990",
+      "eventDate": "1943",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Read via web.archive.org. 1943, Boca v River at La Bombonera: River led 'con un gol excepcional convertido por Félix Loustau después que la pelota viajó desde su área hasta la red rival a través de siete pases perfectos que ningún adversario consiguió interceptar'. A single move, but it shows a passing build-up from River's own area.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945) (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-(1941-1945)",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "1990",
+      "eventDate": "1943",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Read via web.archive.org. 1943 title race: 'River, con su exquisitez técnica, con su fútbol de lujo. Boca, con su bravura y empuje.' Moreno: 'un atleta de físico privilegiado. Un virtuoso, un cabeceador incomparable, un gran gambeteador.' Loustau: 'valiente, travieso, veloz, posee un freno sorprendente y con un toque y manejo preciso de la pelota.' Labruna 'implacable y certero'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945) (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-(1941-1945)",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "1990",
+      "eventDate": "1944/45",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Read via web.archive.org. 1944: Moreno and Rodolfi left for Mexico, 'abriendo paso para la incorporación a la Máquina de Néstor Rossi, un centrehalf largirucho, de mucho juego, que venía de las divisiones inferiores'. 1945: River signed Manuel Giudice (Huracán) and Eduardo Rodríguez (Estudiantes); 'Giúdice y el juvenil Pipo Rossi cubrieron el lugar de Rodolfi'; 'jugó dos partidos un chico de las inferiores: Amadeo Raúl Carrizo'. A mix of youth-team promotions and signings of established players to replace departures.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945) (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-(1941-1945)",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "1990",
+      "eventDate": "1945",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Read via web.archive.org. 'El éxodo de Moreno y Rodolfi a México desarticuló la Máquina. [...] Al equipo le seguía sobrando calidad pero esa rotación memorizada y la aparición sorpresiva de cualquiera de los delanteros para definir fue perdiendo vigencia.' In 1945 'A River le costó mucho más llegar al gol porque esa función quedó casi exclusivamente en los pies de Labruna' (River still won the 1945 title).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El destino, la pelota y yo – Capítulo XV, por José Manuel Moreno (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/33067/el-destino-la-pelota-y-yo---capitulo-xv",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-04-23",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Read via web.archive.org (snapshot 2022-12-18; live page 403). Moreno's own memoir, republished by El Gráfico (original publication date not given). 1941: after losses that left River seventh in the first round, 'Al iniciarse la segunda rueda se produjo el repunte espectacular de River, a raíz de un severo ajuste practicado en la formación del cuadro, en el que participamos: Yácono, Cadilla, Ramos, Vaghi, Rodolfi, Barrios, Muñoz, yo, Pedernera, Peucelle y Labruna.' First-hand account of the mid-1941 line-up change.",
+      "verified": true
+    },
+    {
+      "title": "El destino, la pelota y yo – Capítulo XV, por José Manuel Moreno (El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/33067/el-destino-la-pelota-y-yo---capitulo-xv",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-04-23",
+      "eventDate": "1944-07",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Read via web.archive.org. Moreno quotes 'El Mundo' of 17 July 1944: the club's board 'multó en la suma de $ 100 por no presentarse en el match de reserva con Lanús, con la prevención de que, de repetirse ello, se le rescindiría el contrato. El jugador al tener conocimiento de esta resolución envió su renuncia indeclinable'. He left for Mexico. Moreno on losing the 1943 title: 'Nosotros pasamos del altar de los ídolos a la picota de los réprobos. ¡A cuidarse en adelante, pues al más mínimo desliz caería sobre nosotros el chicote de los mandamais!' Discipline came from the club board, not the coach; the coaches are not mentioned.",
+      "verified": true
+    },
+    {
+      "title": "Carlos Peucelle: Humilde y Millonario (El Gráfico, Miguel Bossio)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-07-09",
+      "eventDate": "1945/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Read via web.archive.org (snapshot 2024-06-19; live page 403). Peucelle 'dirigió la Primera del club en 1945 y 1946'; he disliked the title of coach: for him '“DT” era “Decí, Tonto”', and to coach the first team 'se hacía poner la M de masajista'. Pedernera: '“Fue director técnico mientras jugaba”'. To Néstor Rossi, who called him his teacher, Peucelle replied: '“No, nooo. Yo no soy maestro de nadie. [...] Yo nunca di una indicación. Las únicas indicaciones del fútbol las da el juego mientras se está jugando”' (undated). As coach of the 1945-46 side he made 'apenas unos retoquecitos que fueron clave, como mandar a Loustau de wing izquierdo y [...] sacar de la punta a Pedernera y tirarlo al medio'. A low-authority, player-led style.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Carlos Peucelle: Humilde y Millonario (El Gráfico, Miguel Bossio)",
+      "url": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2013-07-09",
+      "eventDate": "1942/46",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Read via web.archive.org. 'Retirado en River, comenzó en 1942 a trabajar en las divisiones inferiores del club, tarea que desarrolló hasta 1949.' By contract Peucelle received a 'formador' fee when a player he had trained reached the first team: 'Pasó, entre otros, cuando Pipo Rossi subió a Primera.' Youth-team promotion was built into the club's structure in this era.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino (Jonathan Wilson)",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "\"They played a rough W-M shape with an attacking center half in Néstor Rossi.\" Moreno and Pedernera dropped into the space in front of the half line, rather than the two inside-forwards withdrawing as was usual in a W-M (paraphrase of the page). The front five played together as a quintet only 18 times. Retrospective analysis by the author of Inverting the Pyramid; Rossi only joined in 1944-45, so the W-M reading fits the later part of the era.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino (Jonathan Wilson)",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Loustau covered the whole left flank and was known as a 'ventilador-wing', a winger who did some of the midfield's running; his running let the left-half shuffle across (paraphrase of the page, term quoted).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino (Jonathan Wilson)",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Loustau's running moved the centre-half (first Rodolfi, then Rossi) to the right, giving Norberto Yácono, the nominal right-half, a more defensive brief; Yácono was known as 'The Stamp' for the way he stuck to the player he was marking (paraphrase, nickname quoted). Individual man-marking role; no team-level zonal/man statement. Wilson's guess that River 'would probably have used Yácono to pick up Mazzola' is a hypothetical and not used as evidence.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino (Jonathan Wilson)",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Muñoz (translated, undated): \"There was no rush. It was instinctive.\" Muñoz said they were called the 'Knights of Anguish' because they didn't look for the goal. Boca's Lazzatti: \"You play against La Máquina with the intention of winning.\" Spanish original of the Muñoz quote is in the El Gráfico (2014) entry.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Yácono, la estampilla de La Máquina (El Gráfico, Las Fotos de El Gráfico)",
+      "url": "https://www.elgrafico.com.ar/articulo/1056/27793/yacono-la-estampilla-de-la-maquina",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2017-10-01",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Read via web.archive.org (snapshot 2024-04-29). The nickname came from Racing winger 'Chueco' García after 'sufrió por primera vez la marca pegajosa del joven': '“Lo felicito, se me pegó como una estampilla”'. Yácono 'fue titular indiscutible en la defensa' of La Máquina; 393 official matches 1938-1953. Individual tight man-marking; the nickname predates the era (date of the García match not given).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Game of the People: River Plate 1940s – it takes a team to tango (Neil Fredrik Jensen)",
+      "url": "https://gameofthepeople.com/2025/07/20/river-plate-1940s-it-takes-a-team-to-tango/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-20",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Yácono is called 'the specialist man-marker'. Peucelle 'had a habit of moving players around to exploit their strengths' and became influential after the failure of Plattkó's 'so-called M-defence which involved the introduction of a holding or anchor midfielder'. The team 'preferred instead to outpass their opponents' and was 'in no hurry to score'. Blog retrospective, one author.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Los Andes: 'Un día como hoy nacía La Máquina de River'",
+      "url": "https://www.losandes.com.ar/un-dia-como-hoy-nacia-la-maquina-de-river-quien-lo-bautizo-asi-y-quienes-la-integraban",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-06-07",
+      "eventDate": "1941/47",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Pedernera 'bajaba desde su falsa posición de \"9\" hasta el centro de la cancha para armar juego'; Moreno played as an all-round 'ocho'; Labruna as the '10' exploiting space to receive passes 'en cortada'. 'La base de este equipo perduró hasta 1947 inclusive.' Unsigned retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pedernera, the 'twinkle-toed engine driver' (FIFA)",
+      "url": "https://inside.fifa.com/news/pedernera-the-twinkle-toed-engine-driver-2604360",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-12",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Cesarini and Peucelle made the change of 'switching him to a more central and withdrawn role'; the team had 'five forwards capable of swapping positions and popping up in places where the opposition least expected them'; 'Opinion is still divided as to whether Peucelle or Cesarini should get the credit'. Retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Falleció el legendario Félix Loustau (La Nación)",
+      "url": "https://www.lanacion.com.ar/deportes/fallecio-el-legendario-felix-loustau-nid463992/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2003-01-05",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Loustau 'Llegó a River con la intención de jugar de volante' but 'Renato Cesarini lo convenció para que jugara de puntero'; 'se cansó de desairar rivales con su gambeta endiablada y sus frenos sorpresivos'; described as 'pequeño, de físico desgarbado, pero de gran resistencia física y mucha velocidad'. Juvenal dates his arrival as left winger to the 11th round of 1942.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A 75 años del último partido de 'La Máquina' de River (El Litoral)",
+      "url": "https://www.ellitoral.com/deportes/75-anos-ultimo-partido-maquina-river_0_Nk72E9xpwv.amp.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2021-11-17",
+      "eventDate": "1946-11-17",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "'Allá por 1941, Renato Cesarini empezó a parar en cancha un equipo que desplegaba un juego extraordinario, con una tremenda vocación ofensiva. Tal como ocurría en aquella época, el Millonario alineaba un ambicioso 2-3-5.' Last match of the five forwards together: 17 Nov 1946 v Huracán (2-2), Pedernera's last match for River before leaving for Atlanta.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A 70 años del primer partido de La Máquina (La Página Millonaria)",
+      "url": "https://lapaginamillonaria.com/riverplate/A-70-anos-del-primer-partido-de-La-Maquina-20110921-0001.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2011-09-21",
+      "eventDate": "1941-09-21",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "On the 21 Sep 1941 4-0 at Independiente: 'precedido por una brillante muestra de fútbol de pases cortos'; 'El objetivo de aquel equipo era tener la posesión de la pelota'; 'toque preciso y comenzar bien la jugada desde la defensa'; it 'formaba con dos defensores, tres mediocampistas y ¡cinco delanteros!'. Fan site, no period source named.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Alfredo Di Stéfano (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1945-07-15",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Undated wiki page (accessedOn used as articleDate). At 19 Di Stéfano 'played one match for the first team, a 2–1 loss to Huracán' (15 Jul 1945), was loaned to Huracán in 1946, and 'upon his return to River Plate, Di Stéfano became an integral part of La Máquina', taking Pedernera's role for the 1947 title. Read in the first 100k characters of the page.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Yo estuve dentro de la cancha 17 años y nunca vi que lo que se produce como juego dentro de un partido viniera de un maestro de afuera. Siempre salió de los jugadores",
+      "date": "2013-07-09",
+      "source": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "todos suben, todos bajan, todos entran, todos salen",
+      "date": "2013-07-09",
+      "source": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Yo nunca di una indicación. Las únicas indicaciones del fútbol las da el juego mientras se está jugando",
+      "date": "2013-07-09",
+      "source": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Yo no hago jugadores: sólo capacito y oriento...",
+      "date": "2013-07-09",
+      "source": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "La Máquina de River fue un invento de Doña Rosa, la mamá de Adolfo Pedernera",
+      "date": "2013-07-09",
+      "source": "https://www.elgrafico.com.ar/articulo/1088/4843/carlos-peucelle-humilde-y-millonario",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    { "url": "https://elgrafico.com.ar/articulo/memoria-emotiva/48113/diez-cracks-argentinos-que-debutaron-con-una-derrota", "reason": "403" }
+  ],
+  "gaps": {
+    "dimensions": ["pressing", "transitions", "set-pieces", "stated-view"],
+    "axes": []
+  },
+  "influences": [
+    { "id": "la-nuestra", "kind": "football-ideology", "note": "On-pitch exemplar of La Nuestra: El Gráfico (2014) says that from the 1940s 'el juego de estos lares quedó emparentado con la belleza y el romanticismo' and River became 'un cultor de ese estilo'." }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "Historical case with no contemporary analysis. Evidence is retrospective and mostly tier C (El Gráfico history pieces, read via the Wayback Machine, plus Juvenal's 1990 history), with one tier B retrospective (Wilson) and first-hand accounts from Muñoz and Moreno's memoir. Sources agree on possession, patient combination play, fluid forward rotation and wide wingers; they disagree on the shape (2-3-5 vs rough W-M) and the era's end (1946 vs 1947). No fact on pressing, transitions or set pieces; marking is known only for one player (Yácono's man-marking). Peucelle's stated view comes from his 1975 book via a 2013 article (attributed)."
+  }
+}

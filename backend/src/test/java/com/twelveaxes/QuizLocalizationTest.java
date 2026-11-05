@@ -40,33 +40,32 @@ class QuizLocalizationTest {
                 .andReturn().getResponse().getContentAsString(java.nio.charset.StandardCharsets.UTF_8);
         QuizPayload quiz = objectMapper.readValue(body, QuizPayload.class);
 
-        assertThat(quiz.description()).contains("political axes");
-        assertThat(quiz.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Structure"));
+        assertThat(quiz.description()).contains("football axes");
+        assertThat(quiz.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Possession"));
         assertThat(quiz.answerOptions()).anySatisfy(option -> assertThat(option.label()).isEqualTo("Strongly agree"));
-        assertThat(quiz.questions()).noneMatch(question -> question.text().contains("Brasil"));
-        assertThat(quiz.questions()).noneMatch(question -> question.text().contains("STF"));
+        assertThat(quiz.questions()).allMatch(question -> question.text().startsWith("Test statement"));
     }
 
     @Test
-    void quizInPortugueseKeepsBrazilianReferences() throws Exception {
+    void quizInPortugueseKeepsPortugueseText() throws Exception {
         String body = mockMvc.perform(get("/api/quiz"))
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString(java.nio.charset.StandardCharsets.UTF_8);
         QuizPayload quiz = objectMapper.readValue(body, QuizPayload.class);
 
-        assertThat(quiz.questions()).anyMatch(question -> question.text().contains("Brasil"));
-        assertThat(quiz.questions()).anyMatch(question -> question.text().contains("STF"));
+        assertThat(quiz.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Posse de bola"));
+        assertThat(quiz.questions()).allMatch(question -> question.text().startsWith("Afirmação de teste"));
     }
 
     @Test
     void everyQuestionAndEntityHasEnglishTranslation() {
         assertThat(dataService.getQuestionsForLang("en"))
-                .noneMatch(question -> question.text().contains("Brasil") || question.text().contains(" deveria "));
-        assertThat(dataService.getIdeologies("en")).hasSameSizeAs(dataService.getIdeologies());
-        assertThat(dataService.getCountries("en")).hasSameSizeAs(dataService.getCountries());
-        assertThat(dataService.getPersonalities("en")).hasSameSizeAs(dataService.getPersonalities());
-        assertThat(dataService.getCountries("en"))
-                .anySatisfy(country -> assertThat(country.name()).isEqualTo("Brazil"));
+                .noneMatch(question -> question.text().contains("Afirmação"));
+        assertThat(dataService.getFootballIdeologies("en")).hasSameSizeAs(dataService.getFootballIdeologies(QuizDataService.LANG_PT));
+        assertThat(dataService.getTeams("en")).hasSameSizeAs(dataService.getTeams(QuizDataService.LANG_PT));
+        assertThat(dataService.getManagers("en")).hasSameSizeAs(dataService.getManagers(QuizDataService.LANG_PT));
+        assertThat(dataService.getTeams("en"))
+                .anySatisfy(team -> assertThat(team.name()).isEqualTo("Team fx-time-1"));
     }
 
     @Test
@@ -91,7 +90,7 @@ class QuizLocalizationTest {
                 .andReturn().getResponse().getContentAsString(java.nio.charset.StandardCharsets.UTF_8);
         QuizResult result = objectMapper.readValue(body, QuizResult.class);
 
-        assertThat(result.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Structure"));
+        assertThat(result.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Possession"));
         assertThat(result.axes()).allSatisfy(axis -> assertThat(axis.intensity())
                 .isIn("Balanced", "Leaning", "Strong", "Very strong"));
         assertThat(result.topMatch().longDescription()).contains("Compatibility indicates");
@@ -101,6 +100,6 @@ class QuizLocalizationTest {
     void unknownLangFallsBackToPortuguese() throws Exception {
         mockMvc.perform(get("/api/quiz").param("lang", "fr"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.description").value(org.hamcrest.Matchers.containsString("eixos políticos")));
+                .andExpect(jsonPath("$.description").value(org.hamcrest.Matchers.containsString("eixos do futebol")));
     }
 }

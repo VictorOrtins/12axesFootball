@@ -1,0 +1,649 @@
+{
+ "id": "argentina-1978",
+ "catalog": "team",
+ "name": "Argentina at the 1978 FIFA World Cup (Menotti)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1978-06-02",
+  "end": "1978-06-25"
+ },
+ "scopeNote": "Argentina national team at the 1978 World Cup (2-25 June 1978), hosts and champions, under César Luis Menotti. profilePeriod = tournament only (opening match 2 June vs Hungary from the brief; final 25 June read on the Crónica/Fillol page); preparation 1974-77 appears only as unverified context or statedView. Style called 'Menottismo' / 'fútbol de izquierda' by Menotti; El Gráfico describes a 4-3-3 with one volante tapon (Gallego), Ardiles as box-to-box 8, wide forwards Bertoni and Ortiz, Kempes starting left and Luque central; Gantman/Conde reconstructed data (PPDA 7.4, 11 recoveries under 6s) show a high, short team. A Spanish academic study (efdeportes) argues real play rested on physical power more than creole technique; the 'direct 4-3-3' of TFT is a retrospective label. Dictatorship and Peru 6-0 are context only. Retrospective sources dominate (2010-2024); no contemporary 1978 press was read. Manager start 1974-10-01 from El Gráfico (Juvenal); end '1982-07' is month-only from memory. Where an El Gráfico retrospective describes the 1978 team without a match, eventDate is '1978' and retrospectiveOnly true.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Marking: no zonal vs man source for 1978 found; El Gráfico says Tarantini was 'avocado a la marca' and FIFA fr says offside trap; Bauso/Gantman says Menotti's teams used the offside line constantly (later period). Confirm with a match-level source.",
+  "Maradona cut date: El Gráfico (2019) says March 1978 at José C. Paz; La Nación says two weeks before the World Cup; search summary said 19 May. Disagreement kept.",
+  "Formation: TFT 'direct 4-3-3' vs El Gráfico 'sencillo 4-3-3' with Ardiles/Gallego as 8 and 5; starting XI changed (Valencia/Houseman in group, Ortiz/Bertoni in final).",
+  "Efdeportes contradicts the Menotti narrative of technical style (physical power decided); label disagreement kept.",
+  "FIFA French article gives the final as '25 juillet 1978' (typo); 25 June confirmed by Fillol on Crónica.",
+  "FIFA fr claims (offside trap, one holding midfielder) describe Menotti's teams in general; marked retrospectiveOnly.",
+  "People-management evidence for the tournament itself is thin: only Luque's recollection of the pre-extra-time speech and Gallego on team spirit (both retrospective). Houseman concentration story and Carrascosa/Gatti/Fillol episodes are pre-tournament (verified:false).",
+  "statedView dates for retrospective interviews are article dates; the original date of Menotti's 'ocupación de espacios' quote is unknown.",
+  "Bauso's book '78, Historia oral del Mundial' and the 2024 documentary 'Argentina 78' were not read directly (Gantman summary only); no contemporary 1978 match reports mined."
+ ],
+ "sources": [
+  {
+   "title": "César Luis Menotti and the style that galvanised Argentina",
+   "url": "https://thesefootballtimes.co/cesar-luis-menotti-and-the-style-that-galvanised-argentina/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-28",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Menotti’s attacking style manifested itself in a direct 4-3-3. Argentina were not short on direct, hard-running attackers in the form of Mario Kempes, Leopoldo Luque and Oscar Ortiz.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "César Luis Menotti and the style that galvanised Argentina",
+   "url": "https://thesefootballtimes.co/cesar-luis-menotti-and-the-style-that-galvanised-argentina/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-28",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "This, coupled with the midfield brilliance of Ossie Ardiles and the searing pace of René Houseman, meant that Menotti’s Argentina were an exhilarating creation.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Copa del Mundo 1978. La construcción mediática de un estilo",
+   "url": "https://efdeportes.com/efd121/copa-del-mundo-1978-la-construccion-mediatica-de-un-estilo.htm",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2008-06-01",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "no fueron convocados en puestos claves para definir el estilo tradicional destacados cultores del mismo como Bochini, Maradona, Juan José López, Marangoni o Brindisi y Babington (...) Mientras que Valencia, Alonso y Villa durante el transcurso del Mundial también terminaron excluidos del equipo titular, pasando a cubrir ese vacío la tremenda potencia de Kempes, la fuerza algo rudimentaria de Gallego y el despliegue de Ardiles. Otro de los jugadores titulares, René Orlando Houseman, fue desplazado por la mayor potencia física de Daniel Bertoni para acompañar al centrodelantero Leopoldo Luque.",
+   "verified": true
+  },
+  {
+   "title": "Copa del Mundo 1978. La construcción mediática de un estilo",
+   "url": "https://efdeportes.com/efd121/copa-del-mundo-1978-la-construccion-mediatica-de-un-estilo.htm",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2008-06-01",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "En el caso concreto del conjunto nacional, el factor decisivo del estilo de juego fue la potencia física de algunos jugadores por sobre la técnica global del plantel. Así, lo señalaron, entre otros, grandes personalidades del fútbol mundial como Helenio Herrera, Alfredo Distéfano y Pelé",
+   "verified": true
+  },
+  {
+   "title": "Argentina's class of '78 deserve respect",
+   "url": "https://bbc.in/2MfnxJP",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-01-27",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "But Menotti went with Ardiles precisely because he offered more dynamism. His fetching, carrying and continuous quick passing set the pace at which the coach wanted the team to play.",
+   "verified": true
+  },
+  {
+   "title": "Menotti, l'école et la révolution argentine",
+   "url": "https://inside.fifa.com/fr/news/menotti-l-ecole-et-la-revolution-argentine",
+   "tier": "A",
+   "language": "fr",
+   "articleDate": "2020-11-05",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Intelligence dans la circulation de balle, rapidité dans les passes et densité dans le jeu : voici les trois piliers du jeu prôné par Menotti.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Menotti, l'école et la révolution argentine",
+   "url": "https://inside.fifa.com/fr/news/menotti-l-ecole-et-la-revolution-argentine",
+   "tier": "A",
+   "language": "fr",
+   "articleDate": "2020-11-05",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "En fait, ses défenses recouraient systématiquement au piège du hors-jeu, les quatre défenseurs montant vite pour assurer leur part du pressing.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Menotti, l'école et la révolution argentine",
+   "url": "https://inside.fifa.com/fr/news/menotti-l-ecole-et-la-revolution-argentine",
+   "tier": "A",
+   "language": "fr",
+   "articleDate": "2020-11-05",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Au niveau du schéma, l'Argentin avait pour habitude d'aligner une défense à quatre, protégée par un seul milieu récupérateur. Les autres milieux avaient quant à eux une totale liberté pour créer le danger et alimenter les deux ou trois attaquants.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Menotti, l'école et la révolution argentine",
+   "url": "https://inside.fifa.com/fr/news/menotti-l-ecole-et-la-revolution-argentine",
+   "tier": "A",
+   "language": "fr",
+   "articleDate": "2020-11-05",
+   "eventDate": "1974/78",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Dès sa prise de fonction, le stratège décide de s'appuyer sur des joueurs chevronnés, comme Ubaldo Fillol, Daniel Passarella et Kempes, des hommes capables d'assimiler les consignes tactiques énigmatiques d' El Flaco.",
+   "verified": false,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Mundial 1978: el ciclo de Menotti que cambió el rumbo de la selección",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-1978-el-ciclo-de-menotti-que-cambio-el-rumbo-de-la-seleccion-y-termino-con-medio-siglo-de-decepciones-nid2147162/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-06-25",
+   "eventDate": "1978-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El corte de última hora, a dos semanas del Mundial, dejó afuera a Víctor Bottaniz, Humberto Bravo y Diego Maradona. (...) Pero el 'Pelusa', que había debutado apenas un año y medio antes en primera, era un \"10\" en un equipo que tenía varios jugadores disponibles en esa posición: Norberto Alonso, Julio Ricardo Villa, y José Daniel Valencia",
+   "verified": false
+  },
+  {
+   "title": "Mundial 1978: el ciclo de Menotti que cambió el rumbo de la selección",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-1978-el-ciclo-de-menotti-que-cambio-el-rumbo-de-la-seleccion-y-termino-con-medio-siglo-de-decepciones-nid2147162/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-06-25",
+   "eventDate": "1978-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Antes del Mundial, Menotti se quedó sin dos titulares: el capitán Jorge Carrascosa, que renunció por una decisión personal, y Hugo Gatti, al que le costaba recuperarse de una lesión, y pidió una licencia que el entrenador de la selección no le concedió. Su puesto lo ocuparía Ubaldo Fillol.",
+   "verified": false
+  },
+  {
+   "title": "César Luis Menotti and the style that galvanised Argentina",
+   "url": "https://thesefootballtimes.co/cesar-luis-menotti-and-the-style-that-galvanised-argentina/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-28",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Menotti found himself under immense pressure to include the teenager in his squad. Indeed, Menotti had handed Maradona his full international debut but felt that his squad was already complete. As such, he did not take Maradona",
+   "verified": true
+  },
+  {
+   "title": "César Luis Menotti and the style that galvanised Argentina",
+   "url": "https://thesefootballtimes.co/cesar-luis-menotti-and-the-style-that-galvanised-argentina/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-28",
+   "eventDate": "1978-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "he deliberately delayed his players arriving on the pitch. Regardless of the Dutch state of mind, Menotti had insisted that his squad portray the same style and attacking intent they had illustrated throughout the tournament.",
+   "verified": true
+  },
+  {
+   "title": "The art and controversy of Daniel Passarella, Argentina's greatest defender",
+   "url": "https://thesefootballtimes.co/2018/02/05/the-art-and-controversy-of-daniel-passarella-argentinas-greatest-defender/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-05",
+   "eventDate": "1978-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "A largely uneventful first half of extra time was broken when Kempes surged through the Dutch defence, and, with the aid of some deflections and ricochets, he reached the ball ahead of two defenders to stab home. Argentina benefited from further good fortune 10 minutes later as Daniel Bertoni rifled the third and final goal past Jongbloed to ensure La Albiceleste’s victory.",
+   "verified": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "La diagramación en el pizarrón fue un sencillo 4-3-3. En el fondo descansaba una línea de cuatro con jugadores que cuando podían se sumaban a la mitad de la cancha.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "En el fondo descansaba una línea de cuatro con jugadores que cuando podían se sumaban a la mitad de la cancha. El que más se jugaba al ataque era Olguín.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "La pelota era el motor que movilizaba al equipo. A partir de ahí, el conjunto corría menos riesgo en el arco propio y generaba acciones de peligro en campo contrario.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Cuando le prestaba el balón al rival, la presión y el achique constante que ejercían los once, resolvía el resto.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "En la izquierda, Tarantini pasaba menos tiros porque estaba más avocado a la marca. En el medio, el único volante para contener -el “volante tapón”- era Gallego. Su función era recuperar el balón y hacer los relevos con un número ocho al lado -Ardiles- de ida y vuelta (...) con la obligación de bajar y pararse al lado del cinco para colaborar en la marca.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Kempes arrancaba recostado en la izquierda y arriba acompañaban tres delanteros: Bertoni y Ortiz bien abiertos y Luque por el centro.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Idolos de la Selección: Oscar Ortiz (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5253/idolos-de-la-seleccion-oscar-ortiz",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2014-05-07",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "El Negro Ortiz fue uno de los últimos exponentes de una especie en extinción, la de los wines. (...) desbordaba a las defensas con una facilidad increíble, por los costados. (...) para llegar a la raya de fondo y servir el centro o el pase atrás.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Lo que nadie contó del 78 y el 86 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/35027/lo-que-nadie-conto-del-78-y-el-86",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-12-10",
+   "eventDate": "1978-06-02",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "El equipo que salió a la cancha en el partido debut de Argentina en el Mundial, ante Hungría, fue el siguiente: Fillol; Olguín, Galván, Passarella, Tarantini; Ardiles, Gallego, Valencia; Houseman, Luque, Kempes.",
+   "verified": true
+  },
+  {
+   "title": "Lo que nadie contó del 78 y el 86 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/35027/lo-que-nadie-conto-del-78-y-el-86",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-12-10",
+   "eventDate": "1977",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "de hecho el que más jugó como puntero derecho fue Ricardo Daniel Bertoni",
+   "verified": false
+  },
+  {
+   "title": "Argentina 78: el documental, el fútbol de Menotti y los datos (Gantman)",
+   "url": "https://marcelogantman.substack.com/p/argentina-78-el-documental-el-futbol",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-19",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Argentina fue primera en recuperaciones en todo el Mundial con 55 por partido. En recuperaciones de pelota en menos de seis segundos, pasó de 8.5 recuperaciones en 1974 a once en 1978.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 78: el documental, el fútbol de Menotti y los datos (Gantman)",
+   "url": "https://marcelogantman.substack.com/p/argentina-78-el-documental-el-futbol",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-19",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "PPDA (...) En el 74 era 9.4 y en el 78 pasa a ser 7.4. Es decir, esa Argentina le permitía dos pases menos al rival, que es uno de los registros más bajos de todos los equipos de esa copa.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 78: el documental, el fútbol de Menotti y los datos (Gantman)",
+   "url": "https://marcelogantman.substack.com/p/argentina-78-el-documental-el-futbol",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-19",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Fue un equipo que se paraba muy arriba. Todo el equipo. Si no te dijeran de que jugaba Passarella, tranquilamente pensarías que era un volante ofensivo",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 78: el documental, el fútbol de Menotti y los datos (Gantman)",
+   "url": "https://marcelogantman.substack.com/p/argentina-78-el-documental-el-futbol",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-19",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "prevalecía la idea de “equipo corto”, parado bien arriba, con jugadores que podían tener algunas posiciones muy particulares.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 78: el documental, el fútbol de Menotti y los datos (Gantman)",
+   "url": "https://marcelogantman.substack.com/p/argentina-78-el-documental-el-futbol",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-19",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Menotti no paraba de hablar de intensidad y de trabajo. Sabía que tenía que igualar con entrenamiento y preparación física lo que significaba jugar contra los europeos en aquellos tiempos",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Historia del fútbol argentino, por Juvenal. Cap. XVII (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-29",
+   "eventDate": "1978-06-02",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Hay foul favorable a Argentina en el minuto 14. Ardiles ejecuta el tiro libre con toque corto para Kempres, el zurdazo del cordobés es rechazado por el arquero Sandor Gudjar y atropellando Luque establece el empate.",
+   "verified": true
+  },
+  {
+   "title": "Historia del fútbol argentino, por Juvenal. Cap. XVII (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-29",
+   "eventDate": "1978-06-02",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Daniel Bertoni —quien había entrado por Houseman a los 67 minutos de juego—, la mandó adentro.",
+   "verified": true
+  },
+  {
+   "title": "Historia del fútbol argentino, por Juvenal. Cap. XVII (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-29",
+   "eventDate": "1978-06-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "A los 65 minutos entró Alonso por Valencia y se lesionó, siendo reemplazado por Oscar Alberto Ortiz en el minuto 72.",
+   "verified": true
+  },
+  {
+   "title": "Historia del fútbol argentino, por Juvenal. Cap. XVII (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-29",
+   "eventDate": "1978-06-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Esa noche del 10 de junio comprobamos lo que valía la presencia de Luque ahí adelante para romper defensas que se apretaban y hacían casi imposible la penetración por el medio. No estuvo Luque, lesionado, y quien más lo extrañó fue Kempes",
+   "verified": true
+  },
+  {
+   "title": "Historia del fútbol argentino, por Juvenal. Cap. XVII (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-29",
+   "eventDate": "1978-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El técnico opta por la experiencia. Le comunica a Diego que está fuera de los 22 convocados para la Copa del Mundo. (...) Passarella —designado capitán—",
+   "verified": true
+  },
+  {
+   "title": "Historia del fútbol argentino, por Juvenal. Cap. XVII (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2024-12-29",
+   "eventDate": "1977",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "el Mundial se iba a jugar en la Argentina, la mayoría de nuestros adversarios serían equipos europeos y debíamos acostumbrarnos a tolerar y superar su marca pegajosa si queríamos vencerlos como locales.",
+   "verified": false
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“Antes del suplementario, el Flaco nos habló con todo. Ellos estaban tirados, los masajeaban y nosotros caminábamos por todos lados. El Flaco dijo: ´¡Dense vuelta y miren cómo están!´. Éramos bestias enjauladas. Si seguíamos, les hacíamos varios goles más”, rememoraba Jacinto Luque.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Gallego definía a la perfección el espíritu de equipo: “Nadie se sentía más que nadie, por más que algunos veníamos del interior en vaquerito y otros andaban con cadenas de oro”.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Argentina 1978 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2010-08-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“El equipo lo había elegido para jugar en base al conocimiento técnico y la capacidad de los jugadores que eran muy dotados técnicamente. Y elegimos como recuperación de la pelota el esfuerzo colectivo desde la ocupación de espacios.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Lo que nadie contó del 78 y el 86 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/35027/lo-que-nadie-conto-del-78-y-el-86",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-12-10",
+   "eventDate": "1978-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Enemigo acérrimo de las concentraciones, René merecía un tratamiento particular. (...) La fuerte guardia militar que rodeaba la quinta de Natalio Salvatori metía miedo.",
+   "verified": false
+  },
+  {
+   "title": "Lo que nadie contó del 78 y el 86 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/35027/lo-que-nadie-conto-del-78-y-el-86",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-12-10",
+   "eventDate": "1978",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Pero Valencia en el Mundial no le cumplió al técnico. Jugó de regular para abajo y terminó cediendo su lugar.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "1978. ¡Argentina campeón! El origen (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1090/31886/1978-%C2%A1argentina-campeon!-el-origen",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2018-05-20",
+   "eventDate": "1974-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "No voy a aceptar ninguna traba para usar a los integrantes del plantel cuando lo considere necesario. El jugador argentino, cuando piensa no corre. Y cuando corre, no piensa. Hay que lograr precisión, velocidad y movilidad.",
+   "verified": false
+  },
+  {
+   "title": "1978. ¡Argentina campeón! El origen (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1090/31886/1978-%C2%A1argentina-campeon!-el-origen",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2018-05-20",
+   "eventDate": "1976-03",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Fue un acuerdo entre los jugadores y yo. Como sabía que querían jugar para la Selección, busqué la forma de no perjudicarlos. Quedamos en que los llamaría más adelante.",
+   "verified": false
+  },
+  {
+   "title": "Fillol to the rescue (FIFA)",
+   "url": "https://inside.fifa.com/tournaments/mens/worldcup/1978argentina/news/fillol-to-the-rescue-2879227",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2017-04-13",
+   "eventDate": "1978-06-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Fillol and Co. stepped out knowing a win would guarantee a spot in the second stage, having come from behind to see off Hungary in their opener.",
+   "verified": true
+  },
+  {
+   "title": "El Pato Fillol y el Mundial 78 (Crónica)",
+   "url": "https://www.cronica.com.ar/amp/depo/futbolargentino/el-pato-fillol-y-el-mundial-78-su-obra-cumbre-20241118-0031.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-11-20",
+   "eventDate": "1978-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“El 25 de junio de 1978, apenas el árbitro italiano Sergio Gonella marcó el final de la batalla, salí corriendo del arco y terminé arrodillado.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "a team above all is an idea",
+   "date": "2016-04-28",
+   "source": "https://thesefootballtimes.co/cesar-luis-menotti-and-the-style-that-galvanised-argentina/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "L'efficacité de notre tactique était fonction de l'aptitude des joueurs à appliquer au pied de la lettre ce que je leur demandais",
+   "date": "2020-11-05",
+   "source": "https://inside.fifa.com/fr/news/menotti-l-ecole-et-la-revolution-argentine",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "C'est toujours mieux d'avancer sur l'adversaire car ça vous permet de récupérer le ballon le plus haut possible.",
+   "date": "2020-11-05",
+   "source": "https://inside.fifa.com/fr/news/menotti-l-ecole-et-la-revolution-argentine",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Right-wing football wants us to believe that life is a struggle. It demands sacrifices. We have to become steel and win by any methods.",
+   "date": "2016-04-28",
+   "source": "https://thesefootballtimes.co/cesar-luis-menotti-and-the-style-that-galvanised-argentina/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Terminaré con un vicio: el jugador argentino, cuando corre no piensa y cuando piensa no corre. Hay que lograr que haga las dos cosas a la vez. Lo primero que buscaremos será precisión. Después, velocidad. Y en última instancia, una permanente movilidad. (...) Yo quiero que sepamos jugar la pelota cuando la tengamos y que sepamos defender cuando no sea nuestra. A mí no me interesa ganar 1 a 0 con un gol de tiro libre.",
+   "date": "1974-10-02",
+   "source": "https://www.elgrafico.com.ar/articulo/¡habla-memoria!/35057/historia-del-futbol-argentino-por-juvenal-capitulo-xvii-(mundial-78-parte-i)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "El equipo lo había elegido para jugar en base al conocimiento técnico y la capacidad de los jugadores que eran muy dotados técnicamente. Y elegimos como recuperación de la pelota el esfuerzo colectivo desde la ocupación de espacios.",
+   "date": "2010-08-10",
+   "source": "https://www.elgrafico.com.ar/articulo/1088/2996/argentina-1978",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Me equivoqué en no llevar a Diego al Mundial 78, pero después salí campeón y nadie dijo nada.",
+   "date": "2024-05-05",
+   "source": "https://www.elgrafico.com.ar/articulo/1105/30039/menotti-me-equivoque-en-no-llevar-a-maradona-al-mundial-1978",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Fillol might think he's Pele, but he's not",
+   "date": "2017-04-13",
+   "source": "https://inside.fifa.com/tournaments/mens/worldcup/1978argentina/news/fillol-to-the-rescue-2879227",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Yo estaba dentro de una cancha de fútbol, que es mi lugar de combate. (...) Era el Mundial nuestro, jugamos para nuestra gente, en todas las provincias.",
+   "date": "2017-06-29",
+   "source": "https://442.perfil.com/noticias/general/2017-06-29-541945-menotti-hice-lo-que-tenia-que-hacer-en-futbol-y-politica.phtml",
+   "provenance": "primary"
+  }
+ ],
+ "managers": [
+  {
+   "managerId": "cesar-luis-menotti",
+   "start": "1974-10-01",
+   "end": "1982-07"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.fifa.com/news/menotti-s-marvels-of-78-in-stats-2920704",
+   "reason": "empty"
+  },
+  {
+   "url": "https://papelitos.com.ar/nota/el-plantel-de-la-seleccion-argentina-en-el-mundial-78",
+   "reason": "403"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/693621/aquel-menotti",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B Spanish retrospectives (El Gráfico, Gantman with reconstructed data) agree on shape, width, pressing and a high line, but all are retrospective, no contemporary 1978 reports, no explicit zonal/man-marking source, and tournament-period people-management is a single recollection."
+ }
+}

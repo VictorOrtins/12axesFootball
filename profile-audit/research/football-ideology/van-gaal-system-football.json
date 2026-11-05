@@ -1,0 +1,584 @@
+{
+ "id": "van-gaal-system-football",
+ "catalog": "football-ideology",
+ "name": "Van Gaal's system football",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "1991-09-28",
+  "end": "1997-06-30"
+ },
+ "scopeNote": "Van Gaal's Ajax 1991-97 (period of the existing louis-van-gaal manager spell), core evidence the 1994/95 side and the 1995 Champions League final. Sources call it a 'turbo-charged' Total Football (FourFourTwo) or a refinement of Cruyff's 4-3-3/3-4-3 (Ajax Daily), with the 'system was everything, the individual had to subordinate himself' reading from Ballverliebt, and a 'sacred system' / collectief (Bergkamp, FourFourTwo). The popular label '4-3-3' is questioned: Ballverliebt and StatsBomb describe a 3-4-3 with a midfield diamond (3-1-3-3). Marking: Ballverliebt describes Blind as libero and Reiziger/F. de Boer as man-markers against the ball, so the system was not purely zonal. Barcelona and Man United/Bayern spells are not counted. Dates for individual facts are mostly seasonal (YYYY/YY) or the final (1995-05-24).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Ids: reuses existing manager louis-van-gaal and team ajax-1994-95 as exemplars; the ideology id van-gaal-system-football is the proposed id.",
+  "Formation label disagrees: 4-3-3/3-4-3 (FourFourTwo, Ajax Daily), 3-4-3 with diamond (StatsBomb, Ballverliebt), 3-3-1-3 (Goal.com). Likely the same structure seen from different phases.",
+  "Marking: only one source (Ballverliebt, 2011 blog) describes man-markers and a libero; no tier A source found on Ajax's marking scheme.",
+  "Tension 'system over the individual' vs multi-functional, creative individuals: Ronald de Boer says specific individual qualities mattered; the 'system over individual' wording comes from Ballverliebt, not from Van Gaal.",
+  "No primary dated interview with Van Gaal from 1991-97 found; the Kormelink/Seeverens quote is reproduced via These Football Times.",
+  "Coaches' Voice and FIFA/UEFA technical material not found for this period; the Bayern.com page (Discipline is the basis for creativity, 2009) was unreadable and is out of period anyway.",
+  "Pressing and set-pieces rest on thin or retrospective evidence."
+ ],
+ "sources": [
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Ist von Ajax die Rede, spricht man oft vom \"typischen\" 4-3-3. So wirklich stimmt das aber nicht. Denn eher schon stellte sich das Team als 3-4-3 mit Mittelfeldraute dar, auch ein 3-1-3-3 wäre als Bezeichnung sicher treffender als 4-3-3. Und jede Position hatte ihre eigenen Aufgaben, die sich strikt an der Position orientierte und nicht an dem Spieler, der sie ausfüllen soll. Das System war bei Van Gaal alles, der Einzelne musste sich unterordnen.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Their 3-4-3 system with a diamond midfield provided a central column of reference points around whom the rest of the team could triangulate.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "All of this was to be played out in the confines of a 4-3-3 or 3-4-3 formation.",
+   "verified": true
+  },
+  {
+   "title": "Van Gaal's vision seeks to recreate football Utopia (FourFourTwo)",
+   "url": "https://fourfourtwo.com/features/van-gaals-vision-seeks-recreate-football-utopia",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-11-19",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Dennis Bergkamp, now coaching at Ajax, remembered a “sacred system”: there is a strong emphasis on collective responsibility (collectief is Van Gaal's favourite word) and mutual understanding.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Als Ajax Amsterdam 1995 den FC Bayern München vorführte (Goal.com Deutschland)",
+   "url": "https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-10-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "\"Jeder einzelne Ajax-Spieler ist kreativ\", sagte van Gaal, der seine Spieler in so etwas wie ein 3-3-1-3-System packte.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Ajax held the lion's share of possession (61%) and sought to patiently construct play from the back with a ball progression scheme that was far more systemised than any we've seen in the previous finals in this series.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "The goalkeeper ... He very rarely went long without reason, and while he wasn't quite as slick in his execution as many of the goalkeepers of today, he was willing to take a touch to open up an angle for a pass or draw a degree of opposition pressure.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "The goalkeeper had to be adept at playing with his feet as well as his hands, so he could start moves and feed the most creative centre-back. The whole team moved in set patterns; if one player dropped back to receive the ball, another had to make a run towards the opposition's goal.",
+   "verified": true
+  },
+  {
+   "title": "The training sessions behind Ajax's 1995 success (Ronald de Boer, FourFourTwo)",
+   "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-11",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "The thing you learned was that you had to switch immediately if you had lost the ball, so you couldn't linger on disappointment, because they could score with a long range shot.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "This Ajax side utilised possession as a means of control. They denied it to the opposition, and moved the ball in such a way as to leave themselves adequately positioned to win it back once lost. It was almost more of a defensive tool than an attacking one.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Zudem kam ihnen im damals wie heute sehr ballbesitzorientierten Spiel von Van Gaal die wichtige Aufgabe zu, für die schnellstmöglichen Seitenwechsel zu sorgen. Selbst bis an die Grundlinie vorgehen und flanken durften die beiden nicht, das blieb den Außenstürmern vorbehalten.",
+   "verified": true
+  },
+  {
+   "title": "The training sessions behind Ajax's 1995 success (Ronald de Boer, FourFourTwo)",
+   "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-11",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "We worked a lot on basic exercises, which focused on passing balls to everyone's right foot at speed. We repeated those drills endlessly.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Out of possession, they would be instructed to hound opponents collectively, to retrieve the ball as quickly as possible.",
+   "verified": true
+  },
+  {
+   "title": "Louis Van Gaal - The Iron Tulip (Ajax Daily)",
+   "url": "https://www.ajaxdaily.com/?p=5579",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-11-03",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "He introduced team bonding sessions, group meals, and several novel training exercises to get players used to working as cohesive packs when pressing.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Rijkaard musste, wenn der Gegner mit drei Stürmern spielte, selbst den Mittelstürmer aufnehmen.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Danny Blind spielte im Abwehrzentrum einen ganz klassischen Libero, wie es ihn auch in Deutschland und in Österreich gab; Michael Reiziger und Frank de Boer waren, zumindest gegen den Ball, ebenso klassische Manndecker. Sie kümmerten sich um Massaro und Simone, sobald Ajax den Ball verloren hatte.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Davids had defensive and attacking duties, being expected to link with the more advanced players in the team whilst tracking the opposition wide men when Ajax were defending.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Ajax kept eight clean sheets across their 11 matches in the 1994-95 competition, including four in their five knockout round matches.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Er war der Prellbock gegen die gegnerische Innenverteidigung, der Ballableger für Litmanen, auch an den Flanken war er oft zu finden, bei Eckbällen ging er zurück und machte die defensive Absicherung.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "The degree to which Ajax's ball use was structured was made clear by how quickly they paused counter-attacks to reset their positions once initial progress had been slowed.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "The wingers were instructed to repeatedly make forward runs to open up space for a long ball from the back, while midfielders were told to stay behind the wingers at all times. If an attack couldn't be forged down the one side, they then had to switch the ball to the opposite flank as quickly as possible.",
+   "verified": true
+  },
+  {
+   "title": "The training sessions behind Ajax's 1995 success (Ronald de Boer, FourFourTwo)",
+   "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-11",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Louis van Gaal attached quite a lot of importance to the squad numbers and their specific roles. As a number 2, for example, you had to know exactly what you had to do. Part of the reason in doing so, was to give a clear blueprint for players in the academy.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "At the moment a corner-kick was whipped in, he would sprint towards an opposition player who was marking one of his team-mates and deliberately block him. More often than not, this left a forward free, as De Boer's marker fell into the trap of tracking him as he made his dart across the penalty area. Van Gaal loved it and swiftly added it to his team's repertoire.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "At half-time, Rijkaard had the first word. ... A heated debate soon followed between Danny Blind, Clarence Seedorf and Ronald de Boer. Van Gaal happily let them go at it before making a key tactical tweak, which saw Rijkaard drop back five yards to give him more space to play key passes.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Der Gegner wurde nicht mit schnellem Kurzpassspiel und viel Ballbesitz zermürbt ... sondern mit viel Geduld auf den einen Fehler gelauert, und wenn es 85 Minuten dauert, bis er kommt.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Van Gaal devised a strategy whereby the emphasis was on ball rotation and team unity. There was absolute trust that each player could carry out their duties with maximum effectiveness and it instilled a supreme confidence at the club.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1997",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“Football is a team sport and members of the team are therefore dependent on each other,” he explained in The Coaching Philosophies of Louis van Gaal and the Ajax Coaches by Henny Kormelink and Tjeu Seeverens. “If certain players do not carry out their tasks properly on the pitch, then their colleagues will suffer. This means that every player has to carry out his basic tasks to the best of his ability and this requires a disciplined approach on the pitch.”",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Only the most talented and selfless players could thrive in Van Gaal's system, and he set about forming his football factory to put together a production line of players who would be a perfect fit.",
+   "verified": true
+  },
+  {
+   "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax's last European glory (Holland Times)",
+   "url": "https://www.hollandtimes.nl/?p=14883",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-07-08",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Cruijff would later describe Van Gaal's methods as a ‘militaristic way of working’ that prioritised computers and statistics over intuition and creativity.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Louis Van Gaal - The Iron Tulip (Ajax Daily)",
+   "url": "https://www.ajaxdaily.com/?p=5579",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-11-03",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Van Gaal was far from Cruyff's belief in judging players by eye and giving them the freedom to play.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Van Gaal set about building a team born out of ‘multi-functional’ players that the coach regarded highly such as Edgar Davids, Ronald de Boer and Michael Reiziger. The Ajax manager wanted to structure his team around players who could fulfil defensive and attacking capacities, were physically strong and possessed the tactical acumen to operate smoothly in a variety of different systems and formations.",
+   "verified": true
+  },
+  {
+   "title": "The training sessions behind Ajax's 1995 success (Ronald de Boer, FourFourTwo)",
+   "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-11",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "I think more important were the specific qualities of each individual player and it was incredible how the players anticipated one other - there was a great understanding between the players.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "“I started as a left-winger and second striker – a No.10,” Davids once told FFT. “It was Van Gaal's idea to move my position. Marc Overmars began playing out on the left and was really good, but he felt I had the qualities to play in central midfield.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-18",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Blind and Rijkaard were the experienced figures in an otherwise young team. The remainder of the starting XI were all 25 or younger, while the two substitutes, Nwankwo Kanu and match-winner Patrick Kluivert, were both 18. Six of the starting XI, and seven of the 13 players used were academy graduates.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Rather than recruiting a who's who of world stars, they sought to focus on a youth scheme that became the envy of clubs around Europe.",
+   "verified": true
+  },
+  {
+   "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax's last European glory (Holland Times)",
+   "url": "https://www.hollandtimes.nl/?p=14883",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-07-08",
+   "eventDate": "1991/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "He gave debuts to Clarence Seedorf, Edgar Davids and Mario Melchiot, while also bringing back the experience of Frank Rijkaard five years after the club sold him.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The side consisted largely of academy players, but the success came at a price as he watched his star men being cherry-picked by wealthy Serie A clubs. Dennis Bergkamp and Wim Jonk both signed for Inter, John van ’t Schip and Marciano Vink joined Genoa, and Michel Kreek was picked up by Padova.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "To ensure his players carried out his demands to the letter, Van Gaal insisted on relentless rehearsals of basic exercises.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1991",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Van Gaal's school of thought differed from his superior at Ajax, Leo Beenhakker, with the latter being less of a disciplinarian than his assistant.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Van Gaal's vision seeks to recreate football Utopia (FourFourTwo)",
+   "url": "https://fourfourtwo.com/features/van-gaals-vision-seeks-recreate-football-utopia",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-11-19",
+   "eventDate": "1991/97",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Being a schoolteacher in a previous life undoubtedly shaped Van Gaal's outlook, which led to a dictator-like image (mainly in the press) of treating his players like children. But those who have worked closely with him praise his integrity and honesty.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The training sessions behind Ajax's 1995 success (Ronald de Boer, FourFourTwo)",
+   "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-11",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "I remember telling Louis van Gaal and he responded in a typical Van Gaal way, like: ‘Really? And you are going to run behind players?’",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Football is a team sport and members of the team are therefore dependent on each other ... every player has to carry out his basic tasks to the best of his ability and this requires a disciplined approach on the pitch.",
+   "date": "1997",
+   "source": "Kormelink & Seeverens, The Coaching Philosophies of Louis van Gaal and the Ajax Coaches (1997), quoted in These Football Times",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Milan play as Ajax play. They want to win the game, but PSG hang back and are primarily interested in avoiding defeat.",
+   "date": "1995-05",
+   "source": "FourFourTwo 2018, quoting Van Gaal before the final",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Jeder einzelne Ajax-Spieler ist kreativ",
+   "date": "1995",
+   "source": "Goal.com Deutschland 2018, attributed to Van Gaal (note: tension with the 'system over individual' reading)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I am who I am; confident, arrogant, dominant, honest, hard-working and innovative",
+   "date": "2013",
+   "source": "FourFourTwo 2013 ('once declared')",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "He's open to other ideas, but they must understand he won't budge.",
+   "date": "2013",
+   "source": "Frank de Boer on Van Gaal, FourFourTwo 2013",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://fcbayern.com/en/news/2009/05/discipline-flair-and-teamwork-as-key-to-success",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Rinus Michels' Totaalvoetbal",
+  "Johan Cruyff's 4-3-3/3-4-3 Ajax (refined, with more rigid roles)",
+  "Leo Beenhakker (predecessor, Van Gaal as assistant)"
+ ],
+ "exemplars": [
+  {
+   "id": "louis-van-gaal",
+   "kind": "manager",
+   "reason": "Creator and chief exponent of the 'Van Gaalisten' system; Ajax 1991-97"
+  },
+  {
+   "id": "ajax-1994-95",
+   "kind": "team",
+   "reason": "Unbeaten league season and the 1995 Champions League win, the peak of the system"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "StatsBomb (A) and several tier B pieces agree on the shape, structure and youth core, but most are retrospective (2011-2018), marking rests on one blog, and there is no dated primary Van Gaal interview from the period."
+ }
+}

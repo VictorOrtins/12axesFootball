@@ -1,0 +1,665 @@
+{
+ "id": "oscar-tabarez",
+ "catalog": "manager",
+ "name": "Óscar Washington Tabárez",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2006-03-06",
+  "end": "2021-11-19"
+ },
+ "scopeNote": "Counted: Uruguay national team 2006-2021 (World Cup 2010 semi-final/4th, Copa América 2011 title, four World Cups, 'proceso' of youth structure). Start 2006-03-06 and end 2021-11-19 come from ESPN Deportes via search summary (page not mined), consistent with The Clinic/El Observador pieces dated 2021-11-19 calling him 'exentrenador'. Sources describe a 4-4-2 (1-4-4-2) base with a compact block in two lines of four, flexible shape (diamond, back three, 4-3-1-2), reactive 'play according to the opponent' approach, strong set pieces; 'Garra Charrúa' is the cultural label. Marking: only a stated rejection of individual (man) marking of Messi (2021); no source describes the corner marking scheme. Other spells excluded (see spellsExcluded; their dates are year-only because no day was read, from search summaries); data on those is not evidence here.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Spell dates 2006-03-06 and 2021-11-19 taken from a search summary of ESPN Deportes (not mined); confirm the exact days with a read page.",
+  "Peñarol 1987 (Copa Libertadores) is a major title and could be counted; not researched here (no tactical sources mined, budget). Decide if the caller wants it added. Dates of excluded spells are from memory/search summaries, years only.",
+  "El Gráfico interview 'En primera persona' is dated 2011 per search summary; the page shows 2021-11-19 (republication). Date of original interview should be confirmed.",
+  "Quotes from El Observador frases article are press-reported (attributed); original dates 2012-09 (Argentina 3-0) and 2014-06-24 are inferred from article context and need confirmation.",
+  "build-up and marking of corners (zonal vs man) not documented in any read source; Vavel 2015 '4-4-2 duro y con mucha presión' returned 403.",
+  "Squad-building signal: the data shows few debuts 2010-14 (7) and many after 2018 (21 in three years); critics in 2012 said he always called the same players."
+ ],
+ "sources": [
+  {
+   "title": "How Óscar Tabárez used philosophy and Garra Charrúa to return Uruguay to the top table",
+   "url": "https://thesefootballtimes.co/2018/06/20/how-oscar-tabarez-used-philosophy-and-garra-charrua-to-return-uruguay-to-the-top-table/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-20",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "has brought both stability and a strong youth system to the national team’s budding program",
+   "verified": true
+  },
+  {
+   "title": "How Óscar Tabárez used philosophy and Garra Charrúa to return Uruguay to the top table",
+   "url": "https://thesefootballtimes.co/2018/06/20/how-oscar-tabarez-used-philosophy-and-garra-charrua-to-return-uruguay-to-the-top-table/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-20",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Tabárez often quotes a statistic to journalists from his team’s semi-final run at the 2010 World Cup: in every game their opponents had more possession, but Uruguay recorded more shots on goal.",
+   "verified": true
+  },
+  {
+   "title": "How Óscar Tabárez used philosophy and Garra Charrúa to return Uruguay to the top table",
+   "url": "https://thesefootballtimes.co/2018/06/20/how-oscar-tabarez-used-philosophy-and-garra-charrua-to-return-uruguay-to-the-top-table/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-20",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "This is a team that values a solid defence, using a creative midfield to move the ball to Edinson Cavani and Suárez.",
+   "verified": true
+  },
+  {
+   "title": "How Óscar Tabárez used philosophy and Garra Charrúa to return Uruguay to the top table",
+   "url": "https://thesefootballtimes.co/2018/06/20/how-oscar-tabarez-used-philosophy-and-garra-charrua-to-return-uruguay-to-the-top-table/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-20",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Garra Charrúa is Tabárez’s secret tactical weapon.",
+   "verified": true
+  },
+  {
+   "title": "How Óscar Tabárez used philosophy and Garra Charrúa to return Uruguay to the top table",
+   "url": "https://thesefootballtimes.co/2018/06/20/how-oscar-tabarez-used-philosophy-and-garra-charrua-to-return-uruguay-to-the-top-table/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-20",
+   "eventDate": "2014-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Motivation is an internal process and is linked to the need people feel to do certain things.",
+   "verified": true
+  },
+  {
+   "title": "'El maestro' Tabarez teaches his Copa rivals a tactical lesson",
+   "url": "https://www.fourfourtwo.com/features/el-maestro-tabarez-teaches-his-copa-rivals-tactical-lesson",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-07-25",
+   "eventDate": "2011-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "There are so few sides in world football that could so seamlessly switch between a back four and back three in the way that the Uruguayans have done in their last two major tournaments",
+   "verified": true
+  },
+  {
+   "title": "'El maestro' Tabarez teaches his Copa rivals a tactical lesson",
+   "url": "https://www.fourfourtwo.com/features/el-maestro-tabarez-teaches-his-copa-rivals-tactical-lesson",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-07-25",
+   "eventDate": "2011-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The key to the side was always its defence and industry: even in the final, only two attacking players started the game, and of the midfield four, two were defensive midfielders and another a full-back shunted forwards. Conceding just three goals in their six tournament games",
+   "verified": true
+  },
+  {
+   "title": "'El maestro' Tabarez teaches his Copa rivals a tactical lesson",
+   "url": "https://www.fourfourtwo.com/features/el-maestro-tabarez-teaches-his-copa-rivals-tactical-lesson",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-07-25",
+   "eventDate": "2011-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "His tactical masterstroke in the final against Paraguay was the high pressing on opposing playmaker Nestor Ortigoza (...) By harrying and hampering the San Lorenzo midfielder, Uruguay stifled the Paraguayans",
+   "verified": true
+  },
+  {
+   "title": "'El maestro' Tabarez teaches his Copa rivals a tactical lesson",
+   "url": "https://www.fourfourtwo.com/features/el-maestro-tabarez-teaches-his-copa-rivals-tactical-lesson",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-07-25",
+   "eventDate": "2011-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "the key was surviving until half-time, once Tabarez had his players in the dressing room there would be a chance for him to re-arrange his side to cope with the numerical disadvantage.",
+   "verified": true
+  },
+  {
+   "title": "'El maestro' Tabarez teaches his Copa rivals a tactical lesson",
+   "url": "https://www.fourfourtwo.com/features/el-maestro-tabarez-teaches-his-copa-rivals-tactical-lesson",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-07-25",
+   "eventDate": "2011-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "the system has produced some excellent younger players to blend with the talented older generation.",
+   "verified": true
+  },
+  {
+   "title": "La selección y el puzle de Tabárez: ¿cómo armar un rompecabezas en seis pasos?",
+   "url": "https://www.elobservador.com.uy/nota/la-seleccion-y-el-puzle-de-tabarez-como-armar-un-rompecabezas-en-seis-pasos--202162911130/amp",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2021-06-30",
+   "eventDate": "2021-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Contra Argentina, Uruguay jugó con un 1-4-4-2, uno de los dibujos tácticos más utilizados por Tabárez en el proceso de la selección, caracterizado por una ocupación balanceada del terreno de juego.",
+   "verified": true
+  },
+  {
+   "title": "La selección y el puzle de Tabárez: ¿cómo armar un rompecabezas en seis pasos?",
+   "url": "https://www.elobservador.com.uy/nota/la-seleccion-y-el-puzle-de-tabarez-como-armar-un-rompecabezas-en-seis-pasos--202162911130/amp",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2021-06-30",
+   "eventDate": "2021-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "la defensa uruguaya que se paró con dos líneas de cuatro, bien compactas, más Cavani que luego de su suspensión se sumó al equipo titular para ayudar en la marca continuamente como siempre ha hecho.",
+   "verified": true
+  },
+  {
+   "title": "La selección y el puzle de Tabárez: ¿cómo armar un rompecabezas en seis pasos?",
+   "url": "https://www.elobservador.com.uy/nota/la-seleccion-y-el-puzle-de-tabarez-como-armar-un-rompecabezas-en-seis-pasos--202162911130/amp",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2021-06-30",
+   "eventDate": "2021-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Contra Chile, en su segunda presentación en el grupo A el 21 de junio, el entrenador sorprendió con los nombres y el dibujo, poniendo una línea de tres defensores con Viña como stopper izquierdo",
+   "verified": true
+  },
+  {
+   "title": "La selección y el puzle de Tabárez: ¿cómo armar un rompecabezas en seis pasos?",
+   "url": "https://www.elobservador.com.uy/nota/la-seleccion-y-el-puzle-de-tabarez-como-armar-un-rompecabezas-en-seis-pasos--202162911130/amp",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2021-06-30",
+   "eventDate": "2021-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "la selección ganó vértigo y un mejor aprovechamiento de los espacios cerca del área rival.",
+   "verified": true
+  },
+  {
+   "title": "La selección y el puzle de Tabárez: ¿cómo armar un rompecabezas en seis pasos?",
+   "url": "https://www.elobservador.com.uy/nota/la-seleccion-y-el-puzle-de-tabarez-como-armar-un-rompecabezas-en-seis-pasos--202162911130/amp",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2021-06-30",
+   "eventDate": "2021-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Tabárez movía las piezas para lograr el mejor funcionamiento.",
+   "verified": true
+  },
+  {
+   "title": "Ebullición en la selección: en tres años Tabárez hizo debutar a dos equipos enteros",
+   "url": "https://www.elobservador.com.uy/nota/ebullicion-en-la-seleccion-en-tres-anos-tabarez-hizo-debutar-a-dos-equipos-enteros-202191517170",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-09-17",
+   "eventDate": "2010/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "el entrenador hizo debutar solamente a siete futbolistas. (...) Durante aquellos años, Tabárez confiaba en su plantel histórico y daba pocos espacios a la renovación que comenzaba a preparar en las selecciones juveniles en el Complejo de la AUF.",
+   "verified": true
+  },
+  {
+   "title": "Ebullición en la selección: en tres años Tabárez hizo debutar a dos equipos enteros",
+   "url": "https://www.elobservador.com.uy/nota/ebullicion-en-la-seleccion-en-tres-anos-tabarez-hizo-debutar-a-dos-equipos-enteros-202191517170",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-09-17",
+   "eventDate": "2014/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "La primera señal de cambios y de renovación la impulsó con 24 nuevos nombres entre el Mundial de Brasil 2014 y el de Rusia 2018",
+   "verified": true
+  },
+  {
+   "title": "Ebullición en la selección: en tres años Tabárez hizo debutar a dos equipos enteros",
+   "url": "https://www.elobservador.com.uy/nota/ebullicion-en-la-seleccion-en-tres-anos-tabarez-hizo-debutar-a-dos-equipos-enteros-202191517170",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-09-17",
+   "eventDate": "2018/21",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "En tres años, Tabárez hizo debutar en la selección mayor y la mayoría en partidos oficiales a 21 futbolistas.",
+   "verified": true
+  },
+  {
+   "title": "El recambio celeste, ¿mito o realidad?",
+   "url": "https://www.elobservador.com.uy/nota/el-recambio-celeste-mito-o-realidad--201210822260",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2012-10-08",
+   "eventDate": "2012-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "un informe revela que Uruguay transita por el mismo camino de todos; está segundo en ascender jugadores de las juveniles y es el plantel más corto",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board: Analysing Oscar Tabarez's Uruguay",
+   "url": "https://syndication.bleacherreport.com/amp/1941831-2014-world-cup-tactics-board-analysing-oscar-tabarezs-uruguay.amp.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-01-30",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "At times he will set Uruguay up in a diamond midfield, while other matches might see a flat 4-4-2 or even a 4-3-3. Uruguay have been known to play with a back three over the past few years too, but these occurrences are infrequent and Tabarez also tends to change system within a game if results aren't going according to plan.",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board: Analysing Oscar Tabarez's Uruguay",
+   "url": "https://syndication.bleacherreport.com/amp/1941831-2014-world-cup-tactics-board-analysing-oscar-tabarezs-uruguay.amp.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-01-30",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "a ferocious and hard-working central zone protects the defence (...) Uruguay attempt to make themselves very difficult to break down, often with a deep defensive line to make the most of an experienced, but slow, defence.",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board: Analysing Oscar Tabarez's Uruguay",
+   "url": "https://syndication.bleacherreport.com/amp/1941831-2014-world-cup-tactics-board-analysing-oscar-tabarezs-uruguay.amp.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-01-30",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "One of the greatest strengths (and a longer-term weakness) of this Uruguay team is its longevity and consistency. (...) Tabarez could field a starting XI in the World Cup with well over 800 combined caps to their name.",
+   "verified": true
+  },
+  {
+   "title": "2014 World Cup Tactics Board: Analysing Oscar Tabarez's Uruguay",
+   "url": "https://syndication.bleacherreport.com/amp/1941831-2014-world-cup-tactics-board-analysing-oscar-tabarezs-uruguay.amp.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-01-30",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "If key members of the squad are injured or in poor form, too few new faces have been blooded to replace them.",
+   "verified": true
+  },
+  {
+   "title": "La pelota quieta desarmó el guion",
+   "url": "https://www.elobservador.com.uy/nota/la-pelota-quieta-desarmo-el-guion-2012101622550/amp",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2012-10-16",
+   "eventDate": "2012-10-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Los tres primeros llegaron por esa vía: tras un córner el primero y de tiro libre los otros dos.",
+   "verified": true
+  },
+  {
+   "title": "El doble 5 aguerrido, poco fútbol y la ausencia de Suárez",
+   "url": "https://www.elobservador.com.uy/nota/el-doble-5-aguerrido-poco-futbol-y-la-ausencia-de-suarez-2018101211447",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-10-12",
+   "eventDate": "2018-10-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "El 4-4-2 con que comenzó el encuentro en Seúl tuvo a un doble cinco como el de las primeras épocas de Tabárez al frente de Uruguay (...) El esquema por momentos fue 4-3-1-2, con Bentancur o Vecino apareciendo como enganche.",
+   "verified": true
+  },
+  {
+   "title": "El doble 5 aguerrido, poco fútbol y la ausencia de Suárez",
+   "url": "https://www.elobservador.com.uy/nota/el-doble-5-aguerrido-poco-futbol-y-la-ausencia-de-suarez-2018101211447",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-10-12",
+   "eventDate": "2018-10-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Bentancur y Vecino ocuparon las bandas, pero Uruguay careció de profundidad",
+   "verified": true
+  },
+  {
+   "title": "El doble 5 aguerrido, poco fútbol y la ausencia de Suárez",
+   "url": "https://www.elobservador.com.uy/nota/el-doble-5-aguerrido-poco-futbol-y-la-ausencia-de-suarez-2018101211447",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-10-12",
+   "eventDate": "2018-10-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "luchador, aguerrido, jugadores que no dan una pelota por perdida, aunque a la hora de entregarla no suelen caracterizarse por la precisión.",
+   "verified": true
+  },
+  {
+   "title": "Tabárez categórico sobre por qué Uruguay no marcará a Messi",
+   "url": "https://www.canal26.com/deportes/2021/06/18/tabarez-categorico-sobre-por-que-uruguay-no-marcara-a-messi-pobre-el-que-tenga-que-hacerlo/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-06-18",
+   "eventDate": "2021-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Marca individual no, pobre el que tenga que hacer eso. Algunos equipos lo han intentado alguna vez",
+   "verified": true
+  },
+  {
+   "title": "En los dos últimos años, la mitad de los goles de Uruguay fueron de pelota quieta",
+   "url": "https://www.elobservador.com.uy/nota/en-los-dos-ultimos-anos-la-mitad-de-los-goles-de-uruguay-fueron-de-pelota-quieta-201961320400",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-06-13",
+   "eventDate": "2006/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Hasta el Mundial de Rusia, Uruguay llegó con una marca de 31 % de goles anotados con pelota quieta desde el retorno, en 2006, de Tabárez, a la selección. (...) Tabárez dedica siempre los días previos a los partidos",
+   "verified": true
+  },
+  {
+   "title": "En los dos últimos años, la mitad de los goles de Uruguay fueron de pelota quieta",
+   "url": "https://www.elobservador.com.uy/nota/en-los-dos-ultimos-anos-la-mitad-de-los-goles-de-uruguay-fueron-de-pelota-quieta-201961320400",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-06-13",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "En el Mundial de Rusia 2018, Urugua anotó cinco de sus siete goles en jugadas a balón parado.",
+   "verified": true
+  },
+  {
+   "title": "En los dos últimos años, la mitad de los goles de Uruguay fueron de pelota quieta",
+   "url": "https://www.elobservador.com.uy/nota/en-los-dos-ultimos-anos-la-mitad-de-los-goles-de-uruguay-fueron-de-pelota-quieta-201961320400",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-06-13",
+   "eventDate": "2019",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "El entrenador ha dicho en más de una conferencia de prensa que se pone mucho hincapié en las zonas donde se mandan los centros.",
+   "verified": true
+  },
+  {
+   "title": "Una lección maestra",
+   "url": "https://www.elobservador.com.uy/nota/una-leccion-maestra-20151118500",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2015-11-18",
+   "eventDate": "2015-11-17",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Marca, marca y marca. Orden y solidez. Aplicación y determinación. Aprovechamiento de las pelotas quietas. Eficacia ofensiva.",
+   "verified": true
+  },
+  {
+   "title": "Una lección maestra",
+   "url": "https://www.elobservador.com.uy/nota/una-leccion-maestra-20151118500",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2015-11-18",
+   "eventDate": "2015-11-17",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Uruguay fue cauto a la hora de presionar arriba, sabedor de que si Chile rompía esa línea de presión iba a pasar con mucha gente al ataque en posesión de pelota y con muchas opciones para ofender.",
+   "verified": true
+  },
+  {
+   "title": "Una lección maestra",
+   "url": "https://www.elobservador.com.uy/nota/una-leccion-maestra-20151118500",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2015-11-18",
+   "eventDate": "2015-11-17",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "En el rubro, Chile apabulló a Uruguay: 71% a 29%. (...) Pero la posesión de la pelota no gana partidos.",
+   "verified": true
+  },
+  {
+   "title": "Una lección maestra",
+   "url": "https://www.elobservador.com.uy/nota/una-leccion-maestra-20151118500",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2015-11-18",
+   "eventDate": "2015-11-17",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Uruguay no hizo daño recuperando arriba y tomando al rival a trasmano. (...) Pero sí lo hizo a través de la pelota quieta en el primer (rebote de un córner) y tercer gol (córner al primer palo), además de un pelotazo largo",
+   "verified": true
+  },
+  {
+   "title": "Una lección maestra",
+   "url": "https://www.elobservador.com.uy/nota/una-leccion-maestra-20151118500",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2015-11-18",
+   "eventDate": "2015-11-17",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Porque le ganó a Chile con su libreto en la mano: controlar el potencial del rival y explotar sus debilidades.",
+   "verified": true
+  },
+  {
+   "title": "OSCAR TABÁREZ, EN PRIMERA PERSONA",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/3901/oscar-tabarez-en-primera-persona",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-11-19",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Uruguay tiene que jugar en función del rival. Nosotros nos sentimos bien haciéndolo. Nos sentimos muy fuertes en eso de tratar de limitarlo y después crearle problemas",
+   "verified": true
+  },
+  {
+   "title": "OSCAR TABÁREZ, EN PRIMERA PERSONA",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/3901/oscar-tabarez-en-primera-persona",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-11-19",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "La planificación táctica del partido siempre va a estar basada en la estrategia de juego que uno viene teniendo en la mente desde hace mucho tiempo",
+   "verified": true
+  },
+  {
+   "title": "OSCAR TABÁREZ, EN PRIMERA PERSONA",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/3901/oscar-tabarez-en-primera-persona",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-11-19",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Yo creo más en los signos de exigencia y de pausa, así como a los futbolistas trato de darles libertad adentro de la cancha, dentro de las obligaciones que se les fijan, porque son ellos quienes tienen que tomar las decisiones.",
+   "verified": true
+  },
+  {
+   "title": "OSCAR TABÁREZ, EN PRIMERA PERSONA",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/3901/oscar-tabarez-en-primera-persona",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-11-19",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "LOS FUTBOLISTAS no se hacen solos, entonces mejor que se hagan acá en las selecciones juveniles.",
+   "verified": true
+  },
+  {
+   "title": "Tabárez: Si podemos ganar sin jugar tan lindo, yo loco de la vida",
+   "url": "https://www.elobservador.com.uy/nota/tabarez-si-podemos-ganar-sin-jugar-tan-lindo-yo-loco-de-la-vida--202191001622/amp",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-09-10",
+   "eventDate": "2021-09-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Tabárez dijo que no le preocupa “jugar lindo”, que sus futbolistas \"nunca bajaron la guardia\" y que los hinchas “juegan”",
+   "verified": true
+  },
+  {
+   "title": "Tabárez: Si podemos ganar sin jugar tan lindo, yo loco de la vida",
+   "url": "https://www.elobservador.com.uy/nota/tabarez-si-podemos-ganar-sin-jugar-tan-lindo-yo-loco-de-la-vida--202191001622/amp",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-09-10",
+   "eventDate": "2021-09-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "El entrenador dijo que debió corregir algunas directivas tras darse cuenta de que el rival tenía bien analizada a la celeste.",
+   "verified": true
+  },
+  {
+   "title": "De El camino es la recompensa a hay que cerrar los esfínteres: las frases más recordadas de Tabárez",
+   "url": "https://www.elobservador.com.uy/nota/del-camino-es-la-recompensa-a-hay-que-cerrar-los-esfinteres-las-frases-mas-recordadas-de-tabarez-2021111915398",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-11-19",
+   "eventDate": "2010-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "El camino es la recompensa.",
+   "verified": true
+  },
+  {
+   "title": "De El camino es la recompensa a hay que cerrar los esfínteres: las frases más recordadas de Tabárez",
+   "url": "https://www.elobservador.com.uy/nota/del-camino-es-la-recompensa-a-hay-que-cerrar-los-esfinteres-las-frases-mas-recordadas-de-tabarez-2021111915398",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-11-19",
+   "eventDate": "2014-06-24",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Es un jugador importante, una persona importante en el grupo y si vemos que se le ataca como ya se empezó en esta conferencia de prensa, veremos cómo defenderlo.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Uruguay tiene que jugar en función del rival. Nosotros nos sentimos bien haciéndolo. Nos sentimos muy fuertes en eso de tratar de limitarlo y después crearle problemas",
+   "date": "2011",
+   "source": "https://www.elgrafico.com.ar/articulo/1089/3901/oscar-tabarez-en-primera-persona",
+   "provenance": "primary"
+  },
+  {
+   "quote": "A LA MANERA IDEAL que un entrenador quisiera ver jugar a su equipo, yo la llamo estrategia de juego. (...) La táctica aparece cuando hay un rival enfrente.",
+   "date": "2011",
+   "source": "https://www.elgrafico.com.ar/articulo/1089/3901/oscar-tabarez-en-primera-persona",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Marca individual no, pobre el que tenga que hacer eso. Algunos equipos lo han intentado alguna vez",
+   "date": "2021-06",
+   "source": "https://www.canal26.com/deportes/2021/06/18/tabarez-categorico-sobre-por-que-uruguay-no-marcara-a-messi-pobre-el-que-tenga-que-hacerlo/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "El éxito no son solo los resultados sino las dificultades que se pasan para obtenerlos, la lucha permanente, el espíritu de plantearse desafíos y la valentía para superarlos. El camino es la recompensa.",
+   "date": "2010-07",
+   "source": "https://www.elobservador.com.uy/nota/del-camino-es-la-recompensa-a-hay-que-cerrar-los-esfinteres-las-frases-mas-recordadas-de-tabarez-2021111915398",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Esto es un mundial de fútbol, no de moralidad barata",
+   "date": "2014-06-24",
+   "source": "https://www.elobservador.com.uy/nota/del-camino-es-la-recompensa-a-hay-que-cerrar-los-esfinteres-las-frases-mas-recordadas-de-tabarez-2021111915398",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Como dijo alguna vez algún entrenador, hay que cerrar los esfínteres, todos, principalmente la boca.",
+   "date": "2012-09",
+   "source": "https://www.elobservador.com.uy/nota/del-camino-es-la-recompensa-a-hay-que-cerrar-los-esfinteres-las-frases-mas-recordadas-de-tabarez-2021111915398",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We have worked hard at youth level and we only have a little over three million inhabitants. When you produce one great player in Uruguay, that’s equal to 20 in Brazil and 10 in Argentina. Therefore, we have had to approach the game differently compared to everyone else.",
+   "date": "2018-06",
+   "source": "https://thesefootballtimes.co/2018/06/20/how-oscar-tabarez-used-philosophy-and-garra-charrua-to-return-uruguay-to-the-top-table/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Nos habían estudiado muy bien, evidentemente. Conozco a (Gustavo) Alfaro, es un gran entrenador, esos detalles no se le van",
+   "date": "2021-09-09",
+   "source": "https://www.elobservador.com.uy/nota/tabarez-si-podemos-ganar-sin-jugar-tan-lindo-yo-loco-de-la-vida--202191001622/amp",
+   "provenance": "attributed"
+  }
+ ],
+ "spellsCounted": [
+  {
+   "club": "Uruguay national team",
+   "start": "2006-03-06",
+   "end": "2021-11-19",
+   "reason": "2010 World Cup semi-final, 2011 Copa América title, four World Cups, recognisable 4-4-2 and renewal process with tactical coverage"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Peñarol",
+   "start": "1987",
+   "end": "1987",
+   "reason": "Copa Libertadores 1987 title but not researched in this run (no sources mined); candidate to add, years from memory"
+  },
+  {
+   "club": "Uruguay national team",
+   "start": "1988",
+   "end": "1990",
+   "reason": "First spell (1990 World Cup, 1989 Copa América final); no tactical sources mined; years from search summary"
+  },
+  {
+   "club": "Boca Juniors",
+   "start": "1991",
+   "end": "1993",
+   "reason": "Local title but no tactical coverage mined; years from search summary"
+  },
+  {
+   "club": "Milan",
+   "start": "1996",
+   "end": "1996",
+   "reason": "Short, unsuccessful spell; below the counted threshold; year from search summary"
+  },
+  {
+   "club": "Cagliari, Vélez Sarsfield, Boca Juniors (2002), Oviedo, others",
+   "start": "1994",
+   "end": "2002",
+   "reason": "No major titles or recognisable style research; dates approximate from search summaries"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://vavel.com/ar/futbol-argentino/2015/06/10/498963-la-tactica-uruguaya-4-4-2-duro-y-con-mucha-presion.html",
+   "reason": "403"
+  },
+  {
+   "url": "https://africa.espn.com/football/story/_/id/37449085/how-oscar-tabarez-helped-uruguay-reemerge-south-american-power",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/8281085/maestro-tabarez-era-ciclo-seleccion-uruguay-definiciones-grandes-personalidades-figuras",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [
+   "build-up"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several B-C sources agree on 4-4-2, compact block and set pieces for 2011-2021, but no tier A source, no marking or build-up evidence, dates from search summary."
+ }
+}

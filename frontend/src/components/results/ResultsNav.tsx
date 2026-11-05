@@ -4,10 +4,10 @@ import { t } from '../../i18n';
 const SECTIONS = [
   { id: 'eixos-resultado', label: () => t.resultsNavAxes },
   { id: 'assinatura', label: () => t.resultsNavSignature },
-  { id: 'paises', label: () => t.resultsNavCountries },
-  { id: 'personalidades', label: () => t.resultsNavPersonalities },
-  { id: 'areas', label: () => t.resultsNavAreas },
-  { id: 'ideologias', label: () => t.resultsNavIdeologies },
+  { id: 'times', label: () => t.resultsNavTeams },
+  { id: 'treinadores', label: () => t.resultsNavManagers },
+  { id: 'areas', label: () => t.resultsNavCategories },
+  { id: 'ideias-de-jogo', label: () => t.resultsNavFootballIdeologies },
   { id: 'bussola', label: () => t.resultsNavCompass },
 ];
 

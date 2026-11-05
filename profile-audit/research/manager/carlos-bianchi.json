@@ -1,0 +1,521 @@
+{
+ "id": "carlos-bianchi",
+ "catalog": "manager",
+ "name": "Carlos Bianchi",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1993-02-21",
+  "end": "2004-07-04"
+ },
+ "spellsCounted": [
+  {
+   "club": "Vélez Sarsfield",
+   "start": "1993-02-21",
+   "end": "1996-06-30",
+   "reason": "Clausura 1993, Apertura 1995, Clausura 1996, Libertadores and Intercontinental 1994, Interamericana 1996. Start = first match on the bench (21 Feb 1993); Wikipedia says he returned in December 1992 and its table gives 1 July 1993, so the exact day he took charge is unconfirmed. End is Wikipedia's table date (1996-06-30), single source."
+  },
+  {
+   "club": "Boca Juniors",
+   "start": "1998-07-09",
+   "end": "2001-12-31",
+   "reason": "Apertura 1998, Clausura 1999, Apertura 2000, Libertadores 2000 and 2001, Intercontinental 2000, 40-match unbeaten record. Dates from Wikipedia's table only (single source)."
+  },
+  {
+   "club": "Boca Juniors",
+   "start": "2003-01-01",
+   "end": "2004-07-04",
+   "reason": "Apertura 2003, Libertadores 2003, Intercontinental 2003. Start per Wikipedia table (1 Jan 2003); Página/12 (2002-12-22) says he would start 6 January 2003. End per Wikipedia table, single source."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Roma",
+   "start": "1996-07-01",
+   "end": "1997-04-07",
+   "reason": "31 matches (12W 9D 10L, Wikipedia), no titles, dismissed; no tactical coverage found. Short, failed."
+  },
+  {
+   "club": "Atlético Madrid",
+   "start": "2005-07-01",
+   "end": "2006-01-12",
+   "reason": "21 matches (6W 8D 7L), no titles, dismissed; no tactical coverage found."
+  },
+  {
+   "club": "Boca Juniors",
+   "start": "2013-01",
+   "end": "2014",
+   "reason": "Third spell: no major titles, sacked; no sources mined; 2013 snippets (4-4-1-1 with Riquelme) not verified; outside the period that made him known."
+  },
+  {
+   "club": "Reims, Nice, Paris FC (France)",
+   "start": "1985-03",
+   "end": "1992",
+   "reason": "Second division and relegation-battle spells with no titles; digest says methods there were 'geared towards discipline and aggression' but they are pre-fame."
+  }
+ ],
+ "scopeNote": "Counted: Vélez 1993-96 and Boca 1998-2001 and 2003-04, the spells behind his record of four Libertadores titles. Style per sources: a 4-3-1-2 with Riquelme as enganche (El Gráfico/La Nación/Télam), 'nobody changes a formula that gives results', pragmatic and system-adaptive ('Los sistemas siempre los definí en función a los jugadores'); Vélez could go to a 5-3-2 away (1994 final). Partial dates in spellsExcluded (2013-01, 2014, 1985-03, 1992) are used because exact days were not researched for excluded spells. Dates are partial or single-source: Wikipedia's table gives 1 July 1993 for the Vélez start while the text says he took over in December 1992 (first match 1993-02-21). The popular 'Virrey' label comes from Vélez. No source mined states zonal vs man-marking as policy; the only marking evidence is a personal marker on Figo in the 2000 Intercontinental plus an offside trap. Evidence for the 2003-04 spell is thin (mostly retrospectives of the 2003 titles); the pressing and transitions evidence is a single 2001 match report.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact start day at Vélez (December 1992 appointment vs 21 Feb 1993 first match vs 1 July 1993 in Wikipedia table) and exact end days of all spells (Wikipedia table only).",
+  "Zonal vs man-marking policy not found: only evidence is Matellán's personal marking of Figo (2000-11-28) and an offside trap; defensive scheme at Vélez 1993-96 unconfirmed beyond the 5-3-2 away at the 1994 final.",
+  "Boca's formation is described as 4-3-1-2 (Télam, La Nación) but as 4-4-1-1 in a Goal retrospective of the 2001 Palmeiras match: contested label.",
+  "Boca 2013-14 spell was excluded without mining; reconsider if the app needs a late-career profile.",
+  "Little 2003-04 tactical coverage; the 2003 Boca (Tevez) and the 3-4-3 mentioned in a search summary against Vélez (ESPN page unreadable) were not verified."
+ ],
+ "sources": [
+  {
+   "title": "Bianchi no cambiará los actuales sistemas de juego (Télam)",
+   "url": "https://www.rionegro.com.ar/?p=27725",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-02-10",
+   "eventDate": "2001-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Boca habitualmente dispone a sus hombres en el campo de juego con un esquema de 4-3-1-2, y en ese sentido, Bianchi reiteró en varias ocasiones que “nadie cambia una fórmula que da resultados”.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Boca jugaba 4-3-1-2. \"¿Y la Juventus de Zidane cómo jugaba?\", comparaba con el equipo italiano por esos tiempos Bianchi porque muchos veían lo moderno en los espejos europeos.",
+   "verified": true
+  },
+  {
+   "title": "El partido más riquelmeano de Román (Goal)",
+   "url": "https://www.goal.com/es-ar/noticias/el-partido-mas-riquelmeano-de-roman/1puin3tflyxvf1f9w3u76p8zyc",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-11-01",
+   "eventDate": "2001-06-13",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "4-4-1-1. Bianchi no salió a especular, porque los primeros 35 minutos fueron casi todos de Boca, pero no regaló ni un espacio.",
+   "verified": true
+  },
+  {
+   "title": "O clube de bairro que se fez do tamanho do mundo (Trivela)",
+   "url": "https://trivela.com.br/mundo/o-clube-de-bairro-que-se-fez-do-tamanho-do-mundo-25-anos-das-glorias-do-velez-de-bianchi/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-12-05",
+   "eventDate": "1994-08-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Sem Sotomayor no miolo de zaga, Bianchi preferiu escalar o Vélez num 5-3-2, protegendo mais a defesa com as entradas de Héctor Almandoz e Mauricio Pellegrino.",
+   "verified": true
+  },
+  {
+   "title": "Carlos Bianchi: pasado de copas (El Gráfico, interview with Fox Sports)",
+   "url": "https://www.elgrafico.com.ar/articulo/0/4644/carlos-bianchi-pasado-de-copas",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-02-13",
+   "eventDate": "1998-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Cuando vi sus características, no tuve dudas: para mí, era el 10 ideal, ese jugador que podía hacer jugar a los dos de adelante, a los marcadores de punta o a un volante llegando por sorpresa.",
+   "verified": true
+  },
+  {
+   "title": "The bold brilliance of Carlos Bianchi (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/26/carlos-bianchi-and-the-art-of-winning-the-copa-libertadores",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "1998/99",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Setting Riquelme free in the number 10 position and allowing him to stay up-field and drift into space, the mercurial midfielder repaid the faith by helping Boca lift three domestic titles in 1998, 1999 and 2000.",
+   "verified": true
+  },
+  {
+   "title": "A forensic analysis of Riquelme's magnum opus v Real Madrid (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-riquelmes-magnum-opus-mundial-display-v-real-madrid",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-02-11",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Riquelme was in the groove, fully aware of what was required to keep his side in the lead. He was not a great one for defending, but if you can keep the ball in the opposition half, push them back and draw fouls, then you do not need to.",
+   "verified": true
+  },
+  {
+   "title": "Página/12 (Boca 3-0 Vasco, Libertadores)",
+   "url": "https://www.pagina12.com.ar/2001/01-05/01-05-31/pag21.htm",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-05-31",
+   "eventDate": "2001-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "el equipo de Bianchi se plantó muy adelante, ejerció profunda presión sobre el mediocampo rival y en sólo un minuto creó tres situaciones de gol.",
+   "verified": true
+  },
+  {
+   "title": "A forensic analysis of Riquelme's magnum opus v Real Madrid (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-riquelmes-magnum-opus-mundial-display-v-real-madrid",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-02-11",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Unfortunately for them, the offside trap set by Bianchi was working perfectly. Twice Madrid put the ball into the Boca net in the second period, twice the assistant’s flag was raised.",
+   "verified": true
+  },
+  {
+   "title": "En el recuerdo: Boca Campeón Intercontinental 2000 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/8031/en-el-recuerdo-boca-campeon-intercontinental-2000",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "sacó del equipo a Daniel Fagiani, que había sido titular durante todo el proceso previo, y en su lugar incluyó a Aníbal Matellán, que se encargaría de la marca personal de Figo.",
+   "verified": true
+  },
+  {
+   "title": "The bold brilliance of Carlos Bianchi (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/26/carlos-bianchi-and-the-art-of-winning-the-copa-libertadores",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "1994",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Everyone knew their roles in the finest detail, with Bianchi spending hours on the training ground perfecting their set-piece routines and defensive stability.",
+   "verified": true
+  },
+  {
+   "title": "The bold brilliance of Carlos Bianchi (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/26/carlos-bianchi-and-the-art-of-winning-the-copa-libertadores",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "1994",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Everyone knew their roles in the finest detail, with Bianchi spending hours on the training ground perfecting their set-piece routines and defensive stability.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Voy a tratar de poner un equipo que esté preparado para correr, sobre todo, o para estar en el nivel del ritmo que va a imponer Palmeiras.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "El 4-3-1-2 no se modificaría y los laterales Ibarra y Arruabarrena seguirían pasando al ataque, pero en la línea de volantes necesitaba reforzar la marca, el oficio y el despliegue físico",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Bianchi había hecho un cambio a los 26 minutos del primer tiempo (Battaglia por Marchant), algo inusual en él.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "\"Los sistemas siempre los definí en función a los jugadores que tenía, me acomodaba a las situaciones\".",
+   "verified": true
+  },
+  {
+   "title": "En el recuerdo: Boca Campeón Intercontinental 2000 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/8031/en-el-recuerdo-boca-campeon-intercontinental-2000",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“Quedate tranquilo –le dijo Bianchi a un Palermo que seguía lamentándose en el entretiempo-. Nosotros no hacemos el 3-1 pero ellos tampoco nos empatan”.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "quienes rodearon al enganche ese día fueron José Basualdo, Cristian Traverso y Sebastián Battaglia.",
+   "verified": true
+  },
+  {
+   "title": "Página/12 (Boca-Racing)",
+   "url": "https://www.pagina12.com.ar/2001/01-11/01-11-02/pag27.htm",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-11-02",
+   "eventDate": "2001-11-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Bianchi elogió la actuación de Juan Román Riquelme, pero también la de los juveniles Joel Barbosa y Gustavo Pinto, “que cumplieron a la perfección”",
+   "verified": true
+  },
+  {
+   "title": "Bianchi no cambiará los actuales sistemas de juego (Télam)",
+   "url": "https://www.rionegro.com.ar/?p=27725",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-02-10",
+   "eventDate": "2001-02",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "el técnico elogió a Antonio Barijho, quien reemplazará al goleador Martín Palermo",
+   "verified": true
+  },
+  {
+   "title": "O clube de bairro que se fez do tamanho do mundo (Trivela)",
+   "url": "https://trivela.com.br/mundo/o-clube-de-bairro-que-se-fez-do-tamanho-do-mundo-25-anos-das-glorias-do-velez-de-bianchi/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-12-05",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El Virrey iniciou um projeto com claro intuito de fomentar a ascensão dos pratas da casa, pensando no médio prazo.",
+   "verified": true
+  },
+  {
+   "title": "En el recuerdo: Boca Campeón Intercontinental 2000 (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/8031/en-el-recuerdo-boca-campeon-intercontinental-2000",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-11-28",
+   "eventDate": "2000-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "sacó del equipo a Daniel Fagiani, que había sido titular durante todo el proceso previo",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "En realidad, fue un equipo con más de 20 titulares.",
+   "verified": true
+  },
+  {
+   "title": "Carlos Bianchi: pasado de copas (El Gráfico, interview with Fox Sports)",
+   "url": "https://www.elgrafico.com.ar/articulo/0/4644/carlos-bianchi-pasado-de-copas",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-02-13",
+   "eventDate": "2000-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“Hoy es jueves, vas a trabajar toda la semana, pero quedate tranquilo, que el miércoles vas a ir al banco”, le dije.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-06-21",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "se dieron cuenta que debajo había una nota. En realidad, fueron 18 fotocopias prolijamente pegadas con cinta blanca que correspondían a una entrevista realizada por Pablo Tomino y publicada por LA NACION",
+   "verified": true
+  },
+  {
+   "title": "O clube de bairro que se fez do tamanho do mundo (Trivela)",
+   "url": "https://trivela.com.br/mundo/o-clube-de-bairro-que-se-fez-do-tamanho-do-mundo-25-anos-das-glorias-do-velez-de-bianchi/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-12-05",
+   "eventDate": "1994-08-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Já nos vestiários, Bianchi aproveitou esse jogo psicológico ao trazer a entrevista de Telê, tratada como um menosprezo ao Fortín.",
+   "verified": true
+  },
+  {
+   "title": "O clube de bairro que se fez do tamanho do mundo (Trivela)",
+   "url": "https://trivela.com.br/mundo/o-clube-de-bairro-que-se-fez-do-tamanho-do-mundo-25-anos-das-glorias-do-velez-de-bianchi/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2019-12-05",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "O técnico é descrito pela maioria de seus pupilos como um tipo respeitoso e sincero, que assim também ganhava o respeito e conseguia tirar o máximo.",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Ahora no nos para nadie. Está en nosotros demostrar que somos los mejores. Hoy nos la pusieron muy difícil, pero seguimos en carrera porque somos un equipo solidario.",
+   "verified": true
+  },
+  {
+   "title": "The bold brilliance of Carlos Bianchi (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/26/carlos-bianchi-and-the-art-of-winning-the-copa-libertadores",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "He only cared about winning at Vélez – it didn’t have to be pretty. At Boca, however, with the likes of Riquelme and Barros Schelotto at his disposal, Bianchi believed that football could be beautiful.",
+   "verified": false
+  },
+  {
+   "title": "Bianchi no cambiará los actuales sistemas de juego (Télam)",
+   "url": "https://www.rionegro.com.ar/?p=27725",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2001-02-10",
+   "eventDate": "2001-02-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "nadie cambia una fórmula que da resultados",
+   "verified": true
+  },
+  {
+   "title": "La primera Copa Libertadores de Bianchi en Boca (La Nación)",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-20",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Los sistemas siempre los definí en función a los jugadores que tenía, me acomodaba a las situaciones",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "nadie cambia una fórmula que da resultados",
+   "date": "2001-02-10",
+   "source": "Télam via Diario Río Negro: https://www.rionegro.com.ar/?p=27725",
+   "provenance": "primary",
+   "note": "Also: 'Sino, fíjense en una famosa marca de gaseosa o de un poderoso auto que siempre gana las carreras, y no cambian la marca'."
+  },
+  {
+   "quote": "Los sistemas siempre los definí en función a los jugadores que tenía, me acomodaba a las situaciones",
+   "date": "2020-06-20",
+   "source": "La Nación: https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "provenance": "attributed",
+   "note": "Date is the La Nación article date (original date unknown). Companion line: 'Cuando yo me siento a comer, como lo que me ponen'. Press label: critics called Boca's system old and obsolete in 2000; Bianchi answered 'Ganamos jugando al fútbol. Para los que decían que utilizábamos un sistema viejo...' (2000-06-21, attributed in La Nación 2020)."
+  },
+  {
+   "quote": "Yo conozco todos los puntos fuertes y los débiles de Boca. Y sé cómo debo parar al equipo en una circunstancia como ésta.",
+   "date": "2000-06",
+   "source": "La Nación: https://www.lanacion.com.ar/deportes/futbol/la-primera-copa-libertadores-bianchi-boca-20-nid2382513/",
+   "provenance": "attributed",
+   "note": "Said after the 2-2 first leg of the 2000 Libertadores final; the digest quotes it from the 2020 retrospective."
+  },
+  {
+   "quote": "Llegar es fácil, confirmar es difícil. Una de las grandes suertes para un técnico es encontrar un plantel que lo escuche.",
+   "date": "2012",
+   "source": "El Gráfico / Fox Sports interview: https://www.elgrafico.com.ar/articulo/0/4644/carlos-bianchi-pasado-de-copas",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Quedate tranquilo. Nosotros no hacemos el 3-1 pero ellos tampoco nos empatan",
+   "date": "2000-11-28",
+   "source": "El Gráfico: https://www.elgrafico.com.ar/articulo/1088/8031/en-el-recuerdo-boca-campeon-intercontinental-2000",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Esta era una buena ocasión para cada uno de los jugadores, en el sentido de decirme a mí que tienen que estar presentes el 27 de noviembre contra Bayern Munich.",
+   "date": "2001-11-01",
+   "source": "Página/12: https://www.pagina12.com.ar/2001/01-11/01-11-02/pag27.htm",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Eu queria deixar uma marca internacional no Vélez. Era uma equipe que dava, não pedia. Não eram fenômenos, mas inteligentes.",
+   "date": "2019-12-05",
+   "source": "Trivela (Portuguese translation): https://trivela.com.br/mundo/o-clube-de-bairro-que-se-fez-do-tamanho-do-mundo-25-anos-das-glorias-do-velez-de-bianchi/",
+   "provenance": "attributed",
+   "note": "Date is the Trivela article date; the TyC Sports interview date is unknown and the original Spanish wording was not found."
+  },
+  {
+   "quote": "E que ninguém pense que só o São Paulo vai atacar no Morumbi. Esperem para ver",
+   "date": "1994-08",
+   "source": "Trivela: https://trivela.com.br/mundo/o-clube-de-bairro-que-se-fez-do-tamanho-do-mundo-25-anos-das-glorias-do-velez-de-bianchi/",
+   "provenance": "attributed",
+   "note": "After the Libertadores final first leg (Portuguese translation)."
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://espndeportes.espn.com/futbolargentino/noticias/bienahi2mayo03.html",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbolargentino/noticias/bianchinopromete20021223.html",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbolargentino/noticias/bianchiriquel240303.html",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/12259909/boca-juniors-efermeride-llegada-carlos-bianchi-virrey",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Mostly tier B-C Spanish and Portuguese press and retrospectives; good on shape, stated view, people management and squad building for 1994 and 2000-01, thin on pressing, transitions, marking and the 2003-04 spell."
+ }
+}

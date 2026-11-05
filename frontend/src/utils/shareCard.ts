@@ -1,30 +1,39 @@
 import { t } from '../i18n';
-import type { PersonalityMatch, QuizPayload, QuizResult } from '../types/quiz';
-import { resolveCountryFlagSrc } from './countryFlags';
-import { personalityInitials, resolvePersonalityImageSrc } from './personalityImage';
-import { resolveIdeologyColor } from './ideologyColors';
-import { FILLED_POLE_ICONS } from '../data/filledPoleIcons';
-import { religiousPoleIcon } from '../data/religionIcons';
-import type { Religion } from './religion';
+import type { FootballIdeologyMatch, ManagerMatch, QuizPayload, QuizResult } from '../types/quiz';
+import { profileInitials, resolveProfileImageSrc } from './profileImage';
+import { POLE_GLYPH_PATHS } from '../components/AxisIcon';
 import { tokens } from '../styles/tokens.generated';
+import { cardName, futTier } from '../components/results/FutCard';
+import { ratingTier, topAgreements } from './agreement';
 
 /**
  * Cartão de compartilhamento social — formato stories 1080x1920.
  *
- * O fundo é a cor base da categoria de espectro do top match; os destaques
- * usam o pastel da mesma categoria. Ver
- * docs/nova-identidade/12axes-identidade-visual.md §11.
+ * Fundo de gramado com linhas de cal; o treinador mais compatível vira
+ * uma carta do Ultimate Team e as porcentagens viram notas no estilo Sofascore.
  */
 export const SHARE_WIDTH = 1080;
 export const SHARE_HEIGHT = 1920;
 
-const SHARE_FONT_DISPLAY = '"Sora"';
-const SHARE_FONT_BODY = '"Poppins"';
+const SHARE_FONT_DISPLAY = '"Open Sans"';
+const SHARE_FONT_BODY = '"Open Sans"';
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
 export const SHARE_COLORS = {
   papel: tokens.papel,
-  tinta: tokens.tinta
+  tinta: tokens.tinta,
+  accent: tokens['pitch-accent'],
+  pitch: tokens['pitch-stripe-b'],
+  panel: tokens['share-panel'],
+  panelLine: tokens['share-panel-line']
+};
+
+const FUT_WIDTH = 390;
+const FUT_HEIGHT = Math.round((FUT_WIDTH * 16) / 11);
+const FUT_TIERS: Record<string, { a: string; b: string; ink: string }> = {
+  'fut-gold': { a: tokens['fut-gold-a'], b: tokens['fut-gold-b'], ink: tokens['fut-gold-ink'] },
+  'fut-silver': { a: tokens['fut-silver-a'], b: tokens['fut-silver-b'], ink: tokens['fut-silver-ink'] },
+  'fut-bronze': { a: tokens['fut-bronze-a'], b: tokens['fut-bronze-b'], ink: tokens['fut-bronze-ink'] }
 };
 
 type Style = Partial<CSSStyleDeclaration>;
@@ -52,16 +61,6 @@ function hexToRgb(hex: string): [number, number, number] {
   return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
 }
 
-/** Mistura `a` e `b` com `ratioA` peso de `a` (equivalente a color-mix). */
-function mixHex(a: string, b: string, ratioA: number): string {
-  const [ar, ag, ab] = hexToRgb(a);
-  const [br, bg, bb] = hexToRgb(b);
-  const r = Math.round(ar * ratioA + br * (1 - ratioA));
-  const g = Math.round(ag * ratioA + bg * (1 - ratioA));
-  const bl = Math.round(ab * ratioA + bb * (1 - ratioA));
-  return `rgb(${r}, ${g}, ${bl})`;
-}
-
 function rgba(hex: string, alpha: number): string {
   const [r, g, b] = hexToRgb(hex);
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
@@ -81,63 +80,13 @@ function svgEl(tag: string, attrs: Record<string, string | number>): SVGElement 
   return node;
 }
 
-const sharePoleIconPaths: Record<string, Record<PoleSide, string[]>> = {
-  estrutura: {
-    left: ['M4 10h16', 'M6 10v8', 'M10 10v8', 'M14 10v8', 'M18 10v8', 'M3 18h18', 'm12 4 8 4H4l8-4Z'],
-    right: ['M6 8h12v12H6z', 'M9 8V5h6v3', 'M9 12h6', 'M9 16h6']
-  },
-  representacao: {
-    left: ['M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M16 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M3 20a5 5 0 0 1 10 0', 'M11 20a5 5 0 0 1 10 0'],
-    right: ['m4 9 4 3 4-7 4 7 4-3-2 10H6L4 9Z', 'M8 19h8']
-  },
-  poder: {
-    left: ['M12 3 5 6v5c0 4.2 2.7 7.9 7 10 4.3-2.1 7-5.8 7-10V6l-7-3Z', 'm9 12 2 2 4-5'],
-    right: ['M12 3v18', 'M6 9h12', 'M8 21h8', 'M5 13c1.5 2 4.5 2 6 0', 'M13 13c1.5 2 4.5 2 6 0']
-  },
-  imigracao: {
-    left: ['M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M2 19a5 5 0 0 1 10 0', 'M15 5h5', 'M15 10h5', 'M15 15h5'],
-    right: ['M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'M3 20a5 5 0 0 1 10 0', 'M14 8h6', 'm17 5 3 3-3 3', 'M15 16h6', 'm18 13 3 3-3 3']
-  },
-  diplomacia: {
-    left: ['M5 20V4', 'M5 5h11l-2 4 2 4H5'],
-    right: ['M6 19c6-2 10-6 12-13', 'M7 8c3 1 5 3 6 6', 'M5 13c4 0 7 1 10 4', 'M18 6c-3-1-6-1-9 1']
-  },
-  intervencao: {
-    left: ['M7 12h10', 'm10 8-4 4 4 4', 'M18 5v14'],
-    right: ['M6 20V4', 'M6 5h11l-2 4 2 4H6', 'M4 20h8']
-  },
-  economia: {
-    left: ['M5 11h14', 'M7 11v8', 'M17 11v8', 'M12 5v14', 'M4 19h16'],
-    right: ['M12 3v18', 'M17 7.5C16 5.8 14.3 5 12 5 9.2 5 7.5 6.3 7.5 8.5S9 12 12 12s4.5 1.2 4.5 3.5S14.8 19 12 19c-2.3 0-4-.8-5-2.5']
-  },
-  controle: {
-    left: ['M4 7h16', 'M4 12h16', 'M4 17h16', 'M9 5v4', 'M15 10v4', 'M11 15v4'],
-    right: ['M12 3v18', 'M17 7.5C16 5.8 14.3 5 12 5 9.2 5 7.5 6.3 7.5 8.5S9 12 12 12s4.5 1.2 4.5 3.5S14.8 19 12 19c-2.3 0-4-.8-5-2.5']
-  },
-  comercio: {
-    left: ['M12 3 5 6v5c0 4.2 2.7 7.9 7 10 4.3-2.1 7-5.8 7-10V6l-7-3Z', 'm9 12 2 2 4-5'],
-    right: ['M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z', 'M3 12h18', 'M12 3c2.4 2.5 3.6 5.5 3.6 9S14.4 18.5 12 21', 'M12 3c-2.4 2.5-3.6 5.5-3.6 9s1.2 6.5 3.6 9']
-  },
-  religiao: {
-    left: ['M12 4v16', 'M4 12h16', 'M6 18 18 6'],
-    right: ['M12 3v18', 'M7 8h10', 'M6 20h12']
-  },
-  moral: {
-    left: ['M20 8c0 6-8 11-8 11S4 14 4 8a4 4 0 0 1 7-2.7A4 4 0 0 1 20 8Z'],
-    right: ['M7 4h10', 'M8 20h8', 'M9 4c0 5 6 5 6 10 0 2-1.3 4-3 6-1.7-2-3-4-3-6 0-5 6-5 6-10']
-  },
-  tecnologia: {
-    left: ['M8 8h8v8H8z', 'M4 10h4', 'M4 14h4', 'M16 10h4', 'M16 14h4', 'M10 4v4', 'M14 4v4', 'M10 16v4', 'M14 16v4'],
-    right: ['M5 19c8 0 13-5 14-14-7 1-13 5-14 14Z', 'M5 19c4-5 8-8 14-14']
-  }
-};
+// Equilibrado não puxa para polo nenhum: fica no cinza neutro.
+const BALANCED_ACCENT = tokens['slate-bg'];
 
 export function buildShareCard(
   result: QuizResult,
-  quiz: QuizPayload,
-  religion: Religion | null = null
+  quiz: QuizPayload
 ): { stage: HTMLDivElement; target: HTMLDivElement; backgroundColor: string } {
-  const color = resolveIdeologyColor(result.topMatch.category);
   const stage = el('div', {
     position: 'fixed',
     top: '0',
@@ -175,17 +124,15 @@ export function buildShareCard(
 
   content.append(
     buildShareHeader(),
-    buildShareIdentity(result, color.bg),
-    buildShareTwoColumns(result, quiz, color, religion),
-    buildShareLists(result, color),
+    ...(result.topMatch ? [buildShareIdentity(result.topMatch)] : []),
+    buildShareTwoColumns(result, quiz),
+    buildShareLists(result),
     buildShareFooter()
   );
 
   target.append(content);
-  target.dataset.shareBase = color.base;
-  target.dataset.shareCircle = mixHex(color.base, SHARE_COLORS.papel, 0.9);
   stage.append(target);
-  return { stage, target, backgroundColor: color.base };
+  return { stage, target, backgroundColor: SHARE_COLORS.pitch };
 }
 
 function buildShareHeader(): HTMLElement {
@@ -218,13 +165,13 @@ function buildShareHeader(): HTMLElement {
   );
   const brand = header.firstChild as HTMLElement;
   brand.append(
-    el('span', {}, '12'),
-    el('span', { fontFamily: SHARE_FONT_BODY, fontWeight: '400' }, 'axes')
+    el('span', { color: SHARE_COLORS.accent }, '12'),
+    el('span', { fontFamily: SHARE_FONT_BODY, fontWeight: '800' }, 'Axes Football')
   );
   return header;
 }
 
-function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
+function buildShareIdentity(top: FootballIdeologyMatch): HTMLElement {
   const P = SHARE_COLORS.papel;
   const wrap = el('div', { display: 'flex', flexDirection: 'column', gap: '0', marginTop: '18px' });
   wrap.append(
@@ -234,8 +181,8 @@ function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
       fontSize: '34px',
       letterSpacing: '0.18em',
       textTransform: 'uppercase',
-      color: bgColor
-    }, result.topMatch.category),
+      color: SHARE_COLORS.accent
+    }, top.category),
     el('div', {
       fontFamily: SHARE_FONT_DISPLAY,
       fontWeight: '600',
@@ -244,16 +191,14 @@ function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
       letterSpacing: '-0.02em',
       color: P,
       marginTop: '-8px'
-    }, result.topMatch.name)
+    }, top.name)
   );
   return wrap;
 }
 
 function buildShareTwoColumns(
   result: QuizResult,
-  quiz: QuizPayload,
-  color: { base: string; bg: string },
-  religion: Religion | null
+  quiz: QuizPayload
 ): HTMLElement {
   const row = el('div', {
     display: 'flex',
@@ -263,56 +208,31 @@ function buildShareTwoColumns(
     minHeight: '920px',
     marginTop: '8px'
   });
-  row.append(
-    buildSharePersonalityPortrait(result.topPersonalityMatch, color),
-    buildShareAxesColumn(result, quiz, color, religion)
-  );
+  if (result.topManagerMatch) {
+    row.append(buildShareManagerColumn(result.topManagerMatch, result, quiz));
+  }
+  row.append(buildShareAxesColumn(result, quiz));
   return row;
 }
 
-function buildSharePersonalityPortrait(
-  person: PersonalityMatch,
-  color: { base: string; bg: string }
-): HTMLElement {
+function buildShareManagerColumn(person: ManagerMatch, result: QuizResult, quiz: QuizPayload): HTMLElement {
   const P = SHARE_COLORS.papel;
-  const frame = el('div', {
-    position: 'relative',
-    flex: '0 0 390px',
-    height: '920px',
-    borderRadius: '36px',
-    overflow: 'hidden'
-  });
-
-  // A foto, o véu e o degradê são compostos no canvas, embaixo deste texto.
-  frame.dataset.shareImage = 'portrait';
-  frame.dataset.shareSrc = resolvePersonalityImageSrc(person.imagePath);
-
-  const text = el('div', {
-    position: 'absolute',
-    left: '32px',
-    right: '32px',
-    bottom: '32px',
+  const col = el('div', {
+    flex: `0 0 ${FUT_WIDTH}px`,
     display: 'flex',
     flexDirection: 'column',
-    gap: '4px'
+    gap: '6px'
   });
-  const pct = clamp(person.compatibility);
-  text.append(
-    el('div', {
-      fontFamily: SHARE_FONT_DISPLAY,
-      fontWeight: '700',
-      fontSize: '84px',
-      lineHeight: '1',
-      letterSpacing: '-3px',
-      color: color.bg
-    }, `${Math.round(pct)}%`),
+  col.append(
+    buildShareFutCard(person, result, quiz),
     el('div', {
       fontFamily: SHARE_FONT_BODY,
       fontWeight: '600',
       fontSize: '26px',
       letterSpacing: '4px',
       textTransform: 'uppercase',
-      color: color.bg
+      color: SHARE_COLORS.accent,
+      marginTop: '34px'
     }, t.shareMostCompatible),
     el('div', {
       fontFamily: SHARE_FONT_DISPLAY,
@@ -320,27 +240,81 @@ function buildSharePersonalityPortrait(
       fontSize: '48px',
       lineHeight: '1.15',
       letterSpacing: '-1px',
-      color: P,
-      marginTop: '6px'
+      color: P
     }, person.name),
     el('div', {
       fontFamily: SHARE_FONT_BODY,
       fontSize: '30px',
       color: rgba(P, 0.82)
-    }, person.role)
+    }, person.period)
   );
-  frame.append(text);
+  return col;
+}
 
-  return frame;
+// Carta do Ultimate Team: o fundo metálico e a foto são desenhados no canvas
+// (drawFutCard); aqui ficam só os textos, nas mesmas posições do FutCard.tsx.
+function buildShareFutCard(person: ManagerMatch, result: QuizResult, quiz: QuizPayload): HTMLElement {
+  const rating = Math.round(clamp(person.compatibility));
+  const tier = futTier(rating, false);
+  const ink = FUT_TIERS[tier].ink;
+  const unit = FUT_WIDTH / 15;
+  const card = el('div', {
+    position: 'relative',
+    width: `${FUT_WIDTH}px`,
+    height: `${FUT_HEIGHT}px`,
+    flex: '0 0 auto',
+    fontFamily: SHARE_FONT_DISPLAY,
+    color: ink
+  });
+  card.dataset.shareImage = 'portrait';
+  card.dataset.shareSrc = resolveProfileImageSrc(person.imagePath);
+  card.dataset.shareTier = tier;
+
+  const side: Style = { position: 'absolute', left: '7%', width: '26%', textAlign: 'center' };
+  const ovr = el('div', { ...side, top: '12%', fontSize: `${unit * 2.4}px`, fontWeight: '800', lineHeight: '1', letterSpacing: '-0.03em' }, String(rating));
+  ovr.append(el('span', { fontSize: '0.42em', fontWeight: '700' }, '%'));
+  const stats = topAgreements(person.vector, quiz.axes, new Map(result.axes.map((axis) => [axis.axisId, axis])), 6);
+  const grid = el('div', {
+    position: 'absolute',
+    left: '15%',
+    right: '12%',
+    top: '68%',
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
+    gap: `${unit * 0.3}px ${unit * 0.8}px`,
+    fontSize: `${unit * 0.95}px`
+  });
+  stats.forEach((stat) => {
+    const line = el('div', { whiteSpace: 'nowrap' });
+    line.append(el('span', { fontWeight: '800', marginRight: '0.3em' }, String(stat.value)), document.createTextNode(stat.short));
+    grid.append(line);
+  });
+  card.append(
+    ovr,
+    el('div', { ...side, top: '31%', fontSize: `${unit * 1.05}px`, fontWeight: '700', letterSpacing: '0.04em' }, t.futPosition),
+    el('div', {
+      position: 'absolute',
+      left: '8%',
+      right: '8%',
+      top: '57%',
+      paddingBottom: `${unit * 0.3}px`,
+      borderBottom: `2px solid ${ink}`,
+      fontSize: `${unit * 1.35}px`,
+      fontWeight: '800',
+      textTransform: 'uppercase',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis'
+    }, cardName(person.name)),
+    grid
+  );
+  return card;
 }
 
 function buildShareAxesColumn(
   result: QuizResult,
-  quiz: QuizPayload,
-  color: { base: string; bg: string },
-  religion: Religion | null
+  quiz: QuizPayload
 ): HTMLElement {
-  const P = SHARE_COLORS.papel;
   const col = el('div', {
     flex: '1 1 auto',
     minWidth: '0',
@@ -349,8 +323,8 @@ function buildShareAxesColumn(
     gap: '10px',
     padding: '30px 30px 26px',
     borderRadius: '36px',
-    background: 'rgba(0, 0, 0, 0.22)',
-    border: `2px solid ${rgba(P, 0.14)}`
+    background: SHARE_COLORS.panel,
+    border: `2px solid ${SHARE_COLORS.panelLine}`
   });
   col.append(el('div', {
     fontFamily: SHARE_FONT_BODY,
@@ -358,7 +332,7 @@ function buildShareAxesColumn(
     fontSize: '26px',
     letterSpacing: '4px',
     textTransform: 'uppercase',
-    color: color.bg
+    color: SHARE_COLORS.accent
   }, t.shareYourAxes));
 
   const list = el('div', {
@@ -369,16 +343,14 @@ function buildShareAxesColumn(
     justifyContent: 'space-between'
   });
   const axesById = new Map(quiz.axes.map((axis) => [axis.id, axis]));
-  result.axes.forEach((axis) => list.append(buildShareAxisLine(axis, axesById.get(axis.axisId), color, religion)));
+  result.axes.forEach((axis) => list.append(buildShareAxisLine(axis, axesById.get(axis.axisId))));
   col.append(list);
   return col;
 }
 
 function buildShareAxisLine(
   axis: QuizResult['axes'][number],
-  definition: QuizPayload['axes'][number] | undefined,
-  color: { base: string; bg: string },
-  religion: Religion | null
+  definition: QuizPayload['axes'][number] | undefined
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
   const isBalanced = axis.intensity === 'Equilibrado';
@@ -388,10 +360,10 @@ function buildShareAxisLine(
   // Mesmo lado do rótulo: equilibrado mostra o polo direito, então o ícone também.
   const side: PoleSide = isBalanced || leaningRight ? 'right' : 'left';
   const accent = isBalanced
-    ? color.bg
+    ? BALANCED_ACCENT
     : leaningRight
-      ? definition?.rightColor ?? color.bg
-      : definition?.leftColor ?? color.bg;
+      ? definition?.rightColor ?? BALANCED_ACCENT
+      : definition?.leftColor ?? BALANCED_ACCENT;
 
   const row = el('div', {
     display: 'flex',
@@ -410,7 +382,7 @@ function buildShareAxisLine(
     color: readableInk(accent),
     background: accent
   });
-  icon.append(buildPoleGlyph(axis.axisId, side, religion));
+  icon.append(buildPoleGlyph(side));
 
   const mini = el('span', {
     flex: '0 0 76px',
@@ -456,14 +428,7 @@ function buildShareAxisLine(
   return row;
 }
 
-function buildPoleGlyph(axisId: string, side: PoleSide, religion: Religion | null): SVGElement {
-  // Polo "Religioso" mostra a religião escolhida; sem escolha, a cruz.
-  const filled = (axisId === 'religiao' && side === 'right' && religiousPoleIcon(religion)) || FILLED_POLE_ICONS[axisId]?.[side];
-  if (filled) {
-    const filledSvg = svgEl('svg', { viewBox: filled.viewBox, width: 26, height: 26, fill: 'currentColor', stroke: 'none' });
-    filled.paths.forEach((d) => filledSvg.append(svgEl('path', { d, 'fill-rule': filled.fillRule ?? 'evenodd', 'clip-rule': filled.fillRule ?? 'evenodd' })));
-    return filledSvg;
-  }
+function buildPoleGlyph(side: PoleSide): SVGElement {
   const svg = svgEl('svg', {
     viewBox: '0 0 24 24',
     width: 26,
@@ -474,43 +439,37 @@ function buildPoleGlyph(axisId: string, side: PoleSide, religion: Religion | nul
     'stroke-linecap': 'round',
     'stroke-linejoin': 'round'
   });
-  const paths = sharePoleIconPaths[axisId]?.[side] ?? sharePoleIconPaths.estrutura[side];
-  paths.forEach((path) => svg.append(svgEl('path', { d: path })));
+  POLE_GLYPH_PATHS[side].forEach((path) => svg.append(svgEl('path', { d: path })));
   return svg;
 }
 
-function buildShareLists(
-  result: QuizResult,
-  color: { base: string; bg: string }
-): HTMLElement {
+function buildShareLists(result: QuizResult): HTMLElement {
   const row = el('div', {
     display: 'flex',
     gap: '24px'
   });
   row.append(
     buildShareListBox(
-      t.shareOtherPersonalities,
-      result.personalityMatches.slice(1, 4).map((person) => ({
+      t.shareOtherManagers,
+      result.managerMatches.slice(1, 4).map((person) => ({
         label: person.name,
         pct: person.compatibility,
-        avatar: resolvePersonalityImageSrc(person.imagePath),
+        avatar: resolveProfileImageSrc(person.imagePath),
         alt: person.name,
-        initials: personalityInitials(person.name)
+        initials: profileInitials(person.name)
       })),
-      color,
       'avatar'
     ),
     buildShareListBox(
-      t.shareNearbyCountries,
-      (result.topCountryMatches ?? []).slice(0, 3).map((country) => ({
-        label: country.name,
-        pct: country.compatibility,
-        avatar: resolveCountryFlagSrc(country.flagPath),
-        alt: country.name,
-        initials: country.name.slice(0, 2).toUpperCase()
+      t.shareNearbyTeams,
+      result.topTeamMatches.slice(0, 3).map((team) => ({
+        label: team.name,
+        pct: team.compatibility,
+        avatar: resolveProfileImageSrc(team.imagePath),
+        alt: team.name,
+        initials: team.name.slice(0, 2).toUpperCase()
       })),
-      color,
-      'flag'
+      'crest'
     )
   );
   return row;
@@ -527,8 +486,7 @@ interface ShareListItem {
 function buildShareListBox(
   title: string,
   items: ShareListItem[],
-  color: { base: string; bg: string },
-  kind: 'avatar' | 'flag'
+  kind: 'avatar' | 'crest'
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
   const box = el('div', {
@@ -539,8 +497,8 @@ function buildShareListBox(
     gap: '20px',
     padding: '28px 30px',
     borderRadius: '36px',
-    background: 'rgba(0, 0, 0, 0.22)',
-    border: `2px solid ${rgba(P, 0.14)}`
+    background: SHARE_COLORS.panel,
+    border: `2px solid ${SHARE_COLORS.panelLine}`
   });
   box.append(el('div', {
     fontFamily: SHARE_FONT_BODY,
@@ -548,18 +506,18 @@ function buildShareListBox(
     fontSize: '26px',
     letterSpacing: '4px',
     textTransform: 'uppercase',
-    color: color.bg
+    color: SHARE_COLORS.accent
   }, title));
 
   items.forEach((item) => {
-    const line = el('div', { display: 'flex', alignItems: 'center', gap: '18px' });
+    const line = el('div', { display: 'flex', alignItems: 'center', gap: '14px' });
     const avatarFrame = el('div', {
       flex: '0 0 auto',
       width: '76px',
       height: kind === 'avatar' ? '76px' : '52px',
       borderRadius: kind === 'avatar' ? '50%' : '10px',
       overflow: 'hidden',
-      background: mixHex(color.base, '#000000', 0.6),
+      background: tokens['pes-bg-a'],
       display: 'grid',
       placeItems: 'center',
       fontFamily: SHARE_FONT_DISPLAY,
@@ -579,25 +537,36 @@ function buildShareListBox(
         minWidth: '0',
         fontFamily: SHARE_FONT_BODY,
         fontWeight: '500',
-        fontSize: kind === 'flag' && item.label.length > 22 ? '25px' : '30px',
-        lineHeight: kind === 'flag' ? '1.08' : '1.2',
+        fontSize: kind === 'crest' && item.label.length > 22 ? '25px' : '30px',
+        lineHeight: kind === 'crest' ? '1.08' : '1.2',
         color: rgba(P, 0.92),
         whiteSpace: 'normal',
         wordBreak: 'normal',
-        overflowWrap: 'break-word'
+        overflowWrap: 'normal'
       }, item.label),
-      el('span', {
-        flex: '0 0 auto',
-        fontFamily: SHARE_FONT_DISPLAY,
-        fontWeight: '700',
-        fontSize: '30px',
-        color: color.bg
-      }, `${Math.round(clamp(item.pct))}%`)
+      buildShareRating(item.pct)
     );
     box.append(line);
   });
 
   return box;
+}
+
+// Nota no estilo Sofascore, com as mesmas faixas de cor do RatingBadge.
+function buildShareRating(value: number): HTMLElement {
+  const tier = ratingTier(Math.round(clamp(value)));
+  return el('span', {
+    flex: '0 0 auto',
+    padding: '7px 10px',
+    borderRadius: '12px',
+    textAlign: 'center',
+    fontFamily: SHARE_FONT_DISPLAY,
+    fontWeight: '700',
+    fontSize: '30px',
+    lineHeight: '1',
+    background: tokens[`rate-${tier}`],
+    color: tier === 'ok' ? tokens['rate-ok-text'] : tokens['rate-text']
+  }, `${Math.round(clamp(value))}%`);
 }
 
 function buildShareFooter(): HTMLElement {
@@ -646,12 +615,13 @@ function buildShareFooter(): HTMLElement {
  */
 
 type ToPng = (node: HTMLElement, options?: Record<string, unknown>) => Promise<string>;
-type ShareImageKind = 'portrait' | 'avatar' | 'flag';
+type ShareImageKind = 'portrait' | 'avatar' | 'crest';
 
 interface ShareImageSlot {
   kind: ShareImageKind;
   src: string;
   rect: CanvasRect;
+  tier: string | undefined;
 }
 
 type CanvasRect = { x: number; y: number; width: number; height: number };
@@ -680,12 +650,11 @@ export async function renderSharePng(target: HTMLElement, toPng: ToPng): Promise
     throw new Error('Canvas indisponível');
   }
 
-  const base = target.dataset.shareBase ?? tokens.tinta;
-  drawBackground(ctx, base, target.dataset.shareCircle ?? base);
+  drawBackground(ctx);
 
   slots.forEach((slot, index) => {
     if (slot.kind === 'portrait') {
-      drawPortrait(ctx, images[index], slot.rect, base);
+      drawFutCard(ctx, images[index], slot.rect, FUT_TIERS[slot.tier ?? 'fut-gold'] ?? FUT_TIERS['fut-gold']);
     }
   });
 
@@ -734,6 +703,7 @@ function collectImageSlots(root: HTMLElement): ShareImageSlot[] {
       return {
         kind,
         src,
+        tier: frame.dataset.shareTier,
         rect: {
           x: rect.left - rootRect.left,
           y: rect.top - rootRect.top,
@@ -800,71 +770,89 @@ function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
   });
 }
 
-// Fundo da cor da categoria com o círculo claro no canto superior direito.
-function drawBackground(ctx: CanvasRenderingContext2D, base: string, circle: string) {
-  ctx.fillStyle = base;
-  ctx.fillRect(0, 0, SHARE_WIDTH, SHARE_HEIGHT);
-  ctx.fillStyle = circle;
+// Gramado listrado com as linhas de cal de um campo inteiro (de pé, gol em cima e embaixo).
+function drawBackground(ctx: CanvasRenderingContext2D) {
+  const stripes = 12;
+  const band = SHARE_HEIGHT / stripes;
+  for (let i = 0; i < stripes; i += 1) {
+    ctx.fillStyle = i % 2 === 0 ? tokens['pitch-stripe-a'] : tokens['pitch-stripe-b'];
+    ctx.fillRect(0, i * band, SHARE_WIDTH, band);
+  }
+  const m = 32;
+  const cx = SHARE_WIDTH / 2;
+  const cy = SHARE_HEIGHT / 2;
+  ctx.save();
+  ctx.globalAlpha = 0.6;
+  ctx.strokeStyle = tokens['pitch-line'];
+  ctx.fillStyle = tokens['pitch-line'];
+  ctx.lineWidth = 4;
+  ctx.strokeRect(m, m, SHARE_WIDTH - 2 * m, SHARE_HEIGHT - 2 * m);
   ctx.beginPath();
-  ctx.arc(SHARE_WIDTH, 0, 400, 0, Math.PI * 2);
+  ctx.moveTo(m, cy);
+  ctx.lineTo(SHARE_WIDTH - m, cy);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(cx, cy, 150, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(cx, cy, 8, 0, Math.PI * 2);
   ctx.fill();
+  [m, SHARE_HEIGHT - m].forEach((goalLine) => {
+    const dir = goalLine === m ? 1 : -1;
+    const boxTop = dir === 1 ? goalLine : goalLine - 280;
+    const areaTop = dir === 1 ? goalLine : goalLine - 100;
+    ctx.strokeRect(cx - 330, boxTop, 660, 280);
+    ctx.strokeRect(cx - 150, areaTop, 300, 100);
+    ctx.beginPath();
+    ctx.arc(cx, goalLine + dir * 200, 150, dir === 1 ? 0.2 * Math.PI : 1.2 * Math.PI, dir === 1 ? 0.8 * Math.PI : 1.8 * Math.PI);
+    ctx.stroke();
+  });
+  ctx.restore();
 }
 
-// Retrato: foto com leve contraste, véu da categoria (multiply) e degradê até
-// a cor base na parte de baixo, recortado com cantos arredondados.
-function drawPortrait(ctx: CanvasRenderingContext2D, image: HTMLImageElement | null, rect: CanvasRect, base: string) {
+// Carta do Ultimate Team: recorte com ombros e ponta, degradê metálico e a
+// foto à direita sumindo para baixo (como .fut / .fut-face no editorial.css).
+function drawFutCard(
+  ctx: CanvasRenderingContext2D,
+  image: HTMLImageElement | null,
+  rect: CanvasRect,
+  tier: { a: string; b: string }
+) {
+  const { x, y, width: w, height: h } = rect;
+  const shape: [number, number][] = [[0, 0.07], [0.16, 0], [0.5, 0.03], [0.84, 0], [1, 0.07], [1, 0.86], [0.5, 1], [0, 0.86]];
+  ctx.save();
+  ctx.shadowColor = tokens['fut-shadow'];
+  ctx.shadowBlur = 28;
+  ctx.shadowOffsetY = 12;
+  ctx.beginPath();
+  shape.forEach(([px, py], index) => (index === 0 ? ctx.moveTo(x + px * w, y + py * h) : ctx.lineTo(x + px * w, y + py * h)));
+  ctx.closePath();
+  const gradient = ctx.createLinearGradient(x, y, x + w * 0.6, y + h);
+  gradient.addColorStop(0, tier.a);
+  gradient.addColorStop(1, tier.b);
+  ctx.fillStyle = gradient;
+  ctx.fill();
+  ctx.restore();
+
+  if (!image) {
+    return;
+  }
+  const face = { x: x + w * 0.35, y: y + h * 0.08, width: w * 0.58, height: h * 0.48 };
   const layer = document.createElement('canvas');
-  layer.width = Math.round(rect.width);
-  layer.height = Math.round(rect.height);
+  layer.width = Math.round(face.width);
+  layer.height = Math.round(face.height);
   const lctx = layer.getContext('2d');
   if (!lctx) {
     return;
   }
-  const local = { x: 0, y: 0, width: layer.width, height: layer.height };
-
-  lctx.fillStyle = mixHex(base, '#000000', 0.7);
+  drawCover(lctx, image, { x: 0, y: 0, width: layer.width, height: layer.height }, 0);
+  const fade = lctx.createLinearGradient(0, 0, 0, layer.height);
+  fade.addColorStop(0.7, tokens['ball-black']);
+  fade.addColorStop(1, rgba(tokens['ball-black'], 0));
+  lctx.globalCompositeOperation = 'destination-in';
+  lctx.fillStyle = fade;
   lctx.fillRect(0, 0, layer.width, layer.height);
-  if (image) {
-    drawCover(lctx, image, local, 0.15);
-    adjustContrastBrightness(lctx, layer.width, layer.height, 1.1, 0.92);
-    lctx.save();
-    lctx.globalCompositeOperation = 'multiply';
-    lctx.globalAlpha = 0.5;
-    lctx.fillStyle = base;
-    lctx.fillRect(0, 0, layer.width, layer.height);
-    lctx.restore();
-  }
-  const gradient = lctx.createLinearGradient(0, 0, 0, layer.height);
-  gradient.addColorStop(0.3, rgba(base, 0));
-  gradient.addColorStop(0.58, rgba(base, 0.6));
-  gradient.addColorStop(0.86, rgba(base, 0.97));
-  gradient.addColorStop(1, rgba(base, 0.97));
-  lctx.fillStyle = gradient;
-  lctx.fillRect(0, 0, layer.width, layer.height);
-
-  ctx.save();
-  roundedRectPath(ctx, rect, 36);
-  ctx.clip();
-  ctx.drawImage(layer, rect.x, rect.y, rect.width, rect.height);
-  ctx.restore();
-}
-
-// Equivalente ao filter: contrast() brightness() do CSS, feito em pixels
-// porque ctx.filter não existe em Safaris mais antigos.
-function adjustContrastBrightness(ctx: CanvasRenderingContext2D, width: number, height: number, contrast: number, brightness: number) {
-  try {
-    const data = ctx.getImageData(0, 0, width, height);
-    const px = data.data;
-    for (let i = 0; i < px.length; i += 4) {
-      for (let c = 0; c < 3; c += 1) {
-        const v = ((px[i + c] / 255 - 0.5) * contrast + 0.5) * brightness * 255;
-        px[i + c] = v < 0 ? 0 : v > 255 ? 255 : v;
-      }
-    }
-    ctx.putImageData(data, 0, 0);
-  } catch {
-    // Canvas contaminado: segue sem o ajuste, a foto ainda aparece.
-  }
+  ctx.drawImage(layer, face.x, face.y, face.width, face.height);
 }
 
 // object-fit: cover, com o ponto vertical de foco em `focusY` (0 = topo).

@@ -1,0 +1,508 @@
+{
+  "id": "stan-cullis",
+  "catalog": "manager",
+  "name": "Stan Cullis",
+  "status": "complete",
+  "researchedOn": "2026-11-01",
+  "profilePeriod": {
+    "start": "1948-06",
+    "end": "1964-09"
+  },
+  "scopeNote": "Manager profile of Stan Cullis, one counted spell: Wolverhampton Wanderers, June 1948 (Wikipedia: 'In June 1948, aged just 31, Cullis became manager') to September 1964 (Wikipedia: 'surprisingly sacked in September 1964'); day-level dates not found in the pages read. Honours: First Division 1953-54, 1957-58, 1958-59; FA Cup 1949, 1960; FA Youth Cup 1958. Birmingham City (1965-70) excluded as before. Style: direct, long-passing, high-tempo W-M football with fast wingers (Mullen, Hancocks), aggressive ball-winning and very high fitness. Cullis himself accepted the label \"scientific kick-and-rush football\" (All For the Wolves, 1960); Game of the People calls it a \"sophisticated 'kick and rush'\" with long balls \"played into space for onrushing wingers\", not aimless hoofing. Charles Reep's data backed (not created) the approach. Marking (zone vs man) is not stated in any page read.",
+  "spellsCounted": [
+    {
+      "club": "Wolverhampton Wanderers",
+      "start": "1948-06",
+      "end": "1964-09",
+      "reason": "Three league titles, two FA Cups, the 1954 floodlit friendlies and the direct, winger-led style the 'kick and rush' label is attached to."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Birmingham City",
+      "start": "1965-12",
+      "end": "1970-03",
+      "reason": "Appointed December 1965, retired March 1970 (Wikipedia); no titles or tactical coverage found."
+    }
+  ],
+  "teamProfiles": [
+    "wolves-1949-60"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking: no page read says whether Cullis's W-M defended man-to-man (centre-half on centre-forward, full-backs on wingers, the usual W-M assignment) or zonally. The only clue is Cullis blaming the Honved deficit on Wright being drawn 'too far forward' (13 Dec 1954), which suggests a centre-half told to hold position. The mar axis rests on inference.",
+    "Exact day of the June 1948 appointment and the September 1964 sacking not found (partial dates kept).",
+    "teamProfiles: added wolves-1949-60, whose managers[] already lists stan-cullis; confirm the link.",
+    "Inverting the Pyramid (Jonathan Wilson) has a Cullis/Reep section but no readable excerpt was found; the Guardian/Independent obituaries (2000-01) were not accessible.",
+    "Technique vs physicality: Game of the People ('fitness and power', 'did not have a superior technique') vs Wolves Heroes ('plenty of ball players... Broadbent'); keep the tension in the audit."
+  ],
+  "sources": [
+    {
+      "title": "Wolverhampton Wanderers F.C. v Budapest Honved FC",
+      "url": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C._v_Budapest_Honv%C3%A9d_FC",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1954-12-13",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Wolves v Honved line-up listed by WM-era positions: GK Bert Williams; RB Eddie Stuart, LB Bill Shorthouse; RH Bill Slater, CH Billy Wright, LH Ron Flowers; OR Johnny Hancocks, IR Peter Broadbent, CF Roy Swinbourne, IL Dennis Wilshaw, OL Les Smith. The page states no formation; the positions are the standard W-M labels (back three of two full-backs and a centre-half, two wing-halves, five forwards with two outside-rights/lefts).",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Cullis, All For the Wolves (1960), quoted on the page: \"every pass is if, possible, decisive and long rather than pretty and short.\" (Book written during the counted spell, describing his Molineux principles.)",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Cullis, All For the Wolves (1960): \"Every full-back who plays for Wolves is instructed to find one of his forwards with the pass if he can.\"",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Wolves were \"playing the percentages game, which was built around quick distribution from the defence\" out to Mullen and Hancocks; goals came from \"the direct playing style\" Cullis encouraged. (Tom George; no single season given.) [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Reep: Visionary Or Detrimental Force?",
+      "url": "https://www.wolvesheroes.com/reep-visionary-or-detrimental-force/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-11-20",
+      "eventDate": "1954",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Charles Bamforth: Reep's ideas meant getting the ball forward quickly, including long balls from the keeper; Cullis wrote in All for the Wolves of Reep's work: \"It helped me modify and improve points of tactics.\"",
+      "verified": true
+    },
+    {
+      "title": "Wolves: Champions of the World | 1954 Floodlit Friendlies",
+      "url": "https://www.thefootballhistoryboys.com/2020/08/wolves-champions-of-world-1954-floodlit.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-10",
+      "eventDate": "1954",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Pre-Honved preview quoting the Sports Argus (1954): Wolves used the long pass \"all the time,\" while Honved \"wait until the set-up is right.\" Period press quote carried by a 2020 blog.",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Cullis, All For the Wolves (1960): \"we cannot send it back into their defensive area until we have possession\" - possession is valued only as the means of getting the ball forward.",
+      "verified": true
+    },
+    {
+      "title": "Charles Reep and What He Sowed",
+      "url": "https://jotbfootball.wixsite.com/justoutsidethebox/post/charles-reep-and-what-he-sowed",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Quotes Cullis, All for the Wolves (1960): \"Before Wolves can score a goal, we must have the ball somewhere in the region of the other team's goal\" and \"it is necessary to put the ball into the opponents' penalty-area from any quarter of the field in a maximum of three passes\".",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Cullis (1960): \"put the ball into the opponents' penalty-area from any quarter of the field in a maximum of three passes\" (same passage as the blog quote, confirmed on this page).",
+      "verified": true
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 - the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1957/58",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Neil Fredrik Jensen: \"the long balls encouraged by Cullis were played into space for onrushing wingers\"; the style \"relied upon fitness, pace and aggression\" but was not \"kick it anywhere at all costs.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "pressing",
+      "evidence": "Cullis (1960): \"rapid tackling by every player so that we obtain possession of the ball before the other side has it under control.\" Says nothing on whether this was zonal or man-oriented.",
+      "verified": true
+    },
+    {
+      "title": "The Stan Cullis Story",
+      "url": "https://readtheleague.com/?p=2086",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-11-12",
+      "eventDate": "1948/49",
+      "accessedOn": "2026-11-01",
+      "dimension": "pressing",
+      "evidence": "Vince Cooper: Cullis \"insisted that his side play a high-tempo game that would pressure opponents into mistakes\"; \"Each player was given individual fitness targets for running and jumping.\" (General, from his appointment on; no season.)",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Wolves: Champions of the World | 1954 Floodlit Friendlies",
+      "url": "https://www.thefootballhistoryboys.com/2020/08/wolves-champions-of-world-1954-floodlit.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-10",
+      "eventDate": "1954-12-13",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Honved match: Cullis blamed the 2-0 half-time deficit on Billy Wright being drawn \"too far forward\" - the centre-half was expected to hold his central position rather than follow a deep forward. The blog says the Hungarian 'false 9' confused the Wolves back line. No statement on zonal vs man marking.",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "On centre-half Billy Wright: \"his ability to read and break up play with intelligent interceptions by remaining one step ahead of his opponents.\" Describes reading and interception, not an explicit marking scheme. [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "History of Wolverhampton Wanderers F.C.",
+      "url": "https://en.wikipedia.org/wiki/History_of_Wolverhampton_Wanderers_F.C.",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Wikipedia narrative: Cullis's \"kick and rush method incorporated long passes and speed of execution\"; \"The method was characterised by a defensive resilience\"; \"a doctrine of all-out attack on the field.\" Tier C, no tactics detail. [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "\"Wingers were very important to the way Cullis's team played\"; Mullen and Hancocks \"would fire crosses into the area.\" [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Reep: Visionary Or Detrimental Force?",
+      "url": "https://www.wolvesheroes.com/reep-visionary-or-detrimental-force/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-11-20",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Cullis, All for the Wolves (1960), on Mullen and Hancocks: \"They were the kind of wingers I considered essential to successful football.\"",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1960",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Cullis (1960) on Peter Broadbent: \"we often used him as an advanced winger lying on the touchline twenty yards or more ahead of Hancocks.\"",
+      "verified": true
+    },
+    {
+      "title": "Wolverhampton Wanderers F.C. v Budapest Honved FC",
+      "url": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C._v_Budapest_Honv%C3%A9d_FC",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1954-12-13",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "At half-time against Honved, Cullis had staff and apprentices (incl. Ron Atkinson) water the already heavy pitch so Honved could not play their \"delightful\" football; Atkinson credited Cullis's half-time instructions for making the long-ball tactics work. An opponent-specific adjustment to conditions, not to Wolves' style.",
+      "verified": true
+    },
+    {
+      "title": "Honved '54 | The night European football was born at Molineux",
+      "url": "https://wolves.co.uk/news/features/20241213-honved-54-the-night-european-football-was-born-at-molineux",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-13",
+      "eventDate": "1954-12-13",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Cullis after the match: \"I had a chat with Billy Wright at half-time and after that he and the rest of the team were inspired.\" Wolves scored twice in the last 15 minutes.",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1962",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Ron Flowers, For Wolves and England (1962): \"our manager never sets out to copy the tactics of any other club.\" and \"The Wolves plan is a simple one to follow.\"",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1956-03",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Cullis (1960) on winger Harry Hooper (signed from West Ham, March 1956; released two seasons later): \"In short, he was an ideal winger\" but \"he did not carry out our tactical principles to the extent I considered was essential.\" Talent dropped for not fitting the system.",
+      "verified": true
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 - the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1957/58",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "\"Cullis placed huge emphasis on fitness and power\"; \"Wolves did not have a superior technique, as their record in Europe during this period eventually proved.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Reep: Visionary Or Detrimental Force?",
+      "url": "https://www.wolvesheroes.com/reep-visionary-or-detrimental-force/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-11-20",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Bamforth's counterpoint: Wolves \"had plenty of ball players in the heart of the field, not least Peter Broadbent.\" [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1950-05",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Peter Broadbent joined from Brentford in May 1950 aged 17; Cullis (1960): he \"could well develop into one of the outstanding inside-forwards of his day.\" Cullis also notes Roy Swinbourne came \"from Wath Wanderers, the nursery team of Wolves\".",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1957",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Cullis (1960) on releasing veteran winger Johnny Hancocks in 1957: \"I felt that it was necessary to prepare for the future.\"",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://en.wikipedia.org/wiki/Stan_Cullis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1958",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Honours as manager include the FA Youth Cup \"1958; runner-up: 1953, 1954, 1962\".",
+      "verified": true
+    },
+    {
+      "title": "Passing Away of Proud Youth Cup Winner",
+      "url": "https://www.wolvesheroes.com/passing-away-of-proud-youth-cup-winner/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-12",
+      "eventDate": "1958",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "1958 FA Youth Cup final v Chelsea: \"the Cullis Cubs had somehow turned round a 5-1 first-leg deficit from Stamford Bridge by winning the return 6-1.\" Ted Farmer became a first-team success; skipper Granville Palin was blocked by Billy Wright and George Showell and left in 1960.",
+      "verified": true
+    },
+    {
+      "title": "Champions of the world: Wolves and the Stan Cullis era",
+      "url": "https://thesefootballtimes.co/2016/08/01/champions-of-the-world-wolves-and-the-stan-cullis-era/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-01",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Cullis built on Major Buckley's principles of \"strict discipline, giving your all in training\" and was \"a strict disciplinarian throughout his managerial career,\" later losing the dressing room in the 1960s. [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Stan Cullis Story",
+      "url": "https://readtheleague.com/?p=2086",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-11-12",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Cullis was \"a tough disciplinarian who both demanded and gave 100%\"; recalling Buckley, he said footballers should be handled \"with a rigorous authority and far more iron than velvet in your touch\". [The page gives no season; eventDate set to 1953/54, the first title season, as a stand-in for the 1950s side.]",
+      "verified": true
+    },
+    {
+      "title": "Stan Cullis",
+      "url": "https://spartacus-educational.com/WOLVcullis.htm",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1962",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Ron Flowers (1962): \"He never adds to our worries at such a time by large-scale inquests\"; \"he realizes that a player knows when he is playing badly and must be worried.\"",
+      "verified": true
+    },
+    {
+      "title": "Analytics is older than you think: (re)introducing Charles Reep",
+      "url": "https://www.getgoalsideanalytics.com/36315087-analytics-is-older-than-you-think/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020",
+      "eventDate": "1953/54",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Cullis \"already believed in the long-ball approach that Reep waved a spreadsheet at to back up\"; a 1968 paper used Reep's data including \"12 Wolves games from the 1953/54 season.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "we must accept the label that we are a team which plays 'scientific kick-and-rush football'.",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary",
+      "note": "All For the Wolves (1960), quoted on Spartacus."
+    },
+    {
+      "quote": "Those tactics demand that Wolves play at a tempo which is beyond the capacity of the other side.",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "The primary duty of a team is to entertain the public ... the people of Wolverhampton demand first of all that Wolves should score at least one more goal than their opponents.",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I tell my players that they must train until it hurts because it makes them better players on Saturday.",
+      "date": "1960",
+      "source": "https://spartacus-educational.com/WOLVcullis.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "We both thought that the play of the Hungarians confirmed most of the ideas we were trying to use at Molineux.",
+      "date": "1960",
+      "source": "https://www.wolvesheroes.com/reep-visionary-or-detrimental-force/",
+      "provenance": "primary",
+      "note": "All for the Wolves, about the November 1953 England v Hungary match."
+    },
+    {
+      "quote": "I simply created a yardstick which people could criticise me against.",
+      "date": "2017-11-12",
+      "source": "https://readtheleague.com/?p=2086",
+      "provenance": "attributed",
+      "note": "After his September 1964 sacking; no primary source found."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.independent.co.uk/sport/football/news-and-comment/back-when-stan-really-was-the-man-637495.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://web.archive.org/web/2020/https://www.independent.co.uk/sport/football/news-and-comment/back-when-stan-really-was-the-man-637495.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.expressandstar.com/sport/football/wolverhampton-wanderers-fc/2019/04/22/league-championship-60th-anniversary-stan-cullis-made-wolves-great/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.expressandstar.com/sport/football/wolverhampton-wanderers/ron-atkinson-how-stan-cullis-changed-the-world-6297479",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.expressandstar.com/sport/football/wolverhampton-wanderers-fc/2016/10/27/wolves-legend-stan-cullis-remembered-the-management-years",
+      "reason": "403"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Historical profile: the strongest evidence is Cullis's own 1960 book and Ron Flowers's 1962 book quoted on Spartacus (period primary text), plus tier B retrospectives (These Football Times, Game of the People, Wolves Heroes, Read the League) that agree on direct, winger-led, high-tempo, fitness-based football. No contemporary tactical analysis; marking scheme and set pieces undocumented; several facts are retrospective-only."
+  }
+}

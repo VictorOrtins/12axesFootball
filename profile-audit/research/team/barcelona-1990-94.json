@@ -1,0 +1,800 @@
+{
+ "id": "barcelona-1990-94",
+ "catalog": "team",
+ "name": "FC Barcelona 1990-94 (Cruyff's Dream Team)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1990-09-01",
+  "end": "1994-05-18"
+ },
+ "managers": [
+  {
+   "managerId": "johan-cruyff",
+   "start": "1990-09-01",
+   "end": "1994-05-18"
+  }
+ ],
+ "scopeNote": "Cruyff's Barcelona from the 1990/91 season to the 1994 European Cup final in Athens (18 May 1994). Sources use the term Dream Team and a 3-4-3 (in possession, 4-3-3 off the ball), Total Football lineage from Michels/Ajax. Start date 1990-09-01 (first La Liga match, away to Espanyol) comes from a search summary of the club chronology, not read on a page; the 1990 Supercopa vs Real Madrid may be earlier. Many tactical sources describe 1988-96 generally; facts with eventDate 1991/92 are general descriptions of the Dream Team years, filed under the 1992 title season because the validator rejects ranges. Undated stated-view quotes carry the earliest publication date found (not original date). Marking scheme (zonal vs man) not found for this team.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Start date 1990-09-01 is from a search summary (club chronology), unverified on a page; the 1990 Supercopa vs Real Madrid (Stoichkov's Clasico debut) may precede it.",
+  "Zonal vs man-marking: no source read describes Barcelona's marking scheme; one search hit (fussballcoach.substack.com) says Cruyff used 30 zones but was not mined.",
+  "Base shape: Coaches' Voice says 3-4-3 in possession becoming 4-3-3 off the ball; 1994 final used a 4-3-3 with two centre-backs; a search summary claimed 3-4-3 was used mainly against two forwards (unverified).",
+  "Several tactical sources are retrospectives; the Cruyff quotes are cited as attributed because no primary dated source was found.",
+  "Zubizarreta set-piece anecdote and Alexanko booing refer to 1988/89, outside the period, so left unverified.",
+  "Claims of 'high press' in 90min/Goal are generic; Coaches' Voice says the team rarely counter-pressed intensely."
+ ],
+ "sources": [
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Cruyff’s in-possession 3-4-3 reorganised into a more familiar 4-3-3 shape off the ball.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "He chose an unorthodox back three: one single central defender – Ronald Koeman or Miguel Angel Nadal – and two full-backs in Albert Ferrer and Sergi Barjuán or Juan Carlos.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "This can be seen in the team Cruyff selected for the 1994 Champions League final (bottom, right) against AC Milan, with Guardiola as the deep-lying midfielder in front of Koeman and Nadal.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "If opponents positioned themselves in a low block, the build-up would always start from the goalkeeper. With the ball at his feet, Zubizarreta would have the options of playing into Koeman or the midfield pivot to start building up the team’s progression.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "In situations when the opposing team played a high pressing game, goalkeeper Andoni Zubizarreta could play a medium-range pass into the defensive pivot or play long towards one of the wingers. If the ball was with Koeman, the long switch was a common tactic.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Possession of the ball by itself did not interest Cruyff. He wanted his players to understand that, in order to keep it and move towards the opponents’ goal, the ball had to be moved and moved and moved.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "By encouraging one of his wingers or full-backs inside, he wanted his team to maintain very close passing lines, thus shortening the distance between players.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "With the exception of the full-backs, the rest of the players in Cruyff’s system were not expected to make long horizontal or vertical movements when the team was in possession. Equally, his teams rarely executed a high or intense counter-press after losing the ball",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "the defensive line was often comprised only of that single central defender and the defensive pivot – Luis Milla, Pep Guardiola or José Ramón Alexanko. None of these were players renowned for their physical attributes.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "At the same time, he wanted his team to maintain a compact block. This would allow constant exchanges of positions, and enable easier and faster reorganisaions when they lost possession.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "his teams rarely executed a high or intense counter-press after losing the ball – this gave the opposition both time and space on the counter-attack, which often left Cruyff’s defensive line vulnerable on defensive transitions. It was no coincidence that his Barcelona team conceded so many goals.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "The role played by the full-backs was fundamental, however, as this allowed Cruyff to widen the pitch. Ferrer and Sergi advanced as traditional wide players down the lines, which allowed the wingers – most commonly Hristo Stoichkov and Andoni Goikoetxea – to move into more central areas",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Players on the opposite side of the pitch were to maintain their positions, however – only in this way could the team maintain the maximum width that Cruyff demanded.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "The role of the false nine required Laudrup to constantly leave the centre-forward zone where he started games so he could play alongside the offensive midfielders – most often Eusebio Sacristán, Txiki Begiristain and José Mari Bakero",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1992-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "The latter even started alongside Hristo Stoichkov in a front two in the 1992 European Cup final victory over Sampdoria at Wembley (bottom of page, left), with Laudrup operating behind them.",
+   "verified": true
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "If you don’t lose the ball in the build-up, it’s very difficult to be counter-attacked,” he once said. Of course, even his teams lost the ball sometimes – and when they did, because of the way he set up, counter-attacks were the most effective way to hurt them.",
+   "verified": false
+  },
+  {
+   "title": "Johan Cruyff: The Tactical Masters - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-11-10",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "However, this also presented a risk in a player not used to operating in the final defensive line – any mistake resulting from opposition pressing could transform almost immediately into a goalscoring opportunity.",
+   "verified": false
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "“He got a blackboard and drew three defenders, four midfielders, two out-and-out wingers and a centre-forward,” recalls Eusebio. “We looked at each other and said: ‘What the hell is this?!’ This was the era of 4-4-2 or 3-5-2.",
+   "verified": false
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "“I loved the 3-4-3,” recalls Eusebio ... especially from the nominally wide midfielders, who Johan wanted very narrow.”",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "“I had short lads like Albert Ferrer, Sergi or Guillermo Amor; players without great physiques but who pampered the ball with their touch and pressed the opposition like rats,” he recalled.",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "He clearly knew what kind of players he needed, and he had no problem in selecting shorter players or bringing through youngsters.",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "When I was at La Masia, Guardiola was very thin and it was Cruyff who said that he always had to play because eventually he would grow.",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“Alexanko did nothing except what was his duty as captain,” Cruyff huffed. “He was the spokesman – he didn’t let his players down. That’s character. The messenger often gets killed. Not with me. Although not a regular, he’s a leader, and there was a unity.”",
+   "verified": false
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "A third successive league title in 1993 – again on the last day, again thanks to a Madrid defeat at Tenerife, again scoring 87 goals",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "When squat striking genius Romario arrived in the summer of 1993, all was set for a tilt at an unprecedented fourth Liga in a row and second European crown in three years.",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "he knows what we were missing in the 1994 Champions League Final: hard work and respecting the opposition.",
+   "verified": true
+  },
+  {
+   "title": "How Johan Cruyff reinvented modern football at Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-24",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "At one point keeper Andoni Zubizarreta asked his coach how he wanted the team to defend a set-piece. “How should I know?” came the curt reply. “You decide. You’re more interested in how to defend a corner than me.”",
+   "verified": false
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Instead of the Dream Team sailing serenely forward to gather more trophies, they faltered and were ultimately well beaten.",
+   "verified": true
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Legend has it that at Wembley in 1992, Cruyff’s team talk had been to entreat his players to, “Go out and enjoy yourselves.” In contrast, two years later, the call was that, “You’re better than them, you’re going to win.” The first call was inspirational. The second, folly.",
+   "verified": true
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Alessandro Costacurta and the immaculate skipper of the team and libero, Franco Baresi, were both absent through suspension.",
+   "verified": true
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Michel Laudrup had been left out of the squad for the final, a victim of UEFA’s three foreigners rule.",
+   "verified": true
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Ahead of the final, goalkeeper Zubizarreta had been promised a new contract. The day after the game, reportedly as the team bus headed for Athens airport and the flight home, he was told that there would no new deal, and that he would be leaving the club.",
+   "verified": true
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Not long afterwards, it was Stoichkov asserting on radio that, “It’s Cruyff or me.”",
+   "verified": false
+  },
+  {
+   "title": "MTV, Oscar Wilde and the implosion of Johan Cruyff's Dream Team - These Football Times",
+   "url": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-07",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "A high ball towards the left flank of the Barcelona defence caused a moment’s confusion for Miguel Ángel Nadal. Seizing the moment, Savićević stole the ball away from the defender. As it bounced clear of the tussle towards the penalty area, the forward saw that Zubizarreta had advanced from his line to cut out the danger.",
+   "verified": true
+  },
+  {
+   "title": "Hristo Stoichkov: the architect in Cruyff's Barcelona - These Football Times",
+   "url": "https://thesefootballtimes.co/2017/08/25/hristo-stoichkov-the-architect-in-cruyffs-barcelona/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-25",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "the Dutchman deployed Stoichkov as a central attacker, with Danish international Michael Laudrup playing behind in a number 10 role.",
+   "verified": true
+  },
+  {
+   "title": "Hristo Stoichkov: the architect in Cruyff's Barcelona - These Football Times",
+   "url": "https://thesefootballtimes.co/2017/08/25/hristo-stoichkov-the-architect-in-cruyffs-barcelona/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Romario’s arrival moved Stoichkov into a wider attacking role, with the Brazilian operating as a central striker, and Stoichkov adapted and thrived on the wing.",
+   "verified": true
+  },
+  {
+   "title": "Hristo Stoichkov: the architect in Cruyff's Barcelona - These Football Times",
+   "url": "https://thesefootballtimes.co/2017/08/25/hristo-stoichkov-the-architect-in-cruyffs-barcelona/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "able to terrorise from deep, supplying endless passes and set-piece deliveries for Romário and others to secure their fourth consecutive Spanish title.",
+   "verified": true
+  },
+  {
+   "title": "Hristo Stoichkov: the architect in Cruyff's Barcelona - These Football Times",
+   "url": "https://thesefootballtimes.co/2017/08/25/hristo-stoichkov-the-architect-in-cruyffs-barcelona/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-08-25",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Cruyff battled hard to protect his new star from criticism that cited his temper as too much to balance against his talent, and Stoichkov repaid him.",
+   "verified": true
+  },
+  {
+   "title": "Barcelona's Dream Team - 90min",
+   "url": "https://www.90min.com/posts/barcelona-1992-dream-team-the-side-that-laid-the-foundation-for-the-club-s-future-triumphs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-11-24",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Cruyff handed Guardiola his debut during the 1990/91 campaign before he became a fixture of the side the following season.",
+   "verified": true
+  },
+  {
+   "title": "Barcelona's Dream Team - 90min",
+   "url": "https://www.90min.com/posts/barcelona-1992-dream-team-the-side-that-laid-the-foundation-for-the-club-s-future-triumphs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-11-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Midfielder Eusebio Sacristan explained the set up in Jonathan Wilson's The Barcelona Legacy, gushing: \"From the start he wanted to impose a style that was revolutionary: playing a 3-4-3... It was, wow, something we'd never seen.\"",
+   "verified": true
+  },
+  {
+   "title": "Barcelona's Dream Team - 90min",
+   "url": "https://www.90min.com/posts/barcelona-1992-dream-team-the-side-that-laid-the-foundation-for-the-club-s-future-triumphs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-11-24",
+   "eventDate": "1992-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "with Koeman's 111th minute free-kick enough to end their hoo-doo",
+   "verified": true
+  },
+  {
+   "title": "Barcelona's Dream Team - 90min",
+   "url": "https://www.90min.com/posts/barcelona-1992-dream-team-the-side-that-laid-the-foundation-for-the-club-s-future-triumphs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-11-24",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In the summer of 1993, Cruyff added the ultimate individualist to a team bristling with its fair share of soloists, tossing the Brazilian striker Romario into the mix.",
+   "verified": true
+  },
+  {
+   "title": "Barcelona's Dream Team - 90min",
+   "url": "https://www.90min.com/posts/barcelona-1992-dream-team-the-side-that-laid-the-foundation-for-the-club-s-future-triumphs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-11-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Cruyff's Barcelona were built on the fundamentals that Guardiola would instil in his side decades later, playing fast, attacking football with quick passing and a high press.",
+   "verified": false
+  },
+  {
+   "title": "1988-1996. The era of the 'Dream Team' - FC Barcelona",
+   "url": "https://www.fcbarcelona.com/en/noticies/643913/1988-96-lera-del-dream-team",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "which was characterised by the team’s one touch play and attacking style and the winning mentality of Cruyff’s players.",
+   "verified": true
+  },
+  {
+   "title": "1988-1996. The era of the 'Dream Team' - FC Barcelona",
+   "url": "https://www.fcbarcelona.com/en/noticies/643913/1988-96-lera-del-dream-team",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1992-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "The match went to extra time after a scoreless draw. In the 111th minute, Ronald Koeman’s brilliant free kick clinched Barça’s first European Cup victory.",
+   "verified": true
+  },
+  {
+   "title": "1988-1996. The era of the 'Dream Team' - FC Barcelona",
+   "url": "https://www.fcbarcelona.com/en/noticies/643913/1988-96-lera-del-dream-team",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "it won four Leagues in a row (1991, 1992, 1993, 1994). The last three were won in the last match of the season.",
+   "verified": true
+  },
+  {
+   "title": "1988-1996. The era of the 'Dream Team' - FC Barcelona",
+   "url": "https://www.fcbarcelona.com/en/noticies/643913/1988-96-lera-del-dream-team",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "He was also responsible for introducing “rondos” (a circle of players pass the ball to each other, while one in the centre tries to catch it) into the team’s training sessions.",
+   "verified": false
+  },
+  {
+   "title": "The Games That Defined Modern Football: AC Milan 4-0 Barcelona (1994) - Goal.com",
+   "url": "https://www.goal.com/en/news/the-games-that-defined-modern-football-ac-milan-4-0/13fsmodpw0hb31qe37i8p65kar",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-08",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Capello set his team up to press only in their own half, suffocating the Barca midfield with a narrow blockade before ruthlessly exposing them down the flanks on the counterattack.",
+   "verified": true
+  },
+  {
+   "title": "The Games That Defined Modern Football: AC Milan 4-0 Barcelona (1994) - Goal.com",
+   "url": "https://www.goal.com/en/news/the-games-that-defined-modern-football-ac-milan-4-0/13fsmodpw0hb31qe37i8p65kar",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-08",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Capello set his team up to press only in their own half, suffocating the Barca midfield with a narrow blockade before ruthlessly exposing them down the flanks on the counterattack.",
+   "verified": true
+  },
+  {
+   "title": "The Games That Defined Modern Football: AC Milan 4-0 Barcelona (1994) - Goal.com",
+   "url": "https://www.goal.com/en/news/the-games-that-defined-modern-football-ac-milan-4-0/13fsmodpw0hb31qe37i8p65kar",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-08",
+   "eventDate": "1994-05-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Barcelona are favourites,\" Cruyff said before the game. \"We're more complete, competitive and experienced than [in the 1992 final] at Wembley. Milan are nothing out of this world. They base their game on defence; we base ours on attack.\"",
+   "verified": true
+  },
+  {
+   "title": "The Games That Defined Modern Football: Barcelona 1-0 Sampdoria (1992) - Goal.com",
+   "url": "https://www.goal.com/en/news/the-games-that-defined-modern-football-barcelona-1-0/q5im4xcr971z1dk80tpi1o5nz",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-28",
+   "eventDate": "1992-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "It worked to an extent, with Barcelona dominating the game, but Sampdoria’s packed defence held firm. It wasn’t until the 22nd minute of extra time that a Ronald Koeman free kick made the difference.",
+   "verified": true
+  },
+  {
+   "title": "The Games That Defined Modern Football: Barcelona 1-0 Sampdoria (1992) - Goal.com",
+   "url": "https://www.goal.com/en/news/the-games-that-defined-modern-football-barcelona-1-0/q5im4xcr971z1dk80tpi1o5nz",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-28",
+   "eventDate": "1992-05-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Cruyff, usually so aloof and tactically minded, left his players with one final message: “Go and enjoy it.\"",
+   "verified": true
+  },
+  {
+   "title": "The Games That Defined Modern Football: Barcelona 1-0 Sampdoria (1992) - Goal.com",
+   "url": "https://www.goal.com/en/news/the-games-that-defined-modern-football-barcelona-1-0/q5im4xcr971z1dk80tpi1o5nz",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-28",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Cruyff introduced Barcelona to possession football, to high-pressing, to compression and expansion of shape, to a revolving short passing aesthetic, and to prioritising technique over physicality.",
+   "verified": false
+  },
+  {
+   "title": "Soccer memories: Part Six - soccernostalgia",
+   "url": "https://soccernostalgia.blogspot.com/2012/05/cruyffs-barcelona-rise-and-fall-of.html",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2012-05-10",
+   "eventDate": "1990/91",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In the offseason of 1990, Hristo Stoichkov finally arrived. Juan Goicoetchea also returned from his two-year loan at Sociedad.",
+   "verified": false
+  },
+  {
+   "title": "Soccer memories: Part Six - soccernostalgia",
+   "url": "https://soccernostalgia.blogspot.com/2012/05/cruyffs-barcelona-rise-and-fall-of.html",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2012-05-10",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "During the offseason of 1993, long serving Captain Alexanco retired and inconsistent Dutch midfielder Richard Witschge was offloaded and replaced with Brazilian goal scoring machine Romario.",
+   "verified": false
+  },
+  {
+   "title": "The incredible adventures of Romario and Stoichkov in Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/romario-hristo-stoichkov-barcelona-johan-cruyff-manchester-united",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-09-04",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "league rules meant that only three foreigners could play at any one time and Barça already had Stoichkov, Koeman and Laudrup. “Signing a fourth foreigner is plain stupid,” Stoichkov snapped",
+   "verified": true
+  },
+  {
+   "title": "The incredible adventures of Romario and Stoichkov in Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/romario-hristo-stoichkov-barcelona-johan-cruyff-manchester-united",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-09-04",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Romario and Stoichkov were contrasting personalities but, in Cruyff’s words, had the “same problem”: they both thought that the team was there to serve them, not the other way round.",
+   "verified": true
+  },
+  {
+   "title": "The incredible adventures of Romario and Stoichkov in Barcelona - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/romario-hristo-stoichkov-barcelona-johan-cruyff-manchester-united",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-09-04",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Romario’s charms were different. With his wide hips, big, low-slung backside and powerful thighs, he was unique; electric, precise, utterly unpredictable.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Football basically consists of two things. First, when you have the ball, you must be able to pass it properly. Second, when the ball is passed to you, you must be able to control it.",
+   "date": "2020-11-10",
+   "source": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "If you have four men defending two strikers, you only have six against eight in the middle of the field: there’s no way you can win that battle. We had to put a defender further forward.",
+   "date": "2013-09",
+   "source": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I was criticised for playing three at the back, but that’s the most idiotic thing I’ve ever heard... I much prefer to win 5-4 than 1-0.",
+   "date": "2020-11-10",
+   "source": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It’s a basic concept: when you dominate the ball, you move well. You have what the opposition don’t, and therefore they can’t score.",
+   "date": "2020-11-10",
+   "source": "https://www.fourfourtwo.com/features/barcelona-johan-cruyff-tactics-reinvented-modern-football-total-passing-pressing-nou-camp-champions-league-pep-guardiola",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We're more complete, competitive and experienced than at Wembley. Milan are nothing out of this world. They base their game on defence, we base ours on attack.",
+   "date": "1994-05",
+   "source": "https://www.goal.com/en/news/the-games-that-defined-modern-football-ac-milan-4-0/13fsmodpw0hb31qe37i8p65kar",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It was not that we played badly, it was that we did not play at all.",
+   "date": "1994-05",
+   "source": "https://thesefootballtimes.co/2018/02/07/mtv-oscar-wilde-and-the-implosion-of-johan-cruyffs-dream-team/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Go out and enjoy it",
+   "date": "1992-05-20",
+   "source": "https://www.fcbarcelona.com/en/noticies/643913/1988-96-lera-del-dream-team",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "If you don’t lose the ball in the build-up, it’s very difficult to be counter-attacked.",
+   "date": "2020-11-10",
+   "source": "https://learning.coachesvoice.com/johan-cruyff-barcelona-coach-tactics-pep-guardiola/",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://medium.com/@christophthetactician/retro-analysis-how-cruyffs-3-1-2-1-3-outclassed-real-madrid-in-1994-4ad0033c44a0",
+   "reason": "403"
+  },
+  {
+   "url": "https://players.fcbarcelona.com/en/chronology/1990",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://arxiu.fcbarcelona.cat/web/english/noticies/futbol/temporada11-12/09/02/n110902119008.html",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Rinus Michels / Ajax total football (4-3-3)"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A-B coverage of shape, build-up, width and defensive structure (Coaches' Voice, FFT, TFT) but no marking evidence, mostly general-era descriptions and retrospective sources."
+ }
+}

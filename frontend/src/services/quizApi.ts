@@ -1,5 +1,5 @@
 import { LANG, t } from '../i18n';
-import type { CompareDetail, CompareItem, CompareType, QuizPayload, QuizResult, QuizVariant, SubmittedAnswer } from '../types/quiz';
+import type { AxisExemplars, CompareDetail, CompareItem, CompareType, QuizPayload, QuizResult, QuizVariant, SubmittedAnswer } from '../types/quiz';
 
 const API_URL = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '');
 
@@ -44,25 +44,24 @@ export function fetchQuiz(variant: QuizVariant = 'short'): Promise<QuizPayload> 
 export function submitResults(
   variant: QuizVariant,
   answers: SubmittedAnswer[],
-  archetype: Record<string, string> = {},
-  religion: string | null = null
+  archetype: Record<string, string> = {}
 ): Promise<QuizResult> {
-  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
-  return request<QuizResult>(`/api/results?lang=${LANG}${religionParam}`, {
+  return request<QuizResult>(`/api/results?lang=${LANG}`, {
     method: 'POST',
     body: JSON.stringify({ variant, answers, archetype })
   });
 }
 
-export function fetchSharedResult(leftPercents: number[], religion: string | null = null): Promise<QuizResult> {
-  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
-  return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}${religionParam}`);
+export function fetchSharedResult(leftPercents: number[]): Promise<QuizResult> {
+  return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}`);
 }
 
+export function fetchAxisExemplars(): Promise<AxisExemplars[]> {
+  return request<AxisExemplars[]>(`/api/axes/exemplars?lang=${LANG}`);
+}
 
-export function fetchCompareCatalog(religion: string | null = null): Promise<CompareItem[]> {
-  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
-  return request<CompareItem[]>(`/api/compare/catalog?lang=${LANG}${religionParam}`);
+export function fetchCompareCatalog(): Promise<CompareItem[]> {
+  return request<CompareItem[]>(`/api/compare/catalog?lang=${LANG}`);
 }
 
 export function fetchCompare(type: CompareType, id: string, leftPercents: number[]): Promise<CompareDetail> {
@@ -70,4 +69,22 @@ export function fetchCompare(type: CompareType, id: string, leftPercents: number
   return request<CompareDetail>(
     `/api/compare?type=${type}&id=${encodeURIComponent(id)}&v=${values}&lang=${LANG}`
   );
+}
+
+interface Described {
+  id: string;
+  description: string;
+}
+
+// Descrições dos três catálogos, chaveadas por "tipo:id" (o catálogo de comparação não as traz).
+export async function fetchCatalogDescriptions(): Promise<Map<string, string>> {
+  const sources: [CompareType, string][] = [
+    ['manager', '/api/managers'],
+    ['team', '/api/teams'],
+    ['football-ideology', '/api/football-ideologies']
+  ];
+  const lists = await Promise.all(sources.map(([, path]) => request<Described[]>(`${path}?lang=${LANG}`)));
+  const out = new Map<string, string>();
+  lists.forEach((list, index) => list.forEach((item) => out.set(`${sources[index][0]}:${item.id}`, item.description)));
+  return out;
 }

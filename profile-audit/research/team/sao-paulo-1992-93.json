@@ -1,0 +1,524 @@
+{
+  "id": "sao-paulo-1992-93",
+  "catalog": "team",
+  "name": "São Paulo FC 1992-93 (Telê Santana)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1992-03-06",
+    "end": "1993-12-12"
+  },
+  "scopeNote": "São Paulo FC under Telê Santana from the first 1992 Copa Libertadores match (group stage away to Criciúma, 6 March 1992 per Wikipedia season table; Itatiaia confirms the Libertadores debut was a heavy loss to Criciúma) to the 1993 Intercontinental Cup final vs Milan (12 December 1993, Tokyo). Telê took charge in October 1990 (Lance!), so 1990-91 (1991 Brasileirão title) is context only and not counted. Style label used by sources: 4-2-2-2 (Lance!), with a mobile front line and attacking full-backs; 'futebol-arte'/'bola no chão' is the popular label. Zonal vs man marking was NOT found in any readable source. Several eventDates are given as '1992/93' or '1993' because sources do not give the match day.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Zonal vs man-marking and pressing: no readable source addresses it; search budget ran out before the dedicated (b) follow-up. Needs a Brazilian tactical source.",
+    "1993 Intercontinental Cup vs Milan (3-2): only the Wikipedia header was mined; no tactical coverage of the Milan match.",
+    "Period start 1992-03-06 comes from the Wikipedia season table (opponent Criciúma, flagged '1') plus Itatiaia's note that the Libertadores debut was a loss to Criciúma; the table does not name the competition. Date not confirmed by a second source.",
+    "Date of the 1992 Intercontinental final: Wikipedia season page and Gazeta SP say 13 December 1992 (Tokyo local), the 1992 Intercontinental Cup article says 12 December. Eight-minute mismatch also for Raí's winner: 78' (Wikipedia) vs 34' of 2nd half in another summary.",
+    "Trivela 'Mestre Telê' column (T18) describes coletivos 'entre 1992 e 1994'; only the general practice is recorded, eventDate set to 1992/93 by judgement.",
+    "Gazeta Esportiva article 'Entre atritos e glórias' (403) reportedly says Telê admitted to being extremely demanding before the 1992 final first leg; seen only in a search summary, not recorded.",
+    "Lance! 4-2-2-2 article is generic about the 4-2-2-2 system and names São Paulo only in one line; build-up/width descriptions are of the system, not specific matches.",
+    "Pressing and transitions have no verified fact. Lance 'marcava forte' (verified under game-management) is the only hint on defensive intensity.",
+    "Telê Santana's own words: only two attributed press quotes found (Trivela citing Folha); no primary interview located.",
+    "Cruyff quote 'Ferrari' (Trivela) is Cruyff's view, not Telê's, so not placed in statedView."
+  ],
+  "sources": [
+    {
+      "title": "4-2-2-2: como clássico sistema tático do Brasil sumiu? (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/4-2-2-2-esquema-futebol-sumiu.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-08-20",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Clubes como São Paulo (Telê Santana), Palmeiras (Luxemburgo) e Cruzeiro (Levir Culpi) usaram o esquema com enorme sucesso.",
+      "verified": true
+    },
+    {
+      "title": "4-2-2-2 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/4-2-2-2-esquema-futebol-sumiu.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-08-20",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "O 4-2-2-2 tinha quatro defensores em linha, dois volantes que protegiam a zaga e iniciavam a saída de bola (...) e dois atacantes com funções complementares",
+      "verified": true
+    },
+    {
+      "title": "4-2-2-2 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/4-2-2-2-esquema-futebol-sumiu.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-08-20",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "definindo um estilo de jogo baseado na posse de bola, na técnica individual e nas triangulações curtas",
+      "verified": true
+    },
+    {
+      "title": "4-2-2-2 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/4-2-2-2-esquema-futebol-sumiu.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-08-20",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "os laterais eram responsáveis por abrir o campo e dar amplitude ofensiva",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, a Ferrari do São Paulo (Trivela)",
+      "url": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "A troca constante de posições no ataque era uma das armas, com Cafu e Müller invertendo os lados, Raí entrando na área e Palhinha recuando para o meio-campo.",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, a Ferrari do São Paulo (Trivela)",
+      "url": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Telê não tinha pudor em improvisar. “Eu joguei de volante, na zaga, de quarto-zagueiro”, conta o ex-zagueiro Ronaldão, em 2012, para este autor.",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, a Ferrari do São Paulo (Trivela)",
+      "url": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Na avaliação do seu olheiro, o Barcelona deveria explorar os lançamentos de Koeman para Stoichkov e Laudrup, explorando o “nervosismo” da defesa do São Paulo. Os tricolores também conheciam o adversário. Sabiam que esse expediente seria utilizado e tinham Toninho Cerezo",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, a Ferrari do São Paulo (Trivela)",
+      "url": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Raí olhou para Cafu e decidiu cobrar em dois toques. Uma jogada que ele treinava todos os dias, mas nunca tinha funcionado durante os jogos. Daquela vez funcionou.",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, a Ferrari do São Paulo (Trivela)",
+      "url": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "“A gente sabia que uma hora eles iam cansar, cansavam fácil, não tinham a preparação física dos brasileiros”, lembrou Adílson. “Quando fzeram 1 a 0, a gente manteve a tranquilidade. Éramos um time maduro.”",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, a Ferrari do São Paulo (Trivela)",
+      "url": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Ficou impressionado com Cafu. O Tricolor venceu por 4 a 2, e o lateral-ponta-direita participou dos quatro gols do seu time.",
+      "verified": true
+    },
+    {
+      "title": "Há 30 anos, o São Paulo conquistava o bicampeonato da Libertadores (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "O camisa 9 não era um centroavante. (...) Mas o meia-atacante ajudava a compor uma linha de frente móvel com Raí e Muller, tornando o camisa 10 por vezes um centroavante, ou mesmo Muller entrando para marcar os gols. A falta de referência tornava o time imprevisível e com laterais bastante ofensivos, Vitor e Ronaldo Luís.",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Os laterais titulares, Vitor e Ronaldo Luiz, eram um perigo para as defesas adversárias.",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Embora fosse um time ofensivo, aquele São Paulo tinha destaques na defesa, a começar pelo goleiro, Zetti, importante demais ao longo da campanha. (...) O time ainda contava com Dinho e Pintado, dois volantes de davam sustentação ao meio.",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Sem Raí, machucado, Telê escalou três volantes, Pintado, Dinho e Válber, e o time foi mal.",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Telê Santana armou o time deixando Raí mais à frente, junto com Muller, com Cafu fechando do lado esquerdo, Dinho do lado direito e Pintado fazendo a proteção pelo meio. O Cerro Porteño não conseguiu ser criativo e acabou não saindo do zero",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "A derrota para o Newell’s teve falha do lateral esquerdo André, então com 18 anos.",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“Não se pode perder gols assim. Eles estavam mortos. É um absurdo”, disse Telê Santana depois do jogo.",
+      "verified": true
+    },
+    {
+      "title": "Trivela 1993 (calendar load)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "O jogo contra a Universidad Católica na decisão da Libertadores era o 51º no ano, que estava só em maio.",
+      "verified": true
+    },
+    {
+      "title": "Telê Santana e Cruyff fizeram pacto (Gazeta SP)",
+      "url": "https://www.gazetasp.com.br/esportes/tele-santana-e-cruyff-fizeram-pacto-por-bom-futebol-no-mundial-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-22",
+      "eventDate": "1992-12-11",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Ele revelou que os treinadores disseram que interromper uma partida por lesão inventada, esconder a bola ou fazer uma substituição apenas para ganhar tempo não era algo aceitável.",
+      "verified": true
+    },
+    {
+      "title": "Telê Santana e Cruyff fizeram pacto (Gazeta SP)",
+      "url": "https://www.gazetasp.com.br/esportes/tele-santana-e-cruyff-fizeram-pacto-por-bom-futebol-no-mundial-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-22",
+      "eventDate": "1992-12-11",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "os técnicos Telê Santana e Johan Cruyff fizeram um pacto no hotel em que as duas equipes se concentravam: com uma mão sobre a outra, sacramentaram que os clubes deveriam jogar de forma bonita e leal, independentemente do resultado.",
+      "verified": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Criou uma identidade de jogo baseada em posse de bola, técnica apurada, disciplina tática e excelência nos fundamentos.",
+      "verified": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Telê acreditava que o futebol deveria ser jogado com técnica, inteligência e coragem ofensiva. Rejeitava o jogo defensivo excessivo e exigia que seus times atacassem com organização, mantendo a posse e controlando o ritmo das partidas.",
+      "verified": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Treinos longos, repetição exaustiva de fundamentos, trabalho intenso de bola parada e cobrança constante de concentração faziam parte da rotina.",
+      "verified": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1993",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Em uma temporada única no futebol mundial, Telê conquistou quatro títulos internacionais oficiais no mesmo ano: Libertadores, Recopa Sul-Americana, Supercopa da Libertadores e Mundial Interclubes",
+      "verified": true
+    },
+    {
+      "title": "Telê Santana no São Paulo; estatísticas (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-07-26",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Era um time que atacava com inteligência, marcava forte e mostrava repertório tático. Telê montava equipes capazes de controlar o jogo, de se adaptar aos adversários e de impor um padrão técnico de excelência.",
+      "verified": true
+    },
+    {
+      "title": "Telê Santana no São Paulo; estatísticas (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-07-26",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Instituiu uma rotina de treinos intensa, com foco em fundamentos, repetição de jogadas, bola parada e preparação física.",
+      "verified": true
+    },
+    {
+      "title": "Libertadores 1992 (Itatiaia)",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-paulista/sao-paulo-fc/a-campanha-do-sao-paulo-na-copa-libertadores-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1992",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Final: O último obstáculo foi o Newell's Old Boys-ARG. No primeiro jogo, em Rosário, derrota por 1 a 0. (...) Raí marcou de pênalti e levou a decisão para as penalidades. Brilhou a estrela de Zetti",
+      "verified": true
+    },
+    {
+      "title": "Libertadores 1992 (Itatiaia)",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-paulista/sao-paulo-fc/a-campanha-do-sao-paulo-na-copa-libertadores-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1992",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Raí foi o cérebro da equipe, Palhinha brilhou como artilheiro, e Zetti foi o grande nome da final.",
+      "verified": true
+    },
+    {
+      "title": "Libertadores 1992 (Itatiaia)",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-paulista/sao-paulo-fc/a-campanha-do-sao-paulo-na-copa-libertadores-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-26",
+      "eventDate": "1992-03-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "A estreia foi decepcionante, com uma derrota contundente para o Criciúma.",
+      "verified": true
+    },
+    {
+      "title": "How Raí stepped out of brother Sócrates’ shadow (These Football Times)",
+      "url": "https://thesefootballtimes.co/2020/02/04/how-rai-stepped-out-of-brother-socrates-shadow-to-become-a-brazilian-great/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-02-04",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "after a twisting run down the left from Müller, Raí was on hand to chest in the equaliser.",
+      "verified": true
+    },
+    {
+      "title": "How Raí stepped out of brother Sócrates’ shadow (These Football Times)",
+      "url": "https://thesefootballtimes.co/2020/02/04/how-rai-stepped-out-of-brother-socrates-shadow-to-become-a-brazilian-great/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-02-04",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "Twelve minutes from the final whistle, Palhinha was fouled just outside the box. With his chest puffed out and his black hair tumbling in the Tokyo breeze, Raí nudged the ball to Cafu before curling an effort past a stationary Andoni Zubizarreta",
+      "verified": true
+    },
+    {
+      "title": "18 anos sem Mestre Telê (Trivela)",
+      "url": "https://trivela.com.br/brasil/18-anos-tele-santana/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2024-04-22",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Telê era perfeccionista e muito chato. Pegava no pé dos atletas por passes errados e de gestão ruim de patrimônio pessoal. Uma de suas vítimas favoritas era o atacante Palhinha.",
+      "verified": true
+    },
+    {
+      "title": "18 anos sem Mestre Telê (Trivela)",
+      "url": "https://trivela.com.br/brasil/18-anos-tele-santana/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2024-04-22",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Alterava o time com base nos coletes. O time titular estava de branco e os reservas de vermelho, por exemplo. Com a bola rolando, pegava um colete branco e dava para um reserva vestir, mandando o ex-titular sair.",
+      "verified": true
+    },
+    {
+      "title": "18 anos sem Mestre Telê (Trivela)",
+      "url": "https://trivela.com.br/brasil/18-anos-tele-santana/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2024-04-22",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "a aula prática de cruzamento para Cafu, com o auxílio luxuoso de outro mestre, Valdir Joaquim de Morais, auxiliar e preparador de goleiros.",
+      "verified": true
+    },
+    {
+      "title": "1992 São Paulo FC season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1992_S%C3%A3o_Paulo_FC_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-01-05",
+      "eventDate": "1992-03-06",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "| 6 March 1992 1 | Criciúma | 3–0 | São Paulo | Criciúma |",
+      "verified": true
+    },
+    {
+      "title": "1992 São Paulo FC season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1992_S%C3%A3o_Paulo_FC_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-01-05",
+      "eventDate": "1992",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "| Telê Santana | Brazil | 29 January | 20 December | 84 | 45 | 21 | 18 | 133 | 73 | 66% |",
+      "verified": true
+    },
+    {
+      "title": "1993 Intercontinental Cup (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1993_Intercontinental_Cup",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-07-01",
+      "eventDate": "1993-12-12",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "The 1993 Intercontinental Cup was an association football match played on 12 December 1993 between Milan, runners-up of the 1992–93 UEFA Champions League, and São Paulo, winners of the 1993 Copa Libertadores. (...) Toninho Cerezo was named man of the match.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Não se pode perder gols assim. Eles estavam mortos. É um absurdo",
+      "date": "1993",
+      "source": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "o São Paulo não era o Zaragoza nem o Cádiz",
+      "date": "1992-12",
+      "source": "https://trivela.com.br/brasil/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.gazetaesportiva.com/especiais/entre-atritos-e-glorias-tele-transformou-sao-paulo-com-elenco-viciado-em-titulos/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.gazetaesportiva.com/?p=3740450",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.gazetaesportiva.com/?p=3364049",
+      "reason": "403"
+    }
+  ],
+  "_u": [
+    "https://www.gazetaesportiva.com/especiais/entre-atritos-e-glorias-tele-transformou-sao-paulo-com-elenco-viciado-em-titulos/ | 403",
+    "https://www.gazetaesportiva.com/?p=3740450 | 403",
+    "https://www.gazetaesportiva.com/?p=3364049 | 403"
+  ],
+  "influences": [
+    "Futebol Total (Rinus Michels/Cruyff) cited by Trivela as having 'conceitos parecidos' in this side, though 'exagero afirmar que Telê Santana bebeu da mesma fonte'"
+  ],
+  "managers": [
+    {
+      "managerId": "tele-santana",
+      "start": "1992-03-06",
+      "end": "1993-12-12"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "transitions"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good Portuguese coverage on width, player profile, set pieces and people-management from Trivela (B), but mostly tier C elsewhere; no source on marking, pressing or transitions; 1993 Milan final uncovered."
+  }
+}

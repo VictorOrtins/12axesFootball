@@ -1,9 +1,7 @@
 package com.twelveaxes;
 
 import static org.hamcrest.Matchers.greaterThan;
-import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.hasSize;
-import static org.hamcrest.Matchers.not;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -26,52 +24,41 @@ class CompareControllerTest {
     void catalogListsAllThreeTypes() throws Exception {
         mockMvc.perform(get("/api/compare/catalog").param("lang", "pt"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.length()", greaterThan(600)))
-                .andExpect(jsonPath("$[?(@.type=='personality')]").isNotEmpty())
-                .andExpect(jsonPath("$[?(@.type=='country')]").isNotEmpty())
-                .andExpect(jsonPath("$[?(@.type=='ideology')]").isNotEmpty());
+                .andExpect(jsonPath("$.length()").value(24))
+                .andExpect(jsonPath("$[?(@.type=='manager')]").isNotEmpty())
+                .andExpect(jsonPath("$[?(@.type=='team')]").isNotEmpty())
+                .andExpect(jsonPath("$[?(@.type=='football-ideology')]").isNotEmpty());
     }
 
     @Test
-    void catalogAppliesTheReligionFilterLikeTheResults() throws Exception {
-        // Sem religiao escolhida, perfis "only" ficam escondidos; com a religiao listada, aparecem.
-        mockMvc.perform(get("/api/compare/catalog").param("lang", "pt"))
-                .andExpect(jsonPath("$[*].id", not(hasItem("teocracia-judaica"))));
-        mockMvc.perform(get("/api/compare/catalog").param("lang", "pt").param("religion", "judaism"))
-                .andExpect(jsonPath("$[*].id", hasItem("teocracia-judaica")));
-        mockMvc.perform(get("/api/compare/catalog").param("lang", "pt").param("religion", "christianity"))
-                .andExpect(jsonPath("$[*].id", not(hasItem("teocracia-judaica"))));
-    }
-
-    @Test
-    void ideologyHasNoImageAndCountryHasAFlag() throws Exception {
+    void footballIdeologyHasNoImageAndTeamsCanHaveOne() throws Exception {
         mockMvc.perform(get("/api/compare/catalog").param("lang", "en"))
-                .andExpect(jsonPath("$[?(@.type=='ideology')]").isNotEmpty())
-                .andExpect(jsonPath("$[?(@.type=='ideology' && @.imagePath != null)]", hasSize(0)))
-                .andExpect(jsonPath("$[?(@.type=='country' && @.imagePath != null)]").isNotEmpty());
+                .andExpect(jsonPath("$[?(@.type=='football-ideology')]").isNotEmpty())
+                .andExpect(jsonPath("$[?(@.type=='football-ideology' && @.imagePath != null)]", hasSize(0)))
+                .andExpect(jsonPath("$[?(@.type=='team' && @.imagePath != null)]").isNotEmpty());
     }
 
     @Test
-    void comparesWithAPersonality() throws Exception {
+    void comparesWithAManager() throws Exception {
         mockMvc.perform(get("/api/compare")
-                        .param("type", "personality").param("id", "joe-biden").param("v", CENTER).param("lang", "pt"))
+                        .param("type", "manager").param("id", "fx-treinador-1").param("v", CENTER).param("lang", "pt"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.item.id").value("joe-biden"))
-                .andExpect(jsonPath("$.item.type").value("personality"))
+                .andExpect(jsonPath("$.item.id").value("fx-treinador-1"))
+                .andExpect(jsonPath("$.item.type").value("manager"))
                 .andExpect(jsonPath("$.compatibility", greaterThan(0.0)))
-                .andExpect(jsonPath("$.vector.economia").isNumber())
+                .andExpect(jsonPath("$.vector.pos").isNumber())
                 .andExpect(jsonPath("$.vector.length()").value(12));
     }
 
     @Test
-    void comparesWithACountryAndAnIdeology() throws Exception {
-        mockMvc.perform(get("/api/compare").param("type", "country").param("id", "brasil").param("v", CENTER))
+    void comparesWithATeamAndAFootballIdeology() throws Exception {
+        mockMvc.perform(get("/api/compare").param("type", "team").param("id", "fx-time-1").param("v", CENTER))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.item.type").value("country"))
+                .andExpect(jsonPath("$.item.type").value("team"))
                 .andExpect(jsonPath("$.vector.length()").value(12));
-        mockMvc.perform(get("/api/compare").param("type", "ideology").param("id", "social-democracia").param("v", CENTER))
+        mockMvc.perform(get("/api/compare").param("type", "football-ideology").param("id", "fx-proativo").param("v", CENTER))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.item.type").value("ideology"))
+                .andExpect(jsonPath("$.item.type").value("football-ideology"))
                 .andExpect(jsonPath("$.vector.length()").value(12));
     }
 
@@ -79,9 +66,9 @@ class CompareControllerTest {
     void rejectsUnknownTypeUnknownIdAndBadVector() throws Exception {
         mockMvc.perform(get("/api/compare").param("type", "planet").param("id", "x").param("v", CENTER))
                 .andExpect(status().isBadRequest());
-        mockMvc.perform(get("/api/compare").param("type", "personality").param("id", "nobody").param("v", CENTER))
+        mockMvc.perform(get("/api/compare").param("type", "manager").param("id", "nobody").param("v", CENTER))
                 .andExpect(status().isNotFound());
-        mockMvc.perform(get("/api/compare").param("type", "personality").param("id", "joe-biden").param("v", "abc"))
+        mockMvc.perform(get("/api/compare").param("type", "manager").param("id", "fx-treinador-1").param("v", "abc"))
                 .andExpect(status().isBadRequest());
     }
 }

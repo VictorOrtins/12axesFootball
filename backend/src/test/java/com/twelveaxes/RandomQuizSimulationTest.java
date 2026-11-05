@@ -10,7 +10,7 @@ import com.twelveaxes.model.Question;
 import com.twelveaxes.model.QuizPayload;
 import com.twelveaxes.model.ResultRequest;
 import com.twelveaxes.model.SubmittedAnswer;
-import com.twelveaxes.service.IdeologyMatcherService;
+import com.twelveaxes.service.FootballIdeologyMatcherService;
 import com.twelveaxes.service.QuizDataService;
 import com.twelveaxes.service.ScoringService;
 import java.util.ArrayList;
@@ -37,7 +37,7 @@ class RandomQuizSimulationTest {
     private ScoringService scoringService;
 
     @Autowired
-    private IdeologyMatcherService matcherService;
+    private FootballIdeologyMatcherService matcherService;
 
     @Test
     void simulateQuizWithRandomAnswers() {
@@ -88,98 +88,20 @@ class RandomQuizSimulationTest {
         return supportingAnswers[random.nextInt(supportingAnswers.length)];
     }
 
+    // "left" e "right" puxam todos os eixos para um polo; "random" responde ao acaso.
     private Map<String, Pole> preferredPoleByAxis(String mode) {
         return switch (mode) {
             case RANDOM_MODE -> Map.of();
-            case "left" -> Map.ofEntries(
-                    Map.entry("estrutura", Pole.LEFT),
-                    Map.entry("representacao", Pole.LEFT),
-                    Map.entry("poder", Pole.RIGHT),
-                    Map.entry("imigracao", Pole.RIGHT),
-                    Map.entry("diplomacia", Pole.RIGHT),
-                    Map.entry("intervencao", Pole.LEFT),
-                    Map.entry("economia", Pole.LEFT),
-                    Map.entry("controle", Pole.LEFT),
-                    Map.entry("comercio", Pole.LEFT),
-                    Map.entry("religiao", Pole.LEFT),
-                    Map.entry("moral", Pole.LEFT),
-                    Map.entry("tecnologia", Pole.LEFT)
-            );
-            case "right" -> Map.ofEntries(
-                    Map.entry("estrutura", Pole.RIGHT),
-                    Map.entry("representacao", Pole.RIGHT),
-                    Map.entry("poder", Pole.RIGHT),
-                    Map.entry("imigracao", Pole.LEFT),
-                    Map.entry("diplomacia", Pole.LEFT),
-                    Map.entry("intervencao", Pole.RIGHT),
-                    Map.entry("economia", Pole.RIGHT),
-                    Map.entry("controle", Pole.RIGHT),
-                    Map.entry("comercio", Pole.RIGHT),
-                    Map.entry("religiao", Pole.RIGHT),
-                    Map.entry("moral", Pole.RIGHT),
-                    Map.entry("tecnologia", Pole.RIGHT)
-            );
-            case "authoritarian" -> Map.ofEntries(
-                    Map.entry("estrutura", Pole.RIGHT),
-                    Map.entry("representacao", Pole.RIGHT),
-                    Map.entry("poder", Pole.LEFT),
-                    Map.entry("imigracao", Pole.LEFT),
-                    Map.entry("diplomacia", Pole.LEFT),
-                    Map.entry("intervencao", Pole.RIGHT),
-                    Map.entry("economia", Pole.RIGHT),
-                    Map.entry("controle", Pole.LEFT),
-                    Map.entry("comercio", Pole.LEFT),
-                    Map.entry("religiao", Pole.RIGHT),
-                    Map.entry("moral", Pole.RIGHT),
-                    Map.entry("tecnologia", Pole.RIGHT)
-            );
-            case "libertarian" -> Map.ofEntries(
-                    Map.entry("estrutura", Pole.LEFT),
-                    Map.entry("representacao", Pole.LEFT),
-                    Map.entry("poder", Pole.RIGHT),
-                    Map.entry("imigracao", Pole.RIGHT),
-                    Map.entry("diplomacia", Pole.RIGHT),
-                    Map.entry("intervencao", Pole.LEFT),
-                    Map.entry("economia", Pole.RIGHT),
-                    Map.entry("controle", Pole.RIGHT),
-                    Map.entry("comercio", Pole.RIGHT),
-                    Map.entry("religiao", Pole.LEFT),
-                    Map.entry("moral", Pole.LEFT),
-                    Map.entry("tecnologia", Pole.LEFT)
-            );
-            case "progressive" -> Map.ofEntries(
-                    Map.entry("estrutura", Pole.LEFT),
-                    Map.entry("representacao", Pole.LEFT),
-                    Map.entry("poder", Pole.RIGHT),
-                    Map.entry("imigracao", Pole.RIGHT),
-                    Map.entry("diplomacia", Pole.RIGHT),
-                    Map.entry("intervencao", Pole.LEFT),
-                    Map.entry("economia", Pole.LEFT),
-                    Map.entry("controle", Pole.LEFT),
-                    Map.entry("comercio", Pole.RIGHT),
-                    Map.entry("religiao", Pole.LEFT),
-                    Map.entry("moral", Pole.LEFT),
-                    Map.entry("tecnologia", Pole.LEFT)
-            );
-            case "traditional" -> Map.ofEntries(
-                    Map.entry("estrutura", Pole.RIGHT),
-                    Map.entry("representacao", Pole.RIGHT),
-                    Map.entry("poder", Pole.LEFT),
-                    Map.entry("imigracao", Pole.LEFT),
-                    Map.entry("diplomacia", Pole.LEFT),
-                    Map.entry("intervencao", Pole.RIGHT),
-                    Map.entry("economia", Pole.RIGHT),
-                    Map.entry("controle", Pole.RIGHT),
-                    Map.entry("comercio", Pole.LEFT),
-                    Map.entry("religiao", Pole.RIGHT),
-                    Map.entry("moral", Pole.RIGHT),
-                    Map.entry("tecnologia", Pole.RIGHT)
-            );
-            default -> throw new IllegalArgumentException(
-                    "Modo invalido: " + mode
-                            + ". Use random, left, right, authoritarian, libertarian, progressive ou traditional."
-            );
+            case "left" -> allAxesToward(Pole.LEFT);
+            case "right" -> allAxesToward(Pole.RIGHT);
+            default -> throw new IllegalArgumentException("Modo invalido: " + mode + ". Use random, left ou right.");
         };
+    }
+
+    private Map<String, Pole> allAxesToward(Pole pole) {
+        Map<String, Pole> poles = new LinkedHashMap<>();
+        dataService.getAxes().forEach(axis -> poles.put(axis.id(), pole));
+        return poles;
     }
 
     private List<Question> selectRandomQuestions(QuizPayload quiz, Random random) {
@@ -232,11 +154,11 @@ class RandomQuizSimulationTest {
         System.out.println();
     }
 
-    private void printResult(com.twelveaxes.model.IdeologyMatch topMatch, List<AxisResult> axes) {
+    private void printResult(com.twelveaxes.model.FootballIdeologyMatch topMatch, List<AxisResult> axes) {
         System.out.println("============================================================");
         System.out.println("RESULTADO FINAL");
         System.out.println("============================================================");
-        System.out.printf("Ideologia aproximada: %s%n", topMatch.name());
+        System.out.printf("Ideia de jogo aproximada: %s%n", topMatch.name());
         System.out.printf("Categoria: %s%n", topMatch.category());
         System.out.printf("Compatibilidade: %.1f%%%n", topMatch.compatibility());
         System.out.printf("Descricao: %s%n", topMatch.description());

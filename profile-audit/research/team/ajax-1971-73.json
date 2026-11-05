@@ -1,0 +1,500 @@
+{
+ "id": "ajax-1971-73",
+ "catalog": "team",
+ "name": "Ajax 1971/72-1972/73 (Ștefan Kovács)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1971-08-15",
+  "end": "1973-05-30"
+ },
+ "scopeNote": "Ajax under Ștefan Kovács from the first competitive match of 1971/72 (Twente 0-2 Ajax, Eredivisie, 15 Aug 1971 per Wikipedia season page) to the 1973 European Cup final (30 May 1973). Includes the European Cups of 1972 (2-0 Inter) and 1973 (1-0 Juventus). Style named 'Total Football' (totaalvoetbal); Michels' 1969-71 Ajax and the 1974 Netherlands are excluded: the 1971 final (Panathinaikos) is under Michels. Kovács' appointment is June 1971 per a secondary source, not a competitive match. Several sources (Vasović) argue Kovács merely continued Michels' system; tactical material dated strictly 1971-73 is thin and mostly rests on the StatsBomb 1972 final analysis, so most dimensions rely on one match.",
+ "managers": [
+  {
+   "managerId": "stefan-kovacs",
+   "start": "1971-08-15",
+   "end": "1973-05-30"
+  }
+ ],
+ "ambiguities": [],
+ "openQuestions": [
+  "Kovács' exact appointment date (June 1971 per secondary source) and the first competitive match date were taken from the Wikipedia season page, not a tier A-B source.",
+  "How much of the system was Kovács' own versus Michels' (Vasović: 'had nothing to do'; Wilson: freedom/decadence). No source found on zonal vs man-marking for 1971-73 beyond the offside trap and Neeskens' close attention to Mazzola in one match.",
+  "Tactical detail for 1972/73 league and the Bayern/Real Madrid ties comes only from one TFT article; Hungarian interview quote is undated, c.1973 likely.",
+  "statedView dates are the dates of the article where the quote was found; original dates of the Cruyff, Kovács and Vasović statements were not located (earliest appearance unknown)."
+ ],
+ "sources": [
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "The formations are familiar: a 4-3-3 for Ajax and a 4-4-1-1/4-2-3-1 for Inter.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "This Ajax side were the early prototype for the press and possess football of today. They regularly contested possession in opposition territory and when the ball was won, moved forward swiftly into shooting positions.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "they are still quick to close down, and they also step up swiftly to force offsides",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "they also step up swiftly to force offsides",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Sandro Mazzola picked out a couple of nice passes in transition but was largely unable to influence things, partly due to the close attention of Johan Neeskens.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Over half of their attempted box entries came from crosses, versus a competition average of 28% in 2018-19. Just two of the 15 deliveries from the right by Sjaak Swart and the ever-advancing full-back Wim Suurbier found their target.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Two goals from Johan Cruyff, the second a header from a left-wing corner, saw them to victory.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "This Ajax team are largely thought of as an attacking one, but their approach was often just as, if not more effective in stifling their opponents. Their three consecutive European Cup triumphs in this era were all coupled with clean sheets.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Given their territorial dominance, Ajax really struggled to create good-quality chances from open play.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1972, Ajax 2-0 Inter Milan",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1972-ajax-2-0-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-30",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "the number of dribbles was slightly down from the 1960 final, but the figures of 47 attempted and 30 completed were both still well above those usually seen in the modern game.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb Icons: Johan Cruyff",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/statsbomb-icons-johan-cruyff/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-07-24",
+   "eventDate": "1972-05-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Ajax pressed high and aggressively, applying 123 pressures with 74 (60%) in the opposition half",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb Icons: Johan Cruyff",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/statsbomb-icons-johan-cruyff/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-07-24",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Ajax had a perfect home record in the league, suffering just one defeat in the entire season and winning both the Eredivisie and the KNVB cup.",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "In the build-up to the Rep goal, Ajax centre-back Horst Blankenburg trots forward over the halfway line, walking with the ball at his feet, before nonchalantly gliding it towards the back post",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1973-05-30",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "from the kick-off, the Ajax players strolled through the game, playing keep-ball until the 90 minutes were up.",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1973-05-30",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "It wasn’t particularly the domineering nature of Ajax’s attacking possession-based style that enthused the watching world that night, however, but their audacity",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Wilson also notes that over the two legs of their semi-final tie against Real Madrid, Ajax “barely did justice to their superiority”.",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "With the Real Madrid players retreating after Mühren picked up the ball on the halfway line, the Dutchman provocatively flicked the ball up in the air and started to juggle with it, before allowing it to drop and sliding it out to Krol who was advancing from left-back.",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Hulshoff was furious with Mühren after the incident, immediately running over to him to remonstrate.",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Vasović claims that Kovács “had nothing to do” with Total Football, stating: “He simply took over a very good team and let them continue the way they had already been playing.”",
+   "verified": true
+  },
+  {
+   "title": "Why Ajax's European Cup triumph in 1973 was met with fan disgruntlement",
+   "url": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-26",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Kovács oversaw a team that played attractive football but in too formulaic a way towards the end of his tenure.",
+   "verified": true
+  },
+  {
+   "title": "Stefan Kovacs: The forgotten legend of Romanian football",
+   "url": "https://emerging-europe.com/stefan-kovacs-the-forgotten-legend-of-romanian-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Low key and relaxed where Michels had been combative and a strict disciplinarian, Kovács tolerated the excesses of Ajax’s galaxy of stars.",
+   "verified": true
+  },
+  {
+   "title": "Stefan Kovacs: The forgotten legend of Romanian football",
+   "url": "https://emerging-europe.com/stefan-kovacs-the-forgotten-legend-of-romanian-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“He allowed us to be ourselves, and he in turn became one of us,” said Cruyff.",
+   "verified": true
+  },
+  {
+   "title": "Stefan Kovacs: The forgotten legend of Romanian football",
+   "url": "https://emerging-europe.com/stefan-kovacs-the-forgotten-legend-of-romanian-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "he stayed for just two seasons, but they were glorious.",
+   "verified": true
+  },
+  {
+   "title": "Kovács István és az Ajax (Telex)",
+   "url": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "tier": "C",
+   "language": "hu",
+   "articleDate": "2026-05-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Kovács sokkal engedékenyebben állt a játékosokhoz. Akkor sem szidta le őket, amikor látta, hogy cigiznek, isznak és kártyáznak.",
+   "verified": true
+  },
+  {
+   "title": "Kovács István és az Ajax (Telex)",
+   "url": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "tier": "C",
+   "language": "hu",
+   "articleDate": "2026-05-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "az elődöntőben a Benfica ellen csak 1-0-ra nyertek hazai pályán. Ekkor a vezetőség nem igazán bízott abban, hogy bejutnak a döntőbe, ezért elgondolkodtak a menesztésén. Cruyff azonban kiállt mellette",
+   "verified": true
+  },
+  {
+   "title": "Kovács István és az Ajax (Telex)",
+   "url": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "tier": "C",
+   "language": "hu",
+   "articleDate": "2026-05-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Minimum 178 centi, 78 kilós játékosokat keresünk, akik elbírják, hogy a térdig érő sárban is jól játszanak az év 7 hónapjában.",
+   "verified": true
+  },
+  {
+   "title": "Kovács István és az Ajax (Telex)",
+   "url": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "tier": "C",
+   "language": "hu",
+   "articleDate": "2026-05-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Sikerült Cruyff-fal és Keizerrel megértetnem, hogy kivételes képességeiket a csapat érdekei vessék alá",
+   "verified": true
+  },
+  {
+   "title": "Kovács István és az Ajax (Telex)",
+   "url": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "tier": "C",
+   "language": "hu",
+   "articleDate": "2026-05-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Az Ajaxnál hetente kétszer legalább a fejjátékot gyakoroltatjuk.",
+   "verified": true
+  },
+  {
+   "title": "Kovács István és az Ajax (Telex)",
+   "url": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "tier": "C",
+   "language": "hu",
+   "articleDate": "2026-05-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Hogy mindenki tudjon védekezni és támadni egyaránt, poszttól függetlenül.",
+   "verified": true
+  },
+  {
+   "title": "Ștefan Kovács - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C8%98tefan_Kov%C3%A1cs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-10-30",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "He succeeded Rinus Michels as the head of Ajax in 1971, continuing and expanding on his \"total football\" philosophy.",
+   "verified": true
+  },
+  {
+   "title": "Ștefan Kovács - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C8%98tefan_Kov%C3%A1cs",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-10-30",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "He began his second season by winning the Intercontinental Cup with a 4–1 aggregate victory over Independiente, followed by the European Super Cup after a 6–3 aggregate win against Rangers.",
+   "verified": true
+  },
+  {
+   "title": "1971–72 AFC Ajax season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1971%E2%80%9372_AFC_Ajax_season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-15",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "| FW | Johnny Rep | Jong Ajax | Transfer | Free |  |",
+   "verified": true
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The high defensive line was a necessary consequence — to keep the team compact, the defenders had to play far up the pitch, with an offside trap to catch opposition forwards who tried to run in behind.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Ștefan Kovács was a very pleasant coach, but much less strict than Michels when it came to discipline. Kovács let us be ourselves, he was one of us.",
+   "date": "2005-10-30",
+   "source": "https://en.wikipedia.org/wiki/%C8%98tefan_Kov%C3%A1cs",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "He allowed us to be ourselves, and he in turn became one of us",
+   "date": "2020-05-01",
+   "source": "https://emerging-europe.com/stefan-kovacs-the-forgotten-legend-of-romanian-football/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Az összes pénzünket elnyerte a pókeren",
+   "date": "2026-05-14",
+   "source": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Hogy mindenki tudjon védekezni és támadni egyaránt, poszttól függetlenül. [...] Az Ajaxnál hetente kétszer legalább a fejjátékot gyakoroltatjuk.",
+   "date": "2026-05-14",
+   "source": "https://telex.hu/sport/2026/05/14/kovacs-istvan-ajax-cruyff-duplazas-totalis-futball",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "He simply took over a very good team and let them continue the way they had already been playing.",
+   "date": "2018-10-26",
+   "source": "https://thesefootballtimes.co/2018/10/26/why-ajaxs-european-cup-triumph-in-1973-was-met-with-fan-disgruntlement-as-their-fate-loomed-large/",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2253548.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.pitchpublishing.co.uk/sites/default/files/associated_downloads/Dutch%20Masters%20SAMPLE.pdf",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.worldofjohancruyff.com/?p=998",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/001d-0e6a063db7f1-d31936dba4bd-1000--1971-72-football-total-2-catenaccio-0/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://fr.uefa.com/uefachampionsleague/news/001d-0e6a063db7f1-d31936dba4bd-1000--1971-72-football-total-2-catenaccio-0/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://uefa.com/uefachampionsleague/news/001d-0e6a061e6948-a884b1c6a734-1000--1971-72-cruyff-double-keeps-ajax-in-command",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.glieroidelcalcio.com/?p=24978",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/1972%E2%80%9373_AFC_Ajax_season",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "rinus-michels"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A data for the 1972 final (StatsBomb) and tier B for 1973, but only one match per dimension and little 1971-73 tactical coverage of Kovács himself; people-management rests on tier C retrospective quotes."
+ }
+}

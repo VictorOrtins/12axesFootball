@@ -1,0 +1,545 @@
+{
+ "id": "simone-inzaghi",
+ "catalog": "manager",
+ "name": "Simone Inzaghi",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2016-04-03",
+  "end": "2025-06-03"
+ },
+ "scopeNote": "Counted spells proposed by the agent (user asked to choose): Lazio (took charge 2016-04-03 as interim after Pioli was sacked; permanent deal followed, exact day not confirmed; left 2021-05-27) and Inter (contract signed 2021-06-03; left 2025-06-03 by mutual consent after the 5-0 Champions League final loss to PSG). Both are signature 3-5-2 spells with titles (Lazio: Coppa Italia, 2 Supercoppas; Inter: Serie A 2023/24, Coppa Italia x2, Supercoppa x3, two Champions League finals). The style is the 3-5-2 (5-3-2 out of possession, wing-back width, mid/low block, wide pressing trap); Delaney (via Wikipedia) calls his Inter approach 'reactive' and Coaches' Voice notes more rotations/fluidity at Inter than Lazio. Al-Hilal (appointed 2025-06-04, still in charge on 2026-08-21 per The National; unbeaten in 2025/26 league but second to Al Nassr) is excluded: Saudi context, little tactical coverage, spell ongoing. Lazio youth work excluded as context. Evidence is stronger for Lazio build-up (Spielverlagerung) and Inter structure (Coaches' Voice); marking evidence is a single match (set pieces mixed zonal/man, 2020). Excluded youth spell start is given only as the year 2010 (day not found). Coaches' Voice and Wikipedia general-style claims are dated to a representative season (2020/21 for Lazio, 2023/24 for Inter) because they describe whole spells.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Permanent Lazio appointment date (interim from 2016-04-03; permanent contract mid-2016) not confirmed from a source.",
+  "Inter and Al-Hilal match-level tactical studies (Zonal Marking, StatsBomb, Total Football Analysis) were not retrieved; marking policy at Inter unverified (one 2020 Lazio set-piece shows zonal/man mix).",
+  "Al-Hilal status after 2026-09 not confirmed; excluded either way.",
+  "Delaney calls Inter 'reactive' while Coaches' Voice stresses structured build-up rotations: label tension kept."
+ ],
+ "spellsCounted": [
+  {
+   "club": "Lazio",
+   "start": "2016-04-03",
+   "end": "2021-05-27",
+   "reason": "Coppa Italia 2019, two Supercoppas, Spielverlagerung/Coaches' Voice coverage of 3-5-2 build-up; led to Inter job"
+  },
+  {
+   "club": "Inter",
+   "start": "2021-06-03",
+   "end": "2025-06-03",
+   "reason": "Serie A 2023/24, two Coppa Italia, Supercoppas, two Champions League finals; Coaches' Voice coverage of 3-5-2 rotations"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Lazio Primavera/Allievi (youth)",
+   "start": "2010",
+   "end": "2016-04-03",
+   "reason": "Youth role, not first-team manager"
+  },
+  {
+   "club": "Al-Hilal",
+   "start": "2025-06-04",
+   "end": "ongoing",
+   "reason": "Saudi league, spell ongoing at 2026-08-21, little tactical coverage; user asked to keep signature 3-5-2 spells"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Inzaghi has almost exclusively favoured a 3-5-2 shape at both Lazio and Inter.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "They don’t necessarily dominate the ball, but they consistently have at least an equal share of possession.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Inzaghi’s teams look to build through the thirds with short passes, where possible, but will always look to play forward and penetrate as a priority.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "One example is the middle centre-back moving into midfield as an extra pivot during sustained build-up.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "With Lazio, Inzaghi often made use of mid and low-blocks. Out of possession, the 3-5-2 became a 5-3-2.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The back line of five was supported by three screening midfielders and two centre-forwards ahead.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "With Inter, Inzaghi has operated similarly, albeit with the use of a mid-block much more often. The 5-3-2 has been maintained when defending, with a very similar style and wide pressing trap to that seen with Lazio.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "They recorded the most crosses in the 2022/23 and 2023/24 Serie A campaigns, and the second-most in 2021/22.",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "When Inter lose possession, however, some of their defenders can be caught out, especially if they have advanced quite high in central spaces.",
+   "verified": true
+  },
+  {
+   "title": "Lazio's 3-1-5-1 Build-Up Approach - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2020/11/11/lazios-3-1-5-1-build-up-approach/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Lazio’s creation of in possession play begins with the formation of a diamond consisting of their back three and Lucas who plays the point down of the midfield unit.",
+   "verified": true
+  },
+  {
+   "title": "Lazio's 3-1-5-1 Build-Up Approach - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2020/11/11/lazios-3-1-5-1-build-up-approach/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "it highlights the necessity for a variety of accessible strategies for Lazio to implement to remain successful",
+   "verified": true
+  },
+  {
+   "title": "Lazio's 3-1-5-1 Build-Up Approach - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2020/11/11/lazios-3-1-5-1-build-up-approach/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Upon the trigger of a successful pass, wing-backs and the remaining striker can make forward runs beyond the opposition’s defence presenting a transition that allows to go from build-up to an attacking 5v4 within one pass.",
+   "verified": true
+  },
+  {
+   "title": "Lazio's 3-1-5-1 Build-Up Approach - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2020/11/11/lazios-3-1-5-1-build-up-approach/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "The role of Milinkovic-Savic is integral within this",
+   "verified": true
+  },
+  {
+   "title": "Lazio's 3-1-5-1 Build-Up Approach - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2020/11/11/lazios-3-1-5-1-build-up-approach/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Immobile’s movement comes from a blind-side starting position and is very unlikely to be tracked",
+   "verified": true
+  },
+  {
+   "title": "Lazio's 3-1-5-1 Build-Up Approach - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2020/11/11/lazios-3-1-5-1-build-up-approach/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "most positional rotation occurring on vertical lines between Luis Alberto, Milinkovic-Savic, Immobile and Correa",
+   "verified": true
+  },
+  {
+   "title": "Matchday 24, Lazio 2-1 Inter: Tactical Analysis | The Laziali",
+   "url": "https://thelaziali.com/2020/02/18/lazio-vs-inter-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2020-02-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Lazio chose a balance of man-marking and zonal marking against an Inter side that boasts a great aerial threat",
+   "verified": true
+  },
+  {
+   "title": "Matchday 24, Lazio 2-1 Inter: Tactical Analysis | The Laziali",
+   "url": "https://thelaziali.com/2020/02/18/lazio-vs-inter-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2020-02-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "From the first image, you can see Stefan Radu is marking Lautaro Martinez and Luiz Felipe looks to be marking de Vrij, leaving Francesco Acerbi to mark Godin.",
+   "verified": true
+  },
+  {
+   "title": "Matchday 24, Lazio 2-1 Inter: Tactical Analysis | The Laziali",
+   "url": "https://thelaziali.com/2020/02/18/lazio-vs-inter-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2020-02-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Milinkovic-Savic, Immobile, and Caicedo all then pressed Padelli",
+   "verified": true
+  },
+  {
+   "title": "Matchday 24, Lazio 2-1 Inter: Tactical Analysis | The Laziali",
+   "url": "https://thelaziali.com/2020/02/18/lazio-vs-inter-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2020-02-16",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Lazzari for Jony and making Marusic play on the left was the best decision Inzaghi could have made.",
+   "verified": true
+  },
+  {
+   "title": "Matchday 24, Lazio 2-1 Inter: Tactical Analysis | The Laziali",
+   "url": "https://thelaziali.com/2020/02/18/lazio-vs-inter-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-02-18",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the squad depth is slightly worrying. Backups haven’t shown they can perform up to the standard required",
+   "verified": true
+  },
+  {
+   "title": "Vicissitudes of Verticality: Lazio | Breaking The Lines",
+   "url": "https://breakingthelines.com/tactical-analysis/vicissitudes-of-verticality-lazio",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-06-19",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Lucas drops to create a flat back 4, creating the 4-2-4 build-up structure often used by Lazio.",
+   "verified": true
+  },
+  {
+   "title": "Vicissitudes of Verticality: Lazio | Breaking The Lines",
+   "url": "https://breakingthelines.com/tactical-analysis/vicissitudes-of-verticality-lazio",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-06-19",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Lazio’s primary issues defensively lie in their losing of possession once committed to the transition",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Inter's 3-5-2 under Inzaghi",
+   "url": "https://www.getfootballnewsitaly.com/2024/from-pavard-moving-into-attack-to-acerbi-acting-as-holding-midfielder-a-look-at-inters-3-5-2-under-simone-inzaghi/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Francesco Acrbi was heavily involved in the build-up, as the former Lazio player often found himself as a deep-lying midfielder",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Inter's 3-5-2 under Inzaghi",
+   "url": "https://www.getfootballnewsitaly.com/2024/from-pavard-moving-into-attack-to-acerbi-acting-as-holding-midfielder-a-look-at-inters-3-5-2-under-simone-inzaghi/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "The wing-backs exploited the width of the pitch as Dimarco and Darmian constantly distributed crosses in the box",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Inter's 3-5-2 under Inzaghi",
+   "url": "https://www.getfootballnewsitaly.com/2024/from-pavard-moving-into-attack-to-acerbi-acting-as-holding-midfielder-a-look-at-inters-3-5-2-under-simone-inzaghi/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Henkrih Mkhitaryan , Benjamin Pavard, Matteo Darmian, and Marcus Thuram all combined on the right-hand side",
+   "verified": true
+  },
+  {
+   "title": "Corriere dello Sport: Lazio, basta la chiave del modulo",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/lazio/2016/11/05-17112327/lazio_basta_la_chiave_del_modulo",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2016-11-05",
+   "eventDate": "2016-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Inzaghi ha lavorato sul 3-5-2 che diventerà 4-3-3 in possesso",
+   "verified": true
+  },
+  {
+   "title": "Corriere dello Sport: Lazio, basta la chiave del modulo",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/lazio/2016/11/05-17112327/lazio_basta_la_chiave_del_modulo",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2016-11-05",
+   "eventDate": "2016-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Vuole difendere con il 3-5-2 e attaccare, in fase di possesso, con il 4-3-3",
+   "verified": true
+  },
+  {
+   "title": "Corriere dello Sport: Lazio, basta la chiave del modulo",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/lazio/2016/11/05-17112327/lazio_basta_la_chiave_del_modulo",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2016-11-05",
+   "eventDate": "2016-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Servono due difensori veloci (Basta e Radu) e una sola torre (Wallace), non due.",
+   "verified": true
+  },
+  {
+   "title": "Inzaghi trying to manage squad as Inter chase double | Flashscore",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-inzaghi-trying-to-manage-squad-as-inter-chase-double-praises-zalewski-after-torino-win/8l2hmU8C",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-11",
+   "eventDate": "2025-05-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "The 49-year-old has opted to rotate his key players to ensure the long season does not wear them down",
+   "verified": true
+  },
+  {
+   "title": "Inzaghi trying to manage squad as Inter chase double | Flashscore",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-inzaghi-trying-to-manage-squad-as-inter-chase-double-praises-zalewski-after-torino-win/8l2hmU8C",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-11",
+   "eventDate": "2025-05-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "I need to give some players rest time after a long and hard season",
+   "verified": true
+  },
+  {
+   "title": "Inzaghi trying to manage squad as Inter chase double | Flashscore",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-inzaghi-trying-to-manage-squad-as-inter-chase-double-praises-zalewski-after-torino-win/8l2hmU8C",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-11",
+   "eventDate": "2025-05-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "He actually started out as a mezzala (half-winger) and can also work as a wing-back",
+   "verified": true
+  },
+  {
+   "title": "Inzaghi trying to manage squad as Inter chase double | Flashscore",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-inzaghi-trying-to-manage-squad-as-inter-chase-double-praises-zalewski-after-torino-win/8l2hmU8C",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-11",
+   "eventDate": "2025-05-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Lautaro Martinez, goalkeeper Yann Sommer, and midfielder Davide Frattesi were among those left out of the starting lineup",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Simone_Inzaghi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-04",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Inzaghi gave his players more freedom tactically than his predecessor Antonio Conte",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Simone_Inzaghi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-04",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "described as \"reactive\" by Miguel Delaney of The Independent",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Simone_Inzaghi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-04",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "he implemented both a high press and a mid-block to win the ball back",
+   "verified": true
+  },
+  {
+   "title": "Simone Inzaghi tactics and style of play - Coaches' Voice",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the younger of the Inzaghis spent six years coaching in Lazio’s academy system, before he became first-team manager in 2016.",
+   "verified": true
+  },
+  {
+   "title": "Goal: Lazio confirm Inzaghi exit",
+   "url": "https://goal.com/en/news/lazio-confirm-inzaghi-exit-as-coach-prepares-to-take-over-at/jy99oi720l4016he310k5ts25",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-27",
+   "eventDate": "2021-05-27",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Lazio have confirmed that head coach Simone Inzaghi has left the club ahead of a move to take over at Serie A rivals Inter.",
+   "verified": true
+  },
+  {
+   "title": "Al Hilal win again as Inzaghi dismisses reports of rift with Benzema | The National",
+   "url": "https://www.thenationalnews.com/sport/2026/08/21/al-hilal-win-again-as-inzaghi-dismisses-reports-of-rift-with-benzema/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-08-21",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Hilal went the season unbeaten in 2025/26 only to lose out to champions Al Nassr by two points.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "I need to give some players rest time after a long and hard season",
+   "date": "2025-05-11",
+   "source": "Sky Sport Italia, via Flashscore",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Karim Benzema is a good player who will serve the team",
+   "date": "2026-08-20",
+   "source": "The National (Al-Hilal, outside counted spells)",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://themastermindsite.com/2020/04/29/simone-inzaghi-lazio-tactical-analysis/",
+   "reason": "403"
+  },
+  {
+   "url": "https://themastermindsite.com/2023/05/19/simone-inzaghi-inter-milan-tactical-analysis-2022-23/",
+   "reason": "403"
+  },
+  {
+   "url": "https://hudl.com/blog/simone-inzaghi-inter-lazio",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.cbssports.com/soccer/news/how-simone-inzaghis-freedom-helped-turned-inter-milan-into-serie-as-team-to-beat",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Tier A Coaches' Voice and tier B Spielverlagerung agree on 3-5-2 build-up, 5-3-2 block and wide trap, but marking, stated view and people-management rest on tier C and few primary quotes."
+ }
+}

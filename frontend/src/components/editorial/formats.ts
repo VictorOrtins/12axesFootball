@@ -14,7 +14,7 @@ export interface QuizFormat {
 }
 
 function build(variant: QuizVariant, depth: number, featured = false): QuizFormat {
-  const source = t.formats[variant === 'short' ? 'short' : variant === 'extended' ? 'extended' : 'extreme'];
+  const source = t.formats[variant];
   const [count, ...word] = source.questionCount.split(' ');
   return {
     variant,
@@ -29,4 +29,4 @@ function build(variant: QuizVariant, depth: number, featured = false): QuizForma
   };
 }
 
-export const QUIZ_FORMATS: QuizFormat[] = [build('short', 1), build('extended', 2, true), build('extreme', 3)];
+export const QUIZ_FORMATS: QuizFormat[] = [build('short', 1), build('extended', 2, true)];

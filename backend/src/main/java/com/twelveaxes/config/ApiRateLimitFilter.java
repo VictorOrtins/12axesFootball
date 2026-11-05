@@ -24,7 +24,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
  * (clientes de servidor sem Origin) tambem gasta thread e CPU, e responder 429 aqui e
  * mais barato do que montar o 403 com log. Resultados (POST /api/results e
  * /api/results/by-axes) tem limite proprio e menor, porque cada um faz o ranking de
- * ideologias, paises e personalidades.
+ * ideias de jogo, times e treinadores.
  *
  * <p>Janela fixa de 1 minuto, em memoria. Com mais de uma instancia cada uma conta
  * separado, o que continua protegendo cada instancia.

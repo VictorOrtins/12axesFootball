@@ -39,9 +39,11 @@ public class ScoringService {
         for (SubmittedAnswer submittedAnswer : request.answers()) {
             Question question = questionById.get(submittedAnswer.questionId());
             double towardAgreement = submittedAnswer.answer().scoreTowardAgreement();
-            double leftScore = question.agreePole() == Pole.LEFT ? towardAgreement : 1.0 - towardAgreement;
-            scores.computeIfAbsent(question.axisId(), ignored -> new WeightedScore())
-                    .add(leftScore, question.weight());
+            addAnswer(scores, question.axisId(), question.agreePole(), question.weight(), towardAgreement);
+            Question.Secondary secondary = question.secondary();
+            if (secondary != null) {
+                addAnswer(scores, secondary.axisId(), secondary.agreePole(), secondary.weight(), towardAgreement);
+            }
         }
         addArchetypeAnswers(request.archetype(), scores);
 
@@ -49,6 +51,12 @@ public class ScoringService {
         return dataService.getAxes(normalizedLang).stream()
                 .map(axis -> toAxisResult(axis, scores.get(axis.id()), normalizedLang))
                 .toList();
+    }
+
+    private void addAnswer(Map<String, WeightedScore> scores, String axisId, Pole agreePole, double weight,
+                           double towardAgreement) {
+        double leftScore = agreePole == Pole.LEFT ? towardAgreement : 1.0 - towardAgreement;
+        scores.computeIfAbsent(axisId, ignored -> new WeightedScore()).add(leftScore, weight);
     }
 
     // Reconstrói o resultado a partir de um vetor de leftPercent (um valor por
@@ -106,7 +114,8 @@ public class ScoringService {
     }
 
     private AxisResult toAxisResult(Axis axis, WeightedScore weightedScore, String lang) {
-        return buildAxisResult(axis, weightedScore.average() * 100.0, lang);
+        double average = weightedScore == null ? 0.5 : weightedScore.average();
+        return buildAxisResult(axis, average * 100.0, lang);
     }
 
     private AxisResult buildAxisResult(Axis axis, double rawLeftPercent, String lang) {

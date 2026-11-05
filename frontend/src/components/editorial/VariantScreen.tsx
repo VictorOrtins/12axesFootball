@@ -1,7 +1,7 @@
 import { t } from '../../i18n';
 import type { QuizVariant } from '../../types/quiz';
 import { QUIZ_FORMATS } from './formats';
-import { ArrowIcon, ClockIcon } from './primitives';
+import { ClockIcon } from './primitives';
 
 interface VariantScreenProps {
   error: string | null;
@@ -49,7 +49,7 @@ export function VariantScreen({ error, onStart }: VariantScreenProps) {
                 type="button"
                 onClick={() => onStart(format.variant)}
               >
-                {format.action} <ArrowIcon />
+                {format.action}
               </button>
             </li>
           ))}

@@ -1,0 +1,765 @@
+{
+ "id": "rafael-benitez",
+ "catalog": "manager",
+ "name": "Rafael Benítez",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2001-06",
+  "end": "2010-06-03"
+ },
+ "scopeNote": "Proposed counted spells (flagged to the user): Valencia 2001-2004 and Liverpool 2004-2010, because they hold the titles and the most coverage of his signature method: 4-2-3-1 with a double pivot and lone striker, zonal marking at set pieces (also zonal in open play, with man-marking tweaks per opponent), heavy squad rotation, opposition-specific preparation, and a Valencia-style press. Inter, Chelsea interim, Napoli, Real Madrid, Newcastle, Everton, Celta are excluded as context. Note: the popular label 'defensive' is disputed (Bleacher Report 2012: Liverpool were compact but broke quickly and pressed). The Valencia start day is only known to the month; the gap between Valencia's end (1 June 2004) and Liverpool's start is small. Tomkins Times zonal-marking pages were not accessible; much of the best tactical material is a Coaches' Voice retrospective by Benítez himself (tier A, retrospectiveOnly). Partial dates (YYYY-MM) are used where the day was not found: the Valencia start, and all excluded spells after Liverpool (Inter, Chelsea, Napoli, Real Madrid, Newcastle, Celta group), whose dates come from memory and were not verified. Earlier spells (Tenerife, Extremadura, Osasuna, Valladolid) are excluded for little tactical coverage and were not dated.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact day Benítez took charge at Valencia (June 2001) and exact resignation date (1 June 2004) need a second source.",
+  "Whether to count Napoli or Newcastle as separate team profiles; excluded here.",
+  "Disagreement on starting shape in Istanbul 2005: 4-4-1-1 per search summaries versus 4-2-3-1 in general descriptions; not verified from a mined page.",
+  "Man-marking tweaks at Liverpool set pieces (e.g. against specific threats) were only seen in a search summary, unverified."
+ ],
+ "spellsCounted": [
+  {
+   "club": "Valencia",
+   "start": "2001-06",
+   "end": "2004-06-01",
+   "reason": "Two La Liga titles (2001/02, 2003/04) and the 2003/04 UEFA Cup; 4-2-3-1 double pivot with a lone striker, the template for his later teams. Exact start day not found (LFChistory says June 2001; first match 2001-08-25); end date 1 June 2004 per search summary only."
+  },
+  {
+   "club": "Liverpool",
+   "start": "2004-06-16",
+   "end": "2010-06-03",
+   "reason": "2005 Champions League, 2006 FA Cup, 2007 Champions League final; zonal marking, rotation and pressing/4-2-3-1 with Torres, Gerrard, Mascherano and Alonso. Appointed 16 June 2004 (liverpoolfc.com), left 3 June 2010 (LFChistory)."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Inter",
+   "start": "2010-06",
+   "end": "2010-12-23",
+   "reason": "Only about six months; the Coaches' Voice and TFT pieces cover it little; dismissed 23 Dec 2010. Dates from LFChistory (dismissed two days before Christmas), start from memory"
+  },
+  {
+   "club": "Chelsea (interim)",
+   "start": "2012-11",
+   "end": "2013-05",
+   "reason": "Interim role; Europa League won, but a stopgap with no own squad building; dates from memory, not verified"
+  },
+  {
+   "club": "Napoli",
+   "start": "2013-06",
+   "end": "2015-06",
+   "reason": "Good Coaches' Voice coverage (4-2-3-1 with Higuain); context only, because the catalog narrows to the Valencia/Liverpool signature spells; dates from memory"
+  },
+  {
+   "club": "Real Madrid",
+   "start": "2015-06",
+   "end": "2016-01",
+   "reason": "About seven months (Coaches' Voice); too short"
+  },
+  {
+   "club": "Newcastle United",
+   "start": "2016-03",
+   "end": "2019-06",
+   "reason": "Coaches' Voice covers a low-block counter-attacking 5-4-1/3-4-3 with a weak squad; context of later adaptation, not signature style; dates from memory"
+  },
+  {
+   "club": "Dalian Professional / Everton / Celta Vigo",
+   "start": "2019-07",
+   "end": "2024-06",
+   "reason": "Late-career, shorter or less covered spells; Everton about six months; dates approximate"
+  }
+ ],
+ "sources": [
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Tactically, Benítez’s most important change was to switch from a 4-4-2 diamond to a compact 4-2-3-1, with two defensive midfielders and wingers in Vicente and Rufete who worked for the team in both transitions.",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "wingers in Vicente and Rufete who worked for the team in both transitions.",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "a manager who rates defensive organisation as the game’s most important facet, and it’s fair to say that Benítez’s Valencia were built from the back.",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Benítez was, in this regard, a very forward-thinking coach, and was one of the first managers to realise that, in the modern game, you cannot afford a luxury player who does not contribute defensively",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "the system allowed Benítez’s side to exert a measure of control in midfield over opponents who generally had a man fewer.",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Carlos Marchena, who arrived from Benfica, was gradually phased into the centre of defence to replace the ageing Pellegrino, and became a crucial player in the double-winning season",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Perhaps the most important of the players he bought was the one he took from his former club Tenerífe, striker Mista. The Spaniard was something of a protégé of Benítez’s having brought him through when assistant manager of Real Madrid, and he went on to perform an indispensable role as the lone striker",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2002/03",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "there was a failure to refresh the squad in the summer, with Anthony Réveillère the only signing of any significance.",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "he was on the verge of being sacked as early as December, with only a late comeback against Espanyol, to whom they were two goals down, saving his job.",
+   "verified": true
+  },
+  {
+   "title": "How Rafa Benítez took Valencia to the pinnacle of Spanish football (These Football Times)",
+   "url": "https://thesefootballtimes.co/2018/10/02/in-celebration-of-rafa-benitezs-valencia/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-02",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The goalkeeper, Santiago Cañizares, was widely regarded as one of the finest in the world at the time, and continued to form part of a formidable defence along with stalwarts Roberto Ayala, Amadeo Carboni and Mauricio Pellegrino",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "His rotation policy caused a few upsets, sometimes resting his best players, but he was confident his system would get the results.",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Valencia fans who had felt Cuper’s approach to the game was too cautious, were soon won over by Benítez when he introduced a more attacking style.",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2003/04",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Benitez was outraged: \"I asked for a sofa and they bought me a standard lamp.\"",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "He immediately brought in from Spain Luis Garcia and Xabi Alonso and would in time recruit other players from his homeland.",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "the new manager had to persuade his captain Steven Gerrard not to move to Chelsea",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Money was found to bring in some of the players the manager wanted like Fernando Torres, Yossi Benayoun and Javier Mascherano.",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2003/04",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "He was at one point obsessed with detail but he has corrected that and improved his relationship with the players. He got rid of the players that he thought weren't with him and has stuck by those who were committed to his style of management.",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez - Liverpool manager 2004–2010 (LFChistory.net)",
+   "url": "https://www.lfchistory.net/Managers/Manager/Profile/20",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-04-25",
+   "eventDate": "2003/04",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "He still maintains a little distance between himself and his players and is a disciplinarian. There is a famous story of him banning his players from eating paella on Sundays",
+   "verified": true
+  },
+  {
+   "title": "Benitez to stand by zonal system (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/benitez-to-stand-by-zonal-system-1.1226781",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-04-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "“It depends on the type of player you have. We have used it for five years here and we have not conceded any more than anyone else from set-pieces.”",
+   "verified": true
+  },
+  {
+   "title": "Benitez to stand by zonal system (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/benitez-to-stand-by-zonal-system-1.1226781",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-04-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "In the first match Liverpool conceded two goals from corners when Branislav Ivanovic produced a pair of towering headers, as the Anfield men’s defensive play at set-pieces fell apart.",
+   "verified": true
+  },
+  {
+   "title": "Benitez to stand by zonal system (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/benitez-to-stand-by-zonal-system-1.1226781",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-04-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "“We are happy with the way we defend, it is all about the quality of players in the end. Zonal marking has been good for us in the past, and it will be good for the future.",
+   "verified": true
+  },
+  {
+   "title": "Zonal marking not the problem, insists Reina (The National)",
+   "url": "https://www.thenationalnews.com/sport/zonal-marking-not-the-problem-insists-reina-1.517672",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-04-09",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Benitez said: \"When you see man marking you see many goals conceded every week.",
+   "verified": true
+  },
+  {
+   "title": "Zonal marking not the problem, insists Reina (The National)",
+   "url": "https://www.thenationalnews.com/sport/zonal-marking-not-the-problem-insists-reina-1.517672",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-04-09",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "\"But what was wrong was that players were not aware of what was going on around them. If you allow a player to run free like that, it is very hard to control all the zones, that was the big mistake.\"",
+   "verified": true
+  },
+  {
+   "title": "Rafa insists rotation won titles in Spain (Irish Examiner)",
+   "url": "https://www.irishexaminer.com/sport/soccer/arid-30280745.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-10-12",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "“It’s not a big difference if you change a full-back for another one if he knows what to do. If you have a big-name player of course you can lose something, but if the big name is tired then he’s not 100% fit and it’s better to use another member of the squad.",
+   "verified": true
+  },
+  {
+   "title": "Rafa insists rotation won titles in Spain (Irish Examiner)",
+   "url": "https://www.irishexaminer.com/sport/soccer/arid-30280745.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-10-12",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "“And why? Because we were changing the team every game. In January we were eight points behind Real Madrid and we finished six or seven points ahead.",
+   "verified": true
+  },
+  {
+   "title": "Rafa defends rotation policy (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/2392186/rafa-defends-rotation-policy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-10-12",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "\"We are signing players for The Premiership now, more physical players.",
+   "verified": true
+  },
+  {
+   "title": "Rafa defends rotation policy (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/2392186/rafa-defends-rotation-policy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-10-12",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "\"It's not possible to play 60-65 games, 100 percent fit. It is impossible now with the tempo and the football.",
+   "verified": true
+  },
+  {
+   "title": "Rafa defends rotation policy (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/2392186/rafa-defends-rotation-policy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-10-12",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"We try to explain to our players why we decide to rotate,\" Benitez told the League Managers Association.",
+   "verified": true
+  },
+  {
+   "title": "Up for the challenge (Coaches' Voice, Rafa Benítez interview)",
+   "url": "https://learning.coachesvoice.com/cv/rafa-benitez-interview-liverpool-valencia-newcastle/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-08-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "In my first season, when I often had to rely on young players like Neil Mellor, Anthony Le Tallec and Florent Sinama-Pongolle, we reached the final of the Carling Cup.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Up for the challenge (Coaches' Voice, Rafa Benítez interview)",
+   "url": "https://learning.coachesvoice.com/cv/rafa-benitez-interview-liverpool-valencia-newcastle/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-08-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "As a young coach, I travelled to watch all of our opponents. Even if I knew we could beat them 8-0, I would still go – even if it was just to see a corner or a free-kick.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Up for the challenge (Coaches' Voice, Rafa Benítez interview)",
+   "url": "https://learning.coachesvoice.com/cv/rafa-benitez-interview-liverpool-valencia-newcastle/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-08-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "I told Pako Ayestarán, my assistant manager, that I wanted to bring on Didi Hamann. I planned to play with three at the back, behind Hamann and Xabi Alonso in midfield, to control the movements of Kaká.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Up for the challenge (Coaches' Voice, Rafa Benítez interview)",
+   "url": "https://learning.coachesvoice.com/cv/rafa-benitez-interview-liverpool-valencia-newcastle/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-08-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "The first thing was just to keep the players calm, because their heads were down: “Stay calm. We have nothing to lose now.”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Up for the challenge (Coaches' Voice, Rafa Benítez interview)",
+   "url": "https://learning.coachesvoice.com/cv/rafa-benitez-interview-liverpool-valencia-newcastle/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-08-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "I was also thinking about bringing on Djibril Cissé on the right wing, because I didn’t think AC Milan had the legs to defend against him. But we had Luis García there, so I decided to wait.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Up for the challenge (Coaches' Voice, Rafa Benítez interview)",
+   "url": "https://learning.coachesvoice.com/cv/rafa-benitez-interview-liverpool-valencia-newcastle/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-08-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Arsenal was always difficult because they played good football, which we had to be solid and very aggressive against.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez Masterclass I (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=57935",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-07-07",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Benítez gives a fascinating insight into the key principles – both in and out of possession – of the 4-2-3-1 formation he has used to such great effect throughout his career. He considers the Valencia team with which he won two league titles in Spain, paying particular attention to the roles of the two central midfielders who formed the double pivot: David Albelda and Rubén Baraja.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez Masterclass I (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=57935",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-07-07",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "He goes on to explain the evolution of his Liverpool team, with a specific focus on how the team developed after the 2007 signings of Fernando Torres and Javier Mascherano – and the impact that had on the role of Steven Gerrard.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez Masterclass II (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=59483",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-09-23",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "He then talks more generally about his use of attacking full-backs in that Liverpool team, and how he prioritised balance and central compactness – including a midfield featuring Javier Mascherano and Xabi Alonso – on defensive transition.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez Masterclass II (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=59483",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-09-23",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "how his use of Steven Gerrard as a number 10 worked to create doubt in the Madrid defence and make the most of Fernando Torres’ pace and ability to run in behind.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Liverpool: The New Valencia? (LFChistory.net)",
+   "url": "https://lfchistory.net/articles/2065",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-09-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "This is Benitez's pressing game in all its glory. You don't wait for your opponents to give you the ball, you go and get it off them, the further upfield the better. And this is one of the reasons why he signed Torres.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool: The New Valencia? (LFChistory.net)",
+   "url": "https://lfchistory.net/articles/2065",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-09-05",
+   "eventDate": "2002/03",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Whenever and wherever a Liverpool player had the ball they chased and harried him until he gave it up. And they didn't wait until the Reds entered their half either, they pressed higher up the pitch than any away team had ever done at Anfield before.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool: The New Valencia? (LFChistory.net)",
+   "url": "https://lfchistory.net/articles/2065",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-09-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "he will also defend from the front, in a manner reminiscent of a certain Ian Rush.",
+   "verified": true
+  },
+  {
+   "title": "Why Fernando Torres Thrived at Liverpool Under Benitez (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1440900-why-fernando-torres-thrived-at-liverpool-under-benitez",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Liverpool were compact at the back but broke forward quickly and at their best were able to press in the opposition half to prolong spells of attacking.",
+   "verified": true
+  },
+  {
+   "title": "Why Fernando Torres Thrived at Liverpool Under Benitez (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1440900-why-fernando-torres-thrived-at-liverpool-under-benitez",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Liverpool's 4-2-3-1 provided Gerrard with a solid platform behind him, clever players on either side and the world's top striker beyond.",
+   "verified": true
+  },
+  {
+   "title": "Why Fernando Torres Thrived at Liverpool Under Benitez (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1440900-why-fernando-torres-thrived-at-liverpool-under-benitez",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "In addition, the rest of the team was set up to get the best from Torres, from the deep playmakers who could spray passes the length of the pitch to the wingers who supported in attack but knew the main goal threat was the man in the No. 9 shirt.",
+   "verified": true
+  },
+  {
+   "title": "Rafa Benítez: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=53905",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "At Valencia, David Albelda and Rubén Baraja were given that responsibility; at Liverpool it was Steven Gerrard, Xabi Alonso and Dietmar Hamann or Javier Mascherano",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=53905",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2004/10",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The central midfielders in his teams are often an extension of his management, and the most important figures in maintaining the shape and approach he is demanding.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=53905",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2004/10",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "He instructs his players to attack quickly and directly towards goal after regains, and to vary whether they attack through the inside channels or with width.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=53905",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2004/10",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Although he wants those attacks to be direct, they are built in a methodical and organised way that involves a consideration of who will challenge for first balls, and therefore where others will be positioned to win second balls further forwards.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=53905",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "\"Benítez must be among the top 10 methodical trainers,\" said Diego Alonso, his former player at Valencia.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Rafa Benítez: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=53905",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2004/10",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Benítez favours, above all else, preparing his players to apply his preferred approach for the coming fixture, and in significant depth.",
+   "verified": true,
+   "retrospectiveOnly": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Zonal marking has been good for us in the past, and it will be good for the future.",
+   "date": "2009-04-14",
+   "source": "Irish Times, Benitez to stand by zonal system",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "When you see man marking you see many goals conceded every week.",
+   "date": "2009-04-09",
+   "source": "The National, Zonal marking not the problem, insists Reina",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Because we were changing the team every game. In January we were eight points behind Real Madrid and we finished six or seven points ahead.",
+   "date": "2006-10-12",
+   "source": "Irish Examiner / LMA website interview",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It's not possible to play 60-65 games, 100 percent fit.",
+   "date": "2006-10-12",
+   "source": "Sky Sports citing League Managers Association",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I asked for a sofa and they bought me a standard lamp.",
+   "date": "2003-07",
+   "source": "LFChistory.net profile (date approximate, summer 2003)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://tomkinstimes.com/2009/09/the-complete-guide-to-zonal-marking/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=119143",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.liverpoolfc.com/news/first-team/185718-istanbul-2005-a-tactical-analysis",
+   "reason": "404"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbolespanol/noticias/benitez021213.html",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbolespanol/noticias/benites020801.html",
+   "reason": "empty"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=13109",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://tomkinstimes.com/?p=62510",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.fantasyfootballscout.co.uk/2009/10/26/the-technical-area…-teamwork-and-a-change-of-tactics-leaves-fergie-deflated",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Arrigo Sacchi (AC Milan), per search summary, unverified"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A/B coverage for Valencia shape and Liverpool method but mostly retrospective Coaches' Voice and tier C press for set pieces and pressing; tomkinstimes zonal analysis unreadable."
+ }
+}

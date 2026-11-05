@@ -1,0 +1,456 @@
+{
+  "id": "renato-cesarini",
+  "catalog": "manager",
+  "name": "Renato Cesarini",
+  "status": "complete",
+  "researchedOn": "2026-11-01",
+  "profilePeriod": {
+    "start": "1939-02-11",
+    "end": "1960"
+  },
+  "scopeNote": "Manager profile of Renato Cesarini across the counted spells kept from the previous file: River Plate 1939 to 1944 and Juventus 1959 to 1960. River dates are now exact from the official coach list (en.wikipedia, List of Club Atlético River Plate managers): 11 Feb 1939 to 8 Dec 1939, then, after Franz Platko (7 Apr to 30 Jun 1940), 7 Jul 1940 to 22 Oct 1944 (150 matches, 2 Primera División, 2 Copa Ibarguren, 1 Copa Aldao, 1 Copa Escobar); the two River entries are the same counted tenure split around Platko's interlude. Juventus 1959-60 was as technical director beside trainer Carlo Parola (en.wikipedia 1959-60 Juventus season infobox; it.wikipedia; Italy On This Day): Serie A and Coppa Italia double. He stayed as technical director for matchdays 1-12 of 1960-61 (en.wikipedia 1960-61 season footnote), so the spell ends in late 1960; start and end are partial (year only). The Juventus 1946-48 spell (head coach, three runner-up finishes behind Grande Torino) resolves the old 'date conflict': both spells exist; 1946-48 is added to spellsExcluded. Style named by the evidence: a 'rough W-M' (Wilson, SI 2015) with withdrawn inside-forwards and position changes ('Se desmarcan, cambian de posiciones', Juvenal, El Gráfico 1990), short passing and possession (La Página Millonaria), with Pedernera moved to centre-forward in mid-1941 by Cesarini 'a sugerencia de Carlos Peucelle' (Juvenal) and later described as a false nine (FIFA 2020, retrospective). The main new source is Cesarini's own 1965 El Gráfico interview with Osvaldo Ardizzone, which gives his stated view (winning over 'fútbol lindo', physique first, small players to the wings, the coach builds the player, coach imposes the principles) and his own account of La Máquina (free 'fútbol loco' sessions where Pedernera found the No. 9 role, Loustau moved from left-back to left wing). His 1965 statements contradict the romantic 'La Nuestra' label often attached to La Máquina: he calls the later 'pasecito, el tejido, el bordado' a degeneration and says the only truth is to win. Almost all behaviour evidence is about River 1941-44; the Juventus spell has no tactical fact. Excluded spells keep year-only dates (Wikipedia infoboxes and the 1965 interview bio give no days).",
+  "spellsCounted": [
+    {
+      "club": "River Plate",
+      "start": "1939-02-11",
+      "end": "1939-12-08",
+      "reason": "First part of the counted River tenure (kept from the previous decision 'River Plate 1939-1944'); 37 matches, no title. Dates from the official coach list."
+    },
+    {
+      "club": "River Plate",
+      "start": "1940-07-07",
+      "end": "1944-10-22",
+      "reason": "La Máquina: Primera División 1941 and 1942, 2 Copa Ibarguren, Copa Aldao, Copa Escobar (official coach list); the style with tactical coverage (Juvenal, Wilson, FIFA)."
+    },
+    {
+      "club": "Juventus",
+      "start": "1959",
+      "end": "1960",
+      "reason": "Technical director beside trainer Carlo Parola: Serie A and Coppa Italia double 1959-60 (en.wikipedia season page, it.wikipedia, Italy On This Day); stayed for matchdays 1-12 of 1960-61. Year-only dates."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Racing Club",
+      "start": "1945",
+      "end": "1945",
+      "reason": "About 6 months ('razones políticas', 1965 interview bio); no titles or tactical facts."
+    },
+    {
+      "club": "Juventus",
+      "start": "1946",
+      "end": "1948",
+      "reason": "Head coach, three runner-up finishes behind Grande Torino (Italy On This Day, it.wikipedia); no titles or tactical facts found."
+    },
+    {
+      "club": "Banfield",
+      "start": "1949",
+      "end": "1949",
+      "reason": "Infobox only (the 1965 interview bio says the last 12 matches of 1948); no titles or tactical facts."
+    },
+    {
+      "club": "Boca Juniors",
+      "start": "1950",
+      "end": "1950",
+      "reason": "Infobox only (the 1965 interview bio says six months in 1949); no titles or tactical facts."
+    },
+    {
+      "club": "Pordenone",
+      "start": "1958",
+      "end": "1959",
+      "reason": "Infobox only (it.wikipedia: youth); no titles or tactical facts."
+    },
+    {
+      "club": "Pumas UNAM",
+      "start": "1964",
+      "end": "1965",
+      "reason": "Youth set-up and first team in Mexico (1965 interview bio: from 1960; it.wikipedia: 1962-64); no titles or tactical facts read."
+    },
+    {
+      "club": "River Plate",
+      "start": "1965-04-18",
+      "end": "1966-12-01",
+      "reason": "Third River spell (official coach list: 92 matches, no title); no tactical facts read."
+    },
+    {
+      "club": "Argentina",
+      "start": "1967",
+      "end": "1968",
+      "reason": "National team; no titles or tactical facts found."
+    },
+    {
+      "club": "Huracán",
+      "start": "1967",
+      "end": "1968",
+      "reason": "Infobox only; no titles or tactical facts found."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "River counted tenure is split into two entries around Franz Platko's 1940 interlude (official list dates). The previous file had one entry 1939-1944; the decision to count it is kept. Confirm whether the 1939 part (no title) should stay counted.",
+    "Juventus 1959-60: Cesarini was technical director and Carlo Parola the trainer. Who picked the team and the tactics is not settled by any source read; no tactical fact on Juventus 1959-60 was found, so the counted Juventus spell adds almost nothing to the evidence. Exact start (1959) and end (late Dec 1960; Gren officially in charge by 10 Jan 1961 per the cited Corriere dello Sport title) are partial.",
+    "Credit for La Máquina's key move: Juvenal (El Gráfico, 1990) says Cesarini placed Pedernera at centre-forward 'a sugerencia de Carlos Peucelle'; Cesarini (1965) says Pedernera found the No. 9 role himself in his 'fútbol loco' sessions and claims paternity of La Máquina; FIFA (2020) says there is no agreement whether it was Peucelle's or Cesarini's idea.",
+    "Marking (mar): the only marking facts are individual (Yácono's 'marca pegajosa', 'specialist man-marker'). No source says whether River's block was zonal or man-oriented as a team; in a 1940s W-M man-marking of opponents was the norm, but that is general knowledge, not read on a page.",
+    "Shape conflict for 1941: La Página Millonaria '2-3-5' versus Wilson's 'rough W-M'. Both kept.",
+    "Stated view dates: the core statements are from 1965 (before his third River spell), 21 years after the La Máquina spell; the audit should weigh that they may describe his later view, not 1941. The 'diez desconocidos... Sívori' quote is attributed only (undated in El Gráfico).",
+    "Excluded spell dates conflict between the infobox (Banfield 1949, Boca 1950, Pumas 1964-65) and Cesarini's own bio in the 1965 interview (Banfield 1948, Boca 1949, Mexico from 1960). Kept as in the previous file.",
+    "teamProfiles is empty, as in the previous file, although team profile river-plate-1941-47 lists renato-cesarini as manager (1940-07-07 to 1944-10-22). Confirm whether to link it."
+  ],
+  "sources": [
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945)",
+      "url": "https://www.elgrafico.com.ar/articulo/%c2%a1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-12-29",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Juvenal (1990, republished 2024): 'River comenzó a definirse como un gran equipo a mediados de la temporada cuando Adolfo Pedernera fue colocado como centreforward por el técnico Renato Cesarini a sugerencia de Carlos Peucelle.' First match of the line Muñoz, Moreno, Pedernera, Labruna, Deambrosi on 21 Sep 1941 (4-0 at Independiente).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945)",
+      "url": "https://www.elgrafico.com.ar/articulo/%c2%a1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-12-29",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "1942 title side: Pedernera 'es el director'; Moreno and Pedernera 'bajan y se juntan con Rodolfi y el \"Tuerto\" José Ramos, para \"hacer juego\" en lo que en Europa llamaban \"el cuadrado mágico\".' Inside-forwards drop to build with the half-backs.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945)",
+      "url": "https://www.elgrafico.com.ar/articulo/%c2%a1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-12-29",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "'Juegan como de memoria. Inventan otro fútbol. Se desmarcan, cambian de posiciones. Es \"La Máquina\", como la bautizó Borocotó en EL GRAFICO.' Fluid, rotating forward line (relational more than fixed positions).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945)",
+      "url": "https://www.elgrafico.com.ar/articulo/%c2%a1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-12-29",
+      "eventDate": "1943",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "1943: 'River, con su exquisitez técnica, con su fútbol de lujo' against Boca's 'bravura y empuje'; Loustau's goal at the Bombonera came 'después que la pelota viajó desde su área hasta la red rival a través de siete pases perfectos que ningún adversario consiguió interceptar.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945)",
+      "url": "https://www.elgrafico.com.ar/articulo/%c2%a1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-12-29",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "'Por las puntas: Muñoz y Deambrosi, hasta que, en la undécima fecha de 1942, aparece allí, como wing izquierdo, la figura chaplinesca de Félix Loustau.' Two true wingers in the five-man line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Historia del fútbol argentino, por Juvenal: Capítulo IX (1941-1945)",
+      "url": "https://www.elgrafico.com.ar/articulo/%c2%a1habla-memoria!/34827/historia-del-futbol-argentino-por-juvenal-capitulo-ix-%281941-1945%29",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-12-29",
+      "eventDate": "1944",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "1944 exodus to Mexico of Moreno and Rodolfi, 'abriendo paso para la incorporación a la Máquina de Néstor Rossi, un centrehalf largirucho, de mucho juego, que venía de las divisiones inferiores.' Not verified for this profile: the page does not say whether Rossi came in before Cesarini left (22 Oct 1944) or under Peucelle.",
+      "verified": false,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1965. ¡Shhhh…! ¡Silencio! Habla Renato Cesarini",
+      "url": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-05-22",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Cesarini's own 1965 account (interview by Osvaldo Ardizzone, republished 2019; read in Chrome after WebFetch 403), section 'FUTBOL LOCO': 'Haga como hacía yo cuando \"La Máquina\". Después de la práctica una sesión de \"fútbol loco\". Sin número, sin obligaciones de puesto... y sin D.T. Yo miraba pero no decía nada.' Pedernera, then a left winger, asked to play 9; 'El que llegaba primero al puesto que quería jugaba allí. Y al final Adolfo fue N° 9.' Training method that let players find their roles. Recollection 24 years later.",
+      "verified": true
+    },
+    {
+      "title": "1965. ¡Shhhh…! ¡Silencio! Habla Renato Cesarini",
+      "url": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-05-22",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "'EL CASO LOUSTAU': Loustau arrived at 19, released by Racing, playing 'De back izquierdo, marcando la punta' and wanting to be a half; Cesarini: 'En el medio no. Usted necesita la raya a la espalda... ¿Por qué no prueba de winger izquierdo?' Also: Muñoz arrived as 'Interior derecho. Y yo le hice ver que era puntero derecho'. Cesarini's account; Loustau's debut as left wing dated to round 11 of 1942 by Juvenal.",
+      "verified": true
+    },
+    {
+      "title": "1965. ¡Shhhh…! ¡Silencio! Habla Renato Cesarini",
+      "url": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-05-22",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "On Loustau (19, released by Racing): 'EN RIVER NO LO QUERÍA NADIE. ¡NADIE!... Querían comprar a Arregui, a ese chico de Gimnasia', for 70,000 pesos. Cesarini says he backed the young free player over a purchase. His own account, 1965.",
+      "verified": true
+    },
+    {
+      "title": "A 70 años del primer partido de La Máquina",
+      "url": "https://lapaginamillonaria.com/riverplate/A-70-anos-del-primer-partido-de-La-Maquina-20110921-0001.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2011-09-21",
+      "eventDate": "1941-09-21",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "'De la mano de su entrenador, Renato Cesarini'; 'El objetivo de aquel equipo era tener la posesión de la pelota'; the debut was 'una brillante muestra de fútbol de pases cortos'. Fan site, page updated 16/10/2018; period source not named.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A 70 años del primer partido de La Máquina",
+      "url": "https://lapaginamillonaria.com/riverplate/A-70-anos-del-primer-partido-de-La-Maquina-20110921-0001.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2011-09-21",
+      "eventDate": "1941-09-21",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "'toque preciso y comenzar bien la jugada desde la defensa'; line-up 'formaba con dos defensores, tres mediocampistas y ¡cinco delanteros!' (2-3-5, conflicts with Wilson's W-M).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Jonathan Wilson: 'a rough W-M shape with an attacking center half in Néstor Rossi', side dated 'around 1941 to 1947'; 'it was Moreno and Pedernera who dropped off into the space in front of the half line.' The front five 'only played as a quintet 18 times over a five-year period.' Does not name Cesarini; Rossi belongs to the post-1944 part.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "The centre-half, 'first Rodolfi and then Rossi', moved right, giving Yácono 'a more defensive brief'; Yácono became 'The Stamp' for how he would 'stick to the player he was marking.' Individual man-marking by the right-half; nothing on block height or team-level zonal/man scheme. Rodolfi part falls in Cesarini's spell.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1942",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Loustau was a \"'ventilador-wing'\" who 'gave air to the midfield by doing some of their running for them.'",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "What if they met? River Plate's La Máquina, Il Grande Torino",
+      "url": "https://www.si.com/soccer/2015/04/27/il-grande-torino-la-maquina-river-plate-argentina-italy",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-04-27",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Muñoz (undated): 'They called us the \"Knights of Anguish\" because we didn't look for the goal'; 'We went out on the pitch and played our way: take the ball, give it to me'; 'Inside the box, of course, we wanted to score, but in the midfield we had fun.' Player of the time, quote undated.",
+      "verified": true
+    },
+    {
+      "title": "Yácono, la estampilla de La Máquina",
+      "url": "https://www.elgrafico.com.ar/articulo/las-fotos-de-el-grafico/27793/yacono-la-estampilla-de-la-maquina",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2017-10-01",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Dedicated marking search. Chueco García (Racing) after suffering 'la marca pegajosa' of the young Yácono: 'Lo felicito, se me pegó como una estampilla'. Yácono 'titular indiscutible en la defensa' of La Máquina, champion 1941, 42, 45, 47. Anecdote undated; individual man-marking only.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "River Plate 1940s – it takes a team to tango",
+      "url": "https://gameofthepeople.com/2025/07/20/river-plate-1940s-it-takes-a-team-to-tango/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-20",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Neil Fredrik Jensen: 'the specialist man-marker Norberto Yácano'; Peucelle 'became a de facto coach of the team' after 'the failure of Ferenc Plattkó to introduce the so-called M-defence'. Team 'preferred instead to outpass their opponents'. Undated within the era; one-author blog.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Adolfo Pedernera, maquinista, bailarín y maestro",
+      "url": "https://inside.fifa.com/es/news/adolfo-pedernera-maquinista-bailarin-y-maestro-2604270",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-05-12",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Peucelle 'ayudó al técnico Renato Cesarini a pensar ese equipo'; 'No hay acuerdo sobre si fue una idea de él o de Cesarini'; Pedernera 'pasó a jugar más centrado, más retrasado'; 'Era 1941 y nacía La Máquina, también el falso nueve'. Five forwards 'que sabían hacer la función propia y la de los otros'.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Renato Cesarini - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Renato_Cesarini",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1941",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Undated wiki page (accessedOn used as articleDate): 'River won Argentine league titles in 1941, and 1942 under La Biblia del fútbol as Cesarini became known for his authority on all matters pertaining to the sport.' Authority as expertise, not discipline. No tactics on the page.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Enrique Omar Sívori, el último carasucia",
+      "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/8330/enrique-omar-sivori-el-ultimo-carasucia",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2019-06-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Matías Rodríguez (2015, republished 2019): Sívori 'un zurdo atrevido, cultor de la gambeta endiablada'; brought to River at 16 'por expresa recomendación de Cesarini', and Cesarini 'en su condición de asesor de la Vecchia Signora recomendó su fichaje'. 1959/60 Scudetto 'con un gran aporte del Cabezón, que con 30 goles en 35 encuentros fue capocannoniere' (en.wikipedia gives 28). Juventus's star was a technical dribbler; the page says nothing on how Cesarini/Parola set the team up.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Renato Cesarini - footballer and coach (Italy On This Day)",
+      "url": "https://www.italyonthisday.com/search/label/Renato%20Cesarini",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-04-11",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Context only, not a game-management fact: he returned 'as technical director for the 1959-60' season 'working alongside coach Carlo Parola' as Juventus 'completed a league-and-cup double for the first time'; Sivori 'had been Cesarini's protégé at River Plate'. Calls La Máquina's play a 'fluid, attacking style'. Kept unverified for this dimension.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Hoy la única verdad es ganar. ¿Qué? ¿Fútbol lindo? ¿Fútbol feo? ¡NOOOO! G-A-N-A-R, señor mío. [...] Ahora hay que ganar. Ahora son resultados. Basta de lujos, basta de bordados.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Primero quiero hombres, después atletas. Al jugador lo construyo yo... [...] Yo quiero FISICO, AGUANTE, VELOCIDAD, ESPIRITU DE SACRIFICIO.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "¿Qué me importa el hábil si no tiene los otros atributos? [...] Sin físico no me sirve para los puestos de adentro. Los jugadores de poca talla, de poco peso, yo los utilizo para los puestos de afuera. Los saco para la raya.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "El hombre se hace en el vientre de la madre. Al jugador lo hace quien lo conduce.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Debe preocupar el ancho. Y el ancho lo tiene que fabricar usted. Agrande la cancha. Mande los punteros contra la raya. Oblíguelos a desbordar. Haga caminar la pelota.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "\"La Máquina\", señor mío, fue perfecta. PERFECTA. [...] El pasecito, el tejido, el bordado, fue una degeneración de aquello.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "En el equipo puede jugar cualquiera. No me interesan nombres. Puede aparecer en la primera un chico de la cuarta. [...] Todas las divisiones tendrán que tener la misma fisonomía de fútbol.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Los técnicos que me secundan tendrán que estar de acuerdo con mi manera de pensar. El que no lo esté se tendrá que ir. Esta será una organización y yo soy el que impongo los principios.",
+      "date": "1965",
+      "source": "https://www.elgrafico.com.ar/articulo/las-entrevistas-de-el-grafico/33858/1965-%C2%A1shhhh%E2%80%A6!-%C2%A1silencio!-habla-renato-cesarini",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Yo quiero un equipo con diez desconocidos. Les aseguro que no necesito más. Después lo pongo a Sívori y ya estamos listos para salir campeones.",
+      "date": "2015",
+      "source": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/8330/enrique-omar-sivori-el-ultimo-carasucia",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://elgrafico.com.ar/articulo/primera-division/102457/los-anios-con-mayor-cantidad-de-entrenadores-en-la-historia-de-river",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.elgrafico.com.ar/articulo/la-tapa/33609/11-de-abril-de-1936-renato-cesarini-el-jugador-que-hizo-escuela",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.glieroidelcalcio.com/?p=29111",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "game-management",
+      "pressing",
+      "set-pieces",
+      "transitions"
+    ],
+    "axes": [
+      "pla"
+    ]
+  },
+  "influences": [],
+  "teamProfiles": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Behaviour evidence is almost all River 1941-44 and retrospective (Juvenal 1990, Wilson 2015, fan and FIFA pieces, tier B-C), with Cesarini's own 1965 recollection; marking known only at individual level (Yácono); no tactical fact for the counted Juventus spell; stated view is rich but dated 1965, two decades after the spell, and partly contradicts the La Máquina label."
+  }
+}

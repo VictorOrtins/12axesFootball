@@ -19,7 +19,7 @@ class QuestionHelpResolverTest {
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     private static Question question(String id) {
-        return new Question(id, "axis", "texto", Pole.LEFT, 1, null, null);
+        return new Question(id, "axis", "texto", Pole.LEFT, 1, null, null, null);
     }
 
     private static QuestionHelpEntry entry(String id, String agree, String disagree, String note) {

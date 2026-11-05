@@ -1,0 +1,267 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Flamengo 1980" (catalog: team), answering as the team Flamengo 1980, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/flamengo-1980.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:flamengo-1980".
+
+=== RESEARCH FILE (team/flamengo-1980.json) ===
+{
+  "id": "flamengo-1980",
+  "catalog": "team",
+  "name": "Flamengo 1980",
+  "researchedOn": "2026-10-12",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1980-02-24",
+    "end": "1980-11"
+  },
+  "scopeNote": "Brazilian calendar year 1980 under Cláudio Coutinho: Campeonato Brasileiro (first match Santos 0-1 Flamengo, 24 Feb 1980, per RSSSF https://www.rsssf.org/tablesb/braz80.html; won the final 3-2 v Atlético-MG on 1 Jun 1980), Taça Guanabara, European tour and Campeonato Carioca (17 Aug-30 Nov 1980; Flamengo 2nd on aggregate, not in the 30 Nov final, per en.wikipedia 1980 Campeonato Carioca). End date is partial (1980-11): the exact date of Flamengo's last Carioca match and of Coutinho's departure (to Los Angeles Aztecs) were not found. Coutinho is listed as manager 1978-1980; Modesto Bria is the next manager (1981).",
+  "managers": [
+    {
+      "managerId": "claudio-coutinho",
+      "start": "1980-02-24",
+      "end": "1980-11"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Scope: calendar year 1980 (Brasileiro + Carioca, the Brazilian convention) was assumed. Confirm you don't mean only the Brasileiro title campaign (24 Feb-1 Jun 1980) or the more famous 1981 Libertadores/Intercontinental side (Carpegiani), which is a different team-era.",
+    "Exact end of the period: date of Flamengo's last 1980 Carioca match and of Coutinho's exit are unconfirmed (late 1980).",
+    "Marking: Coutinho is credited with introducing 'marcação por setor' at Flamengo (1976-80), but no source ties a zonal or man-oriented scheme to the 1980 team specifically.",
+    "Formation label: the 1980 final lineup reads as a 4-3-3 (Tita, Nunes, Júlio César up front); the book 'Pirâmide Invertida' (via Goal) credits Coutinho's Flamengo with an early 4-5-1. Confirm which label to use."
+  ],
+  "sources": [
+    {
+      "title": "'Foi em 80 com o gol do Nunes': primeiro título brasileiro do Flamengo completa 40 anos",
+      "url": "https://www.lance.com.br/flamengo/foi-com-gol-nunes-anos-primeiro-titulo-brasileiro.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-05-31",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Final lineup v Atlético-MG: \"FLAMENGO: Raul; Toninho, Manguito, Marinho e Júnior; Andrade, Carpegiani (Adílio) e Zico; Tita, Nunes e Júnior César\" \"Técnico: Cláudio Coutinho\". Reads as a back four, midfield three and front three (4-3-3). Also: 46 goals in 22 Brasileiro matches, Zico top scorer with 21. No tactical description in the article.",
+      "verified": true
+    },
+    {
+      "title": "Nunes explica o gol que acendeu a chama da rivalidade entre Flamengo e Atlético-MG",
+      "url": "https://trivela.com.br/brasil/nunes-flamengo-gol-historico-atletico-mg/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-11-03",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "On the decisive goal of the 1980 final: \"o lançamento de Andrade foi o ponto-chave para a jogada, algo muito treinado pelo Flamengo de Cláudio Coutinho.\" Nunes: \"Foi uma jogada que o Andrade estava acostumado a fazer nos treinamentos.\" Also: \"Outros jogadores importantes daquele esquadrão do Flamengo se projetavam dentro da área.\" One move in one match: a rehearsed long pass from midfield, not a general build-up pattern.",
+      "verified": true
+    },
+    {
+      "title": "Nunes explica o gol que acendeu a chama da rivalidade entre Flamengo e Atlético-MG",
+      "url": "https://trivela.com.br/brasil/nunes-flamengo-gol-historico-atletico-mg/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2024-11-03",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "Nunes (player, interviewed 2024) on preparing the final: \"A gente se preparou, quinta, sexta, sábado, treinamento forte, jogadas ensaiadas.\" Coutinho \"Mostrava o esquema tático do Atlético e conversava em cima desse esquema tático do Atlético para a gente ter a consciência\". Shows opponent study before a final; does not show the team changing its own system.",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1980",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Nunes, \"trazido por indicação de Coutinho,\" scored the goal that \"daria o pontapé inicial à escalada para conquistar o mundo.\" (Emmanuel do Valle.)",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "RESENHA: Herois de uma nação – O maior time rubro negro de todos os tempos",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1980",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"Coutinho pegou aquela molecada que era comprometida com o clube\" and \"mesclou com jogadores experientes como Carpegiani, Raul, Sergio Ramires e Toninho Baiano.\" Describes how Coutinho built the side over 1976-80 (book review); Raul, Toninho and Carpegiani started the 1980 final. Era-wide, not 1980-specific.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1980-11",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "After the Brasileiro, Taça Guanabara and a European tour, the team \"perdeu o tetra carioca e entrou em crise\", attributed to \"cansaço, à pressão... e até à autossuficiência.\" \"Estafado, Coutinho deixou o comando, seguindo para o Los Angeles Aztecs.\" Also (1976, outside period): his \"facilidade no diálogo sempre aberto com os jogadores\"; Júnior recalled that \"Coutinho pregava que os fundamentos do futebol tinham que ser exercitados diariamente.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1976",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Context only, outside the period (1976, first spell): \"Partindo de um 4-3-3 básico, fez alterações sutis no posicionamento da defesa\"; Jayme played \"como uma espécie de líbero\"; midfield trio asked to \"se aproximar mais do ataque\". Not evidence for 1980.",
+      "verified": false
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1979",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Undated in the article (Coutinho era, late 1970s): Zico, quoted from the book '1981', on a boxing-inspired idea to \"tentar definir a partida o quanto antes\"; the team liked \"times agrupados, compactos, criativos\" with high pressing lines. Not tied to 1980, so not counted.",
+      "verified": false
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1979",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Undated (Coutinho era): when a wing move failed, \"a ordem era voltar a bola até a defesa e recomeçar a saída pelo outro lado\"; patient ball circulation. Not tied to 1980, so not counted.",
+      "verified": false
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1978",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "Coutinho's term \"overlapping\" (the full-back's advanced run down the open flank) was mocked by the press. After the 1978 World Cup he \"reformulou algumas e abdicou de outras (como a utilização de laterais ofensivos nas pontas)\" (about the national team). No 1980 Flamengo-specific description of width.",
+      "verified": false
+    },
+    {
+      "title": "RESENHA: Herois de uma nação – O maior time rubro negro de todos os tempos",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1978",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "Lists \"overlapping\", \"ponto futuro\", \"marcação por setor\" and \"profissionalismo\" as terms nobody at the club knew before: \"Essas inovações foram trazidas ao clube pelo treinador Cláudio Coutinho.\" Suggests sector (zonal) marking across 1976-80, but says nothing about how the 1980 team actually marked. Not counted.",
+      "verified": false
+    },
+    {
+      "title": "Há 80 anos nascia Cláudio Coutinho, símbolo do Flamengo e da obsessão pelo estudo no futebol",
+      "url": "https://www.goal.com/br/not%C3%ADcias/ha-80-anos-nascia-claudio-coutinho-simbolo-do-flamengo-e-da-obsessao-pelo-estudo-no-futebol/1kajnx8yqxg3r16pypnjf2uyma",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1979",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Opinion piece (Tauan Ambrosio): the team of Zico, Júnior and others \"pressionava o adversário sem a bola\"; cites the book 'Pirâmide Invertida' crediting Coutinho's Flamengo with \"a primeira escalação de um 4-5-1\". Undated, not tied to 1980; not counted.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "É preciso que algum clube comece a atuar de uma forma mais moderna para que os outros sejam forçados a mudar.",
+      "date": "2019-01-05",
+      "source": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Tem que haver uma participação total, durante os 90 minutos, quase como no basquete.",
+      "date": "2019-01-05",
+      "source": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://pt.wikipedia.org/wiki/Temporada_do_Clube_de_Regatas_do_Flamengo_de_1980",
+      "reason": "404"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "possession",
+      "pressing",
+      "defensive-block",
+      "transitions",
+      "width",
+      "set-pieces",
+      "stated-view",
+      "player-profile"
+    ],
+    "axes": [
+      "pos",
+      "lar",
+      "blo",
+      "mar",
+      "jog"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Historical team with no contemporary tactical analysis found. All verified evidence is tier C Brazilian press, mostly retrospective (2011-2024), and covers the lineup and one goal of the 1 Jun 1980 final plus squad building and the late-1980 crisis. Pressing, possession, width and marking are described only for the Coutinho era in general (1976-80), not for 1980. Both Coutinho quotes are from his 1976 interview as reported in 2019, so they are attributed, not primary."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

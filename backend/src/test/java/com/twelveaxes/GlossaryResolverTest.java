@@ -23,7 +23,7 @@ class GlossaryResolverTest {
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     private static Question question(String text) {
-        return new Question("q", "axis", text, Pole.LEFT, 1, null, null);
+        return new Question("q", "axis", text, Pole.LEFT, 1, null, null, null);
     }
 
     private static GlossaryEntry entry(String id, String... match) {

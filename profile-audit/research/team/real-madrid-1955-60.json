@@ -1,0 +1,589 @@
+{
+  "id": "real-madrid-1955-60",
+  "catalog": "team",
+  "name": "Real Madrid 1955-1960 (five European Cups)",
+  "researchedOn": "2026-11-02",
+  "profilePeriod": {
+    "start": "1955-09-08",
+    "end": "1960-05-18"
+  },
+  "scopeNote": "From Real Madrid's first European Cup match (Servette 0-2 Real Madrid, Geneva, 8 September 1955) to the 1960 final (7-3 v Eintracht Frankfurt, Hampden Park, 18 May 1960). European seasons 1955/56 to 1959/60. Style label used by sources: W-M / 3-2-5 (3-2-2-3) with a roving deep centre-forward (Di Stefano); StatsBomb and Spielverlagerung say this, not 4-2-4 (a popular label for this side that no read source supports). Coaches in the period: Villalonga (1955/56, 1956/57), Carniglia (1957/58, 1958/59, with Munoz as interim Feb-Apr 1959), Fleitas Solich (1959/60 until April 1960), Munoz (from April 1960, coached the Hampden final). Most tactical coverage is retrospective (Spielverlagerung 2014, StatsBomb 2020, Holding Midfield 2012); no period source on the marking scheme was found. Day of Villalonga's departure and Carniglia's arrival not found (only June 1957, month level). Tactical evidence for 1955/56-1957/58 is thin: almost all of it concerns 1959/60 and the Di Stefano/Puskas partnership. Manager dates are month-level where marked partial: Villalonga end and Carniglia start 1957-06, Carniglia end 1959-07 (all from Wikipedia 'June 1957 to July 1959'), Fleitas start 1959-07 inferred from Carniglia's end and the 1959-60 season page; Fleitas end and Munoz start 1960-04-11 from Wikipedia's 1959-60 season page.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Who left Puskas out of the 1959 final? Wikipedia (Luis Carniglia) and SI say Carniglia left him out and was sacked in part for it; These Football Times says injury kept Puskas out of the 1959 final. Not resolved.",
+    "Fleitas Solich's last day: Wikipedia 1959-60 season says until 11 April 1960; a search summary of an Italian page (not read) said 17 April. Munoz's start is taken as 11 April 1960 from Wikipedia only. RSSSF coach list assigns 1959-60 wholly to Fleitas and 1960-61 to Munoz, but it is a season-level list and contradicts the three pages that put Munoz on the bench for the semi-finals and the final.",
+    "Villalonga's end and Carniglia's start: Wikipedia gives Carniglia from June 1957; RSSSF lists Jose A. Ipina and Carniglia for 1957-58. Villalonga's end date set to 1957-06 from this, not confirmed by a second source. Villalonga start (mid 1954-55 per Wikipedia) predates the period; clipped to 8 September 1955.",
+    "Marking scheme of Madrid itself (zonal or man) not found in any read page. StatsBomb only says the era was one of man-marking schemes and describes Frankfurt's Stein exploiting channels; treated as indirect evidence. No period source.",
+    "Spielverlagerung's 3-2-4-1/3-2-2-3 remark about Puskas is undated; eventDate set to 1959/60 as the first season Puskas started a final, not confirmed by the source.",
+    "Di Stefano's and Pachin's quotes are undated attributions; recorded in statedView as attributed with date unknown.",
+    "Set-pieces: nothing on corners or free kicks of this Madrid was found; only a kick-off move in the 1960 final is recorded.",
+    "The 7 coaches in 1955-1960 claimed by These Football Times does not match the four listed here; the extra names (for example Ipina, Munoz interim) were not checked further.",
+    "stated-view has no verified in-period fact: the only quotes found are undated or later attributions (statedView dates are article dates, not original dates)."
+  ],
+  "managers": [
+    {
+      "managerId": "jose-villalonga",
+      "start": "1955-09-08",
+      "end": "1957-06"
+    },
+    {
+      "managerId": "luis-carniglia",
+      "start": "1957-06",
+      "end": "1959-07"
+    },
+    {
+      "managerId": "fleitas-solich",
+      "start": "1959-07",
+      "end": "1960-04-11"
+    },
+    {
+      "managerId": "miguel-munoz",
+      "start": "1960-04-11",
+      "end": "1960-05-18"
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Data History of the European Cup: 1960, Real Madrid 7-3 Eintracht Frankfurt",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "This is still more or less the era of the 3-2-2-3 (WM) formation, with wingers, inside forwards and a centre-forward making up the front line. With certain variations, both teams employed that system.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "As a center forward, he often fell back between the defender in the 3-2-5 to fetch balls directly from his own penalty area and then march forwards.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "In many cases, Madrid then played in a clearer 3-2-4-1/3-2-2-3 formation, which helped Puskás",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "shape",
+      "evidence": "Set up in a W-M formation, there was nothing particularly special about Madrid tactically – they were a basic passing team that weren’t even particularly good at winning the ball back",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "In this match, Real Madridâs average was 48.86 metres; Frankfurtâs 50.93.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "There were very few passing moves built up patiently from deeper areas. Real Madrid elaborated a little more inside their defensive third, but both teams mainly sought to quickly get the ball forward into the attacking half.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "build-up",
+      "evidence": "Somewhere in the stands a boy named Alex cries with joy.",
+      "verified": false,
+      "note": "Describes a circulation sequence in the 1960 final (Zárraga diagonal, Gento, Vidal, del Sol, Di Stéfano; 'gorgeous circulation'); evidence line only partial and kept unverified."
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "Real Madrid completed just 69% of their passes; Frankfurt only 61%.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "possession",
+      "evidence": "those completion rates feel more like a consequence of the directness with which both teams played. This is the textbook example of a back and forth shot-fest.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "When playing behind the strikers he sought supporting positions in the (then, of course, unstructured) pressing, put the opponent under pressure very dynamically with his physical presence",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "pressing",
+      "evidence": "they were a basic passing team that weren’t even particularly good at winning the ball back",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "In an era of man-marking schemes, it was interesting to note just how disruptive his peeled runs into the right channel proved for the Madrid defence.",
+      "verified": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "defensive-block",
+      "evidence": "Behind them Jose Maria Zarrago in midfield and Jose Emilio Santamaria in defence would offer uncompromising defensive steel.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "In defensive transitions he tracked back with extreme presence and covered a lot of ground.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "transitions",
+      "evidence": "Upon gaining possession, both teams moved forward at a faster rate than modern-day teams, and the final shot count of 42 was 13 more than the tally in the 2018-19 final",
+      "verified": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "Puskás added the fourth Madrid goal from the penalty spot and five minutes later completed his hat-trick with a rare header, the cross supplied by Paco Gento.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "width",
+      "evidence": "23 minutes: A cross from Paco Gento into the left side of the box. Di Stéfano is in the penalty area but surrounded by two players, one of the defenders clears it.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "set-pieces",
+      "evidence": "The third came from a kickoff. After exchanges with Gento and Del Sol, he accelerated through the centre of the pitch before firing home a crisp effort into the corner from outside the area.",
+      "verified": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "After 18 minutes, Frankfurt took the lead and almost made it 2-0 when they hit they hit the bar. The Spanish giants looked bewildered. Then Di Stéfano started to dominate proceedings.",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "Thus, a short break was abruptly introduced into the game; all previous free-runs or coverage movements could be completely reorganized. The cards were, in a way, redealt.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Las cinco Copas de Europa de Di Stefano (realmadrid.com)",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/las-cinco-copas-de-europa-de-di-stefano",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-07-07",
+      "eventDate": "1956/57",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "La vuelta en Old Trafford estuvo protagonizada por el ruido infernal que llegaba desde las gradas. El Madrid se sobrepuso al ambiente hostil y pasó la eliminatoria.",
+      "verified": true
+    },
+    {
+      "title": "Las cinco Copas de Europa de Di Stefano (realmadrid.com)",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/las-cinco-copas-de-europa-de-di-stefano",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-07-07",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "game-management",
+      "evidence": "El Rapid de Viena fue un duro rival en la primera ronda, y estuvo a punto de eliminarlo de la competición. Un acrobático gol de Di Stéfano en el encuentro de vuelta en Austria sirvió para forzar un tercer partido de desempate.",
+      "verified": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "operating in the role of a deep-lying centre-forward, he was extremely effective. As the doyen of football correspondents Brian Glanville noted, “to his strength, stamina and electric change of pace, Di Stéfano added superb ball control.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "In Luis del Sol, an inside forward of energy and class, he had a key accomplice. They exchanged more passes than any other pair of players.",
+      "verified": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1960 (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1960-real-madrid-7-3-eintracht-frankfurt/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-04-22",
+      "eventDate": "1960-05-18",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "nominally the inside left but more often than not Madridâs most advanced player.",
+      "verified": true
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "player-profile",
+      "evidence": "Paco Gento would mix blistering pace with technical brillianceÂ on the left, while Luis Del Sol wasn’t quite as quick but would run much harder",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "Santiago Bernabéu was desperate to add Puskás to his 1950s version of the Galácticos, seeing him as the ideal partner for Di Stéfano now that Kopa had returned to France. Despite opposition from other board members, he signed him prior to the start of the 1958/59 season",
+      "verified": true
+    },
+    {
+      "title": "1959-60 Real Madrid CF season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Real_Madrid_CF_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-02",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "During the summer French playmaker Raymond Kopa returned to Just Fontaine's Stade de Reims after three successful campaigns at Chamartín.",
+      "verified": true
+    },
+    {
+      "title": "1959-60 Real Madrid CF season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Real_Madrid_CF_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-02",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "the club hired a new manager, former Brazilian tournament winner Manuel Fleitas Solich[2] from Flamengo and transferred in the club's first ever black player Brazilian World Cup winner midfielder Didí[3] (who only played 19 matches and abandoned the team in January). Also, from América-RJ, came Brazilian midfielder Canário[4] and in April arrived from Real Betis youngstar Luis del Sol",
+      "verified": true
+    },
+    {
+      "title": "Las cinco Copas de Europa de Di Stefano (realmadrid.com)",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/las-cinco-copas-de-europa-de-di-stefano",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-07-07",
+      "eventDate": "1955-09-08",
+      "accessedOn": "2026-11-02",
+      "dimension": "squad-building",
+      "evidence": "El Real Madrid y Di Stéfano debutaron en Copa de Europa el 8 de septiembre de 1955. Lo hicieron en Ginebra, contra el Servette, y ganaron 0-2.",
+      "verified": true
+    },
+    {
+      "title": "In celebration of Miguel Muñoz, Real Madrid's greatest manager (These Football Times)",
+      "url": "https://thesefootballtimes.co/2017/12/01/in-celebration-of-miguel-munoz-real-madrids-greatest-manager/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-12-01",
+      "eventDate": "1959-02",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "In February 1959, Muñoz took charge of the first team for a spell after Luis Carniglia fell ill. In April 1960, Muñoz took charge once again after Fleitas Solich was sacked.",
+      "verified": true
+    },
+    {
+      "title": "In celebration of Miguel Muñoz, Real Madrid's greatest manager (These Football Times)",
+      "url": "https://thesefootballtimes.co/2017/12/01/in-celebration-of-miguel-munoz-real-madrid-greatest-manager/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-12-01",
+      "eventDate": "1960-04",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "During their golden age between 1955 and 1960, they went through seven coaches. Then, in 1960, former club captain and reserve coach Miguel Muñoz took charge of Los Blancos.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Muñoz: The Man Who Told Alfredo Di Stefano to F*ck Off (SI/90min)",
+      "url": "https://www.si.com/soccer/2019/07/25/miguel-munoz-man-who-told-alfredo-di-stefano-fck-led-ye-yes-european-glory",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-07-25",
+      "eventDate": "1959",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "manager Luis Carniglia was sacked (in part for leaving Puskas out of the starting lineup in the final) and, after a brief interlude underÂ Manuel Fleitas Solich,Â back came MuÃ±oz to lead his former teammates from the bench.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Luis Carniglia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Luis_Carniglia",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-06",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Carniglia did not have a high opinion of Puskás when he arrived, as he had not played professionally in over a year and was considerably over weight. Carniglia whipped him into shape with Puskás losing 15 kg before his first La Liga game against Oviedo.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1958/59",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "Puskás proved to be the perfect foil for Di Stéfano but more importantly he was happy for his partner to be considered the star of the team. In the final game of his first season, he and Di Stéfano were level as the top scorers in LaLiga. Puskás rounded the goalkeeper but instead of scoring, passed the ball across an open goal for his partner to bury it into the empty net.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1959-60 Real Madrid CF season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1959%E2%80%9360_Real_Madrid_CF_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-02",
+      "eventDate": "1960-04-11",
+      "accessedOn": "2026-11-02",
+      "dimension": "people-management",
+      "evidence": "After the squad lost the league title mathematically in round 29, Fleitas was fired. Then, former club player Miguel Muñoz took the head coach job in time for the semi-finals and final of the European Cup",
+      "verified": true
+    },
+    {
+      "title": "In-depth analysis: Alfredo Di Stefano (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=212",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-09-10",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "“The great thing about Di Stéfano was that when he was on your team you had two players at any position” – Miguel Muñoz",
+      "verified": false,
+      "note": "Undated quote by Muñoz (a player in the period), no primary source; cannot be placed inside the period."
+    },
+    {
+      "title": "How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-08-27",
+      "eventDate": "1959/60",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "He stated, “I think nothing of popping up at centre-half or full-back to cover a colleague who has to leave his position.”",
+      "verified": false,
+      "note": "Undated, no primary source; Di Stéfano was a player, not coach."
+    },
+    {
+      "title": "12 Greatest Club Sides: 2) Real Madrid 1953-60",
+      "url": "https://www.holdingmidfield.com/12-greatest-club-sides-2-real-madrid-1953-60/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-11-01",
+      "eventDate": "1955/56",
+      "accessedOn": "2026-11-02",
+      "dimension": "stated-view",
+      "evidence": "Defender Pachin said “there never has been anybody who can be compared with Don Alfredo.",
+      "verified": false,
+      "note": "Retrospective interview of a player, undated."
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "The great thing about Di Stéfano was that when he was on your team you had two players at any position",
+      "date": "2014-09-10",
+      "source": "Miguel Muñoz, quoted in Spielverlagerung, https://spielverlagerung.com/?p=212 (date = article date; original date of the remark not found)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I think nothing of popping up at centre-half or full-back to cover a colleague who has to leave his position.",
+      "date": "2018-08-27",
+      "source": "Alfredo Di Stéfano, quoted in These Football Times 2018-08-27 (date = article date; original date not found)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Muñoz told me to fuck off and they kicked me out of the club because I told him to fuck off back.",
+      "date": "1964",
+      "source": "Di Stéfano on Muñoz, via Sid Lowe's Fear and Loathing in La Liga, quoted in These Football Times 2017-12-01",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d7ff5480c22-d63d36f4632d-1000--the-greatest-teams-of-all-time-real-madrid-1956-60",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://uefa.com/uefachampionsleague/news/0253-0d7b1dc17e3e-c896eaba1732-1000--1959-60-dazzling-madrid-crush-frankfurt",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://beyondthelastman.com/2014/08/05/real-madrids-galactico-lesson-from-history-1958/",
+      "reason": "403"
+    },
+    {
+      "url": "https://gameofthepeople.com/2019/08/07/europes-champions-1957-58-real-madrid/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.realmadrid.com/StaticFiles/RealMadrid/landings/copas-de-europa-ganadas/quinta-copa-de-europa.html",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.manutd.com/en/news/detail/sir-alex-ferguson-and-paddy-crerand-share-memories-of-1960-real-madrid-team",
+      "reason": "empty"
+    }
+  ],
+  "influences": [],
+  "gaps": {
+    "dimensions": [
+      "stated-view"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good tier A-B coverage of the 1960 final (StatsBomb data, Spielverlagerung, These Football Times) and of the 1959-60 coaching changes, but 1955/56-1957/58 are almost uncovered tactically, the team's marking scheme and set-pieces have no real source, stated views are undated attributions, and nearly all tactical sources are retrospective."
+  }
+}

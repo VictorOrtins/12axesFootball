@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.MockMvc;
 @SpringBootTest
 @AutoConfigureMockMvc
 class SharedResultsTest {
-    private static final String LEFT_LIBERTARIAN_VECTOR = "70,80,20,30,70,40,60,55,60,25,20,45";
+    private static final String SAMPLE_VECTOR = "70,80,20,30,70,40,60,55,60,25,20,45";
 
     @Autowired
     private MockMvc mockMvc;
@@ -26,7 +26,7 @@ class SharedResultsTest {
 
     @Test
     void rebuildsFullResultFromAxisVector() throws Exception {
-        String body = mockMvc.perform(get("/api/results/by-axes").param("v", LEFT_LIBERTARIAN_VECTOR))
+        String body = mockMvc.perform(get("/api/results/by-axes").param("v", SAMPLE_VECTOR))
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
         QuizResult result = objectMapper.readValue(body, QuizResult.class);
@@ -35,25 +35,25 @@ class SharedResultsTest {
         assertThat(result.axes().getFirst().leftPercent()).isEqualTo(70.0);
         assertThat(result.matches()).isNotEmpty();
         assertThat(result.topMatch().name()).isNotBlank();
-        assertThat(result.topCountryMatch().name()).isNotBlank();
-        assertThat(result.topPersonalityMatch().name()).isNotBlank();
-        assertThat(result.personalityMatches()).hasSize(8);
-        assertThat(result.personalityMatches().getFirst()).isEqualTo(result.topPersonalityMatch());
-        assertThat(result.topCountryMatches()).hasSize(3);
-        assertThat(result.topCountryMatches())
+        assertThat(result.topTeamMatch().name()).isNotBlank();
+        assertThat(result.topManagerMatch().name()).isNotBlank();
+        assertThat(result.managerMatches()).hasSize(8);
+        assertThat(result.managerMatches().getFirst()).isEqualTo(result.topManagerMatch());
+        assertThat(result.topTeamMatches()).hasSize(3);
+        assertThat(result.topTeamMatches())
                 .isSortedAccordingTo((a, b) -> Double.compare(b.compatibility(), a.compatibility()));
     }
 
     @Test
     void sharedResultRespectsLanguage() throws Exception {
         String body = mockMvc.perform(get("/api/results/by-axes")
-                        .param("v", LEFT_LIBERTARIAN_VECTOR)
+                        .param("v", SAMPLE_VECTOR)
                         .param("lang", "en"))
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
         QuizResult result = objectMapper.readValue(body, QuizResult.class);
 
-        assertThat(result.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Structure"));
+        assertThat(result.axes()).anySatisfy(axis -> assertThat(axis.label()).isEqualTo("Possession"));
         assertThat(result.axes()).allSatisfy(axis -> assertThat(axis.intensity())
                 .isIn("Balanced", "Leaning", "Strong", "Very strong"));
     }

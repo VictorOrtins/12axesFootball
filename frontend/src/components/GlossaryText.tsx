@@ -47,11 +47,6 @@ export function GlossaryText({ text, terms }: GlossaryTextProps) {
     closeTimer.current = window.setTimeout(() => setActive((current) => (current?.mode === 'hover' ? null : current)), CLOSE_DELAY_MS);
   }, [cancelClose]);
 
-  // A pergunta seguinte reaproveita o componente: o tooltip anterior não pode sobreviver.
-  useEffect(() => {
-    setActive(null);
-  }, [text]);
-
   useEffect(() => cancelClose, [cancelClose]);
 
   useEffect(() => {

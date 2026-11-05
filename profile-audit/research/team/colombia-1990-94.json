@@ -1,0 +1,726 @@
+{
+ "id": "colombia-1990-94",
+ "catalog": "team",
+ "name": "Colombia 1990-94 (Maturana)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1990-06-09",
+  "end": "1994-06-26"
+ },
+ "scopeNote": "Colombia national team from the Italia 90 group stage to the USA 94 group stage, centred on the 1993-94 side (24 wins in a row per La Grinta; 5-0 in Buenos Aires, 5 Sept 1993). Style named by sources as 'toque toque' (touch-touch), zonal marking with a back four, formally 4-2-2-2 (RCN) or 4-4-2 / near-diamond (TFT, La Grinta). Tactical detail in sources is almost all from 1993-94 (5-0, Romania, USA); Italia 90 appears only in Maturana's own recollection. Start and end dates (9 June 1990 v UAE; 26 June 1994 v Switzerland) come from memory, not from a mined page; the 18 June 1994 Romania date comes from a search-result URL title. The second Maturana spell start is given only as 1993 (no day found). Many eventDates are partial (YYYY/YY or YYYY-MM) because sources give no days. Popular label 'tiki-taka of Colombia' is only a journalist's comparison (Paris Review).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Who coached Colombia between Italia 90 (June 1990) and Maturana return in 1992/93? Wikipedia says Maturana returned to Colombia in 1992 (América) and led the national team from 1993; the 1991 Copa America coach is unconfirmed (possibly Luis Augusto 'Chiqui' Garcia). Not listed in managers[] until verified.",
+  "Hernan Dario Gomez was assistant to Maturana in 1993-94 (RCN, El Colombiano) and was not head coach in the period; he took over after USA 94 (from memory).",
+  "Shape label disagrees: 4-2-2-2 with Valderrama behind the striker (RCN) vs 4-4-2 near diamond (La Grinta, TFT). Trivela lineup has Rincon-Gomez-Alvarez with Valderrama and two strikers, a 4-3-1-2.",
+  "Pressing: FourFourTwo and Trivela say high press, La Grinta says no all-pitch press, sequences by context; Valencia says they sat back and countered in the 2nd half of the 5-0.",
+  "Italia 90 (Higuita as sweeper-keeper, Germany 1-1) has no verified tactical page in this file; the 1990 spell is thinly covered.",
+  "Whether the 5-0 and a heavy friendlies schedule hurt preparation for USA 94 is contested (Maradona, Gomez, Maturana say the threats mattered more)."
+ ],
+ "sources": [
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Francisco Maturana, in his second spell as Colombia manager, set his team up in a bold 4-4-2, with the explicit instruction to get the ball to the influential Carlos Valderrama.",
+   "verified": true
+  },
+  {
+   "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+   "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-04-09",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "El 4-2-2-2, como todo esquema, no era estático. Se desplegaba en 4-2-3-1 con el Pibe detrás del centrodelantero o, en defensa, 4-4-1-1 o 4-4-2.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Francisco « Pacho » Maturana, opte pour un 4-4-2 assez proche d’un diamant durant cette période.",
+   "verified": true
+  },
+  {
+   "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Colômbia: Córdoba; Herrera, Perea, Mendoza e Pérez; Rincón, Gómez e Álvarez; Valderrama; Asprilla e Valencia. Técnico: Francisco Maturana.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "En phase de sortie de balle, les défenseurs centraux sont sollicités pour faire tourner le ballon, pour assurer la conservation de celui-ci.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "c’est souvent les latéraux ou les milieux Gomez, Alvarez ou bien même Valderrama qui décrochent à tour de rôle pour assurer les premières passes.",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "the former Montpellier man used his body shape to befuddle three opposing defenders, which opened up space for him to slide the ball into the path of Freddy Rincón.",
+   "verified": true
+  },
+  {
+   "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+   "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-04-09",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Con el balón, a menos que hubiera una posibilidad clara de pelotazo que dejara a los atacantes con ventaja en campo rival, había que tocar y tocar… mover a los contrarios para encontrar espacios, con Valderrama ideando las acciones y los delanteros haciendo constantes diagonales.",
+   "verified": true
+  },
+  {
+   "title": "Pacho Maturana, otra vez en el camino de Argentina - Perfil 442",
+   "url": "https://442.perfil.com/2019-06-25-673128-pacho-maturana-otra-vez-en-el-camino-de-argentina/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2019-06-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "El colombiano había construido un equipo magnífico que sometía a sus rivales con posesión de balón y velocidad en cada ataque",
+   "verified": true
+  },
+  {
+   "title": "The Rebirth of Colombia - The Paris Review",
+   "url": "https://www.theparisreview.org/blog/2014/05/15/the-rebirth-of-colombia/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-15",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Under its coach Francisco Maturana, the team developed a style of play known as “toque toque,” or “touch touch.”",
+   "verified": true
+  },
+  {
+   "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993 - FourFourTwo",
+   "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Inspired by the Dutch, his team pressed high, dominated possession and utilised their pace and creativity up front.",
+   "verified": true
+  },
+  {
+   "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "o time amarelo estava concentrado e disposto a esfriar todo e qualquer ataque do rival com a marcação adiantada e um ótimo toque de bola sempre passando pelos pés de Valderrama.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "il n’est pas un fervent partisan d’un pressing tout terrain. Celui-ci se met en place par séquence en fonction du contexte du match.",
+   "verified": true
+  },
+  {
+   "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-07-06",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The game started with similar intensity, both sides looking to press the other high up.",
+   "verified": true
+  },
+  {
+   "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+   "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-04-09",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "El estilo partía del orden, según palabras del propio Maturana, con una línea de cuatro atrás y una marca zonal.",
+   "verified": true
+  },
+  {
+   "title": "Jugue el futbol que quise: Pacho Maturana, 30 anos despues - El Pais",
+   "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-06",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Una marcación en zona, pero con un contenido holístico.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "MATURANA EN AVANT GARDE : L’UN DES PREMIERS MAITRES DE LA DEFENSE DE ZONE EN AMERIQUE DU SUD",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Si Maturana a su instaurer suffisamment de discipline pour rendre difficile à l’adversaire la pénétration par l’axe",
+   "verified": true
+  },
+  {
+   "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-11-09",
+   "eventDate": "1994-06-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Balboa and Alexi Lalas held the creative Colombians at bay in the center of the defense while Earnie Stewart and John Harkes led several counterattacks against Colombia.",
+   "verified": true
+  },
+  {
+   "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-17",
+   "eventDate": "1994-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Gheorghe Hagi and Florin Raducioiu were naively afforded space, goalkeeper Cordoba had a day to forget, and Colombia could not rally a comeback.",
+   "verified": true
+  },
+  {
+   "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-07-06",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Second, Colombia were happy with that, content to hit them on the break.",
+   "verified": true
+  },
+  {
+   "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993 - FourFourTwo",
+   "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "“We knew that it was up to Argentina to dictate the pace, though, so we sat back and hit them on the break.”",
+   "verified": true
+  },
+  {
+   "title": "Jugue el futbol que quise: Pacho Maturana, 30 anos despues - El Pais",
+   "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-06",
+   "eventDate": "1990-06-19",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Con nuestro fútbol, posesión de pelota y transición en el momento justo.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Valderrama nous propose encore sa spéciale : la passe courte parfaitement dosée entre les 2 joueurs et dans la course de Rincon.",
+   "verified": true
+  },
+  {
+   "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Nos primeiros dez minutos, a Argentina tentou avançar pelo setor direito em busca de brechas na marcação adiantada, mas falhou na pontaria.",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "El Pibe then upped the ante, launching an audacious outside-of-the-foot pass down the left-wing into the path of Asprilla",
+   "verified": true
+  },
+  {
+   "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Rincón avançou pela direita e tocou para Valencia",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Là encore il faut souligner le rôle des défenseurs latéraux, primordial pour attaquer les couloirs à la récupération.",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "After 41 minutes Colombia launched a long throw-in deep into Argentine territory, and the cleared defensive header was picked up by the frizzy-haired icon Valderrama.",
+   "verified": true
+  },
+  {
+   "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-11-09",
+   "eventDate": "1994-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Valencia pulled a goal back for the Colombians in the 43rd minute when he headed in a corner from Perez.",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Colombia were hell-bent on revenge against their arrogant opponents and wanted to show the world that they belonged at the highest level.",
+   "verified": true
+  },
+  {
+   "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-07-06",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Colombia were happy with that, content to hit them on the break.",
+   "verified": true
+  },
+  {
+   "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Os albicelestes buscavam o gol e a Colômbia esfriava as ações, se mostrando contente com o empate (que lhe dava a vaga)",
+   "verified": true
+  },
+  {
+   "title": "Twenty-five years on: Argentina 0-5 Colombia, 1993 - FourFourTwo",
+   "url": "https://fourfourtwo.com/features/twenty-five-years-argentina-0-5-colombia-1993-game-rocked-world-and-embarrassed-el-diego",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Los Cafeteros had already ended their rivals’ 33-match unbeaten streak just weeks before",
+   "verified": true
+  },
+  {
+   "title": "The vehicle for change - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-12",
+   "eventDate": "1990",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Until then, our game strategy had been to neutralise our opponent. At the end of every game we were worn out from running",
+   "verified": true
+  },
+  {
+   "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+   "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-04-09",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Y se hizo famosa la frase de Hernán Darío Gómez, entonces asistente de Maturana: “Nos jodimos, Pacho. Ahora tenemos que ser campeones del mundo”.",
+   "verified": true
+  },
+  {
+   "title": "Ha 25 anos, a Colombia vivia sua noite magica: 5x0 sobre a Argentina - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/ha-25-anos-a-colombia-vivia-uma-noite-magica-5x0-sobre-a-argentina/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2018-09-05",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Valderrama praticamente flutuando no meio de campo e Rincón bastante solto, sem se prender às obrigações defensivas, atuando quase como um falso atacante.",
+   "verified": true
+  },
+  {
+   "title": "Aux origines du Toque : la Colombie 1993-1994 de Francisco Maturana - La Grinta",
+   "url": "https://lagrinta.fr/aux-origines-du-toque-la-colombie-1993-1994-de-francisco-pacho-maturana&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2019-10-25",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "la qualité technique très élevée partagée par la globalité des joueurs sur le terrain. Personne n’hésite à donner en jeu court ou en jeu long à son partenaire",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Displaying a trait shared by playmakers of the highest order, the former Montpellier man used his body shape to befuddle three opposing defenders",
+   "verified": true
+  },
+  {
+   "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+   "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-04-09",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Maturana alineó a un joven René Higuita de 20 años porque deseaba “11 futbolistas que produjeran juego”.",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1993-09-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Óscar Córdoba, the youngest Colombian on the pitch at just 23, would go on to have the game of his life",
+   "verified": true
+  },
+  {
+   "title": "The vehicle for change - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-12",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "“Colombia is the only national team able to train on a daily basis,” he said. “Because the squad is so rooted at Atletico Nacional.”",
+   "verified": true
+  },
+  {
+   "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-17",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Death threats came, demanding that Barrabas Gomez, brother of Maturana's assistant Hernan Dario Gomez, should not play. Barrabas left the squad, but players say the impact of the threats lingered.",
+   "verified": true
+  },
+  {
+   "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-11-09",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Gabriel Jaime Gomez Jaramillo (known as Barabas) was dropped from the squad presumably because of threats, with Hernán Gaviria taking his place.",
+   "verified": true
+  },
+  {
+   "title": "Argentina's night of shame: when Colombia went to a feisty Buenos Aires and won 5-0",
+   "url": "https://thesefootballtimes.co/2019/01/23/argentinas-night-of-shame-when-colombia-went-to-a-feisty-buenos-aires-and-won-5-0/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-01-23",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "The gruelling schedule of friendlies undertaken by Colombia in the lead up to the tournament didn’t help either, ensuring the players landed in the US in far from optimal condition.",
+   "verified": true
+  },
+  {
+   "title": "The vehicle for change - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-12",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Among all of the advice I was given, every manager agreed on one thing. “Pacho, you have to ringfence your environment.” So I did.",
+   "verified": true
+  },
+  {
+   "title": "Colombia at the 1994 FIFA World Cup - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colombia_at_the_1994_FIFA_World_Cup",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-11-09",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Coach Francisco Maturana was reported to have received death threats over matters of team selection.",
+   "verified": true
+  },
+  {
+   "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-17",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "After Colombia were knocked out, coach Pacho Maturana told the players that they were welcome to stay in the US until tensions back home cooled down.",
+   "verified": true
+  },
+  {
+   "title": "Los conceptos argentinos que derivaron en el 5-0 a favor de Colombia - Noticias RCN",
+   "url": "https://www.noticiasrcn.com/deportes/a-30-anos-del-5-0-asi-se-gesto-el-triunfo-de-colombia-453138",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2023-04-09",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "A él le enviaron una carta amenazándolo, para alinear a un jugador y sacar a otro.",
+   "verified": true
+  },
+  {
+   "title": "The vehicle for change - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/pacho-maturana-colombia-pochettino/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-04-12",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“We are going to play football,” I told the players. “We are going to search for order, so that we can disrupt that order once we are in control of the ball.”",
+   "verified": true
+  },
+  {
+   "title": "A forensic analysis of Argentina 0-5 Colombia, 1993 - Planet Football",
+   "url": "https://www.planetfootball.com/nostalgia/a-forensic-analysis-of-argentina-0-5-colombia-footballs-a-vehicle-for-dreams",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-07-06",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Before [I arrived in] 1987, we had never found our own way,” Maturana told The Blizzard years later.",
+   "verified": true
+  },
+  {
+   "title": "What really went wrong with Colombia at USA '94? - FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/94-what-really-went-wrong-colombia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-17",
+   "eventDate": "1994-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Pacho Maturana, the coach, showed a disarming lack of confidence when he told a reporter: \"For me, the important thing is to compete... to leave a mark, a footprint.\"",
+   "verified": true
+  },
+  {
+   "title": "Jugue el futbol que quise: Pacho Maturana, 30 anos despues - El Pais",
+   "url": "https://www.elpais.com.co/deportes/futbol-colombiano/jugue-el-futbol-que-quise-pacho-maturana-30-anos-despues-entrevista.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-06",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Una marcación en zona, pero con un contenido holístico.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "We are going to play football... We are going to search for order, so that we can disrupt that order once we are in control of the ball.",
+   "date": "2020-04-12",
+   "source": "Coaches' Voice, The vehicle for change",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Before [I arrived in] 1987, we had never found our own way. We used a style of play to express what Colombia the country was all about: people who are known for being happy, people who are dreamers, people who are easily inspired.",
+   "date": "2018-09-05",
+   "source": "Planet Football / FourFourTwo quoting The Blizzard",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Una marcación en zona, pero con un contenido holístico.",
+   "date": "2020-06-06",
+   "source": "El Pais (Cali) interview",
+   "provenance": "primary"
+  },
+  {
+   "quote": "For me, the important thing is to compete... to leave a mark, a footprint.",
+   "date": "1994-06",
+   "source": "FourFourTwo, reporter unnamed",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Nos jodimos, Pacho. Ahora tenemos que ser campeones del mundo.",
+   "date": "1993-09-05",
+   "source": "Noticias RCN 2023",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/7560068/seleccion-colombia-historia-venezuela-mal-resultado-maturana-chiqui-garcia-eliminatorias",
+   "reason": "empty"
+  },
+  {
+   "url": "https://colombiareports.com/?p=187364",
+   "reason": "not-accessible"
+  }
+ ],
+ "managers": [
+  {
+   "managerId": "francisco-maturana",
+   "start": "1990-06-09",
+   "end": "1990-06-23"
+  },
+  {
+   "managerId": "francisco-maturana",
+   "start": "1993",
+   "end": "1994-06-26"
+  }
+ ],
+ "influences": [
+  "Ricardo de Leon",
+  "Luis Cubilla",
+  "Dutch Total Football (via de Leon, Michels)",
+  "Arrigo Sacchi's Milan (zonal defence)"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good verified coverage of 1993-94 (tier A-B: Coaches' Voice, La Grinta, TFT) on most dimensions, but period start/end from memory, sources disagree on shape and pressing, 1990-92 coach and tactics thin."
+ }
+}

@@ -1,12 +1,12 @@
 import { t } from '../../i18n';
-import type { PersonalityMatch } from '../../types/quiz';
+import type { ManagerMatch } from '../../types/quiz';
 import type { AxisAgreement } from '../../utils/agreement';
-import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
+import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImage';
 import { SafeImg } from '../editorial/primitives';
 
 const LONG_NAME = 14;
 
-function futTier(rating: number, special: boolean): string {
+export function futTier(rating: number, special: boolean): string {
   if (special) return 'fut-special';
   if (rating >= 85) return 'fut-gold';
   if (rating >= 70) return 'fut-silver';
@@ -14,14 +14,14 @@ function futTier(rating: number, special: boolean): string {
 }
 
 // Nome curto como no Ultimate Team: nomes longos viram só o sobrenome.
-function cardName(name: string): string {
+export function cardName(name: string): string {
   if (name.length <= LONG_NAME) return name;
   const words = name.split(' ');
   return words[words.length - 1];
 }
 
 interface FutCardProps {
-  match: PersonalityMatch;
+  match: ManagerMatch;
   size?: 'lg' | 'sm';
   stats?: AxisAgreement[];
   special?: boolean;
@@ -38,12 +38,12 @@ export function FutCard({ match, size = 'sm', stats = [], special = false, onOpe
         {rating}
         <small>%</small>
       </span>
-      <span className="fut-pos">{t.futPositions[match.category]}</span>
+      <span className="fut-pos">{t.futPosition}</span>
       <SafeImg
         className="fut-face"
-        src={resolvePersonalityImageSrc(match.imagePath)}
+        src={resolveProfileImageSrc(match.imagePath)}
         alt={t.portraitAlt(match.name)}
-        fallback={personalityInitials(match.name)}
+        fallback={profileInitials(match.name)}
       />
       <span className="fut-name">{cardName(match.name)}</span>
       {stats.length > 0 && (

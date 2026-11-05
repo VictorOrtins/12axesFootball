@@ -164,13 +164,13 @@
     radial-gradient(40% 36% at 96% 0%, rgba(136, 9, 18, 0.04), transparent 72%),
     radial-gradient(52% 46% at 90% 98%, rgba(27, 107, 52, 0.04), transparent 74%);
 
-  --font-display: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-body: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Open Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
 
   /* ── Identidade — tokens nomeados conforme o guia de marca ───────────── */
   --papel: var(--fixed-canvas);
-  --floresta: var(--fixed-green-500);
+  --floresta: #06803A;
   --carmim: var(--fixed-red-500);
   --tinta: var(--fixed-ink-950);
 
@@ -193,11 +193,18 @@
   --ball-black: #101010;
 
   /* ── Estilo app de placar (Sofascore): fundo cinza, cartões brancos, barra sólida ── */
-  --app-bg: #EDF2EE;
+  --app-bg: #F5F5F5;
   --card-bg: #FFFFFF;
-  --card-line: #DFE7E0;
+  --card-line: #E1E1E1;
   --card-shadow: 0 1px 3px rgba(16, 16, 16, 0.08);
-  --bar-bg: #155A2B;
+  --bar-bg: #06803A;
+  /* ── Portal esportivo: manchete verde, fios cinza, sombra da foto do destaque ── */
+  --headline: #06803A;
+  --rule: #DCDCDC;
+  --meta: #666666;
+  --hero-shade: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.28) 55%, rgba(0, 0, 0, 0) 100%);
+  --share-panel: rgba(5, 30, 14, 0.45);
+  --share-panel-line: rgba(250, 252, 248, 0.16);
 
   /* ── Cartas Ultimate Team ─────────────────────────────────────────────── */
   --fut-gold-a: #F6E39A;
@@ -237,29 +244,17 @@
   --rate-text: #FFFFFF;
   --rate-ok-text: #2A2200;
 
-  /* ── Cores por ideologia (base + pastel) ──────────────────────────────── */
-  --i-esq-radical: #830214;
-  --i-esquerda: #035732;
-  --i-centro: #4B5058;
-  --i-direita: #2D4778;
-  --i-ext-direita: #001743;
-  --i-terceira: #4B2A63;
-  --i-libertario: #946201;
-  --i-anarquismo: #2B2B2B;
+  /* Tons usados no quiz, na barra de código aberto e na comparação. */
+  --slate: #4B5058;
+  --slate-bg: #DDE0E3;
+  --green-deep: #035732;
+  --green-deep-bg: #D5ECE2;
+  --red-deep: #830214;
+  --navy: #001743;
 
-  --i-esq-radical-bg: #ECD5D8;
-  --i-esquerda-bg: #D5ECE2;
-  --i-centro-bg: #DDE0E3;
-  --i-direita-bg: #D6E0F2;
-  --i-ext-direita-bg: #D5DAE6;
-  --i-terceira-bg: #E2D5EC;
-  --i-libertario-bg: #F0E4C8;
-  --i-anarquismo-bg: #E2DFD8;
-
-  /* Cor da categoria do usuário — a página de resultado sobrescreve estas
-     duas variáveis no container conforme o top match. */
-  --cat: var(--i-ext-direita);
-  --cat-bg: var(--i-ext-direita-bg);
+  /* Cor de destaque do resultado e do relatório. */
+  --cat: var(--green-600);
+  --cat-bg: var(--green-50);
 
   --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);

@@ -1,0 +1,644 @@
+{
+ "id": "uruguay-1950",
+ "catalog": "team",
+ "name": "Uruguay 1950 (World Cup champions, Maracanazo)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1950-07-02",
+  "end": "1950-07-16"
+ },
+ "scopeNote": "Uruguay at the 1950 World Cup in Brazil under Juan López Fontana: Bolivia 8-0 (2 Jul, Belo Horizonte), Spain 2-2 (9 Jul), Sweden 3-2 (13 Jul), Brazil 2-1 (16 Jul, Maracana). 9 and 13 July dates from El Gráfico and Wikipedia text; sources call the formation the classic WM (Lance) or a 2-3-5 era context (El Gráfico). The match against Brazil was a round-robin decider, not a formal final. Almost all evidence is retrospective (2014-2026); no contemporary 1950 press was mined. Tactical coverage is thin: footballuser page (a copy of Jonathan Wilson's text) is tier D and unverified.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Marking scheme vs Brazil (wing-halves man-marking wingers, 1-3-3-3 drift) comes only from a mirror of Wilson's Inverting the Pyramid (tier D, unverified); the Lance WM-with-marking-on-Zarra description is for the Spain match and from a recent page of uncertain rigor.",
+  "Whether López really ordered a defensive plan in the Brazil dressing room: Varela's 'Juancito es un buen hombre' version is widely repeated but not traced to a primary 1950 source; Máspoli later denied the stalling nature of the offside protest per search summaries (not read on page).",
+  "Dates 9 July (Spain) and 13 July (Sweden) taken from El Gráfico text and digest; 16 July from several pages; 2 July from Montevideo Portal. Montevideo Portal says López took charge 15 days before the tournament while Wikipedia says he was appointed in 1946: conflict unresolved.",
+  "Varela's 'bought newspapers and urinated on them' story appears only on Wikipedia, not used.",
+  "Nasazzi quote on Matías González dates from the pre-tournament selection (June 1950, before the profile period), kept verified:false.",
+  "No source found on set-pieces; gap-pass search (Wilson/garra tactics) returned only SEO pages, nothing mined."
+ ],
+ "managers": [
+  {
+   "managerId": "juan-lopez",
+   "start": "1950-07-02",
+   "end": "1950-07-16"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El entrenador asumió en su cargo 15 días antes del inicio del certamen, ya que la dirigencia uruguaya no lograba ponerse de acuerdo en la designación de un director técnico.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Obdulio reunió a los suyos antes de partir hacia suelo brasileño y fue bien claro: “Con Matías estuvimos en veredas opuestas, pero hoy tenemos que estar todos juntos. Ahora le voy a dar la mano, y luego lo harán todos\". Punto final al conflicto.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07-02",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El debut en Belo Horizonte el 2 de julio fue más fácil de lo esperado, y se logró un contundente 8-0 que daba el pase a la fase final, ya que por dos deserciones el grupo 4 quedó reducido a dos participantes.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“Cumplidos sólo si ganamos”, fue la palabra del Negro Jefe, que pidió a los suyos “no mirar para arriba” porque “el partido se juega abajo y los de afuera son de palo”. Y se ganó metiendo pero también jugando.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Por ser un cuadrangular y no una final como las de la actualidad, a los norteños les alcanzaba con el empate para levantar el trofeo por primera vez.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Roque Máspoli; Matías Gonzales, Eusebio Tejera; Schubert Gambetta, Obdulio Varela, Víctor Rodríguez Andrade; Alcides Ghiggia, Julio Pérez, Omar Míguez, Juan Alberto Schiaffino y Ruben Morán fueron los 11 elegidos por el destino para llevar adelante la hazaña.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "aquellos dirigentes que no se ponían de acuerdo para designar un técnico y luego se votaron medallas de oro (y a los jugadores de plata), recordaron a los futbolistas que “perdiendo por tres está bien”.",
+   "verified": true
+  },
+  {
+   "title": "Montevideo Portal: Se cumplen 70 años del Maracanazo",
+   "url": "https://www.montevideo.com.uy/Deportes/Se-cumplen-70-anos-del-Maracanazo-mucho-mas-que-un-titulo-y-una-remontada-a-domicilio-uc758661",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-07-16",
+   "eventDate": "1950-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Nasazzi como integrante de la comisión de selección dijo: “Si Uruguay quiere ser campeón, el back derecho debe ser Matías Gonzales”. Su peso era absoluto en ese tipo de decisiones, por lo que se hicieron las gestiones para lograr una solución.",
+   "verified": false
+  },
+  {
+   "title": "El Observador: Maracaná 1950, el origen del mito del Maracanazo",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Pero cuando López se fue, Varela le dijo a sus compañeros que Juan era un buen hombre, pero que se equivocaba. Que si jugaban a defender iban a tener la misma suerte que Suecia y España.",
+   "verified": true
+  },
+  {
+   "title": "El Observador: Maracaná 1950, el origen del mito del Maracanazo",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Pero cuando López se fue, Varela le dijo a sus compañeros que Juan era un buen hombre, pero que se equivocaba.",
+   "verified": true
+  },
+  {
+   "title": "El Observador: Maracaná 1950, el origen del mito del Maracanazo",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "En Uruguay, en cambio, Roque Gastón Máspoli sustituyó a Aníbal Paz como golero y entró Rubén Morán a debutar como puntero, con apenas 19 años.",
+   "verified": true
+  },
+  {
+   "title": "El Observador: Maracaná 1950, el origen del mito del Maracanazo",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Brasil dominó todo el primer tiempo. Pero no logró convertir un gol a Máspoli, que permitió que los primeros 45 minutos el partido se mantuviera 0-0. Antes de volver a salir al segundo tiempo, en el vestuario, Varela juntó al equipo y les indicó que era hora de ganar.",
+   "verified": true
+  },
+  {
+   "title": "El Observador: Maracaná 1950, el origen del mito del Maracanazo",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Uruguay y Brasil eran equipos más bien parejos.",
+   "verified": true
+  },
+  {
+   "title": "El Observador: Maracaná 1950, el origen del mito del Maracanazo",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Del lado brasileño, el director técnico Flavio Costa dispuso el mismo once que había usado en todos los partidos.",
+   "verified": true
+  },
+  {
+   "title": "El Observador (Ghiggia/Varela quotes, later recollections)",
+   "url": "https://www.elobservador.com.uy/referi/maracana-1950-el-origen-del-mito-del-maracanazo-y-que-tan-imposible-fue-la-hazana-la-seleccion-uruguaya-n6008151",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-07-16",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Obdulio Varela: “la verdad es que si ese partido lo jugábamos otras 99 veces, las perdíamos todas, pero ese día nos tocó el partido 100”.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Ademir, Chico y Zizinho chocaron varias veces contra el arquero, solo custodiado por dos defensores: Matías González y Eusebio Tejera. El 2-3-5 aún prevalecía como la fórmula de moda.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Durante la primera, Roque Máspoli se convirtió en figura y fue el gran responsable de mantener la valla invicta.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "La situación provocó el enojo de Varela, quien durante unos minutos mediante gesticulaciones con el árbitro inglés, le reprochó lo sucedido. Lejos de tener éxito en el reclamo, al menos se conformó con frenar por unos minutos los ataques rivales. Ahí comenzaría un nuevo partido con el control del mediocampo liderado por Obdulio junto a Schubert Gambetta y Víctor Rodríguez Andrade.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Nuevamente Alcides Ghiggia escapó en una jugada similar, pero esta vez sorprendió al arquero Barbosa rematando al primer palo.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Tenía ensayada la jugada con Julio Pérez, que me entregaba la pelota y cuando el lateral se me acercaba yo se la devolvía y me metía en diagonal al área; como era tan rápido, siempre me iba",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Con una desorganización en los grupos inimaginable para estos días, tuvo que disputar solo un partido para llegar a la fase final.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Uruguay 1950, El Maracanazo",
+   "url": "https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-13",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Disputado el 9 de julio, fue un agónico empate 2-2 bajo la lluvia de San Pablo. Alcides Ghiggia, quien anotó en los cuatro partidos, y Obdulio Varela, capitán del equipo, fueron los autores de los goles.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Juan López estruturou o Uruguai no clássico sistema WM, focando no encaixe de marcação dos zagueiros Matías González e Eusebio Tejera sobre o gigante Telmo Zarra, tentando esticar as transições ofensivas na velocidade dos pontas Ghiggia e Ernesto Vidal para surpreender a linha defensiva espanhola.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "tentando esticar as transições ofensivas na velocidade dos pontas Ghiggia e Ernesto Vidal para surpreender a linha defensiva espanhola.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "focando no encaixe de marcação dos zagueiros Matías González e Eusebio Tejera sobre o gigante Telmo Zarra",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "o Uruguai tratou de neutralizar a ansiedade da estreia através do toque de bola cadenciado de Schiaffino e Julio Pérez no meio-campo. A estratégia charrua de atrair a marcação europeia para desferir lançamentos longos colheu frutos dourados aos 29 minutos da etapa inicial.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "o Uruguai tratou de neutralizar a ansiedade da estreia através do toque de bola cadenciado de Schiaffino e Julio Pérez no meio-campo.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "O capitão charrua cobrou indignação e orgulho de seus companheiros, exigindo que o time adiantasse as suas linhas e aceitasse o combate físico contra os europeus no campo ofensivo. O Uruguai retornou para a etapa complementar demonstrando uma postura psicológica completamente modificada, assumindo o controle territorial do jogo e pressionou o meio-campo da Espanha",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "A conversa de Juan López nos vestiários buscou acalmar os nervos de sua equipe, mas o verdadeiro chacoalhão psicológico partiu da liderança de Obdulio Varela.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Aos 28 minutos da etapa complementar, a mística da camisa celeste apareceu para decidir o destino do jogo através do pé direito de seu maior líder.",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Estanislao Basora infiltrou-se como um autêntico raio por entre os zagueiros Matías González e Eusebio Tejera e cabeceou firme, no contrapé de Máspoli",
+   "verified": true
+  },
+  {
+   "title": "Lance!: Uruguai 2 x 2 Espanha na Copa de 1950",
+   "url": "https://www.lance.com.br/lancepedia/uruguai-2-x-2-espanha-copa-1950.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-06-26",
+   "eventDate": "1950-07-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "sob a orientação técnica do calmo e estrategista treinador Juan López, a Celeste Olímpica possuía um elenco dotado de uma resiliência psicológica inabalável e de uma qualidade técnica refinada na linha de frente.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: Enciclopedia mundialista, Uruguay 1950",
+   "url": "https://www.goal.com/es/noticias/enciclopedia-mundialista-uruguay-1950-maracanazo-y-los-de-afuera-son-de-palo/m5sg548ln2dc1xbqqiy8yzoch",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-11-15",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "los directivos celestes pidieron a sus jugadores una derrota decorosa , entendida como un partido perdido por menos de cuatro goles .",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: Enciclopedia mundialista, Uruguay 1950",
+   "url": "https://www.goal.com/es/noticias/enciclopedia-mundialista-uruguay-1950-maracanazo-y-los-de-afuera-son-de-palo/m5sg548ln2dc1xbqqiy8yzoch",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-11-15",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Bueno muchachos, ahora un huevo en cada zapato y vamos para arriba",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: Enciclopedia mundialista, Uruguay 1950",
+   "url": "https://www.goal.com/es/noticias/enciclopedia-mundialista-uruguay-1950-maracanazo-y-los-de-afuera-son-de-palo/m5sg548ln2dc1xbqqiy8yzoch",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-11-15",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "El portero uruguayo  Roque Máspoli  le entregaba una indicación al entrenador para que los atacantes contrarios no tiren centros, a lo que el seleccionador,  Juan López  , respondió:",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "In the moments prior to the match, coach Juan López informed his team in Uruguay's dressing room that their best chance of surviving the powerful offensive line of Brazil would come through adopting a defensive strategy. After he left, Varela stood up and addressed the team himself, saying \"Juancito is a good man, but today, he is wrong. If we play defensively against Brazil, our fate will be no different from Spain or Sweden.\"",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "After the goal, Varela took the ball and disputed the validity of the goal to the referee, arguing that Friaça was offside. Varela drew out this argument, going so far as to demand that the referee listen to him through an interpreter.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Uruguay managed to take control of the game. When faced with a capable Uruguayan attack, Brazil showed their frail defense, and Juan Alberto Schiaffino scored the equaliser in the 66th minute.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Later, Alcides Ghiggia, running down the right side of the field, scored another goal, with a low shot that went just under goalkeeper Moacir Barbosa",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Varela then delivered an emotional speech about how they should go against all odds and not be intimidated by the fans or the opposing team.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Muchachos, los de afuera son de palo. Que comience la función.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: Uruguay v Brazil (1950 FIFA World Cup)",
+   "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2005-11-18",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The game began as predicted, with Brazil attacking against the Uruguayan defensive line for the majority of the first half. Unlike Spain and Sweden, however, the Uruguayans managed to maintain their defence and the first half ended scoreless.",
+   "verified": true
+  },
+  {
+   "title": "Calciomercato: Il mito Varela",
+   "url": "https://www.calciomercato.com/news/il-mito-varela-ovvero-come-zittire-250-000-brasiliani-e-vincere--48313",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-03-26",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "In campo guidava i suoi compagni, correggeva i loro spostamenti, li richiamava all’ordine e alla concentrazione.",
+   "verified": true
+  },
+  {
+   "title": "Calciomercato: Il mito Varela",
+   "url": "https://www.calciomercato.com/news/il-mito-varela-ovvero-come-zittire-250-000-brasiliani-e-vincere--48313",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-03-26",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Salgan tranquilos, no miren para arriba. Nunca miren a la tribuna. Los de afuera son de palo. El partido se juega abajo y se gana con los huevos en la punta de los botines\".",
+   "verified": true
+  },
+  {
+   "title": "Footballuser mirror of Wilson, Inverting the Pyramid",
+   "url": "https://footballuser.com/610890/Uruguay",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2013-01-05",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The two wing-halves, Schubert Gambetta and Victor Andrade, were set to man-mark the Brazilian wingers, Chico and Albino Friaça, while Varela and the two inside-forwards played deeper than usual in a system approaching Rappan’s 1-3-3-3.",
+   "verified": false
+  },
+  {
+   "title": "Footballuser mirror of Wilson, Inverting the Pyramid",
+   "url": "https://footballuser.com/610890/Uruguay",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2013-01-05",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "The two wing-halves, Schubert Gambetta and Victor Andrade, were set to man-mark the Brazilian wingers, Chico and Albino Friaça, while Varela and the two inside-forwards played deeper than usual in a system approaching Rappan’s 1-3-3-3.",
+   "verified": false
+  },
+  {
+   "title": "Footballuser mirror of Wilson, Inverting the Pyramid",
+   "url": "https://footballuser.com/610890/Uruguay",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2013-01-05",
+   "eventDate": "1950-07-16",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Brazil controlled the",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Si Uruguay quiere ser campeón, el back derecho debe ser Matías Gonzales",
+   "date": "1950",
+   "source": "Montevideo Portal (2020), attributed to José Nasazzi on selection committee",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Juancito es un buen hombre, pero hoy se equivoca. Si jugamos a defendernos nos sucederá lo mismo que a Suecia o España",
+   "date": "1950-07-16",
+   "source": "El Observador / Mediotiempo (2020-2025), Varela on López",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Muchachos, los de afuera son de palo. Que comience la función.",
+   "date": "1950-07-16",
+   "source": "Wikipedia, Varela",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Bueno muchachos, ahora un huevo en cada zapato y vamos para arriba",
+   "date": "1950-07-16",
+   "source": "Goal.com (2022), Juan López replying to Máspoli",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://worldsoccertalk.com/news/a-look-back-when-uruguay-shocked-brazil-in-the-1950-world-cup",
+   "reason": "404"
+  },
+  {
+   "url": "https://africa.espn.com/football/story/_/id/37399927/all-greatest-captain-obdulio-varela-wise-champion",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/15428340/mundial-1950-brasil-maracana-uruguay-pequeno-pais-dueno-de-historia-mas-increible-del-futbol",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Single tournament, mostly tier C retrospective press; marking and shape detail only from a tier D mirror."
+ }
+}

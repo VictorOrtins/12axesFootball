@@ -1,0 +1,569 @@
+{
+ "id": "independiente-1972-75",
+ "catalog": "team",
+ "name": "Independiente 1972-1975",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1972",
+  "end": "1975-06-29"
+ },
+ "scopeNote": "Club Atlético Independiente, four consecutive Copa Libertadores (1972-1975) and 1973 Intercontinental Cup. Sources call the defence 'achique' with offside line and a 'cuatro-dos-cuatro' (El Gráfico 1975); the popular 'Rey de Copas' label is a trophy label, not a style. Start is given as year only: the first 1972 Libertadores match day was not found (web search budget exhausted). End 1975-06-29 is the Asunción decider (Infobae, 442). Managers rotated (Dellacha 1972, Maschio 1973, Ferreiro 1974, Dellacha 1975); exact change dates not found, years taken from Aire de Santa Fe.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact dates of coaching changes (Dellacha to Maschio, Maschio to Ferreiro, Ferreiro to Dellacha) were not found; managers[] uses years only.",
+  "First match date of Independiente in the 1972 Copa Libertadores not found; profilePeriod.start is 1972.",
+  "El Gráfico 'Epopeya Roja' mentions 'Pipo' as DT in 1973; identity (Maschio nickname?) not confirmed and a speaker named Ferreiro appears (probably the ex-player, not verified).",
+  "Marking system (zonal vs man) not directly stated; El Gráfico 1975 describes 'achique', offside and 'hombres de marca' only; no source found for set-pieces beyond Bertoni free kick.",
+  "Wikipedia 1973 Intercontinental Cup mirrors list Ferreiro as coach in 1973 while Aire de Santa Fe gives Maschio; not resolved.",
+  "Web search budget was exhausted before the planned gap pass; only 7 searches (a,b,c-ish,d,e,f) ran, with no dedicated zonal/man-marking page found."
+ ],
+ "managers": [
+  {
+   "managerId": "pedro-dellacha",
+   "start": "1972",
+   "end": "1972"
+  },
+  {
+   "managerId": "humberto-maschio",
+   "start": "1973",
+   "end": "1973"
+  },
+  {
+   "managerId": "roberto-ferreiro",
+   "start": "1974",
+   "end": "1974"
+  },
+  {
+   "managerId": "pedro-dellacha",
+   "start": "1975",
+   "end": "1975-06-29"
+  }
+ ],
+ "sources": [
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Al del fondo que parece un frente. A un colorado detrás de otro colorado (...) En ese mecanismo de relojería que arranca desde la media cancha y se consolida en el fondo con todos los matices del achique, del hombre que sale, del otro que espera, del que viene al cierre, del que defiende la espalda del que anticipa, de la impecable maniobra del offside",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "los del fondo, siempre achicando, ganaran la pelota con ese talento de agrimensores para lotear el terreno y transformarlo en una angosta franja apenas transitable",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Ahora nada más que con dos volantes, jugando casi normalmente un cuatro-dos-cuatro pero con dos hombres menos de marca, lucha y oficio",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Mientras Bochini o Ruiz Moreno se relevaban en el retroceso para construir el tercer volante, que muchas veces ni siquiera fue necesario. Mientras el Mencho Balbuena corría a todos los que pasaban por su jurisdicción",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Final ya previsto. Pelota de Independiente. Y contraataque de Independiente... Siempre el mismo proceso. Siempre el mismo y preanunciado final entre un equipo que sabe lo que puede y las ventajas que puede conceder",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Que dispuso en mayor margen de la propiedad de la pelota, pero que solo fue capaz de usarla hasta donde lo permitió Independiente",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Cuando se administra un partido tal como lo hizo esta vez Independiente, con esa elevada dosis de fría serenidad (...) Cuando todo está bien calculado, elaborado, cuando nada se deja librado a la improvisación ni al accidente",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "un equipo que para ganar apenas si le alcanza con esa precisa organización defensiva. Con ese oficio de adultos para llevar al rival al negocio que más le conviene para fácilmente controlarlo",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "En esta final se puso \"la del ocho\", pero \"la del ocho\" a la manera del Polaco. Marcando, tapando, defendiéndole las espaldas a Commisso cuando hizo falta, metiéndose en la línea de cuatro en el final del achique.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Libertadores 1975, Independiente otra vez campeón",
+   "url": "https://elgrafico.com.ar/articulo/las-cronicas-de-el-grafico/34105/libertadores-1975-independiente-otra-vez-campeon",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Punteros que no pueden ganar un desborde",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A medio siglo del Independiente campeón del mundo contra Juventus",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/independiente/a-medio-siglo-del-independiente-campeon-del-mundo-contra-juventus-en-italia-con-un-golazo-de-ricardo-nid28112023/",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-11-28",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Aguantar el partido en defensa no era lo pensado, pero se dio así. Lo sostuvimos entre los cinco de atrás (Miguel Ángel Santoro, Eduardo Commisso, Miguel Ángel López, Francisco Sá y el propio Pavoni) más el Negro [Rubén Galván], Perico [Miguel Ángel Raimondo] y el Polaco [Alejandro Semenewicz], que entró después",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A medio siglo del Independiente campeón del mundo contra Juventus",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/independiente/a-medio-siglo-del-independiente-campeon-del-mundo-contra-juventus-en-italia-con-un-golazo-de-ricardo-nid28112023/",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-11-28",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Fue una jugada bárbara, milimétrica. Cuando Bertoni me la da, gambeteo a uno, se la devuelvo, me la vuelve a dar adentro del área y ahí se la pico a Zoff",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A medio siglo del Independiente campeón del mundo contra Juventus",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/independiente/a-medio-siglo-del-independiente-campeon-del-mundo-contra-juventus-en-italia-con-un-golazo-de-ricardo-nid28112023/",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-11-28",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Si hacían ese gol se nos iba a complicar muchísimo porque nos costaba llegar a su arco",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A medio siglo del Independiente campeón del mundo contra Juventus",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/independiente/a-medio-siglo-del-independiente-campeon-del-mundo-contra-juventus-en-italia-con-un-golazo-de-ricardo-nid28112023/",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-11-28",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "la cancha no estaba llena y la gente no presionaba mucho",
+   "verified": true
+  },
+  {
+   "title": "La Nación: A medio siglo del Independiente campeón del mundo contra Juventus",
+   "url": "https://www.lanacion.com.ar/deportes/futbol/independiente/a-medio-siglo-del-independiente-campeon-del-mundo-contra-juventus-en-italia-con-un-golazo-de-ricardo-nid28112023/",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-11-28",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Los directivos nos informaron de la situación, nos dejaron la decisión a los jugadores, y nosotros dijimos que queríamos ir",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Epopeya Roja",
+   "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34605/epopeya-roja",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-10-01",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Nosotros teníamos la virtud de saber cuándo atacar, cuándo defender, manejábamos el control emocional de los partidos. Si hacíamos un gol, no nos empataban nunca. Ese Independiente tenía personalidad y sabía lo que quería.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Epopeya Roja",
+   "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34605/epopeya-roja",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-10-01",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "El partido prácticamente se jugó en nuestro campo (...) El Zurdo López y Pancho se cansaron de sacar pelotas del área",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Epopeya Roja",
+   "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34605/epopeya-roja",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-10-01",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "los pibes podían ganar partidos, pero sin el trabajo de los más experimentados las finales se complican",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Epopeya Roja",
+   "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34605/epopeya-roja",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-10-01",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Yo todavía vivía en la pensión del club. ¡Había unas cucarachas así de grandes! (...) Había salido campeón del mundo, y seguía en la pensión",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Bochini came to life, linking up with Daniel Bertoni, with whom he shared a superb, almost telepathic partnership. The young duo played a series of one-twos, cutting through a notoriously mean defence as if it wasn’t there",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1972",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "the rough-house tactics Independiente subjected them to during the 1972 tie will no doubt have contributed to the Dutchmen’s lack of desire in making another long trip across the Atlantic",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1972/73",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "A month after the 1972 Libertadores triumph, an 18-year-old Bochini made his full debut for Independiente (...) By 1973 the popular youngster was entrenched in the first team squad",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "the introduction of Bochini swung the tie in the favour of the Argentines, with fellow substitute Miguel Ángel Giachello grabbing the winner after 107 minutes",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1972/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "This Independiente side were incredibly talented, and whilst they were capable of brutality it would be lazy to believe they relied on pure physicality alone. They were able to mix brains and brawn",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1972/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "whose dominance in the early 1970s was not affected by a rapid turnover of coaches",
+   "verified": true
+  },
+  {
+   "title": "These Football Times: The story of Ricardo Bochini and Independiente's golden era",
+   "url": "https://thesefootballtimes.co/2018/02/09/the-story-of-ricardo-bochini-and-independientes-golden-era/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-02-09",
+   "eventDate": "1972/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "it was secured without one singular figure in the dugout, rather a revolving door of managers",
+   "verified": true
+  },
+  {
+   "title": "Infobae: Independiente y una hazaña irrepetible",
+   "url": "https://www.infobae.com/2013/06/28/717674-independiente-y-una-hazana-irrepetible-logro-cuatro-libertadores-seguidas/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-06-28",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "El equipo que dirigía tácticamente Pedro Dellacha gozaba de una gran calidad técnica y buen juego. Contaba con la madurez defensiva compuesta por 'Pancho' Sá, Pavoni, Commisso, pero sobresalía por su juventud en el ataque con futbolistas que hacían maravillas como Bochini y Bertoni.",
+   "verified": true
+  },
+  {
+   "title": "Infobae: Independiente y una hazaña irrepetible",
+   "url": "https://www.infobae.com/2013/06/28/717674-independiente-y-una-hazana-irrepetible-logro-cuatro-libertadores-seguidas/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-06-28",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Un 29 de junio de 1975 Independiente volvía a ser campeón de América. Obtenía la Copa Libertadores por cuarta vez consecutiva",
+   "verified": true
+  },
+  {
+   "title": "Infobae: Independiente y una hazaña irrepetible",
+   "url": "https://www.infobae.com/2013/06/28/717674-independiente-y-una-hazana-irrepetible-logro-cuatro-libertadores-seguidas/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-06-28",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "perdió en los dos primeros encuentros, ambas por 2 a 0 y como visitante de Rosario Central y el 'cuco' Cruzeiro (...) Debía ganarle por 3 a 0 al Cruzeiro para llegar a la final",
+   "verified": true
+  },
+  {
+   "title": "Aire de Santa Fe: El comienzo del Rey de Copas",
+   "url": "https://www.airedesantafe.com.ar/deportes/el-comienzo-del-rey-copas-59-anos-del-debut-independiente-la-copa-libertadores-n154485",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-05",
+   "eventDate": "1972-05-24",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "La tercera Libertadores llegó el 24 de mayo de 1972, en la final ante Universitario de Perú. Fue victoria 2-1 en favor del cuadro dirigido por Pedro Dellacha (Argentina), en Avellaneda.",
+   "verified": true
+  },
+  {
+   "title": "Aire de Santa Fe: El comienzo del Rey de Copas",
+   "url": "https://www.airedesantafe.com.ar/deportes/el-comienzo-del-rey-copas-59-anos-del-debut-independiente-la-copa-libertadores-n154485",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-05",
+   "eventDate": "1973-06-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "En 1973, alcanzaría su cuarto título. Esta vez, el once dirigido por Humberto Maschio derrotó en la final del 6 de junio a Colo Colo de Chile, en el Estadio Centenario de Montevideo (Uruguay).",
+   "verified": true
+  },
+  {
+   "title": "Aire de Santa Fe: El comienzo del Rey de Copas",
+   "url": "https://www.airedesantafe.com.ar/deportes/el-comienzo-del-rey-copas-59-anos-del-debut-independiente-la-copa-libertadores-n154485",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-05",
+   "eventDate": "1974",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "El consagrado Pentacampeón tuvo como entrenador argentino Roberto Ferreiro, quien había sido Bicampeón de América como jugador en 1964 y 1965.",
+   "verified": true
+  },
+  {
+   "title": "Aire de Santa Fe: El comienzo del Rey de Copas",
+   "url": "https://www.airedesantafe.com.ar/deportes/el-comienzo-del-rey-copas-59-anos-del-debut-independiente-la-copa-libertadores-n154485",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-05",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Otra vez con Don Pedro Dellacha (ARG) en el banco, el Diablo de Avellaneda alcanzaría su sexto campeonato. Fue en 1975",
+   "verified": true
+  },
+  {
+   "title": "442 Perfil: Bochini, la historia refleja que Independiente sigue siendo el auténtico Rey de Copas",
+   "url": "https://442.perfil.com/noticias/futbol/bochini-digan-lo-que-digan-la-historia-refleja-que-independiente-sigue-siendo-el-autentico-rey-de-copas.phtml",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-29",
+   "eventDate": "1975-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "se impuso 2-0 con tantos de Ruiz Moreno y un golazo de tiro libre de Bertoni",
+   "verified": true
+  },
+  {
+   "title": "442 Perfil: Bochini, la historia refleja que Independiente sigue siendo el auténtico Rey de Copas",
+   "url": "https://442.perfil.com/noticias/futbol/bochini-digan-lo-que-digan-la-historia-refleja-que-independiente-sigue-siendo-el-autentico-rey-de-copas.phtml",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-06-29",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "perdieron 1-0 sobre el final, en la revancha se impusieron 3-1 con goles de Percy Rojas (el más rápido en la historia de las finales de Libertadores), de Pavoni y de Bertoni, por lo que tuvieron que ir a un tercer partido",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Ricardo Bochini 100 x 100",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/32245/ricardo-bochini-100-x-100",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2026-01-25",
+   "eventDate": "1972",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Fue contra River en el Monumental, por el Metropolitano 72, perdimos 1-0. El técnico era Pedro Dellacha. Yo entré en el según tiempo",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Independiente homenajeó a los campeones de 1973",
+   "url": "https://elgrafico.com.ar/articulo/primera-division/71774/independiente-homenajeo-a-los-campeones-de-1973",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2023-11-29",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Independiente formó con Santoro; Eduardo Commisso, Miguel Angel López, Sá y Pavoni; Rubén Galván, Miguel Angel Raimondo y Bochini; Agustín Balbuena, Maglioni y Bertoni.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 1973 Intercontinental Cup",
+   "url": "https://en.wikipedia.org/wiki/1973_Intercontinental_Cup",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-05-08",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "José Pastoriza, who had been the captain and leader of the Copa Libertadores winning team, did not play the match because he was transferred to AS Monaco shortly before the final in Rome.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 1973 Intercontinental Cup",
+   "url": "https://en.wikipedia.org/wiki/1973_Intercontinental_Cup",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2009-05-08",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Ten minutes from the end, a succession of wall-passes made between Raimondo and Bertoni firstly, and then between Bertoni and Bochini towards the penalty box, ended in the goal of the victory for the Diablos Rojos",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 1975 Copa Libertadores finals",
+   "url": "https://en.wikipedia.org/wiki/1975_Copa_Libertadores_finals",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-04-20",
+   "eventDate": "1975-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "The first leg of the tie was played on 18 June in Santiago,[1] with the second leg played on 25 June in Avellaneda.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: Epopeya Roja",
+   "url": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34605/epopeya-roja",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2019-10-01",
+   "eventDate": "1973-11-28",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Nosotros teníamos la virtud de saber cuándo atacar, cuándo defender, manejábamos el control emocional de los partidos.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Aguantar el partido en defensa no era lo pensado, pero se dio así.",
+   "date": "2023-11-28",
+   "source": "https://www.lanacion.com.ar/deportes/futbol/independiente/a-medio-siglo-del-independiente-campeon-del-mundo-contra-juventus-en-italia-con-un-golazo-de-ricardo-nid28112023/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Nosotros teníamos la virtud de saber cuándo atacar, cuándo defender, manejábamos el control emocional de los partidos.",
+   "date": "2019-10-01",
+   "source": "https://www.elgrafico.com.ar/articulo/%C2%A1habla-memoria!/34605/epopeya-roja",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://golazoargentino.com/2015/07/07/forty-years-on-from-independientes-record-breaking-four-consecutive-libertadores-titles/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.glieroidelcalcio.com/?p=28196",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good Spanish B-tier coverage of 1973 and 1975 finals (defensive line, 4-2-4, counter-attack) but 1972 and 1974 thin, coach dates by year only, no marking-specific source."
+ }
+}

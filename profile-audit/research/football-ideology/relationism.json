@@ -1,0 +1,723 @@
+{
+ "id": "relationism",
+ "catalog": "football-ideology",
+ "name": "Relationism (jogo funcional)",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2018-12-19",
+  "end": "ongoing"
+ },
+ "scopeNote": "Relationism as a non-zonal, ball-centred attacking idea in which position is a function of relationships between players. Exemplar: Fernando Diniz's Fluminense (second spell 2022-04-30 to 2024-06-24, peak 2023 Copa Libertadores), with his first Fluminense spell (from 2018-12-19) as precursor. The term 'relationism' was defined by Scottish coach and writer Jamie Hamilton (Medium, 2022; the primary 'What is Relationism?' text was not read: Medium returned 403, so the definition is taken from his interview with Elite Soccer Coaching and from secondary sites); in Brazil the style is called 'Dinizismo' and Diniz himself uses it little (he says the tactical part is not fundamental). 'Jogo funcional' is a Brazilian term for related ideas (functional play) and was not directly sourced for Diniz. A popular label, 'opposite of Guardiola', is simplified: Sky Sports experts note Fluminense also keep the ball, overload and counter-press like De Zerbi/Guardiola, and The Football Analyst (2025) says the best modern teams blend both. Term coinage date (Nov 2022) comes only from a search summary and is unverified.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Ids: fernando-diniz (manager) and fluminense-2023 (team) already exist in the catalog and are proposed as exemplars; no new ids invented.",
+  "Hamilton's primary text 'What is Relationism?' (Medium) and 'The Mutants' were unreadable (403); the definition is therefore second-hand via Elite Soccer Coaching and The Football Analyst. Mine Hamilton's own pages in a manual pass.",
+  "Marking: no source found that settles zonal vs man-oriented. The Football Analyst says Diniz 'usually wants man-to-man' pressing only in a search summary (unverified); Sky Sports (Pivetti) says players hold positions when losing the ball, and Lance (2019) says high line with compaction. Treat as unresolved.",
+  "'Jogo funcional' not found as a Diniz or Hamilton term in this run; confirm whether the catalog title should keep it.",
+  "Several secondary pieces (Football Analyst 2025, FM guides) are descriptive and may restate Hamilton; relationism's claim of 'tilt to one side' is verified for Fluminense only in The Football Analyst's 2024 analysis.",
+  "Hamilton's 'moment of clarity' and the coinage date (Nov 2022) are from the manager file and a search summary, not re-verified here."
+ ],
+ "sources": [
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Diniz likes to set up his team in a 4-2-3- 1 formation, in which the centre-backs have the liberty to roam forward.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Using the keeper as a player, he likes his team to build up from the back.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "When the ball is lost, counter-pressing must win it back as quickly as possible.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Diniz wants his teams whenever possible to play “a-positionally”, to create “an organised chaos” or “fluid choreography”.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Diniz likes to create a numerical superiority within a small space. Instead of opening up the game, he wants his players to keep the ball within that contained area and, relying on their technical skills, use short passes and dribbles to create space and opportunities.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "his teams have seen the return of the classic number 10. In Fluminense’s case the 34-year-old Ganso is the maestro in the middle, the man making the orchestra play in tune, who links up play both on and off the ball.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "When unraveling the football Diniz aims to play, which in Brazil has become known as Dinizismo (others call it ‘relationism’), futsal seems a key ingredient.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "In Fluminense’s case the 34-year-old Ganso is the maestro in the middle",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Following a neat triangle of passes on the left flank, Keno headed down the ball on the edge of the box for JK to score with a cracking volley.",
+   "verified": true
+  },
+  {
+   "title": "The Nostalgia Principle - The Blizzard",
+   "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-24",
+   "eventDate": "2023-11-04",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "A similar doom was avoided on November 4 thanks to the substitute John Kennedy (JK), whom Diniz had brought on with the prophetic words “You will score the title-winning goal.”",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "\"All the players stay in their position and that means that when a player loses possession it is easier to be organised defensively because all the players are already located in their position. It makes it easier to press, easier to drop back into a defensive shape.\"",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "\"From the first phase of the build-up, he wants this very intensive rotation of his players. He tries to get the most technical players involved in that first phase to help the goalkeeper keep the ball and then progress up the field from there.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "\"The full-backs come inside and play between the lines and this causes confusion for the opposition in terms of how they defend.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "\"The wingers do not always stay wide. They come inside. All the players play together so the player on the ball always has three or four passing options close by.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "\"The players react fast to put pressure on the ball. It is very aggressive and when he regains the ball, all the players are close together.\"",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "\"The focus is on having the ball and make something happen in possession just like Robert De Zerbi and Pep Guardiola. But with Fluminense, where you have these extreme overloads, they want to keep the ball but they are less focused on the spatial aspect.\"",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "They do not know if they should press or stay to protect the zone because all the players are rotating.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Maric points to the role of Paulo Henrique Ganso at Fluminense. An elegant playmaker, now 34, his time in Europe was only brief but he has been pivotal for Diniz, moving deep to collect the ball.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "\"He graduated in psychology. He is very clever. He has a particular way of managing and motivating players. It is very interesting.\"",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "It has sparked a debate about the merits of positionism and this so-called relationism.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz’s innovative tactics with Fluminense - Sky Sports",
+   "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-01",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "\"He is working with the best players now,\" says Pivetti.",
+   "verified": true
+  },
+  {
+   "title": "Relationism in theory and practice - Elite Soccer Coaching (Jamie Hamilton interview)",
+   "url": "https://elitesoccercoaching.net/player-and-coach-development/relationism-in-theory-and-practice",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-05-27",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“In relationism, position of a function of the interactions and relationships between the players. So the position is actually secondary, rather than those more orthodox positional coaches that will put the position first.”",
+   "verified": true
+  },
+  {
+   "title": "Relationism in theory and practice - Elite Soccer Coaching (Jamie Hamilton interview)",
+   "url": "https://elitesoccercoaching.net/player-and-coach-development/relationism-in-theory-and-practice",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-05-27",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Hamilton’s interest in the way Fluminense were playing led him to connect with others also interested in the style and delve deeper, watching, he says “every minute of that Fluminense team, analysing everything so closely”.",
+   "verified": true
+  },
+  {
+   "title": "Relationism in theory and practice - Elite Soccer Coaching (Jamie Hamilton interview)",
+   "url": "https://elitesoccercoaching.net/player-and-coach-development/relationism-in-theory-and-practice",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-05-27",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "“How are players cohering in a non-positional, non-zonal attack? How are they organized? Because it’s not a disorganised attack, it’s organized, but it’s organised in a different way.",
+   "verified": true
+  },
+  {
+   "title": "Relationism in theory and practice - Elite Soccer Coaching (Jamie Hamilton interview)",
+   "url": "https://elitesoccercoaching.net/player-and-coach-development/relationism-in-theory-and-practice",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-05-27",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "“One way to do it, one of the first things I tried to do, and it’s something I actually still do, is use a directional possession game, but change the reference points,”",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Fluminense usually sets up in a 1-4-2-3-1 formation but constantly rotates into new shapes during the game.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "In the low build-up, Fernando Diniz wants many players to come extremely deep and create numerical superiorities, which usually allows them to beat the press.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "If the opposition answers this by pushing up many players and going man-to-man, Fluminense will go long and have a 3v3 or 2v2 upfront.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "In the high build-up, Diniz’s Fluminense tilts over to one side, pushing every player (apart from the weak-side fullback sometimes) over to the ball-side.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Fernando Diniz likes this because it builds good conditions in defensive transitions while making it easier to play through the opposition.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "In the low press, Diniz’s Fluminense uses a 1-4-4-2 formation. They look to set up in a mid-block, always trying to close the center, forcing the opposition out wide.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Fluminense looks to squeeze the pitch when defending. This means constantly pushing the team up as much as possible.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "One influential principle of Diniz’s Fluminense is always moving after passing the ball. This is a massive part of Fluminense’s fluidity, creating new positions and passing opportunities every second.",
+   "verified": true
+  },
+  {
+   "title": "Fernando Diniz – Fluminense – Tactical Analysis - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=1534",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-24",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "Focusing the play on the side also allows Fluminense to use the sideline as an extra defender. When they lose the ball, they can push the opposition towards the sideline and win the ball or stop a counterattack by getting it out for a throw-in.",
+   "verified": false
+  },
+  {
+   "title": "Relationism - Football Tactics Explained - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=10400",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-17",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Players gather around the ball, usually on one flank and not in the center, compressing space to ensure close distances between teammates.",
+   "verified": true
+  },
+  {
+   "title": "Relationism - Football Tactics Explained - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=10400",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-17",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "At the heart of relationism lies toco y me voy — “I play and I go.” It’s the immediate movement that follows the pass.",
+   "verified": true
+  },
+  {
+   "title": "Relationism - Football Tactics Explained - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=10400",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-17",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Once the opponent’s shape has been pulled across, the team switches play quickly to the far side — where a wide player finds themselves isolated 1v1 in space.",
+   "verified": false
+  },
+  {
+   "title": "Relationism - Football Tactics Explained - The Football Analyst",
+   "url": "https://the-footballanalyst.com/?p=10400",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-17",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "The team’s shape is fluid and constantly shifting based on where the ball and teammates are.",
+   "verified": true
+  },
+  {
+   "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense - Lance!",
+   "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-01-17",
+   "eventDate": "2019-01",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Fernando Diniz coloca uma instrução clara em seus jogadores: não permitir um contra-ataque em velocidade. Suas equipes marcam em pressão após a perda da bola, incomodando o rival desde o primeiro segundo que ele está com a jogada.",
+   "verified": true
+  },
+  {
+   "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense - Lance!",
+   "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-01-17",
+   "eventDate": "2019-01",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "a defesa de Fernando Diniz se coloca em uma linha alta no campo, com os zagueiros sempre avançados e com foco em tentar interceptar passes do adversário. A estratégia é arriscada, já que coloca a defesa muitas vezes em situação de risco, tendo problemas de defender bolas longas e transições em velocidade.",
+   "verified": true
+  },
+  {
+   "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense - Lance!",
+   "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-01-17",
+   "eventDate": "2019-01",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "o jogo de Fernando Diniz é baseado no 4-3-3.",
+   "verified": true
+  },
+  {
+   "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense - Lance!",
+   "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-01-17",
+   "eventDate": "2019-01",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "a equipe de Fernando Diniz espera atrair todos os defensores para esse setor e, quando o adversário estiver totalmente concentrado, inverter a jogada para o lado oposto, onde um jogador vai enfrentar uma situação de mano a mano com o defensor.",
+   "verified": true
+  },
+  {
+   "title": "Intensidade, movimentação e posse: conheça o 'estilo Diniz' no Fluminense - Lance!",
+   "url": "https://www.lance.com.br/fluminense/fernando-diniz.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-01-17",
+   "eventDate": "2019-01",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "o time constrói suas jogadas com jogadores se aproximando e dando opções de passe. O conceito de saída apoiada se traduz nisso: movimentações de todos os jogadores, que dão opção de passe para quem está com a bola.",
+   "verified": true
+  },
+  {
+   "title": "Dinizismo funciona, e Fluminense vence o Colo-Colo - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-colo-colo-dinizismo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-10",
+   "eventDate": "2024-04-09",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "O ponta-direita de 20 anos foi mantido no time titular por Fernando Diniz e correspondeu.",
+   "verified": true
+  },
+  {
+   "title": "Dinizismo funciona, e Fluminense vence o Colo-Colo - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-colo-colo-dinizismo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-10",
+   "eventDate": "2024-04-09",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Fernando Diniz é um técnico único, para o bem ou para o mal. A aposta na ousadia rendeu dividendos mais uma vez",
+   "verified": true
+  },
+  {
+   "title": "Dinizismo funciona, e Fluminense vence o Colo-Colo - Trivela",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-colo-colo-dinizismo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-10",
+   "eventDate": "2024-04-09",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "No fim, o treinador colocou Antônio Carlos para controlar o resultado. A marcação na área melhorou, mas mesmo com um a mais, já que Wiemberg foi expulso, o Fluminense seguiu exposto.",
+   "verified": true
+  },
+  {
+   "title": "Diniz rebate críticas a falta de variação - Tupi",
+   "url": "https://www.tupi.fm/?p=1941793",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-02-14",
+   "eventDate": "2025-02-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "E o Fluminense marcava muito bem em linha alta, linha média e linha baixa. Contra o Boca Juniors, jogamos com um a menos, marcamos em linha baixa e os caras não fizeram nada.",
+   "verified": true
+  },
+  {
+   "title": "Diniz afirma qual legado pretende deixar - Netflu",
+   "url": "https://www.netflu.com.br/diniz-afirma-qual-legado-pretende-deixar-no-futebol-estabelecer-boas-relacoes-humanas/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-04-13",
+   "eventDate": "2023-04-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "O central do meu trabalho é estabelecer boas relações humanas. Que eles se sintam bem, que possam errar sem ser atacados o tempo todo.",
+   "verified": true
+  },
+  {
+   "title": "Zagueiro tricolor revela cobrança de Fernando Diniz - Netflu",
+   "url": "https://www.netflu.com.br/zagueiro-tricolor-revela-cobranca-de-fernando-diniz/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-08-08",
+   "eventDate": "2019-08",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Como ficamos muito com a bola, acabamos cansando. Em determinado momento, damos a posse de bola ao adversário e atrai para explorar os contra-ataques",
+   "verified": true
+  },
+  {
+   "title": "Fluminense’s Fall From Grace 2024 - Total Football Analysis",
+   "url": "https://totalfootballanalysis.com/team-analysis/fluminense-2024-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-24",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "This highlights the vulnerability of Diniz’s Relationism when possession is lost, leaving the team exposed to rapid counter-attacks.",
+   "verified": true
+  },
+  {
+   "title": "Fluminense’s Fall From Grace 2024 - Total Football Analysis",
+   "url": "https://totalfootballanalysis.com/team-analysis/fluminense-2024-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-24",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "young players may not have fully adapted to this style, while veteran players might struggle to execute it effectively due to age.",
+   "verified": true
+  },
+  {
+   "title": "Fluminense’s Fall From Grace 2024 - Total Football Analysis",
+   "url": "https://totalfootballanalysis.com/team-analysis/fluminense-2024-scout-report-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-07-24",
+   "eventDate": "2024",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Fernando Diniz’s style of play includes build-up by creating overloads in widths of the pitch, and a heavy tilt to progress up the field",
+   "verified": true
+  },
+  {
+   "title": "Roblog - The football tactics of Fluminense and Fernando Diniz",
+   "url": "https://roblog.co.uk/2023/06/fluminense-football-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-06-17",
+   "eventDate": "2023",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "the players aren’t interested in the system and its boundaries, they’re interested in the relationships between themselves).",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "O central do meu trabalho é estabelecer boas relações humanas. Que eles se sintam bem, que possam errar sem ser atacados o tempo todo. Futebol é uma arte, é como pintar, tocar uma música.",
+   "date": "2023-04-12",
+   "source": "https://www.netflu.com.br/diniz-afirma-qual-legado-pretende-deixar-no-futebol-estabelecer-boas-relacoes-humanas/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "O que é variação tática? Sair com bola longa? Olha quantas bolas longas o Fluminense fazia por jogo. O cara acha que variação tática é baixar a linha. E o Fluminense marcava muito bem em linha alta, linha média e linha baixa.",
+   "date": "2025-02-12",
+   "source": "https://www.tupi.fm/?p=1941793",
+   "provenance": "primary"
+  },
+  {
+   "quote": "With all the teams I worked, I adapted to the team",
+   "date": "2023-08",
+   "source": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "In relationism, position of a function of the interactions and relationships between the players. So the position is actually secondary",
+   "date": "2025",
+   "source": "https://elitesoccercoaching.net/player-and-coach-development/relationism-in-theory-and-practice",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://espndeportes.espn.com/futbol/copa-libertadores/nota/_/id/12779404/fluminense-el-equipo-invertebrado-que-disputa-la-hegemonia-tactica-europea",
+   "reason": "empty"
+  },
+  {
+   "url": "https://medium.com/@stirlingj1982/the-mutants-1fc8cad1efe4",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Futsal (Diniz played futsal)",
+  "Telê Santana's 1982 Brazil",
+  "Brazilian 'jogo de posição' as contrast: Guardiola's positional play",
+  "De Zerbi and Red Bull proximity play (Hamilton's references)"
+ ],
+ "teamProfiles": [],
+ "exemplars": [
+  {
+   "id": "fernando-diniz",
+   "kind": "manager",
+   "reason": "Hamilton built the definition by studying Diniz's Fluminense; 'Dinizismo' is the Brazilian name."
+  },
+  {
+   "id": "fluminense-2023",
+   "kind": "team",
+   "reason": "2023 Libertadores winners; main tactical coverage (Sky Sports, Football Analyst, Blizzard)."
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B sources agree on Fluminense's play, but Hamilton's primary text could not be read, marking is unresolved and the concept is mostly described second-hand."
+ }
+}

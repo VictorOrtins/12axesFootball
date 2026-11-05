@@ -1,0 +1,149 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Miguel Cardoso" (catalog: manager), answering as the manager Miguel Cardoso, across the spells counted in the research file (spellsCounted). Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/miguel-cardoso.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK manager:miguel-cardoso".
+
+=== RESEARCH FILE (manager/miguel-cardoso.json) ===
+{
+  "id": "miguel-cardoso",
+  "catalog": "manager",
+  "name": "Miguel Cardoso",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "2024-01-12",
+    "end": "ongoing"
+  },
+  "scopeNote": "Manager profile of Miguel Cardoso across two counted spells: Espérance de Tunis (12 January to 22 October 2024: Tunisian Ligue Professionnelle 1 2023-24) and Mamelodi Sundowns (10 December 2024 to the present: South African Premiership 2024-25, CAF Champions League 2025-26, MTN 8 2026). Dates from the Wikipedia career table. Excluded: Rio Ave (2017-18 and 2021, no titles), Nantes (2018), Celta Vigo (2018-19) and AEK Athens (2019), all without titles. The Wikipedia article read has no tactical description of his teams, so the profile has no tactical sources.",
+  "spellsCounted": [
+    {
+      "club": "Espérance de Tunis",
+      "start": "2024-01-12",
+      "end": "2024-10-22",
+      "reason": "Tunisian league title 2023-24."
+    },
+    {
+      "club": "Mamelodi Sundowns",
+      "start": "2024-12-10",
+      "end": "ongoing",
+      "reason": "South African Premiership 2024-25 and the CAF Champions League 2025-26."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Rio Ave",
+      "start": "2017-06-12",
+      "end": "2018-06-13",
+      "reason": "Forty-two matches, no titles."
+    },
+    {
+      "club": "Nantes",
+      "start": "2018-06-13",
+      "end": "2018-10-02",
+      "reason": "Eight matches, no titles."
+    },
+    {
+      "club": "Celta Vigo",
+      "start": "2018-11-12",
+      "end": "2019-03-03",
+      "reason": "Fifteen matches, no titles."
+    },
+    {
+      "club": "AEK Athens",
+      "start": "2019-07-01",
+      "end": "2019-08-25",
+      "reason": "Four matches, no titles."
+    },
+    {
+      "club": "Rio Ave",
+      "start": "2021-01-29",
+      "end": "2021-05-27",
+      "reason": "Twenty matches, no titles."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "No tactical fact about Cardoso's teams was read: shape, pressing, marking and possession need tier A-B sources before the audit is reliable."
+  ],
+  "sources": [],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "est",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table only; the page read has no tactical description of his teams."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

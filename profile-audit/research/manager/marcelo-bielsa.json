@@ -1,0 +1,748 @@
+{
+  "id": "marcelo-bielsa",
+  "catalog": "manager",
+  "name": "Marcelo Bielsa",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "1990-07-01",
+    "end": "2026-06-30"
+  },
+  "scopeNote": "Manager profile of Marcelo Bielsa across eight counted spells: Newell's Old Boys (1990-07-01 to 1992-06-30), Velez Sarsfield (1997-07-01 to 1998-06-30), Argentina (1998-10-20 to 2004-09-15), Chile (2007-07-11 to 2011-02-04), Athletic Club (2011-07-07 to 2013-06-30), Marseille (2014-05-17 to 2015-08-08), Leeds United (2018-06-15 to 2022-02-27) and Uruguay (2023-05-15 to 2026-06-30). Dates are from the managerial statistics table of English Wikipedia (as of 2026-06-30), cross-checked with Spanish Wikipedia; the two differ in places (see openQuestions). Style named by the evidence: a man-oriented, high-intensity pressing side ('Each outfielder aggressively tracks their opponent', Coaches' Voice 2021; 'a lot of man-marking', The False 9 2020; 'marcar hombre a hombre', Ugarte 2023) built on a 3-3-1-3 (3-4-3 for Argentina 2002) that becomes a 4-1-4-1 / 4-2-3-1 / 4-3-3 when defending or at Leeds and Uruguay, with fast vertical play, attacking wide midfielders or full-backs, rotations and third-man runs. Bielsa himself says the formation drawing matters little ('sobrevalorada la observacion de los esquemas', 2003) and that his teams try to 'protagonizar, atacar, jugar en campo rival, no especular' (2023). Evolution: Newell's, Argentina and Chile played a back three with four or three forwards; at Athletic and Marseille the base was reported as a back three/four hybrid; Leeds and Uruguay start from a back four with a single pivot dropping between centre-backs. Marking: the evidence for man-oriented defending is strong at Athletic (2012), Marseille (2014), Leeds (2018-22) and Uruguay (2023-24), and weak or missing for the 1990s teams. Facts from excluded spells were not used as evidence.",
+  "spellsCounted": [
+    {
+      "club": "Newell's Old Boys",
+      "start": "1990-07-01",
+      "end": "1992-06-30",
+      "reason": "Primera Division 1990-91 and Clausura 1992, Copa Libertadores runner-up 1992 (Wikipedia); 97 matches; players of the era describe a tactically drilled, aggressive-recovery team (ESPN 2022). Where his 3-3-1-3 started."
+    },
+    {
+      "club": "Velez Sarsfield",
+      "start": "1997-07-01",
+      "end": "1998-06-30",
+      "reason": "Clausura 1998 title (44 matches); Chilavert recalls the verticality he imposed. Thin tactical coverage, counted on the title test."
+    },
+    {
+      "club": "Argentina",
+      "start": "1998-10-20",
+      "end": "2004-09-15",
+      "reason": "85 matches; 2002 World Cup 3-4-3 with documented tactical coverage; Copa America 2004 runner-up and Olympic gold 2004 (Argentina U23) in the same cycle; later move to bigger jobs."
+    },
+    {
+      "club": "Chile",
+      "start": "2007-07-11",
+      "end": "2011-02-04",
+      "reason": "51 matches; 2010 World Cup round of 16 with the 3-3-1-3 and wide attacking play; the style Chile kept after him."
+    },
+    {
+      "club": "Athletic Club",
+      "start": "2011-07-07",
+      "end": "2013-06-30",
+      "reason": "113 matches; Europa League and Copa del Rey finals 2012; the pressing and man-marking team that beat Manchester United 5-3 on aggregate."
+    },
+    {
+      "club": "Olympique de Marseille",
+      "start": "2014-05-17",
+      "end": "2015-08-08",
+      "reason": "41 matches; StatsBomb ranked its press among the most aggressive in the big five leagues; recognisable style with tactical coverage even though no title and a resignation after the first match of 2015/16."
+    },
+    {
+      "club": "Leeds United",
+      "start": "2018-06-15",
+      "end": "2022-02-27",
+      "reason": "170 matches; EFL Championship 2019/20 and promotion, then the Premier League; the best-documented spell, with a man-marking 4-1-4-1 / 3-3-1-3 and a famous press."
+    },
+    {
+      "club": "Uruguay",
+      "start": "2023-05-15",
+      "end": "2026-06-30",
+      "reason": "39 matches; Copa America 2024 third place (Wikipedia; one paywalled TFA piece says fourth); strong first-hand accounts of man-to-man marking and pressing. Wikipedia shows the departure made official on 2026-06-30, so the spell is closed."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Atlas",
+      "start": "1993-07-01",
+      "end": "1995-01-31",
+      "reason": "77 matches, no titles, and no tactical coverage found (no analysis in English or Spanish was read). Dates from English Wikipedia; Spanish Wikipedia gives 1992-1994. Fails the 'known for' test as researched."
+    },
+    {
+      "club": "Club America",
+      "start": "1995-07-01",
+      "end": "1996-03-25",
+      "reason": "33 matches (10 W, 14 D, 9 L), no titles, no tactical coverage found; left in March 1996. Fails the 'known for' test."
+    },
+    {
+      "club": "RCD Espanyol",
+      "start": "1998-07-10",
+      "end": "1998-10-19",
+      "reason": "12 matches (3 W, 3 D, 6 L), left to take the Argentina job; no titles and too short for a style to be documented."
+    },
+    {
+      "club": "Lazio",
+      "start": "2016-07-05",
+      "end": "2016-07-08",
+      "reason": "Appointed 2016-07-05 and resigned 2016-07-08 (English Wikipedia; Spanish Wikipedia says confirmed 2016-07-06 and out two days later). No match played, so no evidence at all."
+    },
+    {
+      "club": "Lille",
+      "start": "2017-05-24",
+      "end": "2017-12-15",
+      "reason": "14 matches (3 W, 4 D, 7 L), suspended 2017-11-22 and contract ended 2017-12-15 (Spanish Wikipedia). Below the ~15-match minimum, no titles, and no analysis of the Lille team was read."
+    }
+  ],
+  "teamProfiles": [],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (mar): all verified man-marking evidence is from Athletic (2012), Marseille (2014), Leeds (2018-22) and Uruguay (2023-24). For Newell's, Velez, Argentina and Chile no source says whether defending was zonal or man-oriented (Chile 2010: only 'each player in a personal duel with an opponent', Sports Illustrated, ambiguous). Bielsa himself was not found explaining his marking in an interview. Confirm whether the audit should treat the whole career as man-oriented or weight the later spells.",
+    "Seven spells share almost no evidence on some dimensions. Counted spells weigh the same, but Velez (one Chilavert quote), Argentina (one 2002 study) and Chile (one 2010 piece) are thin against Leeds and Uruguay.",
+    "Dates differ between English and Spanish Wikipedia: Atlas 1993-95 vs 1992-94; Chile start 2007-07-11 vs 2007-08-10; Athletic end 2013-06-30 (table) vs club non-renewal confirmed 2013-06-07; Argentina and Velez end dates are only in the English table. English table dates were used throughout.",
+    "Atlas and Club America were excluded for lack of tactical coverage and titles, not because the match counts are short (77 and 33). If Mexican-language sources show a recognisable style there, they could be counted.",
+    "Lille 2017 (14 matches) is just under the ~15-match minimum and was excluded; a Lille analysis could show the same press as Marseille and Leeds.",
+    "Uruguay: the user's task listed the spell as '2023-'; Wikipedia shows the departure made official on 2026-06-30, so it was closed. Confirm.",
+    "Style change inside the profile: three-forward 3-3-1-3 / 3-4-3 in the 1990s and 2000s vs a back four with a single pivot at Leeds and Uruguay; Athletic and Marseille sources disagree on back three vs back four (a French analysis of PSG-OM 2014 reads Marseille as a 4-2-3-1 with individual marking, StatsBomb reports mid-season intensity 'tapered off').",
+    "Athletic 2011-13: pressing and man-marking are only supported by one tier C retrospective (Planet Football 2025, 'almost militaristic man-marking' v Manchester United, March 2012), one Bleacher Report review of the April 2012 Sporting tie, and Ferguson's quote. No Spielverlagerung or TFA analysis of that team was found.",
+    "Stated views: Bielsa's own statements on marking, pressing and his formation come from press (2003, 2011, 2012, 2019, 2023, 2024). The 1991 El Grafico interview 'Yo miro videos para atacar, no para defender' (403) could be the earliest primary source for his attacking priority; not read.",
+    "The Wikipedia pages were read only to character 100000 of about 233000 (English) and 325000 (Spanish).",
+    "Search summaries claimed that at Velez only three starters were not from the club's academy; that was not on any page read and is not used."
+  ],
+  "sources": [
+    {
+      "title": "Marcelo Bielsa (English Wikipedia, managerial statistics table)",
+      "url": "https://en.wikipedia.org/wiki/Marcelo_Bielsa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "1990-07-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Spell dates and records from the table as of 30 June 2026: Newell's 1990-07-01 to 1992-06-30 (97 matches); Atlas 1993-07-01 to 1995-01-31 (77); America 1995-07-01 to 1996-03-25 (33); Velez 1997-07-01 to 1998-06-30 (44); Espanyol 1998-07-10 to 1998-10-19 (12); Argentina 1998-10-20 to 2004-09-15 (85); Chile 2007-07-11 to 2011-02-04 (51); Athletic 2011-07-07 to 2013-06-30 (113); Marseille 2014-05-17 to 2015-08-08 (41); Lille 2017-05-24 to 2017-12-15 (14); Leeds 2018-06-15 to 2022-02-27 (170); Uruguay 2023-05-15 to 2026-06-30 (39). Lazio: appointed 5 July 2016, quit 8 July 2016, no match. Honours: Newell's league 1990-91 and Clausura 1992; Velez Clausura 1998; Leeds Championship 2019/20. Page reader summary of characters 0-100000 only. Used for dates and counts, not tactics.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa (Spanish Wikipedia)",
+      "url": "https://es.wikipedia.org/wiki/Marcelo_Bielsa",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-10-14",
+      "eventDate": "1990-07-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Bielsa \"apostó por jóvenes futbolistas que ya habían estado bajo su disciplina en las inferiores\" (Argentina era). \"Los 10 jugadores de campo atacaban, y cuando perdían la pelota los 11 defendían.\" Chile started 2007-08-10 on this page; Lazio confirmed 2016-07-06; Lille suspended 2017-11-22, contract ended 2017-12-15. Page reader summary of characters 0-100000 only, undated quotes.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa (English Wikipedia, training and personality)",
+      "url": "https://en.wikipedia.org/wiki/Marcelo_Bielsa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2002",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Roberto Ayala (Argentina): \"Sometimes we wouldn't see any of the strikers, because he'd have them training at a different time.\" Fernando Llorente (Athletic): \"At first he seems tough and he may even annoy you with his persistence.\" Page also says under the 3-3-3-1 \"all players have to aggressively press and recover the ball when it is not in possession\". Quotes undated; eventDate approximate. Read through character 100000 of 233207.",
+      "verified": true
+    },
+    {
+      "title": "Argentina con Bielsa (Copa del Mundo 2002), in Analisis de la evolucion de los sistemas de juego en el futbol (Lovrincevich, efdeportes.com)",
+      "url": "https://efdeportes.com/efd53/futbol3.htm",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2002-10",
+      "eventDate": "2002",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"El equipo de Bielsa viene usando un dispositivo táctico de 3 defensores, 4 mediocampistas, y tres atacantes (3-4-3)\". \"Los mediocampistas laterales fueron Sorin y Zanetti y poseían funciones netas de ataque\". \"En sus filas, se alistaban 4 jugadores de claras aptitudes ofensivas: Verón, Ortega, Batistuta y López.\"",
+      "verified": true
+    },
+    {
+      "title": "Argentina con Bielsa (Copa del Mundo 2002) (Lovrincevich, efdeportes.com)",
+      "url": "https://efdeportes.com/efd53/futbol3.htm",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2002-10",
+      "eventDate": "2002",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"método de presión colectiva\" with the team \"adelantaba todas sus líneas\" to recover the ball near the opponent's goal. The article does not say whether the marking was zonal or man-oriented.",
+      "verified": true
+    },
+    {
+      "title": "Argentina con Bielsa (Copa del Mundo 2002) (Lovrincevich, efdeportes.com)",
+      "url": "https://efdeportes.com/efd53/futbol3.htm",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2002-10",
+      "eventDate": "2002",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"evitando las demoras innecesarias y la lateralización del juego\"; \"El equipo aplico un plan táctico diseñado para, en primer lugar, ATACAR, y en segundo, defender.\"",
+      "verified": true
+    },
+    {
+      "title": "Chilavert elogió llegada de Marcelo Bielsa a la selección chilena (Cooperativa.cl)",
+      "url": "https://cooperativa.cl/noticias/deportes/futbol/seleccion-chilena/jose-luis-chilavert-elogio-llegada-de-marcelo-bielsa-a-la-seleccion/2007-08-12/112709.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2007-08-12",
+      "eventDate": "1998",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Chilavert on his Velez coach (Clausura 1998): \"Me gustaba mucho por la verticalidad que imponía.\" \"no le importa si estás de visitante o local, el equipo siempre juega de la misma manera\". Also \"Bielsa es un hombre que tiene mucha personalidad, es un técnico honesto, trabajador\". Retrospective by a player of the period (9 years later).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chilavert elogió llegada de Marcelo Bielsa a la selección chilena (Cooperativa.cl)",
+      "url": "https://cooperativa.cl/noticias/deportes/futbol/seleccion-chilena/jose-luis-chilavert-elogio-llegada-de-marcelo-bielsa-a-la-seleccion/2007-08-12/112709.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2007-08-12",
+      "eventDate": "1998",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Chilavert: \"Es diferente en el ambiente del fútbol, por su manera de trabajar y de hablar.\" \"Hay que saberlo entender. No es fácil\" (the page reader noted there is no explicit quote on their personal relationship; the two shared the Velez squad in 1998).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Newell's de Bielsa, campeon 1992: 30 anos (ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/10580655/newells-old-boys-marcelo-bielsa-campeon-titulo-1992-efemeride-aniversario-30-anos",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-07-03",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Juan Manuel Llop: \"Eramos un equipo muy trabajado tácticamente. Hacíamos un gol y era muy difícil que nos pudieran convertir.\" \"Teníamos todo diagramado, todos los movimientos entrenados.\" Retrospective by players, 30 years later.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Newell's de Bielsa, campeon 1992: 30 anos (ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/10580655/newells-old-boys-marcelo-bielsa-campeon-titulo-1992-efemeride-aniversario-30-anos",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-07-03",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Cristian Domizzi: \"Intentábamos ser agresivos para recuperar el balón lo más cerca del arco rival.\" No quote on marking in this article.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Newell's de Bielsa, campeon 1992: 30 anos (ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/10580655/newells-old-boys-marcelo-bielsa-campeon-titulo-1992-efemeride-aniversario-30-anos",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-07-03",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Domizzi: \"Éramos un equipo efectivo que manejaba muy bien la pelota parada.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Defensa de Espana: \"Los equipos de Bielsa no dejan ni respirar al rival\" (Cooperativa.cl)",
+      "url": "https://cooperativa.cl/noticias/deportes/futbol/seleccion-chilena/defensa-de-espana-los-equipos-de-bielsa-no-dejan-ni-respirar-al/2008-11-18/102821.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2008-11-18",
+      "eventDate": "2008-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Joan Capdevila (knew Bielsa from Espanyol, ahead of Spain v Chile): \"recuerdo que Bielsa trabaja mucho la presión y hace difíciles los partidos para el otro equipo\". Opponent view before the match; the article does not say how Chile presses or marks.",
+      "verified": true
+    },
+    {
+      "title": "Chile (Sports Illustrated, World Cup 2010)",
+      "url": "https://www.si.com/more-sports/2010/06/16/chile-bielsa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-06-16",
+      "eventDate": "2010-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Chile described \"attacking at times with seven players up front, closing in on any attempts at counter-attack\". Iucht: \"Using the extremes, the way Bielsa likes.\" Page reader paraphrase of the wider-play passage. Henry Winter: \"Some of Chile's attacking, backheels, incisive passsing and pace is outstanding.\"",
+      "verified": true
+    },
+    {
+      "title": "Chile (Sports Illustrated, World Cup 2010)",
+      "url": "https://www.si.com/more-sports/2010/06/16/chile-bielsa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-06-16",
+      "eventDate": "2010-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "The article says the team kept the ball with \"each player in a personal duel with an opponent\" (page reader wording; the passage is ambiguous about whether it describes marking). Iucht on method: \"The idea is not to mechanize the movements on automatic pilot but rather to understand the underlying cause behind each one.\" Does not use the word pressing.",
+      "verified": true
+    },
+    {
+      "title": "Bielsa adds fire and flair to Athletic (Paul Bryan, UEFA.com)",
+      "url": "https://www.uefa.com/uefaeuropaleague/news/newsid=1761740.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-03-14",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Sir Alex Ferguson said Bielsa's side \"press the ball everywhere on the pitch.\" The article describes Athletic's \"exhausting pressing game has been drilled into the Basque outfit.\" Also: \"Moving FIFA World Cup winner Javi Martínez from midfield into defence has also borne fruit.\"",
+      "verified": true
+    },
+    {
+      "title": "Revisiting the night Marcelo Bielsa's Bilbao blew away Fergie's Man Utd (Planet Football)",
+      "url": "https://www.planetfootball.com/nostalgia/revisiting-when-bielsas-athletic-club-blew-away-fergusons-man-utd",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "2012-03",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Athletic completely dominated at Old Trafford, pressing high and carving openings\", \"often sending up to six men stampeding into United's box\". Carrick and Anderson \"looking suffocated by the visitors' almost militaristic man-marking job\". Ferguson: \"The highest stats of any team that has played at Old Trafford in the last 10 years, in terms of the distance run.\" Retrospective, one tie (Europa League round of 16, March 2012).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Athletic Bilbao 3-1 Sporting: tactical review and analysis (Sam Tighe, Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1161760-athletic-bilbao-3-1-sporting-tactical-review-and-analysis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-07",
+      "eventDate": "2012-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"the midfield were quicker, fresher and sharper when carrying out their man-marking assignments.\" \"Every time they lost the ball they retrieved it with relative ease.\" \"Javi Martinez's return made a colossal difference to their ability to control the game.\" One match, Europa League semi-final first leg; the page date (2018) is the platform's, the match is April 2012.",
+      "verified": true
+    },
+    {
+      "title": "Bilbao wasn't built in a day, part two (Where Is Football)",
+      "url": "https://blog.whereisfootball.com/post/28039332977/bilbao-wasnt-built-in-a-day-part-two",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "\"Athletic's style of play has been revolutionised under Bielsa.\" \"With an average of 57% possession and 79% pass completion rate per game\", \"making an average of 434 short passes per game\"; \"sterile domination\" and \"Athletic has an average of just 12 shots per game.\" Blog post undated on the page (about summer 2012, 'last season' = 10th in La Liga).",
+      "verified": true
+    },
+    {
+      "title": "Bilbao wasn't built in a day, part two (Where Is Football)",
+      "url": "https://blog.whereisfootball.com/post/28039332977/bilbao-wasnt-built-in-a-day-part-two",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"The change in the system under Bielsa required time to settle down.\" \"his deployment of players in unfamiliar positions as he sought the ideal line up\". Formation not named on the page.",
+      "verified": true
+    },
+    {
+      "title": "Loco Bielsa y las expectativas del Athletic Bilbao (Telemetro / AP)",
+      "url": "https://www.telemetro.com/futbol/2011/08/15/loco-bielsa-espectativas-athletic-bilbao/2018860.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2011-08-15",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Ander Herrera: \"Todo el mundo me dijo que vamos a aprender mucho, pero que también vamos a sufrir.\" Javi Martinez said it was the first time a coach asked him to take a throw-in (\"saque de banda\"). AP report (August 2011) framed the squad as the club's most promising young core in years (reader paraphrase of the article). Athletic's Basque-only policy limits the squad, not a Bielsa choice.",
+      "verified": true
+    },
+    {
+      "title": "Marseille: The Bielsa Press quantified (Colin Trainor, StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/marseille-the-bielsa-press-quantified/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2014-09-23",
+      "eventDate": "2014-08",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Marseille are pressing more aggressively than any other team in the league.\" Cumulative PPDA over the first seven games \"8.66 is the lowest in Ligue 1\"; Bielsa's Athletic PPDA \"was 8.39\". \"the intensity of the press has tapered off since then\". Does not discuss marking or formation. Opening games of 2014/15 only.",
+      "verified": true
+    },
+    {
+      "title": "PSG-OM 2-0: l'analyse tactique du match (PremiereTouche, reprise sur CulturePSG)",
+      "url": "https://www.culturepsg.com/news/match/psg-om-2-0-l-analyse-tactique-du-match/888",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-11",
+      "eventDate": "2014-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"Paris va transformer le 4231 à marquages individuels de Bielsa\"; \"Placé 10 d'un 4231 sans le ballon, Pastore contrôle bien Imbula\"; \"Les marquages de Bielsa, lorsqu'ils sont imprimés dans le camp adverse\" are praised; \"Marseille restera intéressant par son pressing, mais pêchera dans le dernier geste\". Match was league matchday 13 (page gives no match date). One match, fan-run analysis.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa: An Argentine in Yorkshire (Joel Shooter, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/marcelo-bielsa-leeds-united-tactical-analysis-statistics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"As per the team sheet, they appear to line up in a 4-1-4-1, but throughout the game this amalgamates into the 3-3-1-3.\" \"Leeds typically fall back on their 4-1-4-1 shape when defending.\" \"High wingers and full-backs allow Leeds to stretch their opposition in attack.\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa: An Argentine in Yorkshire (Joel Shooter, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/marcelo-bielsa-leeds-united-tactical-analysis-statistics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"The three-man back line operates as the base for the build up.\" \"The holding midfielder – Kalvin Phillips, but more recently Adam Forshaw – drops in between the centre-backs\". Preference to start attacks from the back.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa: An Argentine in Yorkshire (Joel Shooter, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/marcelo-bielsa-leeds-united-tactical-analysis-statistics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Centre forward Kemar Roofe leads the press on the man on the ball.\" \"The ferocity in which they hunt down players in their attempts to retrieve it is remarkable.\" Opponents held to \"an average of 38.5%\" possession \"so far this season\". Man-oriented wording is the page reader's heading; the quoted lines do not say 'man-marking'.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa: An Argentine in Yorkshire (Joel Shooter, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/marcelo-bielsa-leeds-united-tactical-analysis-statistics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-01-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"The main threat of Leeds press, however, is directly after they lose the ball.\" The article also notes the fatigue cost: \"The apparent over-tiredness of his teams from the high-octane style\".",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa: Coach Watch (Coaches' Voice, learning mirror)",
+      "url": "https://learning.coachesvoice.com/coach-watch-marcelo-bielsa-leeds-guardiola/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-06-09",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"Bielsa prefers his teams to defend and press high, and to apply a press that encourages them to regain possession.\" Man-marking, not zonal: \"Each outfielder aggressively tracks their opponent,\" with one central defender left spare. \"The spare central defender retains his position to contribute, when required, to the creation of an overload.\" \"Leeds' press is perhaps the hallmark of Bielsa's management.\" \"It also demands particularly impressive conditioning\".",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa: Coach Watch (Coaches' Voice, learning mirror)",
+      "url": "https://learning.coachesvoice.com/coach-watch-marcelo-bielsa-leeds-guardiola/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-06-09",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Rotations from a midfield three\" from a 4-3-3; \"A further consistent feature of his teams is their use of a third-man runner\" against narrow defensive shapes. When forward passes are hard, \"the ball will be circulated in defence and with the single pivot at the base of midfield until an opportunity appears\"; \"Central defenders also occasionally advance into midfield.\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa - Leeds United - Tactical Analysis (2020-21 Edition) (Rhys Desmond, TheMastermindSite)",
+      "url": "https://themastermindsite.com/2020/11/24/marcelo-bielsa-leeds-united-tactical-analysis-2020-21-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-11-24",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Leeds use \"their natural width and overloads in the wide areas.\" \"Dallas and Ayling constantly look to create 2v1 situations with their respective wingers.\" Build-up: \"Marcelo Bielsa has a strong desire to play out from the back.\" Most frequent shape \"the 2-4-3-1\"; defending 4-1-4-1, and \"When facing two strikers, 'Bielsa often changes to a back-three.\"",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa - Leeds United - Tactical Analysis (2020-21 Edition) (TheMastermindSite)",
+      "url": "https://themastermindsite.com/2020/11/24/marcelo-bielsa-leeds-united-tactical-analysis-2020-21-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-11-24",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Selection continuity: Leeds \"have remained with a relatively consistent eleven to the one that got them promoted\"; \"Helder Costa and former MLS star Jack Harrison... have both started eight out of the nine matches so far.\" The article does not discuss man-marking or the defensive line.",
+      "verified": true
+    },
+    {
+      "title": "A look at Marcelo Bielsa's tactics at Leeds United (Benjamin Curovic, The False 9)",
+      "url": "https://thefalse9.com/2020/10/marcelo-bielsa-tactics-leeds-formation.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-10-27",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"His defending style is old-school and uses a lot of man-marking.\" \"Man-mark defending requires high intensity, which causes them vulnerability to tight schedules.\" \"Bielsa's pressing style is unique because all 10 outfield players are doing the pressure.\" \"They also don't focus on cutting passing lanes.\" Fan-run blog, opinion mixed in.",
+      "verified": true
+    },
+    {
+      "title": "Tactical analysis: Manchester City 7 Leeds 0 (Coaches' Voice, learning mirror)",
+      "url": "https://learning.coachesvoice.com/cv/manchester-city-7-leeds-0-premier-league-tactical-analysis/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-12-15",
+      "eventDate": "2021-12-14",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "\"The shortcomings in Leeds' man-for-man defensive approach\" were exploited; \"Tyler Roberts has failed to get close enough to Rodri to put any pressure on the City midfielder\". Leeds kept the 4-1-4-1: \"Leeds repeatedly attempted to play out from their defensive third, despite being confronted with an aggressive press\"; \"The visitors struggled to adapt\". Bielsa after the match: \"What I proposed was not good enough\". One match.",
+      "verified": true
+    },
+    {
+      "title": "Why Leeds' struggles are on Bielsa alone (Goal)",
+      "url": "https://www.goal.com/en-sa/news/bielsa-blame-leeds-struggles-only-manager-turn-around/blta2921fb4ce177273",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-12-15",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"Leeds' website lists their first-team squad as having just 19 players - by far the smallest in the English top flight.\" Joe Gelhardt and Charlie Cresswell \"have only started one game each.\" Bielsa's loyalty to his regulars stops him \"giving some of the club's talented youngsters a chance to prove themselves.\" \"Bielsa continues to use a man-marking system\", which can cause problems against \"confident dribblers such as City.\" Injuries: \"unable to select from a fully-fit squad at any stage.\" Title in the page reader summary; opinion column.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa admits spying on all opponents in extraordinary press conference (Eurosport / TNT Sports)",
+      "url": "https://www.tntsports.co.uk/football/championship/2018-2019/football-news-marcelo-bielsa-admits-spying-on-all-opponents-in-extraordinary-press-conference_sto7095275/story.shtml",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-01-16",
+      "eventDate": "2019-01-16",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Bielsa: \"In a few words I can tell you we observed all the rivals we played against and we watched all the training sessions\". \"We feel guilty if we don't work enough, it (watching the opponents train) allows us to have less anxiety\". He presented the formations Derby used and struggled against.",
+      "verified": true
+    },
+    {
+      "title": "Leeds United, Marcelo Bielsa and the Spygate incident (The Hard Tackle)",
+      "url": "https://thehardtackle.com/blogs/2019/02/02/leeds-united-marcelo-bielsa-and-the-spygate-incident/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-02-02",
+      "eventDate": "2019-01",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Paraphrase: Bielsa looks at the opponent's \"starting XI, the tactics and the set pieces\". Quotes: \"And we think by gathering information we feel that we get closer to a win.\" \"So what did we do? We analyse the 26 games he played with Lutton and we analysed the tactical structures he used.\" No direct quote on his own set-piece routines.",
+      "verified": true
+    },
+    {
+      "title": "Manuel Ugarte sobre Bielsa en Uruguay: rapida adaptacion en PSG (ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/12554554/manuel-ugarte-bielsa-uruguay-rapida-adaptacion-psg",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-09-06",
+      "eventDate": "2023-09",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Ugarte: \"En lo defensivo la intención es marcar hombre a hombre\"; \"siempre tratar de recuperar la pelota lo antes posible y lo más cerca del arco rival\"; \"vamos a intentar recuperar la pelota lo más arriba posible\"; \"Con Marcelo es más hombre a hombre y alejarme de la marca.\"",
+      "verified": true
+    },
+    {
+      "title": "El ABC de Bielsa: el libreto tecnico de Uruguay en la Copa America (Jorge Senorans, ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/13810943/abc-bielsa-libreto-tecnico-uruguay-aplicar-copa-america",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2024-06-21",
+      "eventDate": "2024-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"las transiciones de defensa a ataque son a pura velocidad\"; \"una presión asfixiante sobre la salida del equipo rival\"; \"los laterales se paran prácticamente como punteros\". Facundo Torres: \"Nos pide mucha ser aplicados en la marca\". Bielsa: \"No hay planes alternativos en la forma de jugar.\" Journalist's description; the three descriptive quotes are the article's words.",
+      "verified": true
+    },
+    {
+      "title": "Facundo Pellistri revelo los secretos de Marcelo Bielsa en Uruguay (ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/selecciones/nota/_/id/12778751/facundo-pellistri-revelo-los-secretos-de-marcelo-bielsa-en-uruguay-sus-exigencias-que-pide-y-que-le-molesta",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-10-26",
+      "eventDate": "2023-10",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Pellistri: \"Bielsa te dice la verdad y a veces te puede molestar lo que te está diciendo\"; \"Lo hace sin importar quién seas.\" \"Está todo el tiempo viendo hasta los más mínimos detalles\"; \"Está todo el tiempo ayudándote para corregir cosas.\" Individual talks explain concrete mistakes.",
+      "verified": true
+    },
+    {
+      "title": "Facundo Pellistri revelo los secretos de Marcelo Bielsa en Uruguay (ESPN Deportes)",
+      "url": "https://espndeportes.espn.com/futbol/selecciones/nota/_/id/12778751/facundo-pellistri-revelo-los-secretos-de-marcelo-bielsa-en-uruguay-sus-exigencias-que-pide-y-que-le-molesta",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2023-10-26",
+      "eventDate": "2023-10",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Pellistri: \"Que sepan que si la pierden van a salir nuestros extremos, y el mediocentro va a acompañar, para lastimarlos.\" Bielsa wants wingers to defend even if they dislike it, and \"Le molesta que vayamos para cumplir\" (pressing to recover, not to comply). No quote on young players.",
+      "verified": true
+    },
+    {
+      "title": "Marcelo Bielsa's Tactics At Uruguay 2024: Manuel Ugarte Build-Up Problems & Solutions (Alexis Guanchez, Total Football Analyst)",
+      "url": "https://tacticalfootball.substack.com/p/marcelo-bielsas-tactics-at-uruguay",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-11-10",
+      "eventDate": "2024",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"Marcelo Bielsa's Uruguay starts from a 4-3-3 symmetric shape with some variations.\" \"The midfield is divided into three heights.\" \"Manuel Ugarte is the axis — the first passer in the build-up.\" \"It seems like the build-up structure is the beginning of their problems in possession.\" Paid post, only the free introduction was readable; nothing on pressing or marking.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "está sobrevalorada la observación de los esquemas como factor determinante del éxito o el fracaso de un equipo",
+      "date": "2003-01-27",
+      "source": "https://espndeportes.espn.com/futbolargentino/noticias/bielsaprensa20030127.html",
+      "provenance": "primary",
+      "note": "Press conference at the AFA grounds in Ezeiza after the 2002 World Cup exit. Same press conference: \"la eliminación en el Mundial no tiene nada que ver con la rigidez en la distribución de los jugadores en el campo\"."
+    },
+    {
+      "quote": "Hay que lograr de cada jugador su mejor versión y que cada uno juegue como sabe",
+      "date": "2003-01-27",
+      "source": "https://espndeportes.espn.com/futbolargentino/noticias/bielsaprensa20030127.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "la mayoría de los goles nacen de los costados",
+      "date": "2003-01-27",
+      "source": "https://espndeportes.espn.com/futbolargentino/noticias/bielsaprensa20030127.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Si por algo hay que descompensar un equipo, debe ser por atacar",
+      "date": "2003-01-27",
+      "source": "https://espndeportes.espn.com/futbolargentino/noticias/bielsaprensa20030127.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "No veo por qué no podemos ir al Bernabeu y vencer al Real Madrid",
+      "date": "2011-08-15",
+      "source": "https://www.telemetro.com/futbol/2011/08/15/loco-bielsa-espectativas-athletic-bilbao/2018860.html",
+      "provenance": "primary",
+      "note": "AP report ahead of Athletic's first match of 2011/12."
+    },
+    {
+      "quote": "I think teams should be prepared to have possession of the ball and to win it back when the occasion demands.",
+      "date": "2012-03-14",
+      "source": "https://www.uefa.com/uefaeuropaleague/news/newsid=1761740.html",
+      "provenance": "primary",
+      "note": "UEFA.com piece during the 2011/12 Europa League; interview date not given, article date used."
+    },
+    {
+      "quote": "Making a big physical effort and being creative are compatible values, not opposing ones.",
+      "date": "2012-03-14",
+      "source": "https://www.uefa.com/uefaeuropaleague/news/newsid=1761740.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I have always believed that playing well will get you closer to achieving the right result,",
+      "date": "2012-03-14",
+      "source": "https://www.uefa.com/uefaeuropaleague/news/newsid=1761740.html",
+      "provenance": "primary"
+    },
+    {
+      "quote": "In a few words I can tell you we observed all the rivals we played against and we watched all the training sessions",
+      "date": "2019-01-16",
+      "source": "https://www.tntsports.co.uk/football/championship/2018-2019/football-news-marcelo-bielsa-admits-spying-on-all-opponents-in-extraordinary-press-conference_sto7095275/story.shtml",
+      "provenance": "primary",
+      "note": "Leeds press conference after the Derby 'Spygate' controversy; about his preparation, not his tactics."
+    },
+    {
+      "quote": "What I proposed was not good enough",
+      "date": "2021-12-14",
+      "source": "https://learning.coachesvoice.com/cv/manchester-city-7-leeds-0-premier-league-tactical-analysis/",
+      "provenance": "primary",
+      "note": "After Manchester City 7-0 Leeds. Same source: \"The ideas, solutions, what I proposed and organised – none of it worked.\""
+    },
+    {
+      "quote": "Vamos a tratar de protagonizar, atacar, jugar en campo rival, no especular",
+      "date": "2023-10-07",
+      "source": "https://lanacion.com.ar/deportes/marcelo-bielsa-se-refirio-al-estilo-guardiola-y-la-fantasia-de-los-mediocres-nid07102023",
+      "provenance": "primary",
+      "note": "About his Uruguay. In the same article he calls Guardiola's influence the \"daño de Guardiola\" (11 players against his team) and says \"hay una fantasía que utilizamos los mediocres, dentro de los cuales me incluyo\"."
+    },
+    {
+      "quote": "No hay planes alternativos en la forma de jugar.",
+      "date": "2024-06-21",
+      "source": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/13810943/abc-bielsa-libreto-tecnico-uruguay-aplicar-copa-america",
+      "provenance": "primary",
+      "note": "Uruguay, ahead of Copa America 2024."
+    },
+    {
+      "quote": "Intentando jugar bien tienes la opción de ganar, pero hay un riesgo",
+      "date": "2024-07",
+      "source": "https://www.tudn.com/futbol/copa-america-2024/equipos/seleccion-uruguay/marcelo-bielsa-habla-riesgos-jugar-bien-copa-america-2024",
+      "provenance": "primary",
+      "note": "Before the Copa America 2024 semi-final v Colombia (page undated; month inferred). Same article: \"los equipos no únicamente deben saber atacar bien sino defender bien\"; \"Los equipos juegan para imponer sus recursos y evitar que el rival imponga\"; \"El jugador bueno no es el que tenga virtudes, el bueno es el que tiene porcentaje alto\"."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.coachesvoice.com/coach-watch-marcelo-bielsa-leeds-guardiola/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.coachesvoice.com/tactical-analysis-leeds-united-2-derby-county-0-marcelo-bielsa/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.elgrafico.com.ar/articulo/memoria-emotiva/33695/futbol-de-primera-clausura-1998",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.elgrafico.com.ar/articulo/1089/34848/1991-%C2%A8yo-miro-videos-para-atacar-no-para-defender%C2%A8",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.squawka.com/en/?p=1153123",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.hitc.com/en-gb/2021/10/21/i-think-about-it-marcelo-bielsa-admits-second-thoughts-after-leeds-united-problems/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.yorkshireeveningpost.co.uk:443/sport/football/leeds-united/bielsas-view-on-january-signings-3467539",
+      "reason": "403"
+    },
+    {
+      "url": "https://professionalfootballjournal.fifa.com/pfj2-92-bielsa",
+      "reason": "404"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://professionalfootballjournal.fifa.com/pfj2-92-bielsa",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marcelo_Bielsa",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Marcelo_Bielsa",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://tacticalfootball.substack.com/p/marcelo-bielsas-tactics-at-uruguay",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://totalfootballanalysis.com/team-analysis/uruguay-marcelo-bielsa-202425-build-up-tactical-analysis-tactics",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Leeds (2018-22) is covered by several tier A-B analyses that agree (Coaches' Voice 2021, TFA 2019, TheMastermindSite 2020, StatsBomb for Marseille 2014) on a man-oriented high press, 3-3-1-3 / 4-1-4-1 and wide attacking play, and Uruguay has first-hand player accounts of man-to-man marking. Kept at medium because the 1990s and 2000s spells (Newell's, Velez, Argentina, Chile), which count the same as Leeds, rest on one or two tier C pieces each, mostly retrospective; Athletic marking rests on a retrospective and one match review; the Wikipedia pages were read only in part; and Bielsa's own words on his marking were not found. Every dimension and axis has at least one verified fact, but many are one article from a single spell."
+  }
+}

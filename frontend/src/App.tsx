@@ -1,29 +1,30 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react';
-import { selectAllQuestionsBalanced, selectAndBalanceQuestions } from './utils/quizSelection';
+import { selectAndBalanceQuestions } from './utils/quizSelection';
 import { HOME_AXES } from './data/homeAxes';
-import type { ExampleResult } from './data/exampleResult';
 import { LANG, setLang, t } from './i18n';
 import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
-import type { AnswerValue, ArchetypeQuestion, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
+import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
+import { CatalogScreen } from './components/editorial/CatalogScreen';
+import { AxesScreen } from './components/editorial/AxesScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
-import { useQuizTheme } from './hooks/useQuizTheme';
-import { QuizThemeToggle } from './components/QuizThemeToggle';
-import { CHRISTIAN_DENOMINATIONS, parseReligion, RELIGION_CHOICES, type Religion } from './utils/religion';
+import { useTheme } from './hooks/useTheme';
+import { ThemeToggle } from './components/ThemeToggle';
 import {
   answeredCount as savedAnsweredCount,
   clearProgress,
+  loadLastResult,
   loadProgress,
   restoreQuiz,
+  saveLastResult,
   saveProgress,
   type SavedProgress
 } from './utils/quizProgress';
-import { RELIGION_ICONS, RELIGION_QUESTION_ICON } from './data/religionIcons';
 
-type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results';
+type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results' | 'catalog' | 'axes';
 
 const ProgressHeader = lazy(() =>
   import('./components/ProgressHeader').then((module) => ({ default: module.ProgressHeader }))
@@ -34,16 +35,9 @@ const QuestionCard = lazy(() =>
   import('./components/QuestionCard').then((module) => ({ default: module.QuestionCard }))
 );
 
-// Mantém compatibilidade com a rota direta antiga.
-const FULL_MODE =
-  typeof window !== 'undefined' &&
-  window.location.pathname.replace(/\/+$/, '').endsWith('/240questions');
-
-const INITIAL_VARIANT: QuizVariant = FULL_MODE ? 'extreme' : 'short';
-
-// URL de resultado compartilhável: /results?est=65&rep=32.5&... (uma chave por
+// URL de resultado compartilhável: /results?pos=65&pro=32.5&... (uma chave por
 // eixo, valor = % do polo esquerdo, na mesma ordem de axes.json).
-const AXIS_URL_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'];
+const AXIS_URL_KEYS = ['pos', 'pro', 'est', 'lar', 'blo', 'mar', 'pla', 'res', 'sis', 'jog', 'bas', 'lid'];
 
 function parseSharedResultUrl(): number[] | null {
   if (typeof window === 'undefined') {
@@ -66,81 +60,11 @@ function parseSharedResultUrl(): number[] | null {
 }
 
 const SHARED_RESULT_VALUES = parseSharedResultUrl();
-// Link sem religion (ou com valor desconhecido) = ranking geral, sem filtro.
-const SHARED_RELIGION: Religion | null =
-  SHARED_RESULT_VALUES && typeof window !== 'undefined'
-    ? parseReligion(new URLSearchParams(window.location.search).get('religion'))
-    : null;
-
-function sharedResultUrl(result: QuizResult, religion: Religion | null = null): string {
-  const query = result.axes
-    .map((axis, index) => `${AXIS_URL_KEYS[index] ?? `x${index}`}=${axis.leftPercent}`)
+function resultUrlFromValues(leftPercents: number[]): string {
+  const query = leftPercents
+    .map((value, index) => `${AXIS_URL_KEYS[index] ?? `x${index}`}=${value}`)
     .join('&');
-  return `/results?${query}${religion ? `&religion=${religion}` : ''}`;
-}
-
-// Últimas perguntas do bloco de arquétipos: religião (letras A-E + "sem religião" na F) e, só para
-// quem escolhe cristianismo, a vertente (católica, protestante ou ortodoxa). Nenhuma das duas vai
-// para o backend como arquétipo; viram o parâmetro religion do resultado. A letra de "sem religião"
-// já foi E (antes do hinduísmo): utils/quizProgress.ts migra o progresso salvo com esse valor.
-const RELIGION_STEP_ID = 'religiao';
-const RELIGION_OPTION_IDS = ['A', 'B', 'C', 'D', 'E', 'F'];
-const DENOMINATION_STEP_ID = 'denominacao';
-const DENOMINATION_OPTION_IDS = ['A', 'B', 'C'];
-
-function religionQuestion(): ArchetypeQuestion {
-  return {
-    id: RELIGION_STEP_ID,
-    label: t.religionLabel,
-    text: t.religionQuestion,
-    icon: RELIGION_QUESTION_ICON,
-    layout: 'tiles',
-    options: [...RELIGION_CHOICES, 'none' as const].map((id, index) => ({
-      id: RELIGION_OPTION_IDS[index],
-      text: id === 'none' ? t.religionNone : t.religionNames[id],
-      icon: RELIGION_ICONS[id]
-    }))
-  };
-}
-
-function denominationQuestion(): ArchetypeQuestion {
-  return {
-    id: DENOMINATION_STEP_ID,
-    label: t.denominationLabel,
-    text: t.denominationQuestion,
-    icon: RELIGION_QUESTION_ICON,
-    layout: 'tiles',
-    options: CHRISTIAN_DENOMINATIONS.map((id, index) => ({
-      id: DENOMINATION_OPTION_IDS[index],
-      text: t.denominationNames[id],
-      icon: RELIGION_ICONS[id]
-    }))
-  };
-}
-
-// Escolheu cristianismo na pergunta de religião? Então vem a pergunta da vertente.
-function chosenChristianity(choices: Record<string, string>): boolean {
-  return choices[RELIGION_STEP_ID] === RELIGION_OPTION_IDS[RELIGION_CHOICES.indexOf('christianity')];
-}
-
-function buildArchetypeSteps(
-  archetypes: ArchetypeQuestion[] | undefined,
-  choices: Record<string, string>
-): ArchetypeQuestion[] {
-  return [
-    ...(archetypes ?? []),
-    religionQuestion(),
-    ...(chosenChristianity(choices) ? [denominationQuestion()] : [])
-  ];
-}
-
-// Religião usada no filtro do resultado: a vertente cristã escolhida ou a outra religião.
-function resolveReligion(choices: Record<string, string>): Religion | null {
-  if (chosenChristianity(choices)) {
-    return CHRISTIAN_DENOMINATIONS[DENOMINATION_OPTION_IDS.indexOf(choices[DENOMINATION_STEP_ID] ?? '')] ?? null;
-  }
-  const choice = RELIGION_CHOICES[RELIGION_OPTION_IDS.indexOf(choices[RELIGION_STEP_ID] ?? '')];
-  return choice && choice !== 'christianity' ? choice : null;
+  return `/results?${query}`;
 }
 
 function LoadingPanel({ message }: { message: string }) {
@@ -172,60 +96,52 @@ function QuizSkeleton({ message }: { message: string }) {
   );
 }
 
-function buildQuizForVariant(payload: QuizPayload, variant: QuizVariant): QuizPayload {
-  return variant === 'extreme' ? selectAllQuestionsBalanced(payload) : selectAndBalanceQuestions(payload);
-}
-
-// Sorteia um índice aleatório dentro de EXAMPLE_RESULTS.
-function randomExampleIndex(length: number): number {
-  return Math.floor(Math.random() * length);
+function initialScreen(): Screen {
+  const path = window.location.pathname;
+  if (path.startsWith('/catalog')) return 'catalog';
+  if (path.replace(/\/+$/, '') === '/axes') return 'axes';
+  return 'home';
 }
 
 function MainApp() {
   const [quiz, setQuiz] = useState<QuizPayload | null>(null);
   const [answers, setAnswers] = useState<Record<string, AnswerValue>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [screen, setScreen] = useState<Screen>('home');
-  const [selectedVariant, setSelectedVariant] = useState<QuizVariant>(INITIAL_VARIANT);
+  const [screen, setScreen] = useState<Screen>(() => initialScreen());
+  const [selectedVariant, setSelectedVariant] = useState<QuizVariant>('short');
   const [result, setResult] = useState<QuizResult | null>(null);
-  const [isLoading, setIsLoading] = useState(FULL_MODE || SHARED_RESULT_VALUES !== null);
+  const [isLoading, setIsLoading] = useState(SHARED_RESULT_VALUES !== null);
   const [isSharedView, setIsSharedView] = useState(false);
-  const [religion, setReligion] = useState<Religion | null>(SHARED_RELIGION);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAdvancing, setIsAdvancing] = useState(false);
   // Toggle do desktop; no mobile fica escondido e sempre ligado.
-  const [autoAdvance, setAutoAdvance] = useState(true);
   // 'forward' | 'back': define de que lado a proxima pergunta entra.
   const [navDirection, setNavDirection] = useState<'forward' | 'back'>('forward');
   const [isSharing, setIsSharing] = useState(false);
   const [isHomeSeoReady, setIsHomeSeoReady] = useState(false);
-  const [currentExample, setCurrentExample] = useState<ExampleResult | null>(null);
-  const [allExamples, setAllExamples] = useState<ExampleResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [archetypeIndex, setArchetypeIndex] = useState(0);
   const [archetypeChoices, setArchetypeChoices] = useState<Record<string, string>>({});
-  const quizTheme = useQuizTheme(screen === 'quiz' || screen === 'archetype');
+  const theme = useTheme();
+  const themeToggle = <ThemeToggle theme={theme.theme} onToggle={theme.toggle} />;
   const [archetypeDone, setArchetypeDone] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Quiz deixado pela metade em outra visita (ou antes de um erro/recarga).
   const [savedProgress, setSavedProgress] = useState<SavedProgress | null>(() =>
     SHARED_RESULT_VALUES ? null : loadProgress()
   );
+  const [lastResult] = useState<number[] | null>(() => (SHARED_RESULT_VALUES ? null : loadLastResult()));
   const advanceTimerRef = useRef<number | null>(null);
   const isAdvancingRef = useRef(false);
-  // Pool completo (240 perguntas) recebido do backend, guardado para poder
-  // sortear as 24 questões extras da extensão sem repetir as já respondidas.
+  // Pool completo recebido do backend, guardado para poder
+  // sortear as questões extras da extensão sem repetir as já respondidas.
   const poolRef = useRef<QuizPayload | null>(null);
 
-  // Perguntas de arquétipo do backend + a de religião, no mesmo bloco e na mesma barra.
-  const archetypeSteps = useMemo(
-    () => buildArchetypeSteps(quiz?.archetypeQuestions, archetypeChoices),
-    [quiz, archetypeChoices]
-  );
+  const archetypeSteps = useMemo(() => quiz?.archetypeQuestions ?? [], [quiz]);
 
   useEffect(() => {
     if (SHARED_RESULT_VALUES) {
-      fetchSharedResult(SHARED_RESULT_VALUES, SHARED_RELIGION)
+      fetchSharedResult(SHARED_RESULT_VALUES)
         .then((sharedResult) => {
           setResult(sharedResult);
           setIsSharedView(true);
@@ -236,29 +152,6 @@ function MainApp() {
       return;
     }
 
-    if (!FULL_MODE) {
-      return;
-    }
-
-    fetchQuiz(INITIAL_VARIANT)
-      .then((payload) => {
-        poolRef.current = payload;
-        // Quem recarrega /240questions no meio do quiz continua de onde parou.
-        const saved = loadProgress();
-        const restored = saved && saved.variant === INITIAL_VARIANT ? restoreQuiz(payload, saved) : null;
-        if (saved && restored) {
-          applyProgress(restored, saved);
-          return;
-        }
-        if (saved) {
-          clearProgress();
-          setSavedProgress(null);
-        }
-        setQuiz(buildQuizForVariant(payload, INITIAL_VARIANT));
-        setScreen('quiz');
-      })
-      .catch((err: Error) => setError(err.message))
-      .finally(() => setIsLoading(false));
   }, []);
 
   useEffect(() => {
@@ -269,32 +162,9 @@ function MainApp() {
     };
   }, []);
 
-  // Carrega os exemplos sob demanda (import dinâmico) em vez de embuti-los no
-  // bundle inicial — cada visitante só usa 1 dos 16 exemplos por sessão, então
-  // não faz sentido baixar o texto de todos de cara. Sorteia um índice fixo
-  // pelo resto da sessão assim que o módulo resolve.
   useEffect(() => {
-    let cancelled = false;
-    import('./data/exampleResult').then(({ EXAMPLE_RESULTS }) => {
-      if (cancelled) {
-        return;
-      }
-      const index = randomExampleIndex(EXAMPLE_RESULTS.length);
-      setCurrentExample(EXAMPLE_RESULTS[index] ?? null);
-      setAllExamples(EXAMPLE_RESULTS);
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
+    if (screen !== 'home') return;
 
-  useEffect(() => {
-    if (screen !== 'home') {
-      setIsHomeSeoReady(false);
-      return;
-    }
-
-    setIsHomeSeoReady(false);
     const idleWindow = window as Window & {
       requestIdleCallback?: (callback: IdleRequestCallback, options?: IdleRequestOptions) => number;
       cancelIdleCallback?: (handle: number) => void;
@@ -302,15 +172,21 @@ function MainApp() {
 
     if (idleWindow.requestIdleCallback) {
       const idleId = idleWindow.requestIdleCallback(() => setIsHomeSeoReady(true), { timeout: 1600 });
-      return () => idleWindow.cancelIdleCallback?.(idleId);
+      return () => {
+        idleWindow.cancelIdleCallback?.(idleId);
+        setIsHomeSeoReady(false);
+      };
     }
 
     const timeoutId = window.setTimeout(() => setIsHomeSeoReady(true), 900);
-    return () => window.clearTimeout(timeoutId);
+    return () => {
+      window.clearTimeout(timeoutId);
+      setIsHomeSeoReady(false);
+    };
   }, [screen]);
 
   // Home: blocos abaixo da dobra entram ao rolar (conteudo editorial longo).
-  useScrollReveal(screen === 'home', [screen, isHomeSeoReady, currentExample]);
+  useScrollReveal(screen === 'home', [screen, isHomeSeoReady]);
 
   // Resultados: cada secao entra ao alcancar a viewport. A pagina e longa e a
   // leitura e sequencial, entao o conteudo se revela conforme o usuario desce.
@@ -318,8 +194,6 @@ function MainApp() {
 
 
   const currentQuestion = quiz?.questions[currentIndex];
-  const answeredCount = Object.keys(answers).length;
-  const canFinish = Boolean(quiz && answeredCount === quiz.questions.length);
 
   // Guarda o andamento a cada resposta: se a página recarregar ou quebrar, dá para continuar.
   useEffect(() => {
@@ -360,9 +234,35 @@ function MainApp() {
     window.scrollTo(0, 0);
   }, [screen]);
 
+  useEffect(() => {
+    const onPop = () => setScreen((current) => (current === 'catalog' || current === 'axes' ? initialScreen() : current));
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
+
   function goHome() {
     setIsMenuOpen(false);
+    if (/\/(catalog|axes)/.test(window.location.pathname)) {
+      window.history.replaceState(null, '', '/');
+    }
     setScreen('home');
+  }
+
+  function openAxes() {
+    setIsMenuOpen(false);
+    window.history.pushState(null, '', '/axes');
+    setScreen('axes');
+  }
+
+  function openManager(id: string) {
+    window.history.pushState(null, '', `/catalog/manager/${id}`);
+    setScreen('catalog');
+  }
+
+  function openCatalog() {
+    setIsMenuOpen(false);
+    window.history.replaceState(null, '', '/catalog');
+    setScreen('catalog');
   }
 
   function resetSharedUrl() {
@@ -403,7 +303,7 @@ function MainApp() {
     try {
       const nextQuiz = await fetchQuiz(variant);
       poolRef.current = nextQuiz;
-      setQuiz(buildQuizForVariant(nextQuiz, variant));
+      setQuiz(selectAndBalanceQuestions(nextQuiz));
       setScreen('quiz');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errLoadQuiz);
@@ -423,7 +323,7 @@ function MainApp() {
     setArchetypeDone(false);
     setResult(null);
     setError(null);
-    if (saved.stage === 'archetype') {
+    if (saved.stage === 'archetype' && archetypeCount > 0) {
       setCurrentIndex(lastQuestion);
       setArchetypeIndex(Math.min(saved.index, archetypeCount - 1));
       setScreen('archetype');
@@ -482,15 +382,6 @@ function MainApp() {
     setCurrentIndex((index) => Math.max(0, index - 1));
   }
 
-  function goToNextQuestion() {
-    if (!currentQuestion || !answers[currentQuestion.id] || isAdvancingRef.current) {
-      return;
-    }
-    clearPendingAdvance();
-    setNavDirection('forward');
-    setCurrentIndex((index) => Math.min((quiz?.questions.length ?? 1) - 1, index + 1));
-  }
-
   function selectAnswer(answer: AnswerValue) {
     if (!currentQuestion || !quiz || isSubmitting || isAdvancingRef.current) {
       return;
@@ -499,10 +390,6 @@ function MainApp() {
     const nextAnswers = { ...answers, [currentQuestion.id]: answer };
     setAnswers(nextAnswers);
     setError(null);
-
-    if (!autoAdvance) {
-      return;
-    }
 
     if (questionIndex === quiz.questions.length - 1) {
       handleQuizEnd(nextAnswers);
@@ -538,7 +425,7 @@ function MainApp() {
     }
     clearPendingAdvance();
     setError(null);
-    if (!archetypeDone) {
+    if (!archetypeDone && archetypeSteps.length > 0) {
       setArchetypeIndex(0);
       setScreen('archetype');
       return;
@@ -569,8 +456,7 @@ function MainApp() {
   }
 
   function advanceArchetype(choices: Record<string, string>, withPause: boolean) {
-    // A vertente cristã só entra na lista depois de escolher cristianismo, então conta com as novas escolhas.
-    if (archetypeIndex >= buildArchetypeSteps(quiz?.archetypeQuestions, choices).length - 1) {
+    if (archetypeIndex >= archetypeSteps.length - 1) {
       setArchetypeDone(true);
       void submitQuiz(answers, choices);
       return;
@@ -621,20 +507,14 @@ function MainApp() {
         questionId: question.id,
         answer: answerMap[question.id] as AnswerValue
       }));
-      const { [RELIGION_STEP_ID]: _religion, [DENOMINATION_STEP_ID]: _denomination, ...archetypeOnly } = archetype;
-      const chosenReligion = resolveReligion(archetype);
-      const nextResult = await submitResults(
-        quiz.variant ?? selectedVariant,
-        payload,
-        archetypeOnly,
-        chosenReligion
-      );
+      const nextResult = await submitResults(quiz.variant ?? selectedVariant, payload, archetype);
       setResult(nextResult);
       clearProgress();
+      const leftPercents = nextResult.axes.map((axis) => axis.leftPercent);
+      saveLastResult(leftPercents);
       setIsSharedView(false);
-      setReligion(chosenReligion);
       // URL compartilhável: quem abrir este link vê o mesmo resultado.
-      window.history.replaceState(null, '', sharedResultUrl(nextResult, chosenReligion));
+      window.history.replaceState(null, '', resultUrlFromValues(leftPercents));
       setScreen('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errCalc);
@@ -664,12 +544,11 @@ function MainApp() {
     try {
       if (document.fonts) {
         await Promise.allSettled([
-          document.fonts.load('400 30px "Poppins"'),
-          document.fonts.load('500 30px "Poppins"'),
-          document.fonts.load('600 30px "Poppins"'),
-          document.fonts.load('600 30px "Sora"'),
-          document.fonts.load('700 30px "Sora"'),
-          document.fonts.load('800 30px "Sora"')
+          document.fonts.load('400 30px "Open Sans"'),
+          document.fonts.load('500 30px "Open Sans"'),
+          document.fonts.load('600 30px "Open Sans"'),
+          document.fonts.load('700 30px "Open Sans"'),
+          document.fonts.load('800 30px "Open Sans"')
         ]);
         await document.fonts.ready;
       }
@@ -680,7 +559,7 @@ function MainApp() {
       ]);
       const { buildShareCard, renderSharePng } = shareCard;
 
-      const { stage: builtStage, target } = buildShareCard(result, exportQuiz, religion);
+      const { stage: builtStage, target } = buildShareCard(result, exportQuiz);
       stage = builtStage;
       document.body.appendChild(stage);
 
@@ -712,7 +591,7 @@ function MainApp() {
     );
   }
 
-  if (error && !quiz && !result && (FULL_MODE || SHARED_RESULT_VALUES !== null)) {
+  if (error && !quiz && !result && SHARED_RESULT_VALUES !== null) {
     return (
       <main className="app-shell center-shell">
         <div className="error-panel">
@@ -725,6 +604,15 @@ function MainApp() {
       </main>
     );
   }
+
+  const progress = quiz && (
+    <ProgressHeader
+      current={screen === 'archetype' ? quiz.questions.length : currentIndex + 1}
+      total={quiz.questions.length}
+      extraCount={archetypeSteps.length}
+      extraCurrent={screen === 'archetype' ? archetypeIndex + 1 : undefined}
+    />
+  );
 
   if (!quiz && screen === 'quiz') {
     return null;
@@ -749,12 +637,24 @@ function MainApp() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 <a href="#como-funciona">{t.navHow}</a>
-                <a href="#guia-eixos">{t.navAxes}</a>
-                <a href="#espectro-politico">{t.navSpectrum}</a>
-                <a href="#faq">{t.navFaq}</a>
-                <a href={`${LANG === 'en' ? '/en' : ''}/ideologies`}>{t.navIdeologies}</a>
-                <a href={`${LANG === 'en' ? '/en' : ''}/personalities`}>{t.navPersonalities}</a>
-                <a href={`${LANG === 'en' ? '/en' : ''}/countries`}>{t.navCountries}</a>
+                <a
+                  href="/axes"
+                  onClick={(event) => {
+                    event.preventDefault();
+                    openAxes();
+                  }}
+                >
+                  {t.navAxes}
+                </a>
+                <a
+                  href="/catalog"
+                  onClick={(event) => {
+                    event.preventDefault();
+                    openCatalog();
+                  }}
+                >
+                  {t.navCatalog}
+                </a>
                 <button
                   className="e-lang"
                   type="button"
@@ -764,40 +664,66 @@ function MainApp() {
                   {t.langToggleLabel}
                 </button>
               </nav>
-              <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={openVariantChooser}>
-                {t.navStart} <ArrowIcon />
-              </button>
-              <button
-                className="e-menu-btn"
-                type="button"
-                aria-label={t.menuAria}
-                aria-expanded={isMenuOpen}
-                onClick={() => setIsMenuOpen((open) => !open)}
-              >
-                <span />
-                <span />
-                <span />
-              </button>
+              <div className="e-nav-actions">
+                {themeToggle}
+                <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={openVariantChooser}>
+                  {t.navStart}
+                </button>
+                <button
+                  className="e-menu-btn"
+                  type="button"
+                  aria-label={t.menuAria}
+                  aria-expanded={isMenuOpen}
+                  onClick={() => setIsMenuOpen((open) => !open)}
+                >
+                  <span />
+                  <span />
+                  <span />
+                </button>
+              </div>
             </>
           )}
+          {(screen === 'catalog' || screen === 'axes') && (
+            <div className="e-nav-actions">
+              <button className="e-back" type="button" onClick={goHome}>
+                <ArrowIcon />
+                {t.backToStart}
+              </button>
+              <button
+                className="e-lang"
+                type="button"
+                onClick={() => setLang(LANG === 'pt' ? 'en' : 'pt')}
+                aria-label={t.langToggleAria}
+              >
+                {t.langToggleLabel}
+              </button>
+              {themeToggle}
+            </div>
+          )}
           {screen === 'variant' && (
-            <button className="e-back" type="button" onClick={goHome}>
-              <ArrowIcon />
-              {t.backToStart}
-            </button>
+            <div className="e-nav-actions">
+              <button className="e-back" type="button" onClick={goHome}>
+                <ArrowIcon />
+                {t.backToStart}
+              </button>
+              {themeToggle}
+            </div>
           )}
           {(screen === 'quiz' || screen === 'archetype') && (
             <div className="e-nav-actions">
-              <QuizThemeToggle theme={quizTheme.theme} onToggle={quizTheme.toggle} />
+              {themeToggle}
               <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
-                {t.restartQuiz} <ArrowIcon />
+                {t.restartQuiz}
               </button>
             </div>
           )}
           {screen === 'results' && (
-            <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
-              {t.redoQuiz} <ArrowIcon />
-            </button>
+            <div className="e-nav-actions">
+              {themeToggle}
+              <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
+                {t.redoQuiz}
+              </button>
+            </div>
           )}
         </div>
       </header>
@@ -839,17 +765,57 @@ function MainApp() {
         </div>
       )}
 
+      {screen === 'home' && lastResult && !savedProgress && (
+        <div className="ed e-resume">
+          <div className="e-wrap">
+            <div className="e-resume-card e-dark">
+              <div className="e-resume-body">
+                <p className="e-eyebrow">{t.lastResultEyebrow}</p>
+                <h3>{t.lastResultTitle}</h3>
+                <p className="e-resume-text">{t.lastResultBody}</p>
+              </div>
+              <div className="e-resume-actions">
+                <button
+                  className="e-btn e-btn-light"
+                  type="button"
+                  onClick={() => window.location.assign(resultUrlFromValues(lastResult))}
+                >
+                  {t.lastResultOpen} <ArrowIcon />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {screen === 'home' && (
         <HomeScreen
-          example={currentExample}
-          examples={allExamples}
           axes={homeAxes}
           showBelowFold={isHomeSeoReady}
           onOpenChooser={openVariantChooser}
+          onOpenAxes={openAxes}
           onStart={(variant) => void startQuiz(variant)}
         />
       )}
 
+      {screen === 'catalog' && <CatalogScreen
+          axes={homeAxes}
+          onHome={goHome}
+          onStartQuiz={() => {
+            window.history.replaceState(null, '', '/');
+            openVariantChooser();
+          }}
+        />}
+      {screen === 'axes' && (
+        <AxesScreen
+          axes={homeAxes}
+          onOpenManager={openManager}
+          onStartQuiz={() => {
+            window.history.replaceState(null, '', '/');
+            openVariantChooser();
+          }}
+        />
+      )}
       {screen === 'variant' && <VariantScreen error={error} onStart={(variant) => void startQuiz(variant)} />}
 
       {/* Quiz e perguntas de arquétipo dividem o mesmo layout: o cabeçalho e a
@@ -864,15 +830,6 @@ function MainApp() {
           )}
         >
         <section className="quiz-layout">
-          <ProgressHeader
-            current={screen === 'archetype' ? quiz.questions.length : currentIndex + 1}
-            total={quiz.questions.length}
-            questionsPerAxis={quiz.questionsPerAxis}
-            axisCount={quiz.axes.length}
-            extraCount={archetypeSteps.length}
-            extraCurrent={screen === 'archetype' ? archetypeIndex + 1 : undefined}
-          />
-
           {screen === 'quiz' && currentQuestion ? (
             <>
               <div
@@ -885,59 +842,22 @@ function MainApp() {
                 question={currentQuestion}
                 axisLabel={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)?.label}
                 axis={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)}
-                number={currentIndex + 1}
                 options={quiz.answerOptions}
                 selected={answers[currentQuestion.id]}
                 disabled={isAdvancing || isSubmitting}
                 onSelect={selectAnswer}
               />
               </div>
-
-              <nav className="quiz-actions" aria-label={t.quizNavAria}>
+              {progress}
+              <nav className="qz-nav" aria-label={t.quizNavAria}>
                 <button
-                  className="secondary-button"
+                  className="qz-link"
                   type="button"
                   onClick={goToPreviousQuestion}
                   disabled={currentIndex === 0 || isAdvancing}
                 >
-                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
-                    <path d="M5 12h14" />
-                    <path d="m13 6 6 6-6 6" />
-                  </svg>
-                  {t.back}
+                  <span aria-hidden="true">←</span> {t.back}
                 </button>
-                <button
-                  className="auto-advance-toggle"
-                  type="button"
-                  role="switch"
-                  aria-checked={autoAdvance}
-                  onClick={() => setAutoAdvance((value) => !value)}
-                >
-                  <span className="auto-advance-switch" aria-hidden="true" />
-                  {t.autoAdvance}
-                </button>
-                {currentIndex < quiz.questions.length - 1 ? (
-                  <button
-                    className="primary-button"
-                    type="button"
-                    onClick={goToNextQuestion}
-                    disabled={!answers[currentQuestion.id] || isAdvancing}
-                  >
-                    {t.next}
-                    <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M5 12h14" />
-                      <path d="m13 6 6 6-6 6" />
-                    </svg>
-                  </button>
-                ) : (
-                  <button className="primary-button" type="button" onClick={() => handleQuizEnd()} disabled={!canFinish || isSubmitting}>
-                    {t.next}
-                    <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M5 12h14" />
-                      <path d="m13 6 6 6-6 6" />
-                    </svg>
-                  </button>
-                )}
               </nav>
             </>
           ) : archetypeSteps[archetypeIndex] ? (
@@ -948,26 +868,18 @@ function MainApp() {
                 {isSubmitting ? <QuizSkeleton message={t.loadingAnalysis} /> : <ArchetypeCard
                   key={archetypeSteps[archetypeIndex].id}
                   question={archetypeSteps[archetypeIndex]}
-                  index={archetypeIndex}
                   selected={archetypeChoices[archetypeSteps[archetypeIndex].id]}
                   disabled={isAdvancing || isSubmitting}
                   onSelect={chooseArchetype}
                 />}
               </div>
-              <nav className="quiz-actions" aria-label={t.quizNavAria}>
-                <button className="secondary-button" type="button" onClick={goBackFromArchetype} disabled={isAdvancing || isSubmitting}>
-                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
-                    <path d="M5 12h14" />
-                    <path d="m13 6 6 6-6 6" />
-                  </svg>
-                  {t.back}
+              {progress}
+              <nav className="qz-nav" aria-label={t.quizNavAria}>
+                <button className="qz-link" type="button" onClick={goBackFromArchetype} disabled={isAdvancing || isSubmitting}>
+                  <span aria-hidden="true">←</span> {t.back}
                 </button>
-                <button className="secondary-button archetype-skip" type="button" onClick={skipArchetype} disabled={isAdvancing || isSubmitting}>
-                  {isSubmitting ? t.calculating : t.archetypeSkip}
-                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M5 12h14" />
-                    <path d="m13 6 6 6-6 6" />
-                  </svg>
+                <button className="qz-link" type="button" onClick={skipArchetype} disabled={isAdvancing || isSubmitting}>
+                  {isSubmitting ? t.calculating : t.archetypeSkip} <span aria-hidden="true">→</span>
                 </button>
               </nav>
             </>
@@ -986,11 +898,10 @@ function MainApp() {
           isSharing={isSharing}
           error={error}
           onShare={() => void downloadResultsPng()}
-          religion={religion}
         />
       )}
 
-      {(screen === 'home' || screen === 'results') && <SiteFooter />}
+      {(screen === 'home' || screen === 'results' || screen === 'catalog' || screen === 'axes') && <SiteFooter />}
     </div>
   );
 }
@@ -1003,17 +914,18 @@ export default function App() {
 // resultado e um texto pronto. Em navegadores sem Web Share API (ou se o
 // usuário cancelar), fica só o download que já aconteceu antes.
 async function tryNativeShare(dataUrl: string, result: QuizResult) {
-  if (typeof navigator.share !== 'function') {
+  const { topMatch, topTeamMatch, topManagerMatch } = result;
+  if (typeof navigator.share !== 'function' || !topMatch || !topTeamMatch || !topManagerMatch) {
     return;
   }
   try {
     const message = t.shareMessage(
-      result.topMatch.name,
-      Math.round(result.topMatch.compatibility),
-      result.topCountryMatch.name,
-      Math.round(result.topCountryMatch.compatibility),
-      result.topPersonalityMatch.name,
-      Math.round(result.topPersonalityMatch.compatibility)
+      topMatch.name,
+      Math.round(topMatch.compatibility),
+      topTeamMatch.name,
+      Math.round(topTeamMatch.compatibility),
+      topManagerMatch.name,
+      Math.round(topManagerMatch.compatibility)
     );
 
     const blob = await (await fetch(dataUrl)).blob();

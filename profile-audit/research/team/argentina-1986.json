@@ -1,0 +1,614 @@
+{
+ "id": "argentina-1986",
+ "catalog": "team",
+ "name": "Argentina 1986 (World Cup champions, Bilardo)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1986-06-02",
+  "end": "1986-06-29"
+ },
+ "scopeNote": "Argentina at the 1986 FIFA World Cup in Mexico under Carlos Bilardo. Period dates (2 June opener vs South Korea, 29 June final vs West Germany) come from the brief; the final date is confirmed by Bleacher Report/Goal Italia, the opener is not stated by a mined page. Most sources give only the match, not the day, so eventDate is the tournament month 1986-06 unless the match is named (final 1986-06-29). The label is 3-5-2 (Bilardo, Wilson, Bleacher Report), sometimes 3-5-1-1 (Goal Italia); a rigid 5-3-2 or a zonal back line seen on SEO pages is not supported by tier A-B sources. Defence: sweeper (Brown) plus two man-marking stoppers (Ruggeri, Cuciuffo). The 3-5-2 was first used in 1984, which is outside the period and only context.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Dates of the group games, the Uruguay round of 16 (22 June is NOT confirmed), the England quarter-final and the Belgium semi-final are not stated in the mined pages; eventDate for them is 1986-06 or the tournament month, and the brief's 2 June opener is unverified from pages.",
+  "Sources disagree on when the back three began: Goal Italia says Brown played libero from the first match and Cuciuffo came in from the Italy game; Wilson (SI) says Bilardo started with a 4-4-2 and only unveiled the full 3-5-2 for the England quarter-final; These Football Times says the back three was adopted for the England game.",
+  "Sources disagree on who was the free man: Wilson and These Football Times say Brown was the sweeper with Ruggeri and Cuciuffo as markers; an unmined search snippet lists Ruggeri as libero.",
+  "Midfield wording differs: Wilson has Batista as ball-winner with Enrique and Burruchaga; These Football Times has Enrique and Burruchaga supplying Maradona and Valdano.",
+  "Pressing and zonal-vs-man detail for Argentina's own defending is thin: only Cuciuffo's marking of Galderisi and Francescoli and the pre-final plan for Matthaus on Maradona are verified. No tier A source (Coaches' Voice) was reached, as the session search budget ran out.",
+  "Bilardo's Marca 2006 interview and the 1984 'three defenders, five midfielders and two forwards' quote are given only in English translation by Bleacher Report and SI; the original Spanish was not found.",
+  "Search (c) in Spanish, (d) squad-building, a second site: search, and the zonal/man search in Spanish were not run or came back empty because the shared web-search budget ran out; no gap pass was possible.",
+  "Bilardo quote dates: statedView[0] and [4] are undated recollections (year given as 1986 only); [1] is attributed to the England quarter-final in June 1986. The Atlético Nacional friendly (before the tournament, month May from memory) is kept unverified as outside the period."
+ ],
+ "sources": [
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Bilardo changed tack for the famous 2-1 victory over England in the quarter-finals, the pragmatic coach switching the formation to a back three. Cuciuffo, who had begun the tournament as a right-back, was now playing as the left-sided stopper alongside Óscar Ruggeri, while José Luis Brown operated as a sweeper from a slightly deeper position. Argentina would retain this shape for the remainder of the competition.",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Initially, Bilardo had used a 4-4-2, before switching to deploy Jose Luis Cuciuffo as a man-marker, picking up Giuseppe Calderisi in the second game against Italy. With Jorge Luis Brown operating as a libero, that effectively left Oscar Garre to push forward from left back to join the midfield, with Maradona as an attacking central midfielder. (...) Then, against England, Bilardo went back to the master plan",
+   "verified": true
+  },
+  {
+   "title": "L'Argentina '86, i campioni del mondo segnati dal destino (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/argentina-86-morti-tragiche-cuciuffo-brown/uflsn0j2pfqj1hl24im8ib32k",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-11-25",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Il modulo 3-5-1-1 adottato dalla Selección - solido a dire poco - era il manifesto programmatico del senso pratico di Bilardo: difesa con due marcatori e un libero bloccato alle loro spalle, centrocampo foltissimo e robusto, Maradona a tutto campo dietro il centravanti Valdano.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "In front of Nery Pumpido, La Albiceleste had a back three of José Luis Brown, José Luis Cuciuffo and Óscar Ruggeri, with Sergio Batista as the holding midfielder. Wing-backs Ricardo Giusti and Julio Olarticoechea provided the width on the right and left respectively, with Héctor Enrique and Burruchaga looking to supply Maradona and Jorge Valdano.",
+   "verified": true
+  },
+  {
+   "title": "World Cup Greats: Recalling Diego Maradona's Argentina in 1986",
+   "url": "https://bleacherreport.com/articles/1699117-world-cup-greats-recalling-diego-maradonas-argentina-in-1986",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Bilardo introduced a novel tactical setup for the Seleccion in 1986, a 3-5-2 formation which was revolutionary at the time, but so successful that it would become commonplace by the time the 1990 World Cup rolled around.",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "In Brown, he had an uncomplicated defensive libero. In front of him were the two markers, Oscar Ruggeri and Cuciuffo, who picked up the opposing center forwards. Sergio Batista operated in front of them as a ball-winner",
+   "verified": true
+  },
+  {
+   "title": "L'Argentina '86, i campioni del mondo segnati dal destino (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/argentina-86-morti-tragiche-cuciuffo-brown/uflsn0j2pfqj1hl24im8ib32k",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-11-25",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Bilardo fu costretto a cambiare mezza difesa: dentro subito Brown come libero, poi Cuciuffo dalla seconda partita contro l'Italia. Entrambi non usciranno più dall'undici titolare",
+   "verified": true
+  },
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "In the second round fixture against rivals Uruguay in Puebla, Cuciuffo was tasked with marking Enzo Francescoli. (...) Francescoli joined Galderisi in Cuciuffo’s World Cup graveyard.",
+   "verified": true
+  },
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Wearing the number nine shirt, Cuchu started the second game against reigning world champions Italy and was drafted in specifically to deal with the threat of Giuseppe Galderisi (...) it was thought that Cuciuffo would be able to keep him at bay. The plan succeeded, the game ending in a 1-1 stalemate.",
+   "verified": true
+  },
+  {
+   "title": "World Cup Greats: Recalling Diego Maradona's Argentina in 1986",
+   "url": "https://bleacherreport.com/articles/1699117-world-cup-greats-recalling-diego-maradonas-argentina-in-1986",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The 4-4-2 formation that the vast majority of teams were using in Mexico was ill-suited to countering Bilardo's tactics, as they found themselves faced with a wall of defenders when in possession, and reinforced in the wrong areas of the pitch when Argentina, who played without the traditional pair of target men up front, had the ball.",
+   "verified": true
+  },
+  {
+   "title": "World Cup Greats: Recalling Diego Maradona's Argentina in 1986",
+   "url": "https://bleacherreport.com/articles/1699117-world-cup-greats-recalling-diego-maradonas-argentina-in-1986",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The counter-attacking system was built from the midfield backwards, with up to seven players given largely defensive roles.",
+   "verified": true
+  },
+  {
+   "title": "World Cup Greats: Recalling Diego Maradona's Argentina in 1986",
+   "url": "https://bleacherreport.com/articles/1699117-world-cup-greats-recalling-diego-maradonas-argentina-in-1986",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "The counter-attacking system was built from the midfield backwards, with up to seven players given largely defensive roles.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "As they pressed forward, though, the danger of a third Argentina goal on the break was real. A header from Valdano nearly put the matter beyond doubt, but it flew wide.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Bilardo had considered it likely that the Germans would deploy Lothar Matthäus to man-mark Maradona, making it then a 10 v 10 game that would offer them a greater chance of prevailing.",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "It could be argued that its central midfield three of Batista, Enrique and Burruchaga would have dominated possession, but when England finally brought on John Barnes and Chris Waddle, they failed to cut out the supply to them even against a central midfield duo as lacking in ferocity as Glenn Hoddle and Steve Hodge.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Statistics show that Maradona touched the ball 98 times in that game – the most by any player in any game in the finals – and it was Burruchaga who supplied with most of the passes to his feet.",
+   "verified": true
+  },
+  {
+   "title": "Diego Maradona and the incomparable show of individual brilliance against Belgium in 1986",
+   "url": "https://thesefootballtimes.co/2018/11/30/diego-maradona-and-the-incomparable-show-of-individual-brilliance-against-belgium-in-1986/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-30",
+   "eventDate": "1986-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Unsung stopper José Luis Cuciuffo burst out from defence, playing the ball into Maradona’s feet before continuing his run in anticipation of the return pass.",
+   "verified": true
+  },
+  {
+   "title": "Diego Maradona at World Cup 1986: the archangel",
+   "url": "https://thesefootballtimes.co/2017/03/03/diego-maradona-at-world-cup-1986-the-archangel/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-03-03",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "a clipped pass over the Italian back four from Jorge Valdano had Maradona racing through in the inside left position",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Sergio Batista operated in front of them as a ball-winner, with Julio Olarticoechea -- preferred to the more defensively minded Garre -- and Ricardo Giusti wide.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Wing-backs Ricardo Giusti and Julio Olarticoechea provided the width on the right and left respectively",
+   "verified": true
+  },
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Playing in the right full-back position, Cuchu starred in the final group game, a 2-0 victory over Bulgaria. With just four minutes on the clock, he assisted the opening goal, dispossessing two Bulgarians on their left-hand side before playing a deep cross to the far post which was met by the head of Jorge Valdano.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Burruchaga arrowed the ball into the area, deceiving German goalkeeper Harald Schumacher and finding the head of defender José Luis Brown, who nodded into the empty net.",
+   "verified": true
+  },
+  {
+   "title": "Carlos Bilardo, anti-fútbol and the pragmatic heart of Argentina",
+   "url": "https://thesefootballtimes.co/2017/10/06/carlos-bilardo-anti-futbol-and-the-pragmatic-heart-of-argentina/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-10-06",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "They scored two goals from set pieces. With the number of times we had practiced and emphasised their moves, they still scored two goals from corners!",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Perhaps inevitably, there was a period when the team eased up. For whatever reasons, as the game wore on the Germans became stronger and began to look dangerous.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Bilardo had emphasised to Burruchaga that he “would have to own the midfield”, insisting that he should keep looking towards the bench for signals as to what to do.",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "You can't play against the English with a pure center forward,\" he explained. \"They'd devour him, and the extra man in midfield will give Maradona more room.",
+   "verified": true
+  },
+  {
+   "title": "Diego Maradona at World Cup 1986: the archangel",
+   "url": "https://thesefootballtimes.co/2017/03/03/diego-maradona-at-world-cup-1986-the-archangel/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-03-03",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "The second game saw Argentina face Italy in a repeat of the 1982 x-rated fixture",
+   "verified": true
+  },
+  {
+   "title": "World Cup Greats: Recalling Diego Maradona's Argentina in 1986",
+   "url": "https://bleacherreport.com/articles/1699117-world-cup-greats-recalling-diego-maradonas-argentina-in-1986",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Aside from Maradona, Argentina's squad contained a smattering of top-class players, such as Real Madrid forward Jorge Valdano and the talented attacking midfielder Jorge Burruchaga. However, the team was criticized in the lead up to the tournament for being too defensive.",
+   "verified": true
+  },
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Just two days before Argentina’s opening World Cup fixture against South Korea, the squad was still more or less in the dark as to who would play.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "As well as fulfilling his requirements to move play forwards, he would mark opponents, tackle and cover when the need arose, and was one of the few who had the technical ability to play Maradona’s game, link up with him, and spot and seize the rare openings created.",
+   "verified": true
+  },
+  {
+   "title": "Diego Maradona at World Cup 1986: the archangel",
+   "url": "https://thesefootballtimes.co/2017/03/03/diego-maradona-at-world-cup-1986-the-archangel/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-03-03",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "drifting in and out of central positions so that the centre-backs didn’t know whether to go with him or hold their position.",
+   "verified": true
+  },
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "“Cuciuffo turned out to be a monster player, another of the cup’s surprises,” said Maradona. “He hadn’t expected to play much, but he ended up marking like Beckenbauer and kicking to centre like Zico.”",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "So Maradona played as a nominal second striker, but given the freedom to roam wherever he saw fit by the defensive platform behind him.",
+   "verified": true
+  },
+  {
+   "title": "L'Argentina '86, i campioni del mondo segnati dal destino (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/argentina-86-morti-tragiche-cuciuffo-brown/uflsn0j2pfqj1hl24im8ib32k",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-11-25",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Cuciuffo aveva esordito in Nazionale l'anno prima e quella era rimasta l'unica sua presenza prima della convocazione per il Mondiale. Appena meglio il curriculum di Brown, con tre presenze nel 1984",
+   "verified": true
+  },
+  {
+   "title": "L'Argentina '86, i campioni del mondo segnati dal destino (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/argentina-86-morti-tragiche-cuciuffo-brown/uflsn0j2pfqj1hl24im8ib32k",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-11-25",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Il piano del Ct (...) subì tuttavia un paio di colpi inattesi, quando prima perse l'altro elemento carismatico della squadra oltre a Diego, il leader della difesa Daniel Passarella (che neanche cominciò il torneo), poi dopo il primo match contro la Corea del Sud il difensore Nestor Clausen.",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Pedro Pasculli had scored the winner against Uruguay in the previous round, but Bilardo decided to drop him, turning instead to Jose Enrique, a solid, unspectacular midfielder.",
+   "verified": true
+  },
+  {
+   "title": "Jorge Burruchaga and the tears of World Cup joy",
+   "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-13",
+   "eventDate": "1986-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "There were big personalities, jealousies, cliques,” he said. “But we had great players.” Defeat in a friendly against Atlético Nacional in Colombia brought doubt upon the group as to their preparations, and a three-hour team meeting resolved to cancel any more pre-tournament games and fly directly to Mexico.",
+   "verified": false
+  },
+  {
+   "title": "Diego Maradona at World Cup 1986: the archangel",
+   "url": "https://thesefootballtimes.co/2017/03/03/diego-maradona-at-world-cup-1986-the-archangel/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-03-03",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "The final disruption saw icon and World Cup-winning captain, Daniel Passarella, walk out of the squad just prior to the opening group game. The defender never really came to terms with the captaincy being taken from him and handed to Maradona.",
+   "verified": true
+  },
+  {
+   "title": "Diego Maradona and the incomparable show of individual brilliance against Belgium in 1986",
+   "url": "https://thesefootballtimes.co/2018/11/30/diego-maradona-and-the-incomparable-show-of-individual-brilliance-against-belgium-in-1986/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-30",
+   "eventDate": "1986-06-25",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "In his 2017 memoir of the tournament, Touched by God, the number 10 revealed how he confronted his fellow players on the way back to the changing rooms, urging them not to let the Belgians become too cocky.",
+   "verified": true
+  },
+  {
+   "title": "World Cup Greats: Recalling Diego Maradona's Argentina in 1986",
+   "url": "https://bleacherreport.com/articles/1699117-world-cup-greats-recalling-diego-maradonas-argentina-in-1986",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-08",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Many Argentines were highly critical of his style and pessimistic about the team's chances in Mexico, especially after Bilardo axed talismanic captain Daniel Passarella and put Maradona in charge.",
+   "verified": true
+  },
+  {
+   "title": "The story of José Luis Cuciuffo, the World Cup winner who accidentally shot himself dead",
+   "url": "https://thesefootballtimes.co/2018/06/01/the-story-of-jose-luis-cuciuffo-the-world-cup-winner-who-accidentally-shot-himself-dead/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "The man with the closely cropped black hair had truly arrived at the 1986 World Cup, cemented his place in the team, and more importantly in the affections of his often abrasive captain who either loved or hated you.",
+   "verified": true
+  },
+  {
+   "title": "Carlos Bilardo, anti-fútbol and the pragmatic heart of Argentina",
+   "url": "https://thesefootballtimes.co/2017/10/06/carlos-bilardo-anti-futbol-and-the-pragmatic-heart-of-argentina/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-10-06",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“We received criticism for our way of playing, for the players I called up,” Bilardo said. “Some even criticised me for picking Diego Maradona as captain. We were not even in the list of contenders, but we took advantage of that.”",
+   "verified": true
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1986-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"I like being first,\" Bilardo said on his Web site. \"You have to think about being first. Because second is no good, being second is a failure.",
+   "verified": false
+  },
+  {
+   "title": "Maradona the coach can learn from experience of Maradona the player (Jonathan Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-27",
+   "eventDate": "1984-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "We were going to use three defenders, five midfielders and two forwards. We had practiced it for two years, and now I was going to put it into practice in tough games.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "We received criticism for our way of playing, for the players I called up. Some even criticised me for picking Diego Maradona as captain. We were not even in the list of contenders, but we took advantage of that.",
+   "date": "1986",
+   "source": "https://thesefootballtimes.co/2017/10/06/carlos-bilardo-anti-futbol-and-the-pragmatic-heart-of-argentina/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "You can't play against the English with a pure center forward. They'd devour him, and the extra man in midfield will give Maradona more room.",
+   "date": "1986-06",
+   "source": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We were going to use three defenders, five midfielders and two forwards. We had practiced it for two years, and now I was going to put it into practice in tough games.",
+   "date": "1984-09",
+   "source": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "They scored two goals from set pieces. With the number of times we had practiced and emphasised their moves, they still scored two goals from corners!",
+   "date": "1986-06-29",
+   "source": "https://thesefootballtimes.co/2017/10/06/carlos-bilardo-anti-futbol-and-the-pragmatic-heart-of-argentina/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I like being first. You have to think about being first. Because second is no good, being second is a failure.",
+   "date": "1986",
+   "source": "https://www.si.com/more-sports/2010/05/27/argentina-1986",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.pressreader.com/uk/world-soccer/20210101/281698322345809",
+   "reason": "empty"
+  },
+  {
+   "url": "https://albicelestes.com/1986/argentina-west-germany",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "osvaldo-zubeldia"
+ ],
+ "managers": [
+  {
+   "managerId": "carlos-bilardo",
+   "start": "1986-06-02",
+   "end": "1986-06-29"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "pressing"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B pages (These Football Times, Jonathan Wilson in SI) agree on the 3-5-2 and marking roles for the tournament, but no tier A source, no Spanish-language source mined, and no pressing or zonal detail; search budget ran out."
+ }
+}

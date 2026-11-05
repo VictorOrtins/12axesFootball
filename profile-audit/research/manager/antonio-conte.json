@@ -1,0 +1,1098 @@
+{
+ "id": "antonio-conte",
+ "catalog": "manager",
+ "name": "Antonio Conte",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2016-07-01",
+  "end": "2021-05-26"
+ },
+ "scopeNote": "Narrowed again on 2026-11-04 (user decision): only Chelsea 2016-18 and Inter 2019-21 are counted; Juventus, Italy and Napoli sources stay in the file as context with verified false. Narrowed on 2026-11-04 (user decision): only Juventus 2011-14, Chelsea 2016-18 and Inter 2019-21 are counted. The Italy national team (2014-16) and Napoli (2024-26) spells are excluded; their sources stay in the file as context with verified false. Counted spells: Juventus 2011-14, Italy 2014-16, Chelsea 2016-18, Inter 2019-21, Napoli 2024-26 (ended by mutual consent on 4 June 2026, so no longer ongoing). Style is a back three with wing-backs (3-5-2 at Juventus, Italy and Inter; 3-4-3 / 3-4-2-1 at Chelsea 2016/17 after starting with a back four), with a pressing, man-oriented / chain-reaction marking rather than a pure zonal block; sources also call the 'counter-attacking' label an oversimplification. Napoli tactical coverage is thin (only 4-3-3 mentioned by Conte himself in Aug 2025). Spell start dates other than Napoli's end and Inter's end are not in the digests (see openQuestions). Tottenham 2021-23, Bari 2007-09, Siena 2010-11 and Atalanta/Arezzo are excluded. Excluded early spells (Arezzo, Bari, Atalanta, Siena) have year-only dates from memory.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact spell dates were not found in any mined page and come from the researcher's memory: Juventus 2011-05-31 to 2014-07-15, Italy 2014-08-14 to 2016-07-03, Chelsea 2016-07-01 to 2018-07-13, Inter 2019-05-31 to 2021-05-26, Napoli 2024-06-05 to 2026-06-04. Verified in the digests: Napoli end 2026-06-04 (Corriere dello Sport), Inter end 2021-05-26 only from a URL seen in search results (inter.it communique), Juventus resignation 'May 2014' per 90min/SI (conflicts with memory of July 2014), Napoli scudetto 23 May 2025, Supercoppa 22 Dec 2025.",
+  "Tottenham 2021-23 excluded: no title, left by mutual consent before the end of the second season, and no Tottenham page was mined (Coaches' Voice zonal-marking page describes a zonal back five with Kane withdrawn, but it is outside the counted spells). Could be added if the user wants a recognisable-style spell counted; Coaches' Voice, Analytics FC and Mastermind pages exist.",
+  "Bari 2007-09 (Serie B title, 4-2-4 with wingers pushing up) and Siena 2010-11 (promotion) excluded: only secondary coverage (90min/SI, FourFourTwo) and the style (4-2-4) was abandoned for the back three.",
+  "Marking label: Spielverlagerung describes Italy-Spain at Euro 2016 as a 'rigid man-marking scheme' while SoccerTutor describes Juventus's 'chain-reaction marking' (a zonal-leaning, pass-the-responsibility system with a man-oriented press). Neither is pure zonal; a Chelsea/Inter marking source was not found.",
+  "Napoli 2024-26 has no tier A-B tactical source in the digests (CBS, Sofascore, Scouting for Success, Mastermind not readable); Inter 2019-21 tactical analysis (Mastermind) was a 403. Set-pieces have no verified in-period fact.",
+  "The Goal.com page contains the quote 'If the manager doesn't want to see the bad situation, he loses the changing room' without date or primary source; left out of statedView for lack of a date.",
+  "Goal.com generic paragraphs (counter-attack label, direct build-up) are undated and not used as verified evidence."
+ ],
+ "spellsCounted": [
+  {
+   "club": "Chelsea",
+   "start": "2016-07-01",
+   "end": "2018-07-13",
+   "reason": "2016/17 Premier League and 2017/18 FA Cup; 3-4-3 / 3-4-2-1 switch; dates from memory"
+  },
+  {
+   "club": "Inter",
+   "start": "2019-05-31",
+   "end": "2021-05-26",
+   "reason": "2020/21 Serie A title ending Juventus's run; start from memory, end from inter.it communique URL"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Arezzo",
+   "start": "2006",
+   "end": "2007",
+   "reason": "Relegation, no recognisable style"
+  },
+  {
+   "club": "Bari",
+   "start": "2007",
+   "end": "2009",
+   "reason": "Serie B title with a 4-2-4 but little tactical coverage; style later dropped"
+  },
+  {
+   "club": "Atalanta",
+   "start": "2009",
+   "end": "2010",
+   "reason": "Short and unsuccessful"
+  },
+  {
+   "club": "Siena",
+   "start": "2010",
+   "end": "2011",
+   "reason": "Promotion only; little coverage"
+  },
+  {
+   "club": "Tottenham",
+   "start": "2021-11-02",
+   "end": "2023-03-26",
+   "reason": "No title; not mined; dates from memory"
+  },
+  {
+   "club": "Italy national team",
+   "start": "2014-08-14",
+   "end": "2016-07-03",
+   "reason": "excluded on 2026-11-04 to narrow the profile to Juventus, Chelsea and Inter (user decision): Euro 2016 quarter-final run with a 3-5-2 and man-oriented pressing; dates from memory"
+  },
+  {
+   "club": "Napoli",
+   "start": "2024-06-05",
+   "end": "2026-06-04",
+   "reason": "excluded on 2026-11-04 to narrow the profile to Juventus, Chelsea and Inter (user decision): 2024/25 Serie A title (23 May 2025) and 2025 Supercoppa; start from memory, end verified (Corriere dello Sport)"
+  },
+  {
+   "club": "Juventus",
+   "start": "2011-05-31",
+   "end": "2014-07-15",
+   "reason": "excluded on 2026-11-04 to narrow the profile (user decision): Three consecutive Serie A titles (2011/12 to 2013/14, 102 points), 3-5-2 revival; dates from memory, see openQuestions"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "[Outside the counted spells, kept as context] This tactical analysis covers Conte's 3-5-2 in detail, from Pirlo's deep playmaker role to the wing-backs' asymmetric positioning.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "[Outside the counted spells, kept as context] The key innovation was what Conte called \"the diamond at the back.\" When Pirlo dropped between the three centre-backs, Juventus formed a four-man build-up structure that gave them numerical superiority against almost any pressing system. (...) Conte demanded patient build-up rather than rushed forward play. The team gradually pushed players higher while keeping the diamond intact, controlling tempo and waiting for the right moment to accelerate.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "[Outside the counted spells, kept as context] Against a three-man defence, the forwards pressed aggressively to force play wide, trapping the opposition on the touchline and winning the ball high. (...) Against a four-man defence, they were more passive: blocking lanes through midfield and waiting for the right moment to press.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "[Outside the counted spells, kept as context] The most sophisticated piece of Juventus's defence was chain-reaction marking. When Asamoah pushed up to press the opposition right-back, Chiellini stepped out to take the winger, and Marchisio dropped to cover Chiellini's space, ready for a potential double-up. Players drilled these transitions until they were instinctive.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "[Outside the counted spells, kept as context] The chain-reaction marking only worked because every player communicated through every defensive transition. The positions matter, but the talking is what makes the system function.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "[Outside the counted spells, kept as context] Lichtsteiner and Asamoah gave the 3-5-2 its width, and their different profiles created asymmetric attacking patterns. Asamoah was the attack-minded wing-back, pushing high up the left. Lichtsteiner was more conservative on the right, providing defensive insurance and overlapping only when the situation demanded it.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "[Outside the counted spells, kept as context] The signature pattern under Conte saw players receive between the opposition's midfield and defensive lines. When Pirlo got the ball in the centre, the strong-side attacking midfielder dropped, the wing-back on that side pushed forward, and the weak-side midfielder made a forward run to receive between the lines.",
+   "verified": false
+  },
+  {
+   "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty",
+   "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-06-24",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "[Outside the counted spells, kept as context] Tevez excelled at dropping deep to link with midfielders. Llorente's aerial presence made him the target for crosses, while his movement in the box opened space for others.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] Conte's side applied a rigid man-marking scheme, with either Graziano Pellè or Giaccherini marking Busquets. (...) However, due to the man-marking scheme he was usually attached to Gerard Piqué, while Éder marked Sergio Ramos on the other side.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] From minute one, Italy clearly showed their willingness to act more intensively in defence than they did in their group stage matches. One of the first scenes showed the Squadra Azzurra pressing Spain’s build-up players heavily. (...) In those situations, both Italian wing-backs were asked to move a few yards forward and pressure the opposing full-backs in the early phase.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] Conte’s team saw much more of the ball than expected. They not only tried to avoid conceding a goal, but also intended to create chances from established possession.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] When Italy played the ball to one of their wing-backs, usually the next step was to attempt a deep pass towards either Pellè or Éder.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] The Squadra usually intended to make the pitch very big in attack, with both wing-backs pushing extremely high and wide, while Giaccherini and Parolo moving towards the touchlines. Conte sought to open the centre, so Pellè and Éder could pick their spots",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] Often enough, it looked like Italy had 14 players on the pitch, because several Italians advanced and chased back so quickly, while Spain was struggling to press in packs.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] Although Giaccherini was a centre-midfielder on paper, he played a left winger/left number eight hybrid role for the most part.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte's tactical masterclass",
+   "url": "https://spielverlagerung.com/?p=4500",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-06-28",
+   "eventDate": "2016-06-27",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] Italy’s go-ahead goal was ultimately scored by Chiellini after a free kick by Éder followed by De Gea’s unsuccessful effort to clear the ball off the danger zone.",
+   "verified": false
+  },
+  {
+   "title": "Chelsea change of shape puts Alonso on radar",
+   "url": "https://www.premierleague.com:443/news/117401",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-05",
+   "eventDate": "2016-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "The Italian had started each of the opening six fixtures with a 4-1-4-1 formation but switched to a 3-4-3 at the KCOM Stadium in an attempt to shore up his side's defensive frailties. (...) Conte's new system morphed into a 3-4-2-1 when in possession, allowing Eden Hazard (£9.9m) and Willian (£7.3m) to operate centrally behind the striker.",
+   "verified": true
+  },
+  {
+   "title": "Chelsea change of shape puts Alonso on radar",
+   "url": "https://www.premierleague.com:443/news/117401",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-05",
+   "eventDate": "2016-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "The Serb made way as Marcos Alonso (£5.9m) and Victor Moses (£5.5m) were handed their maiden starts of 2016/17. The pair were utilised as wing-backs as Conte returned to a set-up that proved so successful during his time with Juventus.",
+   "verified": true
+  },
+  {
+   "title": "Chelsea change of shape puts Alonso on radar",
+   "url": "https://www.premierleague.com:443/news/117401",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-05",
+   "eventDate": "2016-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "It was the first time since the 2011/12 season that Ivanovic had been dropped to the bench due to his form rather than being rested.",
+   "verified": true
+  },
+  {
+   "title": "Masterful tactics, signing Kante and Moses' reinvention: How Antonio Conte won Chelsea the Premier League",
+   "url": "https://www.fourfourtwo.com/news/masterful-tactics-signing-kante-and-moses-reinvention-how-antonio-conte-won-chelsea-premier",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-18",
+   "eventDate": "2016-09-24",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "As Michael Oliver signalled half-time at the Emirates Stadium, Conte knew the game was up. Goals from Alexis Sanchez, Theo Walcott and Mesut Ozil meant defeat at Arsenal was a formality. But it would prompt the mother of responses. (...) The 4-2-4 that had served Conte so well with Siena and Bari was out and a three-man defence - utilised dazzlingly at Juventus and with Italy - would be the bedrock for a goalless second half, and then 13 wins in a row.",
+   "verified": true
+  },
+  {
+   "title": "Masterful tactics, signing Kante and Moses' reinvention: How Antonio Conte won Chelsea the Premier League",
+   "url": "https://www.fourfourtwo.com/news/masterful-tactics-signing-kante-and-moses-reinvention-how-antonio-conte-won-chelsea-premier",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-18",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "But it is a position in which Conte has a talent for adaptation. Antonio Candreva has been one of Serie A's most potent wingers in recent years, but was utilised deeper by Conte for the national team. (...) Victor Moses' three seasons on loan at Liverpool, Stoke and West Ham hardly earmarked him as one of the crucial cogs in a title-winning defence.",
+   "verified": true
+  },
+  {
+   "title": "Masterful tactics, signing Kante and Moses' reinvention: How Antonio Conte won Chelsea the Premier League",
+   "url": "https://www.fourfourtwo.com/news/masterful-tactics-signing-kante-and-moses-reinvention-how-antonio-conte-won-chelsea-premier",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-18",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Terry made 717 appearances for the Blues, a record 580 of them as captain, but between Conte's revolution at the back and full-time in the title-clinching win at West Brom he played just 16 minutes of Premier League football.",
+   "verified": true
+  },
+  {
+   "title": "Masterful tactics, signing Kante and Moses' reinvention: How Antonio Conte won Chelsea the Premier League",
+   "url": "https://www.fourfourtwo.com/news/masterful-tactics-signing-kante-and-moses-reinvention-how-antonio-conte-won-chelsea-premier",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-18",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Chelsea's general domination of games last term meant Kante did not need to be the omnipresent defensive pest he was for the Foxes. Still, only Everton's Idrissa Gueye (135) made more than his 127 tackles",
+   "verified": true
+  },
+  {
+   "title": "What is Antonio Conte's style of play? Tactics of Italian coach explained",
+   "url": "https://www.goal.com/en/news/antonio-conte-style-of-play-tactics-explained/9r6gz88s83b517gsoa1a42pop",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-03",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"We started the season with another system because the idea in my mind was that I wanted to play with the 4-2-4, and then we switched with 4-3-3 and we played also in the same way like last year, 4-2-3-1,\" the Italian explained in a 2016 interview with Chelsea's official website.",
+   "verified": true
+  },
+  {
+   "title": "What is Antonio Conte's style of play? Tactics of Italian coach explained",
+   "url": "https://www.goal.com/en/news/antonio-conte-style-of-play-tactics-explained/9r6gz88s83b517gsoa1a42pop",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-03",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "At Chelsea, Conte initially used 4-2-4 but eventually switched to 3-4-3 (in reality more of a 3-4-2-1) because they were conceding too many chances. The turning point came during a defeat to Arsenal",
+   "verified": true
+  },
+  {
+   "title": "What is Antonio Conte's style of play? Tactics of Italian coach explained",
+   "url": "https://www.goal.com/en/news/antonio-conte-style-of-play-tactics-explained/9r6gz88s83b517gsoa1a42pop",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-03",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "In their 2020-21 Scudetto-winning campaign, Conte's 3-5-2 formation ensured the Nerazzurri became the strongest team defensively and also one of the top-scoring in Serie A (second only to Gian Piero Gasperini's swashbuckling Atalanta).",
+   "verified": true
+  },
+  {
+   "title": "What is Antonio Conte's style of play? Tactics of Italian coach explained",
+   "url": "https://www.goal.com/en/news/antonio-conte-style-of-play-tactics-explained/9r6gz88s83b517gsoa1a42pop",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-03",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Conte teams tend to be quite direct in their possession play and build-up, getting the ball to the strikers quickly or using the width provided by wingers.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte: An Astute Tactician Whose Perfectionist Philosophy Reinvented the 3-5-2 Wheel",
+   "url": "https://www.si.com/soccer/2019/06/18/antonio-conte-astute-tactician-whose-perfectionist-philosophy-reinvented-3-5-2-wheel",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-18",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "[Outside the counted spells, kept as context] Adopting a higher press up the pitch, Conte's Juventus team stifled their opposition and enjoyed vast swathes of possession in the majority of their matches.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte: An Astute Tactician Whose Perfectionist Philosophy Reinvented the 3-5-2 Wheel",
+   "url": "https://www.si.com/soccer/2019/06/18/antonio-conte-astute-tactician-whose-perfectionist-philosophy-reinvented-3-5-2-wheel",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-18",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "[Outside the counted spells, kept as context] Wing-backs, who scampered up and down the line for 90 minutes operated as attacking wide midfielders in possession, before tucking in to form a compact back five when under pressure.",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte: An Astute Tactician Whose Perfectionist Philosophy Reinvented the 3-5-2 Wheel",
+   "url": "https://www.si.com/soccer/2019/06/18/antonio-conte-astute-tactician-whose-perfectionist-philosophy-reinvented-3-5-2-wheel",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-18",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "A frosty relationship with Costa led to a highly publicised feud, and the Italian boss appeared at odds with the club too. These off-the-field shenanigansÂ dented Chelsea's hopes of defending their title",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: An Astute Tactician Whose Perfectionist Philosophy Reinvented the 3-5-2 Wheel",
+   "url": "https://www.si.com/soccer/2019/06/18/antonio-conte-astute-tactician-whose-perfectionist-philosophy-reinvented-3-5-2-wheel",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-18",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Conte went back to what he knew, and revamped the Blues' style of play - introducing his now famed 3-5-2 formation to devastating effect.",
+   "verified": true
+  },
+  {
+   "title": "We are trying to change the average age of our team - Antonio Conte reveals some of his squad building secrets",
+   "url": "https://chelsea.news/2017/12/trying-change-average-age-team-antonio-conte-reveals-squad-building-secrets/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-12-18",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Conte specifically mentioned that he’s trying to lower the average age of the team, and we’ve seen plenty of evidence of that at the back, where Andreas Christensen has supplanted David Luiz in his back three. (...) Tiemoue Bakayoko is now also a regular starter, and Alvaro Morata is young too.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan building Serie A title challenge out of Premier League castaways",
+   "url": "https://www.cityam.com/antonio-contes-inter-milan-are-building-serie-a-title-challenge-out-of-premier-league-castaways/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-02-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Conte’s desire to sign older, experienced professionals, many of whom have won titles, is a clear indication of the Italian’s philosophy as he attempts to re-establish Inter as a force in Serie A. (...) All four of Eriksen, Lukaku, Moses and Young played as Inter beat Udinese on Sunday",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan building Serie A title challenge out of Premier League castaways",
+   "url": "https://www.cityam.com/antonio-contes-inter-milan-are-building-serie-a-title-challenge-out-of-premier-league-castaways/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-02-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Conte, who led Juve to three Serie A titles, was also ruthless with the club’s former stars, clearing out the likes of Mauro Icardi, Ivan Perisic and Radja Nainggolan because they did not align with the system or character that he wanted from his players.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan building Serie A title challenge out of Premier League castaways",
+   "url": "https://www.cityam.com/antonio-contes-inter-milan-are-building-serie-a-title-challenge-out-of-premier-league-castaways/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-02-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Equally, in Young and Moses he has acquired wing-backs who understand and excel in his preferred formations of 5-3-2 or 5-4-1 and will more than adequately be able to provide crosses for his strikers.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan building Serie A title challenge out of Premier League castaways",
+   "url": "https://www.cityam.com/antonio-contes-inter-milan-are-building-serie-a-title-challenge-out-of-premier-league-castaways/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-02-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "In Lukaku he has a forward with a physical presence whose strengths lie in holding up the ball, winning headers and, of course, scoring goals.",
+   "verified": true
+  },
+  {
+   "title": "Conte: Laying solid foundations for the present and future of Napoli",
+   "url": "https://sscnapoli.it/en/conte-stiamo-ponendo-le-basi-per-il-presente-e-il-futuro-del-napoli/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-13",
+   "eventDate": "2025-08-13",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] “We're considering several tactical solutions. The most important thing is to have good alternatives that you can use while maintaining the team's shape and strength. 4-3-3 is one formation these players can play but we're looking at different options to get the most out of everyone's attributes.”",
+   "verified": false
+  },
+  {
+   "title": "Conte: Laying solid foundations for the present and future of Napoli",
+   "url": "https://sscnapoli.it/en/conte-stiamo-ponendo-le-basi-per-il-presente-e-il-futuro-del-napoli/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-13",
+   "eventDate": "2025-08-13",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] “Obviously we'll need a bit more time to get everyone settled in properly. We have to work patiently because we have young players who can be the future of Napoli. We're laying solid foundations for the team and for the club.”",
+   "verified": false
+  },
+  {
+   "title": "Conte: Laying solid foundations for the present and future of Napoli",
+   "url": "https://sscnapoli.it/en/conte-stiamo-ponendo-le-basi-per-il-presente-e-il-futuro-del-napoli/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-13",
+   "eventDate": "2025-08-13",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] “I want to thank the players who have left who helped us win the Scudetto. I'll always be very fond of them. It should be said that those who have left expressed the desire to move on themselves. Of course it's only right that the club agrees but I've said before that I'll never keep anyone who says they want to leave. It's right that we all choose our own path.”",
+   "verified": false
+  },
+  {
+   "title": "Conte: Laying solid foundations for the present and future of Napoli",
+   "url": "https://sscnapoli.it/en/conte-stiamo-ponendo-le-basi-per-il-presente-e-il-futuro-del-napoli/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-08-13",
+   "eventDate": "2025-08-13",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] I'll never keep anyone who says they want to leave. It's right that we all choose our own path.",
+   "verified": false
+  },
+  {
+   "title": "'We need a bigger squad' – Conte bemoans Napoli's lack of options",
+   "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/we-need-a-bigger-squad--conte-bemoans-napolis-lack-of-options-2026-01-31",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-31",
+   "eventDate": "2026-01-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] \"Now there are restrictions on who you can have in the squad, and ours is even smaller because we don’t have many players from the youth academy, and the ones we do have want to go out on loan to play more regularly.",
+   "verified": false
+  },
+  {
+   "title": "'We need a bigger squad' – Conte bemoans Napoli's lack of options",
+   "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/we-need-a-bigger-squad--conte-bemoans-napolis-lack-of-options-2026-01-31",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-31",
+   "eventDate": "2026-01-31",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] \"There's not much we can say, it's game upon game upon game, we have to keep using players who ought to be rested and yet can't, it leads to these situations,\" Conte told DAZN, as quoted by Football Italia.",
+   "verified": false
+  },
+  {
+   "title": "Ufficiale il divorzio tra il Napoli e Conte: Grazie di tutto",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/napoli/2026/06/04-149025750/ufficiale_il_divorzio_tra_il_napoli_e_conte_grazie_di_tutto",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-06-04",
+   "eventDate": "2026-06-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] La Ssc Napoli comunica di aver risolto consensualmente ed in anticipo rispetto alla naturale scadenza i rapporti di lavoro con l'allenatore Antonio Conte e con i Suoi collaboratori. (...) un patto sancito come raccontato dal tecnico con largo anticipo rispetto al termine della stagione per un'assolutamente legittima divergenza tra punti di vista",
+   "verified": false
+  },
+  {
+   "title": "Antonio Conte reveals squad and Napoli 2024-25 (Goal.com)",
+   "url": "https://www.goal.com/en/lists/antonio-conte-revived-napoli-scott-mctominay-romelu-lukaku/bltf1326dfd3b065c5f",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-29",
+   "eventDate": "2024-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "[Outside the counted spells (Italy or Napoli), kept as context] \"I hear a lot of nonsense going around,\" he said last week. \"But those who have won know what needs to be done to get back to the top, and to build solid and lasting foundations... We are a work in progress.\"",
+   "verified": false
+  },
+  {
+   "title": "Sky Sports: How Chelsea's switch to 3-4-3 helped them beat Manchester United",
+   "url": "https://www.skysports.com/football/news/15116/10630125/how-chelseas-switch-to-3-4-3-helped-them-beat-manchester-united",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-24",
+   "eventDate": "2016-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "They out-ran their visitors by a remarkable 8.54km and Conte's cries of \"Go, go, go!\" as he urged his forwards to close down Manchester United's defenders late on in the game illustrated their approach.",
+   "verified": true
+  },
+  {
+   "title": "World Football Index: How Conte's Chelsea won the Premier League with a back 3",
+   "url": "https://worldfootballindex.com/2020/03/how-antonio-contes-chelsea-won-the-premier-league-with-a-back-3/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-21",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Adding an extra centre back meant that they would not be as vulnerable on a counter-attack, as there is an extra man and defenders would have more time on the ball. If one of the defenders gives possession away cheaply, there will be cover from two other centre backs.",
+   "verified": true
+  },
+  {
+   "title": "World Football Index: How Conte's Chelsea won the Premier League with a back 3",
+   "url": "https://worldfootballindex.com/2020/03/how-antonio-contes-chelsea-won-the-premier-league-with-a-back-3/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-21",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Chelsea could not progress the ball well due to the flatness of the midfield three. There was no one to connect the attack from one side of the pitch to the other as Nemanja Matic, Kante and Oscar operated too deep.",
+   "verified": true
+  },
+  {
+   "title": "Bola na Rede: Força da Tática: O 3-4-3 de Antonio Conte",
+   "url": "https://bolanarede.pt/internacional/ligainglesa/forca-da-tatica-o-3-4-3-de-antonio-conte",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2017-02-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "A equipa atua com defesa à zona em função da posição da bola, sem que nunca exista a intenção de recuperação rápida da posse da mesma. Assim, no meio-campo, a ideia passa sempre por pressionar o portador da bola para que este não consiga realizar passes que possam resultar em desequilíbrio; apenas quando a primeira linha de quatro é ultrapassada a equipa tende a aumentar a sua agressividade defensiva, habitualmente com um dos centrais a sair rápido no portador da bola",
+   "verified": true
+  },
+  {
+   "title": "Bola na Rede: Força da Tática: O 3-4-3 de Antonio Conte",
+   "url": "https://bolanarede.pt/internacional/ligainglesa/forca-da-tatica-o-3-4-3-de-antonio-conte",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2017-02-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "O facto de a primeira fase de construção ser marcada, habitualmente, por superioridade numérica relativamente aos avançados da equipa adversária faz com que Cahill ou, mais frequentemente, Azpilicueta, possam progredir com bola até ao meio-campo.",
+   "verified": true
+  },
+  {
+   "title": "Bola na Rede: Força da Tática: O 3-4-3 de Antonio Conte",
+   "url": "https://bolanarede.pt/internacional/ligainglesa/forca-da-tatica-o-3-4-3-de-antonio-conte",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2017-02-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "A reação à perda não é tendencialmente agressiva, até porque o Chelsea FC não é uma equipa que procure constantemente ter bola, mas é sobretudo realizada numa lógica de controlo por via da desaceleração do contra-ataque.",
+   "verified": true
+  },
+  {
+   "title": "Bola na Rede: Força da Tática: O 3-4-3 de Antonio Conte",
+   "url": "https://bolanarede.pt/internacional/ligainglesa/forca-da-tatica-o-3-4-3-de-antonio-conte",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2017-02-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Não é uma equipa que, à semelhança do brilhante FC Barcelona de Pep Guardiola, deseje ter bola, nem sequer uma equipa cuja principal premissa seja “a melhor forma de não sofrer golos é não dando a bola ao adversário”.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb: Chelsea 2017/18 Season Preview",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/chelsea-201718-season-preview/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2017-08-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "His passing numbers also are closer to David Luiz in terms of adventurousness (many an attempted long ball) than they are Gary Cahill.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb: Chelsea 2017/18 Season Preview",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/chelsea-201718-season-preview/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2017-08-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "They overshot their expected goals by a wide margin, racking up 81 non-penalty goals which was about 20 more than expected.",
+   "verified": true
+  },
+  {
+   "title": "Sky Sports: Premier League managers must learn how to play against 3-4-3",
+   "url": "https://www.skysports.com/football/news/11095/10969725/premier-league-managers-must-learn-how-to-play-against-3-4-3",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-08-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Spurs were able to disrupt Chelsea's rhythm with fierce and coordinated pressing high up the pitch. It forced Chelsea to go long, with David Luiz registering his lowest passing success rate of the season (68.8 per cent)",
+   "verified": true
+  },
+  {
+   "title": "Sky Sports: Premier League managers must learn how to play against 3-4-3",
+   "url": "https://www.skysports.com/football/news/11095/10969725/premier-league-managers-must-learn-how-to-play-against-3-4-3",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-08-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "\"When the wing-backs are high teams can try to expose that by playing the long ball down the line and picking up the second ball. When Chelsea go to a back five, the problem is the distance that the two midfield players have to cover.",
+   "verified": true
+  },
+  {
+   "title": "Sky Sports: Premier League managers must learn how to play against 3-4-3",
+   "url": "https://www.skysports.com/football/news/11095/10969725/premier-league-managers-must-learn-how-to-play-against-3-4-3",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-08-02",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Their second goal, which actually stemmed from a Chelsea throw-in deep in Palace territory, was an example of how the space behind a wing-back can be exploited on the counter-attack.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo: Why 3-4-3 is already yesterday's news for Antonio Conte",
+   "url": "https://fourfourtwo.com/features/why-3-4-3-already-yesterdays-news-antonio-conte-and-we-should-all-be-scared",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-03-10",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Conte isn’t closing games out by digging in deep and defending en masse; instead, he’s doing the opposite by attempting to control possession and make opponents run the hard yards late on in matches when they really don’t want to.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2016-17 Chelsea F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Chelsea_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-13",
+   "eventDate": "2016-09-24",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Alexis Sánchez pounced in the 11th minute after a horrific defensive error from Gary Cahill let him roam free on goal, followed three minutes later by another goal from Theo Walcott. Mesut Özil then exposed Chelsea on the counter-attack five minutes before the break",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "That approach evolved during 2020/21 (above). While one of their front two – most consistently Lukaku – continued to move short, retain the ball and link with those making runs, their wing-backs made penetrative runs through the centre of the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "At Inter, the 5-3-2 they often defended with (above) sometimes became a 5-2-3 in which one striker worked to limit access into the opposing single pivot while the other striker and an attacking midfielder pressed the opposition's central defenders.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "for brief periods, Inter therefore pressed with a 4-4-2 (above). From this shape, they worked to keep the ball to one side of the pitch, and their front two stopped passes into the centre of the pitch before pressing their opposing central defenders and goalkeeper.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "In the same way their wing-backs' movements enhanced their attacking potential, they also made Inter's defence more resilient. Their back three and defensive midfielder received greater support because their attacking midfielders' positioning meant that they were considerably less exposed",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Marcelo Brozovic was usually the defensive midfielder instructed to play line-breaking passes (above) in their more familiar shape",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "He’s made Inter look scary on the break, which makes it barely a coincidence that Inter have scored as many as 48 goals in the second-half – five more than any other side.",
+   "verified": true
+  },
+  {
+   "title": "A data-driven look at Inter Milan’s title-winning season",
+   "url": "https://brianjmpark.github.io/post/2021-11-10-a-data-driven-look-at-inter-milan-s-title-winning-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-10",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Centerbacks Stefan de Vrij and Alessandro Bastoni often carried the ball, suggesting Inter's likelihood of starting the attack from the back.",
+   "verified": true
+  },
+  {
+   "title": "A data-driven look at Inter Milan’s title-winning season",
+   "url": "https://brianjmpark.github.io/post/2021-11-10-a-data-driven-look-at-inter-milan-s-title-winning-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-10",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Combined with Inter's counter-attacking style of play with an emphasis of midfielders progressing the ball to the wide wingbacks",
+   "verified": true
+  },
+  {
+   "title": "Eriksen-Perisic, la mossa scudetto di Conte: così hanno cambiato l'Inter | Calciomercato",
+   "url": "https://www.calciomercato.com/news/l-accoppiata-perisic-eriksen-e-la-mossa-scudetto-di-conte-40973",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-02-24",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Perisic è in grado di utilizzare il mancino a sinistra per innescare le ripartenze con passaggi lungolinea di una certa difficoltà.",
+   "verified": true
+  },
+  {
+   "title": "La strana coppia funziona: Eriksen-Brozovic hanno trasformato l'Inter | Calciomercato",
+   "url": "https://www.calciomercato.com/news/la-strana-coppia-funziona-eriksen-brozovic-hanno-trasformato-l-i-56631",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-02-28",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "la costruzione dal basso può contare su tutt’altra qualità per uscire dal pressing avversario.",
+   "verified": true
+  },
+  {
+   "title": "Inter, Eriksen poco funzionale? Adesso è l'uomo chiave di Conte | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-eriksen-poco-funzionale-adesso-e-l-uomo-chiave-di-conte-95101",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-04-19",
+   "eventDate": "2021-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Dalla difesa si esce in palleggio e, preferibilmente, passando dai piedi di uno tra Brozovic ed Eriksen, che sapientemente si alternano in cabina di regia.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan Season In Review: Part One",
+   "url": "https://web.archive.org/web/2/https://www.serpentsofmadonnina.com/2021/5/26/22170053/inter-milan-season-in-review-part-one",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-26",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Inter went from averaging 61% possession per game in the first seven games to only 45% a game throughout the winning run, shifting back to a pragmatic strategy.",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Inter didn’t change their build-up approach for this game and tried building up from the back as per usual. Their plans were ruined though, due to Atalanta’s aggressive high press",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Atalanta’s actions forced them to rely on long balls to the attackers, which often failed to reach the destination accurately",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The Nerazzurri would use smart pressing structures on the flank constantly surrounding the wing-back creating a numerical advantage",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "No one in Serie has provided more lay-off passes - he is still a target - but no one has had more shots on the break either.",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Inter can play a possession game but they can soak up pressure before hitting teams on the break too.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Conte’s famous 3-5-2 formation has been working almost flawlessly this Serie A season, with the most emphasis placed on the wing-play and swift counterattacks.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "My coaching philosophy is very simple: to play good football and attractive football for our fans, to have a stable team - not up and down",
+   "date": "2021-11",
+   "source": "Spurs TV, via Goal.com (Tottenham, excluded spell, shown for stated philosophy only)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I try to give, first of all, a good balance in my team. Don't reduce offensively, but defend situations correctly.",
+   "date": "2017",
+   "source": "BBC Sport interview as Chelsea manager, via Goal.com",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We started the season with another system because the idea in my mind was that I wanted to play with the 4-2-4, and then we switched with 4-3-3 and we played also in the same way like last year, 4-2-3-1",
+   "date": "2016",
+   "source": "Chelsea official website interview, via Goal.com",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "For this reason, we switched to the new system of 3-4-3 and I think this is a good fit for our squad because also we have the strikers adapted for this system.",
+   "date": "2016",
+   "source": "Chelsea official website interview, via Goal.com",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Saying things directly, with great frankness. 'Trap' also preferred to tell a bad truth rather than a good lie. I belong to that type of coach.",
+   "date": "2019",
+   "source": "Sky Sport Italia, via Goal.com (answer comparing himself with Trapattoni)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I'll never keep anyone who says they want to leave. It's right that we all choose our own path.",
+   "date": "2025-08-13",
+   "source": "Napoli end-of-camp press conference, sscnapoli.it",
+   "provenance": "primary"
+  },
+  {
+   "quote": "If we have to play 60 games per year, we need a bigger squad; otherwise, it's suicide.",
+   "date": "2026-01-31",
+   "source": "DAZN, via Football Italia and beIN Sports",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://themastermindsite.com/2021/03/19/antonio-conte-inter-milan-tactical-analysis-2020-21-edition/",
+   "reason": "403"
+  },
+  {
+   "url": "https://themastermindsite.com/2019/08/31/how-chelsea-won-the-2016-17-premier-league-title-playing-3-4-2-1/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.cbssports.com/soccer/news/how-antonio-conte-won-the-serie-a-title-in-his-first-year-at-napoli-scott-mctominay-romelu-lukaku-more",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.sofascore.com/news/o-metodo-conte-napoli-rumo-ao-scudetto",
+   "reason": "403"
+  },
+  {
+   "url": "https://africa.espn.com/football/story/_/id/37475024/antonio-conte-chelsea-dominated-premier-league-tactics-2017",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.football-italia.net/167089/conte-discusses-inter-tactics",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.sofascore.com/ar/news/contes-method-napoli-towards-the-scudetto",
+   "reason": "403"
+  },
+  {
+   "url": "https://scoutingforsuccess.substack.com/p/the-inevitable-antonio-conte",
+   "reason": "empty"
+  },
+  {
+   "url": "https://sport.sky.it/calciomercato/2024/06/26/napoli-antonio-conte-10-frasi-conferenza",
+   "reason": "empty"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2019/11/06/conte-inter-dichiarazioni-video",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Giovanni Trapattoni (Conte says he played under him and shares his frankness)"
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A-B coverage for Juventus 2013/14 (SoccerTutor) and Italy Euro 2016 (Spielverlagerung), but Chelsea, Inter and Napoli rely on tier C press, Napoli has almost no tactical source, spell start dates are from memory, and set-pieces and marking at Chelsea/Inter are thin."
+ }
+}

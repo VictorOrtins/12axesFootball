@@ -1,0 +1,101 @@
+{
+  "id": "miguel-cardoso",
+  "catalog": "manager",
+  "name": "Miguel Cardoso",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "2024-01-12",
+    "end": "ongoing"
+  },
+  "scopeNote": "Manager profile of Miguel Cardoso across two counted spells: Espérance de Tunis (12 January to 22 October 2024: Tunisian Ligue Professionnelle 1 2023-24) and Mamelodi Sundowns (10 December 2024 to the present: South African Premiership 2024-25, CAF Champions League 2025-26, MTN 8 2026). Dates from the Wikipedia career table. Excluded: Rio Ave (2017-18 and 2021, no titles), Nantes (2018), Celta Vigo (2018-19) and AEK Athens (2019), all without titles. The Wikipedia article read has no tactical description of his teams, so the profile has no tactical sources.",
+  "spellsCounted": [
+    {
+      "club": "Espérance de Tunis",
+      "start": "2024-01-12",
+      "end": "2024-10-22",
+      "reason": "Tunisian league title 2023-24."
+    },
+    {
+      "club": "Mamelodi Sundowns",
+      "start": "2024-12-10",
+      "end": "ongoing",
+      "reason": "South African Premiership 2024-25 and the CAF Champions League 2025-26."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Rio Ave",
+      "start": "2017-06-12",
+      "end": "2018-06-13",
+      "reason": "Forty-two matches, no titles."
+    },
+    {
+      "club": "Nantes",
+      "start": "2018-06-13",
+      "end": "2018-10-02",
+      "reason": "Eight matches, no titles."
+    },
+    {
+      "club": "Celta Vigo",
+      "start": "2018-11-12",
+      "end": "2019-03-03",
+      "reason": "Fifteen matches, no titles."
+    },
+    {
+      "club": "AEK Athens",
+      "start": "2019-07-01",
+      "end": "2019-08-25",
+      "reason": "Four matches, no titles."
+    },
+    {
+      "club": "Rio Ave",
+      "start": "2021-01-29",
+      "end": "2021-05-27",
+      "reason": "Twenty matches, no titles."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "No tactical fact about Cardoso's teams was read: shape, pressing, marking and possession need tier A-B sources before the audit is reliable."
+  ],
+  "sources": [],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "est",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table only; the page read has no tactical description of his teams."
+  }
+}

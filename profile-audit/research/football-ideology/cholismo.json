@@ -1,0 +1,595 @@
+{
+ "id": "cholismo",
+ "catalog": "football-ideology",
+ "name": "Cholismo",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2011-12-27",
+  "end": "ongoing"
+ },
+ "scopeNote": "Cholismo as applied by Diego Simeone at Atlético Madrid from his presentation on 2011-12-27 (first match 2012-01-07) onward; core evidence 2013/14 plus later seasons. Sources use 'cholismo' for the philosophy (collective over individual, intensity, partido a partido) and 'deep and narrow 4-4-2' for the shape. The popular label 'modern catenaccio' is contested: These Football Times says marking is not as rigidly man-orientated and calls the comparison an oversimplification; Spielverlagerung says full-backs man-mark wingers within a zonal compact 4-4-2. Atlético also use high/medium/low blocks and back-three variants later, so the 'low-block 4-4-2' label is a simplification.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Appointment date: Atlético announced Simeone around 2011-12-23 (from memory, unverified); profilePeriod uses the 2011-12-27 presentation verified on the club page.",
+  "Marking: sources disagree in emphasis (Spielverlagerung: full-backs man-mark wingers; TFT: not rigidly man-orientated; a 2016 Bayern breakdown seen only in a search summary: zonal-man hybrid, unverified).",
+  "Public sources for Simeone's own 'partido a partido' quote were not dated; earliest found is the 2011-12-27 presentation 'vivo el día a día'.",
+  "Free pre-2020 Coaches' Voice or StatsBomb data on 2011-14 set pieces not found."
+ ],
+ "sources": [
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Atletico Madrid often play in a 4-4-2 with a deep midfield press. The two strikers work up to the central midfield and the midfield chain is narrower than the defensive line.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Simeone has long favoured organising his team into a 4-4-2 formation (below) and then attempting to dominate matches by occupying spaces and territory further forwards.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Will Atletico Attack Barça?",
+   "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-13",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "the characteristic deep and narrow 4-4-2 that Simeone is known for",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "In terms of formation, Simeone usually deploys a classic 4-4-2. Up front, two staggered strikers scrap with the opposition defenders",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "in a demonstration of Atlético's preference to build play in midfield after a direct ball, instead of short",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Simeone wanted to build from the back; to whip Atlético into rock-solid defensive shape.",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Atlético Madrid also uses these combinations in possession – even in forced possession against very deep, passive opponents – as a “counter-team”. They attack quickly and create chaos and disorganization to find a rapid breakthrough.",
+   "verified": true
+  },
+  {
+   "title": "Investigating the origins of Diego Simeone's Cholismo",
+   "url": "https://thesefootballtimes.co/investigating-the-origins-of-cholismo/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-09",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "For years they had been criticised for playing in a similar fashion, without emphasis on ball possession.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Atlético seek to spread possession from side to side, and at a high tempo.",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Thus, Atlético can press in a 4-4-2, 4-2-2-2, 4-4-2-0, 4-4-1-1 and an extremely compact 4-1-3-2, by varying the distances, the pressing height, and their tasks.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "When they are applying a high press (below), they most commonly remain in the 4-4-2 from which their forwards press the opposing central defenders",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Tactically, he demands heavy pressing at the beginning of games in the hope that the team can create a flurry of initial goal-scoring opportunities",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Atlético clenched so tight that a pass into the intermediate line space was impossible. There was a clear 4-4-2",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Will Atletico Attack Barça?",
+   "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-13",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "The achilles heel of Simeone's deep 4-4-2 approach is down the flanks. Atletico concedes advanced wide areas to the opposition",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "they have been seen using high, medium and low blocks, the latter, particularly, when they are attempting to defend a lead.",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "The full-backs in the wider back four man-mark their opposing wingers, press them when they receive the ball, and adjust to them directly.",
+   "verified": true
+  },
+  {
+   "title": "Investigating the origins of Diego Simeone's Cholismo",
+   "url": "https://thesefootballtimes.co/investigating-the-origins-of-cholismo/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-09",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "to imply their philosophy is some sort of modern Catenaccio equivalent is at best an innocent oversimplification – for starters, the marking is nowhere near as rigidly man-orientated.",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "The Umschaltspiel (transition play) in both directions is almost perfect. They practice an intense counter pressing",
+   "verified": true
+  },
+  {
+   "title": "Simeone: 'Me gustaría ver un equipo fuerte, aguerrido, veloz y contragolpeador'",
+   "url": "https://www.atleticodemadrid.com/noticias/simeone-me-gustaria-ver-un-equipo-fuerte-aguerrido-veloz-y-contragolpeador-br",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-12-27",
+   "eventDate": "2011-12-27",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Me gustaría ver a un equipo agresivo, fuerte, aguerrido, veloz y contragolpeador.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "During transitions both often make forward runs – particularly after regains are made",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "he rarely asks anyone to play as an outright winger. This allows Atlético to crowd the midfield and establish their superiority in the middle of the park, leaving the wings empty for overlapping full-backs",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "The wingers set up in the midfield rather than on the wings in order to occupy the half-spaces and provide horizontal compactness.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Their full-backs Renan Lodi and Kieran Tripper, preceded by Filipe Luís and Sime Vrsaljko, provide their width",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "Assistant coach Germán ‘El Mono’ Burgos may look like a burly docker, but he’s actually the mastermind behind Atlético’s prolific set pieces.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Will Atletico Attack Barça?",
+   "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-13",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "One of Diego Simeone’s less appreciated strengths as a manager is his adaptability.",
+   "verified": true
+  },
+  {
+   "title": "Atlético Madrid under Diego Simeone in 2014 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-16",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Against Chelsea they even switched to a 4-1-4-1 to maintain the lead and also vary their height and ability to press.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "they have been seen using high, medium and low blocks, the latter, particularly, when they are attempting to defend a lead.",
+   "verified": true
+  },
+  {
+   "title": "El cholismo: historia de un milagro",
+   "url": "https://www.publico.es/deportes/cholismo-historia-milagro.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-17",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "No pensar más allá del choque más próximo, por mucho que después venga la 'final' de la Liga contra el Barça, el Chelsea en Stamford Bridge o el Madrid en Lisboa por la Champions.",
+   "verified": true
+  },
+  {
+   "title": "El cholismo: historia de un milagro",
+   "url": "https://www.publico.es/deportes/cholismo-historia-milagro.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-17",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Simeone ha inculcado una filosofía en el club y en sus jugadores, tanto dentro como fuera del campo, basada en el conjunto por encima del individuo y la intensidad en cada segundo del partido.",
+   "verified": true
+  },
+  {
+   "title": "Gritty Simeone forges winning mentality at Atletico",
+   "url": "https://www.sbs.com.au/news/article/gritty-simeone-forges-winning-mentality-at-atletico/1qb18syc9",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-22",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "instilled his winning mentality and a \"match by match\" philosophy.",
+   "verified": true
+  },
+  {
+   "title": "Simeone: 'Me gustaría ver un equipo fuerte, aguerrido, veloz y contragolpeador'",
+   "url": "https://www.atleticodemadrid.com/noticias/simeone-me-gustaria-ver-un-equipo-fuerte-aguerrido-veloz-y-contragolpeador-br",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-12-27",
+   "eventDate": "2011-12-27",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "soy realista y vivo el día a día. Lo más importante para el Atlético de Madrid es el partido del Málaga y no pienso más allá de ese partido.",
+   "verified": true
+  },
+  {
+   "title": "Revolutionary, family man, idol: inside the fascinating mind of Diego Simeone",
+   "url": "https://fourfourtwo.com/features/revolutionary-family-man-idol-inside-fascinating-mind-diego-simeone",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“There is only one form of motivation, the lifeline of any team: internal competition. If there is no competition between players, the team dies.",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Diego Costa is the archetypal Simeone forward, really.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "The most combative and versatile players in Simeone's team feature in central midfield, as he once so impressively did.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Will Atletico Attack Barça?",
+   "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-13",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "One of Simeone’s greatest strengths as a manager is his ability to develop versatile, adaptable players who are comfortable in a variety of roles.",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Simeone has always said that effort is more important than mere talent, and that has seen gifted players such as Óliver shunted to the sidelines.",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Simeone has allowed him to express his flamboyant personality on the pitch, and given him game time even in the most crucial matches.",
+   "verified": true
+  },
+  {
+   "title": "Revolutionary, family man, idol: inside the fascinating mind of Diego Simeone",
+   "url": "https://fourfourtwo.com/features/revolutionary-family-man-idol-inside-fascinating-mind-diego-simeone",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "“He told us that he’d always pick the best team,” says Brazilian full-back Filipe Luis.",
+   "verified": true
+  },
+  {
+   "title": "Diego Simeone: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/atletico-madrid-diego-simeone-la-liga-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "has also continued to improve a team that has experienced the departures of Sergio Agüero, Diego Costa, Antoine Griezmann, Thibaut Courtois, Arda Turan and Diego Godín",
+   "verified": true
+  },
+  {
+   "title": "Revolutionary, family man, idol: inside the fascinating mind of Diego Simeone",
+   "url": "https://fourfourtwo.com/features/revolutionary-family-man-idol-inside-fascinating-mind-diego-simeone",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "assistant manager German ‘Mono (Monkey)’ Burgos is also credited with having significant influence inside the dressing room.",
+   "verified": true
+  },
+  {
+   "title": "A Tale of Heroes: How Have Atlético Madrid Reached Two European Finals In Just Three Years?",
+   "url": "https://www.vice.com/en/article/a-tale-of-heroes-how-have-atltico-madrid-reached-two-european-finals-in-just-three-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-26",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Gabi serves as an extension of his personality on the pitch. The captain is Simeone’s alter ego.",
+   "verified": true
+  },
+  {
+   "title": "El cholismo: historia de un milagro",
+   "url": "https://www.publico.es/deportes/cholismo-historia-milagro.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-05-17",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "la creación de un auténtico bloque que cree en lo que hace, en lo que persigue.",
+   "verified": true
+  },
+  {
+   "title": "Investigating the origins of Diego Simeone's Cholismo",
+   "url": "https://thesefootballtimes.co/investigating-the-origins-of-cholismo/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-10-09",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "“There they taught me values, wash your clothes, respect, order everything that helps you in life,”",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Me gustaría ver a un equipo agresivo, fuerte, aguerrido, veloz y contragolpeador.",
+   "date": "2011-12-27",
+   "source": "https://www.atleticodemadrid.com/noticias/simeone-me-gustaria-ver-un-equipo-fuerte-aguerrido-veloz-y-contragolpeador-br",
+   "provenance": "primary"
+  },
+  {
+   "quote": "soy realista y vivo el día a día. Lo más importante para el Atlético de Madrid es el partido del Málaga y no pienso más allá de ese partido.",
+   "date": "2011-12-27",
+   "source": "https://www.atleticodemadrid.com/noticias/simeone-me-gustaria-ver-un-equipo-fuerte-aguerrido-veloz-y-contragolpeador-br",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We want a team with commitment. One that plays, runs, trains, respects the rival, and understands the intelligence in the game.",
+   "date": "2011-12",
+   "source": "https://thesefootballtimes.co/investigating-the-origins-of-cholismo/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "There is only one form of motivation, the lifeline of any team: internal competition. If there is no competition between players, the team dies.",
+   "date": "2014-05",
+   "source": "https://fourfourtwo.com/features/revolutionary-family-man-idol-inside-fascinating-mind-diego-simeone",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We are showing that with work you can compete",
+   "date": "2014-05",
+   "source": "https://www.sbs.com.au/news/article/gritty-simeone-forges-winning-mentality-at-atletico/1qb18syc9",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [],
+ "influences": [
+  "Bilardismo (Simeone played under Bilardo at Sevilla 1992)",
+  "Zubeldia/Spinetto anti-futbol via Vélez youth system",
+  "Gigi Simoni's Inter and Catania counter-attacking deep shape",
+  "Radomir Antić's narrow 4-4-2 at Atlético 1995/96"
+ ],
+ "exemplars": [
+  {
+   "id": "diego-simeone",
+   "kind": "manager",
+   "reason": "Creator and sole practitioner of cholismo"
+  },
+  {
+   "id": "atletico-madrid-2013-14",
+   "kind": "team",
+   "reason": "La Liga winners and Champions League finalists, the peak of the model"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier A-B sources (Coaches' Voice, Spielverlagerung, Into the Calderon, These Football Times) agree on the 4-4-2 and compactness, but A-B coverage is mostly 2014 and 2016/2021; people-management and squad-building rest on tier C press."
+ }
+}

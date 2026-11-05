@@ -1,0 +1,221 @@
+[
+  {
+    "id": "jogo",
+    "label": {
+      "pt": "Jogo",
+      "en": "Game"
+    },
+    "text": {
+      "pt": "Como seu time deve jogar?",
+      "en": "How should your team play?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Opção A",
+          "en": "Option A"
+        },
+        "effects": {
+          "pos": 90,
+          "blo": 85
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Opção B",
+          "en": "Option B"
+        },
+        "effects": {
+          "pos": 20,
+          "blo": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "vitoria",
+    "label": {
+      "pt": "Vitória",
+      "en": "Winning"
+    },
+    "text": {
+      "pt": "O que importa mais?",
+      "en": "What matters most?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Opção A",
+          "en": "Option A"
+        },
+        "effects": {
+          "res": 85
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Opção B",
+          "en": "Option B"
+        },
+        "effects": {
+          "res": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "posse",
+    "label": {
+      "pt": "Posse",
+      "en": "Possession"
+    },
+    "text": {
+      "pt": "O que fazer com a bola?",
+      "en": "What to do with the ball?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Opção A",
+          "en": "Option A"
+        },
+        "effects": {
+          "pos": 88,
+          "pro": 88,
+          "est": 88
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Opção B",
+          "en": "Option B"
+        },
+        "effects": {
+          "pos": 75,
+          "pro": 75,
+          "est": 75
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "pt": "Opção C",
+          "en": "Option C"
+        },
+        "effects": {
+          "pos": 62,
+          "pro": 62,
+          "est": 62
+        }
+      },
+      {
+        "id": "D",
+        "text": {
+          "pt": "Opção D",
+          "en": "Option D"
+        },
+        "effects": {
+          "pos": 38,
+          "pro": 38,
+          "est": 38
+        }
+      },
+      {
+        "id": "E",
+        "text": {
+          "pt": "Opção E",
+          "en": "Option E"
+        },
+        "effects": {
+          "pos": 25,
+          "pro": 25,
+          "est": 25
+        }
+      },
+      {
+        "id": "F",
+        "text": {
+          "pt": "Opção F",
+          "en": "Option F"
+        },
+        "effects": {
+          "pos": 12,
+          "pro": 8,
+          "est": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "elenco",
+    "label": {
+      "pt": "Elenco",
+      "en": "Squad"
+    },
+    "text": {
+      "pt": "Quem deve jogar?",
+      "en": "Who should play?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Opção A",
+          "en": "Option A"
+        },
+        "effects": {
+          "bas": 85
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Opção B",
+          "en": "Option B"
+        },
+        "effects": {
+          "bas": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "vestiario",
+    "label": {
+      "pt": "Vestiário",
+      "en": "Dressing room"
+    },
+    "text": {
+      "pt": "Como liderar o grupo?",
+      "en": "How to lead the group?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Opção A",
+          "en": "Option A"
+        },
+        "effects": {
+          "lid": 85
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Opção B",
+          "en": "Option B"
+        },
+        "effects": {
+          "lid": 15
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,218 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Inter 2009/10" (catalog: team), answering as the team Inter 2009/10, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/inter-2009-10.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:inter-2009-10".
+
+=== RESEARCH FILE (team/inter-2009-10.json) ===
+{
+  "id": "inter-2009-10",
+  "catalog": "team",
+  "name": "Inter 2009/10",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "2009-08-08",
+    "end": "2010-05-22"
+  },
+  "scopeNote": "Inter 2009/10 under Mourinho, from the Supercoppa Italiana (2009-08-08) to the Champions League final (2010-05-22); treble season. Tactical evidence is one tier C analysis of the first leg vs Barcelona (a 'mid-block', width sacrificed for compactness, quick defensive transitions, under 40% possession) plus Mourinho's attributed statement that Messi was stopped by shared zonal-style responsibility, 'not man to man'; the analysis itself says Messi was man-marked, so the marking evidence conflicts. Season-wide and second-leg (Camp Nou, 0-1, Motta sent off) evidence is not read on a page. Mourinho's 'gabbia' (cage) is the Italian press label, per his own account. No label confirmed by a season-long source.",
+  "managers": [
+    {
+      "managerId": "jose-mourinho",
+      "start": "2009-08-08",
+      "end": "2010-05-22"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Season-wide tactics (not only Barcelona) need tier A/B analysis; second-leg possession figure unverified; Mourinho's earliest dated quote (post-semi-final 2010-04-28) not found.",
+    "Marking: Substack says Messi was man-marked, Mourinho says not man to man."
+  ],
+  "sources": [
+    {
+      "title": "On this day in 2010: when José Mourinho's Inter ruled over Europe (Sam Brookes)",
+      "url": "https://www.getfootballnewsitaly.com/2020/feature-on-this-day-in-2010-when-jose-mourinhos-inter-ruled-over-europe/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"The average age of Inter's starting line-up in the Champions League final had been just a touch under 30.\" \"Mourinho had got everything he could out of a vastly experienced squad\"; \"the ageing group would start to decline shortly after his departure.\"",
+      "verified": true
+    },
+    {
+      "title": "2009 Supercoppa Italiana (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2009_Supercoppa_Italiana",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2009-08-08",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "Played on 8 August 2009, Inter v Lazio, Lazio won 2-1, Beijing National Stadium: first competitive match of the season. Date only; no tactical content.",
+      "verified": true
+    },
+    {
+      "title": "2010 UEFA Champions League final (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2010_UEFA_Champions_League_final",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "22 May 2010, Santiago Bernabeu, Inter 2-0 Bayern (Milito 35', 70'). Inter XI position labels: Julio Cesar; Maicon, Lucio, Samuel, Chivu; Zanetti, Cambiasso (CM, CM); Sneijder (AM); Eto'o, Milito, Pandev (RF, CF, LF). Page states no formation text; a back four with two holding midfielders and a front line behind a striker is read from labels only.",
+      "verified": true
+    },
+    {
+      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"Inter's shape for the majority of the match was a mid-block\" (first leg, San Siro, 2010-04-20). Single match, not the season.",
+      "verified": true
+    },
+    {
+      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-10-17",
+      "dimension": "pressing",
+      "evidence": "\"Messi was being man-marked everywhere he went\"; midfielders could \"pressure him off the ball consistently\"; \"Inter hounded Barça out of the middle of the pitch.\" Contradicts Mourinho's own 'not man to man' (see statedView).",
+      "verified": true
+    },
+    {
+      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-10-17",
+      "dimension": "transitions",
+      "evidence": "\"Inter were noticeably quick to get back on defensive transitions\"; Inter also attacked quickly after winning the ball back. Subtitle: Inter had \"less than 40% of the ball\" (no exact figure; first leg).",
+      "verified": true
+    },
+    {
+      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-10-17",
+      "dimension": "width",
+      "evidence": "Mourinho \"opted to sacrifice offensive width for defensive compactness\"; Barca were funneled toward the wings.",
+      "verified": true
+    },
+    {
+      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-10-17",
+      "dimension": "possession",
+      "evidence": "Subtitle: Inter had \"less than 40% of the ball\" in the first leg (3-1 win). Exact figure not given; second-leg 13.6% seen only in a search summary, not read on a page.",
+      "verified": true
+    },
+    {
+      "title": "Mourinho, tears and defiance: the story of Inter's 2009-10 season (The Guardian, via Asharq Al-Awsat)",
+      "url": "https://english.aawsat.com/node/2275076",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-09",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "Writer's paraphrase, no verbatim quote: Mourinho told The Coaches' Voice his goal was to move the defensive line forward by 20 metres; Eto'o moved to the left wing mid-season as Inter shifted to a 4-2-3-1; Eto'o filled in as auxiliary full-back after Motta's red card in the Barcelona semi-final. Not used for pressing/line claims beyond this paraphrase.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "There was a combination of ideas, but basically everything was around not letting Messi play. ... we didn't play man to man, but Zanetti, Motta, Cambiasso, everybody was responsible for any position that Messi could go.",
+      "date": "2022-10-01",
+      "source": "https://www.goal.com/en-my/news/watch-mourinho-messi-jail-inter-tactical-masterplan-barcelona/blt3dac6b457c9e6655",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://sport.sky.it/calcio/2019/05/06/mourinho-inter-barcellona-2010",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://learning.coachesvoice.com/?p=51069",
+      "reason": "empty"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "people-management",
+      "player-profile",
+      "stated-view",
+      "set-pieces"
+    ],
+    "axes": [
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Tactical evidence comes from one tier C first-leg analysis and an attributed, later-dated Mourinho quote; no season-wide tier A/B source."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

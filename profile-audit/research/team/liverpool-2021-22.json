@@ -1,0 +1,277 @@
+{
+  "id": "liverpool-2021-22",
+  "catalog": "team",
+  "name": "Liverpool 2021/22",
+  "researchedOn": "2026-10-12",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2021-08-14",
+    "end": "2022-05-28"
+  },
+  "scopeNote": "Premier League, FA Cup, EFL Cup and Champions League 2021/22: from the 3-0 win at Norwich (14 Aug 2021) to the Champions League final defeat to Real Madrid in Paris (28 May 2022). 63 competitive matches (46W 13D 4L); won the EFL Cup and FA Cup, both on penalties against Chelsea. One manager throughout.",
+  "managers": [
+    {
+      "managerId": "jurgen-klopp",
+      "start": "2021-08-14",
+      "end": "2022-05-28"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (mar): Total Football Analysis says the front three 'man-mark tightly' while 'covering passing lanes' and defending an assigned number of players; no source explicitly labels the press or the block as zonal or man-oriented. Confirm how to read it (likely zonal block with man-oriented pressing jumps).",
+    "The Mastermind analysis covers only the first ~22 league matches (to Jan 2022), before Luis Díaz arrived; later-season shape changes (Díaz on the left, Mané central) rest on TFA match examples only.",
+    "No in-period Klopp quote on his own style of play was found; the stated-view entries are about squad, signings and team spirit.",
+    "Youth minutes: a search summary (not read on any page) said Tyler Morton started the 2-2 at Tottenham during Covid absences; not verified, so youth use in 2021/22 rests on Klopp's 'Academy' Carabao Cup quote and the rotation data.",
+    "'Heavy metal' (Klopp's own label, attributed): find the 2013 original if the date matters. The 2021/22 team was more controlled than the Dortmund 'heavy metal' sides (docs/04)."
+  ],
+  "sources": [
+    {
+      "title": "2021–22 Liverpool F.C. season",
+      "url": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Liverpool_F.C._season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-05-28",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Read characters 0-100000 of 277702 (rest truncated). First match 14 Aug 2021 at Norwich (3-0); last match the Champions League final v Real Madrid, 28 May 2022, lost 0-1 (Vinícius Júnior 'scored the only goal of the game'). Won 'a record-breaking ninth EFL Cup' and the FA Cup. Signings: Ibrahima Konaté from RB Leipzig (1 Jul 2021, £36m) and Luis Díaz from Porto (30 Jan 2022, £47m). Overview table: 63 matches. No tactics on this page.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "\"the Reds have played all 22 matches this season in their favoured 4-3-3 shape\"; in possession \"fluctuating attacking shapes of 2-1-4-3, 3-1-6 and 2-3-5\". Covers the first 22 league matches only.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Alisson sweeps up \"any messes on the heels of the team's high line\" and can go long when pressed. Paraphrase from the page: build-up varies between a diamond and a 2-5-3 or 3+1, with Fabinho in front of the centre-backs and Alexander-Arnold often part of a back three.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Praises \"the calmness in possession that they exude\"; paraphrase: they keep the ball with a finesse rarely matched in the league. No possession percentages given.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Liverpool press \"in their 4-3-3 or an adapted 4-1-4-1 shape\"; the high line \"massively aids\" the press. Paraphrase: pressing calculated rather than all-out, the league's most successful press (32.6%). Zonal vs man-oriented not stated.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "On transition \"the Reds race forward at remarkable speeds\"; paraphrase: counter-press led by the players nearest the ball, several pressing immediately to stop the first pass.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "Alexander-Arnold has been \"inverting in central areas more and more\"; paraphrase: Robertson overlaps the left central midfielder to cross, wingers narrow into the half-spaces, full-backs and outside central midfielders rotate in and out of wide areas.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition)",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "set-pieces",
+      "evidence": "Paraphrase from the page: 12 set-piece goals (most in the Premier League at the time), 4 conceded; strong at throw-ins, linked to throw-in coach Thomas Grønnemark; Van Dijk main target, Alexander-Arnold and Robertson take in-swinging deliveries.",
+      "verified": true
+    },
+    {
+      "title": "Liverpool 2021/22: The key factors behind Liverpool's impressive defensive record – tactical analysis",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/liverpool-2021-22-defensive-structure-tactical-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "\"We want to keep a high line because we know we can win the ball up high, and it's the risk you have to take\" (Van Dijk). \"Liverpool have seen the offside flag waved in their favor a total of 140 times in the Premier League this season\"; \"Van Dijk and Matip always look to push up near the halfway line.\" Two blocks: \"The block of seven of midfield and defense who's job is to close down the center and be ready to jump on the front foot.\" No mid/low-block language.",
+      "verified": true
+    },
+    {
+      "title": "Liverpool 2021/22: The key factors behind Liverpool's impressive defensive record – tactical analysis",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/liverpool-2021-22-defensive-structure-tactical-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Marking: \"They man-mark tightly, ready to pounce like sharks, while also covering passing lanes and out-balls.\" \"The front three, who are responsible to defend five or sometimes six players.\" \"Díaz and Salah pressed the centre-backs while Mane covered the goalkeeper and deep pivot.\" \"Klopp has also implemented a higher press in the aim of maintaining pressure against opponents\"; \"Liverpool lead the league this season in pressures in the attacking 3rd.\" Lijnders: \"The idea when we put pressure is not to force them back and to hold the position and protect behind.\"",
+      "verified": true
+    },
+    {
+      "title": "Liverpool 2021/22: The key factors behind Liverpool's impressive defensive record – tactical analysis",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/liverpool-2021-22-defensive-structure-tactical-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "Counter-press: \"It entails aggressively pressing the opponents near the ball for quick regains high up the pitch\"; \"Klopp's counter-press is mainly viewed as an attacking tool to win the ball back and score quickly\".",
+      "verified": true
+    },
+    {
+      "title": "Liverpool's unsung heroes proving their worth",
+      "url": "https://www.premierleague.com/en/news/2626728",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-05-26",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "Klopp \"has developed a distinctive brand of football, within a 4-3-3 formation, that remains a constant\", the only manager \"to have used the same formation in all 38 matches this season.\" \"Liverpool's strength in numbers allowed Klopp to influence the course of matches through his second-half changes.\" \"No team enjoyed more goals or assists from their replacements than the Reds.\"",
+      "verified": true
+    },
+    {
+      "title": "Liverpool's unsung heroes proving their worth",
+      "url": "https://www.premierleague.com/en/news/2626728",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-05-26",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"Throughout 2021/22, Klopp was able to rotate his starting XI without affecting results\"; Konaté, Keita, Tsimikas, Origi, Oxlade-Chamberlain and Milner \"were rarely first-choice starters, but all played their part.\" \"In total, 22 Liverpool players made at least one direct goal contribution during this campaign.\"",
+      "verified": true
+    },
+    {
+      "title": "Klopp explains significance of Diaz signing and provides update on Carvalho pursuit",
+      "url": "https://www.footballtransfers.com/us/transfer-news/uk-premier-league/2022/02/klopp-explains-significance-diaz-signing-provides-update-us",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-02-04",
+      "eventDate": "2022-02-04",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "Klopp on Luis Díaz: \"He is an exceptional player. He has speed, the skillset and the character to have a really good career\"; \"We signed him because we like pretty much everything about him\"; \"he maybe is a bit of a late bloomer\" (Díaz signed aged 25).",
+      "verified": true
+    },
+    {
+      "title": "Alexander-Arnold, Robertson and Alisson added to Liverpool's leadership group",
+      "url": "https://www.goal.com/en/news/alexander-arnold-robertson-and-alisson-added-to-liverpools/1padzek7et0zc1mj6kf6oo98f3",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-09-27",
+      "eventDate": "2021-09-27",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Players' committee chosen by an in-house dressing-room vote; Henderson, Milner and Van Dijk stayed, Alexander-Arnold, Robertson and Alisson added. Klopp: \"We had the three who stayed, and then the players voted for another three.\" \"We had a problem last year obviously from time to time\" ... \"so I thought it made sense to increase this group a little bit.\"",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "We signed him because we like pretty much everything about him.",
+      "date": "2022-02-04",
+      "source": "https://www.footballtransfers.com/us/transfer-news/uk-premier-league/2022/02/klopp-explains-significance-diaz-signing-provides-update-us",
+      "provenance": "primary"
+    },
+    {
+      "quote": "We had the three who stayed, and then the players voted for another three.",
+      "date": "2021-09-27",
+      "source": "https://www.goal.com/en/news/alexander-arnold-robertson-and-alisson-added-to-liverpools/1padzek7et0zc1mj6kf6oo98f3",
+      "provenance": "primary"
+    },
+    {
+      "quote": "We have used all the squad, Academy, first team, all chipped in, which makes it really special.",
+      "date": "2022-02-27",
+      "source": "https://www.liverpoolfc.com/news/jurgen-klopps-best-quotes-liverpool-manager",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I couldn't be more proud of my boys, the shift they put in, how hard they fought.",
+      "date": "2022-05-14",
+      "source": "https://www.liverpoolfc.com/news/jurgen-klopps-best-quotes-liverpool-manager",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "It's like an orchestra, but they play a silent song. I like heavy metal, I always want it to be loud.",
+      "date": "2018-09-15",
+      "source": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fjurgen-klopp-cant-resist-salvo-at-gunners-1.1251405",
+      "provenance": "attributed",
+      "note": "Klopp's own label for his football (vs Wenger's Arsenal). Search results place the original in Nov 2013, before Dortmund v Arsenal, but no 2013 page could be read; 2018-09-15 is the earliest dated appearance read. Before the period."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.liverpoolfc.com/news/jurgen-klopps-fa-cup-press-conference-norwich-tie-resilience-and-youngsters-growth",
+      "reason": "404"
+    },
+    {
+      "url": "https://web.archive.org/web/2022/https://www.liverpoolfc.com/news/jurgen-klopps-fa-cup-press-conference-norwich-tie-resilience-and-youngsters-growth",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.expressandstar.com/uk-sports/jurgen-klopp-could-not-be-happier-after-liverpool-seal-deal-for-luis-diaz-5937900",
+      "reason": "403"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Liverpool_F.C._season",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://sportskeeda.com/football/klopp-i-prefer-dortmunds-heavy-metal-over-arsenals-orchestra",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://web.archive.org/web/2014/https://www.sportskeeda.com/football/klopp-i-prefer-dortmunds-heavy-metal-over-arsenals-orchestra",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "high",
+    "reason": "Two season-specific tier B analyses (TheMastermindSite, Jan 2022; Total Football Analysis, May 2022) agree on a 4-3-3 with a high press, high line and counter-press; tier C press covers rotation, game management, signings and the leadership group. Weak spots: marking label not explicit, stated view has no in-period quote on style, set-piece and possession facts are reader paraphrases."
+  }
+}

@@ -1,0 +1,592 @@
+{
+ "id": "santos-1962-63",
+ "catalog": "team",
+ "name": "Santos FC 1962-63 (Lula)",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1962-02-18",
+  "end": "1963-11-16"
+ },
+ "scopeNote": "Santos of Pele (Os Santasticos) under Lula (Luis Alonso Perez), Copa Libertadores 1962 and 1963, Intercontinental Cup 1962 (v Benfica, 3-2 Maracana, 5-2 Lisbon) and 1963 (v Milan), Taca Brasil 1962 (final played Mar-Apr 1963, 4-3, 0-3, 5-0). Start 1962-02-18 is the first Libertadores match (Deportivo Municipal 3-4 Santos, Trivela); earlier 1962 Paulista matches not dated. End 1963-11-16 is the Maracana Intercontinental play-off (date from memory, not verified in digest; the digest shows first leg 4-2 Milan, second 4-2 Santos, play-off 1-0). Style: no single tactical label in sources; described as offensive, fluid futebol (Os Santasticos), roughly 4-2-4 / 4-3-3 with Pele free; Lula himself rejected a rigid system. Eventdates are calendar years.",
+ "ambiguities": [],
+ "openQuestions": [
+  "No Tier A tactical study found (Coaches' Voice / TSG nothing on Santos 1962-63); tactical coverage is Trivela (B) and a blog (C).",
+  "Marking system (zonal vs man) not described by any source; only the Dorval-on-Zagallo man-marking instruction in the 1962 Taca Brasil final (Gazeta Esportiva, 403 on fetch, unverified).",
+  "Defensive pairing differs between sources (Calvet-Haroldo in blog vs Mauro-Calvet in Trivela); likely varies by match.",
+  "Second-leg 1962 Intercontinental venue: Lisbon (Estadio da Luz) per Trivela/Donos da Terra; one search summary said Maracana first leg (correct) and some mirrors confuse venue.",
+  "Exact date of 1963 Intercontinental play-off (16 Nov 1963) and first-leg (11 Oct 1963) not confirmed in digest.",
+  "Lula's 1966 departure and Pele altercation rumour is outside period (kept unverified)."
+ ],
+ "managers": [
+  {
+   "managerId": "lula",
+   "start": "1954-06-02",
+   "end": "1966-12-31"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Gylmar no gol. A defesa tinha a liderança de Mauro (...) Calvet no miolo da zaga, além de Geraldino e Dalmo nas laterais. O capitão Zito surgia como o grande xerife na cabeça de área, pronto a limpar os trilhos, acompanhado por Lima na organização. Mais à frente, Dorval infernizava pela direita e Pepe era o canhão na esquerda.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "The golden team of Santos was, needless to say built around the genius of Pele with the Brazilian being afforded a free role in attack. In support of him were two widemen in Dorval and Pepe with Coutinho leading the line up-front.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Lula’s Santos were experts at mixing their game up – quite often Mengalivo would take route 1 in hoofing the ball upto Coutinho who would hold it up for Pele to skate past defenders and slot it in home. On other occasions, Pele would turn provider with his sublime vision in releasing either Coutinho or Pepe on goal.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Tudo para que as tabelinhas entre Pelé e Coutinho fluíssem pelo meio.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Pelé fazendo ótimo papel na armação e os companheiros falhando nas conclusões diante do goleiro Errea.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "o Santos sentiu o cansaço da maratona de jogos recentes e caiu de rendimento. O desgaste físico do Peixe era visível, o que permitiu ao Boca dominar a posse de bola e ter mais volume de jogo.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "O Santos melhorou depois disso, especialmente quando Pelé recuou para armar o time, diante do cansaço de Zito e Lima.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "On the right, Dorval provided the width in attack as he constantly hugged the touchline to provide a different dimension to Santos’ attacks. He constantly ran up and down the right wing, ably supporting his full-back",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "For majority of the time, Pele would drop deep to create pockets of space for Pepe to drift into to support Coutinho and would then surge forward to round off the move.",
+   "verified": true
+  },
+  {
+   "title": "Jornal de Brasília - Show dos reis",
+   "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/historias-da-bola/show-dos-reis/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-05-11",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "A farra de gols começou aos 24 minutos, pela ponta-direita Dorval. (...) Aos 39, o outro ponteiro santista, Pepe, o da esquerda, aumentou para 2 x 0.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The back four were set-up in a way that pretty much resembles modern rear-guards with two conventional overlapping fullbacks in Lima and Geraldinho and a stopper-sweeper central defense pairing of Calvet and Haroldo.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - 21º Lula: O formador de um esquadrão",
+   "url": "https://trivela.com.br/sem-categoria/21o-lula-o-formador-de-um-esquadrao/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2010-11-01",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Durante os treinamentos, com a agenda apertada dos alvinegros, Lula mais orientava do que exigia. Não era de grandes invencionices táticas, preferia prezar pelo talento intuitivo de seus jogadores.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - 21º Lula: O formador de um esquadrão",
+   "url": "https://trivela.com.br/sem-categoria/21o-lula-o-formador-de-um-esquadrao/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2010-11-01",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Já na partida de volta, marcada para o Estádio da Luz, Lula surpreendeu. Tirou Mengálvio para deslocar Lima para o meio-campo e colocar o zagueiro-central Olavo na lateral-direita. A estratégia mostrou-se certeira e, com ponta-esquerda Simões anulado, o Santos não teve dificuldades para abrir 5 a 2",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A apoteose de Pelé",
+   "url": "https://trivela.com.br/brasil/a-apoteose-de-pele-como-o-rei-brilhou-nos-titulos-sul-americanos-e-mundiais-do-santos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "O esquema foi considerado “retranqueiro” pela Gazeta Esportiva e responsável por anular “70% das infiltrações de Pelé e seus companheiros”. Acontece que não foram necessários mais do que 30%.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Nas declarações após a vitória, a reclamação no Santos era pela maratona de jogos (...) Lula: “O time caiu no segundo tempo, mas não podia ser de outra forma. Não há pernas que aguentem 90 minutos corridos, numa semana onde os compromissos se repetem quase sem intervalo para descanso.”",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Lula manteve a escalação da partida de ida, apesar das dúvidas sobre Zito. O meio-campista atuou adoentado no Maracanã e estava quatro quilos abaixo de seu peso ideal. O capitão pediu um afastamento de 15 dias, mas foi a campo na Argentina.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Lula poupou parte de seus jogadores no compromisso anterior pelo Paulistão, quando acabou derrotado pela Ferroviária. Mauro, Calvet e Pepe estavam de volta à escalação",
+   "verified": true
+  },
+  {
+   "title": "Jornal de Brasília - Pelé e Santos dominaram o mundo em 1962 e 1963",
+   "url": "https://jornaldebrasilia.com.br/torcida/pele-e-santos-dominaram-o-mundo-em-1962-e-1963/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Pelé só atuou na primeira das três partidas, em Milão. Ele marcou dois gols, mas os italianos venceram por 4 a 2. Nas duas partidas seguintes, no Maracanã, o Santos ganhou por 4 a 2 e 1 a 0.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A apoteose de Pelé",
+   "url": "https://trivela.com.br/brasil/a-apoteose-de-pele-como-o-rei-brilhou-nos-titulos-sul-americanos-e-mundiais-do-santos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Pelé abriu o placar, aos 31 minutos, pegando rebote de uma falta cobrada por Pepe. (...) Santana, que ganhou na velocidade e tocou na saída de Gilmar.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Libertadores de 1962: Confusões e garrafas",
+   "url": "https://trivela.com.br/historia-libertadores-de-1962-confusoes-e-garrafas/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2012-02-11",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Pelé não atuou ... No duelo de desempate, em Buenos Aires, Pelé voltou e anotou dois gols na vitória tranquila por 3 a 0",
+   "verified": true
+  },
+  {
+   "title": "Jornal de Brasília - Pelé e Santos dominaram o mundo em 1962 e 1963",
+   "url": "https://jornaldebrasilia.com.br/torcida/pele-e-santos-dominaram-o-mundo-em-1962-e-1963/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "O camisa 10 não atuou nas quartas de final contra o paraguaio Cerro Porteño, ainda em recuperação do problema muscular que teve na Copa de 1962, não atuou nas duas semifinais, contra a Universidad Católica, do Chile, e nem nas duas primeiras partidas da decisão contra o Peñarol",
+   "verified": true
+  },
+  {
+   "title": "Gentleman Ultra - When Pelé and Rivera Played A Final in Milan",
+   "url": "https://www.gentlemanultra.com/?p=14293",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-01-02",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "The highly controversial return leg in Brazil finished 4-2 to a Santos side without Pelé with two of their goals coming from free kicks in the second half.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A apoteose de Pelé",
+   "url": "https://trivela.com.br/brasil/a-apoteose-de-pele-como-o-rei-brilhou-nos-titulos-sul-americanos-e-mundiais-do-santos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Pelé abriu o placar, aos 31 minutos, pegando rebote de uma falta cobrada por Pepe.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Libertadores de 1962: Confusões e garrafas",
+   "url": "https://trivela.com.br/historia-libertadores-de-1962-confusoes-e-garrafas/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2012-02-11",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Após cobrança de escanteio de Joya, Spencer novamente balançou as redes do Peixe.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Pelé, armando e atacando com a mesma eficiência, voltando a impedir com a sua presença que o Boca Juniors trabalhasse à vontade (Jornal do Brasil)",
+   "verified": true
+  },
+  {
+   "title": "These Football Times - Pelé and Eusébio",
+   "url": "https://thesefootballtimes.co/2018/08/21/remembering-the-three-rare-but-momentous-occasions-when-pele-and-eusebio-squared-off/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-08-21",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "After the opening exchanges, with Santos under an increasing amount of pressure as Benfica were urged on by their vociferous support, the Brazilians suddenly clicked into gear.",
+   "verified": true
+  },
+  {
+   "title": "Jornal de Brasília - Show dos reis",
+   "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/historias-da-bola/show-dos-reis/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-05-11",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Mas a vingança do “Rei” seria “maligrina”: 5 x 0, com Pelé (2), Dorval, Pepe e Coutinho na rede.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - 21º Lula: O formador de um esquadrão",
+   "url": "https://trivela.com.br/sem-categoria/21o-lula-o-formador-de-um-esquadrao/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2010-11-01",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Antigamente jogava-se e deixava-se o adversário jogar, à semelhança do futebol praticado hoje pelo Santos. Atualmente, a grande maioria das nossas equipes preocupa-se mais em defender do que em atacar. Sistema rígido ou variável? Ora, devemos jogar de acordo com o nosso adversário, nunca ficar preso a um sistema. Isso é muito perigoso”",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Lula believed that the Santos machine would only become more efficient if it was exposed to different ideologies and that was the primary motive of taking his brain-child places.",
+   "verified": false
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "O técnico Lula, ao Jornal dos Sports: “Pode estar certo de que o plantel está tranquilo. E essa tranquilidade é o fator principal para a nossa recuperação. Tivemos que nos precaver com o Boca, pois os argentinos, além de jogarem bem, atuam com muita malícia.”",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Zito surgia como o grande xerife na cabeça de área, pronto a limpar os trilhos, acompanhado por Lima na organização.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "In central midfield, Zito and Mengalivo(both of whom were Santos academy graduates) held the fort with Zito providing the grit and Mengalivo the calm.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Lima, pelo ritmo de jogo, pela certeza dos passes, por sua presença no meio-campo, foi a maior figura do jogo. (Correio da Manhã)",
+   "verified": true
+  },
+  {
+   "title": "Trivela - 21º Lula: O formador de um esquadrão",
+   "url": "https://trivela.com.br/sem-categoria/21o-lula-o-formador-de-um-esquadrao/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2010-11-01",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Foi desta forma que trouxe Lima e Dorval do Juventus, Mengálvio do Aimoré, Toninho Guerreiro do Noroeste e Carlos Alberto Torres do Fluminense.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - 21º Lula: O formador de um esquadrão",
+   "url": "https://trivela.com.br/sem-categoria/21o-lula-o-formador-de-um-esquadrao/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2010-11-01",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Além de ter formado alguns dos principais nomes da equipe nas categorias de base, foi ele também o responsável por buscar promessas em ascensão em outros clubes.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle - Santos 1962: The story of Pele and his friends",
+   "url": "https://thehardtackle.com/2014/santos-1962-the-story-of-pele-and-his-friends/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-04-03",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "He did not hesitate in promoting youth to the first time, with age being a mere figure for him. The likes of Zito, Jair, Mengalvio and Coutinho rose to prominence under Lula",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Como opção no banco, ainda havia Almir Pernambuquinho, Mengálvio e Toninho Guerreiro.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A apoteose de Pelé",
+   "url": "https://trivela.com.br/brasil/a-apoteose-de-pele-como-o-rei-brilhou-nos-titulos-sul-americanos-e-mundiais-do-santos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "No jogo de volta contra o Milan, no Maracanã, seria o Amarildo do técnico Lula: o responsável por substituir Pelé, que havia sofrido outra distensão muscular",
+   "verified": true
+  },
+  {
+   "title": "Trivela - 21º Lula: O formador de um esquadrão",
+   "url": "https://trivela.com.br/sem-categoria/21o-lula-o-formador-de-um-esquadrao/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2010-11-01",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Lula esteve longe de ostentar o estilo “professor” ou “estrategista”. Antes de qualquer coisa, era sincero no ambiente de trabalho. (...) O comandante do esquadrão santista sabia manter o bom clima em seu grupo.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A apoteose de Pelé",
+   "url": "https://trivela.com.br/brasil/a-apoteose-de-pele-como-o-rei-brilhou-nos-titulos-sul-americanos-e-mundiais-do-santos/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "os jornais relataram discussões entre Pelé e Dorval. Nada de muito importante. “Ele queria que fizéssemos o que ele fazia, então confesso que não era fácil”, contou Pepe.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - Santos x Boca na final de 1963",
+   "url": "https://trivela.com.br/america-do-sul/libertadores/pele-sublime-em-duas-vitorias-lendarias-do-esquadrao-alvinegro-as-lembrancas-do-santos-x-boca-na-final-de-1963/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-12-29",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Deambrossi: “O Santos está cansado e desorganizado. O que mais me impressionou foi ver como seus jogadores se xingam em campo” (rival coach's view)",
+   "verified": false
+  },
+  {
+   "title": "Lula (football manager) - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lula_(football_manager)",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-03-16",
+   "eventDate": "1966",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Lula left Peixe in the end of the 1966 season; although it is mainly attributed to the club's second place in the Taça Brasil, some reported altercations with Pelé are also attributed",
+   "verified": false
+  },
+  {
+   "title": "Trivela - Libertadores de 1962: Confusões e garrafas",
+   "url": "https://trivela.com.br/historia-libertadores-de-1962-confusoes-e-garrafas/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2012-02-11",
+   "eventDate": "1962",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Santos: Gilmar; Lima, Mauro e Dalmo; Zito e Calvet; Dorval, Mengálvio, Coutinho, Pelé e Pepe. Técnico: Lula.",
+   "verified": true
+  },
+  {
+   "title": "Jornal de Brasília - Show dos reis",
+   "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/historias-da-bola/show-dos-reis/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-05-11",
+   "eventDate": "1963",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "O Santos daquele dia foi escalado pelo treinador Lula (Luís Alonso Peres) com: Gilmar, Lima, Mauro e Dalmo: Calvet e Zito; Dorval, Mengálvio, Coutinho, Pelé e Pepe.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Sistema rígido ou variável? Ora, devemos jogar de acordo com o nosso adversário, nunca ficar preso a um sistema. Isso é muito perigoso",
+   "date": "1962",
+   "source": "Lula, Revista do Esporte 1962, as cited by Trivela (2010); the quote paragraph itself is attributed generically ('dizia')",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "ser honesto, fazer com que os seus comandados tenham confiança em si, ter autoridade no serviço que executa, para evitar palpites de terceiros, e saber dirigir-se aos seus comandados nos diversos momentos",
+   "date": "1962",
+   "source": "Lula, Revista do Esporte 1962, as cited by Trivela (2010)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "O time caiu no segundo tempo, mas não podia ser de outra forma. Não há pernas que aguentem 90 minutos corridos, numa semana onde os compromissos se repetem quase sem intervalo para descanso.",
+   "date": "1963-09-04",
+   "source": "Lula, Jornal dos Sports/Correio via Trivela (2022), after Santos 3-2 Boca (first leg date from Wikipedia summary)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2850271",
+   "reason": "403"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several Tier B Portuguese pieces (Trivela) with dated in-period facts, but no Tier A tactical study, marking system undocumented, one blog for shape detail; retrospective only."
+ }
+}

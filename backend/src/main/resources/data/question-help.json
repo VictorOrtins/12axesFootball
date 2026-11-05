@@ -1,1369 +1,312 @@
 [
   {
-    "id": "estrutura_01",
-    "agree": "Estados e municípios decidem sozinhos sobre transporte local, urbanismo e segurança, sem pedir aval ao governo federal.",
-    "disagree": "O governo federal pode intervir e ter a palavra final em assuntos locais.",
-    "note": "A pergunta mede quanto poder fica nos governos locais. Quem quer um Estado mínimo, ou nenhum, também concorda: o que importa é tirar poder do centro."
+    "id": "pos_01",
+    "agree": "O time busca ter mais a bola que o adversário em todo jogo, porque quem tem a posse dita o ritmo.",
+    "disagree": "Ter mais ou menos a bola não importa por si só, e o time pode abrir mão dela sem perder o controle do jogo."
   },
   {
-    "id": "estrutura_02",
-    "agree": "Uma lei federal vale igual em todo o país, e nenhum estado pode adotar regra diferente por preferência própria.",
-    "disagree": "Cada estado pode adotar regras diferentes das de outros, conforme a preferência da população local.",
-    "note": "A pergunta mede quem decide: o país inteiro ou cada estado. Quem quer poucas leis, mas iguais em todo lugar, deve pensar só em quem faz as regras."
+    "id": "pos_02",
+    "agree": "Um time domina quando cria mais chances, mesmo que o adversário fique com a bola a maior parte do tempo.",
+    "disagree": "Dominar um jogo passa por ter a bola, e um time que fica sem ela está sendo dominado."
   },
   {
-    "id": "estrutura_03",
-    "agree": "Assuntos locais, como lixo, trânsito da cidade e uso do solo, são regulados por prefeituras e governos estaduais, não pelo governo nacional.",
-    "disagree": "O governo nacional também pode criar leis sobre esses assuntos locais.",
-    "note": "Mede em qual nível de governo a lei é feita. Quem quer poucas leis, ou nenhuma, pode concordar se o que prevalece é o poder local, e não o central."
+    "id": "pos_03",
+    "agree": "Contra quem se fecha, o time fica com a bola e circula com paciência até o adversário abrir um espaço.",
+    "disagree": "Contra quem se fecha, o time pode devolver a bola ao rival para atraí-lo e atacar o espaço que ele deixar.",
+    "note": "A pergunta mede o que fazer com a bola, não a velocidade dos passes. Quem quer ficar com a bola mas jogar rápido também concorda."
   },
   {
-    "id": "estrutura_04",
-    "agree": "Todas as escolas do país ensinam o mesmo conteúdo básico, definido em nível nacional.",
-    "disagree": "Cada estado, ou até cada cidade, define o currículo das suas escolas.",
-    "note": "A pergunta é sobre quem define o currículo. Quem quer escola livre, privada ou ensino em casa, sem currículo imposto, está do lado de discordar."
+    "id": "pos_04",
+    "agree": "Com atacantes velozes, o time cede a bola de propósito para o rival se adiantar e deixar espaço nas costas.",
+    "disagree": "Mesmo com atacantes velozes, o time prefere ter a bola e usar a velocidade deles de outro jeito."
   },
   {
-    "id": "estrutura_05",
-    "agree": "Cada estado escreve a própria Constituição, e o governo federal não pode vetar o que ela diz.",
-    "disagree": "O governo federal define limites que as regras fundamentais dos estados precisam respeitar."
+    "id": "pos_05",
+    "agree": "A posse também protege o time, e ficar com a bola é uma forma de não sofrer ataques.",
+    "disagree": "Defender é trabalho de quem está sem a bola, e ficar com ela não deixa o time mais seguro."
   },
   {
-    "id": "estrutura_06",
-    "agree": "Uma única polícia, com comando nacional, atua em todo o país.",
-    "disagree": "Cada estado mantém e comanda a própria polícia, com autonomia em relação ao governo federal.",
-    "note": "Mede se o comando da polícia é nacional ou regional. Quem quer polícia privada, comunitária ou nenhuma polícia está do lado de discordar."
+    "id": "pro_01",
+    "agree": "Com o centroavante livre nas costas da defesa, o time lança direto sem pensar duas vezes.",
+    "disagree": "Mesmo com o centroavante livre, o time prefere avançar trocando passes curtos a arriscar o lançamento."
   },
   {
-    "id": "estrutura_07",
-    "agree": "A maior parte do que se paga de imposto fica no estado ou município onde foi arrecadada, para ser gasta lá.",
-    "disagree": "Boa parte dos impostos vai para o governo central, que redistribui entre as regiões, inclusive das mais ricas para as mais pobres."
+    "id": "pro_02",
+    "agree": "Mesmo pressionado, o time sai jogando com passes curtos desde o goleiro e aceita o risco de perder a bola perto da área.",
+    "disagree": "Sob pressão alta, o time chuta para frente ou lança, porque perder a bola perto da própria área custa caro demais."
   },
   {
-    "id": "estrutura_08",
-    "agree": "Uma autoridade central coordena a saúde pública, com as mesmas regras e protocolos em todos os estados.",
-    "disagree": "Estados e municípios organizam a saúde pública do seu jeito, com regras e prioridades próprias.",
-    "note": "A pergunta mede quem coordena a saúde, não se ela deve ser pública. Quem prefere saúde privada ou comunitária, sem comando central, está do lado de discordar."
+    "id": "pro_03",
+    "agree": "O time procura sempre o passe para frente, e tocar para o lado ou para trás é perder tempo.",
+    "disagree": "Passes para o lado e para trás fazem parte da construção e ajudam a achar o momento de avançar."
   },
   {
-    "id": "estrutura_09",
-    "agree": "Se a maioria de um estado votar pela independência, ele pode se separar do país.",
-    "disagree": "Nenhum estado pode se separar só por voto próprio, nem com maioria local a favor.",
-    "note": "Mede o direito de uma região se separar. Quem defende secessão por qualquer motivo, até de cidades ou indivíduos, concorda."
+    "id": "pro_04",
+    "agree": "O volante ideal é seguro com a bola e prefere o passe garantido ao passe arriscado.",
+    "disagree": "O volante ideal arrisca passes entre as linhas, mesmo que perca mais bolas."
   },
   {
-    "id": "estrutura_10",
-    "agree": "Todos os estados seguem as mesmas regras nacionais de imposto, para impedir guerra fiscal entre eles.",
-    "disagree": "Cada estado define livremente seus impostos, mesmo que isso crie concorrência entre estados.",
-    "note": "Mede quem define as regras de imposto, não o tamanho dos impostos. Quem quer cortar ou acabar com impostos deve pensar só em quem tem o poder de decidir."
+    "id": "pro_05",
+    "agree": "Depois de recuperar a bola, o time ataca o gol o mais rápido possível, com poucos toques.",
+    "disagree": "Depois de recuperar a bola, o time pode segurá-la e se organizar antes de atacar.",
+    "note": "A pergunta fala da velocidade do ataque depois da recuperação, não de onde a bola é recuperada."
   },
   {
-    "id": "estrutura_11",
-    "agree": "Povos indígenas e quilombolas se governam por regras próprias dentro de seus territórios.",
-    "disagree": "As mesmas leis nacionais valem em qualquer lugar do país, inclusive nesses territórios.",
-    "note": "A pergunta mede quem faz as regras: o território ou o país. Não mede o que você pensa sobre esses povos."
+    "id": "est_01",
+    "agree": "Cada jogador tem uma zona definida e a respeita, para o time ficar sempre bem distribuído no campo.",
+    "disagree": "Os jogadores podem sair das suas zonas para se juntar aos companheiros onde a jogada estiver."
   },
   {
-    "id": "estrutura_12",
-    "agree": "A CLT, ou a lei trabalhista, é a mesma em todos os estados.",
-    "disagree": "Cada estado pode ter regras trabalhistas diferentes, como jornada, salário mínimo ou férias.",
-    "note": "Mede se a regra é única ou varia por região. Quem quer pouca ou nenhuma regra trabalhista, deixando tudo a contrato livre, está do lado de discordar."
+    "id": "est_02",
+    "agree": "O time ataca com muitos jogadores perto da bola, trocando passes curtos e tabelas em pouco espaço.",
+    "disagree": "O time ataca com os jogadores espalhados pelo campo, cada um ocupando um espaço, para esticar a defesa adversária."
   },
   {
-    "id": "estrutura_13",
-    "agree": "Uma cidade pode aprovar leis que contrariam as nacionais, como regras próprias sobre drogas, armas ou comércio.",
-    "disagree": "Nenhuma lei municipal pode contrariar a lei nacional."
+    "id": "est_03",
+    "agree": "O ponta fica aberto, colado na linha lateral, mesmo quando a bola está do outro lado ou no meio.",
+    "disagree": "O ponta pode sair da lateral e entrar no meio para participar da jogada.",
+    "note": "Esta pergunta conta também para o eixo de largura. Quem concorda tende ao jogo pelas pontas, além de preferir posições fixas."
   },
   {
-    "id": "estrutura_14",
-    "agree": "O presidente decide em conflitos com governadores, e os estados precisam acatar.",
-    "disagree": "Governadores têm autonomia própria, e o presidente não tem poder de resolver o conflito a seu favor.",
-    "note": "A pergunta mede o poder do centro sobre os estados, e não se o presidente é bom ou eleito. Quem rejeita qualquer governante forte deve pensar só nessa relação."
+    "id": "est_04",
+    "agree": "O centroavante circula pelo campo, recua para tabelar e ajuda a construir as jogadas.",
+    "disagree": "O centroavante fica na área, onde é mais perigoso, e espera a bola chegar até ele."
   },
   {
-    "id": "estrutura_15",
-    "agree": "O país é uma união de estados fortes, com poderes políticos próprios, como nos EUA ou na Alemanha.",
-    "disagree": "O país é governado de forma mais centralizada, com os estados dependendo do governo central, como na França."
+    "id": "est_05",
+    "agree": "Um bom time tem posições claras e ensaiadas, e cada jogador sabe onde estar com e sem a bola.",
+    "disagree": "Um bom time se organiza durante o jogo, com os jogadores decidindo juntos onde ocupar o campo."
   },
   {
-    "id": "estrutura_16",
-    "agree": "O governo federal pode derrubar leis de estados e cidades que considere contrárias ao interesse nacional.",
-    "disagree": "Leis estaduais e municipais continuam valendo, mesmo que o governo federal discorde.",
-    "note": "A pergunta fala em anular leis locais por interesse nacional. Quem aceitaria anular uma lei local só para proteger direitos individuais deve pensar apenas no critério do interesse nacional."
+    "id": "lar_01",
+    "agree": "O caminho para o gol passa pelos lados, com o ponta vencendo o lateral e cruzando para a área.",
+    "disagree": "O caminho para o gol passa pelo meio, e os cruzamentos são só um recurso entre outros."
   },
   {
-    "id": "estrutura_17",
-    "agree": "Regiões com identidade cultural forte, como o Sul ou o Nordeste, têm mais autonomia política do que as demais.",
-    "disagree": "Todas as regiões têm o mesmo grau de autonomia, independentemente da cultura.",
-    "note": "Mede se a autonomia deve variar de região para região, e não o valor de uma cultura específica. Quem quer autonomia igual e ampla para todos discorda, pois a pergunta fala em dar mais a algumas."
+    "id": "lar_02",
+    "agree": "O time concentra seus melhores jogadores no meio e ataca preferencialmente por dentro.",
+    "disagree": "O time usa os lados do campo para atacar e coloca jogadores decisivos nas pontas."
   },
   {
-    "id": "estrutura_18",
-    "agree": "Nenhuma região pode se separar, mesmo que a maioria da população local queira.",
-    "disagree": "Uma região pode se separar se a população local apoiar.",
-    "note": "Aqui concordar é o lado unitário, ao contrário da pergunta sobre o direito de se separar. Quem defende a secessão deve discordar."
+    "id": "lar_03",
+    "agree": "Contra um meio congestionado, o time abre o jogo e chega à área pelos lados, com cruzamentos e jogadas de linha de fundo.",
+    "disagree": "Mesmo contra um meio congestionado, o time insiste por dentro, com tabelas e passes curtos para furar o bloqueio."
   },
   {
-    "id": "estrutura_19",
-    "agree": "A educação pública é administrada pelas prefeituras, com escolas e redes municipais.",
-    "disagree": "A educação pública é administrada pelo governo federal ou estadual, e não pelas prefeituras.",
-    "note": "Mede o nível de governo que administra, e não se a escola deve ser pública. Quem prefere escola privada ou comunitária, sem Estado central, também concorda."
+    "id": "lar_04",
+    "agree": "Na escalação, um meia a mais por dentro vale mais do que dois pontas abertos.",
+    "disagree": "Na escalação, dois pontas abertos valem mais do que um meia a mais por dentro."
   },
   {
-    "id": "estrutura_20",
-    "agree": "Governadores e prefeitos são executores das decisões do governo central sobre assuntos locais.",
-    "disagree": "Governadores e prefeitos decidem por conta própria os assuntos locais."
+    "id": "lar_05",
+    "agree": "Sem pontas abertos o time perde amplitude e fica fácil de marcar, então eles são indispensáveis.",
+    "disagree": "Um time pode ser imprevisível sem pontas abertos, atacando por dentro ou com os laterais.",
+    "note": "Quem acha que a amplitude pode vir dos laterais, e não dos pontas, deve pensar se prefere o jogo pelos lados ou por dentro."
   },
   {
-    "id": "representacao_01",
-    "agree": "O resultado de uma eleição livre deve ser respeitado, mesmo quando o povo elege um governo que você considera ruim.",
-    "disagree": "Quando uma eleição produz um governo ruim, é aceitável limitar ou anular o resultado.",
-    "note": "Mede se o povo tem a palavra final, mesmo errando. Quem rejeita eleições por rejeitar o Estado deve pensar só em se o povo deve decidir, e não uma elite ou tribunal."
+    "id": "blo_01",
+    "agree": "Assim que perde a bola, o time pressiona na hora para recuperá-la ainda no campo adversário.",
+    "disagree": "Ao perder a bola, o time recua e se reorganiza atrás antes de tentar recuperá-la."
   },
   {
-    "id": "representacao_02",
-    "agree": "Numa crise grave, como guerra ou colapso econômico, o líder pode governar por decreto, sem esperar o Congresso.",
-    "disagree": "Mesmo numa crise grave, o líder continua precisando da aprovação do Congresso."
+    "id": "blo_02",
+    "agree": "O time defende recuado, perto da própria área, com as linhas compactas e pouco espaço entre elas.",
+    "disagree": "O time defende adiantado, longe da própria área, e aceita deixar espaço nas costas."
   },
   {
-    "id": "representacao_03",
-    "agree": "Qualquer pessoa ou partido de oposição pode criticar publicamente o governo, sem ser punido por isso.",
-    "disagree": "O governo pode proibir ou punir certos tipos de crítica, por exemplo em nome da ordem ou da segurança.",
-    "note": "Mede a liberdade de a oposição criticar o poder. Quem apoia um governo revolucionário ou de partido único, mas acha que críticas devem ser limitadas, discorda."
+    "id": "blo_03",
+    "agree": "Os atacantes pressionam a saída de bola adversária e são parte ativa da defesa.",
+    "disagree": "Os atacantes podem esperar o adversário sair jogando e guardar energia para atacar."
   },
   {
-    "id": "representacao_04",
-    "agree": "Um pequeno grupo de líderes toma as decisões com rapidez, sem precisar da aprovação de vários poderes.",
-    "disagree": "O poder é dividido entre instituições que se limitam entre si, como Congresso, tribunais e presidente."
+    "id": "blo_04",
+    "agree": "Contra quem sai bem jogando, o time recua e espera o adversário no próprio campo.",
+    "disagree": "Contra quem sai bem jogando, o time pressiona a saída para não deixar o adversário construir."
   },
   {
-    "id": "representacao_05",
-    "agree": "Tribunais independentes, como o STF, podem derrubar decisões do governo eleito.",
-    "disagree": "Decisões do governo eleito não podem ser derrubadas por juízes não eleitos.",
-    "note": "A pergunta trata juízes independentes como um freio ao governo. Quem põe a vontade da maioria acima dos tribunais e quem confia nos juízes para limitar o poder respondem de lados opostos."
+    "id": "blo_05",
+    "agree": "As melhores chances nascem de roubadas de bola no campo adversário, e o time é treinado para isso.",
+    "disagree": "As melhores chances nascem de jogadas construídas ou ensaiadas, não de roubadas de bola lá na frente."
   },
   {
-    "id": "representacao_06",
-    "agree": "Se um governante é bom, pode ser reeleito sem limite de mandatos.",
-    "disagree": "Há um limite de mandatos para qualquer governante, por melhor que ele seja.",
-    "note": "A pergunta mede o limite de mandatos, e não se existem eleições. Quem aceita eleições regulares, mas apoia um líder popular por muito tempo, pode concordar. Quem desconfia de qualquer poder prolongado, como muitos libertários, tende a discordar."
+    "id": "mar_01",
+    "agree": "Cada defensor cuida de um espaço e marca quem entrar nele.",
+    "disagree": "Cada defensor tem um adversário para marcar e o acompanha por onde ele for."
   },
   {
-    "id": "representacao_07",
-    "agree": "Todo adulto tem direito ao voto secreto, inclusive quem está mal informado.",
-    "disagree": "O voto pode ser restrito a certos grupos ou deixar de ser secreto.",
-    "note": "Quem recusa votar por princípio, por não reconhecer o Estado, deve pensar só em como as decisões deveriam ser tomadas se houvesse votação."
+    "id": "mar_02",
+    "agree": "O craque adversário recebe um marcador exclusivo, que o acompanha o jogo todo.",
+    "disagree": "O craque adversário é marcado por quem estiver no setor dele, sem um marcador exclusivo."
   },
   {
-    "id": "representacao_08",
-    "agree": "Se um governante é eficiente, pode seguir no poder sem precisar de novas eleições.",
-    "disagree": "Todo governante precisa disputar eleições periódicas, por mais eficiente que seja.",
-    "note": "Mede se o poder depende de eleições periódicas. Quem rejeita qualquer governante, e não só o eficiente, deve pensar apenas em se o poder precisa ser renovado pelo voto."
+    "id": "mar_03",
+    "agree": "Marcar homem a homem deixa as responsabilidades claras, e isso é uma vantagem.",
+    "disagree": "Responsabilidades claras não compensam os problemas da marcação individual, e defender por zona é melhor."
   },
   {
-    "id": "representacao_09",
-    "agree": "A população pode anular uma lei por voto direto em referendo, sem passar pelo Congresso.",
-    "disagree": "Leis só mudam por decisão dos representantes eleitos, e não por voto direto sobre cada lei.",
-    "note": "Discordar aqui não significa ser contra a participação popular, só que ela passe pelo voto direto em leis específicas."
+    "id": "mar_04",
+    "agree": "No escanteio, os jogadores defendem espaços na área, como a primeira trave e a pequena área.",
+    "disagree": "No escanteio, cada jogador pega um adversário e o acompanha até a bola chegar.",
+    "note": "Muitos times usam um sistema misto. Pense em qual dos dois deve ser a base."
   },
   {
-    "id": "representacao_10",
-    "agree": "Quem governa deve ser escolhido por competência, tradição ou herança, e não por voto popular.",
-    "disagree": "Quem governa deve ser escolhido por voto popular.",
-    "note": "Quem rejeita qualquer governante, ou quer líderes escolhidos por um partido ou conselho, não está em nenhum dos dois lados: Neutro é uma resposta possível."
+    "id": "mar_05",
+    "agree": "Na zona o adversário recebe sem pressão, e marcar em cima de cada jogador tira esse tempo dele.",
+    "disagree": "A zona marca bem os espaços, e o adversário não ganha liberdade demais por isso."
   },
   {
-    "id": "representacao_11",
-    "agree": "Os eleitores podem tirar do cargo um político antes do fim do mandato, por exemplo por referendo revogatório.",
-    "disagree": "O político cumpre o mandato inteiro, mesmo que seja mal avaliado, e só sai no fim do prazo."
+    "id": "pla_01",
+    "agree": "O treinador chega com seu modelo de jogo pronto, e os jogadores é que precisam se encaixar nele.",
+    "disagree": "O treinador monta o jeito de jogar a partir das características dos jogadores que encontra."
   },
   {
-    "id": "representacao_12",
-    "agree": "Se acelerasse o desenvolvimento do país, um regime autoritário seria melhor do que a democracia.",
-    "disagree": "A democracia deve ser mantida, mesmo que o desenvolvimento seja mais lento.",
-    "note": "Quem rejeita tanto o regime autoritário quanto a democracia representativa, por exemplo por preferir uma sociedade sem Estado, pode responder Neutro."
+    "id": "pla_02",
+    "agree": "A preparação de cada jogo começa pelo adversário, e o plano muda para explorar os pontos fracos dele.",
+    "disagree": "A preparação de cada jogo começa pelo próprio time, e o adversário é só um detalhe."
   },
   {
-    "id": "representacao_13",
-    "agree": "É melhor partidos diferentes se revezarem no poder do que um mesmo grupo governar por décadas.",
-    "disagree": "Um mesmo grupo pode governar por décadas, desde que seja escolhido por quem vota.",
-    "note": "Mede a preferência pela alternância, não a legitimidade da eleição. Quem rejeita partidos e política em geral deve pensar só em se o poder deve mudar de mãos."
+    "id": "pla_03",
+    "agree": "No empate, o time confia no seu jeito de jogar e muda pouco, esperando o gol sair naturalmente.",
+    "disagree": "No empate, o treinador muda o esquema ou a estratégia no intervalo para buscar o resultado."
   },
   {
-    "id": "representacao_14",
-    "agree": "Quem governa são especialistas escolhidos por mérito, como numa tecnocracia, sem precisar de voto popular.",
-    "disagree": "Quem governa precisa ter sido eleito pela população."
+    "id": "pla_04",
+    "agree": "Contra um time muito melhor, o treinador abandona seu estilo e monta o time para anular o adversário.",
+    "disagree": "Mesmo contra um time muito melhor, o time mantém seu estilo de jogo.",
+    "note": "Esta pergunta conta também para o eixo de propósito. Quem concorda tende ao resultado, além de se adaptar ao rival."
   },
   {
-    "id": "representacao_15",
-    "agree": "Quem governa só tem autoridade com o consentimento das pessoas afetadas por suas decisões.",
-    "disagree": "Quem governa pode decidir sem depender da aprovação das pessoas afetadas.",
-    "note": "Quem rejeita qualquer governo (como anarquistas) deve pensar só no que vem depois: se alguém decide, a aprovação de quem é afetado é necessária?"
+    "id": "pla_05",
+    "agree": "O time joga sempre do mesmo jeito, independente de quem esteja do outro lado.",
+    "disagree": "O jeito de jogar muda de acordo com o adversário."
   },
   {
-    "id": "representacao_16",
-    "agree": "Nem todo adulto deveria votar; o voto pode exigir, por exemplo, instrução, renda ou idade.",
-    "disagree": "Todo adulto tem direito ao voto, sem exigências.",
-    "note": "Mede se o voto é universal. Quem prefere que decisões sejam tomadas em assembleias ou voluntariamente, sem voto estatal, deve pensar só em quem deve poder participar das decisões."
+    "id": "res_01",
+    "agree": "Jogar bonito tem valor próprio, e um time pode marcar a história mesmo sem ganhar títulos.",
+    "disagree": "Um time que perde é esquecido, por mais bonito que tenha jogado."
   },
   {
-    "id": "representacao_17",
-    "agree": "A sociedade se governa por assembleias populares abertas, sem presidentes, partidos ou representantes eleitos.",
-    "disagree": "A sociedade tem líderes políticos ou representantes eleitos.",
-    "note": "Quem prefere governo mínimo ou nenhum pode concordar aqui, se o que vale são decisões tomadas em assembleia."
+    "id": "res_02",
+    "agree": "Fora de casa contra um time forte, o time aceita o empate e joga para não perder.",
+    "disagree": "Fora de casa contra um time forte, o time joga para ganhar e não se contenta com o empate.",
+    "note": "Esta pergunta conta também para o eixo de plano de jogo. Quem concorda tende a se adaptar ao rival, além de priorizar o resultado."
   },
   {
-    "id": "representacao_18",
-    "agree": "É mais importante governar com eficiência do que garantir espaço e voz à oposição.",
-    "disagree": "Garantir espaço à oposição é mais importante do que a eficiência de quem governa."
+    "id": "res_03",
+    "agree": "Com a vitória na mão, o time recua, reforça a defesa e segura o placar.",
+    "disagree": "Mesmo ganhando no fim, o time continua jogando do mesmo jeito e pode até buscar mais um gol.",
+    "note": "Esta pergunta conta também para o eixo de bloco. Quem concorda tende ao bloco baixo, além de priorizar o resultado."
   },
   {
-    "id": "representacao_19",
-    "agree": "Mesmo com enorme maioria, o governo não pode retirar direitos da oposição, como falar, se organizar e disputar eleições.",
-    "disagree": "Um governo com enorme maioria pode limitar direitos da oposição.",
-    "note": "A pergunta protege a oposição contra a maioria, e não a favor do governo. Quem acha que a vontade da maioria revolucionária justifica reprimir adversários discorda."
+    "id": "res_04",
+    "agree": "A forma de vencer importa mais do que o placar, e uma vitória feia vale menos.",
+    "disagree": "Uma vitória é uma vitória, seja qual for a forma."
   },
   {
-    "id": "representacao_20",
-    "agree": "Um regime autoritário que dá estabilidade é melhor do que uma democracia instável.",
-    "disagree": "Uma democracia instável é melhor do que um regime autoritário estável.",
-    "note": "Quem rejeita tanto o regime autoritário quanto a democracia representativa, por exemplo por preferir uma sociedade sem Estado, pode responder Neutro."
+    "id": "res_05",
+    "agree": "O que o torcedor quer é a vitória, e o espetáculo vem depois.",
+    "disagree": "O torcedor também quer se divertir, e um time que só ganha sem encantar deixa a desejar."
   },
   {
-    "id": "poder_01",
-    "agree": "A polícia usa força e operações duras, como incursões armadas, para retomar áreas dominadas por facções.",
-    "disagree": "A ação policial nessas áreas é mais contida, com mais inteligência e prevenção do que confronto.",
-    "note": "A pergunta mede o rigor do Estado contra o crime. Quem quer acabar com a polícia estatal, ou trocá-la por policiamento comunitário ou privado, fica do lado de discordar."
+    "id": "sis_01",
+    "agree": "O coletivo bem treinado faz jogadores comuns renderem acima do que renderiam sozinhos.",
+    "disagree": "Nenhum sistema faz milagre, e o nível do time depende da qualidade dos jogadores."
   },
   {
-    "id": "poder_02",
-    "agree": "Um adulto pode usar maconha sem ser tratado como criminoso.",
-    "disagree": "Usar maconha continua sendo crime, mesmo para adultos.",
-    "note": "A pergunta é sobre ser crime. Quem defende descriminalizar, mas manter regras ou tratar o tema como saúde, fica no meio: Neutro ou a opção mais próxima."
+    "id": "sis_02",
+    "agree": "O jogador talentoso tem liberdade para errar e continuar tentando a jogada individual.",
+    "disagree": "Depois de errar algumas vezes, o jogador deve simplificar e jogar para o coletivo."
   },
   {
-    "id": "poder_03",
-    "agree": "O Estado pode ler e monitorar conversas digitais, como mensagens e chamadas, para prevenir ou investigar crimes.",
-    "disagree": "O Estado não pode monitorar conversas digitais, nem para combater crimes.",
-    "note": "Mede o acesso do Estado às comunicações privadas. Quem confia em criptografia e privacidade como direito, seja libertário ou anarquista, discorda."
+    "id": "sis_03",
+    "agree": "As funções táticas valem para todos, e nem o craque está dispensado de defender.",
+    "disagree": "O craque pode ser poupado das tarefas defensivas para guardar energia para decidir.",
+    "note": "Esta pergunta conta também para o eixo de liderança. Quem concorda tende à autoridade do treinador, além de priorizar o sistema."
   },
   {
-    "id": "poder_04",
-    "agree": "Ninguém é punido pelo Estado por expressar uma opinião, mesmo que seja considerada ofensiva.",
-    "disagree": "O Estado pode limitar ou punir certas opiniões ofensivas, como discurso de ódio.",
-    "note": "Mede se o Estado pode punir opiniões. Quem aceita que empresas ou comunidades moderem conteúdo, mas não que o Estado puna, concorda."
+    "id": "sis_04",
+    "agree": "O craque joga solto, com liberdade para aparecer onde achar melhor.",
+    "disagree": "O craque também tem uma função tática definida, como todos os outros."
   },
   {
-    "id": "poder_05",
-    "agree": "Câmeras com reconhecimento facial se espalham pelas ruas para identificar suspeitos, mesmo com perda de privacidade.",
-    "disagree": "Câmeras de reconhecimento facial não são ampliadas, para proteger a privacidade de quem passa na rua.",
-    "note": "A pergunta mede vigilância pelo Estado contra privacidade. Quem aceita câmeras apenas de empresas ou da comunidade, e não do governo, discorda."
+    "id": "sis_05",
+    "agree": "Um time bem treinado e organizado vale mais do que um time de craques sem plano.",
+    "disagree": "Um time de craques acaba resolvendo, mesmo sem um plano bem definido."
   },
   {
-    "id": "poder_06",
-    "agree": "Adultos que consentem podem usar drogas, apostar ou se prostituir sem que isso seja crime.",
-    "disagree": "Pelo menos algumas dessas condutas continuam sendo crime, mesmo entre adultos que consentem."
+    "id": "jog_01",
+    "agree": "Na escalação, a técnica pesa mais do que a velocidade.",
+    "disagree": "Na escalação, a velocidade pesa mais, mesmo que o jogador tenha pouca técnica."
   },
   {
-    "id": "poder_07",
-    "agree": "O Estado pode dissolver partidos que ameacem a ordem pública, como partidos golpistas ou extremistas.",
-    "disagree": "O Estado não pode dissolver partidos, mesmo que ameacem a ordem pública.",
-    "note": "Mede o poder do Estado sobre a organização política. Quem acha que o Estado não deve proibir nenhum partido, nem os que odeia, discorda."
+    "id": "jog_02",
+    "agree": "Força, velocidade e resistência são requisitos básicos para um time competir hoje.",
+    "disagree": "Um time com boa técnica e organização compete mesmo sem ser forte fisicamente."
   },
   {
-    "id": "poder_08",
-    "agree": "Todas as drogas, inclusive cocaína e heroína, podem ser legalizadas para adultos.",
-    "disagree": "Pelo menos as drogas mais pesadas continuam proibidas, mesmo para adultos.",
-    "note": "A pergunta é sobre ser crime. Quem defende descriminalizar, mas manter regras ou tratar o tema como saúde, fica no meio: Neutro ou a opção mais próxima."
+    "id": "jog_03",
+    "agree": "Um meia criativo e técnico tem lugar no time mesmo correndo pouco.",
+    "disagree": "Um meia que não corre não tem lugar no futebol atual, por mais técnico que seja."
   },
   {
-    "id": "poder_09",
-    "agree": "A lei restringe com rigor quem pode ter arma de fogo, com poucos civis autorizados.",
-    "disagree": "Civis têm acesso mais amplo a armas de fogo, com menos restrições do Estado.",
-    "note": "A pergunta mede o quanto o Estado limita o acesso, e não se armas são boas ou ruins. Quem é progressista, mas contra o Estado controlar a posse de armas, como parte da esquerda libertária, discorda."
+    "id": "jog_04",
+    "agree": "No volante, a prioridade é o físico, para marcar, correr e ganhar duelos.",
+    "disagree": "No volante, a prioridade é o passe e a leitura de jogo, mais do que o físico."
   },
   {
-    "id": "poder_10",
-    "agree": "Um adulto pode manter arma de fogo em casa para se defender, sem precisar de autorização difícil do Estado.",
-    "disagree": "Manter arma de fogo em casa é proibido ou muito restrito.",
-    "note": "A pergunta mede o quanto o Estado limita o acesso, e não se armas são boas ou ruins."
+    "id": "jog_05",
+    "agree": "Nos jogos grandes, vence quem ganha mais divididas e mais bolas pelo alto.",
+    "disagree": "Nos jogos grandes, vence quem tem mais qualidade com a bola no pé."
   },
   {
-    "id": "poder_11",
-    "agree": "Em situações graves, como guerra ou desordem, o governo pode proibir as pessoas de sair à noite.",
-    "disagree": "O governo não pode impor toque de recolher, nem em situações graves."
+    "id": "bas_01",
+    "agree": "O elenco tem como base jogadores formados no próprio clube.",
+    "disagree": "O elenco é montado com contratações, e a base é só uma das fontes de jogadores."
   },
   {
-    "id": "poder_12",
-    "agree": "Quem sofre de doença terminal pode escolher legalmente encerrar a própria vida, com ajuda médica.",
-    "disagree": "A eutanásia continua proibida, mesmo para quem sofre de doença terminal.",
-    "note": "A pergunta mede se a pessoa pode decidir sobre a própria vida, e não o valor moral da eutanásia. Quem é contra por convicção religiosa ou moral, mas acha que o Estado não deveria proibir, deve pensar só em se a lei deve proibir."
+    "id": "bas_02",
+    "agree": "Na reta decisiva, a experiência tem prioridade na hora de escalar.",
+    "disagree": "Na reta decisiva, o garoto promissor joga se estiver bem, mesmo sem experiência."
   },
   {
-    "id": "poder_13",
-    "agree": "A vacinação é obrigatória por lei, e o Estado pode punir ou restringir quem recusar.",
-    "disagree": "Vacinar-se ou não é uma escolha de cada pessoa, sem obrigação do Estado.",
-    "note": "A pergunta mede se o Estado pode obrigar, e não se você acredita que vacinas funcionam. Quem defende vacinas, mas contra a obrigação, discorda."
+    "id": "bas_03",
+    "agree": "Com nível parecido, o jogador da base tem preferência sobre o reforço.",
+    "disagree": "Com nível parecido, o reforço tem preferência, porque traz experiência ou foi contratado para isso."
   },
   {
-    "id": "poder_14",
-    "agree": "Na dúvida sobre a culpa, o Estado absolve, mesmo que alguns culpados fiquem livres.",
-    "disagree": "Na dúvida sobre a culpa, o Estado pode condenar, para evitar que culpados fiquem livres."
+    "id": "bas_04",
+    "agree": "Para ganhar títulos o time precisa de jogadores rodados, e os jovens entram aos poucos.",
+    "disagree": "Jovens podem ser protagonistas de um time campeão desde cedo."
   },
   {
-    "id": "poder_15",
-    "agree": "O Estado pode executar quem comete crimes como estupro e homicídio.",
-    "disagree": "O Estado não aplica a pena de morte.",
-    "note": "Quem é duro com o crime, mas desconfia do poder do Estado de matar, como muitos libertários, deve pensar nesse poder e costuma discordar."
+    "id": "bas_05",
+    "agree": "Formar e revelar jogadores é um objetivo do clube tão importante quanto ganhar.",
+    "disagree": "Revelar jogadores é bom, mas o objetivo principal do clube é ganhar títulos.",
+    "note": "A pergunta mede o lugar dos jovens no projeto do clube. Quem pensa em revelar só para vender deve pensar se esses jovens jogariam no time principal."
   },
   {
-    "id": "poder_16",
-    "agree": "Adultos que consentem podem fazer em privado o que quiserem entre si sem que isso seja crime.",
-    "disagree": "Algumas condutas privadas entre adultos que consentem continuam sendo crime."
+    "id": "lid_01",
+    "agree": "O treinador tem a palavra final, e as regras valem igual para todos, inclusive para os craques.",
+    "disagree": "O treinador negocia com as estrelas, e elas podem ter um tratamento diferente."
   },
   {
-    "id": "poder_17",
-    "agree": "O governo pode mandar derrubar perfis que espalham informações falsas.",
-    "disagree": "O governo não pode derrubar perfis por causa do que eles publicam.",
-    "note": "A pergunta é sobre o governo tirar perfis do ar. Quem aceita moderação feita por empresas privadas, mas não pelo governo, deve discordar."
+    "id": "lid_02",
+    "agree": "O bom ambiente e a união do grupo são a base do rendimento.",
+    "disagree": "Disciplina rígida e controle do vestiário rendem mais do que um ambiente leve."
   },
   {
-    "id": "poder_18",
-    "agree": "O governo não pode acompanhar o que cada pessoa compra por Pix, cartão ou outros meios digitais.",
-    "disagree": "O governo pode rastrear compras feitas por meios de pagamento digitais, por exemplo para combater fraude e evasão.",
-    "note": "Mede privacidade financeira contra vigilância do Estado. Quem prefere dinheiro vivo ou criptomoedas sem rastreio concorda."
+    "id": "lid_03",
+    "agree": "O treinador conversa com os líderes do elenco e leva a opinião deles em conta nas decisões.",
+    "disagree": "A escalação é decisão só do treinador, e a opinião dos jogadores não entra nela."
   },
   {
-    "id": "poder_19",
-    "agree": "Quem é suspeito de terrorismo pode ficar preso sem julgamento até a ameaça passar.",
-    "disagree": "Suspeitos de terrorismo só podem ser presos depois de um julgamento."
+    "id": "lid_04",
+    "agree": "Indisciplina tem punição clara, e a punição vale para qualquer jogador.",
+    "disagree": "Um atraso se resolve numa conversa, sem precisar tirar o jogador do time."
   },
   {
-    "id": "poder_20",
-    "agree": "A polícia não pode obrigar ninguém a desbloquear o próprio celular, nem com suspeita de crime.",
-    "disagree": "A polícia pode obrigar alguém a desbloquear o celular, por exemplo com ordem judicial."
-  },
-  {
-    "id": "imigracao_01",
-    "agree": "Quem imigra deve aprender o idioma local e adotar os costumes do país, como forma de integração.",
-    "disagree": "Quem imigra pode manter seu idioma e seus costumes, sem precisar adotar os locais.",
-    "note": "A pergunta mede o que se espera de quem já vive no país, e não quantas pessoas devem entrar. Quem defende fronteiras abertas, mas espera que o imigrante se integre por conta própria, concorda."
-  },
-  {
-    "id": "imigracao_02",
-    "agree": "Vários idiomas convivem no dia a dia do país, em escolas, serviços públicos e na rua.",
-    "disagree": "Um idioma comum predomina no dia a dia, e os demais ficam restritos ao uso privado.",
-    "note": "Mede o pluralismo de línguas, e não a imigração em si. Quem defende fronteiras abertas, mas um idioma comum, discorda."
-  },
-  {
-    "id": "imigracao_03",
-    "agree": "Fechar as fronteiras à imigração é justificável para preservar a identidade cultural do país.",
-    "disagree": "As fronteiras ficam abertas à imigração, e a identidade cultural não é motivo para fechá-las.",
-    "note": "Quem quer limitar a imigração por motivos econômicos ou de segurança, e não culturais, deve pensar só no argumento cultural desta pergunta."
-  },
-  {
-    "id": "imigracao_04",
-    "agree": "Imigrantes podem preservar suas tradições, religião e costumes, mesmo que sejam bem diferentes dos locais.",
-    "disagree": "Espera-se que imigrantes deixem de lado costumes muito diferentes dos locais.",
-    "note": "A pergunta mede o que se espera de quem já vive no país, e não quantas pessoas devem entrar."
-  },
-  {
-    "id": "imigracao_05",
-    "agree": "O país pode recusar a entrada de quem se recusa a respeitar os costumes locais.",
-    "disagree": "O país aceita imigrantes mesmo que eles não adotem os costumes locais."
-  },
-  {
-    "id": "imigracao_06",
-    "agree": "Imigrantes podem viver bem no país sem abrir mão dos seus costumes.",
-    "disagree": "Para viver bem no país, imigrantes precisam abrir mão de parte dos seus costumes.",
-    "note": "A pergunta mede o que se espera de quem já vive no país, e não quantas pessoas devem entrar."
-  },
-  {
-    "id": "imigracao_07",
-    "agree": "Quando há conflito, vale mais proteger as tradições nacionais do que ceder a costumes estrangeiros.",
-    "disagree": "Quando há conflito, vale mais acomodar costumes estrangeiros do que insistir nas tradições nacionais."
-  },
-  {
-    "id": "imigracao_08",
-    "agree": "O país promove ativamente a convivência entre línguas e culturas diferentes.",
-    "disagree": "O país não tem a convivência de línguas e culturas diferentes como objetivo.",
-    "note": "Mede se o Estado deve promover o pluralismo. Quem acha que cada comunidade deve conviver por conta própria, sem programa do governo, está mais perto de discordar."
-  },
-  {
-    "id": "imigracao_09",
-    "agree": "Na seleção de imigrantes, o país prefere quem vem de culturas parecidas com a sua.",
-    "disagree": "O país trata imigrantes de qualquer cultura em pé de igualdade na seleção."
-  },
-  {
-    "id": "imigracao_10",
-    "agree": "As culturas trazidas por imigrantes passam a fazer parte do que é a identidade nacional.",
-    "disagree": "A identidade nacional é definida pela cultura que já existia no país."
-  },
-  {
-    "id": "imigracao_11",
-    "agree": "Quem imigra é obrigado a se adaptar aos costumes locais.",
-    "disagree": "Quem imigra não é obrigado a se adaptar aos costumes locais.",
-    "note": "A pergunta mede o que se espera de quem já vive no país, e não quantas pessoas devem entrar. Quem espera adaptação, mas acha que o Estado não deve obrigar ninguém, deve pensar na expectativa e não na obrigação legal."
-  },
-  {
-    "id": "imigracao_12",
-    "agree": "O Brasil segue acolhendo imigrantes de países em crise, como venezuelanos e haitianos, e aceita a convivência com suas culturas.",
-    "disagree": "O Brasil reduz ou deixa de acolher esses imigrantes.",
-    "note": "A pergunta liga acolher imigrantes à convivência entre culturas, e não mede custo econômico ou segurança."
-  },
-  {
-    "id": "imigracao_13",
-    "agree": "Falar bem o idioma do país deve ser uma condição importante para entrar e permanecer.",
-    "disagree": "Falar o idioma do país não precisa ser prioridade na política de imigração."
-  },
-  {
-    "id": "imigracao_14",
-    "agree": "Imigrantes são avaliados como indivíduos, e não por estereótipos sobre os costumes do país de origem.",
-    "disagree": "É legítimo julgar imigrantes pelos costumes associados ao país de origem."
-  },
-  {
-    "id": "imigracao_15",
-    "agree": "Bairros em que imigrantes vivem isolados na própria cultura prejudicam a integração e criam problemas para o país.",
-    "disagree": "Bairros em que imigrantes vivem na própria cultura são normais e não criam problemas para o país."
-  },
-  {
-    "id": "imigracao_16",
-    "agree": "Filhos de imigrantes podem estudar também no idioma dos pais, em escolas bilíngues.",
-    "disagree": "Filhos de imigrantes estudam apenas no idioma predominante do país.",
-    "note": "Mede o ensino na língua dos pais. Quem quer escolas livres, sem currículo do Estado, deve pensar só em se o ensino bilíngue deve existir."
-  },
-  {
-    "id": "imigracao_17",
-    "agree": "É válido limitar a imigração para proteger a cultura predominante do país.",
-    "disagree": "A imigração não deve ser limitada com o objetivo de proteger a cultura predominante.",
-    "note": "Quem quer limitar a imigração por motivos econômicos ou de segurança, e não culturais, deve pensar só no argumento cultural desta pergunta."
-  },
-  {
-    "id": "imigracao_18",
-    "agree": "Qualquer pessoa pacífica pode entrar e viver no país, sem seleção ou cota.",
-    "disagree": "O país controla e seleciona quem pode entrar.",
-    "note": "Quem aceita imigração, mas com regras e seleção, está mais perto de discordar. Libertários e anarquistas, que rejeitam fronteiras controladas pelo Estado, tendem a concordar."
-  },
-  {
-    "id": "imigracao_19",
-    "agree": "Imigrantes que rejeitam os costumes locais podem perder o direito de permanecer no país.",
-    "disagree": "Imigrantes mantêm o direito de permanecer, mesmo rejeitando os costumes locais."
-  },
-  {
-    "id": "imigracao_20",
-    "agree": "A identidade de cidadão do mundo importa mais do que a identidade nacional.",
-    "disagree": "A identidade nacional importa mais do que a de cidadão do mundo.",
-    "note": "A pergunta compara pertencimento nacional e global. Quem tem forte identidade local ou de classe, mas não nacional, não está em nenhum dos lados: Neutro é possível."
-  },
-  {
-    "id": "diplomacia_01",
-    "agree": "O país investe em Forças Armadas fortes, porque poder militar é o que garante respeito no cenário internacional.",
-    "disagree": "O país ganha respeito pela diplomacia, pela economia e pela cultura, sem depender de Forças Armadas fortes.",
-    "note": "A pergunta mede o valor do poder militar. Quem quer um Estado pequeno por princípio, e não por pacifismo, deve pensar só em se a força militar é o que dá respeito a um país."
-  },
-  {
-    "id": "diplomacia_02",
-    "agree": "Antes de usar a força, o país esgota as negociações e a diplomacia, mesmo que isso demore.",
-    "disagree": "O país pode agir militarmente sem esgotar antes a negociação, se achar necessário."
-  },
-  {
-    "id": "diplomacia_03",
-    "agree": "O país pode atacar primeiro quando um inimigo está se preparando para atacá-lo, sem esperar ser atingido.",
-    "disagree": "O país só usa a força depois de ser atacado.",
-    "note": "Mede o ataque preventivo. Quem aceita guerra defensiva, mas rejeita atacar primeiro, deve discordar."
-  },
-  {
-    "id": "diplomacia_04",
-    "agree": "O país evita a guerra mesmo quando ela daria vantagens, como território ou recursos.",
-    "disagree": "O país aceita ir à guerra quando ela traz vantagens claras.",
-    "note": "Mede se vantagens justificam uma guerra. Quem só aceita guerra defensiva concorda, mesmo sendo duro na defesa."
-  },
-  {
-    "id": "diplomacia_05",
-    "agree": "O país põe os gastos militares à frente de saúde, educação e outras áreas, mesmo quando faltam recursos.",
-    "disagree": "Saúde, educação e outras áreas vêm antes dos gastos militares.",
-    "note": "A pergunta compara gasto militar com outras áreas. Quem quer cortar gastos de todas as áreas, incluindo a militar, deve pensar só em qual vem antes."
-  },
-  {
-    "id": "diplomacia_06",
-    "agree": "O país fecha acordos com adversários e aceita ceder em alguns pontos para evitar conflito.",
-    "disagree": "O país não cede a adversários só para fechar um acordo."
-  },
-  {
-    "id": "diplomacia_07",
-    "agree": "O país desenvolve armas nucleares, como forma de dissuasão e de poder.",
-    "disagree": "O país não desenvolve armas nucleares.",
-    "note": "Quem é contra por desconfiar do poder do Estado, e não por pacifismo, como muitos libertários, também discorda."
-  },
-  {
-    "id": "diplomacia_08",
-    "agree": "O país reduz seus gastos militares e usa o dinheiro em outras áreas ou devolve em menos impostos.",
-    "disagree": "O país mantém ou aumenta seus gastos militares.",
-    "note": "Quem quer cortar o gasto militar para reduzir o Estado, e não por pacifismo, também concorda."
-  },
-  {
-    "id": "diplomacia_09",
-    "agree": "Todo jovem passa pelo serviço militar obrigatório, para o país estar preparado para uma guerra.",
-    "disagree": "O serviço militar não é obrigatório.",
-    "note": "A pergunta é sobre obrigar. Quem apoia Forças Armadas fortes, mas formadas só por voluntários, discorda."
-  },
-  {
-    "id": "diplomacia_10",
-    "agree": "O país prefere fechar acordos de desarmamento a ampliar seu arsenal.",
-    "disagree": "O país prefere ampliar seu arsenal a depender de acordos de desarmamento."
-  },
-  {
-    "id": "diplomacia_11",
-    "agree": "O país dá prioridade a fabricar as próprias armas para a defesa, mesmo que seja mais caro.",
-    "disagree": "O país pode comprar armas de outros países para a defesa.",
-    "note": "A pergunta mede a prioridade à produção nacional de armas. Quem prefere comprar de quem vende mais barato, por livre mercado e não por pacifismo, deve pensar só nessa prioridade."
-  },
-  {
-    "id": "diplomacia_12",
-    "agree": "Nenhuma causa, nem religiosa, política ou ideológica, justifica começar uma guerra.",
-    "disagree": "Algumas causas políticas ou ideológicas justificam começar uma guerra.",
-    "note": "A pergunta trata de começar uma guerra, e não de se defender de um ataque. Quem apoia guerra revolucionária para libertar um povo oprimido deve discordar."
-  },
-  {
-    "id": "diplomacia_13",
-    "agree": "O Estado pode espionar outros países, inclusive aliados, para proteger o interesse nacional.",
-    "disagree": "O Estado não faz espionagem contra outros países.",
-    "note": "Quem rejeita espionagem por desconfiar de qualquer vigilância do Estado, como muitos libertários, também discorda."
-  },
-  {
-    "id": "diplomacia_14",
-    "agree": "O país apoia tribunais internacionais que julgam crimes de guerra, mesmo quando julgam aliados.",
-    "disagree": "O país não apoia tribunais internacionais que possam julgar seus aliados ou ele próprio.",
-    "note": "Quem rejeita tribunais internacionais por defender a soberania nacional, e não por apoiar a guerra, deve pensar só em apoiar ou não esses tribunais."
-  },
-  {
-    "id": "diplomacia_15",
-    "agree": "O país desenvolve armas autônomas letais, como drones que escolhem alvos com inteligência artificial.",
-    "disagree": "O país não desenvolve armas autônomas letais."
-  },
-  {
-    "id": "diplomacia_16",
-    "agree": "O país conversa até com governos hostis antes de ameaçá-los militarmente.",
-    "disagree": "O país pode ameaçar um governo hostil sem tentar conversar antes."
-  },
-  {
-    "id": "diplomacia_17",
-    "agree": "O país está pronto para começar uma guerra se isso for necessário para garantir seus interesses vitais.",
-    "disagree": "O país não começa guerras, nem para garantir seus interesses vitais."
-  },
-  {
-    "id": "diplomacia_18",
-    "agree": "O país acaba com suas Forças Armadas e deixa de ter exército.",
-    "disagree": "O país mantém suas Forças Armadas.",
-    "note": "A pergunta mede se o país deve ter Forças Armadas, e não como ele as usa. Quem quer um exército pequeno, só de defesa, discorda."
-  },
-  {
-    "id": "diplomacia_19",
-    "agree": "O país ameaça responder com força devastadora a quem o atacar, como forma de dissuasão.",
-    "disagree": "O país não usa a ameaça de uma resposta devastadora para dissuadir ataques."
-  },
-  {
-    "id": "diplomacia_20",
-    "agree": "A ONU tenta mediar um conflito antes de qualquer ação militar.",
-    "disagree": "Uma ação militar não precisa esperar a mediação da ONU.",
-    "note": "Quem prefere que o país não dependa da ONU, por defender a soberania nacional, deve pensar só em se a ONU deve mediar conflitos."
-  },
-  {
-    "id": "intervencao_01",
-    "agree": "Nenhum país pode tentar derrubar ou trocar o governo de outro, nem por sanção, financiamento de opositores ou golpe.",
-    "disagree": "Em certos casos, como ditaduras brutais, um país pode tentar mudar o governo de outro.",
-    "note": "A pergunta mede o direito de interferir em outro país. Quem apoia a derrubada de um governo por razões ideológicas ou de interesse deve discordar, mesmo que ache isso legítimo."
-  },
-  {
-    "id": "intervencao_02",
-    "agree": "O país usa pressão política, econômica ou diplomática sobre outros países para defender o interesse nacional.",
-    "disagree": "O país não pressiona outros países, nem para defender seu interesse nacional.",
-    "note": "A pergunta liga pressionar outros países ao interesse nacional. Quem apoia pressão por razões humanitárias deve pensar só no interesse nacional."
-  },
-  {
-    "id": "intervencao_03",
-    "agree": "O país evita alianças militares, como a Otan, que possam arrastá-lo para guerras alheias.",
-    "disagree": "O país entra em alianças militares, mesmo sabendo que podem envolvê-lo em guerras de outros."
-  },
-  {
-    "id": "intervencao_04",
-    "agree": "A política externa tem como objetivo central aumentar a influência do país sobre seus vizinhos.",
-    "disagree": "A política externa trata os vizinhos como parceiros, sem buscar influência sobre eles."
-  },
-  {
-    "id": "intervencao_05",
-    "agree": "O país não envia soldados para fora, nem em missões de paz da ONU.",
-    "disagree": "O país pode enviar soldados ao exterior, por exemplo em missões de paz.",
-    "note": "A pergunta inclui missões de paz. Quem aceita só missões de paz sob mandato internacional, mas não outras ações no exterior, pode responder Neutro."
-  },
-  {
-    "id": "intervencao_06",
-    "agree": "O país usa a diplomacia, inclusive com pressão, para defender os interesses de seus cidadãos e empresas no exterior.",
-    "disagree": "O país não usa pressão diplomática para defender seus interesses no exterior."
-  },
-  {
-    "id": "intervencao_07",
-    "agree": "Mesmo diante de um genocídio em país vizinho, o país não envia tropas.",
-    "disagree": "Diante de um genocídio em país vizinho, o país pode enviar tropas para interrompê-lo.",
-    "note": "A pergunta mede se o país deve usar força fora de suas fronteiras, e não a gravidade do genocídio. Quem se opõe a todo genocídio, mas contra intervenção armada, concorda."
-  },
-  {
-    "id": "intervencao_08",
-    "agree": "O país pode aplicar sanções econômicas a outro quando seus interesses são ameaçados.",
-    "disagree": "O país não aplica sanções, mesmo quando seus interesses são ameaçados.",
-    "note": "A pergunta liga as sanções ao interesse do próprio país, e não a razões humanitárias. Quem rejeita sanções por defender comércio livre discorda."
-  },
-  {
-    "id": "intervencao_09",
-    "agree": "Quem resolve conflitos entre países são organismos internacionais, como a ONU, e não as grandes potências.",
-    "disagree": "As potências podem resolver conflitos entre países sem passar por organismos internacionais.",
-    "note": "A pergunta compara organismos internacionais com potências. Quem rejeita os dois e prefere que cada país resolva por conta própria pode responder Neutro."
-  },
-  {
-    "id": "intervencao_10",
-    "agree": "O país busca ser o líder político da sua região, a América do Sul.",
-    "disagree": "O país não busca liderar politicamente a região."
-  },
-  {
-    "id": "intervencao_11",
-    "agree": "O país evita blocos que obriguem a seguir automaticamente a posição de uma potência.",
-    "disagree": "O país entra em blocos, mesmo que isso o obrigue a se alinhar a outras potências."
-  },
-  {
-    "id": "intervencao_12",
-    "agree": "O país influencia os governos vizinhos, por exemplo com pressão ou apoio a aliados, quando isso aumenta sua segurança.",
-    "disagree": "O país não influencia governos vizinhos, nem para aumentar sua segurança."
-  },
-  {
-    "id": "intervencao_13",
-    "agree": "Cada povo resolve seus próprios problemas, e os outros países não devem interferir, nem para ajudar.",
-    "disagree": "Outros países podem interferir para ajudar a resolver os problemas de um povo.",
-    "note": "Mede a não interferência. Quem apoia ajuda humanitária voluntária, mas contra interferência de governos, concorda."
-  },
-  {
-    "id": "intervencao_14",
-    "agree": "O país está disposto a usar força militar para garantir seus interesses na região.",
-    "disagree": "O país não usa força militar para garantir seus interesses na região."
-  },
-  {
-    "id": "intervencao_15",
-    "agree": "O país não aplica sanções a países só porque desaprova seus governos.",
-    "disagree": "O país pode aplicar sanções a países cujos governos desaprova, por exemplo por violações de direitos humanos.",
-    "note": "Quem apoia sanções a ditaduras por motivos humanitários discorda. Quem rejeita sanções por defender o livre comércio concorda."
-  },
-  {
-    "id": "intervencao_16",
-    "agree": "Nenhum tratado internacional pode ficar acima do interesse nacional, e o país pode ignorá-lo se for preciso.",
-    "disagree": "Um tratado internacional pode valer mais do que o interesse nacional do momento.",
-    "note": "Quem desconfia tanto de tratados quanto do interesse do Estado, por defender direitos individuais acima dos dois, está entre os lados: Neutro é possível."
-  },
-  {
-    "id": "intervencao_17",
-    "agree": "O país fica neutro em guerras alheias, mesmo quando aliados pedem que tome partido.",
-    "disagree": "O país toma partido em guerras quando seus aliados pedem."
-  },
-  {
-    "id": "intervencao_18",
-    "agree": "Defender os interesses nacionais é o que guia a atuação do país no exterior, acima de outras considerações.",
-    "disagree": "O país atua no exterior guiado por outros valores, como direitos humanos ou cooperação, e não só pelo interesse nacional."
-  },
-  {
-    "id": "intervencao_19",
-    "agree": "O país não mantém bases militares em outros países.",
-    "disagree": "O país pode manter bases militares em outros países."
-  },
-  {
-    "id": "intervencao_20",
-    "agree": "O país pressiona governos vizinhos que ameaçam seus cidadãos que vivem lá.",
-    "disagree": "O país não pressiona governos vizinhos, mesmo que eles ameacem seus cidadãos.",
-    "note": "A pergunta fala em pressionar para proteger cidadãos do próprio país. Quem protege direitos de qualquer pessoa, e não só de compatriotas, deve pensar só no caso de cidadãos do país."
-  },
-  {
-    "id": "economia_01",
-    "agree": "Uma ruptura revolucionária é aceitável para tirar o poder econômico de poucos e redistribuí-lo.",
-    "disagree": "O poder econômico não deve ser redistribuído por revolução, seja por preferir reformas legais ou por não querer redistribuir.",
-    "note": "A pergunta junta redistribuição e revolução. Quem quer redistribuir por vias legais deve pensar só na redistribuição."
-  },
-  {
-    "id": "economia_02",
-    "agree": "Onde há concorrência, como em transporte ou telefonia, empresas privadas prestam o serviço no lugar do Estado.",
-    "disagree": "Esses serviços seguem com o Estado, mesmo quando poderia haver concorrência entre empresas.",
-    "note": "A pergunta compara o Estado com empresas privadas. Quem defende que a comunidade ou os próprios trabalhadores assumam o serviço, sem Estado nem empresa, pode responder Neutro."
-  },
-  {
-    "id": "economia_03",
-    "agree": "Empresas ligadas a setores vitais, como petróleo, energia e telecomunicações, ficam sob controle do Estado.",
-    "disagree": "Empresas desses setores podem ser privadas, como qualquer outra.",
-    "note": "Mede o controle público de empresas estratégicas. Quem quer controle dos trabalhadores ou da comunidade, e não do Estado, deve pensar só em se elas ficam fora das mãos de donos privados."
-  },
-  {
-    "id": "economia_04",
-    "agree": "Hospitais e planos de saúde privados fornecem a maior parte do atendimento, com o Estado fora da prestação.",
-    "disagree": "A maior parte do atendimento de saúde é prestada pelo Estado, como no SUS.",
-    "note": "A pergunta compara o Estado com empresas privadas. Quem defende que a comunidade ou os próprios trabalhadores assumam o serviço, sem Estado nem empresa, pode responder Neutro."
-  },
-  {
-    "id": "economia_05",
-    "agree": "Grandes empresas pertencem aos próprios trabalhadores, e não a acionistas ou donos privados.",
-    "disagree": "Grandes empresas continuam pertencendo a donos e acionistas privados.",
-    "note": "Aqui o dono é o trabalhador, nem o Estado nem o empresário. A pergunta trata isso como alternativa à propriedade privada tradicional."
-  },
-  {
-    "id": "economia_06",
-    "agree": "Empresas privadas podem administrar estradas, pedágios e presídios no lugar do Estado.",
-    "disagree": "Estradas e presídios são administrados apenas pelo Estado.",
-    "note": "A pergunta compara o Estado com empresas privadas. Quem defende que a comunidade ou os próprios trabalhadores assumam o serviço, sem Estado nem empresa, pode responder Neutro."
-  },
-  {
-    "id": "economia_07",
-    "agree": "Se o mercado não atende os mais pobres, o Estado assume diretamente o serviço, em vez de só subsidiar empresas.",
-    "disagree": "Mesmo se o mercado deixar os pobres de fora, o serviço segue com empresas privadas.",
-    "note": "A pergunta compara o Estado com empresas privadas. Quem defende que a comunidade ou os próprios trabalhadores assumam o serviço, sem Estado nem empresa, pode responder Neutro."
-  },
-  {
-    "id": "economia_08",
-    "agree": "O patrimônio deixado por herança é protegido, e o Estado não pode redistribuí-lo ou taxá-lo pesadamente.",
-    "disagree": "A herança pode ser alvo de impostos altos ou de redistribuição do patrimônio."
-  },
-  {
-    "id": "economia_09",
-    "agree": "Saúde, educação e água são direitos básicos e não devem ser tratadas como negócio com fins de lucro.",
-    "disagree": "Saúde, educação e água podem ser oferecidas por empresas que buscam lucro.",
-    "note": "Mede se esses serviços podem dar lucro. Quem defende que sejam oferecidos por cooperativas ou comunidades sem fins lucrativos, mesmo sem o Estado, concorda."
-  },
-  {
-    "id": "economia_10",
-    "agree": "Cada pessoa decide se paga impostos, e o Estado só vive de contribuição voluntária.",
-    "disagree": "Os impostos são obrigatórios, cobrados pelo Estado de todos.",
-    "note": "Mede se o imposto é obrigatório. Quem quer um Estado mínimo, mas financiado por impostos, discorda."
-  },
-  {
-    "id": "economia_11",
-    "agree": "O Estado garante uma renda mínima a todo cidadão necessitado, por exemplo com uma renda básica.",
-    "disagree": "O Estado não garante uma renda mínima aos necessitados.",
-    "note": "Mesmo quem defende pouco Estado pode concordar, por exemplo como substituto de outros programas. A pergunta mede se o Estado garante uma renda."
-  },
-  {
-    "id": "economia_12",
-    "agree": "Servidores públicos perdem a estabilidade vitalícia, ou ela é reduzida, e podem ser demitidos por mau desempenho.",
-    "disagree": "A estabilidade vitalícia dos servidores públicos é mantida."
-  },
-  {
-    "id": "economia_13",
-    "agree": "O Estado cria regras e limites para impedir que grandes empresas dominem o mercado.",
-    "disagree": "O Estado não limita o poder das grandes empresas privadas.",
-    "note": "Quem quer limitar grandes empresas retirando os privilégios que o Estado dá a elas, e não criando regras, deve pensar só em se o Estado deve limitar o poder delas."
-  },
-  {
-    "id": "economia_14",
-    "agree": "Auxílios como o Bolsa Família têm prazo máximo, depois do qual a pessoa deixa de receber.",
-    "disagree": "Auxílios como o Bolsa Família não têm prazo máximo e seguem enquanto a necessidade durar."
-  },
-  {
-    "id": "economia_15",
-    "agree": "Grandes propriedades rurais são divididas e entregues a famílias sem terra por meio de reforma agrária.",
-    "disagree": "Grandes propriedades rurais não são redistribuídas por reforma agrária."
-  },
-  {
-    "id": "economia_16",
-    "agree": "Cada trabalhador negocia o salário direto com o empregador, e o sindicato não fala em nome dele.",
-    "disagree": "Sindicatos negociam salários em nome dos trabalhadores.",
-    "note": "A pergunta compara negociação individual com negociação coletiva. Quem apoia sindicatos livres e voluntários, sem lei que os imponha, deve pensar só em se os sindicatos negociam pelos trabalhadores."
-  },
-  {
-    "id": "economia_17",
-    "agree": "Bancos públicos, como BNDES e Caixa, seguem financiando o desenvolvimento do país.",
-    "disagree": "O financiamento do desenvolvimento fica com bancos privados, sem bancos públicos."
-  },
-  {
-    "id": "economia_18",
-    "agree": "A propriedade privada deve ser respeitada, mesmo que gere grande desigualdade de riqueza.",
-    "disagree": "A propriedade privada pode ser limitada quando gera muita desigualdade."
-  },
-  {
-    "id": "economia_19",
-    "agree": "Estatais continuam sob controle público, mesmo que possam ser vendidas por bom preço.",
-    "disagree": "Estatais podem ser vendidas pelo valor de mercado.",
-    "note": "Mede se empresas públicas devem sair do controle público. Quem quer que elas passem aos trabalhadores, e não a donos privados, pode responder Neutro."
-  },
-  {
-    "id": "economia_20",
-    "agree": "Na gestão de serviços públicos, a prioridade é entregar a empresas privadas, e não ao Estado.",
-    "disagree": "Na gestão de serviços públicos, a prioridade é manter com o Estado.",
-    "note": "A pergunta compara o Estado com empresas privadas. Quem defende que a comunidade ou os próprios trabalhadores assumam o serviço, sem Estado nem empresa, pode responder Neutro."
-  },
-  {
-    "id": "controle_01",
-    "agree": "O governo faz o plano de setores como energia, moradia e indústria, definindo metas e investimentos.",
-    "disagree": "O mercado organiza esses setores por conta própria, sem plano do governo.",
-    "note": "A pergunta compara o planejamento do governo com o mercado. Quem rejeita os dois, por exemplo quem defende coordenação voluntária sem Estado e sem mercado, pode responder Neutro."
-  },
-  {
-    "id": "controle_02",
-    "agree": "O mercado define preços e salários livremente, e o governo não pode tabelar nem fixar valores.",
-    "disagree": "O governo pode intervir nos preços e salários, por exemplo com tabelamento ou piso.",
-    "note": "A pergunta compara o mercado com a decisão do governo. Quem rejeita os dois, por exemplo quem defende coordenação voluntária sem Estado e sem mercado, pode responder Neutro."
-  },
-  {
-    "id": "controle_03",
-    "agree": "O governo eleito manda no Banco Central e pode orientar a política de juros e moeda.",
-    "disagree": "O Banco Central age com independência total, sem ordens do governo.",
-    "note": "A pergunta mede se o governo eleito manda no Banco Central. Quem quer abolir o Banco Central para deixar a moeda ao mercado (anarcocapitalista) deve pensar só em quem manda nele enquanto existir, e discorda. Quem quer abolir por rejeitar o Estado e o mercado, como anarquistas, pode responder Neutro."
-  },
-  {
-    "id": "controle_04",
-    "agree": "Empresas e trabalhadores definem entre si as condições de trabalho, e o governo interfere o mínimo possível.",
-    "disagree": "O governo define regras para as relações de trabalho, como jornada e direitos.",
-    "note": "A pergunta compara o governo com o mercado. Quem rejeita os dois, por exemplo quem defende coordenação voluntária entre os próprios trabalhadores, pode responder Neutro."
-  },
-  {
-    "id": "controle_05",
-    "agree": "Quem tem muito patrimônio paga proporcionalmente mais impostos, para financiar políticas públicas.",
-    "disagree": "Grandes fortunas não pagam proporcionalmente mais impostos do que os demais."
-  },
-  {
-    "id": "controle_06",
-    "agree": "Os impostos são cortados para estimular o crescimento econômico, mesmo que o Estado arrecade menos.",
-    "disagree": "Os impostos são mantidos ou aumentados, mesmo que o crescimento seja menor."
-  },
-  {
-    "id": "controle_07",
-    "agree": "O Estado usa dinheiro público para apoiar setores industriais considerados estratégicos, como semicondutores ou defesa.",
-    "disagree": "O Estado não subsidia indústrias, estratégicas ou não.",
-    "note": "Mede a política industrial. Quem rejeita subsídios a qualquer empresa, por defender livre mercado, discorda."
-  },
-  {
-    "id": "controle_08",
-    "agree": "Quando há conflito, proteger empregos vem antes de subir o salário mínimo.",
-    "disagree": "Quando há conflito, subir o salário mínimo vem antes de proteger empregos.",
-    "note": "Mede a prioridade em caso de conflito, e não se o salário mínimo deve existir. Quem acha que não há conflito pode responder Neutro."
-  },
-  {
-    "id": "controle_09",
-    "agree": "Em crises graves, o governo pode congelar o valor dos aluguéis para proteger inquilinos.",
-    "disagree": "O governo não congela aluguéis, nem em crises graves."
-  },
-  {
-    "id": "controle_10",
-    "agree": "O governo não congela preços, mesmo quando a inflação está muito alta.",
-    "disagree": "O governo pode congelar preços para conter inflação alta."
-  },
-  {
-    "id": "controle_11",
-    "agree": "O governo escolhe empresas nacionais para crescer e as apoia com crédito e incentivos em setores estratégicos.",
-    "disagree": "O governo não escolhe empresas para apoiar.",
-    "note": "Mede se o governo deve escolher vencedores. Quem rejeita tanto o favorecimento quanto o mercado, por querer controle dos trabalhadores, pode responder Neutro."
-  },
-  {
-    "id": "controle_12",
-    "agree": "Criptomoedas como o Bitcoin podem circular e competir livremente com a moeda do governo.",
-    "disagree": "A moeda do governo é a única reconhecida.",
-    "note": "A pergunta mede se o governo deve ter o monopólio da moeda, e não se você acha que criptomoedas têm valor."
-  },
-  {
-    "id": "controle_13",
-    "agree": "É melhor uma economia em que o Estado planeja a produção e os preços do que uma de livre mercado.",
-    "disagree": "É melhor uma economia de livre mercado do que uma planejada pelo Estado.",
-    "note": "A pergunta compara o mercado com a decisão do governo. Quem rejeita os dois, por exemplo quem defende coordenação voluntária sem Estado e sem mercado, pode responder Neutro."
-  },
-  {
-    "id": "controle_14",
-    "agree": "O Estado evita criar novas regras sobre a atividade econômica, mesmo que haja pedidos de regulação.",
-    "disagree": "O Estado pode criar novas regras sobre a atividade econômica quando julgar necessário."
-  },
-  {
-    "id": "controle_15",
-    "agree": "Em recessão, o governo gasta mais para reaquecer a economia, mesmo que a dívida pública suba.",
-    "disagree": "Em recessão, o governo evita gastar mais, para não aumentar a dívida."
-  },
-  {
-    "id": "controle_16",
-    "agree": "O Banco Central decide a taxa de juros sozinho, sem precisar da aprovação do governo.",
-    "disagree": "O governo participa ou tem a palavra final sobre a taxa de juros.",
-    "note": "A pergunta compara dois modelos de Banco Central: independente ou subordinado ao governo. Quem quer abolir o Banco Central para deixar a moeda ao mercado (anarcocapitalista) rejeita o governo mandando nos juros e concorda. Quem quer abolir por rejeitar o Estado e o mercado, como anarquistas, pode responder Neutro."
-  },
-  {
-    "id": "controle_17",
-    "agree": "O governo controla a taxa de câmbio, por exemplo vendendo ou comprando moeda, para proteger a economia nacional.",
-    "disagree": "O mercado define a taxa de câmbio, sem controle do governo."
-  },
-  {
-    "id": "controle_18",
-    "agree": "O Banco Central é extinto, e a moeda e os juros passam a ser definidos pelo mercado.",
-    "disagree": "O Banco Central continua existindo.",
-    "note": "Discordar aqui significa aceitar que o Banco Central exista, e não, por si só, querer que o governo controle os juros. Concordar é a posição de quem quer a moeda e os juros nas mãos do mercado (anarcocapitalista). Quem quer abolir por rejeitar o Estado e o mercado, como anarquistas, não aceita a ideia de entregar tudo ao mercado e pode responder Neutro."
-  },
-  {
-    "id": "controle_19",
-    "agree": "Um salário mínimo fixado em lei vale para todos, em vez de cada um negociar livremente.",
-    "disagree": "Os salários são negociados livremente, sem mínimo legal.",
-    "note": "Mede se existe piso legal. Quem defende que os próprios trabalhadores imponham um mínimo por meio de sindicatos ou greves, sem lei, está mais perto de discordar."
-  },
-  {
-    "id": "controle_20",
-    "agree": "Quem tem dinheiro pode mandá-lo para o exterior sem pedir licença ao governo.",
-    "disagree": "O governo pode exigir licença ou limitar a saída de dinheiro do país."
-  },
-  {
-    "id": "comercio_01",
-    "agree": "O governo cobra tarifas sobre produtos importados para proteger a indústria nacional, sempre que for preciso.",
-    "disagree": "A indústria nacional não é protegida com tarifas, e o comércio fica aberto.",
-    "note": "Mede o uso de tarifas para proteger a indústria. Quem defende livre comércio unilateral, sem acordos nem tarifas, discorda."
-  },
-  {
-    "id": "comercio_02",
-    "agree": "As tarifas de importação caem para quase zero, mesmo que algumas fábricas nacionais fechem.",
-    "disagree": "As tarifas são mantidas para evitar que fábricas nacionais quebrem."
-  },
-  {
-    "id": "comercio_03",
-    "agree": "O país limita importações para proteger empregos na indústria, mesmo que os produtos fiquem mais caros.",
-    "disagree": "As importações não são limitadas, mesmo que alguns empregos industriais se percam."
-  },
-  {
-    "id": "comercio_04",
-    "agree": "O país busca acordos de livre comércio com outros países para reduzir tarifas entre eles.",
-    "disagree": "O país não busca acordos de livre comércio.",
-    "note": "A pergunta mede a abertura do comércio entre países. Quem defende a cooperação internacional, mas é contra o livre mercado global, deve pensar só na abertura comercial. Quem prefere abrir o comércio sozinho, sem tratados, concorda."
-  },
-  {
-    "id": "comercio_05",
-    "agree": "O país produz internamente tudo o que consome, mesmo que isso custe muito mais.",
-    "disagree": "O país compra de fora o que sai mais barato do que produzir."
-  },
-  {
-    "id": "comercio_06",
-    "agree": "Produtos estrangeiros entram no país com poucas barreiras, como tarifas e cotas.",
-    "disagree": "Produtos estrangeiros enfrentam barreiras econômicas para entrar no país."
-  },
-  {
-    "id": "comercio_07",
-    "agree": "O governo restringe a entrada de produtos importados que ameaçam a indústria e os empregos locais.",
-    "disagree": "O governo não limita importações, mesmo que ameacem a indústria e os empregos locais."
-  },
-  {
-    "id": "comercio_08",
-    "agree": "Existe um mercado global único, em que bens e capital circulam sem fronteiras econômicas.",
-    "disagree": "As fronteiras econômicas entre países continuam existindo.",
-    "note": "A pergunta mede a integração econômica entre países, e não a imigração. Quem defende a cooperação internacional, mas é contra o livre mercado global, deve pensar só na abertura comercial."
-  },
-  {
-    "id": "comercio_09",
-    "agree": "Empresas estrangeiras não podem comprar empresas consideradas estratégicas do país, como energia, defesa ou telecomunicações.",
-    "disagree": "Empresas estrangeiras podem comprar empresas estratégicas do país, como qualquer outra."
-  },
-  {
-    "id": "comercio_10",
-    "agree": "O país amplia seus laços comerciais, com mais acordos e parcerias com outros países.",
-    "disagree": "O país não aprofunda a integração comercial com outros países."
-  },
-  {
-    "id": "comercio_11",
-    "agree": "A produção nacional de alimentos tem prioridade sobre importações mais baratas, para garantir o abastecimento.",
-    "disagree": "Alimentos importados mais baratos têm prioridade sobre a produção nacional."
-  },
-  {
-    "id": "comercio_12",
-    "agree": "O país facilita a entrada de investimento estrangeiro, com poucas regras e restrições.",
-    "disagree": "O país restringe ou não facilita a entrada de investimento estrangeiro.",
-    "note": "A pergunta mede a abertura ao capital de fora. Quem defende cooperação internacional, mas desconfia do capital estrangeiro, deve pensar só nessa abertura."
-  },
-  {
-    "id": "comercio_13",
-    "agree": "Governo e estatais, ao comprar bens e serviços, preferem empresas brasileiras.",
-    "disagree": "Governo e estatais compram de quem oferece melhor preço ou qualidade, sem preferência pela empresa ser nacional."
-  },
-  {
-    "id": "comercio_14",
-    "agree": "O país amplia o comércio com outros, mesmo que isso aumente sua dependência econômica deles.",
-    "disagree": "O país não amplia o comércio se isso aumentar sua dependência econômica."
-  },
-  {
-    "id": "comercio_15",
-    "agree": "Carros elétricos importados baratos pagam tarifas extras, para proteger as fábricas do país.",
-    "disagree": "Carros elétricos importados baratos não pagam tarifas extras.",
-    "note": "A pergunta mede se tarifas devem proteger a indústria local, e não o que você pensa de um país específico."
-  },
-  {
-    "id": "comercio_16",
-    "agree": "As tarifas de importação são reduzidas, mesmo que o governo arrecade menos.",
-    "disagree": "As tarifas de importação são mantidas para o governo continuar arrecadando.",
-    "note": "Quem quer cortar tarifas para reduzir o tamanho do Estado concorda. Quem quer tarifas altas para proteger a indústria discorda."
-  },
-  {
-    "id": "comercio_17",
-    "agree": "Setores essenciais, como remédios e chips, são protegidos da concorrência estrangeira por regras ou subsídios.",
-    "disagree": "Setores como remédios e chips enfrentam a concorrência estrangeira, como qualquer outro."
-  },
-  {
-    "id": "comercio_18",
-    "agree": "Multinacionais operam livremente no país, mesmo que superem empresas locais na concorrência.",
-    "disagree": "Multinacionais sofrem restrições para operar no país, para proteger empresas locais.",
-    "note": "A pergunta mede a abertura do comércio entre países. Quem defende a cooperação internacional, mas é contra o livre mercado global, deve pensar só na abertura comercial."
-  },
-  {
-    "id": "comercio_19",
-    "agree": "É melhor manter a soberania econômica do país do que ter preços baixos no supermercado.",
-    "disagree": "É melhor ter preços baixos no supermercado do que manter a soberania econômica."
-  },
-  {
-    "id": "comercio_20",
-    "agree": "A economia global se integra cada vez mais, por meio de mais comércio entre os países.",
-    "disagree": "A integração econômica global não é aprofundada.",
-    "note": "A pergunta mede a abertura do comércio entre países. Quem defende a cooperação internacional, mas é contra o livre mercado global, deve pensar só na abertura comercial."
-  },
-  {
-    "id": "religiao_01",
-    "agree": "A fé é assunto pessoal e não deve influenciar leis nem políticas públicas.",
-    "disagree": "A religião pode influenciar as leis e as políticas públicas.",
-    "note": "A pergunta mede o papel da religião nas políticas públicas, e não se você tem fé. Uma pessoa religiosa que quer o Estado neutro concorda."
-  },
-  {
-    "id": "religiao_02",
-    "agree": "Minhas crenças religiosas guiam minhas escolhas morais e políticas.",
-    "disagree": "Minhas escolhas morais e políticas não são guiadas pela religião."
-  },
-  {
-    "id": "religiao_03",
-    "agree": "As leis são neutras e não seguem os valores de nenhuma religião.",
-    "disagree": "As leis podem seguir valores religiosos.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode concordar."
-  },
-  {
-    "id": "religiao_04",
-    "agree": "As leis do país refletem os valores da religião da maioria, como em feriados, costumes e normas morais.",
-    "disagree": "As leis do país não refletem os valores da religião da maioria.",
-    "note": "Mesmo quem não tem fé pode concordar, se vê a religião como parte da tradição e da identidade do país."
-  },
-  {
-    "id": "religiao_05",
-    "agree": "Igrejas e templos pagam impostos como qualquer outra organização, sem isenção especial.",
-    "disagree": "Igrejas e templos têm tratamento tributário diferente, como isenção de impostos.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal. Quem acha que ninguém deveria pagar certos impostos, igrejas ou não, deve pensar só em se igrejas têm tratamento especial."
-  },
-  {
-    "id": "religiao_06",
-    "agree": "A prática religiosa deve ser incentivada na vida em comunidade, por exemplo com cultos, festas e ações sociais.",
-    "disagree": "A prática religiosa não é algo que a comunidade precise incentivar.",
-    "note": "Mesmo quem não tem fé pode concordar, se vê a religião como parte da tradição e da identidade do país."
-  },
-  {
-    "id": "religiao_07",
-    "agree": "Escolas, tribunais e outros prédios públicos não exibem símbolos religiosos, como crucifixos.",
-    "disagree": "Prédios públicos podem exibir símbolos religiosos.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode concordar."
-  },
-  {
-    "id": "religiao_08",
-    "agree": "O Estado se declara oficialmente ligado a uma religião, como em uma religião de Estado.",
-    "disagree": "O Estado não adota oficialmente nenhuma religião.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode discordar."
-  },
-  {
-    "id": "religiao_09",
-    "agree": "Decisões políticas e leis são tomadas com argumentos que não dependem de crenças religiosas.",
-    "disagree": "Decisões políticas podem se basear em crenças religiosas.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode concordar."
-  },
-  {
-    "id": "religiao_10",
-    "agree": "A comunidade transmite as tradições religiosas às novas gerações, em família, na escola e nos ritos.",
-    "disagree": "As tradições religiosas não precisam ser transmitidas às novas gerações.",
-    "note": "Mesmo quem não tem fé pode concordar, se vê a religião como parte da tradição e da identidade do país."
-  },
-  {
-    "id": "religiao_11",
-    "agree": "Uma sociedade sem religião seria melhor do que uma sociedade religiosa.",
-    "disagree": "Uma sociedade religiosa seria melhor do que uma sociedade sem religião.",
-    "note": "A pergunta mede que tipo de sociedade você prefere, e não a sua crença pessoal. Quem é religioso, mas acha que cada um deve escolher, pode responder Neutro."
-  },
-  {
-    "id": "religiao_12",
-    "agree": "A sociedade deve dar mais espaço à fé em Deus, na vida pública e privada.",
-    "disagree": "A sociedade não precisa dar mais espaço à fé em Deus.",
-    "note": "Mesmo quem não tem fé pode concordar, se vê a religião como parte da tradição e da identidade do país."
-  },
-  {
-    "id": "religiao_13",
-    "agree": "Feriados religiosos, como Natal e Páscoa, não deveriam ser feriados nacionais.",
-    "disagree": "Feriados religiosos podem ser feriados nacionais.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode concordar."
-  },
-  {
-    "id": "religiao_14",
-    "agree": "O casamento é reconhecido como uma instituição religiosa, e o reconhecimento do Estado vem da religião.",
-    "disagree": "O casamento é um contrato civil, sem caráter religioso.",
-    "note": "Quem quer que o Estado saia do casamento, deixando-o a cargo de religiões ou de contratos privados, pode concordar."
-  },
-  {
-    "id": "religiao_15",
-    "agree": "A palavra 'Deus' não aparece na Constituição.",
-    "disagree": "A palavra 'Deus' pode aparecer na Constituição.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode concordar."
-  },
-  {
-    "id": "religiao_16",
-    "agree": "Procuro na fé religiosa o sentido da minha vida.",
-    "disagree": "Procuro o sentido da minha vida fora da fé religiosa.",
-    "note": "É uma pergunta pessoal: mede o quanto a fé é a sua fonte de sentido."
-  },
-  {
-    "id": "religiao_17",
-    "agree": "Crianças pequenas não recebem ensino religioso, na escola ou em atividades públicas.",
-    "disagree": "A religião pode fazer parte da educação de crianças pequenas.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal. Quem acha que a religião é assunto da família, não da escola, pode concordar."
-  },
-  {
-    "id": "religiao_18",
-    "agree": "Quando uma lei contraria minha fé, eu sigo a minha fé.",
-    "disagree": "Quando uma lei contraria minha fé, eu sigo a lei.",
-    "note": "Mede a quem você obedece em caso de conflito. Quem desobedece à lei por razões não religiosas, como convicção ou consciência, deve pensar só na fé."
-  },
-  {
-    "id": "religiao_19",
-    "agree": "A moral pública se baseia em princípios que valem para todos, creiam em Deus ou não.",
-    "disagree": "A moral pública pode se basear na crença em Deus.",
-    "note": "A pergunta é sobre o papel do Estado, e não sobre a sua fé pessoal: uma pessoa religiosa que defende um Estado neutro pode concordar."
-  },
-  {
-    "id": "religiao_20",
-    "agree": "O Estado protege a fé religiosa como parte da identidade nacional, por exemplo em lei, ensino ou símbolos.",
-    "disagree": "O Estado não protege a fé religiosa como parte da identidade nacional.",
-    "note": "Mesmo quem não tem fé pode concordar, se vê a religião como parte da tradição e da identidade do país."
-  },
-  {
-    "id": "moral_01",
-    "agree": "Casais do mesmo sexo têm o mesmo direito de adotar que casais de homem e mulher, com os mesmos critérios.",
-    "disagree": "Casais do mesmo sexo não têm o mesmo direito de adotar que os demais casais.",
-    "note": "Mede se o direito é igual perante a lei. Quem acha que o Estado não deveria regular adoção para ninguém, mas não quer privilégios para um tipo de casal, concorda."
-  },
-  {
-    "id": "moral_02",
-    "agree": "A família tradicional, com pai, mãe e filhos, é o modelo ideal que a sociedade deve valorizar.",
-    "disagree": "A família tradicional é um modelo entre outros, e a sociedade valoriza vários arranjos familiares.",
-    "note": "A pergunta é sobre o ideal social, e não sobre proibir outros modelos. Quem prefere a família tradicional para si, mas respeita outros arranjos, deve pensar em qual modelo a sociedade valoriza como referência."
-  },
-  {
-    "id": "moral_03",
-    "agree": "A identidade de gênero que a pessoa declara deve ser reconhecida e respeitada pelos outros.",
-    "disagree": "A identidade de gênero declarada não é o único critério, e o sexo biológico também conta.",
-    "note": "A pergunta é sobre respeitar a identidade declarada. Quem respeita a pessoa, mas acha que o Estado não deve obrigar ninguém a adotar essa linguagem, deve pensar só no respeito."
-  },
-  {
-    "id": "moral_04",
-    "agree": "Mudanças em valores e costumes devem acontecer aos poucos, com tempo para a sociedade se adaptar.",
-    "disagree": "Mudanças culturais rápidas são aceitáveis ou desejáveis, mesmo que causem choque.",
-    "note": "A pergunta mede o ritmo da mudança, e não a direção dela. Quem quer uma mudança radical, mas gradual, concorda; quem quer voltar ao passado de uma vez, discorda."
-  },
-  {
-    "id": "moral_05",
-    "agree": "Parte das vagas nas universidades é reservada por critério racial, como forma de reparar desigualdades históricas.",
-    "disagree": "As vagas nas universidades não são reservadas por critério racial.",
-    "note": "A pergunta trata de cotas por critério racial. Quem apoia cotas só por renda deve pensar apenas no critério racial. Quem rejeita cotas por ser contra o Estado dar tratamento diferente por grupo discorda."
-  },
-  {
-    "id": "moral_06",
-    "agree": "O Estado reconhece como casamento apenas a união entre um homem e uma mulher.",
-    "disagree": "O Estado reconhece o casamento também entre pessoas do mesmo sexo.",
-    "note": "A pergunta é sobre o que o Estado reconhece. Quem quer que o Estado não reconheça nenhum casamento deve pensar só no reconhecimento oficial."
-  },
-  {
-    "id": "moral_07",
-    "agree": "Casais LGBT podem demonstrar afeto em público, como dar as mãos ou se beijar, igual a qualquer outro casal.",
-    "disagree": "Casais LGBT devem ter mais discrição em público do que os demais casais."
-  },
-  {
-    "id": "moral_08",
-    "agree": "Sou contra reservar vagas em cargos públicos por critério racial.",
-    "disagree": "Sou a favor de reservar vagas em cargos públicos por critério racial.",
-    "note": "A pergunta trata de cotas por critério racial. Quem apoia cotas só por renda deve pensar apenas no critério racial."
-  },
-  {
-    "id": "moral_09",
-    "agree": "Para mim, interromper a gravidez no início, nas primeiras semanas, é moralmente aceitável.",
-    "disagree": "Para mim, interromper a gravidez no início não é moralmente aceitável.",
-    "note": "A pergunta mede o que você considera moralmente certo, e não o que a lei deveria permitir. Quem é contra moralmente, mas acha que o Estado não deve proibir, responde pela moral."
-  },
-  {
-    "id": "moral_10",
-    "agree": "Para mim, o aborto é moralmente errado.",
-    "disagree": "Para mim, o aborto não é moralmente errado.",
-    "note": "A pergunta mede o que você considera moralmente certo, e não o que a lei deveria permitir. Quem é contra moralmente, mas acha que o Estado não deve proibir, responde pela moral."
-  },
-  {
-    "id": "moral_11",
-    "agree": "Adolescentes aprendem sobre identidade de gênero em programas de educação, por exemplo na escola.",
-    "disagree": "Adolescentes não recebem educação sobre identidade de gênero na escola.",
-    "note": "Mede se o tema entra na educação. Quem acha que isso é assunto da família e não da escola discorda."
-  },
-  {
-    "id": "moral_12",
-    "agree": "Os pais decidem como e o que os filhos aprendem sobre sexualidade, e a escola segue esses valores.",
-    "disagree": "A escola define o conteúdo da educação sexual, com base em critérios científicos e do currículo.",
-    "note": "A pergunta mede quem tem a palavra final: a família ou a escola. Quem defende escolas privadas livres, sem currículo do Estado, também concorda."
-  },
-  {
-    "id": "moral_13",
-    "agree": "A prostituição é reconhecida como trabalho legítimo, com direitos e proteção ao trabalhador.",
-    "disagree": "A prostituição não é reconhecida como trabalho legítimo.",
-    "note": "A pergunta mede o reconhecimento como trabalho, e não a aprovação moral da atividade. Quem acha que o Estado não deve criminalizar nem regular, mas reprova a atividade, pode concordar."
-  },
-  {
-    "id": "moral_14",
-    "agree": "A sociedade não adota a linguagem neutra, como 'todes', no dia a dia.",
-    "disagree": "A sociedade pode adotar a linguagem neutra, como 'todes', no dia a dia.",
-    "note": "A pergunta é sobre a sociedade adotar a linguagem neutra, e não sobre o Estado obrigar. Quem acha que cada um fala como quiser pode responder Neutro."
-  },
-  {
-    "id": "moral_15",
-    "agree": "Devemos comer menos carne por respeito aos animais, pelo sofrimento que a criação causa.",
-    "disagree": "Não precisamos reduzir o consumo de carne por respeito aos animais.",
-    "note": "A pergunta trata do respeito aos animais como motivo. Razões de saúde ou ambientais não contam aqui."
-  },
-  {
-    "id": "moral_16",
-    "agree": "Para mim, consumir pornografia é moralmente errado.",
-    "disagree": "Para mim, consumir pornografia não é moralmente errado.",
-    "note": "A pergunta mede o que você considera moralmente certo, e não se deveria ser proibido por lei."
-  },
-  {
-    "id": "moral_17",
-    "agree": "Relações abertas e poliamor merecem o mesmo respeito social que um casamento.",
-    "disagree": "Relações abertas e poliamor não merecem o mesmo respeito social que o casamento.",
-    "note": "A pergunta é sobre respeito social, e não sobre o que a lei deve reconhecer."
-  },
-  {
-    "id": "moral_18",
-    "agree": "Cuidar da família deve ser a principal prioridade na vida de uma mulher, acima da carreira e de outros projetos.",
-    "disagree": "Cuidar da família não é, por si só, a principal prioridade na vida de uma mulher; ela decide suas prioridades.",
-    "note": "A pergunta mede se cuidar da família é a prioridade de uma mulher, e não se a família é importante."
-  },
-  {
-    "id": "moral_19",
-    "agree": "A nudez em filmes, na arte e nas praias não deve ser vista como ofensiva.",
-    "disagree": "A nudez em filmes, na arte e nas praias pode ser considerada ofensiva."
-  },
-  {
-    "id": "moral_20",
-    "agree": "Os pais têm a última palavra na educação moral dos filhos, acima da escola e do Estado.",
-    "disagree": "A educação moral dos filhos também é papel da escola e do Estado, e não só dos pais.",
-    "note": "A pergunta mede quem tem a palavra final: os pais ou também a escola e o Estado."
-  },
-  {
-    "id": "tecnologia_01",
-    "agree": "A sociedade coloca a tecnologia e a indústria à frente da preservação da natureza e de modos de vida tradicionais.",
-    "disagree": "A sociedade coloca a natureza e os modos de vida tradicionais à frente do avanço tecnológico e industrial.",
-    "note": "A pergunta contrapõe tecnologia e indústria à natureza e à vida tradicional (o eixo Tecnologia × Biologia). Não compara com outras áreas, como defesa ou saúde. Quem rejeita planejamento estatal, mas quer inovação do mercado, concorda."
-  },
-  {
-    "id": "tecnologia_02",
-    "agree": "Prefiro uma vida simples, próxima da natureza e com pouca tecnologia, a uma vida cercada de tecnologia.",
-    "disagree": "Prefiro uma vida com muita tecnologia, como automação, aplicativos e dispositivos, a uma vida simples e natural.",
-    "note": "É uma pergunta pessoal sobre estilo de vida, e não sobre o que o Estado deve fazer."
-  },
-  {
-    "id": "tecnologia_03",
-    "agree": "IA e automação devem ser ampliadas, mesmo que muitas profissões deixem de existir.",
-    "disagree": "IA e automação devem ser limitadas para proteger empregos e profissões.",
-    "note": "Mede se o avanço tecnológico deve ser freado para proteger empregos. Quem quer a automação, mas com renda garantida para quem perde o trabalho, concorda."
-  },
-  {
-    "id": "tecnologia_04",
-    "agree": "Tecnologias que alteram o corpo, a mente ou a reprodução humana, como clonagem ou modificação genética, devem ter limites legais.",
-    "disagree": "Essas tecnologias não devem ter limites legais; cada pessoa decide se as usa.",
-    "note": "A pergunta é sobre limitar por lei. Quem rejeita essas tecnologias por convicção própria, mas acha que o Estado não deve proibi-las, discorda."
-  },
-  {
-    "id": "tecnologia_05",
-    "agree": "O cultivo de alimentos transgênicos deve continuar sendo desenvolvido e usado.",
-    "disagree": "O cultivo de alimentos transgênicos deve parar de ser desenvolvido, por cautela com a saúde ou o meio ambiente."
-  },
-  {
-    "id": "tecnologia_06",
-    "agree": "O uso de agrotóxicos deve cair, mesmo que a produção agrícola diminua.",
-    "disagree": "O uso de agrotóxicos é mantido para preservar a produtividade.",
-    "note": "A pergunta mede se o uso de agrotóxicos deve diminuir. Quem defende que o mercado decida, sem regra do Estado, pode responder Neutro."
-  },
-  {
-    "id": "tecnologia_07",
-    "agree": "A mineração pode ser permitida em áreas preservadas da Amazônia, mesmo com algum impacto ambiental.",
-    "disagree": "A mineração não pode ser permitida em áreas preservadas da Amazônia, por causa do impacto ambiental.",
-    "note": "A pergunta mede se o desenvolvimento econômico pode ter impacto sobre a natureza. Quem apoia a mineração só com propriedade privada e responsabilidade por danos pode concordar."
-  },
-  {
-    "id": "tecnologia_08",
-    "agree": "Prefiro a natureza preservada a um crescimento industrial acelerado.",
-    "disagree": "Prefiro um crescimento industrial acelerado a manter a natureza preservada."
-  },
-  {
-    "id": "tecnologia_09",
-    "agree": "Editar os genes de pessoas para prevenir doenças hereditárias deve ser permitido.",
-    "disagree": "Editar os genes de pessoas não deve ser permitido, nem para prevenir doenças.",
-    "note": "Mede só a prevenção de doenças, e não o aprimoramento de capacidades. Quem aceita terapia genética, mas rejeita aprimoramento, concorda."
-  },
-  {
-    "id": "tecnologia_10",
-    "agree": "No combate ao aquecimento global, a prioridade é consumir menos recursos naturais, e não confiar em novas tecnologias.",
-    "disagree": "No combate ao aquecimento global, reduzir o consumo de recursos não é a prioridade; tecnologia e energia limpa vêm primeiro.",
-    "note": "A pergunta trata de como combater o aquecimento global, e não de se ele existe. Quem rejeita essa premissa pode responder Neutro."
-  },
-  {
-    "id": "tecnologia_11",
-    "agree": "A humanidade deve investir na exploração de outros planetas, como Marte.",
-    "disagree": "A humanidade não deve investir na exploração de outros planetas."
-  },
-  {
-    "id": "tecnologia_12",
-    "agree": "A mineração na Amazônia deve ser proibida, mesmo que use tecnologia de baixo impacto.",
-    "disagree": "A mineração na Amazônia pode ser permitida se usar tecnologia de baixo impacto.",
-    "note": "Mede se a proibição é absoluta ou depende da tecnologia usada. Quem aceita a mineração com regras rígidas discorda."
-  },
-  {
-    "id": "tecnologia_13",
-    "agree": "Prefiro viver em uma cidade grande, com mais serviços, tecnologia e oportunidades.",
-    "disagree": "Prefiro viver no campo, mais perto da natureza e longe da agitação das cidades.",
-    "note": "É uma pergunta pessoal sobre onde prefere viver, e não sobre políticas públicas."
-  },
-  {
-    "id": "tecnologia_14",
-    "agree": "Editar os genes de embriões para aumentar a inteligência deve ser proibido.",
-    "disagree": "Editar os genes de embriões para aumentar a inteligência deve ser permitido.",
-    "note": "A pergunta é sobre proibir por lei. Quem é contra por convicção própria, mas acha que o Estado não deve proibir, discorda."
-  },
-  {
-    "id": "tecnologia_15",
-    "agree": "Pessoas saudáveis podem receber implantes no cérebro para ampliar sua memória ou capacidade de raciocínio.",
-    "disagree": "Implantes no cérebro para ampliar a capacidade mental de pessoas saudáveis não devem ser permitidos.",
-    "note": "Mede só o aprimoramento de pessoas saudáveis, e não o uso médico. Quem aceita implantes só para tratar doenças discorda."
-  },
-  {
-    "id": "tecnologia_16",
-    "agree": "Gastar com exploração espacial deve ter menos prioridade do que proteger o meio ambiente na Terra.",
-    "disagree": "Gastar com exploração espacial deve ter prioridade igual ou maior do que a proteção ambiental.",
-    "note": "A pergunta compara o espaço com o meio ambiente. Quem quer cortar os dois gastos públicos deve pensar só em qual vem antes."
-  },
-  {
-    "id": "tecnologia_17",
-    "agree": "A carne produzida em laboratório pode substituir parte da pecuária.",
-    "disagree": "A carne cultivada em laboratório não deve substituir a pecuária.",
-    "note": "Mede se a tecnologia deve substituir a criação de animais. Quem é contra por considerar a carne de laboratório artificial, mesmo sendo a favor do mercado livre, discorda."
-  },
-  {
-    "id": "tecnologia_18",
-    "agree": "Prefiro uma vida simples no campo à vida nas grandes cidades.",
-    "disagree": "Prefiro a vida nas grandes cidades à vida simples no campo.",
-    "note": "É uma pergunta pessoal sobre onde prefere viver, e não sobre políticas públicas."
-  },
-  {
-    "id": "tecnologia_19",
-    "agree": "No combate ao aquecimento global, é melhor apostar em novas tecnologias, como energia limpa, do que consumir menos.",
-    "disagree": "No combate ao aquecimento global, é melhor consumir menos do que apostar em novas tecnologias.",
-    "note": "A pergunta trata de como combater o aquecimento global, e não de se ele existe. Quem rejeita essa premissa pode responder Neutro."
-  },
-  {
-    "id": "tecnologia_20",
-    "agree": "Sou contra implantes artificiais, como próteses ou exoesqueletos, para dar a pessoas saudáveis capacidades físicas acima do normal.",
-    "disagree": "Sou a favor de implantes artificiais para dar a pessoas saudáveis capacidades físicas acima do normal.",
-    "note": "Mede só o aprimoramento de pessoas saudáveis, e não o uso médico. Quem aceita implantes só para tratar deficiência ou doença concorda com 'sou contra'."
+    "id": "lid_05",
+    "agree": "O treinador é antes de tudo um gestor de pessoas, que cuida do bem-estar e da confiança do grupo.",
+    "disagree": "O treinador é antes de tudo quem comanda, define as regras e cobra o cumprimento delas."
   }
 ]

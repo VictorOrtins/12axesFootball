@@ -1,0 +1,704 @@
+{
+  "id": "herbert-chapman",
+  "catalog": "manager",
+  "name": "Herbert Chapman",
+  "status": "complete",
+  "researchedOn": "2026-11-01",
+  "profilePeriod": {
+    "start": "1921-03-31",
+    "end": "1934-01-06"
+  },
+  "scopeNote": "Manager profile of Herbert Chapman across two counted spells: Huddersfield Town (31 March 1921, promotion to secretary-manager, to 11 June 1925) and Arsenal (11 June 1925 to his death in office on 6 January 1934). Dates kept from the previous research (Wikipedia career table); the Huddersfield start is disputed (see openQuestions). Excluded: Northampton Town and Leeds City (previous decision kept). Style: a deep, compact defence with a fast counter-attack, which sources of the time and later both call counter-attacking ('a balanced offensive system which relied on counter-attacks', These Football Times on Huddersfield; 'counterattacking style', Jonathan Wilson; Buchan's own term 'defence in depth', 1955). At Arsenal the shape was the WM (3-2-2-3 / 3-3-4): stopper centre-half, full-backs on the wingers, a deep link inside-forward (Neil, then Alex James) playing long low passes to inside-cutting, goalscoring wingers (Hulme, Bastin). Who invented the stopper and the WM is disputed: Buchan proposed it in October 1925 by his own account, and the Scots historians argue the stopper (Roberts) was only a regular from 1928-29. The 'lucky Arsenal' tag of the time reflects opponents dominating territory. All evidence is retrospective (no match data for the era); the strongest items are dated memoirs of players and staff of the time (Buchan 1955, Hapgood 1945, Whittaker 1957, Wall 1969, Busby 1973) and Chapman's own posthumous book, read as extracts on Spartacus Educational.",
+  "spellsCounted": [
+    {
+      "club": "Huddersfield Town",
+      "start": "1921-03-31",
+      "end": "1925-06-11",
+      "reason": "First Division titles 1923-24 and 1924-25 and the 1922 FA Cup (Wikipedia honours; These Football Times), a style with tactical coverage (three-man back line, counter-attack), and the move to Arsenal."
+    },
+    {
+      "club": "Arsenal",
+      "start": "1925-06-11",
+      "end": "1934-01-06",
+      "reason": "First Division titles 1930-31 and 1932-33 and the 1930 FA Cup (Wikipedia honours), and the WM/counter-attacking system; the spell ends with his death."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Northampton Town",
+      "start": "1907-08-01",
+      "end": "1912-08-01",
+      "reason": "Early player-manager spell; kept excluded from the previous decision (Southern League title 1908-09 only; Irish Times mentions a 'basic counter-attacking system' there, not counted)."
+    },
+    {
+      "club": "Leeds City",
+      "start": "1912-08-01",
+      "end": "1918-12-09",
+      "reason": "No major titles or tactical coverage; kept excluded from the previous decision."
+    }
+  ],
+  "teamProfiles": [
+    "arsenal-1925-34"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Huddersfield start date: kept 1921-03-31 (Wikipedia career table). Sources disagree on his earlier role: Spartacus says assistant from September 1920 and full manager 'the following March'; These Football Times says employed December 1920 and formally assistant in February 1921; Wikipedia says assistant from 1 February 1921 and promoted the following month.",
+    "Marking (mar): sources disagree. Buchan's 1955 account of the October 1925 plan is zonal (the centre-half 'was not to be a policeman to the opposing centre-forward' but guarded 'a beat of a certain area', with the others ranging around him 'according to the direction of play'). Later accounts of the side in practice are man-oriented: Roberts as 'Policeman Roberts' whose aim was 'to blot out and stop the opponents' centre-forward' (Harris), full-backs marking the wingers and wing-halves 'looking after the inside-forwards' (Simkin). Decide which to weight: plan or practice.",
+    "Origin of the WM/stopper: Buchan proposed it (his own 1955 account; Spartacus says Chapman had 'already experimented' at Huddersfield with Wilson in a three-man back line); the Scots historians call the Arsenal-invented stopper partly a myth (Roberts made 2 starts in 1926-27, 3 in 1927-28).",
+    "Stated view vs behaviour: Chapman says he does not 'suggest that the Arsenal team go on the defensive even for tactical purposes' but that the best chances came after being 'driven back'; Joy (who joined after Chapman's death) says Arsenal deliberately retreated and funnelled. Keep the contradiction for res/pos.",
+    "Herbert Chapman on Football: the Spartacus extracts are dated 1935 there; other sources say it came out in 1934 after his death. statedView uses 1934. Several tactical quotes (driven back/broken away; 'senseless policy' of wing play; 'play to plan... not stifle individuality'; 'a team can attack for too long'; 'most opportune time for scoring') were not traced to an original and are recorded as attributed.",
+    "Bernard Joy's 'retreating and funneling' quote (via Jonathan Wilson) is from a player who joined Arsenal in 1935, after Chapman's death; it is used as evidence of the method he inherited, dated to the Chapman era. Check whether the audit should weight it.",
+    "Pressing: the only pressing evidence is Joy's 'retreating and funneling' (indirect, post-Chapman player); no source describes pressing triggers or height. The evidence (deep block, retreat, counter) implies a low block, but that is inference.",
+    "Arsenal.com 'Why a 7-0 loss at Newcastle led to our golden era' returned HTTP 503 again; the archive copy is not reachable from this tool."
+  ],
+  "sources": [
+    {
+      "title": "How Herbert Chapman changed the face of management and domestic success at Huddersfield Town - These Football Times (Somnath Sengupta)",
+      "url": "https://thesefootballtimes.co/2018/02/07/how-herbert-chapman-changed-the-face-of-management-and-success-at-huddersfield-town/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-07",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Huddersfield: Tom Wilson as a deep-lying centre-half, a role the article says \"baffled many teams\"; it adds the third-back system \"was still not in full use\" then. (Page read; the reader returned these fragments verbatim.)",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Huddersfield: \"An important feature of Chapman's tactics was to play Tom Wilson, the centre-half, as a member of a three-man back-line. At the time, because of the offside-law, the centre-half usually played in the midfield. As a result newspapers labelled Wilson as a \\\"great spoiler\\\".\" (Simkin, main article; contemporary newspaper label.)",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Arsenal after the Newcastle defeat: \"It was decided that the full-backs should play just in front of the centre-half whereas one of the inside-forwards should act as a link between attack and defence. The formation was therefore changed from 2-3-5 to 3-3-4. It was also known as the \\\"WM\\\" formation.\" Also: Chapman \"had already experimented with this idea at Huddersfield Town before the rule change.\" (Simkin, main article.)",
+      "verified": true
+    },
+    {
+      "title": "The origin of pragmatism in soccer - SI (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Jonathan Wilson describes Chapman's change from 2-3-5 as \"withdrawing his center-half into a defensive role, and pulling back his two inside-forwards\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Birth of the Centre-Back - Myth or Fact - Scots Football Worldwide (Iain Campbell Whittle)",
+      "url": "https://www.scotsfootballworldwide.scot/thecentrback",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1926/27",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Disputes how early the stopper system was in place: \"In 1926-27 Herbie Roberts made just two first team starts.\" \"In 1927-28 its was three.\" Roberts \"started half the games, twenty-four\" in 1928-29, then 60% in 1929-30 and 43 starts in 1930-31 (author's counts). Article undated (site copyright 2018-2026).",
+      "verified": true
+    },
+    {
+      "title": "Chapman & Buchan - Scots Football Worldwide (Iain Campbell Whittle)",
+      "url": "https://www.scotsfootballworldwide.scot/chapmanbuchan",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Credits the centre-half dropped \"between the full-backs\" to Arsenal's \"The System\"; says Charlie Buchan was behind the idea and disputes Chapman's authorship. Undated article.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1929/30",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "\"Pulling the centre-half back left a gap in midfield and so Chapman needed a link man to pick up the ball from defence and to pass it on quickly to the attackers. This was the job of Alex James, who had the ability to make accurate long low passes to goalscoring forwards\". (Simkin, main article.)",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Huddersfield: \"Chapman selected full-backs like Sam Wadsworth who could make accurate long passes. As the Huddersfield Daily Examiner pointed out: \\\"Wadsworth could take the ball from an opposing forward and send it to the forward he thinks will make the best use of the pass\\\".\" (contemporary newspaper quote via Simkin)",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Once Arsenal won the ball, it went forward \"usually through the centre half Herbie Roberts\" (citing Soar & Tyler pp. 15-17; Page pp. 161-62). Tier C, book-cited.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Richard Whitehead, The Times, 23 Oct 2004: James, \"Lying deeper than conventional inside forwards, he would spring Arsenal's rapid breakaways from defence - a tactic that earned them the tag \\\"lucky Arsenal\\\" from disgruntled opposing fans who had frequently seen their team dominate territorially for no tangible reward.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "The Official Illustrated History of Arsenal (quoted): \"By playing the wingers this way, Chapman was able to have one more man in midfield, and thus control the supply of the ball, primarily through Alex James.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The origin of pragmatism in soccer - SI (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "pressing",
+      "evidence": "Bernard Joy (Arsenal centre-half from 1935, quoted by Wilson): \"We at Arsenal achieved our end by deliberately drawing on the opponents by retreating and funneling to our own goal\". Describes a deliberate retreat rather than pressing; Joy joined after Chapman's death, so this describes the Arsenal method he inherited, not a match under Chapman.",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Charlie Buchan, A Lifetime in Football (1955), on the post-Newcastle meeting: \"He was not to be a \\\"policeman\\\" to the opposing centre-forward. He was given a beat of a certain area bordering the penalty-line which he was to guard. The other defenders were to range themselves around him according to the direction of play. It was the beginning of Arsenal's \\\"defence in depth\\\" policy\". (Primary-source extract 11 on the page.) Zonal description of the centre-half's job as planned in 1925.",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "\"Herbert Roberts was the centre-half who stayed in the penalty area to break down opposing attacks. Chapman used his full-backs, Eddie Hapgood and Tom Parker, to mark the wingers. This job had previously been done by the wing-halves, who now concentrated on looking after the inside-forwards.\" (Simkin, main article.) Man-oriented assignments: full-back on winger, wing-half on inside-forward.",
+      "verified": true
+    },
+    {
+      "title": "Herbie Roberts - Spartacus Educational (John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENroberts.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Jeff Harris, Arsenal Who's Who (quoted): Roberts \"was known as Policeman Roberts whose main aim was to blot out and stop the opponents' centre-forward\". Simkin: Roberts \"became known as the \\\"stopper\\\" or the \\\"policeman\\\" and rarely moved upfield.\" Contradicts Buchan's 1925 'not a policeman' plan: in practice the stopper marked the centre-forward.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Defenders were told to \"play deep\" (citing Say, p. 76); \"The full backs were pushed wider to cover the wings\" (Soar & Tyler pp. 46-47). Tier C, book-cited.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chapman & Buchan - Scots Football Worldwide (Iain Campbell Whittle)",
+      "url": "https://www.scotsfootballworldwide.scot/chapmanbuchan",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Huddersfield \"defended first and attacked later\"; quotes the style as \"a strong defence and a fast, counter-attacking response.\" Undated article.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Herbert Chapman changed the face of management and domestic success at Huddersfield Town - These Football Times (Somnath Sengupta)",
+      "url": "https://thesefootballtimes.co/2018/02/07/how-herbert-chapman-changed-the-face-of-management-and-success-at-huddersfield-town/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-07",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Huddersfield: \"Chapman focused on a balanced offensive system which relied on counter-attacks\"; Clem Stephenson's vision often started them.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Chapman told the forwards \"to go fast, like \\\"flying columns\\\" and if possible to make for goal direct.\" Chapman quoted: \"Although I do not suggest that the Arsenal team go on the defensive even for tactical purposes, I think it may be said that some of their best scoring chances have come when they have been driven back and then have broken away to strike suddenly and swiftly.\" (Simkin, main article; Chapman's quote not referenced on the page.)",
+      "verified": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Matt Busby, Soccer at the Top (1973), an opponent at Manchester City: \"From an Arsenal rearguard action the ball would, seemingly inevitably, reach Alex... before he released the ball, unerringly, to either the flying Joe Hulme... or the absolutely devastating Cliff Bastin\". \"The number of goals created from rearguard beginnings by Alex James were the most significant factor in Arsenal's greatness.\"",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on - Arsenal.com",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "\"his counter-attacking tactics took the rest of the country by storm\"; \"The rest of the league were simply unable to cope with the speed of our transitions into attack\". Club feature, undated (written for the 2025 centenary).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The origin of pragmatism in soccer - SI (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Wilson: \"Chapman immediately upset the authorities by introducing a counterattacking style.\" \"Traditionalists hated it, but Chapman was highly successful.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Huddersfield: \"At the time it was common for teams to attack via the wing. Chapman argued that this \\\"senseless policy of running along the lines and centring just in front of the goalmouth, where the odds are nine to one on the defenders\\\". Chapman developed the strategy of \\\"inside passing\\\" as he considered this to be \\\"more deadly, if less spectacular, method.\\\"\" (Simkin; Chapman's words not referenced.)",
+      "verified": true
+    },
+    {
+      "title": "How Herbert Chapman changed the face of management and domestic success at Huddersfield Town - These Football Times (Somnath Sengupta)",
+      "url": "https://thesefootballtimes.co/2018/02/07/how-herbert-chapman-changed-the-face-of-management-and-success-at-huddersfield-town/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-07",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "\"Town wingers were also encouraged to cut back rather than sticking to the touchline.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Jeff Harris, Arsenal Who's Who: Bastin \"unlike any other winger, he stood at least ten yards in from the touch line\". Official Illustrated History: \"In 1932-33 Bastin and Hulme scored 53 goals between them... their contemporaries... tended to continue to rely on the wingers making goals for the centre-forward, rather than scoring themselves.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "\"Chapman employed Bastin and Hulme as pacy wingers who could cut inside instead of hugging the touchline\" (citing Soar & Tyler pp. 15-17). Tier C.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930-04-26",
+      "accessedOn": "2026-11-01",
+      "dimension": "set-pieces",
+      "evidence": "Eddie Hapgood, Football Ambassador (1945), on the 1930 FA Cup final: \"Alex was fouled somewhere near the penalty area, and, almost before the ball had stopped rolling, had taken the free-kick. He sent a short pass to Cliff Bastin, moved into position to take a perfect return, and banged the ball into the Huddersfield net\". Hapgood says James made a silent appeal to the referee.",
+      "verified": true
+    },
+    {
+      "title": "Game Changers: Futuristic views set Herbert Chapman apart - The Irish Times (Keith Duggan)",
+      "url": "https://www.irishtimes.com/sport/soccer/english-soccer/game-changers-futuristic-views-set-herbert-chapman-apart-1.4298397",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-07-08",
+      "eventDate": "1930-04-26",
+      "accessedOn": "2026-11-01",
+      "dimension": "set-pieces",
+      "evidence": "The Irish Times says James's quick free kick in the 1930 final was a gamble Chapman disapproved of, because referees \"habitually called back the play\". So the quick free kick was the player's initiative, not a Chapman routine. No set-piece routines found for any spell.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Bob Wall (Chapman's administrative assistant) remarked that he always told players: \"Never mind what the other team does - this is what you are going to do.\" Team talk on Friday morning around a magnetic table; \"By the end of the meeting every player was fully aware of the role they were to play in the match.\" (Simkin, main article.)",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "\"Chapman also rarely made changes to the team. Even when individual players were in poor form he was reluctant to drop them.\" Chapman, Herbert Chapman on Football: \"I hate to have to make changes at all, and when they are necessary I try to arrange that they cause as little disturbance as possible.\"",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "For the link role Chapman \"selected veteran Andy Neil... At the time Neil was playing in the third-team. Chapman argued that Neil was \\\"as slow as a funeral but has ball control\\\" and could pass the ball accurately.\" Buchan (1955): Chapman told him \"We want you up in attack scoring goals. You have the height and the stamina.\"",
+      "verified": true
+    },
+    {
+      "title": "Herbie Roberts - Spartacus Educational (John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENroberts.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1926-12",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Tom Whittaker: \"Roberts's genius came from the fact that he was intelligent, and even more important, that he did what he was told.\" Bastin: \"he fitted in perfectly with the Arsenal scheme of things.\" Roberts signed December 1926 for £200.",
+      "verified": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1929/30",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Chapman, on Alex James, a goalscoring inside-forward at Preston: \"He had his ideas as to how he should play, but they did not quite fit in with those we favoured, and it was necessary that he should make some change.\" Stanley Matthews (2000): \"Give the ball to Alex,\" he would say.",
+      "verified": true
+    },
+    {
+      "title": "How Herbert Chapman changed the face of management and domestic success at Huddersfield Town - These Football Times (Somnath Sengupta)",
+      "url": "https://thesefootballtimes.co/2018/02/07/how-herbert-chapman-changed-the-face-of-management-and-success-at-huddersfield-town/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-07",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Huddersfield: Clem Stephenson signed for his vision; contemporaries called him an \"expert schemer\". Chapman to the board: \"You have talented, mostly young, players - they need a general to lead them\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1927-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "\"In October 1927, Herbert Chapman signed Eddie Hapgood, a 19 year old milkman, who was playing for non-league Kettering Town\". At Huddersfield: \"In 1921 he signed the 17-year-old coalminer, George Brown\"; reserve and third-team staff were \"part of a team of scouts looking for the best young talent in Britain.\"",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Bernard Joy: \"Chapman had intended to set up a strong second string when he came to Highbury\"; \"In the 1930-31 season the Arsenal reserve side won the Combination league title for the fifth year running.\" Also \"The young George Male was often used if any of the full-backs or wing-halves were injured.\"",
+      "verified": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1930-04-26",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "\"At the age of 18 years and 43 days, Cliff Bastin was the youngest player to appear in a FA Cup Final.\" Against this: the link man in 1925 was the \"veteran Andy Neil\" (Chapman page), and Stephenson was about 32 when signed for Huddersfield (TFT). Mix of young signings and veteran schemers; record fees for established players (David Jack, Arsenal.com).",
+      "verified": true
+    },
+    {
+      "title": "How Herbert Chapman changed the face of management and domestic success at Huddersfield Town - These Football Times (Somnath Sengupta)",
+      "url": "https://thesefootballtimes.co/2018/02/07/how-herbert-chapman-changed-the-face-of-management-and-success-at-huddersfield-town/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-07",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Chapman \"was the first manager who started the practice of reserve and youth teams playing the same style as the senior team.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Herbert Chapman changed the face of management and domestic success at Huddersfield Town - These Football Times (Somnath Sengupta)",
+      "url": "https://thesefootballtimes.co/2018/02/07/how-herbert-chapman-changed-the-face-of-management-and-success-at-huddersfield-town/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-07",
+      "eventDate": "1921/22",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"Chapman insisted that his players followed a disciplined fitness regime and regulated their lifestyles.\" \"He criticised the practice of club directors picking matchday squads and emphasised that this was the duty of the manager.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1923/24",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Huddersfield: after a bad-tempered game at Notts County, Ernie Islip \"was immediately sold by Chapman to Birmingham City, as a sign to the other Huddersfield players that he would not accept such behaviour on the pitch.\"",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1927-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Eddie Hapgood, Football Ambassador (1945), on first meeting Chapman: \"Well, young man, do you smoke or drink?\" Rather startled, I said, \"No, sir.\" \"Good,\" he answered. Tom Whittaker, The Arsenal Story (1957): \"Chapman instituted player-conferences\". Studd (1981): \"He set great store by what he regarded as the dignity of the athlete\".",
+      "verified": true
+    },
+    {
+      "title": "Alex James - Spartacus Educational (John Simkin; main article plus primary-source extracts)",
+      "url": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-01",
+      "eventDate": "1929/30",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"In a cup-tie against Chelsea Chapman dropped James from the team. Arsenal won the game and James was not recalled until he had convinced Chapman that he was willing to play the link man role.\"",
+      "verified": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on - Arsenal.com",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"Chapman had been a master tactician, a disciplinarian, but was also hugely supportive of them when needed.\" His advice to players: \"service before self.\" Club feature, undated.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Game Changers: Futuristic views set Herbert Chapman apart - The Irish Times (Keith Duggan)",
+      "url": "https://www.irishtimes.com/sport/soccer/english-soccer/game-changers-futuristic-views-set-herbert-chapman-apart-1.4298397",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-07-08",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"From the beginning, he was convinced that players had to adhere to a collective vision of the game\"; \"He believed in physical fitness, in physiotherapy and in team meetings when such ideas were considered fanciful.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "My idea is that the whole team should share the responsibility. They should be trained to think not only for themselves but for the side generally, and they should be encouraged to express their views and offer suggestions for the improvement of the play. My endeavour is always to make the most of the brains of everyone.",
+      "date": "1934",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "primary",
+      "note": "Herbert Chapman on Football (posthumous collection of his Sunday Express columns; Spartacus dates the edition 1935). Read as primary-source extract (3) on the page."
+    },
+    {
+      "quote": "I hate to have to make changes at all, and when they are necessary I try to arrange that they cause as little disturbance as possible.",
+      "date": "1934",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "primary",
+      "note": "Herbert Chapman on Football, primary-source extract (2)."
+    },
+    {
+      "quote": "I am convinced that 75 per cent. of players do not give half their full value because they lack confidence in themselves.",
+      "date": "1934",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "primary",
+      "note": "Herbert Chapman on Football, primary-source extract (4)."
+    },
+    {
+      "quote": "He had his ideas as to how he should play, but they did not quite fit in with those we favoured, and it was necessary that he should make some change.",
+      "date": "1934",
+      "source": "https://spartacus-educational.com/PRESTONjamesA.htm",
+      "provenance": "primary",
+      "note": "On Alex James; Herbert Chapman on Football, quoted on the Alex James page."
+    },
+    {
+      "quote": "Although I do not suggest that the Arsenal team go on the defensive even for tactical purposes, I think it may be said that some of their best scoring chances have come when they have been driven back and then have broken away to strike suddenly and swiftly.",
+      "date": "1997-09",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "attributed",
+      "note": "Chapman's words in Simkin's main article (first published Sept 1997, updated Jan 2022) with no reference; probably from his Sunday Express columns. Stated view: denies Arsenal defend on purpose, yet credits the counter."
+    },
+    {
+      "quote": "senseless policy of running along the lines and centring just in front of the goalmouth, where the odds are nine to one on the defenders",
+      "date": "1997-09",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "attributed",
+      "note": "Chapman on wing play, Huddersfield period, unreferenced on the page."
+    },
+    {
+      "quote": "Never mind what the other team does - this is what you are going to do.",
+      "date": "1969",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "attributed",
+      "note": "Recalled by Bob Wall, Arsenal from the Heart (1969), as Chapman's habitual team-talk line."
+    },
+    {
+      "quote": "All the men are expected to play to plan, but not so as to stifle individuality.",
+      "date": "2026-11-01",
+      "source": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "provenance": "attributed",
+      "note": "Wikipedia cites Say, p. 81; original date and source not traced. Date is the access date."
+    },
+    {
+      "quote": "the most opportune time for scoring is immediately after repelling an attack",
+      "date": "2026-11-01",
+      "source": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "provenance": "attributed",
+      "note": "Wikipedia cites Say, p. 77; not traced to Chapman's original text."
+    },
+    {
+      "quote": "a team can attack for too long",
+      "date": "2026-11-01",
+      "source": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "provenance": "attributed",
+      "note": "Wikipedia cites Wilson, p. 40 (Inverting the Pyramid); Scots Football Worldwide places it in his Northampton years. Not traced to an original."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.arsenal.com/feature/why-a-7-0-loss-at-newcastle-led-to-our-golden-era-ajy5Q5Z8Lbbg",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.arsenal.com/feature/why-a-7-0-loss-at-newcastle-led-to-our-golden-era-ajy5Q5Z8Lbbg",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://spartacus-educational.com/FchapmanH.htm",
+      "reason": "403"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Every dimension has a verified fact (pressing only indirectly, via Joy's 'retreating and funneling'), and the counted spells agree on a deep defence plus fast counter-attack and inside wingers. But the era has no data or contemporary tactical analysis: evidence is retrospective tier B-C (These Football Times, Jonathan Wilson at SI, Arsenal.com, Spartacus Educational, Wikipedia), and the best of it is dated memoirs (Buchan, Hapgood, Whittaker, Wall, Busby) and Chapman's own posthumous book, read as quoted extracts. Huddersfield is thinner than Arsenal, and sources disagree on marking and on who invented the WM."
+  }
+}

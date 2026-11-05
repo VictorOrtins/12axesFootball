@@ -1,6 +1,5 @@
 import type { CSSProperties } from 'react';
 import type { Axis, AxisResult } from '../types/quiz';
-import { PoleIcon } from './AxisIcon';
 import { tokens } from '../styles/tokens.generated';
 
 interface AxisResultBarProps {
@@ -58,9 +57,6 @@ export function AxisResultBar({ axis, result }: AxisResultBarProps) {
 
       <div className="axis-meter">
         <div className={`axis-pole${leftActive ? ' is-active' : ''}`} data-side="left" style={leftPoleStyle}>
-          <span className="axis-pole-icon" aria-hidden="true">
-            <PoleIcon axisId={axis.id} side="left" />
-          </span>
           <span className="axis-pole-text">
             <span className="axis-pole-name">{result.leftPole}</span>
             <span className="axis-pole-value">{leftPercent.toFixed(0)}%</span>
@@ -87,9 +83,6 @@ export function AxisResultBar({ axis, result }: AxisResultBarProps) {
           <span className="axis-pole-text">
             <span className="axis-pole-name">{result.rightPole}</span>
             <span className="axis-pole-value">{rightPercent.toFixed(0)}%</span>
-          </span>
-          <span className="axis-pole-icon" aria-hidden="true">
-            <PoleIcon axisId={axis.id} side="right" />
           </span>
         </div>
       </div>

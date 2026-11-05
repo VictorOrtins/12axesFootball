@@ -1,676 +1,189 @@
 [
   {
-    "id": "autonomia",
-    "term": "Autonomia",
-    "definition": "Poder de decidir os próprios assuntos sem pedir permissão a um governo superior.",
+    "id": "costas_da_defesa",
+    "term": "Costas da defesa",
+    "definition": "O espaço entre a última linha de defensores e o goleiro. Um time que defende adiantado deixa esse espaço livre.",
     "match": [
-      "autonomia",
-      "autônomas"
+      "costas da defesa"
     ]
   },
   {
-    "id": "constituicao",
-    "term": "Constituição",
-    "definition": "A lei mais importante de um país ou estado. Todas as outras leis precisam respeitá-la.",
+    "id": "bola_longa",
+    "term": "Bola longa",
+    "definition": "Lançamento do campo de defesa direto para os atacantes, pulando o meio-campo.",
     "match": [
-      "Constituição"
+      "bola longa"
     ]
   },
   {
-    "id": "secessao",
-    "term": "Secessão",
-    "definition": "Quando uma região se separa de um país para se tornar independente.",
+    "id": "pressao_alta",
+    "term": "Pressão alta",
+    "definition": "Marcar o adversário perto da área dele, logo que ele começa a jogada.",
     "match": [
-      "se separar do país",
-      "separação de um estado"
+      "pressiona alto"
     ]
   },
   {
-    "id": "quilombolas",
-    "term": "Quilombolas",
-    "definition": "Descendentes de pessoas escravizadas que formaram comunidades próprias, os quilombos, e mantêm suas terras e tradições.",
+    "id": "saida_de_bola",
+    "term": "Saída de bola",
+    "definition": "Os primeiros passes de uma jogada, quando o time leva a bola da defesa para o meio-campo.",
     "match": [
-      "quilombolas"
+      "saída de bola",
+      "saída"
     ]
   },
   {
-    "id": "anular",
-    "term": "Anular",
-    "definition": "Cancelar uma lei ou decisão, tirando o efeito que ela tinha.",
+    "id": "volante",
+    "term": "Volante",
+    "definition": "Meio-campista que joga à frente dos zagueiros, protege a defesa e ajuda a iniciar as jogadas.",
     "match": [
-      "anular"
+      "volante"
     ]
   },
   {
-    "id": "stf",
-    "term": "STF",
-    "definition": "Supremo Tribunal Federal: o tribunal mais alto do Brasil. Julga se leis e atos do governo respeitam a Constituição.",
+    "id": "quebrar_linhas",
+    "term": "Quebrar linhas",
+    "definition": "Passar a bola por entre os jogadores adversários, deixando uma linha de marcação para trás.",
     "match": [
-      "STF"
+      "quebrar linhas"
     ]
   },
   {
-    "id": "referendo",
-    "term": "Referendo",
-    "definition": "Votação em que a população decide diretamente se aprova ou rejeita uma lei.",
+    "id": "ponta",
+    "term": "Ponta",
+    "definition": "Atacante que joga aberto, perto da linha lateral, e costuma driblar e cruzar.",
     "match": [
-      "referendo"
+      "ponta",
+      "pontas"
     ]
   },
   {
-    "id": "cassacao",
-    "term": "Cassação de mandato",
-    "definition": "Tirar um político do cargo antes de o mandato terminar.",
+    "id": "lateral",
+    "term": "Lateral",
+    "definition": "Defensor que joga pelos lados do campo e também apoia o ataque.",
     "match": [
-      "cassar o mandato"
+      "lateral"
     ]
   },
   {
-    "id": "limite_mandatos",
-    "term": "Limite de mandatos",
-    "definition": "Regra que impede alguém de ficar no mesmo cargo por mais de um certo número de mandatos.",
+    "id": "linha_lateral",
+    "term": "Linha lateral",
+    "definition": "A linha que marca o limite do campo de cada lado, ao longo do comprimento.",
     "match": [
-      "limite de mandatos"
+      "linha lateral"
     ]
   },
   {
-    "id": "voto_universal",
-    "term": "Voto universal",
-    "definition": "Todos os adultos podem votar, sem exclusão por renda, escolaridade, sexo ou raça.",
+    "id": "tabela",
+    "term": "Tabela",
+    "definition": "Jogada em que dois jogadores trocam passes rápidos para passar por um adversário.",
     "match": [
-      "universal"
+      "tabelar",
+      "tabelando"
     ]
   },
   {
-    "id": "autoritario",
-    "term": "Regime autoritário",
-    "definition": "Governo em que o poder fica concentrado em poucos e há pouca ou nenhuma liberdade de oposição.",
+    "id": "roda_de_bobinho",
+    "term": "Roda de bobinho",
+    "definition": "Exercício em que um grupo troca passes em roda enquanto um ou dois jogadores no meio tentam roubar a bola.",
     "match": [
-      "autoritário"
+      "roda de bobinho"
     ]
   },
   {
-    "id": "toque_recolher",
-    "term": "Toque de recolher",
-    "definition": "Proibição de circular nas ruas durante certos horários, imposta pelo governo.",
+    "id": "linhas_compactas",
+    "term": "Linhas compactas",
+    "definition": "Defesa, meio-campo e ataque próximos uns dos outros, para sobrar pouco espaço entre eles.",
     "match": [
-      "toque de recolher"
+      "linhas juntas"
     ]
   },
   {
-    "id": "eutanasia",
-    "term": "Eutanásia",
-    "definition": "Ajudar uma pessoa com doença incurável a encerrar a vida, a pedido dela, para evitar sofrimento.",
+    "id": "jogada_ensaiada",
+    "term": "Jogada ensaiada",
+    "definition": "Jogada combinada e treinada antes, geralmente em escanteios, faltas e laterais.",
     "match": [
-      "eutanásia"
+      "jogada ensaiada"
     ]
   },
   {
-    "id": "reconhecimento_facial",
-    "term": "Reconhecimento facial",
-    "definition": "Tecnologia que identifica pessoas comparando o rosto filmado por uma câmera com fotos guardadas num banco de dados.",
+    "id": "marcacao_individual",
+    "term": "Marcação individual",
+    "definition": "Cada defensor fica responsável por um adversário e o acompanha pelo campo.",
     "match": [
-      "reconhecimento facial"
+      "marcação individual"
     ]
   },
   {
-    "id": "faccoes",
-    "term": "Facções",
-    "definition": "Grupos criminosos organizados que costumam controlar territórios e atividades ilegais.",
+    "id": "marcacao_por_zona",
+    "term": "Marcação por zona",
+    "definition": "Cada defensor cuida de um espaço do campo e marca quem entrar nele.",
     "match": [
-      "facções"
+      "marcar por zona"
     ]
   },
   {
-    "id": "poliamor",
-    "term": "Poliamor",
-    "definition": "Relação amorosa com mais de uma pessoa ao mesmo tempo, com o conhecimento e o acordo de todos.",
+    "id": "modelo_de_jogo",
+    "term": "Modelo de jogo",
+    "definition": "O conjunto de ideias e comportamentos que o treinador quer ver no time em cada momento do jogo.",
     "match": [
-      "poliamor"
+      "modelo de jogo"
     ]
   },
   {
-    "id": "relacao_aberta",
-    "term": "Relação aberta",
-    "definition": "Relacionamento em que o casal combina que cada um pode ter outros parceiros.",
+    "id": "funcao_tatica",
+    "term": "Função tática",
+    "definition": "A tarefa que o treinador dá a um jogador, com e sem a bola.",
     "match": [
-      "relações abertas"
+      "função tática"
     ]
   },
   {
-    "id": "linguagem_neutra",
-    "term": "Linguagem neutra",
-    "definition": "Jeitos de falar e escrever que evitam marcar masculino ou feminino, como \"todes\" em vez de \"todos\".",
+    "id": "voltar_para_marcar",
+    "term": "Voltar para marcar",
+    "definition": "Quando um atacante recua para ajudar a defesa depois que o time perde a bola.",
     "match": [
-      "linguagem neutra"
+      "volta para marcar"
     ]
   },
   {
-    "id": "identidade_genero",
-    "term": "Identidade de gênero",
-    "definition": "Como cada pessoa se percebe: homem, mulher, ambos ou nenhum, independentemente do sexo de nascimento.",
+    "id": "camisa_10",
+    "term": "Camisa 10",
+    "definition": "O meia criativo clássico, que organiza o ataque e faz o último passe.",
     "match": [
-      "identidade de gênero"
+      "camisa 10"
     ]
   },
   {
-    "id": "lgbt",
-    "term": "LGBT",
-    "definition": "Sigla para lésbicas, gays, bissexuais e transgêneros.",
+    "id": "dividida",
+    "term": "Dividida",
+    "definition": "Disputa de bola corpo a corpo entre dois jogadores.",
     "match": [
-      "LGBT"
+      "divididas"
     ]
   },
   {
-    "id": "cotas_raciais",
-    "term": "Cotas raciais",
-    "definition": "Reserva de uma parte das vagas em universidades ou empregos para pessoas de determinados grupos raciais.",
+    "id": "bola_aerea",
+    "term": "Bola aérea",
+    "definition": "Bola alta, disputada de cabeça, como em cruzamentos, escanteios e lançamentos.",
     "match": [
-      "cotas raciais"
+      "bola aérea"
     ]
   },
   {
-    "id": "multicultural",
-    "term": "Multicultural",
-    "definition": "Lugar onde convivem pessoas de várias culturas, idiomas e religiões, cada uma mantendo suas tradições.",
+    "id": "base",
+    "term": "Base",
+    "definition": "As categorias de formação do clube, onde jogam os jovens antes de chegar ao time principal.",
     "match": [
-      "multicultural"
+      "base"
     ]
   },
   {
-    "id": "ataque_preventivo",
-    "term": "Ataque preventivo",
-    "definition": "Atacar um inimigo primeiro, por acreditar que ele está se preparando para atacar.",
+    "id": "rodado",
+    "term": "Rodado",
+    "definition": "Jogador experiente, que já passou por muitos jogos, clubes e situações.",
     "match": [
-      "ataques preventivos"
-    ]
-  },
-  {
-    "id": "desarmamento",
-    "term": "Desarmamento",
-    "definition": "Acordo entre países para reduzir ou eliminar certos tipos de armas.",
-    "match": [
-      "desarmamento"
-    ]
-  },
-  {
-    "id": "armas_autonomas",
-    "term": "Armas autônomas letais",
-    "definition": "Armas que escolhem e atacam alvos sozinhas, com um computador decidindo no lugar de uma pessoa.",
-    "match": [
-      "armas autônomas letais"
-    ]
-  },
-  {
-    "id": "dissuadir",
-    "term": "Dissuadir",
-    "definition": "Convencer alguém a não atacar, mostrando que a resposta seria muito dura.",
-    "match": [
-      "dissuadir"
-    ]
-  },
-  {
-    "id": "crimes_guerra",
-    "term": "Crimes de guerra",
-    "definition": "Violações graves das regras da guerra, como atacar civis ou maltratar prisioneiros.",
-    "match": [
-      "crimes de guerra"
-    ]
-  },
-  {
-    "id": "onu",
-    "term": "ONU",
-    "definition": "Organização das Nações Unidas: reúne quase todos os países para tratar de paz, direitos humanos e cooperação.",
-    "match": [
-      "ONU"
-    ]
-  },
-  {
-    "id": "genocidio",
-    "term": "Genocídio",
-    "definition": "Matar ou perseguir sistematicamente um povo, etnia ou religião com a intenção de destruí-lo.",
-    "match": [
-      "genocídio"
-    ]
-  },
-  {
-    "id": "missoes_paz",
-    "term": "Missões de paz",
-    "definition": "Tropas enviadas ao exterior, sob coordenação internacional, para manter a calma em regiões em conflito.",
-    "match": [
-      "missões de paz"
-    ]
-  },
-  {
-    "id": "sancoes",
-    "term": "Sanções",
-    "definition": "Punições econômicas contra um país, como bloquear o comércio ou congelar dinheiro no exterior.",
-    "match": [
-      "sanções"
-    ]
-  },
-  {
-    "id": "aliancas_militares",
-    "term": "Alianças militares",
-    "definition": "Acordos entre países para se defenderem juntos: se um for atacado, os outros ajudam.",
-    "match": [
-      "alianças militares"
-    ]
-  },
-  {
-    "id": "alinhamento_automatico",
-    "term": "Alinhamento automático",
-    "definition": "Seguir sempre a posição de outro país ou bloco, sem decidir caso a caso.",
-    "match": [
-      "alinhamento automático"
-    ]
-  },
-  {
-    "id": "tratado_internacional",
-    "term": "Tratado internacional",
-    "definition": "Acordo formal entre países, com regras que os dois lados se comprometem a cumprir.",
-    "match": [
-      "tratado internacional"
-    ]
-  },
-  {
-    "id": "potencias",
-    "term": "Potências",
-    "definition": "Países muito poderosos em força militar, economia ou influência.",
-    "match": [
-      "potências"
-    ]
-  },
-  {
-    "id": "redistribuir",
-    "term": "Redistribuir",
-    "definition": "Tirar de quem tem mais para dar a quem tem menos, por meio de impostos, leis ou programas públicos.",
-    "match": [
-      "redistribuir",
-      "redistribuição"
-    ]
-  },
-  {
-    "id": "estrategico",
-    "term": "Estratégico",
-    "definition": "Setor ou empresa essencial para o país funcionar ou se defender, como energia, petróleo, água ou tecnologia.",
-    "match": [
-      "estratégicas",
-      "estratégicos"
-    ]
-  },
-  {
-    "id": "estatais",
-    "term": "Estatais",
-    "definition": "Empresas controladas pelo governo, como Petrobras ou Correios.",
-    "match": [
-      "estatais"
-    ]
-  },
-  {
-    "id": "reforma_agraria",
-    "term": "Reforma agrária",
-    "definition": "Dividir grandes propriedades rurais para entregar terra a quem quer trabalhar nela.",
-    "match": [
-      "reforma agrária"
-    ]
-  },
-  {
-    "id": "sindicatos",
-    "term": "Sindicatos",
-    "definition": "Organizações de trabalhadores que negociam salários e condições de trabalho em nome do grupo.",
-    "match": [
-      "sindicatos"
-    ]
-  },
-  {
-    "id": "renda_basica",
-    "term": "Renda básica",
-    "definition": "Dinheiro que o Estado paga regularmente a quem precisa, para garantir o mínimo para viver.",
-    "match": [
-      "renda básica"
-    ]
-  },
-  {
-    "id": "bolsa_familia",
-    "term": "Bolsa Família",
-    "definition": "Programa do governo federal que paga uma quantia mensal a famílias de baixa renda.",
-    "match": [
-      "Bolsa Família"
-    ]
-  },
-  {
-    "id": "estabilidade_servidores",
-    "term": "Estabilidade vitalícia",
-    "definition": "Regra que dificulta muito a demissão de servidores públicos concursados.",
-    "match": [
-      "estabilidade vitalícia"
-    ]
-  },
-  {
-    "id": "subsidiar",
-    "term": "Subsidiar",
-    "definition": "Ajudar uma atividade com dinheiro público, para que ela custe menos ou seja mais lucrativa.",
-    "match": [
-      "subsidiar"
-    ]
-  },
-  {
-    "id": "banco_central",
-    "term": "Banco Central",
-    "definition": "Instituição pública que cuida da moeda do país e define a taxa básica de juros.",
-    "match": [
-      "Banco Central"
-    ]
-  },
-  {
-    "id": "taxa_juros",
-    "term": "Taxa de juros",
-    "definition": "Preço do dinheiro emprestado. Juros altos encarecem o crédito e tendem a frear os preços; juros baixos fazem o contrário.",
-    "match": [
-      "taxa de juros",
-      "juros"
-    ]
-  },
-  {
-    "id": "inflacao",
-    "term": "Inflação",
-    "definition": "Alta geral e contínua dos preços, que faz o dinheiro comprar menos. Há debate sobre as causas: emissão de moeda, demanda, custos.",
-    "match": [
-      "inflação"
-    ]
-  },
-  {
-    "id": "carga_tributaria",
-    "term": "Carga tributária",
-    "definition": "Total de impostos que a população e as empresas pagam, em proporção à economia do país.",
-    "match": [
-      "carga tributária"
-    ]
-  },
-  {
-    "id": "arrecadacao",
-    "term": "Arrecadação",
-    "definition": "O dinheiro que o governo recebe com impostos.",
-    "match": [
-      "arrecadada",
-      "arrecadação"
-    ]
-  },
-  {
-    "id": "recessao",
-    "term": "Recessão",
-    "definition": "Período em que a economia encolhe: a produção cai e o desemprego costuma subir.",
-    "match": [
-      "recessão"
-    ]
-  },
-  {
-    "id": "cambio",
-    "term": "Taxa de câmbio",
-    "definition": "Preço da moeda do país em relação a outras moedas, como o dólar.",
-    "match": [
-      "taxa de câmbio"
-    ]
-  },
-  {
-    "id": "criptomoedas",
-    "term": "Criptomoedas",
-    "definition": "Dinheiro digital, como o Bitcoin, que não é emitido por nenhum governo nem banco central.",
-    "match": [
-      "criptomoedas"
-    ]
-  },
-  {
-    "id": "economia_planejada",
-    "term": "Economia planejada",
-    "definition": "Sistema em que o governo decide o que, quanto e a que preço se produz.",
-    "match": [
-      "economia planejada"
-    ]
-  },
-  {
-    "id": "livre_mercado",
-    "term": "Livre mercado",
-    "definition": "Sistema em que preços e produção resultam da livre troca entre compradores e vendedores, com pouca interferência do governo.",
-    "match": [
-      "livre mercado"
-    ]
-  },
-  {
-    "id": "campeas_nacionais",
-    "term": "Campeãs nacionais",
-    "definition": "Grandes empresas do país que o governo escolhe apoiar, para que cresçam e concorram no mundo.",
-    "match": [
-      "campeãs nacionais"
-    ]
-  },
-  {
-    "id": "regulacao",
-    "term": "Regulação",
-    "definition": "Regras do governo que dizem como uma atividade econômica pode funcionar.",
-    "match": [
-      "regulações"
-    ]
-  },
-  {
-    "id": "tarifas",
-    "term": "Tarifas",
-    "definition": "Imposto cobrado sobre produtos importados, que os deixa mais caros.",
-    "match": [
-      "tarifas"
-    ]
-  },
-  {
-    "id": "livre_comercio",
-    "term": "Livre comércio",
-    "definition": "Comércio entre países com poucas ou nenhuma tarifa ou barreira.",
-    "match": [
-      "livre comércio"
-    ]
-  },
-  {
-    "id": "soberania_economica",
-    "term": "Soberania econômica",
-    "definition": "Capacidade de o país decidir sobre sua economia sem depender de outros países.",
-    "match": [
-      "soberania econômica"
-    ]
-  },
-  {
-    "id": "multinacionais",
-    "term": "Multinacionais",
-    "definition": "Empresas que operam em vários países ao mesmo tempo.",
-    "match": [
-      "multinacionais"
-    ]
-  },
-  {
-    "id": "integracao_economica",
-    "term": "Integração econômica",
-    "definition": "Aproximação entre economias de países por meio de comércio, investimento e regras comuns.",
-    "match": [
-      "integração econômica",
-      "integração comercial"
-    ]
-  },
-  {
-    "id": "cadeias_suprimento",
-    "term": "Cadeias de suprimento",
-    "definition": "Todas as etapas para produzir algo, da matéria-prima até o produto final.",
-    "match": [
-      "cadeias estratégicas"
-    ]
-  },
-  {
-    "id": "transgenicos",
-    "term": "Transgênicos",
-    "definition": "Alimentos de plantas cujo material genético foi modificado em laboratório, por exemplo para resistir a pragas.",
-    "match": [
-      "transgênicos"
-    ]
-  },
-  {
-    "id": "agrotoxicos",
-    "term": "Agrotóxicos",
-    "definition": "Produtos químicos usados nas lavouras para combater pragas e doenças das plantas.",
-    "match": [
-      "agrotóxicos"
-    ]
-  },
-  {
-    "id": "edicao_genetica",
-    "term": "Edição genética",
-    "definition": "Alterar o DNA de um ser vivo, para corrigir ou mudar características.",
-    "match": [
-      "edição genética"
-    ]
-  },
-  {
-    "id": "embrioes",
-    "term": "Embriões",
-    "definition": "Fase inicial do desenvolvimento humano, nas primeiras semanas depois da fecundação.",
-    "match": [
-      "embriões"
-    ]
-  },
-  {
-    "id": "implantes_cerebrais",
-    "term": "Implantes cerebrais",
-    "definition": "Dispositivos colocados no cérebro para ler sinais dele ou estimular a atividade mental.",
-    "match": [
-      "implantes cerebrais"
-    ]
-  },
-  {
-    "id": "ia",
-    "term": "Inteligência artificial",
-    "definition": "Programas de computador capazes de realizar tarefas que normalmente exigem inteligência humana, como entender textos ou reconhecer imagens.",
-    "match": [
-      "IA"
-    ]
-  },
-  {
-    "id": "automacao",
-    "term": "Automação",
-    "definition": "Uso de máquinas e programas para fazer trabalhos que antes eram feitos por pessoas.",
-    "match": [
-      "automação"
-    ]
-  },
-  {
-    "id": "carne_cultivada",
-    "term": "Carne cultivada",
-    "definition": "Carne produzida em laboratório a partir de células de animais, sem criar nem abater o animal inteiro.",
-    "match": [
-      "carne cultivada em laboratório"
-    ]
-  },
-  {
-    "id": "espionagem",
-    "term": "Espionagem",
-    "definition": "Obter em segredo informações de outro país, de uma empresa ou de uma pessoa.",
-    "match": [
-      "espionagem"
-    ]
-  },
-  {
-    "id": "arsenais",
-    "term": "Arsenais",
-    "definition": "Conjunto de armas que um país possui.",
-    "match": [
-      "arsenais"
-    ]
-  },
-  {
-    "id": "interesse_nacional",
-    "term": "Interesse nacional",
-    "definition": "O que o governo considera bom para o país como um todo, como segurança, economia e influência no mundo.",
-    "match": [
-      "interesse nacional",
-      "interesses nacionais"
-    ]
-  },
-  {
-    "id": "organismos_internacionais",
-    "term": "Organismos internacionais",
-    "definition": "Instituições formadas por vários países para tratar de temas comuns, como a ONU ou a OMC.",
-    "match": [
-      "organismos internacionais"
-    ]
-  },
-  {
-    "id": "cidadao_mundo",
-    "term": "Cidadão do mundo",
-    "definition": "Pessoa que se sente parte da humanidade inteira antes de se sentir parte de uma nação.",
-    "match": [
-      "cidadão do mundo"
-    ]
-  },
-  {
-    "id": "congresso",
-    "term": "Congresso",
-    "definition": "Grupo de pessoas eleitas que votam as leis do país. No Brasil: Câmara dos Deputados e Senado.",
-    "match": [
-      "Congresso"
-    ]
-  },
-  {
-    "id": "alternancia_poder",
-    "term": "Alternância de poder",
-    "definition": "Quando partidos diferentes se revezam no governo ao longo das eleições.",
-    "match": [
-      "alternância de poder"
-    ]
-  },
-  {
-    "id": "assembleia_popular",
-    "term": "Assembleia popular",
-    "definition": "Reunião aberta em que as pessoas decidem juntas, em vez de eleger representantes.",
-    "match": [
-      "assembleias populares"
-    ]
-  },
-  {
-    "id": "criminalizar",
-    "term": "Criminalizar",
-    "definition": "Transformar uma conduta em crime, com punição prevista em lei.",
-    "match": [
-      "criminalizadas",
-      "criminalizada"
-    ]
-  },
-  {
-    "id": "legalizar",
-    "term": "Legalizar",
-    "definition": "Tornar permitido por lei algo que antes era proibido.",
-    "match": [
-      "legalizadas",
-      "legalizada"
-    ]
-  },
-  {
-    "id": "industrializacao",
-    "term": "Industrialização",
-    "definition": "Transformar a economia para produzir mais em fábricas e com máquinas.",
-    "match": [
-      "industrialização"
-    ]
-  },
-  {
-    "id": "mineracao",
-    "term": "Mineração",
-    "definition": "Extração de minérios do solo, como ouro, ferro e nióbio.",
-    "match": [
-      "mineração"
-    ]
-  },
-  {
-    "id": "pecuaria",
-    "term": "Pecuária",
-    "definition": "Criação de animais, como gado, para produzir carne, leite e outros produtos.",
-    "match": [
-      "pecuária"
+      "rodado"
     ]
   }
 ]

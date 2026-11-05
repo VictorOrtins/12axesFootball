@@ -43,21 +43,21 @@ class ArchetypeScoringTest {
         var payload = dataService.getQuiz("short", "en");
         assertThat(payload.archetypeQuestions()).hasSize(5);
         assertThat(payload.archetypeQuestions().get(2).options()).hasSize(6);
-        assertThat(payload.archetypeQuestions().getFirst().text()).isEqualTo("What should society rest on?");
+        assertThat(payload.archetypeQuestions().getFirst().text()).isEqualTo("How should your team play?");
     }
 
     @Test
     void eachChoiceCountsAsOneExtraAnswerOnEveryAxisItTouches() {
         var answers = neutralShortQuiz();
         var without = scoringService.score(new ResultRequest(answers, "short"));
-        var with = scoringService.score(new ResultRequest(answers, "short", Map.of("economia", "F")));
+        var with = scoringService.score(new ResultRequest(answers, "short", Map.of("posse", "F")));
 
-        // Economia F = Privado 88 (leftPercent 12): (3 × 50 + 12) / 4 = 40.5
-        assertThat(axis(with, "economia")).isEqualTo(40.5);
-        assertThat(axis(with, "controle")).isEqualTo(39.5);
-        assertThat(axis(with, "comercio")).isEqualTo(40.5);
+        // Posse F: pos 12, pro 8, est 12 (leftPercent): (3 × 50 + 12) / 4 = 40.5
+        assertThat(axis(with, "pos")).isEqualTo(40.5);
+        assertThat(axis(with, "pro")).isEqualTo(39.5);
+        assertThat(axis(with, "est")).isEqualTo(40.5);
         // Eixos que a alternativa não toca ficam iguais.
-        assertThat(axis(with, "moral")).isEqualTo(axis(without, "moral"));
+        assertThat(axis(with, "bas")).isEqualTo(axis(without, "bas"));
     }
 
     @Test
@@ -70,7 +70,7 @@ class ArchetypeScoringTest {
 
     @Test
     void unknownChoiceIsRejected() {
-        var request = new ResultRequest(neutralShortQuiz(), "short", Map.of("economia", "Z"));
+        var request = new ResultRequest(neutralShortQuiz(), "short", Map.of("posse", "Z"));
         assertThatThrownBy(() -> scoringService.score(request)).isInstanceOf(ResponseStatusException.class);
     }
 }

@@ -65,6 +65,36 @@ class ScoringServiceTest {
     }
 
     @Test
+    void axesWithoutAnswersStayCentered() {
+        List<SubmittedAnswer> answers = dataService.getQuestions().stream()
+                .filter(question -> question.axisId().equals("pos") && question.secondary() == null)
+                .map(question -> new SubmittedAnswer(question.id(), AnswerValue.STRONGLY_AGREE))
+                .toList();
+
+        var results = scoringService.score(new ResultRequest(answers));
+
+        assertThat(results).hasSize(12);
+        assertThat(results).filteredOn(axis -> !axis.axisId().equals("pos"))
+                .allSatisfy(axis -> assertThat(axis.leftPercent()).isEqualTo(50.0));
+    }
+
+    @Test
+    void secondaryAxisCountsWithItsOwnPoleAndWeight() {
+        List<SubmittedAnswer> answers = dataService.getQuestions().stream()
+                .map(question -> new SubmittedAnswer(question.id(),
+                        question.id().equals("pos_01") ? AnswerValue.STRONGLY_AGREE : AnswerValue.NEUTRAL))
+                .toList();
+
+        var results = scoringService.score(new ResultRequest(answers)).stream()
+                .collect(Collectors.toMap(axis -> axis.axisId(), axis -> axis.leftPercent()));
+
+        // pos: (19 × 0.5 + 1) / 20. blo: 20 neutras e meia resposta no polo direito, 10 / 20.5.
+        assertThat(results.get("pos")).isEqualTo(52.5);
+        assertThat(results.get("blo")).isEqualTo(48.8);
+        assertThat(results.get("pro")).isEqualTo(50.0);
+    }
+
+    @Test
     void shortQuizPayloadHasCorrectQuestionsPerAxis() {
         var payload = dataService.getQuiz(QuizDataService.SHORT_VARIANT);
         assertThat(payload.questionsPerAxis()).isEqualTo(3);
@@ -77,14 +107,6 @@ class ScoringServiceTest {
         var payload = dataService.getQuiz(QuizDataService.EXTENDED_VARIANT);
         assertThat(payload.questionsPerAxis()).isEqualTo(5);
         assertThat(payload.questionCount()).isEqualTo(60);
-        assertThat(payload.questions()).hasSize(240);
-    }
-
-    @Test
-    void extremeQuizPayloadUsesTheFullQuestionPool() {
-        var payload = dataService.getQuiz(QuizDataService.EXTREME_VARIANT);
-        assertThat(payload.questionsPerAxis()).isZero();
-        assertThat(payload.questionCount()).isEqualTo(240);
         assertThat(payload.questions()).hasSize(240);
     }
 }

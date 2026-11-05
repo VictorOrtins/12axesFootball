@@ -1,0 +1,830 @@
+{
+ "id": "inter-2023-24",
+ "catalog": "team",
+ "name": "Inter 2023/24 (Simone Inzaghi)",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2023-08-19",
+  "end": "2024-05-26"
+ },
+ "scopeNote": "Inter under Simone Inzaghi in 2023/24, Serie A champions (20th title, second star) playing 3-5-2 in possession and 5-3-2 mid-block out of possession. Period is Serie A opener Inter 2-0 Monza (19 Aug 2023, verified on inter.it) to final matchday Hellas Verona v Inter on 26 May 2024 (date from search results only, not read in a mined page; verified: false). Competitive matches also include Champions League, Coppa Italia, and Supercoppa (Jan 2024). Style term used by sources: 3-5-2 / 5-3-2 with a regista (Calhanoglu). Several tactical analyses (Coaches' Voice, Capt'n, Lamdarhri) describe the Inzaghi era at Inter generally (2021-25); only statements tied to 2023/24 or to this squad are marked verified. Calhanoglu's move to regista happened in Sept 2022, so it is context (not in period) and carried as such.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Marking: no source found on man vs zonal marking for Inter's defending in 2023/24 (open play or set pieces); marking axis stays a gap. Only the opposition's marking (Atalanta man-oriented press, Lamdarhri) is documented.",
+  "Last match date (Verona v Inter, 26 May 2024) came from search results (inter.it calendar title, ESPN, Stadium Astro), but the page was unreadable (404) so it is unverified.",
+  "Calhanoglu regista: FotMob says Inzaghi moved him to No. 6 after Brozovic's injury in Sept 2022; Goal.com (May 2023) calls him first mezzala then regista. Both agree it is 2022/23, before the period.",
+  "Defensive line height: Total Italian Football (Sept 2023, citing Gazzetta) says a front-foot high line, while Coaches' Voice and Flashscore stress a mid/low 5-3-2 block. Probably varies by match; to confirm.",
+  "Tactical analyses by Coaches' Voice, The Capt'n and Lamdarhri cover the Inzaghi era in general; the Atalanta 4-0 example is Sept 2024 (2024/25), not 2023/24.",
+  "Set-pieces: only Calhanoglu's dead-ball stats found; no team routines or marking scheme for 2023/24.",
+  "Rotation: no 2023/24 source quantifying minutes distribution; Inzaghi's quote on turnover from July 2023 conference not captured."
+ ],
+ "sources": [
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Inzaghi has almost exclusively favoured a 3-5-2 shape at both Lazio and Inter.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "They don’t necessarily dominate the ball, but they consistently have at least an equal share of possession.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "One example is the middle centre-back moving into midfield as an extra pivot during sustained build-up.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Inter will sometimes also build with a converted back four – especially inside their own penalty area – with the three centre-backs and one wing-back supporting the goalkeeper.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Should the opposition press high and leave significant spaces between the lines, an Inzaghi team is happy to skip the closest players and break lines with passes from the centre-backs.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "They recorded the most crosses in the 2022/23 and 2023/24 Serie A campaigns, and the second-most in 2021/22. With a back-five formation, the wing-backs have provided many of these balls, with the likes of Federico Dimarco, Denzel Dumfries, Matteo Darmian and Ivan Perisic regularly crossing.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Wide centre-back Alessandro Bastoni has also provided crosses. Pushing forward from the back three, he has taken advantage – untracked – of space made by the wing-back on his side pulling the opposing full-back out of shape.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "With Inter, Inzaghi has operated similarly, albeit with the use of a mid-block much more often. The 5-3-2 has been maintained when defending, with a very similar style and wide pressing trap to that seen with Lazio.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Instead of the wing-back jumping out to press, Inter’s closest number eight has pressed into the wide areas. This is because, in some matches, Inter’s two central forwards have focused more on screening the opposition pivot(s), rather than pressing wider, as seen at Lazio.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "From there, a wide trap would be set, where the wing-back and closest eight jumped to aggressively engage the ball. A wide centre-back would also press out in support, when needed.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Simone Inzaghi tactics and style of play",
+   "url": "https://www.coachesvoice.com/?p=73829",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2025-06-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "When Inter lose possession, however, some of their defenders can be caught out, especially if they have advanced quite high in central spaces.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Analysis: Inzaghi's incredible Inter en route to another Serie A title",
+   "url": "https://www.fotmob.com/topnews/9948-analysis-inzaghis-incredible-inter-en-route-another-serie-title",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-07",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Inzaghi deserves a great deal of credit for this, as he has almost perfected the 3-5-2 system with Inter.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Analysis: Inzaghi's incredible Inter en route to another Serie A title",
+   "url": "https://www.fotmob.com/topnews/9948-analysis-inzaghis-incredible-inter-en-route-another-serie-title",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-07",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Their build-up play is incredibly fluid and yet perfectly cohesive as you will often see midfielders dropping into the back line, centre-backs pulling out to the touchline, and wing-backs pushing up. All of this enables them to play through any press.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Analysis: Inzaghi's incredible Inter en route to another Serie A title",
+   "url": "https://www.fotmob.com/topnews/9948-analysis-inzaghis-incredible-inter-en-route-another-serie-title",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-07",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The Nerazzurri can also be exceptionally solid defensively, both in their super solid 5-3-2 block deeper down the pitch and with a well-executed high press to disrupt opposition build-ups.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Analysis: Inzaghi's incredible Inter en route to another Serie A title",
+   "url": "https://www.fotmob.com/topnews/9948-analysis-inzaghis-incredible-inter-en-route-another-serie-title",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-07",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "A total sum of €40 million was enough to bring in Yann Sommer, Benjamin Pavard and Francesco Acerbi, who have all become regular starters. Marcus Thuram was signed on a free transfer, and he has immediately become a star up front.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Analysis: Inzaghi's incredible Inter en route to another Serie A title",
+   "url": "https://www.fotmob.com/topnews/9948-analysis-inzaghis-incredible-inter-en-route-another-serie-title",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-07",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Some very shrewd signings as well as smart in-house solutions did the job, enabling Inter to continue playing the same way in 2023/24.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Analysis: Inzaghi's incredible Inter en route to another Serie A title",
+   "url": "https://www.fotmob.com/topnews/9948-analysis-inzaghis-incredible-inter-en-route-another-serie-title",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-07",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Enough cannot be said about Çalhanoğlu and Nicolò Barella’s technical quality to do almost anything with the ball at their feet, while Henrikh Mkhitaryan’s intelligent positioning in the final third makes him a great creative threat.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Hakan Calhanoglu: Proving himself as Inter's first choice regista",
+   "url": "https://www.fotmob.com/topnews/9798-hakan-calhanoglu-proving-himself-inters-first-choice-regista",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-03",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Çalhanoğlu plays an integral role in the side’s build up, always looking to collect the ball from the centre-backs before finding a forward pass.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Hakan Calhanoglu: Proving himself as Inter's first choice regista",
+   "url": "https://www.fotmob.com/topnews/9798-hakan-calhanoglu-proving-himself-inters-first-choice-regista",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-03",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Çalhanoğlu dropping into the deeper role has also given Inter much greater attacking impetus, allowing Inzaghi to use Henrikh Mkhitaryan in the more advanced midfield position within his 3-5-2 system.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Hakan Calhanoglu: Proving himself as Inter's first choice regista",
+   "url": "https://www.fotmob.com/topnews/9798-hakan-calhanoglu-proving-himself-inters-first-choice-regista",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-03",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Indeed, he has played more possessional passes than any other player in Serie A across 2023-24 (1357).",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Hakan Calhanoglu: Proving himself as Inter's first choice regista",
+   "url": "https://www.fotmob.com/topnews/9798-hakan-calhanoglu-proving-himself-inters-first-choice-regista",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-03",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "He has also created 19 chances from set pieces in Serie A this campaign, the third-most in the league.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Hakan Calhanoglu: Proving himself as Inter's first choice regista",
+   "url": "https://www.fotmob.com/topnews/9798-hakan-calhanoglu-proving-himself-inters-first-choice-regista",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-03",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "He has scored seven penalties in the league this season – the outright most of any player across the big five leagues.",
+   "verified": true
+  },
+  {
+   "title": "FotMob: Hakan Calhanoglu: Proving himself as Inter's first choice regista",
+   "url": "https://www.fotmob.com/topnews/9798-hakan-calhanoglu-proving-himself-inters-first-choice-regista",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-02-03",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The Turkish midfielder floats ahead of the back-line – offering a constant option for the central defenders to progress the ball and bypass the opposition’s press.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Direct and ruthless: How Inzaghi has tweaked his Inter side",
+   "url": "https://www.total-italianfootball.com/news/323126464006/direct-and-ruthless-how-simone-inzaghi-has-tweaked-his-inter-side-for-the-2023-24-serie-a-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-08-21",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Similarly, the Croat’s departure inevitably affected Inter’s ability to elude the opponents’ pressure and keep possession for longer stretches, persuading Inzaghi to opt for a more vertical playing style that favours direct balls towards either the wingers or strikers as soon as a gap is found.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Direct and ruthless: How Inzaghi has tweaked his Inter side",
+   "url": "https://www.total-italianfootball.com/news/323126464006/direct-and-ruthless-how-simone-inzaghi-has-tweaked-his-inter-side-for-the-2023-24-serie-a-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-08-21",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Left devoid of Brozovic’s masterful passing abilities and positional play, the coach was aware that his team’s build-up was bound to change, which is why both Calhanoglu and Nicolo Barella were constantly dropping deep",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Direct and ruthless: How Inzaghi has tweaked his Inter side",
+   "url": "https://www.total-italianfootball.com/news/323126464006/direct-and-ruthless-how-simone-inzaghi-has-tweaked-his-inter-side-for-the-2023-24-serie-a-season",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-08-21",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "But Federico Dimarco and Denzel Dumfries also seemed to benefit from Inter’s more direct approach, their athletic ability clearly giving them an edge when it came to quickly making their way up the pitch",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Three key features of Inzaghi's defensive success",
+   "url": "https://www.total-italianfootball.com/news/201525202438/three-key-features-of-inzaghi-s-defensive-success-what-makes-inter-the-best-defence-in-europe",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-09-12",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Inzaghi has seemingly moved away from a low-defensive block and has implemented an aggressive high line when Inter are not in possession, resulting in the Milanese club regaining the ball higher up the pitch and making it difficult for the opposition to get out of their own half.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Three key features of Inzaghi's defensive success",
+   "url": "https://www.total-italianfootball.com/news/201525202438/three-key-features-of-inzaghi-s-defensive-success-what-makes-inter-the-best-defence-in-europe",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-09-12",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Inzaghi’s three in the midfield have been ruthless, working extremely hard off the ball in order to execute an assertive counter-press, causing opponents to struggle when attempting to attack through the middle of the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Three key features of Inzaghi's defensive success",
+   "url": "https://www.total-italianfootball.com/news/201525202438/three-key-features-of-inzaghi-s-defensive-success-what-makes-inter-the-best-defence-in-europe",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-09-12",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "forcing Inzaghi to drop the former Lazio defender from the starting eleven in favour of veteran defender Francesco Acerbi for the majority of the 2022/23 campaign.",
+   "verified": false
+  },
+  {
+   "title": "Get Football News Italy: Pavard moving into attack, Acerbi as holding midfielder (Gazzetta analysis)",
+   "url": "https://www.getfootballnewsitaly.com/2024/from-pavard-moving-into-attack-to-acerbi-acting-as-holding-midfielder-a-look-at-inters-3-5-2-under-simone-inzaghi/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Francesco Acrbi was heavily involved in the build-up, as the former Lazio player often found himself as a deep-lying midfielder, filling the role of Hakan Calhanoglu when he would make a vertical run.",
+   "verified": false
+  },
+  {
+   "title": "Flashscore: Inzaghi's Inter are tactically astute and entertaining in equal measure",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-opinion-inzaghi-s-inter-are-tactically-astute-and-entertaining-in-equal-measure/Qs36qO3E",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-05",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Defensively, Inzhagi sets his team up to be compact, whilst they attack in a 3-5-2 shape, they defend as a 5-3-2 mostly in a low-block.",
+   "verified": true
+  },
+  {
+   "title": "Flashscore: Inzaghi's Inter are tactically astute and entertaining in equal measure",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-opinion-inzaghi-s-inter-are-tactically-astute-and-entertaining-in-equal-measure/Qs36qO3E",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-05",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "They play with controlled intensity during the majority of matches but sometimes look to counter-attack with pace and purpose when in transition. One striker comes deep (Marcus Thuram) whilst the other plays on the shoulder of the centre-backs and looks to get in behind (Lautaro Martinez).",
+   "verified": true
+  },
+  {
+   "title": "Flashscore: Inzaghi's Inter are tactically astute and entertaining in equal measure",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-opinion-inzaghi-s-inter-are-tactically-astute-and-entertaining-in-equal-measure/Qs36qO3E",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-05",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "his style is more progressive, on the front foot and fluid. They often control large periods of matches against weaker opposition and confuse their opponents with underlapping centre-backs and overlapping full-backs as well as getting bodies into the box.",
+   "verified": true
+  },
+  {
+   "title": "Flashscore: Inzaghi's Inter are tactically astute and entertaining in equal measure",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-opinion-inzaghi-s-inter-are-tactically-astute-and-entertaining-in-equal-measure/Qs36qO3E",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-05",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Whilst Conte relied upon big-name signings for hefty fees, no more so than Romelu Lukaku for 80 million Euros, Inzaghi’s most expensive signing has been Joaquin Correa for just 33 million Euros.",
+   "verified": true
+  },
+  {
+   "title": "Flashscore: Inzaghi's Inter are tactically astute and entertaining in equal measure",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-opinion-inzaghi-s-inter-are-tactically-astute-and-entertaining-in-equal-measure/Qs36qO3E",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-05",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Henrikh Mkhitaryan, Hakan Calhanoglu and most recently Thuram have all been resounding successes and they collectively cost Inter nothing in transfer fees.",
+   "verified": true
+  },
+  {
+   "title": "Flashscore: Inzaghi's Inter are tactically astute and entertaining in equal measure",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-opinion-inzaghi-s-inter-are-tactically-astute-and-entertaining-in-equal-measure/Qs36qO3E",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-05",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "The truth is though, Inzaghi doesn’t have one set style because he asks his team to adapt to different situations, Inter can play possession football, fast-paced counter-attacking and long balls in the same game.",
+   "verified": true
+  },
+  {
+   "title": "Ekkono Coaching: Inter Milan: Simone Inzaghi's Masterpiece",
+   "url": "https://ekkonocoaching.com/inter-milan-simone-inzaghi-masterpiece/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "The team exhibits remarkable directness, especially during open recovery transitions, signaling a collective intent to launch rapid attacks.",
+   "verified": true
+  },
+  {
+   "title": "Ekkono Coaching: Inter Milan: Simone Inzaghi's Masterpiece",
+   "url": "https://ekkonocoaching.com/inter-milan-simone-inzaghi-masterpiece/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Once the ball is played to the center back in advantage, he often drives forward, drawing opponents and opening space for teammates.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Inter's summer signings rated",
+   "url": "https://www.total-italianfootball.com/news/284136214022/inter-s-summer-signings-rated-how-are-the-nerazzurri-s-new-faces-settling-in",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-10-19",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the Nerazzurri also added young talent to their ranks, with the idea of building a team that will last for a number of years to come.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Inter's summer signings rated",
+   "url": "https://www.total-italianfootball.com/news/284136214022/inter-s-summer-signings-rated-how-are-the-nerazzurri-s-new-faces-settling-in",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-10-19",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The initial reaction to Cuadrado's signing from Inter fans was very negative - given his Juventus past. However, the Colombian has shown glimpses of what he could add to the side. There have been two issues: the former Juventus man has faced injury, and the second is Denzel Dumfries.",
+   "verified": false
+  },
+  {
+   "title": "Inter.it: Inter make a great start to their Serie A campaign (Inter-Monza)",
+   "url": "https://inter.it/en/news/inter-monza-serie-a-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-22",
+   "eventDate": "2023-08-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "a night that saw six players make their competitive debuts (Sommer, Thuram, Carlos Augusto, Cuadrado, Frattesi, Bisseck) and Arnautovic play his first Nerazzurri match since Inter vs. Atalanta in 2010",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Inter make a great start to their Serie A campaign (Inter-Monza)",
+   "url": "https://inter.it/en/news/inter-monza-serie-a-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-22",
+   "eventDate": "2023-08-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "as Inter pressed high, won the ball back and caused their opponents all sorts of problems.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Inter make a great start to their Serie A campaign (Inter-Monza)",
+   "url": "https://inter.it/en/news/inter-monza-serie-a-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-22",
+   "eventDate": "2023-08-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "INTER (3-5-2): 1 Sommer; 36 Darmian (31 Bisseck 84'), 6 De Vrij, 95 Bastoni; 2 Dumfries (7 Cuadrado 62'), 23 Barella, 20 Calhanoglu, 22 Mkhitaryan, 32 Dimarco (30 Carlos Augusto 62'); 9 Thuram (8 Arnautovic 62'), 10 Lautaro (16 Frattesi 80').",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Dumfries scores late equaliser against Lazio",
+   "url": "https://inter.it/en/news/inter-lazio-serie-a-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-19",
+   "eventDate": "2024-05-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "INTER (3-5-2): 1 Sommer; 28 Pavard, 15 Acerbi, 95 Bastoni (30 Carlos Augusto 64'); 36 Darmian (2 Dumfries 64'), 23 Barella, 20 Calhanoglu, 22 Mkhitaryan (16 Frattesi 64'), 32 Dimarco (17 Buchanan 77'); 9 Thuram, 10 Lautaro (70 Sanchez 77').",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Dumfries scores late equaliser against Lazio",
+   "url": "https://inter.it/en/news/inter-lazio-serie-a-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-19",
+   "eventDate": "2024-05-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Dumfries headed Sanchez’s free-kick into the net to deservedly bring Inzaghi’s men level.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Dumfries scores late equaliser against Lazio",
+   "url": "https://inter.it/en/news/inter-lazio-serie-a-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-19",
+   "eventDate": "2024-05-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "For Inter, the 2023/24 campaign will conclude away to Verona next week.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Attack, defence and assists: stats at the halfway point",
+   "url": "https://www.inter.it/en/news/inter-facts-first-half-serie-a-23-24-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-01-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Inter have also made particularly effective use of the wings, netting eleven times from crosses. No side has done better.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Attack, defence and assists: stats at the halfway point",
+   "url": "https://www.inter.it/en/news/inter-facts-first-half-serie-a-23-24-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-01-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Inzaghi’s side have conceded just nine goals across the first half of the campaign; no team has ever done better during a 20-team Serie A season.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Attack, defence and assists: stats at the halfway point",
+   "url": "https://www.inter.it/en/news/inter-facts-first-half-serie-a-23-24-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-01-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Inter have scored 44 goals through eleven different scorers during the current Serie A campaign.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Inzaghi: A very solid group: we're ambitious",
+   "url": "https://www.inter.it/en/news/inzaghi-interview-genoa-inter-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-12-29",
+   "eventDate": "2023-12-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "We're happy with our numbers from the first 17 matches. We still have 21 games to play and will need to maintain our excellent attacking and defensive numbers. The secret is the real willingness that all the players are displaying.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Inzaghi: A very solid group: we're ambitious",
+   "url": "https://www.inter.it/en/news/inzaghi-interview-genoa-inter-23-24",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-12-29",
+   "eventDate": "2023-12-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "We have a very solid group: the lads care for one other and enjoy being in each other's company.",
+   "verified": true
+  },
+  {
+   "title": "Inter.it: Inzaghi: Ripartiamo carichi (season presentation press conference)",
+   "url": "https://www.inter.it/it/notizie/conferenza-stampa-presentazione-stagione-inter-2023-2024-marotta-inzaghi",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-07-14",
+   "eventDate": "2023-07-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Carboni farà il ritiro con noi, l’anno scorso ha esordito, ha fatto partite difficili ed è cresciuto moltissimo, un anno con i grandi gli ha fatto benissimo.",
+   "verified": false
+  },
+  {
+   "title": "Inter.it: Inzaghi: Ripartiamo carichi (season presentation press conference)",
+   "url": "https://www.inter.it/it/notizie/conferenza-stampa-presentazione-stagione-inter-2023-2024-marotta-inzaghi",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-07-14",
+   "eventDate": "2023-07-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Gli ultimi due anni abbiamo avuto portieri di grandissimo palleggio quindi sicuramente è una caratteristica importante.",
+   "verified": false
+  },
+  {
+   "title": "The Capt'n: A Tactical Breakdown of Inzaghi's Inter Milan",
+   "url": "https://thecaptn.substack.com/p/a-tactical-breakdown-of-inzaghis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-04-30",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "When building from the back, Inter often morph into a back four in 2 distinct ways, depending on the opponent’s pressing profile",
+   "verified": false
+  },
+  {
+   "title": "Lamdarhri: Inter Simone Inzaghi: How To Score Without Dribbling",
+   "url": "https://lamdarhri.substack.com/p/inter-simone-inzaghi-how-to-score",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-01",
+   "eventDate": "2023-09-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Atalanta is one of the best teams in Europe in the man-marking press, involving ten outfield players to throttle the opponents. However, Inter exploited Gasperini’s man-oriented approach by the book.",
+   "verified": true
+  },
+  {
+   "title": "Lamdarhri: Inter Simone Inzaghi: How To Score Without Dribbling",
+   "url": "https://lamdarhri.substack.com/p/inter-simone-inzaghi-how-to-score",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-01",
+   "eventDate": "2023-09-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "In their win by 4-0 over Atalanta, Hakan Çalhanoğlu and Nicolo Barella dropped to the defense as situational central center-back and right center-back, respectively, with Bastoni advancing to midfield.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Pavard joins Inter",
+   "url": "https://www.total-italianfootball.com/news/351580622342/pavard-joins-inter-why-will-inzaghi-be-so-thrilled-with-the-frenchman-s-arrival",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-31",
+   "eventDate": "2023-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The move was finalised for a €32 million fee, with Pavard reportedly earning around €5m per year, signing a five-year contract.",
+   "verified": true
+  },
+  {
+   "title": "Total Italian Football: Pavard joins Inter",
+   "url": "https://www.total-italianfootball.com/news/351580622342/pavard-joins-inter-why-will-inzaghi-be-so-thrilled-with-the-frenchman-s-arrival",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-31",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Across fixtures in Serie A, the Coppa Italia, the Champions League and also the Suppercoppa Italiana, Inzaghi's side played an incredible 57 times, a situation only workable due to the Italian's ability to rotate his squad.",
+   "verified": false
+  },
+  {
+   "title": "Soccerway IT: L'arma segreta Benjamin Pavard",
+   "url": "https://it.soccerway.com/news/calcio-champions-league-l-arma-segreta-benjamin-pavard-il-bastoni-di-destra-l-uomo-in-piu-della-nuova-inter-di-inzaghi/KEDZVJwH",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-02-22",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "L'uomo giusto per la sua nuova Inter aveva il profilo tecnico tattico di Benjamin Pavard.",
+   "verified": true
+  },
+  {
+   "title": "Soccerway IT: L'arma segreta Benjamin Pavard",
+   "url": "https://it.soccerway.com/news/calcio-champions-league-l-arma-segreta-benjamin-pavard-il-bastoni-di-destra-l-uomo-in-piu-della-nuova-inter-di-inzaghi/KEDZVJwH",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2024-02-22",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "aveva, infatti, già preparato un'ambiziosa sceneggiatura che prevedeva l'aggiunta alla propria linea difensiva di un calciatore che potesse ripetere a destra i movimenti, sia difensivi che offensivi, ai quali Alessandro Bastoni ci ha abituato a sinistra.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Fattore Calhanoglu: tre derby vinti con il turco schierato regista",
+   "url": "https://www.goal.com/it/notizie/fattore-calhanoglu-tre-derby-vinti-con-il-turco-schierato-regista/blt95303985dc20417b",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2023-05-16",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "In questa stagione l'Inter ha vinto tre derby su tre con Calhanoglu in costruzione.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "The secret is the real willingness that all the players are displaying.",
+   "date": "2023-12-29",
+   "source": "Inter.it, interview after Genoa-Inter",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We have a very solid group: the lads care for one other and enjoy being in each other's company.",
+   "date": "2023-12-29",
+   "source": "Inter.it, interview after Genoa-Inter",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Gli ultimi due anni abbiamo avuto portieri di grandissimo palleggio quindi sicuramente è una caratteristica importante.",
+   "date": "2023-07-12",
+   "source": "Inter.it, season presentation press conference",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Carboni farà il ritiro con noi, l’anno scorso ha esordito, ha fatto partite difficili ed è cresciuto moltissimo, un anno con i grandi gli ha fatto benissimo.",
+   "date": "2023-07-12",
+   "source": "Inter.it, season presentation press conference",
+   "provenance": "primary"
+  },
+  {
+   "quote": "a further addition in defence will be \"crucial\"",
+   "date": "2023-08-19",
+   "source": "Total Italian Football paraphrasing post-Monza comments",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/028a-1a3c5b285f71-0324ce81b993-1000--in-the-zone-inter-1-0-atletico-performance-analysis",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.flashscore.com/news/football-serie-a-data-driven-manager-of-the-month-inzaghi-takes-inter-to-europe-s-summit/OvWupeqJ/",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.goal.com/it/liste/mediano-col-senso-del-goal-calhanoglu-sempre-piu-al-centro-dell-inter/blt27b72f4219e93ab0",
+   "reason": "404"
+  },
+  {
+   "url": "https://english.stadiumastro.com/football/verona-2-2-inter-arnautovic-double-earns-point-serie-winners-265520",
+   "reason": "404"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2023/07/12/inter-news-marotta-inzaghi-oggi",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Antonio Conte's 3-5-2 (inherited structure)",
+  "Klopp gegenpressing (Tuttomercatoweb, undated, unverified)"
+ ],
+ "managers": [
+  {
+   "managerId": "simone-inzaghi",
+   "start": "2023-08-19",
+   "end": "2024-05-26"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": [
+   "mar (no marking-scheme evidence, man vs zonal)"
+  ]
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A-B coverage of shape, build-up, wide pressing trap and Calhanoglu from Coaches' Voice and FotMob, but no source on marking, set-piece routines or rotation, and several analyses are general-Inzaghi-era."
+ }
+}

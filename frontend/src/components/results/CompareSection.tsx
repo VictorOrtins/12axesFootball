@@ -1,12 +1,9 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { t } from '../../i18n';
 import { fetchCompare, fetchCompareCatalog } from '../../services/quizApi';
-import type { Axis, AxisResult, CompareDetail, CompareItem } from '../../types/quiz';
+import type { Axis, AxisResult, CompareDetail, CompareItem, CompareType } from '../../types/quiz';
 import { compareAxes, summaryKinds, type CompareAxisRow } from '../../utils/compareAxes';
-import { resolveCountryFlagSrc } from '../../utils/countryFlags';
-import { resolveIdeologyColor } from '../../utils/ideologyColors';
-import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
-import type { Religion } from '../../utils/religion';
+import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImage';
 import { SafeImg } from '../editorial/primitives';
 import { InfoSheet } from './InfoSheet';
 import { SheetMatch } from './SheetMatch';
@@ -16,9 +13,6 @@ const MAX_OPTIONS = 8;
 interface CompareSectionProps {
   axes: Axis[];
   results: Map<string, AxisResult>;
-  religion?: Religion | null;
-  /** Categoria da ideologia principal do usuário; define a cor do marcador "você". */
-  userCategory: string;
 }
 
 // Sem acento e minúsculo, para a busca achar "Sao Paulo" digitando "são paulo".
@@ -39,34 +33,34 @@ function searchItems(items: CompareItem[], query: string): CompareItem[] {
   return [...starts, ...contains].slice(0, MAX_OPTIONS);
 }
 
-// Personalidade = retrato; país = bandeira; ideologia = bolinha na cor do espectro.
-function ProfileFace({ item, className }: { item: CompareItem; className: string }) {
-  if (item.type === 'personality') {
+// Treinador = retrato; time = escudo; ideia de jogo = bolinha.
+export function ProfileFace({ item, className }: { item: CompareItem; className: string }) {
+  if (item.type === 'manager') {
     return (
       <SafeImg
         className={className}
-        src={resolvePersonalityImageSrc(item.imagePath ?? undefined)}
+        src={resolveProfileImageSrc(item.imagePath)}
         alt={t.portraitAlt(item.name)}
-        fallback={personalityInitials(item.name)}
+        fallback={profileInitials(item.name)}
       />
     );
   }
-  if (item.type === 'country') {
+  if (item.type === 'team') {
     return (
       <SafeImg
         className={className}
-        src={resolveCountryFlagSrc(item.imagePath ?? '')}
-        alt={t.flagAlt(item.historical ? t.flagHistoricLabel : t.flagLabel, item.name)}
-        fallback={t.flagUnavailable}
+        src={resolveProfileImageSrc(item.imagePath)}
+        alt={t.crestAlt(item.name)}
+        fallback={t.crestUnavailable}
       />
     );
   }
-  return <span className={`${className} e-cmp-dot`} style={{ background: resolveIdeologyColor(item.category).base }} aria-hidden="true" />;
+  return <span className={`${className} e-cmp-dot`} aria-hidden="true" />;
 }
 
-export function CompareSection({ axes, results, religion, userCategory }: CompareSectionProps) {
+export function CompareSection({ axes, results }: CompareSectionProps) {
   const [catalog, setCatalog] = useState<CompareItem[] | null>(null);
-  const [catalogReligion, setCatalogReligion] = useState<Religion | null | undefined>(undefined);
+  const [catalogLoading, setCatalogLoading] = useState(false);
   const [catalogError, setCatalogError] = useState(false);
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState<CompareItem | null>(null);
@@ -76,25 +70,14 @@ export function CompareSection({ axes, results, religion, userCategory }: Compar
   const requestRef = useRef(0);
   const detailCache = useRef(new Map<string, Promise<CompareDetail>>());
 
-  // O catálogo muda com a religião (perfis "only"), então recarrega se ela mudar.
-  useEffect(() => {
-    if (catalogReligion !== undefined && catalogReligion !== (religion ?? null)) {
-      setCatalog(null);
-      setCatalogReligion(undefined);
-      setSelected(null);
-    }
-  }, [religion, catalogReligion]);
-
   const loadCatalog = () => {
-    if (catalog || catalogReligion !== undefined) return;
-    setCatalogReligion(religion ?? null);
+    if (catalog || catalogLoading) return;
+    setCatalogLoading(true);
     setCatalogError(false);
-    fetchCompareCatalog(religion ?? null)
+    fetchCompareCatalog()
       .then(setCatalog)
-      .catch(() => {
-        setCatalogError(true);
-        setCatalogReligion(undefined);
-      });
+      .catch(() => setCatalogError(true))
+      .finally(() => setCatalogLoading(false));
   };
 
   const options = useMemo(() => (catalog && !selected ? searchItems(catalog, query) : []), [catalog, query, selected]);
@@ -186,10 +169,64 @@ export function CompareSection({ axes, results, religion, userCategory }: Compar
       {(error || catalogError) && <p className="inline-error" role="alert">{t.compareLoadError}</p>}
 
       {detail && (
-        <ComparisonSheet detail={detail} axes={axes} results={results} userCategory={userCategory} onClose={() => setDetail(null)} />
+        <ComparisonSheet detail={detail} axes={axes} results={results} onClose={() => setDetail(null)} />
       )}
     </section>
   );
+}
+
+/** Perfil citado no resultado. Sem id, o perfil é achado pelo nome no catálogo. */
+export interface ProfileRef {
+  type: CompareType;
+  id?: string;
+  name: string;
+}
+
+let catalogRequest: Promise<CompareItem[]> | null = null;
+
+async function resolveProfileId(profile: ProfileRef): Promise<string> {
+  if (profile.id) return profile.id;
+  catalogRequest ??= fetchCompareCatalog().catch((err: unknown) => {
+    catalogRequest = null;
+    throw err;
+  });
+  const item = (await catalogRequest).find((candidate) => candidate.type === profile.type && candidate.name === profile.name);
+  if (!item) throw new Error(`Perfil fora do catálogo: ${profile.name}`);
+  return item.id;
+}
+
+// Aba de detalhes de qualquer treinador, time ou ideia de jogo citado no resultado.
+export function ProfileSheet({ profile, axes, results, onClose }: {
+  profile: ProfileRef;
+  axes: Axis[];
+  results: Map<string, AxisResult>;
+  onClose: () => void;
+}) {
+  const [detail, setDetail] = useState<CompareDetail | null>(null);
+  const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    const userPercents = axes.map((axis) => results.get(axis.id)?.leftPercent ?? 50);
+    resolveProfileId(profile)
+      .then((id) => fetchCompare(profile.type, id, userPercents))
+      .then((next) => !cancelled && setDetail(next))
+      .catch(() => !cancelled && setFailed(true));
+    return () => {
+      cancelled = true;
+    };
+  }, [profile, axes, results]);
+
+  if (failed) {
+    return (
+      <InfoSheet titleId="e-profile-sheet-title" onClose={onClose}>
+        <h3 id="e-profile-sheet-title">{profile.name}</h3>
+        <p className="e-axis-sheet-text">{t.compareLoadError}</p>
+      </InfoSheet>
+    );
+  }
+  if (!detail) return null;
+  return <ComparisonSheet detail={detail} axes={axes} results={results} onClose={onClose} />;
 }
 
 // "Você é moralmente compatível com X": eixo com advérbio vira frase direta; os demais usam "Em {eixo}, ...".
@@ -213,17 +250,15 @@ function sentenceFor(kind: 'closest' | 'farthest', row: CompareAxisRow, name: st
   return adverb ? t.compareFarthestLine(adverb, name) : t.compareFarthestFallback(axisName, name);
 }
 
-function ComparisonSheet({ detail, axes, results, userCategory, onClose }: {
+function ComparisonSheet({ detail, axes, results, onClose }: {
   detail: CompareDetail;
   axes: Axis[];
   results: Map<string, AxisResult>;
-  userCategory: string;
   onClose: () => void;
 }) {
   const { item } = detail;
   const summary = compareAxes(axes, results, detail.vector);
   const kinds = summaryKinds(summary);
-  const userColor = resolveIdeologyColor(userCategory).base;
 
   return (
     <InfoSheet titleId="e-cmp-sheet-title" className="e-cmp-sheet" onClose={onClose}>
@@ -238,7 +273,7 @@ function ComparisonSheet({ detail, axes, results, userCategory, onClose }: {
       <SheetMatch compatibility={detail.compatibility} />
       <p className="e-axis-sheet-text">{detail.description}</p>
 
-      <div className="e-close e-cmp-close" style={{ '--you': userColor } as CSSProperties}>
+      <div className="e-close e-cmp-close">
         <p className="e-close-title">{t.compareAxesTitle}</p>
         <ul>
           {summary.rows.map(({ axis, result, user, target }) => {

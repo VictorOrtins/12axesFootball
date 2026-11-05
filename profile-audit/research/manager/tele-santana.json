@@ -1,0 +1,723 @@
+{
+  "id": "tele-santana",
+  "catalog": "manager",
+  "name": "Telê Santana",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "1969",
+    "end": "1996-01"
+  },
+  "scopeNote": "Manager profile of Telê Santana across the spells he is known for: Fluminense (1969 Carioca), Atlético Mineiro (1971 Brasileirão), Grêmio (1977 Gaúcho), Palmeiras (1979, which led to the Brazil job), Brazil 1980-82 and 1985-86, and São Paulo 1990-96 (1991 Brasileirão, 1992-93 Libertadores and Intercontinental). Period from the first counted spell (Fluminense, promoted to the first team in 1969; day and month not found) to his last day at São Paulo (January 1996, when a cerebral ischaemia forced him to stop; exact day not found). Partial dates are used where pt.wikipedia and Trivela give only month or year. The prompt listed Fluminense as 1969-71; the sources read say he left Fluminense in March 1970 and was announced at Atlético in April 1970 (Trivela, 2021-12-19), so the Fluminense spell ends 1970-03. Style: the evidence supports 'futebol-arte' as the label the press and Telê himself used (Roda Viva 1992: 'considerado talvez o último técnico romântico do futebol brasileiro... futebol-arte'), defined by technique and attacking intent rather than a fixed system ('não era um grande inventor de táticas', Trivela 2011). The 1982 and 1990s teams differ: 1982 was a free, possession-heavy side with no right winger that defended poorly; São Paulo 1990-96 was a 4-2-2-2 (pt.wikipedia) with versatile, hard-working players (Cafu at full-back, winger or midfield; Raí asked to win the ball back), adjustments to opponents (sitting back v Bragantino in the 1991 final, three volantes v Newell's in 1993) and youth promoted (Cafu, Leonardo, Antônio Carlos, Elivelton). Telê himself said the stars must now tackle and win the ball 'como um europeu' (1992). The popular line 'I'd rather lose playing beautiful football than win playing badly' has no primary source found and is contradicted by his own words in 1992 and 1994, where he calls the beautiful-vs-winning dilemma a 'balela'/'bobagem'. Two Roda Viva transcripts (17 Jun 1991, 22 Jun 1992) were read via Wayback Machine copies of the Memória Roda Viva site (rodaviva.fapesp.br, now offline); they are the main primary source. Several Telê quotes and the Lance! São Paulo facts are reused from the futebol-arte research file (read 2026-10-14), citing the original pages. No source read says whether his teams marked zonally or man-to-man.",
+  "spellsCounted": [
+    {
+      "club": "Fluminense",
+      "start": "1969",
+      "end": "1970-03",
+      "reason": "First senior job: promoted from the youth sides in 1969 and won the 1969 Campeonato Carioca (and Taça Guanabara); led to the Atlético job. Left March 1970 (Trivela 2021)."
+    },
+    {
+      "club": "Atlético Mineiro",
+      "start": "1970-04",
+      "end": "1972",
+      "reason": "Campeonato Mineiro 1970 and the first Campeonato Nacional (Brasileirão) 1971; a recognisable collective, attacking side covered by Trivela's 50-year retrospective."
+    },
+    {
+      "club": "Grêmio",
+      "start": "1976-09-09",
+      "end": "1978",
+      "reason": "Campeonato Gaúcho 1977, ending Internacional's eight-year run; brought in Tadeu Ricci. Then the Palmeiras job."
+    },
+    {
+      "club": "Palmeiras",
+      "start": "1979",
+      "end": "1980-02",
+      "reason": "No title, but the 1979 side (4-1 at the Maracanã v Flamengo, Brasileirão semi-final) is remembered for its style and led directly to the Brazil job (move to a bigger job)."
+    },
+    {
+      "club": "Brazil",
+      "start": "1980-02-12",
+      "end": "1982-07",
+      "reason": "The 1982 World Cup team that defines his futebol-arte reputation; most-covered spell tactically. Announced 1980-02-12; eliminated 1982-07-05, exact leaving day not found."
+    },
+    {
+      "club": "Brazil",
+      "start": "1985-05-23",
+      "end": "1986-06",
+      "reason": "Second national-team spell up to the 1986 World Cup (quarter-final, out on penalties v France, 1986-06-21); covered for a more cautious side and his stricter discipline (Renato Gaúcho cut). Leaving day not found."
+    },
+    {
+      "club": "São Paulo",
+      "start": "1990-10-12",
+      "end": "1996-01",
+      "reason": "Brasileirão 1991, Paulista 1991-92, Libertadores and Intercontinental 1992 and 1993 plus other cups; the 1992-93 side is his second great team. Ended by a cerebral ischaemia in January 1996."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "São Paulo",
+      "start": "1973-01",
+      "end": "1973-07",
+      "reason": "Short first spell ended by a conflict with Paraná and Toninho Guerreiro; no title or style coverage."
+    },
+    {
+      "club": "Atlético Mineiro",
+      "start": "1973-08",
+      "end": "1975-09",
+      "reason": "Second Atlético spell: no major title found, no tactical coverage read."
+    },
+    {
+      "club": "Botafogo",
+      "start": "1976",
+      "end": "1976",
+      "reason": "First half of 1976 only; no title or style coverage."
+    },
+    {
+      "club": "Al-Ahli (Saudi Arabia)",
+      "start": "1983",
+      "end": "1985-12",
+      "reason": "pt.wikipedia and Trivela list Saudi titles (league 1983-84, King's Cup, Gulf Cup 1985), but no source read gives any tactical coverage and it is not the work he is known for; overlaps the 1985-86 Brazil spell. See openQuestions."
+    },
+    {
+      "club": "Atlético Mineiro",
+      "start": "1987-08-07",
+      "end": "1988-10",
+      "reason": "Third Atlético spell, Campeonato Mineiro 1988 only; no tactical coverage found."
+    },
+    {
+      "club": "Flamengo",
+      "start": "1988-10",
+      "end": "1989-09-19",
+      "reason": "Taça Guanabara 1989 only; ended by a dispute with Renato Gaúcho (used as context, not evidence)."
+    },
+    {
+      "club": "Fluminense",
+      "start": "1989-10-29",
+      "end": "1989-12",
+      "reason": "A few weeks at the end of 1989; no title."
+    },
+    {
+      "club": "Palmeiras",
+      "start": "1990-05-14",
+      "end": "1990-09-16",
+      "reason": "Short second spell; did not finish the championship (Telê, Roda Viva 1992)."
+    }
+  ],
+  "teamProfiles": [],
+  "ambiguities": [],
+  "openQuestions": [
+    "Spells: Al-Ahli (1983-85) brought Saudi titles, which could pass the 'major titles' part of the known-for test; it was excluded because no tactical coverage was found and it is not what he is known for. Atlético 1987-88 (Mineiro 1988) excluded likewise. Confirm both exclusions, and whether Palmeiras 1979 (no title, counted as the move to the Brazil job) and Fluminense 1969-70 should stay counted.",
+    "Fluminense end date: the prompt said 1969-71; pt.wikipedia's infobox says 1969-1970 and Trivela (2021) says he left in March 1970 for Atlético (announced April 1970). The file uses 1970-03.",
+    "Marking (mar): no source read says whether any Telê team marked zonally or man-to-man. The axis is closed only formally by pressing/block facts: Zico (1982) 'Whoever was closer to the ball had to close down', Telê (1992) asking Raí to tackle and win the ball like Cruyff, Lance! on Palmeiras' 'forte marcação'. Treat mar as close to memory-only.",
+    "1982 vs São Paulo 1992-93: sources agree the São Paulo side was more balanced and hard-working (Trivela 2011: not the 1982 passing side, 'a movimentação e o empenho'; Telê 1992 on stars having to tackle). Decide whether the vector should weigh the 1982 team (freedom, talent first, poor defence) and São Paulo (4-2-2-2, adaptations, collective effort) equally, as the counted-spell rule says, or note the evolution.",
+    "Game plan (pla): Telê stated he prefers to impose his own team rather than design schemes against opponents (Trivela 2011 summary) and attacked v Italy in 1982, but in the 1991 Brasileirão final he deliberately sat deeper to deny Bragantino counter-attacks, and in 1993 he changed shape for Raí's absence and for the Cerro Porteño return leg. Mostly own identity with pragmatic exceptions.",
+    "The famous 'I'd rather lose playing beautiful football than win playing badly' appears in FIFA (2021) with no date or primary source; Telê's own words (Roda Viva 1992: 'Eu prefiro jogar feio e ganhar, isso é uma balela que se fala'; Folha 1994: 'essa bobagem de que... ou é jogar bem e perder, ou é mal e vencer') reject the dilemma. Saved as 'attributed'; weigh the primary statements over it.",
+    "1986 discipline cuts: Telê (Roda Viva 1991) names Renato and Leandro (Leandro asked to leave after Renato was cut, per pt.wikipedia); Maluly (1998) names Éder and Renato Gaúcho. Check which players were cut for indiscipline before citing Éder.",
+    "Discipline vs openness: Telê calls himself 'duro' and says 'eu não admito indisciplina' (1991), yet at Atlético 1971 Trivela describes 'um clima mais conciliador e aberto ao diálogo' ('Meu jogador pode beber uma cerveja'), and in the 1991 final he let senior players choose between two line-ups. Authority with consultation; the lid axis should reflect both.",
+    "Lance! Lancepédia pages (São Paulo history, Palmeiras 4-1 Flamengo, 2026) read like generated summaries with no named author or period quotes; they are kept as tier C retrospectives. Confirm whether to trust them.",
+    "Set pieces: the only facts are a rehearsed free kick in the 1992 Intercontinental final (with Telê's sceptical 'Façam o que quiserem, nunca dá certo isso mesmo', recalled by Cafu) and Lance!'s paraphrase of intensive set-piece training. Thin."
+  ],
+  "sources": [
+    {
+      "title": "Telê Santana - Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Telê_Santana",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"Telê armou o São Paulo em um esquema 4-2-2-2, com alta posse de bola.\" Page undated (articleDate = access date). Read in the first 100k characters; the rest of the page is squad/coach lists (truncated, see unreadable).",
+      "verified": true
+    },
+    {
+      "title": "Telê Santana - Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Telê_Santana",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "At São Paulo: \"Apostou no talento de Raí e também em novatos como Antônio Carlos, Cafu, Leonardo e Elivelton.\"",
+      "verified": true
+    },
+    {
+      "title": "Telê Santana - Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Telê_Santana",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-14",
+      "eventDate": "1986-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "On the 1985-86 return: \"Criticado anteriormente por não exigir muita disciplina dos jogadores, voltou mais vigilante, o que resultou no corte do ponta-direita gremista Renato Gaúcho\" (who arrived late to the training camp); Leandro then \"pediu dispensa da equipe\". Exact month approximate (pre-World Cup camp).",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos do Galo campeão brasileiro em 1971: um time solidário e imponente sob as ordens de Telê",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/os-50-anos-do-galo-campeao-brasileiro-em-1971-um-time-solidario-e-imponente-sob-as-ordens-de-tele/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-12-19",
+      "eventDate": "1971",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Leandro Stein (Trivela). \"Sem abandonar seu apego à disciplina, Telê estabeleceu um clima mais conciliador e aberto ao diálogo.\" Telê (undated in the article): \"Meu jogador pode beber uma cerveja, ele não precisa ser vigiado.\" After the title (19 Dec 1971): \"Nenhum jogador viu o cartão amarelo, nunca fez pênalti e nem tirou nenhum adversário de campo.\" The team had \"muito garra, mas sem descambar para a violência\".",
+      "verified": true
+    },
+    {
+      "title": "Os 50 anos do Galo campeão brasileiro em 1971: um time solidário e imponente sob as ordens de Telê",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/os-50-anos-do-galo-campeao-brasileiro-em-1971-um-time-solidario-e-imponente-sob-as-ordens-de-tele/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-12-19",
+      "eventDate": "1971",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Left winger Tião, \"como mandava a cartilha de Telê, era um especialista nos fundamentos e tinha um cruzamento cirúrgico\"; right-back Humberto Monteiro \"também era muito bom no apoio e escapava constantemente para o ataque\"; the side often \"jogava em função de seu matador\", Dario, strong in the air. Telê favoured \"um estilo de jogo veloz e agressivo, com liberdade para várias peças avançarem.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os 50 anos do Galo campeão brasileiro em 1971: um time solidário e imponente sob as ordens de Telê",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/os-50-anos-do-galo-campeao-brasileiro-em-1971-um-time-solidario-e-imponente-sob-as-ordens-de-tele/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-12-19",
+      "eventDate": "1971",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "In the 1-0 over Flamengo: \"Jogando nos contragolpes, os atleticanos ficaram mais cômodos com a vantagem.\" A collective side in which almost everyone helped defend without giving up attacking in numbers.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os 50 anos do Galo campeão brasileiro em 1971: um time solidário e imponente sob as ordens de Telê",
+      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/os-50-anos-do-galo-campeao-brasileiro-em-1971-um-time-solidario-e-imponente-sob-as-ordens-de-tele/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-12-19",
+      "eventDate": "1971",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Captain Oldair was \"o mais velho na conquista\"; Pedrilho \"estourou na base\" and \"a garotada da base dava uma profundidade importante ao elenco.\" A veteran core with academy players as depth.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Os 70 anos de Tadeu Ricci, o meia cerebral que livrou os gremistas de suas penúrias em 77",
+      "url": "https://trivela.com.br/brasil/os-70-anos-de-tadeu-ricci-o-meia-cerebral-que-livrou-os-gremistas-de-suas-penurias-em-77/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2017-04-09",
+      "eventDate": "1977",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Equipe Trivela (Emmanuel do Valle, Leandro Stein). Tadeu Ricci, nearly 30 and \"experiente\", signed in January 1977 at Telê's personal request as \"uma peça importante para o seu primeiro objetivo no Olímpico\" (ending the Gaúcho drought), as a \"referência\" in a \"parcialmente renovado\" squad, in \"um meio-campo de pegada, ao lado de dois jogadores muito intensos como Iúra e Vitor Hugo.\" Telê himself (Roda Viva 1992) called that Grêmio a team \"só de jogadores experientes\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 1 x 4 Palmeiras no Brasileirão 1979; o maior jogo da 'era Telê' no Verdão (Lancepédia)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-1-x-4-palmeiras-no-brasileirao-1979.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1979-12-09",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Lance! (no named author). In the 4-1 at the Maracanã: \"uma linha de defesa muito bem postada com Polozzi, Beto Fuscão e Rosemiro\"; \"a forte marcação imposta por Telê impedia o Flamengo de criar chances claras\"; \"a pegada de Pires e Mococa dava a sustentação necessária\". One match; does not say zonal or man.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 1 x 4 Palmeiras no Brasileirão 1979; o maior jogo da 'era Telê' no Verdão (Lancepédia)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-1-x-4-palmeiras-no-brasileirao-1979.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1979-12-09",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Jorginho Putinatti and Jorge Mendonça \"organizassem as transições ofensivas em alta velocidade\"; \"Carlos Alberto Seixas aproveitou um contragolpe de manual\"; \"Baroninho e César se movimentavam constantemente\"; full-back Pedrinho \"apoiava o ataque com muita inteligência\". One match.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "2º – Telê Santana: mestre da arte",
+      "url": "https://trivela.com.br/sem-categoria/2o-tele-santana-mestre-da-arte/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-08-02",
+      "eventDate": "1979",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Equipe Trivela. Palmeiras 1979 played quality football \"com um elenco formado por jogadores sem muita grife\", reaching the Brasileirão semi-final. Across his clubs Telê \"revelou e elevou o status de vários atletas.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "2º – Telê Santana: mestre da arte",
+      "url": "https://trivela.com.br/sem-categoria/2o-tele-santana-mestre-da-arte/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-08-02",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Telê \"não era um grande inventor de táticas\"; his teams relied on \"sua filosofia de jogo\" rather than a particular system, and he preferred strengthening his own team to designing schemes against opponents (page reader's paraphrase of that last point). São Paulo was not the 1982 passing side: it had \"a movimentação e o empenho\". Brazil 1986 \"Era mais precavida\" and \"A equipe não era tão técnica.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (17/6/1991), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1991-06-17",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Live TV interview after the 1991 Brasileirão final v Bragantino. Telê: \"O Bragantino cismou em jogar no campo deles, que é um campo menor... Se nós pudermos fechar e deixar o Bragantino ir... Então por que é que eu vou atacar o Bragantino, oferecendo a ele o que ele gosta, que é o contra-ataque, que eles têm jogadores velozes\"; \"Eu só fiz o time jogar esperando mais o Bragantino, porque se eu fizesse ao contrário é o que ele queria que fizesse.\" Interviewer: he 'botou mais um ali no meio de campo'. An opponent-specific adjustment. Transcript downloaded from the archive and text extracted locally.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (17/6/1991), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1991-06-17",
+      "eventDate": "1979",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Telê on Jorge Mendonça's indiscipline at the Palmeiras training camp before the 1979 decisive stage: \"O meu desejo era de imediato cortá-lo, porque eu não admito indisciplina\"; he gathered the squad, \"com ele fora, como eu fiz na Copa do Mundo com o Renato e o Leandro\" (1986). Also: \"eu sou duro e, na hora de dizer, eu digo a verdade, seja para quem for. Cometeu um deslize... seja jogador de nome ou que não tenha nome, eu vou e falo com ele.\" Retrospective account by Telê himself, about counted spells.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (17/6/1991), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1991-06-17",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Before the 1991 final Telê consulted senior players (Ricardo Rocha, Raí, Leonardo, per Juca Kfouri): \"chamei os jogadores mais experientes e conversei: 'Eu tenho duas opções. A minha eu já vou dizer... Então, eu deixo a critério de vocês'\"; they chose his option (Zé Teodoro on the right, Cafu on the left). He had dropped Zé Teodoro from a trip for refusing to travel when not a starter. On Cafu: \"o Cafu se adapta bem na função que você der... e ele vai lá e cumpre certo e tem uma condição física muito boa.\"",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (17/6/1991), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1991-06-17",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Telê: \"Eu dizia que coloquei o Cafu na ponta esquerda, jogando ali, fechando aquele lado e ele jogou bem. Então ele joga bem no meio de campo, ele joga bem na lateral. Eu acho que, para nós aqui, ele funciona mais na lateral direita.\" Also: \"quantas vezes você viu o Leonardo ir lá na frente, e ele é um jogador de defesa? O Zé Teodoro ia à frente\". Attacking full-backs and a wide player who closes his side.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (22/6/1992), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1992-06-22",
+      "eventDate": "1992-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Days after the 1992 Libertadores title. Telê on Cruyff in 1974: \"saía atrás do adversário, dava carrinho para tomar a bola e partia para o contra-ataque. Aqui, no Brasil, o craque ficava esperando o 'cabeça-de-bagre' tomar a bola e entregar para ele jogar... isso não existe mais no futebol\". \"O Raí mesmo, quando eu cheguei no São Paulo, ele era um jogador que não participava da tomada de bola... hoje é um jogador que luta, que briga pela posse de bola, que dá aqueles carrinhos e sabe dar muito bem, como um europeu.\" All players, stars included, must work to win the ball back; nothing on height or triggers, or zonal vs man.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (22/6/1992), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1992-06-22",
+      "eventDate": "1992-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Telê: \"a minha maior satisfação seria um dia dirigir um time como o da Holanda de 74... todos jogavam em qualquer posição. Então, essa é uma equipe de futebol que se movimenta o tempo todo dentro de campo. A gente faz isso aqui, no Brasil, pelo menos no São Paulo, com alguns jogadores... Você solta o Antônio Carlos, o Cafu você solta. Nós tínhamos o Leonardo que jogava na ponta esquerda e jogava pelo meio. Então, você procura fazer com aqueles que têm qualidades para fazer.\" Fluid roles for selected players, not the whole team.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (22/6/1992), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1992-06-22",
+      "eventDate": "1992-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Telê: \"não adianta você fazer o treinamento tático se não tiver o treinamento técnico... Primeiro é o técnico\"; Cafu \"com a força de vontade que ele tem, ele melhorou demais... jogando na lateral direita. Ele vai, treina, domina, passa, cruza\"; a bad cross is the fault \"de quem treina você e não ensina.\" On Raí: \"um jogador inteligente, habilidoso, com grandes qualidades\". Technique first, trained daily.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (22/6/1992), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1992-06-22",
+      "eventDate": "1982",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Telê recalling Menotti on the 1982 team: \"O seu time tem muito mais condições de ganhar do que o outro. Ele fica 60% do jogo com a bola e dá 30% para os outros.\" And: \"você não pode chegar lá e falar: 'Zico, você vai ficar aqui atrás dando bico para frente'.\" Recollection ten years later, no data.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (22/6/1992), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1992-06-22",
+      "eventDate": "1992-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "On beating Newell's in the 1992 Libertadores final: against a team that defends deep, \"obriga o outro a jogar bolas altas na área. Com bolas altas a gente não faria gol\"; São Paulo still created chances \"mesmo com tudo fechado\". On football he wants: \"Não é melhor ver isso do que ver dar pontapé, chutar a bola para qualquer lado?\" Rejects long balls as a method; no detail on goalkeeper or how many players build.",
+      "verified": true
+    },
+    {
+      "title": "Roda Viva: Telê Santana (22/6/1992), Memória Roda Viva transcript (Wayback Machine copy)",
+      "url": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "1992-06-22",
+      "eventDate": "1992-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Telê: \"Depois que eu estou aqui, em cada campeonato que disputamos houve mudanças no time... procuramos sempre mudar o time\"; after five straight defeats from \"um relaxamento quase que total dos jogadores\" it was necessary \"cobrar mais deles\". He talks with players but \"jogadores... por estarem iniciando a carreira, não têm ainda capacidade para te orientar\".",
+      "verified": true
+    },
+    {
+      "title": "Brazil's class of 1982 is considered by many their best-ever side (FIFA)",
+      "url": "https://inside.fifa.com/news/tele-and-his-gods-of-82",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-04-21",
+      "eventDate": "1982",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Falcão (undated): \"He wanted us to play intuitively and not systematically.\" \"He urged the fullbacks to attack.\" \"He didn't want central midfielders who only knew how to stop the opposition.\" \"He gave us freedom to try what we wanted.\" \"He always wanted us to put on a spectacular show.\" No author named.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Death of Beauty (Felipe Almeida, The Blizzard issue 46)",
+      "url": "https://theblizzard.co.uk/?p=24771",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-10",
+      "eventDate": "1982",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "The article says Santana set up a 4-3-3. Zico: \"He would use on the right wing someone who could drop into the middle\"; on the left \"it was a pure winger, with freedom to attack.\" \"Telê was a right winger, Zagallo a left winger. So they created their teams based on their own traits.\" Zico: \"Leandro suffered, because he no longer had support from Paulo Isidoro or Tita\" (after Isidoro was dropped).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Death of Beauty (Felipe Almeida, The Blizzard issue 46)",
+      "url": "https://theblizzard.co.uk/?p=24771",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-10",
+      "eventDate": "1982",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Zico: \"me and Sócrates couldn't drop back; we didn't have this characteristic.\" \"Whoever was closer to the ball had to close down on the right.\" Ball-oriented cover of the empty right flank; does not say zonal or man-to-man.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "5 de julho de 1982: o dia que o encanto do Brasil caiu para a Itália no Sarrià",
+      "url": "https://trivela.com.br/copa-do-mundo/5-de-julho-de-1982-o-dia-que-o-encanto-do-brasil-caiu-para-a-italia-no-sarria/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-07-05",
+      "eventDate": "1982-07-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Bruno Bonsanti: \"A grande questão tática do time brasileiro foi a ausência de um ponta direita\"; Falcão, Sócrates and Zico rotated into the right-wing space and Júnior and Leandro moved inside, leaving almost no flank play. Telê fielded his most talented players even at a tactical cost; Brazil \"defendeu muito mal\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "An extraordinary Selecao - how Guardiola was shaped by Brazil's 1982 World Cup failure",
+      "url": "https://www.goal.com/en-ug/news/an-extraordinary-selecao---how-guardiola-was-shaped-by-brazils-1982-world-cup-failure/e2n4wi14yxl1mkgso2jsndu5",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-14",
+      "eventDate": "1982-07-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Jonathan Smith (Goal): before Italy Telê \"instructed his side to go looking for a winner\" though a draw sufficed (no source given). Telê's own account (Roda Viva 1991): after conceding \"nós tínhamos um timaço que não se impressionou nem quando levou o terceiro gol\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Quando a 'Ferrari' do São Paulo despedaçou os sonhos do Barcelona no Mundial de 1992",
+      "url": "https://trivela.com.br/mundial-de-clubes/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Bruno Bonsanti (Trivela). The winning goal came from a rehearsed free kick (\"jogadas ensaiadas\"); Cafu recalled: \"Telê em determinado ponto nos disse: 'Façam o que quiserem, nunca dá certo isso mesmo'.\" Set pieces practised, but Telê sceptical of the routine.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Quando a 'Ferrari' do São Paulo despedaçou os sonhos do Barcelona no Mundial de 1992",
+      "url": "https://trivela.com.br/mundial-de-clubes/quando-a-ferrari-do-sao-paulo-despedacou-os-sonhos-do-barcelona-no-mundial-de-1992/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-12-13",
+      "eventDate": "1992-12-13",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"A troca constante de posições no ataque era uma das armas, com Cafu e Müller invertendo os lados.\" Ronaldão: \"Ele não tinha vergonha de escalar o jogador em outra posição. Vai de lateral, de volante, de atacante.\" Adílson on Barcelona: \"A gente sabia que uma hora eles iam cansar... não tinham a preparação física dos brasileiros.\" Formation not given.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Em 1993, o São Paulo conquistava o bicampeonato da Libertadores com o brilho de Raí e Palhinha",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Felipe Lobo (Trivela, republished 2023-05-26). \"Sem Raí, machucado, Telê escalou três volantes, Pintado, Dinho e Válber, e o time foi mal\" v Newell's (Folha: \"Com três médios-volantes, incapaz de atacar, foi esmagado\"). For the Cerro Porteño return leg Telê pushed Raí and Müller further forward, Cafu on the left, Dinho on the right, Pintado protecting the middle. Up front Palhinha \"ajudava a compor uma linha de frente móvel com Raí e Muller\"; \"A falta de referência tornava o time imprevisível\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Em 1993, o São Paulo conquistava o bicampeonato da Libertadores com o brilho de Raí e Palhinha",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/em-1993-o-sao-paulo-conquistava-o-bicampeonato-da-libertadores-com-o-brilho-de-rai-e-palhinha/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2018-05-26",
+      "eventDate": "1993",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"Os laterais titulares, Vitor e Ronaldo Luiz, eram um perigo para as defesas adversárias.\" A defeat to Newell's included an error by left-back André, \"então com 18 anos\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Com Ceni e Muricy Ramalho, Expressinho do São Paulo foi até o fim e conquistou a Copa Conmebol de 1994",
+      "url": "https://trivela.com.br/america-do-sul/com-ceni-e-muricy-ramalho-expressinho-do-sao-paulo-foi-ate-o-fim-e-conquistou-a-copa-conmebol-de-1994/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2022-09-30",
+      "eventDate": "1994",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Bruno Bonsanti (Trivela). Muricy Ramalho (assistant): \"O Telê me pediu que eu arrumasse um time de meninos que ele não fosse utilizar no Brasileiro.\" The 'Expressinho' (under-20s plus some older reserves: Rogério Ceni, Juninho Paulista, Denílson, Caio, Bordon) won the 1994 Copa Conmebol. Telê held Juninho back to use from the bench (\"Preferi guardá-lo para usá-lo da maneira que usamos\"; Rádio Globo, via Globo Esporte).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo; jogos, títulos e legado (Lancepédia)",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Telê \"apostou em jovens talentos que ainda não eram unanimidade\": Cafu, Leonardo, Antônio Carlos, Ronaldão and Elivelton gained prominence \"em um sistema que valorizava a bola no chão\"; Raí, under-used before Telê, became the \"líder técnico e emocional\". Identity: \"posse de bola, técnica apurada, disciplina tática e excelência nos fundamentos\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A história de Telê Santana no São Paulo; jogos, títulos e legado (Lancepédia)",
+      "url": "https://www.lance.com.br/lancepedia/a-historia-de-tele-santana-no-sao-paulo.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-17",
+      "eventDate": "1992",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Long sessions with \"repetição exaustiva de fundamentos\", including intensive set-piece work (page reader's paraphrase, no verbatim line on set pieces); \"cobrança constante de concentração\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1993",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Roberto Benevides (Estadão), interview 1997, on Telê's São Paulo: \"o Telê é um técnico que trabalha mais do que todos os outros os fundamentos... exige permanentemente que seus jogadores saibam passar, saibam driblar, saibam chutar e treina isso... Com o Telê, o Cafu passou a acertar cruzamentos.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1993-01-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Reali Júnior, O Estado de S. Paulo, 5 Jan 1993, on São Paulo v Barcelona: French press called it \"um espetáculo exemplar pela delicadeza e habilidade de seus atores\"; \"Telê seria o 'futebol-audácia', enquanto Parreira e Zagalo ainda hesitam um pouco entre duas fórmulas\". Period press framing of spectacle and audacity as his purpose.",
+      "verified": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1993",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Alberto Helena Júnior (Folha), interview 1997: São Paulo became \"bicampeão do mundo, sem grandes contratações... utilizando os recursos limitados de um clube brasileiro\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O futebol-arte de Telê Santana no jornalismo esportivo de Armando Nogueira (dissertação de mestrado)",
+      "url": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "1998-03",
+      "eventDate": "1986",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Reused from the futebol-arte research (read 2026-10-14). Before the 1986 World Cup, \"a dispensa de Éder e Renato Gaúcho por indisciplina\" (Telê himself names Renato and Leandro; see openQuestions); in 1989 \"uma discussão com o atacante Renato Gaúcho\" led him to resign from Flamengo (excluded spell, context only).",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Deixa eu explicar bem isso. Eu já cansei de ouvir, de ler \"joga bonito, mas perde\". Eu prefiro jogar feio e ganhar, isso é uma balela que se fala. Eu não pego o jogador para enfeitar a jogada, não, mas para jogar o futebol que todos nós gostamos. Quem gosta de futebol gosta de ver aquele futebol de 82, gente.",
+      "date": "1992-06-22",
+      "source": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "provenance": "primary",
+      "note": "Roda Viva, TV Cultura, live. Asked whether he would change his 1982/86 philosophy for results. 'Eu prefiro jogar feio e ganhar' is the cliché he is dismissing as 'balela', not his view."
+    },
+    {
+      "quote": "O resultado, é claro, o resultado também, mas não pense que eu prefiro fazer igual muitos dizem. Já ouvi torcedores, diretores e jogadores: \"Eu quero ganhar com um gol de mão, aos 47 minutos e impedido.\" Isso não me satisfaz, não.",
+      "date": "1992-06-22",
+      "source": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "provenance": "primary",
+      "note": "Same interview: 'O que você prefere, jogar bonito e perder ou é jogar feio e ganhar?' Não é nada disso, eu quero ver o bom futebol."
+    },
+    {
+      "quote": "Mas não adianta você fazer o treinamento tático se não tiver o treinamento técnico, se não tiver aprimoramento no futebol. [...] Primeiro é o técnico, você tem que saber primeiro que o jogador sabe fazer isso, sabe fazer aquilo.",
+      "date": "1992-06-22",
+      "source": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Eu já disse algumas vezes que a minha maior satisfação seria um dia dirigir um time como o da Holanda de 74. [...] Então, essa é uma equipe de futebol que se movimenta o tempo todo dentro de campo. A gente faz isso aqui, no Brasil, pelo menos no São Paulo, com alguns jogadores.",
+      "date": "1992-06-22",
+      "source": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Aqui, no Brasil, o craque ficava esperando o \"cabeça-de-bagre\" tomar a bola e entregar para ele jogar. [...] isso não existe mais no futebol, não se pode mais jogar assim.",
+      "date": "1992-06-22",
+      "source": "https://web.archive.org/web/20111007214800/http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Porque na hora que você ataca, que você tem a posse da bola, eu também não fico defendendo, não, eu não fico com os jogadores lá atrás, não. Eu quero que o time adversário se dane, eles que se virem, porque nós vamos atacar.",
+      "date": "1991-06-17",
+      "source": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "provenance": "primary",
+      "note": "Roda Viva, TV Cultura, live, right after the 1991 Brasileirão title; said while explaining that he had sat deeper v Bragantino in the final."
+    },
+    {
+      "quote": "O meu desejo era de imediato cortá-lo, porque eu não admito indisciplina. Um profissional tem que zelar pela sua profissão e querer sempre o melhor e querer o melhor não é cometer indisciplina.",
+      "date": "1991-06-17",
+      "source": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "provenance": "primary",
+      "note": "About Jorge Mendonça at Palmeiras, 1979."
+    },
+    {
+      "quote": "Eu acho que a disciplina ela cabe em qualquer lugar, é na sua casa, é no seu trabalho. Onde você estiver tem que haver disciplina, porque se não houver vira uma bagunça.",
+      "date": "1991-06-17",
+      "source": "https://web.archive.org/web/20081015170744/http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Continuam falando essa bobagem de que, em futebol, ou é jogar bem e perder, ou é mal e vencer. Acredito firmemente que se possa jogar bem e vencer. Não perdemos Copas anteriores por termos jogado bem. Aliás, mandar um time a campo para jogar bem é a obrigação de todo técnico. Vitórias ou derrotas são conseqüências.",
+      "date": "1994-06-15",
+      "source": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "provenance": "primary",
+      "note": "Telê's own column 'Brasil deve sucesso aos seus jogadores', Folha de S. Paulo, 15 Jun 1994, quoted with full reference in Maluly (1998); reused from the futebol-arte research. The Folha original was not opened."
+    },
+    {
+      "quote": "Mas tocar não quer dizer jogar para trás, rolar a bola do central para o lateral, do lateral para o central, do central para o outro central. Além de inútil, é um espetáculo feio.",
+      "date": "1994-07-01",
+      "source": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "provenance": "primary",
+      "note": "Telê Santana, 'Não dá pra entender tanta intranqüilidade', Folha de S. Paulo, 1 Jul 1994, quoted in Maluly (1998); reused from the futebol-arte research. Against sterile possession."
+    },
+    {
+      "quote": "Eu quero ganhar de qualquer maneira. O resto não interessa. Eu quero sair de campo com a vitória. É só isso que me interessa. Então, isso realmente acaba com o belíssimo futebol. (...) há um entendimento entre os jogadores para que tenhamos um bom conjunto, e neste conjunto então, que saiam as boas jogadas, e das boas jogadas então, vem a vitória e vem o título ou títulos. Assim que deve ser jogado o futebol.",
+      "date": "1997-07",
+      "source": "https://ludopedio.org.br/wp-content/uploads/151116_Maluly%20(M)%20-%20O%20Futebol-arte%20de%20Tele%20Santana.pdf",
+      "provenance": "primary",
+      "note": "Interview given to Maluly for the dissertation, Belo Horizonte, July 1997; reused from the futebol-arte research. The first sentences describe the result-first attitude he rejects."
+    },
+    {
+      "quote": "Meu jogador pode beber uma cerveja, ele não precisa ser vigiado.",
+      "date": "2021-12-19",
+      "source": "https://trivela.com.br/brasil/campeonato-brasileiro/os-50-anos-do-galo-campeao-brasileiro-em-1971-um-time-solidario-e-imponente-sob-as-ordens-de-tele/",
+      "provenance": "attributed",
+      "note": "Atlético Mineiro 1971 period; undated in the Trivela article, no original found."
+    },
+    {
+      "quote": "I'd rather lose playing beautiful football than win playing badly.",
+      "date": "2021-04-21",
+      "source": "https://inside.fifa.com/news/tele-and-his-gods-of-82",
+      "provenance": "attributed",
+      "note": "Called 'Tele's famous saying' with no date or original; contradicted by his primary statements of 1992 and 1994 above."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "http://www.rodaviva.fapesp.br/materia/160/entrevistados/tele_santana_1992.htm",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "http://www.rodaviva.fapesp.br/materia/169/entrevistados/tele_santana_1991.htm",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Telê_Santana",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "netherlands-1974",
+      "kind": "team",
+      "note": "Telê (Roda Viva 1992): his greatest satisfaction would be to coach a team like Holland 1974, where everyone could play anywhere and the team moved all the time; he used Cruyff's ball-winning as an example for his players."
+    },
+    {
+      "id": "futebol-arte",
+      "kind": "football-ideology",
+      "note": "The press's symbol and most explicit defender of futebol-arte in the 1980s-90s (futebol-arte research, Maluly 1998)."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "All 13 dimensions have a verified fact and every counted spell except Fluminense 1969 has at least one, with strong primary material: two full Roda Viva transcripts (1991, 1992, read during the São Paulo spell) and Telê's 1994 Folha columns, plus a tier B Blizzard piece with Zico and an academic dissertation quoting 1993 press. But the tactical facts are mostly tier C retrospectives (Trivela, Lance!, Wikipedia), some single-match; there is no contemporary tactical analysis or data, marking is never stated as zonal or man, build-up and set pieces rest on thin indirect facts, and the 1982 and São Paulo teams differ in balance and adaptability."
+  }
+}

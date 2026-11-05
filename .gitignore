@@ -41,3 +41,6 @@ docs/
 
 # Artefatos de screenshots do Playwright MCP
 .playwright-mcp/
+
+# Miner digests and page cache (working files; the research JSON is the record)
+profile-audit/raw/

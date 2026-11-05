@@ -1,0 +1,125 @@
+{
+  "id": "pedro-emanuel",
+  "catalog": "manager",
+  "name": "Pedro Emanuel",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "2011-06-14",
+    "end": "ongoing"
+  },
+  "scopeNote": "Manager profile of Pedro Emanuel across four counted spells: Académica (14 June 2011 to 7 April 2013: Taça de Portugal 2011-12), Apollon Limassol (9 or 10 June 2015 to 11 December 2016: Cypriot Cup 2015-16, Cypriot Super Cup 2016), Al Taawoun (7 May 2018 to 22 May 2019: King's Cup 2019) and Vasco da Gama (10 July 2026 to the present). Dates from the Wikipedia statistics table; the page's prose and table differ by one day for Apollon. Excluded: Arouca, Estoril, Almería, Al Ain, Al Nassr, Al-Khaleej and Al-Fayha (no titles). The Wikipedia article read has no tactical description, so the profile has no tactical sources.",
+  "spellsCounted": [
+    {
+      "club": "Académica",
+      "start": "2011-06-14",
+      "end": "2013-04-07",
+      "reason": "Taça de Portugal 2011-12."
+    },
+    {
+      "club": "Apollon Limassol",
+      "start": "2015-06-09",
+      "end": "2016-12-11",
+      "reason": "Cypriot Cup 2015-16 and Cypriot Super Cup 2016."
+    },
+    {
+      "club": "Al Taawoun",
+      "start": "2018-05-07",
+      "end": "2019-05-22",
+      "reason": "King's Cup 2019."
+    },
+    {
+      "club": "Vasco da Gama",
+      "start": "2026-07-10",
+      "end": "ongoing",
+      "reason": "The case of the Vasco 2026 team profile; the spell is short and recent."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Arouca",
+      "start": "2013-06-06",
+      "end": "2015-05-25",
+      "reason": "No titles."
+    },
+    {
+      "club": "Estoril",
+      "start": "2017-03-08",
+      "end": "2017-10-21",
+      "reason": "No titles."
+    },
+    {
+      "club": "Almería",
+      "start": "2019-08-04",
+      "end": "2019-11-04",
+      "reason": "No titles."
+    },
+    {
+      "club": "Al Ain",
+      "start": "2020-01-05",
+      "end": "2021-06-05",
+      "reason": "No titles."
+    },
+    {
+      "club": "Al Nassr",
+      "start": "2021-10-01",
+      "end": "2021-11-10",
+      "reason": "Five matches, no titles."
+    },
+    {
+      "club": "Al-Khaleej",
+      "start": "2022-07-03",
+      "end": "2024-06-23",
+      "reason": "No titles."
+    },
+    {
+      "club": "Al-Fayha",
+      "start": "2024-12-10",
+      "end": "2026-05-21",
+      "reason": "No titles."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "No tactical fact about Pedro Emanuel's teams was read: the Vasco-era style is in the team profile's research only."
+  ],
+  "sources": [],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "est",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table only; the page read has no tactical description, and the Vasco spell is three months old."
+  }
+}

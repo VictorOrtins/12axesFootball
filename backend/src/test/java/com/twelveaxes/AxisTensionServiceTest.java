@@ -75,8 +75,8 @@ class AxisTensionServiceTest {
     void matchingCountIsWithinTheCatalog() {
         var tensao = tensionService.findStrongest(perfilExtremo(), QuizDataService.LANG_PT);
 
-        assertThat(tensao.catalogSize()).isGreaterThan(100);
-        assertThat(tensao.matchingIdeologies())
+        assertThat(tensao.catalogSize()).isEqualTo(6);
+        assertThat(tensao.matchingFootballIdeologies())
                 .isGreaterThanOrEqualTo(0)
                 .isLessThanOrEqualTo(tensao.catalogSize());
         assertThat(tensao.examples()).hasSizeLessThanOrEqualTo(3);
@@ -88,7 +88,7 @@ class AxisTensionServiceTest {
     void theTensionIsActuallyUncommon() {
         var tensao = tensionService.findStrongest(perfilExtremo(), QuizDataService.LANG_PT);
 
-        double fracao = (double) tensao.matchingIdeologies() / tensao.catalogSize();
+        double fracao = (double) tensao.matchingFootballIdeologies() / tensao.catalogSize();
         assertThat(fracao).isLessThan(0.25);
     }
 
@@ -99,6 +99,6 @@ class AxisTensionServiceTest {
 
         assertThat(en).isNotNull();
         assertThat(en.firstAxisLabel()).isNotBlank();
-        assertThat(en.matchingIdeologies()).isEqualTo(pt.matchingIdeologies());
+        assertThat(en.matchingFootballIdeologies()).isEqualTo(pt.matchingFootballIdeologies());
     }
 }

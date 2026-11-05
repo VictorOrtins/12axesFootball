@@ -1,0 +1,707 @@
+{
+ "id": "low-block-counter-attack",
+ "catalog": "football-ideology",
+ "name": "Low block and counter-attack",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2009-07-01",
+  "end": "2016-05-15"
+ },
+ "scopeNote": "Idea, not one team: absorb pressure in a compact deep or mid block, concede possession, and attack space in transition with fast forwards. Sources use 'counter-attack', 'mid-block', 'deep block', 'non-possession-based strategy'. Window covers the two exemplars: Mourinho's Inter 2009/10 (Barcelona semi-final 20 and 28 April 2010, Bayern final 22 May 2010) and Ranieri's Leicester 2015/16 (season ended 15 May 2016). Not 'catenaccio' (man-marking libero), which is a separate catalog ideology; Maldonado shows Inter mixed zonal block with man-marking of Messi. Manager spell dates are from memory and not verified in the digests (Mourinho at Inter 2008-06-02 to 2010-05-28; Ranieri at Leicester 2015-07-13 to 2017-02-23). Leicester evidence comes mostly from tier C press/Premier League site; no tier A study of Leicester found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "No team/leicester-2015-16 or manager/claudio-ranieri research file exists yet; ids proposed in exemplars are new and need creating or confirming.",
+  "Is Leicester 2015/16 a deep 'low block'? FM-type sources say deep block; Premier League says two banks of four, 4-4-1-1 out of possession, and 42.43% possession. No source quantified defensive line height.",
+  "Man-marking vs zonal at Inter: Maldonado says Messi 'man-marked everywhere he went' with Pandev tucking in to man-mark, while other web summaries call it zonal with shared responsibility; Mourinho's Coaches' Voice masterclass body not read (only intro).",
+  "Inter second leg (10 men, 24% possession) was an extreme low block; first leg and final are the more counter-attacking examples.",
+  "Leicester pressing and set-pieces not covered by a verified fact."
+ ],
+ "sources": [
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Inter were happy to let them do so as long as the possession wasn’t penetrative or in Inter’s third of the pitch. Inter’s shape for the majority of the match was a mid-block",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "varying between a 4-4-2 (Sneijder pushing up with Milito, with Eto’o dropping as the right midfielder of the midfield 4) and an occasional 4-5-1",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "part of Inter’s out of possession approach was using their front two of Sneijder and Milito to screen Barça’s pivot players, preventing direct passes into their feet.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Using their compact shape, Inter looked to funnel Barça’s play down the wings - they were not overly quick to close Barça’s wide players down, especially as they entered the final third - almost inviting early crosses into the Inter box.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Mourinho knew his men could hurt Barça through their attacking transitions - almost every time Inter won the ball back, the ball instantly went in the direction of Milito or Eto’o, varying between balls in behind and to feet.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Through their attacking transitions, Inter kept targeting the space on the outside of Barça’s centre-backs - space that would be occupied by a full-back that hadn’t pushed up.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Inter were noticeably quick to get back on defensive transitions - they were wary to not push up more than necessary - always leaving a base of 4 players at the back - either a 3+1, 4+1, or even a 4+2.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Messi was being man-marked everywhere he went and the pivot players were sandwiched between Inter’s front 2 and Inter’s midfield pivot.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Pandev recognized the overload and tucked into the middle of the pitch from his left-halfspace defensive position, to man-mark either Pedro or Messi.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Mourinho reacted quickly and subbed on Stanković for Pandev and asked Sneijder to drop back as a left-sided midfielder. Inter essentially became a 4-5-1 out of possession and were able to stifle Barça.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "In terms of the profiles in the XI - there is a common theme of aggression, hard work, and running power",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Maldonado)",
+   "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-26",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "they finished the game with 9 offsides called against them.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Inter had by far the lesser share of possession (only 33 per cent, although that is more than twice as much as it had against Barcelona), but its organization was again excellent, and this time it retained a penetrative threat on the break.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Once ahead, Inter could settle back, allow Bayern to have the ball, and wait to pick them off on the break.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Inter, by contrast, could attack against a retreating defense, which was precisely how Milito was able to work the opening for the second goal against Van Buyten.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Milito knocked down Inter goalkeeper Julio Cesar's long clearance for Wesley Sneijder",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Javier Zanetti switched into a holding midfield role to replace the suspended Thiago Motta, and Cristian Chivu, the experienced Romanian, coming in to take the Argentine's position at left back.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Once Inter had taken the lead, there was never any sense it would squander it, and many of the shots that Bayern had were speculative and from distance.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "for Bayern only Robben offered real menace, and it was testament to how well Inter closed down his teammates",
+   "verified": true
+  },
+  {
+   "title": "Il Post: Nel 2010 l'Inter la combinò grossa",
+   "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-22",
+   "eventDate": "2010-04-28",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "L’Inter riuscì a resistere barricata in difesa per oltre un’ora anche dopo l’espulsione di Thiago Motta nel primo tempo.",
+   "verified": true
+  },
+  {
+   "title": "Il Post: Nel 2010 l'Inter la combinò grossa",
+   "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-22",
+   "eventDate": "2010-04-28",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "In quella partita diede ordine di rifiutare il possesso palla per togliere al Barcellona l’uso del suo famoso pressing, e di lanciarla il più lontano possibile appena ce ne fosse stata occasione.",
+   "verified": true
+  },
+  {
+   "title": "Il Post: Nel 2010 l'Inter la combinò grossa",
+   "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-22",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Vennero acquistati Diego Milito e Thiago Motta, due giocatori internazionali rigenerati dal Genoa di Gian Piero Gasperini. Arrivarono il trequartista olandese Wesley Sneijder, scartato dal Real Madrid, e il brasiliano Lucio dal Bayern Monaco.",
+   "verified": true
+  },
+  {
+   "title": "Il Post: Nel 2010 l'Inter la combinò grossa",
+   "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-22",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Mourinho insisteva molto sul gioco in condizioni di inferiorità numerica.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo: When Mourinho's Inter stunned Barcelona",
+   "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-12",
+   "eventDate": "2010-04-28",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "His 10-man Inter’s rearguard action to eliminate Guardiola’s Barcelona, perhaps the greatest club side ever, with 24 percent of possession at the Nou Camp may have been a throwback to the more negative football of the 2000s",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo: When Mourinho's Inter stunned Barcelona",
+   "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-12",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Selling Zlatan Ibrahimovic to Guardiola while using the funds to help finance the arrivals of Samuel Eto’o, Thiago Motta, Lucio, Sneijder and Milito ranks as one of the outstanding transfer windows any club has ever had.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo: When Mourinho's Inter stunned Barcelona",
+   "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-12",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "He could name sides with an average age in their thirties",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: José Mourinho, Inter vs Barcelona",
+   "url": "https://learning.coachesvoice.com/cv/jose-mourinho-inter-milan-barcelona-pep-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-06",
+   "eventDate": "2010-04-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "He offers particular insight into their approach to against Lionel Messi, and how they capitalised on the space behind Barça’s attacking full-backs.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "The Italian made the switch to a compact 4-4-2 system built to counter-attack with devastating efficiency.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "stuck with this 4-4-2, which became a 4-4-1-1 out of possession, in 35 of their 38 matches.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "His plan was to operate with two disciplined banks of four, with an energetic deep-lying striker operating behind a speedy centre-forward, who could punish opponents on the break.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Leicester are the only champions to have adopted a non-possession-based strategy.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Their average possession figure (42.43 per cent) is by some distance the lowest on record for a Premier League winning team",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "On those fast breaks the brilliance of Riyad Mahrez, who scored 17 goals and added 11 assists, and Jamie Vardy (24 goals, six assists) regularly made the difference.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "rival teams, perhaps showing a degree of complacency, continued to leave themselves open to counter-attacks.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Ranieri made just 33 changes to his starting XI.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The little-known French midfielder cost £5.6million from Caen and was a revelation in central midfield. His 175 tackles and 156 interceptions were the most in the division.",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Ranieri's relaxed demeanour took the pressure off his players",
+   "verified": true
+  },
+  {
+   "title": "PL30: How Ranieri masterminded Leicester's title victory",
+   "url": "https://www.premierleague.com/en/news/2748139",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-08-18",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Leicester, who had used 11 different formations the year before",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "by the opening day he'd implemented the season-sensation 4-4-2 from Pearson's season-saving 3-5-2.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Leicester’s hard running caught countless teams off guard, their devastating counter-attacks tearing open tight matches that could often have gone either way.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The Italian changed little in terms of personnel – for starters he only brought in two staff members, keeping Walsh and Pearson's trusted assistant Craig Shakespeare",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "N’Golo Kante was added later at the insistence of recruitment head Steve Walsh.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Giving them two days off every week helped – Sundays and Wednesdays were freed up, Monday’s training was light, Tuesdays and Thursdays intense, and Friday reserved for tactical tweaking",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "that vital filtering of title talk out of his dressing room that impressed most about his management last year.",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo 50 Best Managers 2016: No.8 Ranieri",
+   "url": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-28",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "I always thought the most important thing a good coach must do is build the team around the characteristics of his players.",
+   "verified": true
+  },
+  {
+   "title": "Fantasy Football Scout: Numbers Game 2015/16 Leicester",
+   "url": "https://www.fantasyfootballscout.co.uk/2016/07/13/the-numbers-game-201516-review-leicester-city",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-13",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Reverting back to a four-man defence, the Italian’s counter-attacking approach, allied with the pace and trickery of Jamie Vardy and Riyad Mahrez, tore top-flight backlines apart",
+   "verified": true
+  },
+  {
+   "title": "theScore: How Leicester's squad was built",
+   "url": "https://www.thescore.com/epl/news/1018319",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Danny Simpson, a Manchester United academy graduate, boasted much of his underwhelming top-flight experience from a spell with Newcastle United.",
+   "verified": true
+  },
+  {
+   "title": "theScore: How Leicester's squad was built",
+   "url": "https://www.thescore.com/epl/news/1018319",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Wes Morgan eventually earned the captaincy at neighbour Nottingham Forest before Nigel Pearson sought out a physical presence for his defence.",
+   "verified": true
+  },
+  {
+   "title": "theScore: How Leicester's squad was built",
+   "url": "https://www.thescore.com/epl/news/1018319",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-05-02",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Christian Fuchs was nicked for nothing after the Austrian left FC Schalke 04 upon the conclusion of his contract.",
+   "verified": true
+  },
+  {
+   "title": "Superior Inter deserving of its win (Wilson, SI)",
+   "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2010-05-22",
+   "eventDate": "2010-05-22",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "We are a very compact team; we have little distance between the players, and we managed to play and win with counters, and this is typical for our team",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "We are a very compact team; we have little distance between the players, and we managed to play and win with counters, and this is typical for our team",
+   "date": "2010-05-22",
+   "source": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "provenance": "primary"
+  },
+  {
+   "quote": "It was a provocation in a football sense when before the match [Van Gaal] said Inter is a defensive team, not playing with the same attacking spirit, and I wanted to play with counters",
+   "date": "2010-05-22",
+   "source": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "provenance": "primary"
+  },
+  {
+   "quote": "With Bayern attacking with so many players it was easier for us to control the middle of the pitch",
+   "date": "2010-05-22",
+   "source": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Trovai un campionato italiano che privilegiava gli aspetti difensivi, con modelli super difensivi ma di grande organizzazione.",
+   "date": "2009",
+   "source": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I always thought the most important thing a good coach must do is build the team around the characteristics of his players. So I told the players that I trusted them and would speak very little of tactics.",
+   "date": "2016-07-28",
+   "source": "https://www.fourfourtwo.com/features/fourfourtwos-50-best-football-managers-world-2016-no8-claudio-ranieri",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.calciomercato.com/en/news/mourinho-reveals-how-he-stopped-guardiola-and-messi-at-inter-86151",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.football-italia.net/84100/ranieri-my-tactics-explained",
+   "reason": "404"
+  },
+  {
+   "url": "https://tomkinstimes.com/2015/12/premier-league-tactical-preview-leicester-h/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/2019/05/06/mourinho-inter-barcellona-2010",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "catenaccio",
+  "Helenio Herrera's Inter"
+ ],
+ "exemplars": [
+  {
+   "id": "jose-mourinho",
+   "kind": "manager",
+   "reason": "Inter 2009/10: compact mid/low block, 24-33% possession in key ties, direct transitions to Milito and Eto'o; Champions League treble"
+  },
+  {
+   "id": "inter-2009-10",
+   "kind": "team",
+   "reason": "Beat Barcelona 3-1 and 3-2 on aggregate, then Bayern 2-0 with 33% possession"
+  },
+  {
+   "id": "claudio-ranieri",
+   "kind": "manager",
+   "reason": "Leicester 2015/16: compact 4-4-2/4-4-1-1, lowest possession (42.43%) of any PL champion, counters via Vardy and Mahrez"
+  },
+  {
+   "id": "leicester-2015-16",
+   "kind": "team",
+   "reason": "Premier League 2015/16 champions with non-possession strategy"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Inter evidence has one tier B tactical study plus Wilson (2010); Leicester evidence is mostly tier C (Premier League site, FourFourTwo); no tier A body read."
+ }
+}

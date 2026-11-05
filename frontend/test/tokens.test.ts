@@ -10,7 +10,7 @@ const FIXTURE = `:root {
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   --font: "Sora", sans-serif;
 }
-html[data-quiz-theme="dark"] { --green-500: #348264; }`;
+html[data-theme="dark"] { --green-500: #348264; }`;
 
 describe('readColourTokens', () => {
   it('resolves var() chains to the light value', () => {
@@ -47,12 +47,4 @@ describe('stylesheets', () => {
       expect(css.match(COLOUR)?.[0]).toBeUndefined();
     }
   );
-
-  it('gives every ideology a base and a background colour', () => {
-    const tokens = readColourTokens();
-    for (const key of ['esq-radical', 'esquerda', 'centro', 'direita', 'ext-direita', 'terceira', 'libertario', 'anarquismo']) {
-      expect(tokens[`i-${key}`]).toMatch(/^#/);
-      expect(tokens[`i-${key}-bg`]).toMatch(/^#/);
-    }
-  });
 });

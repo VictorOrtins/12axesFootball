@@ -1,0 +1,406 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Kick and rush" (catalog: football-ideology), answering as the football ideology Kick and rush, answering as a coach committed to it would, as its exemplars practised it in its era. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/football-ideology/kick-and-rush.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK football-ideology:kick-and-rush".
+
+=== RESEARCH FILE (football-ideology/kick-and-rush.json) ===
+{
+  "id": "kick-and-rush",
+  "catalog": "football-ideology",
+  "name": "Kick and rush",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1948",
+    "end": "2013"
+  },
+  "scopeNote": "The English/British direct tradition: win the ball, get it forward fast (long passes, diagonals, early crosses) to a physically strong centre-forward or into space for fast wingers, then run and fight for it, with set pieces and long throws as a main weapon. Scope set by the user, who merged 'British 4-4-2 / kick-and-run' (target men, crosses, set pieces; Allardyce, Pulis's Stoke) into this entry. Period (partial dates; exact days not pinned): from Stan Cullis's appointment at Wolves (1948, inferred from Wikipedia: 'a year later he became manager' after his last game in 1946-47), whose method Wikipedia calls the Cullis 'kick and rush' style, to the end of Tony Pulis's first Stoke Premier League era (2013). Label: Spielverlagerung's glossary equates 'Kick'n'Rush' with 'what is often called the long ball strategy' that 'dominated the British football for decades'; German Wikipedia says 'Kick and Rush' is a continental European coinage ('kontinentaleuropaeische Schoepfung') little used in English-speaking countries, where the style is called 'long ball'. English Wikipedia has no 'Kick and rush' article of its own (the URL returns the 'Long ball' article, which is also where 'Route one' redirects). So the evidence supports 'direct play' / 'long ball' as the English names; 'kick and rush' is mostly an outsider's (often pejorative) label, e.g. Beckenbauer on England in 2010. Kept distinct from Route One / long-ball (Reep's and Hughes's statistical doctrine, Wimbledon), Set-piece specialism and WM (Chapman), although the evidence overlaps heavily with Route One (see openQuestions).",
+  "exemplars": [
+    {
+      "id": "stan-cullis",
+      "kind": "manager",
+      "reason": "Wolves 1948-64; Wikipedia: 'the pioneering development of the Cullis \"kick and rush\" style of football' (long passes, speed of execution, fitness); league titles 1954, 1958, 1959."
+    },
+    {
+      "id": "wolves-1949-60",
+      "kind": "team",
+      "reason": "Cullis's Wolves: long balls into space for fast wingers Hancocks and Mullen, fitness, pace and aggression; beat Honved 3-2 on a watered pitch in 1954."
+    },
+    {
+      "id": "sam-allardyce",
+      "kind": "manager",
+      "reason": "Bolton 1999-2007: target man Kevin Davies, set pieces and long throws ('Positions of Maximum Opportunity'), physical side, data-driven; anchor for direct play (pro) and physicality (jog) in validate.py. Disputes the long-ball label."
+    },
+    {
+      "id": "bolton-2001-07",
+      "kind": "team",
+      "reason": "Allardyce's Premier League Bolton: direct, physical, set-piece heavy, veteran signings (Hierro, Speed, Okocha, Djorkaeff); 6th in 2004-05."
+    },
+    {
+      "id": "tony-pulis",
+      "kind": "manager",
+      "reason": "Stoke 2006-13: 'simplicity is genius', diagonals to target men, Delap long throws, deep and tight defence; anchor for physicality (jog) in validate.py."
+    },
+    {
+      "id": "stoke-2008-13",
+      "kind": "team",
+      "reason": "Pulis's Premier League Stoke: the modern face of British kick-and-rush (long balls, throws, set pieces, ceding possession)."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Overlap with Route One / long-ball (separate catalog entry): the sources read treat 'kick and rush' and 'long ball' as the same thing (Spielverlagerung glossary; German Wikipedia says kick and rush is just the continental name for what the English call long ball; English Wikipedia sends 'Kick and rush' to 'Long ball'/'Route one'). The user should decide the dividing line. A workable split from the evidence: Route One = the statistical doctrine (Reep 1950s, Hughes at the FA in the 1990s, minimal passes, Wimbledon/Taylor's Watford); Kick and rush = the older, broader British cultural tradition (fitness, running, duels, wingers and target men, crosses and set pieces) that predates and outlives that doctrine. Expect the two to land close on the axes (the catalog notes already flag this pair).",
+    "Charles Reep worked with Cullis's Wolves (known from general knowledge, NOT verified in any page read). If true, Wolves sits in both lineages; decide whether Wolves is an exemplar here, of Route One, or both.",
+    "The 19th-century English dribbling game (individual dribbling with team-mates 'backing up' and rushing behind the ball, before the Scottish combination game) is arguably the original 'kick and rush'. Not researched here: no source read covers it, and the period starts in 1948. Decide whether the profile should include it; it would pull pos/pro/est differently (dribbling rather than long passing).",
+    "Shape: no verified base formation for the tradition. Cullis's Wolves played in the WM era (formation not stated on any page read); the 'British 4-4-2' lineage is assumed from the user's scope, but no source read confirms Allardyce's Bolton or Pulis's Stoke were 4-4-2 (a search summary only mentions Pulis's later Crystal Palace using 3-5-2 and 4-4-2). The Coaches' Voice 4-4-2 explainer read is generic and not specific to this tradition.",
+    "Marking and pressing: no source read says whether these teams defended zonally or man-to-man, nor how high they pressed. Verified facts say Stoke 'pack it in defensively' and kept 'tight' defences (deep block); the mar axis rests on inference. Two dedicated marking searches (Pulis, Allardyce) found nothing specific. Taylor's Watford reportedly pressed high after going long (blog, not read), which would contradict a 'sit deep' reading if Watford were counted here rather than under Route One.",
+    "Exemplars disagree on width: Cullis's Wolves went long into space for fast wingers; Pulis's Stoke aimed diagonals at target men (Sidibe, Kitson, Beattie, later Crouch) with runners off them; Allardyce built around a 'focal point target man' (Kevin Davies). Decide whether lar should lean to the wings (crosses, wingers) or stay central-ish (target man).",
+    "Stated view: the managers of this tradition reject the label. Allardyce (FA press conference, 25 July 2016): 'Style of play has always been a tag for me that I can't shake' and he is 'pragmatic'; he reportedly called the long-ball perception 'totally and utterly wrong' (Wikipedia, citation details not read). Pulis's own words ('big, strong, horrible to play against', Footballjoe podcast) were only seen in a search summary. No manager owns 'kick and rush' as a name; it is an outsider's label.",
+    "Allardyce's Bolton combined direct play with technical veterans (Okocha, Djorkaeff, Hierro, Campo, Anelka). Decide whether that weakens Bolton as an exemplar of the jog (physicality) pole or is just the 'bit of magic' (Djorkaeff) on top of a physical base."
+  ],
+  "sources": [
+    {
+      "title": "Kick'n'Rush (Spielverlagerung glossary: philosophies)",
+      "url": "https://spielverlagerung.com/glossary/philosophies/kicknrush/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1950",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "\"Kick'n'Rush, what is often called the long ball strategy, dominated the British football for decades.\" \"teams aimed to win the ball in their own half and afterwards knocked the ball towards a physically strong centre-forward.\" \"The so-called long ball theory was first discussed by Charles Reep in the 1950s.\" Page shows no author or article date (the date displayed is the site's current date); articleDate set to the access year. eventDate 1950 stands for the 'decades' of British football described, starting with Reep's 1950s.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Kick and Rush (German Wikipedia)",
+      "url": "https://de.wikipedia.org/wiki/Kick_and_Rush",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026",
+      "eventDate": "2010-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Ball struck 'hoch und weit' from the team's own defence into the opponent's half for a quick attempt on goal, bypassing midfield; the term is a 'kontinentaleuropaeische Schoepfung' little used in English-speaking countries, where it is called 'Long Ball'. Mentions Beckenbauer criticising England's old-fashioned style against the USA at the 2010 World Cup. Used for the label and the definition, not for a specific era.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "History of Wolverhampton Wanderers F.C.",
+      "url": "https://en.wikipedia.org/wiki/History_of_Wolverhampton_Wanderers_F.C.",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1954",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"Building upon Buckley's principles of hard work in training, exceptional physical fitness\", \"Cullis's kick and rush method incorporated long passes and speed of execution\", \"hitting the opposition penalty box faster and more frequently to apply the percentage principle to goalscoring.\" Also \"the pioneering development of the Cullis 'kick and rush' style of football\". Titles 1954, 1958, 1959; FA Cups 1949 and 1960; Cullis sacked September 1964. Read characters 0-100000 of 126871.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 - the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1957/58",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Neil Fredrik Jensen. Other clubs saw the Cullis style as a sophisticated 'kick and rush'; \"the long balls encouraged by Cullis were played into space for onrushing wingers\", exploiting the speed of Johnny Hancocks and Jimmy Mullen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Great Reputations: Wolves 1957-60 - the mighty men from Molineux",
+      "url": "https://gameofthepeople.com/2019/05/11/great-reputations-wolves-1957-60-the-mighty-men-from-molineux/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-05-11",
+      "eventDate": "1957/58",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "\"Cullis placed huge emphasis on fitness and power.\" \"It certainly relied upon fitness, pace and aggression\". Blackburn claimed \"Wolves were dirty\" after the 1960 FA Cup final; Bill Slater (1960): \"We seem to be an unpopular side.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "UEFA Super Cup: Might of the Magyars",
+      "url": "https://www.uefa.com/news-media/news/0261-10715f1f077b-8325b0ae2a47-1000--uefa-super-cup-might-of-the-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-09-23",
+      "eventDate": "1954-12-13",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Wolves 3-2 Honved, Molineux, 13 December 1954. 2-0 down at half-time, Cullis had staff and trainees soak the pitch; Wolves came back with their long-ball approach. Ron Atkinson (trainee then): \"We thought he was out of his mind: it was December and it had been raining incessantly for four days\"; \"Their tricks got stuck in the mud\"; Honved \"would have won by about 10-0\" otherwise. An in-game change of conditions to suit the direct game against a passing side.",
+      "verified": true
+    },
+    {
+      "title": "Danny Higginbotham gives fascinating insight into Tony Pulis tactics at Stoke",
+      "url": "https://www.planetfootball.com/in-depth/danny-higginbotham-gives-fascinating-insight-into-tony-pulis-tactics-at-stoke",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-01-16",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Higginbotham (Stoke defender, 2008/09): \"We had a specific way of playing, which was simplicity is genius.\" \"Tony would do a lot of shape and everybody knew what was expected of them.\" As full-back, \"everyone knew if I had more than one touch, I was playing the ball diagonal.\" \"Everybody knew where the ball was going so you'd get runners off the player you were aiming to hit.\" Targets: Mama Sidibe, Dave Kitson, James Beattie, with Ricardo Fuller running in behind.",
+      "verified": true
+    },
+    {
+      "title": "Danny Higginbotham gives fascinating insight into Tony Pulis tactics at Stoke",
+      "url": "https://www.planetfootball.com/in-depth/danny-higginbotham-gives-fascinating-insight-into-tony-pulis-tactics-at-stoke",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-01-16",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Delap's throws created \"a huge fear factor\"; \"against us then teams were actually fearful of giving away throw-ins more than giving away corners.\" Same plan every game: \"It was repetitive and that's why we scored a lot of goals in the second half\"; \"all it takes is for you to switch off once.\"",
+      "verified": true
+    },
+    {
+      "title": "Danny Higginbotham gives fascinating insight into Tony Pulis tactics at Stoke",
+      "url": "https://www.planetfootball.com/in-depth/danny-higginbotham-gives-fascinating-insight-into-tony-pulis-tactics-at-stoke",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-01-16",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Higginbotham: the club did not overhaul its style after promotion; the approach was \"repetitive\", wearing opponents down so that goals came late: \"that's why we scored a lot of goals in the second half\". Own identity rather than opponent-specific plans.",
+      "verified": true
+    },
+    {
+      "title": "How Rory Delap's long throw-ins ruffled Arsene Wenger's parka and showed us all their importance",
+      "url": "https://global.espn.com/football/story/_/id/37583230/how-rory-delap-long-throw-ins-ruffled-arsene-wenger-parka-showed-us-all-their-importance",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-03",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Ryan O'Hanlon, citing analyst Mark Taylor: Stoke scored 25 league goals from Delap's throws in his first four seasons; in 2007-08 (Championship) throws led to 8 goals, ~6 points; in 2008-09 (first Premier League season) 8 goals and ~7 points: \"It's only a slight exaggeration to say he kept us up that first year.\" Thomas Gronnemark cites the narrow Britannia pitch.",
+      "verified": true
+    },
+    {
+      "title": "How Rory Delap's long throw-ins ruffled Arsene Wenger's parka and showed us all their importance",
+      "url": "https://global.espn.com/football/story/_/id/37583230/how-rory-delap-long-throw-ins-ruffled-arsene-wenger-parka-showed-us-all-their-importance",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-03",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Pulis's Stoke described as a very large, physical side willing to cede possession, \"pack it in defensively\" and wait for the ball to go out of play (to use Delap's throws). Author's characterisation; no possession numbers.",
+      "verified": true
+    },
+    {
+      "title": "How Rory Delap's long throw-ins ruffled Arsene Wenger's parka and showed us all their importance",
+      "url": "https://global.espn.com/football/story/_/id/37583230/how-rory-delap-long-throw-ins-ruffled-arsene-wenger-parka-showed-us-all-their-importance",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-03",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Stoke willing to \"pack it in defensively\" and concede possession: a deep, compact block. Does not say zonal or man.",
+      "verified": true
+    },
+    {
+      "title": "How Rory Delap's long throw-ins ruffled Arsene Wenger's parka and showed us all their importance",
+      "url": "https://global.espn.com/football/story/_/id/37583230/how-rory-delap-long-throw-ins-ruffled-arsene-wenger-parka-showed-us-all-their-importance",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-03",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Direct, physical play built around big players strong in the air; Gronnemark credits a talented thrower alongside team-mates adept in the air.",
+      "verified": true
+    },
+    {
+      "title": "In defence of Tony Pulis, a Premier League manager with a proud record",
+      "url": "https://thesefootballtimes.co/2014/03/03/in-defence-of-tony-pulis-a-premier-league-manager-with-a-proud-record/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-03-03",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Mark Cruise (opinion column). Pulis \"always makes sure his defences are tight\"; Stoke \"a byword for boring, with too many fouls and long balls\"; \"Pulis is a master of the 1-0 win.\" Begovic repeatedly picked out Crouch against Southampton in 2013: \"If that's not long-ball, then what is?\" The 3-5-2/4-4-2 remark is about Crystal Palace (2013/14) and is not used.",
+      "verified": true
+    },
+    {
+      "title": "Big Sam - English football's unlikely Revolutionary?",
+      "url": "https://apfa.io/posts/big-sam-english-footballs-unlikely-revolutionary/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-12-20",
+      "eventDate": "2004/05",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Tom Fenton (Association of Professional Football Analysis). Bolton analyst Gavin Fleig (via Soccernomics): \"if a defender clears the ball from a long throw, where will the ball land?\"; 45-50% of goals from dead-ball situations; Allardyce later coined 'POMO' (Positions of Maximum Opportunity). Kevin Davies turned into a \"focal point target man\" drawing fouls and bringing team-mates into play. Long-ball tactics called \"abrasive\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Big Sam - English football's unlikely Revolutionary?",
+      "url": "https://apfa.io/posts/big-sam-english-footballs-unlikely-revolutionary/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-12-20",
+      "eventDate": "2005",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Bolton regularly beat Arsenal using their physicality; Wenger praised Allardyce's exploitation of a weakness after a 2005 FA Cup tie (cited to Cox, 2017, The Mixer). Prozone clips shown to players at half-time to correct mistakes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Why Allardyce's Bolton was the performance talent factory",
+      "url": "https://archive.trainingground.guru/articles/why-allardyce-bolton-was-the-performance-talent-factory",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-20",
+      "eventDate": "2003",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Simon Austin. Kevin Davies: \"Sam wasn't afraid to surround himself with people who knew more than he did in their own area of expertise\"; \"He wanted the best people around him to help him succeed and empowered them to make decisions\"; players \"set targets at the start of the season and after every 10 games you'd sit down with Sam and Mike Forde to go through your stats\". Andy Renshaw: \"Sam gave us the freedom to develop, but also backed and supported us too.\" Clear authority with delegated staff.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Sam Allardyce (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sam_Allardyce",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2004/05",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "At Bolton (14 October 1999 to 29 April 2007) Allardyce signed Gary Speed and Fernando Hierro, aged 35 and 36, and used them in midfield; Jay-Jay Okocha on a free; Colin Hendry on loan at 35. Read characters 0-100000 of 241051. APFA adds Ivan Campo (considered too old in Spain), Stelios and Kevin Davies on free transfers.",
+      "verified": true
+    },
+    {
+      "title": "The 4-4-2: football tactics explained (Coaches' Voice)",
+      "url": "https://www.premierleague.com/news/4243787",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-20",
+      "eventDate": "2025",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Generic 4-4-2 explainer, not about this tradition: wide midfielders \"provide crosses for the two centre-forwards\"; \"The two centre-forwards provide height in the attack by occupying opposing centre-backs\"; on Sean Dyche, \"He prefers aerially strong attackers with a combative, physical presence\"; \"The central midfielders often press their direct opponent man for man\". Kept as context only: event outside the period and not tied to the exemplars.",
+      "verified": false
+    },
+    {
+      "title": "Beckenbauer criticises England (search result, not read)",
+      "url": "https://today.thefinancialexpress.com.bd/print/beckenbauer-criticises-england",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-06",
+      "eventDate": "2010-06",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Search summary only: Beckenbauer called England's play 'kick and rush' after the 1-1 draw with the USA at the 2010 World Cup; Capello replied that England did not play the long ball. Evidence of the label being an outsider's pejorative; outside the period and unread.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Style of play has always been a tag for me that I can't shake ... choosing styles or systems depends on the players you have available to you ... Depending on the opposition, we may change the style in which we play. It may be the same system but we change the team slightly to suit the opposition.",
+      "date": "2016-07-25",
+      "source": "https://www.thefa.com/news/2016/jul/25/sam-allardyce-press-conference-250716",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://shropshirestar.com/sport/football/2021/04/10/west-brom-boss-sam-allardyce-long-ball-perception-is-wrong",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2021/https://www.shropshirestar.com/sport/football/2021/04/10/west-brom-boss-sam-allardyce-long-ball-perception-is-wrong/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.pressreader.com/uk/the-sentinel/20210405/282187948821435",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.aol.com/news/tony-pulis-claims-applied-same-090406409.html",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/person/player/sam-allardyce-was-the-best-manager-bolton-could-have-had-at-that-time-we-were-tough-on-the-pitch-and-had-a-bit-of-magic-the-perfect-formula-youri-djorkaeff-reflects-on-his-bolton-wanderers-stint",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "shape",
+      "pressing"
+    ],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "route-one",
+      "kind": "football-ideology",
+      "note": "Reep's and Hughes's long-ball doctrine (1950s, FA in the 1990s) gave the British direct tradition a statistical rationale; sources read treat the two as the same style."
+    },
+    {
+      "id": "set-piece-specialism",
+      "kind": "football-ideology",
+      "note": "Allardyce's 'POMO' and Pulis's Delap throws are the British root of the later set-piece specialism (Guardiola credited Pulis's Stoke, per search summary only)."
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "Covers an idea spread over ~65 years through three exemplars (Cullis's Wolves, Allardyce's Bolton, Pulis's Stoke), each carried by one or two sources, mostly tier C press and tier B blogs, largely retrospective; no technical study or data source; shape and pressing unverified, marking never stated; the label itself is contested (continental pejorative, folded into 'long ball' by every reference source read), and the boundary with Route One is unresolved."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

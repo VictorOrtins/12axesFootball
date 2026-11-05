@@ -1,0 +1,365 @@
+{
+  "id": "hungarian-4-2-4",
+  "catalog": "football-ideology",
+  "name": "Hungarian fluid 4-2-4",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1947",
+    "end": "1957"
+  },
+  "scopeNote": "The Hungarian idea of the late 1940s and 1950s: a withdrawn (deep-lying) centre-forward who drops into midfield to direct play and drag the opposing centre-half out of position, inside forwards pushed up as the real strikers, forwards interchanging positions, one half-back dropping in front of or into the back line, full-backs encouraged to push on. Period starts in 1947 (Bukovi appointed at MTK in early 1947 and, per Cresswell, 'from 1947' worked on a deep-lying centre-forward; Guttmann's first Kispest spell began 16 Aug 1947) and ends in 1957 (Guttmann's São Paulo, appointed 23 Mar 1957, won the 1957 Campeonato Paulista with the 4-2-4). Partial dates because the idea has no single start or end day. Brazil's 1958 World Cup 4-2-4 under Feola is left to futebol-arte; the 1930s Danubian school (Hogan, Meisl) is the predecessor and left to danubian-school; Total Football is a later, separate idea even though Puskás later called the side its 'prototype'. Naming: sources read never call the Golden Team's own shape a pure 4-2-4. Wikipedia and Wikipedia's Match of the Century page say '3-2-3-2', UEFA (2015) says '2-3-3-2', Nemzeti Sport's 2006 account of Wembley describes a 4-3-3-like arrangement, and a summary of Wilson's Inverting the Pyramid (search only, not read) says 'a hair's-breadth from 4-2-4'. The 4-2-4 label fits Bukovi's MTK and Guttmann's São Paulo best (Bukovi 'developed the vital 4-2-4 formation', Wikipedia; Guttmann 'transformou o esquema 3-2-2-3, o famoso WM, em 4-2-4', Trivela 2013). The term the evidence supports for the national team is 'deep-lying centre-forward' system with fluid forwards.",
+  "exemplars": [
+    {
+      "id": "gusztav-sebes",
+      "kind": "manager",
+      "reason": "Hungary national coach (sacked June 1956); took the deep-lying centre-forward to the national team (Hidegkuti v Switzerland 1952, Italy 1953, Wembley 1953) and built the club-bloc squad."
+    },
+    {
+      "id": "marton-bukovi",
+      "kind": "manager",
+      "reason": "MTK / Vörös Lobogó coach 1947-54; credited with developing the 4-2-4 and the deep-lying centre-forward with Palotás and Hidegkuti; Sebes's assistant and successor in 1956."
+    },
+    {
+      "id": "bela-guttmann",
+      "kind": "manager",
+      "reason": "Kispest coach 1947-48 and 1956-57; at São Paulo (23 Mar 1957 - 17 Jul 1958) turned the WM into a 4-2-4 and won the 1957 Paulista, with Feola as assistant: the carrier of the idea to Brazil."
+    },
+    {
+      "id": "hungary-1950-56",
+      "kind": "team",
+      "reason": "The Golden Team (Aranycsapat): 1952 Olympic gold, 6-3 at Wembley (25 Nov 1953), 1954 World Cup final; the showcase of the withdrawn centre-forward and interchanging forwards."
+    },
+    {
+      "id": "mtk-1947-54-bukovi",
+      "kind": "team",
+      "reason": "Bukovi's MTK (Vörös Lobogó), where the deep-lying centre-forward was tested at club level; league titles 1951 and 1953."
+    },
+    {
+      "id": "sao-paulo-1957-bela-guttmann",
+      "kind": "team",
+      "reason": "Guttmann's São Paulo, 1957 Campeonato Paulista champions with the 4-2-4 that Feola then took to the Brazil team."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (mar) rests on inference. Every source read describes the OPPONENTS' man-marking (England's centre-half Johnston following the number 9 into midfield; Wright 'Tick' following his man; Eckel told by Herberger in 1954 to go against Hidegkuti) and how Hungarian movement beat it. No source read says whether Hungary's own defenders marked man-to-man or by zone. The WM tradition they came from was man-oriented (stopper centre-half on the centre-forward), so a man-oriented back line is likely, but it is not stated. Check Wilson's Inverting the Pyramid / The Names Heard Long Ago or Sebes's own writings.",
+    "Pressing and transitions have no verified fact. Puskás's undated line 'When we attacked, everyone attacked, and in defence it was the same' suggests collective defending but says nothing about height or triggers. A Nemzeti Sport (2006) anecdote has Fradi's Gyula Lázár, late 1940s, scolding the young Lakat for pressing in the opponents' half ('This is gentlemen's sport!'): Hungarian culture of the time, not an exemplar, so not used.",
+    "Credit for the idea is disputed between Bukovi (MTK, from 1947), Sebes (national team) and Guttmann (who carried a 4-2-4 to Brazil with 'far fewer rotations and movements', Coaches' Voice 2025). Wilson (Substack, 2025, paywalled) calls Bukovi possibly 'the mastermind of the Aranycsapat' and Sebes 'by his own admission, no great tactician'. Decide whether the profile describes the fluid Hungarian national-team version or the more fixed Guttmann 4-2-4: the latter overlaps with futebol-arte's starting shape.",
+    "Formation label: '4-2-4' versus the 3-2-3-2 / 2-3-3-2 / 4-3-3 readings of the 1953 team (see scopeNote). The catalog name 'Hungarian fluid 4-2-4' is acceptable shorthand, but the national team's shape is better described as a WM with a withdrawn centre-forward and a dropping half-back.",
+    "Guttmann's 'I never mind if the opposition scores, because I always believe we can score more' was seen only in a search summary of a Goal.com page (no date or original source) and is not recorded; it would belong to his Benfica years (1959-62), outside the period, anyway.",
+    "Sebes's statements found are attributed, not primary: no 1950s interview or his own books (e.g. his coaching writings cited by LiberoGuide) were reached. A Hungarian archive (Arcanum, Népsport Nov 1953) would give primary period quotes."
+  ],
+  "sources": [
+    {
+      "title": "Golden Team",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Sebes's deep-lying centre-forward, with wingers dropping back when needed: \"This effectively created an extremely flexible 3–2–3–2 formation.\" \"The tactic also drew defenders out of position\": centre-halves used to man-marking the centre-forward followed him back into midfield. Read characters 0-100000 of a 157k page.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1950/56",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"The majority of the team played for Budapest Honvéd\"; the core was Kispest Honvéd players plus MTK's Hidegkuti; Sebes's idea was a core of players \"drawn from just a handful of clubs\". 1950-56 record: 69 games, 58 wins, 10 draws, one defeat.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Golden Team",
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1950/56",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Sebes \"demanded rigorous training and standards of physical fitness from his players\" and introduced fitness regimes and a club-like policy at international level.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The greatest teams of all time: Hungary 1950-56",
+      "url": "https://www.uefa.com/european-qualifiers/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-06-15",
+      "eventDate": "1950/56",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Matthew Watson-Broughton. Sebes reworked the WM with a withdrawn centre-forward and wingers who could \"slot into midfield when required\", a \"flexible 2-3-3-2 lineup\"; Hidegkuti would \"draw defenders out of position\", opening space for Puskás and Kocsis.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The greatest teams of all time: Hungary 1950-56",
+      "url": "https://www.uefa.com/european-qualifiers/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-06-15",
+      "eventDate": "1950/56",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Under communist sporting policy, squad players not already at Honvéd or MTK were moved there, so \"national team-mates became club-mates\". Many unofficial matches against rural teams; regular tactical discussions to which Puskás and other senior players contributed.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Socialism In Football – Gustav Sebes, Bela Guttmann And The Evolution Of 4-2-4",
+      "url": "https://thehardtackle.com/2012/socialism-in-football-gustav-sebes-bela-guttmann-and-the-evolution-of-4-2-4/amp/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012",
+      "eventDate": "1953",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Amlan Majumdar. \"Sebes urged Lantos and Buzanszky to support the attack down the wings\"; diagram caption: he \"pushed the fullbacks wider, pushed up one of the half back while pulled back the other.\" \"While the MM formation developed by Bukovi was extremely fluid, it was defensively vulnerable.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Socialism In Football – Gustav Sebes, Bela Guttmann And The Evolution Of 4-2-4",
+      "url": "https://thehardtackle.com/2012/socialism-in-football-gustav-sebes-bela-guttmann-and-the-evolution-of-4-2-4/amp/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012",
+      "eventDate": "1953",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"Lorant remained deep almost as a sweeper\"; \"Zakanas [Zakariás], the left half-back, dropped deep to provide defensive cover.\" The interchange \"enhanced the movements of the midfielders and attackers as they interchanged their roles on the pitch.\" Does not say man or zonal.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Socialism In Football – Gustav Sebes, Bela Guttmann And The Evolution Of 4-2-4",
+      "url": "https://thehardtackle.com/2012/socialism-in-football-gustav-sebes-bela-guttmann-and-the-evolution-of-4-2-4/amp/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012",
+      "eventDate": "1952",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Hidegkuti was first used as a withdrawn centre-forward in a friendly v Switzerland that Hungary turned from 0-2 at half-time into a 4-2 win: \"It was the first time Hidegkuti played in that role, but he excelled in it.\" \"After that Hidegkuti played in that role for the rest of his career\": an in-game change that became the fixed identity. Also: the national team players \"would mostly play for the same clubs\" to improve chemistry; compulsory military service let Kispest sign the notable players.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "MTK Budapest: All Fake Nines & No Fans",
+      "url": "https://beyondthelastman.com/2016/10/13/mtk-budapest-all-fake-nines-no-fans/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-10-13",
+      "eventDate": "1947",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Peterjon Cresswell. Bukovi returned from Zagreb in early 1947; with Palotás and Hidegkuti available, \"from 1947 Bukovi worked on deploying a deep-lying centre-forward who could direct play and pull opposing defenders out of position\" (\"All, of course, at club level\"). Bukovi \"perfected\" the Danubian style of \"swift passing, running off the ball and positional interchange.\" Sebes quote on Switzerland, Sept 1952: see statedView.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Márton Bukovi",
+      "url": "https://en.wikipedia.org/wiki/M%C3%A1rton_Bukovi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1947/54",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "MTK spells 1947-54 and 1957-59; Bukovi, working at MTK with Palotás and Hidegkuti, \"developed the vital 4-2-4 formation\", using either of them as a \"deep lying centre-forward\"; later \"adopted by national coach Gusztáv Sebes\". Bukovi was Sebes's assistant and succeeded him in 1956. MTK titles carry a [citation needed] tag. No Bukovi quotes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The 4-2-4 formation: football tactics explained",
+      "url": "https://www.premierleague.com/en/news/4243825",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-22",
+      "eventDate": "1957",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Coaches' Voice on premierleague.com, no byline (spells him 'Bukovki'). Bukovi adapted the W-M by having the centre-forward drop while \"the two inside forwards advanced to create a front-line pairing\"; one half-back dropped into the back line, the other worked beside the withdrawn centre-forward, and the outside left and right widened into a front four. Guttmann \"really pioneered the 4-2-4\" in Brazil, with \"far fewer rotations and movements than had previously been the case\"; at São Paulo, assisted by Feola, 1957 Paulista. Tier A by publisher, but an explainer of a whole era, not a study.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "O outro técnico estrangeiro que ajudou o Brasil a ser campeão do mundo",
+      "url": "https://trivela.com.br/brasil/o-outro-tecnico-estrangeiro-que-ajudou-o-brasil-ser-campeao-mundo/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2013-12-22",
+      "eventDate": "1957",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Leandro Stein. Guttmann, \"comandante do São Paulo a partir de 1957\", \"transformou o esquema 3-2-2-3, o famoso WM, em 4-2-4\": \"Os centroavantes de suas equipes voltavam ao meio e embaralhavam as defesas adversárias, enquanto os laterais ganhavam mais liberdade.\" Knowledge \"absorvidos por Vicente Feola, seu assistente no clube\". No period quotes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "9º – Béla Guttman: inovador, arrogante e vencedor",
+      "url": "https://trivela.com.br/mundo/9o-bela-guttman-inovador-arrogante-e-vencedor/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-04-25",
+      "eventDate": "1957",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Equipe Trivela. At São Paulo Guttmann won the 1957 Paulista and \"ajudou a difundir no futebol brasileiro a formação 4-2-4\"; he signed \"Zizinho, este um pedido do próprio treinador, que apostou no experiente craque, já com 35 anos.\" Style: \"o estilo ofensivo como o ideal, com uma filosofia de jogo bonito, em detrimento de qualquer tática defensiva.\" (Benfica-era passages on promoting youth are outside the period and not used.)",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Béla Guttmann",
+      "url": "https://en.wikipedia.org/wiki/B%C3%A9la_Guttmann",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1948-11",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Kispest spell 16 Aug 1947 - 31 Oct 1948 (39 matches); São Paulo 23 Mar 1957 - 17 Jul 1958 (97 matches), 1957 Paulista. In Nov 1948 he tried to take off full-back Mihály Patyi for rough play, leaving Kispest with 10; Patyi stayed on with captain Puskás's support and Guttmann quit on the spot. He demanded a strict regime of diet, rigorous fitness and hard training, and rarely stayed more than two seasons. Read characters 0-100000 of a 297k page.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Match of the Century (1953 England v Hungary football match)",
+      "url": "https://en.wikipedia.org/wiki/Match_of_the_Century_(1953_England_v_Hungary_football_match)",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Period press quoted: The Guardian (26 Nov 1953): \"none of the English forwards except Matthews approached the speed, ball control, and positional play of the Hungarians\"; Pat Ward-Thomas (The Guardian, 26 Nov 1953): \"the immense advantage of playing together so often, superior fitness\" and \"finer athletes with their poised, beautifully balanced movements.\" Technique plus athleticism.",
+      "verified": true
+    },
+    {
+      "title": "Match of the Century (1953 England v Hungary football match)",
+      "url": "https://en.wikipedia.org/wiki/Match_of_the_Century_(1953_England_v_Hungary_football_match)",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Hungarian forwards were \"continually swapping positions\"; Hidegkuti \"effectively operating as a midfielder\"; his final goal \"followed a ten-pass sequence\". England's defenders were \"marking whoever was wearing a particular number, instead of marking the player who was playing in a particular area\" (describes England, not Hungary).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "England 3 Hungary 6 (rec.sport.soccer compilation, incl. FA Year Book report)",
+      "url": "https://rsssf.org/rssbest/enghong.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1990",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Period FA Year Book match report (no author) reproduced: \"the Hungarians largely owed their victory to their mastering of the 'English Style'\": \"interchanging forwards, a mingling of short and long passes\", \"performed with almost geometrical accuracy and ball control amounting to elegance\"; \"shot four of their six goals from outside the penalty area\"; \"Hidegkuti successfully sold the dummy to Johnston\". Kevin Lewis's 1990 post (not period) adds that Johnston marked Hidegkuti because he was conditioned to marking the number 9.",
+      "verified": true
+    },
+    {
+      "title": "The Intellect Won instead of Strength in London",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-the-intellect-won-instead-of-strength-in-london",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1953-05-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Nemzeti Sport (English version, no byline). Bukovi and Sebes \"considered necessary to reduce rigidity\" of the WM (many movements, short passes, position changes, speed, still with long cross-field passes). Rome, 17 May 1953, Italy 0-3: \"Gusztáv Sebes surprised the world with new tactics already in the course of that match\": Zakariás moved between the lines in front of three defenders, Bozsik organised play, Hidegkuti dropped deep, Puskás played as a left half, Kocsis led the attack alone. János Csank (undated) on Wembley: Hidegkuti \"regularly withdrew or moved to the wing\", the English defender nicknamed \"Tick\" followed his man, \"freeing the way for the Puskás- Bozsik duo\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "We scored six to England",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-we-scored-six-to-england",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Nemzeti Sport republication (\"we published it 53 years ago\"), English translation. Buzánszky (no interview date): \"We did not have fix positions\", so two left-sided players scored from the right wing. Puskás \"practically always guarded by two host football players, but he initiated a great number of attacks\". Winterbottom: \"Three-years-work resulted in the Hungarian success.\" Szepesi (book 'My Story', undated): training at Fulham, \"Gusztáv Sebes brought rather strict timetable\". Unclear which quotes are from the 1953 original and which were added later.",
+      "verified": true
+    },
+    {
+      "title": "The Most Important Soccer Game Ever Played",
+      "url": "https://www.theringer.com/soccer/2018/7/13/17568582/world-cup-most-important-game-1954-final-hungary-west-germany",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-07-13",
+      "eventDate": "1954-07-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Daniel Harris. Puskás, \"injured but not incapacitated\", was picked for the final; Buzánszky on hearing he was 80 percent fit: \"That's plenty!\" Buzánszky on the system: \"The midfielders moved forward behind the attackers and the defenders followed the midfield.\" Eckel (West Germany): Herberger told him \"You go against Hidegkuti\" because \"he was the playmaker\". Grosics on Sebes: \"He made a political issue of every important match or competition.\" Player recollections, undated.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Hidegkuti came on, to slot in behind the attack. He directed play and we won 4-2.",
+      "date": "2016-10-13",
+      "source": "https://beyondthelastman.com/2016/10/13/mtk-budapest-all-fake-nines-no-fans/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "We played football as Jimmy Hogan taught us",
+      "date": "2018-07-13",
+      "source": "https://www.theringer.com/soccer/2018/7/13/17568582/world-cup-most-important-game-1954-final-hungary-west-germany",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "When we attacked, everyone attacked, and in defence it was the same. We were the prototype for 'Total Football'.",
+      "date": "2015-06-15",
+      "source": "https://www.uefa.com/european-qualifiers/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://nationalfootballmuseum.com/stories/when-hungary-stunned-wembley-and-the-world",
+      "reason": "403"
+    },
+    {
+      "url": "https://hvg.hu/sport/20180702_A_dicsoseges_rohangaszastol_a_totalis_futballig",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://hvg.hu/sport/20180702_A_dicsoseges_rohangaszastol_a_totalis_futballig",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://jonawils.substack.com/p/the-greatest-tactician-in-history",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": ["pressing", "transitions", "set-pieces", "stated-view"],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "danubian-school",
+      "kind": "football-ideology",
+      "note": "Bukovi 'perfected' the Danubian passing and interchange style that Hogan helped create (Cresswell 2016); Sebes: 'We played football as Jimmy Hogan taught us' (attributed)."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "The core idea (withdrawn centre-forward, interchanging forwards, a half-back dropping, full-backs pushing on) is agreed across many sources, and Wembley 1953 has period press (FA Year Book report, Guardian 26 Nov 1953) and Nemzeti Sport's 1953 republication. But almost everything is tier C retrospective, the only tier A piece is a whole-era explainer, the formation label varies (3-2-3-2 / 2-3-3-2 / 4-2-4), Hungary's own marking, pressing and transitions are never described, Guttmann's São Paulo version is thin, and every stated view is attributed."
+  }
+}

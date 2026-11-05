@@ -1,0 +1,598 @@
+{
+ "id": "player-empowerment",
+ "catalog": "football-ideology",
+ "name": "Player empowerment",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2016-01-04",
+  "end": "ongoing"
+ },
+ "scopeNote": "Player empowerment / man-management football: light prescriptive structure, rules on discipline and defending without the ball, freedom with the ball, authority built through relationships. Exemplars: Ancelotti (Real Madrid 2021-25, also 2013-15), Zidane (Real Madrid 2016-18 and 2019-21), Scaloni (Argentina 2018-ongoing). Sources use 'man-management', 'freedom' and 'social competence'; the label 'anti-tactician' is contested (Sky Sports argues freedom is itself a tactic). Exact appointment and exit dates were not verified in mined pages; 2016-01-04 (Zidane appointment) is from memory and the period is the union of exemplar eras. Argentina with Scaloni is covered mainly by FIFA's Coaches Forum; formation labels vary widely between sources.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Proposed manager ids: zinedine-zidane and lionel-scaloni do not exist in research/manager; only carlo-ancelotti does. Create or rename.",
+  "Exemplar team ids not checked/assigned (e.g. Real Madrid 2021-25, Argentina 2022); none proposed to avoid inventing ids.",
+  "Zidane is described as 'chaotic' and lucky in FourFourTwo while a rotation-based man-manager; Scaloni is more structurally explicit (three-to-five second counter-press, system changes), so the 'light structure' label fits Ancelotti best.",
+  "Ancelotti is quoted in a 2022 press conference saying the defensive side 'is very important'; empowerment applies to the ball, not to defending.",
+  "No source found on zonal vs man-marking for Zidane or Scaloni; Ancelotti zonal claims came only from search summaries (UEFA page not accessible).",
+  "Exact dates of spells to confirm: Zidane 2016-01-04 to 2018-05-31 and 2019-03-11 to 2021-05-27; Ancelotti 2021-06-01 to 2025-05; Scaloni interim 2018-09, permanent 2019."
+ ],
+ "sources": [
+  {
+   "title": "Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Guardiola would be horrified. He once set out cones on the training pitch to make it clear to his wide players that they must not venture beyond that zone. But that freedom is an essential component of an Ancelotti side.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "If you asked me how we played the final in Paris, 4-3-3 or 4-4-2, I will tell you I do not know.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Without the ball, Madrid are still disciplined. The principles of being compact remain. Those are non-negotiable and were evident in the way that they successfully restricted City in the quarter-final. But once in possession, that is when the players can play.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Staying in your lane and trusting in the system offers more certainty to players. Do the job and the goal will come. But being trusted to make things happen, encouraged to be the difference, roaming in search of the solutions, that can be truly empowering.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Freedom, identified by Jude Bellingham as the main reason for his brilliant debut season in a Madrid shirt, is a tactic too.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "The mistake that the new generation of coaches make is giving too much information to the players in the game with the ball. This takes away creativity.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Granting Freedom to His Players (beIN Sports)",
+   "url": "https://beinsports.com/en-us/soccer/articles-video/ancelotti-on-granting-freedom-to-his-players-i-don-t-know-what-they-do-in-their-rooms-2025-01-11",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-01-11",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "I give the players plenty of freedom. The video sessions don’t last more than fifteen minutes.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Granting Freedom to His Players (beIN Sports)",
+   "url": "https://beinsports.com/en-us/soccer/articles-video/ancelotti-on-granting-freedom-to-his-players-i-don-t-know-what-they-do-in-their-rooms-2025-01-11",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-01-11",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "I don’t know what they do in their rooms, and I don’t want to know,",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Granting Freedom to His Players (beIN Sports)",
+   "url": "https://beinsports.com/en-us/soccer/articles-video/ancelotti-on-granting-freedom-to-his-players-i-don-t-know-what-they-do-in-their-rooms-2025-01-11",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-01-11",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Punctuality is important, and players must be disciplined. It’s not ideal for the entire group to be kept waiting. When a player is late, they explain what happened. If the reason is acceptable, that’s fine. If it’s not, then we take action.",
+   "verified": true
+  },
+  {
+   "title": "How Real Madrid won the Champions League last season - without looking to press (Flashscore)",
+   "url": "https://www.flashscore.com/news/how-real-madrid-won-the-champions-league-last-season-without-looking-to-press-opponents/rwU4FbtI",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-09-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Real Madrid were third bottom on this list, allowing teams to progress up the pitch about 15 metres on average.",
+   "verified": true
+  },
+  {
+   "title": "How Real Madrid won the Champions League last season - without looking to press (Flashscore)",
+   "url": "https://www.flashscore.com/news/how-real-madrid-won-the-champions-league-last-season-without-looking-to-press-opponents/rwU4FbtI",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-09-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "In every single knockout round match, they had less possession than their opponents.",
+   "verified": true
+  },
+  {
+   "title": "How Real Madrid won the Champions League last season - without looking to press (Flashscore)",
+   "url": "https://www.flashscore.com/news/how-real-madrid-won-the-champions-league-last-season-without-looking-to-press-opponents/rwU4FbtI",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-09-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "A typical tactic implemented by Ancelotti was to bring on Edurardo Camavinga (19) and Rodrygo (21) for fresh legs at around the 70th-minute mark.",
+   "verified": true
+  },
+  {
+   "title": "How Real Madrid won the Champions League last season - without looking to press (Flashscore)",
+   "url": "https://www.flashscore.com/news/how-real-madrid-won-the-champions-league-last-season-without-looking-to-press-opponents/rwU4FbtI",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-09-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The mouthwatering blend of world-class experience and stunningly talented youth meant Madrid had a little bit of everything.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti gives opinion on Real Madrid defensive struggles (Football Espana)",
+   "url": "https://www.football-espana.net/2022/10/08/carlo-ancelotti-gives-opinion-on-real-madrid-defensive-struggles",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-08",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "A Madrid that does not have a singular identity, that is what we are going to see. There are matches where using a low block can give you more of an advantage. It will be a season with not just one Madrid.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti gives opinion on Real Madrid defensive struggles (Football Espana)",
+   "url": "https://www.football-espana.net/2022/10/08/carlo-ancelotti-gives-opinion-on-real-madrid-defensive-struggles",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-08",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "It is true that we haven’t always been compact and we have lost duels.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Tactically they are similar: they change formations often and play attacking football. But above all, they keep dressing rooms happy.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "He rotated up to nine players at once, unleashing his ‘reserve team’ on weaker league opponents to good effect. He also persuaded Cristiano Ronaldo to rest, with the Portuguese playing just 29 league games.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "When Madrid line up against Liverpool, they could play 10 of the 11 names that started the final in 2016. The only players they have bought under Zidane have been playmaker Dani Ceballos and left-back Theo Hernandez, two youngsters meant to serve backup roles.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Zidane could be criticised for staying too loyal to the big names. Yet as the knockout stages began, Madrid recovered. Players who might have been benched earlier began to pay Zidane back for his loyalty.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Whatever tactical system Zidane had in place, it tended to be a chaotic one, with Madrid leaking goals.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Established stars praised Zidane; even those benched refused to grumble.",
+   "verified": true
+  },
+  {
+   "title": "How good really is Zidane the manager? (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-22",
+   "eventDate": "2018-05",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“Thirty per cent of coaching is tactics, 70 per cent social competence,”",
+   "verified": true
+  },
+  {
+   "title": "Zidane's dressing room tact key to Real success (Gulf News/AP)",
+   "url": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fzidanes-dressing-room-tact-key-to-real-success-1.2225868",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-23",
+   "eventDate": "2018-05",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "“Some can say that it’s not a big deal if the dressing room is not working well, but it is, I’m telling you,” the 45-year-old Zidane said. “You may win here and there, but to win consistently, the dressing room has to be [united].”",
+   "verified": true
+  },
+  {
+   "title": "Zidane's dressing room tact key to Real success (Gulf News/AP)",
+   "url": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fzidanes-dressing-room-tact-key-to-real-success-1.2225868",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-23",
+   "eventDate": "2018-05",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“I’m not the best coach, I’m not the best tactically. But I have something else. I have desire and passion, and that means a lot more.”",
+   "verified": true
+  },
+  {
+   "title": "Zidane's dressing room tact key to Real success (Gulf News/AP)",
+   "url": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fzidanes-dressing-room-tact-key-to-real-success-1.2225868",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-23",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Zidane showed his good management when rotating starters and bringing in youngsters who usually don’t get a lot of playing time.",
+   "verified": true
+  },
+  {
+   "title": "Real rotation vital but there's no A or B team, says Zidane (SBS/AFP)",
+   "url": "https://www.sbs.com.au/news/article/real-rotation-vital-but-theres-no-a-or-b-team-says-zidane/7jt0538n5",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-04-28",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "I don't just drop players, I speak with them and explain my thinking and we move forward together,",
+   "verified": true
+  },
+  {
+   "title": "Zidane reveals secrets to managing Real Madrid (SI)",
+   "url": "https://www.si.com/soccer/zinedine-zidane-secrets-managing-real-madrid-xabi-alonso",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-16",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "“For the dressing room to accept what you want to implement, they have to like you,”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Zidane reveals secrets to managing Real Madrid (SI)",
+   "url": "https://www.si.com/soccer/zinedine-zidane-secrets-managing-real-madrid-xabi-alonso",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-16",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "I met with the four captains and told them what I expected from them and would see if they were committed. When they agreed to work, that was it; joy arrived.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Scaloni talks to Coaches Forum about FIFA World Cup campaign (FIFA)",
+   "url": "https://inside.fifa.com/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-11-27",
+   "eventDate": "2022-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "“It’s not just important, it’s essential. My players know that we can change [our system] at any moment, and that we are not one-dimensional,”",
+   "verified": true
+  },
+  {
+   "title": "Scaloni talks to Coaches Forum about FIFA World Cup campaign (FIFA)",
+   "url": "https://inside.fifa.com/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-11-27",
+   "eventDate": "2022-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "“The tactical side, the strategy, that is an important ingredient, but having players play for each other -- that’s crucial,”",
+   "verified": true
+  },
+  {
+   "title": "Scaloni talks to Coaches Forum about FIFA World Cup campaign (FIFA)",
+   "url": "https://inside.fifa.com/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-11-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "In the first few months with the national team we tried to play a bit faster, a bit more direct and noticed he wasn’t comfortable and his teammates weren’t comfortable, so I think one of our merits, of all of us, the squad as a whole, was having found those players who could let him play his football.",
+   "verified": true
+  },
+  {
+   "title": "Scaloni talks to Coaches Forum about FIFA World Cup campaign (FIFA)",
+   "url": "https://inside.fifa.com/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-11-27",
+   "eventDate": "2022-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "We believe strongly in recovering the ball within the first three, four or five seconds after losing possession. If we can’t win the ball back, we move into midfield and wait.",
+   "verified": true
+  },
+  {
+   "title": "Scaloni talks to Coaches Forum about FIFA World Cup campaign (FIFA)",
+   "url": "https://inside.fifa.com/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-11-27",
+   "eventDate": "2022-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Nowadays, a 35 year old player is like a 29 or 30 year old, in the old days.",
+   "verified": true
+  },
+  {
+   "title": "La formación de la Selección Argentina post-Messi (442/Perfil)",
+   "url": "https://442.perfil.com/noticias/amp/seleccion-argentina/la-formacion-de-la-seleccion-argentina-post-messi-como-se-reinventara-tacticamente-scaloni.phtml",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2026-09-01",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Durante años, el esquema táctico del combinado nacional —ya sea en un 4-3-3, un 4-4-2 flexible o variantes con carrileros— giró en torno a la libertad de movimientos del capitán",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/carlo-ancelotti-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-31",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "when the team are struggling to get out against a high press, both Modric and Kroos – two of the best ball-playing midfielders in Europe – will drop together, with Casemiro pushing forward.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/carlo-ancelotti-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-31",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "they don't press high very often at all compared with the rest of the teams in La Liga. Madrid often used a mid-block in 2021/22, with low blocks also deployed in spells in some matches in European competition against strong teams.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/carlo-ancelotti-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-31",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Both full-backs are free to push forwards at the same time, though they do so in different ways.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/carlo-ancelotti-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-31",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Vinícius cheats slightly, remaining slightly ahead of the rest of the midfield line to launch counter-attacks from his side, and he will not track all the way back to support his full-back partner Mendy with every attack.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti: Coach Watch (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/carlo-ancelotti-real-madrid/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-31",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Benzema is happy coming deep to collect the ball in central areas, and is brilliant at doing so, providing an effective out-ball when Madrid need to go direct – something Ancelotti is happy for them to do.",
+   "verified": true
+  },
+  {
+   "title": "The Regista: Midfield masterclass and attacking freedom helped Madrid beat Bayern (Flashscore)",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-the-regista-midfield-masterclass-and-attacking-freedom-helped-madrid-beat-bayern/8OT77Ymf",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-05-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "the early build-up phases, forming a 3-3 shape (formed by the two centre-backs and four central midfielders whilst the fullbacks offered width) giving Madrid that deep overload in central areas",
+   "verified": true
+  },
+  {
+   "title": "The Regista: Midfield masterclass and attacking freedom helped Madrid beat Bayern (Flashscore)",
+   "url": "https://www.flashscore.com/news/soccer-champions-league-the-regista-midfield-masterclass-and-attacking-freedom-helped-madrid-beat-bayern/8OT77Ymf",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-05-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Ancelotti encourages his players to express themselves, help one another by creating passing options and make things happen, and it is their responsibility to move accordingly in tandem to cover the zones around the pitch.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "If Vinicius or Rodrygo feel more comfortable opening up a little more on the wings when the team has the ball, I am not going to tell them to stay inside, because it is an individual interpretation of the game.",
+   "date": "2024",
+   "source": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I give the players plenty of freedom. The video sessions don’t last more than fifteen minutes. They have fun together, and there’s a great atmosphere among them.",
+   "date": "2025-01-11",
+   "source": "https://beinsports.com/en-us/soccer/articles-video/ancelotti-on-granting-freedom-to-his-players-i-don-t-know-what-they-do-in-their-rooms-2025-01-11",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It’s the most important thing for a manager, the relationship he has with the players. You can talk all you want about tactics or techniques, but if you don’t have the players on your side, you won’t have the collective motivation to put a system in place or the players to make it work.",
+   "date": "2018-05-22",
+   "source": "https://www.fourfourtwo.com/features/just-how-good-zidane-manager-why-real-madrid-boss-just-keeps-winning",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I’m not the best coach, I’m not the best tactically. But I have something else. I have desire and passion, and that means a lot more.",
+   "date": "2018-05",
+   "source": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fzidanes-dressing-room-tact-key-to-real-success-1.2225868",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "The tactical side, the strategy, that is an important ingredient, but having players play for each other -- that’s crucial",
+   "date": "2023-05",
+   "source": "https://inside.fifa.com/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign",
+   "provenance": "primary"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://themastermindsite.com/2021/04/16/zinedine-zidane-real-madrid-tactical-analysis-2020-21-edition/",
+   "reason": "403"
+  },
+  {
+   "url": "https://global.espn.com/football/story/_/id/37628771/real-madrid-carlo-ancelotti-players-coach-approach-on-brink-champions-league-history",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/028d-1ad2aace62a4-fd3586ac6b79-1000--insights-madrid-s-mid-block/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://themastermindsite.com/2022/12/16/lionel-scaloni-argentina-tactical-analysis-world-cup-2022/",
+   "reason": "403"
+  },
+  {
+   "url": "https://global.espn.com/football/copa-america/0/blog/post/3876621/lionel-messi-is-throwing-argentina-off-balance",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "exemplars": [
+  {
+   "id": "carlo-ancelotti",
+   "kind": "manager",
+   "reason": "Freedom with the ball, non-negotiable compactness without it; man-management as core (Sky Sports, Flashscore)."
+  },
+  {
+   "id": "zinedine-zidane",
+   "kind": "manager",
+   "reason": "Dressing-room unity, rotation and loyalty to stars; 'social competence' over tactics."
+  },
+  {
+   "id": "lionel-scaloni",
+   "kind": "manager",
+   "reason": "Group atmosphere first, system adapted to let Messi play his football (FIFA Coaches Forum)."
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A-C coverage of man-management and freedom; tactical and marking evidence thin, Scaloni mostly one FIFA source."
+ }
+}

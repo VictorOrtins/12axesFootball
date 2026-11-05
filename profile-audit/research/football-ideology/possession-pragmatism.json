@@ -1,0 +1,738 @@
+{
+ "id": "possession-pragmatism",
+ "catalog": "football-ideology",
+ "name": "Possession pragmatism (controlled possession)",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2008-07-15",
+  "end": "2022-05-22"
+ },
+ "scopeNote": "Possession used to control risk and the opponent's chances (the ball as a defensive tool, few shots faced, deliberate slowing), not possession as an end or as dominance by pressing. Two windows: Del Bosque's Spain (World Cup 2010, Euro 2012; start 2008-07-15 is the unverified date already in the Del Bosque manager file, end ~2012-07-01 Euro final) and Arteta's early Arsenal (appointed 2019-12-20 per TBS/FourFourTwo, window cut at the end of 2021-22, about 2022-05-22, approximate, not checked in a source). Sources that name it: Irish Times (Spain's game 'can be summed up in a word: control'; 'Tiki-taka always had a defensive facet'); Analytics FC and Opta Analyst for Arsenal ('calculated possession style'; 'rigid possession system straight out of the Guardiola playbook' then loosened). Distinct from tiki-taka and positional-play, which are about the technical/positional model itself: here the criterion is the purpose of possession (risk control, opponent denied the ball) and willingness to concede the ball or play deeper when needed (Xavi 2012: 'played 10-15 metres deeper'; Arteta 2020-21 loosening). Label is Cox-style analysts' and press framing, not a term the managers used. Window is long and discontinuous (2012-2019 gap) by design. No Spanish-language or Coaches' Voice / These Football Times page was readable: searches (b) marking and (e) PT/ES returned no usable primary page, so marking evidence is thin for Spain.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Ids: vicente-del-bosque (manager) and spain-2008-12 (team) exist in the catalog. Arteta has none: propose manager id 'mikel-arteta' and team id 'arsenal-2019-22' (not created).",
+  "Overlap with tiki-taka: Spain 2008-12 is also its core era. Keep this profile defined by risk control and conceding territory; confirm the distinction is acceptable.",
+  "Spain marking (zonal vs man): no source found; Arsenal's press is 'a mix of a zonal and man-oriented press' (Analytics FC, 2021/22 only).",
+  "Arteta end date of the window (2022-05-22) is approximate; spell is actually ongoing.",
+  "Del Bosque 'Possession without having depth' quote seen only in a search summary (attributed to Marca); no primary page.",
+  "Arteta quote about 'fast flowing, attacking football' (TBS) is a secondhand rewrite of an Arsenal.com interview; wording unconfirmed.",
+  "Contradiction on Arteta: Opta Analyst calls 2019/20 'overly rigid possession' while FourFourTwo (Mar 2021) says he abandoned Guardiola principles; Analytics FC says passing volume fell ~45 per match in 2021/22 with similar possession %. The 'control' label fits Spain more clearly than Arsenal after 2020."
+ ],
+ "sources": [
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Their game can be summed up in a word: control. Tiki-taka always had a defensive facet.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Opta statistics reveal 68.2 per cent of possession here, 65.2 per cent in 2010 and 56.6 per cent in 2008. The introduction of two deep midfielders, Xabi Alonso and Sergio Busquets, occupying the space once filled by Marcos Senna alone, is one reason.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Put simply, if Spain have the ball the opposition can’t score. And Spain almost always have the ball. That best explains why Spain have faced fewer shots than anyone, just 28.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Spain’s defensive control has become more pronounced.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06-23",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "“It was hot, we were tired and we played 10-15 metres deeper. If we didn’t play extraordinarily well, we did compete and were serious.”",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“We have,” said del Bosque, “based our efficiency on good defensive order. We’ve been very solid.”",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "If they do lose the ball, opponents are less equipped to take advantage too.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "The only team not to lose to them, the only team to score, were the only team that pushed high, attacked them and competed for possession. Italy.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Spain evolved their system during Euro 2012 (FourFourTwo, Michael Cox)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Del Bosque’s experimentation with a strikerless formation had been frustrating and underwhelming over the past year",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Spain evolved their system during Euro 2012 (FourFourTwo, Michael Cox)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-07-01",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Spain didn’t start the final with a natural striker, but neither were they playing 4-6-0.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Spain evolved their system during Euro 2012 (FourFourTwo, Michael Cox)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Throughout their victorious Euro 2012 campaign, the first ten names on Spain’s teamsheet were ever-present.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Spain evolved their system during Euro 2012 (FourFourTwo, Michael Cox)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06-14",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "As a result, Fabregas was dropped for Spain’s next game against the Republic of Ireland, with Fernando Torres starting up front.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How Spain evolved their system during Euro 2012 (FourFourTwo, Michael Cox)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-spain-evolved-their-system-during-euro-2012",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06-14",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Scoring two good goals in a decent all-round performance, the Chelsea striker was particularly impressive with his pressing high up the pitch, constantly forcing the Irish defenders into misplaced passes.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: Italy's back three plus Spain's false nine (FourFourTwo, Michael Cox)",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Spain looked significantly more threatening when they introduced players who offered width and depth: Jesus Navas and Fernando Torres.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: Italy's back three plus Spain's false nine (FourFourTwo, Michael Cox)",
+   "url": "https://fourfourtwo.com/features/analysis-italys-back-three-plus-spains-false-nine-equal-tactical-spectacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-12",
+   "eventDate": "2012-06-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "with he, Iniesta and Silva moving into a similar position, Spain concentrated their passing in a very small area of the pitch. Italy were relatively comfortable.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "The majority of Spain's tackles are made high up the pitch, suggesting a successful high pressing game.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "One substandard element of Spain's play is their ability to counter attack.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Spain don't really do long balls, except to spread the play to the wing",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "considering Spain's lack of height and counter-attacking speed makes them vulnerable to an onslaught at corners and free-kicks.",
+   "verified": true
+  },
+  {
+   "title": "Football: Spain won't change style despite critics (ODT)",
+   "url": "https://www.odt.co.nz/sport/football/football-spain-wont-change-style-despite-critics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-26",
+   "eventDate": "2012-06-26",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“So we look to play in our style, people don't like it but it is our style - people have to complain about something,” he said.",
+   "verified": true
+  },
+  {
+   "title": "Football: Spain won't change style despite critics (ODT)",
+   "url": "https://www.odt.co.nz/sport/football/football-spain-wont-change-style-despite-critics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-26",
+   "eventDate": "2012-06-26",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Iniesta suggested the lack of excitement was largely to do with the way opponents have clammed up against Spain.",
+   "verified": true
+  },
+  {
+   "title": "Spain coach rejects criticism over team's style (IndiaTV)",
+   "url": "https://www.indiatvnews.com/sports/soccer/spain-coach-rejects-criticism-over-team-s-style-2065.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-26",
+   "eventDate": "2012-06-26",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Spain coach Vicente del Bosque has defended his team's style of play at the European Championship, rejecting critics who say possession-based football is boring.",
+   "verified": true
+  },
+  {
+   "title": "Just rewards (When Saturday Comes)",
+   "url": "https://www.wsc.co.uk/the-archive/just-rewards",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-08-21",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Cajoling the lesser used members of his squad and remaining unflappable as criticism mounted after the 1-0 defeat to Switzerland, Del Bosque has emerged with even greater credit from the tournament than his feted players.",
+   "verified": true
+  },
+  {
+   "title": "Just rewards (When Saturday Comes)",
+   "url": "https://www.wsc.co.uk/the-archive/just-rewards",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-08-21",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "taking everyone by surprise by naming the relatively inexperienced Pedro for the semi-final with Germany",
+   "verified": true
+  },
+  {
+   "title": "Just rewards (When Saturday Comes)",
+   "url": "https://www.wsc.co.uk/the-archive/just-rewards",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-08-21",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "this is a markedly different generation, one capable of producing both entertaining and pragmatic football when the occasion demands.",
+   "verified": true
+  },
+  {
+   "title": "Del Bosque: My hardest decision (Football Espana)",
+   "url": "https://www.football-espana.net/2016/07/19/del-bosque-my-hardest-decision",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-07-19",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Vicente del Bosque rates leaving Marcos Senna out of the 2010 World Cup squad as his hardest decision as Spain Coach.",
+   "verified": true
+  },
+  {
+   "title": "Spain: The Champion of Possession Soccer (3four3)",
+   "url": "https://blog.3four3.com/2010/07/19/spain-the-champion-of-possession-soccer/",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2010-07-19",
+   "eventDate": "2010-07-11",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Spain NEVER changed their style. They did not go to some plan B,C, or D.",
+   "verified": false
+  },
+  {
+   "title": "Arsenal: How Arteta has adapted away from Guardiola's principles (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/arsenal-how-mikel-arteta-has-adapted-away-from-pep-guardiolas-principles",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Building patiently, shuffling up and down the pitch in uniform shape, Arteta appeared to be in control of a Manchester City-lite side. The pitch was split into zones, the players scuttled neatly into little triangles, and Arsenal games began to look like training matches: calm, ordered, dull.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal: How Arteta has adapted away from Guardiola's principles (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/arsenal-how-mikel-arteta-has-adapted-away-from-pep-guardiolas-principles",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-25",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "In 2020, too often the Gunners’ attempts to be graceful ended in sloppy passing. Too often attempts to gradually suffocate the opposition led to stagnant, sideways possession.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal: How Arteta has adapted away from Guardiola's principles (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/arsenal-how-mikel-arteta-has-adapted-away-from-pep-guardiolas-principles",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "The aim remains to pass out from the back, but its new purpose is to draw the opposition forward so that Arsenal can suddenly change the tempo and explode into life",
+   "verified": true
+  },
+  {
+   "title": "Arsenal: How Arteta has adapted away from Guardiola's principles (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/arsenal-how-mikel-arteta-has-adapted-away-from-pep-guardiolas-principles",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Suddenly, Arsenal’s first XI has none of the elegant City-types like Ilkay Gundogan or Phil Foden",
+   "verified": true
+  },
+  {
+   "title": "Arsenal: How Arteta has adapted away from Guardiola's principles (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/arsenal-how-mikel-arteta-has-adapted-away-from-pep-guardiolas-principles",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The emergence of Bukayo Saka and Emile Smith Rowe triggered this tactical shift, which Arteta has built upon with the loan signing of Martin Odegaard in January",
+   "verified": true
+  },
+  {
+   "title": "Arsenal: How Arteta has adapted away from Guardiola's principles (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/arsenal-how-mikel-arteta-has-adapted-away-from-pep-guardiolas-principles",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-25",
+   "eventDate": "2020-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "After a disastrous December, Arteta finally came to realise the system must fit the players, not the other way around.",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "After initially implementing an overly rigid possession system straight out of the Guardiola playbook, which led to some restrictive football but an FA Cup win nonetheless, throughout 2020-21 Arteta had to loosen the reins a bit to accommodate more directness and individualism.",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Only Brighton and Manchester City score lower on ‘direct’ speed than Arsenal’s 1.23 metres per second progressed upfield.",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "unlike Guardiola – who believes in recycling the ball to restore the perfected balance of his team shape before attacking – Arteta is more open to taking advantage of attacking transitions",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Arsenal pick their moments, rather than apply a Man City-style hard press – preferring to keep things in a compressed shape for long periods.",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "This solid defensive wall, with well-timed but occasional pressing triggers",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Arsenal’s ‘absolute width’ is the fourth lowest in the division at 24.6 metres, which is exceptionally narrow for a top team.",
+   "verified": true
+  },
+  {
+   "title": "Project Arteta (Opta Analyst)",
+   "url": "https://theanalyst.com/articles/project-arteta-how-arsenal-went-from-bottom-of-the-league-to-top-four-favourites",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "Thirteen clean sheets this season – their most in a league campaign since 2017-18 – and zero goals conceded from corners, is testament to the coaching.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: How They Played in Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/06/arsenal-2021-22-how-they-played-in-possession/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "The typical Arsenal set up is a 4-2-3-1. Arteta has always been reluctant to push up both fullbacks at the same time",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: How They Played in Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/06/arsenal-2021-22-how-they-played-in-possession/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-06",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Fielding the youngest squad in the Premier League, they went from 8th on the table with no European football to 5th",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: How They Played in Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/06/arsenal-2021-22-how-they-played-in-possession/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "they’re passing the ball around a lot less now. On average, they are attempting and completing roughly 45 passes fewer per match now, despite a similar possession percentage compared to last season.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: How They Played in Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/06/arsenal-2021-22-how-they-played-in-possession/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "The 20-year old has been incredible this past season, finishing with 2978 minutes played, 11 goals and seven assists from the right wing position.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: Out of Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/08/arsenal-2021-22-out-of-possession-and-some-other-things/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-08",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "they usually deploy a mix of a zonal and man-oriented press. The emphasis is on staying compact and moving cohesively through the different phases of the press.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: Out of Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/08/arsenal-2021-22-out-of-possession-and-some-other-things/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-08",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "In a mid-block, Arsenal usually defend in a 4-4-2 or a 4-3-3.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: Out of Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/08/arsenal-2021-22-out-of-possession-and-some-other-things/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-08",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "they’ve managed to balance caution and enterprise well, when it comes to pressing.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal 2021/22: Out of Possession (Analytics FC)",
+   "url": "https://analyticsfc.co.uk/blog/2022/08/08/arsenal-2021-22-out-of-possession-and-some-other-things/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-08-08",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "They send both of their centre backs up during corners to maximise scoring chances.",
+   "verified": true
+  },
+  {
+   "title": "Mikel Arteta vows to help Arsenal regain their identity (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/english-soccer/mikel-arteta-vows-to-help-arsenal-regain-their-identity-1.4121680",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-12-21",
+   "eventDate": "2019-12-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "“I want to do things my way but by convincing them that’s it’s the right way for everybody to live better.",
+   "verified": true
+  },
+  {
+   "title": "Mikel Arteta vows to help Arsenal regain their identity (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/english-soccer/mikel-arteta-vows-to-help-arsenal-regain-their-identity-1.4121680",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-12-21",
+   "eventDate": "2019-12-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "“It is first of all about how they live and some respect issues that have to be addressed but, when that happens, if they want to follow that, they are in. If not, they are out.”",
+   "verified": true
+  },
+  {
+   "title": "Arsenal appoint Arteta as head coach (TBS News)",
+   "url": "https://www.tbsnews.net/node/31071",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-12-20",
+   "eventDate": "2019-12-20",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "the current squad has plenty of talent and there is a great pipeline of young players coming through from the academy.",
+   "verified": true
+  },
+  {
+   "title": "Mikel Arteta's priorities after taking over (FourFourTwo/PA)",
+   "url": "https://www.fourfourtwo.com/news/mikel-artetas-priorities-after-taking-over-arsenal-head-coach",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-12-20",
+   "eventDate": "2019",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "The likes of Joe Willock, Reiss Nelson, Emile Smith Rowe and more recently Bukayo Saka have had valuable minutes over the last 12 months but none have secured regular starting positions.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Possession without having depth doesn't have any point",
+   "date": "2012",
+   "source": "Del Bosque to Marca, as relayed in a search summary only (page not mined)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We play against very deep teams and we can’t change that. What we have to do is find a way to attack them, hurt them. But that has its good side too: they attack us less.",
+   "date": "2012-06",
+   "source": "Irish Times 2012-06-27 (pre-tournament, Del Bosque)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We have based our efficiency on good defensive order. We’ve been very solid.",
+   "date": "2012-06",
+   "source": "Irish Times 2012-06-27",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We don't want to stagnate, we want to go forward but winning two trophies has been proof of our qualities. So we look to play in our style, people don't like it but it is our style",
+   "date": "2012-06-26",
+   "source": "ODT/AP 2012-06-26",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I want to do things my way but by convincing them that’s it’s the right way for everybody to live better.",
+   "date": "2019-12-20",
+   "source": "Arteta presentation, Irish Times 2019-12-21",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "My first task will be to get to know the players better and get them playing the kind of fast flowing, attacking football that Arsenal supporters around the world want to see.",
+   "date": "2019-12-20",
+   "source": "TBS News 2019-12-20 (paraphrasing Arsenal.com interview; wording unconfirmed)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.football-espana.net/25078/spain%E2%80%99s-obsession-possession",
+   "reason": "404"
+  },
+  {
+   "url": "https://themastermindsite.com/2020/11/10/mikel-arteta-arsenal-tactical-analysis/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.pressreader.com/uk/daily-mirror/20200928/282621740158705",
+   "reason": "empty"
+  },
+  {
+   "url": "https://gunnerstown.com/arsenal/2021/12/22/a-deeper-dive-into-mikel-artetas-form-of-positional-play-positions-systems-and-methodology",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Luis Aragones (Spain 2008)",
+  "Pep Guardiola (positional play, Arteta's mentor)",
+  "Johan Cruyff / Barcelona school"
+ ],
+ "exemplars": [
+  {
+   "id": "vicente-del-bosque",
+   "kind": "manager",
+   "reason": "Spain 2010-12 used possession as defence: 65-68% possession, fewest shots faced, two holding midfielders, deeper blocks when needed"
+  },
+  {
+   "id": "spain-2008-12",
+   "kind": "team",
+   "reason": "Team era of the above; clean sheets and control more than attacking volume"
+  },
+  {
+   "id": "mikel-arteta",
+   "kind": "manager",
+   "reason": "PROPOSED id. Early Arsenal 2019-22: Guardiola-style controlled possession, loosened in 2020-21 for verticality"
+  },
+  {
+   "id": "arsenal-2019-22",
+   "kind": "team",
+   "reason": "PROPOSED id. Early Arteta Arsenal, calculated build-up, low direct speed, compact block"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Spain 2012 is well covered by Cox (tier B) and an Irish Times piece that names the idea; Arsenal by Opta Analyst and Analytics FC; but marking, set-pieces for Spain and 2019/20 specifics are thin, 2010 sources are mostly press, and the two exemplars barely overlap in time."
+ }
+}

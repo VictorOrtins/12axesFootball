@@ -1,0 +1,409 @@
+{
+ "id": "vanderlei-luxemburgo",
+ "catalog": "manager",
+ "name": "Vanderlei Luxemburgo",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1993-01-01",
+  "end": "2004-12-30"
+ },
+ "scopeNote": "Counted spells: Palmeiras 1993-94, Corinthians 1998, Cruzeiro 2002-04 (2003 treble), Santos 2004 (second spell). Palmeiras start/end and Corinthians start are NOT dated by any mined source: 1993-01-01, 1994-12-31 and 1998-01-01 are placeholders (year only known; see openQuestions). The Santos 2004 end (2004-12-30) is the Folha date of the Real Madrid announcement, not a confirmed departure date. Style terms used by sources: 4-4-2 with a diamond midfield ('losango'), zonal marking with a back four (Palmeiras 1993). The popular 'Wanderley' spelling is the name he used until 2004 (UOL 16 Dec 2004 'Mudanca de nome').",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact start and end dates of the Palmeiras spell (1993, 1994) and the start of the Corinthians spell (1998) not found in any mined page; placeholders used. Not set from memory as facts.",
+  "Santos 2004 end date: the mined pages only give start (announced 8 May 2004 per pt.wikipedia and en.wikipedia; Gazeta SP says 'assumiu o time em maio'). End placeholder 2004-12-30 is the Folha de S.Paulo citation date for Real Madrid's announcement.",
+  "Corinthians 1998 shape disagrees: Bahia Noticias column (2010) says losango with Rincon centre-back-of-midfield, Vampeta right, Ricardinho left, Marcelinho behind strikers; Meu Timao fan column (2018) says Gilmar Fuba first volante, Vampeta second volante, Rincon as central meia, Marcelinho and Edilson floating, and that the Vampeta-Rincon-Marcelinho-Ricardinho quartet barely played together in 1998. Both are retrospective.",
+  "Luxemburgo coached Corinthians through the 1998 Brasileirao final (23 Dec 1998) while also being Brazil coach-elect (Wikipedia: Brazil appointment 10 Aug 1998; Trivela: confirmed in September). Overlap not resolved.",
+  "No source found on pressing for any counted spell, and no tier A tactical study (Coaches' Voice, These Football Times and Trivela site searches returned no relevant page). Evidence is Brazilian press and columns (tier B/C).",
+  "Excluded spells justification: Brazil 1998-2000 (Copa America 1999 win, Confederations Cup runner-up) not researched for tactics within budget and mixed with Corinthians overlap; Real Madrid 2005 (sacked 5 Dec 2005, 'Magic Rectangle' 4-2-2-2) failed and thinly covered; Palmeiras 2008 and 2020, Bragantino 1990 and all other spells did not meet the 'known for' test or fall outside the budget.",
+  "Palmeiras 2008/2009, Palmeiras 2020, Bragantino 1990 and other spells were not dated or researched (excluded without a spellsExcluded entry because no dates were verified)."
+ ],
+ "spellsCounted": [
+  {
+   "club": "Palmeiras",
+   "start": "1993-01-01",
+   "end": "1994-12-31",
+   "reason": "Two Brasileirao titles (1993, 1994), Paulista 1993-94, Rio-Sao Paulo 1993 (pt.wikipedia); zonal marking and diamond midfield documented. Dates are placeholders, see openQuestions."
+  },
+  {
+   "club": "Corinthians",
+   "start": "1998-01-01",
+   "end": "1998-12-23",
+   "reason": "1998 Brasileirao title; end = date of the title-deciding final (Trivela). Start is a placeholder."
+  },
+  {
+   "club": "Cruzeiro",
+   "start": "2002-08-13",
+   "end": "2004-02-27",
+   "reason": "2003 treble (Mineiro, Copa do Brasil, Brasileirao); start = five days before 18 Aug 2002 debut (en.wikipedia); end = dismissal 27 Feb 2004."
+  },
+  {
+   "club": "Santos",
+   "start": "2004-05-08",
+   "end": "2004-12-30",
+   "reason": "2004 Brasileirao title; start = official announcement date (en/pt.wikipedia); end is a placeholder, see openQuestions."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Brazil national team",
+   "start": "1998-08-10",
+   "end": "2000-10-01",
+   "reason": "Won 1999 Copa America but tactics not researched; national-team context; dates from en.wikipedia."
+  },
+  {
+   "club": "Real Madrid",
+   "start": "2005-01-05",
+   "end": "2005-12-05",
+   "reason": "Short, unsuccessful; only a Wikipedia line on a 4-2-2-2 'Magic Rectangle'."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sistema de jogo de Luxemburgo em 1993 ja foi alvo de estudo de Jorge Jesus",
+   "url": "https://www.netvasco.com.br/n/240514/sistema-de-jogo-de-luxemburgo-em-1993-ja-foi-alvo-de-estudo-de-jorge-jesus-tecnico-do-urubu",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-11-13",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Vanderlei Luxemburgo preferia linha de quatro na defesa, marcação por zona, balanço defensivo dependendo do lado do ataque do adversário e velocidade de Edmundo e Edílson para os ataques.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Sistema de jogo de Luxemburgo em 1993 (shape)",
+   "url": "https://www.netvasco.com.br/n/240514/sistema-de-jogo-de-luxemburgo-em-1993-ja-foi-alvo-de-estudo-de-jorge-jesus-tecnico-do-urubu",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-11-13",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Havia um losango no meio-de-campo, em que Mazinho funcionava como pêndulo e iniciava as principais jogadas de ataque.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Sistema de jogo de Luxemburgo em 1993 (build-up)",
+   "url": "https://www.netvasco.com.br/n/240514/sistema-de-jogo-de-luxemburgo-em-1993-ja-foi-alvo-de-estudo-de-jorge-jesus-tecnico-do-urubu",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-11-13",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Evair fazia o pivô e, no Brasileiro, disputado no segundo semestre de 1993, invertia a posição com Edílson para ser o ele o articulador.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Sistema de jogo de Luxemburgo em 1993 (possession)",
+   "url": "https://www.netvasco.com.br/n/240514/sistema-de-jogo-de-luxemburgo-em-1993-ja-foi-alvo-de-estudo-de-jorge-jesus-tecnico-do-urubu",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-11-13",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "O Palmeiras de 1993 não era rápido como o Flamengo de Jorge Jesus, mas cadenciava e se impunha aos rivais com a bola no pé.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Sistema de jogo de Luxemburgo em 1993 (transitions)",
+   "url": "https://www.netvasco.com.br/n/240514/sistema-de-jogo-de-luxemburgo-em-1993-ja-foi-alvo-de-estudo-de-jorge-jesus-tecnico-do-urubu",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-11-13",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "velocidade de Edmundo e Edílson para os ataques",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Sistema de jogo de Luxemburgo em 1993 (width)",
+   "url": "https://www.netvasco.com.br/n/240514/sistema-de-jogo-de-luxemburgo-em-1993-ja-foi-alvo-de-estudo-de-jorge-jesus-tecnico-do-urubu",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2019-11-13",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Edmundo e Edílson funcionavam como flechas.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "LOSANGO - Bahia Noticias",
+   "url": "https://www.bahianoticias.com.br/esportes/coluna/37-losango",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2010-10-13",
+   "eventDate": "1998",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "lembro desse esquema tático chamado de losango sendo lançado por Wanderlei Luxemburgo no final da década de 1990, no Corinthians e na Seleção Brasileira (...) o egocêntrico treinador escalava o time paulista com Rincón (centro na cabeça de área), Vampeta (pela direita), Ricardinho (pela esquerda) e Marcelinho Carioca (centro encostando-se aos atacantes). (...) Sempre com dois atacantes à frente.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Precisamos falar sobre o Corinthians campeao brasileiro de 1998 (Meu Timao)",
+   "url": "https://www.meutimao.com.br/coluna/memoria_fiel/1109/precisamos-falar-sobre-o-corinthians-campeao-brasileiro-de-1998/",
+   "tier": "D",
+   "language": "pt",
+   "articleDate": "2018-10-14",
+   "eventDate": "1998",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "O técnico Luxemburgo, então , usou como time base de 1998 uma escalação que tinha Gilmar Fubá como primeiro volante titular, com Vampeta de segundo-volante, e Rincón jogando mais como um meia centralizado.",
+   "verified": false,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Corinthians 1998 (Trivela 2018) - formation work",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-20-anos-tudo-estava-bem-por-acabar-bem-no-corinthians-com-o-titulo-brasileiro/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-23",
+   "eventDate": "1998",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "com Luxemburgo ainda tateando à procura da melhor formação, o time chegou invicto à decisão do título",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Corinthians 1998 (Trivela 2018) - Vampeta position",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-20-anos-tudo-estava-bem-por-acabar-bem-no-corinthians-com-o-titulo-brasileiro/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-23",
+   "eventDate": "1998",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Vampeta enfim engrenou, após pedir a Luxemburgo que parasse com as experiências na lateral direita (foi assim que o técnico pedira sua contratação, ao ver seus jogos derradeiros no PSV), enquanto Rincón ainda tinha fôlego para ser o homem-surpresa no ataque",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Vanderlei Luxemburgo - Wikipedia (pt) positions",
+   "url": "https://pt.wikipedia.org/wiki/Vanderlei_Luxemburgo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2005-02-06",
+   "eventDate": "1998",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "A troca de posição de jogadores também é uma marca de sua carreira. Quando comandou o Corinthians, no final da década de 90, Luxemburgo transformou o colombiano Freddy Rincón, que era meio-campista, em volante.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Corinthians 1998 (Trivela 2018) - squad",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-20-anos-tudo-estava-bem-por-acabar-bem-no-corinthians-com-o-titulo-brasileiro/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-23",
+   "eventDate": "1998",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Aí, Luxemburgo decidiu colocar um jogador que, até ali, era completo coadjuvante na campanha, a quarta opção corintiana de ataque. (...) Jogou pouco na fase de classificação (11 partidas), apareceu mais no mata-mata (entrou em todas as partidas).",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Corinthians 1998 (Trivela 2018) - substitutions",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-20-anos-tudo-estava-bem-por-acabar-bem-no-corinthians-com-o-titulo-brasileiro/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-23",
+   "eventDate": "1998-12-20",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Luxemburgo (suspenso, dirigia o time das tribunas, em contato com o então auxiliar Oswaldo de Oliveira) decidiu apostar no que dera certo em Belo Horizonte: trocou Didi por Dinei.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Corinthians 1998 (Trivela 2018) - Marcelinho conflict",
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-20-anos-tudo-estava-bem-por-acabar-bem-no-corinthians-com-o-titulo-brasileiro/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-23",
+   "eventDate": "1998-10-24",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "explodiu uma discussão havia muito tempo represada entre Marcelinho – seguramente um dos maiores destaques daquela campanha – e Luxemburgo. Este começou, durante o almoço dos jogadores, a falar alto, apregoando: “Você tem de entender que eu sou o comandante e você é meu comandado!” E o mesmo Luxemburgo terminou definindo aos brados, quando Marcelinho já subia para o quarto: “E você está fora do jogo!”. (...) Marcelinho foi reintegrado ao grupo",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Cruzeiro 2003 (Trivela 2014) - Alex as centre",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Foi uma aposta pessoal do técnico Vanderlei Luxemburgo, sendo que o meia teve uma passagem ruim pelo time em 2001. Luxemburgo armou o time ao redor de Alex para tirar o melhor dele.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Cruzeiro 2003 (Trivela 2014) - squad usage",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Zinho, por exemplo, era um veterano na época, com 36 anos. Foi reserva, mas importante em vários momentos como substituto (...) Maurinho, bom lateral que veio do Santos, teve seu último grande ano, já que em 2004 perdeu a posição para Maicon, que já tinha entrado bem no time para substituir o próprio Maurinho várias vezes em 2003.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Cruzeiro 2003 (Trivela 2014) - squad build-up of rotations",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Ela mais vingou em 2003 foi o atacante Mota. Ele chegou por empréstimo do Ceará em janeiro daquele ano e acabou sendo o principal substituto de Deivid, vendido no meio da temporada para o Bordeaux",
+   "verified": false,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Luxemburgo conta como bancou Alex (Band)",
+   "url": "https://www.band.com.br/esportes/band-esporte-clube/noticias/luxemburgo-conta-como-bancou-alex-no-cruzeiro-campeao-de-2003-202510241651",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-10-24",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "o então presidente Zezé Perrella era contra a chegada do meia, que vinha de uma temporada ruim. O técnico, porém, insistiu e assumiu a responsabilidade pela aposta.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Alex considera Cruzeiro de 2003 o melhor trabalho (Itatiaia)",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/alex-considera-cruzeiro-de-2003-o-melhor-trabalho-da-carreira-de-luxemburgo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-12-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Foi um Cruzeiro que foi muito inteligente com o Maluf e muito bem conduzido pelo Vanderlei e ia nos pontos certinhos para buscar jogadores que entenderiam aquilo que estava sendo feito e, com a qualidade deles, colocasse a favor do grupo",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Santos em 2004 (Gazeta SP)",
+   "url": "https://www.gazetasp.com.br/gazeta-mais/santos-em-2004-relembre-o-ultimo-titulo-de-brasileirao-do-peixe/1135992/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-06",
+   "eventDate": "2004",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Porém, após Luxemburgo ajustar um novo sistema de jogo, o time embalou uma ótima sequência e passou a subir na tabela.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Santos em 2004 (Gazeta SP) - title-day line-up",
+   "url": "https://www.gazetasp.com.br/gazeta-mais/santos-em-2004-relembre-o-ultimo-titulo-de-brasileirao-do-peixe/1135992/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-06",
+   "eventDate": "2004",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "o Santos foi a campo com: Mauro, Flávio, Ávalos, Leonardo e Léo; Fabinho, Preto Casagrande, Ricardinho e Elano (Marcinho); Robinho (Basílio) e Deivid (Willian). Técnico: Vanderlei Luxemburgo.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Santos em 2004 (Gazeta SP) - takeover",
+   "url": "https://www.gazetasp.com.br/gazeta-mais/santos-em-2004-relembre-o-ultimo-titulo-de-brasileirao-do-peixe/1135992/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-04-06",
+   "eventDate": "2004",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Os “Meninos da Vila” brilharam mais uma vez e encantaram o Brasil com grandes jogadas e muitos gols.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Luxemburgo elogia estilo de Diniz (Netflu)",
+   "url": "https://www.netflu.com.br/luxemburgo-elogia-estilo-de-diniz-mas-opina-as-vezes-tem-que-dar-a-p-do-chutao/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-03-14",
+   "eventDate": "2023-03",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Tem de montar um time de acordo com o que o jogador pode apresentar. Ele já perdeu jogos importantes porque cisma que o time tem de sair jogando mesmo sem espaço. Tem hora que a porra do chutão pertence ao jogo de futebol.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Tem de montar um time de acordo com o que o jogador pode apresentar. Ele já perdeu jogos importantes porque cisma que o time tem de sair jogando mesmo sem espaço. Tem hora que a porra do chutão pertence ao jogo de futebol.",
+   "date": "2023-03-14",
+   "source": "https://www.netflu.com.br/luxemburgo-elogia-estilo-de-diniz-mas-opina-as-vezes-tem-que-dar-a-p-do-chutao/ (Denilson Show podcast, reported by Netflu)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Eu sou o treinador, eles não são. Quero saber se você quer vir (...) Tá bom, contrata o Alex. Se ele não jogar, desconta o salário dele e o meu também",
+   "date": "2025-10-24",
+   "source": "https://www.band.com.br/esportes/band-esporte-clube/noticias/luxemburgo-conta-como-bancou-alex-no-cruzeiro-campeao-de-2003-202510241651 (Band Esporte Clube interview, about 2003)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Foi um time montado para ganhar. Tinha qualidade, elenco e personalidade. Um dos mais fortes que eu dirigi",
+   "date": "2025-10-24",
+   "source": "https://www.band.com.br/esportes/band-esporte-clube/noticias/luxemburgo-diz-que-briga-entre-pele-e-ricardo-teixeira-influenciou-sua-saida-do-santos-202510241639 (Band Esporte Clube interview, about Corinthians 1998)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Você tem de entender que eu sou o comandante e você é meu comandado!",
+   "date": "1998-10-24",
+   "source": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-20-anos-tudo-estava-bem-por-acabar-bem-no-corinthians-com-o-titulo-brasileiro/ (Trivela 2018 retelling of dining-hall outburst to Marcelinho Carioca)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.lance.com.br/palmeiras/luxa-lembra-carimbo-qualidade-entrada-bolo-sao-paulo.html",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.lance.com.br/corinthians/ultrapassado-saiba-como-o-corinthians-deve-jogar-com-vanderlei-luxemburgo.html",
+   "reason": "404"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [
+   "pressing",
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Palmeiras 1993-94, Corinthians 1998 and Santos 2004 rest on retrospective Brazilian press and columns (tier B/C), no tier A study found; several spell dates are placeholders; stated-view quotes are mostly from 2023-25 interviews about earlier work; pressing absent."
+ }
+}

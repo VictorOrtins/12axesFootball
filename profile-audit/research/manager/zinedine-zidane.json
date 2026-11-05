@@ -1,0 +1,948 @@
+{
+ "id": "zinedine-zidane",
+ "catalog": "manager",
+ "name": "Zinedine Zidane",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2016-01-04",
+  "end": "2021-05-27"
+ },
+ "scopeNote": "Real Madrid first-team spells 2016-18 (three Champions Leagues) and 2019-21 (La Liga 2020). Style terms used by sources: 4-3-3 with the BBC, then a 'four-diamond-two' (Coaches' Voice) / 4-3-1-2 (The Ringer) with Isco as number 10 in 2017/18; Kroos-Modric-Casemiro midfield; a flexible, man-management-led approach rather than a pressing identity. Several sources (The Ringer, Gulf News) frame him as a manager of egos more than a tactician, which is partly contested by Coaches' Voice and Spielverlagerung match studies (e.g. man-marking scheme in the Dec 2017 Clasico). Exact day-level dates of the spells come from general knowledge, not from a mined page (first match 2016-01-09 is confirmed by the Spielverlagerung digest). No set-piece source found. France (appointed 2026-07-28 per Al Jazeera) is excluded as context; the brief said the appointment was in November 2026 but the source dates it 28 July 2026, with the first matches in September-October 2026. Assistant-year dates (2013-06 to 2014-06) are partial because the day is not sourced.",
+ "spellsCounted": [
+  {
+   "club": "Real Madrid",
+   "start": "2016-01-04",
+   "end": "2018-05-31",
+   "reason": "Three consecutive Champions Leagues plus La Liga 2016/17; Coaches' Voice, Spielverlagerung and The Ringer coverage"
+  },
+  {
+   "club": "Real Madrid",
+   "start": "2019-03-11",
+   "end": "2021-05-27",
+   "reason": "La Liga 2019/20; Coaches' Voice match analysis and Coach Watch; best defensive record in Spain"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Real Madrid Castilla",
+   "start": "2014-06-25",
+   "end": "2016-01-03",
+   "reason": "Reserve team (third tier); no tactical coverage found; context"
+  },
+  {
+   "club": "Real Madrid (assistant to Ancelotti)",
+   "start": "2013-06",
+   "end": "2014-06",
+   "reason": "Assistant, not manager; context"
+  },
+  {
+   "club": "France national team",
+   "start": "2026-07-28",
+   "end": "ongoing",
+   "reason": "Appointed 2026-07-28 per Al Jazeera on a four-year contract; only a handful of matches (first games September-October 2026), no tactical coverage yet; context"
+  }
+ ],
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact day dates of the Real Madrid spells (2016-01-04 appointment, 2018-05-31 resignation, 2019-03-11 return, 2021-05-27 departure) are from general knowledge and not verified in a mined page.",
+  "Formation label disagreement: 4-3-1-2 (The Ringer), 'four-diamond-two' (Coaches' Voice), 4-4-2 diamond (blogs).",
+  "Pressing identity: Coaches' Voice says Real pressed 'intensely and as often' in a unit of five; therealchamps says low block with simple counter-pressing; WFI 2018 says counter-pressing collapsed in 2017/18. Sources disagree on its extent.",
+  "The Ringer says Zidane 'has not even acknowledged the question' of opponents abandoning man-marking, contradicting the Coaches' Voice/Spielverlagerung picture of in-game adjustment; the Dec 2017 Clasico shows an adjustment that backfired.",
+  "Some quotes on freedom given to players and the 'Juanito spirit' come from fan or blog sources (therealchamps); the Ronaldo quote on empathy dates from January 2016 and compares Zidane with Benitez.",
+  "Excluded France spell: the brief said the date is November 2026; Al Jazeera dates the appointment 28 July 2026 (first matches September-October 2026). France 2026 not assessed tactically.",
+  "Set-pieces: no source found. therealchamps.com is a fan site and is labelled tier C although it may be nearer D."
+ ],
+ "sources": [
+  {
+   "title": "Zidane commits crucial mistake, suffers defeat in El Clasico Christmas clash",
+   "url": "https://spielverlagerung.com/2017/12/24/zidane-commits-crucial-mistake-suffers-defeat-in-el-clasico-christmas-clash/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-24",
+   "eventDate": "2017-12-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Madrid applied a clear-cut man-marking scheme in their first phase of pressing: Benzema and Ronaldo vs the centre-backs, Kovačić vs Busquets, both no. 8s vs Iniesta and Ivan Rakitić, Casemiro vs Messi, Marcelo vs Roberto, and Varane vs Suárez.",
+   "verified": true
+  },
+  {
+   "title": "Zidane commits crucial mistake, suffers defeat in El Clasico Christmas clash",
+   "url": "https://spielverlagerung.com/2017/12/24/zidane-commits-crucial-mistake-suffers-defeat-in-el-clasico-christmas-clash/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-24",
+   "eventDate": "2017-12-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Zidane demoted Kovačić to being Messi’s shadow as part of a strict man-marking scheme which gave Barça the freedom they needed.",
+   "verified": true
+  },
+  {
+   "title": "Zidane commits crucial mistake, suffers defeat in El Clasico Christmas clash",
+   "url": "https://spielverlagerung.com/2017/12/24/zidane-commits-crucial-mistake-suffers-defeat-in-el-clasico-christmas-clash/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-24",
+   "eventDate": "2017-12-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Afterwards, Zidane brought in Nacho Fernández for Benzema to fill up his back line which was met with whistles in the Bernabéu. Later he replaced Casemiro and Kovačić with Marco Asensio and Gareth Bale to employ a 4-2-3 formation.",
+   "verified": true
+  },
+  {
+   "title": "Zidane commits crucial mistake, suffers defeat in El Clasico Christmas clash",
+   "url": "https://spielverlagerung.com/2017/12/24/zidane-commits-crucial-mistake-suffers-defeat-in-el-clasico-christmas-clash/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-24",
+   "eventDate": "2017-12-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "which in return gave Madrid the possibility to accelerate in transition attacks and use Ronaldo almost to his full potential.",
+   "verified": true
+  },
+  {
+   "title": "Zidane commits crucial mistake, suffers defeat in El Clasico Christmas clash",
+   "url": "https://spielverlagerung.com/2017/12/24/zidane-commits-crucial-mistake-suffers-defeat-in-el-clasico-christmas-clash/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-12-24",
+   "eventDate": "2017-12-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Zidane’s players comfortably advanced through the wings, but then struggled to do anything with their ball possession high up the field",
+   "verified": true
+  },
+  {
+   "title": "Breaking down Zizou’s start",
+   "url": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-10",
+   "eventDate": "2016-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "At his first press conference, Zidane rudimentarily explained his preferred elements. Focusing on an attractive attacking style, he said “possession” and “speed” are the firm ground he intends to build a team on.",
+   "verified": true
+  },
+  {
+   "title": "Breaking down Zizou’s start",
+   "url": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-10",
+   "eventDate": "2016-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Real Madrid usually used a back three, when in possession, with Pepe moving towards the right half-space.",
+   "verified": true
+  },
+  {
+   "title": "Breaking down Zizou’s start",
+   "url": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-10",
+   "eventDate": "2016-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "as all central midfielders attacked Depor’s build-up plays aggressively, intensity was not a problem. Instead, the question is how to use intense pressing in all thirds of the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Breaking down Zizou’s start",
+   "url": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-10",
+   "eventDate": "2016-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Spreading out the wingers, Gareth Bale and Dani Carvajal in particular received many cross-field passes.",
+   "verified": true
+  },
+  {
+   "title": "Breaking down Zizou’s start",
+   "url": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-10",
+   "eventDate": "2016-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "“Zidane has brought a change of spirit in the team. I was doing my work independently from the coach [under Benitez]. I had no problem although we have more empathy with Zizou.”",
+   "verified": true
+  },
+  {
+   "title": "Breaking down Zizou’s start",
+   "url": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-10",
+   "eventDate": "2016-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Zidane saw his team being almost neutralised by an aggressively defending Real Betis side that pressed with intensity in the first half.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Man-management has always been one of (if not the) most important tasks for any Madrid coach.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Kroos has the tendency to drop back into the left half-space (the zone between left back Marcelo and defensive midfielder Casemiro) if he does not feel comfortable with what he sees in front of him.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "his attempt to implement Isco as a no. 10 and switch from the 4-3-3 to the 4-3-1-2, with the Spaniard roaming behind Ronaldo and Bale, did not turn things around.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "And a weak structure in possession causes a weak structure in defensive transition.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "it is unlikely Zidane will try to outsmart his opponent and solve the issues through tactics. Instead, he will try to light a fire under his superstars once again.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Integrating Casemiro into the midfield slot between Kroos and Modric was one of Zidane’s most important tactical changes.",
+   "verified": true
+  },
+  {
+   "title": "Why Having the Best Players in the World Hasn’t Been Enough for Real Madrid",
+   "url": "https://www.theringer.com/2018/02/13/soccer/champions-league-real-madrid-zinedine-zidane-crisis-psg",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-02-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The vast majority of opponents played man-to-man, and Madrid’s men are almost always better than any other club’s.",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down the Adjustments Real Madrid Have Made Under Zinedine Zidane",
+   "url": "https://bleacherreport.com/articles/2628219-breaking-down-the-adjustments-real-madrid-have-made-under-zinedine-zidane",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-29",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Upon replacing Benitez, Zidane's first move was to abandon his predecessor's plan to reshape Madrid's attack and return to what he knew from his time spent as assistant to Carlo Ancelotti: the \"BBC\" leading a 4-3-3",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down the Adjustments Real Madrid Have Made Under Zinedine Zidane",
+   "url": "https://bleacherreport.com/articles/2628219-breaking-down-the-adjustments-real-madrid-have-made-under-zinedine-zidane",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-29",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Recognising his team's vulnerabilities, Zidane has started Casemiro in the anchor role in all five games since the Madrid derby.",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down the Adjustments Real Madrid Have Made Under Zinedine Zidane",
+   "url": "https://bleacherreport.com/articles/2628219-breaking-down-the-adjustments-real-madrid-have-made-under-zinedine-zidane",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-29",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "In using fewer playmakers and incorporating a greater number of direct and athletic options, Zidane right now looks to be taking Madrid away from the method of possession dominance that he initially reinstated upon taking the job.",
+   "verified": true
+  },
+  {
+   "title": "Breaking Down the Adjustments Real Madrid Have Made Under Zinedine Zidane",
+   "url": "https://bleacherreport.com/articles/2628219-breaking-down-the-adjustments-real-madrid-have-made-under-zinedine-zidane",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-03-29",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "A week earlier, Malaga's intense pressing had got the better of Madrid's midfield",
+   "verified": true
+  },
+  {
+   "title": "The Tactics Which Saw Real Madrid Win The Champions League Three Years In A Row",
+   "url": "https://worldfootballindex.com/2020/04/real-madrid-tactics-win-the-champions-league-three-years-in-a-row-zidane/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-13",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "The flanks were Madrid’s primary focus, and crossing was their main threat, with Cristiano Ronaldo and Karim Benzema both strong in the air and around the box.",
+   "verified": true
+  },
+  {
+   "title": "The Tactics Which Saw Real Madrid Win The Champions League Three Years In A Row",
+   "url": "https://worldfootballindex.com/2020/04/real-madrid-tactics-win-the-champions-league-three-years-in-a-row-zidane/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-13",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "While in transition their shape looked something like 2-4-4, with either fullback operating in the attacking and midfield space.",
+   "verified": true
+  },
+  {
+   "title": "The Tactics Which Saw Real Madrid Win The Champions League Three Years In A Row",
+   "url": "https://worldfootballindex.com/2020/04/real-madrid-tactics-win-the-champions-league-three-years-in-a-row-zidane/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-13",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Madrid had the same midfield of Casemiro, Toni Kroos and Luka Modric throughout all three winning years.",
+   "verified": true
+  },
+  {
+   "title": "The Tactics Which Saw Real Madrid Win The Champions League Three Years In A Row",
+   "url": "https://worldfootballindex.com/2020/04/real-madrid-tactics-win-the-champions-league-three-years-in-a-row-zidane/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-13",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Kroos will often be the deepest.",
+   "verified": true
+  },
+  {
+   "title": "The Tactics Which Saw Real Madrid Win The Champions League Three Years In A Row",
+   "url": "https://worldfootballindex.com/2020/04/real-madrid-tactics-win-the-champions-league-three-years-in-a-row-zidane/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-13",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The starting XI in the final in 2017 and 2018 was the same.",
+   "verified": true
+  },
+  {
+   "title": "'I know when to shut up' - Zidane explains key to Real Madrid role",
+   "url": "https://fourfourtwo.com/news/i-know-when-shut-zidane-explains-key-real-madrid-role",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-02-23",
+   "eventDate": "2016-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Zinedine Zidane believes knowing when to stay silent is the key to getting the best out of his Real Madrid players.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane Reveals Secrets to Managing Real Madrid",
+   "url": "https://www.si.com/soccer/zinedine-zidane-secrets-managing-real-madrid-xabi-alonso",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-16",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "I met with the four captains and told them what I expected from them and would see if they were committed. When they agreed to work, that was it; joy arrived.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane Reveals Secrets to Managing Real Madrid",
+   "url": "https://www.si.com/soccer/zinedine-zidane-secrets-managing-real-madrid-xabi-alonso",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-16",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The Frenchman appointed the infamous fitness specialist Antonio Pintus during his first spell",
+   "verified": true
+  },
+  {
+   "title": "Zidane: Ronaldo, Bale, and Benzema aren't 'untouchable' | theScore",
+   "url": "https://thescore.com/liga/news/1162728",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-22",
+   "eventDate": "2016-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "\"They'll get more playing time than the rest of the squad, but the others will also get their share of minutes.",
+   "verified": true
+  },
+  {
+   "title": "Zidane: Ronaldo, Bale, and Benzema aren't 'untouchable' | theScore",
+   "url": "https://thescore.com/liga/news/1162728",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-22",
+   "eventDate": "2016-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Zidane switched to a 4-4-2 formation that saw Isco star in a 3-0 win against rival Atletico Madrid.",
+   "verified": true
+  },
+  {
+   "title": "Madrid rotation policy not unjust - Zidane",
+   "url": "https://fourfourtwo.com/news/madrid-rotation-policy-not-unjust-zidane",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-04-28",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "\"At other clubs, for example, the reserves do not play a minute except in emergencies.",
+   "verified": true
+  },
+  {
+   "title": "Madrid rotation policy not unjust - Zidane",
+   "url": "https://fourfourtwo.com/news/madrid-rotation-policy-not-unjust-zidane",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-04-28",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "\"I have very good players. I talk to them and try to explain my thinking and we move forward together.",
+   "verified": true
+  },
+  {
+   "title": "Madrid rotation policy not unjust - Zidane",
+   "url": "https://fourfourtwo.com/news/madrid-rotation-policy-not-unjust-zidane",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-04-28",
+   "eventDate": "2017-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Isco's recent displays have caught the eye in particular and Zidane conceded it was not easy trying to explain to the Spain playmaker why he does not feature week in, week out.",
+   "verified": true
+  },
+  {
+   "title": "How Zinedine Zidane changed Real Madrid’s fortunes and won the La Liga title",
+   "url": "https://therealchamps.com/2020/08/24/real-madrid-zinedine-zidane-changed-won-la-liga",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Real Madrid fullbacks Daniel Carvajal and Ferland Mendy/Marcelo man-mark the opposition wingers which forces the opponent to use either route-one football/long balls or go back to the goalkeeper.",
+   "verified": true
+  },
+  {
+   "title": "How Zinedine Zidane changed Real Madrid’s fortunes and won the La Liga title",
+   "url": "https://therealchamps.com/2020/08/24/real-madrid-zinedine-zidane-changed-won-la-liga",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Real Madrid now boasts of the best defensive record in Spain as well as in the top five European leagues this season.",
+   "verified": true
+  },
+  {
+   "title": "How Zinedine Zidane changed Real Madrid’s fortunes and won the La Liga title",
+   "url": "https://therealchamps.com/2020/08/24/real-madrid-zinedine-zidane-changed-won-la-liga",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "This meant he had to somehow find a way to get the attack ticking by mix-matching youngsters Vinicius Junior and Rodrygo alongside Karim Benzema",
+   "verified": true
+  },
+  {
+   "title": "How Zinedine Zidane changed Real Madrid’s fortunes and won the La Liga title",
+   "url": "https://therealchamps.com/2020/08/24/real-madrid-zinedine-zidane-changed-won-la-liga",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-24",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "In buildup, Real Madrid play from the back aided by Ramos and Varane while Carvajal and Mendy move to the baselines out wide, stretching the pitch and the opposition press.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Real Madrid 3 Valencia 0 - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=30017",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-06-19",
+   "eventDate": "2020-06-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Real Madrid used a 4-4-2 while out of possession, through Eden Hazard advancing to alongside Karim Benzema, and Federico Valverde withdrawing to alongside Luka Modric, Toni Kroos and Casemiro.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Real Madrid 3 Valencia 0 - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=30017",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-06-19",
+   "eventDate": "2020-06-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Real’s best opportunities were coming during transitions, and it was no surprise that two of their three goals came in transitional moments.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Real Madrid 3 Valencia 0 - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=30017",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-06-19",
+   "eventDate": "2020-06-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "After building their lead, Real adopted deeper positions and instead of working to extend that lead, sought to preserve it.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Real Madrid 3 Valencia 0 - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=30017",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-06-19",
+   "eventDate": "2020-06-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Real circulated the ball but had significant difficulty in progressing into more attacking territory because of a combination of slow passing and their opponents' organisation.",
+   "verified": true
+  },
+  {
+   "title": "Tactical Analysis: Real Madrid 3 Valencia 0 - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=30017",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-06-19",
+   "eventDate": "2020-06-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Real’s players created triangles on each side of the pitch between full-back, central midfielder and wide forward",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Even if his team evolved from using a 4-3-3 formation to a four-diamond-two during that period, their personnel remained similar.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Consistent team selections and performances inspired so much of Real's success during Zidane's first period as their manager.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "when that 4-3-3 became a four-diamond-two they became responsible for providing Real's width.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Their return to a 4-3-3 ultimately contributed to a change in their counter-pressing approach. Real continued to press as intensely and as often, and still started doing so with a unit of five.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "If Kroos, Modric and Casemiro so often excelled in feeding those further forwards, when attacks broke down they combined impressively in front of their central defenders to negate attempts to attack on the counter.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Ronaldo was perhaps the finest player in the world inside the penalty area for the period Real were managed by the Frenchman, and he was therefore moved from his a role as a left-sided forward who cut infield to shoot to a permanent central position alongside Karim Benzema.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "he oversaw the continued development of Marco Asensio, Federico Valverde and Vinícius Júnior",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28283",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-04-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Those operating from central midfield were encouraged to advance into the penalty area regularly, most commonly through the inside channels",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2017/18 - A Holistic Tactical Analysis",
+   "url": "https://worldfootballindex.com/2018/01/real-madrid-2017-18-holistic-tactical-analysis/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-01-17",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "the team has suffered horribly in transition because the midfielders were no longer in a position to counterpress effectively when the ball was lost.",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2017/18 - A Holistic Tactical Analysis",
+   "url": "https://worldfootballindex.com/2018/01/real-madrid-2017-18-holistic-tactical-analysis/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-01-17",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Zidane reacted to this by making the whole midfield far more flexible, theoretically allowing the likes of Luka Modric and Toni Kroos to have almost as much freedom as Isco in the build-up play.",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2017/18 - A Holistic Tactical Analysis",
+   "url": "https://worldfootballindex.com/2018/01/real-madrid-2017-18-holistic-tactical-analysis/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-01-17",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "In the current midfield set-up, Casemiro steps out immediately to counterpress when the ball is lost",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2017/18 - A Holistic Tactical Analysis",
+   "url": "https://worldfootballindex.com/2018/01/real-madrid-2017-18-holistic-tactical-analysis/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-01-17",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "at the elite level, you have to keep adapting and innovating tactically, otherwise opposition teams figure out ways to stop you. And that is one of the flaws in Real Madrid this season.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane taught us that coaching Real Madrid is a lot more than tactics",
+   "url": "https://therealchamps.com/2017/05/29/zidane-taught-coaching-more-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-29",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "The system depended on absorbing a wave of attack, only to follow it by a counter attack that catches the opposition defense off guard.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane taught us that coaching Real Madrid is a lot more than tactics",
+   "url": "https://therealchamps.com/2017/05/29/zidane-taught-coaching-more-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-29",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Moreover, he refuses to give bigger roles to players like James Rodriguez or Isco, unless absolutely necessary.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane taught us that coaching Real Madrid is a lot more than tactics",
+   "url": "https://therealchamps.com/2017/05/29/zidane-taught-coaching-more-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-29",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "One thing that all the players have agreed upon is that there is that “Aura” they feel around Zizou.",
+   "verified": true
+  },
+  {
+   "title": "Zinedine Zidane taught us that coaching Real Madrid is a lot more than tactics",
+   "url": "https://therealchamps.com/2017/05/29/zidane-taught-coaching-more-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-29",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Zidane slowly implemented simple forms of counter pressing",
+   "verified": true
+  },
+  {
+   "title": "Zidane’s dressing room tact key to Real success",
+   "url": "https://gulfnews.com/zidane-s-dressing-room-tact-key-to-real-success-1.2225868",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-23",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "“We’ve had different teams in the past, with a lot of stars, and maybe there used to be a divided dressing room,” he said.",
+   "verified": true
+  },
+  {
+   "title": "Zidane’s dressing room tact key to Real success",
+   "url": "https://gulfnews.com/zidane-s-dressing-room-tact-key-to-real-success-1.2225868",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-23",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Zidane showed his good management when rotating starters and bringing in youngsters who usually don’t get a lot of playing time.",
+   "verified": true
+  },
+  {
+   "title": "Zidane’s dressing room tact key to Real success",
+   "url": "https://gulfnews.com/zidane-s-dressing-room-tact-key-to-real-success-1.2225868",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-23",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "“I’m not the best coach, I’m not the best tactically. But I have something else. I have desire and passion, and that means a lot more.”",
+   "verified": true
+  },
+  {
+   "title": "'Yo, ¿mejor táctico que Emery? Qué tontería', dice Zidane",
+   "url": "https://www.elheraldo.hn/deportes/yo-mejor-tactico-que-emery-que-tonteria-dice-zidane-BAEH1158900",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-03-09",
+   "eventDate": "2018-03-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "'¿Que hoy soy mejor táctico que Emery? Que idiotez... Para mí es una solemne tontería'",
+   "verified": true
+  },
+  {
+   "title": "How will Real Madrid line up in 2019-20? | Goal.com",
+   "url": "https://www.goal.com/en/news/how-real-madrid-will-line-up-in-2019-20/t7jqhglcpbub1peyekgi0ld1c",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Zidane has begun to trial a 3-5-2 system in an attempt to find a structure which offers more solidity at the back",
+   "verified": true
+  },
+  {
+   "title": "How will Real Madrid line up in 2019-20? | Goal.com",
+   "url": "https://www.goal.com/en/news/how-real-madrid-will-line-up-in-2019-20/t7jqhglcpbub1peyekgi0ld1c",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Zidane was desperate to add Manchester United’s Paul Pogba to freshen up Madrid’s core, but president Florentino Perez seems more intent on signing Ajax’s Donny van de Beek.",
+   "verified": true
+  },
+  {
+   "title": "How will Real Madrid line up in 2019-20? | Goal.com",
+   "url": "https://www.goal.com/en/news/how-real-madrid-will-line-up-in-2019-20/t7jqhglcpbub1peyekgi0ld1c",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-15",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Isco and James Rodriguez have technical quality in spades but Zidane is unsure about them, with the latter free to leave if he can find a suitable club.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "“possession” and “speed” are the firm ground he intends to build a team on (paraphrase, first press conference)",
+   "date": "2016-01-04",
+   "source": "https://spielverlagerung.com/2016/01/10/breaking-down-zizous-start/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "As a coach I think I know what the players need, the moments in which they require you to be present",
+   "date": "2016-02-23",
+   "source": "https://fourfourtwo.com/news/i-know-when-shut-zidane-explains-key-real-madrid-role (GQ interview)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It's not that they are untouchable, it's that they are the best players on account of what they've done",
+   "date": "2016-11-22",
+   "source": "https://thescore.com/liga/news/1162728 (via ESPN FC)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I have very good players. I talk to them and try to explain my thinking and we move forward together.",
+   "date": "2017-04-27",
+   "source": "https://fourfourtwo.com/news/madrid-rotation-policy-not-unjust-zidane",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Some can say that it’s not a big deal if the dressing room is not working well, but it is, I’m telling you",
+   "date": "2018-05-23",
+   "source": "https://gulfnews.com/zidane-s-dressing-room-tact-key-to-real-success-1.2225868",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I’m not the best coach, I’m not the best tactically. But I have something else. I have desire and passion, and that means a lot more.",
+   "date": "2018-05-23",
+   "source": "https://gulfnews.com/zidane-s-dressing-room-tact-key-to-real-success-1.2225868",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "¿Que hoy soy mejor táctico que Emery? Que idiotez... Para mí es una solemne tontería",
+   "date": "2018-03-09",
+   "source": "https://www.elheraldo.hn/deportes/yo-mejor-tactico-que-emery-que-tonteria-dice-zidane-BAEH1158900",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "For the dressing room to accept what you want to implement, they have to like you",
+   "date": "2026-01-16",
+   "source": "https://www.si.com/soccer/zinedine-zidane-secrets-managing-real-madrid-xabi-alonso",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "The French team was the only thing I wanted to do",
+   "date": "2026-07-28",
+   "source": "https://www.aljazeera.com/sports/2026/7/28/zidane-named-new-france-head-coach-after-fifa-world-cup-2026",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://themastermindsite.com/2021/04/16/zinedine-zidane-real-madrid-tactical-analysis-2020-21-edition/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.football-espana.net/2018/05/22/zidane-tactics-not-my-strongest-quality/amp",
+   "reason": "404"
+  },
+  {
+   "url": "https://africa.espn.com/football/insider/story/_/page/How-Zidane-rescued-Real-Madrid's-season---FC/how-zidane-rescued-real-madrid-season-fc",
+   "reason": "empty"
+  },
+  {
+   "url": "https://africa.espn.com/football/story/_/id/37493288/zinedine-zidane-decision-adapt-tactics-real-madrid-primed-more-ucl-glory",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Carlo Ancelotti (assistant 2013-14; Bleacher Report: returned to the Ancelotti template; Ronaldo: 'I see things of Carlo Ancelotti in Zidane')"
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A coverage for 2019/20 and 2016-18 (Coaches' Voice, Spielverlagerung) and several clear man-management sources, but many are tier C press/blog pieces, set-pieces are uncovered and spell dates are partly from memory."
+ }
+}

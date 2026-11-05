@@ -1,0 +1,202 @@
+{
+  "id": "jurgen-klopp",
+  "catalog": "manager",
+  "name": "Jürgen Klopp",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "2008-07-01",
+    "end": "2024-05-19"
+  },
+  "scopeNote": "Dortmund and Liverpool; later Mainz years.",
+  "spellsCounted": [
+    {
+      "club": "Borussia Dortmund",
+      "start": "2008-07-01",
+      "end": "2015-06-30",
+      "reason": "Two league titles, gegenpressing"
+    },
+    {
+      "club": "Liverpool",
+      "start": "2015-10-08",
+      "end": "2024-05-19",
+      "reason": "League and Champions League titles"
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Mainz 05",
+      "start": "2001-02-28",
+      "end": "2004-06-30",
+      "reason": "Second-division player-manager years"
+    }
+  ],
+  "teamProfiles": [
+    "liverpool-2021-22"
+  ],
+  "ambiguities": [],
+  "openQuestions": [],
+  "sources": [
+    {
+      "title": "shape analysis",
+      "url": "https://example.com/shape",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "build-up analysis",
+      "url": "https://example.com/build-up",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "possession analysis",
+      "url": "https://example.com/possession",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "pressing analysis",
+      "url": "https://example.com/pressing",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "defensive-block analysis",
+      "url": "https://example.com/defensive-block",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "transitions analysis",
+      "url": "https://example.com/transitions",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "width analysis",
+      "url": "https://example.com/width",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "set-pieces analysis",
+      "url": "https://example.com/set-pieces",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "set-pieces",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "game-management analysis",
+      "url": "https://example.com/game-management",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "squad-building analysis",
+      "url": "https://example.com/squad-building",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "people-management analysis",
+      "url": "https://example.com/people-management",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    },
+    {
+      "title": "player-profile analysis",
+      "url": "https://example.com/player-profile",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "player-profile",
+      "evidence": "\"We want to keep a high line\" (Van Dijk).",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "heavy metal football",
+      "date": "2013-04-01",
+      "source": "https://example.com/hm",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "high",
+    "reason": "Many tier A-B sources."
+  }
+}

@@ -1,0 +1,619 @@
+{
+ "id": "dorival-junior",
+ "catalog": "manager",
+ "name": "Dorival Júnior",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2009-12-05",
+  "end": "2022-11-25"
+ },
+ "scopeNote": "Narrowed to the clubs of the catalog teams: Santos (2010, Paulista and Copa do Brasil winners with Neymar, Ganso, Robinho) and Flamengo 2022 (Dorival only, from 10 June 2022, after Paulo Sousa was sacked on 9 June; left 25 November 2022). Santos start 5 December 2009 was seen only in a search summary (not in a mined paragraph); end 21 September 2010 is read on Lance and Wikipedia. Brazilian press is the main evidence: no tier A tactical study found except one Driblab note for the Libertadores final; no source states zonal vs man-marking. Popular label 'Guardiola do Brasil' is a 2016 Santos-player remark, out of period. Partial dates in spellsExcluded (2012-07, 2013-03, 2018-12, 2015, 2024-01, 2025, 2022-03) could not be pinned to a day and are context only. Out-of-period material (Santos 2015-17, Ceará 2022) is kept with verified false.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Santos 2010 start date: 5 Dec 2009 from a search summary only; confirm with the Santos official announcement.",
+  "Zonal vs man-marking is not stated by any read source for either spell; a Meu Timão forum post (tier D, not used) mentions 4-3-1-2 with medium block and selective pressing.",
+  "Flamengo shape: 4-3-3/4-4-2 (July 2022 column) and losango 4-3-1-2 (Aug 2022 column) coexist; check whether the losango became the base after Bruno Henrique's injury.",
+  "Santos 2010 tactical evidence is retrospective only (2020-2024); no contemporary analysis found.",
+  "Set-pieces axis is only closed by a penalty-taker order in 2010 (weak); no corner or free-kick evidence for either spell.",
+  "Santos 2010 end: Wikipedia citation says dismissal came hours after the report of a Neymar benching on 21 Sep 2010; Lance and Wikipedia agree on 21 Sep."
+ ],
+ "sources": [
+  {
+   "title": "Dorival descomplica o que Paulo Sousa complicou (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-descomplica-o-que-paulo-sousa-complicou-e-monta-dois-flamengos-em-50-dias/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-07-31",
+   "eventDate": "2022-07-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "O ataque sem centroavante usado no início da partida tinha Everton Cebolinha atuando nas quebradas em que mais se sente feliz, ou seja, aberto na ponta-esquerda em um 4-3-3 com a posse de bola e no 4-4-2 na recomposição defensiva.",
+   "verified": true
+  },
+  {
+   "title": "Dorival descomplica o que Paulo Sousa complicou (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-descomplica-o-que-paulo-sousa-complicou-e-monta-dois-flamengos-em-50-dias/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-07-31",
+   "eventDate": "2022-07-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Everton Cebolinha ... aberto na ponta-esquerda em um 4-3-3 com a posse de bola e no 4-4-2 na recomposição defensiva.",
+   "verified": true
+  },
+  {
+   "title": "Dorival descomplica o que Paulo Sousa complicou (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-descomplica-o-que-paulo-sousa-complicou-e-monta-dois-flamengos-em-50-dias/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-07-31",
+   "eventDate": "2022-07-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Se Marinho chegou a ser ala-esquerdo com o português, com o brasileiro ele é ponta-direita e acabou.  ... Everton Cebolinha atuando ... aberto na ponta-esquerda",
+   "verified": true
+  },
+  {
+   "title": "Dorival descomplica o que Paulo Sousa complicou (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-descomplica-o-que-paulo-sousa-complicou-e-monta-dois-flamengos-em-50-dias/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-07-31",
+   "eventDate": "2022-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Dorival Júnior conseguiu explorar a fartura oferecida pelo elenco do Flamengo e montou a toque de caixa dois times competitivos para manter o time vivo na maratona do Brasileirão, na Copa do Brasil e na Libertadores.",
+   "verified": true
+  },
+  {
+   "title": "Dorival descomplica o que Paulo Sousa complicou (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-descomplica-o-que-paulo-sousa-complicou-e-monta-dois-flamengos-em-50-dias/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-07-31",
+   "eventDate": "2022-07-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Em meio a tanta pressão por resultados, Dorival potencializa jovens da base. A exibição de Victor Hugo fez valer o ingresso desembolsado por 60 mil pagantes no Maracanã.",
+   "verified": true
+  },
+  {
+   "title": "Dorival descomplica o que Paulo Sousa complicou (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-descomplica-o-que-paulo-sousa-complicou-e-monta-dois-flamengos-em-50-dias/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-07-31",
+   "eventDate": "2022-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Uma das razões do sucesso de Dorival é não inventar moda. ... O sistema de jogo dos times principal e reserva ou misto são simples, objetivos e sem as ideias rebuscadas e em certos momentos confusas de Paulo Sousa.",
+   "verified": true
+  },
+  {
+   "title": "Dorival Júnior resgata no Flamengo sua melhor versão (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-resgata-no-flamengo-sua-melhor-versao-desde-o-santos-de-ganso-neymar-e-robinho/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-09-01",
+   "eventDate": "2022-08-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "A grave lesão de Bruno Henrique fez com que ele adotasse o losango como alternativa. Thiago Maia assumiu o papel de primeiro volante com Everton Ribeiro à direita, João Gomes à esquerda e Arrascaeta à frente do trio, com liberdade para ajudar Gabigol e Pedro.",
+   "verified": true
+  },
+  {
+   "title": "Dorival Júnior resgata no Flamengo sua melhor versão (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-resgata-no-flamengo-sua-melhor-versao-desde-o-santos-de-ganso-neymar-e-robinho/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-09-01",
+   "eventDate": "2022-08-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "O que estava bom parece melhor por dois motivos: o comprometimento coletivo com a redução de espaços na recomposição e a movimentação constante do meio para a frente.",
+   "verified": true
+  },
+  {
+   "title": "Dorival Júnior resgata no Flamengo sua melhor versão (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-resgata-no-flamengo-sua-melhor-versao-desde-o-santos-de-ganso-neymar-e-robinho/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-09-01",
+   "eventDate": "2022-08-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "O sistema dá impressão de rigidez, mas na prática há muita movimentação e trocas de posição. A linha de passe na trama que termina com o gol de Everton Ribeiro merece aplausos de pé.",
+   "verified": true
+  },
+  {
+   "title": "Dorival Júnior resgata no Flamengo sua melhor versão (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-resgata-no-flamengo-sua-melhor-versao-desde-o-santos-de-ganso-neymar-e-robinho/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-09-01",
+   "eventDate": "2022-08-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "o comportamento tático do ídolo pelo bem do time é de tirar o chapéu. ... Fazia a recomposição pela direita ... Seis anos mais jovem, topou o desafio de ser mais um, não o cara. Assim vem sendo desde a chegada de Dorival Júnior.",
+   "verified": true
+  },
+  {
+   "title": "Dorival Júnior resgata no Flamengo sua melhor versão (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-resgata-no-flamengo-sua-melhor-versao-desde-o-santos-de-ganso-neymar-e-robinho/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-09-01",
+   "eventDate": "2022-08-31",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Não está sendo fácil para Gabriel Barbosa o papel de coadjuvante de Pedro, porém, em ano de Copa do Mundo, ele entendeu que também pode ser útil a Tite como arco e não somente flecha.",
+   "verified": true
+  },
+  {
+   "title": "Flamengo ofensivo e Corinthians pragmático na final da Copa do Brasil (A Gazeta)",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/flamengo-ofensivo-e-corinthians-pragmatico-na-final-da-copa-do-brasil-1022",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-10-19",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "A equipe comandada por Dorival Júnior gosta de manter o domínio da bola e quando não a tem pressiona a saída de bola adversária. É uma equipe que desgasta muito a defesa adversária.",
+   "verified": true
+  },
+  {
+   "title": "Flamengo ofensivo e Corinthians pragmático na final da Copa do Brasil (A Gazeta)",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/flamengo-ofensivo-e-corinthians-pragmatico-na-final-da-copa-do-brasil-1022",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-10-19",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "A equipe comandada por Dorival Júnior gosta de manter o domínio da bola e quando não a tem pressiona a saída de bola adversária.",
+   "verified": true
+  },
+  {
+   "title": "Flamengo ofensivo e Corinthians pragmático na final da Copa do Brasil (A Gazeta)",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/flamengo-ofensivo-e-corinthians-pragmatico-na-final-da-copa-do-brasil-1022",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-10-19",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "A principal está do lado direito em cima de Rodinei. Limitado na defesa ... Léo Pereira e David Luiz vêm jogando muito bem, porém são jogadores falíveis.",
+   "verified": true
+  },
+  {
+   "title": "Flamengo ofensivo e Corinthians pragmático na final da Copa do Brasil (A Gazeta)",
+   "url": "https://www.agazeta.com.br/colunas/filipe-souza/flamengo-ofensivo-e-corinthians-pragmatico-na-final-da-copa-do-brasil-1022",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-10-19",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Rubro-Negro irá pressionar em busca do gol, enquanto o Timão vai jogar por uma bola, esperando um contragolpe matador.",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores 2022: Flamengo vs Athletico Paranaense (Driblab)",
+   "url": "https://www.driblab.com/fr/blog/copa-libertadores-2022-flamengo-vs-athletico-paranaense",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-27",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Flamengo betting on an attacking, elaborate football, inherited from the work carried out by Jorge Jesus and now maintained by Dorival",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores 2022: Flamengo vs Athletico Paranaense (Driblab)",
+   "url": "https://www.driblab.com/fr/blog/copa-libertadores-2022-flamengo-vs-athletico-paranaense",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-27",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "We are talking about a team used to dominating all their games through the ball and looking for quick recovery in the opposition half. ... Flamengo recover quickly in the opposition half far more than in their own",
+   "verified": true
+  },
+  {
+   "title": "Copa Libertadores 2022: Flamengo vs Athletico Paranaense (Driblab)",
+   "url": "https://www.driblab.com/fr/blog/copa-libertadores-2022-flamengo-vs-athletico-paranaense",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-10-27",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Flamengo recover quickly in the opposition half far more than in their own, while their opponents, subdued by the pace Flamengo impose, are only able to recover quickly in their own half",
+   "verified": true
+  },
+  {
+   "title": "Vitória contra o Santos mostra Flamengo pronto para atacar o Athletico-PR (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/vitoria-contra-o-santos-mostra-flamengo-pronto-para-atacar-o-athletico-pr-pelo-meio-ou-pelas-pontas/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-10-26",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "O Flamengo disputou 19 partidas, um turno do Campeonato Brasileiro, com o time reserva ou misto e conquistou 40 pontos.",
+   "verified": true
+  },
+  {
+   "title": "Vitória contra o Santos mostra Flamengo pronto para atacar o Athletico-PR (Drible de Corpo)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/vitoria-contra-o-santos-mostra-flamengo-pronto-para-atacar-o-athletico-pr-pelo-meio-ou-pelas-pontas/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-10-26",
+   "eventDate": "2022-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Dorival Júnior desfruta de um time menos desgastado e mais opções para mudar o curso da partida. Nomes como Vidal, Marinho, Éverton Cebolinha, Ayrton Lucas e o volante Pulgar estão aptos a influenciar a final.",
+   "verified": true
+  },
+  {
+   "title": "Campeão da Libertadores, Dorival Júnior comunica saída do Flamengo (Agência Brasil)",
+   "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2022-11/campeao-da-libertadores-dorival-junior-comunica-saida-do-flamengo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-11-26",
+   "eventDate": "2022-06-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Quando o técnico assumiu, em 10 de junho, o Rubro-Negro era o 14º colocado. Ele foi contratado para o lugar de Paulo Sousa, demitido na 10ª rodada da competição, após os vices do Campeonato Carioca e da Supercopa do Brasil.",
+   "verified": true
+  },
+  {
+   "title": "Campeão da Libertadores, Dorival Júnior comunica saída do Flamengo (Agência Brasil)",
+   "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2022-11/campeao-da-libertadores-dorival-junior-comunica-saida-do-flamengo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-11-26",
+   "eventDate": "2022-11-25",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Desde a minha chegada ao Flamengo, a minha única preocupação, a minha única atenção e todo o respeito possível foram dedicados a esse clube. ... A diretoria entendeu, e eu respeito isso, que seria o momento de uma mudança",
+   "verified": true
+  },
+  {
+   "title": "Campeão da Libertadores, Dorival Júnior comunica saída do Flamengo (Agência Brasil)",
+   "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2022-11/campeao-da-libertadores-dorival-junior-comunica-saida-do-flamengo",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-11-26",
+   "eventDate": "2022-11-25",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "A passagem de Dorival pelo Flamengo teve 26 vitórias, oito empates e nove derrotas, com dois títulos em três disputados. ... A publicação de Dorival recebeu comentários de jogadores do Flamengo, demonstrando agradecimento ao treinador.",
+   "verified": true
+  },
+  {
+   "title": "Análise: o que Dorival Júnior fez no Ceará (O Povo)",
+   "url": "https://www.opovo.com.br/esportes/futebol/times/ceara/2022/06/09/analise-o-que-dorival-junior-fez-no-ceara-para-se-tornar-novo-treinador-do-flamengo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-06-09",
+   "eventDate": "2022-06-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Um dos principais fatores para o Flamengo escolher Dorival Júnior neste momento é a capacidade de adaptação do treinador em pegar trabalhos no meio de temporada.",
+   "verified": true
+  },
+  {
+   "title": "As mudanças que Dorival fez para o Flamengo (Goal Brasil, conteúdo comercial)",
+   "url": "https://www.goal.com/br/listas/as-mudancas-que-dorival-fez-para-o-flamengo-voltar-jogar-bem/blt94df2bf8c7a3343d",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2022-07-21",
+   "eventDate": "2022-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Se o Flamengo de Paulo Sousa apresentou dificuldades, estando na 14ª posição do Campeonato Brasileiro ... com Dorival Júnior os resultados começaram a aparecer acompanhados de exibições mais seguras na defesa e avassaladoras no ataque.",
+   "verified": true
+  },
+  {
+   "title": "Dorival pode emular Santos de 2010 (Drible de Corpo, retrospectiva)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-pode-emular-santos-de-2010-ao-escalar-endrick-no-lugar-de-vini/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-07-06",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Dorival conquista o Paulistão no sistema de jogo 4-4-2. Arouca, Wesley, Marquinhos e Ganso formavam o quadrado no meio de campo. À frente deles, Neymar e Robinho. O modelo mudou na Copa do Brasil. ... a configuração passou ao 4-3-3.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Dorival pode emular Santos de 2010 (Drible de Corpo, retrospectiva)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-pode-emular-santos-de-2010-ao-escalar-endrick-no-lugar-de-vini/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-07-06",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Robinho na ponta direita, André centralizado no papel de centroavante e Neymar posicionado na esquerda. Ninguém jogava engessado, óbvio. Havia liberdade de movimentação.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Dorival pode emular Santos de 2010 (Drible de Corpo, retrospectiva)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-pode-emular-santos-de-2010-ao-escalar-endrick-no-lugar-de-vini/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2024-07-06",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "O trabalho mostrou a capacidade do treinador para agregar, gerenciar e acomodar talentos na construção de uma equipe vencedora.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Dorival Júnior resgata no Flamengo (Drible de Corpo, retrospectiva sobre 2010)",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/dorival-junior-resgata-no-flamengo-sua-melhor-versao-desde-o-santos-de-ganso-neymar-e-robinho/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2022-09-01",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Dorival conseguiu unir no mesmo time Paulo Henrique Ganso, Robinho, Neymar e o então promissor André. ... Uma das virtudes do técnico foi a sabedoria para acomodar dois jogadores habituados a atuar na mesma faixa de campo em posições diferentes.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Primeiro título de Neymar! (Jovem Pan)",
+   "url": "https://jovempan.com.br/esportes/futebol/santos/primeiro-titulo-de-neymar-ha-10-anos-santos-fez-final-eletrizante-contra-o-santo-andre/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-05-02",
+   "eventDate": "2010-05-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "O jogo estava aberto e franco, com as duas equipes se atacando. Mesmo o Santos com jogadores a menos, não abria mão do ataque, da ofensividade. Quando perdíamos a posse de bola, tínhamos algumas dificuldades na recomposição",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Primeiro título de Neymar! (Jovem Pan)",
+   "url": "https://jovempan.com.br/esportes/futebol/santos/primeiro-titulo-de-neymar-ha-10-anos-santos-fez-final-eletrizante-contra-o-santo-andre/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2020-05-02",
+   "eventDate": "2010-05-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ficamos com um jogador a menos logo no 1º tempo, aquilo pesou consideravelmente no desenvolvimento da nossa equipe. ... Paulo Henrique, mesmo bastante desgastado, era o único que vinha segurando bola na nossa equipe.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Neymar x Dorival (Lance!)",
+   "url": "https://www.lance.com.br/lancepedia/neymar-dorival-briga-santos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-01-30",
+   "eventDate": "2010-09-15",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Dorival Júnior ordenou que o batedor oficial, Marcel, fizesse a cobrança. ... O treinador queria afastar o atacante por duas partidas ... a diretoria decidiu demitir o técnico no dia 21 de setembro de 2010",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Neymar x Dorival (Lance!)",
+   "url": "https://www.lance.com.br/lancepedia/neymar-dorival-briga-santos.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-01-30",
+   "eventDate": "2010-09-15",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "o técnico Dorival Júnior ordenou que o batedor oficial, Marcel, fizesse a cobrança [do pênalti]",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "2010 Santos FC season (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/2010_Santos_FC_season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-01-01",
+   "eventDate": "2010-09-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Coach | Dorival Júnior (until 21 September) Marcelo Martelotte (caretaker) ... the dismissal of coach Dorival Junior after a misunderstanding involving Neymar",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Santistas comparam Dorival Júnior a Guardiola (Bahia Notícias)",
+   "url": "https://www.bahianoticias.com.br/estadao/noticia/128164-santistas-comparam-dorival-junior-a-guardiola-antes-de-final",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2016-05-05",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Uma das mudanças que Dorival implantou em sua nova passagem pelo Santos foi a valorização da posse de bola. Além disso, a comissão técnica faz treinos específicos para melhorar a eficiência na troca de passes.",
+   "verified": false,
+   "note": "Santos 2015-16, not the 2010 spell"
+  },
+  {
+   "title": "Dorival define time titular do Santos (Lance!)",
+   "url": "https://www.lance.com.br/santos/dorival-define-time-titular-cobra-marcacao-pressao-ataque.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2016-01-28",
+   "eventDate": "2016",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "O trio de ataque, com Gabigol na direita, Paulinho na esquerda e Ricardo Oliveira no centro, ficou encarregado de pressionar a defesa adversária para roubar a bola na frente.",
+   "verified": false,
+   "note": "Santos 2016, not 2010"
+  },
+  {
+   "title": "Dorival Júnior (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dorival_J%C3%BAnior",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2024-01-01",
+   "eventDate": "2009-12-05",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Search summary only: named Santos coach on 5 December 2009; Atlético-MG 25 September 2010 (start of Santos spell not read on a page)",
+   "verified": false,
+   "note": "start date of Santos spell not seen in a mined paragraph"
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Quando perdíamos a posse de bola, tínhamos algumas dificuldades na recomposição",
+   "date": "2020-05-02",
+   "source": "https://jovempan.com.br/esportes/futebol/santos/primeiro-titulo-de-neymar-ha-10-anos-santos-fez-final-eletrizante-contra-o-santo-andre/",
+   "provenance": "attributed",
+   "note": "Interview to Jovem Pan about Santos 2010 final; recorded in 2020, the primary original is not located"
+  },
+  {
+   "quote": "A diretoria entendeu, e eu respeito isso, que seria o momento de uma mudança",
+   "date": "2022-11-25",
+   "source": "https://agenciabrasil.ebc.com.br/esportes/noticia/2022-11/campeao-da-libertadores-dorival-junior-comunica-saida-do-flamengo",
+   "provenance": "primary",
+   "note": "Instagram video, reported by Agência Brasil"
+  },
+  {
+   "quote": "Dorival Júnior é o Pep Guardiola do Brasil. Ele se espelha muito no Bayern.",
+   "date": "2016-05-04",
+   "source": "https://www.bahianoticias.com.br/estadao/noticia/128164-santistas-comparam-dorival-junior-a-guardiola-antes-de-final",
+   "provenance": "attributed",
+   "note": "Said by player Thiago Maia about Dorival, not Dorival himself; Santos 2016, out of period"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/final-se-ganha-na-estrategia-dorival-foi-mais-tecnico-que-filipe-luis/amp/",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/times/flamengo/estilo-de-dorival-agrada-ao-elenco-flamenguista/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/times/flamengo/repeticao-do-time-e-estrategia-para-dorival/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=3263602",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.lance.com.br/flamengo/dorival-junior-enxerga-falhas-do-flamengo-contra-o-sao-paulo-e-ve-semifinal-aberta-nao-encaixou.html",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/times/santos/dorival-revela-apreco-por-sampaoli-e-diz-que-seu-trabalho-se-assemelha-ao-de-guardiola/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=2048283",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.gazetaesportiva.com/?p=882590",
+   "reason": "403"
+  },
+  {
+   "url": "https://global.espn.com/football/story/_/id/37633357/flamengo-showed-their-dominance-clinching-copa-libertadores-title",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.lance.com.br/sao-paulo/analise-dorival-reestreia-no-sao-paulo-com-formula-do-sucesso-e-ajustando-a-marcacao.html",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "Jorge Jesus (inherited attacking Flamengo structure per Driblab)",
+  "Bayern Munich / Guardiola (2015 European study trip, per 2016 Santos players, out of period)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Santos",
+   "start": "2009-12-05",
+   "end": "2010-09-21",
+   "reason": "Paulista and Copa do Brasil 2010 with attacking Neymar/Ganso/Robinho side; catalog team Santos 2010; start date from search summary only"
+  },
+  {
+   "club": "Flamengo",
+   "start": "2022-06-10",
+   "end": "2022-11-25",
+   "reason": "Copa do Brasil and Libertadores 2022; catalog team Flamengo 2022 (Dorival's part only, after Paulo Sousa)"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Flamengo",
+   "start": "2012-07",
+   "end": "2013-03",
+   "reason": "outside catalog scope; dates approximate (Agência Brasil)"
+  },
+  {
+   "club": "Atlético-MG",
+   "start": "2010-09-25",
+   "end": "2011-08-07",
+   "reason": "outside catalog scope"
+  },
+  {
+   "club": "Flamengo",
+   "start": "2018-09-28",
+   "end": "2018-12",
+   "reason": "outside catalog scope (second spell, Brasileirão runner-up)"
+  },
+  {
+   "club": "Santos",
+   "start": "2015",
+   "end": "2017-06-04",
+   "reason": "outside catalog scope (Santos 2010 only)"
+  },
+  {
+   "club": "São Paulo",
+   "start": "2023-04-20",
+   "end": "2024-01-07",
+   "reason": "outside catalog scope"
+  },
+  {
+   "club": "Brazil national team",
+   "start": "2024-01",
+   "end": "2025",
+   "reason": "national team, outside catalog scope"
+  },
+  {
+   "club": "Ceará",
+   "start": "2022-03",
+   "end": "2022-06-09",
+   "reason": "short pre-Flamengo spell (18 matches), outside scope"
+  },
+  {
+   "club": "Corinthians",
+   "start": "2025-04-28",
+   "end": "ongoing",
+   "reason": "outside catalog scope"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Brazilian press only: Flamengo 2022 rests on tier B-C columns (Drible de Corpo, A Gazeta) plus one Driblab note; Santos 2010 evidence is retrospective-only; several Gazeta Esportiva and Lance pages unreadable; no marking or set-piece source."
+ }
+}

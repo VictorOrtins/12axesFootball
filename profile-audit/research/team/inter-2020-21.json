@@ -1,0 +1,891 @@
+{
+ "id": "inter-2020-21",
+ "catalog": "team",
+ "name": "Inter 2020/21 (Antonio Conte)",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2020-09-26",
+  "end": "2021-05-23"
+ },
+ "scopeNote": "Inter under Antonio Conte, 2020/21 Serie A title season only. First match 26 Sep 2020 (4-3 v Fiorentina, season opener per Goal 2020-09-27); last match 23 May 2021 v Udinese (Calciomercato 2021-05-23: Conte speaks after the Udinese match). Conte left in May 2021 (26 May, from Sky Sport URL date, not read). Sources call the shape 3-5-2 (also 3-1-4-2 / 3-4-1-2 with Eriksen or Barella as a 10 early in the season, Serpents of Madonnina); defends in a 5-3-2 mid-block (Coaches' Voice). Not zonal-pressing/possession football: Inter averaged 45% possession in the winning run and were a counter-attacking side. Exact first/last match dates are from memory plus one source each; a second source was not found. The Cult of Calcio piece 'Inter vs Juventus: more threatening from open play' is 2021/22 (Inzaghi, Dzeko) and was excluded.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Man vs zonal marking: no in-period source states it. Cult of Calcio's 'tight man-to-man marking in certain zones' is from the 2021/22 Inzaghi article and was excluded; Coaches' Voice describes pressing traps and zonal-looking shifts without naming a marking scheme.",
+  "Coaches' Voice overview (2023) covers Conte's Inter 2019-21 together; items tagged 2019/20-2020/21 may partly describe the first season.",
+  "Squad age: no source gives an average; only signings (Vidal 33, Kolarov 34, Young 35) from 90min / Wikipedia-style data. Veterans were used alongside Barella (23), Bastoni, Hakimi (21).",
+  "Conte's departure date (26 May 2021) and the 23 May Udinese final-day date rest on one source each; Sky Sport pages (storia tattica, Zanetti, Conte parole) were unreadable.",
+  "Early Champions League exit: only Serpents of Madonnina (tier C) verified; Conte's own post-exit statements not read.",
+  "Conte's pre-season near-resignation (summer 2020) predates the first match and is not counted."
+ ],
+ "sources": [
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "That approach evolved during 2020/21 (above). While one of their front two – most consistently Lukaku – continued to move short, retain the ball and link with those making runs, their wing-backs made penetrative runs through the centre of the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "By running into different positions, Inter's wing-backs could deliver crosses from new angles and therefore increase the variety they offered",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "At Inter, the 5-3-2 they often defended with (above) sometimes became a 5-2-3 in which one striker worked to limit access into the opposing single pivot while the other striker and an attacking midfielder pressed the opposition's central defenders.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "for brief periods, Inter therefore pressed with a 4-4-2 (above). From this shape, they worked to keep the ball to one side of the pitch, and their front two stopped passes into the centre of the pitch before pressing their opposing central defenders and goalkeeper.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "When they were defending with a mid or lower block, their central midfielders worked to provide defensive support in wide areas; the closest striker screened access back infield; and their wing-backs attempted to force play wide.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "In the same way their wing-backs' movements enhanced their attacking potential, they also made Inter's defence more resilient. Their back three and defensive midfielder received greater support because their attacking midfielders' positioning meant that they were considerably less exposed",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The versatility of Romelu Lukaku and Lautaro Martínez also proved a strength. Both are capable of holding the ball up or running in behind, and therefore complement each other when operating on different lines.",
+   "verified": true
+  },
+  {
+   "title": "Antonio Conte: Coach Watch - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/antonio-conte-tottenham-nuno-espirito-santo/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-03-27",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Marcelo Brozovic was usually the defensive midfielder instructed to play line-breaking passes (above) in their more familiar shape",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Hakimi and Darmian/Young/Perišić are comfortable playing further forward, and when Bastoni and Škriniar push forward in possession, Inter change shape in a dynamic way.",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Essentially, Inter defends with more than three players despite playing a 3-5-2 on paper, with Bastoni and Škriniar going up as full-backs and De Vrij and Brozović dropping in as centre-backs.",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "He’s made Inter look scary on the break, which makes it barely a coincidence that Inter have scored as many as 48 goals in the second-half – five more than any other side.",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The Belgian has already admitted to the fact that Conte got him training with his back to goal, with Andrea Ranocchia marking him.",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Eriksen playing deeper allows Barella to play as the advanced midfielder, tasked with making late runs in the box, moving into half-spaces and sometimes acting as a false forward to drop opposition defences apart.",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The formation on paper has remained Conte’s favoured 3-5-2, but the team has acquired dynamism on and off the ball",
+   "verified": true
+  },
+  {
+   "title": "FEATURE | A comprehensive look at Antonio Conte’s Scudetto-winning tactics - Get Italian Football News",
+   "url": "https://www.getfootballnewsitaly.com/2021/feature-a-comprehensive-look-at-antonio-contes-scudetto-winning-tactics/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-05-14",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "As Antonio Candreva headed to Sampdoria, Achraf Hakimi arrived – most prominently. Ivan Perisic returned from the Bayern Munich loan to add another option at wing-back too.",
+   "verified": true
+  },
+  {
+   "title": "A data-driven look at Inter Milan’s title-winning season",
+   "url": "https://brianjmpark.github.io/post/2021-11-10-a-data-driven-look-at-inter-milan-s-title-winning-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-10",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Inter frequently played a formation of 3-5-2, employing traditional wingbacks moving vertically up and down the pitch and a two-striker tandem up front.",
+   "verified": true
+  },
+  {
+   "title": "A data-driven look at Inter Milan’s title-winning season",
+   "url": "https://brianjmpark.github.io/post/2021-11-10-a-data-driven-look-at-inter-milan-s-title-winning-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-10",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Centerbacks Stefan de Vrij and Alessandro Bastoni often carried the ball, suggesting Inter's likelihood of starting the attack from the back.",
+   "verified": true
+  },
+  {
+   "title": "A data-driven look at Inter Milan’s title-winning season",
+   "url": "https://brianjmpark.github.io/post/2021-11-10-a-data-driven-look-at-inter-milan-s-title-winning-season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-10",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Combined with Inter's counter-attacking style of play with an emphasis of midfielders progressing the ball to the wide wingbacks",
+   "verified": true
+  },
+  {
+   "title": "Come giocava l'Inter nel 2020/21",
+   "url": "https://www.fantacalciopedia.com/articoli-fcp/serie-a-stories/113-come-giocava-l-inter-nel-2020-21.html",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-06-28",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Sulla fascia destra l'Inter Hakimi, giocatore talentuoso, potente e tecnico, è il titolare inamovibile. Darmian può farlo rifiatare qualche volta.",
+   "verified": true
+  },
+  {
+   "title": "Eriksen-Perisic, la mossa scudetto di Conte: così hanno cambiato l'Inter | Calciomercato",
+   "url": "https://www.calciomercato.com/news/l-accoppiata-perisic-eriksen-e-la-mossa-scudetto-di-conte-40973",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-02-24",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Nelle ultime quattro partite Conte ha schierato Perisic come quinto di sinistra dal primo minuto.",
+   "verified": true
+  },
+  {
+   "title": "Eriksen-Perisic, la mossa scudetto di Conte: così hanno cambiato l'Inter | Calciomercato",
+   "url": "https://www.calciomercato.com/news/l-accoppiata-perisic-eriksen-e-la-mossa-scudetto-di-conte-40973",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-02-24",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Conte è arrivato gradualmente, attraverso fatiche e resistenze più o meno giustificate e condivisibili, a inserire la qualità in un momento chiave del campionato.",
+   "verified": true
+  },
+  {
+   "title": "Eriksen-Perisic, la mossa scudetto di Conte: così hanno cambiato l'Inter | Calciomercato",
+   "url": "https://www.calciomercato.com/news/l-accoppiata-perisic-eriksen-e-la-mossa-scudetto-di-conte-40973",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-02-24",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Perisic è in grado di utilizzare il mancino a sinistra per innescare le ripartenze con passaggi lungolinea di una certa difficoltà.",
+   "verified": true
+  },
+  {
+   "title": "La strana coppia funziona: Eriksen-Brozovic hanno trasformato l'Inter | Calciomercato",
+   "url": "https://www.calciomercato.com/news/la-strana-coppia-funziona-eriksen-brozovic-hanno-trasformato-l-i-56631",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-02-28",
+   "eventDate": "2021-02",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "la costruzione dal basso può contare su tutt’altra qualità per uscire dal pressing avversario.",
+   "verified": true
+  },
+  {
+   "title": "Inter, Eriksen poco funzionale? Adesso è l'uomo chiave di Conte | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-eriksen-poco-funzionale-adesso-e-l-uomo-chiave-di-conte-95101",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-04-19",
+   "eventDate": "2021-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Dalla difesa si esce in palleggio e, preferibilmente, passando dai piedi di uno tra Brozovic ed Eriksen, che sapientemente si alternano in cabina di regia.",
+   "verified": true
+  },
+  {
+   "title": "Inter, Eriksen poco funzionale? Adesso è l'uomo chiave di Conte | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-eriksen-poco-funzionale-adesso-e-l-uomo-chiave-di-conte-95101",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-04-19",
+   "eventDate": "2021-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Il danese è anche tanto altro, dai suoi piedi partono tutti i calci piazzati",
+   "verified": true
+  },
+  {
+   "title": "Inter, Eriksen poco funzionale? Adesso è l'uomo chiave di Conte | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-eriksen-poco-funzionale-adesso-e-l-uomo-chiave-di-conte-95101",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-04-19",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Dopo gli screzi di qualche mese fa, anche le parole nei confronti del calciatore danese sono cambiate.",
+   "verified": true
+  },
+  {
+   "title": "Inter, Eriksen poco funzionale? Adesso è l'uomo chiave di Conte | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-eriksen-poco-funzionale-adesso-e-l-uomo-chiave-di-conte-95101",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-04-19",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Messo sul mercato da Conte e da Marotta, il centrocampista danese ha saputo in pochi mesi ribaltare il suo destino.",
+   "verified": true
+  },
+  {
+   "title": "Champions League, Conte: \"In charge of our own destiny\"",
+   "url": "https://www.inter.it/en/news/2020-10-20-press-conference-antonio-conte-inter-borussia-moenchengladbach",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-10-20",
+   "eventDate": "2020-10-20",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "We play with that system because it suits the characteristics of each individual player. We used it all the way to the Europa League final: Barella played as a 10, but drifted out to the right, with Brozovic and Gagliardini in charge of build-up.",
+   "verified": true
+  },
+  {
+   "title": "Champions League, Conte: \"In charge of our own destiny\"",
+   "url": "https://www.inter.it/en/news/2020-10-20-press-conference-antonio-conte-inter-borussia-moenchengladbach",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-10-20",
+   "eventDate": "2020-10-20",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "We played the same way last year, defending high up the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Champions League, Conte: \"In charge of our own destiny\"",
+   "url": "https://www.inter.it/en/news/2020-10-20-press-conference-antonio-conte-inter-borussia-moenchengladbach",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-10-20",
+   "eventDate": "2020-10-20",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Italians are often accused of playing defensive football, while we’re just trying to play the same style of football that took us to the Europa League final.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan Season In Review: Part One",
+   "url": "https://web.archive.org/web/2/https://www.serpentsofmadonnina.com/2021/5/26/22170053/inter-milan-season-in-review-part-one",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-26",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Antonio Conte made a slight alteration from last season’s 3-5-2 and shifted into a 3-4-1-2 to start the new season, but the formation change caused only chaos and disfunction.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan Season In Review: Part One",
+   "url": "https://web.archive.org/web/2/https://www.serpentsofmadonnina.com/2021/5/26/22170053/inter-milan-season-in-review-part-one",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-26",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Inter went from averaging 61% possession per game in the first seven games to only 45% a game throughout the winning run, shifting back to a pragmatic strategy.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan Season In Review: Part One",
+   "url": "https://web.archive.org/web/2/https://www.serpentsofmadonnina.com/2021/5/26/22170053/inter-milan-season-in-review-part-one",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-26",
+   "eventDate": "2020-12-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Inter stumbled to another 0-0 draw against the Ukrainian side with a much too passive approach to break Shakhtar’s bunker. The Nerazzurri finished an embarrassing fourth, not even enough for the Europa League.",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan Season In Review: Part One",
+   "url": "https://web.archive.org/web/2/https://www.serpentsofmadonnina.com/2021/5/26/22170053/inter-milan-season-in-review-part-one",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-26",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Inter opened the month with a 1-1 draw at Lazio",
+   "verified": true
+  },
+  {
+   "title": "Inter Milan Season In Review: Part One",
+   "url": "https://web.archive.org/web/2/https://www.serpentsofmadonnina.com/2021/5/26/22170053/inter-milan-season-in-review-part-one",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-26",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The subsequent international break led to a coronavirus outbreak among several Inter players, including Milan Skriniar who was positive for over 20 days.",
+   "verified": true
+  },
+  {
+   "title": "Conte: 'All our own work at Inter' - Football Italia",
+   "url": "https://football-italia.net/conte-all-our-own-work-at-inter/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-01",
+   "eventDate": "2021-05-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "I found many lads here who all wanted to get on the same boat and work together to become part of Inter history.",
+   "verified": true
+  },
+  {
+   "title": "Conte: 'All our own work at Inter' - Football Italia",
+   "url": "https://football-italia.net/conte-all-our-own-work-at-inter/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-01",
+   "eventDate": "2021-05-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "“We know that we can remain in the history of Inter, because we are effectively bringing down a nine-year reign. This is satisfying and the players deserve congratulations,” Conte told Sky Sport Italia.",
+   "verified": true
+  },
+  {
+   "title": "Conte: 'All our own work at Inter' - Football Italia",
+   "url": "https://football-italia.net/conte-all-our-own-work-at-inter/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-05-01",
+   "eventDate": "2021-05-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "a deflected Christian Eriksen strike and stoppage-time Achraf Hakimi counter proved enough.",
+   "verified": true
+  },
+  {
+   "title": "'I have faith in him' - Conte backs Eriksen at Inter after dramatic win | Goal.com US",
+   "url": "https://www.goal.com/en-us/news/i-have-faith-in-him---conte-backs-eriksen-at-inter-after-dramatic-win/n9ttrutb29bm1a4nhc0ax94w0",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-09-27",
+   "eventDate": "2020-09-26",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Inter head coach Conte sent on Achraf Hakimi and Alexis Sanchez, and it was their crosses that led to the late goals.",
+   "verified": true
+  },
+  {
+   "title": "'I have faith in him' - Conte backs Eriksen at Inter after dramatic win | Goal.com US",
+   "url": "https://www.goal.com/en-us/news/i-have-faith-in-him---conte-backs-eriksen-at-inter-after-dramatic-win/n9ttrutb29bm1a4nhc0ax94w0",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-09-27",
+   "eventDate": "2020-09-26",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "There will be room for everyone and everyone will be needed.",
+   "verified": true
+  },
+  {
+   "title": "'I have faith in him' - Conte backs Eriksen at Inter after dramatic win | Goal.com US",
+   "url": "https://www.goal.com/en-us/news/i-have-faith-in-him---conte-backs-eriksen-at-inter-after-dramatic-win/n9ttrutb29bm1a4nhc0ax94w0",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-09-27",
+   "eventDate": "2020-09-26",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "If you want to play high-level championships, balance is the basis of everything.",
+   "verified": true
+  },
+  {
+   "title": "'I have faith in him' - Conte backs Eriksen at Inter after dramatic win | Goal.com US",
+   "url": "https://www.goal.com/en-us/news/i-have-faith-in-him---conte-backs-eriksen-at-inter-after-dramatic-win/n9ttrutb29bm1a4nhc0ax94w0",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-09-27",
+   "eventDate": "2020-09-26",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Compared to when he arrived he has increased the engine revs, he is playing in his ideal position",
+   "verified": true
+  },
+  {
+   "title": "What is Antonio Conte’s style of play? Tactics of Italian coach explained | Goal.com",
+   "url": "https://www.goal.com/en/news/antonio-conte-style-of-play-tactics-explained/9r6gz88s83b517gsoa1a42pop",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-03",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "In their 2020-21 Scudetto-winning campaign, Conte's 3-5-2 formation ensured the Nerazzurri became the strongest team defensively and also one of the top-scoring in Serie A",
+   "verified": true
+  },
+  {
+   "title": "Inter, Conte: 'Dedico lo scudetto a me stesso...' | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-conte-dedico-lo-scudetto-a-me-stesso-ho-dovuto-tirare-fuor-52175",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-05-23",
+   "eventDate": "2021-05-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "sono 91 punti, più di 90 gol, la miglior difesa, il secondo miglior attacco per un gol",
+   "verified": true
+  },
+  {
+   "title": "Inter, Conte: 'Dedico lo scudetto a me stesso...' | Calciomercato",
+   "url": "https://www.calciomercato.com/news/inter-conte-dedico-lo-scudetto-a-me-stesso-ho-dovuto-tirare-fuor-52175",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-05-23",
+   "eventDate": "2021-05-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "contro un'Udinese che all'andata ci aveva bloccati sullo 0-0",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Inter didn’t change their build-up approach for this game and tried building up from the back as per usual. Their plans were ruined though, due to Atalanta’s aggressive high press",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Atalanta’s actions forced them to rely on long balls to the attackers, which often failed to reach the destination accurately",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "what Inter do in order to make their 5-3-2 defensive strategy more efficient and cover the flanks and the half-spaces better was committing the wing-back and one of the central midfielders to covering the ball carrier and creating 2vs1 situations.",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The Nerazzurri would use smart pressing structures on the flank constantly surrounding the wing-back creating a numerical advantage",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Inter’s famous 3-5-2 saw Samir Handanović on the goal, supported by Alessandro Bastoni, Stefan de Vrij and Milan Škriniar in defence.",
+   "verified": true
+  },
+  {
+   "title": "Serie A 2020/21: Atalanta vs Inter – tactical analysis | TFA",
+   "url": "https://totalfootballanalysis.com/match-analysis/serie-2020-21-atalanta-vs-inter-tactical-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-11-11",
+   "eventDate": "2020-11",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "The boost at the beginning of the second half came from Conte moving the wing-backs higher up the pitch and changing their role into a more of an attacking one.",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "No one in Serie has provided more lay-off passes - he is still a target - but no one has had more shots on the break either.",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Inter can play a possession game but they can soak up pressure before hitting teams on the break too.",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The formidable partnership between Lukaku and Martinez is an essential component with Lukaku drifting into his favoured zone just off the right.",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2021-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "But I always said that he arrived here with potential and that if he worked hard he could do extraordinary things. Lukaku has made exceptional improvements and can make even more.",
+   "verified": true
+  },
+  {
+   "title": "Romelu Lukaku inspiring Inter Milan to the title: How Antonio Conte sparked striker's extraordinary improvement",
+   "url": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-04-12",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "It was something special because sometimes coaches are on the sidelines making jokes because you can't do it. But he is there wanting you to do more, encouraging you to do more.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Inter's Options at Left Wingback",
+   "url": "https://www.90min.com/posts/assessing-inter-s-options-at-left-wingback",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-09-17",
+   "eventDate": "2020-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The 35-year-old last registered more goal contributions in the heady days of 2011/12",
+   "verified": true
+  },
+  {
+   "title": "Assessing Inter's Options at Left Wingback",
+   "url": "https://www.90min.com/posts/assessing-inter-s-options-at-left-wingback",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-09-17",
+   "eventDate": "2020-09",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Upon arrival at San Siro, Conte equipped his new side with a new formation, exclusively deploying a three-man defence and often in a 3-5-2.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "It was no surprise to see Inter line up in a familiar 3-5-2 shape, which has been the Nerazzurri’s go-to formation all season.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Upfront, Lautaro Martinez and Romelu Lukaku formed the striker partnership, with the Argentine usually dropping a bit deeper than his Belgian counterpart to drag out the opposing defenders of their positions.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Both mentioned players possess an incredible ability to drive the ball forward in a direct and vertical manner, which accompanied with their intricate positional rotations made it nearly impossible to stop them.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Conte’s famous 3-5-2 formation has been working almost flawlessly this Serie A season, with the most emphasis placed on the wing-play and swift counterattacks.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Conte went for a tried and trusted defensive trio in Milan Skriniar, Stefan de Vrij and Alessandro Bastoni, with both wing-backs pushing high and wide into Juventus’ half.",
+   "verified": true
+  },
+  {
+   "title": "Inter vs. Juventus Tactical Analysis: A Solid Defensive Block",
+   "url": "https://cultofcalcio.com/?p=18951",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-19",
+   "eventDate": "2021-01-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Conte went for a tried and trusted defensive trio in Milan Skriniar, Stefan de Vrij and Alessandro Bastoni",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "We play with that system because it suits the characteristics of each individual player.",
+   "date": "2020-10-19",
+   "source": "https://www.inter.it/en/news/2020-10-20-press-conference-antonio-conte-inter-borussia-moenchengladbach",
+   "provenance": "primary"
+  },
+  {
+   "quote": "If you want to play high-level championships, balance is the basis of everything.",
+   "date": "2020-09-26",
+   "source": "https://www.goal.com/en-us/news/i-have-faith-in-him---conte-backs-eriksen-at-inter-after-dramatic-win/n9ttrutb29bm1a4nhc0ax94w0",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I found many lads here who all wanted to get on the same boat and work together to become part of Inter history.",
+   "date": "2021-05-01",
+   "source": "https://football-italia.net/conte-all-our-own-work-at-inter/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Eriksen può migliorare ancora tanto, ha capito che il calcio italiano è fatto di due fasi, possesso e non possesso, ed è migliorato molto anche nell’intensità",
+   "date": "2021-04",
+   "source": "https://www.calciomercato.com/news/inter-eriksen-poco-funzionale-adesso-e-l-uomo-chiave-di-conte-95101",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I have not forgotten how a lot of people turned their nose up when we signed Lukaku and said he was overrated",
+   "date": "2021-04",
+   "source": "https://www.skysports.com/football/news/11095/12272601/romelu-lukaku-inspiring-inter-milan-to-the-title-how-antonio-conte-sparked-strikers-extraordinary-improvement",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "sono 91 punti, più di 90 gol, la miglior difesa, il secondo miglior attacco per un gol",
+   "date": "2021-05-23",
+   "source": "https://www.calciomercato.com/news/inter-conte-dedico-lo-scudetto-a-me-stesso-ho-dovuto-tirare-fuor-52175",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://themastermindsite.com/2021/03/19/antonio-conte-inter-milan-tactical-analysis-2020-21-edition/",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.football-italia.net/166394/what-has-changed-between-conte-and-eriksen",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.serpentsofmadonnina.com/2021/4/16/22151804/serie-a-nalysis-was-inter-milans-start-to-this-season-really-that-bad",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2021/05/02/storia-tattica-dello-scudetto-dellinter",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.cbssports.com/soccer/news/uefa-champions-league-inter-milans-corner-kicks-will-be-a-dangerous-weapon-against-liverpool",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.inter.it/en/news/2021/05/02/conte-speaks-scudetto-inter.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://worldsoccertalk.com/2020/12/08/this-isnt-pub-football-fumes-conte-ahead-of-must-win-shakhtar-clash",
+   "reason": "404"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2021/05/02/inter-scudetto-conte-parole",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2021/05/06/inter-zanetti-intervista",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2020/11/11/inter-lautaro-lulaku-numeri-atacco",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  {
+   "name": "Antonio Conte's own 3-5-2 at Juventus and 3-4-3 at Chelsea",
+   "note": "Coaches' Voice overview traces the Inter shape to his Juventus 3-1-4-2 and Chelsea wing-back system."
+  }
+ ],
+ "managers": [
+  {
+   "managerId": "antonio-conte",
+   "start": "2020-09-26",
+   "end": "2021-05-23"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier A-B sources (Coaches' Voice, TFA, Cult of Calcio, GFNI) agree on shape, wing-back and transition play for 2020/21, but marking scheme is unsourced, set pieces and squad age thin, and many items are tier C."
+ }
+}

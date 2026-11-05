@@ -1,0 +1,576 @@
+{
+ "id": "total-football",
+ "catalog": "football-ideology",
+ "name": "Total Football (Totaalvoetbal)",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "1965-01-01",
+  "end": "1974-07-07"
+ },
+ "scopeNote": "Idea, not one team: Dutch 'totaalvoetbal' as practised by Michels' Ajax (1965-71, European Cup 1971), Kovacs' Ajax (1971-73, two more European Cups) and Michels' Netherlands (1974 World Cup, final 7 July 1974). Start 1965-01-01 is approximate ('By January 1965', These Football Times). Core as sources describe it: positional interchange within a kept structure, space control (big in possession, small out of it), high pressing and an offside-trap high line, fit versatile players. Popular label 'position-swapping' alone understates pressing/space, which Michels and Neeskens stress. Exemplar ids: manager rinus-michels, team ajax-1971-73, team netherlands-1974. Contributors not catalog ids: Johan Cruyff (on-pitch conductor, roaming centre forward, later Barcelona) and Stefan/Istvan Kovacs (Ajax coach 1971-73, popularised the term in 1972). Precursors (influences): Jack Reynolds, Vic Buckingham, Hugo Meisl's Wunderteam, Sebes' Hungary, Brazil 4-2-4. Marking of Ajax's own defence (zonal vs man) not evidenced by any verified source; only the opposition man-marking of Vogts on Cruyff in 1974. No verified set-piece or Coaches' Voice material found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Origin of the name: Auke Kok (via Neerlandistiek) says Michels used 'totaalvoetbal' in a Limburgsch Dagblad interview on 12 Sept 1965; Van den Nieuwenhof says Michels used it only occasionally in 1965 and it became known in 1972 when Kovacs described the club's style so; Winner says it entered Dutch in 1974 with the World Cup; Kok (2004) credits journalist Maarten de Vos. Primary 1965 interview not seen.",
+  "Michels reportedly disliked the term and preferred a pressing description (single coaching-interview claim in a search summary, not verified); These Football Times itself suggests 'Proactive Football'. Label supported by evidence: 'totaalvoetbal' / Hollandse school, with pressing and space as core, not only interchange.",
+  "Exemplars differ: Michels' Ajax (1965-71) used a 4-2-4-derived oscillating shape with Vasovic as libero (SI); Kovacs' Ajax kept the approach (Guide to Football, Spielverlagerung) but his own tactical view was not found; Netherlands 1974 had Michels arriving on the eve of the tournament, and Neeskens says the pressing blueprint 'hadn't clicked yet' before the tournament; Rijsbergen says the goalkeeper acted as libero outside the area.",
+  "Invention credit contested: SI says Michels 'did not pioneer' it; Spielverlagerung credits Reynolds; Wikipedia lists Meisl/Hogan/Sebes. Michels is credited with the paradigm of space and with fitness-based pressing.",
+  "Michels quote 'war' varies: 'Football is something like war' (TFT) vs 'Professional football is something like war' (blog); date unknown.",
+  "Mid-1960s start: sources disagree on Michels' appointment date (Wikipedia-derived pages vs 'By January 1965'); confirm day.",
+  "Zonal vs man marking in Ajax/Netherlands defence not established; need Coaches' Voice, Cox 'Zonal Marking' or Winner text.",
+  "Set-pieces not covered.",
+  "statedView dates for quotes 0, 2, 4, 5 are the publication date of the page quoting them; the original date of utterance was not found."
+ ],
+ "sources": [
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Each outfield player was expected to be able to move into different positions when the team structure required it. When one player moved out of position to create space or join an attack, another player moved into the space they had left.",
+   "verified": true
+  },
+  {
+   "title": "Totaalvoetbal (Spielverlagerung glossary)",
+   "url": "https://spielverlagerung.com/glossary/philosophies/totaalvoetbal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-11-03",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Totaalvoetbal is the label given to a tactical concept in which any outfield player can take over the role of any other player in a team.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1968/69",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Michels adopted the 4-2-4 formation made famous by Brazil, but with the flexibility of the formations made famous by the powerful sides of the past. For Total Football to work, Michels knew a formation needed total oscillation.",
+   "verified": true
+  },
+  {
+   "title": "Johan Neeskens interview, FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/we-didnt-win-but-beautiful-football-was-our-legacy-the-late-johan-neeskens-in-one-of-his-last-ever-interviews-on-total-football-johan-cruyff-and-heartbreak-in-1974",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-08",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "The coach would set us up but Johan would see how the game was playing out in the early stages and he would begin to conduct us.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "aimed to make the pitch as large as possible, spreading play to the wings and seeing every run and movement as a way to increase and exploit the available space. When they lost the ball, the same thinking and techniques were used to destroy the space of their opponents.",
+   "verified": true
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "The third principle was possession-based attack. When the team won the ball, it kept it, using short passes and movement to draw opposition players out of position and create scoring chances.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "attempting to reclaim possession as fast as possible through space reduction and direct pressure on the opponent with the ball and secondary pressure on any nearby passing options while cutting off passing lanes",
+   "verified": true
+  },
+  {
+   "title": "Johan Neeskens interview, FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/we-didnt-win-but-beautiful-football-was-our-legacy-the-late-johan-neeskens-in-one-of-his-last-ever-interviews-on-total-football-johan-cruyff-and-heartbreak-in-1974",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-08",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Rinus Michels wanted to play a hard pressing game with an offside trap. It was great to join a team like that. I was a box-to-box player. I was the man, together with Johan Cruyff, who started the press. The rest of the team followed our lead.",
+   "verified": true
+  },
+  {
+   "title": "Johan Neeskens interview, FourFourTwo",
+   "url": "https://www.fourfourtwo.com/features/we-didnt-win-but-beautiful-football-was-our-legacy-the-late-johan-neeskens-in-one-of-his-last-ever-interviews-on-total-football-johan-cruyff-and-heartbreak-in-1974",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-08",
+   "eventDate": "1974",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "was trying to implement his pressing blueprint and it hadn",
+   "verified": true
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "the defenders had to play far up the pitch, with an offside trap to catch opposition forwards who tried to run in behind.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels: The Most Influential Manager There Ever Was (SI)",
+   "url": "https://www.si.com/soccer/2019/08/14/rinus-michels-most-influential-manager-there-ever-was-his-total-football-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-14",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "while expansiveness - the utilisation of all available space - was the name of the game going forward, the opposite was true at the back. Compactness was the key.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1974",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "We played with a lot of pressure on the other team, with a lot of risk in the back. The defenders went forward, the forwards came back. We played football. He even used the goalkeeper",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels: The Most Influential Manager There Ever Was (SI)",
+   "url": "https://www.si.com/soccer/2019/08/14/rinus-michels-most-influential-manager-there-ever-was-his-total-football-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-14",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Velibor Vasovic, his libero in defence",
+   "verified": true
+  },
+  {
+   "title": "Total Football (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Total_Football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2003-01-17",
+   "eventDate": "1974-07-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Michels and Cruyff saw their ability to introduce playmaking stifled in the second half of the match by the effective marking of Berti Vogts.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels: The Most Influential Manager There Ever Was (SI)",
+   "url": "https://www.si.com/soccer/2019/08/14/rinus-michels-most-influential-manager-there-ever-was-his-total-football-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-14",
+   "eventDate": "1974-07-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Ultimately, they were undone by a mixture of vigorous man-marking, a flooded midfield and their own arrogance",
+   "verified": true
+  },
+  {
+   "title": "Why Rinus Michels remains the greatest coach of all time (Medium)",
+   "url": "https://medium.com/totalfootball/why-rinus-michels-remains-the-greatest-coach-of-all-time-917833556cd8",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-07-27",
+   "eventDate": "1965/66",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "The ability of players to switch attack and defence and change positions was an innovative counter-measure against teams who played defensively or used fixed man-marking.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Michels saw the need for a team capable of switching between attack and defence on-the-fly",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "spreading play to the wings",
+   "verified": true
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "dropping deep into midfield, drifting wide, or sitting between the opposition's defence and midfield to control the play",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1968/69",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "The lesson Michels would soon learn about unbalanced tactics, however, came in 1969 European Cup defeat to Milan.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels: The Most Influential Manager There Ever Was (SI)",
+   "url": "https://www.si.com/soccer/2019/08/14/rinus-michels-most-influential-manager-there-ever-was-his-total-football-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-14",
+   "eventDate": "1970",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "It is an art in itself to compose a starting team, finding the balance between creative players and those with destructive powers, and between defence, construction and attack",
+   "verified": false
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "The first European Cup came under Michels, although he had already agreed to leave for Barcelona by the time of the final. The next two came under his successor Ștefan Kovács, a Romanian coach who continued the tactical approach Michels had built.",
+   "verified": true
+  },
+  {
+   "title": "Totaalvoetbal (Spielverlagerung glossary)",
+   "url": "https://spielverlagerung.com/glossary/philosophies/totaalvoetbal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-11-03",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "It was further refined by new Ajax manager Stefan Kovacs, after Michels left the club for Barcelona in 1971.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "to play for Rinus Michels one had to be a total footballer: fit, smart, tough and versatile.",
+   "verified": true
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1971/72",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "The system relied on technically skilled, intelligent players who could read the play and decide for themselves when to swap positions.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels: The Most Influential Manager There Ever Was (SI)",
+   "url": "https://www.si.com/soccer/2019/08/14/rinus-michels-most-influential-manager-there-ever-was-his-total-football-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-14",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "To play in a Rinus Michels side you had to be two things: unbelievably fit and unmitigatedly adaptable.",
+   "verified": true
+  },
+  {
+   "title": "Total football | Guide to Football",
+   "url": "https://guidetofootball.com/history/total-football/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "1965/66",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Ajax's youth system produced a group of technically gifted, tactically intelligent players in the years either side of 1965, with Cruyff as the central figure.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels: The Most Influential Manager There Ever Was (SI)",
+   "url": "https://www.si.com/soccer/2019/08/14/rinus-michels-most-influential-manager-there-ever-was-his-total-football-legacy",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-14",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Michels moulded his players, not the other way around.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1965/66",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "he as very strict with the players and there were lots of arguments about discipline. The message was pretty clear; those who did not like would have to leave.",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1966/67",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "We did everything with the ball. At the beginning of the season we had one week of very hard training: five training sessions a day. It was like military camp.",
+   "verified": true
+  },
+  {
+   "title": "Wat maakte de alom geprezen Rinus Michels zo'n goede trainer? (NOS)",
+   "url": "https://nos.nl/artikel/2277275-wat-maakte-de-alom-geprezen-rinus-michels-zo-n-goede-trainer",
+   "tier": "C",
+   "language": "nl",
+   "articleDate": "2019-03-23",
+   "eventDate": "1965",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Hij bracht discipline in het voetbal en zorgde ervoor dat de spelers zich ook als sporters gingen gedragen.",
+   "verified": true
+  },
+  {
+   "title": "The Men Who Made Modern Football #19 - Rinus Michels",
+   "url": "https://educatedleftfoot.blogspot.com/2017/04/the-educated-left-foots-men-who-made.html",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2017-04-10",
+   "eventDate": "1970/71",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Cruyff was Michel's voice on the pitch",
+   "verified": false
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1965",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "I needed to change my approach and needed to make it clear to everyone that even though they",
+   "verified": false
+  },
+  {
+   "title": "Over de oorsprong van het begrip totaalvoetbal (Neerlandistiek)",
+   "url": "https://neerlandistiek.nl/2021/06/over-de-oorsprong-van-het-begrip-totaalvoetbal",
+   "tier": "B",
+   "language": "nl",
+   "articleDate": "2021-06-15",
+   "eventDate": "1965-09-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "dat Michels in zijn eerste grote interview als coach van Ajax (Limburgsch Dagblad, 12 september 1965) voor het eerst de term gebruikte",
+   "verified": true
+  },
+  {
+   "title": "Over de oorsprong van het begrip totaalvoetbal (Neerlandistiek)",
+   "url": "https://neerlandistiek.nl/2021/06/over-de-oorsprong-van-het-begrip-totaalvoetbal",
+   "tier": "B",
+   "language": "nl",
+   "articleDate": "2021-06-15",
+   "eventDate": "1972",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "maar die in 1972 bekend werd doordat trainer Kovács het spel van de club zo typeerde",
+   "verified": true
+  },
+  {
+   "title": "Over de oorsprong van het begrip totaalvoetbal (Neerlandistiek)",
+   "url": "https://neerlandistiek.nl/2021/06/over-de-oorsprong-van-het-begrip-totaalvoetbal",
+   "tier": "B",
+   "language": "nl",
+   "articleDate": "2021-06-15",
+   "eventDate": "1974",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Maarten de Vos als degene aangewezen die de term",
+   "verified": true
+  },
+  {
+   "title": "Why Rinus Michels remains the greatest coach of all time (Medium)",
+   "url": "https://medium.com/totalfootball/why-rinus-michels-remains-the-greatest-coach-of-all-time-917833556cd8",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-07-27",
+   "eventDate": "1970",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Cruyff distilled the essence of using space as a founding visualization",
+   "verified": true
+  },
+  {
+   "title": "Rinus Michels and the Total Football rebellion",
+   "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-01-28",
+   "eventDate": "1970",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Football is something like war. Whoever behaves too properly is lost.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Football is something like war. Whoever behaves too properly is lost.",
+   "date": "2016-01-28",
+   "source": "These Football Times 2016 (EL blog gives 'Professional football is something like war.')",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I needed to change my approach and needed to make it clear to everyone that even though they [the players] were semi-professionals, money and spectator numbers were at stake. And for that they needed to do certain things, and stop others.",
+   "date": "2001",
+   "source": "Sky Sports interview on Football's Greatest, as quoted by These Football Times",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It is an art in itself to compose a starting team, finding the balance between creative players and those with destructive powers, and between defence, construction and attack – never forgetting the quality of the opposition and the specific pressures of each match.",
+   "date": "2019-08-14",
+   "source": "SI 2019",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Michels gebruikte de term totaalvoetbal voor het eerst in zijn eerste grote interview als Ajax-coach (Limburgsch Dagblad, 12 september 1965); in 1972 maakte Kovács de term bekend",
+   "date": "1965-09-12",
+   "source": "Neerlandistiek 2021 citing Auke Kok (Cruijff biography, 2019, p.107) and Frans van den Nieuwenhof",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "If you have the ball you must make the field as big as possible, and if you don't have the ball you must make it as small as possible.",
+   "date": "2019-07-27",
+   "source": "Medium 2019 paraphrasing Cruyff",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "There has been only one real tactical revolution and it happened when football shifted from an individual to a collective game. It happened with Ajax first and then the Holland national team at the beginning of the 1970s.",
+   "date": "2019-07-27",
+   "source": "Medium 2019",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2253548.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.pitchpublishing.co.uk/sites/default/files/associated_downloads/Dutch%20Masters%20SAMPLE.pdf",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.attackingfootball.com/?p=7047",
+   "reason": "403"
+  },
+  {
+   "url": "https://vault.si.com/vault/1979/04/30/total-soccer-could-be-a-dutch-treat-rinus-michels-brought-his-own-concept-of-quotvoetbalquot-to-la-if-the-aztecs-can-master-it-credit-him-with-a-miracle",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "Jack Reynolds",
+  "Vic Buckingham",
+  "Hugo Meisl's Austrian Wunderteam",
+  "Gusztav Sebes' Hungary",
+  "Brazil 4-2-4",
+  "Jimmy Hogan"
+ ],
+ "exemplars": [
+  {
+   "id": "rinus-michels",
+   "kind": "manager",
+   "reason": "Credited with developing and perfecting the system at Ajax (1965-71) and with the Netherlands in 1974"
+  },
+  {
+   "id": "ajax-1971-73",
+   "kind": "team",
+   "reason": "Prototype side; three European Cups 1971-73 (Michels then Kovacs)"
+  },
+  {
+   "id": "netherlands-1974",
+   "kind": "team",
+   "reason": "Carried the idea to the 1974 World Cup final, lost 1-2 to West Germany"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B-C sources agree on interchange, space and pressing, but mostly retrospective, no Coaches' Voice or primary 1960s-70s tactical text, nothing verified on marking or set-pieces."
+ }
+}

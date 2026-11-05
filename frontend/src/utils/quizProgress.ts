@@ -3,13 +3,9 @@ import type { AnswerValue, QuizPayload, QuizVariant } from '../types/quiz';
 // Progresso do quiz guardado no navegador: se a aba recarregar, travar ou
 // quebrar no meio, a pessoa continua de onde parou em vez de recomeçar.
 const STORAGE_KEY = '12axes-progress';
-// v2: o hinduísmo entrou na pergunta de religião (letra E) e "sem religião" passou de E para F.
-// Progresso v1 é migrado em parseProgress em vez de descartado.
-const VERSION = 2;
+// v3: quiz de futebol. Progresso de versões anteriores (quiz político) é descartado.
+const VERSION = 3;
 const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
-const RELIGION_KEY = 'religiao';
-const LEGACY_NO_RELIGION = 'E';
-const NO_RELIGION = 'F';
 
 export type ProgressStage = 'quiz' | 'archetype';
 
@@ -34,7 +30,7 @@ const ANSWER_VALUES: ReadonlySet<string> = new Set([
   'STRONGLY_DISAGREE'
 ]);
 
-const VARIANTS: ReadonlySet<string> = new Set(['short', 'extended', 'extreme']);
+const VARIANTS: ReadonlySet<string> = new Set(['short', 'extended']);
 
 function isRecordOfStrings(value: unknown): value is Record<string, string> {
   return (
@@ -52,7 +48,7 @@ export function parseProgress(raw: string | null, now = Date.now()): SavedProgre
   }
   try {
     const data = JSON.parse(raw) as Partial<SavedProgress> | null;
-    if (!data || typeof data !== 'object' || (data.v !== VERSION && data.v !== 1)) {
+    if (!data || typeof data !== 'object' || data.v !== VERSION) {
       return null;
     }
     if (typeof data.savedAt !== 'number' || now - data.savedAt > MAX_AGE_MS || data.savedAt > now + 60_000) {
@@ -75,13 +71,6 @@ export function parseProgress(raw: string | null, now = Date.now()): SavedProgre
     }
     if (!isRecordOfStrings(data.archetypeChoices)) {
       return null;
-    }
-    if (data.v === 1) {
-      const choices = { ...data.archetypeChoices };
-      if (choices[RELIGION_KEY] === LEGACY_NO_RELIGION) {
-        choices[RELIGION_KEY] = NO_RELIGION;
-      }
-      return { ...(data as SavedProgress), v: VERSION, archetypeChoices: choices };
     }
     return data as SavedProgress;
   } catch {
@@ -133,4 +122,40 @@ export function restoreQuiz(payload: QuizPayload, progress: SavedProgress): Quiz
     questions: questions as QuizPayload['questions'],
     questionCount: questions.length
   };
+}
+
+// Último resultado terminado: os 12 leftPercents bastam para reconstruí-lo via /results?...
+const LAST_RESULT_KEY = '12axes-last-result';
+const AXIS_COUNT = 12;
+
+export function parseLastResult(raw: string | null): number[] | null {
+  if (!raw) {
+    return null;
+  }
+  try {
+    const data: unknown = JSON.parse(raw);
+    if (!Array.isArray(data) || data.length !== AXIS_COUNT) {
+      return null;
+    }
+    const valid = data.every((value) => typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= 100);
+    return valid ? (data as number[]) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function loadLastResult(): number[] | null {
+  try {
+    return parseLastResult(window.localStorage.getItem(LAST_RESULT_KEY));
+  } catch {
+    return null;
+  }
+}
+
+export function saveLastResult(leftPercents: number[]): void {
+  try {
+    window.localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(leftPercents));
+  } catch {
+    // localStorage indisponível: o resultado só não fica guardado.
+  }
 }

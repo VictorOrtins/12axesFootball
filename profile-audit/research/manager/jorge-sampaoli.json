@@ -1,0 +1,944 @@
+{
+ "id": "jorge-sampaoli",
+ "catalog": "manager",
+ "name": "Jorge Sampaoli",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2010-12-15",
+  "end": "2016-01-19"
+ },
+ "scopeNote": "Counted: Universidad de Chile (15 Dec 2010 announced; left late Nov/early Dec 2012, exact day not found) and Chile national team (Dec 2012 to 19 Jan 2016, exact start day not found, Los Andes says diciembre de 2012). Style term used by sources: Bielsista / Bielsismo (3-4-3 and 3-1-4-2 at La U, 3-4-1-2 / 4-1-2-1-2 / 3-2-5 in possession with Chile, high press and counterpress, man-oriented marking by the back line). Spell-end 2016-01-19 comes from the FourFourTwo article date (terms of departure agreed). Excluded for this run, not researched: Sevilla 2016-17, Argentina 2017-18, Santos 2019, Atletico Mineiro 2020-21, Marseille 2021-22, Flamengo 2023 and earlier minor clubs. The statedView items dated after the counted period are kept because stated views are not period-limited.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact end of the Universidad de Chile spell and start of the Chile spell: a search summary (not read on a page) said ANFP announced him on 3 Dec 2012 and the Clinic dated a 22 Nov 2012 article about him leaving for Chile; 2012-12-02 and 2012-12-03 are placeholders from that, not verified.",
+  "Exact end date 2016-01-19: FourFourTwo dated 2016-01-19 says terms agreed; a search summary said he resigned on 19 Jan 2016. Confirm with a second page.",
+  "Sevilla 2016-17 and Argentina 2017-18 are real candidates for inclusion (recognisable style, move to bigger jobs); excluded here only for budget and because the brief's likely spells were Univ. de Chile and Chile. Atletico Mineiro, Santos, Marseille and Flamengo not examined; no titles or dates are claimed from memory.",
+  "Brief says 'three league titles'; read pages confirm Apertura 2011 win (Cooperativa), Apertura 2012 win (Cooperativa) and Copa Sudamericana December 2011; the Clausura 2011 title was not read on a page. Ballverliebt says the club was winning its third consecutive national title in 2012.",
+  "Sportskeeda says Sampaoli freed Medel to man-mark Messi in the final per a search summary; the page read does not state it, so it is not recorded.",
+  "The two statedView entries dated 2016-01-08 are the Cooperativa article date; the original Sábado interview and the book Leones have no date found. Spell-excluded entries have year-only dates because they were not researched. Set-pieces: no page read covers Sampaoli's set-piece design.",
+  "Sampaoli's 2019 and 2017 remarks (youth debuts, Vidal) are retrospective statements about the period; the 2016-04-22 FIFA interview is after the spell end, so its stated-view entry is verified:false and the view is kept in statedView[].",
+  "Spielverlagerung dates Chile-Bolivia article 2015-06-22; the match is only given as 2015-06 here because the digest does not give the match day."
+ ],
+ "sources": [
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Sampaoli has used a 3-4-1-2 regularly with great success over the last couple of years however has employed a formation with two centre backs at times.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Chile often adopt a 3-2-5 shape in possession, overloading an oppositions back four.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Chile build up from very deep, drawing out the opposition. The centre-backs spread to the corners of the 18-yard area to make them more difficult to press as play is stretched over a wider area.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Chile always try to stretch the opposition both laterally and vertically. They stretch the opposition laterally when they have the ball in the opposition’s half using the high and wide positioning of the fullbacks.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Chile also consistently exercise elements of Juego de Posicion, with their own style often being referred to as ‘Posesion (Spanish) 74’.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Chile set up a high press with the man on the ball almost always being pressed, usually by the ever-energetic Sanchez.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Their back five allows them to man-mark men dropping to receive the ball from their defenders without leaving too much space in behind.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Chile play a very compact pressing game and a high line to accompany it. However, when this press is breached for whatever reason this leaves them highly vulnerable.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Chile do most of their defending in the opposition’s half and their aggressive pressing and counterpressing is what has made them such a footballing cult. They are always looking to win the ball instead of just dropping off",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Copa America Preview: Chile",
+   "url": "https://spielverlagerung.com/?p=1544",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-11",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Chile are also extremely fortunate that they have a goalkeeper who is very comfortable on the ball under pressure and is arguably the best ‘keeper at passing in the world.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Chile – Bolivia 5:0",
+   "url": "https://spielverlagerung.com/2015/06/22/chile-bolivia-50/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-22",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Starting in their 4-1-2-1-2 shape, Sampaoli’s team controlled the game from the beginning",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Chile – Bolivia 5:0",
+   "url": "https://spielverlagerung.com/2015/06/22/chile-bolivia-50/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-22",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "With their 4-1-2-1-2 shape, an important aspect of Sampaoli’s system is their central orientation through the overloads amongst the midfield which possesses great talent.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Chile – Bolivia 5:0",
+   "url": "https://spielverlagerung.com/2015/06/22/chile-bolivia-50/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-22",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "In one of the lesser-common situations where Diaz dropped between the centre-backs he created a 3v2 against Bolivia’s 4-4-2 press.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Chile – Bolivia 5:0",
+   "url": "https://spielverlagerung.com/2015/06/22/chile-bolivia-50/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-22",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The pressing system of Chile was very flexible in the positioning of the individual players but was overall a 4-3-3-turned-4-1-4-1 shape.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Chile – Bolivia 5:0",
+   "url": "https://spielverlagerung.com/2015/06/22/chile-bolivia-50/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-22",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Isla and Beausejour flanked the duo and had the role of providing the width throughout the Chilean possession.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Chile – Bolivia 5:0",
+   "url": "https://spielverlagerung.com/2015/06/22/chile-bolivia-50/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-06-22",
+   "eventDate": "2015-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Another quality of Diaz is that, like many players of this fantastic Chile team, he possesses the ability to withstand and counter opposition pressure.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Jorge Sampaoli, der 52-jährige Coach von La U, lässt seine Mannschaft in einem Zwischending aus 3-4-3 und 3-1-4-2 auflaufen.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Zum einen ist das die hohen Verteidigungslinie, die sich oftmals an der Mittellinie oder sogar jenseits davon befindet. Das erlaubt es dem Mittelfeld, extremen Druck auszuüben.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Und ging ein Ball verloren, wird sofort auf den Ballführenden gepresst, sodass die Kugel schnell wieder erobert war: Gerade hier wirkte La U sehr gedankenschnell.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Dort dominierte man zwar das Spiel, machte aber schon nach dem 1:1 komplett auf und lief ins offene Messer, wurde ausgekontert und verlor mit 1:4.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Interessant dabei ist, dass mit Eugenio Mena der linke Mann in der Dreier-Abwehrkette im Spiel nach vorne wie ein normaler Außenverteidiger agiert",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Vor ihm rochieren Marino, Lorenzetti und Aránguiz sehr viel und rissen durch ihre unberechenbaren Laufwege Löcher.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Der Rückstand aus dem Hinspiel war aufgeholt, so entschied sich Sampaoli für die zweite Hälfte, etwas mehr Sicherheit in die Defensive seiner Mannschaft zu bringen.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt: La U und das hochriskante 3-1-4-2",
+   "url": "https://ballverliebt.substack.com/p/la-u-und-das-hochriskante-3-1-4-2-harakiri-fusball-reinster-pragung",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2012-05-11",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Sampaoli, der sich selbst (wie an der Spielweise unschwer zu erkennen ist) als Anhänger von Marcelo Bielsa, seinem früheren Trainer und Chef bei Newell's Old Boys, bezeichnet, lässt einen extrem attraktiven, aber auch ebenso gefährlichen Fußball spielen.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer: Tactics: winning ways with Universidad de Chile",
+   "url": "https://www.worldsoccer.com/?p=333887",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "His basic model is a 3-4-3, with striker Eduardo Vargas (now with Napoli) cutting in from the right. Where Sampaoli stands out, though, is in his tweaks for individual games, which have been extraordinarily varied and highly effective.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer: Tactics: winning ways with Universidad de Chile",
+   "url": "https://www.worldsoccer.com/?p=333887",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Both play hard pressing, attacking football, often going with three at the back.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer: Tactics: winning ways with Universidad de Chile",
+   "url": "https://www.worldsoccer.com/?p=333887",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "La U lined up with a back four, with two highly attacking full-backs in Matias Rodriguez and Jose Rojas, and the holding midfielder, Marcelo Diaz, sitting deep to cover.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer: Tactics: winning ways with Universidad de Chile",
+   "url": "https://www.worldsoccer.com/?p=333887",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "It also meant that La U’s two wing-backs, Rodriguez and Rojas, could play higher up the pitch and so engage LDU’s wing-backs in their own half, again conducting the battle in opposition territory.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer: Tactics: winning ways with Universidad de Chile",
+   "url": "https://www.worldsoccer.com/?p=333887",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Sampaoli was preparing a change as Vasco took the lead after 33 minutes, but his switch, taking off Lorenzetti, who had looked lost in a deeper midfield role, to bring on Rodriguez and shift the more naturally deep-lying Aranguiz into the middle, turned the game, and his side found an equaliser 11 minutes from time.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer: Tactics: winning ways with Universidad de Chile",
+   "url": "https://www.worldsoccer.com/?p=333887",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-22",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Both play hard pressing, attacking football, often going with three at the back. In other words, they both play Bielsista football",
+   "verified": true
+  },
+  {
+   "title": "Sportskeeda: Chile - The madcap, exhilaratingly gung-ho champions of South America",
+   "url": "https://widgets.sportskeeda.com/football/chile-madcap-exhilaratingly-gung-ho-champions-south-america-rewrite-history-books",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-07-05",
+   "eventDate": "2015-07-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Sampaoli, the obsessive disciplinarian who had once suspended Charles Aranguiz for oversleeping, turned a blind eye to the drunken antics of Arturo Vidal.",
+   "verified": true
+  },
+  {
+   "title": "Sportskeeda: Chile - The madcap, exhilaratingly gung-ho champions of South America",
+   "url": "https://widgets.sportskeeda.com/football/chile-madcap-exhilaratingly-gung-ho-champions-south-america-rewrite-history-books",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-07-05",
+   "eventDate": "2015-07-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "The final (especially the first half) was played at full tilt – the Chileans, little red blurs of whirring feet chasing every ball down, pressuring the Argentinian backline high up the pitch, and quite simply running their more illustrious opponents off the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Sportskeeda: Chile - The madcap, exhilaratingly gung-ho champions of South America",
+   "url": "https://widgets.sportskeeda.com/football/chile-madcap-exhilaratingly-gung-ho-champions-south-america-rewrite-history-books",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-07-05",
+   "eventDate": "2015-07-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Sampaoli displayed great tactical awareness to adjust his formations according to the opposition. More importantly, he successfully did what his counterpart at Paraguay, Ramón Díaz, couldn’t do – stifle Lionel Messi.",
+   "verified": true
+  },
+  {
+   "title": "Sportskeeda: Chile - The madcap, exhilaratingly gung-ho champions of South America",
+   "url": "https://widgets.sportskeeda.com/football/chile-madcap-exhilaratingly-gung-ho-champions-south-america-rewrite-history-books",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-07-05",
+   "eventDate": "2015-07-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "In the matches before the final, Jorge Sampaoli – a true devotee of Bielsisime if ever there was one – had tempered his team’s game-plan with a pragmatism that had threatened to take the title of neutral’s favourites away from them.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "El esquema es anecdótico, lo importante es la forma: ser protagonista, jugar la pelota por abajo, encontrar variantes ofensivas al atacar por las bandas y por el centro, evitar transiciones.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Cuando la Roja avanza en la cancha, el dibujo cambia de modo sustancial. El equipo pasa a defender con tres: Medel y José Rojas, que reemplaza al suspendido Gonzalo Jara, se abren y quedan como stoppers",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Por empezar, ninguno de los dos centrales rifa la pelota. Siempre se intenta salir por abajo.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Chile ensancha la cancha tiempo completo y explota las bandas a morir.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "La Roja se caracteriza por su posesión y su paciencia al mover la pelota.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "al jugar con las líneas adelantadas -habrá que ver si será tan así ante Argentina-, la pasa mal cuando es contragolpeado. La pelota al vacío, de frente a los centrales, es una daga.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Valdivia, el cerebro, se mueve libre por el centro de tres cuartos de cancha en adelante.",
+   "verified": true
+  },
+  {
+   "title": "El Gráfico: El estilo de Chile: pelota al piso, transiciones cortas y ataque rápido",
+   "url": "https://elgrafico.com.ar/articulo/tma-todo-menos-argentina/8410/el-estilo-de-chile-pelota-al-piso-transiciones-cortas-y-ataque-rapido-de-afuera-hacia-adentro",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-02",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Turboman empezó como suplente el torneo y se transformó en una pieza clave.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Tighe's 2014 World Cup Tactics Board: Analysing Jorge Sampaoli's Chile",
+   "url": "https://bleacherreport.com/articles/1894861-tighes-2014-world-cup-tactics-board-analysing-jorge-sampaolis-chile",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-12-19",
+   "eventDate": "2013",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "He has switched between a 3-4-3 and a 4-3-3 formation throughout qualifying and during friendlies, and the \"identity\" he has installed means that no matter the shape, Chile play a similar way.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Tighe's 2014 World Cup Tactics Board: Analysing Jorge Sampaoli's Chile",
+   "url": "https://bleacherreport.com/articles/1894861-tighes-2014-world-cup-tactics-board-analysing-jorge-sampaolis-chile",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-12-19",
+   "eventDate": "2013",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "From Sampaoli's first game in charge, in Lima's tough climate, it was evident that a strong passing game mixed with deadly counterattacks was to be the fulcrum of this side.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Tighe's 2014 World Cup Tactics Board: Analysing Jorge Sampaoli's Chile",
+   "url": "https://bleacherreport.com/articles/1894861-tighes-2014-world-cup-tactics-board-analysing-jorge-sampaolis-chile",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-12-19",
+   "eventDate": "2013",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Sampaoli, a proud disciple of Marcelo Bielsa, focuses on switching his shape to disrupt the flow of the oppositions. He can identify how to do this extremely quickly, and the pressing game is outrageously good.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Tighe's 2014 World Cup Tactics Board: Analysing Jorge Sampaoli's Chile",
+   "url": "https://bleacherreport.com/articles/1894861-tighes-2014-world-cup-tactics-board-analysing-jorge-sampaolis-chile",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-12-19",
+   "eventDate": "2013",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "You also get the impression that, should La Roja fail to reclaim possession with their pressing game, they can leave themselves a little open in behind the wing-backs.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Tighe's 2014 World Cup Tactics Board: Analysing Jorge Sampaoli's Chile",
+   "url": "https://bleacherreport.com/articles/1894861-tighes-2014-world-cup-tactics-board-analysing-jorge-sampaolis-chile",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-12-19",
+   "eventDate": "2013",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Firstly, Marcelo Diaz plays as a deep-lying playmaker, setting the tempo of the game and recycling possession in midfield to keep it away from the opposition.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Spain vs. Chile: Sampaoli's High-Press, High-Intensity Strategy",
+   "url": "https://bleacherreport.com/articles/2101884-spain-vs-chile-sampaolis-high-press-high-intensity-gameplan-destroys-la-roja",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-06-18",
+   "eventDate": "2014-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Chile used a weird, wonderful 3-4-1-2 system.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Spain vs. Chile: Sampaoli's High-Press, High-Intensity Strategy",
+   "url": "https://bleacherreport.com/articles/2101884-spain-vs-chile-sampaolis-high-press-high-intensity-gameplan-destroys-la-roja",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-06-18",
+   "eventDate": "2014-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Chile pressed high up the pitch from the word go, committing men forward to closing down and appearing willing to leave gaps in midfield.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Spain vs. Chile: Sampaoli's High-Press, High-Intensity Strategy",
+   "url": "https://bleacherreport.com/articles/2101884-spain-vs-chile-sampaolis-high-press-high-intensity-gameplan-destroys-la-roja",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-06-18",
+   "eventDate": "2014-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "with Spain utilising only one striker, Gary Medel was able to commit to man-marking him most of the time.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Spain vs. Chile: Sampaoli's High-Press, High-Intensity Strategy",
+   "url": "https://bleacherreport.com/articles/2101884-spain-vs-chile-sampaolis-high-press-high-intensity-gameplan-destroys-la-roja",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-06-18",
+   "eventDate": "2014-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "In response to Spain’s quicker, more incisive football, Sampaoli withdrew his wing-backs and played, for the most part, a five-man defensive line with Mena and Mauricio Isla in alongside Medel and Co.",
+   "verified": true
+  },
+  {
+   "title": "Bleacher Report: Spain vs. Chile: Sampaoli's High-Press, High-Intensity Strategy",
+   "url": "https://bleacherreport.com/articles/2101884-spain-vs-chile-sampaolis-high-press-high-intensity-gameplan-destroys-la-roja",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-06-18",
+   "eventDate": "2014-06-18",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "WhoScored.com clocked them at just 37 percent possession—a rarity for Sampaoli’s side",
+   "verified": true
+  },
+  {
+   "title": "Emol: Sampaoli cambiaría para que Chile juegue con un estilo más cauto",
+   "url": "https://www.emol.com/noticias/deportes/2015/06/01/719429/sampaoli-cambiaria-a-que-chile-juegue-con-un-estilo-mas-cauto-en-la-copa-america.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-06-01",
+   "eventDate": "2015-06-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "el DT buscaría un sistema más cauto para así no quedar tan expuestos en los contragolpes rivales.",
+   "verified": true
+  },
+  {
+   "title": "Emol: Sampaoli cambiaría para que Chile juegue con un estilo más cauto",
+   "url": "https://www.emol.com/noticias/deportes/2015/06/01/719429/sampaoli-cambiaria-a-que-chile-juegue-con-un-estilo-mas-cauto-en-la-copa-america.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-06-01",
+   "eventDate": "2015-06-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Antes éramos más directos, pero en el Mundial aprendimos que ante las potencias debemos tener más control y mayor presión alta.",
+   "verified": true
+  },
+  {
+   "title": "Emol: Sampaoli cambiaría para que Chile juegue con un estilo más cauto",
+   "url": "https://www.emol.com/noticias/deportes/2015/06/01/719429/sampaoli-cambiaria-a-que-chile-juegue-con-un-estilo-mas-cauto-en-la-copa-america.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-06-01",
+   "eventDate": "2015-06-01",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Hemos ido evolucionando en distintos factores. Antes éramos más directos, pero en el Mundial aprendimos que ante las potencias debemos tener más control y mayor presión alta.",
+   "verified": true
+  },
+  {
+   "title": "Emol: Sampaoli es el nuevo DT de la U",
+   "url": "https://www.emol.com/noticias/deportes/2010/12/15/452950/sampaoli-es-el-nuevo-dt-de-la-u-y-no-descarta-fichar-a-macnelly-torres.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2010-12-15",
+   "eventDate": "2010-12-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "veo esta posibilidad como la más importante de mi carrera. En un equipo como la U los objetivos siempre van a ser los títulos",
+   "verified": true
+  },
+  {
+   "title": "Emol: Sampaoli es el nuevo DT de la U",
+   "url": "https://www.emol.com/noticias/deportes/2010/12/15/452950/sampaoli-es-el-nuevo-dt-de-la-u-y-no-descarta-fichar-a-macnelly-torres.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2010-12-15",
+   "eventDate": "2010-12-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "se hará una selección de los mejores juveniles, ya sea de 13 años o 18. La idea es que ellos se adapten mejor a la primera división",
+   "verified": true
+  },
+  {
+   "title": "Emol: Sampaoli es el nuevo DT de la U",
+   "url": "https://www.emol.com/noticias/deportes/2010/12/15/452950/sampaoli-es-el-nuevo-dt-de-la-u-y-no-descarta-fichar-a-macnelly-torres.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2010-12-15",
+   "eventDate": "2010-12-15",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Nosotros jugamos con un creador, por ahí puede ir la mayor necesidad. Macnelly Torres merece ser visto por su gran calidad.",
+   "verified": true
+  },
+  {
+   "title": "Cooperativa: La selección chilena tiene que jugar con 11 kamikazes",
+   "url": "https://cooperativa.cl/noticias/deportes/futbol/jorge-sampaoli/jorge-sampaoli-la-seleccion-chilena-tiene-que-jugar-con-11-kamikazes/2015-05-19/202650.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-05-19",
+   "eventDate": "2015-05-19",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "sabemos que tenemos que pensar que Chile va a jugar con 11 'kamikazes'.",
+   "verified": true
+  },
+  {
+   "title": "Cooperativa: La selección chilena tiene que jugar con 11 kamikazes",
+   "url": "https://cooperativa.cl/noticias/deportes/futbol/jorge-sampaoli/jorge-sampaoli-la-seleccion-chilena-tiene-que-jugar-con-11-kamikazes/2015-05-19/202650.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-05-19",
+   "eventDate": "2015-05-19",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Decirle a esos 11 fanáticos que se jueguen la vida por la camiseta",
+   "verified": true
+  },
+  {
+   "title": "El Dínamo: Sampaoli recuerda a jugador de la U que hizo debutar a los 15 años",
+   "url": "https://www.eldinamo.cl/deportes/2019/09/25/sampaoli-recuerda-a-jugador-de-la-u-que-hizo-debutar-a-los-15-anos/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2019-09-25",
+   "eventDate": "2012-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "siempre en todos mis lugares donde estuve debutaron chicos, inclusive en la U. de Chile debutaron chicos de 15",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Los Andes: Sampaoli, del anonimato a campeón de América",
+   "url": "https://www.losandes.com.ar/sampaoli-del-anonimato-a-campeon-de-america",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-05",
+   "eventDate": "2015-07-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Teníamos que controlar al mejor jugador del mundo, y lo hicimos con propiedad, con mucha inteligencia, con mucho sacrificio de cada jugador.",
+   "verified": true
+  },
+  {
+   "title": "Los Andes: Sampaoli, del anonimato a campeón de América",
+   "url": "https://www.losandes.com.ar/sampaoli-del-anonimato-a-campeon-de-america",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2015-07-05",
+   "eventDate": "2015-07-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Mi obligación está vinculada con este país y a muerte con estos jugadores",
+   "verified": true
+  },
+  {
+   "title": "FourFourTwo: Sampaoli steps down as Chile boss",
+   "url": "https://fourfourtwo.com/news/sampaoli-steps-down-chile-boss-0",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-01-19",
+   "eventDate": "2016-01-19",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Sampaoli subsequently claimed he was being \"held like a hostage\" by the ANFP in one of a number of subsequent interviews in which he declared his desire to leave the role, and the terms of his departure have now been agreed.",
+   "verified": true
+  },
+  {
+   "title": "FIFA.com: Sampaoli: Being rebellious an integral part of my teams",
+   "url": "https://inside.fifa.com/news/sampaoli-being-rebellious-integral-to-my-teams-2782186",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-22",
+   "eventDate": "2015",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "That’s why I made a point of trying to get in players’ minds a little, letting them know that I’m a football person 24 hours a day.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "FIFA.com: Sampaoli: Being rebellious an integral part of my teams",
+   "url": "https://inside.fifa.com/news/sampaoli-being-rebellious-integral-to-my-teams-2782186",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-22",
+   "eventDate": "2016-04-22",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "A few things I took from Marcelo Bielsa’s philosophy. When we took the job on, we tried to be as direct, aggressive and offensive as he was, though we had to try and bring in a bit of control.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "A few things I took from Marcelo Bielsa’s philosophy. When we took the job on, we tried to be as direct, aggressive and offensive as he was, though we had to try and bring in a bit of control. We started to defend a lot more with the ball, and that eventually gave the team the confidence to dictate every game and get on top of the opposition.",
+   "date": "2016-04-22",
+   "source": "https://inside.fifa.com/news/sampaoli-being-rebellious-integral-to-my-teams-2782186",
+   "provenance": "primary"
+  },
+  {
+   "quote": "veo esta posibilidad como la más importante de mi carrera. En un equipo como la U los objetivos siempre van a ser los títulos",
+   "date": "2010-12-15",
+   "source": "https://www.emol.com/noticias/deportes/2010/12/15/452950/sampaoli-es-el-nuevo-dt-de-la-u-y-no-descarta-fichar-a-macnelly-torres.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Nosotros cada vez que hablamos de los equipos que vamos a enfrentar en el torneo que se viene, donde llegan los mejores jugadores del mundo, sabemos que tenemos que pensar que Chile va a jugar con 11 'kamikazes'.",
+   "date": "2015-05-19",
+   "source": "https://cooperativa.cl/noticias/deportes/futbol/jorge-sampaoli/jorge-sampaoli-la-seleccion-chilena-tiene-que-jugar-con-11-kamikazes/2015-05-19/202650.html",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Hemos ido evolucionando en distintos factores. Antes éramos más directos, pero en el Mundial aprendimos que ante las potencias debemos tener más control y mayor presión alta.",
+   "date": "2015-06-01",
+   "source": "https://www.emol.com/noticias/deportes/2015/06/01/719429/sampaoli-cambiaria-a-que-chile-juegue-con-un-estilo-mas-cauto-en-la-copa-america.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Teníamos que controlar al mejor jugador del mundo, y lo hicimos con propiedad, con mucha inteligencia, con mucho sacrificio de cada jugador.",
+   "date": "2015-07-04",
+   "source": "https://www.losandes.com.ar/sampaoli-del-anonimato-a-campeon-de-america",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "La gran razón para venirme a Chile fue porque Bielsa estaba trabajando en el país.",
+   "date": "2016-01-08",
+   "source": "https://www.cooperativa.cl/noticias/site/artic/20160108/pags-amp/20160108164616.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Yo creo que la única forma de ser exitoso es unificando a los jugadores desde el amateurismo.",
+   "date": "2016-01-08",
+   "source": "https://www.cooperativa.cl/noticias/site/artic/20160108/pags-amp/20160108164616.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "He likes to drink and is not in control.",
+   "date": "2017-10-14",
+   "source": "https://www.si.com/soccer/2017/10/14/former-chile-manager-reveals-arturo-vidal-not-control-after-world-cup-failure",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://espndeportes.espn.com/futbol/chile/nota/_/id/15140707/sampaoli-arturo-vidal-marcelo-diaz-y-charles-aranguiz-referentes-seleccion-chilena-universidad-de-chile",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.encancha.cl/prime/entrevistas/2025/07/12/vidal-arriesgo-su-fisico-por-la-seleccion-entendimos-que-cometio-un-error-y-decidimos-mantenerlo/",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Marcelo Bielsa",
+  "Sebastian Beccacece (assistant)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Universidad de Chile",
+   "start": "2010-12-15",
+   "end": "2012-12-02",
+   "reason": "Apertura 2011, Apertura 2012 and Copa Sudamericana 2011; Bielsista high-press style with tactical coverage; led to Chile job. End date is a placeholder, see openQuestions."
+  },
+  {
+   "club": "Chile national team",
+   "start": "2012-12-03",
+   "end": "2016-01-19",
+   "reason": "2015 Copa America, 2014 World Cup round of 16, recognisable style. Start date is a placeholder, see openQuestions."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Sevilla",
+   "start": "2016",
+   "end": "2017",
+   "reason": "Not researched in this run (budget); possible inclusion, see openQuestions."
+  },
+  {
+   "club": "Argentina national team",
+   "start": "2017",
+   "end": "2018",
+   "reason": "Not researched in this run (budget); possible inclusion."
+  },
+  {
+   "club": "Santos",
+   "start": "2019",
+   "end": "2019",
+   "reason": "Not researched; no title or style coverage gathered."
+  },
+  {
+   "club": "Atletico Mineiro",
+   "start": "2020",
+   "end": "2021",
+   "reason": "Not researched; dates unverified."
+  },
+  {
+   "club": "Marseille",
+   "start": "2021",
+   "end": "2022",
+   "reason": "Not researched; dates unverified."
+  },
+  {
+   "club": "Flamengo",
+   "start": "2023",
+   "end": "2023",
+   "reason": "Not researched; short spell, dates unverified."
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B tactical pieces (Spielverlagerung, Ballverliebt, World Soccer, Bleacher Report) agree for both spells, but no tier A source; squad-building and set-pieces are thin; spell boundary dates are placeholders."
+ }
+}

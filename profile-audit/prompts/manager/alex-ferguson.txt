@@ -1,0 +1,1469 @@
+You are auditing, question by question and fully independently, the football profile "Sir Alex Ferguson" (catalog: manager) on the 12 axes of the 12axes football quiz. Answer as the manager Sir Alex Ferguson, across the spells counted in the research file (spellsCounted). Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/alex-ferguson.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
+}
+
+After writing the file, reply only with "OK manager:alex-ferguson" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (manager/alex-ferguson.json) ===
+{
+  "id": "alex-ferguson",
+  "catalog": "manager",
+  "name": "Sir Alex Ferguson",
+  "researchedOn": "2026-11-04",
+  "profilePeriod": {
+    "start": "1974-10-01",
+    "end": "2013-05-19"
+  },
+  "scopeNote": "Re-research of Sir Alex Ferguson across the three counted spells (St Mirren, Aberdeen, Manchester United), tagged by era in each source's 'era' field: aberdeen-1978-86, united-1986-93, united-1993-2001, united-2001-06, united-2006-13, united-all (career-wide statements). Coverage: Aberdeen 1978-86 is THIN and mostly anecdotal on people-management and squad-building, with one StatsBomb-based match (1983 final); no formation, pressing or marking source beyond the Wilson 4-4-2 note. United 1986-93 has shape and counter-attack facts (Wilson, Tifo) but little else. United 1993-2001 has the 1999 midfield, the 1995 cull and the 2000 Real Madrid shift to caution (Wilson, SI). United 2001-06 is thin: Queiroz's defensive stance (Irish Times, FourFourTwo) and the Mourinho-driven three-man midfield. United 2006-13 is the best covered: Meulensteen's Coaches' Voice principles (pressing, block, possession, attack), Queiroz's 2008 Barcelona block (Carrick), Rooney on the 2009/2011 finals, the 2012/13 diamond and passing data. St Mirren 1974-78 has no tactical evidence. Style label: sources call it the 4-4-2 family (4-4-1-1 with a deep second striker, lop-sided with an inside winger), moving to 4-2-3-1 and 4-3-3 after 2000; Ferguson denied playing 4-4-2 (Wilson). The popular 'United Way / attacking counter-attack' label is disputed by FourFourTwo: it argues United mostly dominated with the ball and Ferguson was a pragmatist, not a philosopher. DATES FROM MEMORY or the v1 Wikipedia table, not re-checked here: St Mirren start 1974-10-01; St Mirren end/Aberdeen start (the Aberdeen appointment was reported on 1978-06-06 per FourFourTwo, v1 used 1978-06-01); Aberdeen end 1986-10-31 and United start 1986-11-06 (Wilson confirms first game Nov 1986); United end 2013-05-19 (last match, from memory; Gulf News 2013-05-09 and Meulensteen confirm 2013 exit). Queiroz's 2002 hire is also from memory. Rooney, Carrick and Meulensteen are retrospective witnesses. No Ferguson-specific set-piece or man-versus-zonal marking source was found.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Norwich 1993: Wilson reads the win as a counter-attack (Kanchelskis goal from McClair long pass) while the Tifo transcript, citing Michael Cox, reads it as a possession game in a 4-4-2. Both are single-match readings.",
+    "Possession versus counter-attack identity: FourFourTwo (Ruthven 2019) says United mostly dominated with the ball; Wilson and Tifo describe counter-attacks and soaking pressure against rivals; Queiroz's 2005 quotes push a defensive line. Probably era-dependent.",
+    "Credit for the post-2000 caution and the 2008 European setup is split between Ferguson (Wilson) and Queiroz (Carrick, FourFourTwo).",
+    "Rooney's 'suicidal' 2009/2011 criticism is one player's retrospective view; the 2011 preview blog also blames the 2009 4-4-2.",
+    "Set-pieces and marking (man versus zonal): searched twice, nothing Ferguson-specific found (the claim that he relied on man marking was a search summary only, not read). Eurosport 1999 treble piece (set-pieces section) and the Zonal Marking 2010 Liverpool piece were unreadable.",
+    "Should the file narrow to United 1993-2013? The Aberdeen and 1986-93 evidence is mostly one-off facts; most pressing/block/possession evidence sits in 2006-13."
+  ],
+  "sources": [
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "“From a defensive point of view,” he said, “I want us to be able to press really high, press on certain players or certain areas, really aggressive.",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "“At other times, I want us to maybe drop a little bit deeper. We press in a certain area, and then maybe hit the spaces that are left to us.",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "“There might be occasions when we have to sit in and defend from a block, but then it’s all about regain and retain, making sure that we can counter from that.”",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "“And for me, the most important aspect of possession is rhythm. Look at all the top, top teams, past and present.",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "“Think forward, look forward, play forward, with the aim to break lines, find the pockets or the space in the back four, depending how deep or high the opposition are.”",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "“If centre-backs, full-backs or midfielders have time on the ball and there’s no pressure on the ball, I want to see runners. I want to see people coming from wide areas into the pockets. I want to see full-backs going forward, and wingers running in behind.”",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "“If I see United attack, I want to see us attack with pace, power, penetration and unpredictability.”",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "Sir Alex Ferguson would always say: “If you can let players play to their strengths and you can empower them, they will take control of the game. They’re good enough to do that.”",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "Take the 4-3-3. That would be executed completely differently if we played with Ryan Giggs on the left and, let’s say, Cristiano Ronaldo on the right, compared with Antonio Valencia on the right and maybe Nani on the left.",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson's tactical principles - Coaches' Voice (Meulensteen)",
+      "url": "https://learning.coachesvoice.com/?p=71962",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-01-05",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "He had that flexibility with the players. He didn’t spoon feed them.",
+      "verified": true,
+      "note": "Meulensteen (first-team coach from 2008) recalling Ferguson's flip-chart briefing; retrospective, attributed to Ferguson by his coach"
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "The Aberdeen side that won the Cup Winners’ Cup final against Real Madrid in 1983, for instance, was set up in the lop-sided 4-4-2 familiar in Britain at the time with Gordon Strachan tucked in on the right side of midfield, Peter Weir as a more attacking winger on the left, and Eric Black dropping off the central striker Mark McGhee.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1986-11",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "Ferguson’s first game in charge of United, against Oxford in November 1986, was similar in shape, with Clayton Blackmore an industrious and not overly creative right-sided midfielder, Peter Barnes a more flamboyant presence on the left and Peter Davenport supporting the main striker Frank Stapleton.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1990/91",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "In the Cup Winners’ Cup final in 1991, for instance, when United beat Barcelona, Ferguson fielded something that today would probably be regarded as a 4-2-3-1",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1992/93",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "The team that developed from that one was a side of great pace: with Kanchelskis, Lee Sharpe and Ryan Giggs they scored a lot of goals on the counter-attack, something that first emerged in 1992-93 as United won their first title for 26 years.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1992/93",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "The team that developed from that one was a side of great pace: with Kanchelskis, Lee Sharpe and Ryan Giggs they scored a lot of goals on the counter-attack",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1998/99",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "Cantona had gone, but the dynamic of Dwight Yorke and Andy Cole was similar to that between Cantona and Hughes, with a highly energetic and creative midfield of, from right to left: David Beckham, Roy Keane, Paul Scholes and Giggs.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1999/00",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "“One of the forceful reminders delivered by that defeat was that consistent success in Europe would be more readily achieved if we improved our capacity to defend against the counter-attack,” he said. Rather than having 15 chances and allowing the opponent five, from then, in Europe particularly, Ferguson preferred to have five chances and given the opponent none.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1999/00",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "Perhaps Sir Alex Ferguson’s greatest gift, certainly the one that has maintained him at the top of the British game for 35 years, has been his ability to evolve. No side he has had has ever been good enough to satisfy him; he has always been willing to cut and adapt.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1999/00",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "When fans, frustrated by his tinkering, started chanting “4-4-2, 4-4-2” in the first years of that tactical transition, Ferguson replied that he had never played 4-4-2.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1994/95",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "culling Paul Ince, Mark Hughes and Andriy Kanchelskis after United had lost in the 1995 FA Cup final having finished second in the league that season",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1994/95",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "culling Paul Ince, Mark Hughes and Andriy Kanchelskis after United had lost in the 1995 FA Cup final having finished second in the league that season",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "1989/90",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "in dropping Jim Leighton after the 1990 FA Cup final, bringing in Les Sealey for the replay",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "2006/07",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "They played their usual 4-4-1-1: Cristiano Ronaldo and Giggs providing the width, with Darren Fletcher and Michael Carrick deep in the centre of midfield, where Rooney, dropping off the centre-forward Alan Smith, would occasionally join them.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "United regularly played with no obvious front-man, with the front four taking it in turns to become the de facto striker.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "In that final, he used Owen Hargreaves wide on the right, presumably to pen in Ashley Cole, Chelsea’s full-back, while Ronaldo was used on the left, perhaps to try to exploit Michael Essien, a midfielder being used at right-back.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson)",
+      "url": "https://gulfnews.com/sport/football/sir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2013-05-09",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Oddly, in the Champions League final against Chelsea that year, United reverted to a typical, almost old-fashioned, 4-4-2",
+      "verified": true
+    },
+    {
+      "title": "Queiroz on the offensive over defensive tactics (Irish Times)",
+      "url": "https://www.irishtimes.com/sport/queiroz-on-the-offensive-over-defensive-tactics-1.510798",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2005-10-26",
+      "eventDate": "2005/06",
+      "era": "united-2001-06",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "“All great winning teams, attacking teams, they have a defensive approach. Look at the Chicago Bulls in basketball. They were the best attacking team in the league yet they won all their trophies in terms of their defensive approach to the game. The more you defend and the better you defend, the easier it is to attack.”",
+      "verified": true,
+      "note": "Said by assistant Queiroz, not Ferguson"
+    },
+    {
+      "title": "Queiroz on the offensive over defensive tactics (Irish Times)",
+      "url": "https://www.irishtimes.com/sport/queiroz-on-the-offensive-over-defensive-tactics-1.510798",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2005-10-26",
+      "eventDate": "2005/06",
+      "era": "united-2001-06",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "Queiroz is behind the 4-3-2-1 system implemented to prolong Roy Keane’s playing career at the club, leading to fewer goals conceded and scored, and fuelling the argument United are no longer the Premiership’s great entertainers.",
+      "verified": true
+    },
+    {
+      "title": "Rooney says Ferguson's 'suicidal' tactics (Goal.com)",
+      "url": "https://www.goal.com/en/news/rooney-suicidal-tactics-man-utd-champions-league-final/1wi96hisccgwm1r9v6mztaj4jd",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-02",
+      "eventDate": "2008/09",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "“But we lost two Champions League finals going toe-to-toe with Guardiola’s Barcelona, by trying to press high and get round them, which was suicidal.",
+      "verified": true,
+      "retrospectiveOnly": true,
+      "note": "Rooney's retrospective opinion (Sunday Times, 2020) on the 2009 and 2011 finals"
+    },
+    {
+      "title": "Rooney says Ferguson's 'suicidal' tactics (Goal.com)",
+      "url": "https://www.goal.com/en/news/rooney-suicidal-tactics-man-utd-champions-league-final/1wi96hisccgwm1r9v6mztaj4jd",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-02",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "United set up to frustrate the Spanish giants and look for openings on the break, which proved to be an effective strategy as they minimised the threat of talismanic trio Lionel Messi, Samuel Eto'o and Andres Iniesta over the two legs.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Michael Carrick Reveals How Carlos Queiroz Nullified The Threat Of Barca In 2008 (Balls.ie)",
+      "url": "https://www.balls.ie/football/michael-carrick-carlos-queiroz-barca-2008-364029",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-04-29",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "We played 4-4-2, two banks of four, blocked off that space, got a 0-0 draw at Barcelona and obviously managed to beat them at Old Trafford.",
+      "verified": true,
+      "retrospectiveOnly": true,
+      "note": "Carrick (player) recalling Queiroz's session, ~2008-04"
+    },
+    {
+      "title": "Michael Carrick Reveals How Carlos Queiroz Nullified The Threat Of Barca In 2008 (Balls.ie)",
+      "url": "https://www.balls.ie/football/michael-carrick-carlos-queiroz-barca-2008-364029",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-04-29",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Literally for about five minutes he’s just said don’t let the ball get on those mats, so straight away you switch on and you’re blocking that space off",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "United's forwards destroy Marseille (Jonathan Wilson, SI)",
+      "url": "https://www.si.com/more-sports/2011/03/17/cl-tacticalreview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-17",
+      "eventDate": "2010/11",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "But look at the heat-maps and the uniqueness of Rooney's play is revealed. He dropped so deep at times that his average position was in a line with Nani and Ryan Giggs",
+      "verified": true
+    },
+    {
+      "title": "United's forwards destroy Marseille (Jonathan Wilson, SI)",
+      "url": "https://www.si.com/more-sports/2011/03/17/cl-tacticalreview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-17",
+      "eventDate": "2007/08",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "the game that prompted Ferguson's decision to use Ronaldo centrally and Rooney wide, because Rooney could be relied upon to perform his defensive work diligently",
+      "verified": true
+    },
+    {
+      "title": "United's forwards destroy Marseille (Jonathan Wilson, SI)",
+      "url": "https://www.si.com/more-sports/2011/03/17/cl-tacticalreview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-17",
+      "eventDate": "1999/00",
+      "era": "united-1993-2001",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "He was moved to act after the Champions League quarterfinal in 2000, in which United drew 0-0 away to Real Madrid, but were beaten 3-2 at home, their relative openness exposed repeatedly despite the comparative evenness of the game.",
+      "verified": true
+    },
+    {
+      "title": "United's forwards destroy Marseille (Jonathan Wilson, SI)",
+      "url": "https://www.si.com/more-sports/2011/03/17/cl-tacticalreview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-17",
+      "eventDate": "2010/11",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "although United had 57 percent of possession, both teams mustered 10 shots on goal.",
+      "verified": true
+    },
+    {
+      "title": "Champions League final 2011: tactical preview (Rant / nqatpod)",
+      "url": "https://web.archive.org/web/2/https://www.nqatpod.com/opinion/champions-league-final-2011-tactical-preview/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-23",
+      "eventDate": "2010/11",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "With United generally being more defensive in Europe than in domestic games – Ferguson’s side is yet to concede away from home in the Champions League",
+      "verified": true
+    },
+    {
+      "title": "Champions League final 2011: tactical preview (Rant / nqatpod)",
+      "url": "https://web.archive.org/web/2/https://www.nqatpod.com/opinion/champions-league-final-2011-tactical-preview/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-23",
+      "eventDate": "2010/11",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "Given Sir Alex’s usual tactics over the years, Park will almost certainly be deployed to do a defensive job on the Brazilian.",
+      "verified": true,
+      "note": "Predictive, blogger's reading of Ferguson's habit"
+    },
+    {
+      "title": "How Sir Alex Ferguson Has Changed Manchester United's Tactics This Season (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1575903-how-sir-alex-ferguson-has-changed-manchester-uniteds-tactics-this-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-02",
+      "eventDate": "2012/13",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "The 4-2-3-1 remains his preferred setup of choice, but he also hasn't been afraid to dabble in formations not usually associated with the Red Devils.",
+      "verified": true
+    },
+    {
+      "title": "How Sir Alex Ferguson Has Changed Manchester United's Tactics This Season (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1575903-how-sir-alex-ferguson-has-changed-manchester-uniteds-tactics-this-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-02",
+      "eventDate": "2012/13",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "Last term, of all the Red Devils' open-play passes, 41 percent of them were made in a forward direction. This season, that statistic has dropped to 31 percent, with the difference adding on to passes made to the flanks.",
+      "verified": true,
+      "note": "Article metadata date 2018-06-08 is a republication; text refers to the 2012/13 season"
+    },
+    {
+      "title": "How Sir Alex Ferguson Has Changed Manchester United's Tactics This Season (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1575903-how-sir-alex-ferguson-has-changed-manchester-uniteds-tactics-this-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-02",
+      "eventDate": "2012/13",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "width",
+      "evidence": "A natural consequence of the formation is a lack of width, but full-backs Patrice Evra and Rafael were able to bomb up and down the flanks more than usual",
+      "verified": true
+    },
+    {
+      "title": "EPL 2013-14 Season Preview - Manchester United (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/epl-2013-14-season-preview-manchester-united/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2013-08-08",
+      "eventDate": "2012/13",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "The stuff Manchester United were doing offensively under Alex Ferguson was analytically unique across the entirety of Europe. The vast majority of teams rely on shooting the ball as much as possible while trying to make the opponent shoot as little as possible. But not all.",
+      "verified": true,
+      "note": "Digest shows one paragraph; the page's conclusion on what made it unique was not read in full"
+    },
+    {
+      "title": "How Alex Ferguson Tactically Adapted at Manchester United (Tifo / The Athletic, caption transcript on rosetta.to)",
+      "url": "https://rosetta.to/u/tifo/how-alex-ferguson-tactically-adapted-at-manchester-united",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-12-14",
+      "eventDate": "1992/93",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "set up in a 442 but unusually for the time they played a possession based game focused on keeping the ball in midfield and moving the opposition around to create gaps",
+      "verified": true,
+      "note": "Auto-generated caption transcript; cites Michael Cox. Conflicts with Wilson's counter-attack reading of the same Norwich game"
+    },
+    {
+      "title": "How Alex Ferguson Tactically Adapted at Manchester United (Tifo / The Athletic, caption transcript on rosetta.to)",
+      "url": "https://rosetta.to/u/tifo/how-alex-ferguson-tactically-adapted-at-manchester-united",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-12-14",
+      "eventDate": "1992/93",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "he picked on opposition strengths and often set up to nullify particularly against direct rivals allowing his team to soak up pressure and hit teams on the counter",
+      "verified": true
+    },
+    {
+      "title": "How Alex Ferguson Tactically Adapted at Manchester United (Tifo / The Athletic, caption transcript on rosetta.to)",
+      "url": "https://rosetta.to/u/tifo/how-alex-ferguson-tactically-adapted-at-manchester-united",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-12-14",
+      "eventDate": "2004/05",
+      "era": "united-2001-06",
+      "accessedOn": "2026-11-04",
+      "dimension": "shape",
+      "evidence": "After struggling against Jose Mourinho's 4-3-3 system, Ferguson adopted a three-man midfield, mirroring Chelsea's successful approach.",
+      "verified": true,
+      "note": "Date inferred from Chelsea's 2004/05 arrival; transcript gives no season"
+    },
+    {
+      "title": "Unpopular Opinion: Why the 'Manchester United Way' is becoming the biggest myth (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/unpopular-opinion-why-manchester-united-way-biggest-myth-english-football-ferguson-solskjaer",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-04-05",
+      "eventDate": "2002/03",
+      "era": "united-2001-06",
+      "accessedOn": "2026-11-04",
+      "dimension": "defensive-block",
+      "evidence": "Ferguson was never a philosopher like Johan Cruyff or Pep Guardiola. In fact, there were times when he was a pragmatist, like when he acknowledged the need to hire Carlos Queiroz to help with defensive organisation in Europe.",
+      "verified": true,
+      "retrospectiveOnly": true,
+      "note": "Queiroz hire year (2002) not in the page; from memory"
+    },
+    {
+      "title": "Unpopular Opinion: Why the 'Manchester United Way' is becoming the biggest myth (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/unpopular-opinion-why-manchester-united-way-biggest-myth-english-football-ferguson-solskjaer",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-04-05",
+      "eventDate": "2012/13",
+      "era": "united-all",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "But United generally dominated games with the ball at their feet. They smothered opponents with possession, not quite in the way that Guardiola’s great Barcelona team used to, but one where they took complete control of contests.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Unpopular Opinion: Why the 'Manchester United Way' is becoming the biggest myth (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/unpopular-opinion-why-manchester-united-way-biggest-myth-english-football-ferguson-solskjaer",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-04-05",
+      "eventDate": "2012/13",
+      "era": "united-all",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "Suggestions that Ferguson’s teams based their entire strategy around fast breaks are yet another sign of the fabled ‘United Way’ contortion.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Evolution of Manchester United Coaching and Training from Busby to Ferguson (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1684604-the-evolution-of-manchester-united-coaching-and-training-from-busby-to-ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-07",
+      "eventDate": "1986-11",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "“Fitness levels needed to be improved rapidly,” recalled Ferguson in his autobiography Managing My Life. “Two or three of the senior players were in pretty poor shape and fitness grades generally were considerably below what they should have been. The whole place had become a little slack.”",
+      "verified": true,
+      "note": "Quotes Managing My Life (1999) at second hand"
+    },
+    {
+      "title": "The Evolution of Manchester United Coaching and Training from Busby to Ferguson (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1684604-the-evolution-of-manchester-united-coaching-and-training-from-busby-to-ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-07",
+      "eventDate": "1986/87",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "“I believed strongly that being able to pass the ball well was crucial and I don’t think there was a training session that did not incorporate passing.",
+      "verified": true,
+      "note": "Managing My Life quote at second hand; passage on the 1986 arrival; training-ground passing emphasis"
+    },
+    {
+      "title": "The Evolution of Manchester United Coaching and Training from Busby to Ferguson (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1684604-the-evolution-of-manchester-united-coaching-and-training-from-busby-to-ferguson",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-07",
+      "eventDate": "1986/87",
+      "era": "united-1986-93",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "“Forget all the nonsense about altering training programmes to keep players happy.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex leads the way (Harvard Gazette)",
+      "url": "https://news.harvard.edu/gazette/story/2012/12/sir-alex-leads-the-way/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-12-17",
+      "eventDate": "2012/13",
+      "era": "united-all",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "If you look at my history, there’s all this hype about hair dryers and anger and so on. But the students acknowledged another side to it, which is more apt in terms of how I have fostered relations with people and developed the team over the years.",
+      "verified": true
+    },
+    {
+      "title": "Sir Alex leads the way (Harvard Gazette)",
+      "url": "https://news.harvard.edu/gazette/story/2012/12/sir-alex-leads-the-way/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-12-17",
+      "eventDate": "2012/13",
+      "era": "united-all",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "The wide-ranging discussions touched on such topics as Ferguson’s expansion of the club’s youth system, his willingness to invest in top talent from other clubs, and the nature of his management style.",
+      "verified": true
+    },
+    {
+      "title": "An Excerpt From 'Leading' (WBUR)",
+      "url": "https://www.wbur.org/onlyagame/2015/12/04/excerpt-book-alex-ferguson-leading",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-12-04",
+      "eventDate": "2012/13",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "As the years have gone by, I have found that my appetite for, and appreciation of, youthful enthusiasm has only grown. Young people will always manage to achieve the impossible",
+      "verified": true
+    },
+    {
+      "title": "René Meulensteen on life at Man Utd (Planet Football)",
+      "url": "https://www.planetfootball.com/in-depth/rene-meulensteen-fergie-was-the-joker-at-man-utd-i-was-never-anxious-there",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-05-08",
+      "eventDate": "2011/12",
+      "era": "united-2006-13",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "“There was a unique harmony among the players and staff and there was no envy or jealousy as we were all pulling together.",
+      "verified": true
+    },
+    {
+      "title": "Does data back up Fergie's 'could have been five or six' (Press and Journal, StatsBomb data)",
+      "url": "https://web.archive.org/web/2/https://www.pressandjournal.co.uk/fp/sport/football/aberdeen-fc/5714314/stats-does-data-back-up-fergies-could-have-been-five-or-six-aberdeen-v-real-madrid-assessment/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-05-11",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "possession",
+      "evidence": "In fact, on the night, the Reds actually trailled Los Blancos significantly when it came to possession (40% to 60%) and in pressuring their rivals to regain possession (44 times against Real’s 57 pressure regains).",
+      "verified": true
+    },
+    {
+      "title": "Does data back up Fergie's 'could have been five or six' (Press and Journal, StatsBomb data)",
+      "url": "https://web.archive.org/web/2/https://www.pressandjournal.co.uk/fp/sport/football/aberdeen-fc/5714314/stats-does-data-back-up-fergies-could-have-been-five-or-six-aberdeen-v-real-madrid-assessment/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-05-11",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "transitions",
+      "evidence": "Real Madrid defender John Metgod suggested to The P&J the conditions on the night in Sweden were more suited to Aberdeen’s approach of getting the ball forward quickly.",
+      "verified": true
+    },
+    {
+      "title": "Does data back up Fergie's 'could have been five or six' (Press and Journal, StatsBomb data)",
+      "url": "https://web.archive.org/web/2/https://www.pressandjournal.co.uk/fp/sport/football/aberdeen-fc/5714314/stats-does-data-back-up-fergies-could-have-been-five-or-six-aberdeen-v-real-madrid-assessment/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-05-11",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "pressing",
+      "evidence": "Aberdeen were also behind on tackles won (47 to 94)",
+      "verified": true
+    },
+    {
+      "title": "Does data back up Fergie's 'could have been five or six' (Press and Journal, StatsBomb data)",
+      "url": "https://web.archive.org/web/2/https://www.pressandjournal.co.uk/fp/sport/football/aberdeen-fc/5714314/stats-does-data-back-up-fergies-could-have-been-five-or-six-aberdeen-v-real-madrid-assessment/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-05-11",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "set-pieces",
+      "evidence": "StatsBomb, experts in chances which tend to – and tend not to – lead to goals, rated the set-piece opportunity at just 0.05xG.",
+      "verified": true,
+      "note": "Opponent's late free-kick in the final; one match, not evidence of Aberdeen set-piece design"
+    },
+    {
+      "title": "Does data back up Fergie's 'could have been five or six' (Press and Journal, StatsBomb data)",
+      "url": "https://web.archive.org/web/2/https://www.pressandjournal.co.uk/fp/sport/football/aberdeen-fc/5714314/stats-does-data-back-up-fergies-could-have-been-five-or-six-aberdeen-v-real-madrid-assessment/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-05-11",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "their fitness seeing them take a stronger grip on proceedings in the latter stages.",
+      "verified": true
+    },
+    {
+      "title": "ACTION REPLAY Tantrums and teacups: Fergie at Aberdeen (FourFourTwo)",
+      "url": "https://fourfourtwo.com/features/action-replay-tantrums-and-teacups-fergie-aberdeen",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-10",
+      "eventDate": "1979/80",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "player-profile",
+      "evidence": "He seemed, even back then, to like mobile full-backs, midfield steel and a wide left player,",
+      "verified": true,
+      "note": "Pat Stanton, assistant for the first title; page has mojibake quote marks"
+    },
+    {
+      "title": "ACTION REPLAY Tantrums and teacups: Fergie at Aberdeen (FourFourTwo)",
+      "url": "https://fourfourtwo.com/features/action-replay-tantrums-and-teacups-fergie-aberdeen",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-10",
+      "eventDate": "1978/79",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "he was clever enough not to go out and just buy.",
+      "verified": true,
+      "note": "Ricky McFarlane on Ferguson's first year at Aberdeen"
+    },
+    {
+      "title": "ACTION REPLAY Tantrums and teacups: Fergie at Aberdeen (FourFourTwo)",
+      "url": "https://fourfourtwo.com/features/action-replay-tantrums-and-teacups-fergie-aberdeen",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-10",
+      "eventDate": "1980/81",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "He knew that different players thrived under different styles of management.",
+      "verified": true
+    },
+    {
+      "title": "ACTION REPLAY Tantrums and teacups: Fergie at Aberdeen (FourFourTwo)",
+      "url": "https://fourfourtwo.com/features/action-replay-tantrums-and-teacups-fergie-aberdeen",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-10",
+      "eventDate": "1980/81",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "game-management",
+      "evidence": "He can remember every kick of the ball, which means he can adapt quickly to changes in a game.",
+      "verified": true
+    },
+    {
+      "title": "The Fergie creed: Beat the Old Firm (Scotsman)",
+      "url": "https://www.scotsman.com/sport/sport-opinion/the-fergie-creed-beat-the-old-firm-in-their-own-backyards-silence-60000-glaswegians-3172817",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-21",
+      "eventDate": "1980/81",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "Stark remembered that Fergie wanted two trophies per season, minimum.",
+      "verified": true
+    },
+    {
+      "title": "The Fergie creed: Beat the Old Firm (Scotsman)",
+      "url": "https://www.scotsman.com/sport/sport-opinion/the-fergie-creed-beat-the-old-firm-in-their-own-backyards-silence-60000-glaswegians-3172817",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-21",
+      "eventDate": "1980/81",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "An older, grumblier group he dubbed the “Westhill Willy-biters” were moved on.",
+      "verified": true,
+      "note": "Year approximate; page gives an autumn Hogmanay-party row, no year"
+    },
+    {
+      "title": "Mark McGhee: Fergie didn't use a hairdryer (Scotsman)",
+      "url": "https://www.scotsman.com/node/4133379",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-05-07",
+      "eventDate": "1980/81",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "people-management",
+      "evidence": "“He might have been the biggest bully in the world. Did we ever call him a bully? No, to us he was someone who pushed us to different levels and thank goodness we met him.”",
+      "verified": true
+    },
+    {
+      "title": "The greatest day of Ferguson's Aberdeen revolution (Scotsman)",
+      "url": "https://www.scotsman.com/sport/football/the-greatest-day-of-fergusons-aberdeen-revolution-1575708",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-11",
+      "eventDate": "1982/83",
+      "era": "aberdeen-1978-86",
+      "accessedOn": "2026-11-04",
+      "dimension": "build-up",
+      "evidence": "He laid on the assist for the assist in the build-up to the extra-time winner, dancing around two or three opponents on the left wing, before clipping a ball into McGhee’s path.",
+      "verified": true
+    },
+    {
+      "title": "The greatest day of Ferguson's Aberdeen revolution (Scotsman)",
+      "url": "https://www.scotsman.com/sport/football/the-greatest-day-of-fergusons-aberdeen-revolution-1575708",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-05-11",
+      "eventDate": "2012/13",
+      "era": "united-all",
+      "accessedOn": "2026-11-04",
+      "dimension": "squad-building",
+      "evidence": "hence his careful nurturing of the likes of Ryan Giggs",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "I want us to be able to press really high, press on certain players or certain areas, really aggressive. ... At other times, I want us to maybe drop a little bit deeper ... There might be occasions when we have to sit in and defend from a block, but then it’s all about regain and retain, making sure that we can counter from that.",
+      "date": "2008",
+      "source": "Coaches' Voice, Meulensteen recalling Ferguson's flip-chart briefing",
+      "provenance": "attributed",
+      "era": "united-2006-13"
+    },
+    {
+      "quote": "Possession is key... That's how you take the initiative.",
+      "date": "2008",
+      "source": "Coaches' Voice (Meulensteen)",
+      "provenance": "attributed",
+      "era": "united-2006-13"
+    },
+    {
+      "quote": "If I see United attack, I want to see us attack with pace, power, penetration and unpredictability.",
+      "date": "2008",
+      "source": "Coaches' Voice (Meulensteen)",
+      "provenance": "attributed",
+      "era": "united-2006-13"
+    },
+    {
+      "quote": "One of the forceful reminders delivered by that defeat was that consistent success in Europe would be more readily achieved if we improved our capacity to defend against the counter-attack",
+      "date": "2000",
+      "source": "Jonathan Wilson via Gulf News, 2013-05-09 (original book not identified)",
+      "provenance": "attributed",
+      "era": "united-1993-2001"
+    },
+    {
+      "quote": "he had never played 4-4-2",
+      "date": "2000",
+      "source": "Gulf News/Wilson: Ferguson's reply to fans chanting 4-4-2 (indirect speech; Wilson doubts it strictly)",
+      "provenance": "attributed",
+      "era": "united-1993-2001"
+    },
+    {
+      "quote": "It is revolutionary because we're going against our history",
+      "date": "2012-11",
+      "source": "Bleacher Report citing The Guardian",
+      "provenance": "attributed",
+      "era": "united-2006-13"
+    },
+    {
+      "quote": "we're Man United and we're going to attack, it's in the culture of this football club",
+      "date": "2009",
+      "source": "Wayne Rooney recalling Ferguson, Sunday Times 2020 (via Goal.com); Rooney calls the approach 'suicidal'",
+      "provenance": "attributed",
+      "era": "united-2006-13"
+    },
+    {
+      "quote": "If you look at my history, there’s all this hype about hair dryers and anger and so on. But the students acknowledged another side to it, which is more apt in terms of how I have fostered relations with people and developed the team over the years. The reality is not always how the press portray it.",
+      "date": "2012-12-17",
+      "source": "Harvard Gazette",
+      "provenance": "primary",
+      "era": "united-all"
+    },
+    {
+      "quote": "As the years have gone by, I have found that my appetite for, and appreciation of, youthful enthusiasm has only grown. Young people will always manage to achieve the impossible",
+      "date": "2015-12-04",
+      "source": "Leading excerpt, WBUR",
+      "provenance": "primary",
+      "era": "united-all"
+    },
+    {
+      "quote": "“Good coaching relies on repetition,” ... “I believed strongly that being able to pass the ball well was crucial and I don’t think there was a training session that did not incorporate passing.",
+      "date": "1999",
+      "source": "Managing My Life quoted by Bleacher Report 2013",
+      "provenance": "attributed",
+      "era": "united-1986-93"
+    },
+    {
+      "quote": "We actually battered them, we played them off the park and it could have been five or six.",
+      "date": "2023-05-11",
+      "source": "Press and Journal interview series for the 40th anniversary of Gothenburg",
+      "provenance": "primary",
+      "era": "aberdeen-1978-86"
+    }
+  ],
+  "spellsCounted": [
+    {
+      "club": "St Mirren",
+      "start": "1974-10-01",
+      "end": "1978-05-31",
+      "reason": "First Division champions 1977; promotion to the Premier Division. Dates from v1/memory; no tactical evidence found."
+    },
+    {
+      "club": "Aberdeen",
+      "start": "1978-06-06",
+      "end": "1986-11-05",
+      "reason": "Three league titles, four Scottish Cups, 1983 Cup Winners' Cup. Appointment reported 6 June 1978 (FourFourTwo); end from v1/memory."
+    },
+    {
+      "club": "Manchester United",
+      "start": "1986-11-06",
+      "end": "2013-05-19",
+      "reason": "Thirteen Premier League titles, five FA Cups, two Champions Leagues. Start from v1; end from memory."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "East Stirlingshire",
+      "start": "1974-06-01",
+      "end": "1974-09-30",
+      "reason": "Short spell (about four months per FourFourTwo), no titles."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://pressandjournal.co.uk/fp/nostalgia/3119836/alex-ferguson-excelled-at-manchester-united-but-his-true-greatness-shone-in-aberdeen",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.zonalmarking.net/2010/09/19/manchester-united-3-2-liverpool-tactics-berbatov/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.eurosport.co.uk/football/champions-league/2018-2019/manchester-united-and-the-1998-99-treble-that-night-in-barcelona_sto7286033/story.shtml",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.nqatpod.com/opinion/ferguson-4-2-3-1-a-love-affair/",
+      "reason": "404"
+    },
+    {
+      "url": "https://tomkinstimes.com/2011/03/liverpool-vs-man-utd-in-depth-tactical-analysis",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://beyondthelastman.com/2021/11/10/scotland-vintage-1977-87-when-fergie-mclean-challenged-the-established-order/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.manutd.com/en/news/detail/lifeblood-how-sir-alex-rejuvenated-the-manchester-united-academy",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.inkl.com/news/sir-alex-ferguson-used-surprise-position-switch-with-man-utd-player-to-beat-barcelona",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "Matt Busby (youth and attacking tradition, per Harvard/BR sources)",
+    "Carlos Queiroz (assistant 2002-08, European defensive organisation)",
+    "Archie Knox (Aberdeen assistant)",
+    "Rene Meulensteen (first-team coach 2008-13)"
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Several tier A-B sources for United 2006-13 and the 1983 final, but Aberdeen 1978-86 and United 1986-93/2001-06 rest on tier C press, retrospective players and one-match readings; no set-piece or marking evidence."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+2. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+3. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+4. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+5. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+2. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+3. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+4. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+5. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+2. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+3. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+4. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+5. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+2. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+3. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+4. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+5. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+2. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+3. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+4. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+5. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+2. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+3. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+4. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+5. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+2. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+3. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+4. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+5. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+2. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+3. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+4. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+5. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+2. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+3. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+4. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+5. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+2. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+3. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+4. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+5. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+2. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+3. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+4. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+5. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+2. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+3. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.
+4. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+5. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

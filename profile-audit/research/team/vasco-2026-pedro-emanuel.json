@@ -1,0 +1,297 @@
+{
+  "id": "vasco-2026-pedro-emanuel",
+  "catalog": "team",
+  "name": "Vasco 2026 (Pedro Emanuel)",
+  "researchedOn": "2026-10-12",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2026-07-11",
+    "end": "ongoing"
+  },
+  "scopeNote": "Vasco da Gama in calendar year 2026, only the Pedro Emanuel part: from his appointment (announced 2026-07-10, in charge from 2026-07-11 per the Wikipedia season infobox; debut Vitória 1-0 Vasco, Brasileirão round 19, 2026-07-16) to the present (last match read: Botafogo 1-2 Vasco, round 29, 2026-10-07). Brasileirão, Copa do Brasil and Copa Sul-Americana. The earlier 2026 spells under Fernando Diniz and Renato Gaúcho are excluded, as the user asked for Pedro Emanuel. Spell is ongoing, so the profile can change. About 21+ competitive matches by 2026-10-07 (10 cup matches by 2026-09-16 plus league rounds 19-29).",
+  "managers": [
+    {
+      "managerId": "pedro-emanuel",
+      "start": "2026-07-11",
+      "end": "ongoing"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The spell is ongoing (Vasco still in the league relegation fight per mid-September reports, unbeaten in the cups): confirm whether to freeze the profile at a date or update it at season end.",
+    "Only one tactical analysis (VAVEL, Fluminense 3-1, 2026-08-05) describes shape, block and marking: the 4-2-3-1 / 4-1-4-1 mid-high block with individual marking may be a match-specific plan rather than the norm. Confirm with more match analyses if possible.",
+    "Is the id vasco-2026-pedro-emanuel acceptable, or should it be vasco-2026 (which would suggest the whole year, including Diniz and Renato)?",
+    "Search summary said Pedro Emanuel named Abel Ferreira as a reference at his presentation; not read on a page, so not recorded as an influence."
+  ],
+  "sources": [
+    {
+      "title": "Vitória x Vasco: onde assistir, horário e escalações do jogo do Brasileirão",
+      "url": "https://olhardigital.com.br/2026/07/16/internet-e-redes-sociais/vitoria-x-vasco-onde-assistir-horario-e-escalacoes-do-jogo-do-brasileirao-2/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-07-16",
+      "eventDate": "2026-07-16",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "Debut date: \"16/07 (quinta-feira)\", \"19h30\", \"19ª rodada\". Hired \"durante a pausa do calendário para a Copa do Mundo\", with \"menos de uma semana para preparar a equipe\". Probable XI (no formation named): \"Léo Jardim; Puma Rodríguez, Carlos Cuesta, Robert Renan e Lucas Piton; Barros, Thiago Mendes e Tchê Tchê; Nuno Moreira, Spinelli e David.\"",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil e deixa Fluminense mais próximo de crise",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "shape",
+      "evidence": "One match (Vasco 3-1 Fluminense, Copa do Brasil round of 16 second leg): \"O Vasco de Pedro Emanuel entrou em campo em um 4-2-3-1 com a bola, transformando-se em um rigoroso 4-1-4-1 em bloco médio/alto sem a bola\".",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil e deixa Fluminense mais próximo de crise",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "\"encaixando marcações individuais que asfixiaram a saída de bola tricolor.\" \"A trinca de meio-campo formada por Jair, Tchê Tchê e Thiago Mendes esmagou a criação do Fluminense\", \"impedindo a equipe de Zubeldía de ultrapassar o meio-campo nos primeiros 10 minutos.\" One match only.",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil e deixa Fluminense mais próximo de crise",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "\"rigoroso 4-1-4-1 em bloco médio/alto sem a bola\", with \"marcações individuais\". Late on: \"Na reta final, montou uma linha de 5 defensores reforçada por Puma Rodríguez na ala/ponta.\"",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil e deixa Fluminense mais próximo de crise",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "transitions",
+      "evidence": "\"a postura muito adiantada do Tricolor abriu o corredor para o contragolpe fatal\": \"Andrés Gómez arrancou pela ponta e cruzou rasteiro para Brenner ampliar para 2 a 0\".",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil e deixa Fluminense mais próximo de crise",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "width",
+      "evidence": "\"o Vasco articulava o jogo com Andrés Gómez pela esquerda\" \"e ultrapassagens constantes de Paulo Henrique pela direita\".",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil e deixa Fluminense mais próximo de crise",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "\"toda a organização tática que neutralizou o sistema de Luís Zubeldía\". \"Pedro Emanuel foi cirúrgico: sacou Nuno Moreira e Jair para fechar a casa com Cauan Barros e Adson.\" Late switch to a back five to protect the lead.",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Vasco 0 x 3 Santos",
+      "url": "https://netvasco.com.br/n/390556/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-3-santos",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-16",
+      "eventDate": "2026-08-16",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Pedro Emanuel: \"nós tivemos 23 recuperações no campo ofensivo.\" Late in the match \"a nossa pressão já não estava coordenada, porque já estávamos emocionalmente mais abatidos.\"",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Vasco 0 x 3 Santos",
+      "url": "https://netvasco.com.br/n/390556/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-3-santos",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-16",
+      "eventDate": "2026-08-16",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "Game plan against Santos: \"Nos preparamos para ter a bola e não permitir contra-ataques.\"",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Vasco 0 x 3 Santos",
+      "url": "https://netvasco.com.br/n/390556/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-3-santos",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-16",
+      "eventDate": "2026-08-16",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "On academy players: \"Mas não quero queimar etapas.\" On rotation: \"Naturalmente vamos tentando pôr a equipe mais fresca em cada jogo.\"",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Vasco 1 x 0 Independiente Medellín",
+      "url": "https://www.netvasco.com.br/n/389307/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-1-x-0-independiente-medellin",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-07-29",
+      "eventDate": "2026-07-29",
+      "accessedOn": "2026-10-12",
+      "dimension": "possession",
+      "evidence": "\"Eu quero tornar essa posse de bola mais objetiva, e a transição ofensiva faz parte do jogo.\" \"Precisamos ser um bocadinho mais objetivos quando alcançamos ali momentos no meio, entrelinhas, quando estamos flutuando.\" Recovery: \"fomos fantásticos na recuperação, porque os jogadores estão comprometidos.\"",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Vasco 1 x 0 Independiente Medellín",
+      "url": "https://www.netvasco.com.br/n/389307/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-1-x-0-independiente-medellin",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-07-29",
+      "eventDate": "2026-07-29",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "On academy player Ramon Rique: \"Acredito muito no valor dele, tanto a nível técnico quanto a nível tático, mas ele já mostra muito para a idade que tem\"; wants \"que tenhamos mais jogadores como ele na nossa base.\"",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Vasco 5 x 0 Coritiba",
+      "url": "https://netvasco.com.br/n/393028/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-5-x-0-coritiba",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-20",
+      "eventDate": "2026-09-19",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "On Ramon Rique: \"Aproveitar a base, suas crias e sem pressão para não queimarmos seu crescimento.\" \"Não vamos abandoná-los e vamos seguir os preparando para a próxima oportunidade.\" Won't drop performing players \"só porque temos um jogador novo\"; rotation is \"colocar o mais fresco para correr\".",
+      "verified": true
+    },
+    {
+      "title": "\"Zeramos tudo\": como Pedro Emanuel mudou a mentalidade do Vasco",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/08/06/8220zeramos-tudo-8221-como-pedro-emanuel-mudou-a-mentalidade-do-vasco.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Pedro Emanuel: \"Zeramos tudo, apesar do que vinha sendo feito.\" \"Por vezes temos um desgaste físico, mas o pior é o desgaste mental.\" On competition for places: \"Quem tiver a oportunidade terá que mostrar serviço, senão outro entra no lugar.\"",
+      "verified": true
+    },
+    {
+      "title": "Confira outros tópicos da entrevista coletiva de Pedro Emanuel após Botafogo 1 x 2 Vasco",
+      "url": "https://netvasco.com.br/n/393951/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-botafogo-1-x-2-vasco",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-10-07",
+      "eventDate": "2026-10-07",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "\"Todos intervêm, todos fazem parte daquilo que é o nosso processo de jogo.\" \"Para se entrar na equipe, tem que ser melhor do que como ela está.\" \"Temos jogadores com coragem, qualidade e, acima de tudo, ambição grande.\"",
+      "verified": true
+    },
+    {
+      "title": "Invicto nas Copas, Pedro Emanuel une elenco e torcida do Vasco na busca por títulos em 2026",
+      "url": "https://www.netvasco.com.br/n/392771/invicto-nas-copas-pedro-emanuel-une-elenco-e-torcida-do-vasco-na-busca-por-titulos-em-2026",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-16",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "Cup record: \"Desde então, são 10 jogos entre as duas copas: seis vitórias e quatro empates.\" \"Nenhuma derrota.\" \"Ao todo, 15 gols marcados e apenas quatro sofridos.\" Pedro Emanuel: \"Porque nós desligamos o modo campeonato quando entramos no modo copas.\"",
+      "verified": true
+    },
+    {
+      "title": "Pressão no Vasco é ampliada após time sofrer nova derrota",
+      "url": "https://agorarn.com.br/ultimas/pressao-no-vasco-e-ampliada-apos-time-sofrer-nova-derrota/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-07-17",
+      "eventDate": "2026",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "\"os gols sofridos após erros na saída de bola\" named as one of Vasco's main problems in the season. The claim covers the whole 2026 season (mostly before Pedro Emanuel), and the debut-goal detail was only paraphrased by the page reader; not counted as verified for this period.",
+      "verified": false
+    },
+    {
+      "title": "Confira como costumam jogar os times dirigidos pelo português Pedro Emanuel, novo técnico do Vasco",
+      "url": "https://www.netvasco.com.br/n/388383/confira-como-costumam-jogar-os-times-dirigidos-pelo-portugues-pedro-emanuel-novo-tecnico-do-vasco",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-07-16",
+      "eventDate": "2026-07",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Context only, about his previous clubs (Académica, Estoril, Arouca, Al-Fayha), not this Vasco: Luis Freitas Lobo says he likes \"os centrais abrirem, para depois o volante baixar para pegar nessa construção, uma dita construção a três\" and \"que as equipes peguem o jogo desde trás\", \"com laterais bem projetados\". Event outside the profile period, so not evidence.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Eu quero tornar essa posse de bola mais objetiva, e a transição ofensiva faz parte do jogo.",
+      "date": "2026-07-29",
+      "source": "https://www.netvasco.com.br/n/389307/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-1-x-0-independiente-medellin",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Os jogadores foram extremamente recetivos ao plano de jogo, e esta era nossa ideia.",
+      "date": "2026-07-16",
+      "source": "https://www.record.pt/internacional/paises/brasil/amp/pedro-emanuel-apos-a-derrota-na-estreia-vamos-superar-este-momento-com-trabalho-e-rigor",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Com o tempo, vamos superar isso com trabalho, rigor, critério e competência",
+      "date": "2026-07-16",
+      "source": "https://www.record.pt/internacional/paises/brasil/amp/pedro-emanuel-apos-a-derrota-na-estreia-vamos-superar-este-momento-com-trabalho-e-rigor",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Nos preparamos para ter a bola e não permitir contra-ataques.",
+      "date": "2026-08-16",
+      "source": "https://netvasco.com.br/n/390556/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-3-santos",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Porque nós desligamos o modo campeonato quando entramos no modo copas.",
+      "date": "2026-09-16",
+      "source": "https://www.netvasco.com.br/n/392771/invicto-nas-copas-pedro-emanuel-une-elenco-e-torcida-do-vasco-na-busca-por-titulos-em-2026",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://pt.wikipedia.org/wiki/Temporada_do_Club_de_Regatas_Vasco_da_Gama_de_2026",
+      "reason": "404"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "set-pieces",
+      "player-profile"
+    ],
+    "axes": [
+      "jog"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Recent, ongoing spell of about three months. Shape, block, marking, width and transitions all rest on a single tier B match analysis (Fluminense 3-1); the rest is tier C press-conference coverage (mostly NetVasco relaying ge). No build-up, set-piece or player-profile evidence for the period."
+  }
+}

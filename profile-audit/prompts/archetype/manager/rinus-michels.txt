@@ -1,0 +1,202 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Rinus Michels" (catalog: manager), answering as the manager Rinus Michels, across the spells counted in the research file (spellsCounted). Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/rinus-michels.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK manager:rinus-michels".
+
+=== RESEARCH FILE (manager/rinus-michels.json) ===
+{
+  "id": "rinus-michels",
+  "catalog": "manager",
+  "name": "Rinus Michels",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1965-01-22",
+    "end": "1975-06-30"
+  },
+  "scopeNote": "Manager profile of Rinus Michels across three counted spells: Ajax (22 January 1965 to 30 June 1971: four Eredivisie titles and the 1970-71 European Cup), Barcelona (1 July 1971 to 30 June 1975: La Liga 1973-74) and the Netherlands (27 March to 7 July 1974: World Cup runner-up). Dates are from the managerial table of the English Wikipedia article (day precision). Excluded: Ajax 1975-76, Barcelona 1976-78 (Copa del Rey 1977-78, not read for tactics), and later spells in the USA, Köln, Leverkusen and the Netherlands in 1984-92. Style: the evidence supports total football at Ajax: a fluid 4-3-3 with positional interchange, the offside trap and high pressing. Barcelona's own tactics are not documented in the pages read.",
+  "spellsCounted": [
+    {
+      "club": "Ajax",
+      "start": "1965-01-22",
+      "end": "1971-06-30",
+      "reason": "Total Football at Ajax: four Eredivisie titles and the 1970-71 European Cup; the source of the style."
+    },
+    {
+      "club": "Barcelona",
+      "start": "1971-07-01",
+      "end": "1975-06-30",
+      "reason": "La Liga 1973-74 with Cruyff; the same system carried to Barcelona."
+    },
+    {
+      "club": "Netherlands",
+      "start": "1974-03-27",
+      "end": "1974-07-07",
+      "reason": "World Cup 1974 runner-up; the national side the 1974 team profile is about."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Ajax",
+      "start": "1975-07-01",
+      "end": "1976-06-30",
+      "reason": "Short return, no titles, no tactical coverage read."
+    },
+    {
+      "club": "Barcelona",
+      "start": "1976-07-01",
+      "end": "1978-06-30",
+      "reason": "Copa del Rey 1977-78 only; the style is defined by the first spell, not read for this period."
+    },
+    {
+      "club": "Los Angeles Aztecs",
+      "start": "1978-07-01",
+      "end": "1980-10-13",
+      "reason": "No titles, no tactical coverage read."
+    },
+    {
+      "club": "1. FC Köln",
+      "start": "1980-10-14",
+      "end": "1983-08-23",
+      "reason": "Single DFB-Pokal title, outside the profile's era."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Whether the Barcelona 1971-75 system matched Ajax's (the sources describe Ajax and only mention Barcelona through the 1974 title)."
+  ],
+  "sources": [
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"Michels's favoured formation was a fluid 4–3–3\" (Ajax era, no season given)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"regularly switching positions to ensure that the tactical roles in the team were consistently filled\" (Ajax, after 1965 appointment)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"Another aspect of the system was the use of the offside trap.\" (Ajax era, no season given)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "pressing",
+      "evidence": "\"highlighting the use of pressing, which would be used to win back the ball\" (Ajax era, as recalled by Barry Hulshoff)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "possession",
+      "evidence": "\"The major component of Total Football was the use of space, and the need to consistently create it.\" (Ajax era)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "jog",
+      "lar",
+      "lid",
+      "pla",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Dated career table and five Ajax-era tactical facts from the Wikipedia career section; no season-specific analysis read."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

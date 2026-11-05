@@ -1,0 +1,653 @@
+{
+ "id": "soviet-scientific-football",
+ "catalog": "football-ideology",
+ "name": "Scientific pressing / Soviet school",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "1964",
+  "end": "1990"
+ },
+ "scopeNote": "Soviet school: systematic pressing, conditioning, zonal collective play and data-driven preparation. Origin: Viktor Maslov at Dynamo Kyiv (1964-70; 4-4-2 without wingers, zones instead of man-marking, pressing, nutrition/recovery) - Maslov is not a catalog id, recorded here only. Development: Valeriy Lobanovskyi with Anatoliy Zelentsov (Dynamo from 1973, second spell 1984-90, USSR 1982-88). profilePeriod start 1964 and end 1990 are partial years because the exact days were not found; period uses partial dates (Maslov appointment 1964 and Lobanovskyi's 1990 departure not pinned to the day in pages read). Terms used by sources: 'pressing', 'zonal marking', 'universality'/interchangeability, 'system football', 'coalition actions', 'scientific'. 'Total football' is a popular label for Lobanovskyi (Hard Tackle) but Spielverlagerung/TFT frame it as a parallel, systematic and data-driven school, so the evidence supports 'scientific/systematic pressing' rather than 'Soviet Total Football'. Exemplars: valeriy-lobanovskyi, dynamo-kyiv-1974-75, dynamo-kyiv-1985-86.",
+ "exemplars": [
+  {
+   "id": "valeriy-lobanovskyi",
+   "kind": "manager",
+   "reason": "Made science, statistics and data central; Dynamo 1973-90, USSR 1988 Euro finalists."
+  },
+  {
+   "id": "dynamo-kyiv-1974-75",
+   "kind": "team",
+   "reason": "Cup Winners' Cup and Super Cup 1975; pressed from the off but sat deep vs Bayern."
+  },
+  {
+   "id": "dynamo-kyiv-1985-86",
+   "kind": "team",
+   "reason": "Cup Winners' Cup 1986, 3-0 v Atletico; rough 4-3-1-2 with sweeper Baltacha."
+  }
+ ],
+ "ambiguities": [],
+ "openQuestions": [
+  "Exemplars differ: 1975 Dynamo is described as 'a rough' interchangeable system with Blokhin and Onyshchenko up front (TFT) or 4-1-3-2 (Hard Tackle), 1986 Dynamo as a rough 4-3-1-2 with a sweeper (Baltacha), USSR 1986-88 as two lines of four in 4-4-2 (Spielverlagerung). Maslov's original is a 4-4-2 with a holder and a playmaker. Shape is therefore not constant across the idea.",
+  "Marking: Maslov 'abolished man-marking in favour of zones' (TFT, retrospective) but Lobanovskyi used man-coverage on Gullit at Euro 1988 (Spielverlagerung). Zonal is the default of the school, with opponent-specific exceptions.",
+  "Pressing intensity differed by match: pressed from the off in 1975 final, sat deep and countered vs Bayern (Super Cup 1975) and used a low block vs Ireland 1988. Pressing is the base but not unconditional.",
+  "Label: Hard Tackle calls Lobanovskyi's flexibility 'Total Football'; TFT says Maslov's interchangeable side was the groundwork for Totaalvoetbal. Treat 'total football' as a loose comparison; Engelsberg and Spielverlagerung stress system, dialectic and statistics. Credit for inventing pressing is contested (TFT: some credit Michels or Happel's Feyenoord 1970; sport-express and ESPN credit Maslov); the sources are popular-history retrospectives, not 1960s documents.",
+  "Maslov vs Lobanovskyi on science: Maslov already stressed fitness, nutrition and recovery; Engelsberg says Lobanovskyi was the first to make science, statistics and data analysis central. Credit for 'scientific' is Lobanovskyi/Zelentsov's, for 'pressing and 4-4-2' Maslov's.",
+  "Origin of the Maslov-Lobanovskyi falling-out is unclear (tactical disagreement, personal, or apocryphal vodka story); not essential to the idea.",
+  "Spell dates not pinned: Lobanovskyi appointed Dynamo 1973 (Oct 1973 per a search summary only), left 1990; Maslov at Dynamo 1964-70 (sacked 1970, TFT). Statistical evidence is retrospective; no 1970s match data (Opta-type) read.",
+  "Stated view dates are approximate periods (original dates not found); mostly attributed via Engelsberg; primary text of Endless Match and the Lobanovskyi-Zelentsov book not read. Russian/Ukrainian searches gave only summaries (sports.ru, 403)."
+ ],
+ "sources": [
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1964/65",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "he built a 4-4-2, outnumbering the two-man midfield across the world, but not hindering his side's creativity at the same time.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1964/65",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Maslov preferred his side to keep the ball moving and abolished man-marking in favour of zones.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1964/65",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "His clockwork system had players limit the space afforded to the opposition, winning the ball high up the pitch whenever possible. That is now known as pressing",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1964/70",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "to press hard over a sustained period, fitness must be king. Maslov introduced intense physical training, but he also focused his attention on nutrition and recovery.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1966/68",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "It maintained the right balance between defence and attack, having more bodies in midfield to carry out transitions.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1964/70",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Maslov might have gone further than a nominal 4-4-2, too. A free-flowing, interchangeable side was what he ultimately had in mind, something he wasn't able to execute during his own life.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Viktor Maslov: the pioneer of the 4-4-2 who took pressing to a new level (These Football Times)",
+   "url": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-10-12",
+   "eventDate": "1964/70",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "The wingers were now wide midfielders who fulfilled their remit of working in the space in front of the full-backs",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Death Match, Maslov and Lobanovsky: The Story Of Dynamo Kiev (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2011/death-match-maslov-and-lobanovsky-the-story-of-dynamo-kiev/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-03-02",
+   "eventDate": "1964/70",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Maslov drilled his team to allow less space to opposition players. This would eventually prove to be the first prototype of pressing football.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Death Match, Maslov and Lobanovsky: The Story Of Dynamo Kiev (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2011/death-match-maslov-and-lobanovsky-the-story-of-dynamo-kiev/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-03-02",
+   "eventDate": "1973/82",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "He expected his defenders to go into overlaps to assist attackers, while the attackers would come down to help out the defence.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Death Match, Maslov and Lobanovsky: The Story Of Dynamo Kiev (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2011/death-match-maslov-and-lobanovsky-the-story-of-dynamo-kiev/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-03-02",
+   "eventDate": "1973/82",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "He believed that football was not an individual sport but a sum total of the effort put in by each player.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "They pressed from the off, closing down space when out of possession and limiting opportunities for their gifted Hungarian counterparts to work attacks of their own.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Like those great Dutch sides of the time, Dynamo valued possession, asserted themselves when with the ball and made life difficult for the opposition when without.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "He was happy to adapt his team to the rigours of the specific match at hand. If he felt his team would be better off sitting deeper, they would.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-08",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Dynamo sat deeper, inviting the Germans on so that they may be hit on the counter.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975-08",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Dynamo sat deeper, inviting the Germans on so that they may be hit on the counter.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "The full-backs, Vladimir Troshkin and Viktor Matvienko, got forward at pace throughout.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "There are different ways to interpret the system Dynamo used, which in itself is a testimony to their interchanging movement.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1973/74",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Lobanovskyi's former teammate, Oleh Bazylevich, had been recruited as a coach, while Mykhaylo Oshemkov dealt with collecting statistical information.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Zelentsov following Lobanovskyi when Dynamo Kyiv came calling for his services in 1973.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1985/86",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Loba supplemented these signings by nurturing homegrown talent such as right-back Volodymyr Beszonov, sweeper Sergei Baltacha. and attacking midfielder Oleksiy Mykhaylychenko.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1986-05",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "The new Dynamo, lining up in a rough 4-3-1-2 system, were even more dynamic than before. With Baltacha as the complete sweeper, centre-half Oleh Kuznetsov was encouraged to push forward",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1986-05",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "the full-backs, Beszonov and Demyanenko, were slightly more conservative than their forebears.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi and Dynamo Kyiv's scientific enlightenment (These Football Times)",
+   "url": "https://thesefootballtimes.co/2016/05/30/valeriy-lobanovskyi-and-dynamo-kyivs-scientific-enlightenment/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-05-30",
+   "eventDate": "1986-05",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Zavarov was the most fluent player in the side, dropping so deep as to sometimes be dictating play from behind Kuznetsov.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Lobanovskyi was the first to make science, statistics, and data analysis central. With his backroom staff, Lobanovskyi recorded the number of shots, passes, dribbles, tackles, interceptions, and errors in different phases of play",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "with Lobanovskyi in charge of tactics and Zelentsov the individual preparation of players.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973/90",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Lobanovskyi was a pragmatist, adapting his style for each opponent, packing the midfield or using expansive wide play – whatever victory required.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1986",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "From left back to ring wing, Kyiv played a string of rapid passes, each player barely checking his teammate's position, such was their collective understanding.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973/90",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "his ability to coach superlative individuals into team players, evinced by the fact that three Ballon d'Or-winning forwards in three different decades bought wholly into Lobanovskyi's philosophy of system over-against individuality.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973/90",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "'the first thing we have in mind is to strive for new courses of action that will not allow the opponent to adapt to our style of play.",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973/90",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Lobanovskyi's greatest achievement was not his development of the pressing game or his insistence on the importance of statistical analysis",
+   "verified": true
+  },
+  {
+   "title": "Valeriy Lobanovskyi: The greatest football coach you've never heard of (Engelsberg Ideas)",
+   "url": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-07-09",
+   "eventDate": "1973/90",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "The idea of football as a contest between systems or 'style[s]' (possession versus counter-attack, for example)",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1986/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "they were essentially a team built around two lines of four. Working in a 4-4-2 shape, they were usually concerned about the space they had to cover.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1986/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Lobanovskyi was a strong believer of the idea that the best way to overcome rivals is to manipulate the size of the playing area, making the field larger when in possession and smaller when defending. In order to do that, full-backs and wingers usually provided width by moving upfield.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1986/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Always emphasising on the fitness of his players, Lobanovskyi enabled his sides to produce intense pressing over the course of 90 minutes.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1988-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "implementing a defensive low block to contain Jack Charlton's long-ball style",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1988-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Lobanovskyi's team pressed the opposition right after losing possession in the final third of the pitch, with Sergei Aleinikov regaining the ball",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1988-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "The Soviet defenders often enjoyed some degree of freedom in the initial build-up, and they exploited that well by accurately hittinh long-range passes over the opposing back line.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1986/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Lobanovskyi wanted his players to strictly follow his tactics, putting emphasis on a quick, vertical playing approach.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1988-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "he played man-coverage against Ruud Gullit when USSR beat the Dutch 1-0 in their opening game of the 1988 Euro.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1982/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "For him, football was a system of two systems including 22 sub-systems, interacting with each other in a playing area.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1982/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Lobanovskyi was always an intense, fierce coach and a strict disciplinarian aspiring to control every aspect of his players' life both on and off field.",
+   "verified": true
+  },
+  {
+   "title": "Team Analysis: Valeriy Lobanovskyi's USSR (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/2016/04/01/team-analysis-valeriy-lobanovskyis-ussr/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-01",
+   "eventDate": "1982/88",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Jonathan Wilson wisely described Lobanovskyi's approach in his book Inverting the Pyramid: \"Everything was meticulously planned, with the team's preparation divided into three levels.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Изобретатель прессинга и зонной опеки... (Sport-Express)",
+   "url": "https://www.sport-express.ru/football/rfpl/reviews/1667508/",
+   "tier": "C",
+   "language": "ru",
+   "articleDate": "2020-04-28",
+   "eventDate": "1964/70",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Маслов отодвинул назад и второго крайнего нападающего, чтобы создать совсем уже лишенную вингеров 4-4-2.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "ESPN via Kyiv Post: Lobanovsky, the man who revolutionized football",
+   "url": "https://archive.kyivpost.com/article/content/ukraine-politics/espn-lobanovsky-the-man-who-revolutionized-footbal-1-128434.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-05-29",
+   "eventDate": "1964/70",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "many of the style-defining concepts they were using -- such as aggressive zonal-marking and pressing -- were first pioneered by Viktor Maslov in the mid to late 1960s at Dynamo Kyiv.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Death Match, Maslov and Lobanovsky: The Story Of Dynamo Kiev (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2011/death-match-maslov-and-lobanovsky-the-story-of-dynamo-kiev/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-03-02",
+   "eventDate": "1973/90",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Lobanovsky returned to Dynamo Kyiv in 1984 and almost immediately took them to the top of Soviet football by winning a double in 1985.",
+   "verified": true,
+   "retrospectiveOnly": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "It is impossible to rely on luck […] in modern football. It is necessary to create an ensemble, a collective of believers who subordinate themselves to the common playing idea.",
+   "date": "1968",
+   "source": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "If an opponent has adjusted himself to our style of play […] then we need to find a new strategy. That is the dialectic of the game.",
+   "date": "1990",
+   "source": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Games fade from the memory, but results stay.",
+   "date": "1990",
+   "source": "https://engelsbergideas.com/portraits/valeriy-lobanovskyi-the-greatest-football-coach-youve-never-heard-of/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Football is like an aeroplane. As velocities increase, so does air resistance, so you have to make the head more streamlined. (Maslov, via Wilson, Inverting the Pyramid)",
+   "date": "1966",
+   "source": "https://thesefootballtimes.co/2020/10/12/viktor-maslov-the-pioneer-of-the-4-4-2-who-took-pressing-to-a-new-level/",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://beyondthelastman.com/2022/03/09/art-and-engineering-dynamo-kyivs-european-dominance/",
+   "reason": "403"
+  },
+  {
+   "url": "https://it.uefa.com/uefachampionsleague/news/0253-0d81cad2bd33-25a62e3a110f-1000--in-profile-valeriy-lobanovskiy",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.sports.ru/football/blogs/3064092.html",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  {
+   "id": "total-football",
+   "kind": "football-ideology",
+   "note": "Parallel and compared school; Maslov's interchangeable side is called groundwork for Totaalvoetbal (TFT). Pressing and zones also feed later gegenpressing."
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "set-pieces"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier B analyses (TFT, Spielverlagerung, Engelsberg) agree but all are retrospective; no coach-written or data sources, and (d) people management and (f) coachesvoice/club history only partly covered."
+ }
+}

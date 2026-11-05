@@ -1,0 +1,860 @@
+You are auditing, question by question and fully independently, the football profile "Pep Guardiola" (catalog: manager) on the 12 axes of the 12axes football quiz. Answer as the manager Pep Guardiola, across the spells counted in the research file (spellsCounted). Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+
+The research file below is your evidence. Build your answers on it:
+- Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
+- Only facts inside profilePeriod describe the profile. statedView is what the manager says, at any date.
+- When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
+- Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
+
+Every axis has at least one verified fact (gaps.axes is empty).
+
+METHOD (mandatory):
+- For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
+- Then answer every question of that axis, one by one, with one of these codes: DT (discordo totalmente / strongly disagree), D (discordo / disagree), N (neutro / neutral), C (concordo / agree), CT (concordo totalmente / strongly agree). "C" means "concordo", never "option C".
+- Genuinely simulate how this profile would answer EACH question on its own. DO NOT pick a target value for the axis and work backwards. Accept whatever comes out, even if surprising.
+- Questions written as "você é o treinador" (you are the coach) are answered as the coach of this profile, in its period.
+- N is only for genuine indifference, never for "the sources don't say" or "it doesn't apply to that era": decide from the evidence and from what the profile did. Use at most one N per axis and 10 in total, and count your Ns before writing.
+- A profile can reject both poles of an axis: then answer each question on its own terms, which gives a middle value. Don't assume that rejecting one pole means embracing the other.
+- Each question is independent and they are already shuffled. Answer by question id. "Agree means / Disagree means" explain what each answer says in football terms.
+- A question marked "also counts for <axis>" belongs to the axis it is listed under; answer it once, there.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown, no comments) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/manager/pep-guardiola.json
+
+Exact JSON format (keys of "answers" are the question ids; every axis present, each with exactly the questions listed under it):
+{
+  "pos": { "personaBrief": "...", "answers": { "pos_03": "C", ... } },
+  "pro": { "personaBrief": "...", "answers": { "pro_03": "C", ... } },
+  "est": { "personaBrief": "...", "answers": { "est_03": "C", ... } },
+  "lar": { "personaBrief": "...", "answers": { "lar_03": "C", ... } },
+  "blo": { "personaBrief": "...", "answers": { "blo_03": "C", ... } },
+  "mar": { "personaBrief": "...", "answers": { "mar_03": "C", ... } },
+  "pla": { "personaBrief": "...", "answers": { "pla_03": "C", ... } },
+  "res": { "personaBrief": "...", "answers": { "res_03": "C", ... } },
+  "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
+  "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
+  "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+}
+
+After writing the file, reply only with "OK manager:pep-guardiola" and a 1-line summary. Don't paste the JSON in the reply.
+
+=== RESEARCH FILE (manager/pep-guardiola.json) ===
+{
+  "id": "pep-guardiola",
+  "catalog": "manager",
+  "name": "Pep Guardiola",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2008-07-01",
+    "end": "2026-05-24"
+  },
+  "scopeNote": "Manager profile of Pep Guardiola across three counted spells: Barcelona (2008-07-01 to 2012-06-30), Bayern Munich (2013-06-26 to 2016-06-30) and Manchester City (2016-07-01 to 2026-05-24). Dates are from the managerial record table on the English Wikipedia page, read at step 1. The brief said 'Manchester City 2016-present', but the City spell has ended: City confirmed on 2026-05-22 that he would leave after the last Premier League match (Ara, 2026-05-22: he 'will not continue next season despite having a valid contract'; Football Transfers, 2026-05-22), and his last match was the 1-2 home defeat to Aston Villa on 2026-05-24 (Wikipedia). He stays at City Football Group as a global ambassador, which is not a coaching job. The 2012-13 sabbatical (no club) falls between the Barcelona and Bayern spells. Barça and Bayern end dates are the contract end dates in the Wikipedia table; his last matches were the 2012 Copa del Rey final and the 2016-05-21 DFB-Pokal final. Style: positional play (juego de posicion). Spielverlagerung (2014-12-25) defines it as 'the search for superiority' and quotes Perarnau: 'The team that interpreted Positional Play in a most extraordinary way was the Barcelona of Pep Guardiola'; Spielverlagerung (2016-08-05) calls positional play 'perhaps the number one factor in the success ... of a typical Guardiola team'. The popular label 'tiki-taka' is wrong for him: he rejects it himself ('I hate tiki-taka, which means passing the ball for the sake of it with no clear intention', team talk at Bayern quoted 2014-10-16), and Spielverlagerung (2014, 2018) says possession is a consequence, not the aim. Marking: zonal / position-oriented as the base, with man-oriented elements that grew over the career (Bayern's duelling counter-press, City's man-oriented pressing in some matches); see the pressing and defensive-block sources. Several pages carry no article date (Wikipedia), so articleDate is the access date. Where a source covers a whole spell without a season, eventDate is an approximate year inside the spell and the evidence says so.",
+  "spellsCounted": [
+    {
+      "club": "Barcelona",
+      "start": "2008-07-01",
+      "end": "2012-06-30",
+      "reason": "Two Champions Leagues (2009, 2011), three La Liga titles, the 2008/09 treble; the positional-play side he is best known for, with heavy tactical coverage (UEFA technical report, Spielverlagerung, Coaches' Voice)."
+    },
+    {
+      "club": "Bayern Munich",
+      "start": "2013-06-26",
+      "end": "2016-06-30",
+      "reason": "Three Bundesliga titles; recognisable tactical development (false/inverted full-backs, constant shape changes) with extensive coverage (Spielverlagerung match analyses, Coaches' Voice)."
+    },
+    {
+      "club": "Manchester City",
+      "start": "2016-07-01",
+      "end": "2026-05-24",
+      "reason": "Six Premier League titles, the 2023 Champions League and the Club World Cup; the longest spell, with an evolving positional-play style covered in depth (Coaches' Voice era piece, Spielverlagerung, StatsBomb)."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Barcelona B",
+      "start": "2007-06-21",
+      "end": "2008-06-30",
+      "reason": "Excluded by the user's decision: not part of the profile. Evidence from this spell removed."
+    }
+  ],
+  "teamProfiles": [
+    "manchester-city-2017-18"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The brief listed Manchester City as '2016-present', but City confirmed his departure on 2026-05-22 and his last match was 2026-05-24 (Wikipedia table: 1 July 2016 to 24 May 2026). The profile uses 2026-05-24 as the end. Confirm, or say if the profile should end at a contract date instead.",
+    "Marking (mar) changes across spells: Barcelona's counter-press aimed at interceptions and covering spaces, Bayern's 'individually duelled and went man-for-man' (Coaches' Voice, 2022), City mixes the two and was man-oriented in early 2017/18 pressing. Spielverlagerung (2014) calls the base 'zonal marking instead of man marking'. Decide how much the later man-oriented elements should pull the axis.",
+    "Game plan (pla): validate.py uses Guardiola as an 'own identity' anchor, but the evidence also shows constant opponent-specific and in-game shape changes (Bayern-Dortmund 2015: four structures in one match; City rearranges into a back three against a two-man press; later 4-2-3-1 and mid/low block). Keep the contradiction in mind: fixed principles, flexible structure.",
+    "Bayern people management and squad building (e.g. Lahm to midfield, youth debuts) have no verified source; those dimensions rest on Barcelona and City facts.",
+    "The tiki-taka rejection is dated 2014-10-16 (TNT Sports/Eurosport, quoting Perarnau's book on his Bayern year). The book itself was not read; its publication date could be slightly earlier.",
+    "The Reuters line from his first City press conference (2016-07-08) was read on a republished copy (Cyprus Mail); the official mancity.com transcript returned 403."
+  ],
+  "sources": [
+    {
+      "title": "Pep Guardiola",
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read in two parts (characters 0-200000; last 39k not read). On taking over the first team in 2008: \"Guardiola promoted canteranos Sergio Busquets, Pedro and Jeffrén to the first-team squad\"; Eto'o, Ronaldinho and Deco \"were not part of his plans\" (Eto'o stayed). Managerial table: Barcelona B 21 June 2007 - 30 June 2008; Barcelona 1 July 2008 - 30 June 2012; Bayern 26 June 2013 - 30 June 2016; Manchester City 1 July 2016 - 24 May 2026. Page undated (articleDate = access date).",
+      "verified": true
+    },
+    {
+      "title": "Pep Guardiola",
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Guardiola replaced Joe Hart with Claudio Bravo at City and \"Hart would never make another appearance for the club.\" Page undated (articleDate = access date).",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Final, 2009-05-27: Barcelona's three-man midfield had numerical superiority, which \"allowed Xavi, with the backing of midfield holding player Sergio Busquets, to push forward when the ball was lost in order to support his front three in pressing the ball when Manchester's back line had regained possession.\" Capello: \"United had no chance to counter because Barça forced them into playing long balls from the back.\" PDF downloaded and read as text (English section).",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "At half-time of the final Barcelona \"were making life difficult for United, with advanced pressing, compact defending and a back-line which was prepared to push up and risk offside.\" Trends section: \"The new champions were not alone in defending from the front, with a high back line and a compact team unit. But they were in the minority.\"",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "\"It was the norm for Pep Guardiola's team to monopolise the ball.\" Strachan: \"They (Barcelona) must have played 700 passes, and we were the home team\"; Barcelona \"played 505 passes against Manchester United in the Rome final and 691 in the semi-final, second-leg match against Chelsea\"; Xavi and Iniesta completed 93% and 86% of passes in the final. Barça's standard set-up was a 4-3-3 with one holding midfielder and two 'middle-to-front' midfielders.",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "\"The seven home-developed players among the starters at the Stadio Olimpico provided a clear demonstration that the Barça academy provides the heart and soul of the team and its playing style, with front-line stars blended into the winning cocktail according to decisions based on their ability to identify with the club and its philosophy.\"",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Coach profile: \"Pep's modus operandi is based on convictions and the courage of them\"; \"His pursuit of perfection hinges on a motivated, united and fully focused dressing room where social and commercial activities are kept firmly in their place.\" \"Training sessions are purposeful and fun.\" Before the final he showed the players \"an emotional seven-minute Gladiator-inspired DVD\".",
+      "verified": true
+    },
+    {
+      "title": "Technical Report 2008/09 (UEFA Champions League)",
+      "url": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2009",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Final: \"With United in all-out attacking mode, Sergio Busquets' willingness to drop into Barça's back line increased in importance.\" Thin on build-up beyond this (the report does not describe Valdés' distribution).",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Adin Osmanbasic, covering Barcelona 2008-12 and Bayern 2014. \"Positional Play is a philosophy that has many principles but the fundamental principle is the search for superiority.\" \"Guardiola's teams seek to have superiority in the center of the field.\" \"The interior corridors are arguably the most important spaces within the center\"; ball-far players \"leave the furthest diagonal point roughly unoccupied while the team supports areas around the ball aggressively.\" Perarnau on Bayern: \"a game that is much more oriented to a vertical axis than a horizontal one\".",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Salida lavolpiana: \"the central defenders fan out wide and a central midfielder drops into the resulting space.\" \"Many times Pep will have players drop into the defensive line\"; \"Using the goalkeeper is also another way to establish superiority out of defense\"; on Bayern: \"Using the goalkeeper means you automatically have an extra pass option.\"",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Marking (dedicated search): \"Guardiola's teams counterpress.\" \"The moment the ball is lost is the perfect time to press the opposition because the opponent is disorganized\"; defensively \"The main focus is on zonal marking instead of man marking.\" Barcelona's press works by \"blocking the passing lanes to the opponent's teammates\".",
+      "verified": true
+    },
+    {
+      "title": "Juego de Posición under Pep Guardiola",
+      "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-12-25",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "On the tiki-taka label: \"This term implies possession of the ball with no purpose, with no movements to disorganize and eliminate opponents\"; \"possession is merely a consequence of the offensive game of Pep Guardiola and his principles.\"",
+      "verified": true
+    },
+    {
+      "title": "Borussia M'Gladbach - FC Bayern München 0:2",
+      "url": "https://spielverlagerung.de/2014/01/24/borussia-mgladbach-fc-bayern-munchen-02/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2014-01-24",
+      "eventDate": "2014-01-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "One match (Bayern, first season). Marking (dedicated search): \"Neben der klassischen positionsorientierten Spielweise im Pressing gab es auch einige mannorientierte Elemente.\" \"Im hohen Pressing stellten sie intelligent auf ein 4-3-3 um\"; \"Sehr oft pressten sie im 4-1-4-1, waren aber überaus variabel.\" \"sehr kompakt und aggressiv in der Zweikampfführung.\"",
+      "verified": true
+    },
+    {
+      "title": "Borussia M'Gladbach - FC Bayern München 0:2",
+      "url": "https://spielverlagerung.de/2014/01/24/borussia-mgladbach-fc-bayern-munchen-02/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2014-01-24",
+      "eventDate": "2014-01-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "One match. \"Bayerns Sechser stellte dann ein 3-4-3 im Aufbauspiel her\"; Lahm dropping so that Kramer and Xhaka \"nicht ordentlich verfolgen konnten\".",
+      "verified": true
+    },
+    {
+      "title": "Bayern Munich 5:1 Borussia Dortmund (Guardiola formation changes)",
+      "url": "https://spielverlagerung.com/2015/10/05/guardiola-formation-changes/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-05",
+      "eventDate": "2015-10-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "One match. Bayern started in \"somewhat of a 3-3-3-1 formation\"; centre-backs swapped after about 10 minutes (\"Guardiola decided to switch the two\"); \"Once Dortmund pulled one back through Aubameyang, Guardiola quickly restructured his team\" into a 4-2-3-1 / 4-1-4-1, then \"a small spell as a 4-4-2 before half-time\" and a back four after half-time. Lahm and Alaba's versatility \"allows Guardiola to have such flexibility in his starting line-up.\"",
+      "verified": true
+    },
+    {
+      "title": "Bayern Munich 5:1 Borussia Dortmund (Guardiola formation changes)",
+      "url": "https://spielverlagerung.com/2015/10/05/guardiola-formation-changes/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-05",
+      "eventDate": "2015-10-04",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "One match. Bayern \"are much more effective through the centre and the half-spaces\"; \"The focus is much more on the central columns and wider areas are only used for isolations and cut-backs.\"",
+      "verified": true
+    },
+    {
+      "title": "Previewing Pep Guardiola's Manchester City reign",
+      "url": "https://spielverlagerung.com/2016/08/05/guardiolas-tactical-challenges-at-manchester-city/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-05",
+      "eventDate": "2016",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Tom Payne, summing up Barcelona and Bayern before City. \"positional play is perhaps the number one factor in the success and beautiful football of a typical Guardiola team.\" Paraphrase from the page reader: he needs deep players comfortable under pressure with ball-playing ability and technically proficient players in every role (goalkeepers join rondos); Hart and Caballero were seen as limited in build-up, so a ball-playing goalkeeper was expected. Barcelona's counter-press was passing-lane oriented (anticipating and intercepting the first pass).",
+      "verified": true
+    },
+    {
+      "title": "Counter-pressing and the gegenpress: football tactics explained",
+      "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-03-01",
+      "eventDate": "2015",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Ali Tweedale, career-wide; eventDate is an approximate year (Bayern spell), the piece covers all three senior spells. \"Guardiola has merged aggressive counter-pressing with his possession-based style of play.\" Full-backs moving infield, a false nine and inverted wingers give \"extra bodies in central positions, ready to counter-press following a defensive transition.\" Marking: \"His Barcelona side focused on interceptions and covering spaces,\" \"whereas his combative Bayern Munich squad individually duelled and went man-for-man\"; at City \"an impressive blend of the two.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "City: \"His teams consistently play short from their goalkeeper – from both goal-kicks and open play\"; \"Guardiola buys goalkeepers capable of hitting long, accurate passes\"; \"If opponents apply an advanced press with two forwards, Guardiola's team rearrange to adopt a back three\"; progression \"via a third player\".",
+      "verified": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "City: \"Guardiola prefers his team to defend with a 4-1-4-1 defensive block that becomes a 4-4-2\"; zonally \"those in central midfield cover the wide areas of the pitch\", but \"if defending with a man-oriented approach, one of City's full-backs instead advances to press\". \"Guardiola's increased willingness to use a 4-2-3-1 and therefore to defend with a 4-4-2 and with a mid or lower block\".",
+      "verified": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Bayern (no season given; eventDate approximate inside the 2013-16 spell): \"At Bayern he introduced the false full-back to encourage overloads in central positions\", \"a system that led to their wide forwards Franck Ribéry and Arjen Robben attacking defenders one-on-one\"; \"a more assertive counter-press encouraged those stronger at duelling for possession via direct challenges\". Barcelona: \"His team at Barça counter-pressed with the intention of intercepting passes\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Pep Guardiola: Coach Watch",
+      "url": "https://learning.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2021-05-18",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "City: \"the immediate, aggressive counter-press they apply when possession is lost\"; \"That 4-4-2 can evolve into a 4-2-4 when Raheem Sterling and Mahrez or Silva break forwards at attacking transitions\".",
+      "verified": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Era piece (2016-2026); season tags approximate. \"Guardiola's centre-backs repositioned during build-up, supporting the now single pivot of Rodri\"; \"Against more physical opposition, Guardiola's City once again adapted\", with Stones stepping into midfield and \"Akanji and Nathan Aké used at left-back, tucking inside\"; this \"led to major success in Europe against some of the best transitional sides\". Haaland era: \"City now attacked as a solid 4-2-3-1\" and \"defended much narrower in a 4-4-2 diamond or a 4-2-3-1 shape\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "\"In the 2017/18 campaign, for example, City averaged 70 per cent possession\", \"ranking first in each of his 10 seasons in charge\"; eights \"could push higher between the lines\" with \"Maximum width from wingers Leroy Sané, Raheem Sterling or Riyad Mahrez\". Arrival (2016/17): \"a full-back inverting into central midfield from an initial 4-3-3 shape\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The tactical evolution of Pep Guardiola's Manchester City",
+      "url": "https://learning.coachesvoice.com/cv/pep-guardiola-man-city-tactics-2016-2026/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2026-06-29",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Late period: \"Academy product Nico O'Reilly got forward from left-back into spaces between the lines\"; \"Matheus Nunes was converted to right-back under Guardiola\". Earlier recruitment: \"recruiting Kyle Walker, Danilo, Benjamin Mendy and Oleksandr Zinchenko\", \"goalkeepers Claudio Bravo and Ederson\", passers \"including John Stones and Aymeric Laporte\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Inverted full-backs: football tactics explained",
+      "url": "https://learning.coachesvoice.com/cv/inverted-full-backs-guardiola-cancelo-trent-alexander-arnold-lahm-football-tactics/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-10-19",
+      "eventDate": "2014",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Bayern (no season given; eventDate approximate): Lahm as an inverted right-back for his \"ability to receive under pressure and create passing angles\"; Alaba moved inside when \"the single pivot dropped into the back line between the centre-backs.\" City: Cancelo, right-footed, \"often playing on the left side of the back four\", \"provides exceptional vision and passing\". Full-backs chosen for technique and midfield ability.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Pep's Citizens have taken over England",
+      "url": "https://spielverlagerung.com/2018/01/02/how-peps-citizens-have-taken-over-england/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-01-02",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-10-12",
+      "dimension": "pressing",
+      "evidence": "Reused from manchester-city-2017-18 (read there on 2026-10-12). Marking: early season \"The pressing scheme was man-oriented, the intensity not quite on the level they needed it to be\"; later \"City's centre-backs acted less man-oriented as the season went on\". \"As a part of Guardiola's positional play, there is often rotation between positions\"; \"This is not Tiki-Taka, or possession for the sake of having the ball, but rather moving the ball to move the opponent.\"",
+      "verified": true
+    },
+    {
+      "title": "How Nicolas Jover is helping to improve Man City's big weakness",
+      "url": "http://archive.trainingground.guru/articles/how-nicolas-jover-is-helping-to-improve-man-citys-big-weakness",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-11-04",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Simon Austin. 2018/19: \"Only 11.6% of their Premier League goals (12 of 95) came from set pieces - the lowest proportion in the Premier League\"; \"39.1% of their goals conceded (nine of 23) coming from corners and free kicks - the highest % in the top flight.\" Summer 2019: \"the club hired Nicolas Jover from Brentford as their first full-time set piece specialist\". Asked how often his players practise set pieces, \"Guardiola replied 'every day'.\" Read via curl (WebFetch redirected to the archive subdomain then hit a session limit).",
+      "verified": true
+    },
+    {
+      "title": "Toure won't play until he says sorry: Guardiola",
+      "url": "https://worldsoccertalk.com/2016/09/20/toure-wont-play-until-he-says-sorry-guardiola/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-09-20",
+      "eventDate": "2016-09-20",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "AFP. Yaya Touré left out of the Champions League squad; after his agent's criticism Guardiola: \"Until he speaks, Yaya isn't going to play.\" \"When that happens, Yaya will be part of the group and he will have the chance to play.\" \"I cannot accept as a coach that every agent, when his player doesn't play, goes to the media and speaks.\" \"Maybe it's the new era, but I'm from the old generation\". Touré apologised on 2016-11-04 (search results, not read).",
+      "verified": true
+    },
+    {
+      "title": "I want City to play beautiful football, says Guardiola",
+      "url": "https://archive.cyprus-mail.com/?p=91382",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-07-08",
+      "eventDate": "2016-07-08",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Reuters, first City press conference: \"I want to play the way I want.\" On the ball: \"When the opposition have the ball to get it back, when we have it to move it as quickly as possible\". On the squad: \"I would like to work with an English basis but English players are so expensive so it is difficult\".",
+      "verified": true
+    },
+    {
+      "title": "Guardiola makes official that he is leaving Manchester City",
+      "url": "https://en.ara.cat/sports/guardiola-makes-official-that-he-is-leaving-manchester-city_25_5745190.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-05-22",
+      "eventDate": "2026-05-22",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Period only, not tactical evidence: he \"will not continue next season despite having a valid contract\"; he becomes a global ambassador for the City group.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "I hate tiki-taka, which means passing the ball for the sake of it with no clear intention. It's pointless. Don't believe what people say. Barca didn't do tiki-taka! It's completely made up!",
+      "date": "2014-10-16",
+      "source": "https://www.tntsports.co.uk/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+      "provenance": "primary",
+      "note": "Team talk to Bayern players the day after a Nürnberg match, from Martí Perarnau's book on his Bayern year as reported by Eurosport (now TNT Sports). Same talk: \"In all team sports the secret is to overload one side of the pitch so the opponent must tilt its defence to cope.\""
+    },
+    {
+      "quote": "I loathe all that passing for the sake of it, all that tiki-taka. It's so much rubbish and has no purpose. You have to pass the ball with clear intention and aim to make it into the opposition's goal.",
+      "date": "2014-10-16",
+      "source": "https://www.tntsports.co.uk/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+      "provenance": "primary",
+      "note": "From Perarnau's book, as quoted in the same article."
+    },
+    {
+      "quote": "We will try and play at our top level, with intensity and quick, decisive passing.",
+      "date": "2009",
+      "source": "https://fr.uefa.com/MultimediaFiles/Download/Publications/uefa/UEFAMedia/88/42/30/884230_DOWNLOAD.pdf",
+      "provenance": "primary",
+      "note": "Said before the 2009 Champions League semi-finals (April 2009), quoted in UEFA's 2008/09 technical report. Same report: \"It will be crucial to keep our shape and to attack in an ordered fashion.\""
+    },
+    {
+      "quote": "I want to play the way I want.",
+      "date": "2016-07-08",
+      "source": "https://archive.cyprus-mail.com/?p=91382",
+      "provenance": "primary",
+      "note": "First Manchester City press conference, Reuters copy."
+    },
+    {
+      "quote": "Maybe it's the new era, but I'm from the old generation.",
+      "date": "2016-09-20",
+      "source": "https://worldsoccertalk.com/2016/09/20/toure-wont-play-until-he-says-sorry-guardiola/",
+      "provenance": "primary",
+      "note": "AFP, on Yaya Touré's agent; about authority over the squad."
+    },
+    {
+      "quote": "The objective is to move the opponent, not the ball.",
+      "date": "2014-12-25",
+      "source": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+      "provenance": "attributed",
+      "note": "Quoted without an original interview; earliest dated appearance found in this run."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.coachesvoice.com/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://learning.coachesvoice.com/cv/coach-watch-pep-guardiola-manchester-city-barcelona-bayern-munich/",
+      "reason": "404"
+    },
+    {
+      "url": "http://www.zonalmarking.net/2011/05/29/barcelona-3-1-man-utd-champions-league-final-2011/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "http://www.zonalmarking.net/2011/11/07/athletic-bilbao-2-2-barcelona-bielsa-guardiola-tactics/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://kr.mancity.com/news/first-team/first-team-news/2016/july/pep-guardiola-first-press-conference-full-story",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.gulf-times.com/article/721769/sport/football/each-to-their-own-says-guardiola-as-set-piece-debate-deepens",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "johan-cruyff",
+      "kind": "manager",
+      "note": "Played under Cruyff at Barcelona; Wikipedia ties his Total Football roots to Cruyff."
+    },
+    {
+      "id": "juan-manuel-lillo",
+      "kind": "manager",
+      "note": "His coach at Dorados (Mexico); Lillo's 'third man' idea is quoted in Spielverlagerung's juego de posición piece."
+    },
+    {
+      "id": "marcelo-bielsa",
+      "kind": "manager",
+      "note": "Wikipedia: Guardiola sought to learn from Bielsa."
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "reason": "All 13 dimensions have a verified fact. The three senior spells are covered by tier A-B sources that agree on positional play, central overloads, short build-up with the goalkeeper and an aggressive counter-press: UEFA's 2008/09 technical report (Barcelona), Spielverlagerung match and concept pieces (Bayern 2014-15, City 2017/18), and Coaches' Voice career and City-era pieces. Weaker spots: squad building and people management rest on tier C press (Wikipedia, AFP, Reuters, Cooperativa) and nothing verified for Bayern; set pieces rest on one tier C article (2019); several Coaches' Voice facts are retrospective and some carry approximate eventDates because the pieces don't name the season."
+  }
+}
+
+=== QUESTIONS BY AXIS ===
+
+### Axis "pos" Possession: Ball (Posse) x Counter (Contra-ataque)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pos_05] Ter a bola também é uma forma de se defender, porque enquanto ela está com a gente o rival não ataca.
+   EN: Having the ball is also a way of defending, because while we have it the opponent can't attack.
+   Agree means: Possession also protects the team, and keeping the ball is a way of not being attacked.
+   Disagree means: Defending is done without the ball, and keeping it doesn't make the team any safer.
+2. [id=pos_02] Dominar um jogo é criar mais perigo, mesmo tendo menos a bola.
+   EN: Dominating a game means creating more danger, even with less of the ball.
+   Agree means: A team dominates when it creates more chances, even if the opponent keeps the ball most of the time.
+   Disagree means: Dominating a game means having the ball, and a team that doesn't have it is being dominated.
+3. [id=pos_01] Quem tem a bola manda no jogo, então o time deve sempre querer mais posse que o adversário.
+   EN: Whoever has the ball controls the game, so a team should always want more possession than its opponent.
+   Agree means: The team tries to have more of the ball than the opponent in every game, because whoever has possession sets the pace.
+   Disagree means: Having more or less of the ball doesn't matter in itself, and the team can give it up without losing control of the game.
+4. [id=pos_03] Contra um adversário mais fraco que se fecha, meu time deve ficar com a bola e rodá-la até achar o espaço.
+   EN: Against a weaker side that sits back, my team should keep the ball and move it around until a gap opens.
+   Agree means: Against a team that sits back, your side keeps the ball and moves it patiently until the opponent leaves a gap.
+   Disagree means: Against a team that sits back, your side can hand the ball back to draw the opponent out and attack the space it leaves.
+5. [id=pos_04] Com atacantes rápidos no elenco, deixo o rival ficar com a bola para sobrar espaço nas costas da defesa dele.
+   EN: With fast forwards in the squad, I let the opponent have the ball so there is space behind their defense.
+   Agree means: With fast forwards, the team gives up the ball on purpose so the opponent pushes up and leaves space behind.
+   Disagree means: Even with fast forwards, the team prefers to have the ball and use their pace some other way.
+
+### Axis "pro" Progression: Patient build-up (Construção paciente) x Direct play (Jogo direto)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pro_01] Se o centroavante está livre nas costas da defesa, a bola longa é o passe certo.
+   EN: If the striker is free behind the defense, the long ball is the right pass.
+   Agree means: With the striker free behind the defense, the team plays it long without a second thought.
+   Disagree means: Even with the striker free, the team prefers to move up with short passes over risking the long ball.
+2. [id=pro_05] Quando o time recupera a bola, tem que chegar à finalização em três ou quatro toques.
+   EN: When the team wins the ball back, it has to get a shot away within three or four touches.
+   Agree means: After winning the ball back, the team goes for goal as fast as possible, with few touches.
+   Disagree means: After winning the ball back, the team can hold it and get organized before attacking.
+3. [id=pro_04] Prefiro um volante que nunca perde a bola a um que arrisca passes para quebrar linhas.
+   EN: I prefer a defensive midfielder who never loses the ball to one who risks line-breaking passes.
+   Agree means: The ideal defensive midfielder is safe on the ball and prefers the sure pass to the risky one.
+   Disagree means: The ideal defensive midfielder tries passes between the lines, even if it means losing the ball more often.
+4. [id=pro_03] Cada passe para o lado ou para trás é uma chance de ataque desperdiçada.
+   EN: Every sideways or backward pass is a wasted chance to attack.
+   Agree means: The team always looks for the forward pass, and going sideways or back is wasting time.
+   Disagree means: Sideways and backward passes are part of the build-up and help find the right moment to go forward.
+5. [id=pro_02] Se o rival pressiona alto, a saída tem que ser por baixo, trocando passes, mesmo com risco perto da área.
+   EN: If the opponent presses high, we should still play out from the back with short passes, even with the risk near our own box.
+   Agree means: Even under pressure, the team plays out with short passes from the goalkeeper and accepts the risk of losing the ball near its box.
+   Disagree means: Under a high press, the team kicks it forward or goes long, because losing the ball near your own box costs too much.
+
+### Axis "est" Structure: Positional (Posicional) x Relational (Relacional)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=est_02] Os melhores ataques nascem de jogadores bem próximos, tabelando em pouco espaço como numa roda de bobinho.
+   EN: The best attacks come from players close together, combining in tight spaces like in a rondo.
+   Agree means: The team attacks with many players near the ball, playing short passes and one-twos in tight spaces.
+   Disagree means: The team attacks with players spread across the pitch, each one occupying a space, to stretch the opposing defense.
+2. [id=est_05] Um bom time se reconhece por posições bem definidas, em que cada um sabe exatamente onde estar em cada fase do jogo.
+   EN: A good team is recognized by well-defined positions, where everyone knows exactly where to be in each phase of play.
+   Agree means: A good team has clear, rehearsed positions, and each player knows where to be with and without the ball.
+   Disagree means: A good team organizes itself during the game, with players deciding together where to stand.
+3. [id=est_01] Cada jogador deve ocupar sua zona do campo, para o time manter a estrutura mesmo atacando.
+   EN: Each player should hold his zone of the pitch, so the team keeps its shape even when attacking.
+   Agree means: Each player has a set zone and sticks to it, so the team is always well spread across the pitch.
+   Disagree means: Players can leave their zones to join teammates wherever the play is.
+4. [id=est_04] O centroavante deve sair da área para tabelar com os meias, não só esperar a bola.
+   EN: The striker should drop out of the box to combine with the midfielders, not just wait for the ball.
+   Agree means: The striker roams, drops deep to play one-twos and helps build the attack.
+   Disagree means: The striker stays in the box, where he is most dangerous, and waits for the ball to reach him.
+5. [id=est_03] Se o ponta abandona a linha lateral para buscar jogo no meio, ele está errando a função.
+   EN: If the winger leaves the touchline to come inside for the ball, he is getting his job wrong.
+   Agree means: The winger stays wide, on the touchline, even when the ball is on the other side or in the middle.
+   Disagree means: The winger can leave the flank and come inside to join the play.
+   (also counts for "lar" Width)
+
+### Axis "lar" Width: Through the middle (Por dentro) x Down the wings (Pelas pontas)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lar_01] Jogos se ganham com pontas vencendo o lateral no um contra um e cruzando.
+   EN: Games are won by wingers beating the full-back one-on-one and crossing.
+   Agree means: The route to goal goes down the flanks, with the winger beating the full-back and crossing into the box.
+   Disagree means: The route to goal goes through the middle, and crosses are just one option among others.
+2. [id=lar_02] O caminho mais curto para o gol é pelo meio, e é lá que o time deve concentrar seus melhores jogadores.
+   EN: The shortest route to goal is through the middle, and that is where a team should put its best players.
+   Agree means: The team puts its best players in the middle and prefers to attack through the center.
+   Disagree means: The team uses the flanks to attack and puts decisive players out wide.
+3. [id=lar_05] Um time sem pontas abertos fica previsível e fácil de marcar.
+   EN: A team without wide wingers becomes predictable and easy to defend against.
+   Agree means: Without wide wingers the team loses width and is easy to defend against, so they are essential.
+   Disagree means: A team can be unpredictable without wide wingers, attacking through the middle or with its full-backs.
+4. [id=lar_03] Contra uma defesa fechada no meio, o melhor é abrir o campo e levar a bola para a área pelos lados.
+   EN: Against a defense packed in the middle, the best option is to stretch the pitch and get the ball into the box from the flanks.
+   Agree means: Against a crowded middle, the team goes wide and gets into the box from the flanks, with crosses and cut-backs.
+   Disagree means: Even against a crowded middle, the team keeps trying through the center, with one-twos and short passes to break the block.
+5. [id=lar_04] Prefiro escalar um meia a mais por dentro a manter dois pontas abertos colados na linha.
+   EN: I'd rather pick an extra central midfielder than keep two wingers hugging the touchline.
+   Agree means: When picking the team, an extra central midfielder is worth more than two wide wingers.
+   Disagree means: When picking the team, two wide wingers are worth more than an extra central midfielder.
+
+### Axis "blo" Block: Press high (Pressão alta) x Sit deep (Bloco baixo)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=blo_02] Defender perto da própria área, com as linhas juntas, é a forma mais segura de não levar gol.
+   EN: Defending near your own box, with the lines close together, is the safest way not to concede.
+   Agree means: The team defends deep, near its own box, with compact lines and little space between them.
+   Disagree means: The team defends high, far from its own box, and accepts leaving space behind.
+2. [id=blo_01] Perdeu a bola, o time tem que tentar recuperá-la na hora, perto da área adversária.
+   EN: When the team loses the ball, it has to try to win it back immediately, near the opponent's box.
+   Agree means: As soon as it loses the ball, the team presses right away to win it back in the opponent's half.
+   Disagree means: When it loses the ball, the team drops back and regroups before trying to win it back.
+3. [id=blo_05] Um roubo de bola no campo do rival vale mais do que qualquer jogada ensaiada.
+   EN: Winning the ball in the opponent's half is worth more than any rehearsed move.
+   Agree means: The best chances come from winning the ball in the opponent's half, and the team is trained for that.
+   Disagree means: The best chances come from built-up or rehearsed moves, not from winning the ball high up the pitch.
+4. [id=blo_03] Os atacantes são os primeiros defensores e devem pressionar o zagueiro adversário desde o primeiro passe.
+   EN: The forwards are the first defenders and should press the opposing center-backs from the very first pass.
+   Agree means: The forwards press the opponent's build-up and are an active part of the defense.
+   Disagree means: The forwards can let the opponent build up and save their energy for attacking.
+5. [id=blo_04] Contra um adversário que sai bem jogando, prefiro recuar e esperá-lo a pressionar a saída de bola.
+   EN: Against an opponent who plays out well from the back, I'd rather drop off and wait than press their build-up.
+   Agree means: Against a team that plays out well, your side drops off and waits in its own half.
+   Disagree means: Against a team that plays out well, your side presses the build-up so the opponent can't get going.
+
+### Axis "mar" Marking: Zone (Zona) x Man (Individual)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=mar_01] Defensores devem proteger espaços, não perseguir um adversário pelo campo.
+   EN: Defenders should protect spaces, not chase an opponent around the pitch.
+   Agree means: Each defender looks after a space and marks whoever comes into it.
+   Disagree means: Each defender has an opponent to mark and follows him wherever he goes.
+2. [id=mar_03] Com marcação individual cada um sabe quem é seu adversário, e fica claro quem falhou no gol sofrido.
+   EN: With man-marking everyone knows who their opponent is, and it's clear who was at fault for a goal.
+   Agree means: Man-marking makes responsibilities clear, and that is an advantage.
+   Disagree means: Clear responsibilities don't make up for the problems of man-marking, and zonal defending is better.
+3. [id=mar_05] Marcar por zona dá liberdade demais para o adversário pensar o jogo.
+   EN: Zonal marking gives the opponent too much freedom to think.
+   Agree means: With zonal marking the opponent gets the ball without pressure, and tight man-marking takes that time away.
+   Disagree means: Zonal marking covers the spaces well, and it doesn't give the opponent too much freedom.
+4. [id=mar_02] Se o adversário tem um craque, coloco alguém para marcá-lo de perto o jogo inteiro.
+   EN: If the opponent has a star player, I put someone on him to mark him closely for the whole game.
+   Agree means: The opponent's star gets a dedicated marker who follows him all game.
+   Disagree means: The opponent's star is marked by whoever is in his zone, with no dedicated marker.
+5. [id=mar_04] Num escanteio contra, prefiro que cada jogador proteja uma área a que cada um marque um adversário.
+   EN: When defending a corner, I'd rather each player protect an area than each mark an opponent.
+   Agree means: At corners, players defend spaces in the box, such as the near post and the six-yard box.
+   Disagree means: At corners, each player picks up an opponent and follows him until the ball arrives.
+
+### Axis "pla" Game plan: Own identity (Identidade própria) x Adapt to the opponent (Adaptação)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=pla_05] Um time deve jogar do seu jeito, seja qual for o adversário.
+   EN: A team should play its own way, whoever the opponent is.
+   Agree means: The team always plays the same way, whoever is on the other side.
+   Disagree means: The way of playing changes depending on the opponent.
+2. [id=pla_03] Empatando no intervalo, ajusto detalhes mas mantenho o plano, porque o gol vai sair.
+   EN: Level at half-time, I adjust details but keep the plan, because the goal will come.
+   Agree means: When it's level, the team trusts its way of playing and changes little, expecting the goal to come.
+   Disagree means: When it's level, the coach changes the system or the strategy at half-time to go after the result.
+3. [id=pla_01] Ao chegar num clube novo, o treinador impõe sua ideia e joga quem se adaptar a ela.
+   EN: When arriving at a new club, the coach imposes his idea and the players who adapt to it get to play.
+   Agree means: The coach arrives with his game model ready, and it's up to the players to fit into it.
+   Disagree means: The coach shapes the way of playing around the players he finds.
+4. [id=pla_04] Contra um time muito superior, o certo é abrir mão da sua ideia e jogar para neutralizá-lo.
+   EN: Against a far stronger team, the right thing is to give up your own idea and play to neutralize them.
+   Agree means: Against a much better team, the coach drops his style and sets the team up to cancel the opponent out.
+   Disagree means: Even against a much better team, your side keeps its style of play.
+   (also counts for "res" Purpose)
+5. [id=pla_02] Estudar os pontos fracos do adversário é mais importante do que treinar o próprio modelo de jogo.
+   EN: Studying the opponent's weaknesses matters more than drilling your own game model.
+   Agree means: Preparing for each game starts with the opponent, and the plan changes to exploit his weaknesses.
+   Disagree means: Preparing for each game starts with your own team, and the opponent is just a detail.
+
+### Axis "res" Purpose: Spectacle (Espetáculo) x Result (Resultado)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=res_05] O torcedor vai ao estádio para ver o time ganhar, não para ver um show.
+   EN: Fans go to the stadium to see their team win, not to watch a show.
+   Agree means: What fans want is the win, and the show comes second.
+   Disagree means: Fans also want to be entertained, and a team that only wins without thrilling anyone falls short.
+2. [id=res_03] Ganhando uma final nos últimos minutos, coloco mais um zagueiro e fecho o jogo.
+   EN: Winning a final in the last minutes, I bring on an extra center-back and shut the game down.
+   Agree means: With the win in hand, the team drops back, strengthens the defense and holds on to the score.
+   Disagree means: Even when winning late on, the team keeps playing the same way and may even go for another goal.
+   (also counts for "blo" Block)
+3. [id=res_02] Fora de casa contra um time forte, um empate já é um ótimo resultado.
+   EN: Away from home against a strong team, a draw is already a great result.
+   Agree means: Away against a strong team, your side settles for a draw and plays not to lose.
+   Disagree means: Away against a strong team, your side plays to win and isn't content with a draw.
+   (also counts for "pla" Game plan)
+4. [id=res_04] Importa mais como o time venceu do que o placar.
+   EN: How the team won matters more than the score.
+   Agree means: How you win matters more than the score, and an ugly win is worth less.
+   Disagree means: A win is a win, however it comes.
+5. [id=res_01] Um time que joga bonito e perde ainda é lembrado, e isso importa.
+   EN: A team that plays beautifully and loses is still remembered, and that matters.
+   Agree means: Playing beautifully has value in itself, and a team can make history even without winning trophies.
+   Disagree means: A team that loses is forgotten, however beautifully it played.
+
+### Axis "sis" Who decides: System (Sistema) x Talent (Talento)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=sis_01] Um bom sistema transforma jogadores comuns em grandes jogadores.
+   EN: A good system turns ordinary players into great ones.
+   Agree means: A well-drilled collective makes ordinary players perform above what they would on their own.
+   Disagree means: No system works miracles, and the team's level depends on the quality of its players.
+2. [id=sis_02] Se o ponta perdeu os três primeiros dribles, ele deve continuar tentando, porque é ele quem decide o jogo.
+   EN: If the winger has lost his first three dribbles, he should keep trying, because he is the one who decides the game.
+   Agree means: The talented player is free to fail and keep trying to beat his man.
+   Disagree means: After failing a few times, the player should keep it simple and play for the team.
+3. [id=sis_03] Se o craque não volta para marcar, vai para o banco, porque aqui todo mundo cumpre a função.
+   EN: If the star doesn't track back, he goes to the bench, because here everyone does their job.
+   Agree means: Tactical duties apply to everyone, and not even the star is excused from defending.
+   Disagree means: The star can be spared defensive duties to save his energy for deciding the game.
+   (also counts for "lid" Leadership)
+4. [id=sis_04] O treinador deve dar liberdade ao craque em vez de prendê-lo a uma função tática.
+   EN: The coach should give the star freedom instead of tying him to a tactical role.
+   Agree means: The star plays free, with license to turn up wherever he thinks best.
+   Disagree means: The star also has a defined tactical role, like everyone else.
+5. [id=sis_05] Prefiro onze jogadores medianos que sabem o plano de cor a onze craques improvisando.
+   EN: I'd rather have eleven average players who know the plan by heart than eleven stars improvising.
+   Agree means: A well-drilled, organized team is worth more than a team of stars with no plan.
+   Disagree means: A team of stars will find a way, even without a well-defined plan.
+
+### Axis "jog" Player type: Technique (Técnica) x Physicality (Força física)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=jog_01] Prefiro escalar um jogador lento com ótima técnica a um rápido que não domina a bola.
+   EN: I'd rather pick a slow player with great technique than a fast one who can't control the ball.
+   Agree means: When picking the team, technique counts for more than pace.
+   Disagree means: When picking the team, pace counts for more, even if the player has little technique.
+2. [id=jog_02] Sem intensidade física, não dá para competir no futebol de hoje.
+   EN: Without physical intensity, you can't compete in today's football.
+   Agree means: Strength, pace and stamina are basic requirements for a team to compete today.
+   Disagree means: A team with good technique and organization can compete even without being physically strong.
+3. [id=jog_04] Na hora de contratar um volante, força e fôlego pesam mais do que qualidade no passe.
+   EN: When signing a defensive midfielder, strength and stamina count for more than passing quality.
+   Agree means: In a defensive midfielder, the priority is physicality, to mark, run and win duels.
+   Disagree means: In a defensive midfielder, the priority is passing and reading the game, more than physicality.
+4. [id=jog_03] Ainda há lugar para o camisa 10 clássico, mesmo que ele não corra tanto.
+   EN: There is still room for the classic number 10, even if he doesn't run that much.
+   Agree means: A creative, technical playmaker has a place in the team even if he runs little.
+   Disagree means: A midfielder who doesn't run has no place in today's football, however technical he is.
+5. [id=jog_05] Jogos grandes se decidem nas divididas e na bola aérea.
+   EN: Big games are decided by fifty-fifty challenges and aerial duels.
+   Agree means: In big games, the side that wins more challenges and more headers comes out on top.
+   Disagree means: In big games, the side with more quality on the ball comes out on top.
+
+### Axis "bas" Squad: Youth (Jovens) x Experience (Experiência)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=bas_03] Se o garoto da base e o reforço caro estão no mesmo nível, joga o garoto.
+   EN: If the academy kid and the expensive signing are at the same level, the kid plays.
+   Agree means: At a similar level, the academy player gets priority over the signing.
+   Disagree means: At a similar level, the signing gets priority, because he brings experience or was bought for that.
+2. [id=bas_04] Título se ganha com jogadores experientes, e jovem precisa de tempo para amadurecer.
+   EN: Titles are won with experienced players, and young players need time to mature.
+   Agree means: To win titles a team needs seasoned players, and young players are brought in gradually.
+   Disagree means: Young players can be key figures in a title-winning team from early on.
+3. [id=bas_05] Revelar jogadores é tão importante para um clube quanto ganhar títulos.
+   EN: Developing players is as important for a club as winning titles.
+   Agree means: Developing and bringing through players is as important a goal for the club as winning.
+   Disagree means: Developing players is good, but the club's main goal is winning titles.
+4. [id=bas_01] Um clube deve ser construído com jogadores da própria base.
+   EN: A club should be built with players from its own academy.
+   Agree means: The squad is built around players developed at the club.
+   Disagree means: The squad is built through signings, and the academy is just one source of players.
+5. [id=bas_02] Brigando pelo título, prefiro um veterano rodado a um garoto promissor no time titular.
+   EN: Fighting for the title, I'd rather start a seasoned veteran than a promising youngster.
+   Agree means: In the run-in, experience comes first when picking the team.
+   Disagree means: In the run-in, the promising youngster plays if he is in form, even without experience.
+
+### Axis "lid" Leadership: Authority (Autoridade) x Harmony (Harmonia)
+personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
+1. [id=lid_03] Se o melhor jogador discorda da escalação, o treinador deve ouvi-lo antes de decidir.
+   EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
+   Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
+   Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+2. [id=lid_04] Jogador que chega atrasado ao treino fica fora do próximo jogo, seja quem for.
+   EN: A player who turns up late for training misses the next game, whoever he is.
+   Agree means: Indiscipline brings a clear punishment, and it applies to any player.
+   Disagree means: Being late is settled with a talk, without needing to drop the player.
+3. [id=lid_05] O papel do treinador é mais cuidar das pessoas do que dar ordens.
+   EN: A coach's role is more about looking after people than giving orders.
+   Agree means: A coach is above all a manager of people, who looks after the group's well-being and confidence.
+   Disagree means: A coach is above all the one in charge, who sets the rules and makes sure they are followed.
+4. [id=lid_01] O treinador é o chefe, e as estrelas seguem as mesmas regras que todo mundo.
+   EN: The coach is the boss, and the stars follow the same rules as everyone else.
+   Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
+   Disagree means: The coach negotiates with the stars, and they can be treated differently.
+5. [id=lid_02] Um grupo feliz e unido rende mais do que um vestiário controlado com mão de ferro.
+   EN: A happy, united group performs better than a dressing room run with an iron fist.
+   Agree means: A good atmosphere and a united group are the basis of performance.
+   Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.

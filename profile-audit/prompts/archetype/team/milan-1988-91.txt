@@ -1,0 +1,305 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Milan 1988-91 (Sacchi)" (catalog: team), answering as the team Milan 1988-91 (Sacchi), in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/milan-1988-91.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:milan-1988-91".
+
+=== RESEARCH FILE (team/milan-1988-91.json) ===
+{
+  "id": "milan-1988-91",
+  "catalog": "team",
+  "name": "Milan 1988-91 (Sacchi)",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "1988-08-21",
+    "end": "1991-05-26"
+  },
+  "scopeNote": "Arrigo Sacchi's AC Milan across the 1988/89, 1989/90 and 1990/91 seasons. Sacchi managed Milan from July 1987 to June 1991 (Wikipedia gives months only); the window starts at the first competitive match of 1988/89 (21 Aug 1988, Milan 2-0 Licata, Coppa Italia) and ends at the last match of 1990/91 (26 May 1991, Milan 0-0 Parma, Serie A round 34), both read on the Wikipedia season pages. The 1987/88 season (scudetto, first Sacchi year, Dutch trio settling in, early-season crisis) is deliberately excluded to keep the window to the 1988-91 European Cup era (1988/89 and 1989/90 titles, trophyless 1990/91). Style: zonal 4-4-2 with a high line, offside trap and collective pressing (UEFA: \"operated a 4-4-2 with zonal marking, a high defensive line\"); Sacchi himself calls pressing \"controlling space\" (Vice). Distinct from milan-2006-07 (Ancelotti). Later 1991 end-date: Sacchi left in June 1991 (no exact day found); the manager end uses the last match. Several in-period facts come from retrospectives.",
+  "managers": [
+    {
+      "managerId": "arrigo-sacchi",
+      "start": "1988-08-21",
+      "end": "1991-05-26"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Window 1988-91 excludes Sacchi's 1987/88 first season (scudetto); confirm that is intended.",
+    "Exact day Sacchi left Milan (June 1991) not found; manager end set to the last match, 1991-05-26.",
+    "Season pages were read only to character 100000 (of ~140-170k); no later competitive match after 26 May 1991 was seen, but the unread tail was not checked.",
+    "Formation sources disagree on details (4-4-2 per UEFA/Wikipedia; fan FM guides give 4-1-2-1-2 or 2-3-3-2 in possession): treat 4-4-2 as the base, shape in possession unconfirmed.",
+    "The 25-metre line-spacing figure appears in Wikipedia, FIFA and Guide to Football, but its original source was not located.",
+    "Width, possession, set-pieces, game-management and squad-building have no in-period verified evidence.",
+    "stated-view counted as a gap: all five Sacchi quotes are 'attributed' (retrospective articles, no primary dated interview found)."
+  ],
+  "sources": [
+    {
+      "title": "Why UEFA President's Award winner Arrigo Sacchi is one of the greats (UEFA.com)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d81cb410c87-4115a0f26160-1000--why-uefa-president-s-award-winner-arrigo-sacchi-is-one-of-th/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"operated a 4-4-2 with zonal marking, a high defensive line\"; also \"an efficient offside trap\" and aggressive pressing. Retrospective, covers the 1988/89 and 1989/90 European Cup years.",
+      "verified": true
+    },
+    {
+      "title": "Why UEFA President's Award winner Arrigo Sacchi is one of the greats (UEFA.com)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d81cb410c87-4115a0f26160-1000--why-uefa-president-s-award-winner-arrigo-sacchi-is-one-of-th/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021",
+      "eventDate": "1989/90",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Ancelotti: \"Until his arrival, players never gave everything in training.\" Van Basten called him a perfectionist who demanded maximum effort in every session. Retrospective only.",
+      "verified": true
+    },
+    {
+      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
+      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-03-02",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Press \"as a unit\" with \"an extremely high defensive line\". Sacchi: \"Pressing is not about running and it's not about working hard, it's about controlling space.\" Article date not seen; retrospective.",
+      "verified": true
+    },
+    {
+      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
+      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-03-02",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Milan defended with \"a zonal marking system\" and aimed to \"regularly play an offside trap\", unlike many other Italian teams. Retrospective.",
+      "verified": true
+    },
+    {
+      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
+      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-03-02",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Sacchi favoured \"short, quick passes\" to create space; the back four of Tassotti, Baresi, Costacurta and Maldini were comfortable on the ball.",
+      "verified": true
+    },
+    {
+      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
+      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-03-02",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Gullit and van Basten \"a strikeforce capable of scoring every type of goal\", Rijkaard controlled play from behind them. Training included \"shadow play\", a full match without a ball.",
+      "verified": true
+    },
+    {
+      "title": "The pressing era (Guide to Football)",
+      "url": "https://guidetofootball.com/history/the-pressing-era/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Page undated (articleDate is only the 2026 copyright year). \"Sacchi insisted that the team play within a tight vertical space\"; \"Compactness was the foundation on which pressing was built\"; pressing triggered when an opposition player entered a player's assigned space; \"often described as 25 metres between the deepest defender and the most advanced forward\". Instead of marking players, \"Sacchi's Milan defended zones of the pitch\".",
+      "verified": true
+    },
+    {
+      "title": "Milan's cornerstone: How Franco Baresi provided the foundations (FootballTransfers)",
+      "url": "https://www.footballtransfers.com/us/transfer-news/it-serie-a/2026/09/milans-cornerstone-how-franco-baresi-provided-the-foundations-for-arrigo-sacchis-great-milan-side",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-09-03",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"He believed in a pure zonal system, a flat back four and a high offside line with a hard press.\" Positions defined by \"the ball, the space, the team-mate and the opponent\". Retrospective obituary-style piece.",
+      "verified": true
+    },
+    {
+      "title": "FIFA (Spanish): Sacchi profile, 75th birthday",
+      "url": "https://inside.fifa.com/es/news/se-me-pone-la-piel-de-gallina-al-ver-a-once-futbolistas-moverse-como-una-sola-pe",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "\"aprender a ejercer una presión agresiva por medio de ejercicios sin balón y tapando las líneas de pase\"; \"la trampa del fuera de juego era un elemento central en su idea del fútbol\"; training with \"11 contra 0\" automated movements.",
+      "verified": true
+    },
+    {
+      "title": "When Calcio Ruled the World: The Immortals of AC Milan (Gentleman Ultra)",
+      "url": "https://www.gentlemanultra.com/?p=71",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-09-13",
+      "eventDate": "1989",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "\"If they lost the ball they would press from the front.\" Rijkaard and Ancelotti moved the ball forward with quick short passing. Fan blog, retrospective.",
+      "verified": true
+    },
+    {
+      "title": "L'Adige: Tifosi impazziti per il Milan degli immortali (Stefano Parolari)",
+      "url": "https://www.ladige.it/sport/tifosi-impazziti-per-il-milan-degli-immortali-hwecceyx",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2019-10-12",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Context only (Van Basten benched after two games in 1987, outside the period; players' recollections): Van Basten: \"In Olanda si parlava di tattica, con lui solo di aggressivita e movimento continuo.\" Costacurta: \"Sacchi sembrava avere un metodo da pazzi\".",
+      "verified": false
+    },
+    {
+      "title": "Arrigo Sacchi: reinventing football, knocking back Maradona (Destination Calcio)",
+      "url": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1987",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Context only, summer 1987 (outside the period): \"We signed many players from Serie B and C, but we also signed two stars in Gullit and Van Basten immediately.\" \"I didn't look at their feet, I looked at their head.\"",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "The only way you can build a side is by getting players who speak the same language and can play a team game.",
+      "date": "2012-05-26",
+      "source": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "My Milan team didn't run more than the others. We just ran better.",
+      "date": "2021",
+      "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d81cb410c87-4115a0f26160-1000--why-uefa-president-s-award-winner-arrigo-sacchi-is-one-of-th/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Yo mando a mis jugadores a la cancha con la intención de divertir al público durante 90 minutos.",
+      "date": "2021-03-31",
+      "source": "https://inside.fifa.com/es/news/se-me-pone-la-piel-de-gallina-al-ver-a-once-futbolistas-moverse-como-una-sola-pe",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "For us, a game without winning on merit wasn't a game. We wanted to dominate games.",
+      "date": "2026",
+      "source": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Pressing is not about running and it's not about working hard, it's about controlling space.",
+      "date": "2016-03-02",
+      "source": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://worldsoccertalk.com/news/arrigo-sacchi-and-his-all-conquering-milan-side",
+      "reason": "404"
+    },
+    {
+      "url": "https://figc.it/media/233550/una-nuova-era_calcio-relazionale.pdf",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/us/features/milan-88-inside-story-sacchis-all-conquering-kings-told-them",
+      "reason": "empty"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/1988–89_AC_Milan_season",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/1990–91_AC_Milan_season",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "possession",
+      "width",
+      "set-pieces",
+      "game-management",
+      "squad-building",
+      "stated-view"
+    ],
+    "axes": [
+      "bas",
+      "lar",
+      "pla",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [
+    {
+      "id": "nils-liedholm",
+      "kind": "manager",
+      "note": "Introduced zonal marking at Milan before Sacchi (Wikipedia)."
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "Only tier C retrospectives (UEFA, Vice, FIFA, Guide to Football) with no season-specific tier A/B analysis and no contemporaneous quotes; the 4-4-2/zonal/high-line/press core agrees across sources, but possession, width, game-management and squad-building are unverified."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

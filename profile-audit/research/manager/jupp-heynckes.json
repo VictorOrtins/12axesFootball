@@ -1,0 +1,1023 @@
+{
+ "id": "jupp-heynckes",
+ "catalog": "manager",
+ "name": "Jupp Heynckes",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2011-07-01",
+  "end": "2018-06-30"
+ },
+ "scopeNote": "Counted spells (proposed by the researcher on the caller's instruction, to be confirmed): Bayern Munich 2011-07-01 to 2013-06-30 (2012/13 treble; 2011/12 runner-up in all three competitions plus the lost 2012 CL final) and Bayern Munich 2017-10-06 to 2018-06-30 (return after Ancelotti; Bundesliga title, CL semi-final). These are the spells with real tactical coverage and titles; the catalog narrows a 1979-2018 career to its signature era. Spell dates come from memory plus the Bayern Strikes URL date (2017-10-06) and need a second source before use. Style terms used by sources: a 4-2-3-1 morphing to a 4-4-2(-0) block, 'position-orientated zonal marking' (Spielverlagerung) combined with situational man orientation in counter-pressing (Spielverlagerung 'access-oriented' counter-pressing), a mid-to-high compact block with two pressing zones in 2017/18, wide wingers plus fullbacks, direct counterattacking in Europe. A popular label 'gegenpressing side like Klopp' is not quite right: Bleacher Report says containment-based balance, Spielverlagerung measured fewer interceptions and more provoked challenges than Dortmund or Barcelona, and Heynckes said he wanted a balance between offence and defence. Several Wembley/2012-13 sources are retrospective (marked retrospectiveOnly) and BTL's 'man-mark vs zonal' sentence on the centre-backs contradicts Spielverlagerung's 'position-orientated zonal marking'. Partial dates (season) used where the match day was not in the source. The last spellsExcluded entry (earlier career) uses year-only dates because it groups several clubs.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Marking: Spielverlagerung (contemporary, 2013) says 'position-orientated zonal marking' in the 4-4-2-0 block, with Barca's wingers man-marking; Breaking The Lines (2022) says the centre-backs man-marked and did not zonally mark; Bayern Strikes (2018) says 'man-oriented pressing'. Treat Bayern as zonal block with situational man orientation when pressing/counter-pressing; confirm.",
+  "Real Madrid 1997/98 (Champions League winner) is excluded from counted spells only because no tactical coverage was found (searches returned results, lineups, and dismissal stories). Confirm the user is happy with this; Goal Espana reports Sanz said he lost the dressing room and gives 28 May 1998 as exit, another summary says 8 days after the final (20 May) and Sanz said two days later.",
+  "Spell dates need a second source: Bayern 1 July 2011 start and 30 June 2013 end; return 6 October 2017 and end 30 June 2018 (2017 date only from a Bayern Strikes URL).",
+  "Leverkusen 2009-11: The Hard Tackle says he took over 'in the summer of 2010', which is probably wrong (he started 2009); only 2010/11 4-4-2/4-2-3-1 variation sourced, so excluded.",
+  "The Lewandowski 'I'm the boss' episode date was not found in the reading.",
+  "Squad-building dimension is thin: youth promotion (Alaba, Kroos, 2011) and Kimmich/Coman 2017 are sourced; Rotation at Bayern 2012/13 is only partly evidenced (Kroos rotating) and 2017/18 sources show a settled Stammelf; Sport1 pieces on rotation were read only as search summaries.",
+  "UEFA pieces ('Bayern's Barcelona master plan', 'Klopp and Heynckes compared') and fcbayern.com interviews were not accessible; the 2013 semi-final plan from Heynckes himself is missing."
+ ],
+ "sources": [
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Bayern lined up in a 4-2-3-1.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Heynckes’ 4-2-3-1 would sometimes morph into a rough 4-4-2, similar to the Italian’s",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Despite the position-orientated zonal marking, comparatively little ball possession and the 4-4-2-0, Bayern was anything but a purely destructive and passive team.",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The 4-2-3-1 has been a mainstay once again, but there have also been occasions where a 4-3-3, 4-5-1 and 4-1-4-1 have reared their head.",
+   "verified": true
+  },
+  {
+   "title": "Tactical analysis: Bayern's hybrid formation destroys Leverkusen (FC Bayern Central)",
+   "url": "https://fcbayerncentral.com/2018/04/leverkusen-6-2-dfbpokal-semis-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-04-18",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Bayern essentially fielded a 4-1-4-1 / 4-2-3-1 hybrid.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "A Six drops back, gets the ball from Neuer and bounces it on to the centreback – the pressing striker’s covering shadow is bypassed.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "If Neuer was not attacked, he remained calm and waited until his central defenders had spread. Together they often formed a bank, circumventing Barcelona’s pressing.",
+   "verified": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "The goalkeeper would now often collect the loose balls and be involved in the buildup when recycling possession.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Often Javi Martinez would drop into the backline to create a numerical advantage when pressed by a two-man pairing",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "the 72-year-old opted for a low-press tactic in dropping back and encouraging build-up play.",
+   "verified": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Even though Bayern seized possession in the league, their approach changed when playing in Europe. Bayern would often look to play more direct and rely upon the trio upfront to do most of the damage by having a quick counter-attacking style of play.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "He eschewed the fashionable tiki-taka and the formidable German Gegenpressing, opting to take a bit from each to make something essentially his own.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Perfektionist Heynckes auf letzter Mission (Abendzeitung)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/perfektionist-heynckes-auf-letzter-mission-art-146914",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2011-08-01",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "„Hier ist das Hauptaugenmerk in den letzten Jahren immer wieder auf Ballbesitz, Positionsspiel, Offensivspiel gelegt worden“, betonte Heynckes. Um aber wieder Titel zu erringen, sei eine bessere Balance zwischen Offensive und Defensive der Schlüssel.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Despite the position-orientated zonal marking, comparatively little ball possession and the 4-4-2-0",
+   "verified": true
+  },
+  {
+   "title": "Perfektionist Heynckes auf letzter Mission (Abendzeitung)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/perfektionist-heynckes-auf-letzter-mission-art-146914",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2011-08-01",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "„Was mir an Barca besonders imponiert, ist, wie sie ihr Pressing umsetzen, wie bei Ballverlust alle Automatismen greifen, um wieder den Ball zu erkämpfen.“",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "While Bayern had mostly vertical distances of five to 15 meters per line and a maximum of 25 meters of distance between defense and attack in their pressing",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "They used the 4-4-2-0 to close down the centre and shifted back and forth. But if Barcelona came into this block (positioned up high), they were pressed out of there.",
+   "verified": true
+  },
+  {
+   "title": "Counterpressing variations (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=202",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-07",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Bayern’s counter pressing is the most likely to fall into this category.",
+   "verified": true
+  },
+  {
+   "title": "Counterpressing variations (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=202",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-07-07",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "This brief situational man orientation ensures that after the enemy passes the players can always obtain access and challenge for the ball.",
+   "verified": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The concept here was to use their positions to create cover shadows paired up with a counter-press to maximize their chances to win the ball back.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Following the success of Jurgen Klopp at Borussia Dortmund, Heycnkes adapted a Counter press and Encouraged his players to press and win the ball back as high up as possible.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Pep Guardiola vs. Jupp Heynckes: Identifying Their 6 Biggest Differences (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1627676-pep-guardiola-vs-jupp-heyneckes-identifying-their-6-biggest-differences",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-05-08",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Heynckes' Bayern play a different style of pressing, one that is more balanced and based on containment.",
+   "verified": true
+  },
+  {
+   "title": "Patience and peace crucial for Heynckes and Bayern (The National)",
+   "url": "https://thenationalnews.com/sport/patience-and-peace-crucial-for-heynckes-and-bayern-1.571122",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-05-18",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "He has removed the dependency on the \"aggressive pressing\" Schweinsteiger yesterday cited as a factor in their 2010 Champions League final loss to Inter Milan.",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "In his first match in charge this season, the manager instantly brought back the renowned counter-pressing against SC Freiburg.",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The man-oriented pressing involves one player pressurizing the player in possession, while teammates stick close to viable passing options, thereby suffocating the opposition and enforcing errors.",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes im Interview ueber sein Erfolgsgeheimnis (Abendzeitung, citing FAS)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/jupp-heynckes-im-interview-ueber-sein-erfolgsgeheimnis-spielergehaelter-und-bayern-dominanz-art-430447",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-01-21",
+   "eventDate": "2017-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Wir hatten zwei Pressingzonen definiert und die Mannschaftsteile auf 25 Meter komprimiert, um enge Räume zu schaffen.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The centerline became practically the boundary for offsides and did the rest.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "all passes to Barcelona players within this Bayern block looked like passes to man-marked players because of the tightness of space",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "By squeezing play in the midfield areas with a high defensive line and attackers reverting deeper, his side stayed in command of space at all times, moving inwards to defend and extending telescopically when in transition.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Pep Guardiola vs. Jupp Heynckes: Identifying Their 6 Biggest Differences (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1627676-pep-guardiola-vs-jupp-heyneckes-identifying-their-6-biggest-differences",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-05-08",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Bayern defend in a more classic sense, and it's rare that opponents get between the back line and goalkeeper Manuel Neuer.",
+   "verified": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The center backs wouldn’t zonally mark and played an offside-based defense; instead, they would man-mark and follow the player they were marking",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "With more emphasis on the defensive aspects of their game, Bayern were not afraid to give possession up in favor of shutting the opposition down.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Jupp Heynckes im Interview ueber sein Erfolgsgeheimnis (Abendzeitung, citing FAS)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/jupp-heynckes-im-interview-ueber-sein-erfolgsgeheimnis-spielergehaelter-und-bayern-dominanz-art-430447",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-01-21",
+   "eventDate": "2017-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "habe ich von Anfang an darauf hingewiesen, dass man wie beim Hausbau beim Fundament anfangen muss, in einem Fußballteam ist das also bei der Defensive.",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "The deeper two aimed at opening up and exploiting pockets of space for the attacking players, causing headaches for opposition managers who seemed unable to deal with Bayern’s transitions between attack and defence.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Balls won were the result, the consequence a counterattack.",
+   "verified": true
+  },
+  {
+   "title": "Pep Guardiola vs. Jupp Heynckes: Identifying Their 6 Biggest Differences (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1627676-pep-guardiola-vs-jupp-heyneckes-identifying-their-6-biggest-differences",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-05-08",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "The fact that their defense plays deeper means that Bayern can counterattack more and they can play out wide and through the center",
+   "verified": true
+  },
+  {
+   "title": "Patience and peace crucial for Heynckes and Bayern (The National)",
+   "url": "https://thenationalnews.com/sport/patience-and-peace-crucial-for-heynckes-and-bayern-1.571122",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-05-18",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Like Chelsea, Bayern are best on the counterattack.",
+   "verified": true
+  },
+  {
+   "title": "Die Lehren von Jupp Heynckes nach Celtic Glasgow (Sport1)",
+   "url": "https://www.sport1.de/news/fussball/champions-league/2017/10/fc-bayern-muenchen-die-lehren-von-jupp-heynckes-nach-celtic-glasgow",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2017-10-19",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "„Wir müssen uns in vielen Bereichen noch verbessern, vor allem in der Rückwärtsbewegung sowie im Umschaltspiel von Defensive auf Offensive.“",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "His wingers were utilised to their full capabilities, stretching the field to its maximum width, but were still able to play as part of a compact midfield with a high defensive press.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Both Alaba and Lahm can also play diagonally, making Bayern more flexible in the occupation of the wings.",
+   "verified": true
+  },
+  {
+   "title": "ANALYSIS | Champions League Final 2013: Borussia Dortmund 1-2 Bayern Munich (Get German Football News)",
+   "url": "https://www.getfootballnewsgermany.com/2020/analysis-champions-league-final-2013-borussia-dortmund-1-2-bayern-munich/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-04-04",
+   "eventDate": "2013-05-25",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Heynckes would adjust this by tweaking the structure in possession encouraging the wide players to provide width on either side of the pitch, stretching Dortmund’s 4-4-2.",
+   "verified": true
+  },
+  {
+   "title": "Pep Guardiola vs. Jupp Heynckes: Identifying Their 6 Biggest Differences (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1627676-pep-guardiola-vs-jupp-heyneckes-identifying-their-6-biggest-differences",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-05-08",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "In addition to using the full width of the pitch, Heynckes' Bayern use a wider variety of attacking methods than did Guardiola's Barca.",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "The full-backs, David Alaba and Joshua Kimmich, facilitate the strong play in the center by combining with their respective wingers.",
+   "verified": true
+  },
+  {
+   "title": "Die Lehren von Jupp Heynckes nach Celtic Glasgow (Sport1)",
+   "url": "https://www.sport1.de/news/fussball/champions-league/2017/10/fc-bayern-muenchen-die-lehren-von-jupp-heynckes-nach-celtic-glasgow",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2017-10-19",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Die erfolgreichen Flügelzangen Alaba/Ribery und Lahm/Robben waren einer der Erfolgsgaranten für den Triple-Erfolg.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Bayern solved this task excellently, and in combination with the overloads on the wings it was the second major factor in this historic victory.",
+   "verified": true
+  },
+  {
+   "title": "ANALYSIS | Champions League Final 2013: Borussia Dortmund 1-2 Bayern Munich (Get German Football News)",
+   "url": "https://www.getfootballnewsgermany.com/2020/analysis-champions-league-final-2013-borussia-dortmund-1-2-bayern-munich/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-04-04",
+   "eventDate": "2013-05-25",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Jupp Heynckes deserves a lot of credit for identifying ways to tweak his tactics to exploit Dortmund’s shape against them",
+   "verified": true
+  },
+  {
+   "title": "ANALYSIS | Champions League Final 2013: Borussia Dortmund 1-2 Bayern Munich (Get German Football News)",
+   "url": "https://www.getfootballnewsgermany.com/2020/analysis-champions-league-final-2013-borussia-dortmund-1-2-bayern-munich/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-04-04",
+   "eventDate": "2013-05-25",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "So Bayern in the second half would begin to launch long-passes in-behind and assaulting the attacking third with players making runs into the interior channels from the likes of Robben, Muller and Mandzukic.",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Heynckes has evidently broadened his thinking of the game and has proven himself more adaptable in a game-by-game basis",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes got it exactly right against Real Madrid (Bavarian Football Works)",
+   "url": "https://www.bavarianfootballworks.com/2018/5/2/17309750/jupp-heynckes-bayern-munich-tactics-real-madrid-champions-league-semifinal-zidane-james-rodriguez",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-05-02",
+   "eventDate": "2018-04-25",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Heynckes interestingly opted to put Corentin Tolisso in the lineup instead of his stalwart Javi.",
+   "verified": true
+  },
+  {
+   "title": "Tactical analysis: Bayern's hybrid formation destroys Leverkusen (FC Bayern Central)",
+   "url": "https://fcbayerncentral.com/2018/04/leverkusen-6-2-dfbpokal-semis-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-04-18",
+   "eventDate": "2018-04-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "However, his pragmatic approach to team selection and tactics dictated one major change.",
+   "verified": true
+  },
+  {
+   "title": "Patience and peace crucial for Heynckes and Bayern (The National)",
+   "url": "https://thenationalnews.com/sport/patience-and-peace-crucial-for-heynckes-and-bayern-1.571122",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-05-18",
+   "eventDate": "2012-05-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "It's important the players are patient because we must first and foremost try to keep our goal clean. If we don't concede we have a chance to win.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "An important factor was Manuel Neuer, who is difficult to press. He is able to play precise passes through narrow spaces, or to deliver clearances directly.",
+   "verified": true
+  },
+  {
+   "title": "In-depth analysis: Bayern Munich - Barcelona 4:0 (Spielverlagerung)",
+   "url": "https://spielverlagerung.com/?p=11",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2013-07-27",
+   "eventDate": "2013-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Bayern has extremely intelligent, pressing-resistant and technically strong wingers: Ribéry, Robben and the fullbacks.",
+   "verified": true
+  },
+  {
+   "title": "Analyzing Jupp Heynckes' Treble-Winning 2012/13 Bayern Munich Side (Breaking The Lines)",
+   "url": "https://breakingthelines.com/@btl/analyzing-jupp-heynckes-treble-winning-2012-13-bayern-munich-side",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-05-09",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The pivot consisted of Bastian Schweinsteiger and Javi Martinez",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Tactical analysis: Bayern's hybrid formation destroys Leverkusen (FC Bayern Central)",
+   "url": "https://fcbayerncentral.com/2018/04/leverkusen-6-2-dfbpokal-semis-tactical-analysis/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-04-18",
+   "eventDate": "2018-04-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Javi Martínez became the anchor of the team. Alongside him comes a cast of mixed midfielders that play different roles depending on the opposition.",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "The nominal wingers Arjen Robben and — more often than not — Kingsley Coman brings pace in excess to the squad.",
+   "verified": true
+  },
+  {
+   "title": "Perfektionist Heynckes auf letzter Mission (Abendzeitung)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/perfektionist-heynckes-auf-letzter-mission-art-146914",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2011-08-01",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Heynckes fördert junge Spieler wie den Österreicher David Alaba oder Nationalspieler Toni Kroos, der unter ihm aufblüht wie einst bei Bayer Leverkusen.",
+   "verified": true
+  },
+  {
+   "title": "Wie Jupp Heynckes aus einer traumatisierten Bayern-Mannschaft ein Triple-Team formte (Heidelberg24)",
+   "url": "https://www.heidelberg24.de/sport/fussball/wie-jupp-heynckes-aus-einer-traumatisierten-bayern-mannschaft-ein-triple-team-formte-zr-94100052.html",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2025-12-27",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Hinzu kamen die Schlüsseltransfers von Javi Martinez, Dante und Mario Mandzukic.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Die Lehren von Jupp Heynckes nach Celtic Glasgow (Sport1)",
+   "url": "https://www.sport1.de/news/fussball/champions-league/2017/10/fc-bayern-muenchen-die-lehren-von-jupp-heynckes-nach-celtic-glasgow",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2017-10-19",
+   "eventDate": "2017-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Heynckes hat jetzt zweimal auf seine Stammelf gesetzt, gegen Glasgow kam nur Sebastian Rudy für den verletzten Javi Martinez neu ins Team.",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The versatile Toni Kroos was able to shine as the dictator, rotating with the midfield and giving Heynckes the option to rest players, another key element of his system.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Perfektionist Heynckes auf letzter Mission (Abendzeitung)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/perfektionist-heynckes-auf-letzter-mission-art-146914",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2011-08-01",
+   "eventDate": "2011-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Um aber wieder Titel zu erringen, sei eine bessere Balance zwischen Offensive und Defensive der Schlüssel.",
+   "verified": true
+  },
+  {
+   "title": "Patience and peace crucial for Heynckes and Bayern (The National)",
+   "url": "https://thenationalnews.com/sport/patience-and-peace-crucial-for-heynckes-and-bayern-1.571122",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-05-18",
+   "eventDate": "2012-05-17",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "I think in this particular situation for my team, my players and the whole club it is important that I radiate this tranquillity",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes im Interview ueber sein Erfolgsgeheimnis (Abendzeitung, citing FAS)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/jupp-heynckes-im-interview-ueber-sein-erfolgsgeheimnis-spielergehaelter-und-bayern-dominanz-art-430447",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-01-21",
+   "eventDate": "2018-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Man muss ökonomisch pressen, ökonomisch Fußball spielen.",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Heynckes, in his old age, seems to have figured out how to manage egos within his team. His players are selfless and give everything for the team.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Jupp Heynckes: the methods and mind behind Bayern Munich's loyal innovator",
+   "url": "https://thesefootballtimes.co/2018/11/21/jupp-heynckes-the-methods-and-mind-behind-bayern-munichs-loyal-innovator",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-21",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "I’m the boss and no one else,” Heynckes said after the game.",
+   "verified": true
+  },
+  {
+   "title": "Wie Jupp Heynckes aus einer traumatisierten Bayern-Mannschaft ein Triple-Team formte (Heidelberg24)",
+   "url": "https://www.heidelberg24.de/sport/fussball/wie-jupp-heynckes-aus-einer-traumatisierten-bayern-mannschaft-ein-triple-team-formte-zr-94100052.html",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2025-12-27",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Wenn die Spieler zum Training an die Säbener kamen, haben die sich nicht einfach begrüßt, die haben sich umarmt. Das war ein Team von A bis Z.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wie Jupp Heynckes aus einer traumatisierten Bayern-Mannschaft ein Triple-Team formte (Heidelberg24)",
+   "url": "https://www.heidelberg24.de/sport/fussball/wie-jupp-heynckes-aus-einer-traumatisierten-bayern-mannschaft-ein-triple-team-formte-zr-94100052.html",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2025-12-27",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Der Trainer suchte immer wieder das direkte Gespräch, gab gerade den sensiblen Offensivspielern wie Arjen Robben und Franck Ribéry ein Gefühl von Vertrauen, ohne ihnen Verantwortung abzunehmen.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Jupp Heynckes im Interview ueber sein Erfolgsgeheimnis (Abendzeitung, citing FAS)",
+   "url": "https://www.abendzeitung-muenchen.de/sport/fcbayern/jupp-heynckes-im-interview-ueber-sein-erfolgsgeheimnis-spielergehaelter-und-bayern-dominanz-art-430447",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-01-21",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Zum Beispiel ist für mich eine Selbstverständlichkeit, dass in der Umkleidekabine Trikots und Schuhe nach dem Training nicht irgendwo auf dem Boden liegen bleiben",
+   "verified": true
+  },
+  {
+   "title": "A brief look at Jupp Heynckes' refined tactics with Bayern Munich (Bayern Strikes)",
+   "url": "https://bayernstrikes.com/2018/01/30/jupp-heynckes-bayern-munich-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-01-30",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "The former Gladbach striker has thawed relations in the dressing room and brought about a flexible system to which players can get behind.",
+   "verified": true
+  },
+  {
+   "title": "Patience and peace crucial for Heynckes and Bayern (The National)",
+   "url": "https://thenationalnews.com/sport/patience-and-peace-crucial-for-heynckes-and-bayern-1.571122",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-05-18",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Heynckes, once an edgy disciplinarian in a coaching career that spans four decades and nine clubs, has spent a season working to take the tension out of Germany's grandest club.",
+   "verified": true
+  },
+  {
+   "title": "Jupp Heynckes, el unico madridista que no celebro la Septima (Goal Espana)",
+   "url": "https://www.goal.com/es/noticias/jupp-heynckes-el-unico-madridista-que-no-celebro-la-septima/tx2k06e5h7ve13xa5jnh8nalu",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-20",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "„Había perdido el control del vestuario. Por un partido no se cambia de opinión”, dijo entonces el presidente Lorenzo Sanz",
+   "verified": false,
+   "note": "Real Madrid 1997/98 is an excluded spell; kept as context only"
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Hier ist das Hauptaugenmerk in den letzten Jahren immer wieder auf Ballbesitz, Positionsspiel, Offensivspiel gelegt worden ... eine bessere Balance zwischen Offensive und Defensive [sei] der Schlüssel.",
+   "date": "2011-08-01",
+   "source": "Abendzeitung, 2011-08-01 (pre-season, Bayern)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Was mir an Barca besonders imponiert, ist, wie sie ihr Pressing umsetzen, wie bei Ballverlust alle Automatismen greifen, um wieder den Ball zu erkämpfen.",
+   "date": "2011-08-01",
+   "source": "Abendzeitung, 2011-08-01",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "It's important the players are patient because we must first and foremost try to keep our goal clean. If we don't concede we have a chance to win.",
+   "date": "2012-05-17",
+   "source": "The National, 2012-05-18 (pre Champions League final)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Wir hatten zwei Pressingzonen definiert und die Mannschaftsteile auf 25 Meter komprimiert, um enge Räume zu schaffen.",
+   "date": "2018-01-21",
+   "source": "Frankfurter Allgemeine Sonntagszeitung interview, as reported by Abendzeitung 2018-01-21 (original FAS not read)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Man muss ökonomisch pressen, ökonomisch Fußball spielen.",
+   "date": "2018-01-21",
+   "source": "FAS interview via Abendzeitung 2018-01-21",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I'm the boss and no one else",
+   "date": "2018",
+   "source": "The Set Pieces / These Football Times 2018-11-21 (exact date of Lewandowski incident not found)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/news-media/news/0209-0e84edb71897-32f874b2aad9-1000--bayern-s-barcelona-master-plan",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://fr.uefa.com/uefachampionsleague/news/0253-0d7f0e82bcf5-73362f9ea630-1000--klopp-and-heynckes-compared",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.bundesliga.com/en/news/Bundesliga/jupp-heynckes-restores-order-to-bayern-munich-464056.jsp",
+   "reason": "404"
+  },
+  {
+   "url": "https://fcbayern.com/en/news/2018/05/heynckes-interviewed",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://fcbayern.com/en/news/2012/12/heynckes-we-have-to-resolutely-stay-the-course",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Johan Cruyff (space concept quoted by These Football Times)",
+  "Arrigo Sacchi (admiration, similar 4-4-2 block; praised the Bayern attackers as first defenders)",
+  "Louis van Gaal (counter-press/phase concept inherited, per Breaking The Lines)",
+  "Barcelona pressing (admired by Heynckes in 2011)",
+  "Guardiola-era positional play (reused in 2017/18, per Bayern Strikes)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "FC Bayern Munich",
+   "start": "2011-07-01",
+   "end": "2013-06-30",
+   "reason": "Treble 2012/13, record 91 points, main tactical coverage (Barcelona 4-0, Dortmund final)"
+  },
+  {
+   "club": "FC Bayern Munich",
+   "start": "2017-10-06",
+   "end": "2018-06-30",
+   "reason": "Return after Ancelotti, Bundesliga title, CL semi-final vs Real Madrid; tactical analyses of 4-2-3-1 and low-press/two pressing zones"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Real Madrid",
+   "start": "1997-07-01",
+   "end": "1998-05-28",
+   "reason": "Champions League 1997/98 but no tactical coverage found; the evidence is about dismissal and dressing room; dates approximate"
+  },
+  {
+   "club": "Bayer Leverkusen",
+   "start": "2009-07-01",
+   "end": "2011-06-30",
+   "reason": "Runner-up 2010/11 but only a formation description (4-4-2 / 4-2-3-1 variation), no tactical analysis; dates approximate"
+  },
+  {
+   "club": "Borussia Moenchengladbach",
+   "start": "2006-07-01",
+   "end": "2007-04-30",
+   "reason": "Relegation-zone job with little coverage; context only (dates approximate)"
+  },
+  {
+   "club": "Borussia Moenchengladbach",
+   "start": "2008-07-01",
+   "end": "2011-06-30",
+   "reason": "Not mined: context only; dates approximate; treated as earlier career"
+  },
+  {
+   "club": "Bayern Munich (interim)",
+   "start": "2009-04-27",
+   "end": "2009-06-30",
+   "reason": "Interim, under 15 matches"
+  },
+  {
+   "club": "Earlier career (Gladbach 1979-87, Athletic, Eintracht, Tenerife, Benfica, Schalke, Bayern 1987-91)",
+   "start": "1979",
+   "end": "2006",
+   "reason": "Not the signature style; no contemporary tactical coverage collected"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier B coverage of Bayern 2012/13 (Spielverlagerung contemporary analysis, Breaking The Lines, GFNG, TFT) and 2017/18 (Bavarian Football Works, Bayern Strikes, FC Bayern Central), but many 2012/13 sources are retrospective, marking sources disagree, spell dates single-sourced, and squad-building, people-management evidence is mostly tier C."
+ }
+}

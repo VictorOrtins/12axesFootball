@@ -1,0 +1,820 @@
+{
+ "id": "marcelo-gallardo",
+ "catalog": "manager",
+ "name": "Marcelo Gallardo",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2014-06-06",
+  "end": "2026-02-26"
+ },
+ "scopeNote": "Counted: River Plate first spell (presented 2014-06-06; announced exit 2022-10-13, official last match 2022-10-23, still in charge for friendlies on 2022-11-09 and 2022-11-13, contract to December; end date 2022-11-13 used) and River second spell (August 2024 to 2026-02-26; start day 2024-08-05 not confirmed in a mined page; ended after announcement on 2026-02-23, last match v Banfield 2026-02-26; 85 matches, no titles). Style is possession-based, high-pressing, flexible shape (Coaches' Voice: 4-4-2 / 4-1-3-2 / 4-2-3-1 / 4-3-3, back five and 3-5-2 at times); the 'Bielsa disciple' label is applied by These Football Times but Gallardo himself stresses flexibility over a fixed system (BAE Negocios 2019). Excluded: Nacional (Uruguay) 2011-12 (one league title but no tactical coverage found, first and only season), Al-Ittihad 2023-24 (announced 2023-11-18, no titles, no coverage mined), Ecuador national team (appointment under negotiation as of 2026-08-31). Facts from the second spell are few (set-piece zonal marking, 2025).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact end of first spell: announced exit 2022-10-13, last official match 2022-10-23, friendlies 2022-11-09/13 and contract to December 2022.",
+  "Exact start day of second spell (Aug 2024, 2024-08-05 not verified from a mined page); source Vistazo says 'agosto de 2024'.",
+  "Zonal vs man-marking in open play is not documented in mined pages; set-piece zonal marking only for 2025. A Copa Argentina 2025 report says he switched to man-to-man for one match (page unreadable, search summary only).",
+  "Whether Nacional 2011-12 should count (title, but only one season and no tactical coverage found).",
+  "Coaches' Voice es big-data article is dated 2026-09-14 by the miner; its data cover 2014-2022 only.",
+  "Number of academy debuts varies by cut-off date: 35 (Nov 2020), 42 (Aug 2022 per search summary)."
+ ],
+ "sources": [
+  {
+   "title": "Big Data: El River Plate de Marcelo Gallardo - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/cv/big-data-river-plate-de-marcelo-gallardo/",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2026-09-14",
+   "eventDate": "2014/22",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "En el caso del River Plate bajo el mandato de Marcelo Gallardo en su primera etapa, durante ocho años (2014-2022), mostraron un equipo de perfil ofensivo, dominador de la posesión —sobre todo a partir de la segunda parte de su gestión— y con un equilibrio en su juego entre los momentos con balón y sin balón.",
+   "verified": true
+  },
+  {
+   "title": "Big Data: El River Plate de Marcelo Gallardo - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/cv/big-data-river-plate-de-marcelo-gallardo/",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2026-09-14",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "En un primer período, 2014/15, apostó por dos sistemas de juego principales: 4-1-3-2 en el 29% de los partidos y 4-4-2 en un 20%. River Plate también se dispuso sobre un 4-2-3-1 (13%) y 4-3-3 (11%)",
+   "verified": true
+  },
+  {
+   "title": "Big Data: El River Plate de Marcelo Gallardo - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/cv/big-data-river-plate-de-marcelo-gallardo/",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2026-09-14",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Desde la temporada 2019/20 hubo un cambio de paradigma de Gallardo en relación con sus formaciones. Y es que River Plate pasó a ser un equipo menos flexible tácticamente, apostando por un 4-1-3-2 hasta en un 47% de las ocasiones. Ocurrió lo mismo en la 2020/21, donde se impuso el 4-3-3, presente en un 63% de los partidos.",
+   "verified": true
+  },
+  {
+   "title": "Big Data: El River Plate de Marcelo Gallardo - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/cv/big-data-river-plate-de-marcelo-gallardo/",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2026-09-14",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "El mandato de Gallardo en River Plate estuvo marcado por una alta variabilidad táctica, adaptada esta a las características de sus jugadores —así, por ejemplo, no dudó en jugar con una defensa de cinco en la final de la Copa Libertadores ante Boca Juniors—",
+   "verified": true
+  },
+  {
+   "title": "Big Data: El River Plate de Marcelo Gallardo - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/cv/big-data-river-plate-de-marcelo-gallardo/",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2026-09-14",
+   "eventDate": "2014/22",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Todas esas estadísticas de disparos se basaron principalmente en ataques posicionales —claro signo de la idea de juego de Gallardo—, con un promedio de 36 de estas acciones por partido. Eso señala al River Plate como un equipo dominador, aunque no exento de contragolpe, con una media de 3 ocasiones por partido a la contra.",
+   "verified": true
+  },
+  {
+   "title": "Big Data: El River Plate de Marcelo Gallardo - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/cv/big-data-river-plate-de-marcelo-gallardo/",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2026-09-14",
+   "eventDate": "2014-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Más allá de que también debes ser inteligente a la hora de defender, mi misión es pensar que un equipo debe tener la pelota y atacar para ganar”, pronunció Gallardo",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2014/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "the features that most consistently define his teams are the extent to which they prioritise possession, build up from the back and offer changes of pace to swiftly launch attacks. He encourages short, precise passes from defence and a gradual build through the thirds until a suitable attacking position is reached",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2014/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "When River are defending, Gallardo instructs his players to press in advanced territory, and to make quick recovery runs to regain their defensive shape following losses of possession.",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2014/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "their exact defensive system is, similarly, determined by those at his disposal, but without sacrificing their ability to protect the central areas of the pitch, often by offering increased numbers there",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "In his first year at River Plate, he regularly organised his team into a 4-3-1-2 or 4-4-2 that was built on its defence; in 2015 that was followed by a more consistent 4-4-2 that involved a higher line, width, and their defenders guarding against counter-attacks.",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Gonzalo Montiel and Milton Casco also support attacks, and play with width to stretch their opposing defences.",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "Gallardo's team, similarly, transitions from attack to defence as quickly as it does from defence to attack, and there remains a convincing commitment to the work involved in quickly withdrawing to protect against counter attacks when possession is lost in the opponent's half.",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "when Ramiro Funes Mori and Matías Kranevitter were sold – Gallardo's recruitment has so far proved sound – and Iván Alonso, Andrés D’Alessandro and Ignacio Fernández were signed, the 4-2-3-1 they were attacking with evolved into a 4-2-2-2.",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "the presence of Franco Armani, Juan Fernando Quintero and Lucas Pratto led to an increased focus on possession and counter-pressing, and contributed to them eventually winning the Copa Libertadores in 2018.",
+   "verified": true
+  },
+  {
+   "title": "Coach watch: Marcelo Gallardo - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=28463",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-12",
+   "eventDate": "2020-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Knowing how to identify favourable and unfavourable moments in the game and making the correct decision,\" is, according to Gallardo, essential to a team's hopes of success.",
+   "verified": true
+  },
+  {
+   "title": "Can Marcelo Gallardo take his success with River Plate to the highest levels of the European game?",
+   "url": "https://thesefootballtimes.co/2018/12/17/can-marcelo-gallardo-take-his-success-with-river-plate-to-the-highest-levels-of-the-european-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-17",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "In that semi-final against Grêmio, he totally ignored the terms of his ban ... by attempting to disguise himself under a baseball cap from the watching press and enter the River dressing room to give his team a motivational half-time team talk. Afterwards he said: “I took the decision because I thought the players needed it and I needed it.”",
+   "verified": true
+  },
+  {
+   "title": "Can Marcelo Gallardo take his success with River Plate to the highest levels of the European game?",
+   "url": "https://thesefootballtimes.co/2018/12/17/can-marcelo-gallardo-take-his-success-with-river-plate-to-the-highest-levels-of-the-european-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-17",
+   "eventDate": "2018",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "As River president Rodolfo D’Onofrio noted after the victory over Boca: “Gallardo not only knows football, he knows how to form excellent groups. It is not accidental that almost all of the champions of 2015 came to support the team [in Madrid].”",
+   "verified": true
+  },
+  {
+   "title": "Can Marcelo Gallardo take his success with River Plate to the highest levels of the European game?",
+   "url": "https://thesefootballtimes.co/2018/12/17/can-marcelo-gallardo-take-his-success-with-river-plate-to-the-highest-levels-of-the-european-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-17",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "By developing youth team graduates such as Sebastián Driussi and Emmanuel Mammana, and promising players bought in from other clubs like Lucas Alario and Marcelo Saracchi, Gallardo has brought in millions of dollars to help the club’s balance sheet.",
+   "verified": true
+  },
+  {
+   "title": "Can Marcelo Gallardo take his success with River Plate to the highest levels of the European game?",
+   "url": "https://thesefootballtimes.co/2018/12/17/can-marcelo-gallardo-take-his-success-with-river-plate-to-the-highest-levels-of-the-european-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-17",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "His instinct to stick with Gonzalo ‘Pity’ Martínez as his team’s playmaker after a difficult period following the player’s arrival from Huracán, when he was the target of the Monumental boo-boys, has been amply rewarded over the past two years",
+   "verified": true
+  },
+  {
+   "title": "Can Marcelo Gallardo take his success with River Plate to the highest levels of the European game?",
+   "url": "https://thesefootballtimes.co/2018/12/17/can-marcelo-gallardo-take-his-success-with-river-plate-to-the-highest-levels-of-the-european-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-17",
+   "eventDate": "2014/18",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Gallardo is a coaching disciple of Marcelo Bielsa, whom he played under for the Argentina national team at the beginning of the 2000s, favouring a high-pressing, attacking style.",
+   "verified": true
+  },
+  {
+   "title": "Can Marcelo Gallardo take his success with River Plate to the highest levels of the European game?",
+   "url": "https://thesefootballtimes.co/2018/12/17/can-marcelo-gallardo-take-his-success-with-river-plate-to-the-highest-levels-of-the-european-game/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-12-17",
+   "eventDate": "2017",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Gallardo, who said publicly that his team would overcome the deficit in the second leg, creating a cauldron-like atmosphere as River raced into a 4-0 lead inside 20 minutes to finish 8-0 winners.",
+   "verified": true
+  },
+  {
+   "title": "Is Marcelo Gallardo the next great Argentine manager?",
+   "url": "https://thesefootballtimes.co/2017/01/17/is-marcelo-gallardo-the-next-great-argentine-manager/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-17",
+   "eventDate": "2015-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "River started well, with a high pressing 4-3-1-2, however the speed and passing accuracy of the Barcelona attack finally wore down the press of Gallardo’s men.",
+   "verified": true
+  },
+  {
+   "title": "Is Marcelo Gallardo the next great Argentine manager?",
+   "url": "https://thesefootballtimes.co/2017/01/17/is-marcelo-gallardo-the-next-great-argentine-manager/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-17",
+   "eventDate": "2015-12",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Gallardo had gotten his tactics right – he simply lacked quality on the pitch to execute his plan.",
+   "verified": true
+  },
+  {
+   "title": "Is Marcelo Gallardo the next great Argentine manager?",
+   "url": "https://thesefootballtimes.co/2017/01/17/is-marcelo-gallardo-the-next-great-argentine-manager/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-17",
+   "eventDate": "2014",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Gallardo was the first coach to appoint a female assistant to his staff in Argentina’s top division. In June 2014, Dr Sandra Rossi, who has a PhD in neuroscience and who has been referred to as the ‘brain trainer’, was hired at River to work with the players on neuroplasticity",
+   "verified": true
+  },
+  {
+   "title": "Is Marcelo Gallardo the next great Argentine manager?",
+   "url": "https://thesefootballtimes.co/2017/01/17/is-marcelo-gallardo-the-next-great-argentine-manager/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-01-17",
+   "eventDate": "2014-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“I was born to take on big challenges,” Gallardo said at his introductory press conference.",
+   "verified": true
+  },
+  {
+   "title": "La presión, clave en el River de Gallardo - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/La-presion-clave-en-el-River-de-Gallardo-20140806-0009.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-08-06",
+   "eventDate": "2014-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "el Muñeco exigió a sus jugadores para realizar ejercicios de presión con vistas al debut en el campeonato.",
+   "verified": true
+  },
+  {
+   "title": "La presión, clave en el River de Gallardo - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/La-presion-clave-en-el-River-de-Gallardo-20140806-0009.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2014-08-06",
+   "eventDate": "2014-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "El Muñeco pretende a un equipo ofensivo, que no le dé respiro al rival al salir con la pelota, para aprovechar los espacios y golpear de entrada.",
+   "verified": true
+  },
+  {
+   "title": "Todos los juveniles que debutaron con Gallardo - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Marcelo-Gallardo-hizo-debutar-a-35-jugadores-de-las-Inferiores-en-la-Primera-de-River-20201121-0010.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-21",
+   "eventDate": "2014/20",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "desde que es director técnico de River, hizo debutar a 35 chicos. No todos los casos fueron iguales, alguno de los nombres jugaron un puñado de partidos y luego fueron cedidos a préstamos, otros tuvieron más oportunidades y finalmente no encajaron en la idea del entrenador",
+   "verified": true
+  },
+  {
+   "title": "Todos los juveniles que debutaron con Gallardo - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Marcelo-Gallardo-hizo-debutar-a-35-jugadores-de-las-Inferiores-en-la-Primera-de-River-20201121-0010.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-11-21",
+   "eventDate": "2020",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "el Muñeco necesita de un plantel largo, si bien la prioridad es el certamen internacional, ya demostró que en el plano local comenzará a darle rodaje a algunos de los chicos que buscan su lugar en Primera como es el caso de Santiago Simón que debutó ante Banfield y se convirtió en el juvenil número 35 en hacerlo en el ciclo Gallardo.",
+   "verified": true
+  },
+  {
+   "title": "Gallardo destacó la \"flexibilidad\" como estrategia de juego - BAE Negocios",
+   "url": "https://www.baenegocios.com/amp/Gallardo-destaco-la-flexibilidad-como-estrategia-de-juego-20190319-0045/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2019-03-19",
+   "eventDate": "2019-03",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "\"Al hablar de sistemas no suelo hacerlo basándome en la rigidez, no lo veo desde esa manera y pienso en la flexibilidad, veo en mi equipo que dice 4-4-2 y me parece muy frío y no me identifica\".",
+   "verified": true
+  },
+  {
+   "title": "Gallardo destacó la \"flexibilidad\" como estrategia de juego - BAE Negocios",
+   "url": "https://www.baenegocios.com/amp/Gallardo-destaco-la-flexibilidad-como-estrategia-de-juego-20190319-0045/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2019-03-19",
+   "eventDate": "2019-03",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Los jugadores tienen la libertad de hacer un sistema flexible\"; \"aprendí a tener una característica clara de que los sistemas no son nada rígidos y se empieza a detectar el conocimiento en esa flexibilidad\".",
+   "verified": true
+  },
+  {
+   "title": "¿Por qué Gallardo no lo cambia? Goles de pelota parada - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/river-plate/cinco-goles-de-pelota-parada-en-cinco-partidos-los-defectos-de-river-y-por-que-gallardo-no-cambia",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2025-09-29",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "El Millonario marca en zona. Algunos argumentos a favor de esta táctica son: una mejor cobertura del área y la no dependencia individual",
+   "verified": true
+  },
+  {
+   "title": "¿Por qué Gallardo no lo cambia? Goles de pelota parada - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/river-plate/cinco-goles-de-pelota-parada-en-cinco-partidos-los-defectos-de-river-y-por-que-gallardo-no-cambia",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2025-09-29",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "El tanto de Anthony Alonso que significó el 1-0 parcial de Deportivo Riestra ante River, temprano en el primer tiempo, fue el quinto gol que recibió el Millonario de pelota parada en los últimos cinco partidos.",
+   "verified": true
+  },
+  {
+   "title": "¿Por qué Gallardo no lo cambia? Goles de pelota parada - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/river-plate/cinco-goles-de-pelota-parada-en-cinco-partidos-los-defectos-de-river-y-por-que-gallardo-no-cambia",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2025-09-29",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "La pelota parada es un karma del Más Grande desde los últimos años del primer ciclo de Gallardo, que Demichelis no pudo corregir y que el Muñeco en esta segunda etapa logró pulir durante algunos pasajes.",
+   "verified": true
+  },
+  {
+   "title": "¿Por qué Gallardo no lo cambia? Goles de pelota parada - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/river-plate/cinco-goles-de-pelota-parada-en-cinco-partidos-los-defectos-de-river-y-por-que-gallardo-no-cambia",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2025-09-29",
+   "eventDate": "2025-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Ya no es una cuestión de cómo marcás, sino de la atención. Requiere de un enfoque mental absoluto. Esto se entrena, pero después está la resolución en campo… en donde ya tiene que haber otro enfoque”.",
+   "verified": true
+  },
+  {
+   "title": "Marcelo Gallardo y su llegada a Ecuador - Vistazo",
+   "url": "https://www.vistazo.com/amp/deportes/2026-08-31-marcelo-gallardo-llegada-ecuador-trayectoria-titulos-estilo-juego-muneco-JI11198991",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2026-08-31",
+   "eventDate": "2014/22",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Los laterales cumplen un papel importante en esa estructura. Gallardo suele pedirles que participen en ataque, generen amplitud y permitan que otros futbolistas ocupen posiciones interiores.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Marcelo Gallardo y su llegada a Ecuador - Vistazo",
+   "url": "https://www.vistazo.com/amp/deportes/2026-08-31-marcelo-gallardo-llegada-ecuador-trayectoria-titulos-estilo-juego-muneco-JI11198991",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2026-08-31",
+   "eventDate": "2014/22",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Sus equipos buscan ser protagonistas con la pelota, salir jugando desde el fondo y utilizar la posesión como una herramienta para controlar los partidos. Sin embargo, no se trata de una circulación lenta: la intención es encontrar espacios para acelerar en los últimos metros.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Gallardo: No vamos a cambiar las formas, pero sí hay que ajustar cosas - Diario de Cuyo",
+   "url": "https://www.diariodecuyo.com.ar/noticias/gallardo-no-vamos-a-cambiar-las-formas-pero-si-hay-que-ajustar-cosas-134691.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-05-04",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Definimos jugar de una manera que nos representa con errores que pagamos caro. [...] No vamos a cambiar las formas, pero sí a ajustar cosas. [...] No siento ni me representa cambiar lo que hacemos\"",
+   "verified": true
+  },
+  {
+   "title": "Gallardo: No vamos a cambiar las formas, pero sí hay que ajustar cosas - Diario de Cuyo",
+   "url": "https://www.diariodecuyo.com.ar/noticias/gallardo-no-vamos-a-cambiar-las-formas-pero-si-hay-que-ajustar-cosas-134691.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-05-04",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "\"Para mí sería más fácil afrontar los partidos de diferente manera o prepararnos de otra manera, asumiendo menos riesgos, asegurarnos atrás, que el rival que enfrentemos tome el control y nosotros de contragolpe, y hasta quizás tendríamos mejores resultados, pero preferimos esta idea\"",
+   "verified": true
+  },
+  {
+   "title": "Gallardo: No vamos a cambiar las formas, pero sí hay que ajustar cosas - Diario de Cuyo",
+   "url": "https://www.diariodecuyo.com.ar/noticias/gallardo-no-vamos-a-cambiar-las-formas-pero-si-hay-que-ajustar-cosas-134691.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2021-05-04",
+   "eventDate": "2021-05",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Tengo que evaluar los cinco partidos, casi con el mismo equipo y considero que el equipo se comportó físicamente bien y en lo futbolístico fuimos superiores",
+   "verified": true
+  },
+  {
+   "title": "Táctica: efectos con laterales - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Tactica-efectos-con-laterales-20171015-0002.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-10-15",
+   "eventDate": "2017-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Para Marcelo Gallardo ambos marcadores de punta son indispensables a la hora de abrir la cancha y profundizar en cada avance, al punto que sus dirigidos terminan custodiando la última línea con tres hombres: los dos zagueros y el mediocampista de contención.",
+   "verified": true
+  },
+  {
+   "title": "Táctica: efectos con laterales - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Tactica-efectos-con-laterales-20171015-0002.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-10-15",
+   "eventDate": "2017-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "la presión alta ejercida por el Millonario provocó que Moreira ... y Casco prácticamente se desempeñaran como extremos.",
+   "verified": true
+  },
+  {
+   "title": "Táctica: efectos con laterales - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Tactica-efectos-con-laterales-20171015-0002.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-10-15",
+   "eventDate": "2017-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Con mayoría de suplentes, teniendo en cuenta que los próximos dos partidos serán ante Atlanta, por los cuartos de final de la Copa Argentina, y Lanús, el martes 24 de octubre, Marcelo Gallardo dispuso un 4-3-1-2.",
+   "verified": true
+  },
+  {
+   "title": "Táctica: efectos con laterales - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Tactica-efectos-con-laterales-20171015-0002.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-10-15",
+   "eventDate": "2017-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Gallardo metió a Ignacio Scocco en reemplazo de un Exequiel Palacios cansado, según explicó el DT en conferencia de prensa.",
+   "verified": true
+  },
+  {
+   "title": "A 10 años de la presentación de Marcelo Gallardo como DT de River - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/a-10-anos-del-comienzo-de-una-historia-hermosisima-la-presentacion-de-marcelo-gallardo-como-dt-de-river",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-06-06",
+   "eventDate": "2014-06-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Vengo a representar de la mejor manera posible la historia de River, a su cultura y su modo de jugar ... Quiero un equipo protagonista, que piense en atacar y también defenderse bien”",
+   "verified": true
+  },
+  {
+   "title": "La pelota parada, un recurso que está en deuda - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/La-pelota-parada-un-recurso-que-esta-en-deuda-20171123-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-11-23",
+   "eventDate": "2014/15",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "la pelota parada, un recurso que supo ser arma decisiva en los logros de la temporada 2014/15.",
+   "verified": true
+  },
+  {
+   "title": "La pelota parada, un recurso que está en deuda - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/La-pelota-parada-un-recurso-que-esta-en-deuda-20171123-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-11-23",
+   "eventDate": "2017-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Gallardo suele disponer ensayos un día antes de cada partido.",
+   "verified": true
+  },
+  {
+   "title": "La pelota parada, un recurso que está en deuda - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/La-pelota-parada-un-recurso-que-esta-en-deuda-20171123-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2017-11-23",
+   "eventDate": "2017-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Siempre trabajamos, pero a veces es verdad que no le sacamos el mayor provecho a la cantidad de faltas que nos cometen alrededor del área ni a la cantidad de córner que tenemos. Es un área al que no le estamos sacando provecho”.",
+   "verified": true
+  },
+  {
+   "title": "Una propuesta muy ambiciosa - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Una-propuesta-muy-ambiciosa-20160811-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2016-08-11",
+   "eventDate": "2016-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "El DT se basa en un 4-2-2-2 extremadamente flexible. Más allá de los nombres, la premisa implica protagonismo tanto en la tenencia de la pelota como en el aspecto territorial, instalando siete, ocho y hasta nueve jugadores en campo rival.",
+   "verified": true
+  },
+  {
+   "title": "Una propuesta muy ambiciosa - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Una-propuesta-muy-ambiciosa-20160811-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2016-08-11",
+   "eventDate": "2016-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "La presión alta es un sello de este 4-2-2-2, con los laterales proyectándose a la vez para que River sea tan ancho como profundo",
+   "verified": true
+  },
+  {
+   "title": "Una propuesta muy ambiciosa - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Una-propuesta-muy-ambiciosa-20160811-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2016-08-11",
+   "eventDate": "2016-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Para compensar cualquier contragolpe, Leonardo Ponzio se mete entre los zagueros, formando una línea de tres cerca del círculo central.",
+   "verified": true
+  },
+  {
+   "title": "Una propuesta muy ambiciosa - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Una-propuesta-muy-ambiciosa-20160811-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2016-08-11",
+   "eventDate": "2016-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "River busca asfixiar futbolísticamente a sus oponentes. Protagonismo, dominio territorial, intensidad, voracidad para recuperar la pelota rápido y lo más cerca posible del área rival. El riesgo, desde ya, es un contraataque veloz",
+   "verified": true
+  },
+  {
+   "title": "Una propuesta muy ambiciosa - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Una-propuesta-muy-ambiciosa-20160811-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2016-08-11",
+   "eventDate": "2016-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Ignacio Fernández, pieza fundamental porque sintetiza buena parte de la idea que inculcó el Muñeco. El mediocampista surgido de Gimnasia prácticamente cumple cada punto del formulario: inteligencia para administrar el balón, pase preciso, visión de juego, marca, despliegue, pegada de media distancia, gol y hasta un juego aéreo aceptable.",
+   "verified": true
+  },
+  {
+   "title": "Una propuesta muy ambiciosa - La Página Millonaria",
+   "url": "https://lapaginamillonaria.com/riverplate/Una-propuesta-muy-ambiciosa-20160811-0004.html",
+   "tier": "B",
+   "language": "es",
+   "articleDate": "2016-08-11",
+   "eventDate": "2016-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "ambos laterales se proyectan de forma continua e incluso al mismo tiempo para que River sea ancho y profundo",
+   "verified": true
+  },
+  {
+   "title": "Gallardo, el último partido oficial - La Nación",
+   "url": "https://www.lanacion.com.ar/deportes/canchallena/gallardo-el-ultimo-partido-oficial-river-despide-al-dt-mas-ganador-aunque-lo-tendra-hasta-diciembre-nid23102022",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-10-23",
+   "eventDate": "2014/22",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "en ocho años se consolidó como el entrenador más exitoso de la historia del club con 14 títulos. En ese período se reforzó con 58 futbolistas, 10 de ellos en 2022",
+   "verified": true
+  },
+  {
+   "title": "Lance / ESPN summary: Copa Argentina quarter-final, switch to man-to-man marking",
+   "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/15763060/marcelo-gallardo-declaraciones-river-vs-racing-copa-argentina-cuartos-de-final",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025",
+   "eventDate": "2025",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "search summary only: Gallardo said they switched to man-to-man marking that day (page returned empty)",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Más allá de que también debes ser inteligente a la hora de defender, mi misión es pensar que un equipo debe tener la pelota y atacar para ganar",
+   "date": "2014-07",
+   "source": "Coaches' Voice (es), first press conference at River",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Vengo a representar de la mejor manera posible la historia de River, a su cultura y su modo de jugar ... Quiero un equipo protagonista, que piense en atacar y también defenderse bien",
+   "date": "2014-06-06",
+   "source": "La Página Millonaria (2024 retrospective of the presentation)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I was born to take on big challenges",
+   "date": "2014-06",
+   "source": "These Football Times 2017, introductory press conference",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Al hablar de sistemas no suelo hacerlo basándome en la rigidez, no lo veo desde esa manera y pienso en la flexibilidad, veo en mi equipo que dice 4-4-2 y me parece muy frío y no me identifica",
+   "date": "2019-03-19",
+   "source": "BAE Negocios, Conmebol coaches meeting, Luque",
+   "provenance": "primary"
+  },
+  {
+   "quote": "No vamos a cambiar las formas, pero sí a ajustar cosas. [...] No siento ni me representa cambiar lo que hacemos",
+   "date": "2021-05-04",
+   "source": "Diario de Cuyo, press conference at River Camp",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Para mí sería más fácil afrontar los partidos de diferente manera ... asumiendo menos riesgos, asegurarnos atrás, que el rival que enfrentemos tome el control y nosotros de contragolpe ... pero preferimos esta idea",
+   "date": "2021-05-04",
+   "source": "Diario de Cuyo",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Siempre trabajamos, pero a veces es verdad que no le sacamos el mayor provecho a la cantidad de faltas que nos cometen alrededor del área ni a la cantidad de córner que tenemos",
+   "date": "2017-11-23",
+   "source": "La Página Millonaria, asked by the outlet",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I took the decision because I thought the players needed it and I needed it.",
+   "date": "2018-10",
+   "source": "These Football Times 2018 (after Grêmio semi-final)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Ya no es una cuestión de cómo marcás, sino de la atención. Requiere de un enfoque mental absoluto.",
+   "date": "2025-09",
+   "source": "La Página Millonaria, after loss to Atlético Tucumán (second spell)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "One day I will be coach of River",
+   "date": "2014",
+   "source": "El Gráfico interview, quoted by These Football Times 2018",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://footballbh.net/2019/03/26/marcelo-gallardo-river-plate-superliga-tactical-analysis",
+   "reason": "403"
+  },
+  {
+   "url": "https://blog.wyscout.com/river-plate-analysis-wyscout/",
+   "reason": "404"
+  },
+  {
+   "url": "https://themastermindsite.com/2021/05/04/marcelo-gallardo-river-plate-tactical-analysis/",
+   "reason": "403"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/2771570/gallardo-seguiremos-apostando-a-ser-un-equipo-agresivo",
+   "reason": "empty"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/argentina/nota/_/id/15763060/marcelo-gallardo-declaraciones-river-vs-racing-copa-argentina-cuartos-de-final",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Marcelo Bielsa (played under him for Argentina; per These Football Times 2017/2018)",
+  "Pep Guardiola (possession and high pressing, credited as inspiration per These Football Times 2017)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "River Plate",
+   "start": "2014-06-06",
+   "end": "2022-11-13",
+   "reason": "Copa Sudamericana 2014, Libertadores 2015 and 2018, league 2021 (Coaches' Voice, Vistazo); recognisable possession/high-press style with tactical coverage"
+  },
+  {
+   "club": "River Plate",
+   "start": "2024-08-05",
+   "end": "2026-02-26",
+   "reason": "Second spell, same club and ideas, 85 matches, no titles; counted for the 2025 set-piece zonal marking evidence and stated view"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Nacional (URU)",
+   "start": "2011",
+   "end": "2012",
+   "reason": "One season (league title 2011/12) before River; no tactical coverage found, not the basis of his reputation"
+  },
+  {
+   "club": "Al-Ittihad",
+   "start": "2023-11-18",
+   "end": "2024",
+   "reason": "No titles, no style coverage mined, exit date not verified"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "First River spell has two tier A Coaches' Voice pieces plus tier B/C Spanish sources agreeing; but footballbh, Wyscout and Masterminds were unreadable, marking (zonal vs man) in open play and Al-Ittihad/Nacional not covered, second spell thin."
+ }
+}

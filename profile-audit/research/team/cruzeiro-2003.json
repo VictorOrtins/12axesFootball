@@ -1,0 +1,488 @@
+{
+ "id": "cruzeiro-2003",
+ "catalog": "team",
+ "name": "Cruzeiro 2003 (Vanderlei Luxemburgo)",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2003-01-26",
+  "end": "2003-12-14"
+ },
+ "scopeNote": "Cruzeiro, calendar 2003: Campeonato Mineiro (unbeaten: 10 wins, 2 draws), Copa do Brasil, Brasileirão (first points-based, 100 pts, 102 goals, title clinched 2003-11-30 vs Paysandu, last match 2003-12-14 vs Bahia 7-0). Luxemburgo took over from Marco Aurélio in August 2002 (Itatiaia) and left in February 2004, so every 2003 match was under him; no other manager found. Start date 2003-01-26 is the opening of the 2003 Mineiro (search summary of Wikipedia), NOT a verified Cruzeiro first match; the exact date of Cruzeiro's first match was not found. End date 2003-12-14 is from Alex's account of the Bahia game. Sources call it a team that played 'futebol' with the ball and a 10 (Alex); no analysis found that names a formation. Lineups show 4-4-2 (Lance, Alex on the midfield line) and a 4-3-1-2 / diamond (Itatiaia title game, Alex behind two strikers); a claim that Luxemburgo used a 4-4-2 losango in 2003 appeared only in a search summary of a Lance article not mined, so it is unverified. Documentation is thin: no tier A tactical study, no source on marking, pressing mechanics or width was found. Manager spell for Luxemburgo: Aug 2002 (took over from Marco Aurélio) to Feb 2004 (day not verified); only 2003 is profiled. Gap pass: one extra search on width (full-backs/wings) found no usable source; width stays a gap. Marking and pressing mechanics also undocumented (pressing rests on one Lance retrospective line).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Shape varied by match: 4-4-2 flat-ish with Alex on the midfield line (Fluminense 5-2) vs Maldonado/Augusto Recife/Wendell with Alex behind Aristizábal and Márcio Nobre (Paysandu/title lineups). Claimed losango not verified.",
+  "Zonal vs man-marking: no source found; Maldonado described only as interceptor and tackler.",
+  "Lance claim of 'pressão alta e transições rápidas' is a 2025 retrospective paragraph, in tension with Alex's 'time com a bola' account; treat as retrospective.",
+  "Width (full-backs Maurinho/Leandro, wingers) not documented.",
+  "Exact first match of Cruzeiro in 2003 not verified (Mineiro opened 2003-01-26).",
+  "Trivela's 2018 'Há 15 anos...' tactical piece and the Atlético-MG/Alex piece were not-accessible; the Lance Corinthians 'como deve jogar com Luxemburgo' article returned 404, so the 4-4-2 losango claim is open."
+ ],
+ "sources": [
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Gomes; Maurinho, Edu Dracena, Cris e Leandro; Augusto Recife, Maldonado, Wendel e Alex; Mota e Márcio Nobre. Técnico: Vanderlei Luxemburgo.",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia - Cruzeiro comemora 20 anos da Tríplice Coroa",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/cruzeiro-comemora-20-anos-da-conquista-da-triplice-coroa/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-11-30",
+   "eventDate": "2003-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Gomes; Maurinho, Cris, Edu Dracena, Leandro; Maldonado, Augusto Recife, Wendell; Alex; Aristizábal, Márcio Nobre. Técnico: Vanderlei Luxemburgo.",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia - Cruzeiro comemora 20 anos da Tríplice Coroa",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/cruzeiro-comemora-20-anos-da-conquista-da-triplice-coroa/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-11-30",
+   "eventDate": "2003-11-30",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Gomes, Maurinho, Cris, Edu Dracena e Leandro; Augusto Recife (Felipe Melo), Maldonado, Wendell (Sandro) e Zinho; Aristizábal (Mota) e Márcio Nobre.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A mistura de competência, apostas certeiras e sorte que fez do Cruzeiro campeão em 2003 e 2013",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Luxemburgo armou o time ao redor de Alex para tirar o melhor dele.",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "O time mineiro teve posse de bola superior e criou as melhores oportunidades, com Alex, Mota e Wendel se movimentando entre as linhas cariocas.",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "O time mineiro teve posse de bola superior e criou as melhores oportunidades",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Atacando, buscando ter a bola, mostrando variações de ataque.",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Tabelamos, driblamos, buscamos espaço.",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Em momento algum do ano, ele se defendeu, montou uma retranca. Não jogamos atrás em nenhum estádio no Brasil.",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "A equipe jogava com identidade, pressão alta e transições rápidas, fruto do trabalho de toda a temporada.",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "A equipe jogava com identidade, pressão alta e transições rápidas",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Ambos se beneficiaram das assistências de Alex e Maldonado, que dominaram o meio-campo.",
+   "verified": true
+  },
+  {
+   "title": "Lance - Por onde anda Maldonado",
+   "url": "https://www.lance.com.br/lancepedia/por-onde-anda-maldonado-cruzeiro-santos-flamengo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-04-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "O seu jogo era pautado na excelência do passe, no posicionamento cirúrgico para interceptar linhas de passe adversárias e, claro, no clássico e limpo desarme \"de carrinho\"",
+   "verified": true
+  },
+  {
+   "title": "Lance - Por onde anda Maldonado",
+   "url": "https://www.lance.com.br/lancepedia/por-onde-anda-maldonado-cruzeiro-santos-flamengo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-04-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "comandando a \"volância\" do Cruzeiro, ele foi o cão de guarda perfeito de um time mágico que conquistou a inédita e inesquecível Tríplice Coroa",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Camisa 10 e capitão, Alex foi o grande nome da partida.",
+   "verified": true
+  },
+  {
+   "title": "Lance - Cruzeiro 5 x 2 Fluminense no Brasileirão 2003",
+   "url": "https://www.lance.com.br/lancepedia/cruzeiro-5-x-2-fluminense-brasileirao-2003.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-11-09",
+   "eventDate": "2003-12-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "O repertório incluía dribles curtos, passes verticais e finalizações de fora da área",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "As referências do time éramos eu, Aristizábal, Cris, Maldonado… O Felipe era um jogador importante, mas ele era menino.",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "O Vanderlei treinou muitos lances de bola parada nos dois dias antes da final. E aí, pego bem na bola e ela vai exatamente onde nós treinamos.",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Houve um jogo em que não respeitamos o adversário e fomos punidos com a derrota.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A mistura de competência, apostas certeiras e sorte que fez do Cruzeiro campeão em 2003 e 2013",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Zinho, por exemplo, era um veterano na época, com 36 anos. Foi reserva, mas importante em vários momentos como substituto, incluindo o jogo do título, contra o Paysandu",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A mistura de competência, apostas certeiras e sorte que fez do Cruzeiro campeão em 2003 e 2013",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ele chegou por empréstimo do Ceará em janeiro daquele ano e acabou sendo o principal substituto de Deivid, vendido no meio da temporada para o Bordeaux",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A mistura de competência, apostas certeiras e sorte que fez do Cruzeiro campeão em 2003 e 2013",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Claudio Maldonado, volante que deixou o São Paulo e chegou à Toca da Raposa sem custos; Deivid, que saiu do Corinthians em litígio e também chegou sem custos ao time azul",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A mistura de competência, apostas certeiras e sorte que fez do Cruzeiro campeão em 2003 e 2013",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Aristizábal foi contratado, mas já não vivia o seu melhor momento na carreira. [...] Era uma aposta em um jogador que, na época, tinha 32 anos.",
+   "verified": true
+  },
+  {
+   "title": "Trivela - A mistura de competência, apostas certeiras e sorte que fez do Cruzeiro campeão em 2003 e 2013",
+   "url": "https://trivela.com.br/brasil/cruzeiro-2003-2013-competencia-sorte/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2014-08-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Maurinho, bom lateral que veio do Santos, teve seu último grande ano, já que em 2004 perdeu a posição para Maicon, que já tinha entrado bem no time para substituir o próprio Maurinho várias vezes em 2003.",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia - Alex considera Cruzeiro de 2003 o melhor trabalho de Luxemburgo",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/alex-considera-cruzeiro-de-2003-o-melhor-trabalho-da-carreira-de-luxemburgo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-12-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "não era um Cruzeiro que tinha muito dinheiro, não era um Cruzeiro que era agressivo no mercado",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia - Alex considera Cruzeiro de 2003 o melhor trabalho de Luxemburgo",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/alex-considera-cruzeiro-de-2003-o-melhor-trabalho-da-carreira-de-luxemburgo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-12-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Foi um Cruzeiro que foi muito inteligente com o Maluf e muito bem conduzido pelo Vanderlei",
+   "verified": true
+  },
+  {
+   "title": "Band - Se o Alex não jogasse, descontava do meu salário",
+   "url": "https://www.band.com.br/esportes/band-esporte-clube/noticias/luxemburgo-conta-como-bancou-alex-no-cruzeiro-campeao-de-2003-202510241651",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-10-24",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "o então presidente Zezé Perrella era contra a chegada do meia, que vinha de uma temporada ruim. O técnico, porém, insistiu e assumiu a responsabilidade pela aposta.",
+   "verified": true
+  },
+  {
+   "title": "Correio Braziliense, Drible de Corpo - Entrevista com Alex sobre o livro da tríplice coroa",
+   "url": "https://blogs.correiobraziliense.com.br/dribledecorpo/entrevista-alex-fala-sobre-o-livro-da-triplice-coroa-do-cruzeiro-que-sera-lancado-nesta-segunda-em-brasilia/",
+   "tier": "B",
+   "language": "pt",
+   "articleDate": "2018-12-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "a gente tinha um supercampeão, que era o Zinho, e ele vem para ser reserva. Não era um qualquer!",
+   "verified": true
+  },
+  {
+   "title": "Band - Se o Alex não jogasse, descontava do meu salário",
+   "url": "https://www.band.com.br/esportes/band-esporte-clube/noticias/luxemburgo-conta-como-bancou-alex-no-cruzeiro-campeao-de-2003-202510241651",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-10-24",
+   "eventDate": "2002-12",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Eu sou o treinador, eles não são. Quero saber se você quer vir [outside period: 2002 event]",
+   "verified": false
+  },
+  {
+   "title": "Lance - Por onde anda Maldonado",
+   "url": "https://www.lance.com.br/lancepedia/por-onde-anda-maldonado-cruzeiro-santos-flamengo.html",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2026-04-03",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "o \"homem de confiança\" de diversos treinadores de ponta no país, com destaque especial para Vanderlei Luxemburgo, que o levou a tiracolo para comandar o meio-campo",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia - Cruzeiro terá reencontro com Luxemburgo",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/cruzeiro-tera-reencontro-com-luxemburgo-em-jogo-contra-o-corinthians-relembre/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-08-17",
+   "eventDate": "2002-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Em agosto de 2002, Luxemburgo chegou ao Cruzeiro para substituir Marco Aurélio e teve melhora no fim do ano. [outside period: 2002 event]",
+   "verified": false
+  },
+  {
+   "title": "Itatiaia - Cruzeiro comemora 20 anos da Tríplice Coroa",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/cruzeiro-comemora-20-anos-da-conquista-da-triplice-coroa/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-11-30",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Já no Campeonato Mineiro, o time foi campeão invicto, com dez vitórias e dois empates.",
+   "verified": true
+  },
+  {
+   "title": "Band - Se o Alex não jogasse, descontava do meu salário",
+   "url": "https://www.band.com.br/esportes/band-esporte-clube/noticias/luxemburgo-conta-como-bancou-alex-no-cruzeiro-campeao-de-2003-202510241651",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2025-10-24",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Foi um time que marcou a minha carreira. O Alex era o grande cara daquele grupo",
+   "verified": true
+  },
+  {
+   "title": "Itatiaia - Alex considera Cruzeiro de 2003 o melhor trabalho de Luxemburgo",
+   "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/alex-considera-cruzeiro-de-2003-o-melhor-trabalho-da-carreira-de-luxemburgo/",
+   "tier": "C",
+   "language": "pt",
+   "articleDate": "2023-12-01",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Ao meu ver, é o maior trabalho da carreira do Vanderlei.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "O cara que eu ia fazer toda a história era o Alex, e o Zezé não queria contratar porque ele tinha ido mal no ano anterior. [...] Se ele não jogar, desconta o salário dele e o meu também.",
+   "date": "2025-10-24",
+   "source": "Band Esporte Clube, Luxemburgo interview (recalling 2002 signing)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Foi um time que marcou a minha carreira. O Alex era o grande cara daquele grupo.",
+   "date": "2025-10-24",
+   "source": "Band Esporte Clube",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Em momento algum do ano, ele se defendeu, montou uma retranca. Não jogamos atrás em nenhum estádio no Brasil. (Alex, on the team, not Luxemburgo)",
+   "date": "2018-12-03",
+   "source": "Correio Braziliense, Drible de Corpo",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://trivela.com.br/brasil/campeonato-brasileiro/ha-15-anos-a-triplice-coroacao-de-uma-maquina-o-arrasador-cruzeiro-conquistava-o-brasileirao/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://trivela.com.br/brasil/atletico-mg-cruzeiro-alex-2003-2013/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.lance.com.br/corinthians/ultrapassado-saiba-como-o-corinthians-deve-jogar-com-vanderlei-luxemburgo.html",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.lance.com.br/cruzeiro/anuncia-contratacao-tecnico-vanderlei-luxemburgo.html",
+   "reason": "404"
+  }
+ ],
+ "influences": [],
+ "managers": [
+  {
+   "managerId": "vanderlei-luxemburgo",
+   "start": "2002-08",
+   "end": "2004-02"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "width"
+  ],
+  "axes": [
+   "lar"
+  ]
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Mostly tier B-C Brazilian retrospectives and one Alex interview; no tactical study, nothing on marking, width or pressing mechanics, and formation inferred from lineups."
+ }
+}

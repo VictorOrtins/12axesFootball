@@ -1,6 +1,5 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
-import { catalogueDevPlugin } from './scripts/catalogue-dev';
 import { readColourTokens, tokensRootCss } from './scripts/generate-tokens.mjs';
 
 function asyncCssLinkPlugin() {
@@ -39,7 +38,7 @@ export default defineConfig(({ mode }) => {
   const proxyTarget = env.VITE_API_PROXY_TARGET || 'http://localhost:8080';
 
   return {
-    plugins: [react(), tokensHtmlPlugin(), asyncCssLinkPlugin(), catalogueDevPlugin()],
+    plugins: [react(), tokensHtmlPlugin(), asyncCssLinkPlugin()],
     test: {
       environment: 'node',
     },

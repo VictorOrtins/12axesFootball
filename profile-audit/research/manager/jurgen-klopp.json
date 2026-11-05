@@ -1,0 +1,468 @@
+{
+  "id": "jurgen-klopp",
+  "catalog": "manager",
+  "name": "Jürgen Klopp",
+  "status": "complete",
+  "researchedOn": "2026-10-14",
+  "profilePeriod": {
+    "start": "2001-02-27",
+    "end": "2024-05-31"
+  },
+  "scopeNote": "Manager profile of Jürgen Klopp across three counted club spells: Mainz 05 (appointed 2001-02-27, first match 2001-02-28 v Duisburg; left 2008-06-30 after announcing in April 2008 he would not stay without promotion), Borussia Dortmund (2008-07-01 to 2015-06-30; last match the DFB-Pokal final 2015-05-30) and Liverpool (appointed 2015-10-08; last match 2024-05-19 v Wolves; Wikipedia's managerial record runs to 2024-05-31, used as the end date). Dates from English and German Wikipedia read at step 1. Mainz counts in full: Klopp's last game as a player was 2001-02-25, so he was never a player-manager, and the spell passes the 'known for' test on style (the Frank-derived pressing team) and on the move to a bigger job (Dortmund). Excluded: Red Bull Head of Global Soccer (2025-01-01 to 2026-07, not a coaching job) and the Germany national team (announced 2026-07-24, contract to 2030; 4 matches by 2026-10-04): too short and too new to be part of what he is known for. Style named by the evidence: 'Gegenpressing' (Spielverlagerung 2011: 'Gegenpressing direkt nach Ballverlust'; TFA 2020; Cox 2020) with fast vertical transitions; Klopp's own label is 'heavy metal' (AFP, 2013-11-05) and he calls the system 'organisiertes Chaos' (2026-09-23). Evolution: early Dortmund was a flat 4-4-1-1/4-4-2 (later 4-2-3-1) defending mostly from a mid-block and attacking on the counter after regains; Liverpool moved from a 4-2-3-1 (2015/16) to a 4-3-3 with attacking full-backs, a higher press and more possession and control from 2018/19 on (TFA 2020; PL Talking Tactics 2022; PL 2023). Marking: Klopp describes his career as built on ball-oriented zonal defending and rejects pitch-wide man-marking (2026); match analyses show man-oriented jumps by midfielders in the press (Spielverlagerung 2016; TFA 2022). Facts reused from the liverpool-2021-22 team file cite its original sources and its 2026-10-12 access date.",
+  "spellsCounted": [
+    {
+      "club": "1. FSV Mainz 05",
+      "start": "2001-02-27",
+      "end": "2008-06-30",
+      "reason": "Recognisable pressing style inherited from Wolfgang Frank ('ausgeklügelte Pressing- und Gegenpressing-Taktik', bundesliga.com); first Bundesliga promotion in the club's history (2004) and two seasons kept up; led to the Dortmund job. Klopp stopped playing on appointment (last game as player 2001-02-25), so this is not a player-manager spell."
+    },
+    {
+      "club": "Borussia Dortmund",
+      "start": "2008-07-01",
+      "end": "2015-06-30",
+      "reason": "Bundesliga 2010/11 and 2011/12, DFB-Pokal 2012, Champions League final 2013; the Gegenpressing team with wide tactical coverage."
+    },
+    {
+      "club": "Liverpool",
+      "start": "2015-10-08",
+      "end": "2024-05-31",
+      "reason": "Champions League 2019, Premier League 2019/20, Club World Cup 2019, FA Cup 2022, EFL Cups 2022 and 2024; the evolved high-press 4-3-3."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Red Bull (Head of Global Soccer)",
+      "start": "2025-01-01",
+      "end": "2026-07",
+      "reason": "Executive role, not a coaching spell. Start date from Wikipedia; end month approximate (released when he took the Germany job, July 2026)."
+    },
+    {
+      "club": "Germany national team",
+      "start": "2026-07-24",
+      "end": "ongoing",
+      "reason": "Announced 2026-07-24 (sport1.de), contract to 2030; Wikipedia lists the spell from 2026-08-15 with 4 matches by 2026-10-04. Far below the ~15-match minimum and no titles or tactical coverage yet: not part of what he is known for. His 2026-09-23 statements are kept in statedView."
+    }
+  ],
+  "teamProfiles": [
+    "liverpool-2021-22"
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Mainz counted in full by the 'known for' test (style plus move to Dortmund). FOOTBALL_RESEARCH.md cites 'Klopp's early player-manager years at Mainz' as an exclusion example, but Klopp stopped playing two days before his appointment (de.wikipedia), so there were no player-manager years. Confirm, or exclude 2001-04 (2. Bundesliga) if only the Bundesliga seasons should count.",
+    "Germany national team (announced 2026-07-24, 4 matches) is a new coaching spell not mentioned in the task; excluded as too short. Revisit once it has a body of work.",
+    "Marking (mar): Klopp's stated view (2026-09-23) is ball-oriented zonal defending ('ballorientiertes Verteidigen') instead of man-marking 'übers ganze Feld', and he says his 24-year career was built on it. Match analyses show man-oriented pressing by the midfield three (Spielverlagerung, Liverpool at Dortmund, 2016-04-07) and front three that 'man-mark tightly' while covering lanes (TFA 2022). Read as a zonal, ball-oriented base with man-oriented pressing jumps; confirm the weighting.",
+    "Mainz evidence is thin: only retrospective tier C (bundesliga.com, TFT 2020) and one 2011 Spielverlagerung line ('mutig auftretenden Mainzer'). No contemporary tactical analysis of Mainz 2001-08 was found; the style there is assumed to be Frank's zonal 4-4-2 pressing but that rests on Frank-era sources.",
+    "Style change inside the profile: heavy-metal counter-pressing and mid-block at Dortmund vs a higher press, more possession and attacking full-backs at Liverpool from 2018/19. Counted spells weigh the same; decide whether the audit should average them or lean on the later Liverpool side.",
+    "'Heavy metal': the earliest page read is the AFP wire of 2013-11-05 (Hürriyet Daily News) reporting an interview 'with English media' before Dortmund v Arsenal. The underlying English interview (likely a UK newspaper, early Nov 2013) was not found; if it is earlier, update the date.",
+    "The 'Gegenpressing is the best playmaker' quotes are taken from Cox's 2020 book extract, undated there; the original (probably Dortmund-era German interviews) was not found.",
+    "Search tool refused theathletic.com, 11freunde.de, dw.com, spiegel.de and zeit.de as domains, so German quality press on Mainz could not be searched."
+  ],
+  "sources": [
+    {
+      "title": "Aus der 2. Bundesliga an die Weltspitze: Die Story des Jürgen Klopp (bundesliga.com)",
+      "url": "https://www.bundesliga.com/de/bundesliga/news/50-jahre-2-bundesliga-2bl50-jurgen-klopp-normal-one-mainz-start-portrat-27890",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2026-10-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Klopp's Mainz described as playing an \"ausgeklügelte Pressing- und Gegenpressing-Taktik\". On Wolfgang Frank: \"Er hat uns die Laufwege eingehämmert. Für mich war das eine Offenbarung.\" Klopp (undated): \"Wir konnten mit unserem System Spiele gewinnen gegen Mannschaften, die besser waren als wir.\" Promotion 2003/04 sealed by 3:0 v Trier. Page has no visible date (articleDate = access date; part of the '50 Jahre 2. Bundesliga' series, 2024). Retrospective, no period analysis.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Jürgen Klopp's focus on psychology has evolved Liverpool's players into \"mentality monsters\" (Dan Billingham, These Football Times)",
+      "url": "https://thesefootballtimes.co/2020/01/15/how-jurgen-klopps-focus-on-psychology-has-evolved-liverpools-players-into-mentality-monsters/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-01-15",
+      "eventDate": "2004-05",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Paraphrase from the page: before the decisive May 2004 match v Eintracht Trier, Klopp hung a \"Jaaaaaaaaa!\" banner in the Mainz dressing room to lighten the mood; at promotion he publicly celebrated making the hard-working but limited Marco Rose a Bundesliga player. At Liverpool: kept pressure off in title races (Dec 2018 'enjoy the ride'; Feb 2019 \"let's fasten the seatbelts and let go\"); before the 2018 Kyiv final he gave his team talk in Ronaldo-branded boxer shorts to lower tension (Wijnaldum). Hired sports psychologist Lee Richardson (Nov 2019). The author credits his charisma with a young squad.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp – Der Menschenfänger (Spielverlagerung.de)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "In 2010/11 BVB played \"im 4-2-3-1-System\"; the attacking three pushed \"sehr weit in die Mitte\". Earlier Mainz side called \"mutig auftretenden Mainzer\".",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp – Der Menschenfänger (Spielverlagerung.de)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Defensive concept of \"Gegenpressing direkt nach Ballverlust\" and an \"aggressive Ballrückgewinnungsstrategie\"; offensive concept of \"Schnelles vertikales Spiel nach Ballgewinn in Mittelfeld oder Angriff\".",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp – Der Menschenfänger (Spielverlagerung.de)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Centre-backs build up \"ruhig\" from the back; against deep opponents Sahin directs play. Preparation for 2010/11 focused \"vor allem auf das Ballbesitzspiel\" after critics said the team had \"nach dem Ballgewinn keine Idee\" (reader paraphrase around the quoted words).",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp – Der Menschenfänger (Spielverlagerung.de)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "The 2010/11 champions were \"extrem jung\": only Weidenfeller was older than 26; the Hummels-Subotić centre-back pair (Subotić 19 at the time) was called the \"Kinderriegel\". Klopp lets outstanding youth players train with the first team to show them a path into it.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp – Der Menschenfänger (Spielverlagerung.de)",
+      "url": "https://spielverlagerung.de/2011/08/05/jurgen-klopp-der-menschenfanger/",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-08-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Trusting relationships with all club staff are \"die Grundlage seiner Arbeitsweise\"; with the squad he is \"autoritärer als gemeinhin angenommen\" and handles \"verschiedenen Persönlichkeiten unterschiedlich\". Watzke: \"So einen Menschenfänger habe ich noch nicht kennen gelernt.\" Klopp on assistant Buvač: \"Fleisch gewordener Fußballsachverstand und Meister aller Trainingsformen\" (undated).",
+      "verified": true
+    },
+    {
+      "title": "How Jürgen Klopp built an empire out of ruin at Borussia Dortmund (Will Sharp, These Football Times)",
+      "url": "https://thesefootballtimes.co/2019/07/05/how-jurgen-klopp-built-an-empire-out-of-ruin-at-borussia-dortmund/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-07-05",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "2008-11 recruitment: \"the likes of Jakub Błaszczykowski and Robert Lewandowski were purchased for a pittance from Poland\"; \"Neven Subotić, Mats Hummels, Sven Bender, Kevin Großkreutz and Łukasz Piszczek were procured for similarly small sums from an assortment of German rivals\"; Kagawa and Barrios imported, Götze promoted from the youth ranks. Style carried over from Mainz: quick transitions and \"a culture built around gegenpressing\", \"an aggressive, exuberant, albeit exhausting, fast-paced system\".",
+      "verified": true
+    },
+    {
+      "title": "Klopp: His tactical evolution from Dortmund to Liverpool (Max Bergmann, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Dortmund: \"Watching back old games of his Dortmund side, one can often see them setting up in a mid-block.\" \"In the following graphic, one can see them setting up in a compact 4-4-1-1 against Bayern.\" Liverpool: \"At Liverpool, Klopp's pressing approach has become even more proactive.\" Dortmund seasons are not named; eventDate is an approximate early-Dortmund season.",
+      "verified": true
+    },
+    {
+      "title": "Klopp: His tactical evolution from Dortmund to Liverpool (Max Bergmann, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Dortmund triggers: \"A bad pass, miscontrol of the ball or a closed body shape of a receiving player\"; \"If the opposition played backwards to reset their attack, Dortmund would not necessarily continue their press though\"; \"The two forward players were especially supposed to use their cover-shadows to prevent passes into midfield\" (zonal, lane-blocking). Liverpool: \"as Liverpool press higher than Dortmund, horizontal passes are also used as a pressing trigger.\" No explicit zonal/man label. Dortmund seasons not named.",
+      "verified": true
+    },
+    {
+      "title": "Klopp: His tactical evolution from Dortmund to Liverpool (Max Bergmann, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Liverpool: \"Since their opponents are often satisfied with a goalless draw, Liverpool need to be more patient in possession.\" \"The aim has drifted towards the prevention of counter-attacks and the increase of possession.\" \"they are not offered as many counter-attacking opportunities after their 'Gegenpressing' as during Klopp's time at Dortmund.\"",
+      "verified": true
+    },
+    {
+      "title": "Klopp: His tactical evolution from Dortmund to Liverpool (Max Bergmann, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Dortmund: \"Dortmund would often build up their play through one side of the pitch\"; \"the wingers tucked inside quite early attacking down the half-spaces.\" Liverpool: \"He wants both of his full-backs, Andy Robertson and Trent Alexander-Arnold to attack high up the pitch\"; \"Right-back Alexander-Arnold sent in an impressive total of 313 crosses in 2019/20 so far.\"",
+      "verified": true
+    },
+    {
+      "title": "Klopp: His tactical evolution from Dortmund to Liverpool (Max Bergmann, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "\"While he deployed Robert Lewandowski as a rather classic number nine at Dortmund, he banks on Roberto Firmino as a false nine at Liverpool.\" Van Dijk: \"Besides playing short combination play with his good technique, Van Dijk can play long diagonal balls with precision.\"",
+      "verified": true
+    },
+    {
+      "title": "Klopp: His tactical evolution from Dortmund to Liverpool (Max Bergmann, Total Football Analysis)",
+      "url": "https://totalfootballanalysis.com/article/klopp-his-tactical-evolution-from-dortmund-to-liverpool-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-09",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Conclusion: \"he also improved his set-piece strategies with the help of external coaches such as a throw-in coach.\" Liverpool era.",
+      "verified": true
+    },
+    {
+      "title": "Why Jürgen Klopp's gegenpressing with Dortmund was revolutionary (Michael Cox, Zonal Marking extract, Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-04-17",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Dortmund \"piled players into the immediate vicinity of the player in possession\"; often a medium block \"standing off the opposition centre-backs\", pressing once the ball reached full-backs or midfielders, rarely a full-pitch press (reader paraphrase). Wide midfielders Großkreutz and Błaszczykowski tucked inside to compress. Running target: \"If they covered more than 118km collectively in nine out of ten matches\" they got extra winter-break days. Season not named; eventDate approximate.",
+      "verified": true
+    },
+    {
+      "title": "Borussia Dortmund – Liverpool 1:1 (Spielverlagerung.com)",
+      "url": "https://spielverlagerung.com/2016/04/08/borussia-dortmund-liverpool-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-08",
+      "eventDate": "2016-04-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Marking (one match, Europa League QF first leg): Liverpool pressed \"between a 4-3-3 and a 4-5-1\" in a \"horizontally-compact 4-3-3 structure\"; \"The three in midfield were rather man-oriented in their pressing\"; \"The two English midfielders were energetic without possession and followed Castro and Mkhitaryan quite closely.\" \"When acting deeper in a 4-5-1 shape, Liverpool's pressing was much weaker.\" Klopp \"elected for more of a counter-attacking strategy to the game.\"",
+      "verified": true
+    },
+    {
+      "title": "Borussia Dortmund – Liverpool 1:1 (Spielverlagerung.com)",
+      "url": "https://spielverlagerung.com/2016/04/08/borussia-dortmund-liverpool-11/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-08",
+      "eventDate": "2016-04-07",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Away at his former club Klopp \"elected for more of a counter-attacking strategy to the game\"; Liverpool \"created good chances from quick direct attacks and set pieces\". One match.",
+      "verified": true
+    },
+    {
+      "title": "PL30: How Klopp transformed Liverpool into champions (Adrian Clarke, Talking Tactics)",
+      "url": "https://www.premierleague.com/en/news/1697253",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "\"During his first campaign, Klopp used a 4-2-3-1 system\" (2015/16); Mané (2016) and Salah (2017) moved Liverpool to a 4-3-3. Pressing: \"In 2015/16, Liverpool pressed ferociously, winning possession inside the final third five times per match\"; 2019/20 \"Liverpool topped the Premier League rankings, winning the ball back 6.7 times per 90 minutes inside the final third.\" Fast-break goals rose from 1 (2015/16) to 9 (2017/18 and 2019/20, 1st). Replacing Clyne and Moreno with Alexander-Arnold and Robertson \"was a real turning point\"; open-play crosses per 90 rose from 12.8 to 18.0 (2018/19 to 2019/20).",
+      "verified": true
+    },
+    {
+      "title": "PL30: How Klopp transformed Liverpool into champions (Adrian Clarke, Talking Tactics)",
+      "url": "https://www.premierleague.com/en/news/1697253",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Fast-break goals by season (total, PL rank): 2015/16 1 (12th), 2016/17 2 (10th), 2017/18 9 (1st), 2018/19 6 (3rd), 2019/20 9 (1st). Defence: 92 goals conceded in the first two seasons, 21 in 2019/20; \"The presence of a dominant goalkeeper in Alisson and imposing centre-back in Van Dijk made a monumental difference.\"",
+      "verified": true
+    },
+    {
+      "title": "How Guardiola and Klopp's tactics have continuously evolved (Alex Keble, Premier League)",
+      "url": "https://www.premierleague.com/en/news/3791815",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-11-24",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Klopp's arrival-era football called \"heavy-metal Germanic football\" with \"straight-lined transitions\" and \"full-throttle pressing\"; now he \"has never been so committed to controlling possession.\" Opponent-specific plans against City: Oct 2021 \"an unexpected tactic of hitting longer balls over the top of the Man City defence\"; Oct 2022 (1-0) Liverpool sat \"their defensive line much deeper\"; Apr 2023 a \"wild 4-2-4 formation\". Column.",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp hails 'unbelievable' Liverpool youngsters after Carabao Cup final win over Chelsea (TNT Sports / Eurosport)",
+      "url": "https://www.tntsports.co.uk/football/league-cup/2023-2024/jurgen-klopp-hails-unbelievable-liverpool-youngsters-after-carabao-cup-final-win-over-chelsea-absolu_sto10039276/story.shtml",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-02-25",
+      "eventDate": "2024-02-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "With a long injury list, academy graduates Bobby Clark, James McConnell, Jayden Danns and Jarell Quansah came off the bench and Conor Bradley (20) started in the 1-0 EFL Cup final win. Klopp: \"A team, a squad, an academy full of character.\" \"We thought we needed fresh legs - and the fresh legs were fresh, but very young. But they did the jobs.\" Forced by injuries, not a planned youth policy.",
+      "verified": true
+    },
+    {
+      "title": "Jurgen Klopp – Liverpool – Tactical Analysis (2021-22 Edition) (TheMastermindSite) [reused from liverpool-2021-22]",
+      "url": "https://themastermindsite.com/2022/01/29/jurgen-klopp-liverpool-tactical-analysis-2021-22-edition/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-01-29",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "build-up",
+      "evidence": "Read in the liverpool-2021-22 run: Alisson sweeps up \"any messes on the heels of the team's high line\" and can go long when pressed; build-up between a diamond and a 2-5-3 or 3+1, Fabinho in front of the centre-backs, Alexander-Arnold often part of a back three (paraphrase). \"the Reds have played all 22 matches this season in their favoured 4-3-3 shape\". Set pieces: 12 set-piece goals, throw-in coach Thomas Grønnemark (paraphrase).",
+      "verified": true
+    },
+    {
+      "title": "Liverpool 2021/22: The key factors behind Liverpool's impressive defensive record (Total Football Analysis) [reused from liverpool-2021-22]",
+      "url": "https://totalfootballanalysis.com/head-coach-analysis/liverpool-2021-22-defensive-structure-tactical-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-05-04",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "defensive-block",
+      "evidence": "Read in the liverpool-2021-22 run: Van Dijk: \"We want to keep a high line because we know we can win the ball up high, and it's the risk you have to take\"; 140 offsides provoked. Marking in the press: \"They man-mark tightly, ready to pounce like sharks, while also covering passing lanes and out-balls\"; \"The front three, who are responsible to defend five or sometimes six players.\"",
+      "verified": true
+    },
+    {
+      "title": "Liverpool's unsung heroes proving their worth (Premier League) [reused from liverpool-2021-22]",
+      "url": "https://www.premierleague.com/en/news/2626728",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-05-26",
+      "eventDate": "2021/22",
+      "accessedOn": "2026-10-12",
+      "dimension": "game-management",
+      "evidence": "Read in the liverpool-2021-22 run: Klopp the only manager \"to have used the same formation in all 38 matches this season\" (4-3-3); \"Liverpool's strength in numbers allowed Klopp to influence the course of matches through his second-half changes.\"",
+      "verified": true
+    },
+    {
+      "title": "Alexander-Arnold, Robertson and Alisson added to Liverpool's leadership group (Goal) [reused from liverpool-2021-22]",
+      "url": "https://www.goal.com/en/news/alexander-arnold-robertson-and-alisson-added-to-liverpools/1padzek7et0zc1mj6kf6oo98f3",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-09-27",
+      "eventDate": "2021-09-27",
+      "accessedOn": "2026-10-12",
+      "dimension": "people-management",
+      "evidence": "Read in the liverpool-2021-22 run: players' committee chosen by a dressing-room vote. Klopp: \"We had the three who stayed, and then the players voted for another three.\"",
+      "verified": true
+    },
+    {
+      "title": "Jürgen Klopp – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-14",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Jonathan Wilson: \"a hugely charismatic figure who inspires players with his personality\"; LMA chief executive said Klopp \"redefined man-management\"; Firmino: \"He motivates us in a different way every day.\" Assistant Željko Buvač (2001-2018) nicknamed \"the brain\", reportedly left after taking issue with Pepijn Lijnders' growing influence. At Liverpool he \"developed his tactics to incorporate more possession based football\". Quotes undated; eventDate approximate. Read characters 0-200000 of 210185.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "It's like an orchestra, but they play a silent song. I like heavy metal, I always want it to be loud.",
+      "date": "2013-11-05",
+      "source": "https://www.hurriyetdailynews.com/dortmunds-heavy-metal-klopp-out-to-silence-arsenal-57413",
+      "provenance": "primary",
+      "note": "AFP wire, Dortmund, 2013-11-05, reporting an interview with English media before Dortmund v Arsenal (CL group F, 2013-11-06). Earliest dated appearance read; the underlying English interview was not found. Arsenal = 'orchestra', his own football = 'heavy metal'."
+    },
+    {
+      "quote": "Arsenal have a philosophy from Arsene Wenger, I love that, but I can't coach that way, I am different.",
+      "date": "2013-11-05",
+      "source": "https://www.hurriyetdailynews.com/dortmunds-heavy-metal-klopp-out-to-silence-arsenal-57413",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Gegenpressing lets you win back the ball nearer to the goal.",
+      "date": "2020-04-17",
+      "source": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "provenance": "attributed",
+      "note": "Undated in Cox's book extract; Dortmund era. Original interview not found."
+    },
+    {
+      "quote": "No playmaker in the world can be as good as a good gegenpressing situation.",
+      "date": "2020-04-17",
+      "source": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+      "provenance": "attributed",
+      "note": "Undated in Cox's book extract; Dortmund era. Original interview not found."
+    },
+    {
+      "quote": "Er hat uns die Laufwege eingehämmert. Für mich war das eine Offenbarung.",
+      "date": "2024",
+      "source": "https://www.bundesliga.com/de/bundesliga/news/50-jahre-2-bundesliga-2bl50-jurgen-klopp-normal-one-mainz-start-portrat-27890",
+      "provenance": "attributed",
+      "note": "On Wolfgang Frank at Mainz. Undated on the page ('50 Jahre 2. Bundesliga' series, 2024)."
+    },
+    {
+      "quote": "Wir konnten mit unserem System Spiele gewinnen gegen Mannschaften, die besser waren als wir.",
+      "date": "2024",
+      "source": "https://www.bundesliga.com/de/bundesliga/news/50-jahre-2-bundesliga-2bl50-jurgen-klopp-normal-one-mainz-start-portrat-27890",
+      "provenance": "attributed",
+      "note": "About Mainz under Frank and himself. Undated on the page."
+    },
+    {
+      "quote": "A team, a squad, an academy full of character.",
+      "date": "2024-02-25",
+      "source": "https://www.tntsports.co.uk/football/league-cup/2023-2024/jurgen-klopp-hails-unbelievable-liverpool-youngsters-after-carabao-cup-final-win-over-chelsea-absolu_sto10039276/story.shtml",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Wir haben das in meinen Vereinen ‚organisiertes Chaos' genannt. Für andere sah es chaotisch aus, für uns war es organisiert.",
+      "date": "2026-09-23",
+      "source": "https://www.leinetal24.de/sport/fussball/juergen-klopp-das-erweckungserlebnis-und-das-organisierte-chaos-zr-94505802.html",
+      "provenance": "primary",
+      "note": "First days as Germany coach, about his club teams. Page shows 'Stand: 23.09.2026'."
+    },
+    {
+      "quote": "Ballorientiertes Verteidigen ist nicht kompliziert. Das werden wir organisieren.",
+      "date": "2026-09-23",
+      "source": "https://www.leinetal24.de/sport/fussball/juergen-klopp-das-erweckungserlebnis-und-das-organisierte-chaos-zr-94505802.html",
+      "provenance": "primary",
+      "note": "Marking: the article says he prefers ball-oriented defending to 'Manndeckung übers ganze Feld' (Kompany's Bayern), learnt under Frank when 'die Raumdeckung, eingeführt wurde' ('Ein Erweckungserlebnis'), and that he built 'eine 24-jährige Trainerkarriere' on it. Also: 'dass alle immer verantwortlich sind für die Defensive. ALLE IMMER!' and 'Das Defensivverhalten ist das Trampolin und das Fangnetz.'"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "wolfgang-frank",
+      "kind": "manager",
+      "note": "His coach at Mainz, who introduced zonal marking and a back four there; Klopp calls it 'eine Offenbarung' and an 'Erweckungserlebnis' (bundesliga.com; leinetal24, 2026-09-23)."
+    },
+    {
+      "id": "arrigo-sacchi",
+      "kind": "manager",
+      "note": "Frank's model; Klopp recalls watching Sacchi's defensive-drill video '500 times' (Guardian interview, seen only in a reader comment on Spielverlagerung.de and in a search summary; not verified)."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "Dortmund and Liverpool are well covered by tier A-B sources that agree (Spielverlagerung 2011 and 2016, TFA 2020 and 2022, TheMastermindSite 2022, Premier League Talking Tactics 2022) on Gegenpressing, fast vertical transitions and the shift to a higher press, 4-3-3 and more possession at Liverpool. Kept at medium because Mainz, a counted spell of equal weight, rests only on retrospective tier C pieces; several Dortmund facts are retrospective without exact seasons; marking is mixed (stated zonal ball-oriented base vs man-oriented pressing in match analyses); and the gegenpressing quotes are undated."
+  }
+}

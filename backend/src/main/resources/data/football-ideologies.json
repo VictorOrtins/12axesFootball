@@ -1,0 +1,227 @@
+[
+  {
+    "id": "combination-game",
+    "name": "Jogo de combinação",
+    "category": "Clássica inicial",
+    "description": "Escola escocesa do fim do século XIX: o time se move junto e troca a bola de pé em pé, em oposição ao drible individual inglês.",
+    "phrase": "Quero que a bola circule de pé em pé e que o time se mova junto, em vez de um jogador carregá-la sozinho.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "danubian-school",
+    "name": "Escola danubiana",
+    "category": "Clássica inicial",
+    "description": "Passe e construção entre as guerras na Europa Central (Áustria, Hungria, Tchecoslováquia), com o jogo como construção coletiva.",
+    "phrase": "Quero cada passe e cada movimento com um objetivo, construindo o jogo com a bola no chão.",
+    "teamId": "austria-1931-34",
+    "managerId": "hugo-meisl"
+  },
+  {
+    "id": "wm-system",
+    "name": "Sistema WM",
+    "category": "Defensiva e reativa",
+    "description": "Formação de Chapman no Arsenal depois da mudança do impedimento: três defensores, dois volantes e um ataque de cinco, com contra-ataque rápido.",
+    "phrase": "Quero um time que busque o resultado acima de tudo, defendendo com três zagueiros e atacando em velocidade.",
+    "teamId": "arsenal-1925-34",
+    "managerId": "herbert-chapman"
+  },
+  {
+    "id": "hungarian-4-2-4",
+    "name": "4-2-4 húngaro fluido",
+    "category": "Relacional e liberdade",
+    "description": "Ideia húngara do fim dos anos 1940 e 1950: um centroavante recuado que organiza o jogo e puxa o zagueiro para fora, com atacantes trocando de posição.",
+    "phrase": "Quero um centroavante que recua para organizar o jogo e atacantes que trocam de lugar para desorganizar a defesa.",
+    "teamId": "hungary-1950-56",
+    "managerId": "gusztav-sebes"
+  },
+  {
+    "id": "futebol-arte",
+    "name": "Futebol-arte",
+    "category": "Relacional e liberdade",
+    "description": "Futebol brasileiro em que o talento individual vem primeiro, em oposição ao futebol de resultado: o jogo bonito é a forma de ganhar.",
+    "phrase": "Quero que o talento dos craques guie o jogo e que se possa jogar bem e vencer.",
+    "teamId": "brazil-1982",
+    "managerId": "tele-santana"
+  },
+  {
+    "id": "la-nuestra",
+    "name": "La Nuestra",
+    "category": "Relacional e liberdade",
+    "description": "Tradição rio-platense de drible, passe curto e improviso de jogadores pequenos e técnicos, o estilo criollo que os cronistas chamavam de 'la nuestra'.",
+    "phrase": "Quero um time técnico, de drible e passe curto, que tenha a sua própria identidade.",
+    "teamId": "river-plate-1941-47",
+    "managerId": "renato-cesarini"
+  },
+  {
+    "id": "total-football",
+    "name": "Futebol total",
+    "category": "Pressão e intensidade",
+    "description": "Escola holandesa dos anos 1960 e 70: todos atacam e todos defendem, os jogadores trocam de posição, o time pressiona alto e ocupa o espaço de forma coletiva.",
+    "phrase": "Quero um time que pressiona alto e em que os jogadores troquem de posição, de modo que todos ataquem e todos defendam.",
+    "teamId": "ajax-1971-73",
+    "managerId": "rinus-michels"
+  },
+  {
+    "id": "catenaccio",
+    "name": "Catenaccio",
+    "category": "Defensiva e reativa",
+    "description": "Sistema defensivo italiano dos anos 1950 e 60: um líbero atrás de marcadores individuais, defesa funda e contra-ataque rápido, com foco no resultado.",
+    "phrase": "Quero defender fundo, com marcação individual e um líbero atrás, e vencer no contra-ataque.",
+    "teamId": "inter-1963-65",
+    "managerId": "helenio-herrera"
+  },
+  {
+    "id": "gegenpressing",
+    "name": "Gegenpressing",
+    "category": "Pressão e intensidade",
+    "description": "Pressão logo após a perda da bola, desenvolvida na Alemanha por Rangnick, Klopp e outros: recuperar a bola perto do gol adversário e atacar antes de a defesa se organizar.",
+    "phrase": "Quero que o time pressione assim que perder a bola, para recuperá-la perto do gol adversário e atacar rápido.",
+    "teamId": "dortmund-2010-13",
+    "managerId": "jurgen-klopp"
+  },
+  {
+    "id": "soviet-scientific-football",
+    "name": "Futebol científico soviético",
+    "category": "Pressão e intensidade",
+    "description": "Escola soviética de Maslov e Lobanovskyi: pressão sistemática, preparação física e análise de dados, com jogo coletivo em zona e o sistema acima dos nomes.",
+    "phrase": "Quero um time que pressiona de forma sistemática, treina com ciência e joga em zona, com o sistema acima dos nomes.",
+    "teamId": "dynamo-kyiv-1985-86",
+    "managerId": "valeriy-lobanovskyi"
+  },
+  {
+    "id": "cruyffism",
+    "name": "Cruyffismo",
+    "category": "Posse e estrutura",
+    "description": "Filosofia de Johan Cruyff no Barcelona: ataque, a bola como defesa, jogo de posição e formação de jogadores na base, com o time dominando o jogo.",
+    "phrase": "Quero um time que ataque sempre, use a bola como defesa e seja formado na base, com jogo de posição.",
+    "teamId": "barcelona-1990-94",
+    "managerId": "johan-cruyff"
+  },
+  {
+    "id": "tiki-taka",
+    "name": "Tiki-taka",
+    "category": "Posse e estrutura",
+    "description": "Nome popular do futebol espanhol de passes curtos e posse paciente da Espanha e do Barcelona de 2008 a 2012; Guardiola rejeitou o termo, e há quem o trate como outro nome para o jogo de posição.",
+    "phrase": "Quero um time técnico que troque passes curtos e domine a posse de bola com paciência.",
+    "teamId": "spain-2010-12",
+    "managerId": "vicente-del-bosque"
+  },
+  {
+    "id": "bielsismo",
+    "name": "Bielsismo",
+    "category": "Pressão e intensidade",
+    "description": "Estilo de Marcelo Bielsa e seus seguidores, como Sampaoli: marcação individual por todo o campo, pressão alta, ataques verticais e treino muito intenso.",
+    "phrase": "Quero marcação individual por todo o campo, pressão alta e ataques verticais, com treino muito intenso.",
+    "teamId": "chile-2015-16",
+    "managerId": "marcelo-bielsa"
+  },
+  {
+    "id": "positional-play",
+    "name": "Jogo de posição",
+    "category": "Posse e estrutura",
+    "description": "Modelo de jogo em que o time ocupa zonas do campo com espaçamento definido, busca superioridade entre linhas e usa o terceiro homem; associado a Cruyff, Van Gaal, Lillo e Guardiola.",
+    "phrase": "Quero um time organizado por zonas, com espaçamento definido e superioridade entre as linhas, que domine a posse.",
+    "teamId": "manchester-city-2017-18",
+    "managerId": "pep-guardiola"
+  },
+  {
+    "id": "low-block-counter-attack",
+    "name": "Bloco baixo e contra-ataque",
+    "category": "Defensiva e reativa",
+    "description": "Ideia, não um time só: absorver a pressão num bloco compacto e fundo, ceder a posse e atacar o espaço na transição com atacantes rápidos; do Inter de Mourinho ao Leicester de Ranieri.",
+    "phrase": "Quero um time compacto e fundo que ceda a bola ao rival e ataque o espaço no contra-ataque.",
+    "teamId": "inter-2009-10",
+    "managerId": "jose-mourinho"
+  },
+  {
+    "id": "cholismo",
+    "name": "Cholismo",
+    "category": "Defensiva e reativa",
+    "description": "Estilo de Diego Simeone no Atlético de Madrid: 4-4-2 fundo e estreito, o coletivo acima do individual, intensidade e o jogo 'partido a partido'.",
+    "phrase": "Quero um time fundo e coletivo, que trabalhe mais que o rival e pense um jogo de cada vez.",
+    "teamId": "atletico-madrid-2013-14",
+    "managerId": "diego-simeone"
+  },
+  {
+    "id": "mourinhismo",
+    "name": "Mourinhismo",
+    "category": "Defensiva e reativa",
+    "description": "Pragmatismo do resultado: o plano e o sistema mudam conforme o adversário e o elenco, com defesa compacta e contra-ataque; de Mourinho a Capello, Scolari e Deschamps.",
+    "phrase": "Quero um time que busque o resultado primeiro e mude o plano conforme o adversário e o elenco.",
+    "teamId": null,
+    "managerId": "jose-mourinho"
+  },
+  {
+    "id": "heavy-metal-football",
+    "name": "Futebol heavy metal",
+    "category": "Pressão e intensidade",
+    "description": "Futebol de alta energia nascido com Klopp e levado à escola Red Bull de Rangnick, Nagelsmann e Marsch: pressão e contrapressão, ritmo máximo e transições verticais.",
+    "phrase": "Quero um futebol de alta energia, com pressão, ritmo máximo e ataques rápidos depois de recuperar a bola.",
+    "teamId": "liverpool-2018-19",
+    "managerId": "jurgen-klopp"
+  },
+  {
+    "id": "relationism",
+    "name": "Relacionismo",
+    "category": "Relacional e liberdade",
+    "description": "Ideia ligada a Fernando Diniz e ao 'jogo funcional': a posição é uma função das relações entre os jogadores, sem estrutura de zonas, com a bola no centro do jogo.",
+    "phrase": "Quero um time sem posições fixas em que os jogadores se organizem pelas relações em torno da bola.",
+    "teamId": "fluminense-2023",
+    "managerId": "fernando-diniz"
+  },
+  {
+    "id": "player-empowerment",
+    "name": "Empoderamento dos jogadores",
+    "category": "Relacional e liberdade",
+    "description": "Futebol de gestão de pessoas, como o de Ancelotti, Zidane e Scaloni: estrutura leve, regras de disciplina e de defesa, e liberdade com a bola construída pela confiança.",
+    "phrase": "Quero pouca regra tática, liberdade com a bola e um treinador que lidere pela confiança nos jogadores.",
+    "teamId": "real-madrid-2016-18",
+    "managerId": "carlo-ancelotti"
+  },
+  {
+    "id": "vertical-football",
+    "name": "Futebol vertical",
+    "category": "Pressão e intensidade",
+    "description": "Ganhar a bola, muitas vezes na contrapressão, e jogá-la logo para a frente com corrida para o espaço, sem construir pelo meio-campo; ligado ao Dortmund de Klopp.",
+    "phrase": "Quero recuperar a bola e jogá-la logo para a frente, correndo para o espaço em vez de construir devagar.",
+    "teamId": "dortmund-2010-13",
+    "managerId": "jurgen-klopp"
+  },
+  {
+    "id": "sarriball",
+    "name": "Sarribol",
+    "category": "Posse e estrutura",
+    "description": "O Napoli de Sarri: 4-3-3 de passes rápidas e combinações em tabela, corridas de terceiro homem e linha defensiva alta, num ritmo vertical.",
+    "phrase": "Quero passes rápidos e triangulações, com linha defensiva alta e o time jogando em bloco.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "build-up-baiting",
+    "name": "Saída de bola provocativa",
+    "category": "Posse e estrutura",
+    "description": "Jogo de De Zerbi: atrair a pressão adversária na saída de bola, de dentro da própria área, para criar espaço e atacar atrás do pressing.",
+    "phrase": "Quero provocar a pressão do rival na saída de bola e, quando ele vier, achar o espaço atrás dela.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "modern-man-to-man",
+    "name": "Marcação individual moderna",
+    "category": "Pressão e intensidade",
+    "description": "Marcação individual por boa parte do campo, com pressão agressiva e defesa de três, como no Atalanta de Gasperini.",
+    "phrase": "Quero marcar homem a homem por boa parte do campo, com pressão agressiva e uma defesa de três.",
+    "teamId": null,
+    "managerId": null
+  },
+  {
+    "id": "zona-mista",
+    "name": "Zona mista",
+    "category": "Defensiva e reativa",
+    "description": "Gioco all'italiana de Trapattoni: marcação individual sobre o criador ou o atacante rival, mais cobertura de zona, líbero, quatro defensores e transições rápidas.",
+    "phrase": "Quero marcar o craque rival homem a homem, cobrir o resto em zona e buscar o resultado em transições rápidas.",
+    "teamId": null,
+    "managerId": null
+  }
+]

@@ -47,18 +47,6 @@
 .e-hero .e-wrap > div:first-child > :nth-child(4) { animation-delay: 0.34s; }
 .e-hero .e-wrap > div:first-child > :nth-child(5) { animation-delay: 0.44s; }
 
-.e-hero-result {
-  animation: e-m-float-in 0.95s var(--m-ease) 0.3s backwards;
-}
-
-.e-hero-summary {
-  transition: transform 0.35s var(--m-ease), box-shadow 0.35s var(--m-ease);
-}
-.e-hero-summary:hover {
-  transform: translateY(-6px) rotate(-0.4deg);
-  box-shadow: 0 26px 60px var(--fixed-green-500-a20);
-}
-
 /* ── Cascata dos cards quando a seção entra em cena ─────────────────────── */
 
 .e-disc-list > *,
@@ -77,26 +65,18 @@
   animation: e-m-rise 0.6s var(--m-ease) backwards;
 }
 
-[data-reveal]:not([data-revealed]) :is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list,
-  .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-read-grid) > * {
+[data-reveal]:not([data-revealed]) :is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list) > * {
   animation: none;
   opacity: 0;
 }
 
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(1) { animation-delay: 0.08s; }
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(2) { animation-delay: 0.14s; }
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(3) { animation-delay: 0.2s; }
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(4) { animation-delay: 0.26s; }
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(5) { animation-delay: 0.32s; }
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(6) { animation-delay: 0.38s; }
-:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
-  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(n + 7) { animation-delay: 0.44s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(1) { animation-delay: 0.08s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(2) { animation-delay: 0.14s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(3) { animation-delay: 0.2s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(4) { animation-delay: 0.26s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(5) { animation-delay: 0.32s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(6) { animation-delay: 0.38s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-oss-cards) > :nth-child(n + 7) { animation-delay: 0.44s; }
 
 /* A seção "Código aberto" não usa data-reveal: entra quando a página rola até ela. */
 @supports (animation-timeline: view()) {
@@ -109,14 +89,13 @@
 
 /* ── Hover: cards levantam; toque: cards afundam ────────────────────────── */
 
-:is(.e-axis-card, .e-spec-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-far-row, .e-ver-grid > *, .e-card,
-  .e-match) {
+:is(.e-axis-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-far-row, .e-ver-grid > *, .e-card, .e-match) {
   transition: transform 0.28s var(--m-ease), box-shadow 0.28s var(--m-ease), border-color 0.28s var(--m-ease),
     background-color 0.28s var(--m-ease);
 }
 
 @media (hover: hover) {
-  :is(.e-axis-card, .e-spec-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-ver-grid > *):hover {
+  :is(.e-axis-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-ver-grid > *):hover {
     transform: translateY(var(--m-lift));
     box-shadow: var(--m-shadow);
   }
@@ -146,8 +125,7 @@
 }
 
 @media (hover: none) {
-  :is(.e-axis-card, .e-spec-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-far-row, .e-ver-grid > *, .e-match,
-    .e-read-card):active {
+  :is(.e-axis-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-far-row, .e-ver-grid > *, .e-match):active {
     transform: scale(0.98);
   }
 }
@@ -198,14 +176,6 @@ a:hover > .e-arr { transform: translateX(4px); }
 .e-track i { transform-origin: left center; }
 .e-track .e-l i { transform-origin: right center; }
 .e-ahalf.e-r i { transform-origin: left center; }
-.e-spec-bar span { transform-origin: left center; }
-.e-spec-bar span:nth-child(2) { animation-delay: 0.26s; }
-.e-spec-bar span:nth-child(3) { animation-delay: 0.32s; }
-.e-spec-bar span:nth-child(4) { animation-delay: 0.38s; }
-.e-spec-bar span:nth-child(5) { animation-delay: 0.44s; }
-.e-spec-bar span:nth-child(6) { animation-delay: 0.5s; }
-.e-spec-bar span:nth-child(7) { animation-delay: 0.56s; }
-.e-spec-bar span:nth-child(8) { animation-delay: 0.62s; }
 
 .e-adot,
 .e-close-pin { animation: e-m-pop 0.55s var(--m-spring) 0.7s backwards; }
@@ -215,8 +185,7 @@ a:hover > .e-arr { transform: translateX(4px); }
 
 .e-ring-arc { animation: e-m-draw 1.2s var(--m-ease) 0.15s backwards; }
 
-[data-reveal]:not([data-revealed]) :is(.e-ahalf i, .e-spec-bar span, .e-track i, .e-ax-bar i, .e-adot, .e-close-pin,
-  .e-myou, .e-mmed, .e-ring-arc) {
+[data-reveal]:not([data-revealed]) :is(.e-ahalf i, .e-track i, .e-ax-bar i, .e-adot, .e-close-pin, .e-myou, .e-mmed, .e-ring-arc) {
   animation: none;
 }
 

@@ -8,9 +8,9 @@ ROOT = Path(__file__).resolve().parents[1] / "backend/src/main/resources/data"
 CATALOGS = {
     "axes": ("axes", ("label", "leftPole", "rightPole")),
     "questions-pool": ("questions", ("text",)),
-    "ideologies": ("ideologies", ("name", "category", "description", "phrase")),
-    "countries": ("countries", ("name", "category", "description")),
-    "personalities": ("personalities", ("name", "role", "description")),
+    "football-ideologies": ("football-ideologies", ("name", "category", "description", "phrase")),
+    "teams": ("teams", ("name", "category", "description")),
+    "managers": ("managers", ("name", "description")),
 }
 
 

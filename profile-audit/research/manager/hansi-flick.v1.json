@@ -1,0 +1,1012 @@
+{
+ "id": "hansi-flick",
+ "catalog": "manager",
+ "name": "Hansi Flick",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2019-11-03",
+  "end": "ongoing"
+ },
+ "scopeNote": "Counted spells proposed by the researcher at the user's request: Bayern Munich 2019-21 (treble/sextuple; high line, gegenpressing), Germany 2021-23 (same high-line pressing model, but poor results and first-ever sacking) and Barcelona from 1 July 2024 (domestic trebles, offside trap, high line; FC Barcelona's staff page dated 2026-10-18 still lists him as coach, contract to 2028). The three spells share one recognisable style (very high line, early pressing, vertical transitions, trust in youth), so the profile is the signature style, not a career average. Excluded: assistant jobs, Hoffenheim, Salzburg and DFB sporting director roles (no head-coach evidence). Bayern start: Kovac was dismissed 3 Nov 2019 (sources say 'November 2019'), first match 9 Nov vs Dortmund; exact day from memory, flagged. Bayern end 30 Jun 2021 and Germany start 1 Aug 2021 are not in the mined pages (FC Barcelona profile says only 'a job he retained until September 2023'). Popular label 'tiki-taka/possession Barca' is wrong for his team: sources describe verticality, offside trap and quick transitions. Partial dates in spellsExcluded (years/months only) are approximate and not needed for the profile.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Bayern start (3 Nov 2019) and end (30 Jun 2021), Germany start (1 Aug 2021) and Barcelona start (1 Jul 2024) are not confirmed by a mined page; Barcelona was announced 29 May 2024.",
+  "Barcelona 2025/26 and 2026/27 tactical coverage mined is thin (Henry criticism, contract extension); a report of players questioning the high line after the Atletico cup semi-final (El Gol Digital) was not mined.",
+  "Germany spell: mostly attributed Sport Bild quotes; match-level tactical analysis of Germany not mined beyond BFW.",
+  "Man-management evidence is mostly tier C/attributed; Boateng/Alaba departure frictions not examined."
+ ],
+ "sources": [
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Bayern's pressing, which is far less hesitant than under the previous manager, pressing on the first build-up line and consistently pushing up.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Previously, Bayern often attempted to win the ball back immediately, one to three seconds after losing it, and otherwise dissolved the gegenpressing and assumed a more compact defensive formation. Now the team remains in the gegenpressing moment and keeps up the pursuit",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The opponent's build up is attacked early from the customary 4-3-3 formation. Usually an attacking midfielder moves toward the second centre-back, the one Robert Lewandowski is not already occupying.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Bayern have made drastic changes in their focus on working off the ball. It is no longer about minimising both damage and risk; rather, it's about proactive defending.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "The match against Leverkusen, on the other hand, showed how a talented counter-attacking side can break through against this Bayern side with long balls and quick passing moves from within their own half.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "The structure in possession still remains the prerequisite for a functioning gegenpressing and thus a more general dominance.",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb - Bayern's pressing under Flick",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/bayerns-pressing-under-flick/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-12-05",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "From the flanks, the wingers add to the pressure on the opponent's ball-carrier with short arching runs, thus making use of their cover shadows.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "A very large part of Bayern's recent resurgence to the top of European football has been the restoration of a high defensive line — a feature crucial to both attacking, transition and defensive phases of play, and synonymous with Hansi Flick's brand of football.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The pace of Alphonso Davies is crucial — and allows the line to situate as high up as halfway.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The high line is employed to allow the team to play their aggressive counter press by shortening the distance between offence and defense, making it very compact for the opposition when playing in their half.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Defending counter attacks, the FC Bayern Roadrunner is able to do race back and prevent goal scoring opportunities for opposition attackers who have gotten between the defense and goalkeeper.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "When defending corners, once the ball has been cleared from danger, the offside line quickly moves up in an attempt to squeeze the opposition, apply pressure to them and play them offside if they cross a ball back in. However, this tactic is risky if opposition players stay onside.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Furthermore, it forces the opposition to play more long balls while constantly under pressure.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "So, in summary, Bayern's high line allows the team to counter press effectively. This in turn forces winning of the ball in the final third, more control and possession",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Film Room: Bayern's high line and team pressing",
+   "url": "https://www.bavarianfootballworks.com/2020/8/21/21376959/bayern-munich-psg-champions-league-final-thomas-muller-analysis-alphonso-davies-high-line-pressing",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-08-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "David Alaba, as an extremely quick CB, is able to win races to the ball and sweep up balls penetrating the defense — acting almost like a modern libero/sweeper.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "he has since remained committed to a consistent 4-2-3-1 that offers an asymmetrical attacking shape and often involves seven players advancing to attack in front of ball-playing defenders.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Kimmich and Leon Goretzka at the base of their midfield, largely because of Kimmich's willingness to withdraw into defence to create overloads when attempting to build play, in turn inviting Pavard and Davies to advance from full-back.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "The 3-1-4-2 they form (below) through Pavard and Davies moving into midfield, and Thomas Müller joining Robert Lewandowski up front, increases their presence in the final third.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "The effectiveness of Bayern's press under Flick owes much to its second wave (below).",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Flick also prefers Bayern's defensive shape to feature a high defensive line that encourages their double pivot and full-backs to adopt positions where they can press the ball as it approaches the midfield third, and to screen and block against switches of play.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Flick's team offers significantly more deliveries into the penalty area from the right than it does from the left; Lewandowski thrives on those deliveries",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "Six players often quickly surround the ball – doing so from their attacking shape is relatively seamless – meaning they regularly remain in advanced positions from which they can launch a counter.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Boateng and Alaba are far from imposing in the air so opponents often target their strikers with direct balls.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Goretzka operates as a single pivot, and seeks to link play with their four most attacking players. His ability to receive and then progress possession, even under pressure, ultimately increases Bayern's dominance of the attacking third of the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Hansi Flick: Coach Watch",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Boateng and Alaba are far from imposing in the air so opponents often target their strikers with direct balls. They regularly succeed with the first phase of their attack, but the cover offered from Bayern's double pivot – Kimmich and Goretzka show great defensive awareness – often negates the second.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer - 2020 Awards: Hansi Flick and Bayern Munich",
+   "url": "https://www.worldsoccer.com/?p=410929",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Tactically, he promotes an aggressive pressing game, with the front quartet in a 4-2-3-1 formation pushing high up the pitch to close down the opposing defenders, while also encouraging a high line from his own defenders to compress the opponent's space.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer - 2020 Awards",
+   "url": "https://www.worldsoccer.com/?p=410929",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Further reports of squad disharmony from the end of Kovac's reign have well and truly been dispelled under Flick, whose positive man-management is evident from both on-pitch displays",
+   "verified": true
+  },
+  {
+   "title": "World Soccer - 2020 Awards",
+   "url": "https://www.worldsoccer.com/?p=410929",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Joshua Zirkzee has emerged as a viable long-term replacement for Robert Lewandowski, 17-year-old Jamal Musiala recently became Bayern's youngest-ever goalscorer, while more is expected of young defenders Chris Richards and Tanguy Nianzou in the coming months.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer - 2020 Awards",
+   "url": "https://www.worldsoccer.com/?p=410929",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Flick's record stood at 32 wins from 36 games in all competitions – the best ratio of any Die Rotten coach in history. His points-per-game ratio of 2.78 surpassed Pep Guardiola's 2.6 from 2013-14",
+   "verified": true
+  },
+  {
+   "title": "World Soccer - 2020 Awards",
+   "url": "https://www.worldsoccer.com/?p=410929",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Integral to that strategy is Alphonso Davies, whose emergence coincided with Flick's appointment. As well as being a lethal attacking weapon, the left-back's pace allows him to sweep in behind when Bayern's high line is beaten.",
+   "verified": true
+  },
+  {
+   "title": "World Soccer - 2020 Awards",
+   "url": "https://www.worldsoccer.com/?p=410929",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-01-04",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"The gap between our defence and our goal is pretty big, but the important thing is that we put pressure on the ball,\" explains Flick.",
+   "verified": true
+  },
+  {
+   "title": "Bayern Strikes - Three factors that led to treble win",
+   "url": "https://bayernstrikes.com/2020/08/27/bayern-munich-three-factors-treble/2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-27",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Jerome Boateng and Thomas Muller were seemingly on their way out of Bayern Munich. However, Flick's management of both players helped them to enjoy their best campaign since the departure of Pep Guardiola in 2016.",
+   "verified": true
+  },
+  {
+   "title": "Bayern Strikes - Three factors",
+   "url": "https://bayernstrikes.com/2020/08/27/bayern-munich-three-factors-treble/2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-27",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the progression of Alphonso Davies and Joshua Zirkzee shows that young players will also benefit under Flick.",
+   "verified": true
+  },
+  {
+   "title": "UEFA - In the Zone: How Barcelona overcame Bayern's marking",
+   "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-10-24",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "both teams began with a very high defensive line, Barcelona's back four defending from the halfway line and using a zonal marking system when Bayern had the ball",
+   "verified": true
+  },
+  {
+   "title": "UEFA - In the Zone: How Barcelona overcame Bayern's marking",
+   "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-10-24",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "a key one was how Hansi Flick's side overcame the one-to-one marking approach of Vincent Kompany's players.",
+   "verified": true
+  },
+  {
+   "title": "UEFA - In the Zone: How Barcelona overcame Bayern's marking",
+   "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-10-24",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The youthfulness of Barcelona's team was also notable, with an average age of 24.5 years in their starting XI compared to Bayern's 29.5. Six Barça players were aged 21 or under",
+   "verified": true
+  },
+  {
+   "title": "UEFA - In the Zone: How Barcelona overcame Bayern's marking",
+   "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-10-24",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Their attacking players, including Lamine Yamal and Raphinha, switched sides to unsettle the Bundesliga leaders and the tactics paid off.",
+   "verified": true
+  },
+  {
+   "title": "UEFA - In the Zone: How Barcelona overcame Bayern's marking",
+   "url": "https://www.uefa.com/uefachampionsleague/news/0292-1c2b0150736d-ab0846cbfde8-1000--in-the-zone-how-barcelona-overcame-bayerns-marking-in-impressive-triumph/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-10-24",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Barcelona enjoyed themselves with more possession and confidence.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis - Barcelona vs Bayern",
+   "url": "https://totalfootballanalysis.substack.com/p/tactical-analysis-barcelona-vs-bayern",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-11-15",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Barcelona operated in a nominal 4-2-3-1 formation, with Robert Lewandowski as a target man and the quick Raphinha on the left wing.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis - Barcelona vs Bayern",
+   "url": "https://totalfootballanalysis.substack.com/p/tactical-analysis-barcelona-vs-bayern",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-11-15",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "The goal was to lure the opposing players in by using the numerical +1 advantage with the help of the goalkeeper, thereby creating more space behind the opponent.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis - Barcelona vs Bayern",
+   "url": "https://totalfootballanalysis.substack.com/p/tactical-analysis-barcelona-vs-bayern",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-11-15",
+   "eventDate": "2024-10-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "A dynamic back-and-forth quickly developed, driven by both teams' pressing and their high defensive lines.",
+   "verified": true
+  },
+  {
+   "title": "ARA - Manual para convertir al Barca en una maquina",
+   "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-29",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "La magnífica coordinación de la línea defensiva merecería una pieza aparte. Es impresionante ver cómo Cubarsí e Iñigo entienden quién debe marcar la línea en cada momento en función de dónde está el balón",
+   "verified": true
+  },
+  {
+   "title": "ARA - Manual para convertir al Barca en una maquina",
+   "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-29",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "El equipo siguió jugando con la defensa bien arriba, aunque quizá fue necesario matizar un poco la altura, con la intención de presionar la salida del rival y con la voluntad de dominar con balón",
+   "verified": true
+  },
+  {
+   "title": "ARA - Manual para convertir al Barca en una maquina",
+   "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-29",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "aparecieron tres o cuatro jugadores que dijeron: \"No tenemos miedo, a nosotros no nos quema el balón en los pies\". Nos la quedamos y así erosionamos un poco esa presión asfixiante del Bayern.",
+   "verified": true
+  },
+  {
+   "title": "ARA - Manual para convertir al Barca en una maquina",
+   "url": "https://es.ara.cat/deportes/fc-barcelona/manual-convertir-barca-maquina-14-partidos_1_5185173.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-29",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "La identidad la dan los jóvenes de la casa (La Masia, el gran tesoro del Barça), pero también una forma de jugar clarísima",
+   "verified": true
+  },
+  {
+   "title": "Soccerway ES - La especialidad del Barca de Flick: fuera de juego",
+   "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-26",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "El Barcelona de Hansi Flick se ha especializado en poner a sus rivales en posiciones ilegales con su defensa muy alta.",
+   "verified": true
+  },
+  {
+   "title": "Soccerway ES - La especialidad del Barca de Flick",
+   "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-26",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Esto se traduce en una posición media en la que sólo los dos centrales están sistemáticamente en campo propio",
+   "verified": true
+  },
+  {
+   "title": "Soccerway ES - La especialidad del Barca de Flick",
+   "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-26",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "la aceptación de dejar la mayor parte del balón al rival para imponer más verticalidad en la recuperación. Esto quedó patente en los 4 goles blaugranas, todos ellos procedentes de transiciones rápidas.",
+   "verified": true
+  },
+  {
+   "title": "Soccerway ES - La especialidad del Barca de Flick",
+   "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-la-especialidad-del-barca-de-flick-fuera-de-juego-y-arriesgarse-contra-el-real-madrid/23FCpXIE",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-10-26",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "el Barça jugó con sus dos centrales(Pau Cubarsí por la derecha, Íñigo Martínez por la izquierda) a 40 metros de la portería, pero conMarc Casadó en el centro del campo",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick set-piece statistic",
+   "url": "https://www.football-espana.net/2024/12/05/barcelonas-set-piece-effectiveness-underlined-with-impressive-statistic",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-12-05",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Barcelona have yet to concede from a corner this season, despite having faced almost 100 – 98, to be exact.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick on set pieces ahead of Inter",
+   "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Flick was criticised both for Barcelona's defending with a high line after the first leg at Montjuic, and for their vulnerability at set pieces, after man of the match Denzel Dumfries scored twice from corners during the first leg.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick on set pieces ahead of Inter",
+   "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"Of course our style of play involves risks, but I love it.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick on set pieces ahead of Inter",
+   "url": "https://www.football-espana.net/2025/05/02/flick-barcelona-inter-set-pieces",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-05-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "It's not just the height, it's how you make your blocks, the one-on-ones, how you take responsibility in defence",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Henry criticism",
+   "url": "https://www.football-espana.net/2025/10/04/barcelona-hansi-flick-criticism-thierry-henry",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-10-04",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "much has been made of Flick's decision to operate a very high defensive line. On the whole, this has helped the Catalans prevent many goals for their opponents by catching them offside, but it has also cost them on occasion, as it did against PSG.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick style assessment",
+   "url": "https://www.football-espana.net/2024/07/23/new-manager-hansi-flick-gives-worrying-assessment-of-barcelona-style",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-23",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "\"We want to be active with and without the ball. We want to take the opponents to areas where we can win the ball. Sometimes we will press in one way and other times, higher than normal.\"",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick style assessment",
+   "url": "https://www.football-espana.net/2024/07/23/new-manager-hansi-flick-gives-worrying-assessment-of-barcelona-style",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-23",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "We like to play with wingers wide, and that the players are aware of everything that happens.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick style assessment",
+   "url": "https://www.football-espana.net/2024/07/23/new-manager-hansi-flick-gives-worrying-assessment-of-barcelona-style",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-23",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "\"Physicality is just as important as technique and tactics and for me it is crucial to be in good shape, because football is much more than playing with the ball.",
+   "verified": true
+  },
+  {
+   "title": "Football Espana - Flick style assessment",
+   "url": "https://www.football-espana.net/2024/07/23/new-manager-hansi-flick-gives-worrying-assessment-of-barcelona-style",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-23",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"We have our philosophy and our style. We know how we want to play, but every game is a challenge and there can be changes.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Flick Germany tactics (Sport Bild interview)",
+   "url": "https://www.bavarianfootballworks.com/2021/12/30/22859575/hansi-flick-germany-tactics-nations-league-england-italy-world-cup-muller-sane-werner-havertz-nmecha",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-12-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "\"Our back line is very high when we are in possession of the ball: Our center-backs are then 35, 40 meters away from their own goal. That's worked well so far.\"",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Flick Germany tactics",
+   "url": "https://www.bavarianfootballworks.com/2021/12/30/22859575/hansi-flick-germany-tactics-nations-league-england-italy-world-cup-muller-sane-werner-havertz-nmecha",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-12-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "the 56-year-old has implemented a highly-attacking setup at Die Mannschaft that focuses on pressing opponents high up the pitch and in an organized fashion.",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Flick Germany tactics",
+   "url": "https://www.bavarianfootballworks.com/2021/12/30/22859575/hansi-flick-germany-tactics-nations-league-england-italy-world-cup-muller-sane-werner-havertz-nmecha",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-12-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"we want to be very active in all positions at all times, we want to put the opponent under pressure early on, we want to stress them,\"",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Flick Germany tactics",
+   "url": "https://www.bavarianfootballworks.com/2021/12/30/22859575/hansi-flick-germany-tactics-nations-league-england-italy-world-cup-muller-sane-werner-havertz-nmecha",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-12-30",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "\"But in these seven games we've also had opponents that we, as the German national team, have to dominate and beat,\" he admitted. \"In the future, we will have to face completely different challenges.\"",
+   "verified": true
+  },
+  {
+   "title": "Get German Football News - Flick intensity, possession, high-pressing",
+   "url": "https://www.getfootballnewsgermany.com/2022/hansi-flick-wants-intensity-possession-and-high-pressing-as-germany-search-for-identity/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-11-30",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "\"We want to play at high intensity, be active and have possession. We want to force the opponents into mistakes which means sometimes we have to press hard.",
+   "verified": true
+  },
+  {
+   "title": "Get German Football News - Flick intensity",
+   "url": "https://www.getfootballnewsgermany.com/2022/hansi-flick-wants-intensity-possession-and-high-pressing-as-germany-search-for-identity/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-11-30",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Against Spain, we saw Flick operate a midfield trio, all of whom had considerable success in pressing Sergio Busquets and the Spanish defence.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com DE - Flick entlassen",
+   "url": "https://www.goal.com/de/meldungen/hansi-flick-entlassung-am-sonntag-dfb-v%C3%B6ller-trainer/blt498f73ec8821f659",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-09-10",
+   "eventDate": "2023-09-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Flicks Umstellungen, der neue Kapitän Ilkay Gündogan, die Degradierung von Joshua Kimmich auf die rechte Abwehrseite - damit hatte der Bundestrainer ein Lebenszeichen senden wollen.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com DE - Flick entlassen",
+   "url": "https://www.goal.com/de/meldungen/hansi-flick-entlassung-am-sonntag-dfb-v%C3%B6ller-trainer/blt498f73ec8821f659",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-09-10",
+   "eventDate": "2023-09-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"Ich finde, wir machen das gut, und ich bin der richtige Trainer\"",
+   "verified": true
+  },
+  {
+   "title": "Goal.com DE - Flick entlassen (spell dates)",
+   "url": "https://www.goal.com/de/meldungen/hansi-flick-entlassung-am-sonntag-dfb-v%C3%B6ller-trainer/blt498f73ec8821f659",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-09-10",
+   "eventDate": "2023-09-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Durch die Trennung von Flick nach 770 Tagen sorgte der Verband für ein Novum: Keiner der zehn Vorgänger Flicks war entlassen worden.",
+   "verified": true
+  },
+  {
+   "title": "FC Barcelona - Hansi Flick extends contract until 2028",
+   "url": "https://www.fcbarcelona.com/en/news/4505340/hansi-flick-extends-contract-until-2028",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-18",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "As many as 13 players from La Masia have made their debuts under the German as a generation of players have found in Flick a coach ready to give them a chance and exploit their potential.",
+   "verified": true
+  },
+  {
+   "title": "FC Barcelona - Hansi Flick extends contract until 2028",
+   "url": "https://www.fcbarcelona.com/en/news/4505340/hansi-flick-extends-contract-until-2028",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-18",
+   "eventDate": "2026-05-18",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "The German coach noted the stability of the sporting project at Barça and his good relationship with Deco and his team.",
+   "verified": true
+  },
+  {
+   "title": "FC Barcelona - Flick staff profile",
+   "url": "https://www.fcbarcelona.com/en/football/first-team/staff/4030694/flick",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-10-18",
+   "eventDate": "2026-10",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Barça coach since the summer of 2024, he has introduced a brilliant, dynamic style of football that has also brought trophies",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Flick praised for integrating youngsters",
+   "url": "https://www.bavarianfootballworks.com/2025/3/2/24331370/bayern-munich-alumni-hansi-flick-praised-for-integrating-youngsters-at-fc-barcelona",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "One name that can really be linked with Flick is Marc Casado, nobody really had him on their radar",
+   "verified": true
+  },
+  {
+   "title": "Bavarian Football Works - Flick praised for integrating youngsters",
+   "url": "https://www.bavarianfootballworks.com/2025/3/2/24331370/bayern-munich-alumni-hansi-flick-praised-for-integrating-youngsters-at-fc-barcelona",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-03-02",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Flick gave him a chance out of necessity because there was a lack of options in defensive midfield. Bernal very quickly became a regular until he tore his cruciate ligament.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice - Coach Watch (Germany appointment quote)",
+   "url": "https://learning.coachesvoice.com/?p=29858",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-05-25",
+   "eventDate": "2021",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"I am hugely excited, because I see the class of players, and especially young players, which we have in Germany,\" he said.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "\"Appreciation and respect are the basis. You don't always have to agree with me, but exchanging points of view and then implementing them in the sense of the big picture is the only way to succeed.\"",
+   "date": "2020",
+   "source": "World Soccer 2020 Awards, citing the club's official website",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "\"The gap between our defence and our goal is pretty big, but the important thing is that we put pressure on the ball. Over the last ten months we've implemented our philosophy in our games and have pressed the opposition.\"",
+   "date": "2020-08",
+   "source": "World Soccer 2020 Awards",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "\"Our back line is very high when we are in possession of the ball: Our center-backs are then 35, 40 meters away from their own goal.\"",
+   "date": "2021-12",
+   "source": "Sport Bild interview via Bavarian Football Works",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "\"I'm looking for the same thing as previous coaches, pressing very high and playing in the opponent's half of the field. It's the idea I agree with, but it's about winning.\"",
+   "date": "2024-07",
+   "source": "FC Barcelona club media interview via Football Espana",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "\"Of course our style of play involves risks, but I love it.\"",
+   "date": "2025-05",
+   "source": "Press conference via Football Espana",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "\"We want to play at high intensity, be active and have possession. We want to force the opponents into mistakes which means sometimes we have to press hard.\"",
+   "date": "2022-11",
+   "source": "Press conference via Get German Football News",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://fcbayern.com/de/news/2020/12/trainer-hansi-flick-im-interview-mit-dem-mitgliedermagazin-des-fc-bayern-51",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://uefa.com/uefanationsleague/news/0276-1548159439a4-87a7d45f4de8-1000--germany-coach-hansi-flick-on-facing-italy-and-england-in-",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://sports.inquirer.net/?p=402223",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Joachim Low (assistant 2006-14)",
+  "Niko Kovac's Bayern squad inherited"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Bayern Munich",
+   "start": "2019-11-03",
+   "end": "2021-06-30",
+   "reason": "Treble and sextuple in 2019/20, bundesliga 2020/21; high line and gegenpressing"
+  },
+  {
+   "club": "Germany",
+   "start": "2021-08-01",
+   "end": "2023-09-10",
+   "reason": "Same high-line pressing model; sacked after 1-4 vs Japan (770 days)"
+  },
+  {
+   "club": "Barcelona",
+   "start": "2024-07-01",
+   "end": "ongoing",
+   "reason": "Two La Liga titles, offside-trap high line, youth integration"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Bayern Munich (assistant)",
+   "start": "2019-07",
+   "end": "2019-11",
+   "reason": "assistant to Kovac"
+  },
+  {
+   "club": "Germany (assistant)",
+   "start": "2006-08",
+   "end": "2014",
+   "reason": "assistant to Low"
+  },
+  {
+   "club": "Hoffenheim",
+   "start": "2000",
+   "end": "2005",
+   "reason": "early lower-league/regional coaching, little tactical coverage"
+  },
+  {
+   "club": "RB Salzburg",
+   "start": "2005",
+   "end": "2006",
+   "reason": "assistant coach"
+  },
+  {
+   "club": "DFB / Hoffenheim sporting director",
+   "start": "2014",
+   "end": "2019",
+   "reason": "non-coaching roles"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Tier A (StatsBomb, Coaches' Voice, UEFA) for Bayern and the Barcelona-Bayern match; Barcelona's later seasons, Germany and set-piece/man-management rest on tier B-C press"
+ }
+}

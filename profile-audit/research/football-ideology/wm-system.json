@@ -1,0 +1,416 @@
+{
+  "id": "wm-system",
+  "catalog": "football-ideology",
+  "name": "WM (Chapman)",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "1925-10",
+    "end": "1953-11"
+  },
+  "scopeNote": "The WM (3-2-2-3, 'the W-M formation' in Wilson's wording) as introduced by Herbert Chapman at Arsenal after the 1925 offside-law change (three defenders to two) and the 0-7 defeat at Newcastle on 3 October 1925 (arsenal.com says late September), and practised as the standard English system until Hungary's 6-3 win at Wembley on 25 November 1953 exposed it. Core idea: the centre-half withdrawn as a 'stopper' third back, a block that retreats towards its own goal (Joy: 'retreating and funneling'), and quick counter-attacks through one link player (Neil, then Alex James) to fast, goalscoring wide forwards. Distinct from kick and rush: the evidence describes a planned break through a passing link man ('a goal from three or four touches out of defence'), not hit-and-chase. Distinct from the Danubian school (a patient passing game) and from verrou/catenaccio (a free sweeper; Wikipedia says catenaccio later grew out of the Italian 'sistema' version of the WM). Period start (1925-10) and end (1953-11) are partial dates by design, month only, because an ideology has no single start or end day; the end is a judgement (see openQuestions). Chapman died 6 January 1934; the Arsenal evidence is 1925-34, later evidence covers the WM as the English norm.",
+  "exemplars": [
+    {
+      "id": "herbert-chapman",
+      "kind": "manager",
+      "reason": "Introduced the stopper centre-half and the counter-attacking WM at Arsenal from 1925; 1930 FA Cup, 1931 and 1933 league titles."
+    },
+    {
+      "id": "arsenal-1925-34",
+      "kind": "team",
+      "reason": "Chapman's Arsenal: Butler then Roberts as third back, Alex James as link, Hulme and Bastin as wide scorers; the model other English clubs copied."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking: the sources disagree. Buchan's proposal (via Attwood) put the centre-half zonally 'guarding the edge of the penalty area' and rejected marking the number 9; Wikipedia's WM section says the centre-back was there 'to stop the opposing centre-forward'; by 1953 the English WM norm was man-marking 'whoever was wearing a particular number'. Decide whether the mar axis should follow Chapman's Arsenal (unclear, possibly zonal for the stopper) or the WM as England practised it (man-oriented). No source read says how Arsenal's full-backs and wing-halves marked.",
+    "Period end: 1953 (Hungary 6-3) is a judgement for when the WM stopped being the dominant English system; alternatives are 1934 (Chapman's death) or the late 1950s (4-2-4 / 4-4-2 take over). Confirm.",
+    "Origin: Buchan claimed the idea, Attwood says Chapman moved the centre-half back at half-time at Newcastle, and Whittle argues Chapman kept Butler as a deep midfielder and only used Roberts as a true centre-back from 1928-29 (a '3-2-1-4'), with Burnley, Bury and Scotland using stoppers earlier. The ideology is labelled 'WM (Chapman)' either way; the dispute matters only for dating the start.",
+    "Later English adopters (e.g. George Allison's Arsenal 1934-47, England sides of the 1940s-50s) were not researched individually; only Joy's quote and the 1953 accounts cover the post-Chapman WM. Add exemplar ids if those profiles are created.",
+    "The WM-vs-kick-and-rush boundary: Joy's 'retreating and funneling' plus long passes to the forwards could score close to kick and rush on pos and pro. The distinguishing evidence is the link-man build-up (Neil, James) and Chapman's 'inside passing' preference; check the audit keeps them apart.",
+    "Chapman's 'It is no longer necessary for a team to play well...' is attributed (posthumous 1934 publication per Wilson, no primary text read). Its exact source (likely Herbert Chapman on Football, 1934) was not confirmed."
+  ],
+  "sources": [
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10-03",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Arsenal lost 0-7 at Newcastle on 3 October 1925 (pins the start). Buchan, A Lifetime in Football (p. 95, year not given on the page): \"New methods were required and Arsenal were the first to exploit them\"; \"the change in law brought into operation the 'stopper' centre half\", though \"there were many such 'stoppers' long before that eventful day.\" Buchan wanted the centre-half to be \"a dominating personality around his own goal\", playing further from goal than the full-backs, not between them.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Jonathan Wilson: at Arsenal \"2-3-5 became 3-2-2-3, the W-M formation\", following the FA's offside change (two defenders, not three, needed to keep a forward onside). 1934 Daily Mail obituary (period quote): Chapman \"was the first manager who set out methodically to organize the winning of matches.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Why a 7-0 loss at Newcastle led to our golden era",
+      "url": "https://www.arsenal.com/feature/why-a-7-0-loss-at-newcastle-led-to-our-golden-era-ajy5Q5Z8Lbbg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025",
+      "eventDate": "1925",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Jack Butler was first asked to play as a deep-lying centre-half after the Newcastle defeat (which the page dates \"late September 1925\"); Andy Neil, a third-team wing-half, given the roving inside-forward role; Herbie Roberts played centre-half \"as the system matured\" in the 1930s, with Alex James supplying Hulme or Bastin. Page shows no author or date.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Birth of the Centre-Back - Myth or Fact (Iain Campbell Whittle)",
+      "url": "https://www.scotsfootballworldwide.scot/thecentrback",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018",
+      "eventDate": "1926/31",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Disputes the 1925 origin story: Chapman kept Jack Butler (a \"central, deep-lying midfielder\" in modern terms) at centre-half; Herbie Roberts, signed 1926, made 2 starts in 1926-27 and 3 in 1927-28, 24 in 1928-29 \"in a 3-2-1-4, playing as centre-back\", and 43 starts in 1930-31. Suggests Burnley (Jack Hill), Bury and Scotland (Tommy Bradshaw, 1928) used a centre-back stopper before Chapman settled on it. Undated page (copyright 2018-2026).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Formation (association football)",
+      "url": "https://en.wikipedia.org/wiki/Formation_(association_football)",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1925/39",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "WM \"created in the mid-1920s by Herbert Chapman of Arsenal to counter a change in the offside law in 1925\"; \"Chapman's formation included a centre-back to stop the opposing centre-forward\"; \"by the late 1930s most English clubs had adopted the WM\"; \"none could apply it in quite the same way Chapman had.\" In Italy it was the sistema and \"later led to the development of the catenaccio formation.\" Read characters 0-100000 of 157k.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Buchan's plan: the centre-half would \"send it, with head or feet, to the roving inside-forward\", Andy Neil, who would \"move the ball on at once for the counterattack\", producing \"a goal from three or four touches out of defence.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "The truth about Chapman's centre half revolution (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/21588",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-06-25",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-10-14",
+      "dimension": "build-up",
+      "evidence": "Attwood: the system used a deep-lying half-back who took the short pass from the central defender and quickly passed to the advanced half-back, who moved the ball out to the wing: \"the birth of Chapman's famous counter attacking style.\" Disputes Buchan's claim to the idea; says Chapman probably moved the centre-half back at half-time in the Newcastle defeat. No period quotes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1935/39",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Bernard Joy (Arsenal centre-half from 1935, later a journalist; quote undated, no book named): \"We at Arsenal achieved our end by deliberately drawing on the opponents by retreating and funneling to our own goal.\" Territory and the ball were ceded on purpose. Joy played under Allison, after Chapman's death, in the same system.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1935/39",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Joy: \"deliberately drawing on the opponents by retreating and funneling to our own goal.\" A deep, retreating block.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1935/39",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Same Joy quote: Arsenal retreated and funnelled towards their own goal rather than contesting the ball high; no sign of pressing.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Buchan's proposal rejected \"marking the opposition's number 9\" and placed the centre-half \"guarding the edge of the penalty area\"; the centre-half, not the two full-backs, ran the offside line. Attwood: Buchan was \"inventing zonal marking for this player.\" Source of the idea per Buchan: Newcastle's Charlie Spencer, who stayed deep and broke up Arsenal attacks.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Match of the Century (1953 England v Hungary football match)",
+      "url": "https://en.wikipedia.org/wiki/Match_of_the_Century_(1953_England_v_Hungary_football_match)",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "England 3-6 Hungary, Wembley, 25 November 1953 (pins the end). England in its \"usual WM formation\"; \"the defending centre-half would traditionally mark the opposition's centre forward\"; England's defenders \"were marking whoever was wearing a particular number\" \"instead of marking the player who was playing in a particular area\". Robson: \"our WM formation was kyboshed in ninety minutes of football.\" Shows man-marking as the English WM norm by 1953.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How two members of City's reserve team helped to transform the English playing system (Jon Henderson)",
+      "url": "https://www.bitebackpublishing.com/posts/how-two-members-of-city-s-reserve-team-helped-to-transform-the-english-playing-system",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-11-14",
+      "eventDate": "1953/55",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Extract from When Footballers Were Skint: the WM was \"the tried and (stubbornly) trusted way of lining up used by English clubs for years\"; defences \"were drilled to mark a No 9 who occupied a fixed point.\" Bill Leivers (retrospective) on the Revie plan: \"no one came with him to mark him.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-11",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "The 1930/31 side's \"counter-attacking tactics took the rest of the country by storm\"; opponents could not cope with \"the speed of our transitions into attack.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Celebrating the anniversary of Arsenal's first ever FA Cup win on 26 April 1930 (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/15363",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-04-26",
+      "eventDate": "1930-04-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "1930 FA Cup final v Huddersfield, second goal \"a classic in the Chapman style\": James played an accurate pass from his own half to Jack Lambert, who beat the defenders \"who had not been drawn upfield\" and scored. Draws on Bastin's autobiography (title and year not given).",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Celebrating the anniversary of Arsenal's first ever FA Cup win on 26 April 1930 (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/15363",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-04-26",
+      "eventDate": "1930-04-26",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Bastin's account: the first goal of the 1930 final was a free-kick routine arranged \"not by Chapman as it turned out but by the players\": James passed short to Bastin, who drew the defence, and James scored. No evidence of set-piece work as a Chapman priority.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Inverting The Pyramid Deconstructed: Part III - Herbert Chapman, Arsenal and The Third Back",
+      "url": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-02-21",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Chapman (quoted, undated) argued \"inside passing\" was \"more deadly, if less spectacular\" than running down the wings and crossing. Arsenal kept a tight three-man defence and broke quickly, with passes orchestrated by Alex James.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Why a 7-0 loss at Newcastle led to our golden era",
+      "url": "https://www.arsenal.com/feature/why-a-7-0-loss-at-newcastle-led-to-our-golden-era-ajy5Q5Z8Lbbg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025",
+      "eventDate": "1930/34",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Alex James supplied \"inside-forward ammunition\" for wingers Joe Hulme or Cliff Bastin.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal champions 1932/3: Chapman's ultimate secret tactic revealed (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/14015",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-19",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Bastin \"was now indispensable, not just as an amazing winger but also the club's leading scorer\" (1932/33). Hulme 40 league games, 20 goals: goalscoring wide forwards.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal champions 1932/3: Chapman's ultimate secret tactic revealed (Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/14015",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-19",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Attwood argues the 1932/33 title came from \"the effective use of the counter attacking model away from home\"; Chapman \"was willing to have a slightly worse home record in order to perfect the counter attacking style.\" Author's inference from results, no period quote.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Inverting The Pyramid Deconstructed: Part III - Herbert Chapman, Arsenal and The Third Back",
+      "url": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-02-21",
+      "eventDate": "1934",
+      "accessedOn": "2026-10-14",
+      "dimension": "stated-view",
+      "evidence": "Chapman, published posthumously after his death on 6 January 1934 (quoted from Wilson): \"It is no longer necessary for a team to play well. They must get goals, no matter how, and the points.\" Also argued Arsenal's was a \"winning system\": \"why change a winning system?\" At Northampton (pre-period) his idea was that \"a team can attack for too long.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Inverting The Pyramid Deconstructed: Part III - Herbert Chapman, Arsenal and The Third Back",
+      "url": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-02-21",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Herbie Roberts, the \"Third Back\", picked for \"height, positional intelligence and physical strength\". Context only (pre-period, 1921-25): at Huddersfield centre-half Tom Wilson dropped deeper and the Huddersfield Examiner called him \"a great spoiler.\" Alex James a Scottish number 10 in a slightly withdrawn role, credited with making the system work; Clem Stephenson an intelligent forward timing runs against the offside trap.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Formation (association football)",
+      "url": "https://en.wikipedia.org/wiki/Formation_(association_football)",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1929/37",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Notes \"the comparative rarity of players like Alex James\" in English football, who \"as a midfielder was the hub around which Chapman's Arsenal revolved\": the system needed one creative link amid defenders picked to stop.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-11",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "First signing Charlie Buchan (England forward, from Sunderland); David Jack from Bolton for £10,647 in 1928/29, a world record; Alex James and Cliff Bastin from 1929/30; Chapman \"continued to invest heavily\"; he also \"championed nursery and feeder teams.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Inverting The Pyramid Deconstructed: Part III - Herbert Chapman, Arsenal and The Third Back",
+      "url": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-02-21",
+      "eventDate": "1925/29",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Signings: Clem Stephenson (33, at Huddersfield), Charlie Buchan (34, from Sunderland), Herbie Roberts (£200 from Oswestry Town). Chapman told the Arsenal board he needed at least five years to win anything; the 1930 FA Cup came five years in.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-11",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Chapman \"a master tactician, a disciplinarian, but was also hugely supportive of them when needed\"; advice to players: 'service before self' (undated); set up a small staff group to help build and run the system.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Inverting The Pyramid Deconstructed: Part III - Herbert Chapman, Arsenal and The Third Back",
+      "url": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-02-21",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Chapman \"the first modern manager\" with \"complete control\" over signings, selection and tactics; introduced team talks (from Leeds City); Buchan was invited to give his views at a team meeting after the Newcastle defeat (also on arsenal.com).",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "It is no longer necessary for a team to play well. They must get goals, no matter how, and the points.",
+      "date": "1934",
+      "source": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "more deadly, if less spectacular",
+      "date": "1934",
+      "source": "https://gauravkrishnan.substack.com/p/inverting-the-pyramid-deconstructed-part-iii-herbert-chapman-arsenal-and-the-third-back-a32aa7b22957",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "huddersfield-town-1921-25",
+      "kind": "team",
+      "note": "Chapman's Huddersfield already dropped centre-half Tom Wilson deeper ('a great spoiler') and played on the counter, before the 1925 law change."
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "reason": "Every dimension has a verified fact, but almost all are later retrospectives (Wilson tier B, Attwood's AISA Arsenal history blog tier B, the rest tier C: arsenal.com, Wikipedia, a Wilson-summary Substack). Period voices exist (Buchan's memoir, Bastin's autobiography, Joy, the 1934 Daily Mail obituary, the 1953 press) but only as quoted by later writers, and Chapman's own words are attributed. Marking and the origin of the stopper are disputed between sources."
+  }
+}

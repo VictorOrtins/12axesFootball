@@ -1,7 +1,7 @@
 # Project Map
 
 ## Purpose
-Fork of 12 Axes (political quiz on 12 axes, matched against ideology/country/personality catalogs). Goal: adapt into a football-manager philosophy quiz (FORK_README.md).
+Fork of 12 Axes, adapted into a football quiz: 12 football axes matched against football-ideology, team and manager catalogs (political content removed in task 3; catalogs and question pool still empty).
 
 ## Requirements
 - Chosen (learner): tasks/1 spec split into Phase 1 centralise colours (merge near-duplicates; dark theme into own labelled file; PDF palette into tokens.css), then Phase 2 football re-skin. NFR-002 WCAG contrast added (AI proposal, pending learner review).

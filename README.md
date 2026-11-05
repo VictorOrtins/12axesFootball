@@ -1,77 +1,65 @@
 <div align="center">
 
-# 12 Axes
+# 12 Axes Football
 
-A political quiz that places you on twelve independent axes and compares your answers with +230 ideologies, +170 countries and regimes, and +390 political figures.
+A football quiz that places you on twelve independent axes of how the game should be played, and compares your answers with football ideas, teams and managers.
 
-**[12axes.vercel.app](https://12axes.vercel.app)** · Portuguese and English · no sign-up
+Portuguese and English · no sign-up
 
-![Java](https://img.shields.io/badge/Java-21-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-6DB33F) ![React](https://img.shields.io/badge/React-18-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6) ![CI](https://github.com/RomanCypherpunk/12axes/actions/workflows/ci.yml/badge.svg)
+![Java](https://img.shields.io/badge/Java-21-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-6DB33F) ![React](https://img.shields.io/badge/React-18-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6) ![CI](https://github.com/VictorOrtins/12axesFootball/actions/workflows/ci.yml/badge.svg)
 
 </div>
 
 ## Overview
 
-Most political tests reduce you to a single point on a left-right line, or to a two-axis grid. 12 Axes measures twelve dimensions separately, so someone who wants a free market and a strong state, or open borders and a religious society, sees that combination instead of an average that hides it.
+This is a fork of [12 Axes](https://12axes.vercel.app), a political quiz, rebuilt for football. Instead of ideologies, countries and political figures, your answers are matched against football ideas (schools of play), team eras and managers. [FORK_README.md](FORK_README.md) has the motivation and inspirations.
 
-The project is also a full-stack portfolio piece: a Spring Boot REST API with its own matching algorithm, a React and TypeScript frontend, a versioned JSON data layer, automated tests, CI, and cloud deploys.
+**Status: work in progress, not released yet.** The political content is gone and the whole app runs on the football axes.
+
+- **Questions:** 60 statements (5 per axis) and 5 multiple-choice archetype questions.
+- **Catalogs:** 25 football ideas, 79 team eras and 65 managers. Each one has a research file, an audit and a 12-axis vector (see [Adding profiles](#adding-football-ideas-teams-or-managers)).
+- **Interface:** dark by default, with a sports-portal look, a catalog page for every profile and a page explaining the 12 axes.
+
+Before release:
+
+- Image credits need review. Several crests are fair use or from the wrong era, and CC BY photos need their attribution shown.
+- The texts of the newest teams and managers, written from the research, still need a human review.
+- `ScorerBenchmarkTest` is still disabled until it is recalibrated on the football catalogs.
+
+The task notes in [tasks/](tasks/) track this work in detail.
 
 ## About the project
 
 ### What it is
 
-An anonymous quiz. You rate statements on a five-point agreement scale and get a percentage on each axis, your closest ideologies, the country or historical regime nearest to you, and the political figures who think most like you.
-
-### Who it is for
-
-People curious about politics who want more than a left-right label, students comparing doctrines and regimes, and anyone who wants to see where they disagree with their own side.
-
-### What sets it apart
-
-- Twelve axes scored independently, so the result keeps tensions and unusual combinations.
-- Three catalogs (ideologies, countries, personalities), each matched on its own. Countries include +68 historical regimes, from the Paris Commune to Atatürk's Turkey.
-- Every profile in the catalogs answered the same 240 questions a user can answer, instead of being placed by hand.
-- An optional religion filter, so a user can hide profiles tied to a faith that is not theirs.
-- A shareable result card, a PDF report, and a link that rebuilds the result from the URL.
+An anonymous quiz. You rate statements on a five-point agreement scale and get a percentage on each axis, the football idea closest to you, the team era that played the way you like, and the managers who think about the game like you.
 
 ### The 12 axes
 
-The model is inspired by the original [12 Axes test](https://politicaltests.github.io/12axes/). Each axis runs between two poles:
+Each axis runs between two poles. They are grouped into three dimensions, which are also used to find the closest team and manager per dimension.
 
-| Axis | Pole A | Pole B |
-|------|--------|--------|
-| Structure | Federal | Unitary |
-| Representation | Democracy | Autocracy |
-| Power | Security | Liberty |
-| Immigration | Assimilation | Multiculturalism |
-| Diplomacy | Militarist | Pacifist |
-| Intervention | Non-interventionist | Nationalist |
-| Economy | Public | Private |
-| Control | Planning | Free market |
-| Trade | Protectionism | Globalism |
-| Religion | Irreligious | Religious |
-| Morality | Progressive | Traditionalist |
-| Technology | Technology | Biology |
+| Dimension | Key | Axis | Left pole (0) | Right pole (100) |
+|-----------|-----|------|---------------|------------------|
+| Tactics | `pos` | Possession | Ball | Counter |
+| Tactics | `pro` | Progression | Patient build-up | Direct play |
+| Tactics | `est` | Structure | Positional | Relational |
+| Tactics | `lar` | Width | Through the middle | Down the wings |
+| Tactics | `blo` | Block | Press high | Sit deep |
+| Tactics | `mar` | Marking | Zone | Man |
+| Philosophy | `pla` | Game plan | Own identity | Adapt to the opponent |
+| Philosophy | `res` | Purpose | Spectacle | Result |
+| Philosophy | `sis` | Who decides | System | Talent |
+| Philosophy | `jog` | Player type | Technique | Physicality |
+| Management | `bas` | Squad | Youth | Experience |
+| Management | `lid` | Leadership | Authority | Harmony |
 
-### Political spectra
-
-The axes describe the user. Ideologies are grouped into eight broader families, in the spirit of the [Political Compass](https://www.politicalcompass.org/), which place a result on the familiar map: Left, Radical Left, Center, Right, Far-Right, Libertarian, Anarchist, and Third Position. The family is a label for reading the result. It does not count in the score.
+The football compass on the results page uses Possession as the x axis, Block as the y axis and Purpose as the strip below. The reasoning behind the axes is in [docs/06-football-axes.md](docs/06-football-axes.md).
 
 ### How your result is calculated
 
 1. Each answer moves an axis toward one of its poles. Strong agreement counts fully, "neutral" leaves the axis at the center, and disagreement pushes the other way.
 2. The average of your answers on each axis becomes a percentage between the two poles, labeled balanced, leaning, strong, or very strong depending on how far it is from the center.
-3. Your twelve percentages form a profile, which is compared with every ideology, country, and personality in the catalogs. The closest ones are shown with a compatibility score.
-
-### Questions and scoring
-
-| Format | Questions | Per axis |
-|--------|----------:|---------:|
-| Short | 36 | 3 |
-| Complete | 60 | 5 |
-| Extreme | 240 | 20 |
-
-The pool has 240 statements, 20 per axis, half phrased toward each pole so agreeing with everything does not skew the result. The short and complete formats draw a balanced subset. Five multiple-choice "archetype" questions at the end add broader signals across several axes. A last, optional question about your religion sets the filter and does not affect the score.
+3. Your twelve percentages form a profile, which is compared with every football idea, team and manager in the catalogs. The closest ones are shown with a compatibility score.
 
 | Answer | Value |
 |--------|------:|
@@ -81,28 +69,25 @@ The pool has 240 statements, 20 per axis, half phrased toward each pole so agree
 | Disagree | 0.25 |
 | Strongly disagree | 0.00 |
 
+The quiz has two lengths, drawn from a pool balanced across the axes: short (3 statements per axis, 36 in all) and extended (5 per axis, 60 in all). After the statements come optional multiple-choice "archetype" questions that score several axes at once. A statement can also count for a second axis at a lower weight (`secondary` in the pool).
+
 ### Methodological note
 
-12 Axes is a tool for exploring ideas. It is not a scientific instrument. A high compatibility means your answers are close to a profile, not that you belong to a movement, should vote for someone, or share anyone's values in full. Profiles are simplified models, and the questions inevitably carry the framing of whoever wrote them.
+This is a tool for exploring ideas about football, not a scientific instrument. A high compatibility means your answers are close to a profile, not that a manager would pick you or that you share every view of a team. Profiles are simplified models built from sourced research.
 
 ## Features
 
-- Three quiz lengths with auto-advance and a back button.
 - Results by axis, with intensity and the rarest and most common positions in your profile.
-- Top ideologies, the closest current and historical countries, and matching personalities by category, plus the least compatible ideology.
+- Closest football idea and its phrase, plus other close ideas and the most distant one.
+- Closest team era, and the closest team per dimension (tactics, philosophy, management).
+- Closest manager as an Ultimate Team-style card, managers per dimension and by category.
+- A football compass (possession × block, with purpose as a strip).
 - An "axis tension" readout for pairs of positions that rarely appear together.
-- Book recommendations tied to your profile.
-- Religion filter for Christianity, Judaism, Islam, and Buddhism.
+- Comparison with any manager, team or football idea, axis by axis. Every manager, team and football idea named on the results page opens its details.
 - Share card (PNG), PDF report, and shareable result link.
-- Static, indexable pages for every ideology, country, and personality.
-
-## Demo
-
-<div align="center">
-<img src=".github/assets/result-card.png" alt="12 Axes result card" width="360">
-</div>
-
-The share card sums up a result: the main ideology and its family, the most compatible personality, the dominant pole on each of the twelve axes, and the closest personalities and countries.
+- A quiz left halfway can be resumed, and the last result stays in the browser, ready to reopen from the home page.
+- A catalog page for every football idea, team and manager, and a page explaining the 12 axes with the managers at each pole.
+- Portuguese and English, dark and light themes.
 
 ## Architecture
 
@@ -125,33 +110,34 @@ All data lives in `backend/src/main/resources/data/`, with English translations 
 
 | File | Contents |
 |------|----------|
-| `axes.json` | The 12 axes, their poles and labels |
-| `questions-pool.json` | 240 questions, with axis, polarity, and weight |
-| `archetype-questions.json` | The five multiple-choice questions |
-| `ideologies.json` / `ideology-profiles.json` | Ideologies and their 12-axis vectors |
-| `countries.json` / `countries-profiles.json` | Countries, regions, and historical regimes |
-| `personalities.json` / `personality-profiles.json` | Political figures and intellectuals |
-| `books.json` | Book recommendations |
+| `axes.json` | The 12 football axes, their poles and labels |
+| `questions-pool.json` | The question pool, with axis, polarity, weight and an optional second axis |
+| `question-help.json` / `glossary.json` | What agreeing and disagreeing mean for each statement, and the football terms underlined in them |
+| `archetype-questions.json` | The 5 multiple-choice archetype questions |
+| `football-ideologies.json` / `football-ideology-profiles.json` | The 25 football ideas and their 12-axis vectors |
+| `teams.json` / `team-profiles.json` | The 79 team eras (a club or national team over a set period) |
+| `managers.json` / `manager-profiles.json` | The 65 managers, profiled by the body of work they're known for |
 
-On startup the backend refuses to run if any catalog entry lacks a vector or a vector does not have exactly the 12 known axes.
+On startup the backend refuses to run if any catalog entry lacks a vector or a vector does not have exactly the 12 known axes. Empty catalogs are allowed: their results come back as `null` or empty lists. The backend tests run on a synthetic fixture in `backend/src/test/resources/data`.
 
 ### Repository structure
 
 ```txt
-12Axes/
+12axesFootball/
 ├── backend/                 Spring Boot API
 │   └── src/main/java/com/twelveaxes/
 │       ├── config/          CORS, cache headers, origin enforcement
 │       ├── controller/      REST endpoints
 │       ├── model/           records and DTOs
-│       └── service/         data loading, scoring, matchers, religion filter
+│       └── service/         data loading, scoring, matchers
 ├── frontend/                React + Vite app
 │   ├── src/components/      home, quiz, results, report
 │   ├── src/i18n/            PT/EN strings
-│   └── scripts/             static page generator, image optimizer
-├── profile-audit/           pipeline that builds the catalog vectors
+│   └── scripts/             static page generator, design tokens
+├── profile-audit/           research guide and validator for football profiles
+├── docs/                    design notes for the football version
 ├── scripts/                 repository checks (i18n)
-└── .claude/skills/          Claude Code skills for adding profiles
+└── .claude/skills/          Claude Code skills for researching profiles
 ```
 
 ### How matching works
@@ -165,21 +151,24 @@ A result is a vector of twelve values from 0 to 100. The `ProfileMatchScorer` co
 | Magnitude | 0.18 | Whether your overall intensity matches the profile's, so a moderate user does not match an extreme profile just because the direction agrees |
 | Outlier | 0.07 | A penalty for a single axis that is far off |
 
-Each catalog is ranked separately. A match also reports a percentile inside its own catalog, because ideologies tend to be more extreme than real countries and the raw scores are not comparable across catalogs. `ScorerBenchmarkTest` guards the calibration: it checks that noisy answers generated from a profile still find that profile.
+Each catalog is ranked separately. `ScorerBenchmarkTest` guarded the calibration on the political catalogs; it is disabled until it is recalibrated on the football ones. [backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md](backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md) explains the matching in detail.
 
 ### API
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/health` | Health check |
-| `GET` | `/api/quiz?variant=short\|extended\|extreme` | Quiz metadata and the question pool |
+| `GET` | `/api/quiz?variant=short\|extended` | Quiz metadata and the question pool |
 | `POST` | `/api/results` | Scores answers and returns axes and matches |
 | `GET` | `/api/results/by-axes?v=...` | Rebuilds a result from 12 values, for shared links |
-| `GET` | `/api/ideologies[/{id}]` | Ideology catalog |
-| `GET` | `/api/countries[/{id}]` | Country catalog |
-| `GET` | `/api/personalities[/{id}]` | Personality catalog |
+| `GET` | `/api/football-ideologies[/{id}]` | Football idea catalog |
+| `GET` | `/api/teams[/{id}]` | Team catalog |
+| `GET` | `/api/managers[/{id}]` | Manager catalog |
+| `GET` | `/api/compare/catalog` | Every profile that can be compared |
+| `GET` | `/api/compare?type=manager\|team\|football-ideology&id=...&v=...` | Compares a profile with 12 values |
+| `GET` | `/api/axes/exemplars` | The managers who lean furthest toward each pole, for the 12-axes page |
 
-Endpoints accept `lang=pt|en`, and the result endpoints accept `religion` for the filter. `/api/**` answers only requests whose `Origin` or `Referer` is in `FRONTEND_ORIGINS`, and returns `403` otherwise. `/api/health` stays open for the Render health check.
+Endpoints accept `lang=pt|en`. `/api/**` answers only requests whose `Origin` or `Referer` is in `FRONTEND_ORIGINS` and that carry the `User-Agent` and `Sec-Fetch-Site` headers every browser sends. Anything else gets `403`, so a plain `curl` is refused. Set `API_ORIGIN_ENFORCEMENT=false` to test the API from the command line. `/api/health` stays open for the Render health check.
 
 <details>
 <summary>Example request</summary>
@@ -189,8 +178,8 @@ POST /api/results?lang=en
 {
   "variant": "short",
   "answers": [
-    { "questionId": "estrutura_01", "answer": "STRONGLY_AGREE" },
-    { "questionId": "poder_03", "answer": "DISAGREE" }
+    { "questionId": "pos_01", "answer": "STRONGLY_AGREE" },
+    { "questionId": "blo_03", "answer": "DISAGREE" }
   ]
 }
 ```
@@ -201,7 +190,7 @@ POST /api/results?lang=en
 
 ### Running locally
 
-You need Java 21 and Node.js 20+. Maven is not required: the repository ships the Maven Wrapper.
+You need a Java 21 JDK and Node.js 20+. Maven is not required: the repository ships the Maven Wrapper.
 
 ```bash
 # Backend: http://localhost:8080
@@ -217,8 +206,6 @@ npm run dev
 
 Run only the backend line for your system.
 
-To point the local frontend at the production API instead, create `frontend/.env.local` with `VITE_API_URL=https://one2axes-backend.onrender.com`.
-
 | Variable | Side | Default | Purpose |
 |----------|------|---------|---------|
 | `PORT` | Backend | `8080` | HTTP port |
@@ -229,12 +216,14 @@ To point the local frontend at the production API instead, create `frontend/.env
 ### Tests
 
 ```bash
-cd backend && sh mvnw test      # 160+ tests (Windows: .\mvnw.cmd test)
-cd frontend && npm test         # Vitest
-cd frontend && npm run build    # type check, build, static pages
+cd backend && sh mvnw clean test                  # Windows: .\mvnw.cmd clean test
+cd frontend && npm test                           # Vitest
+cd frontend && npm run build                      # type check, build, static pages
+python3 scripts/check_i18n.py                     # every catalog entry has its English version
+python3 -m unittest discover -s profile-audit/tests
 ```
 
-The backend suite covers the question pool, the three formats, every catalog vector, links between catalogs, the religion filter, the REST endpoints, and matching regressions. The frontend suite covers question selection and translation. `RandomQuizSimulationTest` simulates users of a given leaning, for example `mvn -Dtest=RandomQuizSimulationTest "-Dquiz.mode=traditional" test`.
+The backend suite covers the question pool, the three formats, catalog vectors, links between catalogs, the REST endpoints and matching, all on the synthetic test fixture. The frontend suite covers question selection, saved progress and the saved last result, compatibility levels, the axis-by-axis comparison, the compass, the glossary, translations, the theme and the design tokens.
 
 ### Deploy
 
@@ -249,29 +238,22 @@ Every push and pull request runs the CI workflow in `.github/workflows/ci.yml`.
 
 Bug reports, corrections to profiles, and translation fixes are welcome as issues or pull requests. Keep each pull request to one change, run the backend and frontend tests, and describe how you tested it. [CONTRIBUTING.md](CONTRIBUTING.md) has the full checklist.
 
-### Adding ideologies, countries, or personalities
+### Adding football ideas, teams or managers
 
-Catalog entries are not written by hand. Each new profile answers all 240 questions, one by one, in character, and its vector is computed from those answers with the same formula a user gets. The process is in [`profile-audit/NEW_PROFILE.md`](profile-audit/NEW_PROFILE.md), and the repository ships [Claude Code](https://claude.com/claude-code) skills that run it end to end:
+Catalog entries are not placed on the axes by hand. Each new profile starts with a research file: the exact period, sourced evidence for each tactical dimension, gaps and a confidence level. The procedure is in [`profile-audit/FOOTBALL_RESEARCH.md`](profile-audit/FOOTBALL_RESEARCH.md), and the repository ships [Claude Code](https://claude.com/claude-code) skills that run it:
 
 | Skill | Purpose |
 |-------|---------|
-| `/new_ideology <name>` | Create an ideology |
-| `/new_country <name>` | Create a country or historical regime |
-| `/new_personality <name>` | Create a personality |
-| `/audit_ideology`, `/audit_country`, `/audit_personality` | Re-audit an existing profile |
+| `/new-football-ideology <name>` | Research a football idea |
+| `/new-team <name>` | Research a team era |
+| `/new-manager <name>` | Research a manager |
 
-A new profile has to meet these requirements before it is merged:
-
-- Metadata in Portuguese and English, with the English version free of Brazil-specific references.
-- A full 240-answer audit, archived in `profile-audit/answers/`.
-- `python profile-audit/validate.py <catalog> <id>` passes. It blocks vectors that are near duplicates of an existing profile, too many neutral answers, and a religious vector with no religion tag.
-- Portraits and historical flags come from Wikimedia Commons, with their source recorded, and are compressed with `npm run optimize:images`.
-- `mvn test` passes.
+Research files are saved in `profile-audit/research/<catalog>/<id>.json` and checked with `python3 profile-audit/validate.py research <catalog> <id>`. Turning research into a vector means answering the question pool in character.
 
 ### License
 
-12 Axes is source-available but not open source. The code, questions, profiles, and vectors are © 2026 Enzo Xavier Santos, all rights reserved. You may read the code and send contributions, but copying, redistributing, translating, or using any part commercially needs written permission. See [LICENSE](LICENSE) for the full terms.
+This fork inherits the license of 12 Axes, which is source-available but not open source. The code, questions, profiles, and vectors of the original project are © 2026 Enzo Xavier Santos, all rights reserved. You may read the code and send contributions, but copying, redistributing, translating, or using any part commercially needs written permission. See [LICENSE](LICENSE) for the full terms.
 
-## Author
+## Authors
 
-**Enzo Xavier Santos** built 12 Axes as a portfolio project and a practical study of full-stack architecture with Java, React, and TypeScript.
+**Enzo Xavier Santos** built the original 12 Axes as a portfolio project and a practical study of full-stack architecture with Java, React, and TypeScript. **Victor Ortins** is adapting it into the football version.

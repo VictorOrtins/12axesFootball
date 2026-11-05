@@ -1,0 +1,454 @@
+{
+  "id": "zona-mista",
+  "catalog": "football-ideology",
+  "name": "Zona mista / gioco all'italiana",
+  "researchedOn": "2026-11-03",
+  "profilePeriod": {
+    "start": "1976-07-01",
+    "end": "1986-06-30"
+  },
+  "scopeNote": "Zona mista (mixed zone), also 'modulo misto' and in English 'gioco all'italiana': man-marking on the opposing playmaker or striker plus zonal cover, a sweeper, four defenders, results-first and quick transitions. Period anchored on Trapattoni's first Juventus spell (1976-07-01 to 1986-06-30; 1 July/30 June taken from a search summary, not a read page). Spielverlagerung dates the tactic from the second half of the 1970s to the mid-1990s and credits Radice (Torino) and Trapattoni; Wikipedia says it 'combined the strength of zonal marking with that of catenaccio'. Labelling caveat: Trapattoni is often tagged 'catenacciaro'; Il Giornale calls that a propaganda label, and 90min says late-1970s Juve still showed 'remnants of catenaccio'. Distinct from catenaccio (rigid sweeper plus man-marking, double-marking), from Sacchi's pure zonal pressing (which zona mista predates and which is high-line) and from resultadismo (a stance, not a marking scheme). Evidence is mostly tier B-C retrospectives; no read page covers pressing intensity, set pieces or exact line height.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Proposed ids not yet in the catalog: manager 'giovanni-trapattoni' (Juventus 1976-86, 1991-94) and team 'juventus-1976-86'. Existing ids found: only 'juventus-2014-19' (team), 'arrigo-sacchi', 'carlo-ancelotti' (manager). Confirm before creating.",
+    "Radice (Torino, scudetto 1975/76) is credited as co-originator by Spielverlagerung and Wikipedia; Wikipedia's Torino-first claim was not independently checked. Proposed exemplar 'luigi-radice' (manager) if wanted.",
+    "Trapattoni's own writing (Coaching High Performance Soccer, 2000) is cited in Wikipedia's reference list but was not read; the only Trapattoni defence quote ('difesa mista') is undated on Wikiquote.",
+    "Wikipedia's treble/Intercontinental claim ('first club ... European Treble', 1985) was not used as evidence; spells dates 1976-07-01/1986-06-30 come from a search summary and should be checked against a second source.",
+    "Italy 1982 (Bearzot) as a national-team exemplar: Wikipedia and TFT say Bearzot also used zona mista; could be added as a team exemplar if the catalog has it.",
+    "Distinctness: zona mista overlaps catenaccio (man-marking + libero); the difference sources give is zonal swapping of positions, attacking libero/full-backs and transition speed. Pressing is not evidenced as a feature."
+  ],
+  "sources": [
+    {
+      "title": "Zona Mista (Spielverlagerung glossary)",
+      "url": "https://spielverlagerung.com/glossary/philosophies/zona-mista/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-11-03",
+      "eventDate": "1976/77",
+      "accessedOn": "2026-11-03",
+      "dimension": "defensive-block",
+      "evidence": "Zona Mista, often referred to as Gioco all’italiana, is a tactic used in Italian football mainly since the second half of 1970s to mid-1990s. The introduction of this system has been attributed to Luigi Radice and Giovanni Trapattoni. Zona Mista as a tactical theory evolved the Catenaccio system.",
+      "verified": true
+    },
+    {
+      "title": "Zona Mista (Spielverlagerung glossary)",
+      "url": "https://spielverlagerung.com/glossary/philosophies/zona-mista/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-11-03",
+      "eventDate": "1976/77",
+      "accessedOn": "2026-11-03",
+      "dimension": "shape",
+      "evidence": "A player, who leaves the zone that was initially covered, is replaced by a team-mate, thus retaining the team’s intended organisational structure.",
+      "verified": true
+    },
+    {
+      "title": "Claudio Gentile: in defence of the dark arts master",
+      "url": "https://thesefootballtimes.co/2017/08/11/claudio-gentile-in-defence-of-the-dark-arts-master/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-11",
+      "eventDate": "1976/77",
+      "accessedOn": "2026-11-03",
+      "dimension": "defensive-block",
+      "evidence": "Trapattoni would revolutionise Juventus with astute tactical acumen as well as adapting the catenaccio style, using the zona mista – a combination of man-marking and zonal marking – to great effect.",
+      "verified": true
+    },
+    {
+      "title": "Claudio Gentile: in defence of the dark arts master",
+      "url": "https://thesefootballtimes.co/2017/08/11/claudio-gentile-in-defence-of-the-dark-arts-master/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-11",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "defensive-block",
+      "evidence": "Gentile’s ‘creative’ defensive talents would be called upon when opposition teams possessed a fantasista",
+      "verified": true
+    },
+    {
+      "title": "Claudio Gentile: in defence of the dark arts master",
+      "url": "https://thesefootballtimes.co/2017/08/11/claudio-gentile-in-defence-of-the-dark-arts-master/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-11",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "game-management",
+      "evidence": "Gentile’s incredible powers of concentration, as well as his physicality and ability to intimidate opponents, meant that when he was required to ‘do a job’, Scirea and Cabrini just adapted the way they played.",
+      "verified": true
+    },
+    {
+      "title": "Claudio Gentile: in defence of the dark arts master",
+      "url": "https://thesefootballtimes.co/2017/08/11/claudio-gentile-in-defence-of-the-dark-arts-master/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-11",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "player-profile",
+      "evidence": "Gentile thrived under Trapattoni’s tactical innovations, especially when it came to man-marking his opponent.",
+      "verified": true
+    },
+    {
+      "title": "Claudio Gentile: in defence of the dark arts master",
+      "url": "https://thesefootballtimes.co/2017/08/11/claudio-gentile-in-defence-of-the-dark-arts-master/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-11",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "squad-building",
+      "evidence": "Zoff, Gentile, Scirea and Cabrini would form the bedrock of Juve’s defence for the next seven years.",
+      "verified": true
+    },
+    {
+      "title": "Claudio Gentile: in defence of the dark arts master",
+      "url": "https://thesefootballtimes.co/2017/08/11/claudio-gentile-in-defence-of-the-dark-arts-master/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-08-11",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "stated-view",
+      "evidence": "“My character was not to intimidate, it was to show I was the boss on the field. You have to be gritty and determined. At certain times you have to know ‘how’ to foul,” once said the Italian.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "shape",
+      "evidence": "In this system, a player who moves out of his position is replaced by another from his team, thus retaining the team's intended organisational structure, and each player performs a different function.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "transitions",
+      "evidence": "the effectiveness and speed of the transition between the defensive and offensive phases, in order to put the opponent's rearguard in difficulty, plays a more important role in the match score than maintaining greater ball possession.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "possession",
+      "evidence": "the effectiveness and speed of the transition between the defensive and offensive phases, in order to put the opponent's rearguard in difficulty, plays a more important role in the match score than maintaining greater ball possession.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "defensive-block",
+      "evidence": "However, the catenaccio philosophy called for double-marking when dealing with strong players. Zona mista combined the strength of zonal marking with that of catenaccio.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "width",
+      "evidence": "A fullback plays in both defensive and advanced position, typically on the left flank.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "build-up",
+      "evidence": "At this stage, the sweeper can sometimes also become a playmaker, and lend a hand in the building phase.",
+      "verified": true
+    },
+    {
+      "title": "Zona mista (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Zona_mista",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-11-15",
+      "eventDate": "1977",
+      "accessedOn": "2026-11-03",
+      "dimension": "squad-building",
+      "evidence": "starting in 1977 when the club won the UEFA Cup without using any foreign players, an unprecedented achievement for any country's team.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottantacinque anni di Giovanni Trapattoni (Il Foglio)",
+      "url": "https://www.ilfoglio.it/sport/2024/03/17/news/gli-ottantacinque-anni-di-giovanni-trapattoni--94014",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2024-03-17",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "defensive-block",
+      "evidence": "La marcatura a uomo come religione ma - per dire - è stato uno dei primi ad adottare la zona mista in Serie A.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottantacinque anni di Giovanni Trapattoni (Il Foglio)",
+      "url": "https://www.ilfoglio.it/sport/2024/03/17/news/gli-ottantacinque-anni-di-giovanni-trapattoni--94014",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2024-03-17",
+      "eventDate": "1983/84",
+      "accessedOn": "2026-11-03",
+      "dimension": "shape",
+      "evidence": "quella Juve all’alba degli anni 80 arruolava Bettega, Paolino Rossi, Platini e Boniek, tutti insieme, più Tardelli mezzala d’attacco, Scirea libero di spingersi avanti, Cabrini ala aggiunta.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottantacinque anni di Giovanni Trapattoni (Il Foglio)",
+      "url": "https://www.ilfoglio.it/sport/2024/03/17/news/gli-ottantacinque-anni-di-giovanni-trapattoni--94014",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2024-03-17",
+      "eventDate": "1983/84",
+      "accessedOn": "2026-11-03",
+      "dimension": "width",
+      "evidence": "Cabrini ala aggiunta.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottantacinque anni di Giovanni Trapattoni (Il Foglio)",
+      "url": "https://www.ilfoglio.it/sport/2024/03/17/news/gli-ottantacinque-anni-di-giovanni-trapattoni--94014",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2024-03-17",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "game-management",
+      "evidence": "Quarant’anni secchi da maestro del calcio all’italiana, marchio di fabbrica e orgoglio di un tempo felice",
+      "verified": true
+    },
+    {
+      "title": "Gli ottantacinque anni di Giovanni Trapattoni (Il Foglio)",
+      "url": "https://www.ilfoglio.it/sport/2024/03/17/news/gli-ottantacinque-anni-di-giovanni-trapattoni--94014",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2024-03-17",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "stated-view",
+      "evidence": "Il pragmatismo come filosofia di vita.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottantacinque anni di Giovanni Trapattoni (Il Foglio)",
+      "url": "https://www.ilfoglio.it/sport/2024/03/17/news/gli-ottantacinque-anni-di-giovanni-trapattoni--94014",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2024-03-17",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "people-management",
+      "evidence": "“I giocatori - amava dire - sono liberi di fare quello che dico io”",
+      "verified": true
+    },
+    {
+      "title": "Giovanni Trapattoni: A Career of 2 Halves (90min/SI)",
+      "url": "https://www.si.com/soccer/2019/08/12/giovanni-trapattoni-career-2-halves-defined-golden-era-calcio-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-12",
+      "eventDate": "1978/79",
+      "accessedOn": "2026-11-03",
+      "dimension": "defensive-block",
+      "evidence": "Trapattoni had focused more on space and the exploitation of said space, but the remnants of catenaccio were still prevalent in each and every game Juventus played in the late 70s.",
+      "verified": true
+    },
+    {
+      "title": "Giovanni Trapattoni: A Career of 2 Halves (90min/SI)",
+      "url": "https://www.si.com/soccer/2019/08/12/giovanni-trapattoni-career-2-halves-defined-golden-era-calcio-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-12",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "game-management",
+      "evidence": "It wasn’t until the signing of Republic of Ireland hero Liam Brady - later a part of his Irish coaching set-up - from Arsenal in 1980, that Il Trap began to assert himself more in a tactical sense.",
+      "verified": true
+    },
+    {
+      "title": "Giovanni Trapattoni: A Career of 2 Halves (90min/SI)",
+      "url": "https://www.si.com/soccer/2019/08/12/giovanni-trapattoni-career-2-halves-defined-golden-era-calcio-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-08-12",
+      "eventDate": "1983/84",
+      "accessedOn": "2026-11-03",
+      "dimension": "people-management",
+      "evidence": "\"Trapattoni told me that I was free to do what I wanted.\"",
+      "verified": true
+    },
+    {
+      "title": "The glory years of a star-studded Juventus in the 1980s",
+      "url": "https://thesefootballtimes.co/2016/11/03/the-glory-years-of-a-star-studded-juventus-in-the-1980s/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-11-03",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-03",
+      "dimension": "squad-building",
+      "evidence": "Trapattoni’s revolution in Turin began in 1980 with the signing of Irishman Liam Brady from Arsenal",
+      "verified": true
+    },
+    {
+      "title": "The glory years of a star-studded Juventus in the 1980s",
+      "url": "https://thesefootballtimes.co/2016/11/03/the-glory-years-of-a-star-studded-juventus-in-the-1980s/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-11-03",
+      "eventDate": "1981/82",
+      "accessedOn": "2026-11-03",
+      "dimension": "squad-building",
+      "evidence": "Italian league laws at the time indicated that clubs could only have two foreign players in their side, and Platini was preferred over the Irishman.",
+      "verified": true
+    },
+    {
+      "title": "The glory years of a star-studded Juventus in the 1980s",
+      "url": "https://thesefootballtimes.co/2016/11/03/the-glory-years-of-a-star-studded-juventus-in-the-1980s/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-11-03",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "player-profile",
+      "evidence": "Juventus were already possessing a host of talented players but were lacking the one man that would provide them with that additional spark – a trequartista. Brady gave them that.",
+      "verified": true
+    },
+    {
+      "title": "The glory years of a star-studded Juventus in the 1980s",
+      "url": "https://thesefootballtimes.co/2016/11/03/the-glory-years-of-a-star-studded-juventus-in-the-1980s/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-11-03",
+      "eventDate": "1982/83",
+      "accessedOn": "2026-11-03",
+      "dimension": "player-profile",
+      "evidence": "Blessed with attacking prowess and an equally gifted defensive consciousness, Scirea was a vital figure for La Vecchia Signora.",
+      "verified": true
+    },
+    {
+      "title": "Triumphs with il Trap (juventus.com)",
+      "url": "https://www.juventus.com/en/news/articles/triumphs-with-il-trap",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-11-01",
+      "eventDate": "1981/82",
+      "accessedOn": "2026-11-03",
+      "dimension": "squad-building",
+      "evidence": "Juve’s policy was that of investing in young Italian players and the strategy paid off for both club and country.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottanta fischi del Trap (Il Giornale)",
+      "url": "https://www.ilgiornale.it/news/sport/trapattoni-80-anni-leggende-mediano-che-ferm-pel-grande-1664001.html",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2019-03-17",
+      "eventDate": "1985",
+      "accessedOn": "2026-11-03",
+      "dimension": "shape",
+      "evidence": "una delle sue Juventus, quella del maligno Heysel, schierava, nei cinque ultimi d'attacco, Briaschi-Tardelli-Rossi-Platini-Boniek, non proprio la linea Maginot.",
+      "verified": true
+    },
+    {
+      "title": "Gli ottanta fischi del Trap (Il Giornale)",
+      "url": "https://www.ilgiornale.it/news/sport/trapattoni-80-anni-leggende-mediano-che-ferm-pel-grande-1664001.html",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2019-03-17",
+      "eventDate": "1980/81",
+      "accessedOn": "2026-11-03",
+      "dimension": "people-management",
+      "evidence": "invitò Giovannino Alberto, figlio di Umberto, che si allenava con Platini, Boniek e gli altri a Villar Perosa, a tornarsene dal padre padrone",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Io preferisco la difesa mista ma se gli altri fanno da un secolo la zona pura avranno i loro motivi.",
+      "date": "2025-07-30",
+      "source": "Giovanni Trapattoni (undated; date is the Wikiquote page date), via it.wikiquote.org/wiki/Difesa_a_zona (no original source cited)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "You can only make wine with the grapes you have available",
+      "date": "2014-10-29",
+      "source": "Trapattoni to Tuttosport, via https://football-italia.net/trap-you-cant-always-be-beautiful/ (later than counted spell, stance only)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Sterile possession for 40-50 minutes doesn’t excite me.",
+      "date": "2014-10-29",
+      "source": "Trapattoni to Tuttosport, via https://football-italia.net/trap-you-cant-always-be-beautiful/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I maghi non esistono, quelli li bruciavano nelle piazze del 300",
+      "date": "2024-03-17",
+      "source": "Il Foglio 2024-03-17, 'Trap dixit'",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://sport.sky.it/calcio/2019/03/17/trapattoni-alfabeto",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "catenaccio",
+    "Nereo Rocco (Trapattoni's mentor, per Il Foglio and Il Giornale)",
+    "Total Football (zonal swapping, per Wikipedia)"
+  ],
+  "exemplars": [
+    {
+      "id": "giovanni-trapattoni",
+      "kind": "manager",
+      "reason": "Juventus 1976-86: six scudetti, UEFA Cup 1977, Cup Winners' Cup 1984, European Cup 1985; 'uno dei primi ad adottare la zona mista in Serie A'; Gentile man-marked the playmaker while Scirea roamed (proposed id)"
+    },
+    {
+      "id": "juventus-1976-86",
+      "kind": "team",
+      "reason": "Zoff, Gentile, Scirea, Cabrini defence with Tardelli, Platini, Boniek and Rossi; man-marking plus zonal cover and a libero who pushes up (proposed id)"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Name, mix of marking, roles and results are consistent across tier B-C sources, but all are retrospective with no coach-written or data study; pressing, set pieces and a dated primary Trapattoni quote are missing."
+  }
+}

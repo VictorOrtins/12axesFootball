@@ -1,0 +1,316 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Juventus 2014–19" (catalog: team), answering as the team Juventus 2014–19, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/juventus-2014-19.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:juventus-2014-19".
+
+=== RESEARCH FILE (team/juventus-2014-19.json) ===
+{
+  "id": "juventus-2014-19",
+  "catalog": "team",
+  "name": "Juventus 2014–19",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "2014-07-16",
+    "end": "2019-05-26"
+  },
+  "scopeNote": "Juventus under Allegri, first spell (appointed 2014-07-16; tenure end 2019-05-26 per Wikipedia; departure announced 2019-05-17). Style: pragmatic, adaptable 3-5-2 inherited from Conte, with 4-3-1-2/4-4-2/4-3-3 in 2014/15 and 4-2-3-1 from 2016/17, per Wikipedia; Allegri's 'corto muso' (result over spectacle) is the stated label. Verified: shape, game-management, squad-building, stated-view, plus a 5-3-2 defensive shape and short-passing build-up from a pre-match 2017 final preview (Khel Now) and Allegri's bench-rotation words (2016). Pressing, width, marking, possession, transitions remain gaps (Sportskeeda and Soccertutor unreadable). Dates of last match not verified.",
+  "managers": [
+    {
+      "managerId": "massimiliano-allegri",
+      "start": "2014-07-16",
+      "end": "2019-05-26"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The anchor is the club's signing policy as much as Allegri's choices: is Juventus 2014–19 an Experience anchor for who gets minutes, or for who gets bought?",
+    "The 'corto muso' quote is dated to the Spal-Juventus press conference (2019-04-13) only by a 2025 secondary page; the 2019 primary was not found."
+  ],
+  "sources": [
+    {
+      "title": "Alteration in transfer policy heralds the start of a new era for Juventus (James Cormack)",
+      "url": "https://www.90min.com/posts/alteration-in-transfer-policy-heralds-the-start-of-a-new-era-for-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-10-08",
+      "eventDate": "2019-04",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "In Allegri's final season \"they were beaten by a vibrant Ajax side boasting an average age of 21.5\"; \"The Juve squad, on average, was eight years older than Erik ten Hag's team.\"",
+      "verified": true
+    },
+    {
+      "title": "Same article, figure outside the period",
+      "url": "https://www.90min.com/posts/alteration-in-transfer-policy-heralds-the-start-of-a-new-era-for-juventus",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-10-08",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"In Serie A last season, Juve's squad boasted the highest average age (29.7)\": 'last season' is 2019/20 (Sarri), not Allegri. Policy \"based around buying the finished and perhaps peaking product\" (no dates).",
+      "verified": false
+    },
+    {
+      "title": "Furious Allegri clashes with Italian media after Coppa Italia win (SI)",
+      "url": "https://www.si.com/soccer/2018/05/10/furious-allegri-clashes-italian-media-after-juventus-emphatic-coppa-italia-victory-over-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-05-10",
+      "eventDate": "2018-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Press framing: the 4-0 win \"could represent the end of an era, given that several Juve players are now in their 30s.\"",
+      "verified": true
+    },
+    {
+      "title": "Search summary (newsghana, via Sportsmail)",
+      "url": "https://www.newsghana.com.gh/juventus-proving-that-experience-is-vital/",
+      "tier": "D",
+      "language": "en",
+      "articleDate": "2017",
+      "eventDate": "2017",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Summary only: lineup vs Monaco averaged 30 years 64 days. The summary named Pirlo and Evra, who left in 2015, so the season is doubtful.",
+      "verified": false
+    },
+    {
+      "title": "Massimiliano Allegri (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Massimiliano_Allegri",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "He \"initially continued to use Conte's trademark 3–5–2 formation\", then later moved to a four-man back-line, especially in the Champions League; in his first season he switched between the 4–3–1–2, 4–4–2 and 4–3–3. In 2016–17 he adopted a new 4–2–3–1, mainly for European matches. Read part 0-100000 of 212872 chars (fetch tool summary, not verbatim page text).",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Massimiliano_Allegri",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "He \"would switch to a 3–5–2 in the last 20 minutes of close games to protect results\"; adapted systems to find \"the most suitable system for his players\". Fetch-tool summary of page, characters 0-100000.",
+      "verified": true
+    },
+    {
+      "title": "Tactics Board: Allegri plots move to 4-3-2-1 to bring out Juve's attacking potential (Calciomercato, Nicola Balice)",
+      "url": "https://www.calciomercato.com/news/tactics-board-allegri-plots-move-to-4-3-2-1-to-bring-out-juve-s--29149",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-11-09",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "Allegri \"has always tended to test his four-man defence after the second international break\"; \"He's already experimented with variants of the 4-4-2 in past seasons\"; Juventus winning \"but flattering to deceive up front with the age-old 3-5-2\".",
+      "verified": true
+    },
+    {
+      "title": "Same article, player roles",
+      "url": "https://www.calciomercato.com/news/tactics-board-allegri-plots-move-to-4-3-2-1-to-bring-out-juve-s--29149",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-11-09",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "Plan to give \"Paulo Dybala and Pjanic more freedom and less defensive duties\"; proposed shape a \"Christmas Tree formation\" (4-3-2-1).",
+      "verified": true
+    },
+    {
+      "title": "Search summary: Sportskeeda, 2016/17 final tactical warfare",
+      "url": "https://sportskeeda.com/football/uefa-champions-league-201617-final-tactical-warfare-between-juventus-real-madrid/2",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "Search summary only: defensive shape 'always a narrow 4-4-2', Mandzukic first line of defence. Page returned 405, not read.",
+      "verified": false
+    },
+    {
+      "title": "Champions League final tactical analysis, Juventus vs Real Madrid (Khel Now, pre-match)",
+      "url": "https://khelnow.com/football/uefa-champions-league-final-tactical-analysis-juventus-real-madrid",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-06-02",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"In terms of shape, the team will defend in a formation similar to a 5-3-2, with the full-backs joining the back three.\" Pre-match preview of the 2017 final, not match analysis.",
+      "verified": true
+    },
+    {
+      "title": "Champions League final tactical analysis, Juventus vs Real Madrid (Khel Now, pre-match)",
+      "url": "https://khelnow.com/football/uefa-champions-league-final-tactical-analysis-juventus-real-madrid",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-06-02",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-17",
+      "dimension": "build-up",
+      "evidence": "\"The shape turns to 3-2-5 when Massimiliano Allegri's men attack\"; \"The team plays the ball on the ground, 84% of them being short passes.\" Preview, not match analysis.",
+      "verified": true
+    },
+    {
+      "title": "Champions League final tactical analysis, Juventus vs Real Madrid (Khel Now, pre-match)",
+      "url": "https://khelnow.com/football/uefa-champions-league-final-tactical-analysis-juventus-real-madrid",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-06-02",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-10-17",
+      "dimension": "game-management",
+      "evidence": "\"The team will try to achieve early ascendency and will look to shock their opponents, sitting back after that.\" Preview expectation.",
+      "verified": false
+    },
+    {
+      "title": "Allegri Considers The Juventus Bench An Important Factor (The Hard Tackle)",
+      "url": "https://thehardtackle.com/news/2016/03/01/allegri-considers-the-juventus-bench-an-important-factor-in-their-serie-a-campaign/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-03-01",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-10-17",
+      "dimension": "people-management",
+      "evidence": "Allegri: \"By the end of the season there will be guys who will have played 40 matches, while others will have only featured in ten.\"; \"it's the latter that will be the difference between us lifting the title and finishing as runners-up.\"",
+      "verified": true
+    },
+    {
+      "title": "Distinti saluti: quando Allegri perse di corto muso con la Spal (SportSenators)",
+      "url": "https://www.sportsenators.it/07/02/2025/distinti-saluti-quando-allegri-perse-di-corto-muso-con-la-spal",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2025-02-07",
+      "eventDate": "2019-04",
+      "accessedOn": "2026-10-17",
+      "dimension": "people-management",
+      "evidence": "Secondary page dates the quote to the press conference around Spal-Juventus, 2019-04-13: \"chi perde di corto muso è secondo, chi vince così è primo\". Page does not give the conference date itself; no 2019 primary found.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "A team that wins seven titles in a row has no issues.",
+      "date": "2018-05-10",
+      "source": "https://www.si.com/soccer/2018/05/10/furious-allegri-clashes-italian-media-after-juventus-emphatic-coppa-italia-victory-over-milan",
+      "provenance": "primary"
+    },
+    {
+      "quote": "chi perde di corto muso è secondo, chi vince così è primo",
+      "date": "2019-04-13",
+      "source": "https://www.sportsenators.it/07/02/2025/distinti-saluti-quando-allegri-perse-di-corto-muso-con-la-spal",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "By the end of the season there will be guys who will have played 40 matches, while others will have only featured in ten.",
+      "date": "2016-03-01",
+      "source": "https://thehardtackle.com/news/2016/03/01/allegri-considers-the-juventus-bench-an-important-factor-in-their-serie-a-campaign/",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.newsghana.com.gh/juventus-proving-that-experience-is-vital/",
+      "reason": "403"
+    },
+    {
+      "url": "https://sportskeeda.com/football/uefa-champions-league-201617-final-tactical-warfare-between-juventus-real-madrid/2",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.fanpage.it/sport/calcio/allegri-si-gode-la-vittoria-sulla-lazio-di-sarri-corto-muso-il-calcio-e-strategia/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://www.football-italia.net/112654/allegri-ponders-juve-formation-change",
+      "reason": "404"
+    },
+    {
+      "url": "https://malaymail.com/news/sports/2017/01/27/allegri-focus-on-sassuolo-as-new-look-juve-impress/1302083",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.calciomercato.com/news/juventus-allegri-plans-tactical-changes-against-udinese-98382",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.calciomercato.com/news/juve-why-allegri-will-bench-bonucci-against-ac-milan-60552",
+      "reason": "404"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "pos",
+      "lar",
+      "jog"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Tier C only (Wikipedia, press); shape, game-management, defensive block and bench rotation verified; pos/lar/jog still unread."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

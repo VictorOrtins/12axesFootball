@@ -1,0 +1,302 @@
+You are answering the 5 ARCHETYPE questions below, fully independently, as the football profile "Atlético Madrid 2013/14" (catalog: team), answering as the team Atlético Madrid 2013/14, in the era of the research file, answering as its manager(s) at the time would for this team. Judge this profile alone.
+
+Use the research file below as your evidence. Facts with "verified": true were read on the source page; only facts inside profilePeriod describe the profile; statedView is what the manager says.
+
+For each question pick ONE option, the one this profile would choose. Work from the evidence, not from a target answer.
+
+OUTPUT (mandatory): use the Write tool to save ONE strict JSON file (no markdown) exactly at this path:
+/home/victor/Documentos/Programação/12axesFootball/profile-audit/subagent-out/team/atletico-madrid-2013-14.archetype.json
+Format: {"archetype": { "<question id>": "A", ... }} with all 5 question ids.
+After writing, reply only "OK team:atletico-madrid-2013-14".
+
+=== RESEARCH FILE (team/atletico-madrid-2013-14.json) ===
+{
+  "id": "atletico-madrid-2013-14",
+  "catalog": "team",
+  "name": "Atlético Madrid 2013/14",
+  "researchedOn": "2026-10-14",
+  "status": "complete",
+  "profilePeriod": {
+    "start": "2013-08-18",
+    "end": "2014-05-24"
+  },
+  "scopeNote": "La Liga (champions, 90 points, 26 goals conceded), Supercopa, Copa del Rey (semi-final exit) and Champions League (final lost 1-4 a.e.t. to Real Madrid, Lisbon) 2013/14: from Sevilla 1-3 Atlético (18 Aug 2013, La Liga matchday 1) to the Champions League final (24 May 2014). Roughly 60 competitive matches (counted from the competition sections, not read as a total). One manager throughout. Style: a compact 4-4-2 with a deep midfield press, little possession and fast transitions; Spielverlagerung (16 Jul 2014) calls it 'the modern 4-4-2' and Koke (via Goal) says 'We used the counter-attack'. Evidence on the exact 2013/14 matches is thin; the main tactical source is a July 2014 overview.",
+  "managers": [
+    {
+      "managerId": "diego-simeone",
+      "start": "2013-08-18",
+      "end": "2014-05-24"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (mar): Spielverlagerung says the full-backs man-mark the opposing wingers inside a 4-4-2 with a deep midfield press; no source read says whether the block overall is zonal. A coaching product page (not read, redirected to an unrelated domain) says defenders mark players in their zone while midfielders mark space. Confirm the reading (likely zonal block with man-oriented wide duties).",
+    "Spielverlagerung's piece is a July 2014 overview (published after the season, covering the Simeone era up to then), not a match-by-match 2013/14 analysis; confirm that is acceptable as the main B-tier source.",
+    "Build-up has no verified in-period evidence; game-management and people-management rest only on end-of-season quotes (La Prensa, UEFA, 17 May 2014). Two pieces found for people management (ESPN Deportes, Aug 2021; Goal, Feb 2020) are from other seasons and were dropped.",
+    "Squad: no page read states the squad's average age or the minutes of academy players; only the Wikipedia squad table (ages) and a note that the squad was short. Giménez (19) and Manquillo (20) were fringe players.",
+    "Spielverlagerung also says the front pair drop as 'wall players'; Costa played the final despite a hamstring injury, Turan was out: the final is a non-typical match.",
+    "Simeone's 'There is no substitute for hard work' is attributed (Goal 2026); the primary source was not found."
+  ],
+  "sources": [
+    {
+      "title": "2013-14 Atlético Madrid season",
+      "url": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Atl%C3%A9tico_Madrid_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-05-18",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read characters 0-300000 of 301481 (last ~1.5k unread). First match: La Liga matchday 1, 18 Aug 2013, Sevilla 1-3 Atlético Madrid; Supercopa legs on 21 and 28 Aug 2013 came later. Champions League final 24 May 2014, Estadio da Luz, Real Madrid 4-1 Atlético after extra time. Copa del Rey: lost the semi-final to Real Madrid 0-5 on aggregate (5 and 11 Feb 2014). Arrivals listed: Villa, Baptistao, Alderweireld, Guilavogui, Giménez. Squad table ages: Villa 32, Tiago 33, Gabi 31, Godin 28, Filipe Luis 28, Koke 21, Courtois 22, Costa 25, Giménez 19, Manquillo 20. No tactics on this page.",
+      "verified": true
+    },
+    {
+      "title": "2013 Supercopa de España",
+      "url": "https://en.wikipedia.org/wiki/2013_Supercopa_de_Espa%C3%B1a",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2013-08-28",
+      "eventDate": "2013-08-28",
+      "accessedOn": "2026-10-14",
+      "dimension": "squad-building",
+      "evidence": "Read characters 0-100000 of 117283. First leg 21 Aug 2013 Atlético Madrid 1-1 Barcelona (Vicente Calderón); second leg 28 Aug 2013 Barcelona 0-0 Atlético; 'Barcelona won on away goals'. Confirms the Supercopa came after the La Liga opener of 18 Aug, so the first competitive match is 18 Aug.",
+      "verified": true
+    },
+    {
+      "title": "2014 UEFA Champions League final",
+      "url": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-05-24",
+      "eventDate": "2014-05-24",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "Read characters 0-100000 of 175675. 24 May 2014, Estadio da Luz, Lisbon. Atlético XI: Courtois; Juanfran, Miranda, Godín, Filipe Luis; Raúl García, Tiago, Gabi, Koke; Costa, Villa. Goals: Godín 36', Ramos 90+3', Bale 110', Marcelo 118', Ronaldo pen 120'. Costa started with a hamstring injury and was replaced in the 9th minute; Arda Turan was injured. The page says 'Atletico defended with all players'. Last match of the period.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014)",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "shape",
+      "evidence": "Read the full body (intro, 'Atlético and the modern 4-4-2', variability, staggering, build-up, set pieces, conclusion). \"Atletico Madrid often play in a 4-4-2 with a deep midfield press.\" Wingers sit in midfield, not on the touchlines. \"The midfield chain is narrower than the defensive line.\" Koke \"constantly goes into the left defensive half space\" to make a three-man midfield; Arda \"likes to sit higher and be more goal oriented\". Overview of the Simeone era to mid-2014, so not every point is dated to 2013/14.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014) - pressing",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "pressing",
+      "evidence": "Same article. Described as working with \"a lot of athleticism and aggressiveness\" with a press from the midfield line (a 'deep midfield press'), not a high press. Page reader paraphrase; the quote is as returned by the page reader.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014) - marking",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "Same article. \"The full-backs in the wider back four man-mark their opposing wingers.\" Compact midfield chain narrower than the back line (4-4-2 mid-block with a deep midfield press). Dedicated marking search found nothing else for 2013/14.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014) - transitions and possession",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Same article. \"The Umschaltspiel (transition play) in both directions is almost perfect.\" Costa and Villa drop as \"wall players for fast combination layoffs.\"",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014) - possession",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "possession",
+      "evidence": "Same article. The team controls play without keeping the ball for long (\"without keeping it for a long time\") and is \"excellent at altering their passing rhythm\".",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014) - width",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "width",
+      "evidence": "Same article. Wingers sit in midfield rather than on the touchlines; Koke drifts into the left half-space; Filipe Luis \"probably one of the three to five best left-backs in the world\". Width comes mainly from the full-backs.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone (2014) - set pieces",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "set-pieces",
+      "evidence": "Same article, 'Set pieces' section. \"Many corners are sharp at the near post\", with runners attacking the near post. Godín's header from a corner earned the title-clinching 1-1 at the Camp Nou (LaLiga.com, 27 Oct 2014).",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid 2013-14 Season Review",
+      "url": "https://thehardtackle.com/2014/atletico-madrid-2013-14-season-review-an-extraordinary-season-which-provided-new-life-to-la-liga/amp/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "player-profile",
+      "evidence": "\"compact, well organized and absolutely relentless\". Costa pressed from the front, Gabi and Tiago won loose balls; Costa 36 goals (27 in La Liga); 26 league goals conceded, best in La Liga; back four Luis, Godín, Miranda, Juanfran. The squad was short and doubts existed whether it could sustain the effort. Article date given only as 2014.",
+      "verified": true
+    },
+    {
+      "title": "Special mention: Atlético Madrid 2013/14 LIGA BBVA champions",
+      "url": "https://www.laliga.com/en-ES/news/special-mention-atletico-madrid-2013-14-liga-bbva-champions",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-10-27",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "defensive-block",
+      "evidence": "\"the best defensive record in the tournament: just 26 goals conceded\". Core named: Courtois, Godín, Miranda, Gabi, Koke, Costa. Godín's header at the Camp Nou on the final matchday secured the title.",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone: tactical dinosaur or magic touch (Goal)",
+      "url": "https://www.goal.com/en-gb/lists/diego-simeone-tactical-dinosaur-atletico-madrid-magic-touch/blte2affe7bea9fc4ca",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-04-28",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-10-14",
+      "dimension": "transitions",
+      "evidence": "Retrospective. Koke: \"We used the counter-attack\"; \"We defended, sometimes high and sometimes low. We dominated without the ball.\" Low possession and 20 clean sheets that season. Koke's quote is retrospective with no original date found.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Simeone: 'Ha sido una temporada extraordinaria' (La Prensa)",
+      "url": "https://www.laprensa.hn/deportes/simeone-ha-sido-una-temporada-extraordinaria-JBLP710191",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-05-17",
+      "eventDate": "2014-05-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "people-management",
+      "evidence": "Simeone after the Camp Nou title: \"un grupo humano\" that knew how to be \"fuerte\" in hard moments; \"un equipo que nunca dejó de pelear\". Describes how he sees the group, not a behaviour; kept as weak evidence.",
+      "verified": true
+    },
+    {
+      "title": "Simeone's Atlético: faith rewarded (UEFA)",
+      "url": "https://www.uefa.com/news-media/news/0215-0e8addbfcb51-fd4bcc52d194-1000--simeone-s-atletico-faith-rewarded",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-05-17",
+      "eventDate": "2014-05-17",
+      "accessedOn": "2026-10-14",
+      "dimension": "game-management",
+      "evidence": "Godín: Atlético had \"competed so hard all year and put in an incredible amount of work\"; \"keeping up with Real Madrid and Barcelona\" over 38 games. Simeone: \"The best thing you can try to impart to the group - who were doing things well in the first half - is serenity.\" No tactics on the page.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "We fought and competed with humility, against everything.",
+      "date": "2014-05-17",
+      "source": "https://www.uefa.com/news-media/news/0215-0e8addbfcb51-fd4bcc52d194-1000--simeone-s-atletico-faith-rewarded",
+      "provenance": "primary"
+    },
+    {
+      "quote": "En el famoso 'partido a partido' encontramos fuerza.",
+      "date": "2014-05-17",
+      "source": "https://www.laprensa.hn/deportes/simeone-ha-sido-una-temporada-extraordinaria-JBLP710191",
+      "provenance": "primary"
+    },
+    {
+      "quote": "mirar el día a día, en partido a partido, el querer ser mejor, mirar siempre las cosas positivas, ser optimistas.",
+      "date": "2012-12-23",
+      "source": "https://www.atleticodemadrid.com/noticias/el-ano-de-simeone-2",
+      "provenance": "primary"
+    },
+    {
+      "quote": "There is no substitute for hard work.",
+      "date": "2026-04-28",
+      "source": "https://www.goal.com/en-gb/lists/diego-simeone-tactical-dinosaur-atletico-madrid-magic-touch/blte2affe7bea9fc4ca",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://shop.soccer-coaches.com/Defending-with-4-4-2-Atletico-Madrid-case-study-Download",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "build-up"
+    ],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "One tier B source (Spielverlagerung, July 2014) covers shape, pressing, block, transitions and set pieces, but it is a Simeone-era overview, not a 2013/14 match analysis; the rest is tier C press and reference. Marking is only partly covered (full-backs man-mark wingers)."
+  }
+}
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

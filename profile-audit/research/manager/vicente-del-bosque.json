@@ -1,0 +1,824 @@
+{
+ "id": "vicente-del-bosque",
+ "catalog": "manager",
+ "name": "Vicente del Bosque",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "2008-07-15",
+  "end": "2016-07-04"
+ },
+ "scopeNote": "Narrowed on 2026-11-04 (user decision): only the Spain spell (Jul 2008 - Jul 2016) is counted. The Real Madrid spell (1999-2003) is excluded; its sources stay in the file as context with verified false because they fall outside the profile period. Counted spells: Real Madrid (Nov 1999 - Jun 2003: Champions League 2000 and 2002, La Liga 2001 and 2003) and Spain (Jul 2008 - Jul 2016: World Cup 2010, Euro 2012). Exact start/end days are not in the mined pages (only month-level: 'noviembre del 99', 'noviembre de 1999' in the Flashscore question, 'July 2016' via search results); day-level values in spellsCounted are approximate and flagged in openQuestions. Style term used by sources: possession football / 'tiki-taka' inherited from Luis Aragonés and refined with a double pivot (Busquets + Xabi Alonso); 4-6-0 without striker at Euro 2012. At Madrid: back three won the 2000 Champions League, then 4-4-2. Tactical coverage of Madrid is thin (mostly his own retrospective interviews); Spain is better covered. Excluded spells carry year-only dates because sources give only years (1994 for two months, 1996, Beşiktaş 2004-05).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Spell day-level dates: Madrid start 1999-11-17 inferred (Periodico de Ibiza 1999-11-18 says the club welcomes him 'hoy'; day from memory/search, not mined text); Madrid end 2003-06-24 from Irish Times article date; Spain start 2008-07-15 and end 2016-07-04 (football-espana URL date) not confirmed in mined pages.",
+  "Interim stints at Real Madrid (1994, 1996) excluded: no tactical coverage found, brief caretaker spells with fewer than 15 matches; El Gráfico quote ('se dio un interinato, y luego otro') confirms they were interim. Beşiktaş 2004-05 excluded: no major titles, no tactical coverage found, and it did not lead to a bigger job.",
+  "Marking system (zonal vs man) not found for Del Bosque teams in any mined page; only a search summary mentioned Germany's zonal marking at a 2010 corner (unverified).",
+  "Real Madrid sources are mostly his own retrospective interviews (2024-25): treat as retrospective; no contemporary tactical analysis was mined for 1999-2003.",
+  "Popular label 'tiki-taka' is Aragonés/Barcelona heritage; Del Bosque said 'We don't have a magic formula, we have a plan based on the players that we have available' (2014).",
+  "Spanish press framing of Florentino Pérez's 2003 dismissal ('librillo muy tradicional') is the club's view, not neutral evidence of his style.",
+  "Dressing-room crisis Barcelona-Real Madrid (2010) covered only by a Coaches' Voice podcast blurb, not the interview itself.",
+  "Tactical trade-offs: These Football Times describes 'a tactical masterclass' with a back three at Old Trafford (April 2000), while Coaches' Voice says the back three was used to win the 1999/2000 Champions League; the 4-4-2 vs 4-1-3-2 diamond label for 2001/02 differs between his own words (4-4-2) and TFT (4-1-3-2).",
+  "Source on the 1994 and 1996 interim spells kept as verified:false because it falls outside the counted spells (it documents the exclusion)."
+ ],
+ "sources": [
+  {
+   "title": "Táctica y Sistemas - Vicente del Bosque - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/?p=61030",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2024-12-06",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] se inventó una nueva posición para Zinedine Zidane en el Real Madrid de ‘Los Galácticos’ o apostó por una defensa de tres centrales en el equipo blanco para ganar la Champions League",
+   "verified": false
+  },
+  {
+   "title": "Táctica y Sistemas - Vicente del Bosque - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/?p=61030",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2024-12-06",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "En la selección de España, mientras, dio forma al doble pivote, apostando por Sergio Busquets junto a Xabi Alonso en la selección campeona del mundo y de Europa. Una apuesta al principio muy criticada por la prensa, pero de la que Del Bosque no tuvo dudas.",
+   "verified": true
+  },
+  {
+   "title": "Táctica y Sistemas - Vicente del Bosque - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/?p=61030",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2024-12-06",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "debido a la crisis que surgió entre los jugadores del Barcelona y el Real Madrid, a pocos meses del comienzo del Mundial de Sudáfrica 2010",
+   "verified": true
+  },
+  {
+   "title": "Táctica y Sistemas - Vicente del Bosque - The Coaches' Voice",
+   "url": "https://es.coachesvoice.com/?p=61030",
+   "tier": "A",
+   "language": "es",
+   "articleDate": "2024-12-06",
+   "eventDate": "2008/16",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "también por su capacidad de adaptarse tácticamente a los jugadores con los que contó",
+   "verified": true
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] One of the keys was tactics, from the quarter-finals right through to the final. We changed a few things. We tried to strengthen our full-backs, to give Michel Salgado and Roberto Carlos more freedom, so we played with three experienced central defenders. Then we had a midfielder in front, a player like Fernando Redondo, who needed to be on his own, to handle and control the ball.",
+   "verified": false
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2000",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] We tried to strengthen our full-backs, to give Michel Salgado and Roberto Carlos more freedom",
+   "verified": false
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "1999/03",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] We've tried to treat all the players equally, in the same way. To give them all their place in the team. (...) (Fernando) Hierro, Raul, Redondo, Roberto Carlos, Michel Salgado - all these players formed a base to which all those who arrived later adapted perfectly into",
+   "verified": false
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2002/03",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] I think he's one of the happiest players I've ever had under my command, and who were we as coaches to interfere with his happiness?",
+   "verified": false
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2002/03",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] He was good in transition, he distributed the play to Figo or Roberto Carlos with ease. In short, he got the ball back and was the first launch pad, so that nobody was hindered.",
+   "verified": false
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2008/16",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "That was also the case with the national team, where three goalkeepers could have started: Iker Casillas, Victor Valdes and Pepe Reina. But we were able to count on Iker for many years.",
+   "verified": true
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "We had a lot of confidence in these two players, Sergio and Xabi, because we had the feeling, as we said earlier with Claude Makelele, that they were team players, and in an area that's vital for everyone: midfield.",
+   "verified": true
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2008/16",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "I remember how well they behaved throughout those eight years. We played 114 matches, and in all those matches only one player was sent off, Gerard Pique",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain’s evolution - Football España",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Central to Del Bosque’s philosophy meanwhile was the use of the double pivot in midfield, usually in the form of Xabi Alonso and Sergio Busquets. In South Africa he sacrificed a striker by pulling back David Villa on to the left side to make room for a second anchor.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain’s evolution - Football España",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "What has attracted most attention in Del Bosque’s team this summer has been his use of a 4-6-0 formation without a designated striker.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain’s evolution - Football España",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Del Bosque sacrificed his remaining striker and played six in midfield. With such domination of possession, La Roja conceded just a single goal in the entire tournament.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain’s evolution - Football España",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "the previously direct threats from wide in Villa and Pedro, who had stretched the play so well against Scotland, were unavailable",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain’s evolution - Football España",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Spain were unable to score more than a single goal in any of their four knockout matches.",
+   "verified": true
+  },
+  {
+   "title": "Del Bosque on 25 years of coaching - Football España",
+   "url": "https://www.football-espana.net/2012/09/04/del-bosque-on-25-years-of-coaching",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-04",
+   "eventDate": "2012-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "And then, for what makes a technician, common sense and good relations within and outside the dressing room. (...) With the media, your assistants, with the players…with everyone. Good relationships are vital.",
+   "verified": true
+  },
+  {
+   "title": "Del Bosque on 25 years of coaching - Football España",
+   "url": "https://www.football-espana.net/2012/09/04/del-bosque-on-25-years-of-coaching",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-04",
+   "eventDate": "2012-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "I do not understand business, I don’t understand transfer fees, the market – what I do understand is the ball",
+   "verified": true
+  },
+  {
+   "title": "Del Bosque on 25 years of coaching - Football España",
+   "url": "https://www.football-espana.net/2012/09/04/del-bosque-on-25-years-of-coaching",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-04",
+   "eventDate": "2012-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "And of course you have to have good results, because otherwise, if you lose, it all comes down like a house of cards.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (or go down fighting)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Spain work tirelessly to close down their opponents all over the pitch, pressurising them into misplacing their passes. (...) The majority of Spain's tackles are made high up the pitch, suggesting a successful high pressing game.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (or go down fighting)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "One substandard element of Spain's play is their ability to counter attack. (...) David Silva is perhaps the only player with dribbling speed in the squad, and their breaks after regaining possession were slow.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (or go down fighting)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "build-up",
+   "evidence": "Spain don't really do long balls, except to spread the play to the wing; their long balls forward had a 0% success rate, and their infrequency suggests an unwillingness to commit to a swift counter-attack.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (or go down fighting)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Spain's lack of height and counter-attacking speed makes them vulnerable to an onslaught at corners and free-kicks.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (or go down fighting)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "The Azzurri, in typically Italian fashion, absorbed the pressure and allowed Spain time on the ball.",
+   "verified": true
+  },
+  {
+   "title": "Analysis: How to beat Spain (or go down fighting)",
+   "url": "https://www.fourfourtwo.com/features/analysis-how-beat-spain-or-go-down-fighting",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-06-18",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "It's easy to criticise Del Bosque for failing to field a striker against Italy, particularly given subsequent success of  Fernando Torres against Ireland. In reality, the decision was pretty ingenious, and undoubtedly a decision based on the opposing defensive set ups of Italy and Ireland.",
+   "verified": true
+  },
+  {
+   "title": "2010 FIFA World Cup: Spain's Tactical Success",
+   "url": "https://bleacherreport.com/articles/416844-2010-fifa-world-cup-spains-tactical-success",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-07",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Del Bosque clearly figured this out too, and so ordered his players to close the ball down at every significant opportunity, ensuring Germany were given as little chance as possible to break out on the attack",
+   "verified": true
+  },
+  {
+   "title": "2010 FIFA World Cup: Spain's Tactical Success",
+   "url": "https://bleacherreport.com/articles/416844-2010-fifa-world-cup-spains-tactical-success",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-07",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Head coach Vicente Del Bosque clearly wanted him to overlap with left-back partner Joan Capdevilla and make Germany's Philipp Lahm work down the flank",
+   "verified": true
+  },
+  {
+   "title": "2010 FIFA World Cup: Spain's Tactical Success",
+   "url": "https://bleacherreport.com/articles/416844-2010-fifa-world-cup-spains-tactical-success",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-07-07",
+   "eventDate": "2010-07-07",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "By holding onto possession, it meant the Germans had to do more of the legwork",
+   "verified": true
+  },
+  {
+   "title": "Spain can cope with packed defences, says Del Bosque",
+   "url": "https://thepeninsulaqatar.com/article/11/06/2014/spain-can-cope-with-packed-defences-says-del-bosque",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-06-11",
+   "eventDate": "2014-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "“Possession without having depth doesn’t have any point,” Del Bosque told Marca. “For that reason we are working so that the team can pressure to win back possession and then as a group attack.",
+   "verified": true
+  },
+  {
+   "title": "Spain can cope with packed defences, says Del Bosque",
+   "url": "https://thepeninsulaqatar.com/article/11/06/2014/spain-can-cope-with-packed-defences-says-del-bosque",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-06-11",
+   "eventDate": "2014-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "“It’s fine if they do. It suits us best being patient and looking for the gaps against teams that are defensive rather than being in games that are end-to-end and out of control,” he said.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "“We have,” said del Bosque, “based our efficiency on good defensive order. We’ve been very solid.”",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Opta statistics reveal 68.2 per cent of possession here, 65.2 per cent in 2010 and 56.6 per cent in 2008. The introduction of two deep midfielders, Xabi Alonso and Sergio Busquets, occupying the space once filled by Marcos Senna alone, is one reason. It is also a defensive midfielder more than Barcelona, underlining that del Bosque’s greatest concern is control.",
+   "verified": true
+  },
+  {
+   "title": "No chink in mesmeric Spain's armour",
+   "url": "https://www.irishtimes.com/sport/no-chink-in-mesmeric-spain-s-armour-1.1069061",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-06-27",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Xavi explains: “It was hot, we were tired and we played 10-15 metres deeper.",
+   "verified": true
+  },
+  {
+   "title": "El hombre tranquilo (Nuestro Tiempo, entrevista de Nacho Uría)",
+   "url": "https://almudi.org/noticias-articulos-y-opinion/8432-el-hombre-tranquilo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-11-25",
+   "eventDate": "2013-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Amigo no. Otra cosa es tener una buena relación personal. Eso es posible. Un entrenador debe esforzarse en que haya una buena convivencia y para eso tiene que haber una sintonía personal, sólo de ese modo estaremos más cerca del éxito.",
+   "verified": true
+  },
+  {
+   "title": "El hombre tranquilo (Nuestro Tiempo, entrevista de Nacho Uría)",
+   "url": "https://almudi.org/noticias-articulos-y-opinion/8432-el-hombre-tranquilo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-11-25",
+   "eventDate": "2013-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Ahora bien, al mismo tiempo tenemos claro que no vale todo para ganar: la buena conducta es esencial en todos los sentidos.",
+   "verified": true
+  },
+  {
+   "title": "El hombre tranquilo (Nuestro Tiempo, entrevista de Nacho Uría)",
+   "url": "https://almudi.org/noticias-articulos-y-opinion/8432-el-hombre-tranquilo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-11-25",
+   "eventDate": "2013-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Dirigir a la selección tiene dos cometidos principales: desarrollar la estrategia deportiva (elegir a los jugadores, el esquema de juego…) y gestionar personas.",
+   "verified": true
+  },
+  {
+   "title": "Vicente del Bosque: “Ustedes son los alemanes de Sudamérica” (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/12321/vicente-del-bosque-ustedes-son-los-alemanes-de-sudamerica",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2016-08-08",
+   "eventDate": "2003",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] “Hemos entendido que necesitamos otro perfil de entrenador. Vicente del Bosque tiene un librillo muy tradicional. Nos gustaría un librillo más sofisticado desde el punto de vista de la técnica y la estrategia”",
+   "verified": false
+  },
+  {
+   "title": "Vicente del Bosque: “Ustedes son los alemanes de Sudamérica” (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/12321/vicente-del-bosque-ustedes-son-los-alemanes-de-sudamerica",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2016-08-08",
+   "eventDate": "2016-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Como deportistas necesitamos la mayor humildad posible si queremos hacer algo; el fútbol daña al prepotente”.",
+   "verified": true
+  },
+  {
+   "title": "Vicente del Bosque: “Ustedes son los alemanes de Sudamérica” (El Gráfico)",
+   "url": "https://www.elgrafico.com.ar/articulo/1089/12321/vicente-del-bosque-ustedes-son-los-alemanes-de-sudamerica",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2016-08-08",
+   "eventDate": "1999-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] se dio un interinato, y luego otro, y lo hice con naturalidad, como si estuviera entrenando a los chavales del Castilla o de los equipos inferiores del Madrid",
+   "verified": false
+  },
+  {
+   "title": "Entrevista exclusiva Del Bosque (Soccerway ES)",
+   "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-entrevista-exclusiva-del-bosque-zidane-era-prudente-callado-y-tenia-miradas-fuertes/WzLoY6Ct",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-10-09",
+   "eventDate": "1999/03",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] Yo creo que es muy importante que un vestuario reine la cordialidad, el afecto, el llevarse bien. Un clima laboral sano es importante para que podamos obtener resultados. (...) Yo creo que hay que aceptarlos a cada uno como son.",
+   "verified": false
+  },
+  {
+   "title": "Entrevista exclusiva Del Bosque (Soccerway ES)",
+   "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-entrevista-exclusiva-del-bosque-zidane-era-prudente-callado-y-tenia-miradas-fuertes/WzLoY6Ct",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-10-09",
+   "eventDate": "1999/03",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] a pesar de que estuvo durante un periodo de una semana o dos semanas apartado del equipo por un hecho poco trascendente, luego nos ayudó también a ser campeones de Europa",
+   "verified": false
+  },
+  {
+   "title": "Vicente del Bosque: Tenemos que creer en nosotros, pero no pensar que somos los mejores del mundo (RFEF)",
+   "url": "https://rfef.es/es/noticias/vicente-del-bosque-tenemos-que-creer-nosotros-pero-no-pensar-que-somos-mejores-del-mundo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2013-11-04",
+   "eventDate": "2013-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "Aquel que sólo presume de saber de fútbol, probablemente no sepa ni de fútbol",
+   "verified": true
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "2000-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] he moved his defensive midfielder, Iván Helguera, into a back three, adding more solidity and freeing up his explosive full-backs Roberto Carlos and Míchel Salgado.",
+   "verified": false
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "2000-04",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] It was a move that gave them more counter-attacking supremacy, and they raced to a 3-0 within an hour as Raúl’s brace and Roy Keane’s own goal put them in the driver’s seat.",
+   "verified": false
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] With a diamond shape line-up in the middle of the park, he had Makélélé as a single pivot who would signal the start of a revolutionary phase in the role. (...) The 4-1-3-2 was completed by the two hitmen up top, Raúl and Morientes.",
+   "verified": false
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "2001/02",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] The signing of Zidane allowed Del Bosque to build a more enterprising midfield. (...) He was supported by Figo and the reinvigorated Santiago Solari out wide, while at the tip of the diamond stood Zidane.",
+   "verified": false
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] Local players like Iker Casillas and Raúl were the future, while the likes of Fernando Hierro and Fernando Redondo had been around for some time.",
+   "verified": false
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "“The coach has to understand that human relations have to be above the sport, above the competition … the conversations Iniesta and I had strengthened the bond we felt with each other.”",
+   "verified": true
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "2010-07-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "I told them to think of themselves as the romantics of football facing the most important game of their lives. (...) I told them we aren’t soldiers. We are not here to pick a fight. We are players, talented young people. We can play good football and achieve something collectively.”",
+   "verified": true
+  },
+  {
+   "title": "Nine trophies in 342 games: the colossal legacy of Vicente del Bosque",
+   "url": "https://thesefootballtimes.co/nine-trophies-in-342-games-the-colossal-legacy-of-vicente-del-bosque/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-03-29",
+   "eventDate": "1999/03",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] More of an expert man-manager than a master tactician, dialogue is what Vicente del Bosque’s managerial success relied on.",
+   "verified": false
+  },
+  {
+   "title": "Real part company with manager Del Bosque",
+   "url": "https://www.irishtimes.com/news/real-part-company-with-manager-del-bosque-1.484301",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2003-06-24",
+   "eventDate": "2003-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] Real Madrid have parted company with manager Vicente del Bosque and captain Fernando Hierro just hours after clinching the Spanish League title on Sunday.",
+   "verified": false
+  },
+  {
+   "title": "Real’s loss, Spain’s gain - Football España",
+   "url": "https://www.football-espana.net/2012/09/07/reals-loss-spains-gain",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-07",
+   "eventDate": "1994",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "After his playing career came to end, he stayed on in a coaching capacity with the youth side before stepping in at the very top in 1994, for two months, and 1996, before Jorge Valdano was appointed.",
+   "verified": false
+  },
+  {
+   "title": "Real’s loss, Spain’s gain - Football España",
+   "url": "https://www.football-espana.net/2012/09/07/reals-loss-spains-gain",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-07",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "his persistence with the double pivot has brought defensive steel and balance to an array of attacking talent",
+   "verified": true
+  },
+  {
+   "title": "Real’s loss, Spain’s gain - Football España",
+   "url": "https://www.football-espana.net/2012/09/07/reals-loss-spains-gain",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-07",
+   "eventDate": "2012",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Del Bosque’s decision to field a ‘false 9’ in Poland and Ukraine was brought about out of necessity, given the injury to David Villa and the form – and suitability – of Fernando Torres",
+   "verified": true
+  },
+  {
+   "title": "Real’s loss, Spain’s gain - Football España",
+   "url": "https://www.football-espana.net/2012/09/07/reals-loss-spains-gain",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-09-07",
+   "eventDate": "1999-11",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "[Outside the profile period (Real Madrid era), kept as context] He finally took over in a full-time capacity in November 1999 and never looked back",
+   "verified": false
+  },
+  {
+   "title": "EXCLUSIVE: Vicente Del Bosque explains the keys to his success with Real Madrid and Spain | Flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-laliga-exclusive-vicente-del-bosque-explains-the-keys-to-his-success-with-real-madrid-and-spain/h2ATgHk4/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-03-01",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "we had the feeling, as we said earlier with Claude Makelele, that they were team players, and in an area that's vital for everyone: midfield.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Possession without having depth doesn’t have any point. For that reason we are working so that the team can pressure to win back possession and then as a group attack.",
+   "date": "2014-06",
+   "source": "Marca via Peninsula Qatar, 2014-06-11",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We don’t have a magic formula, we have a plan based on the players that we have available.",
+   "date": "2014-06",
+   "source": "Peninsula Qatar, 2014-06-11",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We have based our efficiency on good defensive order. We’ve been very solid.",
+   "date": "2012-06",
+   "source": "Irish Times, 2012-06-27",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We play against very deep teams and we can’t change that. What we have to do is find a way to attack them, hurt them.",
+   "date": "2012-06",
+   "source": "Irish Times, 2012-06-27",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Dirigir a la selección tiene dos cometidos principales: desarrollar la estrategia deportiva (elegir a los jugadores, el esquema de juego…) y gestionar personas.",
+   "date": "2013-11",
+   "source": "Nuestro Tiempo, entrevista de Nacho Uría (almudi.org)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Aquel que sólo presume de saber de fútbol, probablemente no sepa ni de fútbol",
+   "date": "2013-11-04",
+   "source": "rfef.es",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Yo creo que es muy importante que un vestuario reine la cordialidad, el afecto, el llevarse bien.",
+   "date": "2025-10",
+   "source": "Soccerway ES interview, 2025-10-09 (retrospective on 1999-2003)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We've tried to treat all the players equally, in the same way. To give them all their place in the team.",
+   "date": "2024-03",
+   "source": "Flashscore/Soccerway interview, 2024-03-01 (retrospective)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Como deportistas necesitamos la mayor humildad posible si queremos hacer algo; el fútbol daña al prepotente",
+   "date": "2016-06",
+   "source": "El Gráfico, 2016-08-08",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I told them we aren’t soldiers. We are not here to pick a fight. We are players, talented young people. We can play good football and achieve something collectively.",
+   "date": "2010-07-11",
+   "source": "Financial Times interview via These Football Times, 2018-03-29",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "They’ve never played that formation before; I suppose it was a compliment to us, but we were too slow to adjust.",
+   "date": "2000-04",
+   "source": "Alex Ferguson on Del Bosque's back three, via These Football Times (not a Del Bosque quote; kept as press label)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.espn.com/soccer/story/_/id/37633874",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Luis Molowny (self-declared reference)",
+  "Luis Aragonés (inherited Spain system)",
+  "Real Madrid cantera / Juan Santisteban"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Spain national team",
+   "start": "2008-07-15",
+   "end": "2016-07-04",
+   "reason": "World Cup 2010, Euro 2012; start 2008-07-15 from search summary only (not in mined page); Football Espana says he took over in 2008"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Real Madrid (interim)",
+   "start": "1994",
+   "end": "1996",
+   "reason": "two short caretaker spells, under 15 matches, no tactical coverage"
+  },
+  {
+   "club": "Besiktas",
+   "start": "2004",
+   "end": "2005",
+   "reason": "no major titles, no tactical coverage found, no move to a bigger job"
+  },
+  {
+   "club": "Real Madrid",
+   "start": "1999-11-17",
+   "end": "2003-06-24",
+   "reason": "excluded on 2026-11-04 to narrow the profile to his Spain era (user decision): 2 Champions Leagues (2000, 2002), 2 La Liga (2001, 2003); start day unverified (Periodico de Ibiza 1999-11-18 says Madrid 'recibirá hoy' Del Bosque; Toshack sacked about 1999-11-17); end 2003-06-24 per Irish Times article date (parted 'just hours after' the title on Sunday 2003-06-22)"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Spain 2010-2016 has tier B coverage (FourFourTwo, Football Espana, Coaches' Voice blurb, These Football Times); Real Madrid 1999-2003 relies on one tier B retrospective plus his own later interviews; marking and some day-level dates unverified."
+ }
+}

@@ -1,0 +1,698 @@
+{
+ "id": "tiki-taka",
+ "catalog": "football-ideology",
+ "name": "Tiki-taka (Spanish short-passing possession model)",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2006-06-01",
+  "end": "2012-07-01"
+ },
+ "scopeNote": "The idea: short, quick passing and constant possession built through technical midfielders, with the ball also used as a defensive tool and counter-pressing as the answer to turnovers. Core era 2008-2012 (Aragonés's Spain at Euro 2008, Guardiola's Barcelona 2008-12, Del Bosque's Spain at the 2010 World Cup and Euro 2012); the window starts in June 2006 because Spain's shift under Aragonés and the coining of the word both date from the 2006 World Cup (exact day not confirmed). The label is contested: Guardiola called it made up and pointless (at Bayern, 2014), Spielverlagerung calls it a mostly disparaging phrase for Juego de Posición, and Vozpopuli says it is pejorative. Statements and sources dated after July 2012 appear only under statedView or as retrospectiveOnly. Exemplar teams and managers are covered in their own files.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Tiki-taka vs positional play: Spielverlagerung calls tiki-taka 'a mostly disparaging phrase to describe the Juego de Posición' and says it is a different thing when possession is an end in itself; Coaches' Voice describes positional play as zones and superiority (numerical, qualitative, positional); Guardiola defines his game as overload one side and attack the other. Label the evidence supports: positional play (juego de posición) for Guardiola's Barcelona; tiki-taka for the popular, often Spain-linked name for the possession style, with Guardiola rejecting it. Tier A/B sources diverge on whether Spain 2008-12 was also positional play; not settled here.",
+  "Who coined the term: Andrés Montes (2006 World Cup, laSexta) is the usual credit, but Spielverlagerung and Vozpopuli say Javier Clemente used it earlier and pejoratively. No primary recording or date for Clemente found.",
+  "Guardiola's rejection comes from Perarnau's books about Bayern (2013-14), not from the Barcelona years; no dated quote from 2008-12 found. The Eurosport page on the quote was unreadable (403).",
+  "Spain changed within the era: Aragonés 2008 used two strikers and a single anchor (Senna) with about 50% possession and little pressing (Football España, Scroll), Del Bosque used a double pivot (55% in 2010) and a 4-6-0 with 59% in 2012. Whether the 2008 side counts as the same model is a judgement; sources call it the 'same identity'.",
+  "Width: Guide to Football says tiki-taka plays narrow; Coaches' Voice says positional play uses the whole width. No tier A/B source for Barcelona 2008-12 wingers/fullbacks found beyond Bleacher Report 2008 and StatsBomb-based commentary on Alves.",
+  "Marking: no source found for zonal or man-marking by Barcelona or Spain in 2008-12 (set pieces or open play). The only marking fact in period is opponents man-marking Xavi (Real Madrid, December 2008).",
+  "Defensive pressing at Barcelona is described by tier C sources only (Irish Times 2012, Bleacher Report 2008); the '6-second rule' appears mostly in Football Manager sites and was not verified.",
+  "Possession figures: Football España and Scroll give Spain 50% (2008), 55% (2010), 59% (2012); not checked against FIFA TSG or Opta."
+ ],
+ "sources": [
+  {
+   "title": "Barcelona Tactics: Why They Are the Best in Europe - Bleacher Report",
+   "url": "https://bleacherreport.com/articles/93217-barcelona-tactics-why-they-are-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Under Pep Guardiola the club still play 4-3-3 even though before the start of his reign many thought a diamond formation to accommodate Henry in attack will be his preferred system.",
+   "verified": true
+  },
+  {
+   "title": "When Spain mastered tiki-taka football - Scroll.in",
+   "url": "https://scroll.in/field/996827/pause-rewind-play-when-spain-mastered-tiki-taka-football-to-unleash-an-era-of-global-dominance",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-06-06",
+   "eventDate": "2008-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "The team shuttled between a 4-4-2 and a 4-5-1 to dominate opponents and eventually carve them open thanks to the abundance of attacking riches at their dispoal.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain's evolution - Football Espana",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2008-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "As well as deploying two strikers, Aragones used just the single midfield anchor in the imposing Marcos Senna.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain's evolution - Football Espana",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "Central to Del Bosque’s philosophy meanwhile was the use of the double pivot in midfield, usually in the form of Xabi Alonso and Sergio Busquets.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain's evolution - Football Espana",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "What has attracted most attention in Del Bosque’s team this summer has been his use of a 4-6-0 formation without a designated striker.",
+   "verified": true
+  },
+  {
+   "title": "Tiki-taka and pass and move - Guide to Football",
+   "url": "https://guidetofootball.com/tactics/tiki-taka-and-pass-and-move/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "The classic tiki-taka shape is a 4-3-3 with a deep-lying playmaker at the base of midfield, two more advanced midfielders supporting the front three, and full backs joining the attack.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Barcelona use their goalkeeper, Victor Valdes, as an auxiliary sweeper. If he draws a player, it helps to create overlaps elsewhere on the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Juego de Posición under Pep Guardiola - Spielverlagerung",
+   "url": "https://spielverlagerung.com/2014/12/25/juego-de-posicion-under-pep-guardiola/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2014-12-25",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "The team that interpreted Positional Play in a most extraordinary way was the Barcelona of Pep Guardiola.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Barcelona – who average 70 per cent of possession in matches – will hog the ball in the encounter.",
+   "verified": true
+  },
+  {
+   "title": "Mascherano: The possession debate is absurd - FC Barcelona",
+   "url": "https://www.fcbarcelona.com/en/news/1133419/mascherano-the-possession-debate-is-absurd",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-11-01",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "In 2009/10, Guardiola’s Barça maintained an average of 68% possession, the following year it was 75%.",
+   "verified": true
+  },
+  {
+   "title": "When Spain mastered tiki-taka football - Scroll.in",
+   "url": "https://scroll.in/field/996827/pause-rewind-play-when-spain-mastered-tiki-taka-football-to-unleash-an-era-of-global-dominance",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-06-06",
+   "eventDate": "2010",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Their average possession in the 2010 World Cup rose to 55% from 50% in the 2008 Euro.",
+   "verified": true
+  },
+  {
+   "title": "When Spain mastered tiki-taka football - Scroll.in",
+   "url": "https://scroll.in/field/996827/pause-rewind-play-when-spain-mastered-tiki-taka-football-to-unleash-an-era-of-global-dominance",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-06-06",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Their tournament average was 59%.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "They try to keep the ball until the opposition make a mistake. They even use the ball to defend – by tiring the opposition out.",
+   "verified": true
+  },
+  {
+   "title": "When Spain mastered tiki-taka football - Scroll.in",
+   "url": "https://scroll.in/field/996827/pause-rewind-play-when-spain-mastered-tiki-taka-football-to-unleash-an-era-of-global-dominance",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-06-06",
+   "eventDate": "2006",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Thus by 2006 when national team coach Aragones was running out of ways to make Spain successful in big tournaments, he decided to abandon the direct and physical style of the old and implement a more non-direct and technical approach that suited the players at his hand.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "They have specific prompts for tackling – the second the ball is lost; when an opponent controls the ball badly or when he is facing his own goal, as his vision of the pitch will be impaired.",
+   "verified": true
+  },
+  {
+   "title": "Barcelona Tactics: Why They Are the Best in Europe - Bleacher Report",
+   "url": "https://bleacherreport.com/articles/93217-barcelona-tactics-why-they-are-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "By playing Henry, Messi, and Eto’o they can pressure early and high up the field starting at the defenders, making it hard for the opposition to pass.",
+   "verified": true
+  },
+  {
+   "title": "When Spain mastered tiki-taka football - Scroll.in",
+   "url": "https://scroll.in/field/996827/pause-rewind-play-when-spain-mastered-tiki-taka-football-to-unleash-an-era-of-global-dominance",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-06-06",
+   "eventDate": "2008-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "However, due to the lack of defensive strength, Spain did not press too heavily. For them, possession was a defensive tool to avoid turnovers and retain the shape.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "The 3-1 rule: if an opponent is attacking near Barcelona's penalty area, one defender goes to tackle him while the other three defenders gather in a ring a few metres behind him as a second shield.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Barcelona’s work rate off the ball, an innovation of the Guardiola management regime, borrowed from his understanding of Italian defensive systems, is widely applauded.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain's evolution - Football Espana",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "With such domination of possession, La Roja conceded just a single goal in the entire tournament.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Barcelona eschew the quick counter attack. They believe if a player wins back the ball, he will typically be unsighted or off-balance and unable to launch a good, counter-attacking movement",
+   "verified": true
+  },
+  {
+   "title": "How to play against Pep Guardiola's Barcelona (StatsBomb open data)",
+   "url": "https://soumyajit.substack.com/p/how-to-play-against-pep-guardiolas",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-21",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "On the other hands, the team in 2009-10 conceded a lot of counters as compared to the other seasons.",
+   "verified": true
+  },
+  {
+   "title": "Barcelona Tactics: Why They Are the Best in Europe - Bleacher Report",
+   "url": "https://bleacherreport.com/articles/93217-barcelona-tactics-why-they-are-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "As the wide men don’t track back, the opposition full backs are aware that if they get forward they will leave them unmarked.",
+   "verified": true
+  },
+  {
+   "title": "How to play against Pep Guardiola's Barcelona (StatsBomb open data)",
+   "url": "https://soumyajit.substack.com/p/how-to-play-against-pep-guardiolas",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-21",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Alves was an excellent fullback, but being super-attacking in nature, tended to leave space behind him.",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain's evolution - Football Espana",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "This was less to do with the presence of a ‘false 9’, rather that the previously direct threats from wide in Villa and Pedro, who had stretched the play so well against Scotland, were unavailable.",
+   "verified": true
+  },
+  {
+   "title": "Tiki-taka and pass and move - Guide to Football",
+   "url": "https://guidetofootball.com/tactics/tiki-taka-and-pass-and-move/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "Tiki-taka teams tend to play narrow, with players close to each other rather than stretching the pitch.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "How to play against Pep Guardiola's Barcelona (StatsBomb open data)",
+   "url": "https://soumyajit.substack.com/p/how-to-play-against-pep-guardiolas",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-03-21",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "However, 11 of the 29 goals came from set pieces – that’s 38% of all goals coming from set-piece situations!!",
+   "verified": true
+  },
+  {
+   "title": "A-Z of the 2000s: Xavi - These Football Times",
+   "url": "https://thesefootballtimes.co/2019/11/29/a-z-of-the-2000s-xavi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-11-29",
+   "eventDate": "2009-05-02",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "His first assist, an inch-perfect free-kick put onto the edge of the six-yard box for Carles Puyol to attack",
+   "verified": true
+  },
+  {
+   "title": "Barcelona Tactics: Why They Are the Best in Europe - Bleacher Report",
+   "url": "https://bleacherreport.com/articles/93217-barcelona-tactics-why-they-are-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-14",
+   "eventDate": "2008-12-13",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Real Madrid tried to man mark Xavi out of the game and it worked especially in the first half but the Barcelona team is not that dependent on Xavi.",
+   "verified": true
+  },
+  {
+   "title": "Players say Spain won't make drastic style change - Reuters",
+   "url": "https://www.foxnews.com/sports/players-say-spain-wont-make-drastic-style-change",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-06-18",
+   "eventDate": "2010-06-18",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "The other day (against Switzerland) we played well but we failed with the final ball, but we are not going to change our style,",
+   "verified": true
+  },
+  {
+   "title": "Aragones to Del Bosque: Spain's evolution - Football Espana",
+   "url": "https://www.football-espana.net/2012/07/02/aragones-to-del-bosque-spains-evolution",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-07-02",
+   "eventDate": "2012-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Yet their lack of a cutting edge almost saw them exit the tournament first against Croatia in the final group stage match and again against Portugal in the semi-finals.",
+   "verified": true
+  },
+  {
+   "title": "Players say Spain won't make drastic style change - Reuters",
+   "url": "https://www.foxnews.com/sports/players-say-spain-wont-make-drastic-style-change",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-06-18",
+   "eventDate": "2010-06-18",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Our style is defined but that's not to say that we don't have other options,",
+   "verified": true
+  },
+  {
+   "title": "A-Z of the 2000s: Xavi - These Football Times",
+   "url": "https://thesefootballtimes.co/2019/11/29/a-z-of-the-2000s-xavi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-11-29",
+   "eventDate": "2009",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "The one who has the ball, is the master of the game.",
+   "verified": true
+  },
+  {
+   "title": "Tiqui Taca - Spielverlagerung glossary",
+   "url": "https://spielverlagerung.com/glossary/philosophies/tiqui-taca/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-11-03",
+   "eventDate": "2006-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Montes used the phrase to describe the passing style of the Spanish national team: “Estamos tocando tiki-taka tiki-taka.”",
+   "verified": true
+  },
+  {
+   "title": "A-Z of the 2000s: Xavi - These Football Times",
+   "url": "https://thesefootballtimes.co/2019/11/29/a-z-of-the-2000s-xavi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-11-29",
+   "eventDate": "2008/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "First, there’s a touch to control the ball and kill it dead, usually with his left foot. Then comes a second with the right, to move the ball the necessary distance in front of him so he can use a third touch to make the forensically precise pass.",
+   "verified": true
+  },
+  {
+   "title": "When Spain mastered tiki-taka football - Scroll.in",
+   "url": "https://scroll.in/field/996827/pause-rewind-play-when-spain-mastered-tiki-taka-football-to-unleash-an-era-of-global-dominance",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-06-06",
+   "eventDate": "2008-06",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "A traditional defensive midfielder with a very high work rate allowed Spain’s technical players to show their magic.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2011/12",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "The ball is idolised, and particularly in the most quintessential Barcelona training exercise – rondos, a kind of piggy-in-the-middle game.",
+   "verified": true
+  },
+  {
+   "title": "La Masia nurtures Barcelona's philosophy for technical excellence - SI",
+   "url": "https://www.si.com/more-sports/2010/12/09/la-masia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-12-09",
+   "eventDate": "2010-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Iniesta recalls the obsession being simple: It was \"receive, pass, offer\" over and over again.",
+   "verified": true
+  },
+  {
+   "title": "La Masia nurtures Barcelona's philosophy for technical excellence - SI",
+   "url": "https://www.si.com/more-sports/2010/12/09/la-masia",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-12-09",
+   "eventDate": "2010-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Better still, six had played for Barcelona at the youth level -- Gerard Piqué, Carles Puyol, Sergio Busquets, Xavi, Pedro Rodríguez and Iniesta -- and Spain's style was very much Barcelona's style.",
+   "verified": true
+  },
+  {
+   "title": "Barcelona Tactics: Why They Are the Best in Europe - Bleacher Report",
+   "url": "https://bleacherreport.com/articles/93217-barcelona-tactics-why-they-are-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-12-14",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Out went Ronaldinho, Zambrotta, and Deco and in came Keita, Hleb, and Alves and a number of academy graduates to go along with the other fine players that they already had.",
+   "verified": true
+  },
+  {
+   "title": "Learning from the Barcelona way - Irish Times",
+   "url": "https://www.irishtimes.com/sport/learning-from-the-barcelona-way-1.548567",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2012-10-06",
+   "eventDate": "2012-04",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "technical director of La Masia, Barcelona’s famous youth academy, which nurtured 10 of the 14 Barça players who featured in last April’s league tie against Real Madrid.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragones: The Godfather of Atletico Madrid, Part II - Into the Calderon",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "In a symbolic move, he dropped Raúl during Euro 2008 qualification, as he preferred to focus on the development of younger strikers - David Villa and Fernando Torres - who fit better with the timeline and playing style of Spain’s golden generation of midfielders.",
+   "verified": true
+  },
+  {
+   "title": "A-Z of the 2000s: Xavi - These Football Times",
+   "url": "https://thesefootballtimes.co/2019/11/29/a-z-of-the-2000s-xavi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-11-29",
+   "eventDate": "2008-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Pep told me that I was not going anywhere and explained how he could not imagine a Barcelona without me. I was captivated by what he said.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragones: Spain's Most Important Manager... Modern Father of Tiki-Taka - SI/90min",
+   "url": "https://www.si.com/soccer/2019/06/24/luis-aragones-spains-most-important-manager-atleti-rock-and-modern-father-tiki-taka",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-06-24",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Who Aragones told before kickoff, \"Niño, you're going to score today.\"",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragones: The Godfather of Atletico Madrid, Part II - Into the Calderon",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "“You’re the best there is. If we don’t win the Euros, it’s because I did a s*** job.”",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Estamos tocando tiki-taka tiki-taka.",
+   "date": "2006-06",
+   "source": "Andrés Montes, TV commentary, 2006 World Cup (via Spielverlagerung glossary; SI/90min places it in a Spain v Tunisia game)",
+   "provenance": "attributed",
+   "note": "Montes is generally credited with popularising the phrase; the term was already colloquial, and may originate with Javier Clemente complaining about long ball circulations. Possible origin: the Tiki Taka juggling toy (clackers)."
+  },
+  {
+   "quote": "el término tiki-taka, referido a algo tan simple como pasarse el balón en lugar de recurrir a su querido pelotazo",
+   "date": "2014-09",
+   "source": "Vozpopuli 2014-09-06, attributing the term to Javier Clemente",
+   "provenance": "attributed",
+   "note": "Date is the article date; undated claim. Vozpopuli says the term is pejorative; no primary Clemente quote found."
+  },
+  {
+   "quote": "Es un invento, no hagáis caso, el Barça no tenía nada de tiki-taka",
+   "date": "2014-09-04",
+   "source": "Guardiola in Martí Perarnau, Herr Pep (via Vozpopuli)",
+   "provenance": "attributed",
+   "note": "Date is the book publication date; said at Bayern, after the period; Guardiola rejected the label."
+  },
+  {
+   "quote": "I loathe all that passing for the sake of it, all that tiki-taka. It's so much rubbish and has no purpose.",
+   "date": "2014-10-16",
+   "source": "Guardiola in Perarnau's book on Bayern (via FourFourTwo, Goal)",
+   "provenance": "attributed",
+   "note": "Date is the report date, said at Bayern to his players; he added 'Barca didn't do tiki-taka. It's completely made up.' Wording varies between outlets."
+  },
+  {
+   "quote": "is stupid stuff and leads to nothing. You have to keep the ball for the purpose of getting near the opposing goal and doing damage.",
+   "date": "2026-11-03",
+   "source": "Guardiola via Spielverlagerung glossary",
+   "provenance": "attributed",
+   "note": "Date is the access date; no original source or date found (Guardiola, at Bayern or earlier)."
+  },
+  {
+   "quote": "Cargar mucho y atraer al contrario para que deje libre el costado débil. [...] Por eso hay que pasar el balón. Sí, pero con intención.",
+   "date": "2014-09-04",
+   "source": "Guardiola in Herr Pep (via Vozpopuli)",
+   "provenance": "attributed",
+   "note": "His own definition of the game: overload one side, then resolve on the opposite side."
+  },
+  {
+   "quote": "Football can be played well in many different ways. We do not possess a magic formula; we have an idea based on the players we have available. [...] Possession without depth has no meaning.",
+   "date": "2014-06",
+   "source": "Vicente del Bosque to Marca (via myfootball.com.au)",
+   "provenance": "attributed",
+   "note": "Said before the 2014 World Cup, after the counted period; shows he treated the style as adapted to squad."
+  },
+  {
+   "quote": "A team plays like its central midfielder and he was the representative of Spain. He marked our style.",
+   "date": "2019-11-29",
+   "source": "Del Bosque via These Football Times",
+   "provenance": "attributed",
+   "note": "Date is the article date; Del Bosque column in El País on Xavi retirement, its date is not stated."
+  },
+  {
+   "quote": "The one who has the ball, is the master of the game.",
+   "date": "2009",
+   "source": "Xavi to El Periódico (via These Football Times)",
+   "provenance": "attributed",
+   "note": ""
+  },
+  {
+   "quote": "Against Rayo we won 0-4, but Rayo had more possession than us. [...] it’s an absurd debate",
+   "date": "2013-11",
+   "source": "Mascherano to El Gráfico (via fcbarcelona.com)",
+   "provenance": "attributed",
+   "note": "After Guardiola; argues the style is about purpose, not possession percentage."
+  },
+  {
+   "quote": "the nonsensical phrase that has come to mean short passing, patience and possession above all else",
+   "date": "2026-11-03",
+   "source": "Sid Lowe, The Guardian (via Scroll.in)",
+   "provenance": "attributed",
+   "note": "Date is the access date; Guardian piece undated in source."
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.eurosport.com/football/la-liga/2011-2012/guardila-i-loathe-rubbish-tiki-taka_sto4440099/story.shtml",
+   "reason": "403"
+  },
+  {
+   "url": "https://medium.com/@yazdan.b/not-so-tiki-taka-208f8a011b2",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Johan Cruyff (Barcelona 1988-96, La Masia, rondos)",
+  "Rinus Michels and Total Football (Ajax, Netherlands)",
+  "Juego de posición / Salida Lavolpiana (Ricardo La Volpe)",
+  "Luis Aragonés (Spain from 2006)",
+  "Louis van Gaal and Frank Rijkaard (Barcelona)"
+ ],
+ "exemplars": [
+  {
+   "id": "spain-2008-12",
+   "kind": "team",
+   "reason": "Spain won Euro 2008, the 2010 World Cup and Euro 2012 with a possession-first model; the label was first applied to Aragonés's Spain."
+  },
+  {
+   "id": "barcelona-2008-12",
+   "kind": "team",
+   "reason": "Club side most associated with the style (68-75% possession, counter-press, La Masia core), though Guardiola rejected the name."
+  },
+  {
+   "id": "vicente-del-bosque",
+   "kind": "manager",
+   "reason": "Spain 2008-16; double pivot in 2010 and 4-6-0 in 2012, kept the style but called it 'an idea based on the players we have'."
+  },
+  {
+   "id": "luis-aragones",
+   "kind": "manager",
+   "reason": "Spain 2004-08; switched to a technical, possession-based approach around 2006 and won Euro 2008; the term was first used for his Spain."
+  },
+  {
+   "id": "pep-guardiola",
+   "kind": "manager",
+   "reason": "Barcelona 2008-12; perfected the model as juego de posición but disowned the tiki-taka label."
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Many in-period facts are verified, but mostly from tier C pieces and retrospective accounts; Guardiola's own statements are from 2014; marking and set-piece defending are not covered."
+ }
+}

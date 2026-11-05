@@ -2,21 +2,20 @@ package com.twelveaxes.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.twelveaxes.model.Book;
 import com.twelveaxes.model.AnswerOption;
 import com.twelveaxes.model.ArchetypeQuestion;
 import com.twelveaxes.model.AnswerValue;
 import com.twelveaxes.model.Axis;
-import com.twelveaxes.model.Country;
-import com.twelveaxes.model.CountryProfile;
+import com.twelveaxes.model.FootballIdeology;
+import com.twelveaxes.model.FootballIdeologyProfile;
 import com.twelveaxes.model.GlossaryEntry;
-import com.twelveaxes.model.Ideology;
-import com.twelveaxes.model.IdeologyProfile;
-import com.twelveaxes.model.Personality;
-import com.twelveaxes.model.PersonalityProfile;
+import com.twelveaxes.model.Manager;
+import com.twelveaxes.model.ManagerProfile;
 import com.twelveaxes.model.Question;
 import com.twelveaxes.model.QuestionHelpEntry;
 import com.twelveaxes.model.QuizPayload;
+import com.twelveaxes.model.Team;
+import com.twelveaxes.model.TeamProfile;
 import jakarta.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,46 +33,44 @@ import org.springframework.web.server.ResponseStatusException;
 public class QuizDataService {
     public static final String SHORT_VARIANT = "short";
     public static final String EXTENDED_VARIANT = "extended";
-    public static final String EXTREME_VARIANT = "extreme";
 
     public static final String LANG_PT = "pt";
     public static final String LANG_EN = "en";
 
     private final ObjectMapper objectMapper;
     private Map<String, LocaleBundle> bundles;
-    private Map<String, IdeologyProfile> ideologyProfiles;
-    private Map<String, CountryProfile> countryProfiles;
-    private Map<String, PersonalityProfile> personalityProfiles;
-    private Map<String, Book> books;
+    private Map<String, FootballIdeologyProfile> footballIdeologyProfiles;
+    private Map<String, TeamProfile> teamProfiles;
+    private Map<String, ManagerProfile> managerProfiles;
     private List<ArchetypeQuestion> archetypeQuestions;
 
     // Textos por locale: profiles/vetores são independentes de idioma e ficam fora do bundle.
     private record LocaleBundle(
             List<Axis> axes,
             List<Question> questions,
-            List<Ideology> ideologies,
-            Map<String, Ideology> ideologiesById,
-            List<Country> countries,
-            Map<String, Country> countriesById,
-            List<Personality> personalities,
-            Map<String, Personality> personalitiesById
+            List<FootballIdeology> footballIdeologies,
+            Map<String, FootballIdeology> footballIdeologiesById,
+            List<Team> teams,
+            Map<String, Team> teamsById,
+            List<Manager> managers,
+            Map<String, Manager> managersById
     ) {
         static LocaleBundle of(
                 List<Axis> axes,
                 List<Question> questions,
-                List<Ideology> ideologies,
-                List<Country> countries,
-                List<Personality> personalities
+                List<FootballIdeology> footballIdeologies,
+                List<Team> teams,
+                List<Manager> managers
         ) {
             return new LocaleBundle(
                     axes,
                     questions,
-                    ideologies,
-                    ideologies.stream().collect(Collectors.toUnmodifiableMap(Ideology::id, Function.identity())),
-                    countries,
-                    countries.stream().collect(Collectors.toUnmodifiableMap(Country::id, Function.identity())),
-                    personalities,
-                    personalities.stream().collect(Collectors.toUnmodifiableMap(Personality::id, Function.identity()))
+                    footballIdeologies,
+                    footballIdeologies.stream().collect(Collectors.toUnmodifiableMap(FootballIdeology::id, Function.identity())),
+                    teams,
+                    teams.stream().collect(Collectors.toUnmodifiableMap(Team::id, Function.identity())),
+                    managers,
+                    managers.stream().collect(Collectors.toUnmodifiableMap(Manager::id, Function.identity()))
             );
         }
     }
@@ -94,50 +91,41 @@ public class QuizDataService {
                 readOptionalJson("data/question-help.json", new TypeReference<List<QuestionHelpEntry>>() {}),
                 "question-help.json"
         );
-        List<Ideology> ideologies = readJson("data/ideologies.json", new TypeReference<>() {});
-        List<Country> countries = readJson("data/countries.json", new TypeReference<>() {});
-        List<Personality> personalities = readJson("data/personalities.json", new TypeReference<>() {});
+        List<FootballIdeology> footballIdeologies = readJson("data/football-ideologies.json", new TypeReference<>() {});
+        List<Team> teams = readJson("data/teams.json", new TypeReference<>() {});
+        List<Manager> managers = readJson("data/managers.json", new TypeReference<>() {});
 
         // Mapas na ordem dos JSONs: toUnmodifiableMap embaralha a iteracao a cada
         // JVM, o que mudava os exemplos da tensao entre reinicios do servidor.
-        List<IdeologyProfile> profiles = readJson("data/ideology-profiles.json", new TypeReference<>() {});
-        ideologyProfiles = profiles.stream()
-                .collect(Collectors.collectingAndThen(
-                        Collectors.toMap(IdeologyProfile::ideologyId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
-                        java.util.Collections::unmodifiableMap));
-        List<CountryProfile> countryProfileList = readJson("data/countries-profiles.json", new TypeReference<>() {});
-        countryProfiles = countryProfileList.stream()
-                .collect(Collectors.collectingAndThen(
-                        Collectors.toMap(CountryProfile::countryId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
-                        java.util.Collections::unmodifiableMap));
-        List<PersonalityProfile> personalityProfileList = readJson("data/personality-profiles.json", new TypeReference<>() {});
-        personalityProfiles = personalityProfileList.stream()
-                .collect(Collectors.collectingAndThen(
-                        Collectors.toMap(PersonalityProfile::personalityId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
-                        java.util.Collections::unmodifiableMap));
+        footballIdeologyProfiles = orderedById(
+                readJson("data/football-ideology-profiles.json", new TypeReference<List<FootballIdeologyProfile>>() {}),
+                FootballIdeologyProfile::footballIdeologyId);
+        teamProfiles = orderedById(
+                readJson("data/team-profiles.json", new TypeReference<List<TeamProfile>>() {}),
+                TeamProfile::teamId);
+        managerProfiles = orderedById(
+                readJson("data/manager-profiles.json", new TypeReference<List<ManagerProfile>>() {}),
+                ManagerProfile::managerId);
 
+        validateQuestions(axes, questions);
         archetypeQuestions = readJson("data/archetype-questions.json", new TypeReference<>() {});
         validateArchetypeQuestions(axes);
 
-        LocaleBundle pt = LocaleBundle.of(axes, questions, ideologies, countries, personalities);
+        LocaleBundle pt = LocaleBundle.of(axes, questions, footballIdeologies, teams, managers);
         LocaleBundle en = buildEnglishBundle(pt);
         bundles = Map.of(LANG_PT, pt, LANG_EN, en);
 
-        List<Book> bookList = readJson("data/books.json", new TypeReference<>() {});
-        List<String> unknownBookAuthors = bookList.stream()
-                .map(Book::personalityId)
-                .filter(id -> !pt.personalitiesById().containsKey(id))
-                .toList();
-        if (!unknownBookAuthors.isEmpty()) {
-            throw new IllegalStateException("books.json cita personalidades inexistentes: " + unknownBookAuthors);
-        }
-        books = bookList.stream()
-                .collect(Collectors.toUnmodifiableMap(Book::personalityId, Function.identity()));
+        validateProfiles("team-profiles.json", pt.teamsById().keySet(), teamProfiles.keySet());
+        validateProfiles("manager-profiles.json", pt.managersById().keySet(), managerProfiles.keySet());
+        validateProfiles("football-ideology-profiles.json", pt.footballIdeologiesById().keySet(),
+                footballIdeologyProfiles.keySet());
+        validateFootballIdeologyLinks(pt);
+    }
 
-        validateCountryProfiles(pt);
-        validateIdeologyProfiles(pt);
-        validateIdeologyPersonalityLinks(pt);
-        validatePersonalityProfiles(pt);
+    private static <T> Map<String, T> orderedById(List<T> items, Function<T, String> id) {
+        return items.stream().collect(Collectors.collectingAndThen(
+                Collectors.toMap(id, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
+                java.util.Collections::unmodifiableMap));
     }
 
     // Overlays em data/i18n/en/*.json trazem só os campos de texto, chaveados por id.
@@ -145,9 +133,9 @@ public class QuizDataService {
     private LocaleBundle buildEnglishBundle(LocaleBundle pt) throws IOException {
         Map<String, Map<String, String>> axesTr = readOverlay("data/i18n/en/axes.json");
         Map<String, Map<String, String>> questionsTr = readOverlay("data/i18n/en/questions.json");
-        Map<String, Map<String, String>> ideologiesTr = readOverlay("data/i18n/en/ideologies.json");
-        Map<String, Map<String, String>> countriesTr = readOverlay("data/i18n/en/countries.json");
-        Map<String, Map<String, String>> personalitiesTr = readOverlay("data/i18n/en/personalities.json");
+        Map<String, Map<String, String>> footballIdeologiesTr = readOverlay("data/i18n/en/football-ideologies.json");
+        Map<String, Map<String, String>> teamsTr = readOverlay("data/i18n/en/teams.json");
+        Map<String, Map<String, String>> managersTr = readOverlay("data/i18n/en/managers.json");
 
         List<Axis> axes = pt.axes().stream().map(axis -> {
             Map<String, String> tr = axesTr.get(axis.id());
@@ -179,61 +167,55 @@ public class QuizDataService {
                 "i18n/en/question-help.json"
         );
 
-        List<Ideology> ideologies = pt.ideologies().stream().map(ideology -> {
-            Map<String, String> tr = ideologiesTr.get(ideology.id());
+        List<FootballIdeology> footballIdeologies = pt.footballIdeologies().stream().map(ideology -> {
+            Map<String, String> tr = footballIdeologiesTr.get(ideology.id());
             if (tr == null) return ideology;
-            return new Ideology(
+            return new FootballIdeology(
                     ideology.id(),
                     tr.getOrDefault("name", ideology.name()),
                     tr.getOrDefault("category", ideology.category()),
                     tr.getOrDefault("description", ideology.description()),
                     tr.getOrDefault("phrase", ideology.phrase()),
-                    ideology.countryId(),
-                    ideology.personalityId(),
-                    ideology.vector(),
-                    ideology.religions()
+                    ideology.teamId(),
+                    ideology.managerId(),
+                    ideology.vector()
             );
         }).toList();
 
-        List<Country> countries = pt.countries().stream().map(country -> {
-            Map<String, String> tr = countriesTr.get(country.id());
-            if (tr == null) return country;
-            return new Country(
-                    country.id(),
-                    tr.getOrDefault("name", country.name()),
-                    tr.getOrDefault("category", country.category()),
-                    tr.getOrDefault("description", country.description()),
-                    country.flagPath(),
-                    country.flagKind(),
-                    country.flagSourceName(),
-                    country.flagSourceUrl(),
-                    country.flagNote(),
-                    country.historical(),
-                    country.period(),
-                    country.vector(),
-                    country.religions()
+        List<Team> teams = pt.teams().stream().map(team -> {
+            Map<String, String> tr = teamsTr.get(team.id());
+            if (tr == null) return team;
+            return new Team(
+                    team.id(),
+                    tr.getOrDefault("name", team.name()),
+                    tr.getOrDefault("category", team.category()),
+                    tr.getOrDefault("description", team.description()),
+                    tr.getOrDefault("period", team.period()),
+                    team.imagePath(),
+                    team.imageSourceName(),
+                    team.imageSourceUrl(),
+                    team.imageNote(),
+                    team.vector()
             );
         }).toList();
 
-        List<Personality> personalities = pt.personalities().stream().map(personality -> {
-            Map<String, String> tr = personalitiesTr.get(personality.id());
-            if (tr == null) return personality;
-            return new Personality(
-                    personality.id(),
-                    tr.getOrDefault("name", personality.name()),
-                    tr.getOrDefault("role", personality.role()),
-                    personality.category(),
-                    personality.lifespan(),
-                    tr.getOrDefault("description", personality.description()),
-                    personality.imagePath(),
-                    personality.imageSourceName(),
-                    personality.imageSourceUrl(),
-                    personality.imageNote(),
-                    personality.religions()
+        List<Manager> managers = pt.managers().stream().map(manager -> {
+            Map<String, String> tr = managersTr.get(manager.id());
+            if (tr == null) return manager;
+            return new Manager(
+                    manager.id(),
+                    tr.getOrDefault("name", manager.name()),
+                    manager.category(),
+                    manager.period(),
+                    tr.getOrDefault("description", manager.description()),
+                    manager.imagePath(),
+                    manager.imageSourceName(),
+                    manager.imageSourceUrl(),
+                    manager.imageNote()
             );
         }).toList();
 
-        return LocaleBundle.of(axes, questions, ideologies, countries, personalities);
+        return LocaleBundle.of(axes, questions, footballIdeologies, teams, managers);
     }
 
     private Map<String, Map<String, String>> readOverlay(String path) throws IOException {
@@ -262,63 +244,33 @@ public class QuizDataService {
         return bundles.get(normalizeLang(lang));
     }
 
-    private void validateCountryProfiles(LocaleBundle pt) {
-        List<String> missing = pt.countries().stream()
-                .map(Country::id)
-                .filter(id -> !countryProfiles.containsKey(id))
-                .toList();
+    // Todo item do catalogo precisa de um perfil, e todo perfil precisa apontar para um item.
+    private static void validateProfiles(String file, java.util.Set<String> catalogIds, java.util.Set<String> profileIds) {
+        List<String> missing = catalogIds.stream().filter(id -> !profileIds.contains(id)).sorted().toList();
         if (!missing.isEmpty()) {
-            throw new IllegalStateException(
-                    "Todo pais precisa de um perfil em countries-profiles.json. Faltando: " + missing
-            );
+            throw new IllegalStateException(file + ": faltam perfis para " + missing);
         }
-
-        List<String> unknown = countryProfiles.keySet().stream()
-                .filter(id -> !pt.countriesById().containsKey(id))
-                .toList();
+        List<String> unknown = profileIds.stream().filter(id -> !catalogIds.contains(id)).sorted().toList();
         if (!unknown.isEmpty()) {
-            throw new IllegalStateException(
-                    "countries-profiles.json aponta para paises inexistentes: " + unknown
-            );
+            throw new IllegalStateException(file + " aponta para ids inexistentes: " + unknown);
         }
     }
 
-    private void validateIdeologyProfiles(LocaleBundle pt) {
-        List<String> missing = pt.ideologies().stream()
-                .map(Ideology::id)
-                .filter(id -> !ideologyProfiles.containsKey(id))
-                .toList();
-        if (!missing.isEmpty()) {
-            throw new IllegalStateException(
-                    "Toda ideologia precisa de um perfil em ideology-profiles.json. Faltando: " + missing
-            );
-        }
-    }
-
-    private void validateIdeologyPersonalityLinks(LocaleBundle pt) {
-        List<String> broken = pt.ideologies().stream()
-                .filter(ideology -> ideology.personalityId() == null
-                        || ideology.personalityId().isBlank()
-                        || !pt.personalitiesById().containsKey(ideology.personalityId()))
-                .map(ideology -> ideology.id() + " -> " + ideology.personalityId())
+    // teamId e managerId sao opcionais, mas quando presentes precisam existir nos catalogos.
+    private void validateFootballIdeologyLinks(LocaleBundle pt) {
+        List<String> broken = pt.footballIdeologies().stream()
+                .filter(ideology -> brokenLink(ideology.teamId(), pt.teamsById())
+                        || brokenLink(ideology.managerId(), pt.managersById()))
+                .map(FootballIdeology::id)
                 .toList();
         if (!broken.isEmpty()) {
             throw new IllegalStateException(
-                    "Toda ideologia precisa de um personalityId que resolva para uma personalidade existente. Inválidos: " + broken
-            );
+                    "football-ideologies.json: teamId ou managerId inexistente em " + broken);
         }
     }
 
-    private void validatePersonalityProfiles(LocaleBundle pt) {
-        List<String> missing = pt.personalities().stream()
-                .map(Personality::id)
-                .filter(id -> !personalityProfiles.containsKey(id))
-                .toList();
-        if (!missing.isEmpty()) {
-            throw new IllegalStateException(
-                    "Toda personalidade precisa de um perfil em personality-profiles.json. Faltando: " + missing
-            );
-        }
+    private static boolean brokenLink(String id, Map<String, ?> catalog) {
+        return id != null && !id.isBlank() && !catalog.containsKey(id);
     }
 
     public QuizPayload getQuiz() {
@@ -333,19 +285,13 @@ public class QuizDataService {
         String normalizedVariant = normalizeVariant(variant);
         String normalizedLang = normalizeLang(lang);
         LocaleBundle data = bundle(normalizedLang);
-        int questionsPerAxis = switch (normalizedVariant) {
-            case EXTREME_VARIANT -> 0;
-            case EXTENDED_VARIANT -> 5;
-            default -> 3;
-        };
-        int questionCount = normalizedVariant.equals(EXTREME_VARIANT)
-                ? data.questions().size()
-                : questionsPerAxis * data.axes().size();
+        int questionsPerAxis = normalizedVariant.equals(EXTENDED_VARIANT) ? 5 : 3;
+        int questionCount = questionsPerAxis * data.axes().size();
         String description = normalizedLang.equals(LANG_EN)
-                ? "A quiz of " + questionCount + " questions to estimate your position on the 12 political axes."
-                : "Um quiz de " + questionCount + " perguntas para estimar sua posição nos 12 eixos políticos.";
+                ? "A quiz of " + questionCount + " questions to estimate your position on the 12 football axes."
+                : "Um quiz de " + questionCount + " perguntas para estimar sua posição nos 12 eixos do futebol.";
         return new QuizPayload(
-                "12 Axes",
+                "12 Axes Football",
                 description,
                 normalizedVariant,
                 questionCount,
@@ -359,6 +305,22 @@ public class QuizDataService {
 
     public List<ArchetypeQuestion> getArchetypeQuestions() {
         return archetypeQuestions;
+    }
+
+    // O segundo eixo de uma pergunta precisa existir, ser outro eixo e pesar entre 0 e 1.
+    private static void validateQuestions(List<Axis> axes, List<Question> questions) {
+        java.util.Set<String> axisIds = axes.stream().map(Axis::id).collect(Collectors.toSet());
+        for (Question question : questions) {
+            Question.Secondary secondary = question.secondary();
+            boolean invalid = !axisIds.contains(question.axisId())
+                    || secondary != null && (!axisIds.contains(secondary.axisId())
+                            || secondary.axisId().equals(question.axisId())
+                            || secondary.agreePole() == null
+                            || secondary.weight() <= 0 || secondary.weight() > 1);
+            if (invalid) {
+                throw new IllegalStateException("questions-pool.json: eixo inválido em " + question.id());
+            }
+        }
     }
 
     // Cada efeito precisa apontar para um eixo real com valor 0–100: um erro de
@@ -398,70 +360,41 @@ public class QuizDataService {
         return bundle(lang).questions();
     }
 
-    public List<Ideology> getIdeologies() {
-        return getIdeologies(LANG_PT);
+    public List<FootballIdeology> getFootballIdeologies(String lang) {
+        return bundle(lang).footballIdeologies();
     }
 
-    public List<Ideology> getIdeologies(String lang) {
-        return bundle(lang).ideologies();
+    public FootballIdeology getFootballIdeologyById(String id, String lang) {
+        return bundle(lang).footballIdeologiesById().get(id);
     }
 
-    public Ideology getIdeologyById(String id) {
-        return getIdeologyById(id, LANG_PT);
+    public Map<String, FootballIdeologyProfile> getFootballIdeologyProfiles() {
+        return footballIdeologyProfiles;
     }
 
-    public Ideology getIdeologyById(String id, String lang) {
-        return bundle(lang).ideologiesById().get(id);
+    public List<Team> getTeams(String lang) {
+        return bundle(lang).teams();
     }
 
-    public Country getCountryById(String id) {
-        return getCountryById(id, LANG_PT);
+    public Team getTeamById(String id, String lang) {
+        return bundle(lang).teamsById().get(id);
     }
 
-    public Country getCountryById(String id, String lang) {
-        return bundle(lang).countriesById().get(id);
+    public Map<String, TeamProfile> getTeamProfiles() {
+        return teamProfiles;
     }
 
-    public List<Personality> getPersonalities() {
-        return getPersonalities(LANG_PT);
+    public List<Manager> getManagers(String lang) {
+        return bundle(lang).managers();
     }
 
-    public List<Personality> getPersonalities(String lang) {
-        return bundle(lang).personalities();
+    public Manager getManagerById(String id, String lang) {
+        return bundle(lang).managersById().get(id);
     }
 
-    public Personality getPersonalityById(String id) {
-        return getPersonalityById(id, LANG_PT);
+    public Map<String, ManagerProfile> getManagerProfiles() {
+        return managerProfiles;
     }
-
-    public Personality getPersonalityById(String id, String lang) {
-        return bundle(lang).personalitiesById().get(id);
-    }
-
-    public Map<String, Book> getBooks() {
-        return books;
-    }
-
-    public Map<String, IdeologyProfile> getIdeologyProfiles() {
-        return ideologyProfiles;
-    }
-
-    public List<Country> getCountries() {
-        return getCountries(LANG_PT);
-    }
-
-    public List<Country> getCountries(String lang) {
-        return bundle(lang).countries();
-    }
-
-    public Map<String, CountryProfile> getCountryProfiles() {
-        return countryProfiles;
-    }
-
-    public Map<String, PersonalityProfile> getPersonalityProfiles() {
-        return personalityProfiles;
-    }
-
 
     private List<AnswerOption> answerOptions(String lang) {
         return Arrays.stream(AnswerValue.values())
@@ -495,7 +428,6 @@ public class QuizDataService {
         return switch (variant.trim().toLowerCase()) {
             case SHORT_VARIANT, "curta" -> SHORT_VARIANT;
             case EXTENDED_VARIANT, "extensa" -> EXTENDED_VARIANT;
-            case EXTREME_VARIANT, "extrema", "240", "240questions" -> EXTREME_VARIANT;
             default -> throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Versão de quiz inválida");
         };
     }

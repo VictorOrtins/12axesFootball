@@ -1,0 +1,797 @@
+{
+ "id": "manchester-united-2007-08",
+ "catalog": "team",
+ "name": "Manchester United 2007/08",
+ "researchedOn": "2026-11-04",
+ "profilePeriod": {
+  "start": "2007-08-05",
+  "end": "2008-05-21"
+ },
+ "scopeNote": "Manchester United 2007/08 under Alex Ferguson (Premier League and Champions League winners). Period: Community Shield 5 Aug 2007 (won on penalties v Chelsea, 'Charity Shield' in Breaking the Lines) to the Champions League final v Chelsea 21 May 2008; the league opener (v Reading) was 11 Aug 2007 if the Community Shield is not counted as competitive. Dates 5 Aug and 11 Aug are from memory and not verified in a mined page. Style term used by sources: fluid 4-4-2 / 4-2-3-1 morphing to 4-2-4 in attack with interchanging forwards (Ronaldo, Rooney, Tevez), not a fixed striker. Two corrections to the brief: Chelsea's manager in the final was Avram Grant (Queiroz was Ferguson's assistant at United, not Chelsea's coach); and no source mined describes the Barcelona or Chelsea set-up as 'Queiroz's two banks of four'. Evidence on the Barcelona tie that Hargreaves played right-back in both legs is from a search summary only (unverified). Honest label: United's pressing/zonal-vs-man marking of their own is not documented in any page read.",
+ "ambiguities": [],
+ "openQuestions": [
+  "No page read states whether United defended set pieces zonally or man-to-man in 2007/08.",
+  "Hargreaves at right-back vs Barcelona (both legs) is from an inkl/Hargreaves summary only; the page returned no paragraphs, so unverified. Wikipedia lineup (11v11) not parsed.",
+  "Spielverlagerung says the squad average age was 24, which looks too low for a side with Giggs (34), Scholes (33), Van der Sar (37) and Neville; treat as dubious.",
+  "Spielverlagerung has United dominating possession in the final; Wikipedia says Barcelona had the better of the first leg and United surrendered possession in the second leg: possession depended on opponent. No hard possession percentage for the season found (Barca site claims 69% v 31% in the first leg but the page was unreadable).",
+  "Ferguson's own explanation of the Barcelona and Chelsea set-ups (primary, dated) was not found beyond the quotes recorded.",
+  "Start date: Community Shield (5 Aug 2007) counted or not; league opener 11 Aug 2007; neither date verified from a mined page.",
+  "Wes Brown podcast and Silvestre 'how Queiroz helped us beat Barcelona' pages (manutd.com) could not be read for detail on the Queiroz contribution.",
+  "Spielverlagerung says Hargreaves struggled under pressure on the right in the final, while Mancunian Matters calls the set-up perfectly validated by the opening goal: the sources differ on how well the Hargreaves/Ronaldo set-up worked."
+ ],
+ "sources": [
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Manchester United controlled most of the possession in the game as they used Ferdinand and Vidic against Drogba with Scholes or Carrick dropping in to support when needed.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "The most impressive part of United’s possession game was their flank combinations between Cristiano and Evra. They were frequently able to break through as Evra would over or underlap Ronaldo as he dribbled inside.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "Scholes would frequently play long diagonal switches to Brown or Hargreaves to attack the far side",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Defensively United played in a compact 4-4-1-1/4-4-2 with either Tevez or Rooney (mostly Tevez) pressing Makelele.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Defensively United played in a compact 4-4-1-1/4-4-2 with either Tevez or Rooney (mostly Tevez) pressing Makelele. The Red Devils weren’t forced to defend in a deep defensive shape very often as Chelsea focused mainly on breaking through in offensive transitions",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "but when they defended they were quite stable for the most part and always had pressure on the ball in their own half.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "they didn’t have much possession in this match and looked mainly to try and score from quick counterattacks through the 3 forwards after defending in their 4-1-4-1 shape – but the Red Devils were able to control most of those offensive transitions quite well.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Ronaldo would frequently beat his man with diagonal dribbles onto his right foot which attracted the attention of either Essien or Cole who were meant to track Evra’s run",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Plus, Ronaldo doesn’t have the greatest defensive work rate as we all know.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "The average age of the entire squad was 24! Which is quite impressive given that there were still quite a few players from the Class of ’92 on the team.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: 2008 CL final Chelsea-Manchester United 1:1",
+   "url": "https://spielverlagerung.com/2015/12/26/2008-cl-final-chelsea-manchester-united-11-56-penalties/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-26",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Both teams ended up making all 3 substitutions but no important structural or strategic changes occurred",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "This inconsistency was fitting; because United’s formation was fluid, depending on the phase and state of play. In transitions, Giggs would act strictly as a third midfielder in order to offer United progressive passing options and overloads to play through Arsenal’s high tempo counter-pressing.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2008-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "In the first phase of build-up, Giggs often dropped as deep as the left back position to give United a good passer from deep; Evra would then make a forward run. Giggs would quickly attempt to find runners in behind with raking long passes; United’s front three would look to stretch Arsenal’s shape with runs in behind.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2008-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "transitions",
+   "evidence": "United’s front three would look to stretch Arsenal’s shape with runs in behind. Rooney, Ronaldo and Tevez wreaked havoc by doing so.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2008-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Brown would supply width on the right for Ronaldo to make inside runs, as well as being an option for recycling possession in the final third. Evra would make tireless underlapping or overlapping runs (depending on the situation), as well as providing width and an in-behind threat on the left where Giggs would move centrally and deep.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Scholes, Michael Carrick and Hargreaves helped United sustain pressure on teams by controlling games, consistently picking vertical passes into the front three and recycling possession in dangerous areas to pin the opposition back.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "Darren Fletcher, Anderson and Park could be used as more high energy options in midfield to relieve the defensive burden off the front three, although you’d do well to stop Rooney and Tevez from running over 12km per 90.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "the high-octane, 19-year-old central midfielder Anderson was signed from Porto for €30 million, 20-year-old fleet-footed winger Nani arrived from Sporting for €25.5 million, and England international Owen Hargreaves joined from Bayern Munich for around £17 million.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "Nemanja Vidić and Rio Ferdinand were undisputed starters at centre back, limiting young Catalan defender Gerard Piqué to nine starts across all competitions.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "Patrice Evra and Wes Brown would start 33 and 34 games in the league respectively due to Gabriel Heinze’s departure to Real Madrid, whilst Gary Neville managed just one appearance off the bench",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Rooney compressed United’s shape by dropping deep to offer for the ball. Tevez maintained a high position, threatening to run in-behind, stretching Wigan’s shape, giving space for Anderson to run into.",
+   "verified": true
+  },
+  {
+   "title": "Breaking the Lines: How Manchester United Built the Most Potent Attack in PL History, Part 2",
+   "url": "https://breakingthelines.com/@btl/how-manchester-united-built-the-most-potent-attack-in-premier-league-history-part-2-reaching-the-pinnacle",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-06-30",
+   "eventDate": "2007-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "The punditry then cut to Sir Alex’s pre-game interview where he professed that Tevez “didn’t train well” and wouldn’t be involved.",
+   "verified": true
+  },
+  {
+   "title": "Mancunian Matters: tactical review of the 2008 Champions League Final",
+   "url": "https://www.mancunianmatters.co.uk/?p=105030",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "he ignored he obvious selection of 4-3-3, instead starting with a lopsided 4-4-2 with Ronaldo high on the left and Hargreaves deployed deep on the right.",
+   "verified": true
+  },
+  {
+   "title": "Mancunian Matters: tactical review of the 2008 Champions League Final",
+   "url": "https://www.mancunianmatters.co.uk/?p=105030",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "Ronaldo was fielded on the left and given strict instructions to stay high and put Essien on the back foot from the off.",
+   "verified": true
+  },
+  {
+   "title": "Mancunian Matters: tactical review of the 2008 Champions League Final",
+   "url": "https://www.mancunianmatters.co.uk/?p=105030",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The fact Man Utd had eight outfield players defending on the edge of the penalty area when Drogba shot, highlighted Chelsea’s style of the time.",
+   "verified": true
+  },
+  {
+   "title": "Mancunian Matters: tactical review of the 2008 Champions League Final",
+   "url": "https://www.mancunianmatters.co.uk/?p=105030",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "pressing",
+   "evidence": "As Tevez instructed United to press and box Chelsea into the corner all hell brooke loose.",
+   "verified": true
+  },
+  {
+   "title": "Mancunian Matters: tactical review of the 2008 Champions League Final",
+   "url": "https://www.mancunianmatters.co.uk/?p=105030",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "The opening goal was perfect validation of Ferguson’s set up. Wes Brown played a quick 1-2 following with Paul Scholes.",
+   "verified": true
+  },
+  {
+   "title": "Mancunian Matters: tactical review of the 2008 Champions League Final",
+   "url": "https://www.mancunianmatters.co.uk/?p=105030",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Edwin kept diving to right on nearly every penalty. I was thinking go to your left",
+   "verified": true
+  },
+  {
+   "title": "Rio Ferdinand reveals his greatest ever United game was a 0-0 draw (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/rio-ferdinand-man-utd-greatest-best-game-match-barcelona-champions-league",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-02-11",
+   "eventDate": "2008-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "“Not just for me as an individual, but as a team, it was our best defensive performance. “That was all about concentration – it’s one of the biggest assets for any defender.”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Ferguson promises 'different' game (Mail & Guardian)",
+   "url": "https://mg.co.za/2008-04-28-ferguson-promises-different-game/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-04-28",
+   "eventDate": "2008-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "”We sealed off the areas where teams don’t normally do well against Barcelona,” he said. ”They had a lot of play around the box but our concentration was very good … They didn’t make a lot of chances.”",
+   "verified": true
+  },
+  {
+   "title": "Ferguson promises 'different' game (Mail & Guardian)",
+   "url": "https://mg.co.za/2008-04-28-ferguson-promises-different-game/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-04-28",
+   "eventDate": "2008-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "He added that ”they defended quite deep [in the first leg] but won’t be able to do that at home.” (Deco)",
+   "verified": true
+  },
+  {
+   "title": "United better equipped this time around (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/united-better-equipped-this-time-around-1.1221282",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-04-22",
+   "eventDate": "2008-04-22",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "“Last year we played the same team all the time and this time we haven't. I hope that makes a difference.",
+   "verified": true
+  },
+  {
+   "title": "United better equipped this time around (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/united-better-equipped-this-time-around-1.1221282",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-04-22",
+   "eventDate": "2008-04-22",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "\"1994 was a good lesson to us about the importance of ball retention,\" said Ferguson.",
+   "verified": true
+  },
+  {
+   "title": "United better equipped this time around (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/united-better-equipped-this-time-around-1.1221282",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-04-22",
+   "eventDate": "2008-04-22",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"Most times we've not been successful in semi-finals but I think we are in a much stronger position this year in terms of the energy of the team,\"",
+   "verified": true
+  },
+  {
+   "title": "Carrick drives United forward (UEFA.com)",
+   "url": "https://web.archive.org/web/2/https://www.uefa.com/uefachampionsleague/news/01cc-0e6f4be0477b-080ecf5964c3-1000--carrick-drives-united-forward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-04-21",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Despite Sir Alex Ferguson's favoured rotation policy, Carrick seized the opening presented by Hargreaves' long-standing tendonitis problem and his impressive form has restricted the former FC Bayern München man to just 215 minutes in the UEFA Champions League, spread over five games.",
+   "verified": true
+  },
+  {
+   "title": "Carrick drives United forward (UEFA.com)",
+   "url": "https://web.archive.org/web/2/https://www.uefa.com/uefachampionsleague/news/01cc-0e6f4be0477b-080ecf5964c3-1000--carrick-drives-united-forward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-04-21",
+   "eventDate": "2008-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "United's 1-0 defeat of AS Roma in the quarter-final second leg – which completed a 3-0 aggregate victory – was their eleventh successive UEFA Champions League win at Old Trafford, setting a new competition record",
+   "verified": true
+  },
+  {
+   "title": "Ferguson's team of all the talents offers multiple options",
+   "url": "https://www.inkl.com/news/ferguson-s-team-of-all-the-talents-offers-multiple-options",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-05",
+   "eventDate": "2007-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Ferguson has identified a player to suit a 4-2-3-1 formation that, when United are attacking, could metamorphose into 4-2-4. Tevez would join a pool of attackers capable of troubling the classiest defences, the emphasis being on speed, fluency and movement, with players interchanging roles. (pre-season July 2007 intent, outside the profile period: not counted as verified)",
+   "verified": false
+  },
+  {
+   "title": "Ferguson's team of all the talents offers multiple options",
+   "url": "https://www.inkl.com/news/ferguson-s-team-of-all-the-talents-offers-multiple-options",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-05",
+   "eventDate": "2007-07",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "\"That is the key,\" Ferguson said at the end of last season. \"Speed of play is so important these days.\" (pre-season July 2007 intent, outside the profile period: not counted as verified)",
+   "verified": false
+  },
+  {
+   "title": "Greatest individual seasons: Cristiano fires Manchester United to glory (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/cristiano-ronaldo-man-utd-200708-manchester-united-premier-league-champions",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-02-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "width",
+   "evidence": "In the league he hit 31 goals in 34 appearances at a rate of a goal every 88.6 minutes. If those numbers appear staggering enough in their own right, it’s worth a reminder that Ronaldo was only 22 at the start of this jaw-dropping season. And was playing on the wing.",
+   "verified": true
+  },
+  {
+   "title": "Greatest individual seasons: Cristiano fires Manchester United to glory (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/cristiano-ronaldo-man-utd-200708-manchester-united-premier-league-champions",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-02-05",
+   "eventDate": "2007-08",
+   "accessedOn": "2026-11-04",
+   "dimension": "people-management",
+   "evidence": "Ferguson claimed his star winger had been provoked but fined his player anyway. “He's fallen for it,” said Ferguson. “You have to have a bit of calmness. You have to remind yourself you're a better player than they are.”",
+   "verified": true
+  },
+  {
+   "title": "Greatest individual seasons: Cristiano fires Manchester United to glory (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/cristiano-ronaldo-man-utd-200708-manchester-united-premier-league-champions",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-02-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Ronaldo redefined the art of the free-kick, perfecting a style that sent the ball rocketing off straight as an arrow and yet simultaneously loaded with dip and swerve.",
+   "verified": true
+  },
+  {
+   "title": "Greatest individual seasons: Cristiano fires Manchester United to glory (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/cristiano-ronaldo-man-utd-200708-manchester-united-premier-league-champions",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2021-02-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-04",
+   "dimension": "player-profile",
+   "evidence": "His link-up play with fellow frontmen Carlos Tevez and Wayne Rooney was also outstanding.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-03-19",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "it took just nine minutes for Cristiano Ronaldo, the team's captain for the day, to find the back of the net after Carlos Tevez's poorly hit bicycle kick was saved. That goal brought Ronaldo level with George Best's record of 32 goals from midfield in a season, but only ten minutes later, the record was broken. Fouled about 10 yards outside the penalty area, Ronaldo set himself up for one of his trademark free kicks",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-03-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "set-pieces",
+   "evidence": "Nani, just on as a substitute, took a corner from the left hand side, which Cristiano Ronaldo headed in from seven yards; his first goal against Liverpool.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-04-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "Despite surrendering huge swathes of possession to Barcelona, United nearly extended their lead shortly before half time",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-04-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "The second half of the match saw a challenging Barcelona that simply failed to get a vital away goal, mostly thanks to a very good defensive work by the Red Devils, the game ending 1–0.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-04-01",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "on the hour mark, in response to a header on goal by Mirko Vučinić that brought about a world class save from Edwin van der Sar, Alex Ferguson called for his team to adopt a more conservative formation, bringing on Owen Hargrea",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-04-15",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "Cristiano Ronaldo, Wayne Rooney and Paul Scholes were left on the bench, as Alex Ferguson obviously had an eye on the following weekend's match against Arsenal.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-04-26",
+   "accessedOn": "2026-11-04",
+   "dimension": "squad-building",
+   "evidence": "with several players rested with Barcelona on Tuesday in mind, and Nemanja Vidić having to be substituted early on after a knee to the face, the odds never looked in United's favour.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-04-23",
+   "accessedOn": "2026-11-04",
+   "dimension": "build-up",
+   "evidence": "United were awarded a penalty three minutes into the game, after Gabriel Milito handled Cristiano Ronaldo's header from a corner.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia: 2007-08 Manchester United F.C. season",
+   "url": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-07-22",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "possession",
+   "evidence": "United had the run of the play in the first half of the final, dominating Chelsea in terms of possession, and took the lead in the 26th minute through a Cristiano Ronaldo header off a Wes Brown cross.",
+   "verified": true
+  },
+  {
+   "title": "Rooney questions Ferguson's 'suicidal' Champions League final tactics (FotMob)",
+   "url": "https://www.fotmob.com/es/news/1ap3eho1xoq131xvtstaqo4v0a/rooney-questions-fergusons-suicidal-champions-league-final-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-02",
+   "eventDate": "2008-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "defensive-block",
+   "evidence": "I think all the players knew, deep down, it was the wrong approach, that we were abandoning the way that had brought us success in that 2008 semi-final — and sure enough both times we got outplayed.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Scholes explains how he knew Man Utd would win 2008 CL (Football365)",
+   "url": "https://www.football365.com/news/paul-scholes-explains-man-utd-win-champions-league-ferguson-grant",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-11-17",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "stated-view",
+   "evidence": "Man Utd legend Paul Scholes says he “couldn’t see how Avram Grant could beat Alex Ferguson” ahead of the 2008 Champions League final.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Ferguson reaction after the final (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/on-this-day-in-2008-manchester-united-beat-chelsea-in-champions-league-final-1653051646000",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-05-21",
+   "eventDate": "2008-05-21",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "“The slip by Terry gave us an opening and I thought we would win it then.",
+   "verified": true
+  },
+  {
+   "title": "Carrick drives United forward / Mail&Guardian marking",
+   "url": "https://mg.co.za/2008-04-28-ferguson-promises-different-game/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-04-28",
+   "eventDate": "2008-04-29",
+   "accessedOn": "2026-11-04",
+   "dimension": "game-management",
+   "evidence": "Ferguson told the media that ”the game now starts at Old Trafford — it’s the decider.” ”At home, with the atmosphere, we’ll be quite different to the first game.”",
+   "verified": true
+  },
+  {
+   "title": "Hargreaves at right-back for both legs (inkl aggregator)",
+   "url": "https://inkl.com/news/sir-alex-ferguson-used-surprise-position-switch-with-man-utd-player-to-beat-barcelona",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2023-02-23",
+   "eventDate": "2008-04",
+   "accessedOn": "2026-11-04",
+   "dimension": "shape",
+   "evidence": "Ferguson opted to deploy him at right-back for both legs of that famous semi-final (search summary only; page text not read)",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Speed of play is so important these days.",
+   "date": "2007-05",
+   "source": "Ferguson at the end of 2006/07, quoted in 'Ferguson's team of all the talents offers multiple options' (Independent via inkl, 2007-07-05)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Last year we played the same team all the time and this time we haven't. I hope that makes a difference.",
+   "date": "2008-04-22",
+   "source": "Irish Times (Reuters), United better equipped this time around",
+   "provenance": "primary"
+  },
+  {
+   "quote": "1994 was a good lesson to us about the importance of ball retention. [...] Barcelona's quality and possession was far superior to us",
+   "date": "2008-04-22",
+   "source": "Irish Times, United better equipped this time around",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We sealed off the areas where teams don’t normally do well against Barcelona. They had a lot of play around the box but our concentration was very good",
+   "date": "2008-04-27",
+   "source": "Mail & Guardian, Ferguson promises 'different' game, 2008-04-28",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We had a cause which was very important. People with causes are difficult to battle against and I think fate was playing its part today.",
+   "date": "2008-05-21",
+   "source": "FourFourTwo, On this day in 2008 (2022)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "He's fallen for it. You have to have a bit of calmness. You have to remind yourself you're a better player than they are.",
+   "date": "2007-08",
+   "source": "FourFourTwo on Ferguson after Ronaldo's red card at Portsmouth",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We're Man United and we're going to attack, it's in the culture of this football club",
+   "date": "2011-05",
+   "source": "Rooney recalling Ferguson on the 2009 and 2011 Champions League finals v Barcelona (outside the profile period), via FotMob 2020-08-02",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.manutd.com/en/news/detail/owen-hargreaves-and-paul-scholes-recall-2008-champions-league-memories-v-barcelona",
+   "reason": "empty"
+  },
+  {
+   "url": "https://inkl.com/news/sir-alex-ferguson-used-surprise-position-switch-with-man-utd-player-to-beat-barcelona",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.manutd.com/en/news/detail/glory-days-story-of-2007-08-premier-league-title-win",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/01cb-0e6f18be22a4-2085b0e98ba5-1000--quality-in-depth-keeps-united-fresh",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.manutd.com/en/amp/news/detail/mikael-silvestre-reflects-on-man-utd-1-barcelona-0-in-2008",
+   "reason": "404"
+  },
+  {
+   "url": "https://arxiu.fcbarcelona.cat/web/english/noticies/futbol/temporada07-08/04/n080428102283.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.manutd.com/en/news/detail/wes-brown-reveals-tactics-from-2008-champions-league-final-on-utd-podcast",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.11v11.com/matches/barcelona-v-manchester-united-23-april-2008-281206/",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.manutd.com/en/news/detail/mikael-silvestre-reflects-on-man-utd-1-barcelona-0-in-2008",
+   "reason": "empty"
+  }
+ ],
+ "influences": [],
+ "managers": [
+  {
+   "managerId": "alex-ferguson",
+   "start": "2007-08-05",
+   "end": "2008-05-21"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Final well covered by Spielverlagerung (B) plus Breaking the Lines (B) for league play and full-backs, but the Barcelona semi-final rests on Wikipedia, Ferguson quotes and one retrospective; no Zonal Marking, Coaches' Voice or Cox page was found, no hard possession/pressing data, and United's own set-piece marking is undocumented."
+ }
+}

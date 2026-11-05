@@ -1,0 +1,689 @@
+{
+ "id": "gegenpressing",
+ "catalog": "football-ideology",
+ "name": "Gegenpressing (counter-pressing)",
+ "researchedOn": "2026-11-03",
+ "profilePeriod": {
+  "start": "2008-07-01",
+  "end": "2020-12-31"
+ },
+ "scopeNote": "Gegenpressing (counter-pressing): immediate, collective attempt to win the ball back right after losing it, as an attacking weapon ('best playmaker') rather than only a defensive tool. Period: from Klopp's first Dortmund season and Rangnick's Hoffenheim in the Bundesliga (2008/09, Klopp's 'that's the kind of football we want to play' after the 4-1, Sept 2008) to Klopp's Liverpool title (2019/20) and Rangnick's second Leipzig spell (2018/19); dates are season-level, not matches, and the end is a convenient bound. The idea is older (Lobanovskiy's Dynamo Kiev, Sacchi's Milan, Wolfgang Frank/Mainz) and later spread (Guardiola, Tuchel, Nagelsmann); these are only context. 'Gegenpressing' is the term sources use; English 'counter-pressing' is a translation. Popular label to watch: it is not pressing's mirror of counter-attacking ('not necessarily countering a press, but pressing a counter', Cox). Not the same as high pressing: Dortmund mostly used a medium block with triggers. Note on dates: Coaches' Voice 2022 and VOOR 2024 are generic explainers; their eventDate is set to 2008/09 or 2010/11 (start of the period) only to satisfy the single-season format.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Origin of the term is unresolved: no source read says who coined 'Gegenpressing'. German Wikipedia (search summary only, not read) dates its addition to pressing vocabulary to about 2012 via Klopp at Dortmund; Goal.com (summary) says Klopp is not the inventor; FourFourTwo calls Rangnick 'widely credited' and says Klopp and Tuchel credit him; Coaches' Voice also lists Wolfgang Frank. Need a primary German source (Rangnick/Klopp interview, Escher's Vom Libero zur Doppelsechs) for the first use.",
+  "Klopp vs Rangnick differences: Rangnick's tradition is ball-oriented zonal marking with pressing (Ballorientierte Raumdeckung, via Helmut Gross) plus the 8-10 second transition window and 'swarming'; Klopp's version is described as space-oriented, emotional, crowding the ball (Sky/Cox: 'less calculating and more extreme'). The verified evidence on Rangnick's pressing traps is thin; not found in period. Rangnick himself stresses control, risky passes towards second balls and speed over possession ('Ballbesitzfirlefanz').",
+  "Marking: sources disagree on label. SI 2015: Klopp 'prefers a space-oriented' counter-press, man-oriented and ball-oriented are other variants; Coaches' Voice says teams either man-mark, mark zonally or combine; Rangnick (2020) notes a comeback of 'more man-oriented marking' in rivals. Not a single marking rule.",
+  "Dortmund 2010-13 was not a pure high press: Cox says a medium block and no full-pitch press; Bleacher Report says the 2010/11 version was purest and had to be adapted for the Champions League (2012/13) with more containment. Bleacher Report's 'always counterattack' summary versus Coaches' Voice's note that Liverpool counter-pressed less over time.",
+  "Label 'best playmaker': the exact words vary (BR 2013 'gegenpressing is the best playmaker there is'; MNF 2016 'No playmaker in the world can be as good as a good counter pressing situation'). The earliest primary dated source is not found.",
+  "Rangnick's Hoffenheim (2006-11) and Leipzig (2012-19) evidence is mostly later retrospectives (Sky 2021, FourFourTwo 2021); only the RBLive 2018 and Coaches' Voice 2020 texts are close to period. Squad-building and people-management evidence for Rangnick is thin.",
+  "Date check: Bleacher Report page metadata gives 2018-06-03, but the text ('at 46', 'earlier in September' Hamburg 6-2, Marseille 'last week' Ajax) points to September 2013; articleDate set to 2013-09-20 as an estimate."
+ ],
+ "sources": [
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Counter-pressing is a strategy used to disrupt the opposition as soon as possession is lost – the point of defensive transition. It involves aggressively pressing the ball and the opponents near to the ball with several players. The aim is to win possession back as quickly as possible, before the opposition can settle on the ball.",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Other teammates then swarm around the ball, condensing the space the opposition has to play out, and form a compact structure.",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "These teammates will either man-mark tightly, staying ready to press and engage their direct opponent should they receive a pass, or mark zonally, covering passing lanes between opponents to intercept the ball. A third option is that players will do a combination of the two approaches.",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Instead of trying to regain possession immediately, players can delay the opposition by applying pressure without attempting to win the ball back, unless there is an obvious chance to do so. This blocking and screening of any forward play allows teammates to recover back into a more reserved defensive block.",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Counter-pressing is also ideal for sides that create chances through sustained spells of possession. If they win the ball back quickly, they will spend little time out of possession and chasing the ball. This means they can control the game.",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "The German used aggressive counter-pressing with great success at Borussia Dortmund. This was done high up the pitch in most domestic games, and in the middle third of the pitch against stronger sides in European competition.",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-03",
+   "dimension": "shape",
+   "evidence": "With both RB Leipzig and Southampton, Hasenhüttl’s counter-pressing in midfield has proved a productive way of creating chances for his side through counter-attacks. From a compact 4-4-2 shape (below), his players crowd the space around the ball",
+   "verified": true
+  },
+  {
+   "title": "Counter-pressing and the gegenpress: football tactics explained (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/cv/counter-pressing-gegenpressing-football-tactics-explained-klopp-guardiola-bielsa-hasenhuttl/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-03-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "Even if a counter-pressing team doesn't regain possession, there is still a good chance they can force the ball out of play or concede a free-kick. These are both effective ways of delaying opposition progress.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2016-09",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "\"Think about the passes you have to make to get a player in a number 10 role into a position where he can play the genius pass,\" Klopp later urged. \"Gegenpressing lets you win back the ball nearer to the goal. It's only one pass away from a really good opportunity. No playmaker in the world can be as good as a good gegenpressing situation, and that's why it's so important.\"",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "They piled players into the immediate vicinity of the player in possession, almost crowding him out through intimidation.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "width",
+   "evidence": "It explained why Klopp's wide midfielders, usually Kevin Grosskreutz and Jakub Blaszczykowski, tucked inside - their structure was geared towards gegenpressing, which was only possible when compressing space quickly. While other teams were focusing on vertical compactness, Klopp was also concerned with horizontal compactness, and Dortmund frequently regained possession by boxing in teams towards the touchline.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Most typically, Dortmund would use a medium block, standing off the opposition centre-backs, before pressing once the ball was played into the full-backs or midfielders. Dortmund rarely used a full-pitch press, because doing so encouraged the opposition to kick the ball long.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Dortmund's mix of pressing, counter-pressing and counterattacking was essentially how they overcame Bayern to win the Bundesliga in 2011 and 2012.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Barcelona would recover the ball and then retain possession for long periods, organising themselves in their positional structure. Klopp's Dortmund were very different. They were perfectly solid without possession, and defending deep actually suited their counter-attacking. But they gegenpressed because Klopp believed it was a valuable attacking tactic.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Dortmund's distance-covered statistics were often remarked on, because this was a side with seemingly limitless energy resources. If they covered more than 118km collectively in nine out of ten matches, they'd be rewarded with three extra days off during their winter break.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "This gegenpressing was often combined with more conventional pressing as the opposition attempted to play out from the back.",
+   "verified": true
+  },
+  {
+   "title": "Why Jurgen Klopp's gegenpressing with Dortmund was revolutionary (Sky Sports, after Michael Cox)",
+   "url": "https://www.skysports.com/football/news/11669/11729575/why-jurgen-klopps-gegenpressing-with-dortmund-was-revolutionary",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-05-31",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "\"Gegenpressing has become a German institution, and Klopp a model for countless coaches,\" wrote Tobias Escher in his history of German football tactics, Vom Libero zur Doppelsechs. \"Nowadays, every Bundesliga team uses gegenpressing",
+   "verified": true
+  },
+  {
+   "title": "My Epiphany - Ralf Rangnick (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/ralf-rangnick-rb-leipzig-and-bundesliga/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-10-22",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "There’s so much happening in the eight to 10 seconds after the ball is won or lost. Those moments decide games, and a large part of our training is dedicated to what we call swarming behaviour; the synchronised movement of players.",
+   "verified": true
+  },
+  {
+   "title": "My Epiphany - Ralf Rangnick (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/ralf-rangnick-rb-leipzig-and-bundesliga/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-10-22",
+   "eventDate": "1990",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "There, I met a trained structural engineer who had taught himself football tactics and become the first manager in Germany to introduce Ballorientierte Raumdeckung, a system that combined zonal marking with aggressive pressing.",
+   "verified": false
+  },
+  {
+   "title": "My Epiphany - Ralf Rangnick (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/ralf-rangnick-rb-leipzig-and-bundesliga/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-10-22",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "Sometimes, teams park two buses in front of their box and force us to have lots of possession, which makes it more difficult to pick up pace and create clear goalscoring opportunities. If you have too much possession, your game resembles handball and you don’t get anywhere.",
+   "verified": true
+  },
+  {
+   "title": "My Epiphany - Ralf Rangnick (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/ralf-rangnick-rb-leipzig-and-bundesliga/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-10-22",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "We are prepared to play risky passes, at the danger of them going astray, because that opens up the possibility to attack the second ball.",
+   "verified": true
+  },
+  {
+   "title": "My Epiphany - Ralf Rangnick (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/ralf-rangnick-rb-leipzig-and-bundesliga/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-10-22",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "Improvement translates as taking things in more quickly, analysing them more quickly, deciding more quickly, acting more quickly. At RB, we work on increasing the memory space and the processing pace.",
+   "verified": true
+  },
+  {
+   "title": "My Epiphany - Ralf Rangnick (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/ralf-rangnick-rb-leipzig-and-bundesliga/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-10-22",
+   "eventDate": "2020-10",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "But there are still differences. Recently, we’ve witnessed a comeback of the 3-5-2 system and more man-oriented marking.",
+   "verified": true
+  },
+  {
+   "title": "Ralf Rangnick to Man Utd: how he helped revolutionise German football (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11667/12478473/why-rangnick-is-in-demand",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-29",
+   "eventDate": "2008-09",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "\"That's the kind of football we want to play one day,\" said Klopp after his Borussia Dortmund side were dismantled by Rangnick's Hoffenheim in September 2008, losing 4-1.",
+   "verified": true
+  },
+  {
+   "title": "Ralf Rangnick to Man Utd: how he helped revolutionise German football (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11667/12478473/why-rangnick-is-in-demand",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-29",
+   "eventDate": "1983",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "He studied Arrigo Sacchi's AC Milan as well as Lobanovskiy's Dynamo Kiev, observing the potential of a zonal marking system, coupled with high-intensity pressing.",
+   "verified": false
+  },
+  {
+   "title": "Ralf Rangnick to Man Utd: how he helped revolutionise German football (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11667/12478473/why-rangnick-is-in-demand",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-29",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "Joachim Low, Germany's national team coach at the time, described their 2-1 loss to Bayern Munich a few months later as \"perhaps the fastest Bundesliga match ever\".",
+   "verified": true
+  },
+  {
+   "title": "Inside the Tactical Mind of Borussia Dortmund's Juergen Klopp (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1781622-inside-the-tactical-mind-of-borussia-dortmunds-juergen-klopp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-09-20",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "Fundamentally, gegenpressing is a rather simple tactical approach: A team simply plays at full pace for 90 minutes, approaching every moment as though they are down a goal late in a major final. After losing possession, players will swarm their opponents, giving them no time on the ball regardless of position and location.",
+   "verified": true
+  },
+  {
+   "title": "Inside the Tactical Mind of Borussia Dortmund's Juergen Klopp (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1781622-inside-the-tactical-mind-of-borussia-dortmunds-juergen-klopp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-09-20",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "But what distinguishes Klopp is how his team plays once they've won back the ball. BVB's system is to always look for the opportunity to counterattack, playing the ball forward immediately and sprinting into open space as opponents shift from attack to defense.",
+   "verified": true
+  },
+  {
+   "title": "Inside the Tactical Mind of Borussia Dortmund's Juergen Klopp (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1781622-inside-the-tactical-mind-of-borussia-dortmunds-juergen-klopp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-09-20",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Dortmund now cover less ground and, in domestic play, try to take a commanding lead early before taking a foot off the pedal and using more of a containment method.",
+   "verified": true
+  },
+  {
+   "title": "Inside the Tactical Mind of Borussia Dortmund's Juergen Klopp (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1781622-inside-the-tactical-mind-of-borussia-dortmunds-juergen-klopp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-09-20",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Dortmund struggle to defend in a classical sense, deep in their own half. And for all their abundant ball-playing class in midfield, they aren't the best at simply maintaining possession and passing the ball around the middle third or playing a containment style of football",
+   "verified": true
+  },
+  {
+   "title": "Inside the Tactical Mind of Borussia Dortmund's Juergen Klopp (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1781622-inside-the-tactical-mind-of-borussia-dortmunds-juergen-klopp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-09-20",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "player-profile",
+   "evidence": "In the 2010-11 Europa League and the 2011-12 Champions League, Dortmund were eliminated in the group stage. They were found naive and inexperienced, but a certain degree of their shortcomings could be attributed to their playing at an unsustainable and absolutely breakneck pace.",
+   "verified": true
+  },
+  {
+   "title": "Inside the Tactical Mind of Borussia Dortmund's Juergen Klopp (Bleacher Report)",
+   "url": "https://bleacherreport.com/articles/1781622-inside-the-tactical-mind-of-borussia-dortmunds-juergen-klopp",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-09-20",
+   "eventDate": "2012/13",
+   "accessedOn": "2026-11-03",
+   "dimension": "people-management",
+   "evidence": "Klopp is a mentor to his players, the kind of \"cool dad\" character who is half friend, half father figure.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Jurgen Klopp is transforming Liverpool (SI)",
+   "url": "https://www.si.com/soccer/2015/12/24/liverpool-jurgen-klopp-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Klopp prefers a space-oriented counter-pressing system, in which a number of players converge on the ball and the space immediately surrounding it, cutting off all options by suffocating the player in possession. Other possibilities include a man-oriented press, in which defenders cover opponents one-on-one, and ball-oriented gegenpressing, in which multiple players aggressively pressure the ball.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Jurgen Klopp is transforming Liverpool (SI)",
+   "url": "https://www.si.com/soccer/2015/12/24/liverpool-jurgen-klopp-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "The key is, once opponents play the ball into midfield, Liverpool is in position to close down zonally with numbers around the ball.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Jurgen Klopp is transforming Liverpool (SI)",
+   "url": "https://www.si.com/soccer/2015/12/24/liverpool-jurgen-klopp-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "possession",
+   "evidence": "At times, teams can even give the ball away intentionally simply to initiate their counter-press. This is where Klopp’s notion about gegenpressing as a playmaker comes in; if a team can organize itself for that transition moment while still in possession, as Liverpool does with its narrow midfield, the opposition won’t be able to gain any space when it wins the ball and will likely give it right back.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Jurgen Klopp is transforming Liverpool (SI)",
+   "url": "https://www.si.com/soccer/2015/12/24/liverpool-jurgen-klopp-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "However, even gegenpressing teams have a limit as to how long they press before regrouping. Pep Guardiola enacts a four-second rule with his teams, but the general guideline is if an opponent can successfully play out of a counter-press, the transition to defense cannot be overturned and so a team must reorganize.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Jurgen Klopp is transforming Liverpool (SI)",
+   "url": "https://www.si.com/soccer/2015/12/24/liverpool-jurgen-klopp-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-24",
+   "eventDate": "2015-12",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "In particular, Klopp rode his notion that “gegenpressing is the best playmaker there is” to great success at Borussia Dortmund.",
+   "verified": true
+  },
+  {
+   "title": "Tactical breakdown: How Jurgen Klopp is transforming Liverpool (SI)",
+   "url": "https://www.si.com/soccer/2015/12/24/liverpool-jurgen-klopp-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-12-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-03",
+   "dimension": "build-up",
+   "evidence": "Its new calculated system of space control and ball pressure manipulates opponents into making poor decisions and giving up possession high up the field. The outcome, as it often was with Klopp’s teams in Dortmund, is an interception in a favorable area or a long ball that the defense can win without much trouble.",
+   "verified": true
+  },
+  {
+   "title": "Ballbesitz und Firlefanz: Rangnick bilanziert Hasenhuettls Arbeit (RBLive)",
+   "url": "https://rblive.de/news/ballbesitz-und-firlefanz-rangnick-bilanziert-hasenhuettls-arbeit-3303079",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-07-10",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-03",
+   "dimension": "pressing",
+   "evidence": "zu Gegenpressing und blitzartigem Umschalten ohne viel Ballbesitzfirlefanz.",
+   "verified": true
+  },
+  {
+   "title": "Ballbesitz und Firlefanz: Rangnick bilanziert Hasenhuettls Arbeit (RBLive)",
+   "url": "https://rblive.de/news/ballbesitz-und-firlefanz-rangnick-bilanziert-hasenhuettls-arbeit-3303079",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-07-10",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-03",
+   "dimension": "game-management",
+   "evidence": "Das Volle-Pulle-Gegenpressing jedenfalls schien ihm eine Weile lang zu kraftraubend. Und er versuchte sich aus der Falle zu befreien, die ihm viele Gegner durch tiefstehende Abwehrreihen und hohe Bälle hinter die Pressinglinien aufstellten.",
+   "verified": true
+  },
+  {
+   "title": "Ballbesitz und Firlefanz: Rangnick bilanziert Hasenhuettls Arbeit (RBLive)",
+   "url": "https://rblive.de/news/ballbesitz-und-firlefanz-rangnick-bilanziert-hasenhuettls-arbeit-3303079",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-07-10",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Rangnick: „Wer sich bei der WM auch verabschiedet hat, sind die, die von vornherein geglaubt haben, dass Ballbesitz das allein Glückseligmachende ist.",
+   "verified": true
+  },
+  {
+   "title": "Ballbesitz und Firlefanz: Rangnick bilanziert Hasenhuettls Arbeit (RBLive)",
+   "url": "https://rblive.de/news/ballbesitz-und-firlefanz-rangnick-bilanziert-hasenhuettls-arbeit-3303079",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-07-10",
+   "eventDate": "2018-07",
+   "accessedOn": "2026-11-03",
+   "dimension": "set-pieces",
+   "evidence": "Darüberhinaus: Standards als Waffe zu nutzen. „Wenn man sich überlegt, dass die Engländer bei der WM 80 Prozent ihrer Tore nach Standards erzielt haben, kann man ableiten, wie wichtig dieser Bereich ist.“",
+   "verified": true
+  },
+  {
+   "title": "Ballbesitz und Firlefanz: Rangnick bilanziert Hasenhuettls Arbeit (RBLive)",
+   "url": "https://rblive.de/news/ballbesitz-und-firlefanz-rangnick-bilanziert-hasenhuettls-arbeit-3303079",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2018-07-10",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Dem will der neue, alte Trainer einen Kader vorsetzen, der wieder perfekt ins Raster seiner Vorstellungen passt.",
+   "verified": true
+  },
+  {
+   "title": "Counterpressing - Jurgen Klopp's Best Playmaker (VOOR Sport)",
+   "url": "https://voor.sport/en/mag/counterpressing-jurgen-klopp-s-best-playmaker",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-28",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "defensive-block",
+   "evidence": "Jürgen Klopp’s counterpressing approach is primarily space-oriented. His squads, both at Borussia Dortmund and Liverpool, were carefully constructed to fit this system.",
+   "verified": true
+  },
+  {
+   "title": "Counterpressing - Jurgen Klopp's Best Playmaker (VOOR Sport)",
+   "url": "https://voor.sport/en/mag/counterpressing-jurgen-klopp-s-best-playmaker",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-28",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "transitions",
+   "evidence": "The key requirement for successful counterpressing is a compact and structured positioning when in possession, while still maintaining sufficient passing distances. This ensures both fluid ball circulation and quick access to opponents in case of a turnover.",
+   "verified": true
+  },
+  {
+   "title": "Counterpressing - Jurgen Klopp's Best Playmaker (VOOR Sport)",
+   "url": "https://voor.sport/en/mag/counterpressing-jurgen-klopp-s-best-playmaker",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-03-28",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-03",
+   "dimension": "squad-building",
+   "evidence": "Jürgen Klopp’s counterpressing approach is primarily space-oriented. His squads, both at Borussia Dortmund and Liverpool, were carefully constructed to fit this system. Looking at his squad-building strategy reveals a clear pattern in the type of players he favors",
+   "verified": true
+  },
+  {
+   "title": "Ralf Rangnick: the high-pressing German coaching guru (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/ralf-rangnick-the-high-pressing-german-coaching-guru-man-utd-are-turning-to-1637913489000",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2021-11",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "Both Jurgen Klopp and Thomas Tuchel credit the 63-year-old Rangnick for inspiring their own versions of Gegenpressing",
+   "verified": false
+  },
+  {
+   "title": "Ralf Rangnick: the high-pressing German coaching guru (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/news/ralf-rangnick-the-high-pressing-german-coaching-guru-man-utd-are-turning-to-1637913489000",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-26",
+   "eventDate": "2021-11",
+   "accessedOn": "2026-11-03",
+   "dimension": "stated-view",
+   "evidence": "On Klopp’s part he previously called Rangnick “one of the best, if not the best” German coaches.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Think about the passes you have to make to get a player in a No 10 role in a position where he can play the genius pass. Counter-pressing lets you win back the ball nearer to the goal. It’s only one pass away from a really good opportunity. No playmaker in the world can be as good as a good counter pressing situation. That shows why it’s so important.",
+   "date": "2016-09",
+   "source": "Klopp, Sky Sports Monday Night Football with Jamie Carragher, as reported by Empire of the Kop 2016-09-27 (https://www.empireofthekop.com/2016/09/27/klopp-wonderfully-explains-why-gegenpressing-is-such-an-incredible-tactic/); he was already quoted as saying 'gegenpressing is the best playmaker' (Bleacher Report 2013, SI 2015)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "gegenpressing is the best playmaker there is",
+   "date": "2013",
+   "source": "Attributed to Klopp (Bleacher Report 2013 'According to Klopp, gegenpressing is the best playmaker there is'; SI 2015-12-24). Earliest primary appearance not found.",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "That's the kind of football we want to play one day",
+   "date": "2008-09",
+   "source": "Klopp after Dortmund lost 4-1 at Rangnick's Hoffenheim, per Sky Sports 2021-11-29",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Wir müssen unseren Fußball wieder auf den Platz bringen. (back to Gegenpressing und blitzartiges Umschalten)",
+   "date": "2018-07-10",
+   "source": "Rangnick on his return to RB Leipzig, RBLive 2018-07-10",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I realised that a bit of pressing isn't enough. It is a bit like being a bit pregnant - it's nothing.",
+   "date": "2018",
+   "source": "Rangnick in Raphael Honigstein, Das Reboot, as quoted by Sky Sports 2021-11-29",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "There's so much happening in the eight to 10 seconds after the ball is won or lost.",
+   "date": "2020-10-22",
+   "source": "Rangnick, Coaches' Voice 'My Epiphany'",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Origin of the term: 'Counter-pressing is a translation from the German word gegenpress'; Coaches' Voice lists Wolfgang Frank, Rangnick, Klopp, Tuchel and Nagelsmann as German coaches who developed the strategy. No source read credits a single coiner; Sky (Cox) says Klopp 'spoke about a specific term' and that his legacy is the German word used across Europe.",
+   "date": "2019-05-31",
+   "source": "Coaches' Voice 2022-03-01; Sky Sports 2019-05-31",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://africa.espn.com/football/german-bundesliga/story/4218884/ralf-rangnick-on-rb-leipzigs-success-and-being-the-godfather-of-gegenpressing",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.professionalfootballjournal.fifa.com/pfj3-31-coaches",
+   "reason": "404"
+  },
+  {
+   "url": "https://global.espn.com/football/story/_/id/37608193/ralf-rangnick-rb-leipzig-success-being-godfather-gegenpressing",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Valeriy Lobanovskyi's Dynamo Kiev (systematic pressing; Rangnick's 1983 epiphany)",
+  "Arrigo Sacchi's AC Milan (zonal marking with pressing)",
+  "Helmut Gross (first in Germany with Ballorientierte Raumdeckung, per Rangnick)",
+  "Wolfgang Frank (Mainz; Klopp's coach)",
+  "Zdenek Zeman (fitness for pressing)"
+ ],
+ "exemplars": [
+  {
+   "id": "ralf-rangnick",
+   "kind": "manager",
+   "reason": "Hoffenheim and Leipzig; Klopp and Tuchel credit him; 'Gegenpressing und blitzartiges Umschalten' as his stated way (2018), 8-10 second transition window."
+  },
+  {
+   "id": "jurgen-klopp",
+   "kind": "manager",
+   "reason": "The manager who made 'Gegenpressing' a European word; 'best playmaker' view; Dortmund 2008-15 and Liverpool 2015-24."
+  },
+  {
+   "id": "dortmund-2010-13",
+   "kind": "team",
+   "reason": "Purest case in the period: wide midfielders tucking in, compression of space, mixed medium-block pressing and counter-pressing, Bundesliga titles 2011 and 2012."
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Tier A Coaches' Voice sources give the concept and Rangnick's own words; Dortmund evidence is Sky/Cox and Bleacher Report (tier C) and SI (B); Rangnick's period evidence and the origin of the term are thin or retrospective."
+ }
+}

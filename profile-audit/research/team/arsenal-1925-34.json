@@ -1,0 +1,564 @@
+{
+  "id": "arsenal-1925-34",
+  "catalog": "team",
+  "name": "Arsenal 1925–34",
+  "status": "complete",
+  "researchedOn": "2026-11-01",
+  "profilePeriod": {
+    "start": "1925-06-11",
+    "end": "1934-01-06"
+  },
+  "scopeNote": "Arsenal under Herbert Chapman, from his appointment (1925-06-11) to his death in office (1934-01-06), league and cups (kept from the earlier scope decision). Style: a WM / 3-2-2-3 built on a stopper centre-half and a counter-attack from a deep defence (Wilson, SI 2011: \"so 2-3-5 became 3-2-2-3, the W-M formation\"; The Times, 20 Apr 1931: \"they transform defence into attack\" after luring opponents \"into a false sense of security\"). 'Defence in depth' is Buchan's own term (A Lifetime in Football, 1955). The label 'Chapman invented the WM' is disputed: Wilson and These Football Times say he popularised it, the Scots Football Historians' Group calls the Arsenal-WM link a myth, and the History of Arsenal blog credits Buchan with the idea. Evidence is mostly retrospective, but there are period quotes (The Times 1931, Daily Mail 1934, Chapman's own 1933-34 writings, Buchan's and Hapgood's memoirs).",
+  "managers": [
+    {
+      "managerId": "herbert-chapman",
+      "start": "1925-06-11",
+      "end": "1934-01-06"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Period end kept at Chapman's death (1934-01-06); the 1933-34 title was finished under Joe Shaw and George Allison. Confirm whether the era should run to the end of 1933-34.",
+    "Marking conflict: Buchan (1955) says the 1925 centre-half guarded 'a beat of a certain area' and was not a 'policeman' to the centre-forward (zonal), while later accounts of Roberts (Jeff Harris; Game of the People) describe man-oriented duties: stopper on the centre-forward, full-backs on wingers, half-backs on inside-forwards. These may be two stages (1925 Butler/Buchan plan vs Roberts from 1929). Decide how to weigh 'mar'.",
+    "WM authorship: Chapman (popular view) vs Buchan (History of Arsenal blog, Irish Times) vs 'myth' (SFHG). It doesn't change the behaviour, only the label.",
+    "All Chapman statedView quotes are 'attributed': they come from his 1933 newspaper columns collected in the posthumous 'Herbert Chapman on Football' (dated 1934 or 1935 depending on source); the book itself was not read. A primary copy would upgrade them.",
+    "No source describes pressing; Bernard Joy's 'retreating and funneling' account (no pressing, deep block) is from after 1935 and is kept only as context."
+  ],
+  "sources": [
+    {
+      "title": "The origin of pragmatism in soccer (Sports Illustrated, Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Wilson: Chapman responded to the 1925 offside change by \"withdrawing his center-half into a defensive role\" and \"pulling back his two inside-forwards\", \"so 2-3-5 became 3-2-2-3, the W-M formation.\" Specialist historian, retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chapman, McGrory, Dean, Roberts and the Myth of Arsenal and W:M (Scots Football Historians' Group)",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/thearsenalwmmyth",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02",
+      "eventDate": "1929-01",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "After Jack Butler was dropped in January 1929, Roberts played \"as effectively a centre-back in what was more or less now a 3:2\". The article argues Arsenal's shape was \"at very best\" WM-like and \"demonstrably not innovative but reactive\" (authorship of the WM is disputed).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman: the mastermind who reimagined football in the early 20th century (These Football Times, Matt Gault)",
+      "url": "https://thesefootballtimes.co/2019/02/13/herbert-chapman-the-mastermind-who-reimagined-football-in-the-early-20th-century/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Chapman \"became synonymous with the 3-2-2-3 'W-M' formation\", which \"he may not have invented\" but popularised; \"a move away from the traditional 2-3-5 system\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The truth about Chapman's centre half revolution (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/21588",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-06-25",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Attwood: Chapman's answer \"involved not only having a stopper at the heart of the defence\" but \"a deep lying half back who would take the short pass from the central defender\"; \"It was the birth of Chapman's famous counter attacking style.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Sports Illustrated, Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1935",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Bernard Joy: Arsenal went from the edge of their box \"thrusting quickly away by means of long passes to our wingers.\" Joy joined Arsenal in 1935 (after Chapman's death) and the quote is undated in the article, so it describes the Allison-era continuation of the system, not this period: context only.",
+      "verified": false,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Herbert Chapman: the mastermind who reimagined football in the early 20th century (These Football Times, Matt Gault)",
+      "url": "https://thesefootballtimes.co/2019/02/13/herbert-chapman-the-mastermind-who-reimagined-football-in-the-early-20th-century/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "The inside forwards moved further back, \"allowing Chapman's side to dominate midfield and carry out his wish for quick, incisive passing.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cliff Bastin (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENALbastin.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Soar and Tyler (Official Illustrated History of Arsenal, 2007), quoted on the page: \"By playing the wingers this way, Chapman was able to have one more man in midfield\" \"and thus control the supply of the ball, primarily through Alex James.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Top Seasons - 1930-31 (ArsenalArsenal.net, GunnerN5)",
+      "url": "https://arsenalarsenal.net/2018/04/25/arsenals-top-seasons-1930-31-our-2nd-best-and-first-top-flight-title",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-04-25",
+      "eventDate": "1931-04-20",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "The Times, 20 April 1931 (\"Arsenal's Triumph\"), quoted on the page: \"The Team succeed by the rapidity and unexpectedness with which they transform defence into attack.\" \"They lure their opponents into a false sense of security\" \"with a short series of sudden blows, accomplish their downfall.\" \"A goal is scored before the other side has realised that it is not the attacking side.\" Period newspaper quote.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Buchan's plan (after the 7-0 at Newcastle, 3 Oct 1925) aimed at \"a goal from three or four touches out of defence\"; Buchan nominated Andy Neil, \"a man who could receive the ball with either foot\", as the deep inside-forward.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on (Arsenal.com)",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "\"counter-attacking tactics took the rest of the country by storm\"; \"The rest of the league were simply unable to cope with the speed of our transitions into attack.\" Club feature, retrospective.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbie Roberts (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENroberts.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Roberts \"became known as the \\\"stopper\\\" or the \\\"policeman\\\" and rarely moved upfield.\" Tom Whittaker (trainer): \"Roberts's genius came from the fact that he was intelligent, and even more important, that he did what he was told.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Charlie Buchan, A Lifetime in Football (1955), Arsenal captain 1925-28: \"First we thrashed out the position of the centre-half. He was not to be a \\\"policeman\\\" to the opposing centre-forward.\" \"He was given a beat of a certain area bordering the penalty-line which he was to guard.\" \"The other defenders were to range themselves around him according to the direction of play.\" \"It was the beginning of Arsenal's \\\"defence in depth\\\" policy\". Participant's dated memoir: zonal for the centre-half in 1925.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Arsenal, the Art Deco club (Game of the People, Neil Fredrik Jensen)",
+      "url": "https://gameofthepeople.com/2019/09/03/arsenal-the-art-deco-club/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-09-03",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Marking roles in Chapman's WM: the full backs marked the wingers, \"the centre back looked after the centre forward\" and the half backs \"policed the inside forwards\". The WM \"was more defensive\" than the 2-3-5. Retrospective; the article does not use the words zonal or man-marking.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbie Roberts (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENroberts.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Jeff Harris (Arsenal Who's Who), quoted on the page: Roberts's \"main aim was to blot out and stop the opponents' centre-forward.\" Man-oriented on the centre-forward, conflicting with Buchan's 1925 'beat of an area' description (they describe different years and centre-halves: Butler/Buchan plan in 1925 vs Roberts from c.1929).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chapman, McGrory, Dean, Roberts and the Myth of Arsenal and W:M (Scots Football Historians' Group)",
+      "url": "https://www.thescotsfootballhistoriansgroup.org/thearsenalwmmyth",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-02",
+      "eventDate": "1928",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Scotland captain Jimmy McMullen after the 1928 'Wizards' match, on English practice generally (not Arsenal specifically): \"It is a common thing in England to let wing-halves, and not full-backs, mark the wingers.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Buchan's 1925 proposal was for the centre-half \"guarding the edge of the penalty area\"; Attwood: Buchan \"was, in fact, inventing zonal marking for this player\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Sports Illustrated, Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1935",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "Bernard Joy: \"We at Arsenal achieved our end by deliberately drawing on the opponents by retreating and funneling to our own goal,\" \"holding the attack at the limits of the penalty box\". Joy played for Arsenal from 1935, after this period, and the quote is undated: context only.",
+      "verified": false,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Cliff Bastin (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENALbastin.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Soar and Tyler (2007): \"In 1932-33 Bastin and Hulme scored 53 goals between them, perfect evidence that Arsenal did play the game very differently\" \"from their contemporaries, who tended to continue to rely on the wingers making goals for the centre-forward\". Jeff Harris: \"unlike any other winger, he stood at least ten yards in from the touch line\". Wingers as goal-scorers starting from inside positions.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "Matt Busby, Soccer at the Top (1973), on \"the absolutely devastating Cliff Bastin, who would take a couple of strides and whip the ball into the net.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Game Changers: Futuristic views set Herbert Chapman apart (The Irish Times, Keith Duggan)",
+      "url": "https://www.irishtimes.com/sport/soccer/english-soccer/game-changers-futuristic-views-set-herbert-chapman-apart-1.4298397",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-07-08",
+      "eventDate": "1930-04-26",
+      "accessedOn": "2026-11-01",
+      "dimension": "set-pieces",
+      "evidence": "Arsenal's quick, improvised free-kick in the 1930 FA Cup final led to the winning goal; Chapman disapproved of it because referees usually called such plays back (article's paraphrase).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Top Seasons - 1930-31 (ArsenalArsenal.net, GunnerN5)",
+      "url": "https://arsenalarsenal.net/2018/04/25/arsenals-top-seasons-1930-31-our-2nd-best-and-first-top-flight-title",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-04-25",
+      "eventDate": "1931-04-18",
+      "accessedOn": "2026-11-01",
+      "dimension": "set-pieces",
+      "evidence": "Match report of the 1930-31 title game: \"James took a free kick from 25 yards out which he feigned to send to Hulme but passed to Lambert\", leading to Bastin's goal. One rehearsed-looking routine, a single match.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal champions 1932/3: Chapman's ultimate secret tactic revealed (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/14015",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-08-19",
+      "eventDate": "1932/33",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Attwood: home form \"actually declined a little in 1932/3\" while away points rose from 20 to 27, through \"the effective use of the counter attacking model away from home\"; Chapman \"was willing to have a slightly worse home record\". Author's interpretation of the league table.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Bob Wall (Chapman's administrative assistant) on the Friday team talk: \"Never mind what the other team does -\" \"this is what you are going to do.\" Chapman used \"a magnetic table marked out as a football field, with little toy players\". Undated on the page.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "The origin of pragmatism in soccer (Sports Illustrated, Jonathan Wilson)",
+      "url": "https://www.si.com/more-sports/2011/03/01/right-way",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2011-03-01",
+      "eventDate": "1934-01",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Daily Mail on Chapman's death (1934), quoted by Wilson: \"Breaking down old traditions,\" \"he was the first manager who set out methodically to organize the winning of matches.\" Period quote.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "3 October: the Arsenal defeat that revolutionised football tactics (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/25156",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2022-10-03",
+      "eventDate": "1925-10-03",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "After the 7-0 loss at Newcastle on 3 October 1925, \"Herbert Chapman immediately began discussions to transform Arsenal's tactics\"; \"Chapman asked him [Buchan] to explain his views more fully.\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Top Seasons - 1930-31 (ArsenalArsenal.net, GunnerN5)",
+      "url": "https://arsenalarsenal.net/2018/04/25/arsenals-top-seasons-1930-31-our-2nd-best-and-first-top-flight-title",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-04-25",
+      "eventDate": "1931-04-20",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "The Times, 20 April 1931: \"Theirs is a cunningly devised plan\"; \"The successes of Arsenal have been due more to excellent team play and adaptability\" \"than to the brilliant individualism of a few costly players of renown\"; \"The various players have sunk their individuality in the team\".",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Arsenal, the Art Deco club (Game of the People, Neil Fredrik Jensen)",
+      "url": "https://gameofthepeople.com/2019/09/03/arsenal-the-art-deco-club/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-09-03",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Roberts was \"an old fashioned stopper\"; Chapman valued \"horses for courses\"; Don Davies: \"Was there ever a team where the players were more strikingly suited to the parts they had to play?\" James's \"slide-rule passing ability\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How the team was built: Arsenal 1931, London's first title winners (Game of the People, Neil Fredrik Jensen)",
+      "url": "https://gameofthepeople.com/2024/12/08/how-the-team-was-built-arsenal-1931-londons-first-title-winners/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-12-08",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Hapgood, a former milkman, \"became a strong player, known for his power\"; Charlie Jones, \"a versatile player who Chapman eventually turned into an effective right half\"; Lambert \"was hardly a prolific striker, but Chapman saw something in the 24 year-old\". Players fitted to roles.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How the team was built: Arsenal 1931, London's first title winners (Game of the People, Neil Fredrik Jensen)",
+      "url": "https://gameofthepeople.com/2024/12/08/how-the-team-was-built-arsenal-1931-londons-first-title-winners/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-12-08",
+      "eventDate": "1930/31",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Arsenal were \"the Bank of England club\" for big fees on forwards: David Jack (GBP 10,647, Bolton), Alex James (GBP 8,750, 1929), Jones (GBP 4,800), Bastin (19, GBP 2,000), Roberts (GBP 200, Dec 1926), Hapgood (GBP 950, 1927). The 1930-31 champions were built by purchase, mostly young or mid-career players from smaller clubs; no academy players.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal, the Art Deco club (Game of the People, Neil Fredrik Jensen)",
+      "url": "https://gameofthepeople.com/2019/09/03/arsenal-the-art-deco-club/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-09-03",
+      "eventDate": "1925/26",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "After Chapman arrived in 1925 Arsenal \"spent lavishly on centre forwards, among other players\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on (Arsenal.com)",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Chapman \"Championed the introduction of nursery/feeder teams\". General list of innovations, undated.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Chapman's real secret: how the club was organised during his reign (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/4937",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-11-19",
+      "eventDate": "1933",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Chapman's own words (from his posthumous book): \"Every Monday morning I receive the reports from the Arsenal scouts, and the information is reviewed and filed.\" \"If a player should suddenly be needed I do not want to be in the position of wondering where he can be found.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Chapman's real secret: how the club was organised during his reign (History of Arsenal blog, Tony Attwood)",
+      "url": "https://blog.woolwicharsenal.co.uk/archives/4937",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-11-19",
+      "eventDate": "1933",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Chapman (book quoted by Attwood): \"I will never tolerate slackness\"; he \"can't be bothered with any man unless he is prepared to give his whole mind to his job\"; \"No player can be worth his price unless he becomes a team man.\" Players and juniors had to watch games and give their views afterwards.",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Herbert Chapman (Spartacus Educational, John Simkin)",
+      "url": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022",
+      "eventDate": "1927",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Eddie Hapgood, Football Ambassador (1945), recalling his first meeting with Chapman: \"Well, young man, do you smoke or drink?\" Stephen Studd (1981): \"Meetings were held each week to discuss both the previous game and the tactics to be used in the next.\"",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Herbert Chapman: the mastermind who reimagined football in the early 20th century (These Football Times, Matt Gault)",
+      "url": "https://thesefootballtimes.co/2019/02/13/herbert-chapman-the-mastermind-who-reimagined-football-in-the-early-20th-century/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Chapman \"encouraged his players to voice opposition to an idea\" and to \"discuss game plans on the team bus\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Herbert Chapman's Arsenal: 100 years on (Arsenal.com)",
+      "url": "https://www.arsenal.com/feature/herbert-chapmans-arsenal-100-years-on-aASl10x5cjTg",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06",
+      "eventDate": "1925/34",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"a master tactician, a disciplinarian, but was also hugely supportive of them when needed\"; \"service before self\" was his advice to players.",
+      "verified": true,
+      "retrospectiveOnly": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "It is only when the team are, say, two goals up that they may claim the licence to be spectacular.",
+      "date": "1934",
+      "source": "https://blog.woolwicharsenal.co.uk/archives/4937",
+      "provenance": "attributed",
+      "note": "Chapman in a Daily Express article, collected in his posthumous book; read only as quoted by Attwood (2012); exact date of the column not given (Chapman died 1934-01-06)."
+    },
+    {
+      "quote": "Although I do not suggest that the Arsenal team go on the defensive even for tactical purposes, I think it may be said that some of their best scoring chances have come when they have been driven back and then have broken away to strike suddenly and swiftly.",
+      "date": "1934",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "attributed",
+      "note": "Quoted by Spartacus with no date or source; most likely his 1933 columns/posthumous book. Rejects the 'defensive' label while describing the counter-attack."
+    },
+    {
+      "quote": "No player can be worth his price unless he becomes a team man.",
+      "date": "1934",
+      "source": "https://blog.woolwicharsenal.co.uk/archives/4937",
+      "provenance": "attributed",
+      "note": "From Chapman's posthumous book as quoted by Attwood (2012)."
+    },
+    {
+      "quote": "I hate to have to make changes at all, and when they are necessary I try to arrange that they cause as little disturbance as possible.",
+      "date": "1935",
+      "source": "https://spartacus-educational.com/ARSENALchapman.htm",
+      "provenance": "attributed",
+      "note": "Herbert Chapman on Football, dated 1935 on Spartacus (other sources say 1934)."
+    },
+    {
+      "quote": "I conceived of the idea of having a diagram of the field painted on the top of the table in my office.",
+      "date": "1934",
+      "source": "https://www.irishtimes.com/sport/soccer/english-soccer/game-changers-futuristic-views-set-herbert-chapman-apart-1.4298397",
+      "provenance": "attributed",
+      "note": "From On Football (posthumous), as quoted by The Irish Times (2020)."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://spartacus-educational.com/ARSENchapman.htm",
+      "reason": "403"
+    },
+    {
+      "url": "https://web.archive.org/web/2023/https://spartacus-educational.com/ARSENchapman.htm",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.arsenal.com/node/114904",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.arsenal.com/feature/why-a-7-0-loss-at-newcastle-led-to-our-golden-era-ajy5Q5Z8Lbbg",
+      "reason": "not-accessible"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "stated-view"
+    ],
+    "axes": []
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Tier B specialist/history sources (Wilson, These Football Times, Game of the People, History of Arsenal blog, SFHG) and several period quotes (The Times 1931, Daily Mail 1934, Buchan 1955, Hapgood 1945, Chapman's own writings) agree on the shape, deep defence and counter-attack, but there is no contemporary tactical analysis, much is retrospective, marking evidence conflicts (zonal centre-half in 1925 vs man-oriented stopper later), pressing has no source and Chapman's quotes are only 'attributed'."
+  }
+}

@@ -1,0 +1,561 @@
+{
+ "id": "luis-aragones",
+ "catalog": "manager",
+ "name": "Luis Aragonés",
+ "researchedOn": "2026-11-02",
+ "profilePeriod": {
+  "start": "1974-10",
+  "end": "2008-06-29"
+ },
+ "scopeNote": "Counted spells: Atlético Madrid 1974-1980 (took over at matchday 10 of 1974/75; Intercontinental Cup 1975, Copa 1976, La Liga 1976/77), Atlético 1982-1987 (Copa del Rey and Supercopa 1985) and Spain 2004-2008 (Euro 2008). Exact start and end days of the Atlético spells and the Spain appointment day were not found in the mined pages, so partial dates are used. Spain 2008 is called 'tiki-taka' by sources, but the sources disagree on shape (4-1-4-1 vs traditional 4-4-2 with Villa and Torres); Aragonés himself is quoted as 'principalmente por el toque de balón'. Atlético coverage in the digest is thin (results, defensive record, one 4-3-3 line-up) with no source on marking or pressing; Spain coverage is tier C only. Excluded (also Espanyol, Sevilla, Valencia, Betis, Oviedo, Mallorca: no major titles or tactical coverage found): Barcelona 1987-88 (one Copa del Rey, tenure short, no tactical coverage found), Espanyol, Sevilla, Valencia, Betis, Oviedo, Mallorca, Atlético 2001-03 (promotion, no tactical coverage), Fenerbahçe 2008-09 (anticlimax, after Euro peak).",
+ "spellsCounted": [
+  {
+   "club": "Atlético Madrid",
+   "start": "1974-10",
+   "end": "1980",
+   "reason": "Intercontinental Cup 1975, Copa 1976, La Liga 1976/77; end year from a search summary of RAH biography (page unreadable), not verified"
+  },
+  {
+   "club": "Atlético Madrid",
+   "start": "1982",
+   "end": "1987",
+   "reason": "Copa del Rey and Supercopa 1985; dates from memory/search summary, not verified"
+  },
+  {
+   "club": "Spain",
+   "start": "2004-07",
+   "end": "2008-06-29",
+   "reason": "Euro 2008 winner and introduction of tiki-taka; end set to the final date, he left after the tournament (to be confirmed)"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Barcelona",
+   "start": "1987",
+   "end": "1988",
+   "reason": "Copa del Rey 1988 but short tenure and no tactical sources found"
+  },
+  {
+   "club": "Atlético Madrid",
+   "start": "2001",
+   "end": "2003",
+   "reason": "Segunda División title and promotion only"
+  },
+  {
+   "club": "Fenerbahçe",
+   "start": "2008",
+   "end": "2009",
+   "reason": "one season, no titles, no tactical coverage"
+  }
+ ],
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact dates of the Atlético spells (1974 start on matchday 10 of 1974/75; end 1980 and 1982-87) and the Spain appointment day (July 2004) are from memory or search summaries and not verified in mined pages.",
+  "Euro 2008 shape: El Debate says mostly 4-1-4-1, Última Hora (2008-06-08) says it will not be the 'cacareado 4-1-4-1' but a traditional 4-4-2; search summaries suggest 4-4-2 vs Sweden and 4-1-4-1 in the final (soccer-spain pages unreadable).",
+  "Marking system (zonal vs man) in the Atlético years was not found in any source; defensive solidity is documented only by results (fewest goals, 33, in 1976/77).",
+  "Tiki-taka credit: intothecalderon credits Aragonés with installing it, while Última Hora and Sid Lowe-type summaries describe a pragmatic mix with counter-attacks; RFEF notes counter-attacking in the final.",
+  "Pressing and set-pieces for Spain 2008 had no verified source; Coaches' Voice and These Football Times returned no usable page.",
+  "Attributed catchphrases carry the date of the article that quotes them (RFEF 2020, BBVA 2016), not the date of the quote, which is unknown.",
+  "The 2011 Libertad Digital quotes are kept in statedView and as unverified source entries because 2011 is outside the counted spells."
+ ],
+ "sources": [
+  {
+   "title": "Luis Aragonés: The Godfather of Atlético Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Previously, Spain had played a fast paced 4-2-3-1 with big central midfielders and flyers on the wings. (...) Aragonés tossed out the 4-2-3-1 and empowered smaller central midfielders like Xavi Hernández and Andrés Iniesta as the fulcrum of the squad.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragonés: The Godfather of Atlético Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "Though Johan Cruyff pioneered the style at Barcelona, Aragonés made tiki-taka a household concept, installing the system as soon as he took over the national team.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragonés: The Godfather of Atlético Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "In a symbolic move, he dropped Raúl during Euro 2008 qualification, as he preferred to focus on the development of younger strikers - David Villa and Fernando Torres - who fit better with the timeline and playing style of Spain’s golden generation of midfielders.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragonés: The Godfather of Atlético Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Nevertheless, Zapatones - whom a former player described as having “square balls” - stuck to his guns and continued to build the team around Iniesta, Xavi, Villa, Torres, Cesc Fábregas and Xabi Alonso.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragonés: The Godfather of Atlético Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "“Niño,” he said, “you’re going to score today.”",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragonés: The Godfather of Atlético Madrid, Part II",
+   "url": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-07-11",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Aragonés approached. He drew a cross on Torres’s forehead. (...) “Niño,” he said, “you’re going to score today.”",
+   "verified": true
+  },
+  {
+   "title": "España va al ritmo de la selección de 2008 pero con otro fútbol",
+   "url": "https://www.eldebate.com/deportes/eurocopa/20240630/espana-ritmo-seleccion-2008-otro-futbol-queda-algo-estilo-creo-luis-aragones_209373.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-06-30",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "La selección española de Luis Aragonés se caracterizó por ser un equipo con futbolistas de un nivel técnico y táctico muy alto y de tener una idea de juego muy clara, enfocada en la posesión de balón y la movilidad en el campo y con un fútbol de toque y paciencia.",
+   "verified": true
+  },
+  {
+   "title": "España va al ritmo de la selección de 2008 pero con otro fútbol",
+   "url": "https://www.eldebate.com/deportes/eurocopa/20240630/espana-ritmo-seleccion-2008-otro-futbol-queda-algo-estilo-creo-luis-aragones_209373.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-06-30",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Sin embargo, Luis Aragonés jugaba algo más lento y usaba más el 4-1-4-1 y tiraba del 'tiki-taka', algo que la actual España ha dejado atrás.",
+   "verified": true
+  },
+  {
+   "title": "España va al ritmo de la selección de 2008 pero con otro fútbol",
+   "url": "https://www.eldebate.com/deportes/eurocopa/20240630/espana-ritmo-seleccion-2008-otro-futbol-queda-algo-estilo-creo-luis-aragones_209373.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-06-30",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "width",
+   "evidence": "Luis Aragonés no tenía en sus filas a dos futbolistas verticales como Lamine Yamal o Nico Williams, capaces de desajustar a los laterales y a los extremos, como también a los pivotes rivales si estos salen a la ayuda. Pero Aragonés sí contaba con dos grandes goleadores como Fernando Torres o David Villa que sabían suplir las carencias de la selección por banda.",
+   "verified": true
+  },
+  {
+   "title": "MUSEO VIRTUAL (XIII) 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "los de Luis Aragonés dieron una lección táctica y de capacidad de controlar los tiempos de la finalísima, de manejar el relato del partido y de tener un amplio repertorio de juego.",
+   "verified": true
+  },
+  {
+   "title": "MUSEO VIRTUAL (XIII) 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "transitions",
+   "evidence": "El equipo apostó no solo por poseer el balón sino también por jugar al contragolpe. En uno de ellos, encontró en Fernando Torres a su hombre-gol que anotó el tanto de la victoria.",
+   "verified": true
+  },
+  {
+   "title": "MUSEO VIRTUAL (XIII) 2008, la Eurocopa que lo cambió todo",
+   "url": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-04-15",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "fue capaz de implantar un estilo de juego, dominar los tiempos de cada encuentro e imponerse gracias a un bloque en el que las grandes individualidades estaban al servicio del grupo.",
+   "verified": true
+  },
+  {
+   "title": "Aragonés: La Eurocopa es cuando mejor jugó la selección",
+   "url": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-04-10",
+   "eventDate": "2011-04-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Iniciamos el trabajo por dos caminos, pero principalmente por el toque de balón, porque España no tenía una condición física y sí jugadores para hacernos superiores con el balón”",
+   "verified": false
+  },
+  {
+   "title": "Aragonés: La Eurocopa es cuando mejor jugó la selección",
+   "url": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-04-10",
+   "eventDate": "2011-04-09",
+   "accessedOn": "2026-11-02",
+   "dimension": "stated-view",
+   "evidence": "\"Xavi ha coincido conmigo transmitiendo el juego que yo quería. He tenido bastantes charlas con él sobre cómo llevar a España por un camino que necesitaba y él ha sido el que mejor lo ha sabido ejecutar\"",
+   "verified": false
+  },
+  {
+   "title": "Aragonés: La Eurocopa es cuando mejor jugó la selección",
+   "url": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-04-10",
+   "eventDate": "1974/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "\"El presidente, Vicente Calderón, pese a que tenía un año más de contrato, pensaba que yo tenía mucha ascendencia sobre los jugadores, por mi poder de convencimiento\" (...) \"Cuando empecé a entrenar al Atlético pasé momentos difíciles, no por lo deportivo que fue bastante bien, sino por el tema personal, de tener que mandar a unos compañeros que conocen tus defectos y virtudes\"",
+   "verified": true
+  },
+  {
+   "title": "Aragonés: La Eurocopa es cuando mejor jugó la selección",
+   "url": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2011-04-10",
+   "eventDate": "1974/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "En la décima jornada de la temporada 1974-1975, tomó las riendas del equipo como entrenador.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragones: Stubborn Old Mule or Brilliant Wise Man?",
+   "url": "https://bleacherreport.com/articles/32173-luis-aragones-stubborn-old-mule-or-brilliant-wise-man",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-06-24",
+   "eventDate": "2008-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Aragones received hate mail, threats, public slander and was railed in the Spanish press—particularly from Marca, the notoriously pro-Madrid mouthpiece publication. But he never gave in, and it has proved to be a stroke of genius.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragones: Stubborn Old Mule or Brilliant Wise Man?",
+   "url": "https://bleacherreport.com/articles/32173-luis-aragones-stubborn-old-mule-or-brilliant-wise-man",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-06-24",
+   "eventDate": "2008-06-24",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "Aragones announced today that he is making no changes to the squad that has brought him this far already",
+   "verified": true
+  },
+  {
+   "title": "Se cumplen 43 años de nuestra octava Liga",
+   "url": "https://www.atleticodemadrid.com/noticias/se-cumplen-43-anos-de-nuestra-octava-liga",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-15",
+   "eventDate": "1976/77",
+   "accessedOn": "2026-11-02",
+   "dimension": "defensive-block",
+   "evidence": "Uno de los principales argumentos del equipo de Luis Aragonés para finalizar el curso en la primera plaza fue su solidez defensiva. Y es que los rojiblancos fueron el equipo menos goleado del campeonato con 33 tantos",
+   "verified": true
+  },
+  {
+   "title": "Se cumplen 43 años de nuestra octava Liga",
+   "url": "https://www.atleticodemadrid.com/noticias/se-cumplen-43-anos-de-nuestra-octava-liga",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2020-05-15",
+   "eventDate": "1976/77",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "con 62 goles a favor, segundo mejor registro del campeonato solo por detrás del Fútbol Club Barcelona, los nuestros encontraron en Rubén Cano, Ayala y Leivinha su principal baza anotadora, pues con 19, 13 y 8 goles respectivamente anotaron 40 tantos",
+   "verified": true
+  },
+  {
+   "title": "Ten years since the wise man left us",
+   "url": "https://rfef.es/en/noticias/ten-years-since-the-wise-man-left-us",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-02-01",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "A coach of great character, a forger of dressing room solidity, a motivator of youngsters",
+   "verified": true
+  },
+  {
+   "title": "Ten years since the wise man left us",
+   "url": "https://rfef.es/en/noticias/ten-years-since-the-wise-man-left-us",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-02-01",
+   "eventDate": "2006",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "At the 2006 World Cup, a young and still inexperienced team lost in the Last 16 to Zidane's France, who would go on to reach the final. However, that same group, two years later, would be crowned European champions.",
+   "verified": true
+  },
+  {
+   "title": "Luis Aragonés (1987-88)",
+   "url": "https://www.fcbarcelona.es/es/ficha/648511/luis-aragones-1987-88",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2018-03-20",
+   "eventDate": "1974/75",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "La temporada 1974/75 comenzó su etapa como entrenador en el mismo equipo donde se había hecho mayor como futbolista, el Atlético de Madrid.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2008 – Xavi and Spain’s pass masters finally end decades of underachievement",
+   "url": "https://ca.sports.yahoo.com/news/euro-2008-xavi-spain-pass-150000133.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-03",
+   "eventDate": "2004/05",
+   "accessedOn": "2026-11-02",
+   "dimension": "game-management",
+   "evidence": "The process began following Luis Aragones' appointment after a humiliating Euro 2004 exit.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2008 – Xavi and Spain’s pass masters finally end decades of underachievement",
+   "url": "https://ca.sports.yahoo.com/news/euro-2008-xavi-spain-pass-150000133.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-03",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "Aragones' ensemble was built around the technical talents of Xavi Hernandez and Andres Iniesta with the Barcelona duo's supporting cast including the emerging David Silva, Cesc Fabregas and Santi Cazorla.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2008 – Xavi and Spain’s pass masters finally end decades of underachievement",
+   "url": "https://ca.sports.yahoo.com/news/euro-2008-xavi-spain-pass-150000133.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-03",
+   "eventDate": "2008",
+   "accessedOn": "2026-11-02",
+   "dimension": "possession",
+   "evidence": "with the focus now on precise passing and possession as tiki-taka was introduced to the world.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2008 – Xavi and Spain’s pass masters finally end decades of underachievement",
+   "url": "https://ca.sports.yahoo.com/news/euro-2008-xavi-spain-pass-150000133.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-03",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Villa's injury meant the tournament's leading scorer was left on the substitutes bench with Aragones reverting to a five-man midfield, and Fabregas returning to the side as Spain sought history.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2008 – Xavi and Spain’s pass masters finally end decades of underachievement",
+   "url": "https://ca.sports.yahoo.com/news/euro-2008-xavi-spain-pass-150000133.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-03",
+   "eventDate": "2008-06-29",
+   "accessedOn": "2026-11-02",
+   "dimension": "pressing",
+   "evidence": "Spain began nervously as Germany pressed high, before settling into the rhythm that had seen them conquer opponents by passing them into submission with suffocating possession.",
+   "verified": true
+  },
+  {
+   "title": "Euro 2008 – Xavi and Spain’s pass masters finally end decades of underachievement",
+   "url": "https://ca.sports.yahoo.com/news/euro-2008-xavi-spain-pass-150000133.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-03",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-02",
+   "dimension": "people-management",
+   "evidence": "Raul's departure was a huge talking point, the captain of the national side and Real Madrid icon, a player who had scored more goals for Spain than any other player in history.",
+   "verified": true
+  },
+  {
+   "title": "¡Nuestra Copa Intercontinental cumple 50 años!",
+   "url": "https://www.atleticodemadrid.com/noticias/nuestra-copa-intercontinental-cumple-50-anos",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-04-10",
+   "eventDate": "1975-04-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Luis Aragonés alineó de inicio un 4-3-3 compuesto por Pacheco; Melo, Heredia, Eusebio, Capón; Adelardo, Irureta, Alberto; Aguilar, Garate y Ayala.",
+   "verified": true
+  },
+  {
+   "title": "¡Nuestra Copa Intercontinental cumple 50 años!",
+   "url": "https://www.atleticodemadrid.com/noticias/nuestra-copa-intercontinental-cumple-50-anos",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-04-10",
+   "eventDate": "1975-04-10",
+   "accessedOn": "2026-11-02",
+   "dimension": "set-pieces",
+   "evidence": "Ayala logró el 2-0 definitivo recogiendo en el área una falta botada por su compatriota Heredia",
+   "verified": true
+  },
+  {
+   "title": "¡Nuestra Copa Intercontinental cumple 50 años!",
+   "url": "https://www.atleticodemadrid.com/noticias/nuestra-copa-intercontinental-cumple-50-anos",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2025-04-10",
+   "eventDate": "1975",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "estrenaba Luis Aragonés su palmarés como técnico en su temporada de debut en los banquillos.",
+   "verified": true
+  },
+  {
+   "title": "Luis apuesta por Senna y Villa",
+   "url": "https://www.ultimahora.es/deportes/otros-deportes/2008/06/08/430999/luis-apuesta-por-senna-villa.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2008-06-08",
+   "eventDate": "2008-06-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "shape",
+   "evidence": "Un dibujo que finalmente no será el tan cacareado 4-1-4-1. Villa asistirá a Torres en el ataque todo lo pueda para que éste no se sienta tan sólo, por lo que la táctica se acerca más al tradicional 4-4-2, el que de siempre le ha gustado a Luis y con el que alcanzó grandes metas en su etapa de entrenador del Atlético de Madrid.",
+   "verified": true
+  },
+  {
+   "title": "Luis apuesta por Senna y Villa",
+   "url": "https://www.ultimahora.es/deportes/otros-deportes/2008/06/08/430999/luis-apuesta-por-senna-villa.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2008-06-08",
+   "eventDate": "2008-06-08",
+   "accessedOn": "2026-11-02",
+   "dimension": "player-profile",
+   "evidence": "alineó con el peto de titulares a Casillas; Sergio Ramos, Marchena, Puyol, Capdevila; Iniesta, Senna, Xavi, Silva; Villa y Torres.",
+   "verified": true
+  },
+  {
+   "title": "Luis apuesta por Senna y Villa",
+   "url": "https://www.ultimahora.es/deportes/otros-deportes/2008/06/08/430999/luis-apuesta-por-senna-villa.html",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2008-06-08",
+   "eventDate": "2008-06",
+   "accessedOn": "2026-11-02",
+   "dimension": "squad-building",
+   "evidence": "Cesc Fábregas se explayó en conferencia de prensa para expresar sus sentimientos. Está harto de que constantemente se cuestione su rendimiento en la selección y se compare con el que ofrece en el Arsenal, y tampoco está contento con se le declare incompatible con Xavi Hernández.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Iniciamos el trabajo por dos caminos, pero principalmente por el toque de balón, porque España no tenía una condición física y sí jugadores para hacernos superiores con el balón",
+   "date": "2011-04-09",
+   "source": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "Xavi ha coincido conmigo transmitiendo el juego que yo quería. He tenido bastantes charlas con él sobre cómo llevar a España por un camino que necesitaba y él ha sido el que mejor lo ha sabido ejecutar",
+   "date": "2011-04-09",
+   "source": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "el torneo en el que mejor ha jugado la selección, pese a que luego se ganara el Mundial",
+   "date": "2011-04-09",
+   "source": "https://www.libertaddigital.com/deportes/aragones-la-eurocopa-es-cuando-mejor-jugo-la-seleccion-1276420011/",
+   "provenance": "primary"
+  },
+  {
+   "quote": "el que es dueño del balón es dueño del juego",
+   "date": "2020-04-15",
+   "source": "https://rfef.es/es/noticias/museo-virtual-xiii-2008-la-eurocopa-que-lo-cambio-todo",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "la pelota tiene música y hay que cuidarla bien",
+   "date": "2016-02-01",
+   "source": "https://www.bbva.com/es/luis-aragones-y-gestion-del-grupo-como-clave-del-exito/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Niño, you’re going to score today. (...) You’re the best there is. If we don’t win the Euros, it’s because I did a s*** job.",
+   "date": "2008-06-29",
+   "source": "https://www.intothecalderon.com/2017/7/11/15930666/luis-aragones-the-godfather-of-atletico-madrid-spain-part-ii",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://dbe.rah.es/biografias/65930/luis-aragones-suarez",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7be25d0d4d-c686337433d9-1000--spain-spoiled-for-creative-talent",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuro/history/news/0254-0d7b99a46032-2b8433c485cd-1000--raul-dropped-from-spain-squad",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.soccer-spain.com/ssdocs/euro2008/reports/report14.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://mail.soccer-spain.com/ssdocs/euro2008/reports/report18.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbolespanol/noticias/aragon7mayo03.html",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Helenio Herrera (credo of any stratagem to motivate, per search summary biografiasyvidas, unverified)",
+  "Johan Cruyff / Barcelona short passing (per intothecalderon)"
+ ],
+ "gaps": {
+  "dimensions": [
+   "build-up"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Only tier C sources; Atlético spells covered by club history pages and results, none on marking or pressing; Spain shape disputed."
+ }
+}

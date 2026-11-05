@@ -1,0 +1,473 @@
+{
+  "id": "gusztav-sebes",
+  "catalog": "manager",
+  "name": "Gusztáv Sebes",
+  "status": "complete",
+  "researchedOn": "2026-11-01",
+  "profilePeriod": {
+    "start": "1949",
+    "end": "1956-06-03"
+  },
+  "scopeNote": "Hungary national team coach, 1949 to 3 June 1956 (dismissed after the 5-4 defeat to Belgium, per Wikipedia; These Football Times: 'Sebes was replaced by Bukovi in June'). Start kept as the year only: Sebes sat on a selection committee from 1948 (Nemzeti Sport: 'From 19 September 1948, a committee of selection assembled the team'; hu.wikipedia calls him national-team trainer 1945-49 and szövetségi kapitány 1949-56) and was in sole charge by 1949; no appointment day found. Style named from the evidence: a WM-derived shape with three defenders, a holding half-back (Zakariás), a deep-lying centre-forward (Hidegkuti) and wingers tucked into midfield; Nemzeti Sport (2006) calls the 1953 Rome set-up a 4-3-3 'considerably more defensive than the WM', UEFA 'a radical variation of the WM formation', FIFA (2012) a 'novel 4-2-4'. 'Socialist football' is Sebes's own label as reported by FIFA, undated. The '4-2-4' label is contested (see openQuestions). Club spells (dated on hu.wikipedia) are excluded: before 1949 they predate the work he is known for; after 1956 none brought titles or a recognised style in the pages read. Club spell dates are year-only because hu.wikipedia gives only years.",
+  "spellsCounted": [
+    {
+      "club": "Hungary national team",
+      "start": "1949",
+      "end": "1956-06-03",
+      "reason": "Built the Golden Team: 1952 Olympic gold, 6-3 at Wembley (1953), 1954 World Cup final; the spell he is known for."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Szentlőrinci AC / Weiss Manfréd (Csepel) / Budafoki MTE",
+      "start": "1940",
+      "end": "1946",
+      "reason": "Early club coaching before the national-team work; no titles or tactical coverage found."
+    },
+    {
+      "club": "Újpesti Dózsa",
+      "start": "1957",
+      "end": "1960",
+      "reason": "After the counted spell; not what he is known for, no tactical coverage found."
+    },
+    {
+      "club": "Budapest Honvéd",
+      "start": "1960",
+      "end": "1961",
+      "reason": "After the counted spell; not what he is known for, no tactical coverage found."
+    },
+    {
+      "club": "Diósgyőri VTK",
+      "start": "1968",
+      "end": "1968",
+      "reason": "Brief late spell; no tactical coverage found."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking (mar) is unresolved: a dedicated search (English, Hungarian, German) found no source saying whether Sebes's back three and half-backs marked man-to-man or zonally. Sources only describe opponents' centre-halves man-marking Hidegkuti. The mar axis is formally fed by defensive-block facts, but none of them speaks to marking.",
+    "Tactical authorship: Jonathan Wilson (2025) presents Bukovi as the tactical mastermind and Sebes as 'by his own admission, no great tactician'; Nemzeti Sport credits Bukovi and Sebes jointly; UEFA and Wikipedia credit Sebes. The audit should weigh Sebes as organiser/selector as much as tactician.",
+    "Shape label: 4-3-3 (Nemzeti Sport on Rome 1953), three full-backs and two half-backs (These Football Times), 3-2-3-2 (Wikipedia Golden Team), 4-2-4 (FIFA 2012). Not settled.",
+    "Exact appointment day in 1949 not found; Sebes was already on the selection committee from 19 September 1948.",
+    "No primary Sebes interview on tactics was found; all statedView entries are attributed. His memoir (Örömök és csalódások) was not reachable online.",
+    "teamProfiles: the team file hungary-1950-56 lists gusztav-sebes as its manager, but the previous research file had no teamProfiles link; left unlinked to keep the earlier scope. The user may want to add it."
+  ],
+  "sources": [
+    {
+      "title": "The Intellect Won instead of Strength in London - Nemzeti Sport Online (archive)",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-the-intellect-won-instead-of-strength-in-london",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1953-05-17",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "On the 3-0 win in Rome (17 May 1953): \"Gusztáv Sebes surprised the world with new tactics already in the course of that match.\" Line-up described \"Before three defenders, Jenő Buzánszky, Gyula Lóránt, Mihály Lantos\"; \"he put József Zakariás into the role of a moving player\"; \"He ordered Nándor Hidegkuti back from the centre\"; Kocsis left as the lone forward, \"some kind of a wedge\". The article says the set-up corresponded to a 4-3-3. Article from 2006, no period quote.",
+      "verified": true
+    },
+    {
+      "title": "The Intellect Won instead of Strength in London - Nemzeti Sport Online (archive)",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-the-intellect-won-instead-of-strength-in-london",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1953-05-17",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "The article calls the 1953 set-up \"considerably more defensive than the WM\", with three defenders (Buzánszky, Lóránt, Lantos) and Zakariás as the mobile half-back. It does not say whether the defence marked man-to-man or by zone.",
+      "verified": true
+    },
+    {
+      "title": "The Intellect Won instead of Strength in London - Nemzeti Sport Online (archive)",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-the-intellect-won-instead-of-strength-in-london",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1953",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "Bukovi and Sebes wanted \"many movements, short passes, changing positions, speed\" (the article adds they did not drop the long pass). Joint Bukovi-Sebes idea, not attributed to Sebes alone.",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars - These Football Times (Greg Lea)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1953",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "\"Hungary innovated by employing three full-backs and two half-backs\"; \"Sebes replaced Palotás with Hidegkuti in the false nine role.\" Hidegkuti: \"If I went forward, Puskás dropped back.\"",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars - These Football Times (Greg Lea)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1953",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "\"Zakarias regularly dropped back into defence\". The article does not describe man-marking, zonal marking or pressing.",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars - These Football Times (Greg Lea)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1953",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "\"Before the game Sebes held a four-hour-long tactical team talk\"; warm-up matches were arranged so that local clubs would \"adopt the tactics of their upcoming opponents.\" Shows opponent-specific preparation, not a change of his own system.",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars - These Football Times (Greg Lea)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"Sebes saw his role as a holistic one\"; \"Instead of drinking sessions, the squad visited museums and art galleries\"; \"the system always trumped the individual.\" Sebes was \"appointed deputy minister of sport\".",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars - These Football Times (Greg Lea)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "\"He introduced frequent swimming sessions into Hungary's training regime to increase players' lung power.\" (fitness work on top of a technical side).",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes: the pioneering brain behind Hungary's Magical Magyars - These Football Times (Greg Lea)",
+      "url": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-08-15",
+      "eventDate": "1949",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "Honvéd (Kispest) and MTK: \"From the late 1940s onwards, they and MTK would supply the vast majority of the national team's players\"; \"Sebes was the driving force behind the army's takeover of Kispest\".",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guszt%C3%A1v_Sebes",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1953-11",
+      "accessedOn": "2026-11-01",
+      "dimension": "game-management",
+      "evidence": "Before the 1953 England match he borrowed the heavier balls used by the English FA so the players could train with them, changed his training pitch to Wembley's dimensions, arranged club practice matches played in the \"English style\", and played Raynor's Sweden on 15 November 1953. Tier C reference; facts consistent with TFT's account of warm-up matches against clubs copying the opponent.",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guszt%C3%A1v_Sebes",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1952-09-19",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Against Switzerland, 19 September 1952 (Central European International Cup), with Hungary 2-0 down, he replaced Péter Palotás with Nándor Hidegkuti; Hungary won 4-2. Tier C reference.",
+      "verified": true
+    },
+    {
+      "title": "Gusztáv Sebes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guszt%C3%A1v_Sebes",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1949",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "He favoured national sides drawn mainly from one or two clubs, as in Austria and Italy, and used the 1949 nationalisation of clubs to build such a system around Kispest AC (later Budapest Honvéd). Tier C reference.",
+      "verified": true
+    },
+    {
+      "title": "The greatest teams of all time: Hungary 1950-56 - UEFA.com",
+      "url": "https://uefa.com/uefaeuro/history/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-06-15",
+      "eventDate": "1949",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "After the 5-2 defeat in Prague (April 1949): \"Recently appointed coach Gusztáv Sebes did away with the established stars\", bringing in \"youthful, malleable fresh faces like Sándor Kocsis and Zoltán Czibor\".",
+      "verified": true
+    },
+    {
+      "title": "The Miracle of the Golden Team - Nemzeti Sport Online (archive)",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-the-miracle-of-the-golden-team",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1949",
+      "accessedOn": "2026-11-01",
+      "dimension": "squad-building",
+      "evidence": "\"The captain looked for the ideal and strongest composition of the team, and neglected many stars.\" (captain = szövetségi kapitány, i.e. Sebes). Supports UEFA's account of dropping established names.",
+      "verified": true
+    },
+    {
+      "title": "The greatest teams of all time: Hungary 1950-56 - UEFA.com",
+      "url": "https://uefa.com/uefaeuro/history/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-06-15",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "\"wingers who could slot into midfield when required\".",
+      "verified": true
+    },
+    {
+      "title": "Magical Magyars - Guide to Football (tactical history)",
+      "url": "https://guidetofootball.com/history/magical-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953",
+      "accessedOn": "2026-11-01",
+      "dimension": "width",
+      "evidence": "\"The wingers tucked in to support the inside forwards.\" Undated page (site copyright 2026); no period quote.",
+      "verified": true
+    },
+    {
+      "title": "Magical Magyars - Guide to Football (tactical history)",
+      "url": "https://guidetofootball.com/history/magical-magyars/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Sebes's ideas included \"flexible positioning and short passing\"; Bozsik, \"nominally a half-back, often pushed forward into the spaces vacated by Hidegkuti.\" Undated page; nothing on the goalkeeper or the first phase.",
+      "verified": true
+    },
+    {
+      "title": "The greatest teams of all time: Hungary 1950-56 - UEFA.com",
+      "url": "https://uefa.com/uefaeuro/history/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-06-15",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "\"Tactical discussions were regular, lengthy and usually included input from captain Puskás\".",
+      "verified": true
+    },
+    {
+      "title": "The greatest teams of all time: Hungary 1950-56 - UEFA.com",
+      "url": "https://uefa.com/uefaeuro/history/news/0253-0d8026b8531a-6be6e23436d1-1000--the-greatest-teams-of-all-time-hungary-1950-56",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-06-15",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "player-profile",
+      "evidence": "Brian Glanville (quoted): \"The Hungarians played superb technical and tactical football\".",
+      "verified": true
+    },
+    {
+      "title": "England v Hungary 1953 - RSSSF compilation (includes the FA Year Book report)",
+      "url": "https://rsssf.org/rssbest/enghong.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1990-08-15",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-11-01",
+      "dimension": "possession",
+      "evidence": "FA Year Book report on the 6-3 at Wembley (contemporary English account, reproduced in the RSSSF compilation): Hungary's play was \"a mingling of short and long passes\" with \"ball control amounting to elegance\", and \"brilliance, flair and zest\"; the forwards interchanged.",
+      "verified": true
+    },
+    {
+      "title": "Hungary's unsung hero of 6:3 legend - Libero Guide",
+      "url": "https://liberoguide.com/hungarys-unsung-hero-of-63-legend/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026",
+      "eventDate": "1953-11-25",
+      "accessedOn": "2026-11-01",
+      "dimension": "defensive-block",
+      "evidence": "\"In the dressing room at Wembley, Sebes stressed to his No.6 his defensive role in front of the back three\" (Zakariás), which let Bozsik roam. Undated page (2026 copyright); no marking detail.",
+      "verified": true
+    },
+    {
+      "title": "We Scored Six to England - Nemzeti Sport Online (archive)",
+      "url": "https://www.nemzetisport.hu/migralt-cikkek/2006/12/20061205-we-scored-six-to-england",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2006-12-05",
+      "eventDate": "1953-11",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Sebes \"brought rather strict timetable\" for the London trip; the team trained at Fulham and went to Wembley \"only the day of the match.\"",
+      "verified": true
+    },
+    {
+      "title": "The Most Important Soccer Game Ever Played - The Ringer (Daniel Harris)",
+      "url": "https://www.theringer.com/soccer/2018/7/13/17568582/world-cup-most-important-game-1954-final-hungary-west-germany",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-07-13",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "transitions",
+      "evidence": "Right-back Jenő Buzánszky (later interview) on losing the ball: \"there were no empty spaces\", so the team won it back quickly and attacked again; \"When we attacked, everyone attacked.\" Retrospective player recollection, undated.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Most Important Soccer Game Ever Played - The Ringer (Daniel Harris)",
+      "url": "https://www.theringer.com/soccer/2018/7/13/17568582/world-cup-most-important-game-1954-final-hungary-west-germany",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-07-13",
+      "eventDate": "1954",
+      "accessedOn": "2026-11-01",
+      "dimension": "people-management",
+      "evidence": "Grosics on Sebes: \"He made a political issue of every important match or competition\" (undated recollection).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The beginning of the Magyars' magic - FIFA (inside.fifa.com)",
+      "url": "https://inside.fifa.com/tournaments/mens/worldcup/1954switzerland/news/the-beginning-of-the-magyars-magic",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-06-03",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "shape",
+      "evidence": "Puskás on Hidegkuti: \"sitting at the front of the midfield, making telling passes, dragging the opposition defence out of shape\"; \"When we attacked, everyone attacked ... and in defence it was the same.\" Later recollection, undated.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Gold gives birth to the Magical Magyars - FIFA (inside.fifa.com)",
+      "url": "https://inside.fifa.com/en/news/gold-gives-birth-the-magical-magyars-1673992",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-08-02",
+      "eventDate": "1952-08-02",
+      "accessedOn": "2026-11-01",
+      "dimension": "build-up",
+      "evidence": "Olympic final 1952: \"Bozsik tormenting Yugoslavia with his piercing through-balls\"; the article mentions the \"novel 4-2-4 formation and exhilarating attacking play\" (2012 retrospective).",
+      "verified": true
+    },
+    {
+      "title": "The Greatest Tactician in History - Part 1 (Jonathan Wilson, Wilson's World substack)",
+      "url": "https://jonawils.substack.com/p/the-greatest-tactician-in-history",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "1949",
+      "accessedOn": "2026-11-01",
+      "dimension": "stated-view",
+      "evidence": "Wilson: Sebes was \"a fine former player and an adept politician and organiser\" and, \"by his own admission, no great tactician\"; Bukovi, who held no official role, is presented as the Aranycsapat's tactical mastermind. Paywalled: only the free part read. A self-description reported second-hand, no primary quote.",
+      "verified": true
+    },
+    {
+      "title": "Gyula Grosics - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gyula_Grosics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-11-01",
+      "eventDate": "1950",
+      "accessedOn": "2026-11-01",
+      "dimension": "pressing",
+      "evidence": "Grosics's sweeper-keeper style \"allowed his teammates to press deep in their opponents' half.\" Not tied to Sebes or to a date on the page, so kept as context only.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "I felt we had the players and tactics to compete with anyone",
+      "date": "2012-08-02",
+      "source": "https://inside.fifa.com/en/news/gold-gives-birth-the-magical-magyars-1673992",
+      "provenance": "attributed",
+      "note": "About the 1952 Olympic squad; earliest dated appearance found is the 2012 FIFA article."
+    },
+    {
+      "quote": "We had done what we had to do, and we had done it in style.",
+      "date": "2012-08-02",
+      "source": "https://inside.fifa.com/en/news/gold-gives-birth-the-magical-magyars-1673992",
+      "provenance": "attributed",
+      "note": "After the 1952 Olympic final; pairs result and style. Same 2012 FIFA article, which also reports Rákosi's warning that defeat would not be tolerated."
+    },
+    {
+      "quote": "We played football as Jimmy Hogan taught us.",
+      "date": "2018-07-13",
+      "source": "https://www.theringer.com/soccer/2018/7/13/17568582/world-cup-most-important-game-1954-final-hungary-west-germany",
+      "provenance": "attributed",
+      "note": "Said after the 6-3 at Wembley (1953) per later sources; Nemzeti Sport (2021-10-09) says he 'reportedly said' it. No primary record found."
+    },
+    {
+      "quote": "The bitter struggle between capitalism and communism is fought out not only between our societies, but also on the pitch.",
+      "date": "2020-08-15",
+      "source": "https://thesefootballtimes.co/2020/08/15/gusztav-sebes-the-pioneering-brain-behind-hungarys-magical-magyars/",
+      "provenance": "attributed",
+      "note": "Undated in These Football Times; political, not tactical."
+    },
+    {
+      "quote": "socialist football",
+      "date": "2020-06-03",
+      "source": "https://inside.fifa.com/tournaments/mens/worldcup/1954switzerland/news/the-beginning-of-the-magyars-magic",
+      "provenance": "attributed",
+      "note": "FIFA: Sebes 'famously described their intricate, cohesive style of play as \"socialist football\"'. Wikipedia glosses it as every player carrying equal responsibility and able to play in any position. No primary source or date found."
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.tagesspiegel.de/sport/das-wunder-das-kein-wunder-war-1133422.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://web.archive.org/web/2010/https://www.tagesspiegel.de/sport/das-wunder-das-kein-wunder-war-1133422.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://jonawils.substack.com/p/the-greatest-tactician-in-history",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://hu.wikipedia.org/wiki/Sebes_Guszt%C3%A1v",
+      "reason": "truncated"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Golden_Team",
+      "reason": "truncated"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "pressing",
+      "set-pieces"
+    ],
+    "axes": []
+  },
+  "influences": [
+    {
+      "id": "danubian-school",
+      "kind": "football-ideology",
+      "note": "Nemzeti Sport (2021): the Golden Team's coaches came from the MTK school, 'followers of the Hogan tradition'; Sebes: 'We played football as Jimmy Hogan taught us.'"
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reason": "Historical profile with no contemporary tactical analysis: one contemporary account (FA Year Book via RSSSF), two tier B pieces (These Football Times, a paywalled Wilson excerpt) and the rest tier C retrospectives (UEFA, FIFA, Nemzeti Sport 2006, Wikipedia). Several key facts are later player recollections. No primary Sebes quote, nothing on marking or set pieces, and his tactical authorship is disputed (Bukovi)."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "louis-van-gaal",
+  "catalog": "manager",
+  "name": "Louis van Gaal",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1991-09-28",
+    "end": "2000-05-20"
+  },
+  "scopeNote": "Manager profile of Louis van Gaal across two counted spells: Ajax (28 September 1991 to 30 June 1997: Eredivisie 1993-94 to 1995-96, UEFA Champions League 1994-95) and Barcelona (1 July 1997 to 20 May 2000: La Liga 1997-98 and 1998-99). Dates from the managerial table of the English Wikipedia article. Excluded: the Netherlands 2000-01, Barcelona 2002-03, and the later spells (AZ, Bayern, Manchester United, Netherlands 2014, Netherlands 2022), which are outside this profile's era and were not researched in this run. Style: the evidence supports a possession-based, attacking side built on total-football principles at Ajax, with youth players. The Ajax 1994-95 team profile relies on this spell.",
+  "spellsCounted": [
+    {
+      "club": "Ajax",
+      "start": "1991-09-28",
+      "end": "1997-06-30",
+      "reason": "Three Eredivisie titles and the 1994-95 Champions League: the Ajax side he is known for."
+    },
+    {
+      "club": "Barcelona",
+      "start": "1997-07-01",
+      "end": "2000-05-20",
+      "reason": "La Liga 1997-98 and 1998-99 and the 1997 Super Cup."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Netherlands",
+      "start": "2000-07-07",
+      "end": "2001-11-30",
+      "reason": "National side, outside the club era of this profile."
+    },
+    {
+      "club": "Netherlands U20",
+      "start": "2001-06-05",
+      "end": "2001-07-02",
+      "reason": "Youth side, short."
+    },
+    {
+      "club": "Barcelona",
+      "start": "2002-07-01",
+      "end": "2003-01-28",
+      "reason": "Short second spell, no titles."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The sources describe Ajax only at the level of the style; the pressing, marking and game-management facts for Ajax 1991-97 were not read in this run."
+  ],
+  "sources": [
+    {
+      "title": "Louis van Gaal - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_van_Gaal",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"At Ajax, Van Gaal's style of using set patterns of play was inspired by Dutch total football\" (Ajax, 1991-1997)",
+      "verified": true
+    },
+    {
+      "title": "Louis van Gaal - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_van_Gaal",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1991",
+      "accessedOn": "2026-10-17",
+      "dimension": "possession",
+      "evidence": "\"Van Gaal believed in playing attractive attacking football based on possession\" (early career, no season given)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "pressing",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table and two undated Wikipedia style lines; the tactical sources read (FourFourTwo, 1991-97) were not opened."
+  }
+}
