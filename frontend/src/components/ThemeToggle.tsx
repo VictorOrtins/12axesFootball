@@ -1,13 +1,13 @@
 import { t } from '../i18n';
-import type { QuizTheme } from '../hooks/useQuizTheme';
+import type { Theme } from '../hooks/useTheme';
 
-interface QuizThemeToggleProps {
-  theme: QuizTheme;
+interface ThemeToggleProps {
+  theme: Theme;
   onToggle: () => void;
 }
 
 // Mostra o ícone do tema para o qual o clique leva: lua no claro, sol no escuro.
-export function QuizThemeToggle({ theme, onToggle }: QuizThemeToggleProps) {
+export function ThemeToggle({ theme, onToggle }: ThemeToggleProps) {
   const isDark = theme === 'dark';
   return (
     <button

@@ -1,7 +1,6 @@
 import { useState, type CSSProperties, type ReactNode } from 'react';
 import { t } from '../../i18n';
 import { NEW_ISSUE_URL } from '../../data/repo';
-import { tokens } from '../../styles/tokens.generated';
 import { ratingTier } from '../../utils/agreement';
 
 export function Logo({ onClick }: { onClick?: () => void }) {
@@ -166,7 +165,7 @@ export function Ring({ pct, size, stroke, sized = true }: RingProps) {
   return (
     <div className="e-ring" style={style} role="img" aria-label={t.compatibilityAria(value.toFixed(0))}>
       <svg viewBox={`0 0 ${size} ${size}`}>
-        <circle cx={center} cy={center} r={radius} fill="none" stroke={tokens['ink-100']} strokeWidth={stroke} />
+        <circle cx={center} cy={center} r={radius} fill="none" stroke="var(--ink-100)" strokeWidth={stroke} />
         <circle
           className="e-ring-arc"
           cx={center}

@@ -10,7 +10,7 @@ const FIXTURE = `:root {
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   --font: "Sora", sans-serif;
 }
-html[data-quiz-theme="dark"] { --green-500: #348264; }`;
+html[data-theme="dark"] { --green-500: #348264; }`;
 
 describe('readColourTokens', () => {
   it('resolves var() chains to the light value', () => {

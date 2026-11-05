@@ -925,7 +925,7 @@ button.fut:hover{transform:translateY(-4px)}
 .e-nav .e-back:hover{color:var(--pitch-text)}
 .e-nav .theme-toggle{border-color:var(--pitch-line);color:var(--pitch-text)}
 .e-nav .theme-toggle:hover{background:var(--green-700)}
-html:not([data-quiz-theme="dark"]) .question-card{background:var(--card-bg);border:1px solid var(--card-line);box-shadow:var(--card-shadow)}
+html:not([data-theme="dark"]) .question-card{background:var(--card-bg);border:1px solid var(--card-line);box-shadow:var(--card-shadow)}
 
 /* Afinidade, não força: % na nota, rótulo "de afinidade" e aviso sob o título */
 .e-sim-note{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:14px;color:var(--texto-suave)}

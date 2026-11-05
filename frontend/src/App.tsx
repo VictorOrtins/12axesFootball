@@ -10,8 +10,8 @@ import { ResultsScreen } from './components/editorial/ResultsScreen';
 import { CatalogScreen } from './components/editorial/CatalogScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
-import { useQuizTheme } from './hooks/useQuizTheme';
-import { QuizThemeToggle } from './components/QuizThemeToggle';
+import { useTheme } from './hooks/useTheme';
+import { ThemeToggle } from './components/ThemeToggle';
 import {
   answeredCount as savedAnsweredCount,
   clearProgress,
@@ -113,7 +113,8 @@ function MainApp() {
   const [error, setError] = useState<string | null>(null);
   const [archetypeIndex, setArchetypeIndex] = useState(0);
   const [archetypeChoices, setArchetypeChoices] = useState<Record<string, string>>({});
-  const quizTheme = useQuizTheme(screen === 'quiz' || screen === 'archetype');
+  const theme = useTheme();
+  const themeToggle = <ThemeToggle theme={theme.theme} onToggle={theme.toggle} />;
   const [archetypeDone, setArchetypeDone] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Quiz deixado pela metade em outra visita (ou antes de um erro/recarga).
@@ -633,24 +634,27 @@ function MainApp() {
                   {t.langToggleLabel}
                 </button>
               </nav>
-              <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={openVariantChooser}>
-                {t.navStart}
-              </button>
-              <button
-                className="e-menu-btn"
-                type="button"
-                aria-label={t.menuAria}
-                aria-expanded={isMenuOpen}
-                onClick={() => setIsMenuOpen((open) => !open)}
-              >
-                <span />
-                <span />
-                <span />
-              </button>
+              <div className="e-nav-actions">
+                {themeToggle}
+                <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={openVariantChooser}>
+                  {t.navStart}
+                </button>
+                <button
+                  className="e-menu-btn"
+                  type="button"
+                  aria-label={t.menuAria}
+                  aria-expanded={isMenuOpen}
+                  onClick={() => setIsMenuOpen((open) => !open)}
+                >
+                  <span />
+                  <span />
+                  <span />
+                </button>
+              </div>
             </>
           )}
           {screen === 'catalog' && (
-            <>
+            <div className="e-nav-actions">
               <button className="e-back" type="button" onClick={goHome}>
                 <ArrowIcon />
                 {t.backToStart}
@@ -663,26 +667,33 @@ function MainApp() {
               >
                 {t.langToggleLabel}
               </button>
-            </>
+              {themeToggle}
+            </div>
           )}
           {screen === 'variant' && (
-            <button className="e-back" type="button" onClick={goHome}>
-              <ArrowIcon />
-              {t.backToStart}
-            </button>
+            <div className="e-nav-actions">
+              <button className="e-back" type="button" onClick={goHome}>
+                <ArrowIcon />
+                {t.backToStart}
+              </button>
+              {themeToggle}
+            </div>
           )}
           {(screen === 'quiz' || screen === 'archetype') && (
             <div className="e-nav-actions">
-              <QuizThemeToggle theme={quizTheme.theme} onToggle={quizTheme.toggle} />
+              {themeToggle}
               <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
                 {t.restartQuiz}
               </button>
             </div>
           )}
           {screen === 'results' && (
-            <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
-              {t.redoQuiz}
-            </button>
+            <div className="e-nav-actions">
+              {themeToggle}
+              <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
+                {t.redoQuiz}
+              </button>
+            </div>
           )}
         </div>
       </header>

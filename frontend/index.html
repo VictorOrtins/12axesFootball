@@ -53,8 +53,18 @@
 
     <style>
       :root{color-scheme:light}/*@tokens*/
+      html[data-theme="dark"]{color-scheme:dark;--canvas:#121513;--ink-900:#ECE8DC}
       *{box-sizing:border-box}html,body,#root{min-height:100dvh}body{margin:0;background:var(--canvas);color:var(--ink-900);font-family:var(--font-body);line-height:1.55;overflow-x:clip}#root{position:relative;z-index:1}
     </style>
+    <script>
+      (function () {
+        var stored = null;
+        try {
+          stored = localStorage.getItem('12axes:theme') || localStorage.getItem('12axes:quiz-theme');
+        } catch (e) {}
+        document.documentElement.setAttribute('data-theme', stored === 'light' ? 'light' : 'dark');
+      })();
+    </script>
 
     <!-- Structured data: WebApplication + WebSite -->
     <script type="application/ld+json">
