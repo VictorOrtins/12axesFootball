@@ -1,7 +1,7 @@
-import { useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { t } from '../../i18n';
 import { fetchCompare, fetchCompareCatalog } from '../../services/quizApi';
-import type { Axis, AxisResult, CompareDetail, CompareItem } from '../../types/quiz';
+import type { Axis, AxisResult, CompareDetail, CompareItem, CompareType } from '../../types/quiz';
 import { compareAxes, summaryKinds, type CompareAxisRow } from '../../utils/compareAxes';
 import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImage';
 import { SafeImg } from '../editorial/primitives';
@@ -173,6 +173,60 @@ export function CompareSection({ axes, results }: CompareSectionProps) {
       )}
     </section>
   );
+}
+
+/** Perfil citado no resultado. Sem id, o perfil é achado pelo nome no catálogo. */
+export interface ProfileRef {
+  type: CompareType;
+  id?: string;
+  name: string;
+}
+
+let catalogRequest: Promise<CompareItem[]> | null = null;
+
+async function resolveProfileId(profile: ProfileRef): Promise<string> {
+  if (profile.id) return profile.id;
+  catalogRequest ??= fetchCompareCatalog().catch((err: unknown) => {
+    catalogRequest = null;
+    throw err;
+  });
+  const item = (await catalogRequest).find((candidate) => candidate.type === profile.type && candidate.name === profile.name);
+  if (!item) throw new Error(`Perfil fora do catálogo: ${profile.name}`);
+  return item.id;
+}
+
+// Aba de detalhes de qualquer treinador, time ou ideia de jogo citado no resultado.
+export function ProfileSheet({ profile, axes, results, onClose }: {
+  profile: ProfileRef;
+  axes: Axis[];
+  results: Map<string, AxisResult>;
+  onClose: () => void;
+}) {
+  const [detail, setDetail] = useState<CompareDetail | null>(null);
+  const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    const userPercents = axes.map((axis) => results.get(axis.id)?.leftPercent ?? 50);
+    resolveProfileId(profile)
+      .then((id) => fetchCompare(profile.type, id, userPercents))
+      .then((next) => !cancelled && setDetail(next))
+      .catch(() => !cancelled && setFailed(true));
+    return () => {
+      cancelled = true;
+    };
+  }, [profile, axes, results]);
+
+  if (failed) {
+    return (
+      <InfoSheet titleId="e-profile-sheet-title" onClose={onClose}>
+        <h3 id="e-profile-sheet-title">{profile.name}</h3>
+        <p className="e-axis-sheet-text">{t.compareLoadError}</p>
+      </InfoSheet>
+    );
+  }
+  if (!detail) return null;
+  return <ComparisonSheet detail={detail} axes={axes} results={results} onClose={onClose} />;
 }
 
 // "Você é moralmente compatível com X": eixo com advérbio vira frase direta; os demais usam "Em {eixo}, ...".

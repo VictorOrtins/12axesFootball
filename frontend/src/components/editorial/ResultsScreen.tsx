@@ -6,7 +6,7 @@ import { PdfReport } from '../report/PdfReport';
 import '../../styles/report.css';
 import { AreasSection } from '../results/AreasSection';
 import { AxesSection } from '../results/AxesSection';
-import { CompareSection } from '../results/CompareSection';
+import { CompareSection, ProfileSheet, type ProfileRef } from '../results/CompareSection';
 import { TeamsSection } from '../results/TeamsSection';
 import { FootballIdeologiesSection } from '../results/FootballIdeologiesSection';
 import { ManagersSection } from '../results/ManagersSection';
@@ -14,6 +14,7 @@ import { CompassSection, findCompassAxes } from '../results/CompassSection';
 import { PhraseSection } from '../results/PhraseSection';
 import { ResultsNav } from '../results/ResultsNav';
 import { SignatureSection } from '../results/SignatureSection';
+import { NameButton } from '../results/parts';
 import { computeCompass } from '../../utils/compass';
 import { DownloadIcon, Ring, ShareImageIcon } from './primitives';
 
@@ -31,6 +32,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
   const top = result.topMatch;
   const compass = computeCompass(axisResults);
   const [printingPdf, setPrintingPdf] = useState(false);
+  const [profile, setProfile] = useState<ProfileRef | null>(null);
 
   // O relatório é montado fora da tela; quando imagens e fontes carregam, o diálogo de
   // impressão do navegador gera o PDF. O título da aba vira o nome sugerido do arquivo.
@@ -77,11 +79,16 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
               <div className="e-top-head">
                 <div>
                   <span className="e-tag e-tag-solid">{top.category}</span>
-                  <h2 className={top.name.length >= 18 ? 'e-long-name' : undefined}>{top.name}</h2>
+                  <h2 className={top.name.length >= 18 ? 'e-long-name' : undefined}>
+                    <NameButton
+                      name={top.name}
+                      onOpen={() => setProfile({ type: 'football-ideology', id: top.footballIdeologyId, name: top.name })}
+                    />
+                  </h2>
                 </div>
                 <Ring pct={top.compatibility} size={120} stroke={6} />
               </div>
-              <PhraseSection match={top} />
+              <PhraseSection match={top} onOpenProfile={setProfile} />
             </article>
           ) : (
             <p className="e-panel">{t.resultsEmptyCatalog}</p>
@@ -96,7 +103,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           </div>
 
           {result.mostUnusualAxis && result.mostCommonAxis && (
-            <SignatureSection unusual={result.mostUnusualAxis} common={result.mostCommonAxis} tension={result.axisTension} axes={axes} results={axisResults} />
+            <SignatureSection unusual={result.mostUnusualAxis} common={result.mostCommonAxis} tension={result.axisTension} axes={axes} results={axisResults} onOpenProfile={setProfile} />
           )}
 
           {result.topTeamMatch && (
@@ -122,7 +129,11 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           <AreasSection generalMatches={result.managerMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
 
           {result.bottomFootballIdeologyMatch && (
-            <FootballIdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomFootballIdeologyMatch} />
+            <FootballIdeologiesSection
+              others={result.matches.slice(1, 4)}
+              distant={result.bottomFootballIdeologyMatch}
+              onOpenProfile={setProfile}
+            />
           )}
 
           {compass && <CompassSection position={compass} axes={findCompassAxes(axes)} />}
@@ -144,6 +155,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           <ResultsNav hasCompass={compass !== null} />
         </aside>
       </div>
+      {profile && <ProfileSheet profile={profile} axes={axes} results={axisResults} onClose={() => setProfile(null)} />}
       {printingPdf &&
         createPortal(
           <div className="rp-root" aria-hidden="true">

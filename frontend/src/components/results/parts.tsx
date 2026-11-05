@@ -1,9 +1,25 @@
+import type { ReactNode } from 'react';
 import { t } from '../../i18n';
 
 export interface FarItem {
   key: string;
   name: string;
   caption: string;
+  onOpen: () => void;
+}
+
+// Nome de treinador, time ou ideia de jogo que abre a aba de detalhes.
+export function NameButton({ name, onOpen, tabIndex, children }: {
+  name: string;
+  onOpen: () => void;
+  tabIndex?: number;
+  children?: ReactNode;
+}) {
+  return (
+    <button type="button" className="e-name-btn" onClick={onOpen} tabIndex={tabIndex} aria-label={t.knowMoreAbout(name)}>
+      {children ?? name}
+    </button>
+  );
 }
 
 export function FarList({ title, items }: { title: string; items: FarItem[] }) {
@@ -15,8 +31,10 @@ export function FarList({ title, items }: { title: string; items: FarItem[] }) {
       <p className="e-sub">{title}</p>
       <ul className="e-fars">
         {items.map((item) => (
-          <li className="e-far-row" key={item.key}>
-            {item.name}
+          <li key={item.key}>
+            <button type="button" className="e-far-row" onClick={item.onOpen} aria-label={t.knowMoreAbout(item.name)}>
+              {item.name}
+            </button>
           </li>
         ))}
       </ul>

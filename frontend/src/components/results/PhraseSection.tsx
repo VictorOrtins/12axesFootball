@@ -1,11 +1,16 @@
 import { t } from '../../i18n';
 import type { FootballIdeologyMatch } from '../../types/quiz';
+import type { ProfileRef } from './CompareSection';
+import { NameButton } from './parts';
 
 // Dentro do cartao da ideia de jogo do topo: a frase curada (uma por ideia) e,
 // recolhida, a descricao longa.
-export function PhraseSection({ match }: { match: FootballIdeologyMatch }) {
+export function PhraseSection({ match, onOpenProfile }: { match: FootballIdeologyMatch; onOpenProfile: (profile: ProfileRef) => void }) {
   const about = match.longDescription || match.description;
-  const exemplars = [match.teamName, match.managerName].filter(Boolean).join(' · ');
+  const exemplars: ProfileRef[] = [
+    ...(match.teamName ? [{ type: 'team' as const, name: match.teamName }] : []),
+    ...(match.managerName ? [{ type: 'manager' as const, name: match.managerName }] : [])
+  ];
 
   if (!match.phrase && !about) {
     return null;
@@ -22,10 +27,17 @@ export function PhraseSection({ match }: { match: FootballIdeologyMatch }) {
           </div>
         </figure>
       )}
-      {exemplars && (
+      {exemplars.length > 0 && (
         <div className="e-exemplars">
           <p className="e-eyebrow">{t.exemplarsTitle}</p>
-          <p>{exemplars}</p>
+          <p>
+            {exemplars.map((profile, index) => (
+              <span key={profile.type}>
+                {index > 0 && ' · '}
+                <NameButton name={profile.name} onOpen={() => onOpenProfile(profile)} />
+              </span>
+            ))}
+          </p>
         </div>
       )}
       {about && (

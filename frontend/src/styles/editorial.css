@@ -380,7 +380,13 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-far{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:22px}
 .e-far .e-sub{margin:0 6px 0 0}
 .e-fars{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
-.e-far-row{font-size:13px;color:var(--texto-suave);background:var(--papel);border:1px solid var(--borda);border-radius:999px;padding:5px 14px}
+.e-far-row{font-size:13px;font-family:inherit;color:var(--texto-suave);background:var(--papel);border:1px solid var(--borda);border-radius:999px;padding:5px 14px;cursor:pointer}
+.e-far-row:hover{color:var(--tinta);border-color:var(--texto-suave)}
+.e-name-btn{display:inline;margin:0;padding:0;border:0;background:none;font:inherit;letter-spacing:inherit;line-height:inherit;color:inherit;text-align:inherit;cursor:pointer;text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.16em;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);transition:text-decoration-color .15s}
+.e-name-btn:hover{text-decoration-color:currentColor}
+.e-chips li:has(> .e-name-btn){padding:0}
+.e-chips .e-name-btn{padding:4px 12px;text-decoration:none}
+.e-chips .e-name-btn:hover{text-decoration:underline}
 /* near grid */
 .e-near-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .e-near{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:20px 14px;border:1px solid var(--borda);border-radius:var(--r-md);background:var(--papel)}
@@ -395,13 +401,12 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-ocard{display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-height:156px;border-radius:24px;padding:22px;background:var(--cb);color:var(--c)}
 .e-osolid{background:var(--c);color:var(--fixed-paper-soft)}
 .e-ocard h3{font-size:clamp(19px,2.1vw,22px);letter-spacing:-.035em;line-height:1.12;color:var(--c);margin:auto 0 0;overflow-wrap:break-word}
-.e-others{transition:grid-template-columns .45s cubic-bezier(.2,.7,.2,1),column-gap .45s cubic-bezier(.2,.7,.2,1)}
 .e-others.is-open{column-gap:0}
-.e-ocard{min-width:0;max-height:700px;overflow:hidden;transition:opacity .25s ease,padding .45s cubic-bezier(.2,.7,.2,1),max-height .45s cubic-bezier(.2,.7,.2,1),min-height .45s cubic-bezier(.2,.7,.2,1)}
+.e-ocard{min-width:0;max-height:700px;overflow:hidden;transition:opacity .25s ease}
 .e-ocard.is-hidden{opacity:0;padding-inline:0;padding-block:0;max-height:0;min-height:0;pointer-events:none}
 .e-ocard.is-hidden>*{white-space:nowrap}
-.e-ocard-more{display:grid;grid-template-rows:0fr;opacity:0;width:100%;transition:grid-template-rows .45s cubic-bezier(.2,.7,.2,1),opacity .35s ease .08s}
-.e-ocard.is-open .e-ocard-more{grid-template-rows:1fr;opacity:1}
+.e-ocard-more{display:grid;grid-template-rows:0fr;opacity:0;width:100%}
+.e-ocard.is-open .e-ocard-more{grid-template-rows:1fr;opacity:1;transition:grid-template-rows .45s cubic-bezier(.2,.7,.2,1),opacity .35s ease .08s}
 .e-ocard-more>p{overflow:hidden;min-height:0}
 .e-ocard-text{margin:4px 0 0;max-width:70ch;font-size:14.5px;line-height:1.65;color:var(--tinta)}
 .e-morebtn{display:inline-flex;align-items:center;gap:10px;width:100%;margin-top:6px;padding:12px 0 0;border:0;border-top:1px solid color-mix(in srgb,var(--c) 25%,transparent);background:none;cursor:pointer;text-align:left;font:600 13px var(--font-body);color:var(--c)}

@@ -70,7 +70,8 @@ export function ManagersSection({ top, dimensions, distant, axes, results }: Man
         items={distant.map((match) => ({
           key: match.managerId,
           name: match.name,
-          caption: match.period
+          caption: match.period,
+          onOpen: () => setInfo(match)
         }))}
       />
       {info && <ManagerInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}

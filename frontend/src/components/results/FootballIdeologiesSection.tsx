@@ -2,13 +2,20 @@ import { useState } from 'react';
 import { t } from '../../i18n';
 import type { FootballIdeologyMatch } from '../../types/quiz';
 import { RatingBadge } from '../editorial/primitives';
+import type { ProfileRef } from './CompareSection';
+import { NameButton } from './parts';
 
 interface IdeologiesSectionProps {
   others: FootballIdeologyMatch[];
   distant: FootballIdeologyMatch;
+  onOpenProfile: (profile: ProfileRef) => void;
 }
 
-export function FootballIdeologiesSection({ others, distant }: IdeologiesSectionProps) {
+function ideologyRef(match: FootballIdeologyMatch): ProfileRef {
+  return { type: 'football-ideology', id: match.footballIdeologyId, name: match.name };
+}
+
+export function FootballIdeologiesSection({ others, distant, onOpenProfile }: IdeologiesSectionProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const columns = others.map((match) => (!openId || match.footballIdeologyId === openId ? '1fr' : '0fr')).join(' ');
 
@@ -30,7 +37,9 @@ export function FootballIdeologiesSection({ others, distant }: IdeologiesSection
                 <span className="e-tag e-osolid">{match.category}</span>
                 <RatingBadge value={match.compatibility} />
               </div>
-              <h3 className={match.name.length >= 18 ? 'e-long-name' : undefined}>{match.name}</h3>
+              <h3 className={match.name.length >= 18 ? 'e-long-name' : undefined}>
+                <NameButton name={match.name} onOpen={() => onOpenProfile(ideologyRef(match))} tabIndex={hidden ? -1 : undefined} />
+              </h3>
               <div className="e-ocard-more">
                 <p className="e-ocard-text">{text}</p>
               </div>
@@ -50,7 +59,9 @@ export function FootballIdeologiesSection({ others, distant }: IdeologiesSection
 
       <div className="e-distant">
         <p className="e-sub">{t.footballIdeologyDistantTitle}</p>
-        <strong>{distant.name}</strong>
+        <strong>
+          <NameButton name={distant.name} onOpen={() => onOpenProfile(ideologyRef(distant))} />
+        </strong>
         <span className="e-tag">
           {distant.category}
         </span>

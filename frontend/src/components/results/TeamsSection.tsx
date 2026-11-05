@@ -111,7 +111,8 @@ export function TeamsSection({ top, dimensions, distant, axes, results }: TeamsS
         items={distant.map((match) => ({
           key: match.teamId,
           name: match.name,
-          caption: caption(match)
+          caption: caption(match),
+          onOpen: () => setInfo(match)
         }))}
       />
       {info && <TeamInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}

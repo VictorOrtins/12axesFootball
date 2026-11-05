@@ -1,6 +1,8 @@
 import type { CSSProperties } from 'react';
 import { t } from '../../i18n';
 import type { Axis, AxisOutlier, AxisResult, AxisTension } from '../../types/quiz';
+import type { ProfileRef } from './CompareSection';
+import { NameButton } from './parts';
 
 interface SignatureSectionProps {
   unusual: AxisOutlier;
@@ -8,11 +10,12 @@ interface SignatureSectionProps {
   tension: AxisTension | null;
   axes: Axis[];
   results: Map<string, AxisResult>;
+  onOpenProfile: (profile: ProfileRef) => void;
 }
 
 // Onde o perfil destoa do catalogo e onde ele se confunde com a media.
 // A regua mostra a distancia — que e o proprio dado — em vez de so citar o numero.
-export function SignatureSection({ unusual, common, tension, axes, results }: SignatureSectionProps) {
+export function SignatureSection({ unusual, common, tension, axes, results, onOpenProfile }: SignatureSectionProps) {
   return (
     <section className="e-panel" id="assinatura" data-reveal>
       <div className="e-sec-head">
@@ -33,7 +36,7 @@ export function SignatureSection({ unusual, common, tension, axes, results }: Si
       <div className="e-dist">
         <SignatureCard outlier={unusual} strong label={t.signatureUnusualLabel} results={results} />
         <SignatureCard outlier={common} strong={false} label={t.signatureCommonLabel} results={results} />
-        {tension && <TensionCard tension={tension} axes={axes} results={results} />}
+        {tension && <TensionCard tension={tension} axes={axes} results={results} onOpenProfile={onOpenProfile} />}
       </div>
     </section>
   );
@@ -51,7 +54,12 @@ function poleColor(axes: Axis[], results: Map<string, AxisResult>, axisLabel: st
 
 // A combinacao de eixos que contraria o padrao do catalogo. Nem todo perfil tem
 // uma: centristas e moderados nao pendem o bastante para contrariar nada.
-function TensionCard({ tension, axes, results }: { tension: AxisTension; axes: Axis[]; results: Map<string, AxisResult> }) {
+function TensionCard({ tension, axes, results, onOpenProfile }: {
+  tension: AxisTension;
+  axes: Axis[];
+  results: Map<string, AxisResult>;
+  onOpenProfile: (profile: ProfileRef) => void;
+}) {
   const unique = tension.matchingFootballIdeologies === 0;
   const hidden = tension.matchingFootballIdeologies - tension.examples.length;
   const first = poleColor(axes, results, tension.firstAxisLabel, tension.firstPole);
@@ -72,7 +80,9 @@ function TensionCard({ tension, axes, results }: { tension: AxisTension; axes: A
         {tension.examples.length > 0 && (
           <ul className="e-chips">
             {tension.examples.map((name) => (
-              <li key={name}>{name}</li>
+              <li key={name}>
+                <NameButton name={name} onOpen={() => onOpenProfile({ type: 'football-ideology', name })} />
+              </li>
             ))}
             {hidden > 0 && <li className="e-chip-more">+{hidden}</li>}
           </ul>
