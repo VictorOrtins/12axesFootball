@@ -1,0 +1,74 @@
+{
+  "catalog vector (as today)": {
+    "mrr": 0.5485,
+    "top3": 62.5,
+    "by_type": {
+      "football-ideology->manager": 0.5402,
+      "football-ideology->team": 0.5743,
+      "team->manager": 0.531
+    },
+    "guardrails": {
+      "recovery10": 94.67,
+      "recovery15": 73.96,
+      "opposite": 96.53,
+      "center": 18.94,
+      "stability": 99.61,
+      "discrimination": 9.55,
+      "extremity": 83.95
+    }
+  },
+  "1 noisy audit per manager": {
+    "mrr": 0.52,
+    "top3": 60.0,
+    "by_type": {
+      "football-ideology->manager": 0.5029,
+      "football-ideology->team": 0.5743,
+      "team->manager": 0.4829
+    },
+    "guardrails": {
+      "recovery10": 90.56,
+      "recovery15": 69.55,
+      "opposite": 96.15,
+      "center": 17.46,
+      "stability": 99.16,
+      "discrimination": 9.02,
+      "extremity": 83.55
+    }
+  },
+  "best of k noisy audits (sd 7)": {
+    "mrr": 0.5333,
+    "top3": 61.1,
+    "by_type": {
+      "football-ideology->manager": 0.5265,
+      "football-ideology->team": 0.5743,
+      "team->manager": 0.4991
+    },
+    "guardrails": {
+      "recovery10": 90.82,
+      "recovery15": 70.09,
+      "opposite": 96.41,
+      "center": 18.01,
+      "stability": 99.34,
+      "discrimination": 8.89,
+      "extremity": 83.39
+    }
+  },
+  "best of k noisy audits (sd 10)": {
+    "mrr": 0.5158,
+    "top3": 59.4,
+    "by_type": {
+      "football-ideology->manager": 0.5077,
+      "football-ideology->team": 0.5743,
+      "team->manager": 0.4654
+    },
+    "guardrails": {
+      "recovery10": 86.78,
+      "recovery15": 67.43,
+      "opposite": 96.15,
+      "center": 17.19,
+      "stability": 99.03,
+      "discrimination": 8.52,
+      "extremity": 83.15
+    }
+  }
+}
