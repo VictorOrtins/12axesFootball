@@ -5,7 +5,7 @@ import { resolveProfileImageSrc } from '../../utils/profileImage';
 import { SafeImg } from '../editorial/primitives';
 import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
-import { topAgreements } from '../../utils/agreement';
+import { axisAlignment, topAgreements } from '../../utils/agreement';
 import { FarList, SimilarityNote } from './parts';
 import { SheetMatch } from './SheetMatch';
 
@@ -188,7 +188,7 @@ function TeamInfoSheet({ match, axes, results, onClose }: {
           {match.period && <p className="e-axis-sheet-label">{match.period}</p>}
         </div>
       </div>
-      <SheetMatch compatibility={match.compatibility} />
+      <SheetMatch compatibility={match.compatibility} alignment={axisAlignment(match.vector, axes, results)} />
       <p className="e-axis-sheet-text">{match.description}</p>
       <Closeness
         vector={match.vector}

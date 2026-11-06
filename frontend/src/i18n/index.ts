@@ -165,6 +165,7 @@ interface Strings {
   managerInfoAria: (name: string) => string;
   closenessTitle: string;
   closenessYou: string;
+  alignmentLine: (aligned: number, total: number, farthestAxis: string) => string;
   compareEyebrow: string;
   compareTitle: string;
   compareLead: string;
@@ -485,6 +486,8 @@ const pt: Strings = {
   managerInfoAria: (name) => `Ver detalhes de ${name}`,
   closenessTitle: 'O que te aproxima',
   closenessYou: 'Você',
+  alignmentLine: (aligned, total, farthestAxis) =>
+    `Vocês estão próximos em ${aligned} de ${total} eixos · maior diferença: ${farthestAxis}`,
   compareEyebrow: 'Análise comparativa',
   compareTitle: 'Análise comparativa',
   compareLead: 'Escolha um treinador, time ou ideia de jogo e veja, eixo por eixo, onde você se aproxima ou se afasta.',
@@ -919,6 +922,8 @@ const en: Strings = {
   managerInfoAria: (name) => `See details for ${name}`,
   closenessTitle: 'What brings you close',
   closenessYou: 'You',
+  alignmentLine: (aligned, total, farthestAxis) =>
+    `You are close on ${aligned} of ${total} axes · biggest difference: ${farthestAxis}`,
   compareEyebrow: 'Comparison',
   compareTitle: 'Comparison',
   compareLead: 'Pick a manager, team or football idea and see, axis by axis, where you are close and where you differ.',
