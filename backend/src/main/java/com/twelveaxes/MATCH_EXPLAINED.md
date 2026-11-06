@@ -332,12 +332,30 @@ Benchmark intra-catalogo. Mede:
 - recuperacao com ruido moderado.
 - recuperacao com ruido forte.
 - rejeicao de vetor oposto.
-- rejeicao de perfis centrais para usuarios extremos.
+- rejeicao de perfis centrais para usuarios extremos (o "central" e o "topo" valem 10% do catalogo, no minimo 2).
 - estabilidade do top-1 sob pequena mudanca.
 - discriminacao entre primeiro e segundo.
 - controle de inflacao de extremidade para usuarios mornos.
 
-Os limites do benchmark foram calibrados nos catalogos politicos do projeto original. O teste fica desligado (`@Disabled`) ate existirem os catalogos de futebol, e os limites precisam ser recalibrados com eles.
+O teste le os catalogos reais de `src/main/resources/data`, nao o catalogo sintetico do classpath de teste, e nao sobe o Spring.
+
+Calibrado em 2026-11 nos catalogos de futebol (25 ideias de jogo, 79 times, 65 treinadores). Valor medido com a formula atual e limite do teste:
+
+| Metrica | Medido | Limite |
+|---|---|---|
+| Recuperacao, ruido 10 | 91,7% | 86 |
+| Recuperacao, ruido 15 | 79,3% | 70 |
+| Rejeicao de oposto | 96,5% | 94 |
+| Rejeicao de centro | 88,7% | 83 |
+| Estabilidade | 100% | 97 |
+| Discriminacao | 9,59% | 7,5 |
+| Controle de extremidade | 83,8% | 82 |
+
+Os limites ficam abaixo do pior valor da formula atual em 12 sementes de simulacao. Oposto, centro e extremidade tambem ficam acima do que formulas piores obtem: so similaridade por eixo (oposto 93,5%), sem termo de direcao (oposto 87,2%) e sem termo de magnitude (centro 78,7%, extremidade 81,8%) reprovam o teste. Recuperacao, estabilidade e discriminacao quase nao diferenciam formulas; so protegem contra quebra grosseira. Os limites antigos (72, 45, 85, 60, 96, 3,4, 80) eram dos catalogos politicos. Recalibrar se os catalogos mudarem muito.
+
+### Calibracao das constantes para futebol
+
+Os pesos e as constantes foram escolhidos a mao no projeto original e nunca otimizados. Em 2026-11 foram testados contra 127 pares pesquisados (ideia de jogo para treinador ou time exemplar, time para treinador) com quizzes simulados e as metricas acima como restricoes: busca com Optuna nos 8 numeros (3.000 tentativas), pesos por eixo, verossimilhanca, incerteza do perfil, um quinto termo (eixos-assinatura, pior dimensao) e busca completa com cinco pesos. Nenhuma variante superou a formula atual fora do ruido (cerca de 0,013 de MRR entre sementes), entao as constantes ficaram como estao. Detalhes e numeros em `tasks/14. TUNE_MATCH_WEIGHTS_WITH_OPTUNA.md`; os scripts estao em `profile-audit/tune_scorer.py`, `match_options.py` e `spell_test.py`.
 
 ### Testes de fluxo
 
