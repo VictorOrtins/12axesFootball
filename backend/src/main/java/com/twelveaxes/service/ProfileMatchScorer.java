@@ -29,6 +29,12 @@ public class ProfileMatchScorer {
     static final double DIRECTION_AUGMENT_RADIUS = 8.0;
     static final double DISPLAY_FLOOR = 40.0;
     static final double DISPLAY_EXPONENT = 1.5;
+    // Usuarios moderados sao esticados para longe do centro ate a intensidade tipica dos
+    // catalogos, mantendo a direcao; sem isso os perfis mais moderados viram "hubs".
+    static final double STRETCH_TARGET = 20.0;
+    static final double STRETCH_MAX = 3.0;
+    // Fracao do hubOffset de cada perfil (profile-audit/hub_offsets.py) descontada no ranking.
+    static final double HUB_PENALTY_WEIGHT = 0.5;
 
     public Map<String, Double> userVectorFor(List<AxisResult> axisResults) {
         return axisResults.stream()
@@ -44,7 +50,8 @@ public class ProfileMatchScorer {
      * "com quem eu combino taticamente / filosoficamente / na gestao", em que
      * so os eixos daquele grupo entram na conta.
      */
-    public double compatibility(Map<String, Double> userVector, Map<String, Double> targetVector, List<String> axisIds) {
+    public double compatibility(Map<String, Double> rawUserVector, Map<String, Double> targetVector, List<String> axisIds) {
+        Map<String, Double> userVector = stretch(rawUserVector, axisIds);
         double axisSimilarity = axisSimilarity(userVector, targetVector, axisIds);
         double directionSimilarity = directionSimilarity(userVector, targetVector, axisIds);
         double magnitudeSimilarity = magnitudeSimilarity(userVector, targetVector, axisIds);
@@ -55,6 +62,14 @@ public class ProfileMatchScorer {
                         + MAGNITUDE_WEIGHT * magnitudeSimilarity
                         + OUTLIER_WEIGHT * outlierSimilarity
         ));
+    }
+
+    /**
+     * Nota usada no ranking do catalogo inteiro: a compatibilidade menos parte do hubOffset do
+     * perfil, para que perfis perto de todo mundo nao fiquem em 1o para quase todos.
+     */
+    public double rankingScore(Map<String, Double> userVector, Map<String, Double> targetVector, double hubOffset) {
+        return round1(clamp(compatibility(userVector, targetVector) - HUB_PENALTY_WEIGHT * hubOffset));
     }
 
     /**
@@ -113,6 +128,17 @@ public class ProfileMatchScorer {
         Map<String, Double> neutral = new LinkedHashMap<>();
         AXIS_IDS.forEach(axisId -> neutral.put(axisId, CENTER));
         return neutral;
+    }
+
+    private Map<String, Double> stretch(Map<String, Double> userVector, List<String> axisIds) {
+        double intensity = averageDistanceFromCenter(userVector, axisIds);
+        double factor = intensity <= 0.0 ? STRETCH_MAX : Math.max(1.0, Math.min(STRETCH_MAX, STRETCH_TARGET / intensity));
+        Map<String, Double> stretched = new HashMap<>();
+        for (String axisId : axisIds) {
+            double value = userVector.getOrDefault(axisId, CENTER);
+            stretched.put(axisId, clamp(CENTER + (value - CENTER) * factor));
+        }
+        return stretched;
     }
 
     private double axisSimilarity(Map<String, Double> userVector, Map<String, Double> targetVector, List<String> axisIds) {

@@ -4,6 +4,7 @@ import java.util.Map;
 
 public record ManagerProfile(
         String managerId,
-        Map<String, Double> vector
+        Map<String, Double> vector,
+        double hubOffset
 ) {
 }

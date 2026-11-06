@@ -74,8 +74,9 @@ class FootballIdeologyMatcherServiceTest {
                     .as("Vetor canônico de %s deve retornar a própria ideologia", footballIdeologyId)
                     .isEqualTo(footballIdeologyId);
             assertThat(matches.getFirst().compatibility())
-                    .as("Vetor canônico de %s deve ter compatibilidade perfeita", footballIdeologyId)
-                    .isEqualTo(100.0);
+                    .as("Vetor canônico de %s deve ficar perto de 100 (perfis moderados perdem um pouco com o esticamento)",
+                            footballIdeologyId)
+                    .isGreaterThanOrEqualTo(95.0);
         });
     }
 

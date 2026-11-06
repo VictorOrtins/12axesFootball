@@ -3,6 +3,7 @@ package com.twelveaxes.service;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
 
@@ -151,52 +152,33 @@ class ProfileMatchScorerTest {
     }
 
     @Test
-    void mildProfileBeatsPerfectlyAlignedExtremeProfileForMildUser() {
-        Map<String, Double> mildUser = vector(Map.ofEntries(
-                Map.entry("pos", 58.0),
-                Map.entry("pro", 58.0),
-                Map.entry("est", 58.0),
-                Map.entry("lar", 58.0),
-                Map.entry("blo", 58.0),
-                Map.entry("mar", 58.0),
-                Map.entry("pla", 58.0),
-                Map.entry("res", 58.0),
-                Map.entry("sis", 58.0),
-                Map.entry("jog", 58.0),
-                Map.entry("bas", 58.0),
-                Map.entry("lid", 58.0)
-        ));
-        Map<String, Double> alignedExtremeTarget = vector(Map.ofEntries(
-                Map.entry("pos", 78.0),
-                Map.entry("pro", 78.0),
-                Map.entry("est", 78.0),
-                Map.entry("lar", 78.0),
-                Map.entry("blo", 78.0),
-                Map.entry("mar", 78.0),
-                Map.entry("pla", 78.0),
-                Map.entry("res", 78.0),
-                Map.entry("sis", 78.0),
-                Map.entry("jog", 78.0),
-                Map.entry("bas", 78.0),
-                Map.entry("lid", 78.0)
-        ));
-        Map<String, Double> similarlyMildTarget = vector(Map.ofEntries(
-                Map.entry("pos", 58.0),
-                Map.entry("pro", 58.0),
-                Map.entry("est", 58.0),
-                Map.entry("lar", 58.0),
-                Map.entry("blo", 58.0),
-                Map.entry("mar", 58.0),
-                Map.entry("pla", 58.0),
-                Map.entry("res", 58.0),
-                Map.entry("sis", 58.0),
-                Map.entry("jog", 42.0),
-                Map.entry("bas", 42.0),
-                Map.entry("lid", 42.0)
-        ));
+    void mildUserIsStretchedToTheCatalogIntensityKeepingDirection() {
+        // Intensidade 8 vira 20 (fator 2,5): 58 passa a valer 70.
+        assertThat(scorer.compatibility(uniform(58.0), uniform(70.0))).isEqualTo(100.0);
+        assertThat(scorer.compatibility(uniform(58.0), uniform(70.0)))
+                .isGreaterThan(scorer.compatibility(uniform(58.0), uniform(58.0)));
+    }
 
-        assertThat(scorer.compatibility(mildUser, similarlyMildTarget))
-                .isGreaterThan(scorer.compatibility(mildUser, alignedExtremeTarget));
+    @Test
+    void stretchIsCappedAndLeavesStrongUsersAlone() {
+        // Intensidade 2: o fator para em STRETCH_MAX (3), entao 52 vale 56, nao 70.
+        assertThat(scorer.compatibility(uniform(52.0), uniform(56.0))).isEqualTo(100.0);
+        assertThat(scorer.compatibility(uniform(75.0), uniform(75.0))).isEqualTo(100.0);
+    }
+
+    @Test
+    void rankingScoreSubtractsPartOfTheHubOffset() {
+        Map<String, Double> user = uniform(75.0);
+        assertThat(scorer.rankingScore(user, user, 4.0))
+                .isEqualTo(100.0 - ProfileMatchScorer.HUB_PENALTY_WEIGHT * 4.0);
+        assertThat(scorer.rankingScore(user, user, 0.0)).isEqualTo(scorer.compatibility(user, user));
+    }
+
+    private Map<String, Double> uniform(double value) {
+        Map<String, Double> vector = new LinkedHashMap<>();
+        List.of("pos", "pro", "est", "lar", "blo", "mar", "pla", "res", "sis", "jog", "bas", "lid")
+                .forEach(axisId -> vector.put(axisId, value));
+        return vector;
     }
 
     @Test

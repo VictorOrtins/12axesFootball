@@ -80,7 +80,8 @@ public class TeamMatcherService {
     private TeamCandidate toCandidate(Team team, Map<String, Double> userVector) {
         TeamProfile profile = dataService.getTeamProfiles().get(team.id());
         Map<String, Double> targetVector = targetVectorFor(team, profile);
-        double compatibility = profileMatchScorer.compatibility(userVector, targetVector);
+        double hubOffset = profile == null ? 0.0 : profile.hubOffset();
+        double compatibility = profileMatchScorer.rankingScore(userVector, targetVector, hubOffset);
         return new TeamCandidate(team, compatibility, 0.0);
     }
 

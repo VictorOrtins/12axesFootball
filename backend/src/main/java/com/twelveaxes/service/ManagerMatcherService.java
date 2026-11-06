@@ -125,7 +125,9 @@ public class ManagerMatcherService {
     }
 
     private ManagerCandidate toCandidate(Manager manager, Map<String, Double> userVector) {
-        double compatibility = profileMatchScorer.compatibility(userVector, targetVectorFor(manager));
+        ManagerProfile profile = dataService.getManagerProfiles().get(manager.id());
+        double hubOffset = profile == null ? 0.0 : profile.hubOffset();
+        double compatibility = profileMatchScorer.rankingScore(userVector, targetVectorFor(manager), hubOffset);
         return new ManagerCandidate(manager, compatibility, 0.0);
     }
 
