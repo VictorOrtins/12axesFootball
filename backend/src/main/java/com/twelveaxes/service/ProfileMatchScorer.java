@@ -27,6 +27,8 @@ public class ProfileMatchScorer {
     static final double OUTLIER_EXPONENT = 2.5;
     // Raio RMS (pontos por eixo) abaixo do qual a direção pesa menos que o termo constante.
     static final double DIRECTION_AUGMENT_RADIUS = 8.0;
+    static final double DISPLAY_FLOOR = 40.0;
+    static final double DISPLAY_EXPONENT = 1.5;
 
     public Map<String, Double> userVectorFor(List<AxisResult> axisResults) {
         return axisResults.stream()
@@ -53,6 +55,16 @@ public class ProfileMatchScorer {
                         + MAGNITUDE_WEIGHT * magnitudeSimilarity
                         + OUTLIER_WEIGHT * outlierSimilarity
         ));
+    }
+
+    /**
+     * Nota mostrada ao usuario. A compatibilidade bruta fica espremida (o melhor resultado vale
+     * 85-98 e o pior ainda vale cerca de 45), entao o 1o e o 5o parecem iguais. Aqui o piso vira 0 e
+     * a curva abre o topo. Funcao crescente: a ordem do ranking nao muda.
+     */
+    public double displayScore(double compatibility) {
+        double closeness = (compatibility - DISPLAY_FLOOR) / (100.0 - DISPLAY_FLOOR);
+        return round1(100.0 * Math.pow(Math.max(0.0, Math.min(1.0, closeness)), DISPLAY_EXPONENT));
     }
 
     public double percentile(double compatibility, List<Double> catalogCompatibilities) {

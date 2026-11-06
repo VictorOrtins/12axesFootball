@@ -123,7 +123,7 @@ public class ManagerDimensionMatcherService {
                 manager.imageSourceName(),
                 manager.imageSourceUrl(),
                 manager.imageNote(),
-                round1(scored.score()),
+                profileMatchScorer.displayScore(scored.score()),
                 percentile,
                 targetVectorFor(manager));
     }
@@ -134,10 +134,6 @@ public class ManagerDimensionMatcherService {
             return profile.vector();
         }
         return profileMatchScorer.neutralVector();
-    }
-
-    private double round1(double value) {
-        return Math.round(value * 10.0) / 10.0;
     }
 
     private record Scored(Manager manager, double score) {

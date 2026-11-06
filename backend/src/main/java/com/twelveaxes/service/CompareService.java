@@ -77,7 +77,7 @@ public class CompareService {
     private CompareDetail detail(CompareItem item, String description, Map<String, Double> userVector,
                                  Map<String, Double> vector) {
         Map<String, Double> target = vector == null || vector.isEmpty() ? scorer.neutralVector() : vector;
-        return new CompareDetail(item, description, scorer.compatibility(userVector, target), target);
+        return new CompareDetail(item, description, scorer.displayScore(scorer.compatibility(userVector, target)), target);
     }
 
     private static <T> T require(T value, String type, String id) {

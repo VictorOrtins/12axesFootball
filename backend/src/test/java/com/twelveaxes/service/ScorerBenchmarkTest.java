@@ -2,6 +2,14 @@ package com.twelveaxes.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.twelveaxes.model.FootballIdeologyProfile;
+import com.twelveaxes.model.ManagerProfile;
+import com.twelveaxes.model.TeamProfile;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -9,38 +17,37 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 
-// Os limites foram calibrados nos catalogos politicos; recalibrar quando os catalogos de futebol existirem.
-@Disabled("aguarda os catalogos de futebol")
-@SpringBootTest
+// Roda sobre os catalogos reais de src/main/resources/data: o classpath de teste tem um catalogo
+// sintetico pequeno que esconderia as propriedades do scorer nos dados de producao.
 class ScorerBenchmarkTest {
+    private static final Path DATA = Path.of("src", "main", "resources", "data");
+    private static final ObjectMapper MAPPER = new ObjectMapper()
+            .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+
     private static final long SEED = 123_456_789L;
     private static final double NOISE_SIGMA_10 = 10.0;
     private static final double NOISE_SIGMA_15 = 15.0;
-    private static final int CENTERED_PROFILES = 15;
+    // "Central" e "topo" valem 10% do catalogo (minimo 2), para que a checagem tenha o mesmo
+    // significado com 25 ideias de jogo e com 79 times.
+    private static final int CENTERED_PERCENT_OF_CATALOG = 10;
+    private static final int MIN_CENTERED_PROFILES = 2;
     private static final int CENTER_STRESS_SAMPLES_PER_CATALOG = 200;
     private static final int WARM_USER_SAMPLES_PER_CATALOG = 200;
 
-    // Reviewed profiles were explicitly added despite strong similarity to existing entries.
-    // They create close competing candidates under moderate noise, lowering this aggregate
-    // recovery metric slightly while the other scorer properties remain within bounds.
-    private static final double MIN_RECOVERY_SIGMA_10_PERCENT = 72.0;
-    private static final double MIN_RECOVERY_SIGMA_15_PERCENT = 45.0;
-    private static final double MIN_OPPOSITE_REJECTION_PERCENT = 85.0;
-    private static final double MIN_CENTER_REJECTION_PERCENT = 60.0;
-    private static final double MIN_STABILITY_PERCENT = 96.0;
-    private static final double MIN_DISCRIMINATION_PERCENT = 3.4;
-    private static final double MIN_EXTREMITY_INFLATION_CONTROL_PERCENT = 80.0;
+    // Calibrados nos catalogos de futebol (ver MATCH_EXPLAINED.md): abaixo do pior valor da formula
+    // atual em 12 sementes de simulacao e acima do que formulas sem direcao, sem magnitude ou
+    // so com distancia obtem em oposto, centro e extremidade. Recalibrar se os catalogos mudarem muito.
+    private static final double MIN_RECOVERY_SIGMA_10_PERCENT = 86.0;
+    private static final double MIN_RECOVERY_SIGMA_15_PERCENT = 70.0;
+    private static final double MIN_OPPOSITE_REJECTION_PERCENT = 94.0;
+    private static final double MIN_CENTER_REJECTION_PERCENT = 83.0;
+    private static final double MIN_STABILITY_PERCENT = 97.0;
+    private static final double MIN_DISCRIMINATION_PERCENT = 7.5;
+    private static final double MIN_EXTREMITY_INFLATION_CONTROL_PERCENT = 82.0;
 
-    @Autowired
-    private QuizDataService dataService;
-
-    @Autowired
-    private ProfileMatchScorer scorer;
+    private final ProfileMatchScorer scorer = new ProfileMatchScorer();
 
     @Test
     void scorerKeepsCoreMatchingPropertiesInsideEachCatalog() {
@@ -83,8 +90,8 @@ class ScorerBenchmarkTest {
 
     private BenchmarkReport runBenchmark() {
         Random random = new Random(SEED);
-        List<String> axisIds = dataService.getAxes().stream()
-                .map(axis -> axis.id())
+        List<String> axisIds = readJson("axes.json", new TypeReference<List<Map<String, Object>>>() { }).stream()
+                .map(axis -> (String) axis.get("id"))
                 .toList();
 
         int recoverySigma10 = 0;
@@ -102,9 +109,11 @@ class ScorerBenchmarkTest {
         int extremityInflationCount = 0;
 
         for (Catalog catalog : catalogs()) {
+            int centeredCount = Math.max(MIN_CENTERED_PROFILES,
+                    catalog.profiles().size() * CENTERED_PERCENT_OF_CATALOG / 100);
             Set<String> centeredProfileIds = catalog.profiles().stream()
                     .sorted(Comparator.comparingDouble(profile -> distanceFromCenter(profile.vector(), axisIds)))
-                    .limit(CENTERED_PROFILES)
+                    .limit(centeredCount)
                     .map(Profile::id)
                     .collect(Collectors.toUnmodifiableSet());
 
@@ -144,7 +153,7 @@ class ScorerBenchmarkTest {
 
             for (int sample = 0; sample < CENTER_STRESS_SAMPLES_PER_CATALOG; sample++) {
                 List<String> topIds = rank(catalog, extremeVector(axisIds, random)).stream()
-                        .limit(CENTERED_PROFILES)
+                        .limit(centeredCount)
                         .map(ranked -> ranked.profile().id())
                         .toList();
                 if (topIds.stream().noneMatch(centeredProfileIds::contains)) {
@@ -177,24 +186,33 @@ class ScorerBenchmarkTest {
     private List<Catalog> catalogs() {
         return List.of(
                 new Catalog(
-                        dataService.getFootballIdeologyProfiles().values().stream()
+                        readJson("football-ideology-profiles.json",
+                                new TypeReference<List<FootballIdeologyProfile>>() { }).stream()
                                 .map(profile -> new Profile(profile.footballIdeologyId(), profile.vector()))
                                 .sorted(Comparator.comparing(Profile::id))
                                 .toList()
                 ),
                 new Catalog(
-                        dataService.getTeamProfiles().values().stream()
+                        readJson("team-profiles.json", new TypeReference<List<TeamProfile>>() { }).stream()
                                 .map(profile -> new Profile(profile.teamId(), profile.vector()))
                                 .sorted(Comparator.comparing(Profile::id))
                                 .toList()
                 ),
                 new Catalog(
-                        dataService.getManagerProfiles().values().stream()
+                        readJson("manager-profiles.json", new TypeReference<List<ManagerProfile>>() { }).stream()
                                 .map(profile -> new Profile(profile.managerId(), profile.vector()))
                                 .sorted(Comparator.comparing(Profile::id))
                                 .toList()
                 )
         );
+    }
+
+    private static <T> T readJson(String file, TypeReference<T> type) {
+        try {
+            return MAPPER.readValue(DATA.resolve(file).toFile(), type);
+        } catch (IOException e) {
+            throw new java.io.UncheckedIOException("cannot read " + DATA.resolve(file).toAbsolutePath(), e);
+        }
     }
 
     private List<RankedProfile> rank(Catalog catalog, Map<String, Double> queryVector) {

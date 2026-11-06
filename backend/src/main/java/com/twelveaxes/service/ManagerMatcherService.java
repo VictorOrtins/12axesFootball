@@ -141,7 +141,7 @@ public class ManagerMatcherService {
                 manager.imageSourceName(),
                 manager.imageSourceUrl(),
                 manager.imageNote(),
-                candidate.compatibility(),
+                profileMatchScorer.displayScore(candidate.compatibility()),
                 candidate.compatibilityPercentile(),
                 targetVectorFor(manager)
         );

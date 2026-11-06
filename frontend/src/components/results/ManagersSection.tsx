@@ -5,7 +5,7 @@ import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImag
 import { SafeImg } from '../editorial/primitives';
 import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
-import { topAgreements } from '../../utils/agreement';
+import { axisAlignment, topAgreements } from '../../utils/agreement';
 import { FutCard } from './FutCard';
 import { FarList } from './parts';
 import { SheetMatch } from './SheetMatch';
@@ -96,7 +96,7 @@ export function ManagerInfoSheet({ match, axes, results, onClose }: {
           <p className="e-axis-sheet-label">{match.period}</p>
         </div>
       </div>
-      <SheetMatch compatibility={match.compatibility} />
+      <SheetMatch compatibility={match.compatibility} alignment={axisAlignment(match.vector, axes, results)} />
       <p className="e-axis-sheet-text">{match.description}</p>
       <Closeness
         vector={match.vector}

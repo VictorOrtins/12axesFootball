@@ -208,6 +208,38 @@ class ProfileMatchScorerTest {
                 .isEqualTo(1.0);
     }
 
+    @Test
+    void displayScoreKeepsTheEndsAndClampsBelowTheFloor() {
+        assertThat(scorer.displayScore(100.0)).isEqualTo(100.0);
+        assertThat(scorer.displayScore(ProfileMatchScorer.DISPLAY_FLOOR)).isEqualTo(0.0);
+        assertThat(scorer.displayScore(0.0)).isEqualTo(0.0);
+    }
+
+    @Test
+    void displayScoreFollowsTheCurveFromTheConstants() {
+        double closeness = (90.0 - ProfileMatchScorer.DISPLAY_FLOOR) / (100.0 - ProfileMatchScorer.DISPLAY_FLOOR);
+
+        assertThat(scorer.displayScore(90.0))
+                .isEqualTo(round1(100.0 * Math.pow(closeness, ProfileMatchScorer.DISPLAY_EXPONENT)));
+    }
+
+    @Test
+    void displayScoreNeverReordersCompatibilities() {
+        double previous = scorer.displayScore(0.0);
+        for (double raw = 0.1; raw <= 100.0; raw += 0.1) {
+            double current = scorer.displayScore(raw);
+            assertThat(current).isGreaterThanOrEqualTo(previous);
+            previous = current;
+        }
+    }
+
+    @Test
+    void displayScoreSpreadsTheTopResultsApart() {
+        double rawGap = 95.0 - 88.0;
+
+        assertThat(scorer.displayScore(95.0) - scorer.displayScore(88.0)).isGreaterThan(2 * rawGap);
+    }
+
     private double expectedScore(double axisSimilarity, double directionSimilarity, double magnitudeSimilarity,
             double outlierSimilarity) {
         return round1(ProfileMatchScorer.AXIS_WEIGHT * axisSimilarity

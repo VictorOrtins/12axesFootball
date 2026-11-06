@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNod
 import { t } from '../../i18n';
 import { fetchCompare, fetchCompareCatalog } from '../../services/quizApi';
 import type { Axis, AxisResult, CompareDetail, CompareItem, CompareType } from '../../types/quiz';
+import { axisAlignment } from '../../utils/agreement';
 import { compareAxes, summaryKinds, type CompareAxisRow } from '../../utils/compareAxes';
 import { profileInitials, resolveProfileImageSrc } from '../../utils/profileImage';
 import { SafeImg } from '../editorial/primitives';
@@ -270,7 +271,7 @@ function ComparisonSheet({ detail, axes, results, onClose }: {
           <p className="e-axis-sheet-label">{item.caption}</p>
         </div>
       </div>
-      <SheetMatch compatibility={detail.compatibility} />
+      <SheetMatch compatibility={detail.compatibility} alignment={axisAlignment(detail.vector, axes, results)} />
       <p className="e-axis-sheet-text">{detail.description}</p>
 
       <div className="e-close e-cmp-close">
