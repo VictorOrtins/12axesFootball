@@ -18,7 +18,7 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
 
 class OriginEnforcementTest {
-    private static final String ALLOWED_ORIGIN = "https://12axes.vercel.app";
+    private static final String ALLOWED_ORIGIN = "https://12axes-football.vercel.app";
     private static final String CLONE_ORIGIN = "https://12axes.net";
     private static final String AXES_VECTOR = "50,50,50,50,50,50,50,50,50,50,50,50";
     private static final String BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/140.0 Safari/537.36";

@@ -67,7 +67,7 @@ class RateLimitFilterTest {
             mockMvc.perform(get("/api/health").header("X-Forwarded-For", ip)).andExpect(status().isOk());
             mockMvc.perform(options("/api/results")
                             .header("X-Forwarded-For", ip)
-                            .header(HttpHeaders.ORIGIN, "https://12axes.vercel.app")
+                            .header(HttpHeaders.ORIGIN, "https://12axes-football.vercel.app")
                             .header(HttpHeaders.ACCESS_CONTROL_REQUEST_METHOD, "POST"))
                     .andExpect(status().isOk());
         }

@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = join(resolve(__dirname, '..'), 'dist');
-const SITE = 'https://12axes.vercel.app';
+const SITE = 'https://12axes-football.vercel.app';
 
 function replaceBetween(html, startMarker, endMarker, replacement) {
   const start = html.indexOf(startMarker);

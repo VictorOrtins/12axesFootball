@@ -37,6 +37,11 @@ function formatApiError(message: string, status: number): string {
   return message;
 }
 
+// The free Render instance sleeps when idle; pinging it on page load starts it while the visitor reads.
+export function wakeBackend(): void {
+  fetch(`${API_URL}/api/health`, { mode: 'no-cors' }).catch(() => {});
+}
+
 export function fetchQuiz(variant: QuizVariant = 'short'): Promise<QuizPayload> {
   return request<QuizPayload>(`/api/quiz?variant=${variant}&lang=${LANG}`);
 }
