@@ -57,6 +57,8 @@ If it fails, rerun only that subagent, saying which check failed and on which ax
 
 Still to build: the content check against the anchors in `validate.py` (`FOOTBALL_AXIS_POLES`) and against near-duplicate profiles; writing the entries and vectors into `managers.json` / `manager-profiles.json`, `teams.json` / `team-profiles.json`, `football-ideologies.json` / `football-ideology-profiles.json` (and the `i18n/en` files); then archiving each output in `answers/<catalog>/<id>.json` (permanent, never deleted) and clearing `prompts/` and `subagent-out/`.
 
+After any vector is written, changed or removed, run `python3 profile-audit/hub_offsets.py` to refresh the `hubOffset` of every profile (`tests/test_hub_offsets.py` fails until you do).
+
 ## Failure modes (from the political audit)
 
 1. **Too many neutrals.** Each `N` is exactly 50: an axis full of them doesn't measure the profile. The validator blocks it.

@@ -39,18 +39,23 @@ class MatchScorerTest(unittest.TestCase):
         self.assertEqual(c.outlier_exponent, java_constant("OUTLIER_EXPONENT"))
         self.assertEqual(c.opposite_side_max_penalty, java_constant("OPPOSITE_SIDE_MAX_PENALTY"))
         self.assertEqual(c.opposite_side_spread, java_constant("OPPOSITE_SIDE_SPREAD"))
+        self.assertEqual(c.stretch_target, java_constant("STRETCH_TARGET"))
+        self.assertEqual(c.stretch_max, java_constant("STRETCH_MAX"))
+        self.assertEqual(c.hub_penalty_weight, java_constant("HUB_PENALTY_WEIGHT"))
 
     def test_scores_match_values_printed_by_the_java_scorer(self):
-        self.assertEqual(self.score(A, B), 55.1)
+        # A e mais moderado que STRETCH_TARGET e e esticado; B nao: por isso A->B != B->A.
+        self.assertEqual(self.score(A, B), 52.1)
         self.assertEqual(self.score(B, A), 55.1)
-        self.assertEqual(self.score(A, B, slice(0, 6)), 51.4)
-        self.assertEqual(self.score(A, B, slice(10, 12)), 59.2)
+        self.assertEqual(self.score(A, B, slice(0, 6)), 41.8)
+        self.assertEqual(self.score(A, B, slice(10, 12)), 56.4)
         self.assertEqual(self.score([50] * 12, NEAR_CENTER), 99.2)
         self.assertEqual(self.score([0] * 12, [100] * 12), 18.8)
 
     def test_neutral_and_identical_vectors_score_100(self):
         self.assertEqual(self.score([50] * 12, [50] * 12), 100.0)
-        self.assertEqual(self.score(A, A), 100.0)
+        self.assertEqual(self.score(B, B), 100.0)
+        self.assertEqual(self.score(A, A), 98.0)
 
     def test_with_weights_normalises_to_one(self):
         p = ms.CURRENT.with_weights(2, 1, 1, 0)
