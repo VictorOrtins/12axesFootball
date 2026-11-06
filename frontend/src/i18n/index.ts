@@ -67,6 +67,7 @@ interface Strings {
   loadingAnalysis: string;
   loadingQuiz: string;
   loadingResult: string;
+  loadingWakingServer: string;
   tryAgain: string;
   crashTitle: string;
   crashBody: string;
@@ -378,6 +379,7 @@ const pt: Strings = {
   loadingAnalysis: 'Carregando análise...',
   loadingQuiz: 'Carregando quiz...',
   loadingResult: 'Carregando resultado...',
+  loadingWakingServer: 'Ligando o servidor, isso pode levar até um minuto...',
   tryAgain: 'Tentar novamente',
   crashTitle: 'Algo deu errado',
   crashBody: 'A página encontrou um erro inesperado. Recarregue para tentar de novo.',
@@ -769,7 +771,7 @@ const pt: Strings = {
     `${team} - ${teamPct}% de compatibilidade\n\n` +
     `📋 Treinador mais compatível:\n` +
     `${manager} - ${managerPct}% de compatibilidade\n\n` +
-    `👉 Faça o teste e compartilhe seu resultado:\nhttps://12axes.vercel.app/`,
+    `👉 Faça o teste e compartilhe seu resultado:\nhttps://12axes-football.vercel.app/`,
   progress: (current, total) => `Pergunta ${current} de ${total}`,
   archetypeStep: (current, total) => `${current} de ${total}`,
   progressAria: (percent) => `Progresso do quiz: ${percent}%`,
@@ -790,7 +792,7 @@ const pt: Strings = {
     low: 'Compatibilidade baixa',
     veryLow: 'Compatibilidade muito baixa'
   },
-  shareTitle: 'Seu perfil de futebol | 12axes.vercel.app',
+  shareTitle: 'Seu perfil de futebol | 12axes-football.vercel.app',
   shareTopMatch: 'Top match',
   shareTeam: 'Time mais compatível',
   shareManager: 'Treinador',
@@ -814,6 +816,7 @@ const en: Strings = {
   loadingAnalysis: 'Loading analysis...',
   loadingQuiz: 'Loading quiz...',
   loadingResult: 'Loading results...',
+  loadingWakingServer: 'Waking up the server, this can take up to a minute...',
   tryAgain: 'Try again',
   crashTitle: 'Something went wrong',
   crashBody: 'The page hit an unexpected error. Reload to try again.',
@@ -1223,7 +1226,7 @@ const en: Strings = {
     `${team} - ${teamPct}% compatibility\n\n` +
     `📋 Most compatible manager:\n` +
     `${manager} - ${managerPct}% compatibility\n\n` +
-    `👉 Take the quiz and share your result:\nhttps://12axes.vercel.app/en`,
+    `👉 Take the quiz and share your result:\nhttps://12axes-football.vercel.app/en`,
   progress: (current, total) => `Question ${current} of ${total}`,
   archetypeStep: (current, total) => `${current} of ${total}`,
   progressAria: (percent) => `Quiz progress: ${percent}%`,
@@ -1244,7 +1247,7 @@ const en: Strings = {
     low: 'Low compatibility',
     veryLow: 'Very low compatibility'
   },
-  shareTitle: 'Your football profile | 12axes.vercel.app',
+  shareTitle: 'Your football profile | 12axes-football.vercel.app',
   shareTopMatch: 'Top match',
   shareTeam: 'Most compatible team',
   shareManager: 'Manager',

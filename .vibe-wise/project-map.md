@@ -24,7 +24,7 @@ Not relevant to task 1; not inspected.
 
 ## Build and Deployment
 - frontend: npm run build (tsc --noEmit + vite build + generate-pages), npm test (vitest), npm run dev.
-- backend: render.yaml (Docker). frontend/vercel.json.
+- backend: render.yaml (Docker, free plan, service 12axes-football-backend). frontend/vercel.json (project 12axes-football). Frontend pings /api/health on load to wake the sleeping free instance.
 
 ## Colour architecture (implemented, Phase 1)
 - Learner decisions: tokens.css is the only hand-edited source; merge colours within dE2000 < 5; opacity rounded to 0.1; dark theme in its own labelled file; PDF reuses tokens.css; generated TS file is unversioned; component-specific colours in their own file; hard-coded colours keep their behaviour (stay fixed in dark mode).
@@ -32,5 +32,5 @@ Not relevant to task 1; not inspected.
 - Files: src/styles/tokens.css (source); src/styles/theme-dark.css (dark base + dark rules, imported after app.css in main.tsx); scripts/generate-tokens.mjs (+ .d.mts) -> src/styles/tokens.generated.ts (gitignored; run by predev/pretest/prebuild/pretest:watch); src/styles/componentColors.ts (crypto brand + compass fallbacks); vite.config.ts tokensHtmlPlugin fills /*@tokens*/ and {{token:name}} in index.html; static page CSS starts with tokensRootCss(); test/tokens.test.ts guards against hard-coded colours in stylesheets.
 
 ## Unknowns
-- Backend runs locally via `./mvnw spring-boot:run` despite no `javac`: Maven reuses the already-compiled backend/target/classes. Editing backend Java code would need a JDK 21 to recompile.
+- Backend: `./mvnw test` recompiles changed Java here even without a `javac` on PATH (verified 2026-11-06).
 - Which design direction for "football-like" (pitch textures, scoreboard typography, kits, etc.) — learner's decision.

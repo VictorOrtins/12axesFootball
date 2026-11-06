@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react';
 import { selectAndBalanceQuestions } from './utils/quizSelection';
 import { HOME_AXES } from './data/homeAxes';
 import { LANG, setLang, t } from './i18n';
-import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
+import { fetchQuiz, fetchSharedResult, submitResults, wakeBackend } from './services/quizApi';
 import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
@@ -67,7 +67,19 @@ function resultUrlFromValues(leftPercents: number[]): string {
   return `/results?${query}`;
 }
 
+const SLOW_REQUEST_MS = 5000;
+
+function useIsSlow(): boolean {
+  const [isSlow, setIsSlow] = useState(false);
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => setIsSlow(true), SLOW_REQUEST_MS);
+    return () => window.clearTimeout(timeoutId);
+  }, []);
+  return isSlow;
+}
+
 function LoadingPanel({ message }: { message: string }) {
+  const isSlow = useIsSlow();
   return (
     <div className="loading-panel">
       <div className="loading-mark" aria-hidden="true">
@@ -75,7 +87,7 @@ function LoadingPanel({ message }: { message: string }) {
       </div>
       <div>
         <h1>12 Axes</h1>
-        <p>{message}</p>
+        <p role="status" aria-live="polite">{isSlow ? t.loadingWakingServer : message}</p>
       </div>
     </div>
   );
@@ -84,9 +96,10 @@ function LoadingPanel({ message }: { message: string }) {
 // Esqueleto com a forma real do que vai chegar (enunciado + cinco respostas),
 // em vez de um spinner que nao diz nada sobre o conteudo.
 function QuizSkeleton({ message }: { message: string }) {
+  const isSlow = useIsSlow();
   return (
     <div className="skeleton-stack" role="status" aria-live="polite">
-      <span className="sr-only">{message}</span>
+      {isSlow ? <p className="skeleton-note">{t.loadingWakingServer}</p> : <span className="sr-only">{message}</span>}
       <div className="skeleton-bar" data-w="45" aria-hidden="true" />
       <div className="skeleton-bar" data-w="70" aria-hidden="true" />
       <div className="skeleton-bar" data-tall="true" aria-hidden="true" />
@@ -104,6 +117,7 @@ function initialScreen(): Screen {
 }
 
 function MainApp() {
+  useEffect(() => wakeBackend(), []);
   const [quiz, setQuiz] = useState<QuizPayload | null>(null);
   const [answers, setAnswers] = useState<Record<string, AnswerValue>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
