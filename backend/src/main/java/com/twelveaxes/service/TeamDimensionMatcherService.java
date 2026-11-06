@@ -90,7 +90,7 @@ public class TeamDimensionMatcherService {
         return new TeamMatch(
                 team.id(), team.name(), team.category(), team.description(), team.period(),
                 team.imagePath(), team.imageSourceName(), team.imageSourceUrl(), team.imageNote(),
-                round1(scored.score()), percentile, targetVectorFor(team));
+                profileMatchScorer.displayScore(scored.score()), percentile, targetVectorFor(team));
     }
 
     private Map<String, Double> targetVectorFor(Team team) {
@@ -102,10 +102,6 @@ public class TeamDimensionMatcherService {
             return team.vector();
         }
         return profileMatchScorer.neutralVector();
-    }
-
-    private double round1(double value) {
-        return Math.round(value * 10.0) / 10.0;
     }
 
     private record Scored(Team team, double score) {

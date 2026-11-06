@@ -96,7 +96,7 @@ public class TeamMatcherService {
                 team.imageSourceName(),
                 team.imageSourceUrl(),
                 team.imageNote(),
-                candidate.compatibility(),
+                profileMatchScorer.displayScore(candidate.compatibility()),
                 candidate.compatibilityPercentile(),
                 targetVectorFor(team, dataService.getTeamProfiles().get(team.id()))
         );

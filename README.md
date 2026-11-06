@@ -151,7 +151,7 @@ A result is a vector of twelve values from 0 to 100. The `ProfileMatchScorer` co
 | Magnitude | 0.18 | Whether your overall intensity matches the profile's, so a moderate user does not match an extreme profile just because the direction agrees |
 | Outlier | 0.07 | A penalty for a single axis that is far off |
 
-Each catalog is ranked separately. `ScorerBenchmarkTest` guards the calibration on the football catalogs. [backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md](backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md) explains the matching in detail.
+Each catalog is ranked separately. The raw score is squeezed into a narrow range (a best match is typically 91–95, a worst match about 45), so the number users see is rescaled by `ProfileMatchScorer.displayScore`: the same ranking, spread over the full 0–100 range. `ScorerBenchmarkTest` guards the calibration on the football catalogs. [backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md](backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md) explains the matching in detail.
 
 ### API
 

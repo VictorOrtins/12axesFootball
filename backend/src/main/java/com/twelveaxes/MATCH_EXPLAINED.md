@@ -276,6 +276,37 @@ Neutro contra neutro da `100`:
 
 Antes do cosseno aumentado (ate 2026-09-26) a direcao entre dois vetores neutros era `50`, e o total ficava travado em `83.5`: um usuario com 50 em tudo nunca passava de 83,5% com um perfil que e 50 em todos os eixos.
 
+## Nota exibida (`displayScore`)
+
+A compatibilidade bruta fica espremida. Em 1.352 usuarios simulados contra os catalogos de futebol, o melhor resultado vale em mediana 91 (ideias de jogo) a 95 (times e treinadores), o 5o ainda vale 81 a 88, a distancia entre o 1o e o 2o e de 2 a 3 pontos e o pior resultado vale cerca de 45. Os rotulos antigos (95, 85, 65 e 45) jogavam 72% a 74% dos 5 melhores times e treinadores na mesma faixa "alta".
+
+O ranking continua usando a nota bruta (ordenacao, percentil e desempate). So o numero que vai na resposta passa por:
+
+```text
+closeness = clamp((compatibility - DISPLAY_FLOOR) / (100 - DISPLAY_FLOOR), 0, 1)
+displayScore = round1(100 * closeness ^ DISPLAY_EXPONENT)       DISPLAY_FLOOR = 40, DISPLAY_EXPONENT = 1.5
+```
+
+- Funcao crescente: a ordem nunca muda. 100 continua 100 e o piso (40) vira 0.
+- Uma unica curva para todos os catalogos e todas as telas: a mesma proximidade bruta mostra o mesmo numero em ideias de jogo, times, treinadores e na comparacao. Catalogos maiores tem melhores resultados mais proximos, e isso aparece no numero.
+- Onde se aplica: `FootballIdeologyMatcherService`, `TeamMatcherService`, `ManagerMatcherService`, `CompareService` e os cartoes por dimensao (`TeamDimensionMatcherService`, `ManagerDimensionMatcherService`). Nos cartoes por dimensao a nota bruta usa so 2 a 6 eixos, entao o melhor vale 91 a 98: com poucos eixos e mais facil bater de perto.
+- `ScorerBenchmarkTest` mede a nota bruta e nao cobre esta funcao; `ProfileMatchScorerTest` cobre extremos, curva e monotonicidade.
+
+Efeito em usuarios simulados (mediana por posicao no ranking):
+
+| | 1o | 2o | 5o | 10o | meio do catalogo | pior |
+|---|---|---|---|---|---|---|
+| Ideias de jogo, antes | 91 | 87 | 81 | 72 | 68 | 42 |
+| Ideias de jogo, depois | 78 | 69 | 57 | 39 | 32 | 1 |
+| Times, antes | 95 | 92 | 88 | 85 | 71 | 45 |
+| Times, depois | 88 | 81 | 72 | 65 | 37 | 2 |
+| Treinadores, antes | 95 | 92 | 88 | 84 | 71 | 45 |
+| Treinadores, depois | 87 | 80 | 71 | 63 | 37 | 3 |
+
+O frontend rotula a nota exibida com cortes em 85, 70, 50 e 30 (`utils/compatibility.ts`, e os mesmos em `ratingTier`): muito alta, alta, media, baixa e muito baixa. Nessa escala, o 1o de um usuario fica em "muito alta" ou "alta" em 94% a 98% dos casos nos times e treinadores, os 5 melhores se espalham de "muito alta" a "media" e 69% a 75% do catalogo fica em "baixa" ou "muito baixa". Cada ficha de time e treinador mostra tambem em quantos dos 12 eixos o usuario esta a ate 20 pontos do perfil e em qual eixo a diferenca e maior (`axisAlignment`).
+
+As respostas da API tem `Cache-Control: max-age=3600`: depois de um deploy, navegadores podem mostrar a escala antiga por ate 1 hora.
+
 ## Percentil
 
 Cada catalogo calcula percentil contra todos os scores daquele mesmo catalogo:

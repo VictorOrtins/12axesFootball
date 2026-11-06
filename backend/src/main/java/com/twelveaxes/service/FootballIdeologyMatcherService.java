@@ -97,7 +97,7 @@ public class FootballIdeologyMatcherService {
                 shortDescription,
                 longDescription,
                 ideology.phrase(),
-                candidate.compatibility(),
+                profileMatchScorer.displayScore(candidate.compatibility()),
                 candidate.compatibilityPercentile(),
                 team == null ? null : team.name(),
                 manager == null ? null : manager.name()
