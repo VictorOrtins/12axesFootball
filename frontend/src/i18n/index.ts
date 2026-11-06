@@ -367,6 +367,8 @@ interface Strings {
   feedbackTitle: string;
   feedbackReport: string;
   feedbackSuggest: string;
+  creditPrefix: string;
+  creditSuffix: string;
 }
 
 const pt: Strings = {
@@ -798,7 +800,9 @@ const pt: Strings = {
   shareFooterUrl: '12AXES.VERCEL.APP',
   feedbackTitle: 'Encontrou um problema ou tem uma ideia?',
   feedbackReport: 'Reportar um problema',
-  feedbackSuggest: 'Sugerir melhorias'
+  feedbackSuggest: 'Sugerir melhorias',
+  creditPrefix: 'Adaptação para o futebol do',
+  creditSuffix: ', criado por Enzo Xavier Santos. Publicado com a permissão por escrito do autor do projeto original.'
 };
 
 const en: Strings = {
@@ -1248,7 +1252,9 @@ const en: Strings = {
   shareFooterUrl: '12AXES.VERCEL.APP',
   feedbackTitle: 'Found a problem or have an idea?',
   feedbackReport: 'Report a problem',
-  feedbackSuggest: 'Suggest improvements'
+  feedbackSuggest: 'Suggest improvements',
+  creditPrefix: 'A football adaptation of',
+  creditSuffix: ', created by Enzo Xavier Santos. Published with written permission from the author of the original project.'
 };
 
 export const t: Strings = LANG === 'en' ? en : pt;

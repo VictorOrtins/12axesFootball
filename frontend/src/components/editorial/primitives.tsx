@@ -1,6 +1,8 @@
 import { useState, type CSSProperties, type ReactNode } from 'react';
 import { t } from '../../i18n';
 import { NEW_ISSUE_URL } from '../../data/repo';
+
+const ORIGINAL_SITE_URL = 'https://12axes.vercel.app';
 import { ratingTier } from '../../utils/agreement';
 
 export function Logo({ onClick }: { onClick?: () => void }) {
@@ -33,6 +35,11 @@ export function SiteFooter() {
             {t.feedbackSuggest}
           </a>
         </nav>
+        <p className="e-foot-credit">
+          {t.creditPrefix}{' '}
+          <a href={ORIGINAL_SITE_URL} target="_blank" rel="noopener noreferrer">12 Axes</a>
+          {t.creditSuffix}
+        </p>
       </div>
     </footer>
   );

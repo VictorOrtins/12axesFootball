@@ -12,7 +12,7 @@ Portuguese and English · no sign-up
 
 ## Overview
 
-This is a fork of [12 Axes](https://12axes.vercel.app), a political quiz, rebuilt for football. Instead of ideologies, countries and political figures, your answers are matched against football ideas (schools of play), team eras and managers. [FORK_README.md](FORK_README.md) has the motivation and inspirations.
+This is a fork of [12 Axes](https://12axes.vercel.app), a political quiz by Enzo Xavier Santos, rebuilt for football with the author's written permission (see [License](#license)). Instead of ideologies, countries and political figures, your answers are matched against football ideas (schools of play), team eras and managers. [FORK_README.md](FORK_README.md) has the motivation and inspirations.
 
 **Status: work in progress, not released yet.** The political content is gone and the whole app runs on the football axes.
 
@@ -252,7 +252,11 @@ Research files are saved in `profile-audit/research/<catalog>/<id>.json` and che
 
 ### License
 
-This fork inherits the license of 12 Axes, which is source-available but not open source. The code, questions, profiles, and vectors of the original project are © 2026 Enzo Xavier Santos, all rights reserved. You may read the code and send contributions, but copying, redistributing, translating, or using any part commercially needs written permission. See [LICENSE](LICENSE) for the full terms.
+This fork inherits the license of 12 Axes, which is source-available but not open source. The code, questions, profiles, and vectors of the original project are © 2026 Enzo Xavier Santos, all rights reserved. See [LICENSE](LICENSE) for the full terms.
+
+**Permission.** Enzo Xavier Santos, the copyright holder of 12 Axes, gave Victor Ortins written permission to build this football adaptation and publish it online, on the condition that the original project is credited and that this permission is stated clearly. The site credits 12 Axes in its footer.
+
+That permission covers this project only. For anyone else, the [LICENSE](LICENSE) terms still apply: you may read the code and send contributions, but copying, redistributing, translating, or using any part commercially needs written permission from the copyright holder.
 
 ## Authors
 

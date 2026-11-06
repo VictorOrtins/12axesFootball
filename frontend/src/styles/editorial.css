@@ -640,6 +640,8 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-resume + .ed .e-hero .e-wrap{align-items:start}
 @media (max-width:860px){.e-resume + .ed .e-hero{padding:32px 0 40px}}
 .e-foot-links{display:flex;flex-wrap:wrap;gap:10px}
+.e-foot-credit{flex-basis:100%;margin:0;font-size:13px}
+.e-foot-credit a{color:var(--papel);text-decoration:underline;text-underline-offset:3px}
 .e-foot .e-btn-ghost{border-color:var(--fixed-canvas-a40);color:var(--papel)}
 .e-foot .e-btn-ghost:hover{border-color:var(--papel);background:var(--fixed-canvas-a10)}
 @media (max-width:720px){
