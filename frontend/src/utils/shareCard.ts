@@ -591,7 +591,7 @@ function buildShareFooter(): HTMLElement {
       fontFamily: SHARE_FONT_DISPLAY,
       fontWeight: '700',
       fontSize: '30px',
-      letterSpacing: '0.1em',
+      letterSpacing: '0.04em',
       textTransform: 'uppercase',
       color: P
     }, t.shareFooterUrl)
