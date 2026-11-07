@@ -39,7 +39,7 @@ class ScorerBenchmarkTest {
     // Calibrados nos catalogos de futebol (ver MATCH_EXPLAINED.md): logo abaixo do pior valor da formula
     // atual (com esticamento e hubOffset) em 12 sementes de simulacao. A extremidade caiu de proposito:
     // o esticamento leva usuarios moderados a perfis mais marcados. Recalibrar se os catalogos mudarem muito.
-    private static final double MIN_RECOVERY_SIGMA_10_PERCENT = 82.0;
+    private static final double MIN_RECOVERY_SIGMA_10_PERCENT = 80.0;
     private static final double MIN_RECOVERY_SIGMA_15_PERCENT = 65.0;
     private static final double MIN_OPPOSITE_REJECTION_PERCENT = 98.0;
     private static final double MIN_CENTER_REJECTION_PERCENT = 93.0;

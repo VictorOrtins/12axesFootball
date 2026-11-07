@@ -408,13 +408,15 @@ Recalibrado em 2026-11-06 com o esticamento e o `hubOffset` (o benchmark ranquei
 
 | Metrica | Medido | Pior em 12 sementes | Limite |
 |---|---|---|---|
-| Recuperacao, ruido 10 | 85,2% (91,7) | 82,8 | 82 |
+| Recuperacao, ruido 10 | 85,2% (91,7) | 82,8 | 82 (80 desde 2026-11-06, ver abaixo) |
 | Recuperacao, ruido 15 | 71,6% (79,3) | 66,3 | 65 |
 | Rejeicao de oposto | 99,1% (96,5) | 99,1 | 98 |
 | Rejeicao de centro | 94,5% (88,7) | 93,8 | 93 |
 | Estabilidade | 98,2% (100) | 98,2 | 97 |
 | Discriminacao | 9,33% (9,59) | 8,91 | 8,5 |
 | Controle de extremidade | 75,7% (83,8) | 74,9 | 74 |
+
+Recalibracao parcial em 2026-11-06, depois de refazer 23 perfis e incluir De Zerbi e Gasperini (67 treinadores, 80 times): em 12 sementes a recuperacao com ruido 10 vai de 80,7 a 87,1 (media 84,0), entao o limite passou de 82 para 80. Os demais limites continuam abaixo do pior valor medido (recuperacao 15: 67,3; oposto: 99,1; centro: 93,2; estabilidade: 97,7; discriminacao: 8,58; extremidade: 75,5).
 
 Recuperacao e extremidade cairam de proposito: o offset tira pontos de perfis moderados mesmo quando o usuario e uma copia ruidosa deles, e o esticamento leva usuarios mornos a perfis mais marcados. Os numeros abaixo sobre formulas piores sao da calibracao anterior (sem esticamento).
 
