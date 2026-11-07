@@ -1,0 +1,138 @@
+{
+  "id": "arrigo-sacchi",
+  "catalog": "manager",
+  "name": "Arrigo Sacchi",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1987-07-01",
+    "end": "1996-06-30"
+  },
+  "scopeNote": "Manager profile of Arrigo Sacchi across two counted spells: AC Milan (July 1987 to June 1991, 196 matches, Serie A 1987-88, European Cup 1988-89 and 1989-90) and Italy (November 1991 to June 1996, World Cup runner-up 1994). Dates are from the managerial statistics table of the English Wikipedia article, read at step 1 (month precision). The style evidence is the Wikipedia career section, which is undated and general; no tier A-B source was read in this run. ",
+  "spellsCounted": [
+    {
+      "club": "AC Milan",
+      "start": "1987-07-01",
+      "end": "1991-06-30",
+      "reason": "Serie A 1987-88, two European Cups and the Intercontinental Cups; the zonal, high-pressing side he is known for."
+    },
+    {
+      "club": "Italy",
+      "start": "1991-11-01",
+      "end": "1996-06-30",
+      "reason": "World Cup runner-up 1994 and tactical coverage of the national side."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Parma",
+      "start": "1985-06-01",
+      "end": "1987-07-01",
+      "reason": "Serie C1 title only; no tactical coverage read in this run."
+    },
+    {
+      "club": "AC Milan",
+      "start": "1996-12-01",
+      "end": "1997-06-30",
+      "reason": "Short second spell, no titles."
+    },
+    {
+      "club": "Atlético Madrid",
+      "start": "1998-06-01",
+      "end": "1999-02-28",
+      "reason": "No titles, no tactical coverage read."
+    },
+    {
+      "club": "Parma",
+      "start": "2001-01-01",
+      "end": "2001-01-31",
+      "reason": "Three matches."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Whether the zonal and offside-trap facts are dated to the Milan years only (Wikipedia gives no season)."
+  ],
+  "sources": [
+    {
+      "title": "Arrigo Sacchi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1987",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"He favored a fluid, yet highly organised attacking 4–4–2 formation.\" (undated, general career)",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1987",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"a high defensive line with no more than 25 metres between defence and attack.\" (undated, general career)",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1987",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"Defensively, Sacchi's teams adopted a zonal marking system.\" (undated; the page says the system was introduced by his predecessor Nils Liedholm)",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1987",
+      "accessedOn": "2026-10-17",
+      "dimension": "pressing",
+      "evidence": "\"popularising high pressing from his teams, the offside trap.\" (undated, general career)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "jog",
+      "lar",
+      "lid",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Single undated Wikipedia career section; no tier A-B source read; trophies are the only dated facts."
+  }
+}

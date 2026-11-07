@@ -2,100 +2,888 @@
   "id": "miguel-cardoso",
   "catalog": "manager",
   "name": "Miguel Cardoso",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2024-01-12",
     "end": "ongoing"
   },
-  "scopeNote": "Manager profile of Miguel Cardoso across two counted spells: Espérance de Tunis (12 January to 22 October 2024: Tunisian Ligue Professionnelle 1 2023-24) and Mamelodi Sundowns (10 December 2024 to the present: South African Premiership 2024-25, CAF Champions League 2025-26, MTN 8 2026). Dates from the Wikipedia career table. Excluded: Rio Ave (2017-18 and 2021, no titles), Nantes (2018), Celta Vigo (2018-19) and AEK Athens (2019), all without titles. The Wikipedia article read has no tactical description of his teams, so the profile has no tactical sources.",
+  "scopeNote": "Two counted spells: Esperance de Tunis (2024-01-12 to 2024-10-22; Tunisian Ligue 1 2023-24 title, CAF Champions League final lost to Al Ahly) and Mamelodi Sundowns (2024-12-10 to ongoing; 2024-25 Premiership, CAFCL 2025 final lost to Pyramids, CAFCL 2026 final vs AS FAR, MTN8 2026). Sources call the model 'ofensivo, dominante, equilibrado' (A Bola) with a 4-2-3-1 base morphing to 3-2-5 / 2-2-4-2 in possession; the popular 'defensive coach' label is a critics' narrative that Cardoso rejects. Tactical coverage of the Esperance spell is thin (Tunisian columns and his press conferences only); Sundowns coverage is mostly Mozzart Sport match analyses (tier B). Exact day dates: Esperance start 2024-01-12 and end 2024-10-22 from the brief (Africa Soccer dismissal article dated 2024-10-23); Sundowns start 2024-12-10 (club announcement). Marking scheme (zonal vs man) of his own teams not stated by any source found.",
+  "ambiguities": [],
+  "openQuestions": [
+    "No source found stating whether his teams mark zonally or man-to-man in open play; only an offside trap in a 5-4-1 (Pirates, 2026) and 'slack marking' vs Pyramids (EWN) are documented.",
+    "Esperance 2023-24 formation and pressing are undocumented in tier A-B sources; Kapitalis columns (author says he is not a technician) describe a median-then-compact defensive block and counter-attacking approach, and call Cardoso too defensive, while Cardoso says Esperance dominated the final first leg.",
+    "Mozzart Sport (Kenya) analyses are tier B by choice (match-specific, named tactical author unknown); formations vary between pieces (4-2-3-1 base, 4-3-3 vs Al Ahly).",
+    "Kapitalis 2025-04-09 attributes the 'defensive' criticism at Esperance to lack of attacking recruits; contested by supporters' view in the same outlet.",
+    "Portuguese originals of quotes mostly unavailable: Sundowns press conferences are in English; Mosaique FM quote is French rendering."
+  ],
+  "sources": [
+    {
+      "title": "Mozzart: Sundowns game plan that neutralised Esperance's high press",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-game-plan-that-neutralised-esperances-high-press/64527",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-04-20",
+      "eventDate": "2026-04-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Sundowns responded with a compact 4-4-2 mid-block out of possession, absorbing pressure while looking to spring forward through third-man combinations.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns game plan that neutralised Esperance's high press",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-game-plan-that-neutralised-esperances-high-press/64527",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-04-20",
+      "eventDate": "2026-04-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Sundowns’ 1-3-2-4-1 hybrid succeeded by blending a compact 4-4-2 mid-block with intelligent rotational build-up that neutralised Esperance’s high press",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns game plan that neutralised Esperance's high press",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-game-plan-that-neutralised-esperances-high-press/64527",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-04-20",
+      "eventDate": "2026-04-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Sundowns used dropping movements from Bryan Leon and Tashreeq Mathews to facilitate Lunga’s overlapping runs, creating classic third-man patterns that stretched Esperance’s aggressive high press.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns game plan that neutralised Esperance's high press",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-game-plan-that-neutralised-esperances-high-press/64527",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-04-20",
+      "eventDate": "2026-04-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "their counter-pressing resistance turned Esperance’s failed progression into immediate attacking chances, most notably in the build-up to the penalty.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns game plan that neutralised Esperance's high press",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-game-plan-that-neutralised-esperances-high-press/64527",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-04-20",
+      "eventDate": "2026-04-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "out of possession, their compact shape limited Esperance’s central penetration while funnelling play wide, where Sundowns dominated.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns secured first win over Esperance in 25 years",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-secured-first-win-over-esperance-in-25-years/52309",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-02",
+      "eventDate": "2025-04-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Cardoso deployed a base 4-2-3-1 formation with Ronwen Williams between the sticks.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns secured first win over Esperance in 25 years",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-secured-first-win-over-esperance-in-25-years/52309",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-02",
+      "eventDate": "2025-04-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "In possession, they adopted a 2-2-2-4 shape, building from the back with the center-backs distributing to the central midfielders—Allende and Mokoena—who dropped deep to receive the ball.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns secured first win over Esperance in 25 years",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-secured-first-win-over-esperance-in-25-years/52309",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-02",
+      "eventDate": "2025-04-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Defensively, Sundowns operated with seven players behind the ball and executed an intense counter-press to win back possession quickly, denying Esperance opportunities in transition.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns secured first win over Esperance in 25 years",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-secured-first-win-over-esperance-in-25-years/52309",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-02",
+      "eventDate": "2025-04-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "When necessary, the ball was worked out wide to the advancing fullbacks, who aimed to deliver cutbacks into the box.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outsmarted FAR's relentless pressing (CAFCL final 2026)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outsmarted-fars-relentless-pressing-to-win-champions-league/65696",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-05-26",
+      "eventDate": "2026-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Williams positioned himself centrally while the two centre-backs split extremely wide, creating a temporary back three in possession.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outsmarted FAR's relentless pressing (CAFCL final 2026)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outsmarted-fars-relentless-pressing-to-win-champions-league/65696",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-05-26",
+      "eventDate": "2026-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Sundowns deliberately bypassed midfield pressure by targeting Leon with direct balls, using second-ball situations to advance territory rather than sustained possession.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outsmarted FAR's relentless pressing (CAFCL final 2026)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outsmarted-fars-relentless-pressing-to-win-champions-league/65696",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-05-26",
+      "eventDate": "2026-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The introduction of Grant Kekana in the closing stages transformed Sundowns into a compact 5-4-1 deep block.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outsmarted FAR's relentless pressing (CAFCL final 2026)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outsmarted-fars-relentless-pressing-to-win-champions-league/65696",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-05-26",
+      "eventDate": "2026-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Tactically, the goal highlighted Sundowns’ vulnerability during defensive transitions when their wide structure became stretched and isolated.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outwitted Al Ahly (CAFCL semi-final 2025)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outwitted-al-ahly-to-reach-caf-champions-league-final/53151",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-26",
+      "eventDate": "2025-04-23",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Cardoso began with a nominal 4-3-3, but as is often the case with Sundowns, the system morphed into something far more complex. In possession, they transitioned into a 4-2-2-2 shape.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outwitted Al Ahly (CAFCL semi-final 2025)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outwitted-al-ahly-to-reach-caf-champions-league-final/53151",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-26",
+      "eventDate": "2025-04-23",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "He withdrew fullback Modiba, switched to a back three, and sent on Divine Lunga and the versatile Arthur to overload the box.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: How Sundowns outwitted Al Ahly (CAFCL semi-final 2025)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-sundowns-outwitted-al-ahly-to-reach-caf-champions-league-final/53151",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-04-26",
+      "eventDate": "2025-04-23",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Cardoso then closed the game with another tactical shift, reverting to a back five to absorb pressure and protect the precious away-goal advantage.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns' flaw that cost them against Pyramids (CAFCL final 1st leg)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-flaw-that-cost-them-against-pyramids-fc/54152",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-26",
+      "eventDate": "2025-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "In possession, Sundowns morphed into a 2-2-4-2 shape, with Mudau and Modiba pushing high to provide attacking width.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns' flaw that cost them against Pyramids (CAFCL final 1st leg)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-flaw-that-cost-them-against-pyramids-fc/54152",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-26",
+      "eventDate": "2025-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Cardoso also altered the team’s rest defense, moving from a two-man to a three-man base when in possession.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns' flaw that cost them against Pyramids (CAFCL final 1st leg)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-mamelodi-sundowns-flaw-that-cost-them-against-pyramids-fc/54152",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-05-26",
+      "eventDate": "2025-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Sundowns' in-possession adjustments showed Cardoso’s tactical acumen, but defensive frailties in transition and narrow rest-defense cost them.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns outsmarted RB Leipzig (friendly)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-outsmarted-bundesliga-outfit-rb-leipzig/65859",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-05-30",
+      "eventDate": "2026-05-29",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "By stepping up their intensity and triggering traps on the counter-press, Sundowns completely denied Leipzig from building cleanly out of their own defensive third",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns outsmarted RB Leipzig (friendly)",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-outsmarted-bundesliga-outfit-rb-leipzig/65859",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-05-30",
+      "eventDate": "2026-05-29",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Sundowns adjusted their build-up mechanics into a sprawling 5-2 shape, where the goalkeeper split the two wide centre-backs who dropped close to the full-backs",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns structurally disarmed Orlando Pirates",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-structurally-disarmed-orlando-pirates/62710",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-19",
+      "eventDate": "2026-02-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Sundowns lined up in a 4-2-3-1 on paper but consistently morphed into a 3-2-5 in possession.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns structurally disarmed Orlando Pirates",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-structurally-disarmed-orlando-pirates/62710",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-19",
+      "eventDate": "2026-02-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The defensive line implemented an offside trap within a compact 5-4-1, eliminating through-ball threats.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns structurally disarmed Orlando Pirates",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-structurally-disarmed-orlando-pirates/62710",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-19",
+      "eventDate": "2026-02-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Sundowns recycled possession leftward, isolating Modiba high and wide.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart: Sundowns structurally disarmed Orlando Pirates",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-analysis-how-mamelodi-sundowns-structurally-disarmed-orlando-pirates/62710",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-02-19",
+      "eventDate": "2026-02-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Sundowns’ rest-defence structure - three defenders plus a pivot - ensured numerical security behind the ball.",
+      "verified": true
+    },
+    {
+      "title": "Kermit Erasmus on what Cardoso has changed at Sundowns (SoccerLaduma)",
+      "url": "https://www.soccerladuma.co.za/local/mamelodi-sundowns/erasmus-thats-the-key-aspect-of-cardosos-game-20241222",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-22",
+      "eventDate": "2024-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "\"His defensive structure, how he approaches the game is pretty decent, its not as high pressed as the previous coaches, it's more of an organized structure in moments you going to press, try to maintain the energy of the team more than anything,\" Erasmus said",
+      "verified": true
+    },
+    {
+      "title": "Kermit Erasmus on what Cardoso has changed at Sundowns (SoccerLaduma)",
+      "url": "https://www.soccerladuma.co.za/local/mamelodi-sundowns/erasmus-thats-the-key-aspect-of-cardosos-game-20241222",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-22",
+      "eventDate": "2024-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "You could see he's playing now with one holding (midfielder) and two free roaming midfielders in Modiba and [Marcelo] Allende, when he was on the field, they were just rotating the whole time",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso wants Sundowns to understand the 'spaces' question (Business Report)",
+      "url": "https://businessreport.co.za/the-star/sport/2024-12-13-miguel-cardoso-wants-mamelodi-sundowns-to-understand-the-spaces-question",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-13",
+      "eventDate": "2024-12-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "I prefer the players to run for three or four seconds and try to recover the ball immediately. They should rather do this, reorganise, and defend to win the ball and try to go forward again.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso wants Sundowns to understand the 'spaces' question (Business Report)",
+      "url": "https://businessreport.co.za/the-star/sport/2024-12-13-miguel-cardoso-wants-mamelodi-sundowns-to-understand-the-spaces-question",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-13",
+      "eventDate": "2024-12-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "I want a team that can control the games. Controlling the games means the team must be solid in the four moments of the game.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso wants Sundowns to understand the 'spaces' question (Business Report)",
+      "url": "https://businessreport.co.za/the-star/sport/2024-12-13-miguel-cardoso-wants-mamelodi-sundowns-to-understand-the-spaces-question",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-13",
+      "eventDate": "2024-12-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "We (the coach and the new assistants) have had to study the team and the players, and it’s obvious that the players are technically well-developed.",
+      "verified": true
+    },
+    {
+      "title": "Sundowns vs Stellenbosch: how Cardoso pulled off a tactical masterclass (Daily News)",
+      "url": "https://dailynews.co.za/sport/soccer/psl/2024-12-19-sundowns-vs-stellenbosch-how-miguel-cardoso-pulled-off-a-tactical-masterclass/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-19",
+      "eventDate": "2024-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "“Today we knew that we needed quick players so that we can control these spaces when we deal with long balls,” said Cardoso.",
+      "verified": true
+    },
+    {
+      "title": "Daily News: Stellenbosch",
+      "url": "https://dailynews.co.za/sport/soccer/psl/2024-12-19-sundowns-vs-stellenbosch-how-miguel-cardoso-pulled-off-a-tactical-masterclass/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-19",
+      "eventDate": "2024-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "“Some of them are young, some of them are more experienced. Some of them also have their own characteristics that allow us to cope with the moments of the game and with the different teams we are facing.”",
+      "verified": true
+    },
+    {
+      "title": "Sundowns must adapt to less possession, warns coach Cardoso (EWN)",
+      "url": "https://www.ewn.co.za/2025/06/12/sundowns-must-adapt-to-less-possession-warns-coach-cardoso",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-12",
+      "eventDate": "2025-06-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "\"Our possession can be 70 percent, sometimes even more,\" he told the South African media before departing for North America",
+      "verified": true
+    },
+    {
+      "title": "Sundowns must adapt to less possession, warns coach Cardoso (EWN)",
+      "url": "https://www.ewn.co.za/2025/06/12/sundowns-must-adapt-to-less-possession-warns-coach-cardoso",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-12",
+      "eventDate": "2025-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Slack marking allowed Pyramids to snatch an added-time equaliser in South Africa, and a weak clearance and more poor marking led to the goals that gave the Egyptians a 2-1 second-leg victory.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso brutal on Sundowns 'defensive' critics (FARPost)",
+      "url": "https://farpost.co.za/2025/11/02/thats-bullsht-cardoso-brutal-on-sundowns-defensive-critics/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-02",
+      "eventDate": "2025-11-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "“Nobody kills an attitude and at half-time I said, ‘Is that the attitude that no one is able to kill, the one we had in the first half after we suffered the goal?’” asked Cardoso.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso bemoans Sundowns' set-piece woes (Business Report)",
+      "url": "https://businessreport.co.za/sport/soccer/psl/2026-08-08-miguel-cardoso-bemoans-sundowns-set-piece-woes-despite-mtn8-progression/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-08-08",
+      "eventDate": "2026-08-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "“Look, today we were saying that last season we suffered three goals from set pieces. Today we suffered two. That is the story of the game,” Cardoso said.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso bemoans Sundowns' set-piece woes (Business Report)",
+      "url": "https://businessreport.co.za/sport/soccer/psl/2026-08-08-miguel-cardoso-bemoans-sundowns-set-piece-woes-despite-mtn8-progression/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-08-08",
+      "eventDate": "2026-08-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "“The man-to-man marking that Polokwane City put on the pitch was obviously very physical, very demanding,\" Cardoso noted. \"I think we reacted very well to the goal that we suffered. We made a beautiful first half, trying to escape from that man-to-man marking, finding the spaces to penetrate.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso's blueprint for Sundowns' CAF glory (Pan Africa Football)",
+      "url": "https://panafricafootball.com/article/miguel-cardoso’s-blueprint-for-sundowns'-caf-glory",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-05-24",
+      "eventDate": "2026-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "“It is vital that we are a powerhouse in all four moments of the game. We also need to be flawless in our defensive and offensive set-pieces—that is how you win a match of this magnitude.”",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso's blueprint for Sundowns' CAF glory (Pan Africa Football)",
+      "url": "https://panafricafootball.com/article/miguel-cardoso’s-blueprint-for-sundowns'-caf-glory",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-05-24",
+      "eventDate": "2026-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "“There will be moments when we are without the ball, meaning we must defend stubbornly to win it back. Sometimes defending can be the most aggressive phase of your game if you are committed and strong.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso: quando o caminho explica o treinador (A Bola)",
+      "url": "https://www.abola.pt/noticias/miguel-cardoso-quando-o-caminho-explica-o-treinador-2026012401294370541",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-01-24",
+      "eventDate": "2026-01-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Defensivamente, a lógica mantém-se intacta: pressão coletiva e estruturada, reação imediata à perda, blocos compactos, distâncias curtas.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso: quando o caminho explica o treinador (A Bola)",
+      "url": "https://www.abola.pt/noticias/miguel-cardoso-quando-o-caminho-explica-o-treinador-2026012401294370541",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-01-24",
+      "eventDate": "2026-01-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "as suas equipas procuram assumir a iniciativa, valorizar a posse com intenção, construir desde trás e chegar à baliza com critério. Não há posse ornamental.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso: quando o caminho explica o treinador (A Bola)",
+      "url": "https://www.abola.pt/noticias/miguel-cardoso-quando-o-caminho-explica-o-treinador-2026012401294370541",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-01-24",
+      "eventDate": "2026-01-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Afasta-se da figura autoritária e centralizadora. Acredita num treinador agregador, catalisador de pessoas, motivador da estrutura.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso: quando o caminho explica o treinador (A Bola)",
+      "url": "https://www.abola.pt/noticias/miguel-cardoso-quando-o-caminho-explica-o-treinador-2026012401294370541",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-01-24",
+      "eventDate": "2026-01-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Valoriza o diálogo, a empatia e a construção conjunta, sem abdicar da exigência, da responsabilidade e da meritocracia.",
+      "verified": true
+    },
+    {
+      "title": "Miguel Cardoso: quando o caminho explica o treinador (A Bola)",
+      "url": "https://www.abola.pt/noticias/miguel-cardoso-quando-o-caminho-explica-o-treinador-2026012401294370541",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-01-24",
+      "eventDate": "2026-01-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "a identidade pertence aos clubes; as equipas expressam modelos de jogo.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso outlines youth management, competition and expectations (SABC Sport)",
+      "url": "https://www.sabcsport.com/soccer/news/cardoso-outlines-youth-management-competition-and-expectations-at-sundowns",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-27",
+      "eventDate": "2026-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "The 19-year-old defender was promoted from Sundowns’ DStv Diski Challenge side to the senior squad in October 2025 and marked his senior debut in the Betway Premiership against Orbit College after the AFCON break.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso outlines youth management (SABC Sport)",
+      "url": "https://www.sabcsport.com/soccer/news/cardoso-outlines-youth-management-competition-and-expectations-at-sundowns",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-27",
+      "eventDate": "2026-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"Like with everybody, with such a hectic schedule, there will be squad rotation, whether in the next game or the one that follows. It also depends on how players who are out of team show their level and readiness to play, because we don't look for names; we look at how they train, how committed they are to the team, and how they prove they want to come in when they are not selected.\"",
+      "verified": true
+    },
+    {
+      "title": "Sundowns coach Cardoso sticks to his guns, vows to continue rotating squad (TimesLive)",
+      "url": "https://www.timeslive.co.za/sport/soccer/2026-02-23-sundowns-coach-cardoso-sticks-to-his-guns-vows-to-continue-rotating-squad/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-02-23",
+      "eventDate": "2026-02-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Cardoso made 10 changes to the team that beat Orlando Pirates 2-1 at FNB Stadium on Wednesday.",
+      "verified": true
+    },
+    {
+      "title": "Sundowns coach Cardoso sticks to his guns, vows to continue rotating squad (TimesLive)",
+      "url": "https://www.timeslive.co.za/sport/soccer/2026-02-23-sundowns-coach-cardoso-sticks-to-his-guns-vows-to-continue-rotating-squad/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-02-23",
+      "eventDate": "2026-02-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "“There is no possibility to have the core team. There is obviously intent to have a core, but we cannot have it,” Cardoso said",
+      "verified": true
+    },
+    {
+      "title": "Sundowns coach Cardoso sticks to his guns, vows to continue rotating squad (TimesLive)",
+      "url": "https://www.timeslive.co.za/sport/soccer/2026-02-23-sundowns-coach-cardoso-sticks-to-his-guns-vows-to-continue-rotating-squad/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-02-23",
+      "eventDate": "2026-02-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "The wholesale changes affected Sundowns’ chemistry and undid the good work displayed in recent successive pressure wins over MC Alger in the Champions League and against Pirates.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso asks supporters to trust squad rotation (Africa Soccer)",
+      "url": "https://africasoccer.com/?p=636992",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-15",
+      "eventDate": "2026-10",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "“We also have to manage motivation, we have to have a group that is permanently on the edge of the motivation, we like to have it like that – we know we have competition in positions and there are players that can play any moment,” he said.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso asks supporters to trust squad rotation (Africa Soccer)",
+      "url": "https://africasoccer.com/?p=636992",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-15",
+      "eventDate": "2026-10",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "The Portuguese coach says rotation will be essential rather than optional, with players selected according to their physical condition rather than their status as regular starters.",
+      "verified": true
+    },
+    {
+      "title": "Africa Soccer: Cardoso on Belaili",
+      "url": "https://africasoccer.com/caf-champions-league-mamelodi-sundowns-coach-miguel-cardoso-shares-how-he-tactically-edged-out-esperance/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-04-10",
+      "eventDate": "2025-04-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "“We attempted to lessen the threat of Youcef Belaili, who accounts for 60% of Espérance’s offensive strength, and we were successful in this task.”",
+      "verified": true
+    },
+    {
+      "title": "Cardoso: Nous aborderons le match retour sans crainte (Mosaique FM)",
+      "url": "https://www.mosaiquefm.net/mobile/fr/football/1274738/cardoso-nous-aborderons-le-match-retour-sans-crainte",
+      "tier": "C",
+      "language": "fr",
+      "articleDate": "2024-05-24",
+      "eventDate": "2024-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "\"Nous n'avons pas joué un jeu défensif au match aller et vous pouvez voir les statistiques du match, l'Espérance a dominé le match\", a-t-il dit.",
+      "verified": true
+    },
+    {
+      "title": "Cardoso: Nous aborderons le match retour sans crainte (Mosaique FM)",
+      "url": "https://www.mosaiquefm.net/mobile/fr/football/1274738/cardoso-nous-aborderons-le-match-retour-sans-crainte",
+      "tier": "C",
+      "language": "fr",
+      "articleDate": "2024-05-24",
+      "eventDate": "2024-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"Quand vous regardez la finale de l'Europa League entre le Bayer Leverkusen et l'Atalanta, il n'y avait pas de défense ni d'attaque, il y avait un équilibre et c'est ce que nous voulons",
+      "verified": true
+    },
+    {
+      "title": "Cardoso raises his voice after the defeat (e-s-tunis.com)",
+      "url": "https://e-s-tunis.com/en/amp/2024/05/06/15205-cardoso-raises-his-voice-after-the-defeat",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-05-06",
+      "eventDate": "2024-05-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"We must respect other teams, but above all respect our club, our identity and our supporters,\" he insisted. \"We must not lose our champion's attitude that has made us progress and reach where we are today",
+      "verified": true
+    },
+    {
+      "title": "Cardoso: Tomorrow, we will all be winners (e-s-tunis.com)",
+      "url": "https://e-s-tunis.com/en/amp/2024/05/25/15239-cardoso-tomorrow-we-will-all-be-winners",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-05-25",
+      "eventDate": "2024-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"I have believed in my players since I arrived at the club. Over time, they have progressed well thanks to the hard work they put in.",
+      "verified": true
+    },
+    {
+      "title": "L'Espérance bat Sundowns à Pretoria : le catenaccio à la Tunisienne (Kapitalis)",
+      "url": "https://kapitalis.com/tunisie/?p=12623524",
+      "tier": "C",
+      "language": "fr",
+      "articleDate": "2024-04-28",
+      "eventDate": "2024-04-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "j'ai admiré le bloc défensif maintenu savamment médian. Puis très serré et compact quand les joueurs de Sundowns",
+      "verified": true
+    },
+    {
+      "title": "L'Espérance bat Sundowns à Pretoria (Kapitalis)",
+      "url": "https://kapitalis.com/tunisie/?p=12623524",
+      "tier": "C",
+      "language": "fr",
+      "articleDate": "2024-04-28",
+      "eventDate": "2024-04-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Il consiste à absorber la force de l’adversaire en le laissant taper dans un mur pendant près d’une heure pour lui asséner le coup fatal sur un contre bien mené",
+      "verified": true,
+      "retrospectiveOnly": false
+    },
+    {
+      "title": "Espérance de Tunis | La revanche de Miguel Cardoso (Kapitalis)",
+      "url": "https://kapitalis.com/tunisie/2025/04/09/esperance-de-tunis-la-revanche-de-miguel-cardoso/",
+      "tier": "C",
+      "language": "fr",
+      "articleDate": "2025-04-09",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "On reprochait à Cardoso son jeu trop défensif, oubliant qu’il était privé, l’année dernière, des armes offensives dont le club bénéficie cette année, grâce aux nombreux recrutements effectués dans ce compartiment de jeu, et qu’il a dû se débrouiller avec les moyens du bord.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ligue des Champions | Miguel Cardoso change de banc (Kapitalis)",
+      "url": "https://kapitalis.com/tunisie/?p=16062616",
+      "tier": "C",
+      "language": "fr",
+      "articleDate": "2025-04-01",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Les Espérantistes reprochaient à Cardoso son jeu trop défensif, en rupture avec l’identité du club «Sang et Or», souvent porté sur l’offensive.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Esperance Tunis dismisses head coach Miguel Cardoso (Africa Soccer)",
+      "url": "https://africasoccer.com/esperance-tunis-dismisses-head-coach-miguel-cardoso-names-iskandar-al-qasri-as-interim-manager",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-23",
+      "eventDate": "2024-10-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "In a statement shared on the club’s official Facebook page, the Esperance management announced that the decision to release Cardoso was made by mutual agreement.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "“In the beginning, people were saying, ‘Ah, maybe coach Miguel’s style is not exactly Sundowns’ style’. That’s absolutely wrong,” (Sundowns Pitchside Podcast; English rendering of spoken Portuguese-accented English)",
+      "date": "2025-08-02",
+      "source": "https://farpost.co.za/2025/08/02/people-were-wrong-about-my-style-of-play-cardoso/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "“I was in Portugal for a long time, considered a coach who was too romantic in the way I think of the game. People like some more objectivity or direct game, or speed. They don’t like being under pressure in the build-up and still try to do it. And I was this kind of coach there.",
+      "date": "2025-08-02",
+      "source": "https://farpost.co.za/2025/08/02/people-were-wrong-about-my-style-of-play-cardoso/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "“I want a team that can control the games. Controlling the games means the team must be solid in the four moments of the game.”",
+      "date": "2024-12-12",
+      "source": "https://businessreport.co.za/the-star/sport/2024-12-13-miguel-cardoso-wants-mamelodi-sundowns-to-understand-the-spaces-question",
+      "provenance": "primary"
+    },
+    {
+      "quote": "“Having control of the game also has to do with being aggressive in the moment you lose the ball”",
+      "date": "2024-12-12",
+      "source": "https://businessreport.co.za/the-star/sport/2024-12-13-miguel-cardoso-wants-mamelodi-sundowns-to-understand-the-spaces-question",
+      "provenance": "primary"
+    },
+    {
+      "quote": "“Despite people saying, you coach, you are defensive. That’s bullsh*t. So what I mean is, it’s not true, we wanted to bring that energy to win the match.",
+      "date": "2025-11-01",
+      "source": "https://farpost.co.za/2025/11/02/thats-bullsht-cardoso-brutal-on-sundowns-defensive-critics/",
+      "provenance": "primary"
+    },
+    {
+      "quote": "\"Nous n'avons pas joué un jeu défensif au match aller ... Quand vous regardez la finale de l'Europa League entre le Bayer Leverkusen et l'Atalanta, il n'y avait pas de défense ni d'attaque, il y avait un équilibre et c'est ce que nous voulons\" (French rendering of press conference; Portuguese original not found)",
+      "date": "2024-05-24",
+      "source": "https://www.mosaiquefm.net/mobile/fr/football/1274738/cardoso-nous-aborderons-le-match-retour-sans-crainte",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "«Perceber o que foi feito, o que poderia ter sido melhor e o que ainda está por fazer.» / «ninguém chega aqui sozinho.»",
+      "date": "2026-01-24",
+      "source": "https://www.abola.pt/noticias/miguel-cardoso-quando-o-caminho-explica-o-treinador-2026012401294370541",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "“We are used to controlling matches in the South African league ... Now we must prepare mentally to adapt to situations where our opponents will have the majority of possession.”",
+      "date": "2025-06-12",
+      "source": "https://www.ewn.co.za/2025/06/12/sundowns-must-adapt-to-less-possession-warns-coach-cardoso",
+      "provenance": "primary"
+    },
+    {
+      "quote": "“I’d like Sundowns to understand that [we need to rotate] ... managing the group is using the ones in better conditions to play.”",
+      "date": "2026-10",
+      "source": "https://africasoccer.com/?p=636992",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://fr.allafrica.com/stories/202409300341.html",
+      "reason": "403"
+    },
+    {
+      "url": "https://foot-africa.com/en/news/miguel-cardoso-calmly-reveals-his-method-to-decipher-esperance-673604/",
+      "reason": "403"
+    },
+    {
+      "url": "https://maisfutebol.iol.pt/made-in/balanco/o-ano-de-2018-visto-por-miguel-cardoso-no-maisfutebol",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.pulsesports.co.ke/football/story/al-ahly-esperance-coaches-clash-ahead-of-caf-champions-league-final-2024051805151181693",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.pulsesports.co.ke/football/story/caf-champions-league-esperance-coach-on-why-future-is-bright-for-his-young-stars-despite-al-ahly-defeat-2024052605005576164",
+      "reason": "empty"
+    }
+  ],
+  "influences": [],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
   "spellsCounted": [
     {
       "club": "Espérance de Tunis",
       "start": "2024-01-12",
       "end": "2024-10-22",
-      "reason": "Tunisian league title 2023-24."
+      "reason": "Tunisian Ligue 1 2023-24 title and CAF Champions League final"
     },
     {
       "club": "Mamelodi Sundowns",
       "start": "2024-12-10",
       "end": "ongoing",
-      "reason": "South African Premiership 2024-25 and the CAF Champions League 2025-26."
+      "reason": "South African Premiership 2024-25, CAF Champions League finals, MTN8"
     }
   ],
   "spellsExcluded": [
     {
       "club": "Rio Ave",
-      "start": "2017-06-12",
-      "end": "2018-06-13",
-      "reason": "Forty-two matches, no titles."
+      "start": "2017",
+      "end": "2018",
+      "reason": "short, no titles"
     },
     {
       "club": "Nantes",
-      "start": "2018-06-13",
-      "end": "2018-10-02",
-      "reason": "Eight matches, no titles."
+      "start": "2018",
+      "end": "2018",
+      "reason": "short, no titles"
     },
     {
       "club": "Celta Vigo",
-      "start": "2018-11-12",
-      "end": "2019-03-03",
-      "reason": "Fifteen matches, no titles."
+      "start": "2018",
+      "end": "2019",
+      "reason": "short, no titles"
     },
     {
       "club": "AEK Athens",
-      "start": "2019-07-01",
-      "end": "2019-08-25",
-      "reason": "Four matches, no titles."
+      "start": "2019",
+      "end": "2019",
+      "reason": "short, no titles"
     },
     {
       "club": "Rio Ave",
-      "start": "2021-01-29",
-      "end": "2021-05-27",
-      "reason": "Twenty matches, no titles."
+      "start": "2021",
+      "end": "2021",
+      "reason": "short, no titles"
     }
   ],
-  "ambiguities": [],
-  "openQuestions": [
-    "No tactical fact about Cardoso's teams was read: shape, pressing, marking and possession need tier A-B sources before the audit is reliable."
-  ],
-  "sources": [],
-  "statedView": [],
-  "unreadable": [],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "shape",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "blo",
-      "est",
-      "jog",
-      "lar",
-      "lid",
-      "mar",
-      "pla",
-      "pos",
-      "pro",
-      "res",
-      "sis"
-    ]
-  },
-  "influences": [],
   "confidence": {
-    "level": "low",
-    "reason": "Dated career table only; the page read has no tactical description of his teams."
+    "level": "medium",
+    "reason": "Sundowns period has several consistent tier B match analyses and dated quotes, but tier A is absent, Esperance tactics rest on press conferences and tier C columns, and marking scheme is undocumented."
   }
 }

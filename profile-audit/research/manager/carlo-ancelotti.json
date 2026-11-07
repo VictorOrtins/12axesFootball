@@ -1,148 +1,1622 @@
 {
-  "id": "carlo-ancelotti",
-  "catalog": "manager",
-  "name": "Carlo Ancelotti",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
-  "profilePeriod": {
-    "start": "2001",
-    "end": "2025"
+ "id": "carlo-ancelotti",
+ "catalog": "manager",
+ "name": "Carlo Ancelotti",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "2001-11-06",
+  "end": "2025-05-25"
+ },
+ "spellsCounted": [
+  {
+   "club": "AC Milan",
+   "start": "2001-11-06",
+   "end": "2009-06-30",
+   "reason": "Champions League 2002-03 and 2006-07, Serie A 2003-04; Christmas tree 4-3-2-1 with Pirlo as regista"
   },
-  "scopeNote": "Manager profile of Carlo Ancelotti across six counted spells: AC Milan (2001 to 2009: Champions League 2002-03 and 2006-07, Serie A 2003-04), Chelsea (2009 to 2011: Premier League and FA Cup 2009-10), Paris Saint-Germain (2011 to 2013: Ligue 1 2012-13), Real Madrid (2013 to 2015: Champions League 2013-14), Bayern Munich (2016 to 2017: Bundesliga 2016-17) and Real Madrid again (2021 to 2025: two La Liga and Champions League doubles). The Wikipedia infobox gives years only, so the spell dates are partial and the profile period is partial too. Excluded: Parma 1996-97, Juventus 1999-2001, Napoli 2018-19, Everton 2019-21 and the Brazil national team from 2025 (outside this profile's era).",
-  "spellsCounted": [
-    {
-      "club": "AC Milan",
-      "start": "2001",
-      "end": "2009",
-      "reason": "Two Champions Leagues, Serie A 2003-04 and the 'Christmas Tree' side of 2006-07."
-    },
-    {
-      "club": "Chelsea",
-      "start": "2009",
-      "end": "2011",
-      "reason": "Premier League and FA Cup 2009-10."
-    },
-    {
-      "club": "Paris Saint-Germain",
-      "start": "2011",
-      "end": "2013",
-      "reason": "Ligue 1 2012-13."
-    },
-    {
-      "club": "Real Madrid",
-      "start": "2013",
-      "end": "2015",
-      "reason": "Champions League 2013-14, Copa del Rey 2014 and the 2014 Club World Cup."
-    },
-    {
-      "club": "Bayern Munich",
-      "start": "2016",
-      "end": "2017",
-      "reason": "Bundesliga 2016-17."
-    },
-    {
-      "club": "Real Madrid",
-      "start": "2021",
-      "end": "2025",
-      "reason": "Two La Liga and Champions League doubles (2022, 2024)."
-    }
-  ],
-  "spellsExcluded": [
-    {
-      "club": "Parma",
-      "start": "1996",
-      "end": "1998",
-      "reason": "Second in Serie A 1996-97; no title, tactics read only in one line."
-    },
-    {
-      "club": "Juventus",
-      "start": "1999",
-      "end": "2001",
-      "reason": "Intertoto Cup only."
-    },
-    {
-      "club": "Napoli",
-      "start": "2018",
-      "end": "2019",
-      "reason": "No titles mentioned."
-    },
-    {
-      "club": "Everton",
-      "start": "2019",
-      "end": "2021",
-      "reason": "No titles mentioned."
-    },
-    {
-      "club": "Brazil",
-      "start": "2025",
-      "end": "2025",
-      "reason": "National team, after this profile's era."
-    }
-  ],
-  "ambiguities": [],
-  "openQuestions": [
-    "The formation facts come from the Wikipedia infobox and career summary, without match analysis; the marking, pressing and game-management facts are not documented in the pages read."
-  ],
-  "sources": [
-    {
-      "title": "Carlo Ancelotti - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2006",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"devising a 4–3–2–1 system that would later be known as his 'Christmas Tree' formation\" (AC Milan, 2006-07)",
-      "verified": true
-    },
-    {
-      "title": "Carlo Ancelotti - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2013",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"switching instead to a 4–3–3 formation to great effect\" (Real Madrid, 2013-14)",
-      "verified": true
-    }
-  ],
-  "statedView": [],
-  "unreadable": [],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "blo",
-      "jog",
-      "lar",
-      "lid",
-      "mar",
-      "pla",
-      "pos",
-      "pro",
-      "res",
-      "sis"
-    ]
+  {
+   "club": "Chelsea",
+   "start": "2009-06-01",
+   "end": "2011-05-22",
+   "reason": "Premier League and FA Cup 2009-10; 4-4-2 diamond / 4-3-2-1"
   },
-  "influences": [],
-  "confidence": {
-    "level": "low",
-    "reason": "Dated career table with years only; four formation facts from the Wikipedia career summary; no tactical analysis read."
+  {
+   "club": "Paris Saint-Germain",
+   "start": "2011-12-30",
+   "end": "2013-06-25",
+   "reason": "Ligue 1 2012-13; 4-2-3-1 / 4-3-3"
+  },
+  {
+   "club": "Real Madrid",
+   "start": "2013-06-25",
+   "end": "2015-05-25",
+   "reason": "Champions League 2013-14; 4-3-3 with Di Maria as left-sided 8, counter-attacking"
+  },
+  {
+   "club": "Bayern Munich",
+   "start": "2016-07-01",
+   "end": "2017-09-28",
+   "reason": "Bundesliga 2016-17; 4-3-3 with Alonso pivot"
+  },
+  {
+   "club": "Real Madrid",
+   "start": "2021-06-01",
+   "end": "2025-05-25",
+   "reason": "La Liga and Champions League 2021-22, 2023-24; low block + counter, fluid 4-4-2 / 4-3-1-2"
   }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Parma",
+   "start": "1996",
+   "end": "1998",
+   "reason": "user decision"
+  },
+  {
+   "club": "Juventus",
+   "start": "1999-02",
+   "end": "2001",
+   "reason": "user decision"
+  },
+  {
+   "club": "Napoli",
+   "start": "2018",
+   "end": "2019",
+   "reason": "user decision"
+  },
+  {
+   "club": "Everton",
+   "start": "2019",
+   "end": "2021",
+   "reason": "user decision"
+  },
+  {
+   "club": "Brazil",
+   "start": "2025",
+   "end": "2026",
+   "reason": "user decision"
+  }
+ ],
+ "scopeNote": "Ancelotti across six counted spells (Milan 2001-09, Chelsea 2009-11, PSG 2011-13, Real Madrid 2013-15, Bayern 2016-17, Real Madrid 2021-25). Exact days: only 2013-06-25 (Real Madrid appointment, Wikipedia) and 2021-06-01 (second Real Madrid start, LaLiga Expert) were read in a source; the other days (Milan 2001-11-06 start and 2009-06-30 end, Chelsea 2009-06-01 and sacking 2011-05-22, PSG 2011-12-30, Real Madrid exit 2015-05-25 and 2025-05-25, Bayern 2016-07-01 start and sacking 2017-09-28) are from general knowledge and not verified in a fetched page, so treat them as partial. The 'Christmas tree' (albero di Natale) is the 4-3-2-1 used at Milan 2006-07 and briefly Chelsea 2009-10; before that Milan used 4-3-1-2/4-4-2 diamond. At Real Madrid he is described as relational/fluid (4-3-3 shifting to 4-4-2 / 4-3-1-2), not as a positional-play coach. Coaches' Voice, TFA and Medium analyses cover mostly Real Madrid 2021-24; Milan, Chelsea, PSG and Bayern tactics rest mainly on Coaches' Voice overviews, Wikipedia and Bayern-fan press. Marking: open play is zonal-based with man-oriented pieces (two CBs tight on striker; man-to-man at goal kicks); corners are zonal line plus blockers (TFA). No Milan-era marking or set-piece source was found. Excluded-spell dates are year-only (user-decided, not researched). The UEFA mid-block entry has a placeholder articleDate (page unreadable, unverified).",
+ "ambiguities": [],
+ "openQuestions": [
+  "Exact start and end days for Milan, Chelsea, PSG, Bayern and Real Madrid exit dates not confirmed in a fetched page.",
+  "Manhattan Institute article date is unknown; text (56 years old, 'new boss of Bayern') implies 2016, set to 2016-10-01 as placeholder.",
+  "Wikipedia says Ancelotti used 3-4-1-2 at Juventus; Coaches' Voice and The National say 4-3-2-1 / 4-1-3-2 (Juventus is excluded from counted spells).",
+  "Shape at the 2007 Athens final: 4-3-2-1 (Wikipedia, Coaches' Voice) vs 4-4-2 on one fan lineup site.",
+  "Ancelotti said 'we won't change the 4-3-3' (Oct 2021) but later said he does not know whether the 2022 final was 4-3-3 or 4-4-2: tension between stated rigidity and fluid practice.",
+  "Milan-era pressing, marking and set-piece behaviour lack a tier A-B source; UEFA and Sky Italia pages could not be read.",
+  "Quiet Leadership quotes come through a secondary review; check the book text for exact wording."
+ ],
+ "sources": [
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "the team’s traditional recent 4-3-3 shape has been discarded in favour of a 4-3-1-2 in which Vinícius Júnior has been pushed into a central-forward role from wide on the left. The exciting Jude Bellingham, a summer arrival from Borussia Dortmund, has been deployed as the number 10.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "the team’s traditional recent 4-3-3 shape has been discarded in favour of a 4-3-1-2 in which Vinícius Júnior has been pushed into a central-forward role from wide on the left.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "As a solution, Ancelotti brought in John Obi Mikel to play behind the pair in a 4-1-2-1-2 formation. Didier Drogba and Nicolas Anelka operated as the two forwards in a team that won the Premier League and FA Cup.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2011/13",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Ancelotti turned to the 4-2-3-1 formation, in which Javier Pastore operated mostly as the number 10 in an attacking line of three behind the forward.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2011/13",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Two of Ezequiel Lavezzi, Lucas Moura, Nenê and Jérémy Ménez played in the wider positions, with Kevin Gameiro as the nine in Ancelotti’s first season. In the second, that became Zlatan Ibrahimovic – the league title duly followed.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "He replaced José Mourinho, who had built a team set up to attack mainly through transitions – and even more so with the arrival that summer of Gareth Bale from Tottenham.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Ancelotti settled on a 4-3-3 formation that offered him less defensive control but suited explosive wide attackers such as Bale and Cristiano Ronaldo",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "This 4-3-3 could easily shift into a 4-4-2, with Ronaldo joining Karim Benzema on the front line and Bale playing on the left in a midfield line of four.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Behind the front three, the manager relied mostly on Ángel Di María – a winger converted into a number eight – Sami Khedira, Luka Modric and Xabi Alonso.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Alonso was once more a key player in Ancelotti’s single season at Bayern Munich, in 2016/17. There, he played as the single pivot in another 4-3-3, with the likes of Thiago Alcántara and Arturo Vidal operating in front of him.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2001/25",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Ancelotti’s tactical adaptability tends to focus only on the front half of his teams, however. Throughout his long coaching career, he has stayed almost entirely loyal to a back four and at least one deeper-lying or organisational pivot – Pirlo, Mikel, Alonso – to balance both phases of the game.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Across 2021/22 and 2022/23, Real only won three games in which they started with a different formation.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "In the 2021/22 Champions League knockout stages, they eliminated opponents despite having less possession: 45.7 per cent in the last 16 against Paris Saint-Germain, 43.8 per cent against Chelsea in the quarter finals, and 40.8 per cent against Manchester City in the semi finals.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "The key to the 2021/22 version of Ancelotti’s Real Madrid was to be as efficient as possible with the possession and opportunities they had. It worked, as they won both La Liga and the Champions League.",
+   "verified": true
+  },
+  {
+   "title": "Big data: Carlo Ancelotti and Real Madrid - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/big-data-carlo-ancelotti-real-madrid-jude-bellingham/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2023-09-06",
+   "eventDate": "2001/25",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Ancelotti was a strong believer in the 4-4-2 system in his early days as a head coach. It was during his two years at Juventus, between 1999 and 2001, that he switched to the 4-3-2-1 shape – often known as the Christmas tree – that worked to maximise the impact of Zidane.",
+   "verified": true
+  },
+  {
+   "title": "The 4-3-2-1 formation: football tactics explained - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/4-3-2-1-formation-football-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-15",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Carlo Ancelotti — who won the 2003 and 2007 Champions Leagues as Milan head coach — utilised a 4-3-2-1 shape during his spell at the San Siro. He based it around the influence of Andrea Pirlo as a central pivot in the midfield trio.",
+   "verified": true
+  },
+  {
+   "title": "The 4-3-2-1 formation: football tactics explained - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/4-3-2-1-formation-football-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-15",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Pirlo was flanked by Gennaro Gattuso and Massimo Ambrosini, both of whom could press, duel and defend the central spaces when in a block, or jumping out to press.",
+   "verified": true
+  },
+  {
+   "title": "The 4-3-2-1 formation: football tactics explained - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/4-3-2-1-formation-football-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-15",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "They also protected Pirlo’s receiving, and joined the attack to support the number 10s, Clarence Seedorf and Kaká. The latter was Milan’s main attacking outlet, joining the central forward — variously Alberto Gilardino, Filippo Inzaghi or Ronaldo.",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "\"I really like the team from a defensive point of view,\" said Real's manager Carlo Ancelotti. \"It's the area where we've improved the most since the start of the season. We're more solid. Our pressing isn't too high up. We like it that way; with a lower block, you have the chance to use the forwards on the counter.\"",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "with a lower block, you have the chance to use the forwards on the counter.",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Thibaut Courtois, Eder Militão and David Alaba created regular 3v2 overloads against Atlético's front two (below), with Casemiro positioned between them to offer Courtois another passing option.",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "They needed to play with significant width to do so, and this was offered by both their full-backs and wide forwards.",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Real posed their greatest attacking threat when they drew their opponents forward, which led to both of their goals. The first, from Karim Benzema, came after a moment of transition",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Toni Kroos to drift wider (below), where he operated as a false full-back",
+   "verified": true
+  },
+  {
+   "title": "Real Madrid 2 Atlético Madrid 0: La Liga Tactical Analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/real-madrid-2-atletico-madrid-0-la-liga-tactical-analysis/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-02-18",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"Our pressing isn't too high up. We like it that way; with a lower block, you have the chance to use the forwards on the counter.\"",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Madrid spent long periods defending in a mid-block or low block. After going ahead, they dropped deep inside their own half.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "To protect Carvajal against Díaz and Robertson, Fede Valverde dropped back more consistently, and Madrid then defended with a back five (below).",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Liverpool used a 4-3-3 shape in possession, against Real Madrid in a 4-4-2 block.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Madrid constantly faced a high press from Liverpool. Liverpool's front three pressed Real’s two centre-backs and goalkeeper, with Jordan Henderson and Thiago jumping out to Madrid’s double pivot (below).",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "They flipped their central-midfield structure when building, with Casemiro pushing higher and Kroos and Modric dropping (below).",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Width from Valverde and Vinícius stretched Liverpool’s back line, with Carvajal moving inside to try and draw Robertson out of position (below).",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"But if you keep a high defence and give them room to attack behind you, that’s where you struggle, so our defenders did well to close those spaces.",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "We knew what strategy to take, don’t give them space behind the defence to run into.”",
+   "verified": true
+  },
+  {
+   "title": "Liverpool 0 Real Madrid 1: Champions League final tactical analysis - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/?p=57065",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2022-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Madrid looked most threatening when switching play from left to right",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "\"The most impressive characteristic that he has got, in my opinion, is his ability to manage people. Man-management is so important.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "\"If you asked me how we played the final in Paris, 4-3-3 or 4-4-2, I will tell you I do not know.\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Rodrygo was supposedly the right winger but frequently created overloads by joining Vinicius Junior on the left flank.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"If Vinicius or Rodrygo feel more comfortable opening up a little more on the wings when the team has the ball, I am not going to tell them to stay inside, because it is an individual interpretation of the game.\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "But being trusted to make things happen, encouraged to be the difference, roaming in search of the solutions, that can be truly empowering.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2009/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Once asked if he had ever had a problem with Cristiano Ronaldo, he replied: \"In fact, he solved the problems for me.\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti's Real Madrid success is triumph of man-management but a tactical idea, too, in its own way",
+   "url": "https://www.skysports.com/football/news/11095/13144511/carlo-ancelottis-real-madrid-success-is-triumph-of-man-management-but-a-tactical-idea-too-in-his-own-way",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-29",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "\"It is one thing to indicate to the player the positioning without the ball, there you have to give a lot of information, because without the ball it is concentration, sacrifice and collective play.",
+   "verified": true
+  },
+  {
+   "title": "The deep-lying reason behind Ancelotti's 4-3-3 at Bayern",
+   "url": "https://fcbayerncentral.com/2016/11/the-deep-lying-reason-behind-ancelottis-4-3-3-at-bayern/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Amid calls for a change in tactics from fans and media alike, Carlo Ancelotti has retained the 4-3-3 formation.",
+   "verified": true
+  },
+  {
+   "title": "The deep-lying reason behind Ancelotti's 4-3-3 at Bayern",
+   "url": "https://fcbayerncentral.com/2016/11/the-deep-lying-reason-behind-ancelottis-4-3-3-at-bayern/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "His distribution of the ball, vision of the football pitch and control over games were qualities for which the Italian coach was willing to accept physical shortcomings.",
+   "verified": true
+  },
+  {
+   "title": "The deep-lying reason behind Ancelotti's 4-3-3 at Bayern",
+   "url": "https://fcbayerncentral.com/2016/11/the-deep-lying-reason-behind-ancelottis-4-3-3-at-bayern/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Thiago Alcântara comes second in the regista pecking order.",
+   "verified": true
+  },
+  {
+   "title": "The deep-lying reason behind Ancelotti's 4-3-3 at Bayern",
+   "url": "https://fcbayerncentral.com/2016/11/the-deep-lying-reason-behind-ancelottis-4-3-3-at-bayern/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "The Italian is a man-manager who modifies tactics for his players rather than the other way round.",
+   "verified": true
+  },
+  {
+   "title": "The deep-lying reason behind Ancelotti's 4-3-3 at Bayern",
+   "url": "https://fcbayerncentral.com/2016/11/the-deep-lying-reason-behind-ancelottis-4-3-3-at-bayern/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-11-06",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Ancelotti accepts the possibility of conceding goals on the break and wants his team to instead focus on attacking.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Ancelotti intended to play free flowing, attacking football and press high up the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "The transformation was from a mid-block and high pressing with intensity, to a low block which focused more on keeping the defensive shape nice and compact and mainly counter attacking through the pace of Vinícius Junior and the passing range and accuracy of Luka Modric and Toni Kroos.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "He sets the team up in a low block, with everyone inside the defensive half, but with a willingness to counter attack with penetration and intent through the dynamic duo of Benzema and Vini Junior.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Ancelotti proclaimed that “we won’t change the 4-3-3” when asked if he would ever use 4-4-2 again after the 2-1 loss to Espanyol in October.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The frustration is more because he refuses to utilise his full squad and reward fringe players with gametime when they deserve it",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "He played 4-5-1 out of possession and set the team up to play on the counter attack.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "They’re both well renowned for their man management skills which initially gave Madrid fans comfort and reassurance on the continued comradeship in the dressing room after Zizou’s departure.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Zonal marking and counter attacking can still be effective in today’s game, but most coaches are willing to change their tactical setup to suit the game or in-game situation.",
+   "verified": true
+  },
+  {
+   "title": "Assessing Carlo Ancelotti's second spell at the Bernabéu so far - LaLiga Expert",
+   "url": "https://laligaexpert.com/?p=12571",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-03-29",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "“I rotate when the player is tired and this hasn’t happened because my players are not tired” said Ancelotti last month.",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Ancelotti says he has no concern with his own identity, “but only that of the team, and this depends on what the club asks of you, the characteristics of the players and the tradition and the history and tradition of the club.”",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“In football, as in anything, you must not stand still,” he argues. “Never believe that the tactics you deploy today and that have brought you great success will continue to be effective tomorrow.”",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "he was wedded to the 4-4-2 formation, which he still believes is the best defensive system, but he has become far more flexible with time.",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "At Real Madrid, for instance, he turned to a 4-3-3, so that Cristiano Ronaldo could play outside, which the star much preferred, though his manager thought he’d be more effective as a central striker.",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2001/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "It was Ancelotti who shifted Andrea Pirlo at AC Milan from attacking midfielder to a deep-lying playmaker, transforming a very good player into an epochal one.",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Nowhere has Ancelotti’s leadership been more effective than in the management of talent, earning him the nickname “the diva whisperer” in football circles.",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "“I treat them like people first, not just like players,” he observed in an interview with Alex Reid of Sport. “I want to speak to them at the same level.”",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2011/13",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "after PSG played a disastrous first half, he rushed into the dressing room, swearing profusely in Italian, and kicked a box straight into Zlatan Ibrahimovic’s head.",
+   "verified": true
+  },
+  {
+   "title": "A Look Inside the Quiet Genius of Carlo Ancelotti",
+   "url": "https://www.manhattan-institute.org/html/look-inside-quiet-genius-carlo-ancelotti-9183.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-10-01",
+   "eventDate": "2009/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Ancelotti’s account in Quiet Leadership of his last days at Chelsea",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Bale, Ronaldo & tactics - Football España",
+   "url": "https://www.football-espana.net/2013/11/09/ancelotti-on-bale-ronaldo-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-11-09",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "“With Gareth Bale and Cristiano Ronaldo, the best system is 4-3-3,” he told Gazzetta dello Sport.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Bale, Ronaldo & tactics - Football España",
+   "url": "https://www.football-espana.net/2013/11/09/ancelotti-on-bale-ronaldo-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-11-09",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "“Bale took a while to arrive, so at the start I sought a 4-4-2 for greater balance. With Bale I went back to the initial idea and now we need to find that balance.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Bale, Ronaldo & tactics - Football España",
+   "url": "https://www.football-espana.net/2013/11/09/ancelotti-on-bale-ronaldo-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-11-09",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "“The counter-attack is the simplest way of creating a scoring opportunity. Clearly just using the counter means you don’t have an identity, but when there’s space for it with the strikers we’ve got, it becomes lethal.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti on Bale, Ronaldo & tactics - Football España",
+   "url": "https://www.football-espana.net/2013/11/09/ancelotti-on-bale-ronaldo-tactics",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-11-09",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "The Blancos boss has released a new book in Italian called ‘Il mio Albero di Natale’ – My Christmas Tree – focusing on tactics, man-management and training in his career.",
+   "verified": true
+  },
+  {
+   "title": "Zidane showed me the way, says Ancelotti | The National",
+   "url": "https://thenationalnews.com/sport/zidane-showed-me-the-way-says-ancelotti-1.556223",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-09-22",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"In my fist couple of coaching jobs at Reggiana then Parma I played very rigid 4-4-2,\" Ancelotti said. \"I was of the mind the players had to fit into the system and the first priority was to set the team up defensively.",
+   "verified": true
+  },
+  {
+   "title": "Zidane showed me the way, says Ancelotti | The National",
+   "url": "https://thenationalnews.com/sport/zidane-showed-me-the-way-says-ancelotti-1.556223",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-09-22",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "\"If you have a lot of quality in terms of attacking players then that is what you must devise your tactics around,\" he said. \"This is the reason that Chelsea are scoring so many goals. The system is different again but the thinking is the same: get the shape to suit the players.\"",
+   "verified": true
+  },
+  {
+   "title": "Zidane showed me the way, says Ancelotti | The National",
+   "url": "https://thenationalnews.com/sport/zidane-showed-me-the-way-says-ancelotti-1.556223",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-09-22",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "This term they have scored 21 in their first five games in their 100 per cent start to the new campaign. In the club's last 11 Premier League games they have hit a staggering 44.",
+   "verified": true
+  },
+  {
+   "title": "Why Real Madrid Can’t Defend Corners Well – Tactical Analysis | TFA",
+   "url": "https://totalfootballanalysis.com/set-piece-analysis/real-madrid-defending-corners-set-piece-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "In the photo below, Real Madrid’s usual scheme is clear: six zonal defenders, three numbered blockers, and Vinícius Júnior on the edge of the box.",
+   "verified": true
+  },
+  {
+   "title": "Why Real Madrid Can’t Defend Corners Well – Tactical Analysis | TFA",
+   "url": "https://totalfootballanalysis.com/set-piece-analysis/real-madrid-defending-corners-set-piece-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Consequently, Carlo Ancelotti‘s side was the second-lowest team in La Liga for goals conceded from corner kicks last season, having allowed only two goals",
+   "verified": true
+  },
+  {
+   "title": "Why Real Madrid Can’t Defend Corners Well – Tactical Analysis | TFA",
+   "url": "https://totalfootballanalysis.com/set-piece-analysis/real-madrid-defending-corners-set-piece-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Above them, they put three blockers around the penalty spot whose job is just to block and slow down three of the opponents’ runners to reach the zonal line without a dynamic mismatch.",
+   "verified": true
+  },
+  {
+   "title": "Why Real Madrid Can’t Defend Corners Well – Tactical Analysis | TFA",
+   "url": "https://totalfootballanalysis.com/set-piece-analysis/real-madrid-defending-corners-set-piece-analysis-tactics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-09-02",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Thus, you can see two zonal defenders and a weak man marker against three attackers, maybe four, with the attacker blocking the goalkeeper at the targeted area.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Casemiro acted as a ‘fake 6’ as he was pushed higher up the pitch to support Karim Benzema.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "This usually created a 3–3–4 structure, which Madrid predominantly used in their build-up phase but they could often switch between this, 2–3–5 or even a 2–4–4 at times.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "This still was a 4–3–3 but looked more like a 4–2–1–3 but once again, it suited the talents of every player, something Ancelotti does incredibly well.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Yet, there were too many players occupying the central area rather than looking to get players out wide",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Madrid are the antithesis of modern-day teams in that they are most comfortable in the mid to deep block in comparison to pressing high up the pitch.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "The mid/deep block in 2022/23 resembled a 4–5–1 whilst in the season prior, Ancelotti started the season with a 4–4–2 that could morph into a 4–3–3.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Madrid also established a concept wherein their back line had two centre-backs tightly marking a striker while their full-backs were wide, defending the wingers.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "For both seasons, Ancelotti opted to go with a man-to-man approach up front with their aggressiveness based on their opposition.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "First, the closest Madrid player must apply pressure on the ball immediately after Madrid turn it over, whilst the others fall back into the 2–3 shape, aware of the ball, opposition, and space.",
+   "verified": true
+  },
+  {
+   "title": "Deep Dive: Carlo Ancelotti’s Real Madrid",
+   "url": "https://medium.com/@ToTal_ftbl/deep-dive-carlo-ancelottis-real-madrid-9805a4019f35",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2023-11-17",
+   "eventDate": "2021/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Ancelotti’s lack of philosophy, a sentiment that is only true related to his team’s play in possession, makes it difficult to analyse their work on the ball.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti: \"Hemos sufrido más de lo que pensábamos\"",
+   "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/ruedas-de-prensa/ancelotti-06032024",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-03-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "“Mi idea era meter a los centrocampistas con energía para presionar arriba, mantener un ritmo alto y evitar contraataques\", explicó el entrenador.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti: \"Hemos sufrido más de lo que pensábamos\"",
+   "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/ruedas-de-prensa/ancelotti-06032024",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-03-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Hemos optado por el 4-3-3 para dejar a Kroos que se adelantara un poco más.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti: \"Hemos sufrido más de lo que pensábamos\"",
+   "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/ruedas-de-prensa/ancelotti-06032024",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-03-06",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "He metido una línea de cuatro con Tchouameni y Kroos como pivotes, con Bellingham a la izquierda y Valverde a la derecha.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti unhappy with Madrid's defending at set pieces | Flashscore.com",
+   "url": "https://www.flashscore.com/news/ancelotti-unhappy-with-madrid-s-defending-at-set-pieces/lh5RuHfm",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-26",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Josko Gvardiol and Christopher Nkunku put Leipzig 2-0 up after 18 minutes in Germany after Madrid failed to deal with corners",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti unhappy with Madrid's defending at set pieces | Flashscore.com",
+   "url": "https://www.flashscore.com/news/ancelotti-unhappy-with-madrid-s-defending-at-set-pieces/lh5RuHfm",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2022-10-26",
+   "eventDate": "2022/23",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "\"Because we are going to focus more on what has not gone well, which has mainly followed defensive set pieces, where we have conceded two goals.\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2013-06-25",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "On 25 June 2013, Ancelotti became the manager of Real Madrid, replacing the departing José Mourinho, and signing a three-year contract.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2001/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "converting budding attacking midfielder Andrea Pirlo to a defensive midfielder, playing him behind the number 10 (either Rui Costa or Rivaldo) in front of the team's back-line as a deep-lying playmaker in a 4–3–1–2 or 4–1–2–1–2 formation.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2001/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Ancelotti's Milan sides almost always used a strong four-man back-line, a main striker and an attacking midfielder.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "After the departure of one of the club's main strikers at the beginning of the 2006–07 season, Andriy Shevchenko, Ancelotti redesigned Milan's line-up, devising a 4–3–2–1 system, later known as his \"Christmas Tree\" formation.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Later in the season the Africa Cup of Nations left Chelsea without strikers Salomon Kalou or Didier Drogba, as well as midfielders Essien and Mikel, making it more difficult to employ a 4–4–2 formation, so Ancelotti switched to the 4–3–2–1 \"Christmas Tree\" formation he had also used at Milan",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "with full-backs Ashley Cole and José Bosingwa pushing forward and providing width to the narrow midfield.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2013/14",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Although he initially sought to use an offensive, possession-based style, he instead adopted a quick counter-attacking style, as he noticed that his players were more suited to attacking in that manner.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"[t]he main change is we press a bit more intermittently and we try to play more directly, more vertically\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "\"[t]he main change is we press a bit more intermittently and we try to play more directly, more vertically\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2022",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"I am not an obsessive person. I like football a lot, it's a passion of mine, but I try to keep things as simple as possible. Football for me isn't complicated.\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "He said that against Roberto De Zerbi's Shakhtar Donetsk, en route to the 2022 Champions League title, he instructed his players not to press them, so that they would not play through the team.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "He elaborated that during the 2023–24 season he used a 4–3–1–2 without a genuine forward, in order to compensate for the departure of striker Benzema.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "his ability to develop a strong relationship with his players and his willingness to consult them on tactical decisions were singled out by several pundits in particular as reasons for the team's success and unity.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "But what hasn't changed is my relationship with the players. That's the same.\"",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-01-01",
+   "eventDate": "2001/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Due to competition from Alessandro Nesta, Paolo Maldini, Roque Júnior, Dario Šimić, and later Jaap Stam in defence,",
+   "verified": false
+  },
+  {
+   "title": "Ancelotti vuelve al origen | Goal.com Espana",
+   "url": "https://www.goal.com/es/noticias/ancelotti-vuelve-al-origen/blt27a309105b5f89c7",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-02-19",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "\"Lo estamos hablando dentro del cuerpo técnico, porque nos hemos centrado mucho en el bloque bajo y eso nos puede dar más oportunidad. Sí, estamos trabajando en ello, en la posibilidad de presionar arriba. Lo vamos a intentar en los próximos partidos\"",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti vuelve al origen | Goal.com Espana",
+   "url": "https://www.goal.com/es/noticias/ancelotti-vuelve-al-origen/blt27a309105b5f89c7",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-02-19",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "el fondo de banquillo en el que le ha costado tanto confiar",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti vuelve al origen | Goal.com Espana",
+   "url": "https://www.goal.com/es/noticias/ancelotti-vuelve-al-origen/blt27a309105b5f89c7",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2022-02-19",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Sin embargo, de la mano venía una preocupante fragilidad defensiva que Carletto decidió atajar metiendo al equipo atrás y optando por salir al contragolpe.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti defiende la forma de eliminar al City: «Háblame del mar, marinero» - vivirEdiciones",
+   "url": "https://vivirediciones.es/madrid/ancelotti-defiende-la-forma-de-eliminar-al-city-hablame-del-mar-marinero/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-04-20",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Eso explica por qué pusimos el bloque muy atrás, porque la mayoría del tiempo estuvimos clasificados.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti defiende la forma de eliminar al City: «Háblame del mar, marinero» - vivirEdiciones",
+   "url": "https://vivirediciones.es/madrid/ancelotti-defiende-la-forma-de-eliminar-al-city-hablame-del-mar-marinero/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-04-20",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "A veces hay partidos que tienes la pelota menos de lo normal y tienes que estar bien los noventa minutos como estuvimos",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti defiende la forma de eliminar al City: «Háblame del mar, marinero» - vivirEdiciones",
+   "url": "https://vivirediciones.es/madrid/ancelotti-defiende-la-forma-de-eliminar-al-city-hablame-del-mar-marinero/",
+   "tier": "C",
+   "language": "es",
+   "articleDate": "2024-04-20",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Por eso es importante hablar con ellos y que sean honestos y sinceros",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti outlines Luka Modric and Toni Kroos Real Madrid plan - Football España",
+   "url": "https://www.football-espana.net/2023/08/27/carlo-ancelotti-luka-modric-toni-kroos-real-madrid",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-27",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Both players opted to continue their pattern of signing one year contract extensions at the club ahead of the new season.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti outlines Luka Modric and Toni Kroos Real Madrid plan - Football España",
+   "url": "https://www.football-espana.net/2023/08/27/carlo-ancelotti-luka-modric-toni-kroos-real-madrid",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-27",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "However, the summer arrival of Jude Bellingham has added another star to the Los Blancos engine room, with Kroos and Modric’s respective game time reducing.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti outlines Luka Modric and Toni Kroos Real Madrid plan - Football España",
+   "url": "https://www.football-espana.net/2023/08/27/carlo-ancelotti-luka-modric-toni-kroos-real-madrid",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-08-27",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "As per reports from Marca, Ancelotti has talked to his experienced stars, amid concern over them not featuring.",
+   "verified": true
+  },
+  {
+   "title": "Carlo Ancelotti - Looking Back And Looking Ahead",
+   "url": "https://thehardtackle.com/2013/ancelotti-looking-back-looking-ahead/",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2013-07-18",
+   "eventDate": "2001/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "in his Milan days, it was the wing-backs, not the mid-fielders, who added this dimension to the game",
+   "verified": false
+  },
+  {
+   "title": "Ancelotti, UEFA: Real Madrid's mid-block (technical observer van Bronckhorst)",
+   "url": "https://www.uefa.com/uefachampionsleague/news/028d-1ad2aace62a4-fd3586ac6b79-1000--insights-madrid-s-mid-block/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-01-01",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Seen only in search summary: Real Madrid are not afraid to go into a mid-block or even a low block to defend; 4-4-2 out of possession. Page not-accessible, not verified.",
+   "verified": false
+  },
+  {
+   "title": "Sky Sport Italia: Ancelotti il flessibile",
+   "url": "https://sport.sky.it/calcio/serie-a/2019/06/10/carlo-ancelotti-60-anni-tattica.html",
+   "tier": "B",
+   "language": "it",
+   "articleDate": "2019-06-10",
+   "eventDate": "2001/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Seen only in search summary: Pirlo regista davanti alla difesa nel 4-3-2-1 con Rui Costa, Kakà, Seedorf. Page returned Error; not verified.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "In my fist couple of coaching jobs at Reggiana then Parma I played very rigid 4-4-2. I was of the mind the players had to fit into the system and the first priority was to set the team up defensively. But when I arrived at Juventus I changed my view and that was because of Zidane.",
+   "date": "2010-09-22",
+   "source": "The National, interview at Chelsea",
+   "provenance": "primary"
+  },
+  {
+   "quote": "If you have a lot of quality in terms of attacking players then that is what you must devise your tactics around. [...] get the shape to suit the players.",
+   "date": "2010-09-22",
+   "source": "The National, interview at Chelsea",
+   "provenance": "primary"
+  },
+  {
+   "quote": "With Gareth Bale and Cristiano Ronaldo, the best system is 4-3-3.",
+   "date": "2013-11-09",
+   "source": "Gazzetta dello Sport, as reported by Football España (book 'Il mio albero di Natale', 2013)",
+   "provenance": "primary"
+  },
+  {
+   "quote": "The counter-attack is the simplest way of creating a scoring opportunity. Clearly just using the counter means you don't have an identity, but when there's space for it with the strikers we've got, it becomes lethal.",
+   "date": "2013-11-09",
+   "source": "Gazzetta dello Sport, as reported by Football España",
+   "provenance": "primary"
+  },
+  {
+   "quote": "The main change is we press a bit more intermittently and we try to play more directly, more vertically.",
+   "date": "2016",
+   "source": "Wikipedia citing Bayern-era interview (original not located)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "In football, as in anything, you must not stand still. Never believe that the tactics you deploy today and that have brought you great success will continue to be effective tomorrow.",
+   "date": "2016",
+   "source": "Quiet Leadership (Penguin, 2016) as quoted by Manhattan Institute",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I treat them like people first, not just like players. I want to speak to them at the same level.",
+   "date": "2016",
+   "source": "Interview with Alex Reid of Sport, quoted in Manhattan Institute review of Quiet Leadership",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Our pressing isn't too high up. We like it that way; with a lower block, you have the chance to use the forwards on the counter.",
+   "date": "2022-02-18",
+   "source": "Coaches' Voice, after Real Madrid 2-0 Atletico",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We won't change the 4-3-3.",
+   "date": "2021-10",
+   "source": "Press conference after Espanyol defeat, reported by LaLiga Expert 2022-03-29",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "If you asked me how we played the final in Paris, 4-3-3 or 4-4-2, I will tell you I do not know.",
+   "date": "2024-05",
+   "source": "Sky Sports, 2024-05-29",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "If Vinicius or Rodrygo feel more comfortable opening up a little more on the wings when the team has the ball, I am not going to tell them to stay inside, because it is an individual interpretation of the game.",
+   "date": "2024-05",
+   "source": "Sky Sports, 2024-05-29 (also Wikipedia: The Times interview before 2024 final)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Mi idea era meter a los centrocampistas con energía para presionar arriba, mantener un ritmo alto y evitar contraataques.",
+   "date": "2024-03-06",
+   "source": "Real Madrid official press conference after Leipzig",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I am not an obsessive person. I like football a lot, it's a passion of mine, but I try to keep things as simple as possible. Football for me isn't complicated.",
+   "date": "2022",
+   "source": "Universo Valdano, via Wikipedia",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/028d-1ad2aace62a4-fd3586ac6b79-1000--insights-madrid-s-mid-block/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/025a-0eaaec4a33ff-0b972d210518-1000--milan-set-attacking-agenda/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/12479074/real-madrid-4-4-2-ancelotti-vinicius-bellingham",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.sisal.it/scommesse-matchpoint/blog/fuori-campo/come-giocava-milan-ancelotti-formazione-modulo",
+   "reason": "403"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2019/06/10/carlo-ancelotti-60-anni-tattica.html",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/0275-151c0b511a6f-24fc28103a2e-1000--in-the-zone-real-madrid-3-1-man-city-performance-analysis",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.football-espana.net/2022/12/09/carlo-ancelotti-explains-change-that-revitalised-career-at-real-madrid/amp",
+   "reason": "404"
+  }
+ ],
+ "influences": [
+  "Arrigo Sacchi",
+  "Nils Liedholm",
+  "Bruno Mora",
+  "Sven-Goran Eriksson",
+  "Zinedine Zidane (changed his view on 4-4-2)"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Real Madrid 2021-24 well covered by tier A-B (Coaches' Voice, TFA, Medium deep dive) incl. marking and corners; Milan, Chelsea, PSG, Bayern mostly tier C overviews, exact dates partly unverified."
+ }
 }

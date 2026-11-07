@@ -1,110 +1,1037 @@
 {
-  "id": "louis-van-gaal",
-  "catalog": "manager",
-  "name": "Louis van Gaal",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
-  "profilePeriod": {
-    "start": "1991-09-28",
-    "end": "2000-05-20"
+ "id": "louis-van-gaal",
+ "catalog": "manager",
+ "name": "Louis van Gaal",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "1991-09-28",
+  "end": "2000-05-20"
+ },
+ "spellsCounted": [
+  {
+   "club": "Ajax",
+   "start": "1991-09-28",
+   "end": "1997-06-30",
+   "reason": "Eredivisie 1993-94 to 1995-96, Champions League 1994-95, UEFA Cup 1991-92 (counted spell decided by the user)"
   },
-  "scopeNote": "Manager profile of Louis van Gaal across two counted spells: Ajax (28 September 1991 to 30 June 1997: Eredivisie 1993-94 to 1995-96, UEFA Champions League 1994-95) and Barcelona (1 July 1997 to 20 May 2000: La Liga 1997-98 and 1998-99). Dates from the managerial table of the English Wikipedia article. Excluded: the Netherlands 2000-01, Barcelona 2002-03, and the later spells (AZ, Bayern, Manchester United, Netherlands 2014, Netherlands 2022), which are outside this profile's era and were not researched in this run. Style: the evidence supports a possession-based, attacking side built on total-football principles at Ajax, with youth players. The Ajax 1994-95 team profile relies on this spell.",
-  "spellsCounted": [
-    {
-      "club": "Ajax",
-      "start": "1991-09-28",
-      "end": "1997-06-30",
-      "reason": "Three Eredivisie titles and the 1994-95 Champions League: the Ajax side he is known for."
-    },
-    {
-      "club": "Barcelona",
-      "start": "1997-07-01",
-      "end": "2000-05-20",
-      "reason": "La Liga 1997-98 and 1998-99 and the 1997 Super Cup."
-    }
-  ],
-  "spellsExcluded": [
-    {
-      "club": "Netherlands",
-      "start": "2000-07-07",
-      "end": "2001-11-30",
-      "reason": "National side, outside the club era of this profile."
-    },
-    {
-      "club": "Netherlands U20",
-      "start": "2001-06-05",
-      "end": "2001-07-02",
-      "reason": "Youth side, short."
-    },
-    {
-      "club": "Barcelona",
-      "start": "2002-07-01",
-      "end": "2003-01-28",
-      "reason": "Short second spell, no titles."
-    }
-  ],
-  "ambiguities": [],
-  "openQuestions": [
-    "The sources describe Ajax only at the level of the style; the pressing, marking and game-management facts for Ajax 1991-97 were not read in this run."
-  ],
-  "sources": [
-    {
-      "title": "Louis van Gaal - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Louis_van_Gaal",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1991",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"At Ajax, Van Gaal's style of using set patterns of play was inspired by Dutch total football\" (Ajax, 1991-1997)",
-      "verified": true
-    },
-    {
-      "title": "Louis van Gaal - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Louis_van_Gaal",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1991",
-      "accessedOn": "2026-10-17",
-      "dimension": "possession",
-      "evidence": "\"Van Gaal believed in playing attractive attacking football based on possession\" (early career, no season given)",
-      "verified": true
-    }
-  ],
-  "statedView": [],
-  "unreadable": [],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "pressing",
-      "set-pieces",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "blo",
-      "jog",
-      "lar",
-      "lid",
-      "mar",
-      "pla",
-      "pro",
-      "res",
-      "sis"
-    ]
-  },
-  "influences": [],
-  "confidence": {
-    "level": "low",
-    "reason": "Dated career table and two undated Wikipedia style lines; the tactical sources read (FourFourTwo, 1991-97) were not opened."
+  {
+   "club": "Barcelona",
+   "start": "1997-07-01",
+   "end": "2000-05-20",
+   "reason": "La Liga 1997-98 and 1998-99 (counted spell decided by the user)"
   }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Netherlands",
+   "start": "2000",
+   "end": "2001",
+   "reason": "excluded by user (2000-01)"
+  },
+  {
+   "club": "Barcelona",
+   "start": "2002",
+   "end": "2003-01-28",
+   "reason": "excluded by user (2002-03)"
+  },
+  {
+   "club": "AZ",
+   "start": "2005",
+   "end": "2009",
+   "reason": "excluded by user"
+  },
+  {
+   "club": "Bayern Munich",
+   "start": "2009",
+   "end": "2011-04-10",
+   "reason": "excluded by user"
+  },
+  {
+   "club": "Manchester United",
+   "start": "2014",
+   "end": "2016",
+   "reason": "excluded by user"
+  },
+  {
+   "club": "Netherlands",
+   "start": "2012",
+   "end": "2014",
+   "reason": "Netherlands 2014 excluded by user"
+  },
+  {
+   "club": "Netherlands",
+   "start": "2021",
+   "end": "2022",
+   "reason": "Netherlands 2022 excluded by user"
+  }
+ ],
+ "scopeNote": "Ajax 1991-97 and Barcelona 1997-2000. Sources call the Ajax shape 3-4-3 (Ballverliebt: 3-4-3 with a midfield diamond, 3-1-3-3; La Grinta: 3-4-3, 3-1-4-2 out of possession, 3-3-4 at the end of the 1995 final; Planet Football and FourFourTwo: '4-3-3/3-4-3'). The popular label 'typical 4-3-3' is questioned by Ballverliebt. The system is positional (roles tied to the position, not the player), with man-marking defenders (Reiziger, F. de Boer) and a libero (Blind) per Ballverliebt and La Grinta. Barcelona tactical coverage is thin: only the 4-3-3 / 2-3-2-3 labels and the Rivaldo-on-the-left role are verified. Most Ajax tactical facts are from the 1994-95 season (the day of individual matches is not always given, so season YYYY/YY dates are used). Rivaldo's 2002 statements and the Valdes/Iniesta debuts belong to the excluded 2002-03 spell and are not used as evidence. Partial dates: sources describing general habits across the spell use a representative season (1994/95, or 1992/93 and 1997/98 for debuts and Barcelona), and statedView dates 2005, 1999-12 and 1995 are approximations flagged in the source field. spellsExcluded years are approximate because those spells are not counted.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Formation label disagreement: Ballverliebt (3-4-3 with diamond / 3-1-3-3), La Grinta (3-4-3, 3-1-4-2 defending, 3-3-4 late), Bleacher Report 2014 and Goal Italia ('4-3-3 at Ajax') and a Substack piece (4-2-3-1, not mined). Confirm whether Van Gaal's own 4-3-3 label refers to slots rather than the shape.",
+  "Marking: Ballverliebt and La Grinta describe man-marking by defenders and midfielders in specific matches (1995 final, Bayern 1994-95); no source states a zonal base. Cox (Zonal Marking) says Van Gaal's Ajax used a high line and pressing but was seen only in a search summary, not mined.",
+  "High line and pressing intensity were not verified in a mined page; only the pressing triggers (immediate counter-press, collective hounding) are.",
+  "No Barcelona-specific tactical analysis (pressing, build-up, set-pieces, line height) found in a readable tier A-B page; the Barcelona 1998-99 analysis requested remains a gap.",
+  "The 'coach is the architect' quote was not found; only 'philosophy more than a system' (FIFA.com, undated).",
+  "Kluivert clash: no dated in-period source found for a Van Gaal-Kluivert conflict; only Rivaldo (1999-00) and Stoichkov (1997-98) are verified.",
+  "Date of the Goal Italia/FIFA.com 'philosophy' interview not found (likely c.2005).",
+  "Spielverlagerung and Coaches' Voice returned no Van Gaal pages in the site: searches."
+ ],
+ "sources": [
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Ist von Ajax die Rede, spricht man oft vom \"typischen\" 4-3-3. So wirklich stimmt das aber nicht. Denn eher schon stellte sich das Team als 3-4-3 mit Mittelfeldraute dar, auch ein 3-1-3-3 wäre als Bezeichnung sicher treffender als 4-3-3.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Das System war bei Van Gaal alles, der Einzelne musste sich unterordnen.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "All of this was to be played out in the confines of a 4-3-3 or 3-4-3 formation.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Organisé en 3-4-3, l’Ajax avait vaincu et convaincu, en développant un football conquérant et offensif.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Au 3-4-1-2 de Trapattoni, van Gaal répond – en phase défensive – par un 3-1-4-2.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Après l’entrée de Kluivert pour Litmanen, l’Ajax bascule définitivement dans le 3-3-4 ultra-offensif dans lequel il va écrire sa légende.",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1991/92",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "he didn’t move the club away from Cruyff’s Total Football and 4-3-3/3-4-3 system: instead, he sought to perfect it.",
+   "verified": true
+  },
+  {
+   "title": "Van Gaal, stratega vincente e 'antipatico' (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/louis-van-gaal-stratega-vincente-antipatico-ajax-tre-volte/1lzu5pqvpnlk51gd4fhs9r5btg",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-08-08",
+   "eventDate": "2005",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Io invece ho usato il 4-3-3 con l’Ajax, il 2-3-2-3 con il Barcellona e posso utilizzare il 4-4-2 con l’AZ. [unverified for the period: interview undated (c.2005, AZ era); the Barcelona 2-3-2-3 remark cannot be placed in 1997-2000]",
+   "verified": false
+  },
+  {
+   "title": "Rivaldo: The story of a great player in a not so great Barcelona team (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/rivaldo-story-great-player-not-great-barcelona-team",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-01-24",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Rivaldo was deployed by Van Gaal on the left of midfield in the Dutchman’s Ajax model.",
+   "verified": true
+  },
+  {
+   "title": "The Cult: Rivaldo (VICE)",
+   "url": "https://vice.com/en/article/the-cult-rivaldo",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-15",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "In the hybrid game that Van Gaal desired for Barcelona, a wonderful ‘Latinized’ version of his Ajax side",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "The goalkeeper had to be adept at playing with his feet as well as his hands, so he could start moves and feed the most creative centre-back.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "if one player dropped back to receive the ball, another had to make a run towards the opposition’s goal.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Lorsque Reiziger reçoit le ballon, Litmanen et Kanu se comportent comme un duo d’attaque : La première passe leur est systématiquement destinée.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "dans une équipe de possession qui n’hésite pas à jouer long.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "“It was Van Gaal’s idea to move my position.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "im damals wie heute sehr ballbesitzorientierten Spiel von Van Gaal die wichtige Aufgabe zu, für die schnellstmöglichen Seitenwechsel zu sorgen.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "das Ajax-Spiel der 90er ist vom Prinzip dem des Guardiola-Barcelona nicht unähnlich",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Van Gaal devised a strategy whereby the emphasis was on ball rotation and team unity.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1991-1997 : Les dessous de l’ère van Gaal, la formation (3/3) (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1991-1997-les-dessous-de-lere-van-gaal-la-formation-33&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2015-02-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "le joueur en possession du ballon doit toujours transmettre la balle en retrait si une passe vers l’avant est impossible.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Milan zog sich geschickt zurück und überließ Ajax das deutliche Übergewicht an Ballbesitz",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Out of possession, they would be instructed to hound opponents collectively, to retrieve the ball as quickly as possible.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Dès la perte du ballon, l’Ajax pressait selon ce schéma.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Seedorf sur Frey, comme un milieu gauche",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "innovating several odd training exercises to get players used to working as cohesive packs when pressing.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Danny Blind spielte im Abwehrzentrum einen ganz klassischen Libero",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Michael Reiziger und Frank de Boer waren, zumindest gegen den Ball, ebenso klassische Manndecker.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Reiziger et Bogarde marquent les attaquants Witeczek et Zickler, alors que Danny Blind les couvre dans une ligne très basse.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Le marquage individuel était parfaitement compatible avec cette animation, qui donnait une équipe assez étirée sur le terrain.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "tracking the opposition wide men when Ajax were defending",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Ajax kept the meanest defence in the division.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Si le ballon était perdu après l’une de ces étapes, le pressing se déclenchait immédiatement",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Ajax machte hinten den Laden nun dicht und Milan tat sich nach dem späten Nackenschlag schwer",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "The wingers were instructed to repeatedly make forward runs to open up space for a long ball from the back, while midfielders were told to stay behind the wingers at all times.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "they then had to switch the ball to the opposite flank as quickly as possible",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Selbst bis an die Grundlinie vorgehen und flanken durften die beiden nicht, das blieb den Außenstürmern vorbehalten.",
+   "verified": true
+  },
+  {
+   "title": "Rivaldo: The story of a great player in a not so great Barcelona team (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/rivaldo-story-great-player-not-great-barcelona-team",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-01-24",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "rather than following Van Gaal’s strict instructions of hugging the touchline, Rivaldo would drift inside",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "l’Ajax ne passe jamais trop de temps dans sa propre moitié de terrain et obtient énormément de coups de pied arrêtés, dans lesquels il se montre très efficace.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "bei Eckbällen ging er zurück und machte die defensive Absicherung.",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Louis van Gaal war der erste, der an seiner Formation etwas änderte: Er brachte den 18-jährigen Nwankwo Kanu",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "A heated debate soon followed between Danny Blind, Clarence Seedorf and Ronald de Boer. Van Gaal happily let them go at it before making a key tactical tweak, which saw Rijkaard drop back five yards",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "introduced Kluivert for Litmanen after 70 minutes",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "sondern mit viel Geduld auf den einen Fehler gelauert, und wenn es 85 Minuten dauert, bis er kommt.",
+   "verified": true
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Van Gaal disagreed, and responded by positioning the forward somewhere else entirely: the bench.",
+   "verified": true
+  },
+  {
+   "title": "Football's biggest bust-ups: Van Gaal and Rivaldo (Goal.com)",
+   "url": "https://www.goal.com/en/lists/football-s-biggest-bust-ups-how-the-ballon-d-or-led-to-louis-van-gaal-and-rivaldo-s-war-of-words-at-barcelona/blt32ee498083a61f10",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-31",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "I told him that he would no longer play in the first team",
+   "verified": true
+  },
+  {
+   "title": "Great Goals That Weren't: Rivaldo vs Deportivo La Coruna (2002) (The Set Pieces)",
+   "url": "https://thesetpieces.com/?p=21809",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-01-10",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "believing as he does that individuals must always be subservient to the system.",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "The Ajax manager wanted to structure his team around players who could fulfil defensive and attacking capacities, were physically strong and possessed the tactical acumen to operate smoothly in a variety of different systems and formations.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Les défenseurs allongent, les grands fixent et les petits percutent.",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1991-1997 : Les dessous de l’ère van Gaal, la formation (3/3) (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1991-1997-les-dessous-de-lere-van-gaal-la-formation-33&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2015-02-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Pour cela, vous devez avoir des joueurs multifonctionnels, capables d’interchanger leurs positions",
+   "verified": true
+  },
+  {
+   "title": "Ballverliebt Classics - Das letzte große Ajax",
+   "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2011-03-21",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Es war vor allem das aufopferungsvolle Spiel von Litmanen, das ihn bei Van Gaal so beliebt machte",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Rather than recruiting a who’s who of world stars, they sought to focus on a youth scheme that became the envy of clubs around Europe.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1995-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Ajax’s team that night had an average age of 23, while 13 of the 18 players involved – among them Edgar Davids, Clarence Seedorf and Jari Litmanen – had been schooled in the academy.",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1992/93",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The side consisted largely of academy players, but the success came at a price as he watched his star men being cherry-picked by wealthy Serie A clubs.",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1992/93",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "bringing in 19-year-old sensation Marc Overmars.",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Frank Rijkaard re-joining from AC Milan as a belated replacement for the beloved Jan Wouters",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "His only signings were Winston Bogarde, who made just 19 appearances, and backup goalkeeper Fred Grim, who played just once.",
+   "verified": true
+  },
+  {
+   "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax’s last European glory (Holland Times)",
+   "url": "https://www.hollandtimes.nl/?p=14883",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-07-08",
+   "eventDate": "1992/93",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "He gave debuts to Clarence Seedorf, Edgar Davids and Mario Melchiot",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2014-11-28",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "l’Ajax ne présentait que deux joueurs au-delà de 25 ans",
+   "verified": true
+  },
+  {
+   "title": "Ajax 1991-1997 : Les dessous de l’ère van Gaal, la formation (3/3) (La Grinta)",
+   "url": "https://lagrinta.fr/ajax-1991-1997-les-dessous-de-lere-van-gaal-la-formation-33&7245",
+   "tier": "B",
+   "language": "fr",
+   "articleDate": "2015-02-01",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Tous ont fait leur début avec l’Ajax à un âge où peu de clubs leur auraient donné leur chance.",
+   "verified": true
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "a penchant for signing foreign (above all Dutch) players sat awkwardly with club traditionalists",
+   "verified": true
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "His first act was to make Pep Guardiola captain, breaking a long held club tradition of giving the armband to the most senior player.",
+   "verified": true
+  },
+  {
+   "title": "The Cult: Rivaldo (VICE)",
+   "url": "https://vice.com/en/article/the-cult-rivaldo",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-15",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Van Gaal had the missing piece of the puzzle, the player who would lead his new project.",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Van Gaal was an inveterate note-taker and insisted on players doing things a certain way, introducing team bonding sessions, group meals",
+   "verified": true
+  },
+  {
+   "title": "Remembering Louis van Gaal's incredible Ajax team of the 90s (Planet Football)",
+   "url": "https://www.planetfootball.com/nostalgia/remembering-louis-van-gaals-amazing-ajax-team-mid-90s",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2023-05-24",
+   "eventDate": "1993/94",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "As with Roy and Wouters, Van Gaal’s decision to sell Bergkamp was deeply unpopular with the Ajax fans.",
+   "verified": true
+  },
+  {
+   "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax’s last European glory (Holland Times)",
+   "url": "https://www.hollandtimes.nl/?p=14883",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-07-08",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Cruijff would later describe Van Gaal’s methods as a ‘militaristic way of working’",
+   "verified": true
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Van Gaal’s dominant character lead to explosive clashes with important dressing room figures, earning him the nickname Hitler among Brazilian players.",
+   "verified": true
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "1997/98",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Hristo Stoichkov could not hold down a place in the team in Van Gaal’s first season in charge",
+   "verified": true
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "the Dutchman disliked the forward’s lazy attitude to training, while the player grew tired of the many times his manager would rebuke him in front of his team-mates.",
+   "verified": true
+  },
+  {
+   "title": "Football's biggest bust-ups: Van Gaal and Rivaldo (Goal.com)",
+   "url": "https://www.goal.com/en/lists/football-s-biggest-bust-ups-how-the-ballon-d-or-led-to-louis-van-gaal-and-rivaldo-s-war-of-words-at-barcelona/blt32ee498083a61f10",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-31",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Rivaldo walked in the next day and declared that it was he who calls the shots now, not the head coach.",
+   "verified": true
+  },
+  {
+   "title": "The Cult: Rivaldo (VICE)",
+   "url": "https://vice.com/en/article/the-cult-rivaldo",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-04-15",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "punished him with a couple of games in the stands",
+   "verified": true
+  },
+  {
+   "title": "The Ajax utopia under Louis van Gaal",
+   "url": "https://thesefootballtimes.co/2015/01/15/the-ajax-utopia-under-louis-van-gaal/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2015-01-15",
+   "eventDate": "1994/95",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“Football is a team sport and members of the team are therefore dependent on each other,”",
+   "verified": true
+  },
+  {
+   "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+   "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-03-01",
+   "eventDate": "1995-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“Milan play as Ajax play,” he commented. “They want to win the game, but PSG hang back and are primarily interested in avoiding defeat.”",
+   "verified": true
+  },
+  {
+   "title": "Van Gaal, stratega vincente e 'antipatico' (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/louis-van-gaal-stratega-vincente-antipatico-ajax-tre-volte/1lzu5pqvpnlk51gd4fhs9r5btg",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-08-08",
+   "eventDate": "2005",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "La mia è una filosofia calcistica più che un sistema. [unverified for the period: interview undated (c.2005, AZ era); the Barcelona 2-3-2-3 remark cannot be placed in 1997-2000]",
+   "verified": false
+  },
+  {
+   "title": "The story of Van Gaal's reign in Spain (Stretty News)",
+   "url": "https://strettynews.com/2014/05/23/the-story-of-van-gaals-reign-in-spain/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-05-23",
+   "eventDate": "2000-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“Friends of the press, I’m leaving. Congratulations.”",
+   "verified": true
+  },
+  {
+   "title": "Football's biggest bust-ups: Van Gaal and Rivaldo (Goal.com)",
+   "url": "https://www.goal.com/en/lists/football-s-biggest-bust-ups-how-the-ballon-d-or-led-to-louis-van-gaal-and-rivaldo-s-war-of-words-at-barcelona/blt32ee498083a61f10",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-05-31",
+   "eventDate": "1999/00",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“I always put Rivaldo on the left,” Van Gaal explained.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Football is a team sport and members of the team are therefore dependent on each other. If certain players do not carry out their tasks properly on the pitch, then their colleagues will suffer. This means that every player has to carry out his basic tasks to the best of his ability and this requires a disciplined approach on the pitch.",
+   "date": "1997",
+   "source": "Kormelink and Seeverens, The Coaching Philosophies of Louis van Gaal and the Ajax Coaches, as quoted by These Football Times (2015-01-15)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Milan play as Ajax play. They want to win the game, but PSG hang back and are primarily interested in avoiding defeat.",
+   "date": "1995-05",
+   "source": "FourFourTwo 2018-03-01 (quoted from the 1995 final week)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "La mia è una filosofia calcistica più che un sistema. Un sistema dipende dai giocatori che hai. Io invece ho usato il 4-3-3 con l’Ajax, il 2-3-2-3 con il Barcellona e posso utilizzare il 4-4-2 con l’AZ. Sono flessibile. La filosofia, però, rimane la stessa.",
+   "date": "2005",
+   "source": "Goal.com Italia 2022-08-08, citing FIFA.com (approximate year, AZ era; exact date not found)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Friends of the press, I’m leaving. Congratulations.",
+   "date": "2000-05",
+   "source": "Stretty News 2014-05-23",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "In six years at Ajax I won more than Barcelona had won in a hundred.",
+   "date": "2000-05",
+   "source": "Stretty News 2014-05-23; The Set Pieces 2019-01-10",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I always put Rivaldo on the left. He did that very well. The team adapted to Rivaldo. [...] I told him that he would no longer play in the first team and that he had been voted the best in the world thanks to his team-mates and because he was on [the left wing].",
+   "date": "1999-12",
+   "source": "Goal.com 2024-05-31 (date approximated from the Ballon d'Or episode; the interview date was not found)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Cruijff would later describe Van Gaal’s methods as a ‘militaristic way of working’ that prioritised computers and statistics over intuition and creativity. (Cruyff's view of Van Gaal, kept as the press contradiction to the system-first reading)",
+   "date": "1995",
+   "source": "Holland Times 2025-07-08 (date of Cruyff remark not found; 1995 is an approximation)",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2011189.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://tacklefrombehind.com/?p=8691",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Rinus Michels (Total Football)",
+  "Johan Cruyff (4-3-3/3-4-3, Ajax way; rival)",
+  "Co Adriaanse (Ajax youth structure)"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Ajax 1994-95 has several tier B sources (Ballverliebt, La Grinta, These Football Times) that agree on 3-4-3 and man-marking defenders, but Barcelona 1997-2000 tactics rest on tier C press, there is no Coaches' Voice, Spielverlagerung or Wilson page, and the stated view is mostly attributed."
+ }
 }

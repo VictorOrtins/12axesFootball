@@ -1,0 +1,170 @@
+{
+  "id": "ajax-1994-95",
+  "catalog": "team",
+  "name": "Ajax 1994/95",
+  "status": "complete",
+  "researchedOn": "2026-10-12",
+  "profilePeriod": {
+    "start": "1994-08-21",
+    "end": "1995-05-27"
+  },
+  "scopeNote": "Ajax 1994/95: Dutch Supercup (1994-08-21) to the last Eredivisie match (1995-05-27), including the Champions League won on 1995-05-24. Tactical evidence rests on one match analysis (Spielverlagerung on the final v Milan, 3-3-4 structure in possession); no source found uses a single style label, and Van Gaal's stated view was not found. Dates are exact, from Wikipedia season and Champions League pages.",
+  "managers": [
+    {
+      "managerId": "louis-van-gaal",
+      "start": "1994-08-21",
+      "end": "1995-05-27"
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The academy count (13 of 18) is unverified: the FourFourTwo page was empty.",
+    "Formation labels disagree in unread secondary sources (4-3-3, 3-3-1-3, 4-2-3-1); only the 3-3-4 structure in possession (final) is verified.",
+    "Pressing, marking and Van Gaal's stated view need a dedicated source (Ajax archive match briefings, Coaches' Voice)."
+  ],
+  "sources": [
+    {
+      "title": "Amsterdam's last night of European glory (Glenn Billingham)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1995-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "\"the average age of Ajax's starting 11 was a staggering 22\" … \"Adding the experienced defenders, that number only increases to 24.\" \"18-year-old Patrick Kluivert.\" Experienced core: Rijkaard (back from Milan in 1993), Blind.",
+      "verified": true
+    },
+    {
+      "title": "Search summary citing FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-25",
+      "eventDate": "1995-05",
+      "accessedOn": "2026-10-12",
+      "dimension": "squad-building",
+      "evidence": "Summary only: 13 of the 18 players in the final squad came through the academy; average age 23. The page came back empty.",
+      "verified": false
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"Ajax were giving Milan trouble simply by using a 3-3-4 structure while in possession.\" \"This occupied the back line very well while controlling the center of the pitch in both midfield and defense.\" Single match (the final).",
+      "verified": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-10-17",
+      "dimension": "build-up",
+      "evidence": "\"they relied mostly on the speed of their passing in simple combinations\"; \"Ajax lacked dynamics in offense and retained the ball for a long time.\" Single match.",
+      "verified": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-10-17",
+      "dimension": "possession",
+      "evidence": "Ajax controlled possession and \"retained the ball for a long time\" against Milan. Single match.",
+      "verified": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-10-17",
+      "dimension": "transitions",
+      "evidence": "Ajax lost the ball often after vertical passes (\"they won the ball quite often after an Ajax vertical pass\"); \"AC Milan lacked any real counterpressing during this game.\" Single match.",
+      "verified": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-10-17",
+      "dimension": "width",
+      "evidence": "\"Another bright moment for Ajax was when Finidi dropped deeper on the wing and Reiziger played the ball into him.\" Single match.",
+      "verified": true
+    },
+    {
+      "title": "1994–95 AFC Ajax season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1994–95_AFC_Ajax_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-10-17",
+      "dimension": "squad-building",
+      "evidence": "First competitive match 1994-08-21 (Supercup, 3-0 Feyenoord); last Eredivisie match 1995-05-27 (3-1 Twente). Manager Louis van Gaal, captain Danny Blind; Kluivert top scorer 18 goals; Bogarde and Reiziger signed. No tactical text on the page (first 100k characters read).",
+      "verified": true
+    },
+    {
+      "title": "1994–95 UEFA Champions League (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1994–95_UEFA_Champions_League",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-10-17",
+      "dimension": "squad-building",
+      "evidence": "Final \"24 May 1995\", Ernst-Happel-Stadion, Vienna, Ajax 1-0 Milan, Kluivert 85th minute. Knockouts: Hajduk Split 3-0 agg, Bayern Munich 5-2 agg.",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [
+    {
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "reason": "empty"
+    },
+    {
+      "url": "https://english.ajax.nl/articles/the-lessons-of-louis-van-gaal-an-inside-look-into-his-9495-ajax-notes/",
+      "reason": "empty"
+    }
+  ],
+  "gaps": {
+    "dimensions": [
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "pressing",
+      "set-pieces",
+      "stated-view"
+    ],
+    "axes": [
+      "mar",
+      "pla",
+      "res",
+      "sis",
+      "jog",
+      "lid"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Tactical evidence is one tier B match analysis (the final) plus tier C Wikipedia dates and one tier B squad-age source; pressing, marking and stated view unverified."
+  }
+}

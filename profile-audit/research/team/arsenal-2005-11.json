@@ -1,180 +1,674 @@
 {
-  "id": "arsenal-2005-11",
-  "catalog": "team",
-  "name": "Arsenal 2005–11",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
-  "profilePeriod": {
-    "start": "2005-08-07",
-    "end": "2011-05-22"
+ "id": "arsenal-2005-11",
+ "catalog": "team",
+ "name": "Arsenal 2005-2011 (Wenger, Emirates era)",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "2005-08-07",
+  "end": "2011-05-22"
+ },
+ "scopeNote": "Arsenal under Wenger from the 2005 Community Shield to the end of 2010/11, after the Invincibles. Sources call the shape a 4-4-2 that became 4-4-1-1/4-1-4-1/4-5-1 variants, with Fabregas as the creative centre (4-3-3 and then number 10); 'Barcelona-style' labels are press shorthand. Sources are mostly tier C retrospectives; the only tier A item (Coaches' Voice) is an undated summary of Fabregas's Masterclass. Facts from the 2003/04 Invincibles or from 2011/12 onwards are used only as stated view or as evidence about 2010/11 when the text says so.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Arsenalinsider (2011-09) says man-marking was used 'previously' at set pieces and that zonal was a 2011/12 change; no in-period source found on how Arsenal defended corners in 2005-2011.",
+  "Onlinegooner translation of Wenger's L'Equipe interview (2009-10-17): the commentator says the 'weakness in the air on set pieces' remark was about the French national team, not Arsenal; kept unverified.",
+  "Hard Tackle describes the 2006 CL final line-up as Ljungberg behind Henry with Hleb and Pires wide; other accounts have a 4-5-1 with Ljungberg and Pires wide and Hleb central; not reconciled.",
+  "Bleacher Report 4-5-1 piece credits the 4-5-1 with a 'fantastic run in the Champions League 2006-07'; Arsenal went out in the 2006/07 round of 16, so the run it describes is probably 2005/06.",
+  "Coaches' Voice Masterclass summary does not date the number-10 / attacking-transition phase; dated to 2007/08 as an approximation."
+ ],
+ "sources": [
+  {
+   "title": "Cesc Fabregas: My evolving role at Arsenal - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/cesc-fabregas-arsenal-wenger-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-09-14",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "He goes on to explain the shift to a 4-3-3, and his adapted role in a team – still featuring the likes of Thierry Henry, Robert Pirès, Freddie Ljungberg and Gilberto Silva – that reached the 2006 Champions League final.",
+   "verified": true
   },
-  "scopeNote": "Arsenal under Wenger from the 2005 Community Shield (2005-08-07) to the last 2010/11 league match (2011-05-22), the Emirates-era team without trophies. Compact run: evidence is thin and mostly fan/press tier C. Sources describe the shape as 4-3-3/4-2-3-1 (a 4-2-4 lineage per one blogger), with possession and passing mentioned only in search summaries.",
-  "managers": [
-    {
-      "managerId": "arsene-wenger",
-      "start": "2005-08-07",
-      "end": "2011-05-22"
-    }
-  ],
-  "ambiguities": [],
-  "openQuestions": [
-    "Possession, pressing, marking and transitions rest on memory: no tactical study was read."
-  ],
-  "sources": [
-    {
-      "title": "Fàbregas urges young Gunners to come of age (UEFA)",
-      "url": "https://www.uefa.com/uefachampionsleague/news/01d9-0e7220d45597-d8b17af2d42b-1000--fabregas-urges-young-gunners-to-come-of-age",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2009-05-05",
-      "eventDate": "2009-04",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "\"It is a young Arsenal team\"; the average age of the ten outfield players who started the first leg was \"just 23.5\". Fàbregas: \"even if we are younger, we have the same quality and the same togetherness.\"",
-      "verified": true
-    },
-    {
-      "title": "Search summary citing Guinness World Records",
-      "url": "https://www.guinnessworldrecords.com/world-records/youngest-average-age-for-a-football-soccer-champions-league-team",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2009-12",
-      "eventDate": "2009-12-09",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "Summary only: youngest average age for a Champions League team, 20.90, at Olympiacos (dead-rubber match). Not opened.",
-      "verified": false
-    },
-    {
-      "title": "2005–06 Arsenal F.C. season (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "2005-08-07",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "First official fixture: 2005 FA Community Shield v Chelsea, 7 August 2005, Cardiff, lost 1-2; first league match 14 August 2005 v Newcastle (home). Used for dates only; Wenger on Chelsea: \"Why should I worry? Did you see the game?\" (not tactical evidence).",
-      "verified": true
-    },
-    {
-      "title": "2010–11 Arsenal F.C. season (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2010–11_Arsenal_F.C._season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "2011-05-22",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Competitions table lists the Premier League's last match as \"22 May 2011\". Used for the end date only.",
-      "verified": true
-    },
-    {
-      "title": "Arsenal formation analysed (Bleacher Report)",
-      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2010-09-08",
-      "eventDate": "2009/10",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"It is widely believed that Arsenal play 4-3-3/4-2-3-1\"; the author argues the system traces back to Brazil's 4-2-4. Fan blog, opinion mixed in; describes late 2009/10 and the start of 2010/11.",
-      "verified": true
-    },
-    {
-      "title": "Arsenal formation analysed (Bleacher Report), full-backs",
-      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2010-09-08",
-      "eventDate": "2009/10",
-      "accessedOn": "2026-10-17",
-      "dimension": "width",
-      "evidence": "Critics argued \"this system provided little cover for our full backs from our wide players\"; Sagna and Clichy's form \"below the highest level they set.\"",
-      "verified": true
-    },
-    {
-      "title": "Arsenal formation analysed (Bleacher Report), midfielders",
-      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2010-09-08",
-      "eventDate": "2009/10",
-      "accessedOn": "2026-10-17",
-      "dimension": "player-profile",
-      "evidence": "Central midfielders Song, Diaby, Ramsey and Denilson \"are capable of both being offensive and defensive in their roles.\" The 4-2-4 \"requires the team to be able to defend from the front, retain the ball, and pass it well\" (author's claim).",
-      "verified": true
-    },
-    {
-      "title": "Arsenal formation analysed (Bleacher Report), defending",
-      "url": "https://bleacherreport.com/articles/455546-arsenal-formation-analysed",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2010-09-08",
-      "eventDate": "2009/10",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "The team was \"out numbered in our own half for most of the goals\" conceded in big games last season (fan opinion, not data). No pressing or marking detail on the page.",
-      "verified": true
-    },
-    {
-      "title": "Top marks for Arsenal's Professeur (UEFA)",
-      "url": "https://www.uefa.com/uefachampionsleague/news/01d4-0e70ac42b20f-8da568f3b98e-1000--top-marks-for-arsenal-s-professeur",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2008-12-30",
-      "eventDate": "2008/09",
-      "accessedOn": "2026-10-17",
-      "dimension": "squad-building",
-      "evidence": "Wenger: \"if you want to develop players and bring them out, you have to make room for them\"; \"if you don't play him, you lose him.\" League Cup side averaged about 19 years old. Arsenal had not added to their silverware since 2005.",
-      "verified": true
-    },
-    {
-      "title": "Search summary: Wenger on formation history",
-      "url": "https://www.camdennewjournal.co.uk/article/grove-wenger-backs-revolution",
-      "tier": "D",
-      "language": "en",
-      "articleDate": "2010",
-      "eventDate": "2005/06",
-      "accessedOn": "2026-10-17",
-      "dimension": "possession",
-      "evidence": "Search summary only: possession football and quick passing said to be Arsenal's onus; 4-2-3-1 standard since 2008/09. Not opened.",
-      "verified": false
-    }
-  ],
-  "statedView": [
-    {
-      "quote": "You cannot have a youth policy and suddenly say we'll buy three players [aged] 27. You destroy what you have done and created.",
-      "date": "2008-12-30",
-      "source": "https://www.uefa.com/uefachampionsleague/news/01d4-0e70ac42b20f-8da568f3b98e-1000--top-marks-for-arsenal-s-professeur",
-      "provenance": "primary"
-    }
-  ],
-  "unreadable": [
-    {
-      "url": "https://www.coachesvoice.com/?p=4690",
-      "reason": "403"
-    }
-  ],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "game-management",
-      "people-management",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "transitions"
-    ],
-    "axes": [
-      "pos",
-      "pro",
-      "lid"
-    ]
+  {
+   "title": "Cesc Fabregas: My evolving role at Arsenal - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/cesc-fabregas-arsenal-wenger-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-09-14",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Finally, Fàbregas explains his move into the team’s number 10 position, his adapted role in attacking transition and Wenger’s obsession with his midfielders playing forward.",
+   "verified": true
   },
-  "influences": [],
-  "confidence": {
-    "level": "low",
-    "reason": "Compact run: tier C press, a fan blog and Wikipedia dates; no tier A-B tactical study read, pressing, marking, possession and build-up unverified."
+  {
+   "title": "Cesc Fabregas: My evolving role at Arsenal - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/cesc-fabregas-arsenal-wenger-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2026-09-14",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "He continues the Masterclass with a look at Wenger’s next-generation Arsenal team, and how he became the chief midfield creator in a side brimming with the attacking talents of Robin van Persie, Emmanuel Adebayor, Tomás Rosicky and Alexander Hleb.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Arsene Wenger fielded a team which was perhaps the first sign of him diverging from his favored 4-4-2 formation. In the starting line-up, Henry was the only out-and-out striker, with two Dutchmen, Bergkamp and Van Persie on the bench.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Injury to Lauren meant Eboue started at the right back along with the ever reliable pairing of Toure – Campbell at the center and Ashley Cole at left back.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "10-men Arsenal put a valiant show to protect their lead, but two late goals from Eto’o and Belletti won the trophy for the Spanish giants.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "During this season, Wenger mostly use his trusted 4-4-2 formation, with variations of 4-1-4-1 and 4-4-1-1.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "After the departure of Bergkamp and Viera, Fabregas became the focal point of the team. While Gilberto did his usual duty of covering the defense, Fabregas had to take up both the role of Viera and Bergkamp",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "While Arsenal were still great going forward, their defensive structure was hugely weakened since the departure of Patrick Viera.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "The 4-1-4-1 formation was first used that season in a 1-0 league victory over Manchester United at Old Trafford. Eboue, Toure, Djourou and Gallas made up the back four in that match, but what turned out to be a tactical master stroke, was how the midfield shaped out. Gilberto Silva played in his usual position in front of the defense, but with four midfielders ahead of him, he played a much deeper role and stayed in his own half mostly",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Fabregas and Rosicky played in the center ahead of Gilberto. Having Rosicky beside him allowed Fabregas to roam the field with much freedom. Hleb and Ljunberg was deployed on either side of the wings, while Adebayor was the lone striker up-front. Arsenal put on a wonderful display of possession football",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "The first instance of Arsenal playing this formation in 2006/07 season was in a league match against Charlton in late September. Eboue, Toure, Gallas and Hoyte made up the back four, while Gilberto Silva and Fabregas played in the center. Hleb and Ljunberg made up the four in the midfield, while Van Persie was deployed behind Henry, who played up front.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Wenger himself predicted that the team won’t be competing for silverware this season, and it turned out to be true. Arsenal finished fourth in the league, this time level on points with Liverpool.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Along with Henry, Ljunberg, Reyes and Jens Lehmann also left the club",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Similar to the 2006/2007 season, 4-4-2 was the formation mainly used throughout the season, with occasional variation of 4-4-1-1 and 4-1-4-1. Gilberto Silva lost his place in the first team to Flamini while Adebayor and Eduardo formed a lethal partnership upfront.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsenal Rewind: Tactical Evolution - From W-M to 4-2-3-1 (Part IV)",
+   "url": "https://thehardtackle.com/2012/arsenal-rewind-tactical-evolution-aii-from-w-m-to-4-2-3-1-part-iv/amp/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2012-02-09",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "They finished 3rd in the league, just 4 points adrift of eventual champions Manchester United. They were also knocked out of all the Cup-competitions.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "How will zonal marking affect Arsenal's season?",
+   "url": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-09-16",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "The Gunners boss had suggested in the summer that he would work on erradicating the numerous errors made by Arsenal from corners and free kicks last season.",
+   "verified": true
+  },
+  {
+   "title": "How will zonal marking affect Arsenal's season?",
+   "url": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-09-16",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "he hopes a zonal marking system will prove superior to the man marking tactics employed previously.",
+   "verified": true
+  },
+  {
+   "title": "How will zonal marking affect Arsenal's season?",
+   "url": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-09-16",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "last season we never went more than three or four games without conceding from a corner or free kick.",
+   "verified": true
+  },
+  {
+   "title": "Arsene knows...",
+   "url": "https://fourfourtwo.com/features/arsene-knows",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-03-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "fluid 4-4-1-1 formation proving solid yet a springboard when Arsenal attacked at pace.",
+   "verified": true
+  },
+  {
+   "title": "Arsene knows...",
+   "url": "https://fourfourtwo.com/features/arsene-knows",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-03-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Wenger had asked his men",
+   "verified": true
+  },
+  {
+   "title": "Arsene knows...",
+   "url": "https://fourfourtwo.com/features/arsene-knows",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-03-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Told that his players were too inexperienced to survive the San Siro coliseum against snarling pit-bulls like Gennaro Gattuso and polished medal-collectors like Paolo Maldini, Wenger seemed content that youngsters know no fear.",
+   "verified": true
+  },
+  {
+   "title": "Arsene knows...",
+   "url": "https://fourfourtwo.com/features/arsene-knows",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-03-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "they could play their natural game",
+   "verified": true
+  },
+  {
+   "title": "Arsene knows...",
+   "url": "https://fourfourtwo.com/features/arsene-knows",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-03-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Mathieu Flamini, once a utility man regarded indifferently in the stands but dissuaded by Wenger from leaving last summer, continued to display the indefatigable form that has kept Gilberto from the team",
+   "verified": true
+  },
+  {
+   "title": "Arsenal's Defence: The Best in Europe?",
+   "url": "https://bleacherreport.com/articles/613066-arsenals-defence-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-18",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "The midfield presses high up the pitch, the defenders rarely let the ball bounce in and around the goal, the back four play a high line, which congests the midfield and does not allow opposition strikers near their goal, and the goalkeeper is so quick off and across his line that he can claim the ball without the opponent taking a shot.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal's Defence: The Best in Europe?",
+   "url": "https://bleacherreport.com/articles/613066-arsenals-defence-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-18",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "the highline has helped Arsenal this season, but it is so risky that anything short of perfection will cost them, particularly against quick strikers.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal's Defence: The Best in Europe?",
+   "url": "https://bleacherreport.com/articles/613066-arsenals-defence-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-18",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Last season, Arsenal's defence was a gas (a fart, at that), with no shape being maintained and players simply running towards the ball with no anticipation of where the ball would go next.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal's Defence: The Best in Europe?",
+   "url": "https://bleacherreport.com/articles/613066-arsenals-defence-the-best-in-europe",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-18",
+   "eventDate": "2010/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "First of all, their offside trap is not perfect. Against both Newcastle and Barcelona, they had three players playing a striker offside but one playing him onside",
+   "verified": true
+  },
+  {
+   "title": "Gunners stun Barcelona 2-1: Analyzing the Upset at the Emirates",
+   "url": "https://bleacherreport.com/articles/611553-gunners-stun-barcelona-2-1-analyzing-the-upset-at-the-emirates",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-16",
+   "eventDate": "2011-02-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "It was clear from the opening whistle Arsenal's game plan put the emphasis on pressing the ball. But without the whole defense moving to close off the passing lanes, Barcelona dominated the possession game.",
+   "verified": true
+  },
+  {
+   "title": "Gunners stun Barcelona 2-1: Analyzing the Upset at the Emirates",
+   "url": "https://bleacherreport.com/articles/611553-gunners-stun-barcelona-2-1-analyzing-the-upset-at-the-emirates",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-16",
+   "eventDate": "2011-02-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Arsenal battled back in the second half by first slowing the Barcelona attack, and then taking what chances they generated on the counter.",
+   "verified": true
+  },
+  {
+   "title": "Gunners stun Barcelona 2-1: Analyzing the Upset at the Emirates",
+   "url": "https://bleacherreport.com/articles/611553-gunners-stun-barcelona-2-1-analyzing-the-upset-at-the-emirates",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-02-16",
+   "eventDate": "2011-02-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Wilshere in particular was superb at shifting through the defense to open up lanes to pass through.",
+   "verified": true
+  },
+  {
+   "title": "Bergkamp explains change Wenger made to contribute to Arsenal downfall",
+   "url": "https://www.football365.com/news/dennis-bergkamp-arsene-wenger-change-arsenal-downfall",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-31",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "“Arsenal after 2006, there was too much midfield play. There were no players going into attack, and only one striker who was lonely.”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Bergkamp explains change Wenger made to contribute to Arsenal downfall",
+   "url": "https://www.football365.com/news/dennis-bergkamp-arsene-wenger-change-arsenal-downfall",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-31",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "“Then Wenger reversed it. Then the player started deep and went high, as Fabregas did. Many years later, I spoke with a big-name winger at Arsenal. I asked him: ‘Why do you always stay wide?’ Play with freedom. Be instinctive. That’s what the boss wants.”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsene Wenger's 'Cesc Fabregas Project': Making Sense of It",
+   "url": "https://bleacherreport.com/articles/811478-arsene-wengers-cesc-fabregas-project-making-sense-of-it",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The only real experienced faces in the Arsenal dressing room then were that of Thierry Henry, Freddie Ljungberg, Gilberto Silva and goalkeeper Jens Lehmann.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsene Wenger's 'Cesc Fabregas Project': Making Sense of It",
+   "url": "https://bleacherreport.com/articles/811478-arsene-wengers-cesc-fabregas-project-making-sense-of-it",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "the pair were (prematurely) replaced by promising youngsters, essentially meaning that Arsenal's team, headed by 20-year old Fabregas, was now completely comprised of inexperienced and unproven \"youngsters.\"",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsene Wenger's 'Cesc Fabregas Project': Making Sense of It",
+   "url": "https://bleacherreport.com/articles/811478-arsene-wengers-cesc-fabregas-project-making-sense-of-it",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Instead of replacing the trio with like-for-like replacements, however, Wenger opted to surround the captain with younger (and ultimately cheaper) players that lacked experience as part of his project",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsene Wenger's 'Cesc Fabregas Project': Making Sense of It",
+   "url": "https://bleacherreport.com/articles/811478-arsene-wengers-cesc-fabregas-project-making-sense-of-it",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "2009/10",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Arsene Wenger had even adjusted his formation and the personnel surrounding him to support his playmaker-captain's strengths, as he moved him to advanced positions to lead from the front.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Arsene Wenger's 'Cesc Fabregas Project': Making Sense of It",
+   "url": "https://bleacherreport.com/articles/811478-arsene-wengers-cesc-fabregas-project-making-sense-of-it",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-01",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "the team's lack of experience eventually showed as The Gunners surrendered an eight-point lead at the summit to eventually finish third.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The three phases of Arsene: How Wenger's approach to transfers has changed down the years",
+   "url": "https://fourfourtwo.com/features/three-phases-arsene-how-wengers-approach-transfers-has-changed-down-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-08-11",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The cost of building a new ground was the main reason behind Wenger's new-found austerity, but another factor loomed large: the sacking of David Dein",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The three phases of Arsene: How Wenger's approach to transfers has changed down the years",
+   "url": "https://fourfourtwo.com/features/three-phases-arsene-how-wengers-approach-transfers-has-changed-down-years",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-08-11",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Wenger acquired Alex Hleb, Theo Walcott and Emmanuel Adebayor that year, but it proved to be the end of his relatively lavish and bold days.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wenger: Arsenal stadium move the most difficult time of my life",
+   "url": "https://fourfourtwo.com/news/wenger-arsenal-stadium-move-most-difficult-time-my-life",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-26",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "A loan taken out to finance the ground significantly curtailed Arsenal's spending power in the transfer market, meaning Wenger was forced to watch key players including Ashley Cole, Samir Nasri, Bacary Sagna, Gael Clichy, Cesc Fabregas and Robin van Persie depart his squad.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wenger’s Way (L'Equipe Magazine interview, translated)",
+   "url": "https://www.onlinegooner.com/articles/view/1956",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-05-26",
+   "eventDate": "2009-10-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "“I am more a builder than an investor. In fact, I am a realist. When I had the new Arsenal stadium built, the Emirates, I said to myself: ‘How can we stay at the top level whilst playing with the best players, against the best clubs, whilst respecting the financial constraints of the club?’ The only solution for me was to build a team of young players and, bit by bit, bring them to the top level",
+   "verified": true
+  },
+  {
+   "title": "Wenger’s Way (L'Equipe Magazine interview, translated)",
+   "url": "https://www.onlinegooner.com/articles/view/1956",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-05-26",
+   "eventDate": "2009-10-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "“I love it when a current passes through the eleven players on the pitch: when it comes to life, a quick interchange. That’s what makes me happy.",
+   "verified": true
+  },
+  {
+   "title": "Wenger’s Way (L'Equipe Magazine interview, translated)",
+   "url": "https://www.onlinegooner.com/articles/view/1956",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-05-26",
+   "eventDate": "2009-10-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "I have a pact with the young players of my team and I want to win this bet.",
+   "verified": true
+  },
+  {
+   "title": "Wenger’s Way (L'Equipe Magazine interview, translated)",
+   "url": "https://www.onlinegooner.com/articles/view/1956",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2010-05-26",
+   "eventDate": "2009-10-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "“[We] have a lot of offensive talent but we still have a weakness in the air in defence, on set pieces. We don’t have tall guys.”",
+   "verified": false
+  },
+  {
+   "title": "Arsenal and the 4-5-1",
+   "url": "https://bleacherreport.com/articles/44323-arsenal-and-the-4-5-1",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-08-05",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Arsenal visited Old Trafford in the 2006-07 season with the Gunners having had a very poor start to the season. Arsene Wenger chose the 4-5-1 so that his team wasn't too \"open,\" and Manchester United were barely allowed any chances in the game.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal and the 4-5-1",
+   "url": "https://bleacherreport.com/articles/44323-arsenal-and-the-4-5-1",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-08-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Even when they play the other \"Big Four\" teams like Chelsea and Liverpool with Robin van Persie, Wenger elects to play him on the left-side of midfield.",
+   "verified": true
+  },
+  {
+   "title": "Arsenal and the 4-5-1",
+   "url": "https://bleacherreport.com/articles/44323-arsenal-and-the-4-5-1",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2008-08-05",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Pires/Hleb would sometimes step in when Ljungberg would be caught out due to marking, and sometimes Fabregas also covered the position. That position behind the striker was almost a \"revolving door.\"",
+   "verified": true
   }
+ ],
+ "statedView": [
+  {
+   "quote": "We always used zonal marking when I won championships with Liverpool,” he told the BBC. “It was all about winning the first ball and if not, you’ve got to clean up the second ball.",
+   "date": "2011-09",
+   "source": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Yes we have changed our system a little bit,",
+   "date": "2011-09",
+   "source": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I am more a builder than an investor. [...] The only solution for me was to build a team of young players and, bit by bit, bring them to the top level",
+   "date": "2009-10-17",
+   "source": "https://www.onlinegooner.com/articles/view/1956",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "In 2006 started the most difficult period of my life because we had restricted finances, we had to pay back a huge amount of money and we had to sell our best players and we had to stay at the top,",
+   "date": "2017-05",
+   "source": "https://fourfourtwo.com/news/wenger-arsenal-stadium-move-most-difficult-time-my-life",
+   "provenance": "primary"
+  },
+  {
+   "quote": "We have nothing to protect, but we know we want to score goals.",
+   "date": "2008-03-04",
+   "source": "https://fourfourtwo.com/features/arsene-knows",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://arsenal.com/node/9298",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://blog.woolwicharsenal.co.uk/?p=27181",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [],
+ "managers": [
+  {
+   "managerId": "arsene-wenger",
+   "start": "2005-08-07",
+   "end": "2011-05-22"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Only one tier A page (Coaches' Voice, an undated summary of Fabregas's Masterclass) and one tier B (Hard Tackle 2012 retrospective); the rest is tier C columns and retrospectives. Pressing, marking and set-pieces for 2005-09 have no in-period tier A-B source; the 2010/11 pressing/high-line evidence is a fan column."
+ }
 }
