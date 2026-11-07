@@ -1,4 +1,4 @@
-You are auditing, question by question and fully independently, the football profile "Ajax 1994/95" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Ajax 1994/95, in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+You are auditing, question by question and fully independently, the football profile "Ajax 1994/95 (Louis van Gaal)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Ajax 1994/95 (Louis van Gaal), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
 
 The research file below is your evidence. Build your answers on it:
 - Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): mar, pla, res, sis, jog, lid. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK team:ajax-1994-95" and a 1-line summary. Don't paste the JSON in the reply.
@@ -43,14 +44,12 @@ After writing the file, reply only with "OK team:ajax-1994-95" and a 1-line summ
 {
   "id": "ajax-1994-95",
   "catalog": "team",
-  "name": "Ajax 1994/95",
-  "status": "complete",
-  "researchedOn": "2026-10-12",
+  "name": "Ajax 1994/95 (Louis van Gaal)",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "1994-08-21",
     "end": "1995-05-27"
   },
-  "scopeNote": "Ajax 1994/95: Dutch Supercup (1994-08-21) to the last Eredivisie match (1995-05-27), including the Champions League won on 1995-05-24. Tactical evidence rests on one match analysis (Spielverlagerung on the final v Milan, 3-3-4 structure in possession); no source found uses a single style label, and Van Gaal's stated view was not found. Dates are exact, from Wikipedia season and Champions League pages.",
   "managers": [
     {
       "managerId": "louis-van-gaal",
@@ -58,156 +57,1054 @@ After writing the file, reply only with "OK team:ajax-1994-95" and a 1-line summ
       "end": "1995-05-27"
     }
   ],
+  "scopeNote": "Ajax of the 1994/95 season under Van Gaal: unbeaten Eredivisie, Champions League winners (final 1995-05-24, Milan 1-0, Vienna). Period 1994-08-21 (Supercup) to 1995-05-27 as decided earlier; RSSSF lists the last league match (v Twente, 3-1) on 28 May 1995, see openQuestions. Style named by sources as 3-4-3 with a midfield diamond (Ballverliebt, StatsBomb, La Grinta), 3-1-3-3 / 3-3-1-3 in Ballverliebt and Goal, 3-3-4 in possession (Spielverlagerung, La Grinta after Kluivert came on); the popular label '4-3-3' is called inaccurate by Ballverliebt. Marking: man-to-man by the outer centre-backs (Reiziger, F. de Boer) with Blind as libero (Ballverliebt, La Grinta); midfield also used individual marking vs Bayern. The famous 2-0 wins over Milan are the two group games (1994-09-14 and the return); the Bayern semi-final was 0-0 away and 5-2 home. Some dated events are given as month only because the day was not read in a source. All facts are retrospective (2011-2025), no contemporaneous 1994/95 match report was read. Only the Milan final has a full tactical study (Spielverlagerung, StatsBomb).",
   "ambiguities": [],
   "openQuestions": [
-    "The academy count (13 of 18) is unverified: the FourFourTwo page was empty.",
-    "Formation labels disagree in unread secondary sources (4-3-3, 3-3-1-3, 4-2-3-1); only the 3-3-4 structure in possession (final) is verified.",
-    "Pressing, marking and Van Gaal's stated view need a dedicated source (Ajax archive match briefings, Coaches' Voice)."
+    "Last Eredivisie match: RSSSF lists round 34 v FC Twente (3-1, home) on 28/5/95, not 27 May; the caller's period end 1995-05-27 kept as instructed.",
+    "Marking system: two B-tier sources (Ballverliebt, La Grinta) say man-marking by the outer stoppers with Blind as libero; no Dutch-language tactical source was found and no source discusses zonal marking for this Ajax. Set-piece defending marking not found.",
+    "Formation label disagrees: 3-4-3 diamond (Ballverliebt, StatsBomb), 3-3-1-3 (Goal.com, citing Van Gaal), 3-1-2-3-1 / 3-5-2 (These Football Times), 4-3-3 or 3-4-3 (FourFourTwo).",
+    "Academy count disagrees: FourFourTwo says 13 of the 18 players involved were academy-schooled; StatsBomb says 7 of the 13 players used (6 of the starting XI); Holland Times says 8. The old 13-of-18 figure is therefore not safe.",
+    "Average age disagrees: 22 for the starting XI without Blind and Rijkaard, 24 with them (TFT); 23 (FFT); almost 22 (Goal).",
+    "Bayern 2-0 wins asked by the caller were not found: the Bayern tie in 1994/95 was 0-0 and 5-2; the 2-0 results are the two group wins over Milan (Ballverliebt).",
+    "Pressing: only La Grinta (vs Bayern, Overmars and Kanu pressing the back three, Seedorf on Frey) and Blind's 'we pressured high' give a pressing description; no tier A source on the high line.",
+    "Litmanen's role is a #10 who joined the front line (Spielverlagerung), brutal defensive work (Ballverliebt); not independently checked on match footage."
   ],
   "sources": [
     {
-      "title": "Amsterdam's last night of European glory (Glenn Billingham)",
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Ajax were giving Milan trouble simply by using a 3-3-4 structure while in possession. This occupied the back line very well while controlling the center of the pitch in both midfield and defense.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Even though Ajax won this match, it was AC Milan who were the more dangerous team throughout the game despite having less possession of the ball.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "It was immediately obvious that Desailly was told to man-mark Litmanen wherever he went on the field – which left some holes open in the Milan midfield. Litmanen rarely stayed in his #10 position just behind the front 3 of Ajax, rather he joined the forward line to form a front 4",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Van Der Sar would simply switch the ball out to the completely unmarked Reiziger who would move up the field with the ball.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "This is what occurred most often as Reiziger would play a pass into one of Finidi, De Boer, or Litmanen and they’d try to combine to break through the back line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "AC Milan lacked any real counterpressing during this game so Ajax didnt have a difficult time controlling the ball or quickly regaining control after Milan’s offensive transitions.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Van Gaal admitted this wasnt one of their better games and he might have been referring to the lack of dynamic interaction from the players to break through AC Milan – though this seems to be a common problem in his teams.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=2536",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-12-29",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "This didnt occur often enough as the players stuck to their positions most of the time.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Face au 3-5-2 du Bayern, Louis van Gaal s’adapte. Au 3-4-1-2 de Trapattoni, van Gaal répond – en phase défensive – par un 3-1-4-2.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Reiziger et Bogarde marquent les attaquants Witeczek et Zickler, alors que Danny Blind les couvre dans une ligne très basse. Devant eux, Rijkaard suit Mehmet Scholl à la trace, et est chargé de renvoyer les longs ballons là d’où ils viennent. Au milieu, Ronald de Boer suit Nerlinger dans ses projections verticales, et Litmanen doit faire face à Schupp dans ses décrochages",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Le coup tactique de van Gaal, dans ce match : avoir fait défendre Seedorf sur Frey, comme un milieu gauche (équivalent de Finidi sur Zickler de l’autre côté) alors qu’Overmars se joignait à Kanu pour presser la défense à trois du Bayern. Dès la perte du ballon, l’Ajax pressait selon ce schéma.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Lorsque Reiziger reçoit le ballon, Litmanen et Kanu se comportent comme un duo d’attaque : La première passe leur est systématiquement destinée. Le Nigérian est la porte d’entrée du camp adverse pour l’Ajax.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Seedorf, Davids et Ronald de Boer étaient des Vidal, Götze, Imbula avant l’heure : milieu de terrain « tassés » proches du sol, combatifs, percutants et capables (chargés) de porter le ballon, dans une équipe de possession qui n’hésite pas à jouer long.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Si le ballon était perdu après l’une de ces étapes, le pressing se déclenchait immédiatement selon la méthode décrite plus haut. Le risque de perte était d’ailleurs élevé avec ce jeu long. Le marquage individuel était parfaitement compatible avec cette animation, qui donnait une équipe assez étirée sur le terrain.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "l’Ajax ne passe jamais trop de temps dans sa propre moitié de terrain et obtient énormément de coups de pied arrêtés, dans lesquels il se montre très efficace. Grâce aux pattes de Finidi et de Boer, mais aussi grâce à la taille de Rijkaard",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Avec Kanu et Finidi, il avait deux Nigérians racés, longs et filiformes. Leur centre de gravité très haut fait mal lorsque Kanu travaille dos au but, ou que Finidi fixe et percute.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Après l’entrée de Kluivert pour Litmanen, l’Ajax bascule définitivement dans le 3-3-4 ultra-offensif dans lequel il va écrire sa légende.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Après la pause, les changements de van Gaal vont s’avérer décisifs : Kanu en pointe pour Ronald de Boer, glissant lui même au milieu pour Seedorf. Avec une équipe plus technique au milieu et avec plus de taille devant, l’Ajax va totalement reprendre le contrôle de la partie.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax 1995 : L’influent Monsieur van Gaal (La Grinta)",
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal&7245",
+      "tier": "B",
+      "language": "fr",
+      "articleDate": "2014-11-28",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Cette fois, c’est Overmars et Finidi qui font reculer Panucci et Maldini et leur font commettre des fautes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Ist von Ajax die Rede, spricht man oft vom \"typischen\" 4-3-3. So wirklich stimmt das aber nicht. Denn eher schon stellte sich das Team als 3-4-3 mit Mittelfeldraute dar, auch ein 3-1-3-3 wäre als Bezeichnung sicher treffender als 4-3-3.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Danny Blind spielte im Abwehrzentrum einen ganz klassischen Libero, wie es ihn auch in Deutschland und in Österreich gab; Michael Reiziger und Frank de Boer waren, zumindest gegen den Ball, ebenso klassische Manndecker. Sie kümmerten sich um Massaro und Simone, sobald Ajax den Ball verloren hatte.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Im Finale gegen Milan aber spielte er quasi den Quarterback vor der Abwehr; also das, was man heute als klassischen Sechser bezeichnen würde. Wenn's brenzlig wurde, ging er nach hinten zu Blind. Ansonsten war er derjenige, der das Spiel von hinten lenkte.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Selbst bis an die Grundlinie vorgehen und flanken durften die beiden nicht, das blieb den Außenstürmern vorbehalten.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Zudem kam ihnen im damals wie heute sehr ballbesitzorientierten Spiel von Van Gaal die wichtige Aufgabe zu, für die schnellstmöglichen Seitenwechsel zu sorgen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Es war die spezielle Fähigkeit des Finnen, darüber hinaus brutal viel nach hinten zu arbeiten. Es war vor allem das aufopferungsvolle Spiel von Litmanen, das ihn bei Van Gaal so beliebt machte - und zum wichtigsten Spieler bei Ajax.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "bei Eckbällen ging er zurück und machte die defensive Absicherung.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Louis van Gaal war der erste, der an seiner Formation etwas änderte: Er brachte den 18-jährigen Nwankwo Kanu (statt Seedorf) für die Position ganz vorne, Ronald de Boer rückte zurück auf die Seedorf-Position.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Capello warf mit Lentini und Eranio noch eilig zwei neue Kräfte in die Schlacht, aber Ajax machte hinten den Laden nun dicht und Milan tat sich nach dem späten Nackenschlag schwer, den Hebel auf volle Offensive umzulegen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Und jede Position hatte ihre eigenen Aufgaben, die sich strikt an der Position orientierte und nicht an dem Spieler, der sie ausfüllen soll. Das System war bei Van Gaal alles, der Einzelne musste sich unterordnen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ballverliebt Classics - Das letzte große Ajax",
+      "url": "https://ballverliebt.substack.com/p/ballverliebt-classics-das-letzte-grose-ajax",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2011-03-21",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Das System war bei Van Gaal alles, der Einzelne musste sich unterordnen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
       "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
       "tier": "B",
       "language": "en",
       "articleDate": "2016-09-29",
-      "eventDate": "1995-05",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "\"the average age of Ajax's starting 11 was a staggering 22\" … \"Adding the experienced defenders, that number only increases to 24.\" \"18-year-old Patrick Kluivert.\" Experienced core: Rijkaard (back from Milan in 1993), Blind.",
-      "verified": true
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Ajax of the mid-1990s were the epitome of a bold, attacking 3-5-2, or 3-4-3, or 3-1-2-3-1. Like all art forms, Ajax’s tactics were open to interpretation.",
+      "verified": true,
+      "retrospectiveOnly": true
     },
     {
-      "title": "Search summary citing FourFourTwo",
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The back three of Danny Blind, Frank de Boer and Michael Reiziger offered defensive steel and transitional fluidity. Blind, with poise and experience locked into every tight curl on his head, was the kingpin. De Boer and Reiziger intelligently covered space, filled in as central defenders when needed, and intelligently fed the midfield.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Defence to attack in 3.2 seconds.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "In showcasing the aggressive, precise and purposeful transitions through the lines, the move started with a Milan corner. Savićević received a short corner and immediately fell victim to a perfect sliding tackle celebrated like a goal.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "natural width and alarming pace came in the form of Marc Overmars and Finidi George in the final third.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "With strict instructions not to overtake Overmars and George in front, Ronald de Boer complemented Davids and Rijkaard.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "the average age of Ajax’s starting 11 was a staggering 22. Adding the experienced defenders, that number only increases to 24.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Metronomically blending youth with experience and tactical discipline with fluidity, van Gaal’s Ajax were the perfect storm.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Their 3-4-3 system with a diamond midfield provided a central column of reference points around whom the rest of the team could triangulate.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Ajax held the lion’s share of possession (61%) and sought to patiently construct play from the back with a ball progression scheme that was far more systemised than any we’ve seen in the previous finals in this series.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "This Ajax side utilised possession as a means of control. They denied it to the opposition, and moved the ball in such a way as to leave themselves adequately positioned to win it back once lost. It was almost more of a defensive tool than an attacking one.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "The degree to which Ajax’s ball use was structured was made clear by how quickly they paused counter-attacks to reset their positions once initial progress had been slowed.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Ajax kept eight clean sheets across their 11 matches in the 1994-95 competition, including four in their five knockout round matches.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "In contrast, this match was a much more even contest between differing yet equally valid approaches.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Six of the starting XI, and seven of the 13 players used were academy graduates.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Van Gaal was by some distance the more animated of the two coaches, and there was a reminder that his dramatic reenactments of on-pitch incidents weren’t exclusive to his spell at Manchester United.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "A Data History of the European Cup: 1995, Ajax 1-0 AC Milan (StatsBomb)",
+      "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1995-ajax-1-0-ac-milan/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-05-18",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Marc Overmars completed just two of his 10 attempted dribbles from the left.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
       "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
       "tier": "C",
       "language": "en",
-      "articleDate": "2020-05-25",
-      "eventDate": "1995-05",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "Summary only: 13 of the 18 players in the final squad came through the academy; average age 23. The page came back empty.",
-      "verified": false
-    },
-    {
-      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
-      "url": "https://spielverlagerung.com/?p=2536",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2015-12-29",
-      "eventDate": "1995-05-24",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"Ajax were giving Milan trouble simply by using a 3-3-4 structure while in possession.\" \"This occupied the back line very well while controlling the center of the pitch in both midfield and defense.\" Single match (the final).",
-      "verified": true
-    },
-    {
-      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
-      "url": "https://spielverlagerung.com/?p=2536",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2015-12-29",
-      "eventDate": "1995-05-24",
-      "accessedOn": "2026-10-17",
-      "dimension": "build-up",
-      "evidence": "\"they relied mostly on the speed of their passing in simple combinations\"; \"Ajax lacked dynamics in offense and retained the ball for a long time.\" Single match.",
-      "verified": true
-    },
-    {
-      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
-      "url": "https://spielverlagerung.com/?p=2536",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2015-12-29",
-      "eventDate": "1995-05-24",
-      "accessedOn": "2026-10-17",
-      "dimension": "possession",
-      "evidence": "Ajax controlled possession and \"retained the ball for a long time\" against Milan. Single match.",
-      "verified": true
-    },
-    {
-      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
-      "url": "https://spielverlagerung.com/?p=2536",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2015-12-29",
-      "eventDate": "1995-05-24",
-      "accessedOn": "2026-10-17",
-      "dimension": "transitions",
-      "evidence": "Ajax lost the ball often after vertical passes (\"they won the ball quite often after an Ajax vertical pass\"); \"AC Milan lacked any real counterpressing during this game.\" Single match.",
-      "verified": true
-    },
-    {
-      "title": "1995 Champions League final: AFC Ajax – AC Milan 1:0 (Spielverlagerung)",
-      "url": "https://spielverlagerung.com/?p=2536",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2015-12-29",
-      "eventDate": "1995-05-24",
-      "accessedOn": "2026-10-17",
-      "dimension": "width",
-      "evidence": "\"Another bright moment for Ajax was when Finidi dropped deeper on the wing and Reiziger played the ball into him.\" Single match.",
-      "verified": true
-    },
-    {
-      "title": "1994–95 AFC Ajax season (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/1994–95_AFC_Ajax_season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
+      "articleDate": "2018-03-01",
       "eventDate": "1994/95",
-      "accessedOn": "2026-10-17",
+      "accessedOn": "2026-11-06",
       "dimension": "squad-building",
-      "evidence": "First competitive match 1994-08-21 (Supercup, 3-0 Feyenoord); last Eredivisie match 1995-05-27 (3-1 Twente). Manager Louis van Gaal, captain Danny Blind; Kluivert top scorer 18 goals; Bogarde and Reiziger signed. No tactical text on the page (first 100k characters read).",
-      "verified": true
+      "evidence": "Ajax’s team that night had an average age of 23, while 13 of the 18 players involved – among them Edgar Davids, Clarence Seedorf and Jari Litmanen – had been schooled in the academy.",
+      "verified": true,
+      "retrospectiveOnly": true
     },
     {
-      "title": "1994–95 UEFA Champions League (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/1994–95_UEFA_Champions_League",
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
       "tier": "C",
       "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1995-05-24",
-      "accessedOn": "2026-10-17",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Out of possession, they would be instructed to hound opponents collectively, to retrieve the ball as quickly as possible.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "The whole team moved in set patterns; if one player dropped back to receive the ball, another had to make a run towards the opposition’s goal. The wingers were instructed to repeatedly make forward runs to open up space for a long ball from the back, while midfielders were told to stay behind the wingers at all times. If an attack couldn’t be forged down the one side, they then had to switch the ball to the opposite flank as quickly as possible. All of this was to be played out in the confines of a 4-3-3 or 3-4-3 formation.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "The goalkeeper had to be adept at playing with his feet as well as his hands, so he could start moves and feed the most creative centre-back.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "During one training session, Ronald de Boer suggested borrowing a move from basketball, known as ‘picking’, to enhance their threat from set-pieces.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Many of them still looked like schoolboys, but they were streetwise beyond their years and their coach was eager to listen to any creative ideas.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
       "dimension": "squad-building",
-      "evidence": "Final \"24 May 1995\", Ernst-Happel-Stadion, Vienna, Ajax 1-0 Milan, Kluivert 85th minute. Knockouts: Hajduk Split 3-0 agg, Bayern Munich 5-2 agg.",
-      "verified": true
+      "evidence": "the homecoming of legend Frank Rijkaard – back after a successful five-year spell at Milan – offered vital nous as well as a father figure for the younger players to look up to in the dressing room.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "“I started as a left-winger and second striker – a No.10,” Davids once told FFT. “It was Van Gaal’s idea to move my position.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Marcel Desailly, operating in a holding midfield role in a diamond formation, was tasked with man-marking Jari Litmanen. Striker Daniele Massaro was handed the task of stopping Frank de Boer from spraying his forward passes into midfield and forcing him to feed right-back Michael Reiziger, who was then pressed in possession.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "At half-time, Rijkaard had the first word. “I want the ball to be played around faster and a number of you need to play better in possession,” he said. A heated debate soon followed between Danny Blind, Clarence Seedorf and Ronald de Boer. Van Gaal happily let them go at it before making a key tactical tweak, which saw Rijkaard drop back five yards to give him more space to play key passes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Eight minutes after the break, Kanu was introduced in place of Seedorf, and his pace forced Franco Baresi and Milan’s defence to retreat to the edge of their 18-yard box.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Hajduk Split and Bayern Munich were hammered 3-0 and 5-2 in the quarter-finals and semi-finals respectively.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The training sessions behind Ajax's 1995 success (FourFourTwo, Ronald de Boer interview)",
+      "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-11",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "We also did a lot of work on long distance passes over distances of 30 metres or more so we could switch play quickly.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The training sessions behind Ajax's 1995 success (FourFourTwo, Ronald de Boer interview)",
+      "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-11",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Van Gaal wanted to make it clear for the youth players.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The training sessions behind Ajax's 1995 success (FourFourTwo, Ronald de Boer interview)",
+      "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-11",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Louis van Gaal attached quite a lot of importance to the squad numbers and their specific roles.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The training sessions behind Ajax's 1995 success (FourFourTwo, Ronald de Boer interview)",
+      "url": "https://fourfourtwo.com/performance/training/training-sessions-behind-ajaxs-1995-success",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-12-11",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "The thing you learned was that you had to switch immediately if you had lost the ball, so you couldn't linger on disappointment, because they could score with a long range shot.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax’s last European glory (Holland Times)",
+      "url": "https://www.hollandtimes.nl/?p=14883",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-08",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "He gave debuts to Clarence Seedorf, Edgar Davids and Mario Melchiot, while also bringing back the experience of Frank Rijkaard five years after the club sold him.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax’s last European glory (Holland Times)",
+      "url": "https://www.hollandtimes.nl/?p=14883",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-08",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Eight of the players were Ajax academy graduates, with three – Reiziger, Rijkaard and Kluivert – born amongst the cobblestones and canals.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "750 years of Amsterdam: Cruijff, Van Gaal and Ajax’s last European glory (Holland Times)",
+      "url": "https://www.hollandtimes.nl/?p=14883",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-08",
+      "eventDate": "1995-05-24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "It wasn’t until some tactical changes by Van Gaal in the second half that Ajax began to take a serious hold on the game.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Als Ajax Amsterdam 1995 den FC Bayern München vorführte (Goal.com Deutschland)",
+      "url": "https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2018-10-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Also machte er sich auf die Suche nach jungen Talenten. Und er fand sie: in der eigenen Nachwuchsabteilung oder den Tiefen des bereits bestehenden Kaders (Clarence Seedorf, Edgar Davids, Patrick Kluivert, Michael Reiziger, Ronald und Frank de Boer, Edwin van der Sar), bei kleineren niederländischen Vereinen (Winston Bogarde, Marc Overmars) und irgendwo im nahen oder fernen Ausland (Jari Litmanen, Finidi George, Nwankwo Kanu).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Als Ajax Amsterdam 1995 den FC Bayern München vorführte (Goal.com Deutschland)",
+      "url": "https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2018-10-01",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Rijkaard als kreativer Sechser, Seedorf als antreibender Mittelfeldmotor, Litmanen als hängende Spitze, George als rasanter Flügelflitzer, Kanu als großgewachsener Sturmtank.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Als Ajax Amsterdam 1995 den FC Bayern München vorführte (Goal.com Deutschland)",
+      "url": "https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2018-10-01",
+      "eventDate": "1995-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Das Hinspiel im Münchner Olympiastadion endete 0:0.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "New book reveals more insight into Van Gaal's coaching philosophy (World Soccer Talk)",
+      "url": "https://worldsoccertalk.com/news/new-book-reveals-more-insight-into-louis-van-gaals-coaching-philosophy-20150505-CMS-138536.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-05-05",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "“From day one, there was discipline,” Blind recalls.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "New book reveals more insight into Van Gaal's coaching philosophy (World Soccer Talk)",
+      "url": "https://worldsoccertalk.com/news/new-book-reveals-more-insight-into-louis-van-gaals-coaching-philosophy-20150505-CMS-138536.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-05-05",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "We all had to be really fit. We pressured high on the pitch.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Ajax' series of 52 matches unbeaten in the Eredivisie (RSSSF)",
+      "url": "https://rsssf.org/miscellaneous/unb-ajax-52.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "1997-12-22",
+      "eventDate": "1994/95",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "34    28/ 5/95  home FC Twente         3-1",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "When Ajax ruled the world: how Louis van Gaal nurtured his glorious mid-'90s empire (FourFourTwo)",
+      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-03-01",
+      "eventDate": "1995-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "“Milan play as Ajax play,” he commented. “They want to win the game, but PSG hang back and are primarily interested in avoiding defeat.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Als Ajax Amsterdam 1995 den FC Bayern München vorführte (Goal.com Deutschland)",
+      "url": "https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs",
+      "tier": "C",
+      "language": "de",
+      "articleDate": "2018-10-01",
+      "eventDate": "1995",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"Jeder einzelne Ajax-Spieler ist kreativ\", sagte van Gaal, der seine Spieler in so etwas wie ein 3-3-1-3-System packte.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Amsterdam's last night of European glory (These Football Times)",
+      "url": "https://thesefootballtimes.co/2016/09/29/amsterdams-last-night-of-european-glory/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-09-29",
+      "eventDate": "1994-09-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "If the modern era’s first round of Champions League group games have become predictably careful affairs, one could be forgiven for thinking this one was a final. For the sanguine van Gaal, it was by design.",
+      "verified": true,
+      "retrospectiveOnly": true
     }
   ],
-  "statedView": [],
+  "statedView": [
+    {
+      "quote": "Milan play as Ajax play. They want to win the game, but PSG hang back and are primarily interested in avoiding defeat.",
+      "date": "1995",
+      "source": "FourFourTwo 2018, quoting Van Gaal on the semi-final draw (https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Ich war nicht verwundert. Ich hatte bereits vor der Saison gesagt, dass wir den Titel gewinnen können.",
+      "date": "1995",
+      "source": "Goal.com Deutschland 2018 (https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs); German rendering of a Dutch/English original, no primary found",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Frankly a club should have a philosophy and find a suitable manager for it, but you see often a manager implementing his philosophy in a club. ... I started changing the team, because I wanted my football to be played.",
+      "date": "2015-05-05",
+      "source": "World Soccer Talk 2015 citing Mike van Damme's book '1995' (https://worldsoccertalk.com/news/new-book-reveals-more-insight-into-louis-van-gaals-coaching-philosophy-20150505-CMS-138536.html); refers to taking over from Beenhakker in 1991",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Jeder einzelne Ajax-Spieler ist kreativ",
+      "date": "1995",
+      "source": "Goal.com Deutschland 2018 (https://www.goal.com/de/meldungen/ajax-bayern-champions-league-1995-kluivert-seedorf-muenchen/1y2m0jatz6o541vrv932e5mffs)",
+      "provenance": "attributed"
+    }
+  ],
   "unreadable": [
     {
-      "url": "https://www.fourfourtwo.com/features/when-ajax-ruled-world-how-louis-van-gaal-nurtured-his-glorious-mid-90s-empire",
+      "url": "https://www.pressreader.com/usa/the-guardian-usa/20200525/282153588485830",
       "reason": "empty"
     },
     {
-      "url": "https://english.ajax.nl/articles/the-lessons-of-louis-van-gaal-an-inside-look-into-his-9495-ajax-notes/",
-      "reason": "empty"
+      "url": "https://lagrinta.fr/ajax-1995-linfluent-monsieur-van-gaal",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2011189.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0257-0deff1049087-53ab4454dbff-1000--van-gaal-retires-ajax-s-golden-boys-of-95",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://issuu.com/sheffjournalism/docs/eurofoot/69",
+      "reason": "404"
     }
   ],
+  "influences": [
+    "Rinus Michels / Johan Cruyff Total Football (Holland Times, FFT)",
+    "Beenhakker squad inherited in 1991 (World Soccer Talk)"
+  ],
   "gaps": {
-    "dimensions": [
-      "defensive-block",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "pressing",
-      "set-pieces",
-      "stated-view"
-    ],
-    "axes": [
-      "mar",
-      "pla",
-      "res",
-      "sis",
-      "jog",
-      "lid"
-    ]
+    "dimensions": [],
+    "axes": []
   },
-  "influences": [],
   "confidence": {
-    "level": "low",
-    "reason": "Tactical evidence is one tier B match analysis (the final) plus tier C Wikipedia dates and one tier B squad-age source; pressing, marking and stated view unverified."
+    "level": "medium",
+    "reason": "Several tier A-B sources agree on the 3-4-3 diamond/3-3-4 and the libero plus two man-markers, but all are retrospective, the match-level tactics rely on the final and the Bayern semi (one French analyst), no Dutch tactical source or quote in Van Gaal's own 1995 words was found."
   }
 }
 
@@ -493,3 +1390,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: A player who turns up late for training misses the next game, whoever he is.
    Agree means: Indiscipline brings a clear punishment, and it applies to any player.
    Disagree means: Being late is settled with a talk, without needing to drop the player.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

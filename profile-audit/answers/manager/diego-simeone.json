@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "Verified: Simeone's teams are built on defensive compactness and quick counter-attacks, defending deep in a narrow 4-4-2, so possession is willingly conceded to attack space on the break.",
-    "answers": {
-      "pos_04": "CT",
-      "pos_02": "CT",
-      "pos_05": "D",
-      "pos_01": "DT",
-      "pos_03": "D"
-    }
-  },
-  "pro": {
-    "personaBrief": "The verified quick counter-attacks imply fast, vertical progression after recoveries; build-up is a gap, so the preference for safe, low-risk exits under pressure comes from general knowledge of his Atlético sides.",
-    "answers": {
-      "pro_05": "C",
-      "pro_04": "C",
-      "pro_01": "CT",
-      "pro_03": "D",
-      "pro_02": "D"
-    }
-  },
-  "est": {
-    "personaBrief": "The verified 4-4-2 from Estudiantes onward and the narrow compact block point to rehearsed, fixed positions in two banks of four, though the wide midfielders tuck inside and the second striker links play.",
-    "answers": {
-      "est_05": "CT",
-      "est_01": "C",
-      "est_03": "D",
-      "est_04": "C",
-      "est_02": "D"
-    }
-  },
-  "lar": {
-    "personaBrief": "Width is a gap; from general knowledge, consistent with the verified narrow 4-4-2, his sides use central/tucked-in midfielders rather than touchline wingers, with full-backs and crosses (set pieces matter, verified 2013-14) providing the outlet wide.",
-    "answers": {
-      "lar_04": "C",
-      "lar_02": "N",
-      "lar_05": "D",
-      "lar_03": "C",
-      "lar_01": "D"
-    }
-  },
-  "blo": {
-    "personaBrief": "Verified: deep defending in their own defensive third in a narrow 4-4-2 with defensive compactness; the team drops and regroups rather than counter-pressing high.",
-    "answers": {
-      "blo_01": "D",
-      "blo_05": "D",
-      "blo_04": "C",
-      "blo_03": "D",
-      "blo_02": "CT"
-    }
-  },
-  "mar": {
-    "personaBrief": "Marking is flagged as an open question; the verified compact zonal 4-4-2 block suggests space-protecting defenders, while set-piece defending relies on duels and individual responsibility from general knowledge.",
-    "answers": {
-      "mar_05": "D",
-      "mar_01": "C",
-      "mar_03": "N",
-      "mar_02": "D",
-      "mar_04": "D"
-    }
-  },
-  "pla": {
-    "personaBrief": "His game is reactive and opponent-focused ('partido a partido'), and he verified-ly changed systems to back threes (5-3-2, 3-5-2) in 2020-21, yet he imposes his demanding work ethic on whoever arrives.",
-    "answers": {
-      "pla_02": "C",
-      "pla_04": "C",
-      "pla_01": "C",
-      "pla_03": "D",
-      "pla_05": "D"
-    }
-  },
-  "res": {
-    "personaBrief": "Deep defending, counters and decisive set-piece goals such as the 2014 title winner (verified) show a manager who measures everything by the result and happily shuts games down.",
-    "answers": {
-      "res_05": "CT",
-      "res_04": "DT",
-      "res_01": "D",
-      "res_03": "CT",
-      "res_02": "C"
-    }
-  },
-  "sis": {
-    "personaBrief": "The verified collective compactness of a narrow 4-4-2 depends on every player fulfilling defensive duties; the system elevates ordinary players and stars get no exemption.",
-    "answers": {
-      "sis_05": "CT",
-      "sis_02": "D",
-      "sis_03": "CT",
-      "sis_01": "CT",
-      "sis_04": "D"
-    }
-  },
-  "jog": {
-    "personaBrief": "Player profile is a gap; from general knowledge, consistent with the verified deep compact block and set-piece reliance, he prizes intensity, duels and aerial strength over pure technique.",
-    "answers": {
-      "jog_04": "C",
-      "jog_03": "D",
-      "jog_01": "D",
-      "jog_02": "CT",
-      "jog_05": "CT"
-    }
-  },
-  "bas": {
-    "personaBrief": "Squad-building is a gap; from general knowledge he trusts seasoned, committed players for titles while giving chances to academy products like Koke and Saul, but winning remains the priority.",
-    "answers": {
-      "bas_03": "N",
-      "bas_04": "C",
-      "bas_02": "C",
-      "bas_01": "D",
-      "bas_05": "D"
-    }
-  },
-  "lid": {
-    "personaBrief": "People management is a gap; from general knowledge 'Cholismo' is an intense, authoritative leadership where the coach decides and rules apply to all, while also demanding a fiercely united group.",
-    "answers": {
-      "lid_01": "CT",
-      "lid_02": "N",
-      "lid_03": "D",
-      "lid_05": "D",
-      "lid_04": "C"
-    }
-  },
-  "archetype": {
-    "epoca": "B",
-    "elenco": "D",
-    "organizacao": "C",
-    "treinador": "A",
-    "final": "A"
-  }
+  "pos": {"personaBrief": "Spielverlagerung 2014 calls Atletico a 'counter-team' that attacks quickly even in forced possession, and Ballverliebt 2012 notes pressing then retreating. Possession is a means, not a goal, though the 3-5-2 era (Football Espana 2020) took more of the ball.", "answers": {"pos_04": "C", "pos_02": "C", "pos_05": "D", "pos_01": "DT", "pos_03": "D"}},
+  "pro": {"personaBrief": "Ballverliebt 2012 stresses the first three seconds after winning the ball, and Goal 2020 notes lethal three-pass breaks. Direct, vertical, safe in midfield, not pass-out-under-press.", "answers": {"pro_05": "C", "pro_04": "C", "pro_01": "C", "pro_03": "C", "pro_02": "D"}},
+  "est": {"personaBrief": "Coaches' Voice and Spielverlagerung describe a rigid 4-4-2 with defined zonal screening and compact lines, with wingers narrowing into half-spaces rather than staying on the touchline. Roles are fixed and drilled; Griezmann-type strikers do drop but the team is not rondo-based.", "answers": {"est_05": "C", "est_01": "C", "est_03": "D", "est_04": "C", "est_02": "D"}},
+  "lar": {"personaBrief": "Spielverlagerung 2014: wingers set up in midfield to occupy half-spaces and compactness; Coaches' Voice: force the ball wide defensively. Later wing-backs in the 3-5-2 (Football Espana 2020) add width, so the team prefers central compactness with flanks used by full-backs.", "answers": {"lar_04": "C", "lar_02": "C", "lar_05": "D", "lar_03": "C", "lar_01": "D"}},
+  "blo": {"personaBrief": "Deep compact 4-4-2 (Into the Calderon 2016, Coaches' Voice) with a mid-block and high press only in bursts (Ballverliebt 2012, Goal 2020). Forwards press the pivots; the default is dropping and waiting.", "answers": {"blo_01": "N", "blo_05": "D", "blo_04": "C", "blo_03": "C", "blo_02": "C"}},
+  "mar": {"personaBrief": "Coaches' Voice explicitly frames his 4-4-2 as zonal screening with sliding lines. Corner defence is unverified, so I rely on the open-play zonal evidence.", "answers": {"mar_05": "DT", "mar_01": "C", "mar_03": "D", "mar_02": "D", "mar_04": "N"}},
+  "pla": {"personaBrief": "A strong, imposed identity across spells (fifa.com 2015: same ideals from Estudiantes to Atletico), but with tactical tweaks like the 4-1-4-1 against Chelsea and variable press height (Spielverlagerung 2014). Keeps the plan and adjusts details.", "answers": {"pla_02": "D", "pla_04": "D", "pla_01": "C", "pla_03": "C", "pla_05": "C"}},
+  "res": {"personaBrief": "partido a partido mantra, 'defender antes que atacar' (El Debate 2022), Goal 2020: not precious but effective. Results over beauty, closing games with a defensive change.", "answers": {"res_05": "CT", "res_04": "DT", "res_01": "DT", "res_03": "CT", "res_02": "C"}},
+  "sis": {"personaBrief": "Publico 2014: collective above the individual; benching Joao Felix who does not buy the defend-first speech (El Debate 2022); Into the Calderon: develops versatile role players. System and duty over free-roaming stars.", "answers": {"sis_05": "C", "sis_02": "D", "sis_03": "CT", "sis_01": "CT", "sis_04": "DT"}},
+  "jog": {"personaBrief": "Spielverlagerung 2014 praises intensity and workrate (Diego Costa brawn), Publico: intensity every second, set-piece and aerial emphasis (Simeone 2025: good headers). Physical intensity valued over classic technique.", "answers": {"jog_04": "C", "jog_03": "D", "jog_01": "D", "jog_02": "CT", "jog_05": "C"}},
+  "bas": {"personaBrief": "Atletico squad built through signings and a small consistent core (Spielverlagerung 2014), heavy rotation in 2022, development of versatile players like Koke and Saul. Not an academy-first or youth-first philosophy.", "answers": {"bas_03": "D", "bas_04": "C", "bas_02": "C", "bas_01": "D", "bas_05": "D"}},
+  "lid": {"personaBrief": "Publico 2014: philosophy imposed inside and outside the pitch, team above any individual; benching stars like Joao Felix (El Debate 2022). Strong authority, rules for all, less negotiation.", "answers": {"lid_01": "CT", "lid_02": "D", "lid_03": "D", "lid_05": "D", "lid_04": "C"}},
+  "archetype": {"epoca": "B", "elenco": "D", "organizacao": "C", "treinador": "A", "final": "A"}
 }

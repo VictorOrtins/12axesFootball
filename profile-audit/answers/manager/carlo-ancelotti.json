@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "No verified evidence; from general knowledge, Ancelotti's Milan kept the ball through Pirlo, while his Real Madrid sides (2013-15, 2021-25) were happy to give it up and counter with Ronaldo, Bale and Vinicius, so possession is a tool, not a principle.",
-    "answers": {
-      "pos_03": "C",
-      "pos_02": "C",
-      "pos_04": "C",
-      "pos_01": "D",
-      "pos_05": "N"
-    }
-  },
-  "pro": {
-    "personaBrief": "No verified evidence; from general knowledge, his teams mix a deep-lying passer who breaks lines (Pirlo, Kroos, Modric) with fast, direct attacks after winning the ball, and he doesn't insist on playing out under pressure.",
-    "answers": {
-      "pro_05": "C",
-      "pro_02": "D",
-      "pro_04": "D",
-      "pro_03": "D",
-      "pro_01": "C"
-    }
-  },
-  "est": {
-    "personaBrief": "The verified shifts between the 4-3-2-1 'Christmas Tree' (Milan 2006-07) and the 4-3-3 (Madrid 2013-14) show a manager who fits the shape to his players; from general knowledge his attackers (Kaka, Benzema, Ronaldo, Vinicius) were allowed to roam rather than hold fixed zones.",
-    "answers": {
-      "est_04": "C",
-      "est_01": "D",
-      "est_02": "N",
-      "est_03": "D",
-      "est_05": "D"
-    }
-  },
-  "lar": {
-    "personaBrief": "No verified evidence on width, but the verified 4-3-2-1 Christmas Tree at Milan played without wingers and filled the middle with playmakers; at Madrid the wide forwards cut inside rather than crossed.",
-    "answers": {
-      "lar_04": "C",
-      "lar_05": "D",
-      "lar_03": "N",
-      "lar_01": "D",
-      "lar_02": "C"
-    }
-  },
-  "blo": {
-    "personaBrief": "No verified evidence; from general knowledge, Ancelotti's teams, especially Madrid in 2013-14 and 2021-25, defended in a compact mid-to-low block and counter-attacked rather than pressing high.",
-    "answers": {
-      "blo_03": "D",
-      "blo_04": "C",
-      "blo_02": "C",
-      "blo_01": "D",
-      "blo_05": "D"
-    }
-  },
-  "mar": {
-    "personaBrief": "No verified evidence; from general knowledge, he comes from the Sacchi zonal school (Milan) and his teams defended zonally, with no dedicated man-markers on star players.",
-    "answers": {
-      "mar_03": "D",
-      "mar_01": "C",
-      "mar_05": "D",
-      "mar_04": "C",
-      "mar_02": "D"
-    }
-  },
-  "pla": {
-    "personaBrief": "The verified formation changes (Christmas Tree to fit Kaka, Seedorf and Pirlo; 4-3-3 at Madrid 2013-14) show him shaping the system around the squad he finds; from general knowledge he adapts to opponents rather than imposing a fixed model.",
-    "answers": {
-      "pla_03": "N",
-      "pla_04": "C",
-      "pla_01": "DT",
-      "pla_02": "C",
-      "pla_05": "D"
-    }
-  },
-  "res": {
-    "personaBrief": "No verified evidence; from general knowledge, he is a pragmatic winner of trophies (five Champions Leagues) who manages games to protect results, more than a manager driven by spectacle.",
-    "answers": {
-      "res_02": "C",
-      "res_05": "C",
-      "res_03": "C",
-      "res_04": "D",
-      "res_01": "D"
-    }
-  },
-  "sis": {
-    "personaBrief": "No verified evidence beyond formations built around his stars (the Christmas Tree for Kaka and Pirlo); from general knowledge he gives great players freedom and spares them some defensive duties, trusting talent over a rigid system.",
-    "answers": {
-      "sis_03": "D",
-      "sis_05": "D",
-      "sis_01": "D",
-      "sis_04": "C",
-      "sis_02": "C"
-    }
-  },
-  "jog": {
-    "personaBrief": "No verified evidence; from general knowledge, he made Pirlo a regista and built midfields of technicians (Seedorf, Kaka, Modric, Kroos), though he also accepts modern athletic demands.",
-    "answers": {
-      "jog_05": "D",
-      "jog_04": "D",
-      "jog_03": "CT",
-      "jog_01": "C",
-      "jog_02": "C"
-    }
-  },
-  "bas": {
-    "personaBrief": "No verified evidence; from general knowledge, his title sides relied on experienced players (Milan's veterans, Madrid's Modric and Kroos), with young players like Vinicius brought in gradually; he is not an academy-builder.",
-    "answers": {
-      "bas_03": "N",
-      "bas_04": "C",
-      "bas_02": "C",
-      "bas_05": "D",
-      "bas_01": "D"
-    }
-  },
-  "lid": {
-    "personaBrief": "No verified evidence; from general knowledge, Ancelotti is the archetype of the calm man-manager who talks to his senior players, protects the group's mood and avoids iron-fist discipline.",
-    "answers": {
-      "lid_05": "CT",
-      "lid_03": "C",
-      "lid_01": "D",
-      "lid_04": "D",
-      "lid_02": "CT"
-    }
-  },
-  "archetype": {
-    "epoca": "D",
-    "elenco": "C",
-    "organizacao": "C",
-    "treinador": "C",
-    "final": "A"
-  }
+"pos":{"personaBrief":"Real Madrid 2021-25 ceded possession (45.7%, 43.8%, 40.8% in the 2021/22 knockouts), sat in a low block and countered; he said the counter becomes lethal with the right strikers, and efficiency was the key.","answers":{"pos_03":"C","pos_02":"C","pos_04":"C","pos_01":"D","pos_05":"C"}},
+"pro":{"personaBrief":"Counter-attacking Madrid (Wikipedia, Bayern 'more direct, more vertical') attacks fast after recovery, yet he built from the back with 3v2 overloads and valued regista Pirlo and Alonso.","answers":{"pro_05":"C","pro_02":"C","pro_04":"D","pro_03":"D","pro_01":"C"}},
+"est":{"personaBrief":"Described as relational and fluid (4-3-3 shifting to 4-4-2/4-3-1-2, Rodrygo joining Vinicius, 'I do not know if it was 4-3-3 or 4-4-2'), giving players individual interpretation.","answers":{"est_04":"C","est_01":"D","est_02":"D","est_03":"D","est_05":"D"}},
+"lar":{"personaBrief":"Mixed: Bale/Ronaldo/Vinicius wide forwards and full-backs gave width, but he used Di Maria as 8, Christmas tree and 4-3-1-2 with narrow midfields and central bodies.","answers":{"lar_04":"C","lar_05":"D","lar_03":"C","lar_01":"N","lar_02":"C"}},
+"blo":{"personaBrief":"At Real Madrid he preferred a mid/low block, 'our pressing isn't too high up', and told players not to press Shakhtar; the high-press attempts were occasional.","answers":{"blo_03":"D","blo_04":"C","blo_02":"C","blo_01":"D","blo_05":"D"}},
+"mar":{"personaBrief":"Open play is zonal-based with man-oriented pieces (CBs tight on the striker); corners are zonal line plus blockers (TFA).","answers":{"mar_03":"D","mar_01":"C","mar_05":"D","mar_04":"C","mar_02":"D"}},
+"pla":{"personaBrief":"Shape suits the players and the opponent ('get the shape to suit the players', 'I am not concerned with my identity'); he adjusted pressing and block by match.","answers":{"pla_03":"C","pla_04":"D","pla_01":"DT","pla_02":"D","pla_05":"DT"}},
+"res":{"personaBrief":"Pragmatic and efficient: low block, counter, dropped deep after going ahead in the 2022 final; more focused on winning than on style.","answers":{"res_02":"C","res_05":"C","res_03":"C","res_04":"DT","res_01":"D"}},
+"sis":{"personaBrief":"Man-manager who modifies tactics for his players, gives Vinicius and Rodrygo freedom, and spared stars like Ronaldo; trust in individuals over system.","answers":{"sis_03":"D","sis_05":"DT","sis_01":"D","sis_04":"C","sis_02":"C"}},
+"jog":{"personaBrief":"Built teams around technical players such as Pirlo as regista, Modric, Kroos, Alonso, Zidane; chose passing quality for the pivot.","answers":{"jog_05":"D","jog_04":"DT","jog_03":"C","jog_01":"C","jog_02":"C"}},
+"bas":{"personaBrief":"Relies on proven veterans such as Modric and Kroos on one-year renewals and signs stars; refuses to use fringe players, and prefers experienced winners.","answers":{"bas_03":"N","bas_04":"C","bas_02":"C","bas_05":"D","bas_01":"DT"}},
+"lid":{"personaBrief":"The 'diva whisperer': treats players as people first, consults them on tactics, and keeps a calm, harmonious dressing room; the Ibrahimovic box kick is the exception.","answers":{"lid_05":"CT","lid_03":"C","lid_01":"D","lid_04":"D","lid_02":"CT"}},
+"archetype":{"epoca":"B","elenco":"E","organizacao":"B","treinador":"A","final":"A"}
 }

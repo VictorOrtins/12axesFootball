@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "No verified possession evidence (gap axis); from general knowledge Sacchi wanted to dominate the game in both phases, consistent with the verified 'fluid, highly organised attacking 4-4-2' and high pressing, so he rejects ceding the ball by design.",
-    "answers": {
-      "pos_03": "C",
-      "pos_04": "D",
-      "pos_01": "C",
-      "pos_02": "D",
-      "pos_05": "C"
-    }
-  },
-  "pro": {
-    "personaBrief": "Gap axis, answered from general knowledge: Sacchi's Milan attacked vertically and quickly after high regains (verified high pressing and 25-metre compactness), with Van Basten runs in behind, rather than patient short build-up under pressure.",
-    "answers": {
-      "pro_01": "C",
-      "pro_04": "D",
-      "pro_03": "D",
-      "pro_05": "C",
-      "pro_02": "D"
-    }
-  },
-  "est": {
-    "personaBrief": "The verified 'highly organised' 4-4-2 with zonal marking and a fixed 25-metre block points to a positional, rehearsed structure where each player knows his zone, while the 'fluid' attack allowed forwards and wide midfielders to move inside.",
-    "answers": {
-      "est_05": "CT",
-      "est_02": "D",
-      "est_04": "C",
-      "est_03": "D",
-      "est_01": "C"
-    }
-  },
-  "lar": {
-    "personaBrief": "Gap axis, from general knowledge: the verified 4-4-2 used wide midfielders and overlapping full-backs rather than touchline wingers, with Gullit and Van Basten as central decisive players.",
-    "answers": {
-      "lar_01": "D",
-      "lar_03": "N",
-      "lar_02": "C",
-      "lar_05": "D",
-      "lar_04": "C"
-    }
-  },
-  "blo": {
-    "personaBrief": "Verified facts: a high defensive line with no more than 25 metres between defence and attack, high pressing and the offside trap, so the block is high and forwards defend first.",
-    "answers": {
-      "blo_01": "CT",
-      "blo_02": "DT",
-      "blo_05": "C",
-      "blo_03": "CT",
-      "blo_04": "DT"
-    }
-  },
-  "mar": {
-    "personaBrief": "Verified: 'Sacchi's teams adopted a zonal marking system', the defining feature of his Milan; defenders protect spaces and no star gets a man-marker.",
-    "answers": {
-      "mar_05": "DT",
-      "mar_04": "CT",
-      "mar_03": "D",
-      "mar_01": "CT",
-      "mar_02": "DT"
-    }
-  },
-  "pla": {
-    "personaBrief": "Gap axis, from general knowledge: Sacchi imposed his game model on Milan and Italy and played the same pressing, high-line football whoever the opponent, consistent with the verified organised 4-4-2.",
-    "answers": {
-      "pla_03": "C",
-      "pla_01": "CT",
-      "pla_05": "CT",
-      "pla_02": "D",
-      "pla_04": "DT"
-    }
-  },
-  "res": {
-    "personaBrief": "Gap axis, from general knowledge: Sacchi held that winning must come with merit and beauty and that great teams are remembered for how they played, though with Italy he was somewhat more pragmatic.",
-    "answers": {
-      "res_04": "C",
-      "res_03": "D",
-      "res_01": "CT",
-      "res_05": "D",
-      "res_02": "D"
-    }
-  },
-  "sis": {
-    "personaBrief": "Gap axis, from general knowledge: Sacchi is the archetype of system over talent, demanding everyone press and defend (verified high pressing and compactness require all eleven) and believing the collective elevates ordinary players.",
-    "answers": {
-      "sis_03": "CT",
-      "sis_05": "CT",
-      "sis_02": "D",
-      "sis_04": "DT",
-      "sis_01": "CT"
-    }
-  },
-  "jog": {
-    "personaBrief": "Gap axis, from general knowledge: his high-pressing, compact system demanded great physical intensity and running from every player, and he notoriously sidelined low-running playmakers such as Baggio with Italy, while still valuing intelligent passers in midfield.",
-    "answers": {
-      "jog_05": "D",
-      "jog_02": "CT",
-      "jog_01": "D",
-      "jog_03": "D",
-      "jog_04": "D"
-    }
-  },
-  "bas": {
-    "personaBrief": "Gap axis, from general knowledge: Milan combined academy players like Maldini and Costacurta (starting young) with big signings like Gullit, Van Basten and Rijkaard; Sacchi chose on fit to the system rather than age or origin, focused on winning.",
-    "answers": {
-      "bas_03": "N",
-      "bas_04": "D",
-      "bas_01": "D",
-      "bas_02": "D",
-      "bas_05": "D"
-    }
-  },
-  "lid": {
-    "personaBrief": "Gap axis, from general knowledge: Sacchi was an obsessive, demanding authority figure who drilled players relentlessly and applied the same rules to stars, decisions being his alone.",
-    "answers": {
-      "lid_04": "C",
-      "lid_03": "D",
-      "lid_05": "D",
-      "lid_02": "D",
-      "lid_01": "CT"
-    }
-  },
-  "archetype": {
-    "epoca": "A",
-    "elenco": "D",
-    "organizacao": "C",
-    "treinador": "D",
-    "final": "C"
-  }
+  "pos": {"personaBrief": "Sacchi's Milan wanted to dictate the game with the ball and control space without it ('the team must dictate the game in possession'), always five men ahead of the ball; Italy 1994 was more pragmatic but still combination-based.", "answers": {"pos_03": "C", "pos_04": "D", "pos_01": "C", "pos_02": "D", "pos_05": "C"}},
+  "pro": {"personaBrief": "Build-up started with the defenders carrying the ball (Coaches' Voice), with short and medium passes by Albertini, but transitions were fast and combinations quick after interceptions.", "answers": {"pro_01": "D", "pro_04": "D", "pro_03": "D", "pro_05": "C", "pro_02": "C"}},
+  "est": {"personaBrief": "Rehearsed shadow football, fixed zones and lines and chains made positions rigid and drilled (FIFA, Spielverlagerung), with only Baggio given license; wingers moved inside and combined centrally.", "answers": {"est_05": "CT", "est_02": "C", "est_04": "C", "est_03": "D", "est_01": "C"}},
+  "lar": {"personaBrief": "4-4-2 with Donadoni/Colombo moving centrally and width supplied by full-backs; Sacchi wanted a player on each wing but 'it can be anyone', so no reliance on classic wingers, and Italy 1994 narrow 4-3 block.", "answers": {"lar_01": "D", "lar_03": "D", "lar_02": "C", "lar_05": "D", "lar_04": "C"}},
+  "blo": {"personaBrief": "High line, offside as attack, forwards pressing centre-backs, compact 25 m block and pressing in the opponent half (Coaches' Voice, FIFA, Sky).", "answers": {"blo_01": "C", "blo_02": "DT", "blo_05": "C", "blo_03": "CT", "blo_04": "DT"}},
+  "mar": {"personaBrief": "Pure zonal marking was the core of the system; he argued against man marking and the sweeper (FIFA, Bleacher Report).", "answers": {"mar_05": "DT", "mar_04": "C", "mar_03": "DT", "mar_01": "CT", "mar_02": "DT"}},
+  "pla": {"personaBrief": "He imposed his own system on arrival at Milan ('those who follow him will remain'), drilled the model and played the same way against anyone, only partly adapting at the 1994 World Cup.", "answers": {"pla_03": "C", "pla_01": "CT", "pla_05": "CT", "pla_02": "DT", "pla_04": "DT"}},
+  "res": {"personaBrief": "Wanted to win on merit and dominate ('90 minutes of joy', 'if you don't win dominating, you must improve'); did not accept a defensive play-for-the-draw mentality.", "answers": {"res_04": "CT", "res_03": "D", "res_01": "C", "res_05": "DT", "res_02": "DT"}},
+  "sis": {"personaBrief": "System over stars: five organised players beat ten disorganised ones, everyone in lines and chains, only Baggio granted some freedom; he looked at the head, not the feet.", "answers": {"sis_03": "CT", "sis_05": "C", "sis_02": "DT", "sis_04": "DT", "sis_01": "CT"}},
+  "jog": {"personaBrief": "Wanted intelligent, multi-purpose runners ('thinks fast' about Ancelotti) and an athletic, intense game; technique mattered but within running and pressing demands.", "answers": {"jog_05": "DT", "jog_02": "C", "jog_01": "D", "jog_03": "D", "jog_04": "DT"}},
+  "bas": {"personaBrief": "Built Milan with signings from Serie B/C plus stars like Gullit and Van Basten and relied on senior players Baresi, Maldini; not an academy-centred or youth-first coach, though he launched Zola and Del Piero for Italy.", "answers": {"bas_03": "D", "bas_04": "D", "bas_01": "D", "bas_02": "D", "bas_05": "D"}},
+  "lid": {"personaBrief": "Autocratic manager who demanded the same rules for all, tension with Van Basten and the big players, Baggio crisis; Berlusconi backed him over players.", "answers": {"lid_04": "C", "lid_03": "D", "lid_05": "DT", "lid_02": "D", "lid_01": "CT"}},
+  "archetype": {"epoca": "A", "elenco": "D", "organizacao": "C", "treinador": "D", "final": "C"}
 }

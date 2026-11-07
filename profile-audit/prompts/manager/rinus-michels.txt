@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, jog, lar, lid, pla, pro, res, sis. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK manager:rinus-michels" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,31 +45,29 @@ After writing the file, reply only with "OK manager:rinus-michels" and a 1-line 
   "id": "rinus-michels",
   "catalog": "manager",
   "name": "Rinus Michels",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "1965-01-22",
     "end": "1975-06-30"
   },
-  "scopeNote": "Manager profile of Rinus Michels across three counted spells: Ajax (22 January 1965 to 30 June 1971: four Eredivisie titles and the 1970-71 European Cup), Barcelona (1 July 1971 to 30 June 1975: La Liga 1973-74) and the Netherlands (27 March to 7 July 1974: World Cup runner-up). Dates are from the managerial table of the English Wikipedia article (day precision). Excluded: Ajax 1975-76, Barcelona 1976-78 (Copa del Rey 1977-78, not read for tactics), and later spells in the USA, Köln, Leverkusen and the Netherlands in 1984-92. Style: the evidence supports total football at Ajax: a fluid 4-3-3 with positional interchange, the offside trap and high pressing. Barcelona's own tactics are not documented in the pages read.",
   "spellsCounted": [
     {
       "club": "Ajax",
       "start": "1965-01-22",
       "end": "1971-06-30",
-      "reason": "Total Football at Ajax: four Eredivisie titles and the 1970-71 European Cup; the source of the style."
+      "reason": "Four Eredivisie titles (1966, 1967, 1968, 1970), European Cup 1970-71; Total Football (totaalvoetbal) origin. Start date verified (FIFA: appointed 22 January 1965)."
     },
     {
       "club": "Barcelona",
       "start": "1971-07-01",
       "end": "1975-06-30",
-      "reason": "La Liga 1973-74 with Cruyff; the same system carried to Barcelona."
+      "reason": "La Liga 1973-74 with Cruyff; 4-3-3 with pressing and offside line carried over (Spanish and Marinho sources)."
     },
     {
       "club": "Netherlands",
       "start": "1974-03-27",
       "end": "1974-07-07",
-      "reason": "World Cup 1974 runner-up; the national side the 1974 team profile is about."
+      "reason": "1974 World Cup runner-up; overlaps the Barcelona spell, both count. First match date 27 March 1974 seen only in a search summary (Cavac); World Cup final 7 July 1974."
     }
   ],
   "spellsExcluded": [
@@ -76,122 +75,1021 @@ After writing the file, reply only with "OK manager:rinus-michels" and a 1-line 
       "club": "Ajax",
       "start": "1975-07-01",
       "end": "1976-06-30",
-      "reason": "Short return, no titles, no tactical coverage read."
+      "reason": "Decided by user: excluded"
     },
     {
       "club": "Barcelona",
       "start": "1976-07-01",
       "end": "1978-06-30",
-      "reason": "Copa del Rey 1977-78 only; the style is defined by the first spell, not read for this period."
+      "reason": "Decided by user: excluded (second spell, Copa del Rey 1978)"
     },
     {
       "club": "Los Angeles Aztecs",
-      "start": "1978-07-01",
-      "end": "1980-10-13",
-      "reason": "No titles, no tactical coverage read."
+      "start": "1978",
+      "end": "1980",
+      "reason": "Decided by user: excluded"
     },
     {
       "club": "1. FC Köln",
-      "start": "1980-10-14",
-      "end": "1983-08-23",
-      "reason": "Single DFB-Pokal title, outside the profile's era."
+      "start": "1980",
+      "end": "1983",
+      "reason": "Decided by user: excluded"
     }
   ],
+  "scopeNote": "Rinus Michels in his three counted spells (Ajax 1965-71, Barcelona 1971-75, Netherlands 1974). Style named by sources: Total Football (totaalvoetbal), described as proactive football: positional interchange in vertical lines, 4-3-3 shape, collective pressing with space reduction, high line with offside trap, goalkeeper as sweeper (Jongbloed 1974). The popular label 'anti-tactics' (FIFA) means flexible positions, not no organisation. Barcelona question: sources (Substack, Marinho in Irish Times/Guardian, La Nacion) say Michels brought the 4-3-3, pressing, possession and the pushed-up offside line to Barcelona, so the Ajax system was played there, with Cruyff only from October 1973 and results short of Ajax in 1971-73; evidence for Barcelona is tier C and retrospective. All evidence is retrospective (no contemporary 1960s-70s press was accessible). Statedview dates: 1974 for the war quote is only the Dutch column placement (attributed); 2020 for the FIFA and Substack quotes is the article year because the quotes are undated (late in life / after retirement); the 2001 quote is a Sky Sports interview about 1965. Excluded spells 1978-80 and 1980-83 have year-only dates because the exact day was not researched. Dates given as seasons where the day could not be found. Marking (zonal vs man) has no source that states it directly: FourFourTwo says Total Football exposed the limits of man-marking, while Neeskens was sent after the opposing playmaker (Irish Times), so a space-oriented block with one assigned man-marking role is the best reading.",
   "ambiguities": [],
   "openQuestions": [
-    "Whether the Barcelona 1971-75 system matched Ajax's (the sources describe Ajax and only mention Barcelona through the 1974 title)."
+    "Zonal vs man-marking at Ajax is not stated by any readable source; only inferred (FourFourTwo vs Neeskens assigned to the playmaker).",
+    "Origin and date of 'Voetbal is oorlog': one Dutch column places it at the 1974 World Cup, Onze Taal says 1970s, Jungle World says it is a shortening of a longer remark that Michels resisted; the English form is attributed, no primary source found.",
+    "Wikipedia and a search summary say Michels played an offside trap at Ajax; the only verified pre-1974 statements are Irish Times (Vasovic, Blankenburg stepping up) and Guide to Football.",
+    "Set-pieces: only 1974 goals from corner and free kick found; no statement of Michels' set-piece design.",
+    "Contested credit: Total Football attributed to Michels versus Cruyff and the Ajax players (Irish Times says Michels himself said it developed semi-organically).",
+    "Cruyff's Barcelona league debut date (28 Oct 1973) and the Hoek van Holland 1974 camp rules were seen only in search summaries or not at all.",
+    "Michels' first Netherlands match 27 March 1974 only in a search summary (Cavac)."
   ],
   "sources": [
     {
-      "title": "Rinus Michels - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
-      "tier": "C",
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
       "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-17",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
       "dimension": "shape",
-      "evidence": "\"Michels's favoured formation was a fluid 4–3–3\" (Ajax era, no season given)",
-      "verified": true
+      "evidence": "For Total Football to work, Michels knew a formation needed total oscillation.",
+      "verified": true,
+      "retrospectiveOnly": true
     },
     {
-      "title": "Rinus Michels - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
-      "tier": "C",
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
       "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"regularly switching positions to ensure that the tactical roles in the team were consistently filled\" (Ajax, after 1965 appointment)",
-      "verified": true
-    },
-    {
-      "title": "Rinus Michels - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "\"Another aspect of the system was the use of the offside trap.\" (Ajax era, no season given)",
-      "verified": true
-    },
-    {
-      "title": "Rinus Michels - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-17",
-      "dimension": "pressing",
-      "evidence": "\"highlighting the use of pressing, which would be used to win back the ball\" (Ajax era, as recalled by Barry Hulshoff)",
-      "verified": true
-    },
-    {
-      "title": "Rinus Michels - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-17",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
       "dimension": "possession",
-      "evidence": "\"The major component of Total Football was the use of space, and the need to consistently create it.\" (Ajax era)",
+      "evidence": "In possession, Ajax – and later the Dutch national team – aimed to make the pitch as large as possible, spreading play to the wings and seeing every run and movement as a way to increase and exploit the available space.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "In possession, Ajax – and later the Dutch national team – aimed to make the pitch as large as possible, spreading play to the wings and seeing every run and movement as a way to increase and exploit the available space.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Michels saw the need for a team capable of switching between attack and defence on-the-fly, while attempting to reclaim possession as fast as possible through space reduction and direct pressure on the opponent with the ball and secondary pressure on any nearby passing options while cutting off passing lanes.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Michels saw the need for a team capable of switching between attack and defence on-the-fly, while attempting to reclaim possession as fast as possible through space reduction and direct pressure on the opponent with the ball",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "When they lost the ball, the same thinking and techniques were used to destroy the space of their opponents.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "The result was more than just a display of defensive dictation; it saw the emergence of fluid triangular passing patterns moving forward after possession was regained – often in the opponent’s defensive third.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1970/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "We played with a lot of pressure on the other team, with a lot of risk in the back. The defenders went forward, the forwards came back.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1970/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "He even used the goalkeeper … as a libero, playing outside the area.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "In short, to play for Rinus Michels one had to be a total footballer: fit, smart, tough and versatile.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "His was the hardest physical preparation I ever had. We sometimes had four sessions a day.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "he as very strict with the players and there were lots of arguments about discipline. The message was pretty clear; those who did not like would have to leave.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "At the beginning of the season we had one week of very hard training: five training sessions a day. It was like military camp.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "He also introduced the Italian system of taking players away for a period of concentrated training before a big match.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Michels is famous for proclaiming: “Football is something like war. Whoever behaves too properly is lost.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1965",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "I needed to change my approach and needed to make it clear to everyone that even though they [the players] were semi-professionals, money and spectator numbers were at stake.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1971/72",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Michels found that the major issue with players from Spain was not their talent, but their sensitivity to the type of criticism, direct instruction, and working expectations he demanded.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels and the Total Football rebellion",
+      "url": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-28",
+      "eventDate": "1971/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "What Michels needed at Barcelona was the establishment of his system and the recruitment of two of his Dutch stars in Johan Neeskens and Johan Cruyff to join him in Spain.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1970/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Rinus Michels would depute Neeskens to look after the opposition’s playmaker and he would pursue him, often deep into the opposition half.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1970/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "relying initially on Velibor Vasovic and later on Horst Blankenburg to protect the space behind the defensive line by stepping up to catch opponents offside.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "When I went to Barcelona, Michels wanted the centre backs to push out to make the offside line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "What he wanted was for us then to charge the guy with the ball with the players we had spare because they had men out of the game in offside positions. That’s how offside becomes an offensive game.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1974/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "I pushed up and we caught four or five players offside. I was pleased, because it was still new to me and I was finding it difficult, but Michels came and shouted at me.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1965/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Michels was always clear that Total Football, although it became theorised, was not in origin a theory, but something that developed semi-organically, because of the players at Ajax, many of whom had played together at youth level and become used to adapting their games to each other.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "If Cruyff was the genius behind Total Football, Johan Neeskens was its beating heart",
+      "url": "https://www.irishtimes.com/sport/soccer/2024/10/08/if-cruyff-was-the-genius-behind-total-football-johan-neeskens-was-its-beating-heart",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-10-08",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "many of whom had played together at youth level and become used to adapting their games to each other.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Michels drastically altered the side, developing the central defensive partnership of Ajax central midfielder Arie Haan and Feyenoord right back Wim Riijsbergen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Michels drastically altered the side, developing the central defensive partnership of Ajax central midfielder Arie Haan and Feyenoord right back Wim Riijsbergen.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Valued more for his ability to sweep up behind the high back line than for his ability as a shot stopper, Jongbloed would prove vital for the style of play that Michels wanted his Holland side to adopt.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Cruyff’s movement triggered the movement of the other nine outfield players, and the effective use of the offside trap constantly outwitted Uruguay’s attackers.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Krol doubled the lead from a corner, leaving the match 2-0 at half time.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "From a free kick, van Hanegem quickly passed to Neeskens in the centre forward position",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Michels also made a change for the match, withdrawing Anderlecht left winger Rob Rensenbrink and starting Piet Keizer, the Ajax player, captain and longtime attacking partner of Johan Cruyff.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "left winger Rob Rensenbrink never truly adapted to Totaalvoetbal, admittedly disliking tactics",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Holland passed the ball around, retaining possession and playing some nice football, but largely going nowhere and, most importantly, failing to score.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Holland 1974: the greatest failures in history",
+      "url": "https://thesefootballtimes.co/2015/10/11/holland-1974-the-legendary-failed-heroes-of-the-oranje/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2015-10-11",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "They passed the ball carefully, but could be ruthlessly effective when direct.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1965-01-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "When Michels was appointed Ajax coach on 22 January 1965, he took charge of a team embroiled in a battle against relegation.",
       "verified": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "a bright and serious man, nicknamed 'The General' for his uncompromising manner",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "His 1974 team ostensibly lined up in a 4-3-3, with Jonny Rep charging down the right flank and Rob Rensenbrink doing the same down the left.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Charges from fullbacks Wim Suurbier and Ruud Krol added further options in an attack that seemed to swell and recede at will",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Michels, appointed post-qualification, had only three friendly matches to prepare before the finals.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "a team comprised mostly of Ajax and Feyenoord players came together quickly under their new coach, who did a remarkable job building multifarious factions into a whole.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "The key to Michels' concept was intelligent movement, understanding and fitness.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The watchmaker behind the Clockwork Oranje",
+      "url": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-03",
+      "eventDate": "1974",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "It is an art in itself to compose a starting team, finding the balance between creative players and those with destructive powers, and between defence, construction and attack",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The in-depth history of Ajax and Barcelona's unique relationship",
+      "url": "https://thesefootballtimes.co/2017/09/25/the-in-depth-history-of-ajax-and-barcelonas-unique-relationship/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-25",
+      "eventDate": "1966/67",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Key players were acquired, notably Velibor Vasović, a bruising defender who could also pass the ball with great accuracy.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The in-depth history of Ajax and Barcelona's unique relationship",
+      "url": "https://thesefootballtimes.co/2017/09/25/the-in-depth-history-of-ajax-and-barcelonas-unique-relationship/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-25",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Michels cared greatly about nurturing talent and eking improvement from people.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The in-depth history of Ajax and Barcelona's unique relationship",
+      "url": "https://thesefootballtimes.co/2017/09/25/the-in-depth-history-of-ajax-and-barcelonas-unique-relationship/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-25",
+      "eventDate": "1969",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "They were still slightly raw in 1969 when AC Milan dispensed a 4-1 reverse in the European Cup final",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The in-depth history of Ajax and Barcelona's unique relationship",
+      "url": "https://thesefootballtimes.co/2017/09/25/the-in-depth-history-of-ajax-and-barcelonas-unique-relationship/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-25",
+      "eventDate": "1966/67",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Ajax came of age with a historic thumping of Liverpool in December 1966.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Tras pérdida de balón, cada jugador debía presionar al rival con intensidad, hasta recuperar el esférico lo antes posible y volver a lanzar el ataque.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Los equipos de Michels se movían como un acordeón, siempre guardando una escasa distancia entre sus líneas, siempre conjugados y presionando al poseedor del esférico.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "El juego ideado por el técnico holandés se asentaba sobre tres pilares inquebrantables: la práctica del fuera de juego, la presión ofensiva y la posesión del balón.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "habiendo implantado una semilla que calaría muy hondo en Barcelona, como su sistema 4-3-3 y un estilo de juego marcado por la posesión y la presión, Michels abandonó el club.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "habiendo implantado una semilla que calaría muy hondo en Barcelona, como su sistema 4-3-3 y un estilo de juego marcado por la posesión y la presión",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "A Michels, ya en 1971, lo apodaría la prensa de entonces “Mr. Mármol”.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Cualquier detalle, por pequeño que fuese, podía sentar a la estrella de turno en el banquillo.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1972/73",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Ninguno de ellos estaban precisamente satisfechos con el entrenador, ya que era habitual que la intransigencia del holandés dejase en el banquillo a ambos.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Montal Costa decidió fichar al entrenador holandés.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1973",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Johan Cruyff, (que no llegaría a Barcelona hasta 1973)",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "El fútbol ya no debía primar mantener la portería a cero.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Rinus Michels El general olvidado",
+      "url": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-03-06",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Rinus Michels, lo llamaría “la presión total”.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El inventor del futbol total",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2005-03-04",
+      "eventDate": "1971/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Con un esquema de 4-3-3, en el que se destacaba el papel de lo que muchos años después serían \"los carrileros\"",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El inventor del futbol total",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2005-03-04",
+      "eventDate": "1973/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Barcelona contrató al también holandés Johan Cruyff, que llegó comenzada la temporada y ayudó a que los azulgranas consiguieran un título que se les negaba hacía 14 años.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El inventor del futbol total",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2005-03-04",
+      "eventDate": "1971/75",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Una estrategia sobre la base de una extraordinaria preparación física y en una dura disciplina de equipo que le valieron apelativos como \"el General\" o \"Míster Mármol\".",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El inventor del futbol total",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2005-03-04",
+      "eventDate": "1965/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Como jugador y como entrenador, nadie me enseñó más que Rinus Michels en toda mi vida futbolística, y siempre admiré sus dotes de mando.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "El inventor del futbol total",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2005-03-04",
+      "eventDate": "1971/73",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Michels no tuvo suerte en las dos primeras temporadas, en las que el equipo estuvo cerca del campeonato.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Total football | Guide to Football",
+      "url": "https://guidetofootball.com/history/total-football/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "His tactical thinking emphasised pressing high up the pitch, exchanging positions in attack, and dominating possession.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Total football | Guide to Football",
+      "url": "https://guidetofootball.com/history/total-football/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The high defensive line was a necessary consequence — to keep the team compact, the defenders had to play far up the pitch, with an offside trap to catch opposition forwards who tried to run in behind.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Total football | Guide to Football",
+      "url": "https://guidetofootball.com/history/total-football/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "1965/71",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "He was a demanding coach, with a reputation for strict discipline and meticulous preparation.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "6 football tactics that changed the game as we know it",
+      "url": "https://www.fourfourtwo.com/features/6-football-tactics-changed-game-we-know-it",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "1965/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Rinus Michels’ 'total football' system he used with Ajax, Barcelona and the Netherlands exposed the limitations of man-marking.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "6 football tactics that changed the game as we know it",
+      "url": "https://www.fourfourtwo.com/features/6-football-tactics-changed-game-we-know-it",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "1965/74",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "players would generally swap positions in ‘vertical’ lines – a right-sided defender running forward, for example, would then be replaced by a right-sided midfielder. Lateral swapping was rarer.",
+      "verified": true,
+      "retrospectiveOnly": true
     }
   ],
-  "statedView": [],
-  "unreadable": [],
+  "statedView": [
+    {
+      "quote": "Football is something like war. Whoever behaves too properly is lost.",
+      "date": "1974",
+      "source": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I needed to change my approach and needed to make it clear to everyone that even though they [the players] were semi-professionals, money and spectator numbers were at stake. And for that they needed to do certain things, and stop others.",
+      "date": "2001",
+      "source": "https://thesefootballtimes.co/2016/01/28/rinus-michels-and-the-total-football-rebellion/",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "It is an art in itself to compose a starting team, finding the balance between creative players and those with destructive powers, and between defence, construction and attack, never forgetting the quality of the opposition and the specific pressures of each match.",
+      "date": "2020",
+      "source": "https://inside.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Dile a los niños que los he visto correr hacia atrás. Y en el Ajax de Ámsterdam, se defiende siempre hacia adelante.",
+      "date": "2020",
+      "source": "https://estadijohan.substack.com/p/rinus-michels-el-general-olvidado",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Como jugador y como entrenador, nadie me enseñó más que Rinus Michels en toda mi vida futbolística (Cruyff about Michels)",
+      "date": "2005-03",
+      "source": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Era un entrenador con una autoridad natural por el que los jugadores siempre teníamos un gran respeto. (Ronald Koeman about Michels)",
+      "date": "2005-03",
+      "source": "https://www.lanacion.com.ar/deportes/futbol/el-inventor-del-futbol-total-nid684439",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/newsid=2253548.html",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.fifa.com/news/the-watchmaker-behind-the-clockwork-oranje",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.attackingfootball.com/?p=7047",
+      "reason": "403"
+    },
+    {
+      "url": "https://footballbh.net/?p=520956",
+      "reason": "403"
+    },
+    {
+      "url": "https://vault.si.com/vault/1979/04/30/total-soccer-could-be-a-dutch-treat-rinus-michels-brought-his-own-concept-of-quotvoetbalquot-to-la-if-the-aztecs-can-master-it-credit-him-with-a-miracle",
+      "reason": "404"
+    },
+    {
+      "url": "https://gameofthepeople.com/2020/09/18/ajax-1971-men-of-their-time/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.bramdegraaf.info/assets/upload/TK1974.pdf",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0230-0e94a8068d01-a93b114660e2-1000--in-profile-rinus-michels",
+      "reason": "not-accessible"
+    }
+  ],
+  "influences": [
+    "Jack Reynolds",
+    "Vic Buckingham",
+    "Brazil 4-2-4",
+    "Hungarian and Austrian Wunderteam fluid systems"
+  ],
   "gaps": {
-    "dimensions": [
-      "build-up",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "set-pieces",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "jog",
-      "lar",
-      "lid",
-      "pla",
-      "pro",
-      "res",
-      "sis"
-    ]
+    "dimensions": [],
+    "axes": []
   },
-  "influences": [],
   "confidence": {
     "level": "medium",
-    "reason": "Dated career table and five Ajax-era tactical facts from the Wikipedia career section; no season-specific analysis read."
+    "reason": "Several tier B pieces (These Football Times) and consistent tier C sources agree on Total Football, pressing, high line and discipline, but no tier A source was readable, all evidence is retrospective, and marking, set-pieces and Barcelona detail rely on tier C or a single quote."
   }
 }
 
@@ -477,3 +1375,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: The coach is the boss, and the stars follow the same rules as everyone else.
    Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
    Disagree means: The coach negotiates with the stars, and they can be treated differently.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

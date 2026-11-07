@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "No verified tactical evidence (pos is a gap); from general knowledge, Pedro Emanuel is a pragmatic coach whose cup wins at Académica, Apollon and Al Taawoun came mostly as an underdog, built on defensive organisation and counter-attacks rather than possession.",
-    "answers": {
-      "pos_03": "C",
-      "pos_05": "D",
-      "pos_01": "D",
-      "pos_02": "C",
-      "pos_04": "C"
-    }
-  },
-  "pro": {
-    "personaBrief": "Gap axis; from general knowledge his teams progress fairly directly, looking for forwards early and avoiding risk near their own box, which fits an underdog cup-winning record.",
-    "answers": {
-      "pro_03": "D",
-      "pro_04": "C",
-      "pro_01": "C",
-      "pro_05": "C",
-      "pro_02": "D"
-    }
-  },
-  "est": {
-    "personaBrief": "Gap axis; from general knowledge, as a former Porto centre-back trained in the Portuguese school, he favours clear, rehearsed positions and an organised shape over free relational play.",
-    "answers": {
-      "est_03": "D",
-      "est_01": "C",
-      "est_02": "D",
-      "est_04": "C",
-      "est_05": "CT"
-    }
-  },
-  "lar": {
-    "personaBrief": "Gap axis; from general knowledge his counter-oriented sides use the flanks and crosses as a main attacking route rather than packing the middle.",
-    "answers": {
-      "lar_01": "C",
-      "lar_02": "D",
-      "lar_03": "C",
-      "lar_05": "N",
-      "lar_04": "D"
-    }
-  },
-  "blo": {
-    "personaBrief": "Gap axis; from general knowledge he sets compact mid-to-low blocks, as in the Académica 2011-12 cup run, with forwards still helping the first line but no all-out high press.",
-    "answers": {
-      "blo_04": "C",
-      "blo_05": "N",
-      "blo_01": "D",
-      "blo_03": "C",
-      "blo_02": "C"
-    }
-  },
-  "mar": {
-    "personaBrief": "Gap axis; from general knowledge he follows Portuguese zonal defending, with defenders protecting space rather than following individual opponents.",
-    "answers": {
-      "mar_03": "D",
-      "mar_04": "C",
-      "mar_02": "D",
-      "mar_01": "C",
-      "mar_05": "D"
-    }
-  },
-  "pla": {
-    "personaBrief": "Gap axis; from general knowledge he is an adaptive coach who has worked in Portugal, Cyprus, Spain, the Gulf and Brazil, shaping plans around his squad and the opponent, especially as an underdog in cup finals.",
-    "answers": {
-      "pla_03": "D",
-      "pla_05": "D",
-      "pla_01": "D",
-      "pla_02": "C",
-      "pla_04": "C"
-    }
-  },
-  "res": {
-    "personaBrief": "Gap axis; from general knowledge his profile is result-first: his counted spells are defined by cup trophies (Taça de Portugal 2011-12, Cypriot Cup 2015-16, King's Cup 2019) won through pragmatism rather than spectacle.",
-    "answers": {
-      "res_03": "CT",
-      "res_02": "C",
-      "res_01": "D",
-      "res_05": "C",
-      "res_04": "D"
-    }
-  },
-  "sis": {
-    "personaBrief": "Gap axis; from general knowledge, coaching mostly modest squads, he relies on collective organisation and tactical duties for everyone rather than on stars' freedom.",
-    "answers": {
-      "sis_02": "D",
-      "sis_03": "C",
-      "sis_05": "C",
-      "sis_04": "D",
-      "sis_01": "C"
-    }
-  },
-  "jog": {
-    "personaBrief": "Gap axis; from general knowledge, as a former combative centre-back, he values physical intensity, duels and aerial strength, especially in defensive midfielders.",
-    "answers": {
-      "jog_03": "D",
-      "jog_05": "C",
-      "jog_02": "CT",
-      "jog_04": "C",
-      "jog_01": "N"
-    }
-  },
-  "bas": {
-    "personaBrief": "Gap axis; from general knowledge his short spells at many clubs, often in the Gulf, rely on experienced players and signings rather than academy development.",
-    "answers": {
-      "bas_01": "D",
-      "bas_03": "N",
-      "bas_04": "C",
-      "bas_02": "C",
-      "bas_05": "D"
-    }
-  },
-  "lid": {
-    "personaBrief": "Gap axis; from general knowledge, a former Porto captain, he leads with clear authority and equal rules, while valuing group unity and listening to dressing-room leaders.",
-    "answers": {
-      "lid_02": "C",
-      "lid_05": "D",
-      "lid_04": "C",
-      "lid_01": "CT",
-      "lid_03": "C"
-    }
-  },
-  "archetype": {
-    "epoca": "B",
-    "elenco": "B",
-    "organizacao": "A",
-    "treinador": "A",
-    "final": "A"
-  }
+"pos":{"personaBrief":"Sources say he wants teams to take the game on and not wait (ge), Vasco had 51% vs Fluminense and wanted to control with the ball against Coritiba, yet his wins came on counters with fast wide players (Lance!, VAVEL).","answers":{"pos_03":"C","pos_05":"C","pos_01":"D","pos_02":"C","pos_04":"N"}},
+"pro":{"personaBrief":"He builds short from the back with a three-man exit and a volante dropping (ge, Lance!), values clean ball from Tche Tche, and attacks quickly on transitions and with crosses at Al Taawoun.","answers":{"pro_03":"D","pro_04":"C","pro_01":"C","pro_05":"C","pro_02":"C"}},
+"est":{"personaBrief":"Well-defined phases (construcao a tres, 4-2-3-1 to 4-1-4-1, Sosa controlling distance between lines), with some fluid roles such as Colidio dropping as a meia and wingers shifted centrally.","answers":{"est_03":"D","est_01":"C","est_02":"D","est_04":"C","est_05":"C"}},
+"lar":{"personaBrief":"Al Taawoun was third in crosses with bold wingers and daring full-backs, and Vasco uses fast wide players and full-backs jumping the line, though with a three-volante midfield.","answers":{"lar_01":"C","lar_02":"D","lar_03":"C","lar_05":"C","lar_04":"D"}},
+"blo":{"personaBrief":"Presses in three moments, a medium/high 4-1-4-1, intense pressing at Al Taawoun and aggressive regains, dropping to 4-4-1 or a five-man line only when protecting a lead.","answers":{"blo_04":"D","blo_05":"C","blo_01":"C","blo_03":"C","blo_02":"D"}},
+"mar":{"personaBrief":"Only VAVEL mentions individual encaixes against Fluminense, while his structure otherwise relies on compact lines and positioning; evidence is thin and mixed.","answers":{"mar_03":"C","mar_04":"C","mar_02":"C","mar_01":"D","mar_05":"N"}},
+"pla":{"personaBrief":"He says he makes a plan for each opponent and picks players accordingly, changed the Vitoria game with substitutions, and shifted shape between games (two vs three volantes), while keeping a base build-up.","answers":{"pla_03":"D","pla_05":"D","pla_01":"D","pla_02":"C","pla_04":"C"}},
+"res":{"personaBrief":"Pragmatic knockout winner: closed games with five defenders at the end vs Fluminense, three volantes for defensive consistency, praise for clean sheets; cup titles over aesthetics.","answers":{"res_03":"C","res_02":"C","res_01":"D","res_05":"C","res_04":"D"}},
+"sis":{"personaBrief":"Collective tactical roles and duties for all, rotating players by performance, competitive squad; a system with discipline (Sosa, balanco defensivo) over individual freedom.","answers":{"sis_02":"D","sis_03":"C","sis_05":"C","sis_04":"D","sis_01":"C"}},
+"jog":{"personaBrief":"Wants intensity in duels and marking (three volantes, Rojas cobrado for intensity), Taawoun with most fouls, but also values quality on the ball and passing from the midfield.","answers":{"jog_03":"D","jog_05":"N","jog_02":"C","jog_04":"D","jog_01":"C"}},
+"bas":{"personaBrief":"Says quality has no age and played two 17-year-olds, calls up a base player at Vasco, but also signs foreigners and keeps competition; neither strongly youth nor experience.","answers":{"bas_01":"D","bas_03":"C","bas_04":"D","bas_02":"D","bas_05":"D"}},
+"lid":{"personaBrief":"Resets the group, builds confidence and tells players they are always valuable, but says no places are guaranteed and leaves players out by choice.","answers":{"lid_02":"C","lid_05":"C","lid_04":"C","lid_01":"C","lid_03":"D"}},
+"archetype":{"epoca":"C","elenco":"E","organizacao":"C","treinador":"D","final":"A"}
 }

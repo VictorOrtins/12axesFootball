@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, jog, lar, lid. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK manager:diego-simeone" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,149 +45,954 @@ After writing the file, reply only with "OK manager:diego-simeone" and a 1-line 
   "id": "diego-simeone",
   "catalog": "manager",
   "name": "Diego Simeone",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2006-05-18",
     "end": "ongoing"
   },
-  "scopeNote": "Manager profile of Diego Simeone across four counted spells: Estudiantes (18 May 2006 to 3 December 2007: 2006 Apertura), River Plate (15 December 2007 to 7 November 2008: 2008 Clausura), and Atlético Madrid (23 December 2011 to the present: Europa League 2011-12 and 2017-18, La Liga 2013-14 and 2020-21, Champions League runner-up 2013-14 and 2015-16). Dates from the Wikipedia statistics table, read at step 1. Excluded: Racing Club 2006 and 2011 (short spells, no titles), San Lorenzo 2009-10 and Catania 2011 (no titles). The period is ongoing because the Atlético spell is listed as present on the page.",
+  "scopeNote": "Spells counted (user decided): Estudiantes 2006-05-18 to 2007-12-03 (Apertura 2006), River Plate 2007-12-15 to 2008-11-07 (Clausura 2008), Atlético Madrid 2011-12-23 to ongoing. Style called 4-4-2 deep/mid block with zonal screening (Coaches' Voice, Spielverlagerung); later 3-5-2/5-3-2 hybrid from 2020-21. 'Cholismo' is a media/cultural label which Simeone himself distanced from (fifa.com 2015). Evidence for Estudiantes and River is thin (match reports and a retrospective only, no tier A-B tactical coverage found). Atlético change over time: 2012 4-4-1-1 with fast transitions; 2013/14 4-4-2 narrow, wingers inside, full-backs press wide; 2015/16 deep 4-4-2 with a wing-forward variant; 2020-21 3-5-2 with wing-backs; 2023/24 3-5-2 with carrileros; 2024/25 set-piece short-corner work. Dates for spells taken from the user brief, not re-sourced. Source dates are partial where the match day was not found. Excluded spells carry year-only dates because the user brief gave years only.",
+  "ambiguities": [],
+  "openQuestions": [
+    "No tier A-B source found that describes Atlético's own corner defence as zonal, man or mixed; only the Coaches' Voice zonal-marking explainer (open play) and an attacking short-corner study.",
+    "Estudiantes 2006-07 and River 2007-08 have no tactical analysis found; shape/pressing for these spells unverified.",
+    "Joao Félix relationship is press narrative (El Debate); Simeone's own statements not mined.",
+    "The Masterminds Site 2020-21 analysis returned 403; could not be used.",
+    "Whether 'partido a partido' is a primary Simeone quote: Público (2014) calls it a 'mantra' without a dated quote."
+  ],
+  "sources": [
+    {
+      "title": "Zonal marking: football tactics explained - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/zonal-marking-football-tactics-explained-mourinho-conte-simeone/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Diego Simeone has often favoured a low block with Atlético Madrid, with compactness between units and individuals totally key. Using his favoured 4-4-2, the two centre-forwards zonally screen the opposing pivots, with both wide midfielders then narrowing to cover the inside channels (below). The aim here is to force the ball wide, with the entire back four sliding across and the full-backs aggressive in closing down opponents in the wide channels.",
+      "verified": true,
+      "note": "undated period description; Coaches' Voice speaks of Simeone's favoured 4-4-2 low block, no season given"
+    },
+    {
+      "title": "Zonal marking: football tactics explained - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/zonal-marking-football-tactics-explained-mourinho-conte-simeone/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Using his favoured 4-4-2, the two centre-forwards zonally screen the opposing pivots, with both wide midfielders then narrowing to cover the inside channels",
+      "verified": true
+    },
+    {
+      "title": "Zonal marking: football tactics explained - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/zonal-marking-football-tactics-explained-mourinho-conte-simeone/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "the two centre-forwards zonally screen the opposing pivots ... The aim here is to force the ball wide, with the entire back four sliding across and the full-backs aggressive in closing down opponents in the wide channels.",
+      "verified": true
+    },
+    {
+      "title": "Zonal marking: football tactics explained - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/zonal-marking-football-tactics-explained-mourinho-conte-simeone/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-08-19",
+      "eventDate": "2022",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "both wide midfielders then narrowing to cover the inside channels (below). The aim here is to force the ball wide",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Atletico Madrid often play in a 4-4-2 with a deep midfield press. The two strikers work up to the central midfield and the midfield chain is narrower than the defensive line.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "The narrow midfield chain and the dynamic shifting of their other teammates forces the opponent to pass to the sidelines, giving Atlético almost constant control over the center of the pitch.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Atlético clenched so tight that a pass into the intermediate line space was impossible. There was a clear 4-4-2 and the horizontal lines in the bands seemed to almost be drawn straight across the pitch.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "The wingers set up in the midfield rather than on the wings in order to occupy the half-spaces and provide horizontal compactness. Because of this and the movement of the two strikers, the opponent is lured to the wings, where they are then very aggressively pressed.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Atlético can be difficult to handle on the counter because they are really outstanding in their defensive Umschaltspiel (transitions) as well as in their protective alignment in possession and rarely allow themselves to be countered.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Atlético Madrid also uses these combinations in possession – even in forced possession against very deep, passive opponents – as a “counter-team”. They attack quickly and create chaos and disorganization to find a rapid breakthrough.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Using the winger as a half-space player they have the option to pass from one half-space to the other to force the opponent into a more complex move without having to pass along the wings.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Against Chelsea they even switched to a 4-1-4-1 to maintain the lead and also vary their height and ability to press.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "It is well known what Diego Costa possesses; an incomprehensible acceleration, which often betrays his speed, the ability to cause the opposing central defenders physical and mental problems, an enormous brawn, and a high skill in motion coupled with a great workrate.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Thus, Atlético can press in a 4-4-2, 4-2-2-2, 4-4-2-0, 4-4-1-1 and an extremely compact 4-1-3-2, by varying the distances, the pressing height, and their tasks. From a deep defensive press with a lot of passivity and passing along the wings to a high attacking press with tremendous aggression and passing in the middle.",
+      "verified": true
+    },
+    {
+      "title": "Atlético Madrid under Diego Simeone in 2014 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/2014/07/16/atletico-madrid-under-diego-simeone-2014/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2014-07-16",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "It is amazing to see a team that plays with such intensity and with such a small squad remain consistent for two years without any major injuries, losses, or idle phases.",
+      "verified": true
+    },
+    {
+      "title": "Simeone bremst seinen Lehrmeister aus - Atlético mit 3:0 Europa-League-Champ! (Ballverliebt)",
+      "url": "https://ballverliebt.substack.com/p/simeone-bremst-seinen-lehrmeister-aus-atletico-mit-30-europa-league-champ",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2012-05-10",
+      "eventDate": "2012-05-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Die Madrilenen spielten in einem 4-4-1-1, das aber sehr flexibel interpretiert wurde; im Bedarfsfall konnte es schnell ein 4-3-3 werden.",
+      "verified": true
+    },
+    {
+      "title": "Simeone bremst seinen Lehrmeister aus - Atlético mit 3:0 Europa-League-Champ! (Ballverliebt)",
+      "url": "https://ballverliebt.substack.com/p/simeone-bremst-seinen-lehrmeister-aus-atletico-mit-30-europa-league-champ",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2012-05-10",
+      "eventDate": "2012-05-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Er ließ seine Mannschaft mit einem ungeheuren Pressing beginnen.",
+      "verified": true
+    },
+    {
+      "title": "Simeone bremst seinen Lehrmeister aus - Atlético mit 3:0 Europa-League-Champ! (Ballverliebt)",
+      "url": "https://ballverliebt.substack.com/p/simeone-bremst-seinen-lehrmeister-aus-atletico-mit-30-europa-league-champ",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2012-05-10",
+      "eventDate": "2012-05-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Die Madrilenen zogen sich etwas zurück, pressten nur noch mit zwei Mann (Diego und Falcao) und selbst das erst in der eigenen Hälfte und nicht annähernd in der Intensität wie zum unmittelbaren Start.",
+      "verified": true
+    },
+    {
+      "title": "Simeone bremst seinen Lehrmeister aus - Atlético mit 3:0 Europa-League-Champ! (Ballverliebt)",
+      "url": "https://ballverliebt.substack.com/p/simeone-bremst-seinen-lehrmeister-aus-atletico-mit-30-europa-league-champ",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2012-05-10",
+      "eventDate": "2012-05-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Simeones Mannschaft achtete ganz extrem darauf, nach Ballgewinn so schnell wie möglich von Defensive auf Offensive umzuschalten. In diesen ersten drei Sekunden nach Ballgewinn",
+      "verified": true
+    },
+    {
+      "title": "Simeone bremst seinen Lehrmeister aus - Atlético mit 3:0 Europa-League-Champ! (Ballverliebt)",
+      "url": "https://ballverliebt.substack.com/p/simeone-bremst-seinen-lehrmeister-aus-atletico-mit-30-europa-league-champ",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2012-05-10",
+      "eventDate": "2012-05-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Also zog Simeone hinten seine Viererkette zusammen. Die Außenverteidiger kümmerten sich um Muniain und Susaeta, die Mittelfeld-Außen um die aufrückenden Iraola und Aurtenetxe",
+      "verified": true
+    },
+    {
+      "title": "Simeone bremst seinen Lehrmeister aus - Atlético mit 3:0 Europa-League-Champ! (Ballverliebt)",
+      "url": "https://ballverliebt.substack.com/p/simeone-bremst-seinen-lehrmeister-aus-atletico-mit-30-europa-league-champ",
+      "tier": "B",
+      "language": "de",
+      "articleDate": "2012-05-10",
+      "eventDate": "2012-05-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Adrián auf der rechten Außenbahn ist an sich gelernter Stürmer und stand sehr hoch.",
+      "verified": true
+    },
+    {
+      "title": "Analysis: How Will Atletico Attack Barça? (Into the Calderon)",
+      "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "the characteristic deep and narrow 4-4-2 that Simeone is known for",
+      "verified": true
+    },
+    {
+      "title": "Analysis: How Will Atletico Attack Barça? (Into the Calderon)",
+      "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The achilles heel of Simeone's deep 4-4-2 approach is down the flanks. Atletico concedes advanced wide areas to the opposition and, if they deal with the crosses, this isn't a problem.",
+      "verified": true
+    },
+    {
+      "title": "Analysis: How Will Atletico Attack Barça? (Into the Calderon)",
+      "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "At that point, Simeone made a significant tactical change. From the 20th minute when the change was made until the 35th when Fernando Torres received his second yellow card, Atletico dominated the match.",
+      "verified": true
+    },
+    {
+      "title": "Analysis: How Will Atletico Attack Barça? (Into the Calderon)",
+      "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Carrasco had license to surge forward and flank Griezmann with Torres working in the channel between Jordi Alba and Javier Mascherano.",
+      "verified": true
+    },
+    {
+      "title": "Analysis: How Will Atletico Attack Barça? (Into the Calderon)",
+      "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "One of Simeone’s greatest strengths as a manager is his ability to develop versatile, adaptable players who are comfortable in a variety of roles. Koke is his crowning achievement in this respect",
+      "verified": true
+    },
+    {
+      "title": "Analysis: How Will Atletico Attack Barça? (Into the Calderon)",
+      "url": "https://www.intothecalderon.com/2016/4/13/11419970/analysis-how-will-atletico-attack-barca",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-04-13",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "But Saul Niguez is being developed in a very similar way. Much like Koke, he can play either a wide role in the 4-4-2 or a more central midfield role.",
+      "verified": true
+    },
+    {
+      "title": "Simeone pudo con Klopp: Las 10 claves tácticas del Cholo (Goal España)",
+      "url": "https://www.goal.com/es/noticias/simeone-pudo-con-klopp-las-10-claves-tacticas-del-cholo/103lwoc3946es1p1og5kgqeys2",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-02-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Presión alta durante el primer cuarto de hora. Una variante táctica marca de la casa para Simeone en las eliminatorias en las que la ida se disputa en casa de los colchoneros.",
+      "verified": true
+    },
+    {
+      "title": "Simeone pudo con Klopp: Las 10 claves tácticas del Cholo (Goal España)",
+      "url": "https://www.goal.com/es/noticias/simeone-pudo-con-klopp-las-10-claves-tacticas-del-cholo/103lwoc3946es1p1og5kgqeys2",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-02-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Cuando jugó en bloque alto funcionó y cuando tiró de bloque bajo para hundir su defensa tomando riesgos, resistió.",
+      "verified": true
+    },
+    {
+      "title": "Simeone pudo con Klopp: Las 10 claves tácticas del Cholo (Goal España)",
+      "url": "https://www.goal.com/es/noticias/simeone-pudo-con-klopp-las-10-claves-tacticas-del-cholo/103lwoc3946es1p1og5kgqeys2",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-02-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "El Atlético dominó uno de los puntos fuertes del Liverpool, el balón parado, en ambas áreas. En la suya, defendió muy bien los centros laterales de los ingleses y los saques de esquina del equipo de Klopp.",
+      "verified": true
+    },
+    {
+      "title": "Simeone pudo con Klopp: Las 10 claves tácticas del Cholo (Goal España)",
+      "url": "https://www.goal.com/es/noticias/simeone-pudo-con-klopp-las-10-claves-tacticas-del-cholo/103lwoc3946es1p1og5kgqeys2",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-02-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "El Atleti basculó simétricamente y tapó su lado débil con una gran concentración de Vrsaljko, evitando los cambios de orientación",
+      "verified": true
+    },
+    {
+      "title": "Simeone pudo con Klopp: Las 10 claves tácticas del Cholo (Goal España)",
+      "url": "https://www.goal.com/es/noticias/simeone-pudo-con-klopp-las-10-claves-tacticas-del-cholo/103lwoc3946es1p1og5kgqeys2",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-02-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "En apenas tres pases, casi siempre lanzados por Koke con maestría, salían como resortes para lastimar en el primer tiempo.",
+      "verified": true
+    },
+    {
+      "title": "Simeone pudo con Klopp: Las 10 claves tácticas del Cholo (Goal España)",
+      "url": "https://www.goal.com/es/noticias/simeone-pudo-con-klopp-las-10-claves-tacticas-del-cholo/103lwoc3946es1p1og5kgqeys2",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-02-19",
+      "eventDate": "2019/20",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Los de Simeone no estuvieron preciosistas, pero sí efectivos.",
+      "verified": true
+    },
+    {
+      "title": "The evolution of Cholismo (Football España)",
+      "url": "https://www.football-espana.net/2020/11/30/the-evolution-of-cholismo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-11-30",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Simeone has evolved his famed 4-4-2 formation to at times become a 3-5-2, most especially evidenced in Atletico Madrid‘s games against Barcelona and Valencia.",
+      "verified": true
+    },
+    {
+      "title": "The evolution of Cholismo (Football España)",
+      "url": "https://www.football-espana.net/2020/11/30/the-evolution-of-cholismo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-11-30",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "This new system has enabled Atletico to take control of games this season, serving as the protagonist and dominating possession all over the field.",
+      "verified": true
+    },
+    {
+      "title": "The evolution of Cholismo (Football España)",
+      "url": "https://www.football-espana.net/2020/11/30/the-evolution-of-cholismo",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-11-30",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Stefan Savic, Jose Gimenez and Mario Hermoso safeguard the defence and enable more freedom for the likes of Kieran Trippier and Renan Lodi to attack the flanks.",
+      "verified": true
+    },
+    {
+      "title": "Foto Análisis | ¿Cómo funciona el 3-5-2 del Atlético de Madrid? (Fichajes.net)",
+      "url": "https://www.fichajes.net/noticias/foto-analisis-funciona-5-3-2-atletico-madrid-20201202.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-12-02",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "genera superioridad en el inicio de juego sin la necesidad del constante descenso de un mediocentro",
+      "verified": true
+    },
+    {
+      "title": "Foto Análisis | ¿Cómo funciona el 3-5-2 del Atlético de Madrid? (Fichajes.net)",
+      "url": "https://www.fichajes.net/noticias/foto-analisis-funciona-5-3-2-atletico-madrid-20201202.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-12-02",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Diego Pablo Simeone está encontrando en un nuevo sistema de juego (3-5-2) una nueva solución para generar un contexto favorable para sus principales piezas dentro de la cancha.",
+      "verified": true
+    },
+    {
+      "title": "Foto Análisis | ¿Cómo funciona el 3-5-2 del Atlético de Madrid? (Fichajes.net)",
+      "url": "https://www.fichajes.net/noticias/foto-analisis-funciona-5-3-2-atletico-madrid-20201202.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2020-12-02",
+      "eventDate": "2020/21",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Marcos Llorente: El más libre. Es la pieza que aporta más profundidad en el carril central y que se acerca mucho más a Joao Félix y a la referencia ofensiva.",
+      "verified": true
+    },
+    {
+      "title": "Análisis táctico: Atlético de Madrid vs FC Barcelona (LaLiga)",
+      "url": "https://www.laliga.com/es-ID/noticias/analisis-juego-barcelona-atletico-madrid",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "2024-03-10",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "En el presente curso ha apostado por un esquema 3-5-2 con carrileros que le permite poblar al tiempo diferentes posiciones del campo.",
+      "verified": true
+    },
+    {
+      "title": "Análisis táctico: Atlético de Madrid vs FC Barcelona (LaLiga)",
+      "url": "https://www.laliga.com/es-ID/noticias/analisis-juego-barcelona-atletico-madrid",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "2024-03-10",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Nahuel Molina y Marcos Llorente son los jugadores que suelen ocupar el carril derecho y Samuel Lino y Rodrigo Riquelme, el izquierdo.",
+      "verified": true
+    },
+    {
+      "title": "Análisis táctico: Atlético de Madrid vs FC Barcelona (LaLiga)",
+      "url": "https://www.laliga.com/es-ID/noticias/analisis-juego-barcelona-atletico-madrid",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "2024-03-10",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Estos cuatro jugadores, además, complementan también el centro del campo, dando mayor presencia y poblando la zona ancha, ayudando en la presión y en la recuperación del balón.",
+      "verified": true
+    },
+    {
+      "title": "Análisis táctico: Atlético de Madrid vs FC Barcelona (LaLiga)",
+      "url": "https://www.laliga.com/es-ID/noticias/analisis-juego-barcelona-atletico-madrid",
+      "tier": "B",
+      "language": "es",
+      "articleDate": "2024-03-10",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "dispone de diferentes perfiles de delanteros: más móviles, con más presencia, con tendencia a caer a banda.",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone Short Corner Tactics At Atlético Madrid 2024/2025 - Set-Piece Analysis (TFA)",
+      "url": "https://totalfootballanalysis.com/set-piece-analysis/atletico-madrid-202425-short-corner-tactics-set-piece-analysis-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-01-15",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "In this tactical analysis, we will focus on how Diego Simeone‘s side proved excellent at short corners in their last three matches.",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone Short Corner Tactics At Atlético Madrid 2024/2025 - Set-Piece Analysis (TFA)",
+      "url": "https://totalfootballanalysis.com/set-piece-analysis/atletico-madrid-202425-short-corner-tactics-set-piece-analysis-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-01-15",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Atlético Madrid start with six players inside the box, two edge-of-the-box attackers for the rebound and a player at the back (out of the shot) to be ready against any probable counterattacks.",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone Short Corner Tactics At Atlético Madrid 2024/2025 - Set-Piece Analysis (TFA)",
+      "url": "https://totalfootballanalysis.com/set-piece-analysis/atletico-madrid-202425-short-corner-tactics-set-piece-analysis-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-01-15",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Everyone knows that Atlético Madrid are very strong defensively, so there is no surprise that they are the best defence in La Liga, conceding just 12 goals so far.",
+      "verified": true
+    },
+    {
+      "title": "Diego Simeone Short Corner Tactics At Atlético Madrid 2024/2025 - Set-Piece Analysis (TFA)",
+      "url": "https://totalfootballanalysis.com/set-piece-analysis/atletico-madrid-202425-short-corner-tactics-set-piece-analysis-tactics",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-01-15",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "This analysis has shown how Atlético Madrid have tried to utilise short corners using their best technical players, Antoine Griezmann and Julián Alvarez.",
+      "verified": true
+    },
+    {
+      "title": "El balón parado de Simeone no funciona (El Gol Digital)",
+      "url": "https://www.elgoldigital.com/futbol/atletico-de-madrid/el-balon-parado-de-simeone-no-funciona/",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2025-11-11",
+      "eventDate": "2025/26",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "los rojiblancos tuvieron 21 córners a favor y no lograron rematar ni el 20 por ciento.",
+      "verified": true
+    },
+    {
+      "title": "Simeone defiende las rotaciones del Atlético y le echa un capote a Lopetegui (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/simeone-defiende-las-rotaciones-del-atletico-y-echa-un-capote-a-lopetegui/O6RSYJCt",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-09-30",
+      "eventDate": "2022-09-30",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "El Atlético de Madrid lleva más de 30 partidos sin repetir el once inicial y para el argentino esto es algo positivo y no lo contrario",
+      "verified": true
+    },
+    {
+      "title": "Simeone defiende las rotaciones del Atlético y le echa un capote a Lopetegui (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/simeone-defiende-las-rotaciones-del-atletico-y-echa-un-capote-a-lopetegui/O6RSYJCt",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-09-30",
+      "eventDate": "2022-09-30",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Muchas veces uno sale con defensa de cuatro, pero nunca es cuatro, porque el banda de la izquierda o el banda de la derecha termina siendo el quinto",
+      "verified": true
+    },
+    {
+      "title": "Simeone defiende las rotaciones del Atlético y le echa un capote a Lopetegui (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/simeone-defiende-las-rotaciones-del-atletico-y-echa-un-capote-a-lopetegui/O6RSYJCt",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-09-30",
+      "eventDate": "2022-09-30",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Muchas veces uno sale con defensa de cuatro, pero nunca es cuatro, porque el banda de la izquierda o el banda de la derecha termina siendo el quinto, y ustedes se centran en que juegan con cuatro, y no juegan con cuatro, defienden con cinco.",
+      "verified": true
+    },
+    {
+      "title": "Simeone defiende las rotaciones del Atlético y le echa un capote a Lopetegui (Soccerway ES)",
+      "url": "https://es.soccerway.com/noticias/simeone-defiende-las-rotaciones-del-atletico-y-echa-un-capote-a-lopetegui/O6RSYJCt",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-09-30",
+      "eventDate": "2022-09-30",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Tenemos la opción de jugar con él de líbero y en el medio, incorporándose, introduciéndose como hacen algunos equipos en el mismo juego, atacando como un mediocentro bajo y defendiendo como líbero.",
+      "verified": true
+    },
+    {
+      "title": "El cholismo: historia de un milagro (Público)",
+      "url": "https://www.publico.es/deportes/cholismo-historia-milagro.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-05-17",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Simeone ha inculcado una filosofía en el club y en sus jugadores, tanto dentro como fuera del campo, basada en el conjunto por encima del individuo y la intensidad en cada segundo del partido.",
+      "verified": true
+    },
+    {
+      "title": "El cholismo: historia de un milagro (Público)",
+      "url": "https://www.publico.es/deportes/cholismo-historia-milagro.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-05-17",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Y, sobre todo, el ya famoso \"partido a partido\". Con ese mantra han conseguido los rojiblancos alcanzar los éxitos de los últimos tiempos y de esta misma temporada. No pensar más allá del choque más próximo",
+      "verified": true
+    },
+    {
+      "title": "El cholismo: historia de un milagro (Público)",
+      "url": "https://www.publico.es/deportes/cholismo-historia-milagro.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2014-05-17",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "El no fiarse de ningún rival por humilde que sea, la defensa a ultranza de los suyos, el equipo y el escudo por encima de un único jugador, la creación de un auténtico bloque que cree en lo que hace",
+      "verified": true
+    },
+    {
+      "title": "La última humillación de Simeone a João Félix (El Debate)",
+      "url": "https://www.eldebate.com/deportes/futbol/champions-league/20221027/ultima-humillacion-simeone-joao-felix_68961.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022-10-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Lo del pasado miércoles ante el Leverkusen es un nuevo capítulo entre un jugador y un entrenador que no encuentran la forma de congeniar.",
+      "verified": true,
+      "note": "press narrative, framed by El Debate; opinion"
+    },
+    {
+      "title": "La última humillación de Simeone a João Félix (El Debate)",
+      "url": "https://www.eldebate.com/deportes/futbol/champions-league/20221027/ultima-humillacion-simeone-joao-felix_68961.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022-10-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Simeone apostó por Cunha en vez de João dejando claro que en estos momentos el portugués es el quinto delantero del equipo",
+      "verified": true
+    },
+    {
+      "title": "La última humillación de Simeone a João Félix (El Debate)",
+      "url": "https://www.eldebate.com/deportes/futbol/champions-league/20221027/ultima-humillacion-simeone-joao-felix_68961.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022-10-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "al descanso decidió quitar a Correa y a Hermoso para dar entrada a Saúl y De Paul, dos jugadores con los que tratar de dominar el partido y tener un mayor control en el medio del campo",
+      "verified": true
+    },
+    {
+      "title": "La última humillación de Simeone a João Félix (El Debate)",
+      "url": "https://www.eldebate.com/deportes/futbol/champions-league/20221027/ultima-humillacion-simeone-joao-felix_68961.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2022-10-27",
+      "eventDate": "2022-10-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "no le compra el discurso de defender antes que atacar",
+      "verified": true
+    },
+    {
+      "title": "Una de piratas (Página/12)",
+      "url": "https://www.pagina12.com.ar/diario/ultimas/20-72104-2006-08-27.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2006-08-27",
+      "eventDate": "2006-08-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Estudiantes (1): Martín Herrera; Marcos Angeleri, Agustín Alayes, Fernando Ortíz, Mauricio Casierra; Diego Galván, Rodrigo Braña, Juan Sebastián Verón, José Sosa; Mariano Pavone y José Luis Calderón. Director técnico: Diego Simeone.",
+      "verified": true
+    },
+    {
+      "title": "Una de piratas (Página/12)",
+      "url": "https://www.pagina12.com.ar/diario/ultimas/20-72104-2006-08-27.html",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2006-08-27",
+      "eventDate": "2006-08-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Simeone mandó a sus goleadores de refuerzo –Lugüercio y Maggiolo- para intentar quedarse con los tres puntos.",
+      "verified": true
+    },
+    {
+      "title": "Estudiantes Apertura 2006 (El Gráfico retrospective)",
+      "url": "https://elgrafico.com.ar/articulo/1057/33811/2006-a-20-anios-de-una-goleada-para-la-historia",
+      "tier": "C",
+      "language": "es",
+      "articleDate": "2026-10-15",
+      "eventDate": "2006-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"No hablemos, ya sabemos lo que tenemos que hacer. Si queremos salir campeones tenemos que ganar este partido\", dijo Juan Sebastián Verón en su última arenga premonitoria.",
+      "verified": true,
+      "retrospectiveOnly": true,
+      "note": "Verón speech, not Simeone; shows captain-led dressing room"
+    },
+    {
+      "title": "Simeone on ‘Cholismo’ & Diego Costa (Football España, quoting fifa.com)",
+      "url": "https://www.football-espana.net/2015/01/21/simeone-on-cholismo-diego-costa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-01-20",
+      "eventDate": "2014",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "“At Atleti it’s true we have a clearly identifiable playing style. I’ve always said the teams that best promoted those ideals were Estudiantes de La Plata, where I coached for 18 months, and this Atletico side,” he told fifa.com",
+      "verified": true
+    },
+    {
+      "title": "Simeone on ‘Cholismo’ & Diego Costa (Football España, quoting fifa.com)",
+      "url": "https://www.football-espana.net/2015/01/21/simeone-on-cholismo-diego-costa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-01-20",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "With Diego Costa it was a very considered decision given the final of the Champions League was at stake.",
+      "verified": true
+    },
+    {
+      "title": "Simeone on ‘Cholismo’ & Diego Costa (Football España, quoting fifa.com)",
+      "url": "https://www.football-espana.net/2015/01/21/simeone-on-cholismo-diego-costa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-01-20",
+      "eventDate": "2013/14",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "I reasoned that if he could just give us 45-50 minutes then it’d be worth playing him, especially given his importance to us.",
+      "verified": true
+    },
+    {
+      "title": "Táctica y Sistemas - Diego Simeone (The Coaches' Voice ES)",
+      "url": "https://es.coachesvoice.com/?p=60124",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2024-12-06",
+      "eventDate": "2011-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Entre ambos, y con la entrevista que Diego Simeone realizó en The Coaches' Voice, nos llevan a conocer los sentimientos del técnico hacia el club rojiblanco.",
+      "verified": true,
+      "note": "podcast page only, interview not transcribed"
+    },
+    {
+      "title": "Táctica y Sistemas - Diego Simeone (The Coaches' Voice ES)",
+      "url": "https://es.coachesvoice.com/?p=60124",
+      "tier": "A",
+      "language": "es",
+      "articleDate": "2024-12-06",
+      "eventDate": "2011-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "tomó a un equipo con serios problemas en la clasificación en la Liga y recién eliminado en la Copa del Rey por un Segunda B, el Albacete.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "At Atleti it’s true we have a clearly identifiable playing style. I’ve always said the teams that best promoted those ideals were Estudiantes de La Plata, where I coached for 18 months, and this Atletico side",
+      "date": "2015-01-20",
+      "source": "fifa.com interview via Football España",
+      "provenance": "primary"
+    },
+    {
+      "quote": "That said, I wouldn’t go so far as to talk about ‘Cholismo’, even if my teams do play in a certain way. We don’t just play direct football because they are cliches that are used when a team can’t find a way past us.",
+      "date": "2015-01-20",
+      "source": "fifa.com interview via Football España",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Muchas veces uno sale con defensa de cuatro, pero nunca es cuatro, porque el banda de la izquierda o el banda de la derecha termina siendo el quinto",
+      "date": "2022-09-29",
+      "source": "press conference, Soccerway ES 2022-09-30",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Suerte no es, es trabajo. Es insistir. Buscar las mejores sociedades. Tenemos buenos golpeadores y buenos cabeceadores.",
+      "date": "2025-11-10",
+      "source": "post-match press conference after Levante, El Gol Digital 2025-11-11",
+      "provenance": "primary"
+    },
+    {
+      "quote": "partido a partido",
+      "date": "2014-05-17",
+      "source": "Público, 'mantra' of the 2013/14 team; no dated direct Simeone quote found",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://themastermindsite.com/2020/12/18/diego-simeone-atletico-madrid-tactical-analysis-2020-21-edition/",
+      "reason": "403"
+    },
+    {
+      "url": "https://fourfourtwo.com/features/5-things-atletico-2-0-barcelona-how-simeone-got-his-tactics-spot-on",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0238-0e96b8addde2-0824dae3b2d1-1000--simeone-s-atletico-define-fighting-spirit",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://www.football-espana.net/2021/10/30/diego-simeone-set-to-rotate-against-real-betis-ahead-of-liverpool-trip/amp",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0233-0e95bab7f874-fe21fab97a5b-1000--simeone-u-turn-pays-dividends-for-atletico/",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://betweentheposts.net/?p=91890",
+      "reason": "empty"
+    },
+    {
+      "url": "https://betweentheposts.net/atletico-madrid-athletic-club-morata-and-correa-lead-atleticos-victory-in-duel-of-directness-and-tight-defenses-2-0/",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.lalibre.be/sports/football/2024/11/06/ces-tactiques-de-simeone-qui-ne-font-plus-recette-LHYIORLJ2FEJ7P2XY7LAK24XR4/",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "Marcelo Bielsa (Ballverliebt: Simeone calls himself a Bielsa pupil)",
+    "Carlos Bilardo (Público: Sevilla de Bilardo as player)"
+  ],
   "spellsCounted": [
     {
-      "club": "Estudiantes",
+      "club": "Estudiantes de La Plata",
       "start": "2006-05-18",
       "end": "2007-12-03",
-      "reason": "2006 Apertura, the first side where he used the 4-4-2 the page describes."
+      "reason": "Apertura 2006 title"
     },
     {
       "club": "River Plate",
       "start": "2007-12-15",
       "end": "2008-11-07",
-      "reason": "2008 Clausura."
+      "reason": "Clausura 2008 title"
     },
     {
       "club": "Atlético Madrid",
       "start": "2011-12-23",
       "end": "ongoing",
-      "reason": "The side he is known for: La Liga, two Europa Leagues, Champions League finals."
+      "reason": "Europa League 2011-12 and 2017-18, La Liga 2013-14 and 2020-21, Champions League finals 2014 and 2016"
     }
   ],
   "spellsExcluded": [
     {
       "club": "Racing Club",
-      "start": "2006-02-18",
-      "end": "2006-05-04",
-      "reason": "Fourteen matches, no titles."
-    },
-    {
-      "club": "San Lorenzo",
-      "start": "2009-04-15",
-      "end": "2010-04-03",
-      "reason": "No titles."
-    },
-    {
-      "club": "Catania",
-      "start": "2011-01-19",
-      "end": "2011-06-01",
-      "reason": "Eighteen matches, no titles."
+      "start": "2006",
+      "end": "2006",
+      "reason": "decided by user"
     },
     {
       "club": "Racing Club",
-      "start": "2011-06-21",
-      "end": "2011-12-23",
-      "reason": "Twenty matches, no titles."
+      "start": "2011",
+      "end": "2011",
+      "reason": "decided by user"
+    },
+    {
+      "club": "San Lorenzo",
+      "start": "2009",
+      "end": "2010",
+      "reason": "decided by user"
+    },
+    {
+      "club": "Catania",
+      "start": "2011",
+      "end": "2011",
+      "reason": "decided by user"
     }
   ],
-  "ambiguities": [],
-  "openQuestions": [
-    "The marking facts (zone or man-oriented) are not in the page read; the defensive-block facts are general career statements with no season."
-  ],
-  "sources": [
-    {
-      "title": "Diego Simeone - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2006",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"Simeone's preferred formation is the 4–4–2, which he first practised when he was manager of Estudiantes in 2006.\"",
-      "verified": true
-    },
-    {
-      "title": "Diego Simeone - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2011",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "\"deep defending in their own defensive third in a narrow 4–4–2\" (Atlético, general career; no season given)",
-      "verified": true
-    },
-    {
-      "title": "Diego Simeone - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2011",
-      "accessedOn": "2026-10-17",
-      "dimension": "transitions",
-      "evidence": "\"A common feature of Simeone's teams is defensive compactness and quick counter-attacks.\" (general career; no season given)",
-      "verified": true
-    },
-    {
-      "title": "Diego Simeone - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2013",
-      "accessedOn": "2026-10-17",
-      "dimension": "set-pieces",
-      "evidence": "\"Several important goals, including the one that gave Atlético the 2014 La Liga title, have been scored from set-pieces.\" (2013-14)",
-      "verified": true
-    },
-    {
-      "title": "Diego Simeone - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Diego_Simeone",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2020",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "\"Simeone experimented with back three formations, such as 5–3–2 and 3–5–2.\" (2020-21)",
-      "verified": true
-    }
-  ],
-  "statedView": [],
-  "unreadable": [],
   "gaps": {
-    "dimensions": [
-      "build-up",
-      "people-management",
-      "player-profile",
-      "possession",
-      "pressing",
-      "squad-building",
-      "stated-view",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "jog",
-      "lar",
-      "lid"
-    ]
+    "dimensions": [],
+    "axes": []
   },
-  "influences": [],
   "confidence": {
     "level": "medium",
-    "reason": "Dated career table and five tactical facts from the Wikipedia career section; no tier A-B season analysis read."
+    "reason": "Atlético 2012-2016 well covered by tier A-B (Spielverlagerung, Coaches' Voice, Into the Calderon, Ballverliebt); later years mostly tier C and Estudiantes/River only match reports."
   }
 }
 
@@ -472,3 +1278,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: A player who turns up late for training misses the next game, whoever he is.
    Agree means: Indiscipline brings a clear punishment, and it applies to any player.
    Disagree means: Being late is settled with a talk, without needing to drop the player.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

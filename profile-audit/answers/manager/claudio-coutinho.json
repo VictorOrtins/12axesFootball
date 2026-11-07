@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "No verified possession evidence (gap); from general knowledge plus the verified Total Football model he copied from Michels (Brazil, 1977), he wanted his sides to control the ball rather than concede it.",
-    "answers": {
-      "pos_01": "C",
-      "pos_03": "C",
-      "pos_04": "D",
-      "pos_02": "D",
-      "pos_05": "C"
-    }
-  },
-  "pro": {
-    "personaBrief": "No verified progression evidence (gap); from general knowledge, his 'ponto futuro' idea of passing into the space a runner will reach made him value vertical, line-breaking passes over safe recycling, without fixing a touch count.",
-    "answers": {
-      "pro_03": "D",
-      "pro_01": "C",
-      "pro_04": "D",
-      "pro_02": "D",
-      "pro_05": "N"
-    }
-  },
-  "est": {
-    "personaBrief": "The verified Total Football model (Brazil, 1977) points to interchange and players leaving their zones, while his methodical, European-style coaching also demanded clearly rehearsed roles.",
-    "answers": {
-      "est_02": "N",
-      "est_03": "D",
-      "est_04": "C",
-      "est_05": "C",
-      "est_01": "D"
-    }
-  },
-  "lar": {
-    "personaBrief": "No verified width evidence (gap); from general knowledge, he made 'overlapping' full-backs popular in Brazil, so width came from full-backs more than from fixed touchline wingers.",
-    "answers": {
-      "lar_01": "D",
-      "lar_04": "N",
-      "lar_03": "C",
-      "lar_02": "D",
-      "lar_05": "D"
-    }
-  },
-  "blo": {
-    "personaBrief": "No verified block evidence (gap); from general knowledge, and in line with the verified Michels-style Total Football project (1977), he wanted forwards pressing and the team defending high.",
-    "answers": {
-      "blo_05": "C",
-      "blo_02": "D",
-      "blo_03": "C",
-      "blo_04": "D",
-      "blo_01": "C"
-    }
-  },
-  "mar": {
-    "personaBrief": "No verified marking evidence (gap); from general knowledge, his Total Football inspiration and the Brazilian zonal tradition point to protecting spaces, though set pieces in that era were mostly man-marked.",
-    "answers": {
-      "mar_04": "D",
-      "mar_05": "D",
-      "mar_02": "D",
-      "mar_01": "C",
-      "mar_03": "N"
-    }
-  },
-  "pla": {
-    "personaBrief": "Verified: on taking charge of Brazil he 'tried to implement his own philosophy', modelled on Total Football (1977), so he put his own model ahead of the opponent.",
-    "answers": {
-      "pla_04": "D",
-      "pla_02": "D",
-      "pla_03": "C",
-      "pla_05": "C",
-      "pla_01": "CT"
-    }
-  },
-  "res": {
-    "personaBrief": "The verified evidence covers only his philosophy; from general knowledge, his 1978 Brazil was criticised as pragmatic, and he called it the 'moral champion' after an unbeaten exit, valuing results and how the team was judged alike.",
-    "answers": {
-      "res_01": "C",
-      "res_02": "D",
-      "res_04": "D",
-      "res_05": "C",
-      "res_03": "C"
-    }
-  },
-  "sis": {
-    "personaBrief": "Verified: he imposed his own Total Football system on Brazil (1977); from general knowledge, he tied stars to tactical roles and was criticised for putting the system ahead of Brazilian individual flair.",
-    "answers": {
-      "sis_04": "D",
-      "sis_05": "C",
-      "sis_02": "D",
-      "sis_03": "C",
-      "sis_01": "CT"
-    }
-  },
-  "jog": {
-    "personaBrief": "No verified player-profile evidence (gap); from general knowledge, as a military physical trainer (Cooper test) he put physical conditioning at the centre and wanted midfielders who ran.",
-    "answers": {
-      "jog_02": "CT",
-      "jog_01": "D",
-      "jog_05": "N",
-      "jog_03": "D",
-      "jog_04": "C"
-    }
-  },
-  "bas": {
-    "personaBrief": "No verified squad-building evidence (gap); from general knowledge, his Flamengo (1978-80) was built on the club's own academy generation (Zico, Júnior, Leandro, Adílio, Andrade, Tita).",
-    "answers": {
-      "bas_03": "C",
-      "bas_02": "D",
-      "bas_04": "D",
-      "bas_05": "C",
-      "bas_01": "C"
-    }
-  },
-  "lid": {
-    "personaBrief": "No verified people-management evidence (gap); from general knowledge, he was an army captain with a strict, top-down style, consistent with the verified fact that he 'took command' and imposed his philosophy (1977).",
-    "answers": {
-      "lid_04": "CT",
-      "lid_05": "D",
-      "lid_01": "CT",
-      "lid_03": "D",
-      "lid_02": "D"
-    }
-  },
-  "archetype": {
-    "epoca": "A",
-    "elenco": "C",
-    "organizacao": "B",
-    "treinador": "D",
-    "final": "B"
-  }
+  "pos": {"personaBrief": "Goal says his Flamengo pressed without the ball and then dominated possession; Trivela notes patient ball work and a compact team. He wanted the ball and the initiative, not a reactive side.", "answers": {"pos_01": "C", "pos_03": "C", "pos_04": "D", "pos_02": "D", "pos_05": "C"}},
+  "pro": {"personaBrief": "Trivela (verified) says a failed move on one side meant returning the ball to the defense and restarting the other way, with no aimless crosses. But he also used ponto futuro, rehearsed long balls (Andrade to Nunes) and Zico's 'second punch' quick-kill idea.", "answers": {"pro_03": "D", "pro_01": "C", "pro_04": "D", "pro_02": "C", "pro_05": "C"}},
+  "est": {"personaBrief": "Total-football and basketball-style 'participação total', polivalência and overlapping point to fluid roles with players close to the play. 'Marcação por setor' and tactical drilling without opposition add defined structure.", "answers": {"est_02": "C", "est_03": "D", "est_04": "C", "est_05": "C", "est_01": "N"}},
+  "lar": {"personaBrief": "Trivela: wingers cut inside and the full-back overlaps through the open corridor; in the 1978 Carioca final Flamengo held the full-backs and attacked more through the middle. Coutinho favored central, crowded midfields (polivalentes, Chicão over Falcão), not classic wingers.", "answers": {"lar_01": "D", "lar_04": "C", "lar_03": "D", "lar_02": "C", "lar_05": "D"}},
+  "blo": {"personaBrief": "Trivela: compact teams with high marking lines, pressing from the start; Goal: Flamengo pressed without the ball. His 'participação total' includes the shooter helping to mark at once.", "answers": {"blo_05": "C", "blo_02": "D", "blo_03": "CT", "blo_04": "D", "blo_01": "CT"}},
+  "mar": {"personaBrief": "The only marking label found is 'marcação por setor' (Trivela, verified), a zone-style concept he introduced to Flamengo. No evidence of dedicated man-markers.", "answers": {"mar_04": "C", "mar_05": "D", "mar_02": "D", "mar_01": "C", "mar_03": "D"}},
+  "pla": {"personaBrief": "He arrived with a ready modern model and drilled it daily, including the opponent's scheme explained in training (Nunes). He still adapted at the 1978 World Cup (aerial play on a bad pitch), but his core was his own idea.", "answers": {"pla_04": "D", "pla_02": "D", "pla_03": "C", "pla_05": "C", "pla_01": "C"}},
+  "res": {"personaBrief": "'Campeões morais' shows he valued how the team played even without the title. His attacking, massacre-the-opponent Flamengo and pressure to the end suggest no settling for draws or shutting games down.", "answers": {"res_01": "C", "res_02": "D", "res_04": "C", "res_05": "D", "res_03": "D"}},
+  "sis": {"personaBrief": "He demanded 'participação total', with the shooter defending and no player who only attacks. He relied on drilled collective movement and tactical discipline (Nunes), while still having Zico.", "answers": {"sis_04": "D", "sis_05": "C", "sis_02": "D", "sis_03": "CT", "sis_01": "C"}},
+  "jog": {"personaBrief": "He was a fitness scientist (Cooper method, NASA) who demanded physical intensity, but also daily fundamentals work (Júnior). He chose Chicão over Falcão and fielded bigger players like Roberto Dinamite, though he regretted leaving out technical Júnior.", "answers": {"jog_02": "CT", "jog_01": "C", "jog_05": "C", "jog_03": "D", "jog_04": "D"}},
+  "bas": {"personaBrief": "Trivela (verified): he took the Flamengo youngsters (Zico, Júnior, Adílio, Andrade, Tita) and mixed them with experienced players (Carpegiani, Raul, Ramires). Home-grown core, but veterans anchored the title runs.", "answers": {"bas_03": "C", "bas_02": "N", "bas_04": "D", "bas_05": "D", "bas_01": "C"}},
+  "lid": {"personaBrief": "He kept open dialogue with the players (Trivela) and was seen as a leader, but yielded to the CBD president in 1978 and was criticized for lacking firmness. His discipline came through professionalism and tactical demands.", "answers": {"lid_04": "C", "lid_05": "D", "lid_01": "C", "lid_03": "C", "lid_02": "C"}},
+  "archetype": {"epoca": "A", "elenco": "A", "organizacao": "C", "treinador": "D", "final": "C"}
 }

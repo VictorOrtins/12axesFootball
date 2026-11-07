@@ -1,4 +1,4 @@
-You are auditing, question by question and fully independently, the football profile "Mamelodi Sundowns 2025" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Mamelodi Sundowns 2025, in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+You are auditing, question by question and fully independently, the football profile "Mamelodi Sundowns 2025 (Miguel Cardoso)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Mamelodi Sundowns 2025 (Miguel Cardoso), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
 
 The research file below is your evidence. Build your answers on it:
 - Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, lid. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK team:mamelodi-sundowns-2025" and a 1-line summary. Don't paste the JSON in the reply.
@@ -43,13 +44,12 @@ After writing the file, reply only with "OK team:mamelodi-sundowns-2025" and a 1
 {
   "id": "mamelodi-sundowns-2025",
   "catalog": "team",
-  "name": "Mamelodi Sundowns 2025",
-  "researchedOn": "2026-10-17",
+  "name": "Mamelodi Sundowns 2025 (Miguel Cardoso)",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2025-01-04",
     "end": "2025-12-03"
   },
-  "scopeNote": "Calendar year 2025 (user's choice): second half of 2024/25 (Premiership, Nedbank Cup, CAF Champions League to the final lost 2-3 on aggregate to Pyramids), the 2025 FIFA Club World Cup (3 group matches, 17-25 June), and the first half of 2025/26 (MTN8, Premiership, CAF CL second round and group matchdays 1-2). First competitive match of 2025: Raja CA 1-0 Sundowns, 2025-01-04 (CAF CL group; FARPost 2025-01-05 'Saturday night' and Wikipedia season page). Last: Siwelele 1-1 Sundowns, 2025-12-03 (PSL report); the league then paused until late January 2026, the CAF CL group stage resumed in January 2026 (matchday 2 was 2025-11-28 per search result). Miguel Cardoso was appointed 2024-12-10 (Mngqithi sacked; search results, plus Wikipedia citing the SuperSport article) and was the only head coach in all of 2025 (Wikipedia 2024/25 and 2025/26 season pages list only him). Style: no source uses a tactical label; FIFA TSG calls it a possession-based philosophy ('shoeshine and piano') with a 4-2-3-1 base and goalkeeper-led build-up; Cardoso rejects the 'defensive coach' label and argues for adapting to opponent and venue. Pressing, block and transitions rest on thin tier C evidence.",
   "managers": [
     {
       "managerId": "miguel-cardoso",
@@ -57,304 +57,583 @@ After writing the file, reply only with "OK team:mamelodi-sundowns-2025" and a 1
       "end": "2025-12-03"
     }
   ],
+  "scopeNote": "Calendar year 2025 chosen by the user: second half of 2024/25 (Premiership, Nedbank Cup, CAF CL final lost to Pyramids), 2025 FIFA Club World Cup (17-25 June), first half of 2025/26. Club's own label is 'shoeshine and piano' (possession-based, one-touch). Sources describe a 4-2-3-1 base that becomes a back three in build-up (Mokoena dropping), a 4-1-4-1 out of possession, zonal marking at set pieces. Critics label it 'defensive' or 'like Stellenbosch'; Cardoso rejects this. Fact dates given as month/season where the day was not confirmed. Photo of 2025/26 league tactics is thin.",
   "ambiguities": [],
   "openQuestions": [
-    "User chose calendar year 2025 (1 Jan to 31 Dec 2025), including the 2025 FIFA Club World Cup; the profile therefore mixes the end of 2024/25 and the start of 2025/26.",
-    "Last match of 2025 pinned to 2025-12-03 (Siwelele 1-1) from the PSL report saying the league paused until late January and from the CAF CL group schedule (matchday 2 on 2025-11-28); the Wikipedia 2025/26 page was incomplete, so a match between 4 and 31 Dec was not ruled out by a full fixture list.",
-    "Cardoso's appointment date (2024-12-10) and Mngqithi's sacking were read in search results only; the first Cardoso match was in Dec 2024, outside the period. No manager change occurred in 2025.",
-    "Pressing, marking and transitions rest on one tier C match piece (Mozzart Sport, v Fluminense) and no tactical-analysis source for the CAF or league matches; consider a second audit weighting or more research.",
-    "Several useful 2026 sources (Cardoso on rotation, youth, set-piece weakness, defensive transitions) fall outside the period and were not used as evidence; squad-building and people-management remain unfilled.",
-    "Match-by-match tallies of the Premiership from May to Nov 2025 were not read."
+    "Mozzart Sport tactical piece on a Sundowns 3-1 win over RB Leipzig (4-4-2 mid-block, 5-2 build-up shape, aggressive high press in second half) is dated 2026-05-30, outside the period, so not recorded as evidence; useful for a later period.",
+    "Pressing triggers and open-play marking scheme (zonal vs man) in 2025 are not described by any tier A-B source found; only set-piece zonal marking is documented.",
+    "Dates given at month or year level for the CAF final legs and some press-conference facts; Maniema match day not confirmed."
   ],
   "sources": [
     {
-      "title": "FIFA Training Centre: Mamelodi Sundowns FC, the tactics behind 'shoeshine and piano' (Aliou Cissé, TSG)",
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
       "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
       "tier": "A",
       "language": "en",
       "articleDate": "2025-06-25",
       "eventDate": "2025-06-21",
-      "accessedOn": "2026-10-17",
+      "accessedOn": "2026-11-06",
       "dimension": "shape",
-      "evidence": "Sundowns used a 4-2-3-1 structure against Dortmund, with Teboho Mokoena and Marcelo Allende as the two holding midfielders. Single match (3-4 v Dortmund, 2025-06-21).",
+      "evidence": "Mokoena (4) and Allende (11), the two holding midfielders in the team’s 4-2-3-1 structure, coordinated their runs to open passing lanes and create space.",
       "verified": true
     },
     {
-      "title": "FIFA Training Centre: Mamelodi Sundowns FC, the tactics behind 'shoeshine and piano' (Aliou Cissé, TSG)",
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
       "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
       "tier": "A",
       "language": "en",
       "articleDate": "2025-06-25",
       "eventDate": "2025-06-21",
-      "accessedOn": "2026-10-17",
+      "accessedOn": "2026-11-06",
       "dimension": "build-up",
-      "evidence": "'Shoeshine and piano' described as a possession-based philosophy of precise one-touch combinations. Low build-up v Dortmund: Mokoena and Allende alternated dropping and pulling a Dortmund midfielder away, opening central space for Zwane and Ribeiro. Cissé: \"they had six players involved in the low build-up play.\" Goalkeeper Ronwen Williams was the central distributor: 46 passes in the defensive third, more than any player on either team. Cissé: \"It was thanks to him [Williams] that they had that superiority.\"",
+      "evidence": "allowed the Sundowns to gain a numerical superiority in build-up against a high-pressing Dortmund side",
       "verified": true
     },
     {
-      "title": "FIFA Training Centre: Mamelodi Sundowns FC, the tactics behind 'shoeshine and piano' (Aliou Cissé, TSG)",
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
       "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
       "tier": "A",
       "language": "en",
       "articleDate": "2025-06-25",
       "eventDate": "2025-06-21",
-      "accessedOn": "2026-10-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "With the four at the back plus [Marcelo] Allende or [Teboho] Mokoena, which made five, plus Williams, they had six players involved in the low build-up play. They were then able to bring the ball out and find [Lucas] Ribeiro inside, the wingers out wide, or hit the front men directly.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-25",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "As one looked to receive the ball by dropping towards the ball carrier, the other would often run in the opposite direction to drag a Borussia Dortmund midfielder with them, freeing central areas for team-mates Themba Zwane (18) and Lucas Ribeiro Costa (10) to rotate into and receive the ball.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-25",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
       "dimension": "width",
-      "evidence": "Cissé: full-backs \"very high up the pitch\" in build-up; on Khuliso Mudau, \"virtually a winger\" whose inside movement left the defence \"completely open\". Ribeiro cut inside from the wing. Single match.",
+      "evidence": "the two centre-backs are quite far apart, and the full-backs are very high up the pitch.",
       "verified": true
     },
     {
-      "title": "FIFA Training Centre: Mamelodi Sundowns FC, the tactics behind 'shoeshine and piano' (Aliou Cissé, TSG)",
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
       "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
       "tier": "A",
       "language": "en",
       "articleDate": "2025-06-25",
       "eventDate": "2025-06-21",
-      "accessedOn": "2026-10-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "the wingers out wide, or hit the front men directly.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-25",
+      "eventDate": "2025-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "“shoeshine and piano”, a possession-based playing philosophy grounded in precise, one-touch combinations across the pitch.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-25",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
       "dimension": "player-profile",
-      "evidence": "Technical, combination-oriented players: Williams (goalkeeper as passer), Mokoena (holder who drops to receive), Zwane and Ribeiro receiving between the lines, Rayners as a central forward who pins the centre-backs (\"If you don't have someone pinning the opponent, you don't score\").",
+      "evidence": "Williams performed 46 passes in low build-up phases (passes within the defensive third), which was more than any other player on either team.",
       "verified": true
     },
     {
-      "title": "Mozzart Sport: Tactical masterclass and key movements that shut down Mamelodi Sundowns against Fluminense",
-      "url": "https://www.mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
-      "tier": "C",
+      "title": "FIFA Training Centre: Mamelodi Sundowns, the tactics behind shoeshine and piano",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2025/team-analyses/mamelodi-sundowns-fc-the-tactics-behind-shoeshine-and-piano.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2025-06-25",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "If you don’t have someone pinning the opponent, you don’t score. When there’s someone pinning, it forces the opposition to take up the same positions as you.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
       "language": "en",
       "articleDate": "2025-06-27",
-      "eventDate": "2025-06-25",
-      "accessedOn": "2026-10-17",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
       "dimension": "shape",
-      "evidence": "Base 4-2-3-1 that shifted dynamically; in possession a 3-5-2-style shape with both full-backs high and wide and Mokoena dropping into a back three; Zwane and Ribeiro as dual No.10s, Matthews and Rayners as strike pair (v Fluminense, 0-0). Secondary outlet of unknown editorial standing, one match; corroborates FIFA's 4-2-3-1.",
+      "evidence": "Miguel Cardoso stayed true to Sundowns' possession-oriented philosophy, deploying a base 4-2-3-1 formation.",
       "verified": true
     },
     {
-      "title": "Mozzart Sport: Tactical masterclass and key movements that shut down Mamelodi Sundowns against Fluminense",
-      "url": "https://www.mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
-      "tier": "C",
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
       "language": "en",
       "articleDate": "2025-06-27",
-      "eventDate": "2025-06-25",
-      "accessedOn": "2026-10-17",
-      "dimension": "pressing",
-      "evidence": "Out of possession \"defended in a 4-1-4-1, with a single pivot protecting the back line and the two interior midfielders applying lateral pressure\", aiming to funnel Fluminense down the flanks. Press height and triggers not described. Single match, against a team content to sit in a mid-block.",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "In possession, Sundowns morphed into a 3-5-2 attacking shape.",
       "verified": true
     },
     {
-      "title": "Mozzart Sport: Tactical masterclass and key movements that shut down Mamelodi Sundowns against Fluminense",
-      "url": "https://www.mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
-      "tier": "C",
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
       "language": "en",
       "articleDate": "2025-06-27",
-      "eventDate": "2025-06-25",
-      "accessedOn": "2026-10-17",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Both fullbacks pushed high and wide to provide width and pin back Fluminense's wide midfielders and fullbacks.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-27",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "As the fullbacks advanced high, Mokoena intelligently dropped into the right side of defence to form a back three with the two central defenders, facilitating safe circulation and offering numerical superiority during early build-up phases.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-27",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Despite dominating possession throughout the match, registering an impressive 68%, Sundowns could not break down a tactically disciplined Fluminense side",
+      "verified": true
+    },
+    {
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-27",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
       "dimension": "defensive-block",
-      "evidence": "Defensive line pushed up after the first contest at set pieces to spring an offside trap against second balls. No other statement on line height. Single match.",
+      "evidence": "Out of possession, Sundowns defended in a disciplined 4-1-4-1 shape. The single pivot shielded the backline, while the two interior midfielders in the second line applied lateral pressure.",
       "verified": true
     },
     {
-      "title": "Mozzart Sport: Tactical masterclass and key movements that shut down Mamelodi Sundowns against Fluminense",
-      "url": "https://www.mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
-      "tier": "C",
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
       "language": "en",
       "articleDate": "2025-06-27",
-      "eventDate": "2025-06-25",
-      "accessedOn": "2026-10-17",
-      "dimension": "set-pieces",
-      "evidence": "Zonal marking at set pieces (v Fluminense). Offensive routines not covered.",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "The single pivot shielded the backline, while the two interior midfielders in the second line applied lateral pressure.",
       "verified": true
     },
     {
-      "title": "Sundowns must adjust to less possession at Club World Cup, warns coach Cardoso",
-      "url": "https://newscentraltv.com/?p=337450",
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-27",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "One of Sundowns’ more notable defensive features was their use of zonal marking during set pieces.",
+      "verified": true
+    },
+    {
+      "title": "Mozzart Sport Kenya: Tactical masterclass that shut down Sundowns vs Fluminense",
+      "url": "https://mozzartsport.co.ke/football/news/tactical-masterclass-and-key-movements-that-shut-down-mamelodi-sundowns-against-fluminense/55232",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-27",
+      "eventDate": "2025-06-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "once the first ball was contested or cleared, the defensive line would immediately push out to trigger an offside trap.",
+      "verified": true
+    },
+    {
+      "title": "Citizen Digital (AFP): Sundowns must adapt to less possession",
+      "url": "https://citizen.digital/article/sundowns-must-adapt-to-less-possession-warns-coach-cardoso-n364513",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-12",
+      "eventDate": "2025-06-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "\"Our possession can be 70 percent, sometimes even more,\" he told the South African media",
+      "verified": true
+    },
+    {
+      "title": "Citizen Digital (AFP): Sundowns must adapt to less possession",
+      "url": "https://citizen.digital/article/sundowns-must-adapt-to-less-possession-warns-coach-cardoso-n364513",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-12",
+      "eventDate": "2025",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Slack marking allowed Pyramids to snatch an added-time equaliser in South Africa, and a weak clearance and more poor marking led to the goals that gave the Egyptians a 2-1 second-leg victory.",
+      "verified": true
+    },
+    {
+      "title": "Citizen Digital (AFP): Sundowns must adapt to less possession",
+      "url": "https://citizen.digital/article/sundowns-must-adapt-to-less-possession-warns-coach-cardoso-n364513",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-12",
+      "eventDate": "2025-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Cardoso has chosen a squad including 20 South Africans, two Brazilians, a Chilean, a Ugandan, a Zimbabwean and a Namibian.",
+      "verified": true
+    },
+    {
+      "title": "Afrik-foot: 7 lessons from CAF CL for Sundowns",
+      "url": "https://www.afrik-foot.com/en-za/fifa-club-world-cup-7-lessons-from-caf-cl-for-sundowns-to-take-to-usa",
       "tier": "C",
       "language": "en",
       "articleDate": "2025-06-13",
       "eventDate": "2025",
-      "accessedOn": "2026-10-17",
-      "dimension": "possession",
-      "evidence": "Cardoso: \"In South Africa, we usually control matches with 70% possession, sometimes even more.\" Also: \"We have to be mentally prepared for situations where we won't dominate possession.\" (pre-Club World Cup, 2025-06-13). Mozzart Sport (read): Sundowns had 68% possession v Fluminense (2025-06-25); The Post (read): 54% over 90 minutes at Esperance (2025-04-08).",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Two of the three goals Pyramids scored in the final came through set-pieces",
       "verified": true
     },
     {
-      "title": "How Miguel Cardoso's tactical brilliance propelled Mamelodi Sundowns towards CAF Champions League semis (The Post)",
-      "url": "https://thepost.co.za/sport/soccer/2025-04-09-how-miguel-cardosos-tactical-brilliance-propelled-mamelodi-sundowns-towards-caf-champions-league-semis",
+      "title": "Afrik-foot: 7 lessons from CAF CL for Sundowns",
+      "url": "https://www.afrik-foot.com/en-za/fifa-club-world-cup-7-lessons-from-caf-cl-for-sundowns-to-take-to-usa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "2025",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Coach Miguel Cardoso has faced backlash over his decision to snub Themba Zwane during the final as the veteran playmaker was not involved at all in both matches",
+      "verified": true
+    },
+    {
+      "title": "Afrik-foot: 7 lessons from CAF CL for Sundowns",
+      "url": "https://www.afrik-foot.com/en-za/fifa-club-world-cup-7-lessons-from-caf-cl-for-sundowns-to-take-to-usa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "2025",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "it was not until the second part of the second half that Cardoso made key changes that saw his team apply a lot of pressure but by then, they were two goals down",
+      "verified": true
+    },
+    {
+      "title": "Afrik-foot: 7 lessons from CAF CL for Sundowns",
+      "url": "https://www.afrik-foot.com/en-za/fifa-club-world-cup-7-lessons-from-caf-cl-for-sundowns-to-take-to-usa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-13",
+      "eventDate": "2025",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Sundowns’ central defensive partnership of Mosa Lebusa and Grant Kekana struggled with the pace of Pyramids forwards, especially striker Fiston Mayele, who was constantly getting behind them",
+      "verified": true
+    },
+    {
+      "title": "Alasdair Howorth substack: CWC preview Mamelodi Sundowns",
+      "url": "https://alasdairhoworth.substack.com/p/club-world-cup-preview-mamelodi-sundowns",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-17",
+      "eventDate": "2025",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "In 2025 the lady luck was dressed in bright yellow and Sundowns were now a resilient defensive team.",
+      "verified": true
+    },
+    {
+      "title": "Alasdair Howorth substack: CWC preview Mamelodi Sundowns",
+      "url": "https://alasdairhoworth.substack.com/p/club-world-cup-preview-mamelodi-sundowns",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-17",
+      "eventDate": "2025-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "That depth, has allowed the team to rotate heavily in the finals weeks of the season",
+      "verified": true
+    },
+    {
+      "title": "Alasdair Howorth substack: CWC preview Mamelodi Sundowns",
+      "url": "https://alasdairhoworth.substack.com/p/club-world-cup-preview-mamelodi-sundowns",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-17",
+      "eventDate": "2025",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Opinion of Cardoso with the fanbase is split, with many feeling he takes the club too far away from its heart of shoeshine and piano. But he is popular with the players",
+      "verified": true
+    },
+    {
+      "title": "Alasdair Howorth substack: CWC preview Mamelodi Sundowns",
+      "url": "https://alasdairhoworth.substack.com/p/club-world-cup-preview-mamelodi-sundowns",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-17",
+      "eventDate": "2024/25",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Lucas Ribeiro, who cutting in from the left wing has been the best player for Sundowns this season.",
+      "verified": true
+    },
+    {
+      "title": "Cape Argus: Rotation the key for Cardoso ahead of CAF final",
+      "url": "https://capeargus.co.za/sport/soccer/psl/2025-05-17-rotation-the-key-for-miguel-cardoso-and-psl-kings-mamelodi-sundowns-ahead-of-caf-champions-league-final",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-17",
+      "eventDate": "2025-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Cardoso rotated his players and resting others, while tapping in those who were in the fringes for their contributions as well.",
+      "verified": true
+    },
+    {
+      "title": "IOL: Cardoso's Calabash explosion exposes cracks",
+      "url": "https://iol.co.za/sport/soccer/psl/2025-08-30-miguel-cardosos-calabash-explosion-exposes-cracks-at-mamelodi-sundowns/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-08-30",
+      "eventDate": "2025-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "While he says it is part of the club’s long-term vision to integrate more youngsters into the team, he also laments that they are not yet ready to be regulars.",
+      "verified": true
+    },
+    {
+      "title": "IOL: Cardoso's Calabash explosion exposes cracks",
+      "url": "https://iol.co.za/sport/soccer/psl/2025-08-30-miguel-cardosos-calabash-explosion-exposes-cracks-at-mamelodi-sundowns/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-08-30",
+      "eventDate": "2025-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Cardoso’s challenges further mounted when key players – including captain and talisman Themba Zwane – sustained injuries.",
+      "verified": true
+    },
+    {
+      "title": "Farpost: Cardoso brutal on Sundowns' defensive critics",
+      "url": "https://farpost.co.za/2025/11/02/thats-bullsht-cardoso-brutal-on-sundowns-defensive-critics/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-11-02",
+      "eventDate": "2025-11-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "At halftime I was very hard on my players in terms of mindset and attitude",
+      "verified": true
+    },
+    {
+      "title": "Farpost: Cardoso playing style admission after Maniema",
+      "url": "https://farpost.co.za/2025/01/12/cardoso-makes-playing-style-admission-after-win-over-maniema/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-01-12",
+      "eventDate": "2025-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "It was by imposing our style that we could create our moments.",
+      "verified": true
+    },
+    {
+      "title": "Farpost: Cardoso playing style admission after Maniema",
+      "url": "https://farpost.co.za/2025/01/12/cardoso-makes-playing-style-admission-after-win-over-maniema/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-01-12",
+      "eventDate": "2025-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "try to increase the level of aggressivity inside the pitch in terms of putting players in the front that could create a moment.",
+      "verified": true
+    },
+    {
+      "title": "DFA: How Cardoso's tactics led Sundowns to victory (AmaZulu)",
+      "url": "https://dfa.co.za/diamond-fields-advertiser/sport/2025-03-12-how-miguel-cardosos-tactics-led-mamelodi-sundowns-to-a-stunning-victory",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-03-12",
+      "eventDate": "2025-03-11",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "we were not using the width of the pitch in the right way,” Cardoso told SuperSport after the game when asked what he changed at half-time.",
+      "verified": true
+    },
+    {
+      "title": "DFA: How Cardoso's tactics led Sundowns to victory (AmaZulu)",
+      "url": "https://dfa.co.za/diamond-fields-advertiser/sport/2025-03-12-how-miguel-cardosos-tactics-led-mamelodi-sundowns-to-a-stunning-victory",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-03-12",
+      "eventDate": "2025-03-11",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "The hosts also enjoyed the lion’s share of possession with 65% of the ball.",
+      "verified": true
+    },
+    {
+      "title": "SABC Sport: Cardoso elaborates on omitting strikers vs Al Ahly",
+      "url": "https://www.sabcsport.com/soccer/news/miguel-cardoso-elaborates-on-omitting-strikers-as-sundowns-book-caf-champions-league-final",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-04-26",
+      "eventDate": "2025-04-25",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "what we wanted to create was obviously mobility in the front, we wanted to have a lot of mobility to deal with spaces. We knew there would be a moment where the team Al Ahly would have to expose a little bit more",
+      "verified": true
+    },
+    {
+      "title": "Soccerway: Sundowns hope for upset against Dortmund",
+      "url": "https://www.soccerway.com/news/soccer-fifa-club-world-cup-mamelodi-sundowns-hope-for-upset-in-key-clash-against-borussia-dortmund/zT73FPPN",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-20",
+      "eventDate": "2025-06-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "that will require us to be resilient and keep organised, even when you are just waiting for the moment to get the ball again",
+      "verified": true
+    },
+    {
+      "title": "Soccerway: Sundowns hope for upset against Dortmund",
+      "url": "https://www.soccerway.com/news/soccer-fifa-club-world-cup-mamelodi-sundowns-hope-for-upset-in-key-clash-against-borussia-dortmund/zT73FPPN",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-06-20",
+      "eventDate": "2025-06-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "It's a team that scores 40% of their goals from counter pressings.",
+      "verified": true
+    },
+    {
+      "title": "Sunday Independent: Cardoso tactical brilliance vs Esperance",
+      "url": "https://sundayindependent.co.za/sport/soccer/2025-04-09-how-miguel-cardosos-tactical-brilliance-propelled-mamelodi-sundowns-towards-caf-champions-league-semis",
       "tier": "C",
       "language": "en",
       "articleDate": "2025-04-09",
       "eventDate": "2025-04-08",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Second leg QF at Rades: two changes (Divine Lunga and Arthur Sales for Aubrey Modiba and Iqraam Rayners) helped Sundowns gain control after a slow start; Sundowns \"actually had more possession over the 90 minutes, with 54% of the ball\"; passes 438 v 355, accuracy 82% v 74%. Date inferred from the article text (Tuesday in Rades) and URL date.",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Sundowns actually had more possession over the 90 minutes, with 54% of the ball",
       "verified": true
     },
     {
-      "title": "Mamelodi Sundowns coach Miguel Cardoso hits back at critics (The Post)",
-      "url": "https://thepost.co.za/sport/soccer/2025-04-09-mamelodi-sundowns-coach-miguel-cardoso-hits-back-at-critics",
+      "title": "Africa Soccer: Cardoso on edging out Esperance",
+      "url": "https://africasoccer.com/caf-champions-league-mamelodi-sundowns-coach-miguel-cardoso-shares-how-he-tactically-edged-out-esperance/",
       "tier": "C",
       "language": "en",
-      "articleDate": "2025-04-09",
-      "eventDate": "2025-04",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Cardoso: \"You can't play the same way in Rades as you do at Loftus.\" \"Sometimes you have to be risky, sometimes brave, sometimes strategic.\" Argues adaptation to opponent and venue is not defensiveness. Page shows no exact date; URL carries 2025-04-09.",
-      "verified": true
-    },
-    {
-      "title": "Siwelele 1-1 Mamelodi Sundowns (PSL report: Sundowns held, fail to reclaim top spot)",
-      "url": "https://psl.co.za/news/article/5613134-sundowns-held-fail-to-reclaim-top-spo",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-12-03",
-      "eventDate": "2025-12-03",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Last competitive match of 2025 (3 Dec 2025, Bloemfontein, 1-1). Controlled early possession; trailing, Cardoso brought on Sales, Zwane and Mothiba after the break and Sundowns \"pressed for long spells\"; Mothiba equalised with one of his first touches. Mokoena sent off for a second yellow. League paused until late January 2026.",
-      "verified": true
-    },
-    {
-      "title": "Cardoso on Raja loss (FARPost)",
-      "url": "https://farpost.co.za/2025/01/05/what-cardoso-said-after-first-defeat-as-sundowns-coach/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-01-05",
-      "eventDate": "2025-01-04",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Cardoso after Raja CA 1-0 Sundowns (first match of 2025): \"After the red card, we rebalanced the team in order to try to make it our best to win.\" \"We managed tactically different approaches on the second half.\" Also describes opponent's high line, not Sundowns'.",
-      "verified": true
-    },
-    {
-      "title": "Matthew Booth: Sundowns' defence needs to be ready to weather Dortmund and Fluminense storms (Business Report)",
-      "url": "https://businessreport.co.za/saturday-star/news/2025-06-20-matthew-booth-sundowns-defence-needs-to-be-ready-to-weather-dortmund-and-fluminense-storms-at-club-world-cup",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-20",
-      "eventDate": "2024/25",
-      "accessedOn": "2026-10-17",
-      "dimension": "width",
-      "evidence": "Booth: \"Sundowns has given an even spread to their full-backs this season\"; Mudau and Morena \"have rotated beautifully\". Pundit comment via Showmax; page shows no exact date (URL 2025-06-20).",
-      "verified": true
-    },
-    {
-      "title": "Mamelodi Sundowns: balancing flair and resilience in the CAF Champions League final (Business Report)",
-      "url": "https://businessreport.co.za/sport/soccer/2025-05-27-mamelodi-sundowns-balancing-flair-and-resilience-in-the-caf-champions-league-final/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-05-27",
-      "eventDate": "2025-05",
-      "accessedOn": "2026-10-17",
+      "articleDate": "2025-04-10",
+      "eventDate": "2025-04-08",
+      "accessedOn": "2026-11-06",
       "dimension": "player-profile",
-      "evidence": "Describes \"some of the best technically gifted players in the country\"; away results in Africa from \"tactical discipline and an appetite to suffer\" rather than sparkling football. Opinion column; page shows no exact date (URL 2025-05-27).",
+      "evidence": "We attempted to lessen the threat of Youcef Belaili, who accounts for 60% of Espérance’s offensive strength, and we were successful in this task.",
       "verified": true
     }
   ],
   "statedView": [
     {
-      "quote": "You can't play the same way in Rades as you do at Loftus.",
-      "date": "2025-04-09",
-      "source": "https://thepost.co.za/sport/soccer/2025-04-09-mamelodi-sundowns-coach-miguel-cardoso-hits-back-at-critics",
-      "provenance": "primary"
-    },
-    {
-      "quote": "Even in the last few weeks, I heard again that I'm a defensive coach. But that's not exactly true.",
-      "date": "2025-04-09",
-      "source": "https://thepost.co.za/sport/soccer/2025-04-09-mamelodi-sundowns-coach-miguel-cardoso-hits-back-at-critics",
-      "provenance": "primary"
-    },
-    {
-      "quote": "Earlier in my career I thought I could win against everyone the same way, but football taught me otherwise.",
-      "date": "2025-04-09",
-      "source": "https://thepost.co.za/sport/soccer/2025-04-09-mamelodi-sundowns-coach-miguel-cardoso-hits-back-at-critics",
-      "provenance": "primary"
-    },
-    {
-      "quote": "In South Africa, we usually control matches with 70% possession, sometimes even more.",
-      "date": "2025-06-13",
-      "source": "https://newscentraltv.com/?p=337450",
+      "quote": "We are used to controlling matches in the South African league. Our possession can be 70 percent, sometimes even more. [...] I doubt we will be able to control games like we regularly do in South Africa.",
+      "date": "2025-06-12",
+      "source": "AFP via citizen.digital, pre-Club World Cup",
       "provenance": "attributed"
     },
     {
-      "quote": "I was in Portugal for a long time, considered a coach who was too romantic in the way I think of the game.",
-      "date": "2025-08-02",
-      "source": "https://farpost.co.za/2025/08/02/people-were-wrong-about-my-style-of-play-cardoso/",
+      "quote": "Dortmund play a very high tempo, aggressive style, which is typical of German football",
+      "date": "2025-06-12",
+      "source": "AFP via citizen.digital",
       "provenance": "attributed"
     },
     {
-      "quote": "People like some more objectivity or direct game, or speed.",
+      "quote": "The belief that African clubs lack organisation, especially when defending, is untrue",
+      "date": "2025-06-12",
+      "source": "AFP via citizen.digital",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "In the beginning, people were saying, 'Ah, maybe coach Miguel's style is not exactly Sundowns' style'. That's absolutely wrong",
       "date": "2025-08-02",
-      "source": "https://farpost.co.za/2025/08/02/people-were-wrong-about-my-style-of-play-cardoso/",
+      "source": "Sundowns Pitchside Podcast, via farpost.co.za",
+      "provenance": "primary"
+    },
+    {
+      "quote": "[in Portugal] People like some more objectivity or direct game, or speed. They don't like being under pressure in the build-up and still try to do it. And I was this kind of coach there.",
+      "date": "2025-08-02",
+      "source": "Sundowns Pitchside Podcast, via farpost.co.za",
+      "provenance": "primary"
+    },
+    {
+      "quote": "You can have possession against them, but they always find a way to aggress you [...] we knew that we had to play our style. It was by imposing our style that we could create our moments.",
+      "date": "2025-01-12",
+      "source": "post-match, AS Maniema, via farpost.co.za",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Despite people saying, you coach, you are defensive. That's bullsh*t. [...] it's not true, we wanted to bring that energy to win the match.",
+      "date": "2025-11-01",
+      "source": "post-match vs Orlando Pirates, via farpost.co.za",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "In the first half, the game was very narrow [...] we were not using the width of the pitch in the right way",
+      "date": "2025-03-11",
+      "source": "SuperSport post-match vs AmaZulu, via DFA",
       "provenance": "attributed"
     }
   ],
   "unreadable": [
     {
-      "url": "https://iol.co.za/sport/soccer/2025-12-04-mamelodi-sundowns-end-year-frustrated-after-another-missed-opportunity/",
-      "reason": "403"
-    },
-    {
-      "url": "https://iol.co.za/sport/soccer/psl/2025-12-03-mamelodi-sundowns-held-to-by-siwelele-fc-as-title-race-intensifies-before-afcon-break/",
-      "reason": "403"
-    },
-    {
-      "url": "https://soccerladuma.co.za/news/local/miguel-cardoso-defends-mamelodi-sundowns-defensive-tactics-caf-champions-league-esperance",
-      "reason": "403"
-    },
-    {
-      "url": "https://foot-africa.com/en/news/miguel-cardoso-responds-to-critics-who-say-he-relies-on-a-defensive-style-in-his-tactics-944018/",
-      "reason": "403"
-    },
-    {
-      "url": "https://foot-africa.com/en/news/caf-champions-league-the-complete-sundowns-group-stage-schedule-946568/",
-      "reason": "403"
-    },
-    {
-      "url": "https://www.soccerladuma.co.za/international/fifa-club-world-cup/fifa-s-tobin-heath-praises-sundowns-style-of-play-at-club-world-cup",
-      "reason": "403"
-    },
-    {
-      "url": "https://businessreport.co.za/sport/2025-03-12-how-miguel-cardosos-tactics-led-mamelodi-sundowns-to-a-stunning-victory",
-      "reason": "404"
-    },
-    {
-      "url": "https://www.sportsclub.co.za/soccer/caf-champions-league/cardoso-hails-tactical-and-mental-shift-behind-sundowns-strong-display/",
+      "url": "https://farpost.co.za/2025/02/08/modiba-details-cardosos-unique-management-style/",
       "reason": "not-accessible"
-    },
-    {
-      "url": "https://www.panafricafootball.com/?p=8322",
-      "reason": "empty"
-    },
-    {
-      "url": "https://betweentheposts.net/?p=74864",
-      "reason": "not-accessible"
-    },
-    {
-      "url": "https://www.fifa.com/en/articles/mamelodi-sundowns-fluminense-highlights-match-report",
-      "reason": "empty"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/2025_in_South_African_football",
-      "reason": "404"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/2025–26_Mamelodi_Sundowns_F.C._season",
-      "reason": "truncated"
     }
   ],
-  "gaps": {
-    "dimensions": [
-      "people-management",
-      "squad-building",
-      "transitions"
-    ],
-    "axes": [
-      "bas",
-      "lid"
-    ]
-  },
   "influences": [],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
   "confidence": {
     "level": "medium",
-    "reason": "One tier A source (FIFA TSG) for shape, build-up, width and player profile, but on a single match (v Dortmund); pressing, block and set pieces rest on a single tier C piece on another match (v Fluminense); possession, game management and stated view are supported by dated press quotes. No tier B analysis; transitions, squad-building and people-management have no verified in-period fact."
+    "reason": "one tier A source (FIFA TSG) and one tier B tactical piece, both from the Club World Cup only; the rest is tier C press"
   }
 }
 
@@ -640,3 +919,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: The coach is the boss, and the stars follow the same rules as everyone else.
    Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
    Disagree means: The coach negotiates with the stars, and they can be treated differently.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time
