@@ -1,4 +1,4 @@
-You are auditing, question by question and fully independently, the football profile "Flamengo 1980" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Flamengo 1980, in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+You are auditing, question by question and fully independently, the football profile "Flamengo 1980 (Cláudio Coutinho)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Flamengo 1980 (Cláudio Coutinho), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
 
 The research file below is your evidence. Build your answers on it:
 - Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): pos, lar, blo, mar, jog. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK team:flamengo-1980" and a 1-line summary. Don't paste the JSON in the reply.
@@ -43,220 +44,625 @@ After writing the file, reply only with "OK team:flamengo-1980" and a 1-line sum
 {
   "id": "flamengo-1980",
   "catalog": "team",
-  "name": "Flamengo 1980",
-  "researchedOn": "2026-10-12",
-  "status": "complete",
+  "name": "Flamengo 1980 (Cláudio Coutinho)",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "1980-02-24",
-    "end": "1980-11"
+    "end": "1980-11-30"
   },
-  "scopeNote": "Brazilian calendar year 1980 under Cláudio Coutinho: Campeonato Brasileiro (first match Santos 0-1 Flamengo, 24 Feb 1980, per RSSSF https://www.rsssf.org/tablesb/braz80.html; won the final 3-2 v Atlético-MG on 1 Jun 1980), Taça Guanabara, European tour and Campeonato Carioca (17 Aug-30 Nov 1980; Flamengo 2nd on aggregate, not in the 30 Nov final, per en.wikipedia 1980 Campeonato Carioca). End date is partial (1980-11): the exact date of Flamengo's last Carioca match and of Coutinho's departure (to Los Angeles Aztecs) were not found. Coutinho is listed as manager 1978-1980; Modesto Bria is the next manager (1981).",
-  "managers": [
-    {
-      "managerId": "claudio-coutinho",
-      "start": "1980-02-24",
-      "end": "1980-11"
-    }
-  ],
+  "scopeNote": "Flamengo in calendar year 1980: Brasileiro (champion; final v Atletico-MG 0-1 on 1980-05-28 and 3-2 on 1980-06-01, 3-3 aggregate, Flamengo through on better campaign) plus the 1980 Carioca (kicked off 1980-08-17, ended 1980-11-30). Period start 1980-02-24 and end 1980-11-30 are the assumed scope; the end is the date the Carioca ended, not a verified Flamengo match date. Tactical coverage is thin: no tier A source and no source states zonal v man marking for 1980. The nearest term is 'marcação por setor' (Trivela 2011) credited to Coutinho; sources call the style ofensivo, with overlapping fullbacks ('overlapping'), 'ponto futuro' and 'polivalência', high compact lines and pressing; 'Pirâmide Invertida' (via Goal) credits Coutinho's Flamengo with the first Brazilian 4-5-1, while the lineup of the final reads like 4-3-3. Several Coutinho-era statements (1976-80 philosophy) are retrospective and flagged retrospectiveOnly. 1979 and 1981 facts (Carpegiani, Libertadores, Mundial) are excluded. Fact-check 2026-11-06 (managers): pt.wikipedia says Coutinho left after a leaked dispensal list led president Marcio Braga to dismiss him, with no date; Zico (2021) says Carpegiani 'tinha virado técnico no começo do ano' (1981). No source read dates Coutinho's exit or names an interim in Aug-Nov 1980, so managers[] still lists Coutinho to 1980-11-30 as an assumption. The 1980 Carioca final (30 Nov) was Fluminense 1-0 Vasco, not a Flamengo match, so Flamengo's last match date of 1980 is unknown and profilePeriod.end stays 1980-11-30 as the tournament end.",
   "ambiguities": [],
   "openQuestions": [
-    "Scope: calendar year 1980 (Brasileiro + Carioca, the Brazilian convention) was assumed. Confirm you don't mean only the Brasileiro title campaign (24 Feb-1 Jun 1980) or the more famous 1981 Libertadores/Intercontinental side (Carpegiani), which is a different team-era.",
-    "Exact end of the period: date of Flamengo's last 1980 Carioca match and of Coutinho's exit are unconfirmed (late 1980).",
-    "Marking: Coutinho is credited with introducing 'marcação por setor' at Flamengo (1976-80), but no source ties a zonal or man-oriented scheme to the 1980 team specifically.",
-    "Formation label: the 1980 final lineup reads as a 4-3-3 (Tita, Nunes, Júlio César up front); the book 'Pirâmide Invertida' (via Goal) credits Coutinho's Flamengo with an early 4-5-1. Confirm which label to use."
+    "The user has not confirmed this scope: calendar year 1980 (not only the Brasileiro campaign) and not the 1981 Libertadores side under Carpegiani. Period start 1980-02-24 (Santos 0-1 Flamengo) was assumed earlier and not re-verified by any source read here.",
+    "Marking (zonal v man): no source says. Trivela 2011 only says 'marcação por setor' was brought by Coutinho (retrospective). Needs match reports or books ('1981', 'Escola Brasileira de Futebol', Placar 1980).",
+    "Formation: lineup in the final suggests 4-3-3 (Andrade, Carpegiani, Zico behind Tita, Nunes, Júnior César) while Goal cites 'Pirâmide Invertida' for a first 4-5-1 under Coutinho; no 1980 tactical analysis settles it.",
+    "World Soccer (2013) says the 1980 Brasileiro team was coached by Carpegiani; this is an error (Lance, Trivela, Goal all say Coutinho).",
+    "UNRESOLVED (checked 2026-11-06): exact date and reason Coutinho left Flamengo. pt.wikipedia gives a reason (leaked dispensal list, dismissed by Marcio Braga) but no date; Zico says Carpegiani was coach 'no começo do ano' 1981. Nobody read states an interim for Aug-Nov 1980, and en.wikipedia 1981 season shows Modesto Bria in charge until 1981-04-05 (not 1980). Next: Jornal do Brasil / Jornal dos Sports Dec 1980 (memoria.bn.gov.br), FlaEstatistica, Terceiro Tempo 'Que fim levou'.",
+    "UNRESOLVED: Flamengo's final 1980 Carioca placing: 3rd (en.wikipedia 1981 season page) v 2nd with 33 pts (en.wikipedia Carioca page table); the pt page lists the champion and runner-up as Fluminense and Vasco in the final, which was Fluminense 1-0 Vasco on 1980-11-30, so Flamengo did not play it. Flamengo's last match date remains unknown."
   ],
   "sources": [
     {
-      "title": "'Foi em 80 com o gol do Nunes': primeiro título brasileiro do Flamengo completa 40 anos",
+      "title": "Há 80 anos nascia Cláudio Coutinho (Goal.com Brasil)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/ha-80-anos-nascia-claudio-coutinho-simbolo-do-flamengo-e-da-obsessao-pelo-estudo-no-futebol/1kajnx8yqxg3r16pypnjf2uyma",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "O livro “Pirâmide Invertida”, uma espécie de Bíblia da tática do esporte mais popular de todos, atribui ao Flamengo de Coutinho a primeira escalação de um 4-5-1",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "'Foi em 80 com o gol do Nunes' (Lance!)",
       "url": "https://www.lance.com.br/flamengo/foi-com-gol-nunes-anos-primeiro-titulo-brasileiro.html",
       "tier": "C",
       "language": "pt",
       "articleDate": "2020-05-31",
       "eventDate": "1980-06-01",
-      "accessedOn": "2026-10-12",
+      "accessedOn": "2026-11-06",
       "dimension": "shape",
-      "evidence": "Final lineup v Atlético-MG: \"FLAMENGO: Raul; Toninho, Manguito, Marinho e Júnior; Andrade, Carpegiani (Adílio) e Zico; Tita, Nunes e Júnior César\" \"Técnico: Cláudio Coutinho\". Reads as a back four, midfield three and front three (4-3-3). Also: 46 goals in 22 Brasileiro matches, Zico top scorer with 21. No tactical description in the article.",
+      "evidence": "FLAMENGO: Raul; Toninho, Manguito, Marinho e Júnior; Andrade, Carpegiani (Adílio) e Zico; Tita, Nunes e Júnior César - Técnico: Cláudio Coutinho",
       "verified": true
     },
     {
-      "title": "Nunes explica o gol que acendeu a chama da rivalidade entre Flamengo e Atlético-MG",
+      "title": "Nunes explica o gol que acendeu a chama da rivalidade (Trivela)",
       "url": "https://trivela.com.br/brasil/nunes-flamengo-gol-historico-atletico-mg/",
-      "tier": "C",
+      "tier": "B",
       "language": "pt",
       "articleDate": "2024-11-03",
       "eventDate": "1980-06-01",
-      "accessedOn": "2026-10-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "A gente se preparou, quinta, sexta, sábado, treinamento forte, jogadas ensaiadas. Todo mundo atento, tanto no treinamento como nas jogadas no esquema tático que o Claudio Coutinho estava passando para gente. Mostrava o esquema tático do Atlético e conversava em cima desse esquema tático do Atlético",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
       "dimension": "build-up",
-      "evidence": "On the decisive goal of the 1980 final: \"o lançamento de Andrade foi o ponto-chave para a jogada, algo muito treinado pelo Flamengo de Cláudio Coutinho.\" Nunes: \"Foi uma jogada que o Andrade estava acostumado a fazer nos treinamentos.\" Also: \"Outros jogadores importantes daquele esquadrão do Flamengo se projetavam dentro da área.\" One move in one match: a rehearsed long pass from midfield, not a general build-up pattern.",
+      "evidence": "Quando a jogada tentada por uma das pontas não se concretizava, a ordem era voltar a bola até a defesa e recomeçar a saída pelo outro lado. Nada de tentar alçar bolas na área infindavelmente a esmo.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Em uma jogada de velocidade bem articulada pelo setor ofensivo, a bola encontrou Tita em plenas condições de finalização.",
       "verified": true
     },
     {
-      "title": "Nunes explica o gol que acendeu a chama da rivalidade entre Flamengo e Atlético-MG",
+      "title": "Nunes explica o gol que acendeu a chama da rivalidade (Trivela)",
       "url": "https://trivela.com.br/brasil/nunes-flamengo-gol-historico-atletico-mg/",
-      "tier": "C",
+      "tier": "B",
       "language": "pt",
       "articleDate": "2024-11-03",
       "eventDate": "1980-06-01",
-      "accessedOn": "2026-10-12",
-      "dimension": "game-management",
-      "evidence": "Nunes (player, interviewed 2024) on preparing the final: \"A gente se preparou, quinta, sexta, sábado, treinamento forte, jogadas ensaiadas.\" Coutinho \"Mostrava o esquema tático do Atlético e conversava em cima desse esquema tático do Atlético para a gente ter a consciência\". Shows opponent study before a final; does not show the team changing its own system.",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Foi uma jogada que o Andrade estava acostumado a fazer nos treinamentos. Fazer o lançamento longo, ele sabia que eu caía pelo lado esquerdo e ele sabia que eu chegaria na bola tranquilamente",
       "verified": true
     },
     {
-      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
-      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2019-01-05",
-      "eventDate": "1980",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "Nunes, \"trazido por indicação de Coutinho,\" scored the goal that \"daria o pontapé inicial à escalada para conquistar o mundo.\" (Emmanuel do Valle.)",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "RESENHA: Herois de uma nação – O maior time rubro negro de todos os tempos",
-      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2011-11-16",
-      "eventDate": "1980",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "\"Coutinho pegou aquela molecada que era comprometida com o clube\" and \"mesclou com jogadores experientes como Carpegiani, Raul, Sergio Ramires e Toninho Baiano.\" Describes how Coutinho built the side over 1976-80 (book review); Raul, Toninho and Carpegiani started the 1980 final. Era-wide, not 1980-specific.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
-      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2019-01-05",
-      "eventDate": "1980-11",
-      "accessedOn": "2026-10-12",
-      "dimension": "people-management",
-      "evidence": "After the Brasileiro, Taça Guanabara and a European tour, the team \"perdeu o tetra carioca e entrou em crise\", attributed to \"cansaço, à pressão... e até à autossuficiência.\" \"Estafado, Coutinho deixou o comando, seguindo para o Los Angeles Aztecs.\" Also (1976, outside period): his \"facilidade no diálogo sempre aberto com os jogadores\"; Júnior recalled that \"Coutinho pregava que os fundamentos do futebol tinham que ser exercitados diariamente.\"",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
-      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2019-01-05",
-      "eventDate": "1976",
-      "accessedOn": "2026-10-12",
-      "dimension": "shape",
-      "evidence": "Context only, outside the period (1976, first spell): \"Partindo de um 4-3-3 básico, fez alterações sutis no posicionamento da defesa\"; Jayme played \"como uma espécie de líbero\"; midfield trio asked to \"se aproximar mais do ataque\". Not evidence for 1980.",
-      "verified": false
-    },
-    {
-      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
-      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2019-01-05",
-      "eventDate": "1979",
-      "accessedOn": "2026-10-12",
-      "dimension": "pressing",
-      "evidence": "Undated in the article (Coutinho era, late 1970s): Zico, quoted from the book '1981', on a boxing-inspired idea to \"tentar definir a partida o quanto antes\"; the team liked \"times agrupados, compactos, criativos\" with high pressing lines. Not tied to 1980, so not counted.",
-      "verified": false
-    },
-    {
-      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
-      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2019-01-05",
-      "eventDate": "1979",
-      "accessedOn": "2026-10-12",
-      "dimension": "possession",
-      "evidence": "Undated (Coutinho era): when a wing move failed, \"a ordem era voltar a bola até a defesa e recomeçar a saída pelo outro lado\"; patient ball circulation. Not tied to 1980, so not counted.",
-      "verified": false
-    },
-    {
-      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro",
-      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2019-01-05",
-      "eventDate": "1978",
-      "accessedOn": "2026-10-12",
-      "dimension": "width",
-      "evidence": "Coutinho's term \"overlapping\" (the full-back's advanced run down the open flank) was mocked by the press. After the 1978 World Cup he \"reformulou algumas e abdicou de outras (como a utilização de laterais ofensivos nas pontas)\" (about the national team). No 1980 Flamengo-specific description of width.",
-      "verified": false
-    },
-    {
-      "title": "RESENHA: Herois de uma nação – O maior time rubro negro de todos os tempos",
-      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2011-11-16",
-      "eventDate": "1978",
-      "accessedOn": "2026-10-12",
-      "dimension": "defensive-block",
-      "evidence": "Lists \"overlapping\", \"ponto futuro\", \"marcação por setor\" and \"profissionalismo\" as terms nobody at the club knew before: \"Essas inovações foram trazidas ao clube pelo treinador Cláudio Coutinho.\" Suggests sector (zonal) marking across 1976-80, but says nothing about how the 1980 team actually marked. Not counted.",
-      "verified": false
-    },
-    {
-      "title": "Há 80 anos nascia Cláudio Coutinho, símbolo do Flamengo e da obsessão pelo estudo no futebol",
+      "title": "Há 80 anos nascia Cláudio Coutinho (Goal.com Brasil)",
       "url": "https://www.goal.com/br/not%C3%ADcias/ha-80-anos-nascia-claudio-coutinho-simbolo-do-flamengo-e-da-obsessao-pelo-estudo-no-futebol/1kajnx8yqxg3r16pypnjf2uyma",
       "tier": "C",
       "language": "pt",
       "articleDate": "2019-01-05",
-      "eventDate": "1979",
-      "accessedOn": "2026-10-12",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Aquele Flamengo de Zico, Júnior e tantos outros pressionava o adversário sem a bola e, quando recuperava a esfera, dominava completamente a posse de bola",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "O Palmeiras de Oswaldo Brandão parecia completamente atordoado em campo, assistindo passivamente ao toque de bola envolvente do adversário.",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
       "dimension": "pressing",
-      "evidence": "Opinion piece (Tauan Ambrosio): the team of Zico, Júnior and others \"pressionava o adversário sem a bola\"; cites the book 'Pirâmide Invertida' crediting Coutinho's Flamengo with \"a primeira escalação de um 4-5-1\". Undated, not tied to 1980; not counted.",
-      "verified": false
+      "evidence": "Para ele, a equipe deveria pressionar o adversário desde o início e tentar definir a partida o quanto antes, de modo a não possibilitar uma reação. “Se você acerta um soco no cara, tenta o segundo, o terceiro, para derrubar logo.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "A proposta de jogo era clara: asfixiar o Palmeiras desde os minutos iniciais, utilizando a velocidade de Júlio César e a inteligência de Zico para municiar os atacantes.",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "O basquete também moldava a filosofia de jogo de Coutinho, que gostava de times agrupados, compactos, criativos, com as linhas de marcação alta",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "RESENHA: Herois de uma nação (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Naquela época ninguém tinha ouvido falar nos termos “overlapping”, “ponto futuro”, “marcação por setor” e “profissionalismo”. Essas inovações foram trazidas ao clube pelo treinador Cláudio Coutinho.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Com uma linha de defesa sólida liderada por Rondinelli e Marinho, apoiada pela inteligência de Júnior na lateral-esquerda",
+      "verified": true
+    },
+    {
+      "title": "Atlético e Flamengo fizeram final sensacional e polêmica em 1980 (Rádio Itatiaia)",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/atletico-e-flamengo-fizeram-final-sensacional-e-polemica-em-1980/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-29",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Logo depois, aos 23, foi expulso por José de Assis Aragão após o auxiliar Carlos Sérgio Rosa Martins marcar um impedimento absurdo num contra-ataque do Atlético que poderia decretar a virada.",
+      "verified": true
+    },
+    {
+      "title": "Há 80 anos nascia Cláudio Coutinho (Goal.com Brasil)",
+      "url": "https://www.goal.com/br/not%C3%ADcias/ha-80-anos-nascia-claudio-coutinho-simbolo-do-flamengo-e-da-obsessao-pelo-estudo-no-futebol/1kajnx8yqxg3r16pypnjf2uyma",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-01-05",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "pressionava o adversário sem a bola e, quando recuperava a esfera, dominava completamente a posse de bola",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "“overlapping” (que nada mais era do que a passagem do lateral no apoio pelo corredor aberto quando os pontas fechavam pelo meio)",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Aos 16 minutos, o lateral Toninho Baiano apareceu de forma surpreendente no ataque para balançar as redes e fazer o quarto gol carioca.",
+      "verified": true
+    },
+    {
+      "title": "Leandro, 60 anos (Trivela)",
+      "url": "https://trivela.com.br/brasil/leandro-60-anos-mestre-da-lateral-idolo-e-torcedor-gigante-do-flamengo/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-03-17",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Leandro estava sem contrato e, portanto, sem poder ser inscrito no Brasileiro. Acabou não participando da primeira conquista nacional do clube",
+      "verified": true
+    },
+    {
+      "title": "Nunes explica o gol que acendeu a chama da rivalidade (Trivela)",
+      "url": "https://trivela.com.br/brasil/nunes-flamengo-gol-historico-atletico-mg/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2024-11-03",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "A gente se preparou, quinta, sexta, sábado, treinamento forte, jogadas ensaiadas.",
+      "verified": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Zico, com a frieza que lhe era característica, assumiu a cobrança e bateu sem chances para Gilmar, anotando o terceiro do Flamengo e o seu segundo na partida.",
+      "verified": true
+    },
+    {
+      "title": "Flamengo 6 x 2 Palmeiras no Brasileirão 1980 (Lance!)",
+      "url": "https://www.lance.com.br/lancepedia/flamengo-6-x-2-palmeiras-no-brasileirao-1980.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-05-23",
+      "eventDate": "1980-04-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Cláudio Coutinho aproveitou os instantes finais da partida para rodar o elenco, promovendo as entradas de Adílio na vaga de Júlio César e do jovem Reinaldo no lugar de Zico",
+      "verified": true
+    },
+    {
+      "title": "Atlético e Flamengo fizeram final sensacional e polêmica em 1980 (Rádio Itatiaia)",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/atletico-e-flamengo-fizeram-final-sensacional-e-polemica-em-1980/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-29",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Por ter feito melhor campanha na competição, o rubro-negro carioca disputou a final precisando de dois empates ou vitória e derrota pela mesma diferença de gols.",
+      "verified": true
+    },
+    {
+      "title": "'Foi em 80 com o gol do Nunes' (Lance!)",
+      "url": "https://www.lance.com.br/flamengo/foi-com-gol-nunes-anos-primeiro-titulo-brasileiro.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-05-31",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "E foi justamente pela melhor campanha nas semifinais que o Flamengo sagrou-se campeão após a derrota por 1 a 0, em Belo Horizonte, e a vitória por 3 a 2, no Rio de Janeiro.",
+      "verified": true
+    },
+    {
+      "title": "'Foi em 80 com o gol do Nunes' (Lance!)",
+      "url": "https://www.lance.com.br/flamengo/foi-com-gol-nunes-anos-primeiro-titulo-brasileiro.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2020-05-31",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Zico foi eleito o melhor jogador e o artilheiro da competição, com 21 gols. Ao todo, o Rubro-Negro, comandado por Cláudio Coutinho, marcou 46 gols em 22 partidas",
+      "verified": true
+    },
+    {
+      "title": "Atlético e Flamengo fizeram final sensacional e polêmica em 1980 (Rádio Itatiaia)",
+      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/atletico-e-flamengo-fizeram-final-sensacional-e-polemica-em-1980/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-29",
+      "eventDate": "1980-05-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Os cariocas estavam desfalcados da sua maior estrela, Zico, que tinha sofrido uma lesão muscular três dias antes diante do Coritiba",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "e “polivalência” (atribuída ao atleta versátil, capaz de executar mais de uma função em campo).",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "RESENHA: Herois de uma nação (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Coutinho pegou aquela molecada que era comprometida com o clube, dentre eles Zico, Junior, Adílio, Andrade, Tita, entre outros e mesclou com jogadores experientes como Carpegiani, Raul, Sergio Ramires e Toninho Baiano.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "RESENHA: Herois de uma nação (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Desde 1972, com o surgimento de Zico, até 1976 vários atletas foram guindados ao time de cima. Esse trabalho foi realizado por Joubert Meira",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Leandro, 60 anos (Trivela)",
+      "url": "https://trivela.com.br/brasil/leandro-60-anos-mestre-da-lateral-idolo-e-torcedor-gigante-do-flamengo/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-03-17",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Com a venda do titular Toninho para o futebol árabe após o título brasileiro, parecia que Leandro surgiria com força para ganhar a vaga no time",
+      "verified": true
+    },
+    {
+      "title": "RESENHA: Herois de uma nação (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Sua eficiência fora do gramado dava condições para que os jogadores só pensassem em jogar futebol. Bosco se preocupava com a logística e tratava os jogadores como “meus craques”. Além disso, blindava os atletas quando acontecia uma adversidade.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "RESENHA: Herois de uma nação (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/resenha-herois-de-uma-nacao-o-maior-time-rubro-negro-de-todos-os-tempos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-11-16",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Era um líder diferente. Não precisava gritar para se impor. Fazia isso com seu futebol brilhante. E não havia ciúme entre os outros atletas.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Nunes explica o gol que acendeu a chama da rivalidade (Trivela)",
+      "url": "https://trivela.com.br/brasil/nunes-flamengo-gol-historico-atletico-mg/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2024-11-03",
+      "eventDate": "1980-06-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Mostrava o esquema tático do Atlético e conversava em cima desse esquema tático do Atlético para a gente ter a consciência de saber se movimentar e ter uma disciplina tática",
+      "verified": true
+    },
+    {
+      "title": "Até 1981, ninguém ligava para Libertadores, diz Zico (ABC do ABC)",
+      "url": "https://abcdoabc.com.br/ate-1981-ninguem-ligava-para-libertadores-e-muito-menos-para-mundial-diz-zico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-12-13",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "A gente teve a sorte de ter tido o Coutinho, que tinha um assistente, o Jairo Santos, que, por sua vez, documentou todos os times da Europa.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1976",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "No futebol de hoje, tem que haver uma participação total, durante os 90 minutos, quase como no basquete. O jogador que chuta em gol deve ajudar imediatamente na marcação, e vice-versa.",
+      "verified": false,
+      "retrospectiveOnly": true,
+      "note": "Interview from 1976, outside period; unverified for period purposes"
+    },
+    {
+      "title": "Cláudio Coutinho, 80 anos: O legado de um dos técnicos mais inovadores do futebol brasileiro (Trivela)",
+      "url": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2019-01-06",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Fez um gol, massacra para fazer outros e resolver logo o jogo”, explicou Zico no livro “1981”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Carpegiani estreia (Trivela)",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/foi-contra-o-olimpia-que-carpegiani-estreou-como-tecnico-do-flamengo-em-1981-antes-de-conduzir-o-time-aos-seus-maiores-feitos/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2021-08-11",
+      "eventDate": "1981",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "O motivo oficial para a demissão realizada pela diretoria foi a “divergência de métodos de trabalho”.",
+      "verified": false,
+      "note": "1981, outside period; kept unverified for context only"
+    },
+    {
+      "title": "Tite é o nono técnico gaúcho (Lance!)",
+      "url": "https://www.lance.com.br/flamengo/tite-e-o-nono-tecnico-gaucho-da-historia-do-flamengo-relembre-outros-nomes.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-10-12",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Foi o treinador do primeiro título Brasileiro (1980), conquistou três Cariocas (1978 e duas edições de 1979), três Taças Guanabara (1978/79/80)",
+      "verified": true
+    },
+    {
+      "title": "Netvasco Jogos 1980 (Vasco fixtures)",
+      "url": "https://netvasco.com.br/historia/jogos/Jogos1980.html",
+      "tier": "D",
+      "language": "pt",
+      "articleDate": "2009-12-01",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "| 16-nov-1980 | 0x2 | Flamengo (RJ) | Maracanã |",
+      "verified": false,
+      "note": "Vasco's fixture list; Flamengo opponent rows only, no Flamengo manager data"
+    },
+    {
+      "title": "1980 Campeonato Carioca (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1980_Campeonato_Carioca",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-05-12",
+      "eventDate": "1980-11-30",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "The 1980 edition of the Campeonato Carioca kicked off on August 17, 1980 and ended on November 30, 1980.",
+      "verified": true
+    },
+    {
+      "title": "Cláudio Coutinho (Wikipédia PT)",
+      "url": "https://pt.wikipedia.org/wiki/Cl%C3%A1udio_Coutinho",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2006-05-29",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Deixou o clube após querer fazer uma reformulação no elenco, onde uma lista de dispensa foi vazada à imprensa e, com a repercussão, o presidente do clube à época, Márcio Braga, optou por demiti-lo.",
+      "verified": true,
+      "note": "No exit date given; the sentence follows the 1980 Brasileiro title and sits before the 1981 Aztecs line, so the year is inferred as late 1980/early 1981 and is not confirmed",
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Até 1981, ninguém ligava para Libertadores (ABC do ABC)",
+      "url": "https://abcdoabc.com.br/ate-1981-ninguem-ligava-para-libertadores-e-muito-menos-para-mundial-diz-zico/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2021-12-13",
+      "eventDate": "1981",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Quando o Coutinho saiu, ele deu todo aquele material pro Carpegiani, que tinha virado técnico no começo do ano.",
+      "verified": false,
+      "note": "Zico: Carpegiani became coach at the start of 1981 (outside period); Coutinho had left before that; verified false because eventDate 1981 is outside the period",
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "1981 CR Flamengo season (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1981_CR_Flamengo_season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-02-13",
+      "eventDate": "1980",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Flamengo qualified for the 1981 Brazilian Championship (officially the Taça de Ouro or \"Gold Cup\") through finishing 3rd in the 1980 Campeonato Carioca.",
+      "verified": true,
+      "note": "Contradicts the 1980 Carioca page table (2nd, 33 pts); unresolved"
+    },
+    {
+      "title": "1980 Campeonato Carioca (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/1980_Campeonato_Carioca",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-05-12",
+      "eventDate": "1980-09-10",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Biggest home win | Flamengo 7-1 Niterói (September 10, 1980)",
+      "verified": true
+    },
+    {
+      "title": "Campeonato Carioca de Futebol de 1980 (Wikipédia PT)",
+      "url": "https://pt.wikipedia.org/wiki/Campeonato_Carioca_de_Futebol_de_1980",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2006-01-24",
+      "eventDate": "1980-11-30",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "30 de novembro de 1980 Fluminense 1-0 Vasco da Gama",
+      "verified": true,
+      "note": "Final of the Carioca was Fluminense v Vasco; Flamengo did not play it, so 1980-11-30 is not a Flamengo match date"
     }
   ],
   "statedView": [
     {
-      "quote": "É preciso que algum clube comece a atuar de uma forma mais moderna para que os outros sejam forçados a mudar.",
-      "date": "2019-01-05",
-      "source": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "quote": "É preciso que algum clube comece a atuar de uma forma mais moderna para que os outros sejam forçados a mudar. O problema é que ninguém quer ser o primeiro. [...] No futebol de hoje, tem que haver uma participação total, durante os 90 minutos, quase como no basquete.",
+      "date": "1976-09",
+      "source": "Jornal do Brasil, first interview as Flamengo coach, reproduced in Trivela (2019-01-06); 1976, outside period, shown as his stated view only",
       "provenance": "attributed"
     },
     {
-      "quote": "Tem que haver uma participação total, durante os 90 minutos, quase como no basquete.",
-      "date": "2019-01-05",
-      "source": "https://trivela.com.br/brasil/claudio-coutinho-80-anos-o-legado-de-um-dos-tecnicos-mais-inovadores-do-futebol-brasileiro/",
+      "quote": "Se você acerta um soco no cara, tenta o segundo, o terceiro, para derrubar logo. Se esperar que ele se recupere, pode levar um daqui a pouco. Fez um gol, massacra para fazer outros e resolver logo o jogo",
+      "date": "2019-01-06",
+      "source": "Zico recalling Coutinho, in the book '1981' (Rocha and Beting), via Trivela 2019",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Coutinho pregava que os fundamentos do futebol tinham que ser exercitados diariamente",
+      "date": "2019-01-06",
+      "source": "Júnior in the book '1981', via Trivela 2019",
       "provenance": "attributed"
     }
   ],
   "unreadable": [
     {
-      "url": "https://pt.wikipedia.org/wiki/Temporada_do_Clube_de_Regatas_do_Flamengo_de_1980",
-      "reason": "404"
+      "url": "https://periodicos.ufmg.br/index.php/fulia/article/download/37550/30323/132856",
+      "reason": "empty"
+    },
+    {
+      "url": "https://en.flamengo.com.br/noticias/flamengo/emocao-na-missa-para-o-ex-treinador-claudio-coutinho",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "Total Football (Rinus Michels' Netherlands, per Wikipedia on Coutinho)",
+    "Cooper method / NASA, basketball and boxing (Trivela)"
+  ],
+  "managers": [
+    {
+      "managerId": "claudio-coutinho",
+      "start": "1980-02-24",
+      "end": "1980-11-30"
     }
   ],
   "gaps": {
-    "dimensions": [
-      "possession",
-      "pressing",
-      "defensive-block",
-      "transitions",
-      "width",
-      "set-pieces",
-      "stated-view",
-      "player-profile"
-    ],
-    "axes": [
-      "pos",
-      "lar",
-      "blo",
-      "mar",
-      "jog"
-    ]
+    "dimensions": [],
+    "axes": []
   },
-  "influences": [],
   "confidence": {
     "level": "low",
-    "reason": "Historical team with no contemporary tactical analysis found. All verified evidence is tier C Brazilian press, mostly retrospective (2011-2024), and covers the lineup and one goal of the 1 Jun 1980 final plus squad building and the late-1980 crisis. Pressing, possession, width and marking are described only for the Coutinho era in general (1976-80), not for 1980. Both Coutinho quotes are from his 1976 interview as reported in 2019, so they are attributed, not primary."
+    "reason": "No tier A source; tactical evidence is retrospective press (Trivela 2011/2019, Goal 2019) with one 2024 player interview and Lance match reports; marking and formation unresolved; manager at the end of 1980 unconfirmed."
   }
 }
 
@@ -542,3 +948,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: A happy, united group performs better than a dressing room run with an iron fist.
    Agree means: A good atmosphere and a united group are the basis of performance.
    Disagree means: Strict discipline and control of the dressing room get more out of a team than a relaxed atmosphere.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

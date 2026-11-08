@@ -1,0 +1,77 @@
+{
+  "id": "arsene-wenger",
+  "catalog": "manager",
+  "name": "Arsène Wenger",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1987",
+    "end": "2018"
+  },
+  "scopeNote": "Manager profile of Arsène Wenger across two counted spells: Monaco (1987 to 17 September 1994: Ligue 1 1987-88, Coupe de France 1991) and Arsenal (1 October 1996 to 2018, when he stepped down: Premier League 1997-98, 2001-02 and 2003-04; FA Cups). Dates from the Wikipedia career section read at step 1: the Arsenal end is given only as 2018 in the excerpt read. Excluded: Nagoya Grampus Eight (1995-96; Emperor's Cup and Super Cup, outside the English era, not researched for tactics). Style: no tactical fact about Wenger's teams was read in the pages opened; the pages read give only quotes about his personal approach. The style claims in the search results (possession, quick passing, total football) are not verified and are not counted.",
+  "spellsCounted": [
+    {
+      "club": "Monaco",
+      "start": "1987",
+      "end": "1994-09-17",
+      "reason": "Ligue 1 1987-88 and the 1991 Coupe de France."
+    },
+    {
+      "club": "Arsenal",
+      "start": "1996-10-01",
+      "end": "2018",
+      "reason": "Three Premier League titles, including the 2003-04 unbeaten season, and six FA Cups; the era he is known for. End is the year given in the page excerpt (exact day not read)."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Nagoya Grampus Eight",
+      "start": "1995",
+      "end": "1996-08-28",
+      "reason": "Japanese club; Emperor's Cup and Super Cup, tactics not researched for this profile."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Wenger's tactics (shape, possession, pressing, marking) are not documented in any page read: the profile needs tier A-B sources before it can be audited with confidence."
+  ],
+  "sources": [],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "shape",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "est",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table only; no tactical source read; the audit will answer the style from general knowledge."
+  }
+}

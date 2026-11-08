@@ -82,9 +82,9 @@
   },
   {
     "id": "soviet-scientific-football",
-    "name": "Futebol científico soviético",
+    "name": "Futebol científico (Lobanovskyi)",
     "category": "Pressão e intensidade",
-    "description": "Escola soviética de Maslov e Lobanovskyi: pressão sistemática, preparação física e análise de dados, com jogo coletivo em zona e o sistema acima dos nomes.",
+    "description": "A escola de Maslov e Lobanovskyi, nascida na União Soviética: pressão sistemática, preparação física e análise de dados, com jogo coletivo em zona e o sistema acima dos nomes.",
     "phrase": "Quero um time que pressiona de forma sistemática, treina com ciência e joga em zona, com o sistema acima dos nomes.",
     "teamId": "dynamo-kyiv-1985-86",
     "managerId": "valeriy-lobanovskyi"
@@ -163,7 +163,7 @@
   },
   {
     "id": "relationism",
-    "name": "Relacionismo",
+    "name": "Dinizismo",
     "category": "Relacional e liberdade",
     "description": "Ideia ligada a Fernando Diniz e ao 'jogo funcional': a posição é uma função das relações entre os jogadores, sem estrutura de zonas, com a bola no centro do jogo.",
     "phrase": "Quero um time sem posições fixas em que os jogadores se organizem pelas relações em torno da bola.",
@@ -172,9 +172,9 @@
   },
   {
     "id": "player-empowerment",
-    "name": "Empoderamento dos jogadores",
+    "name": "Ancelottismo",
     "category": "Relacional e liberdade",
-    "description": "Futebol de gestão de pessoas, como o de Ancelotti, Zidane e Scaloni: estrutura leve, regras de disciplina e de defesa, e liberdade com a bola construída pela confiança.",
+    "description": "A gestão de grupo de Ancelotti, também vista em Zidane e Scaloni: estrutura leve que se adapta aos craques e aos veteranos do elenco, regras claras de disciplina e de defesa, e liberdade com a bola construída pela confiança e pela harmonia.",
     "phrase": "Quero pouca regra tática, liberdade com a bola e um treinador que lidere pela confiança nos jogadores.",
     "teamId": "real-madrid-2016-18",
     "managerId": "carlo-ancelotti"
@@ -194,8 +194,8 @@
     "category": "Posse e estrutura",
     "description": "O Napoli de Sarri: 4-3-3 de passes rápidas e combinações em tabela, corridas de terceiro homem e linha defensiva alta, num ritmo vertical.",
     "phrase": "Quero passes rápidos e triangulações, com linha defensiva alta e o time jogando em bloco.",
-    "teamId": null,
-    "managerId": null
+    "teamId": "napoli-2015-18",
+    "managerId": "maurizio-sarri"
   },
   {
     "id": "build-up-baiting",
@@ -203,25 +203,25 @@
     "category": "Posse e estrutura",
     "description": "Jogo de De Zerbi: atrair a pressão adversária na saída de bola, de dentro da própria área, para criar espaço e atacar atrás do pressing.",
     "phrase": "Quero provocar a pressão do rival na saída de bola e, quando ele vier, achar o espaço atrás dela.",
-    "teamId": null,
-    "managerId": null
+    "teamId": "brighton-2022-24-de-zerbi",
+    "managerId": "roberto-de-zerbi"
   },
   {
     "id": "modern-man-to-man",
-    "name": "Marcação individual moderna",
+    "name": "Gasperinismo",
     "category": "Pressão e intensidade",
-    "description": "Marcação individual por boa parte do campo, com pressão agressiva e defesa de três, como no Atalanta de Gasperini.",
-    "phrase": "Quero marcar homem a homem por boa parte do campo, com pressão agressiva e uma defesa de três.",
-    "teamId": null,
-    "managerId": null
+    "description": "O jogo do Atalanta de Gasperini: marcação individual por boa parte do campo, pressão alta e agressiva, defesa de três com alas que atacam pelos lados e um futebol vertical e de muita intensidade física.",
+    "phrase": "Quero marcar homem a homem por boa parte do campo, com pressão alta, três zagueiros e alas que atacam pelos lados.",
+    "teamId": "atalanta-2016-25",
+    "managerId": "gian-piero-gasperini"
   },
   {
     "id": "zona-mista",
-    "name": "Zona mista",
+    "name": "Gioco all'italiana (zona mista)",
     "category": "Defensiva e reativa",
-    "description": "Gioco all'italiana de Trapattoni: marcação individual sobre o criador ou o atacante rival, mais cobertura de zona, líbero, quatro defensores e transições rápidas.",
+    "description": "O gioco all'italiana de Trapattoni: marcação individual sobre o criador ou o atacante rival, mais cobertura de zona, líbero, quatro defensores e transições rápidas.",
     "phrase": "Quero marcar o craque rival homem a homem, cobrir o resto em zona e buscar o resultado em transições rápidas.",
-    "teamId": null,
-    "managerId": null
+    "teamId": "juventus-1976-86",
+    "managerId": "giovanni-trapattoni"
   }
 ]

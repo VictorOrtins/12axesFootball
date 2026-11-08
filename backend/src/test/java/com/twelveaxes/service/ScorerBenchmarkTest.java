@@ -36,16 +36,16 @@ class ScorerBenchmarkTest {
     private static final int CENTER_STRESS_SAMPLES_PER_CATALOG = 200;
     private static final int WARM_USER_SAMPLES_PER_CATALOG = 200;
 
-    // Calibrados nos catalogos de futebol (ver MATCH_EXPLAINED.md): abaixo do pior valor da formula
-    // atual em 12 sementes de simulacao e acima do que formulas sem direcao, sem magnitude ou
-    // so com distancia obtem em oposto, centro e extremidade. Recalibrar se os catalogos mudarem muito.
-    private static final double MIN_RECOVERY_SIGMA_10_PERCENT = 86.0;
-    private static final double MIN_RECOVERY_SIGMA_15_PERCENT = 70.0;
-    private static final double MIN_OPPOSITE_REJECTION_PERCENT = 94.0;
-    private static final double MIN_CENTER_REJECTION_PERCENT = 83.0;
+    // Calibrados nos catalogos de futebol (ver MATCH_EXPLAINED.md): logo abaixo do pior valor da formula
+    // atual (com esticamento e hubOffset) em 12 sementes de simulacao. A extremidade caiu de proposito:
+    // o esticamento leva usuarios moderados a perfis mais marcados. Recalibrar se os catalogos mudarem muito.
+    private static final double MIN_RECOVERY_SIGMA_10_PERCENT = 80.0;
+    private static final double MIN_RECOVERY_SIGMA_15_PERCENT = 65.0;
+    private static final double MIN_OPPOSITE_REJECTION_PERCENT = 98.0;
+    private static final double MIN_CENTER_REJECTION_PERCENT = 93.0;
     private static final double MIN_STABILITY_PERCENT = 97.0;
-    private static final double MIN_DISCRIMINATION_PERCENT = 7.5;
-    private static final double MIN_EXTREMITY_INFLATION_CONTROL_PERCENT = 82.0;
+    private static final double MIN_DISCRIMINATION_PERCENT = 8.5;
+    private static final double MIN_EXTREMITY_INFLATION_CONTROL_PERCENT = 74.0;
 
     private final ProfileMatchScorer scorer = new ProfileMatchScorer();
 
@@ -188,19 +188,19 @@ class ScorerBenchmarkTest {
                 new Catalog(
                         readJson("football-ideology-profiles.json",
                                 new TypeReference<List<FootballIdeologyProfile>>() { }).stream()
-                                .map(profile -> new Profile(profile.footballIdeologyId(), profile.vector()))
+                                .map(profile -> new Profile(profile.footballIdeologyId(), profile.vector(), profile.hubOffset()))
                                 .sorted(Comparator.comparing(Profile::id))
                                 .toList()
                 ),
                 new Catalog(
                         readJson("team-profiles.json", new TypeReference<List<TeamProfile>>() { }).stream()
-                                .map(profile -> new Profile(profile.teamId(), profile.vector()))
+                                .map(profile -> new Profile(profile.teamId(), profile.vector(), profile.hubOffset()))
                                 .sorted(Comparator.comparing(Profile::id))
                                 .toList()
                 ),
                 new Catalog(
                         readJson("manager-profiles.json", new TypeReference<List<ManagerProfile>>() { }).stream()
-                                .map(profile -> new Profile(profile.managerId(), profile.vector()))
+                                .map(profile -> new Profile(profile.managerId(), profile.vector(), profile.hubOffset()))
                                 .sorted(Comparator.comparing(Profile::id))
                                 .toList()
                 )
@@ -217,7 +217,7 @@ class ScorerBenchmarkTest {
 
     private List<RankedProfile> rank(Catalog catalog, Map<String, Double> queryVector) {
         return catalog.profiles().stream()
-                .map(profile -> new RankedProfile(profile, scorer.compatibility(queryVector, profile.vector())))
+                .map(profile -> new RankedProfile(profile, scorer.rankingScore(queryVector, profile.vector(), profile.hubOffset())))
                 .sorted(Comparator.comparingDouble(RankedProfile::score)
                         .reversed()
                         .thenComparing(ranked -> ranked.profile().id()))
@@ -312,7 +312,7 @@ class ScorerBenchmarkTest {
     private record Catalog(List<Profile> profiles) {
     }
 
-    private record Profile(String id, Map<String, Double> vector) {
+    private record Profile(String id, Map<String, Double> vector, double hubOffset) {
     }
 
     private record RankedProfile(Profile profile, double score) {

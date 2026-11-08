@@ -151,6 +151,8 @@ A result is a vector of twelve values from 0 to 100. The `ProfileMatchScorer` co
 | Magnitude | 0.18 | Whether your overall intensity matches the profile's, so a moderate user does not match an extreme profile just because the direction agrees |
 | Outlier | 0.07 | A penalty for a single axis that is far off |
 
+Before comparing, a moderate result is stretched away from the center, up to the typical intensity of the catalogs, keeping its direction. Otherwise the most moderate profiles would come first for almost everyone. The ranking also subtracts half of each profile's `hubOffset` (how close it sits to every simulated user, computed by `profile-audit/hub_offsets.py`), so no profile tops almost every result.
+
 Each catalog is ranked separately. The raw score is squeezed into a narrow range (a best match is typically 91–95, a worst match about 45), so the number users see is rescaled by `ProfileMatchScorer.displayScore`: the same ranking, spread over the full 0–100 range. `ScorerBenchmarkTest` guards the calibration on the football catalogs. [backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md](backend/src/main/java/com/twelveaxes/MATCH_EXPLAINED.md) explains the matching in detail.
 
 ### API

@@ -1,4 +1,4 @@
-You are auditing, question by question and fully independently, the football profile "Fluminense 2023" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Fluminense 2023, in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
+You are auditing, question by question and fully independently, the football profile "Fluminense 2023 (Fernando Diniz)" (catalog: team) on the 12 axes of the 12axes football quiz. Answer as the team Fluminense 2023 (Fernando Diniz), in the era of the research file, answering as its manager(s) at the time would for this team. Judge THIS profile alone: you don't have (and must not imagine) the answers given for any other profile.
 
 The research file below is your evidence. Build your answers on it:
 - Facts with "verified": true were read on the source page. Facts with "verified": false are weaker (search summaries, or context outside the period).
@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): lar, blo, mar. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Axes WITHOUT verified evidence (gaps.axes): mar. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK team:fluminense-2023" and a 1-line summary. Don't paste the JSON in the reply.
@@ -43,14 +44,888 @@ After writing the file, reply only with "OK team:fluminense-2023" and a 1-line s
 {
   "id": "fluminense-2023",
   "catalog": "team",
-  "name": "Fluminense 2023",
-  "researchedOn": "2026-10-14",
-  "status": "complete",
+  "name": "Fluminense 2023 (Fernando Diniz)",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2023-01-14",
     "end": "2023-12-22"
   },
-  "scopeNote": "Brazilian calendar year 2023, all competitions: 72 matches per en.wikipedia (Carioca 15 - won, Copa do Brasil 4, Libertadores 13 - won, Serie A 38, Club World Cup 2 - runners-up). First match Resende 0-2 Fluminense (Carioca, 14 Jan 2023); last match Manchester City 4-0 Fluminense (Club World Cup final, 22 Dec 2023). Fernando Diniz (id fernando-diniz, appointed 2022) managed the whole year; no other manager appears on the season page. Diniz also coached Brazil on an interim basis in parallel from mid-2023, which is ignored here; Lance (2023-09-06) reports that assistant Marcão would run Fluminense training during the Sept 4-12 FIFA window, and that the next fixture (Vasco, 16 Sept) was after the break, so no match was found under Marcão (the Lance piece is a plan, not proof; the pt.wikipedia season page was not read). Style: 'Dinizismo' (Lance, 2023-11-03) with an 'aposicional' system (Lance, 2023-11-02); 'relationism' is a later outside label (The Blizzard, 2025).",
+  "scopeNote": "Fluminense under Fernando Diniz, calendar year 2023 (Carioca won 9 Apr, Libertadores won 4 Nov v Boca 2-1 aet, Brasileirão 7th, Club World Cup final lost 0-4 to Manchester City 22 Dec). Period set by the user: 2023-01-14 (Resende 0-2 Fluminense) to 2023-12-22. Style term used by sources: 'Dinizismo' / 'jogo aposicional' (Diniz: 'anti-positional'; Blizzard also 'relationism'); the popular 'positional play' label is wrong, Diniz defines himself as the opposite of Guardiola's positional play. 2022 and 2024 material (Coaches' Voice piece is dated 2024-12 and mixes 2023-24 formations; Blizzard 2025, BTL 2024) is flagged retrospectiveOnly; 2024 facts (Colo-Colo, Mano Menezes, sacking) were dropped. Partial dates (YYYY or YYYY-MM) used where the day was not found. Marking (zonal vs man-oriented) has no in-period source naming a system, only Diniz's 'encaixar a marcacao' after the Club World Cup final, so axis mar is listed in gaps.axes and is answered from general knowledge.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Marking system (zonal vs man-oriented) was searched in Portuguese (marcação por zona / individual / homem a homem) and no in-period source answers it. Only indirect hints: Trivela final report cites a 'troca errada de marcação' by Marcelo (handover, suggests zone-oriented hand-offs); Diniz said in May 2024 (out of period) there are 'encaixes de marcação' that work sometimes. Left as gap.",
+    "Set-pieces: the '17 goals from set pieces, none conceded' (April 2023, Netvasco) was seen only in a search summary (unverified). Verified evidence is limited to taker hierarchy (Leo Fernández, Arias, Ganso) and Cano's chance from a Ganso set piece in the final.",
+    "Coaches' Voice five tactical keys (2024-12) lists 4-3-3/4-4-2/5-4-1 as main systems; 2023 sources (TFA, Blizzard) say 4-2-3-1 in possession and 4-4-2 out of possession (TSG). Shape in the CV piece was not used.",
+    "Defensive-block depth: TSG measures out-of-possession team length at 40 m and PPDA 7.33 (TFA), Coaches' Voice says high line; Trivela/TFA say Fluminense initially gave the opponent room at home in the final. Pressing height varied by match.",
+    "Diniz also became interim Brazil coach on 2023-07-04 (shared role until Jan 2024); effect on club rotation not evidenced.",
+    "People-management evidence is thin (training intensity, rest days, trust in John Kennedy); no direct dressing-room source for Marcelo/Keno integration in 2023.",
+    "Doentes por Futebol, Footure and Cartola Tática searches returned nothing readable; Trivela, The Athletic Brasil match analyses not found for the key games.",
+    "Gap-fill 2023-11-06 (marking): PT searches (marcação por zona/individual/encaixes; Mundial City) found no in-period tactical analysis of zonal vs man-oriented marking. Only Diniz's own post-City remark (2023-12) that the team 'conseguiu encaixar bem a marcação' (encaixe = man-oriented handoffs, unspecified) and Feb 2023 'volta pra compactar rápido'. Lance previews/Bragantino piece returned 404. Marking system stays unresolved; likely mixed/encaixe-based but not evidenced.",
+    "Gap-fill 2023-11-06 (pressing height): Diniz said in Feb 2023 'a tendência é marcar alto', 'pode ser que num momento a gente baixe' (primary, Carioca phase), consistent with the FIFA TSG high-pressing reading and Coaches' Voice high line; the home-final space given to Boca (TFA/Trivela) is therefore a match/game-state exception, not a season-long low block. No source found showing a phase-by-phase change in block depth."
+  ],
+  "sources": [
+    {
+      "title": "Cinco chaves táticas: Fernando Diniz no Fluminense - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/cv/cinco-chaves-taticas-fernando-diniz-no-fluminense/",
+      "tier": "A",
+      "language": "pt",
+      "articleDate": "2024-12-09",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "O estilo de jogo do Flu de Diniz pode ser identificado pela forma como a equipe inicia a saída de bola, sempre com três diretrizes: troca de passes, movimentação dos jogadores e a intenção de atrair os adversários.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cinco chaves táticas: Fernando Diniz no Fluminense - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/cv/cinco-chaves-taticas-fernando-diniz-no-fluminense/",
+      "tier": "A",
+      "language": "pt",
+      "articleDate": "2024-12-09",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "A característica mais significativa do Fluminense com a posse é o acúmulo de jogadores ao redor da bola.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cinco chaves táticas: Fernando Diniz no Fluminense - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/cv/cinco-chaves-taticas-fernando-diniz-no-fluminense/",
+      "tier": "A",
+      "language": "pt",
+      "articleDate": "2024-12-09",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Essa pressão começa desde o tiro de meta, com a ideia de impedir a progressão do rival. Se o adversário for corajoso e optar por jogar curto, os atacantes são os responsáveis por iniciar a pressão e tentar roubar a bola ou provocar uma saída longa. Essas bolas longas do adversário são protegidas por uma linha defensiva adiantada do Flu e pelo posicionamento dos meio-campistas para recuperar as segundas bolas",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cinco chaves táticas: Fernando Diniz no Fluminense - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/cv/cinco-chaves-taticas-fernando-diniz-no-fluminense/",
+      "tier": "A",
+      "language": "pt",
+      "articleDate": "2024-12-09",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Isso é demonstrado por meio de um bloco compacto, que avança no terreno a cada bola dividida, bem como a cada passe para trás do adversário ou situação em que o adversário esteja de costas para a jogada",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Cinco chaves táticas: Fernando Diniz no Fluminense - The Coaches' Voice",
+      "url": "https://es.coachesvoice.com/cv/cinco-chaves-taticas-fernando-diniz-no-fluminense/",
+      "tier": "A",
+      "language": "pt",
+      "articleDate": "2024-12-09",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Ao ter mais jogadores que o adversário para fazer a pressão pós-perda, a equipe de Diniz consegue uma superioridade numérica na zona, o que exige um esforço menor de seus jogadores, com deslocamentos mais curtos para cortar linhas de passe e pressionar o portador da bola",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Sky Sports: The opposite of Pep - Fernando Diniz's innovative tactics with Fluminense",
+      "url": "https://www.skysports.com/football/news/11096/12997384/the-opposite-of-pep-inside-the-world-of-footballs-most-innovative-coach",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-01",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"The way Pep likes having possession is the opposite of mine. His style is positional, mine is anti-positional.\"",
+      "verified": true
+    },
+    {
+      "title": "Sky Sports: The opposite of Pep - Fernando Diniz's innovative tactics with Fluminense",
+      "url": "https://www.skysports.com/football/news/11096/12997384/the-opposite-of-pep-inside-the-world-of-footballs-most-innovative-coach",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-01",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "\"The full-backs come inside and play between the lines and this causes confusion for the opposition in terms of how they defend. It creates a dilemma for them. They do not know if they should press or stay to protect the zone because all the players are rotating.",
+      "verified": true
+    },
+    {
+      "title": "Sky Sports: The opposite of Pep - Fernando Diniz's innovative tactics with Fluminense",
+      "url": "https://www.skysports.com/football/news/11096/12997384/the-opposite-of-pep-inside-the-world-of-footballs-most-innovative-coach",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-01",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "\"It is very particular. From the first phase of the build-up, he wants this very intensive rotation of his players. He tries to get the most technical players involved in that first phase to help the goalkeeper keep the ball and then progress up the field from there.",
+      "verified": true
+    },
+    {
+      "title": "Sky Sports: The opposite of Pep - Fernando Diniz's innovative tactics with Fluminense",
+      "url": "https://www.skysports.com/football/news/11096/12997384/the-opposite-of-pep-inside-the-world-of-footballs-most-innovative-coach",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-01",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "\"The players react fast to put pressure on the ball. It is very aggressive and when he regains the ball, all the players are close together.\"",
+      "verified": true
+    },
+    {
+      "title": "Sky Sports: The opposite of Pep - Fernando Diniz's innovative tactics with Fluminense",
+      "url": "https://www.skysports.com/football/news/11096/12997384/the-opposite-of-pep-inside-the-world-of-footballs-most-innovative-coach",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-01",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Imagine Jack Grealish drifting inside to play closer to Phil Foden. For Guardiola, this would just congest the space. Precisely what he does not want to happen. For Diniz, this would create an overload, increasing the likelihood of a give-and-go to unlock the defence.",
+      "verified": true
+    },
+    {
+      "title": "Sky Sports: The opposite of Pep - Fernando Diniz's innovative tactics with Fluminense",
+      "url": "https://www.skysports.com/football/news/11096/12997384/the-opposite-of-pep-inside-the-world-of-footballs-most-innovative-coach",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-01",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"He graduated in psychology. He is very clever. He has a particular way of managing and motivating players. It is very interesting.\"",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Diniz's group feels comfortable playing in a 4-2-3-1 as a primary tactical model, yet it suffers several changes during the game.",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "For that, the three-man build-up is commonly used with André as a main intervenient when it descends between Nino and Felipe Melo.",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "They have 7.33 PPDA, which indicates that Fluminense is a pretty intense team while pressing, and Boca should be prepared to perform in such conditions.",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "the defensive transitions could be Fluminense's most significant weakness this weekend, not only due to the space they give the opponent to explore in the counterattack but primarily due to the physical clash between the attackers and defenders.",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Marcelo likes to breach from an inside zone, yet only if Keno is giving the full width.",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "The two experienced full-backs, Samuel Xavier and Marcelo (five times UEFA Champions League winner for Real Madrid) are developed both technically and tactically. As it goes, the head coach seems to give them some positional freedom.",
+      "verified": true
+    },
+    {
+      "title": "Copa Libertadores Final 2023: Boca Juniors' wide threats vs Fernando Diniz's fascinating Fluminense - tactical preview | TFA",
+      "url": "https://totalfootballanalysis.com/match-analysis/tactical-preview/copa-libertadores-final-2023-boca-juniors-fluminense-tactical-analysis-tactics",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Diniz's Fluminese identity is based on gaining numeric inferiority in the different zones of the pitch while leaving open and deep element(s) on the opposite flank, waiting to progress. This is a very profitable but risky approach due to the propensity of counterattacks",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "An interesting feature of the Fluminense build-up was the lack of goalkeeper Fábio's (1) involvement – even when the team were building play from their own penalty area. Instead, and as demonstrated by clip 1 below, centre midfielder André (7) consistently dropped deep to assume a central role in his team's build-ups.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "A standout feature of Fluminense's in-possession game is their commitment to building play from the back. Even late in the game, when they were just 1-0 up in their semi-final, they remained fully committed to their build-up style.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Fluminense tended to progress the ball by heavily overloading one side of the pitch and circulating or switching possession quickly to the opposite wing.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Assuming a 4-4-2 out-of-possession shape, the workload and intentions of their two forward players and two wide midfielders were crucial in preventing Al Ahly from progressing the ball from their defenders to their midfielders.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "we see how hard Ganso (10) and Cano (14) work to prevent the centre-backs from progressing the ball centrally, while a pass to either of Al Ahly's full-backs triggers an immediate and aggressive press from Fluminense's wide midfielders Arias (21), who played on the right, and Keno (11), who played on the left.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Fluminense's out-of-possession team length is 40m, which is considered quite long, and is perhaps further evidence of their desire to protect their defensive line from being turned.",
+      "verified": true
+    },
+    {
+      "title": "FIFA Training Centre (TSG): Fluminense use possession game to book Club World Cup final berth",
+      "url": "https://www.fifatrainingcentre.com/en/game/tournaments/fcwc/2023/fluminense-use-possession-game-to-book-club-world-cup-final-berth.php",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2023-12-20",
+      "eventDate": "2023-12-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Fábio's experience extends to the highest levels of South American club football too, being the only Brazilian player to have played in the Copa Libertadores 100 times and the oldest player to reach the final and win.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A ousadia de Fernando Diniz que levou o Fluminense às semifinais da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/ousadia-fernando-diniz-fluminense-sexta-feira/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-09-01",
+      "eventDate": "2023-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "o time sempre segue um dos mantras de Diniz: “coragem para jogar”.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A ousadia de Fernando Diniz que levou o Fluminense às semifinais da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/ousadia-fernando-diniz-fluminense-sexta-feira/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-09-01",
+      "eventDate": "2023-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Seja nas trocas de passe pressionadas entre Fabio e os defensores ou agrupando sete ou oito jogadores no mesmo lado do campo, o Dinizismo é uma filosofia única.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A ousadia de Fernando Diniz que levou o Fluminense às semifinais da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/ousadia-fernando-diniz-fluminense-sexta-feira/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-09-01",
+      "eventDate": "2023-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Sempre que fala do jovem de 21 anos, Diniz mantém uma expressão que mistura confiança e alegria.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A ousadia de Fernando Diniz que levou o Fluminense às semifinais da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/ousadia-fernando-diniz-fluminense-sexta-feira/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-09-01",
+      "eventDate": "2023-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Foi um jogo em que a gente tinha um plano tático diferente, porque a gente sabia que embora fossem os mesmos jogadores, a postura deles aqui seria bem mais agressiva. Eles iam pressionar um pouco mais alto. Seguimos as nossas características também. Sabíamos que se a gente tivesse calma e se aproximasse, acharíamos os espaços",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A obsessão acabou: Fluminense vence o Boca e é campeão da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-campeao-obsessao-boca-juniors/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-11-04",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "A primeira chance do Flu foi com Cano, aos 12, escorando cruzamento de Ganso em bola parada.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A obsessão acabou: Fluminense vence o Boca e é campeão da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-campeao-obsessao-boca-juniors/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-11-04",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "o time comandado por Fernando Diniz, ao seu estilo, tinha quase 70% da posse, mas não conseguia espaço para finalizar.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A obsessão acabou: Fluminense vence o Boca e é campeão da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-campeao-obsessao-boca-juniors/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-11-04",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "E que toque deu Keno, após tabela com Arias pelo lado direito, com os dois pontas na mesma extremidade do campo, um clássico do Dinizismo.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A obsessão acabou: Fluminense vence o Boca e é campeão da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-campeao-obsessao-boca-juniors/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-11-04",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Advíncula carregou solto, cortou para dentro, aproveitou troca errada de marcação do exausto Marcelo e bateu certeiro no canto de Fábio para igualar o placar.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A obsessão acabou: Fluminense vence o Boca e é campeão da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-campeao-obsessao-boca-juniors/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-11-04",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Independente da péssima arbitragem que atrapalhou o jogo, o Fluminense voltou mal do intervalo.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: A obsessão acabou: Fluminense vence o Boca e é campeão da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-campeao-obsessao-boca-juniors/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-11-04",
+      "eventDate": "2023-11-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Retranca, contra-ataque, pulmão, coração. 10 homens para cada lado e um sonho em jogo.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: Manchester City goleou um corajoso mas insuficiente Fluminense e é dono do mundo",
+      "url": "https://trivela.com.br/mundial-de-clubes/manchester-city-fluminense-final-mundial/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-12-22",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Sem sair de seu estilo, o Flu até foi superior em parte do jogo, mas os erros na defesa deram o título de bandeja ao City. Marcelo, André e Samuel Xavier falharam, e nas três vezes, os europeus colocaram a bola na rede.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: Manchester City goleou um corajoso mas insuficiente Fluminense e é dono do mundo",
+      "url": "https://trivela.com.br/mundial-de-clubes/manchester-city-fluminense-final-mundial/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-12-22",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Diferente do que faz sempre, Fernando Diniz não tirou um zagueiro para colocar mais um homem ofensivo. Dessa vez, o técnico tirou Keno, que não foi bem na primeira etapa, e lançou John Kennedy.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: Manchester City goleou um corajoso mas insuficiente Fluminense e é dono do mundo",
+      "url": "https://trivela.com.br/mundial-de-clubes/manchester-city-fluminense-final-mundial/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-12-22",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Foram 20 minutos de domínio completo da posse de bola, mas o Tricolor criou poucas chances no período em que fez o Manchester City correr atrás de seus atacantes.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: Manchester City goleou um corajoso mas insuficiente Fluminense e é dono do mundo",
+      "url": "https://trivela.com.br/mundial-de-clubes/manchester-city-fluminense-final-mundial/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-12-22",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Uma pena que, aos 40 segundos, Marcelo tenha errado virada de jogo e a bola tenha sobrado no pé de Nathan Ake.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Jorge destaca jogo aposicional de Diniz e adaptação ao modelo do treinador",
+      "url": "https://www.netflu.com.br/jorge-destaca-jogo-aposicional-de-diniz-e-adaptacao-ao-modelo-do-treinador/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-01-10",
+      "eventDate": "2023-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Em participação no “Bem, Amigos”, no ano passado, o próprio Diniz caracterizou seu jogo como “aposicional”, ou seja, sem posição fixa, com atletas se movimentando no mesmo espaço e trocando de posições rapidamente.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Jorge destaca jogo aposicional de Diniz e adaptação ao modelo do treinador",
+      "url": "https://www.netflu.com.br/jorge-destaca-jogo-aposicional-de-diniz-e-adaptacao-ao-modelo-do-treinador/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-01-10",
+      "eventDate": "2023-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Com Diniz não tem isso (posição fixa), hoje no futebol não tem posição exata pra cada um.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Ex-jogadores, Djalminha e Fernando Prass analisam estilo de Diniz no Fluminense",
+      "url": "https://www.netflu.com.br/ex-jogadores-djalminha-e-fernando-prass-analisam-estilo-de-diniz-no-fluminense/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-04",
+      "eventDate": "2023-07",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Só que o Diniz leva nove para a região da grande área. E aí você não consegue, perde e fica em inferioridade. E aí fazem a transição, deixam a sua linha para trás e atacam a sua última linha.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Ex-jogadores, Djalminha e Fernando Prass analisam estilo de Diniz no Fluminense",
+      "url": "https://www.netflu.com.br/ex-jogadores-djalminha-e-fernando-prass-analisam-estilo-de-diniz-no-fluminense/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-04",
+      "eventDate": "2023-07",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "No caso do Diniz, eu acho que é um pouco de falta de humildade… Ele não precisa ir contra os princípios dele, mas, hoje não está dando certo. Pô, vamos chutar lá na frente.",
+      "verified": true
+    },
+    {
+      "title": "The Blizzard: The Nostalgia Principle",
+      "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-24",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Diniz likes to set up his team in a 4-2-3- 1 formation, in which the centre-backs have the liberty to roam forward.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Blizzard: The Nostalgia Principle",
+      "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-24",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "When the ball is lost, counter-pressing must win it back as quickly as possible.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Blizzard: The Nostalgia Principle",
+      "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-24",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "In Fluminense's case the 34-year-old Ganso is the maestro in the middle, the man making the orchestra play in tune, who links up play both on and off the ball.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Blizzard: The Nostalgia Principle",
+      "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-03-24",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Diniz had brought on with the prophetic words “You will score the title-winning goal.”",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Breaking the Lines: The Rise and Fall of Fernando Diniz's Fluminense",
+      "url": "https://breakingthelines.com/brasileirao/three-trophies-two-years-and-one-exceptional-coach-the-rise-and-fall-of-fernando-dinizs-fluminense/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-07-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "In both the semi-final and final, Diniz named the same starting eleven which defeated Boca Juniors in Rio.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Breaking the Lines: The Rise and Fall of Fernando Diniz's Fluminense",
+      "url": "https://breakingthelines.com/brasileirao/three-trophies-two-years-and-one-exceptional-coach-the-rise-and-fall-of-fernando-dinizs-fluminense/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-07-06",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Diniz' first (and only) full year in charge of Rio's oldest club began in perfect fashion, as his team completed a sensational comeback from a 2-0 first-leg defeat against rivals Flamengo in order to claim back-to-back Carioca titles",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Trivela: Diniz e Guardiola têm treinos totalmente diferentes",
+      "url": "https://trivela.com.br/mundial-de-clubes/estilo-treinos-diniz-guardiola-city-fluminense/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-12-21",
+      "eventDate": "2023-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Cada treino no Fluminense é descrito “como uma guerra” pelos atletas que conversar com a Trivela ao longo de 2023.",
+      "verified": true
+    },
+    {
+      "title": "Trivela: Diniz e Guardiola têm treinos totalmente diferentes",
+      "url": "https://trivela.com.br/mundial-de-clubes/estilo-treinos-diniz-guardiola-city-fluminense/",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2023-12-21",
+      "eventDate": "2023-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "No fim da temporada, Diniz utilizou bastante o expediente de folgas e descanso para os atletas, que passaram longas maratonas entre momentos decisivos do Campeonato Brasileiro e da Libertadores da América.",
+      "verified": true
+    },
+    {
+      "title": "IstoÉ: Em ascensão, Fluminense mostra poderio ofensivo na temporada",
+      "url": "https://istoe.com.br/em-ascensao-fluminense-mostra-poderio-ofensivo-na-temporada-e-aumenta-expectativa-da-torcida",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-04-17",
+      "eventDate": "2023-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "A força desse sistema passa por um estilo que foca na saída de bola com toques curtos desde a defesa.",
+      "verified": true
+    },
+    {
+      "title": "IstoÉ: Em ascensão, Fluminense mostra poderio ofensivo na temporada",
+      "url": "https://istoe.com.br/em-ascensao-fluminense-mostra-poderio-ofensivo-na-temporada-e-aumenta-expectativa-da-torcida",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-04-17",
+      "eventDate": "2023-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Diante do América-MG, o treinador optou por descansar alguns atletas e mesmo assim viu o time reagir na etapa final e carimbar a vitória com autoridade.",
+      "verified": true
+    },
+    {
+      "title": "IstoÉ: Em ascensão, Fluminense mostra poderio ofensivo na temporada",
+      "url": "https://istoe.com.br/em-ascensao-fluminense-mostra-poderio-ofensivo-na-temporada-e-aumenta-expectativa-da-torcida",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-04-17",
+      "eventDate": "2023-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Em campo, os jovens Lelê e John Kennedy não só se destacaram com gols e personalidade, como trouxeram boas notícias ao técnico.",
+      "verified": true
+    },
+    {
+      "title": "IstoÉ: Em ascensão, Fluminense mostra poderio ofensivo na temporada",
+      "url": "https://istoe.com.br/em-ascensao-fluminense-mostra-poderio-ofensivo-na-temporada-e-aumenta-expectativa-da-torcida",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-04-17",
+      "eventDate": "2023-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Pelo lado esquerdo, o jogador tem técnica para elevar o patamar do time e atrair a marcação, podendo deixar os companheiros em condições de finalizar.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Diniz exime Fernández por pênalti perdido",
+      "url": "https://www.netflu.com.br/diniz-exime-fernandez-por-penalti-perdido-e-quem-mais-treina-bola-parada/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-07-29",
+      "eventDate": "2023-07-29",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "É o que mais treina bola parada no time, apesar de ter chegado agora. É um especialista em bola parada. Pênalti, falta, escanteio.",
+      "verified": true
+    },
+    {
+      "title": "Colunadofla: Diego Ribas sobre Diniz",
+      "url": "https://colunadofla.com/2023/11/ex-fla-diego-ribas-classifica-principal-responsavel-pelo-titulo-do-fluminense-na-libertadores/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-07",
+      "eventDate": "2023-11",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Quando ele fala ali do John Kennedy, que fará de tudo para que ele tenha uma vida digna no futebol.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Ganso, Felipe Melo e Bigode terão preparação especial",
+      "url": "https://www.netflu.com.br/ganso-felipe-melo-e-bigode-terao-preparacao-especial-no-fluminense/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-01-05",
+      "eventDate": "2023-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "o departamento médico, de preparação física e fisiologia do Fluminense traçaram um planejamento específico para três jogadores em especial: o volante Felipe Melo, o meia Paulo Henrique Ganso e o atacante William Bigode.",
+      "verified": true
+    },
+    {
+      "title": "Tribuna do Sertão (tradução de NYT): A Equipe do Futuro",
+      "url": "https://www.tribunadosertao.com.br/esportes/2023/11/03/555025-a-equipe-do-futuro-leia-o-texto-do-new-york-times-sobre-o-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-03",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Os indivíduos são incentivados a resolver os problemas tal como os veem, a inventar soluções, a agrupar-se em torno da bola o mais próximo possível, mesmo que isso corra o risco de deixar outras áreas do campo desguarnecidas.",
+      "verified": true
+    },
+    {
+      "title": "Tribuna do Sertão (tradução de NYT): A Equipe do Futuro",
+      "url": "https://www.tribunadosertao.com.br/esportes/2023/11/03/555025-a-equipe-do-futuro-leia-o-texto-do-new-york-times-sobre-o-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-03",
+      "eventDate": "2023",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Em vez de os jogadores ficarem presos a colocações imaginárias, nos últimos 18 meses, seu time do Fluminense foi marcado pela fluidez.",
+      "verified": true
+    },
+    {
+      "title": "Netvasco (search summary only): Fluminense 17 gols de bola parada e nenhum sofrido",
+      "url": "https://www.netvasco.com.br/n/311745/vasco-e-o-4-time-da-serie-a-com-mais-gols-de-bola-parada-marcados-em-2023",
+      "tier": "D",
+      "language": "pt",
+      "articleDate": "2023-04-21",
+      "eventDate": "2023-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "a equipe comandada por Fernando Diniz já conseguiu fazer 17 gols a partir de bolas paradas e, ainda melhor, não sofreu nenhum",
+      "verified": false
+    },
+    {
+      "title": "Netflu: Diniz explica marcação alta do Fluminense (Carioca, fev 2023)",
+      "url": "https://www.netflu.com.br/fernando-diniz-explica-marcacao-alta-do-fluminense-vamos-ajustar-nos-treinamentos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-02-06",
+      "eventDate": "2023-02-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Sempre fazemos essa marcação. O time volta pra compactar rápido. Os erros que tivemos no gol do Botafogo e Volta Redonda, hoje falhamos de novo. Vamos ajustar nos treinamentos. Marcamos alto ainda. Temos treinado bem. Pode ser que num momento a gente baixe, mas a tendência é marcar alto.",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Diniz explica marcação alta do Fluminense (Carioca, fev 2023)",
+      "url": "https://www.netflu.com.br/fernando-diniz-explica-marcacao-alta-do-fluminense-vamos-ajustar-nos-treinamentos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-02-06",
+      "eventDate": "2023-02-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Sempre fazemos essa marcação. O time volta pra compactar rápido. Os erros que tivemos no gol do Botafogo e Volta Redonda, hoje falhamos de novo. Vamos ajustar nos treinamentos. Marcamos alto ainda. Temos treinado bem. Pode ser que num momento a gente baixe, mas a tendência é marcar alto. [o time volta pra compactar rápido; gols sofridos com bola nas costas da defesa contra Botafogo e Volta Redonda]",
+      "verified": true
+    },
+    {
+      "title": "Netflu: Diniz resume atuação contra o City e comenta erros defensivos",
+      "url": "https://www.netflu.com.br/fernando-diniz-resume-atuacao-do-fluminense-contra-o-city-e-comenta-erros-defensivos/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-12-25",
+      "eventDate": "2023-12-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "A gente sabia que não podia dar brecha nenhuma no sistema defensivo porque eles aproveitam muito bem. Na maior parte do tempo, a gente conseguiu encaixar bem a marcação e quando falha uma ou duas vezes, eles acabam aproveitando e eles são muito precisos",
+      "verified": true
+    },
+    {
+      "title": "Trivela: as dúvidas e certezas de Diniz para a final da Libertadores",
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-fernando-diniz-duvidas-certezas-finalas-duvidas-e-as-certezas-de-fernando-diniz-no-fluminense-para-a-final-da-libertadores/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-11-02",
+      "eventDate": "2023-11-02",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "o 4-2-4 com John Kennedy e Cano por dentro para fazer pressão na linha de defesa e abrir o campo para seus jogadores. (preview, opção de escalação, não confirmada para a final)",
+      "verified": true
+    },
+    {
+      "title": "Trivela: Diniz confia no estilo contra o City",
+      "url": "https://trivela.com.br/mundial-de-clubes/diniz-confia-estilo-fluminense-contra-city/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2023-12-21",
+      "eventDate": "2023-12-21",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "A nossa essência é conseguir se defender bem e ceder poucas chances. Nós não erramos por causa do estilo. A gente errou na execução.",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "The way Pep likes having possession is the opposite of mine. His style is positional, mine is anti-positional.",
+      "date": "2023-11-01",
+      "source": "Sky Sports, 2023-11-01",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Porque eu gosto de ter a bola, as pessoas me associam ao Guardiola. Mas pare por aí... O jeito dele de ter a bola é o oposto do meu (English in source: 'The way I see it right now is almost a-positional. The players migrate from position. It is a freer game.')",
+      "date": "2022",
+      "source": "Bem, Amigos (2022), quoted in Breaking the Lines 2024-07-06 and Netflu 2023-01-10 ('aposicional')",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Sabíamos que se a gente tivesse calma e se aproximasse, acharíamos os espaços, como achamos, e conseguimos fazer três gols",
+      "date": "2023-08",
+      "source": "Trivela 2023-09-01 (coletiva after Olimpia 1-3 Fluminense)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "coragem para jogar",
+      "date": "2023",
+      "source": "Trivela 2023-09-01 (called a Diniz mantra)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Marcamos alto ainda. [...] Pode ser que num momento a gente baixe, mas a tendência é marcar alto.",
+      "date": "2023-02-06",
+      "source": "Netflu, 2023-02-06 (coletiva após Carioca)",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://trivela.com.br/america-do-sul/libertadores/fluminense-final-diniz-culpado/",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.lance.com.br/fluminense/fluminense-ve-queda-no-sistema-defensivo-e-setor-vira-dor-de-cabeca-para-fernando-diniz.html",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.lance.com.br/fluminense/quatro-atacantes-saiba-como-diniz-pode-escalar-o-fluminense-contra-o-boca-juniors-na-libertadores.html",
+      "reason": "404"
+    },
+    {
+      "url": "https://theanalyst.com/?p=95799",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.lance.com.br/fluminense/diniz-aponta-erro-do-fluminense-em-gol-sofrido-contra-o-bragantino-totalmente-evitavel.html",
+      "reason": "404"
+    }
+  ],
+  "influences": [
+    "futsal",
+    "Telê Santana 1982 Brazil (admired by Diniz)"
+  ],
   "managers": [
     {
       "managerId": "fernando-diniz",
@@ -58,267 +933,15 @@ After writing the file, reply only with "OK team:fluminense-2023" and a 1-line s
       "end": "2023-12-22"
     }
   ],
-  "ambiguities": [],
-  "openQuestions": [
-    "Marking (zonal vs man-oriented), pressing height and block depth are not documented for 2023 by any source read; only Diniz's 2025 podcast claim that Fluminense defended well in high, medium and low lines. Treat blo and mar as memory-based.",
-    "Width and full-back patterns, transitions and set pieces: no 2023 source read (the only width piece is April 2024).",
-    "Sources disagree on adaptation: Lance 2023-11-02 says Diniz does not usually adapt to the opponent; Lance 2023-11-03 says he adapted when needed. Weigh in the audit.",
-    "Confirm via ge or the official Fluminense site that Marcão did not lead any competitive match in 2023 and that the Serie A finish (7th per en.wikipedia vs 3rd in the Lance 2023-11-03 text, written before the season ended) is only a mid-season snapshot."
-  ],
-  "sources": [
-    {
-      "title": "2023 Fluminense FC season",
-      "url": "https://en.wikipedia.org/wiki/2023_Fluminense_FC_season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2023",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "squad-building",
-      "evidence": "Used for dates and totals only (read in two parts, offsets 0 and 100000). Infobox manager: \"Fernando Diniz\". First match 14 January 2023 Resende 0-2 Fluminense (Carioca); last 22 December 2023 Club World Cup final Manchester City 4-0 Fluminense. Competitions: Carioca (winners), Copa do Brasil (round of 16), Serie A (7th per page), Libertadores (winners), Club World Cup (runners-up). \"72 (15 Carioca, 4 Copa do Brasil, 13 Copa Libertadores, 38 Série A, 2 Club World Cup)\". No other manager, caretaker or interim named anywhere in the page text read.",
-      "verified": false
-    },
-    {
-      "title": "Quatro atacantes? Saiba como Diniz pode escalar o Fluminense contra o Boca Juniors na Libertadores",
-      "url": "https://www.lance.com.br/fluminense/quatro-atacantes-saiba-como-diniz-pode-escalar-o-fluminense-contra-o-boca-juniors-na-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "shape",
-      "evidence": "Diniz's main option is a 4-3-3, \"sistema mais utilizado durante a primeira metade da temporada\"; alternative 4-2-4, which the article says was used to beat Olimpia and Internacional.",
-      "verified": true
-    },
-    {
-      "title": "Quatro atacantes? Saiba como Diniz pode escalar o Fluminense contra o Boca Juniors na Libertadores",
-      "url": "https://www.lance.com.br/fluminense/quatro-atacantes-saiba-como-diniz-pode-escalar-o-fluminense-contra-o-boca-juniors-na-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "build-up",
-      "evidence": "Diniz's \"aposicional\" system, where \"os jogadores têm total liberdade de movimentação\" to get closer to the ball and create passing options.",
-      "verified": true
-    },
-    {
-      "title": "Quatro atacantes? Saiba como Diniz pode escalar o Fluminense contra o Boca Juniors na Libertadores",
-      "url": "https://www.lance.com.br/fluminense/quatro-atacantes-saiba-como-diniz-pode-escalar-o-fluminense-contra-o-boca-juniors-na-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "game-management",
-      "evidence": "Diniz \"é conhecido como um treinador que não costuma adaptar o seu time ao adversário\" (author suggests he may rethink it for the Boca final).",
-      "verified": true
-    },
-    {
-      "title": "Quatro atacantes? Saiba como Diniz pode escalar o Fluminense contra o Boca Juniors na Libertadores",
-      "url": "https://www.lance.com.br/fluminense/quatro-atacantes-saiba-como-diniz-pode-escalar-o-fluminense-contra-o-boca-juniors-na-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023-11-04",
-      "accessedOn": "2026-10-14",
-      "dimension": "defensive-block",
-      "evidence": "Pre-match speculation only: \"André poderia acompanhar Barco por todo o campo, em marcação individual\". A hypothesis for the final, not observed behaviour; does not close the marking gap.",
-      "verified": false
-    },
-    {
-      "title": "Diego Lugano sobre Fernando Diniz: su particular estilo (final Libertadores)",
-      "url": "https://espndeportes.espn.com/futbol/copa-libertadores/nota/_/id/12815777/diego-lugano-fernando-diniz-particular-estilo-final-conmebol-libertadores",
-      "tier": "C",
-      "language": "es",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "build-up",
-      "evidence": "Lugano (ex-Boca/Uruguay player, commentator) says Fluminense keeps the ball at the back so the rival presses near its own goal, leaving space behind its midfielders; Diniz wants to wrap the rival with touches from the back, no fixed positions, high mobility, speed in the last third; \"arriesga bastante más\" than other teams near its own box. Paraphrased from the page; an opinion by an outside commentator, no verbatim quote captured.",
-      "verified": true
-    },
-    {
-      "title": "Diego Lugano sobre Fernando Diniz: su particular estilo (final Libertadores)",
-      "url": "https://espndeportes.espn.com/futbol/copa-libertadores/nota/_/id/12815777/diego-lugano-fernando-diniz-particular-estilo-final-conmebol-libertadores",
-      "tier": "C",
-      "language": "es",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "possession",
-      "evidence": "Same article: Diniz seeks to wrap the opponent through passing from the back and does not keep fixed positions (paraphrase of Lugano). No possession numbers.",
-      "verified": true
-    },
-    {
-      "title": "Com ajuda de Diniz, Ganso dá a volta por cima e vira trunfo do Fluminense na final da Libertadores",
-      "url": "https://www.lance.com.br/fluminense/com-ajuda-de-diniz-ganso-da-a-volta-por-cima-e-vira-trunfo-do-fluminense-na-final-da-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "possession",
-      "evidence": "\"O estilo único de Diniz em dominar a posse de bola através da saída curta fez Ganso retomar a confiança.\"",
-      "verified": true
-    },
-    {
-      "title": "Com ajuda de Diniz, Ganso dá a volta por cima e vira trunfo do Fluminense na final da Libertadores",
-      "url": "https://www.lance.com.br/fluminense/com-ajuda-de-diniz-ganso-da-a-volta-por-cima-e-vira-trunfo-do-fluminense-na-final-da-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-02",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "people-management",
-      "evidence": "Ganso is the \"cérebro do Tricolor das Laranjeiras que conseguiu reviver sua carreira com a ajuda de Fernando Diniz\"; Diniz once said Ganso's genius was superior to Xavi's.",
-      "verified": true
-    },
-    {
-      "title": "Entre tapas e beijos, Diniz se reinventa no Fluminense e chega preparado para a final da Libertadores",
-      "url": "https://www.lance.com.br/fluminense/entre-tapas-e-beijos-diniz-se-reinventa-no-fluminense-e-chega-preparado-para-a-final-da-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-03",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "game-management",
-      "evidence": "Diniz \"se adaptou quando necessário, entendeu as adversidades\" during the Libertadores; the semi-final v Internacional was \"uma virada histórica no Beira-Rio\". Contradicts, partly, the Lance 2023-11-02 claim that he does not adapt.",
-      "verified": true
-    },
-    {
-      "title": "Entre tapas e beijos, Diniz se reinventa no Fluminense e chega preparado para a final da Libertadores",
-      "url": "https://www.lance.com.br/fluminense/entre-tapas-e-beijos-diniz-se-reinventa-no-fluminense-e-chega-preparado-para-a-final-da-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-03",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "player-profile",
-      "evidence": "\"O treinador conseguiu potencializar os principais jogadores do elenco (André, Ganso, Arias e Cano)\"; the \"Dinizismo\" settled in (\"Com o \"Dinizismo\" encaixado\").",
-      "verified": true
-    },
-    {
-      "title": "Entre tapas e beijos, Diniz se reinventa no Fluminense e chega preparado para a final da Libertadores",
-      "url": "https://www.lance.com.br/fluminense/entre-tapas-e-beijos-diniz-se-reinventa-no-fluminense-e-chega-preparado-para-a-final-da-libertadores.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-11-03",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "people-management",
-      "evidence": "Diniz \"fez os jogadores evoluírem mentalmente\".",
-      "verified": true
-    },
-    {
-      "title": "Felipe Melo relembra críticas ao lado esquerdo do Fluminense e rebate: seguimos",
-      "url": "https://www.correiobraziliense.com.br/esportes/2023/12/amp/6672519-felipe-melo-relembra-criticas-ao-lado-esquerdo-do-fluminense-e-rebate-seguimos.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-12-18",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "squad-building",
-      "evidence": "Diniz \"passou a improvisar o volante como zagueiro pelo lado esquerdo nesta temporada\" (Felipe Melo, a veteran, and Marcelo, both older). Felipe Melo: \"Eu lembro que quando começou a temporada o Diniz me deu a oportunidade lá em Lima para jogar\"; \"É um lado muito vulnerável e os times vão jogar daquele lado\".",
-      "verified": true
-    },
-    {
-      "title": "Felipe Melo relembra críticas ao lado esquerdo do Fluminense e rebate: seguimos",
-      "url": "https://www.correiobraziliense.com.br/esportes/2023/12/amp/6672519-felipe-melo-relembra-criticas-ao-lado-esquerdo-do-fluminense-e-rebate-seguimos.html",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2023-12-18",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "player-profile",
-      "evidence": "Diniz improvised a defensive midfielder (Felipe Melo) as left-sided centre-back; critics said that side lacked mobility and protection.",
-      "verified": true
-    },
-    {
-      "title": "Diniz, Fluminense, Brazil and the fragile rise of the pioneer of relationism",
-      "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2025-03-24",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "pressing",
-      "evidence": "General description of Diniz's teams, not tied to 2023: \"When the ball is lost, counter-pressing must win it back as quickly as possible.\" Retrospective and not period-specific, so unverified for the 2023 profile.",
-      "verified": false
-    },
-    {
-      "title": "Diniz, Fluminense, Brazil and the fragile rise of the pioneer of relationism",
-      "url": "https://theblizzard.co.uk/the-nostalgia-principle/featured/",
-      "tier": "B",
-      "language": "en",
-      "articleDate": "2025-03-24",
-      "eventDate": "2023",
-      "accessedOn": "2026-10-14",
-      "dimension": "build-up",
-      "evidence": "\"Using the keeper as a player, he likes his team to build up from the back.\" Diniz generally, not tied to 2023; goalkeeper Fábio was the oldest Libertadores winner (final of 2023-11-04).",
-      "verified": false
-    },
-    {
-      "title": "Entenda a mudança de Diniz que foi a chave de melhora do Fluminense (Trivela)",
-      "url": "https://trivela.com.br/brasil/campeonato-brasileiro/entenda-a-mudanca-de-diniz-que-foi-a-chave-de-melhora-do-fluminense/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2024-04-22",
-      "eventDate": "2024-04",
-      "accessedOn": "2026-10-14",
-      "dimension": "width",
-      "evidence": "Out of period (Fluminense 2-1 Vasco, April 2024): \"Os laterais Marcelo e Samuel Xavier puderam participar mais da construção por dentro e ganharam espaço nas pontas.\" Kept as context only.",
-      "verified": false
-    }
-  ],
-  "statedView": [
-    {
-      "quote": "O cara acha que variação tática é baixar a linha. E o Fluminense marcava muito bem em linha alta, linha média e linha baixa. Contra o Boca Juniors, jogamos com um a menos, marcamos em linha baixa e os caras não fizeram nada.",
-      "date": "2025-02-12",
-      "source": "https://www.tupi.fm/?p=1941793",
-      "provenance": "primary",
-      "note": "Podcast Charla interview, reported by Super Rádio Tupi on 2025-02-14; about his Fluminense, said after the period."
-    },
-    {
-      "quote": "Campeão é quem vive com dignidade, quem respeita, trabalha com amor, e foi até o fim.",
-      "date": "2023-11",
-      "source": "https://pt.soccerway.com/noticias/futebol-taca-dos-libertadores-libertadores-confirmou-a-ascensao-definitiva-de-fernando-diniz/lxrYO1eT",
-      "provenance": "primary",
-      "note": "Soccerway page has no explicit date; said after the 4 Nov 2023 final. About values, not tactics."
-    }
-  ],
-  "unreadable": [
-    {
-      "url": "https://www.mancity.com/news/mens/fluminense-fifa-club-world-cup-scout-report-63838573",
-      "reason": "403"
-    },
-    {
-      "url": "https://www.skysports.com/football/news/11096/12997384/fernando-dinizs-innovative-tactics-with-fluminense-can-he-win-the-copa-libertadores-and-change-football-too",
-      "reason": "404"
-    },
-    {
-      "url": "https://pt.wikipedia.org/wiki/Temporada_do_Fluminense_Football_Club_de_2023",
-      "reason": "not-accessible"
-    }
-  ],
   "gaps": {
-    "dimensions": [
-      "defensive-block",
-      "pressing",
-      "transitions",
-      "width",
-      "set-pieces"
-    ],
+    "dimensions": [],
     "axes": [
-      "lar",
-      "blo",
       "mar"
     ]
   },
-  "influences": [],
   "confidence": {
-    "level": "low",
-    "reason": "All verified evidence is tier C press from early Nov 2023 (Lance, ESPN Deportes, Correio) around the Libertadores final; no tier A-B season analysis was read (Sky Sports returned 410, Man City scout report 403). Pressing, block, marking, width, transitions and set pieces have no verified 2023 fact."
+    "level": "medium",
+    "reason": "Two tier A technical sources (FIFA TSG on the Club World Cup semi-final, Coaches' Voice but dated 2024) and tier B analysis (TFA, Sky, Trivela) agree on build-up, rotation and pressing; marking, set-pieces and people-management are thin, and several sources are retrospective."
   }
 }
 
@@ -604,3 +1227,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: A player who turns up late for training misses the next game, whoever he is.
    Agree means: Indiscipline brings a clear punishment, and it applies to any player.
    Disagree means: Being late is settled with a talk, without needing to drop the player.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

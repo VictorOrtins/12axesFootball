@@ -26,6 +26,9 @@ class Params:
     outlier_exponent: float = 2.5
     opposite_side_max_penalty: float = 0.45
     opposite_side_spread: float = 25.0
+    stretch_target: float = 20.0
+    stretch_max: float = 3.0
+    hub_penalty_weight: float = 0.5
 
     def with_weights(self, axis, direction, magnitude, outlier):
         total = axis + direction + magnitude + outlier
@@ -75,8 +78,22 @@ def round1(x):
     return np.floor(x * 10.0 + 0.5) / 10.0
 
 
+def stretch(u, p):
+    """Mild users are scaled away from the center up to the typical catalog intensity, keeping direction."""
+    deviation = u - CENTER
+    intensity = np.abs(deviation).mean(axis=-1, keepdims=True)
+    factor = np.clip(p.stretch_target / np.maximum(intensity, 1e-9), 1.0, p.stretch_max)
+    return np.clip(CENTER + deviation * factor, 0.0, 100.0)
+
+
+def ranking_score(U, T, offsets, p=CURRENT):
+    """Compatibility minus each profile's hub offset, as the matchers rank the full catalog."""
+    raw = compatibility(U, T, p) - p.hub_penalty_weight * np.asarray(offsets, dtype=float)[None, :]
+    return round1(np.clip(raw, 0.0, 100.0))
+
+
 def compatibility(U, T, p=CURRENT, rounded=True):
-    u = np.asarray(U, dtype=float)[:, None, :]
+    u = stretch(np.asarray(U, dtype=float), p)[:, None, :]
     t = np.asarray(T, dtype=float)[None, :, :]
     raw = (p.axis_weight * axis_similarity(u, t, p)
            + p.direction_weight * direction_similarity(u, t, p)

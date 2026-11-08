@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, blo, est, jog, lar, lid, mar, pla, pos, pro, res, sis. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK manager:arsene-wenger" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,25 +45,23 @@ After writing the file, reply only with "OK manager:arsene-wenger" and a 1-line 
   "id": "arsene-wenger",
   "catalog": "manager",
   "name": "Arsène Wenger",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
-    "start": "1987",
-    "end": "2018"
+    "start": "1987-07-01",
+    "end": "2018-05-13"
   },
-  "scopeNote": "Manager profile of Arsène Wenger across two counted spells: Monaco (1987 to 17 September 1994: Ligue 1 1987-88, Coupe de France 1991) and Arsenal (1 October 1996 to 2018, when he stepped down: Premier League 1997-98, 2001-02 and 2003-04; FA Cups). Dates from the Wikipedia career section read at step 1: the Arsenal end is given only as 2018 in the excerpt read. Excluded: Nagoya Grampus Eight (1995-96; Emperor's Cup and Super Cup, outside the English era, not researched for tactics). Style: no tactical fact about Wenger's teams was read in the pages opened; the pages read give only quotes about his personal approach. The style claims in the search results (possession, quick passing, total football) are not verified and are not counted.",
   "spellsCounted": [
     {
-      "club": "Monaco",
-      "start": "1987",
+      "club": "AS Monaco",
+      "start": "1987-07-01",
       "end": "1994-09-17",
-      "reason": "Ligue 1 1987-88 and the 1991 Coupe de France."
+      "reason": "Ligue 1 1987-88, Coupe de France 1991; spell decided by user. Only 'summer 1987' and 'September 1994' found in sources; the day-level dates 1987-07-01 and 1994-09-17 are the user's/unconfirmed (start day is an approximation)."
     },
     {
       "club": "Arsenal",
       "start": "1996-10-01",
-      "end": "2018",
-      "reason": "Three Premier League titles, including the 2003-04 unbeaten season, and six FA Cups; the era he is known for. End is the year given in the page excerpt (exact day not read)."
+      "end": "2018-05-13",
+      "reason": "Premier League 1997-98, 2001-02, 2003-04; FA Cups; end is the date of his last match (Huddersfield 0-1 Arsenal), announced departure effective at end of 2017/18"
     }
   ],
   "spellsExcluded": [
@@ -70,51 +69,1273 @@ After writing the file, reply only with "OK manager:arsene-wenger" and a 1-line 
       "club": "Nagoya Grampus Eight",
       "start": "1995",
       "end": "1996-08-28",
-      "reason": "Japanese club; Emperor's Cup and Super Cup, tactics not researched for this profile."
+      "reason": "Japan, excluded by the user"
     }
   ],
+  "scopeNote": "Two counted spells: Monaco 1987 to September 1994 and Arsenal 1996-10-01 to 2018-05-13. Monaco: tactical coverage is thin (only retrospective Hateley/Hoddle/Bergkamp accounts, no dedicated tactical study found; a Set Pieces/Planet Football/AS Monaco set); no source gives a formation or zonal/man marking for Monaco. Arsenal: first-decade rigid 4-4-2 (sweeping back four inherited from George Graham, offside trap), a fluid 4-4-2 in 2001-04 (Invincibles; sources call it 4-4-2 with Bergkamp dropping, Henry drifting left), a 4-5-1/4-3-3 possession phase after 2005 (Emirates), a deeper block and 4-2-3-1 from 2011-12, counter-attacking big-game plan in 2014-16. Set pieces: man-marking policy until 2011 and zonal from 2011/12, then mixed. Popular label 'total football/possession-based since 1996' (Woolwich Arsenal blog) is contradicted by 1997-2001 accounts of a direct, counter-attacking team. Monaco start and Arsenal start/end days are partly approximate; see openQuestions. Excluded Nagoya start is given only as 1995 (day not needed, spell excluded). Event ranges in the sources were reduced to a representative single year (e.g. 1987-1994 recollections dated 1991).",
   "ambiguities": [],
   "openQuestions": [
-    "Wenger's tactics (shape, possession, pressing, marking) are not documented in any page read: the profile needs tier A-B sources before it can be audited with confidence."
+    "Monaco start day not found (sources say summer 1987; 1987-07-01 is an approximation). Monaco end day 1994-09-17 not confirmed by any source read (World Soccer Talk and Irish Times say only 1994, 17th in the table, dismissed).",
+    "Arsenal start: user date 1996-10-01 matches Pain in the Arsenal (appointed 30 Sept, assumed the position the next day); OnlineGooner says tenure began 30 September and confirmation came 17 September 1996.",
+    "Arsenal end: 2018-05-13 is the final match (FourFourTwo); the contract end date was not read.",
+    "Wenger and Monaco's man vs zonal defending is not documented in any tier A-B source found; Arsenal's set-piece marking is man-marking until 2011, zonal trial from Sept 2011, mixed afterwards (Mellberg).",
+    "Coaches' Voice, These Football Times and Set Pieces tactical pieces were not returned by site: searches; the tactical sources used are Hard Tackle, Spielverlagerung, Football Faithful, Sportskeeda, Left-Sided Problem (tier B), and the Spielverlagerung match report is about Leicester's defence mostly.",
+    "Invincibles pressing: Football Faithful says Henry-Bergkamp pairing closed down centre-backs while wide midfielders pressed periodically; Sportskeeda says no counter-pressing. No contradiction on intensity, both say moderate."
   ],
-  "sources": [],
-  "statedView": [],
-  "unreadable": [],
+  "sources": [
+    {
+      "title": "Mark Hateley on winning the French title and working with Arsene Wenger at Monaco - The Set Pieces",
+      "url": "https://thesetpieces.com/interviews/mark-hateley-on-winning-the-french-title-and-working-with-arsene-wenger-at-monaco/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-11",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "When Glenn arrived, Wenger sat everybody down and introduced him as our new attacking midfielder. He just said to Claude Puel and Jean-Philippe Rohr, they must do all the running and tackling and give Glenn the ball, who will come no deeper than the D on the halfway line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley on winning the French title and working with Arsene Wenger at Monaco - The Set Pieces",
+      "url": "https://thesetpieces.com/interviews/mark-hateley-on-winning-the-french-title-and-working-with-arsene-wenger-at-monaco/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-11",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "He had such a good way of setting up teams: great leaders at the back, a sweeper to organise, and in front workhouses like Puel and Rohr.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley on winning the French title and working with Arsene Wenger at Monaco - The Set Pieces",
+      "url": "https://thesetpieces.com/interviews/mark-hateley-on-winning-the-french-title-and-working-with-arsene-wenger-at-monaco/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-11",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "There was Youssouf Fofana who was one of the fastest wingers in the French league, a similar sort of player to Thierry Henry, so fast with the ball at his feet. Ramón Díaz playing alongside me gave the little-and-large combination.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley on winning the French title and working with Arsene Wenger at Monaco - The Set Pieces",
+      "url": "https://thesetpieces.com/interviews/mark-hateley-on-winning-the-french-title-and-working-with-arsene-wenger-at-monaco/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-11",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "I’d just joined Monaco. I was literally his first signing and Glenn Hoddle wasn’t even on the radar at that time.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley on winning the French title and working with Arsene Wenger at Monaco - The Set Pieces",
+      "url": "https://thesetpieces.com/interviews/mark-hateley-on-winning-the-french-title-and-working-with-arsene-wenger-at-monaco/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-11",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "The amazing thing for me was a manager coming to a young player like myself to ask advice on players. That was the first time in my career that any manager had come to me and asked me for any sort of advice.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley on winning the French title and working with Arsene Wenger at Monaco - The Set Pieces",
+      "url": "https://thesetpieces.com/interviews/mark-hateley-on-winning-the-french-title-and-working-with-arsene-wenger-at-monaco/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-11",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Not only myself and Glenn Hoddle, but also Patrick Battiston, Jean-Luc Ettori, Luc Sonor – all international players. They would have known a little bit about his background, but his methods were revelatory, even to seasoned campaigners in the French national side.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley: Wenger was a man with a mission - AS Monaco",
+      "url": "https://asmonaco.com/en/mark-hateley-wenger-was-a-man-with-a-mission",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-11-07",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Claude Puel’s \"three lungs\", as Mark puts it, complemented Glenn Hoddle’s vision in the middle of the park, which enabled the team to be quick in transition, breaking through the lines",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Mark Hateley: Wenger was a man with a mission - AS Monaco",
+      "url": "https://asmonaco.com/en/mark-hateley-wenger-was-a-man-with-a-mission",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-11-07",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "With Jean-Luc Ettori (\"great goalkeeper!\") between the sticks, and Patrick Battiston and Rémi Vogel giving the team a rigid spine in defence, Wenger’s side were doggedly hard to beat.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsene Wenger at Monaco and the wonderful legacy he left behind - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/how-wengers-first-title-win-with-monaco-signalled-a-great-career-ahead",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-08-02",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Wenger’s methodology and dedication was something new for the club, 10 years before such an approach – focus on shape, discipline, nutrition – would revolutionise English football, too.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsene Wenger at Monaco and the wonderful legacy he left behind - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/how-wengers-first-title-win-with-monaco-signalled-a-great-career-ahead",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-08-02",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "He was given free rein to sign his transfer targets. After spending three years in Milan, Mark Hateley was brought in to play up front.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsene Wenger at Monaco and the wonderful legacy he left behind - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/how-wengers-first-title-win-with-monaco-signalled-a-great-career-ahead",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-08-02",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Hateley finished the season as Ligue 1’s third-highest scorer with 14 goals, many of them supplied by Hoddle, and with Battiston in defence, they conceded just 29 in 38 games.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsene Wenger at Monaco and the wonderful legacy he left behind - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/how-wengers-first-title-win-with-monaco-signalled-a-great-career-ahead",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-08-02",
+      "eventDate": "1991",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "“You can link him with Ajax, the philosophy, the way they both like to bring up players,” said Bergkamp years later. “When I was at Ajax there was only one team in the whole of Europe similar to us, and that was Monaco.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsene Wenger at Monaco and the wonderful legacy he left behind - Planet Football",
+      "url": "https://www.planetfootball.com/nostalgia/how-wengers-first-title-win-with-monaco-signalled-a-great-career-ahead",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2023-08-02",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "In a 2015 interview with Sky Sports, Hoddle said: “He had this youthful sort of excitement about him at Monaco, and it didn’t take me long to realise this is where I wanted to be.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Our Complete Interview with Arsene Wenger - AS Monaco",
+      "url": "https://asmonaco.com/en/complete-interview-arsene-wenger",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-26",
+      "eventDate": "1991",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "You personally gave debuts to Emmanuel Petit, Lilian Thuram and Thierry Henry. Do you feel like you helped the beginnings of what we saw in France 98?",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Our Complete Interview with Arsene Wenger - AS Monaco",
+      "url": "https://asmonaco.com/en/complete-interview-arsene-wenger",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2024-12-26",
+      "eventDate": "1991",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "for a player like Lilian Thuram, it was not easy, because he came here as a midfielder and ended up making a career as a defender, while Emmanuel Petit became very famous by playing in the heart of midfield.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Return of Arsene Wenger to Monaco - World Soccer Talk",
+      "url": "https://worldsoccertalk.com/news/the-return-of-arsene-wenger-to-monaco-20141215-CMS-124644.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-12-15",
+      "eventDate": "1987",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Tottenham midfielder Glenn Hoddle arrived on a free transfer, along with defender Patrick Battiston, who was out of contract at Bordeaux and striker Mark Hateley from Milan.",
+      "verified": true
+    },
+    {
+      "title": "The Return of Arsene Wenger to Monaco - World Soccer Talk",
+      "url": "https://worldsoccertalk.com/news/the-return-of-arsene-wenger-to-monaco-20141215-CMS-124644.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-12-15",
+      "eventDate": "1994-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "following a disappointing start to the 1994-95 campaign which saw Monaco down in 17th, he was dismissed.",
+      "verified": true
+    },
+    {
+      "title": "Arsene Wenger ready to face former charges Monaco - Irish Times",
+      "url": "https://www.irishtimes.com/sport/soccer/champions-league/arsene-wenger-ready-to-face-former-charges-monaco-1.2116272",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2015-02-24",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "The relationship between Wenger and Monaco was strong enough to withstand the fact they sacked him in 1994, a few months after reaching the Champions League semi-final.",
+      "verified": true
+    },
+    {
+      "title": "REWIND: The day Arsene Wenger was appointed Arsenal boss - OnlineGooner",
+      "url": "https://www.onlinegooner.com/articles/view/5002",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-04-13",
+      "eventDate": "1996-10-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Strictly speaking, Monsieur Wenger’s tenure was not to begin until September 30.",
+      "verified": true
+    },
+    {
+      "title": "12th October 1996: Wenger's first game in charge - Pain in the Arsenal",
+      "url": "https://paininthearsenal.com/2012/10/12/12th-october-1996-wengers-first-game-in-charge",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-10-12",
+      "eventDate": "1996-10-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "The Frenchman was appointed manager of the club on September 30th 1996 and assumed the position on the following day.",
+      "verified": true
+    },
+    {
+      "title": "The Return of Arsene Wenger to Monaco - World Soccer Talk",
+      "url": "https://worldsoccertalk.com/news/the-return-of-arsene-wenger-to-monaco-20141215-CMS-124644.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-12-15",
+      "eventDate": "1996-10-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Wenger was installed at the end of September 1996 after a spell away from Europe with Nagoya Grampus Eight in Japan",
+      "verified": true
+    },
+    {
+      "title": "Huddersfield Town 0 Arsenal 1: Wenger bows out - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/news/huddersfield-town-0-arsenal-1-wenger-bows-out-first-away-win-2018",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-05-13",
+      "eventDate": "2018-05-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "giving Wenger a fitting farewell ahead of a new era in north London after 22 years at the helm.",
+      "verified": true
+    },
+    {
+      "title": "12th October 1996: Wenger's first game in charge - Pain in the Arsenal",
+      "url": "https://paininthearsenal.com/2012/10/12/12th-october-1996-wengers-first-game-in-charge",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-10-12",
+      "eventDate": "1996",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Tony Adams, who was Wenger’s captain at Arsenal from 1996 until 2002 when he retired from the game said the following: “At first, I thought: What does this Frenchman know about football? He wears glasses and looks more like a schoolteacher. He’s not going to be as good as George [Graham]. Does he even speak English properly?”.",
+      "verified": true
+    },
+    {
+      "title": "12th October 1996: Wenger's first game in charge - Pain in the Arsenal",
+      "url": "https://paininthearsenal.com/2012/10/12/12th-october-1996-wengers-first-game-in-charge",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-10-12",
+      "eventDate": "1996-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Before Wenger had even been formally announced as manager, he had already influenced decisions at the club. After Rioch’s sacking, he recommended two signings to the club.",
+      "verified": false,
+      "note": "Appointment-period fact (Sept 1996) before the counted start 1996-10-01"
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "1997/98",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Arsenal had a sturdy back four and a prolific attack. In order to speed up the transitions between the two, Arsene Wenger recruited Patrick Vieira and Emmanuel Petit.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "2001/02",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "The same formula brought Arsene Wenger his second title in 2002. By then, he had begun the process of replacing the ageing defence.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "1996/97",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Graham had turned this collection of players in to an impenetrable unit. Their understanding was so comprehensive that Wenger did not need to change a thing. Instead, he focused on adding attacking flair to a stable base.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "1997/98",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Phillipe Auclair recalls, ‘Arsenal created danger primarily through their ability to react at speed as soon as the ball had been won back.’ Later in his book Vieira describes the ‘1998 double’ team as playing a ‘long ball game.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "1997/98",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "In 1998 from 31st January, until the title was secured on the 3rd May, Arsenal conceded just two goals in 14 matches and kept 12 clean sheets.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "2001/02",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Wenger ‘had visions of a team that was also able to build from the back…in which the heart of the defence could beat to the same pulse as their more creative teammates.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "2001/02",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "‘slowly but surely players had been brought in who would revolutionise the way in which we played…the team was very different. Gone was the long ball; in came quick accurate passes to players feet...we were now mounting carefully constructed series of attacks.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "1996/97",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Wenger noted being impressed with ‘a group of highly experienced men…They were intelligent, hardworking, and prepared to offer total commitment.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "1997/98",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Ray Parlour explains, ‘Arsene wasn’t much of a disciplinarian’. Tony Adams goes further, ‘Arsene said very little. He never liked confrontation.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "2001/02",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Campbell was a brilliant all round defender with the ability to effectively defend 1:1 with any attacker, giving the rest of the team more freedom to take risks, safe in the knowledge Campbell was a formidable opponent even when isolated against strikers.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Bergkamp, ‘Wenger doesn’t think in terms of systems. He thinks in terms of players, intelligent players, and he allows them to determine the system on the pitch.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "2000",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "In their place Wenger signed, Lauren, Sylvain Wiltord and Robert Pires.",
+      "verified": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Arsenal lined-up as a 4-4-2, but with wide midfielders Robert Pires and Freddy Ljungberg pushing high and Dennis Bergkamp dropping deeper, the team could resemble a more modern 4-2-3-1 in the attacking phase.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Defensively, Arsenal did not press as concertedly as most sides in the modern game, but their superb strike force of Bergkamp and Thierry Henry would work as a pair to close down opposition centre-backs, whilst the wide midfielders would push up to press periodically.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The back four would keep its shape with at least one central midfielder – either Gilberto Silva or Patrick Vieira – patrolling the space in front of them. The pace of the Arsenal back four enabled them to play an effective offside trap",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Kolo Toure’s passing range enabled the Gunners to rapidly initiate counter-attacks once the ball was won back.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "In possession, the team was predicated on intelligent movement to disrupt opposition defences and produce mesmeric attacking sequences. Henry peeling wide into the left half-space. Bergkamp dropping off. Toure striding forward from centre-back.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "they bombed forward to provide width down their respective flanks, allowing Ljungberg and Pires to drift infield and fluidly interchange positions with the strikers and onrushing central midfielders.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Tactical Analysis: Arsenal's legendary Invincibles - The Football Faithful",
+      "url": "https://thefootballfaithful.com/tactical-analysis-arsenals-legendary-invincibles/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-04-14",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Wenger’s extensive and unparalleled knowledge of overseas markets enabled him to acquire supremely talented players such as Henry and Vieira at a fraction of their true value.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Invincibles tactics explained - Sportskeeda",
+      "url": "https://sportskeeda.com/football/arsenal-invincibles-tactics-explained",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-17",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Without the ball, Arsenal pressed though not as aggressively as many sides do now with both Thierry Henry and Denis Bergkamp pressurising the opposition defence.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Invincibles tactics explained - Sportskeeda",
+      "url": "https://sportskeeda.com/football/arsenal-invincibles-tactics-explained",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-17",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Behind these two, Arsenal defended with two banks of four with Vieira and Silva dropping deep to shield the back four. The wide midfielders would press if the opportunity arose but the back 4 usually tended to retain their shape more.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Invincibles tactics explained - Sportskeeda",
+      "url": "https://sportskeeda.com/football/arsenal-invincibles-tactics-explained",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-17",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "The intention was to win the ball on one-on-one opportunity or forcing the opposition to play long balls with Lehmann sweeping off the balls played way too long on which Arsenal sprung to the counter-attack.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Invincibles tactics explained - Sportskeeda",
+      "url": "https://sportskeeda.com/football/arsenal-invincibles-tactics-explained",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-17",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "The rotation was in second strikers position where Wiltord got more chances firstly as, In the first 10 games, he started 5 times and played 3 times as a substitute.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Invincibles tactics explained - Sportskeeda",
+      "url": "https://sportskeeda.com/football/arsenal-invincibles-tactics-explained",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-17",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Both full backs playing in advance positions allowed the wingers to cut inside and make use of the crosses provided by the full backs.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal's Invincibles tactics explained - Sportskeeda",
+      "url": "https://sportskeeda.com/football/arsenal-invincibles-tactics-explained",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2017-09-17",
+      "eventDate": "2003",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Arsene Wenger signed Kolo Toure and Gilberto Silva in 2002, and Jens Lehmann in 2003.",
+      "verified": true
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "2003/04",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "The team's power and speed meant they were incredibly threatening on the counter-attack. They would win the ball back and within moments have the ball in the opposition net.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "In order to pay for the enormous new stadium, Arsenal entered a period of austerity that meant they were forced to sell a number of major stars. Instead, Arsene Wenger focused developing talent from the youth academy's impressive production line.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "2005/06",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "In order to allow Fabregas to flourish, Wenger broke the habit of a lifetime and abandoned his 4-4-2 system. Instead, he adopted a more cautious 4-5-1 system with a focus on keeping the ball rather than lightening-fast counter-attacks.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "The Evolution of Arsene Wenger's Arsenal Tactics - Bleacher Report",
+      "url": "https://bleacherreport.com/articles/1659113-the-evolution-of-arsene-wengers-arsenal-tactics",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-03",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "The added numbers in midfield helped Arsenal resist physical challenges and dominate possession. Wenger sought to emulate Spain's internationally successful style in the Premier League.",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "First was the pre-“Invincibles” era when Wenger used a rigid 4-4-2, then the “Invincibles” era where the team adopted an extremely fluid 4-4-2, followed by the post-“Invincibles” era when Wenger evolved his 4-4-2 to 4-2-2-2 and eventually to 4-3-3, and finally the last season when 4-3-3/4-5-1 formation gradually changed to 4-2-3-1.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Arsenal, as a team, has dropped deep this season making them less vulnerable to counter attacks.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2011",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "the other problem arrived from the team pushing high up the pitch and once caught in possession, there was plenty of room for the opponents’ attackers to run in-behind the defense, especially behind the fullbacks.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "When Gibbs moves forward, Jenkinson drops back and forms a three-man defense with Mertesacker and Vermaelen.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "While defending set pieces, Arsenal have deployed a Zonal marking system, but perhaps more significantly they have been aggressive while defending aerial balls.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "When the opponent has the ball in front of the backline, the defense closes together to form a very narrow back four, while the two wide men in attack drop deep to play almost as wingbacks.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Mikel Arteta plays the role of Gilberto Silva – the silent screen in front of the defense; works hard to plug gaps in the defense and keeps it simple.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Santi Cazorla plays in the role a certain Dennis Bergkamp used to play back in those days.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Arsenal’s widemen are not found hugging the touchline and bombarding in crosses as the likes of Walcott, Gervinho and now Podolski play more like wide forwards who roam inside and make their runs towards the box while the crosses mostly come from fullbacks.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "This implies that Giroud had to drop deep as well, or else he would remain isolated upfront.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal Have Sacrificed Symmetry For Balance - The Hard Tackle",
+      "url": "https://thehardtackle.com/2012/arsenal-have-sacrificed-symmetry-for-balance-the-fifth-tactical-revolution-under-wenger/amp/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2012-09-20",
+      "eventDate": "2012/13",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Arsenal, as a team, has dropped deep this season making them less vulnerable to counter attacks. This has also helped settling in Per Mertesacker in the team, who is certainly not the quickest of defenders on the ground.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal - Leicester City 2:1 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/?p=2833",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-02-14",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Arsenal’s possession game has been plagued for seasons now by a weak structure with the ball which is poorly co-ordinated. Their shape is rather free-form as the midfield have freedom to roam from their positions quite commonly whilst Aaron Ramsey makes his usual forward movements up field.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal - Leicester City 2:1 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/?p=2833",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-02-14",
+      "eventDate": "2016-02-14",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Arsenal made two changes to the lineup as Coquelin and Mertesacker returned to the 4-2-3-1.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal - Leicester City 2:1 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/?p=2833",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-02-14",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "The weak structuring in possession translates to issues upon turnover of the ball too. The lack of passing options with the ball results in a lack of defensive connections upon losing it as counterpressing becomes difficult to execute.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal - Leicester City 2:1 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/?p=2833",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-02-14",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Although it wasn’t exploited to its fullest by Leicester, their inability to exert immediate pressure gives them great instability in transition with particularly large distances between players in midfield.",
+      "verified": true
+    },
+    {
+      "title": "Arsenal - Leicester City 2:1 - Spielverlagerung",
+      "url": "https://spielverlagerung.com/?p=2833",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-02-14",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Many of the attacks resorted to possession through wide areas as their lack of connections made access difficult through the middle.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Arsenal had just 35.3% of possession that day and, in the same way that other teams routinely did against them, simply focused on sitting deep, remaining defensively solid and breaking with speed.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "after the ball was intercepted close to the halfway line, it took just five touches for Arsenal to make it 2-0.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "In previous years, Wenger would try to dominate possession against everyone, even Bayern Munich and Barcelona. These days, however, Arsenal are often willing to let the opposition control the ball as they soak up the pressure and wait for the right moment to counter-attack.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Petr Cech’s ability to organise a defence allows Arsenal to sit deeper, which in turn makes it more difficult for them to be penetrated.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Francis Coquelin’s commanding presence in the engine room is essential as Arsenal look to nick the ball and move it forward quickly.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Alexis Sanchez and Mesut Ozil are attackers who are suited to playing on the counter-attack",
+      "verified": true
+    },
+    {
+      "title": "Wenger Why No Marking System Is Perfect - football.co.uk",
+      "url": "https://www.football.co.uk/amp_3425.shtm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-01-16",
+      "eventDate": "2008/09",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Although there has been no change on his policy on man-for-man marking at set-pieces, he is open-minded about the best system to use.",
+      "verified": true
+    },
+    {
+      "title": "Wenger Why No Marking System Is Perfect - football.co.uk",
+      "url": "https://www.football.co.uk/amp_3425.shtm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-01-16",
+      "eventDate": "2009-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "“Man-to-man marking has more individual responsibility but is less rational because your opponent can take you anywhere.“The zonal system has more team responsibility, and is linked more with the position of your partners.",
+      "verified": true
+    },
+    {
+      "title": "Wenger Why No Marking System Is Perfect - football.co.uk",
+      "url": "https://www.football.co.uk/amp_3425.shtm",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2009-01-16",
+      "eventDate": "2001",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "For the first decade of his Arsenal tenure he stuck almost entirely to 4-4-2 however in the last few years has adapted his formation to circumstances.",
+      "verified": true
+    },
+    {
+      "title": "How will zonal marking affect Arsenal's season? - Arsenal Insider",
+      "url": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-09-16",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Arsene Wenger has confirmed today that he is experimenting with a zonal marking system for defending set pieces this season.",
+      "verified": true
+    },
+    {
+      "title": "How will zonal marking affect Arsenal's season? - Arsenal Insider",
+      "url": "https://www.arsenalinsider.com/opinion/how-will-zonal-marking-affect-arsenals-season/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-09-16",
+      "eventDate": "2011-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "“It has advantages and disadvantages. You need a great sense of individual responsibility with zonal marking. Taking initiative and responsibility is bigger. But it looks more rational. When you run after somebody, the players can cross each other and that can stop you from intervening. You are less subject to screening too.”",
+      "verified": true
+    },
+    {
+      "title": "Defence remains Arsenal's Achilles heel - The National",
+      "url": "https://thenationalnews.com/sport/defence-remains-arsenal-s-achilles-heel-1.443425",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-10-02",
+      "eventDate": "2011",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Since the summer of 2009, Arsenal have lost 51 goals at corners or free kicks.",
+      "verified": true
+    },
+    {
+      "title": "Defence remains Arsenal's Achilles heel - The National",
+      "url": "https://thenationalnews.com/sport/defence-remains-arsenal-s-achilles-heel-1.443425",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-10-02",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "We didn't really know on set pieces how they were going to defend because they've man-marked in some games and they've gone zonal in other games.",
+      "verified": true
+    },
+    {
+      "title": "Defence remains Arsenal's Achilles heel - The National",
+      "url": "https://thenationalnews.com/sport/defence-remains-arsenal-s-achilles-heel-1.443425",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-10-02",
+      "eventDate": "2011",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "While Arsenal raised their average height by signing Per Mertesacker, the 6ft 6in German central defender, and Andre Santos, the Brazilian left-back, who is 5ft 11in, in the last week of the summer transfer window, they remain one of the Premier League's smallest teams.",
+      "verified": true
+    },
+    {
+      "title": "Wenger happy to give youth chance at Arsenal - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/news/wenger-happy-give-youth-chance-arsenal",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-04-01",
+      "eventDate": "2012",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Wenger has consistently looked to promote players from Arsenal's youth setup into the first team, with the likes of Cesc Fabregas, Jack Wilshere and Wojciech Szczesny all benefitting.",
+      "verified": true
+    },
+    {
+      "title": "Wenger happy to give youth chance at Arsenal - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/news/wenger-happy-give-youth-chance-arsenal",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2014-04-01",
+      "eventDate": "2014-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"It's one of the values of our club (promoting from within),\" Wenger told the club's official website. \"We want to be very successful without neglecting the need to give a chance to people.",
+      "verified": true
+    },
+    {
+      "title": "Arsene Wenger: Q&A - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/arsene-wenger-qa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-12-12",
+      "eventDate": "2012-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "We have always managed the club with its own resources, given a chance to young players and developed a style of play that we think is right.",
+      "verified": true
+    },
+    {
+      "title": "Arsene Wenger: Q&A - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/arsene-wenger-qa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-12-12",
+      "eventDate": "2012-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "If a manager stays at a club for 15 years, he is a \"memory\" of the club. It gives you a kind of authority, because people respect the way you behave and the way you do things.",
+      "verified": true
+    },
+    {
+      "title": "Arsene Wenger: Q&A - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/arsene-wenger-qa",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2012-12-12",
+      "eventDate": "2012-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "You can only be good in life if you do what you believe is right.",
+      "verified": true
+    },
+    {
+      "title": "Arsene Wenger: Philosophy, politics and parents - Yahoo Sports",
+      "url": "https://uk.sports.yahoo.com/news/arsene-wenger-philosophy-politics-parents-130600267.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-04-20",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"It is more a status thing than the actual money,\" says Wenger. \"The player compares himself to other players he thinks are on the same level, not because of the money, more for the respect for his own quality. That is where meeting their needs comes in.",
+      "verified": true
+    },
+    {
+      "title": "Arsene Wenger: Philosophy, politics and parents - Yahoo Sports",
+      "url": "https://uk.sports.yahoo.com/news/arsene-wenger-philosophy-politics-parents-130600267.html",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-04-20",
+      "eventDate": "2008",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Another transfer window is about to close and Wenger, as usual, looks like roughly breaking even.",
+      "verified": true
+    },
+    {
+      "title": "Footballistically Speaking: 20 years of Arsene Wenger in his own words - 7amkickoff",
+      "url": "https://7amkickoff.com/index.php/2016/09/28/footballistically-speaking-20-years-of-arsene-wenger-in-his-own-words/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-09-28",
+      "eventDate": "1996",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Patrick Vieira was Wenger’s first signing, asking David Dein to buy the Frenchman from AC Milan and convincing Vieira to sign for Arsenal instead of Ajax.",
+      "verified": true
+    },
+    {
+      "title": "Footballistically Speaking: 20 years of Arsene Wenger in his own words - 7amkickoff",
+      "url": "https://7amkickoff.com/index.php/2016/09/28/footballistically-speaking-20-years-of-arsene-wenger-in-his-own-words/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-09-28",
+      "eventDate": "2011",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "“First you need the talent, but also you need to meet someone who believes in you and gives you a chance.",
+      "verified": true
+    },
+    {
+      "title": "How Arsene Wenger broke the three year rule and built Arsenal's invincibles - The Left-Sided Problem",
+      "url": "https://www.theleft-sidedproblem.com/articles/how-wenger-broke-the-three-year-rule",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-12-02",
+      "eventDate": "2002",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Wenger describes his ‘style is a team that expresses itself, that builds, that takes risks.’",
+      "verified": true,
+      "retrospectiveOnly": true
+    },
+    {
+      "title": "How Arsene Wenger abandoned his philosophy to make Arsenal title challengers again - FourFourTwo",
+      "url": "https://www.fourfourtwo.com/features/how-arsene-wenger-abandoned-his-philosophy-make-arsenal-title-challengers-again",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-04",
+      "eventDate": "2014-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "‘We conceded too many goals in some of these games. But overall our policy is to try to play our game because it’s the qualities of our players,” Wenger said. “I think the system of the team is to adapt to the quality of the players because we have so many offensive players. We just play to our strengths.”",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Man-to-man marking has more individual responsibility but is less rational because your opponent can take you anywhere. The zonal system has more team responsibility, and is linked more with the position of your partners. So it depends what is the best for your team. There is no ideal system.",
+      "date": "2009-01",
+      "source": "football.co.uk, 2009-01-16",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Yes we have changed our system a little bit. It's too early to say that it works but the signs are positive.",
+      "date": "2011-09",
+      "source": "Arsenal official site via Arsenal Insider, 2011-09-16",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I think the system of the team is to adapt to the quality of the players because we have so many offensive players. We just play to our strengths.",
+      "date": "2014-04",
+      "source": "FourFourTwo, 2016-02-04 (quoting an interview at the end of 2013/14)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "It's one of the values of our club (promoting from within). We want to be very successful without neglecting the need to give a chance to people.",
+      "date": "2014-04-01",
+      "source": "Arsenal.com via FourFourTwo, 2014-04-01",
+      "provenance": "primary"
+    },
+    {
+      "quote": "You can only be good in life if you do what you believe is right. We have always managed the club with its own resources, given a chance to young players and developed a style of play that we think is right.",
+      "date": "2012-12",
+      "source": "FourFourTwo Q&A, Nov 2012",
+      "provenance": "primary"
+    },
+    {
+      "quote": "If you come in and behave like a gangster you will not last long. The supporters will be the first ones not happy with that. A club needs values.",
+      "date": "2008",
+      "source": "Yahoo Sports reprint of 2008 Guardian interview (Daniel Taylor era), published 2018-04-20 reprint",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Man-for-man at set-pieces: no change in policy, open-minded; 'I always prefer the one which is most adapted to your team. Every system has advantages and disadvantages.'",
+      "date": "2009-01",
+      "source": "football.co.uk, 2009-01-16",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://arsespeak.com/2011/01/11/arsene-wenger-beginnings-themes-philosophy-as-monaco-galatasary-1989",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.getfootballnewsfrance.com/2015/an-interview-with-arsene-wenger-from-1988-on-the-soviet-union-platin-richelieu-and-more/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.arsenal.com/node/11593",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.arsenal.com/node/31935",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.dailyherald.com/?p=115048",
+      "reason": "empty"
+    },
+    {
+      "url": "https://footballbh.net/?p=472105",
+      "reason": "403"
+    }
+  ],
+  "influences": [
+    "Ajax (Bergkamp compares Monaco to Ajax)",
+    "Herbert Chapman/George Graham back four inherited at Arsenal"
+  ],
   "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "shape",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "blo",
-      "est",
-      "jog",
-      "lar",
-      "lid",
-      "mar",
-      "pla",
-      "pos",
-      "pro",
-      "res",
-      "sis"
-    ]
+    "dimensions": [],
+    "axes": []
   },
-  "influences": [],
   "confidence": {
-    "level": "low",
-    "reason": "Dated career table only; no tactical source read; the audit will answer the style from general knowledge."
+    "level": "medium",
+    "reason": "Arsenal 2003-04 and 2012-16 well covered by tier B (Football Faithful, Hard Tackle, Spielverlagerung, Sportskeeda) but most Invincibles and 1997-2002 material is retrospective; Monaco has only retrospective player recollections and no tactical study."
   }
 }
 
@@ -400,3 +1621,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: A player who turns up late for training misses the next game, whoever he is.
    Agree means: Indiscipline brings a clear punishment, and it applies to any player.
    Disagree means: Being late is settled with a talk, without needing to drop the player.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

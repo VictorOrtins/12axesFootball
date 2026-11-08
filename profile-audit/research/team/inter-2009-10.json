@@ -1,14 +1,12 @@
 {
   "id": "inter-2009-10",
   "catalog": "team",
-  "name": "Inter 2009/10",
-  "status": "complete",
-  "researchedOn": "2026-10-12",
+  "name": "Internazionale 2009/10 (Mourinho)",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2009-08-08",
     "end": "2010-05-22"
   },
-  "scopeNote": "Inter 2009/10 under Mourinho, from the Supercoppa Italiana (2009-08-08) to the Champions League final (2010-05-22); treble season. Tactical evidence is one tier C analysis of the first leg vs Barcelona (a 'mid-block', width sacrificed for compactness, quick defensive transitions, under 40% possession) plus Mourinho's attributed statement that Messi was stopped by shared zonal-style responsibility, 'not man to man'; the analysis itself says Messi was man-marked, so the marking evidence conflicts. Season-wide and second-leg (Camp Nou, 0-1, Motta sent off) evidence is not read on a page. Mourinho's 'gabbia' (cage) is the Italian press label, per his own account. No label confirmed by a season-long source.",
   "managers": [
     {
       "managerId": "jose-mourinho",
@@ -16,155 +14,948 @@
       "end": "2010-05-22"
     }
   ],
+  "scopeNote": "Inter of the treble season under Mourinho, 2009-08-08 (Supercoppa, period fixed by the user; the Supercoppa date and result were not re-verified in a mined page, only that the Super Cup was lost to Lazio) to 2010-05-22 (Champions League final v Bayern). Style: a compact mid/low block with fast counters (Wilson: 'we managed to play and win with counters'), not a pressing or possession side; 'catenaccio'/'parking the bus' is the press label, while sources describe mid-block 4-4-2 / 4-5-1 and 4-2-3-1 variants. 4-3-1-2 start with Sneijder as trequartista and the 4-2-3-1 from the Chelsea tie are reported by search summaries and the Blitz projection but only the Stamford Bridge 4-2-3-1 is verified in a mined page. Wilson uses a 4-3-3 as Mourinho's basic model (Chelsea and Inter), conflicting with 4-2-3-1 labels. 2008/09 (Mancini) and 2010/11 (Benitez) excluded; the FourFourTwo Nov 2010 zonal quote is Real Madrid era and kept unverified. Coaches' Voice masterclass is paywalled, so its content is taken from a Goal.com report of the same video.",
   "ambiguities": [],
   "openQuestions": [
-    "Season-wide tactics (not only Barcelona) need tier A/B analysis; second-leg possession figure unverified; Mourinho's earliest dated quote (post-semi-final 2010-04-28) not found.",
-    "Marking: Substack says Messi was man-marked, Mourinho says not man to man."
+    "Messi marking at Camp Nou/San Siro: Mourinho (Coaches' Voice via Goal.com) says 'we didn't play man-to-man' and describes zonal handover with Zanetti, Motta, Cambiasso; a Substack (Maldonado, 2025, first leg) says Messi was 'man-marked everywhere he went' and that Pandev tucked in to man-mark. Likely loose wording for tight, zone-based close marking; Mourinho's primary account preferred.",
+    "Date and exact shift from 4-3-1-2 to 4-2-3-1: the Guardian piece (pressreader, unreadable) reportedly says mid-season with Eto'o on the left; inter.it states a 4-2-3-1 at Chelsea on 2010-03-16 and its lineup shows Sneijder behind Pandev, Milito, Eto'o. Wilson says Mourinho's basic model is 4-3-3.",
+    "Final shape vs Bayern: some sources say 4-2-3-1, one summary says 4-4-2 diamond; no mined tier A-B page states it explicitly.",
+    "Tier A coverage is thin: Coaches' Voice is paywalled; no Spielverlagerung/StatsBomb/Tifo page for this season was found.",
+    "Possession figures differ: Wilson says 16% at Camp Nou in one article (preview) and 'more than twice' of 33% in the other; FourFourTwo says 24%."
   ],
   "sources": [
     {
-      "title": "On this day in 2010: when José Mourinho's Inter ruled over Europe (Sam Brookes)",
-      "url": "https://www.getfootballnewsitaly.com/2020/feature-on-this-day-in-2010-when-jose-mourinhos-inter-ruled-over-europe/",
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The sense of a repeating pattern is also a result of Inter's willingness to defend deep. \"We are a very compact team; we have little distance between the players, and we managed to play and win with counters, and this is typical for our team,\" Mourinho said. When Bayern attacked, the defense tended to be set, ready to force it into predictable channels",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "\"We are a very compact team; we have little distance between the players, and we managed to play and win with counters, and this is typical for our team,\" Mourinho said.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Inter had by far the lesser share of possession (only 33 per cent, although that is more than twice as much as it had against Barcelona), but its organization was again excellent, and this time it retained a penetrative threat on the break.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Once ahead, Inter could settle back, allow Bayern to have the ball, and wait to pick them off on the break.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Diego Milito knocked down Inter goalkeeper Julio Cesar's long clearance for Wesley Sneijder, and when slipped through a return-pass, the Argentine had the space, composure and awareness to sidefoot his finish past Bayern goalkeeper Hans Jorg Butt.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Once Inter had taken the lead, there was never any sense it would squander it, and many of the shots that Bayern had were speculative and from distance. Notably at halftime, the shot count was only 10-7 in Inter's favour; Bayern's advantage in that regard came largely because Inter allowed it to dominate.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "On the right flank, the battle was comfortably won by Inter's right back Maicon, and the second-half introduction of Miroslav Klose for Altintop, and Muller's move to the left, made little difference.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Mourinho seemingly reasoned that it was better to risk Robben running riot than disrupt the flow of the rest of his team, and he was proved right.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Javier Zanetti switched into a holding midfield role to replace the suspended Thiago Motta, and Cristian Chivu, the experienced Romanian, coming in to take the Argentine's position at left back.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Superior Inter deserving of its win (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-22",
+      "eventDate": "2010-05-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"With Bayern attacking with so many players it was easier for us to control the middle of the pitch,\" Mourinho said.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Inter showed against Barcelona that they are equally good at sitting back and maintaining defensive shape, unconcerned by aspects such as possession that other sides might regard as basics.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "no matter if we have only 16 percent of possession, we can still stop you.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "whether he prefers to take the initiative and press high up the pitch as Inter did against Chelsea, particularly in the second leg.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Chivu to play as a left-sided midfielder with Zanetti behind him, which was the left-sided combination that neutered Lionel Messi and Dani Alves in Barcelona.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Goran Pandev has usually been used on the left side of Inter's midfield, but his lack of pace is a concern when it comes to tracking Lahm.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "With both teams playing two holders plus, in Inter's case, a playmaker, and, in Bayern's case, a second striker in Thomas Muller, the center of midfield looks likely to be too congested for either side really to make decisive inroads there.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Zanetti, although 36, reads the game well enough and is quick enough over the first yard to make him the less risky option at left back.",
+      "verified": true
+    },
+    {
+      "title": "Jonathan Wilson, Inter vs. Bayern: the final hinges on flank play (SI)",
+      "url": "https://www.si.com/more-sports/2010/05/20/cl-preview",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2010-05-20",
+      "eventDate": "2010",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "he, too, has used 4-3-3 as his basic model, both at Chelsea and now at Internazionale.",
+      "verified": true
+    },
+    {
+      "title": "Goal.com, Mourinho explains how he kept Messi in 'jail' (Coaches' Voice interview, 2019)",
+      "url": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
       "tier": "C",
       "language": "en",
+      "articleDate": "2019-05-07",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "\"I remember after the game ... in Italy they were using the word 'gabbia', the real translation is like a jail to Messi because in the end we didn't play man-to-man but Zanetti, Motta, Cambiasso, everybody was responsible for any position that Messi could go.\"",
+      "verified": true
+    },
+    {
+      "title": "Goal.com, Mourinho explains how he kept Messi in 'jail' (Coaches' Voice interview, 2019)",
+      "url": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-05-07",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "\"There is a moment where he becomes yours and I stay in the zone but if in a certain moment you are attracted by other positions and Messi goes in these positions in between the lines, you have to decide to go.",
+      "verified": true
+    },
+    {
+      "title": "Goal.com, Mourinho explains how he kept Messi in 'jail' (Coaches' Voice interview, 2019)",
+      "url": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-05-07",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Mourinho explained that stopping Messi, who was playing on the right wing, had to be a group effort involving defensive midfielders Thiago Motta and Esteban Cambiasso, as well as left-back Javier Zanetti.",
+      "verified": true
+    },
+    {
+      "title": "Goal.com, Mourinho explains how he kept Messi in 'jail' (Coaches' Voice interview, 2019)",
+      "url": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-05-07",
+      "eventDate": "2010-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Inter famously defeated Barcelona despite conceding most of the possession to their opponents.",
+      "verified": true
+    },
+    {
+      "title": "Goal.com, Mourinho explains how he kept Messi in 'jail' (Coaches' Voice interview, 2019)",
+      "url": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2019-05-07",
+      "eventDate": "2010-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "\"Let them have the ball but not create many chances.\"",
+      "verified": true
+    },
+    {
+      "title": "The Coaches' Voice, Jose Mourinho Masterclass on Inter 3-1 Barcelona",
+      "url": "https://learning.coachesvoice.com/cv/jose-mourinho-inter-milan-barcelona-pep-guardiola/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2022-05-06",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "He offers particular insight into their approach to against Lionel Messi, and how they capitalised on the space behind Barça's attacking full-backs.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Inter's shape for the majority of the match was a mid-block - varying between a 4-4-2 (Sneijder pushing up with Milito, with Eto'o dropping as the right midfielder of the midfield 4) and an occasional 4-5-1",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Mourinho opted to sacrifice offensive width for defensive compactness.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "part of Inter's out of possession approach was using their front two of Sneijder and Milito to screen Barça's pivot players, preventing direct passes into their feet.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Using their compact shape, Inter looked to funnel Barça's play down the wings - they were not overly quick to close Barça's wide players down, especially as they entered the final third - almost inviting early crosses into the Inter box.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Most of Inter's attacking transitions came from passes played by a full-back or centre-mid into Milito/Eto'o, following an in-to-out run from the strikers.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Messi was being man-marked everywhere he went and the pivot players were sandwiched between Inter's front 2 and Inter's midfield pivot.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Mourinho reacted quickly and subbed on Stanković for Pandev and asked Sneijder to drop back as a left-sided midfielder. Inter essentially became a 4-5-1 out of possession and were able to stifle Barça.",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Inter were looking to release their outlets as quick and early as possible - not giving Barça players the time to sprint 30+ yards back into their own half",
+      "verified": true
+    },
+    {
+      "title": "Francisco Maldonado, Inter Milan 3-1 Barcelona (2010) Analysis (Substack)",
+      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2025-06-26",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Messi began to drop outside of the Inter block, much for the same reason.",
+      "verified": true
+    },
+    {
+      "title": "These Football Times, Inter v Barcelona: revisiting the Mourinho-Guardiola classic from 2010",
+      "url": "https://thesefootballtimes.co/2018/10/23/inter-v-barcelona-revisiting-the-mourinho-guardiola-classic-from-2010/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-23",
+      "eventDate": "2010-04-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "it was the Italian side who produced an unexpectedly thrilling display of high pressing and marauding attacking in the first leg to roar into a 3-1 lead.",
+      "verified": true
+    },
+    {
+      "title": "These Football Times, Inter v Barcelona: revisiting the Mourinho-Guardiola classic from 2010",
+      "url": "https://thesefootballtimes.co/2018/10/23/inter-v-barcelona-revisiting-the-mourinho-guardiola-classic-from-2010/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-23",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "The Portuguese applauded sarcastically to the jeers of Barça supporters after Thiago Motta was sent off on a highly dubious second yellow card.",
+      "verified": true
+    },
+    {
+      "title": "These Football Times, Inter v Barcelona: revisiting the Mourinho-Guardiola classic from 2010",
+      "url": "https://thesefootballtimes.co/2018/10/23/inter-v-barcelona-revisiting-the-mourinho-guardiola-classic-from-2010/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-10-23",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"I respect Barça and I'll never forget what the club gave me in the four years I was here,\" he commented, \"but something has been created around me that is hard to make positive. It is clear that I will end my career without having coached Barça.\"",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, When Jose Mourinho's Inter stunned Barcelona en route to 2010 Champions League success",
+      "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-10-12",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Selling Zlatan Ibrahimovic to Guardiola while using the funds to help finance the arrivals of Samuel Eto'o, Thiago Motta, Lucio, Sneijder and Milito ranks as one of the outstanding transfer windows any club has ever had.",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, When Jose Mourinho's Inter stunned Barcelona en route to 2010 Champions League success",
+      "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-10-12",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "He could name sides with an average age in their thirties",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, When Jose Mourinho's Inter stunned Barcelona en route to 2010 Champions League success",
+      "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-10-12",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "His 10-man Inter's rearguard action to eliminate Guardiola's Barcelona, perhaps the greatest club side ever, with 24 percent of possession at the Nou Camp",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, When Jose Mourinho's Inter stunned Barcelona en route to 2010 Champions League success",
+      "url": "https://www.fourfourtwo.com/features/inter-milan-why-jose-mourinho-last-champions-league-triumph-was-so-extraordinary-internazionale-liverpool-preview",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2022-10-12",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "It was a team with his imprint, pragmatic, tactically disciplined and mentally strong, constructed with the immediacy in mind.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 turning points from the 2009/10 season",
+      "url": "https://www.inter.it/en/news/2020-05-21-10-key-moments-from-the-2009-10-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-21",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Mourinho opted for a 4-2-3-1 set-up, and Inter put in an extremely mature performance to win 1-0 away at Chelsea thanks to Eto'o's goal.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 turning points from the 2009/10 season",
+      "url": "https://www.inter.it/en/news/2020-05-21-10-key-moments-from-the-2009-10-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-21",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Our Cameroonian frontman turned out to be a total team player: 16 goals, but more than anything an injection of experience and tactical skill, all in addition to his endless enthusiasm.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 turning points from the 2009/10 season",
+      "url": "https://www.inter.it/en/news/2020-05-21-10-key-moments-from-the-2009-10-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-21",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "The 2009 summer transfer window saw Lucio, Milito, Thiago Motta, Samuel Eto'o and Wesley Sneijder all arrive at Inter.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 turning points from the 2009/10 season",
+      "url": "https://www.inter.it/en/news/2020-05-21-10-key-moments-from-the-2009-10-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-21",
+      "eventDate": "2009-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "First Sneijder's free kick made it 3-3, then that unforgettable goal from Samuel himself secured the 4-3 win.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 turning points from the 2009/10 season",
+      "url": "https://www.inter.it/en/news/2020-05-21-10-key-moments-from-the-2009-10-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-21",
+      "eventDate": "2009-12",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Mourinho put all of his cards on the table for the final stages: Arnautovic and the young Stevanovic on, and Samuel up top for the last few minutes.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 turning points from the 2009/10 season",
+      "url": "https://www.inter.it/en/news/2020-05-21-10-key-moments-from-the-2009-10-season",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-05-21",
+      "eventDate": "2009-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Mourinho sent Sneijder straight into battle, with our Dutchman having just arrived and barely trained with the team.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 years ago...Chelsea vs. Inter and that goal from Eto'o",
+      "url": "https://www.inter.it/en/news/2020-03-16-chelsea-inter-10-years-ago",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Cambiasso and Thiago Motta lined up in midfield, while Sneijder was there to support a front three of Pandev, Milito and Eto'o.",
+      "verified": true
+    },
+    {
+      "title": "Inter.it, 10 years ago...Chelsea vs. Inter and that goal from Eto'o",
+      "url": "https://www.inter.it/en/news/2020-03-16-chelsea-inter-10-years-ago",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Zanetti and Maicon started in the full-back positions, with Lucio and Samuel the Nerazzurri's centre-backs in front of Julio Cesar.",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, Inter do Italian job against Chelsea",
+      "url": "https://www.fourfourtwo.com/news/inter-do-italian-job-against-chelsea",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Inter opted against trying to sit back and defend their first-leg lead and produced an energetic display in a first half",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, Inter do Italian job against Chelsea",
+      "url": "https://www.fourfourtwo.com/news/inter-do-italian-job-against-chelsea",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Inter began to pile on the pressure midway through the second half and a clever backheel by Sneijder sent Pandev through",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, Inter do Italian job against Chelsea",
+      "url": "https://www.fourfourtwo.com/news/inter-do-italian-job-against-chelsea",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"We were the best team by far. To win here was almost a perfect performance not just by the team but by the individual players,\" Mourinho",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, Inter do Italian job against Chelsea",
+      "url": "https://www.fourfourtwo.com/news/inter-do-italian-job-against-chelsea",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"I celebrated a lot in the dressing room because it was a big victory for my team.",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, Inter do Italian job against Chelsea",
+      "url": "https://www.fourfourtwo.com/news/inter-do-italian-job-against-chelsea",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-16",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Thiago Motta headed over the bar from a free-kick.",
+      "verified": true
+    },
+    {
+      "title": "Bleacher Report, Mourinho Proves Possession Is Key",
+      "url": "https://bleacherreport.com/articles/364933-mourinho-proves-possession-is-key",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-18",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "on Tuesday night Mourinho's men had 52 per cent of the possession and that was the foundation for the 1-0 victory.",
+      "verified": true
+    },
+    {
+      "title": "Bleacher Report, Mourinho Proves Possession Is Key",
+      "url": "https://bleacherreport.com/articles/364933-mourinho-proves-possession-is-key",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-03-18",
+      "eventDate": "2010-03-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "they played with a three-man frontline and threw bodies forward with purpose and speed.",
+      "verified": true
+    },
+    {
+      "title": "A Bola, O 6x3x0 de Mou em Camp Nou que afastou o Barcelona da final",
+      "url": "https://www.abola.pt/noticias/o-6x3x0-de-mou-em-camp-nou-que-afastou-o-barcelona-da-final-2024100816270886689",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-29",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "transformando o inicial 5x3x2 numa espécie de 6x3x0.",
+      "verified": true
+    },
+    {
+      "title": "A Bola, O 6x3x0 de Mou em Camp Nou que afastou o Barcelona da final",
+      "url": "https://www.abola.pt/noticias/o-6x3x0-de-mou-em-camp-nou-que-afastou-o-barcelona-da-final-2024100816270886689",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-29",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Eto'o, o atacante Eto'o, o goleador Eto'o, o talentoso Eto'o, passou a ser uma espécie de defesa-esquerdo.",
+      "verified": true
+    },
+    {
+      "title": "A Bola, O 6x3x0 de Mou em Camp Nou que afastou o Barcelona da final",
+      "url": "https://www.abola.pt/noticias/o-6x3x0-de-mou-em-camp-nou-que-afastou-o-barcelona-da-final-2024100816270886689",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-29",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "foi forçado a duas linhas defensivas, deixando o solitário e lutador Diego Milito a fechar preferencialmente o flanco direito), às vezes apoiado por Sneijder pela zona central.",
+      "verified": true
+    },
+    {
+      "title": "A Bola, O 6x3x0 de Mou em Camp Nou que afastou o Barcelona da final",
+      "url": "https://www.abola.pt/noticias/o-6x3x0-de-mou-em-camp-nou-que-afastou-o-barcelona-da-final-2024100816270886689",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2025-04-29",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Chivu (no onze devido a lesão de última hora de Pandev)",
+      "verified": true
+    },
+    {
+      "title": "Il Post, Nel 2010 l'Inter la combinò grossa",
+      "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2020-05-22",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "In quella partita diede ordine di rifiutare il possesso palla per togliere al Barcellona l'uso del suo famoso pressing, e di lanciarla il più lontano possibile appena ce ne fosse stata occasione.",
+      "verified": true
+    },
+    {
+      "title": "Il Post, Nel 2010 l'Inter la combinò grossa",
+      "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2020-05-22",
+      "eventDate": "2010-04-28",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Fu un'impresa alla quale la squadra si trovò preparata, dato che nei suoi allenamenti Mourinho insisteva molto sul gioco in condizioni di inferiorità numerica.",
+      "verified": true
+    },
+    {
+      "title": "Il Post, Nel 2010 l'Inter la combinò grossa",
+      "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2020-05-22",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Vennero acquistati Diego Milito e Thiago Motta, due giocatori internazionali rigenerati dal Genoa di Gian Piero Gasperini. Arrivarono il trequartista olandese Wesley Sneijder, scartato dal Real Madrid, e il brasiliano Lucio dal Bayern Monaco.",
+      "verified": true
+    },
+    {
+      "title": "Il Post, Nel 2010 l'Inter la combinò grossa",
+      "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
+      "tier": "C",
+      "language": "it",
       "articleDate": "2020-05-22",
       "eventDate": "2010-05-22",
-      "accessedOn": "2026-10-12",
+      "accessedOn": "2026-11-06",
       "dimension": "squad-building",
-      "evidence": "\"The average age of Inter's starting line-up in the Champions League final had been just a touch under 30.\" \"Mourinho had got everything he could out of a vastly experienced squad\"; \"the ageing group would start to decline shortly after his departure.\"",
+      "evidence": "Milito, che in quella stagione aveva incredibilmente esordito in Champions a trent'anni compiuti.",
       "verified": true
     },
     {
-      "title": "2009 Supercoppa Italiana (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2009_Supercoppa_Italiana",
+      "title": "Il Post, Nel 2010 l'Inter la combinò grossa",
+      "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
       "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2009-08-08",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Played on 8 August 2009, Inter v Lazio, Lazio won 2-1, Beijing National Stadium: first competitive match of the season. Date only; no tactical content.",
-      "verified": true
-    },
-    {
-      "title": "2010 UEFA Champions League final (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2010_UEFA_Champions_League_final",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
+      "language": "it",
+      "articleDate": "2020-05-22",
       "eventDate": "2010-05-22",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "22 May 2010, Santiago Bernabeu, Inter 2-0 Bayern (Milito 35', 70'). Inter XI position labels: Julio Cesar; Maicon, Lucio, Samuel, Chivu; Zanetti, Cambiasso (CM, CM); Sneijder (AM); Eto'o, Milito, Pandev (RF, CF, LF). Page states no formation text; a back four with two holding midfielders and a front line behind a striker is read from labels only.",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "La giornata di Madrid si concluse con un commovente abbraccio tra Materazzi e Mourinho nel parcheggio dello stadio",
       "verified": true
     },
     {
-      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
-      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
+      "title": "Il Post, Nel 2010 l'Inter la combinò grossa",
+      "url": "https://www.ilpost.it/2020/05/22/inter-champions-league-2010/",
       "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-26",
-      "eventDate": "2010-04-20",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "\"Inter's shape for the majority of the match was a mid-block\" (first leg, San Siro, 2010-04-20). Single match, not the season.",
-      "verified": true
-    },
-    {
-      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
-      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-26",
-      "eventDate": "2010-04-20",
-      "accessedOn": "2026-10-17",
-      "dimension": "pressing",
-      "evidence": "\"Messi was being man-marked everywhere he went\"; midfielders could \"pressure him off the ball consistently\"; \"Inter hounded Barça out of the middle of the pitch.\" Contradicts Mourinho's own 'not man to man' (see statedView).",
-      "verified": true
-    },
-    {
-      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
-      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-26",
-      "eventDate": "2010-04-20",
-      "accessedOn": "2026-10-17",
-      "dimension": "transitions",
-      "evidence": "\"Inter were noticeably quick to get back on defensive transitions\"; Inter also attacked quickly after winning the ball back. Subtitle: Inter had \"less than 40% of the ball\" (no exact figure; first leg).",
-      "verified": true
-    },
-    {
-      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
-      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-26",
-      "eventDate": "2010-04-20",
-      "accessedOn": "2026-10-17",
-      "dimension": "width",
-      "evidence": "Mourinho \"opted to sacrifice offensive width for defensive compactness\"; Barca were funneled toward the wings.",
-      "verified": true
-    },
-    {
-      "title": "Inter Milan 3-1 Barcelona (2010) Analysis (Francisco Maldonado, Substack)",
-      "url": "https://franciscomaldonado.substack.com/p/inter-milan-3-1-barcelona-2010-analysis",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-26",
-      "eventDate": "2010-04-20",
-      "accessedOn": "2026-10-17",
-      "dimension": "possession",
-      "evidence": "Subtitle: Inter had \"less than 40% of the ball\" in the first leg (3-1 win). Exact figure not given; second-leg 13.6% seen only in a search summary, not read on a page.",
-      "verified": true
-    },
-    {
-      "title": "Mourinho, tears and defiance: the story of Inter's 2009-10 season (The Guardian, via Asharq Al-Awsat)",
-      "url": "https://english.aawsat.com/node/2275076",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2020-05-09",
+      "language": "it",
+      "articleDate": "2020-05-22",
       "eventDate": "2009/10",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "Writer's paraphrase, no verbatim quote: Mourinho told The Coaches' Voice his goal was to move the defensive line forward by 20 metres; Eto'o moved to the left wing mid-season as Inter shifted to a 4-2-3-1; Eto'o filled in as auxiliary full-back after Motta's red card in the Barcelona semi-final. Not used for pressing/line claims beyond this paraphrase.",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "L'Inter del 2010 nacque sei anni prima della finale di Madrid, quando l'allenatore era ancora Roberto Mancini. Venne costruita principalmente intorno a quattro giocatori: il capitano Javier Zanetti, il campione del mondo Marco Materazzi, il colombiano Ivan Cordoba e il serbo Dejan Stankovic.",
+      "verified": false
+    },
+    {
+      "title": "Inter.it, 10 momenti indimenticabili di Siena-Inter 0-1 del 2010",
+      "url": "https://www.inter.it/it/notizie/2020-05-16-10-momenti-indimenticabili-siena-inter-0-1-2010-triplete",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2020-05-16",
+      "eventDate": "2010-04",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Dopo un confronto tra Mourinho e Julio Cesar, il tecnico portoghese chiede al portiere di indossare una maglia più visibile in area di rigore.",
       "verified": true
+    },
+    {
+      "title": "Inter.it, 10 momenti indimenticabili di Siena-Inter 0-1 del 2010",
+      "url": "https://www.inter.it/it/notizie/2020-05-16-10-momenti-indimenticabili-siena-inter-0-1-2010-triplete",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2020-05-16",
+      "eventDate": "2010-05-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Javier Zanetti, da capitano condottiero, parte lancia in resta. Fende il Siena, supera i centrocampisti, affronta la difesa e scarica un suggerimento nello spazio per Milito.",
+      "verified": true
+    },
+    {
+      "title": "Blitzquotidiano, Inter, preso Sneijder (pre-season projection, not a match lineup)",
+      "url": "https://archivio.blitzquotidiano.it/sport/inter-preso-sneijder-firmera-per-5-anni-calciomercato-nerazzurro-completo-mourinho-accontentato-88558",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2009-08-26",
+      "eventDate": "2009-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Vediamola con il 4-3-1-2: Julio Cesar in porta; Maicon, Lucio, Samuel e Chivu in difesa; J. Zanetti, Cambiasso e Thiago Motta a centrocampo; Sneijder trequartista e Milito ed Eto'o in attacco.",
+      "verified": false
+    },
+    {
+      "title": "Forza Italian Football, Inter's 2009-10 Treble-Winning Season",
+      "url": "https://forzaitalianfootball.com/2025/07/inters-2009-10-treble-winning-season-a-tactical-and-historical-triumph/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-29",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "His famous 4-2-3-1 formation relied on discipline, compact lines, and a balance between strength and technical efficiency.",
+      "verified": true
+    },
+    {
+      "title": "Forza Italian Football, Inter's 2009-10 Treble-Winning Season",
+      "url": "https://forzaitalianfootball.com/2025/07/inters-2009-10-treble-winning-season-a-tactical-and-historical-triumph/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-07-29",
+      "eventDate": "2009/10",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Eto'o and Milito: Both worked relentlessly; Milito scored the goals, Eto'o often sacrificed himself wide.",
+      "verified": true
+    },
+    {
+      "title": "FourFourTwo, Mourinho plots Barca downfall with eyes closed (Nov 2010, Real Madrid era, outside period)",
+      "url": "https://fourfourtwo.com/news/mourinho-plots-barca-downfall-eyes-closed",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-11-26",
+      "eventDate": "2010-11",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Mourinho has said he prefers zonal rather than man-to-man marking",
+      "verified": false
     }
   ],
   "statedView": [
     {
-      "quote": "There was a combination of ideas, but basically everything was around not letting Messi play. ... we didn't play man to man, but Zanetti, Motta, Cambiasso, everybody was responsible for any position that Messi could go.",
-      "date": "2022-10-01",
-      "source": "https://www.goal.com/en-my/news/watch-mourinho-messi-jail-inter-tactical-masterplan-barcelona/blt3dac6b457c9e6655",
+      "quote": "We didn't play man-to-man but Zanetti, Motta, Cambiasso, everybody was responsible for any position that Messi could go.",
+      "date": "2019-05-07",
+      "source": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
+      "provenance": "primary"
+    },
+    {
+      "quote": "We are a very compact team; we have little distance between the players, and we managed to play and win with counters, and this is typical for our team.",
+      "date": "2010-05-22",
+      "source": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "provenance": "primary"
+    },
+    {
+      "quote": "It was a provocation in a football sense when before the match [Van Gaal] said Inter is a defensive team, not playing with the same attacking spirit, and I wanted to play with counters.",
+      "date": "2010-05-22",
+      "source": "https://www.si.com/more-sports/2010/05/22/cl-finalanalysis",
+      "provenance": "primary"
+    },
+    {
+      "quote": "They are going to have the ball more than us, much more than us obviously, because many many times they were moving the ball without hurting [us] and we must be mentally strong to cope with that. Let them have the ball but not create many chances.",
+      "date": "2019-05-07",
+      "source": "https://www.goal.com/en/news/mourinho-explains-how-he-kept-messi-in-jail-in-inters/1jz9kysk85x8t1aoziwcn70wrb",
+      "provenance": "primary"
+    },
+    {
+      "quote": "I told him that if he wins the Champions League with Barcelona, he won't be doing anything extraordinary, seeing as the Catalans have won it twice in three years. I like doing something extraordinary, not what's normal.",
+      "date": "2009",
+      "source": "https://thesefootballtimes.co/2018/10/23/inter-v-barcelona-revisiting-the-mourinho-guardiola-classic-from-2010/",
       "provenance": "attributed"
     }
   ],
   "unreadable": [
     {
       "url": "https://sport.sky.it/calcio/2019/05/06/mourinho-inter-barcellona-2010",
-      "reason": "not-accessible"
+      "reason": "empty"
     },
     {
-      "url": "https://learning.coachesvoice.com/?p=51069",
+      "url": "https://sport.sky.it/calciomercato/2020/05/22/inter-triplete-rosa-calciomercato",
       "reason": "empty"
+    },
+    {
+      "url": "https://www.pressreader.com/usa/the-guardian-usa/20200421/282278142472330",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.90min.com/posts/6499680-inter-3-1-barcelona-gabbia-wesley-sneijder-s-masterclass-and-jose-mourinho-s-finest-hour",
+      "reason": "404"
+    },
+    {
+      "url": "https://tg24.sky.it/sport/2020/05/22/inter-triplete-2010-mourinho-protagonisti-oggi",
+      "reason": "empty"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/2009/08/28/sneijder_mourinho_conferenza_pre_derby",
+      "reason": "empty"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/2009/11/28/mourinho_pre_inter_fiorentina",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.arabnews.com/node/345645",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.ilsussidiario.net/news/marco-materazzi-il-litigio-con-mario-balotelli-a-inter-barcellona-ci-disse-che-avrebbe-giocato-male/2553513/",
+      "reason": "403"
     }
   ],
+  "influences": [
+    "Helenio Herrera (Il Post and Gazzetta comparison by press, not a stated influence)"
+  ],
   "gaps": {
-    "dimensions": [
-      "build-up",
-      "people-management",
-      "player-profile",
-    "stated-view",
-      "set-pieces"
-    ],
-    "axes": [
-      "jog",
-      "lid"
-    ]
+    "dimensions": [],
+    "axes": []
   },
-  "influences": [],
   "confidence": {
-    "level": "low",
-    "reason": "Tactical evidence comes from one tier C first-leg analysis and an attributed, later-dated Mourinho quote; no season-wide tier A/B source."
+    "level": "medium",
+    "reason": "Good Wilson (tier B) coverage of the final and the Barcelona tie plus a tier B Substack analysis of the first leg, but no tier A page read directly (Coaches' Voice paywalled), no full-season tactical source, and the 4-3-1-2/4-2-3-1 evolution, build-up and set-pieces rest on tier C."
   }
 }

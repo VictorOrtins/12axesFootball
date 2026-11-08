@@ -1,199 +1,616 @@
 {
-  "id": "milan-2006-07",
-  "catalog": "team",
-  "name": "Milan 2006/07",
-  "status": "complete",
-  "researchedOn": "2026-10-12",
-  "profilePeriod": {
-    "start": "2006-08-09",
-    "end": "2007-05-27"
+ "id": "milan-2006-07",
+ "catalog": "team",
+ "name": "AC Milan 2006/07 (Carlo Ancelotti)",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "2006-08-09",
+  "end": "2007-05-27"
+ },
+ "scopeNote": "AC Milan from the Champions League third qualifying round (2006-08-09) to the last Serie A match (2007-05-27), including the 2007-05-23 final win over Liverpool in Athens. Style named by sources: 4-3-2-1 'Christmas tree' (albero di Natale) with Pirlo regista, Gattuso and Ambrosini as mezzalas, Seedorf and Kaka behind a lone striker (Gilardino, Inzaghi). Evidence is concentrated on the Champions League knockout rounds (Celtic, Bayern, Manchester United, Liverpool); Serie A (Milan started with a Calciopoli points deduction) is thinly covered. Coaches' Voice 4-3-2-1 explainer is a general piece naming Ancelotti's Milan without a season, kept retrospectiveOnly. 2005 (Istanbul, diamond/4-4-1-1) and 2007/08 material was excluded. Several event dates are month-level because the source gives only the round. The sempremilan 2021 Milan v Man Utd piece (Pioli) was read and excluded as out of period.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Seedorf's line: Coaches' Voice and Sempremilan place Seedorf and Kaka as the two behind the striker, while the Sempremilan analysis also has Seedorf dropping to share the defensive-midfield role with Gattuso. Confirm whether this was a recurring pattern or one match (Man Utd 3-0).",
+  "Whether Milan zone-marked or man-marked: Sempremilan says forwards and midfielders man-marked United's defenders when pressing and Ronaldo was doubled by Oddo and Gattuso/Ambrosini, yet also says midfielders worked on zonal principles. No tier A source on Milan's 2006/07 marking found.",
+  "The final's tactical shape against Liverpool is described only through lineups and goals; no tier A-B analysis of Athens (pressing, line height) was found. Spielverlagerung and Coaches' Voice pieces on the 2007 final were not located.",
+  "Pre-season origin of the Christmas tree (2002 Trofeo Berlusconi per Gulf Times) is outside the period; the 2006/07 shape was adjusted after Shevchenko left, but no source dated to 2006 was found.",
+  "The 2026-dated Ancelotti quotes (RSI 2025, Instagram 2020) are retrospective; the original 2006/07 press quotes were not found."
+ ],
+ "sources": [
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Ancelotti brought in a 4-3-2-1 system, famously nicknamed the Christmas tree because of its tree-like shape. He opted for a back four while having a midfield three and two inside forwards with a lone striker up front.",
+   "verified": true
   },
-  "scopeNote": "Milan 2006/07 under Ancelotti, from the Champions League third qualifying round (2006-08-09) to the last Serie A match (2007-05-27), incl. the 2007-05-23 Champions League final win over Liverpool. Style: the 4-3-2-1 'Christmas Tree' (Milan site, Wikipedia season page). Evidence is thin outside shape, player roles and squad age; exact dates verified from the Wikipedia season page. Other dimensions are gaps, not evidence of absence. Second pass (2026-10-17): 4 searches, 5 pages; no Spielverlagerung/TFA-type analysis found for 2006-07. Only the 2007 final has game-level detail (left side beaten by Pennant, Pirlo pressed by Alonso, Ancelotti's pre-final caution); pressing, marking, width and build-up remain unsourced.",
-  "managers": [
-    {
-      "managerId": "carlo-ancelotti",
-      "start": "2006-08-09",
-      "end": "2007-05-27"
-    }
-  ],
-  "ambiguities": [],
-  "openQuestions": [],
-  "sources": [
-    {
-      "title": "Can Inter Milan's old guard emulate AC Milan's 2007 Champions League triumph? (Emmet Gates)",
-      "url": "https://destinationcalcio.com/footballculture/can-inter-milans-old-guard-emulate-ac-milans-2007-champions-league-triumph-with-time-running-out/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-02-26",
-      "eventDate": "2007-05",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "\"They remain the oldest team to win the competition, with an average age of 31 years and 34 days\", \"with seven of the Milan team that started over 30.\"",
-      "verified": true
-    },
-    {
-      "title": "AC Milan dilemma: the veterans legion (Bleacher Report)",
-      "url": "https://bleacherreport.com/articles/85570-ac-milan-dilemma-the-veterans-legion",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2008-11-24",
-      "eventDate": "2008/09",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "Context only, outside the period: \"one of the oldest\" first-option squads; signings lowered the full squad's average age \"from 31 to 28\".",
-      "verified": false
-    },
-    {
-      "title": "2006–07 AC Milan season (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2006–07_AC_Milan_season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "2006/07",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "Read first 100k chars: the 4–3–2–1 is \"also known as the \\\"Christmas Tree\\\"\". Opening match 2006-09-10 Milan 2–1 Lazio; Serie A 2006-12-23 Udinese 0–3 Milan.",
-      "verified": true
-    },
-    {
-      "title": "2006–07 AC Milan season (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2006–07_AC_Milan_season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "2006/07",
-      "accessedOn": "2026-10-17",
-      "dimension": "player-profile",
-      "evidence": "Pirlo described as \"a deep-lying playmaker\" with Gattuso and Ambrosini as ball winners either side; Kaká had \"absolute creative freedom\" as attacking midfielder.",
-      "verified": true
-    },
-    {
-      "title": "2006–07 AC Milan season (Wikipedia), dates",
-      "url": "https://en.wikipedia.org/wiki/2006–07_AC_Milan_season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "2006-08-09",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Dates only: CL third qualifying round 2006-08-09 (Milan 1–0 Red Star) and 2006-08-22 (1–2 away, 3–1 agg.); last Serie A match 2007-05-27 Reggina 2–0 Milan. No game-management evidence.",
-      "verified": false
-    },
-    {
-      "title": "2007 UEFA Champions League final (Wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/2007_UEFA_Champions_League_final",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "2007-05-23",
-      "accessedOn": "2026-10-17",
-      "dimension": "squad-building",
-      "evidence": "23 May 2007, Athens, Milan 2–1 Liverpool (Inzaghi 45', 82'; Kuyt 89'). Milan started Dida; Oddo, Nesta, Maldini, Jankulovski; Gattuso, Pirlo, Ambrosini, Seedorf; Kaká, Inzaghi, \"the oldest starting eleven in a Champions League final\", average about 31 years 34 days.",
-      "verified": true
-    },
-    {
-      "title": "Pirlo transformed by Ancelotti masterstroke (Gulf Times)",
-      "url": "https://www.gulf-times.com/story/184760/pirlo-transformed-by-ancelotti-masterstroke",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2012-06-26",
-      "eventDate": "2002",
-      "accessedOn": "2026-10-17",
-      "dimension": "player-profile",
-      "evidence": "Context only, event outside the period (Pirlo's regista switch, pre-season ~2002): Ancelotti asked Pirlo to play \"in a deep playmaker role, sitting in front of the defence\".",
-      "verified": false
-    },
-    {
-      "title": "Milan 'Christmas tree' background (acmilan.com / search summary)",
-      "url": "https://www.acmilan.com/en/news/articles/history/2023-03-16/udinese-v-ac-milan-time-machine",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2023-03-16",
-      "eventDate": "2006-12-23",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "Seen only in a search summary, page not read: Christmas tree 4-3-2-1 with a lone striker; Seedorf and Kaká behind Gilardino on 2006-12-23.",
-      "verified": false
-    },
-    {
-      "title": "Ancelotti hails Milan victory as the greatest ever (FilGoal)",
-      "url": "https://www.filgoal.com/articles/170687",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2007-05-24",
-      "eventDate": "2007-05-23",
-      "accessedOn": "2026-10-17",
-      "dimension": "stated-view",
-      "evidence": "Ancelotti after the final: \"Liverpool didn't allow us to play at our best and for us it has been difficult,\"; \"Few people thought we could do it and I think it is an extraordinary thing.\" No tactical description.",
-      "verified": true
-    },
-    {
-      "title": "Tecnico de AC Milan juega al misterio (Cooperativa.cl)",
-      "url": "https://cooperativa.cl/noticias/deportes/futbol/liga-de-campeones/tecnico-de-ac-milan-juega-al-misterio-de-cara-a-la-final-de-la-champi/2007-05-21/102741.html",
-      "tier": "C",
-      "language": "es",
-      "articleDate": "2007-05-21",
-      "eventDate": "2007-05-21",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Ancelotti before the final: \"Liverpool es más o menos el mismo equipo, por lo que debemos tomar precauciones\"; expected XI Dida; Oddo, Nesta, Maldini, Jankulovski; Gattuso, Pirlo, Ambrosini; Seedorf; Kaká, Inzaghi o Gilardino. Single pre-final remark, not a season-long pattern.",
-      "verified": true
-    },
-    {
-      "title": "La vendetta del Milan consumata a sangue freddo (SportSenators)",
-      "url": "https://www.sportsenators.it/23/05/2019/la-vendetta-del-milan-consumata-a-sangue-freddo-era-il-23-maggio-2007",
-      "tier": "C",
-      "language": "it",
-      "articleDate": "2019-05-23",
-      "eventDate": "2007-05-23",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "Final only: \"Il Milan soffre molto sul lato sinistro del campo dove Jankulovski perde numerosi duelli con Pennant.\"; \"Pirlo si fa schiacciare da Xabi Alonso e Inzaghi rimane troppo isolato.\"; Ancelotti subs: \"Ancelotti cambia Jankulosvki con Kaladze, Seedorf con Favalli e Inzaghi con Gilardino.\" One match, no season-wide pattern.",
-      "verified": true
-    },
-    {
-      "title": "The 4-3-2-1 Formation (Jobs In Football)",
-      "url": "https://jobsinfootball.com/blog/tactics/4-3-2-1-formation/",
-      "tier": "D",
-      "language": "en",
-      "articleDate": "2022-06-20",
-      "eventDate": "2006/07",
-      "accessedOn": "2026-10-17",
-      "dimension": "transitions",
-      "evidence": "Generic formation article, not period-specific: 4-3-2-1 is \"probably most effective as a counter-attacking formation, because it's very defensively solid.\" Not used as evidence for Milan's pressing or transitions.",
-      "verified": false
-    }
-  ],
-  "statedView": [],
-  "unreadable": [
-    {
-      "url": "https://destinationcalcio.com/can-inter-milans-old-guard-emulate-ac-milans-2007-champions-league-triumph-with-time-running-out",
-      "reason": "404"
-    }
-  ],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "people-management",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "pos",
-      "pro",
-      "lar",
-      "blo",
-      "mar",
-      "lid"
-    ]
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Kaka’s role: The Brazilian was the star of the team. He was a player with explosive dribbling along with ability to find pockets of space between the line he was given the license to roam by Ancelotti.",
+   "verified": true
   },
-  "influences": [],
-  "confidence": {
-    "level": "low",
-    "reason": "Only tier C/D sources (Wikipedia, press): shape, player roles, squad age and a few final-day game-management details verified; no tactical analysis of pressing, marking, width or build-up found."
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "To a casual observer Andrea Pirlo was a defensive, but for those familiar he was a Regista, a playmaker who sat in front of the defence and created attacks from deep.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Pirlo, with his unique passing ability, could angle balls into onrushing full-backs who could bomb forward and cross the ball.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Gattuso and Ambrosini were the mezzala’s or the half-wingers. They were the engine of the side: they ran around, defended the central areas, prevented counters, helped in building up play and protected Pirlo to allow him to play his natural game.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Being a disciple of none other than Arrigo Sacchi himself, Ancelotti had granted freedom to these four midfield players who operated along the lines of zonal principles rather than a fixed position.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Another positional switch was seen when Seedorf sat back with Gattuso as a defensive midfielder to allow Ambrosini and Pirlo to advance and join the attack. This way Milan had a way to protect against counter-attacks but had players committed in United’s box.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Whenever Milan needed to slowly build their attacks, one of the midfielders would drop in between the centre-backs and collect the ball.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "He was also always available as a passing options to his team for counter-attacks once they won the ball back.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Pressing from Milan: Of course this was 2007 and pressing wasn’t as intense as how Klopp or Pep Guardiola uses it now, but Ancelotti had his forwards and midfielders man mark whenever United’s defenders had the ball.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Milan’s second goal came as a result of clever pressing from Inzaghi and Pirlo. Vidic was pressed by Inzaghi and Pirlo pressed Heinze.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Whenever United’s players had the ball towards the touchline, Milan would commit more players towards the sides and try and reduce the playing area.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "With a lean frame he wasn’t the best at holding up the ball, but he helped with pressing and occupied defenders and pulled them away to create space for Kaka. He also acted as the target man for all crosses inside the box.",
+   "verified": true
+  },
+  {
+   "title": "Rossoneri revenge: AC Milan's memorable road to Champions League glory in 2007",
+   "url": "https://thesefootballtimes.co/2019/07/10/rossoneris-revenge-ac-milans-memorable-road-to-athens-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-07-10",
+   "eventDate": "2006/11",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Three wins and a draw from their first four fixtures looked to prove early suspicions correct but, satiated by the clear daylight between them and their group stage rivals, Milan saw fit to ease off the gas, to conserve their collective powers for the following round, and in the process fell to consecutive losses away in Athens and at home to their French opponents.",
+   "verified": true
+  },
+  {
+   "title": "Rossoneri revenge: AC Milan's memorable road to Champions League glory in 2007",
+   "url": "https://thesefootballtimes.co/2019/07/10/rossoneris-revenge-ac-milans-memorable-road-to-athens-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-07-10",
+   "eventDate": "2007-03",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Three minutes beyond the restart, Kaká received a pass from teammate Massimo Ambrosini just a few paces inside his own half. Controlling the ball on the turn and shrugging off a despairing challenge from Neil Lennon on the halfway line, he surged forward.",
+   "verified": true
+  },
+  {
+   "title": "Rossoneri revenge: AC Milan's memorable road to Champions League glory in 2007",
+   "url": "https://thesefootballtimes.co/2019/07/10/rossoneris-revenge-ac-milans-memorable-road-to-athens-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-07-10",
+   "eventDate": "2007-04-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Kaká chased a long pass forward and out-muscled Darren Fletcher to retain possession.",
+   "verified": true
+  },
+  {
+   "title": "Rossoneri revenge: AC Milan's memorable road to Champions League glory in 2007",
+   "url": "https://thesefootballtimes.co/2019/07/10/rossoneris-revenge-ac-milans-memorable-road-to-athens-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-07-10",
+   "eventDate": "2007-04-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "One-nil down so early at Old Trafford, with the hosts looking hungry for more, Milan needed to respond quickly or risk being swept aside by their opponents.",
+   "verified": true
+  },
+  {
+   "title": "Rossoneri revenge: AC Milan's memorable road to Champions League glory in 2007",
+   "url": "https://thesefootballtimes.co/2019/07/10/rossoneris-revenge-ac-milans-memorable-road-to-athens-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-07-10",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "The strength of Milanesi hearts was tested once more when Dirk Kuyt nodded a Liverpool corner beyond the outstretched arm of Dida and into the Milan goal shortly before stoppage time.",
+   "verified": true
+  },
+  {
+   "title": "Rossoneri revenge: AC Milan's memorable road to Champions League glory in 2007",
+   "url": "https://thesefootballtimes.co/2019/07/10/rossoneris-revenge-ac-milans-memorable-road-to-athens-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-07-10",
+   "eventDate": "2007-04-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Thanks to the scintillating combination of awareness, movement and technique that aided Seedorf in scoring Milan’s first goal and assisting Filippo Inzaghi for their second, Milan found what they were looking for.",
+   "verified": true
+  },
+  {
+   "title": "The dazzling brilliance of peak Kaká at Old Trafford in 2007",
+   "url": "https://thesefootballtimes.co/2018/11/28/the-dazzling-brilliance-of-peak-kaka-at-old-trafford-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-28",
+   "eventDate": "2007-04-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Entering the tie, Kaká had tormented just about every opponent in his path, victimizing with his blistering pace, scintillating dribbling ability and knack for gliding effortlessly about the pitch.",
+   "verified": true
+  },
+  {
+   "title": "The dazzling brilliance of peak Kaká at Old Trafford in 2007",
+   "url": "https://thesefootballtimes.co/2018/11/28/the-dazzling-brilliance-of-peak-kaka-at-old-trafford-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-28",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "By the time the 2006/07 Champions League rolled around, Kaká had emerged as one of football’s best under manager Carlo Ancelotti.",
+   "verified": true
+  },
+  {
+   "title": "The dazzling brilliance of peak Kaká at Old Trafford in 2007",
+   "url": "https://thesefootballtimes.co/2018/11/28/the-dazzling-brilliance-of-peak-kaka-at-old-trafford-in-2007/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-28",
+   "eventDate": "2007-04-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "In the 37th minute, Kaká mauled the long ball played in from the midfield and fended off a latching Darren Fletcher to win initial possession instinctively with his head",
+   "verified": true
+  },
+  {
+   "title": "The pioneering AC Milan Lab that extended players' careers",
+   "url": "https://thesefootballtimes.co/2017/05/03/the-ac-milan-lab-calcio-nesta-maldini-meersseman-inzaghi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-05-03",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "In fact, this team was the oldest, wisest group of players to walk out for a Champions League final in the tournament’s history. Just four of those in the starting line-up were below the age of 30, and three of them were in their late-20s. Only Kaká provided some semblance of youth at 25.",
+   "verified": true
+  },
+  {
+   "title": "The pioneering AC Milan Lab that extended players' careers",
+   "url": "https://thesefootballtimes.co/2017/05/03/the-ac-milan-lab-calcio-nesta-maldini-meersseman-inzaghi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-05-03",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "They ran out 2-1 winners thanks to a double from Filippo Inzaghi, their 33-year-old poacher. Their captain, the resolute Paolo Maldini, became the oldest to lift the trophy at 37.",
+   "verified": true
+  },
+  {
+   "title": "The pioneering AC Milan Lab that extended players' careers",
+   "url": "https://thesefootballtimes.co/2017/05/03/the-ac-milan-lab-calcio-nesta-maldini-meersseman-inzaghi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-05-03",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The Milan Lab worked so well for its incumbent beneficiaries that the club began to sign older players, safe in the knowledge that their careers could be prolonged too.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The pioneering AC Milan Lab that extended players' careers",
+   "url": "https://thesefootballtimes.co/2017/05/03/the-ac-milan-lab-calcio-nesta-maldini-meersseman-inzaghi/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2017-05-03",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Within a year, the Milan Lab was proving its worth. The number of total practice days lost had decreased, as had the club’s use of medicine. Injuries had lowered drastically.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The 4-3-2-1 formation: football tactics explained - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/4-3-2-1-formation-football-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-15",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Carlo Ancelotti — who won the 2003 and 2007 Champions Leagues as Milan head coach — utilised a 4-3-2-1 shape during his spell at the San Siro. He based it around the influence of Andrea Pirlo as a central pivot in the midfield trio.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The 4-3-2-1 formation: football tactics explained - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/4-3-2-1-formation-football-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-15",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Pirlo was flanked by Gennaro Gattuso and Massimo Ambrosini, both of whom could press, duel and defend the central spaces when in a block, or jumping out to press.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The 4-3-2-1 formation: football tactics explained - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/cv/4-3-2-1-formation-football-tactics/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-02-15",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "The 4-3-2-1 lacks natural width in attack, not least immediate width when regaining possession, ready for an attacking transition. It can be easy for the opposition to gain ground and progress through the wide areas, in defensive transition.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Kakà: \"Vi racconto la finale di Atene del 2007\"",
+   "url": "https://www.milannews.it/le-interviste/kaka-vi-racconto-la-finale-di-atene-del-2007-371938",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-23",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Dovevamo vincere il ritorno in casa. Li mettemmo subito sotto pressione. Segnai subito il primo gol, poi Seedorf e Gilardino.",
+   "verified": true
+  },
+  {
+   "title": "Kakà: \"Vi racconto la finale di Atene del 2007\"",
+   "url": "https://www.milannews.it/le-interviste/kaka-vi-racconto-la-finale-di-atene-del-2007-371938",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-23",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Nel secondo gol si può vedere che in attacco c’eravamo solo io e Pippo. Io conosco perfettamente i suoi movimenti.",
+   "verified": true
+  },
+  {
+   "title": "Kakà: \"Vi racconto la finale di Atene del 2007\"",
+   "url": "https://www.milannews.it/le-interviste/kaka-vi-racconto-la-finale-di-atene-del-2007-371938",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2020-05-23",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "All'intervallo non ricordo le parole di Ancelotti, ma c’erano indicazioni tattiche. Ci disse “Mancano solo 45 minuti”, quello ci aiutò mentalmente. Eravamo ben messi in campo.",
+   "verified": true
+  },
+  {
+   "title": "Le Champions League, il Milan, Inzaghi, Sacchi e non solo. Ancelotti si racconta a RSI",
+   "url": "https://www.milannews.it/primo-piano/le-champions-league-il-milan-inzaghi-sacchi-e-non-solo-ancelotti-si-racconta-a-rsi-573724",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2025-04-14",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Potrei dirti che era uno schema preparato ma no (ride, ndr). Pirlo che tira addosso ad Inzaghi… Pensa che era successo anche in un derby mesi prima. Invece il secondo gol, l’assist di Kaká, era uno schema preparato",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Le Champions League, il Milan, Inzaghi, Sacchi e non solo. Ancelotti si racconta a RSI",
+   "url": "https://www.milannews.it/primo-piano/le-champions-league-il-milan-inzaghi-sacchi-e-non-solo-ancelotti-si-racconta-a-rsi-573724",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2025-04-14",
+   "eventDate": "2007-04-03",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Quando hai un giocatore che ha fatto 50 gol nella competizione e poi hai un altro come Gilardino, più giovane, che stava meglio di Inzaghi ma aveva fatto 2-3 gol, mi sono fidato della statistica e di come i due potevano arrivare alla partita",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Le Champions League, il Milan, Inzaghi, Sacchi e non solo. Ancelotti si racconta a RSI",
+   "url": "https://www.milannews.it/primo-piano/le-champions-league-il-milan-inzaghi-sacchi-e-non-solo-ancelotti-si-racconta-a-rsi-573724",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2025-04-14",
+   "eventDate": "2007-04-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Anche lì, il gol finale dello United cambia un po’ la preparazione psicologica del ritorno perché eravamo costretti a vincere e il Manchester era consapevole che aveva un piccolo vantaggio.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "On This Day 2007: Milan 2-1 Liverpool - Football Italia",
+   "url": "https://football-italia.net/on-this-day-2007-milan-2-1-liverpool/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-23",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "In the first half, a free kicked from Pirlo initially looked to have completely fooled Pepe Reina, but on a closer look it deflected in off Inzaghi.",
+   "verified": true
+  },
+  {
+   "title": "On This Day 2007: Milan 2-1 Liverpool - Football Italia",
+   "url": "https://football-italia.net/on-this-day-2007-milan-2-1-liverpool/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2017-05-23",
+   "eventDate": "2007-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Then near the end a pass from Kaka through the eye of a needle found Inzaghi again, who rounded Reina and trickled his shot in.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti: 'Milan's best was 2005' - Football Italia",
+   "url": "https://football-italia.net/ancelotti-milans-best-was-2005/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-02",
+   "eventDate": "2007-04-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "“It ended 3-2 and this forced us to play an attacking game, more ruthless than if the first leg had ended 2-2.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Ancelotti: 'Milan's best was 2005' - Football Italia",
+   "url": "https://football-italia.net/ancelotti-milans-best-was-2005/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-02",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "“The 2007 team was technically inferior than the 2005 team, who remain the best team with the best performance in a Final.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Kaka reflects on why the Milan teams he played in were 'perfect' and the secrets of Ancelotti",
+   "url": "https://sempremilan.com/kaka-reflects-on-why-the-milan-teams-he-played-in-were-perfect-and-the-secrets-of-ancelotti",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-12-09",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "“But Carlo was the best for me because he brought out the best in me. The most impressive feature he has, in my opinion, is his ability to manage people.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Inzaghi ricorda Atene 2007",
+   "url": "https://www.milannews.it/le-interviste/inzaghi-ricorda-atene-2007-la-doppietta-al-liverpool-e-nel-mio-cuore-403252",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2021-03-11",
+   "eventDate": "2007-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "La notizia dell’approdo in finale del Liverpool diede ulteriori motivazioni ai rossoneri di Ancelotti: \"Aspettavamo quella rivincita - ha affermato Inzaghi - la volevamo fortemente.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Ancelotti outsmarts Sir Alex: Tactical analysis of 'La Partita Perfetta' against Man Utd",
+   "url": "https://sempremilan.com/milan-3-0-manchester-united-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2022-06-27",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "What Ancelotti wanted to achieve was dominance in the central areas owing to having some of the best midfielders in the world at that point along with one of the best attacking players in Kaka.",
+   "verified": true
+  },
+  {
+   "title": "Ancelotti: 'Milan's best was 2005' - Football Italia",
+   "url": "https://football-italia.net/ancelotti-milans-best-was-2005/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-05-02",
+   "eventDate": "2007-05-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“The goal we conceded in the last minute of the first leg was very important,” he said during an Instagram interview.",
+   "verified": true,
+   "retrospectiveOnly": true
   }
+ ],
+ "statedView": [
+  {
+   "quote": "I don’t want to say we invented the ‘Christmas tree’ formation, but in 2004 we played with a striker, two attacking midfielders, and three quality midfielders because Pirlo was the defensive midfielder, Seedorf the left midfielder, and only one player like Gattuso was the Rottweiler.",
+   "date": "2025-11-13",
+   "source": "https://sempremilan.com/ancelotti-milan-balance-christmas-tree",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "The 2007 team was technically inferior than the 2005 team, who remain the best team with the best performance in a Final.",
+   "date": "2020-05-02",
+   "source": "https://football-italia.net/ancelotti-milans-best-was-2005/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Potrei dirti che era uno schema preparato ma no (ride, ndr). Pirlo che tira addosso ad Inzaghi…",
+   "date": "2025-04-14",
+   "source": "https://www.milannews.it/primo-piano/le-champions-league-il-milan-inzaghi-sacchi-e-non-solo-ancelotti-si-racconta-a-rsi-573724",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "There is always praise for his technique but his character and personality are undervalued",
+   "date": "2012-06",
+   "source": "https://www.gulf-times.com/story/184760/pirlo-transformed-by-ancelotti-masterstroke",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.sisal.it/scommesse-matchpoint/blog/fuori-campo/come-giocava-milan-ancelotti-formazione-modulo",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.football-italia.net/152348/crespo-ancelotti-gave-berlusconi-what-he-wanted",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.uefa.com/newsfiles/614019.pdf",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/01c8-0e6ee16e3aff-3d4da999468b-1000--ancelotti-s-personal-odyssey/",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/01c1-0e6e4ffbdc21-663b89f11700-1000--ancelotti-savours-greatest-night/",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Arrigo Sacchi (zonal principles, per Sempremilan)"
+ ],
+ "managers": [
+  {
+   "managerId": "carlo-ancelotti",
+   "start": "2006-08-09",
+   "end": "2007-05-27"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Season-specific tier B coverage of the Man Utd semi-final and the squad's age, tier A only a general 4-3-2-1 explainer; marking, pressing line and the final itself rest on tier B-C and retrospective quotes."
+ }
 }

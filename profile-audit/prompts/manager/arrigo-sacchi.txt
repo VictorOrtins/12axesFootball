@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, jog, lar, lid, pla, pos, pro, res, sis. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK manager:arrigo-sacchi" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,138 +45,1231 @@ After writing the file, reply only with "OK manager:arrigo-sacchi" and a 1-line 
   "id": "arrigo-sacchi",
   "catalog": "manager",
   "name": "Arrigo Sacchi",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "1987-07-01",
     "end": "1996-06-30"
   },
-  "scopeNote": "Manager profile of Arrigo Sacchi across two counted spells: AC Milan (July 1987 to June 1991, 196 matches, Serie A 1987-88, European Cup 1988-89 and 1989-90) and Italy (November 1991 to June 1996, World Cup runner-up 1994). Dates are from the managerial statistics table of the English Wikipedia article, read at step 1 (month precision). The style evidence is the Wikipedia career section, which is undated and general; no tier A-B source was read in this run. ",
   "spellsCounted": [
     {
       "club": "AC Milan",
       "start": "1987-07-01",
       "end": "1991-06-30",
-      "reason": "Serie A 1987-88, two European Cups and the Intercontinental Cups; the zonal, high-pressing side he is known for."
+      "reason": "Serie A 1987-88, European Cup 1988-89 and 1989-90; zona-pressing 4-4-2. Dates fixed by the user; a source says June 1987 (Trivela), debut in Serie A reportedly 1987-09-13 (not verified); exact day of appointment not found."
     },
     {
       "club": "Italy",
       "start": "1991-11-01",
       "end": "1996-06-30",
-      "reason": "World Cup runner-up 1994 and tactical coverage of the national side."
+      "reason": "1994 World Cup runner-up. Dates fixed by the user. Sources: first match as coach 1991-11-13 (Panorama), contract signed October 1991 (Goal.com Italia); Panorama lists the end as 1996-11-06, conflicting with the user date."
     }
   ],
   "spellsExcluded": [
     {
       "club": "Parma",
-      "start": "1985-06-01",
-      "end": "1987-07-01",
-      "reason": "Serie C1 title only; no tactical coverage read in this run."
+      "start": "1985-07-01",
+      "end": "1987-06-30",
+      "reason": "Serie C1 side, outside the counted work; user decision (mentioned only as the origin of the Milan job)"
     },
     {
       "club": "AC Milan",
-      "start": "1996-12-01",
+      "start": "1996-01-01",
       "end": "1997-06-30",
-      "reason": "Short second spell, no titles."
+      "reason": "Second spell, excluded by user"
     },
     {
-      "club": "Atlético Madrid",
-      "start": "1998-06-01",
-      "end": "1999-02-28",
-      "reason": "No titles, no tactical coverage read."
+      "club": "Atletico Madrid",
+      "start": "1998-01-01",
+      "end": "1999-06-30",
+      "reason": "Excluded by user"
     },
     {
       "club": "Parma",
       "start": "2001-01-01",
-      "end": "2001-01-31",
-      "reason": "Three matches."
+      "end": "2001-12-31",
+      "reason": "Excluded by user"
     }
   ],
+  "scopeNote": "Sacchi's Milan (1987-91) and Italy (1991-96). Named by sources 'zona-pressing' (a label Sacchi gave his own system according to Van Basten, who disputes its novelty), zonal marking, compact 4-4-2 with at most 25 m between defensive and front line, high line with offside trap, shadow football training. Popular label 'pressing' is not uniform: Sacchi himself describes partial, total and fake pressing; Gullit says full high pressing was not possible in 1987/88 because of the back-pass rule. Italy 1994 is described as fluid 4-4-2/4-1-2-3 with a 4-3 block variant. Partial dates (month or season) used where sources give no day; exact appointment days not found. Set-pieces: no Sacchi-specific source found.",
   "ambiguities": [],
   "openQuestions": [
-    "Whether the zonal and offside-trap facts are dated to the Milan years only (Wikipedia gives no season)."
+    "Exact day of Sacchi's appointment at Milan (June/July 1987) not found; start 1987-07-01 is the user's date.",
+    "Italy end: user date 1996-06-30; Panorama lists 'in carica ... al 6 novembre 1996'. Appointment announced/contract signed in October 1991, first match 1991-11-13; user start 1991-11-01.",
+    "Gullit (SempreMilan 2025) says full high pressing was not possible in 1987/88 due to the back-pass rule, versus sources saying high press from the start; Mannari says early zonal marking 'very slow, without any pressing'.",
+    "Distance between lines: 25 m (Coaches' Voice, FIFA, Bleacher Report) versus 15-20 m between the three lines (SempreMilan).",
+    "Van Basten says zona-pressing was marketed as revolutionary but was essentially defensive; sources frame it as offensive pressing.",
+    "Original Italian wording of the 'fantino/cavallo' quote and of 'la cosa più importante tra le cose meno importanti' not seen; Italian primary sources not found for dated quotes.",
+    "Zonal marking novelty: SempreMilan search summary and Mannari mention zonal marking existed (Liedholm's Milan, Roma, Napoli) before Sacchi; Coaches' Voice traces it to Zeze Moreira in 1950s Brazil."
   ],
   "sources": [
     {
-      "title": "Arrigo Sacchi - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
-      "tier": "C",
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
       "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1987",
-      "accessedOn": "2026-10-17",
+      "articleDate": "2020-12-22",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
       "dimension": "shape",
-      "evidence": "\"He favored a fluid, yet highly organised attacking 4–4–2 formation.\" (undated, general career)",
+      "evidence": "This was based on a solid 4-4-2 formation, in which all players had to understand their positional relationship to each other.",
       "verified": true
     },
     {
-      "title": "Arrigo Sacchi - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
-      "tier": "C",
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
       "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1987",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "\"a high defensive line with no more than 25 metres between defence and attack.\" (undated, general career)",
-      "verified": true
-    },
-    {
-      "title": "Arrigo Sacchi - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1987",
-      "accessedOn": "2026-10-17",
-      "dimension": "defensive-block",
-      "evidence": "\"Defensively, Sacchi's teams adopted a zonal marking system.\" (undated; the page says the system was introduced by his predecessor Nils Liedholm)",
-      "verified": true
-    },
-    {
-      "title": "Arrigo Sacchi - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1987",
-      "accessedOn": "2026-10-17",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
       "dimension": "pressing",
-      "evidence": "\"popularising high pressing from his teams, the offside trap.\" (undated, general career)",
+      "evidence": "Sacchi educated his forwards in the work of putting pressure on their opposing central defenders in their build-up and control of the ball.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "The Italian coach insisted that his side should be in a short and compact block (below), with no more than 25 metres between the defensive and front lines. In this way, pressing did not represent a great physical effort for his players",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "the concept of a zonal defence – something that allowed Milan to generate numerical superiority when the time came to press the ball-carrier",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "At Sacchi’s Milan, though, the build-up started with the defenders. The back line, typically made up of Mauro Tassotti, Alessandro Costacurta, Franco Baresi and Paolo Maldini, was responsible for carrying the ball forward.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "In possession, Sacchi’s Milan was a dynamic team, always looking to create spaces to enable their progression towards the opposition half.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "second, to cover areas that might become exposed should they lose possession and face a counter-attack.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Donadoni and Colombo were both comfortable operating from the flanks, but they were equally happy making diagonal runs forward or shifting into central areas to combine with teammates. When they did so, the space was created for the full-backs – and in particular the rampaging Maldini on the left – to progress.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Sacchi’s defensive approach was most defined by his use of the press, which he employed to exploit the offside law as it stood at the time. For him, offside was less a tool to protect his defence, and more the first step in recovering possession",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "The offside rule thus became a tool of construction – or, as the man himself described it, a way of “attacking the opponents’ attack”.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "the defence would drop and reorganise in a way that prioritised the protection of central areas and encouraged opposition attackers into wide areas, thus limiting passing lines into the penalty area.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "During his spell in charge, he used three main structures: his favoured 4-4-2, the 4-3-1-2 and 3-4-1-2, although the second and third of these were typically used when out of possession and with the objective of defensive reorganisation before re-engaging with the press.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "His team featured a core of those players – Baresi, Maldini, Costacurta, Tassotti, Donadoni and the younger central midfielder Demetrio Albertini – together with a selection of others who offered ability in link-up play and, in the case of Roberto Baggio, a supreme talent",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi: The Tactical Masters - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/?p=37534",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2020-12-22",
+      "eventDate": "1992/93",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "First and foremost, Sacchi looked to retain the tactical ideas he had implemented to such great success with Milan.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "he argued against the need for man marking or a sweeper, among other things.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "His players, including some of the biggest names in the game, were understandably dubious. \"Five well organised players can beat ten disorganised ones,\" he told them.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "An aggressive and high-pressing game was also important, something honed in training through playing shadow football without a ball, as was the need to block the usual passing channels.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Sacchi long favoured the 4-4-2 system, with the gap between defenders and forwards not more than 25 metres.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "In order to be able to play like this, the offside trap was a central element of his game plan.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "In training, the team often lined out in their basic formation, with Sacchi then indicating where the imaginary ball was. His players would move around the pitch accordingly until their positioning became automatic.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "\"I always want to have five men in front of the ball when we have possession.",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "And there must always be a player occupying the left and right wings. But that can be anyone and doesn't always have to be the same person.\"",
+      "verified": true
+    },
+    {
+      "title": "Sacchi the revolutionary turns 75",
+      "url": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-03-31",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"I send my players out to give people 90 minutes of joy,\" he said.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Sacchi preferred 4-4-2 structures were essentially recognisable, although more fluid than in his Milan days. By tendency, the team played in a 4-1-2-3.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Sacchi involved all ten outfield players into his system of lines and chains. Roberto Baggio solely enjoyed a certain degree of freedom he understood to use.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Although Sacchi planned a high press as first pressing phase when trying to recover the ball, he was forced to occasionally give up the pressing ultraoffensivo.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "a 4-3 block tended to be an alternative to the usual two lines of four.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994-07-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Sacchi pulled a variant form of the 4-4-2 pressing out of his hat. Defensively, the three ball-near midfielders moved towards the wing zone, creating a shortened chain.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994-07-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Italy’s defence stood as solid as a rock during the 120 minutes.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "the Italian team went back to the well-tried 4-2-4 formation and a rather customary chain mechanism, using variable opportunities to interrupt the opposing build-up play",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Italy’s combination plays were a widely underestimated component at that World Cup. The technically superior central midfielders, as Demetrio Albertini, for instance, had an eye for variations of short and medium-long passes",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "They tried to force an interception in the middle – the defending formation had to stand within a width of 44 yards – and afterwards aimed at utilising the close connections of a narrow 4-3 block to play quick and freeing combinations.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Baggio’s movement therefore generated softened formation schemes. He roamed between a trequartista role and a number eight position in midfield.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Cautious attacks did not suit the Squadra of 1994.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1993/94",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "He thought through any possible formation for more than two years. With the utmost care, he observed the various types of players that came into question for his squad.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "As far as their defence was concerned, Sacchi had to permanently change the line-up.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Sacchi’s side barely kept clean sheets. They multiply conceded one goal.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi's cultural revolution (Spielverlagerung)",
+      "url": "https://spielverlagerung.com/?p=3952",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2016-01-01",
+      "eventDate": "1994",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Roberto Baggio solely enjoyed a certain degree of freedom he understood to use.",
+      "verified": true
+    },
+    {
+      "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-11-09",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "\"With Arrigo, we started to press in their half. it was totally an innovation.",
+      "verified": true
+    },
+    {
+      "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-11-09",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "\"Before Arrigo Sacchi, Italian football was about great defence and the counter-attack.",
+      "verified": true
+    },
+    {
+      "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-11-09",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "\"Sacchi did not know much about the youngsters so he asked Franco Baresi and the other senior players to tell him about some of the younger players.",
+      "verified": true
+    },
+    {
+      "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-11-09",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "\"At the beginning, it was hard because while the players were used to playing zonal marking, the zonal marking that we played was very slow, without any pressing.",
+      "verified": true
+    },
+    {
+      "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-11-09",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "under this autocratic new manager, determined to institute a more athletic game",
+      "verified": true
+    },
+    {
+      "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+      "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2021-11-09",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "\"If you just run yourself then you are the piggy in the middle. If you run with others then it is very difficult for the opposition to pass through that first line.",
+      "verified": true
+    },
+    {
+      "title": "13 - Arrigo Sacchi: a revolucao tatica via 4-4-2 (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/13o-arrigo-sacchi-a-revolucao-tatica-via-4-4-2/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-02-28",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Aquele Milan histórico era baseado num até então inédito sistema de marcação por zona e num 4-4-2 extremamente ofensivo (Sacchi exigia que, ao atacar, cinco jogadores sempre estivessem à frente da linha da bola).",
+      "verified": true
+    },
+    {
+      "title": "13 - Arrigo Sacchi: a revolucao tatica via 4-4-2 (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/13o-arrigo-sacchi-a-revolucao-tatica-via-4-4-2/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-02-28",
+      "eventDate": "1987-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "em junho de 1987, Arrigo Sacchi desembarca em Milão para assumir o comando milanista no lugar do demitido sueco Nils Liedholm",
+      "verified": false
+    },
+    {
+      "title": "13 - Arrigo Sacchi: a revolucao tatica via 4-4-2 (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/13o-arrigo-sacchi-a-revolucao-tatica-via-4-4-2/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-02-28",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "o ídolo Roberto Baggio reclama publicamente de Sacchi ao ser substituído e gera uma crise interna.",
+      "verified": true
+    },
+    {
+      "title": "13 - Arrigo Sacchi: a revolucao tatica via 4-4-2 (Trivela)",
+      "url": "https://trivela.com.br/sem-categoria/13o-arrigo-sacchi-a-revolucao-tatica-via-4-4-2/",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2011-02-28",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "O Parma de Sacchi praticava um futebol bem diferente da maioria das equipes italianas da época: ofensivo e com muita movimentação dos jogadores, seja com a bola ou sem ela. O treinador começava a mostrar a teoria que viria a dar muito certo no Milan, pouco tempo depois: a de que o time deve ditar o jogo quando possui a posse de bola e controlar o espaço quando ela estiver com o adversário.",
+      "verified": false
+    },
+    {
+      "title": "Arrigo Sacchi on reinventing football and knocking back Maradona (Destination Calcio)",
+      "url": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-05",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "“We signed many players from Serie B and C, but we also signed two stars in [Ruud] Gullit and [Marco] Van Basten immediately.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi on reinventing football and knocking back Maradona (Destination Calcio)",
+      "url": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-05",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "“When I went to AC Milan, I wanted Ancelotti. Berlusconi told me, ‘Arrigo, he’s had a medical and our doctor is concerned by issues with his legs’.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi on reinventing football and knocking back Maradona (Destination Calcio)",
+      "url": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-05",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "He held a meeting and said, ‘I have total confidence in Sacchi. Those who follow him will remain, those who don’t will go’.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi on reinventing football and knocking back Maradona (Destination Calcio)",
+      "url": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-05",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "“I didn’t look at their feet, I looked at their head.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Pressing a tutto campo, difesa a zona in linea per mandare gli avversari sistematicamente in fuorigioco e 4-4-2 come sistema base erano il suo credo.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Cambia anche le abitudini dei giocatori, per esempio mette in stanza assieme quelli dello stesso reparto o che giocano nello stesso ruolo.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Il modulo che mi aveva portato ad alti livelli all’Ajax era stato il 4-3-3, con tre attaccanti, un esterno destro e un esterno sinistro che rifornivano con i loro cross la punta centrale. Sacchi giocava con il 4-4-2, schierando solo due attaccanti e un solidissimo blocco arretrato. Sosteneva fosse un sistema rivoluzionario, offensivo, cui diede persino un nome: 'zona-pressing' ",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Ciascuno di noi giocatori sapeva cosa fare in ogni singola situazione",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1990/91",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Poi però il rappporto con i big si incrina e nel 1991 c'è la separazione dai rossoneri.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1991-10",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "La firma sul contratto arriva nell'ottobre 1991, mentre a novembre il romagnolo debutta sulla panchina azzurra contro la Norvegia a Genova.",
+      "verified": false
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1994-06-23",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Avevo bisogno di gente che corresse molto e di un attaccante che 'allungasse' la squadra avversaria partendo nello spazio, senza palla.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi, il Profeta di Fusignano (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/arrigo-sacchi-il-profeta-di-fusignano-che-ha-rivoluzionato-il-calcio-italiano-dal-grande-milan-alla-nazionale/kk9pt3xpu32f1pjgfx1x896lg",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-04-01",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Sacchi, che ha il merito di lanciare campioni come Zola e Del Piero in azzurro, resta in carica e qualifica la squadra anche ad Euro '96.",
+      "verified": true
+    },
+    {
+      "title": "The Story Of Arrigo Sacchi And AC Milan (The Hard Tackle)",
+      "url": "https://thehardtackle.com/2011/the-story-of-arrigo-sacchi-and-ac-milan-how-back-to-back-european-cups-were-won/amp/",
+      "tier": "D",
+      "language": "en",
+      "articleDate": "2011-07-30",
+      "eventDate": "1990/91",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Sacchi fell out with Van Basten",
+      "verified": false
+    },
+    {
+      "title": "The pressing era (Guide to Football)",
+      "url": "https://guidetofootball.com/history/the-pressing-era/",
+      "tier": "D",
+      "language": "en",
+      "articleDate": "2026-01-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Instead of marking individual opposition players, Sacchi's Milan defended zones of the pitch.",
+      "verified": false
+    },
+    {
+      "title": "Gullit explains how training drills under Sacchi created elite AC Milan side (SempreMilan)",
+      "url": "https://sempremilan.com/gullit-training-drills-sacchi-elite-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "In the beginning we played 4-3-3 then good game bad game good game bad game then Van Basten got injured and all of a sudden we had to play 4-4-2",
+      "verified": true
+    },
+    {
+      "title": "Gullit explains how training drills under Sacchi created elite AC Milan side (SempreMilan)",
+      "url": "https://sempremilan.com/gullit-training-drills-sacchi-elite-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "So how we get the ball back? Yes by pressing but you could not have high pressing because otherwise they kick it back to the goalkeeper. They could pick it up in their hands. So we had to wait and set a trap and we always kept one side open.",
+      "verified": true
+    },
+    {
+      "title": "Gullit explains how training drills under Sacchi created elite AC Milan side (SempreMilan)",
+      "url": "https://sempremilan.com/gullit-training-drills-sacchi-elite-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "So they would go to the full-backs, full-backs go forward and then we press nick the ball of them and then we then we play.",
+      "verified": true
+    },
+    {
+      "title": "Gullit explains how training drills under Sacchi created elite AC Milan side (SempreMilan)",
+      "url": "https://sempremilan.com/gullit-training-drills-sacchi-elite-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Then we played goalkeeper, four defenders against 11. Couldn’t penetrate. Impossible. Tassotti, Costacurta, Baresi and Maldini.",
+      "verified": true
+    },
+    {
+      "title": "Gullit explains how training drills under Sacchi created elite AC Milan side (SempreMilan)",
+      "url": "https://sempremilan.com/gullit-training-drills-sacchi-elite-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "So every time when the ball goes back – when you have the ball as a winger – you can’t go past them you have to go back but on the moment you go back they went forward as well.",
+      "verified": true
+    },
+    {
+      "title": "Gullit explains how training drills under Sacchi created elite AC Milan side (SempreMilan)",
+      "url": "https://sempremilan.com/gullit-training-drills-sacchi-elite-milan",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2025-05-01",
+      "eventDate": "1987/88",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "So therefore if you go forward and the cross comes it’s always offside.",
+      "verified": true
+    },
+    {
+      "title": "Great Team Tactics: Breaking Down How Arrigo Sacchi's AC Milan Took Down Europe (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1425160",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-07",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Sacchi played with high intensity and a very high defensive line. This enabled him to squeeze the play in the middle of park, and ensured that the distance between his defensive and forward lines was never more than 25 metres.",
+      "verified": true
+    },
+    {
+      "title": "Great Team Tactics: Breaking Down How Arrigo Sacchi's AC Milan Took Down Europe (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1425160",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-07",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "There was partial pressing, where it was more about jockeying; there was total pressing which was more about winning the ball; there was fake pressing, when we pretended to press, but, in fact, used the time to recuperate\" (Inverting the Pyramid).",
+      "verified": true
+    },
+    {
+      "title": "Great Team Tactics: Breaking Down How Arrigo Sacchi's AC Milan Took Down Europe (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1425160",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-07",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "This helped them perfect the pure zonal marking they used to nullify their opponents' attacking options",
+      "verified": true
+    },
+    {
+      "title": "Great Team Tactics: Breaking Down How Arrigo Sacchi's AC Milan Took Down Europe (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/1425160",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2018-06-07",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Sacchi was a proponent of multi-purpose players (via The False 9). Not fond of the specialist, he looked for all of his players to be capable of every job on the field",
+      "verified": true
+    },
+    {
+      "title": "The genius of Arrigo Sacchi (SempreMilan)",
+      "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-26",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "If Catenaccio was all about man-marking, Sacchi’s system was all about zonal marking where players are asked to mark a particular area of the field rather than a player.",
+      "verified": true
+    },
+    {
+      "title": "The genius of Arrigo Sacchi (SempreMilan)",
+      "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-26",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "When Sacchi had his charges trained in shadow play on the training field, it was to teach his players to press structurally as a team by blocking off passing channels to force mistakes from the opposition players in possession.",
+      "verified": true
+    },
+    {
+      "title": "The genius of Arrigo Sacchi (SempreMilan)",
+      "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-26",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Ancelotti would leave his position and press the player in possession and Baresi would often step out of possession to aid Ancelotti’s movements.",
+      "verified": true
+    },
+    {
+      "title": "The genius of Arrigo Sacchi (SempreMilan)",
+      "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-26",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "The signing of Rjikaard also gave Milan the ability to press horizontally and press the wide-players or wingers, using the touchline as an extra man.",
+      "verified": true
+    },
+    {
+      "title": "The genius of Arrigo Sacchi (SempreMilan)",
+      "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-26",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "There was not supposed to be not more than 15-20 metres between the 3 lines of players.",
+      "verified": true
+    },
+    {
+      "title": "The genius of Arrigo Sacchi (SempreMilan)",
+      "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2020-08-26",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "width was mostly provided by Donadoni or Maldini.",
+      "verified": true
+    },
+    {
+      "title": "Franco Baresi (The Blizzard)",
+      "url": "https://theblizzard.co.uk/?p=21788",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-04-25",
+      "eventDate": "1992-11-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "On 18 November 1992 Capitano Baresi was back with the boys in blue (albeit in the white away shirt) against Scotland at Ibrox.",
+      "verified": true
+    },
+    {
+      "title": "Franco Baresi (The Blizzard)",
+      "url": "https://theblizzard.co.uk/?p=21788",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-04-25",
+      "eventDate": "1992-11-18",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Less than a year into the job as national manager, Sacchi tried to coax his trusted lieutenant Baresi out of retirement. No chance. Teammates joined the appeal.",
+      "verified": true
+    },
+    {
+      "title": "Franco Baresi (The Blizzard)",
+      "url": "https://theblizzard.co.uk/?p=21788",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-04-25",
+      "eventDate": "1994-07-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Italy played a 4-4-1-1 with Roberto Baggio behind the bulky striker Daniele Massaro.",
+      "verified": true
+    },
+    {
+      "title": "Franco Baresi (The Blizzard)",
+      "url": "https://theblizzard.co.uk/?p=21788",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-04-25",
+      "eventDate": "1994-07-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "A truly Sacchi- esque, compact team in which everybody maintained the correct distances at all costs",
+      "verified": true
+    },
+    {
+      "title": "Franco Baresi (The Blizzard)",
+      "url": "https://theblizzard.co.uk/?p=21788",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2024-04-25",
+      "eventDate": "1994-06",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Sacchi had the option of moving the attacking left- back Paolo Maldini into the centre with the inexhaustible and versatile reserve full-back Antonio Benarrivo, a Sacchi- favourite, slotting in on the left.",
+      "verified": true
+    },
+    {
+      "title": "Victory in defeat: Franco Baresi's 1994 World Cup final performance (These Football Times)",
+      "url": "https://thesefootballtimes.co/2018/11/29/victory-in-defeat-how-franco-baresis-1994-world-cup-final-performance-elevated-him-to-the-realms-of-the-greats/",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-11-29",
+      "eventDate": "1994-07-17",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "For him the choice was clear: if Baresi was available, he played.",
+      "verified": true
+    },
+    {
+      "title": "Arrigo Sacchi and his Italian revolution (Forza Italian Football)",
+      "url": "https://forzaitalianfootball.com/2012/08/arrigo-sacchi-and-his-italian-revolution/",
+      "tier": "D",
+      "language": "en",
+      "articleDate": "2012-08-27",
+      "eventDate": "1988/89",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "he made sure that the defence and midfield were never 25 metres apart. This meant that the opposition would struggle to penetrate the team through the middle",
+      "verified": false
+    },
+    {
+      "title": "Conte alla prova Norvegia. Come Sacchi e Lippi (Panorama)",
+      "url": "https://www.panorama.it/lifestyle/conte-lippi-sacchi-italia-trapattoni",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2014-09-09",
+      "eventDate": "1991-11-13",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "In carica dal 13 novembre 1991 al 6 novembre 1996. Bilancio complessivo alla guida della Nazionale: 34 vittorie, 11 pareggi, 8 sconfitte. Migliore risultato: secondo posto ai Mondiali del 1994. Esordio ufficiale da c.t. il 13 novembre del 1991",
       "verified": true
     }
   ],
-  "statedView": [],
-  "unreadable": [],
+  "statedView": [
+    {
+      "quote": "Cinque giocatori ben organizzati possono battere dieci disorganizzati (reported in English as: \"Five well organised players can beat ten disorganised ones\")",
+      "date": "2021-03-31",
+      "source": "FIFA, Sacchi the revolutionary turns 75 (2021-03-31)",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I send my players out to give people 90 minutes of joy ... I always want to have five men in front of the ball when we have possession.",
+      "date": "2021-03-31",
+      "source": "https://inside.fifa.com/news/sacchi-the-revolutionary-turns-75",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Não sabia que para se tornar um jóquei você tem que ter sido primeiro um cavalo (Italian original not seen; English: \"I never knew to be a jockey you needed to be a horse\")",
+      "date": "2011-02-28",
+      "source": "Trivela 2011-02-28; SempreMilan 2020-08-26",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "il football che tanto ama e estuda é 'a coisa mais importante entre as menos importantes' (Italian original: il calcio è la cosa più importante tra le cose meno importanti; not seen verbatim in Italian)",
+      "date": "2011-02-28",
+      "source": "Trivela 2011-02-28",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Una volta Maradona mi disse, 'Ma corre forte anche Ancelotti?'. Io gli risposi 'No, pensa veloce'",
+      "date": "2023-04-01",
+      "source": "Goal.com Italia 2023-04-01",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Sacchi's own account of pressing types: \"There was partial pressing, where it was more about jockeying; there was total pressing which was more about winning the ball; there was fake pressing, when we pretended to press, but, in fact, used the time to recuperate\"",
+      "date": "2008",
+      "source": "Bleacher Report 2018-06-07 quoting Inverting the Pyramid",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "The football I wanted was active also in the defensive phase. The players had to be protagonists through pressing.",
+      "date": "2020-12-22",
+      "source": "Coaches' Voice 2020-12-22",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "attacking the opponents' attack (on the offside line)",
+      "date": "2020-12-22",
+      "source": "Coaches' Voice 2020-12-22",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "I didn't look at their feet, I looked at their head.",
+      "date": "2025-04-01",
+      "source": "Destination Calcio interview 2025-05-05",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Brazil played better and deserved the win ... I always wanted to win on merit. That's what matters to me.",
+      "date": "2021-03-31",
+      "source": "FIFA 2021-03-31",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Quando non si vince in questo modo, dominando l'avversario, significa che al di là del risultato devi migliorare",
+      "date": "2023-04-01",
+      "source": "Goal.com Italia 2023-04-01",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "Van Basten (autobiography Fragile) on the label: Sacchi 'diede persino un nome: zona-pressing'; Van Basten: 'non lo era affatto, rivoluzionario, né era offensivo. Era difensivo' (press label contradicted by player)",
+      "date": "2023-04-01",
+      "source": "Goal.com Italia 2023-04-01",
+      "provenance": "attributed"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://worldsoccertalk.com/news/arrigo-sacchi-and-his-all-conquering-milan-side",
+      "reason": "404"
+    },
+    {
+      "url": "https://archivio.unita.news/assets/main/1988/11/29/page_025.pdf",
+      "reason": "empty"
+    },
+    {
+      "url": "https://archivio.unita.news/assets/main/1991/10/26/page_029.pdf",
+      "reason": "empty"
+    },
+    {
+      "url": "https://archivio.unita.news/assets/main/1991/10/18/page_029.pdf",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.glieroidelcalcio.com/?p=41683",
+      "reason": "not-accessible"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/2016/03/30/arrigo-sacchi-70-anni-carriera-parma-milan-nazionale",
+      "reason": "empty"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/2021/04/01/sacchi-eredita",
+      "reason": "empty"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/champions-league/2019/05/24/milan-steaua-analisi-finale-coppa-campioni",
+      "reason": "empty"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/mondiali/2018/06/23/accadde-oggi-baggio-sacchi-matto-italia-norvegia-usa-1994",
+      "reason": "empty"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/berlusconi-allenatori",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.11v11.com/matches/italy-v-norway-13-november-1991-243292/",
+      "reason": "empty"
+    }
+  ],
+  "influences": [
+    "Rinus Michels / Ajax total football",
+    "Johan Cruyff",
+    "Valeriy Lobanovskyi (echoed per The Hard Tackle)",
+    "Brazilian zonal marking (Zeze Moreira, per Coaches' Voice)"
+  ],
   "gaps": {
     "dimensions": [
-      "build-up",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "possession",
-      "set-pieces",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
+      "set-pieces"
     ],
-    "axes": [
-      "bas",
-      "jog",
-      "lar",
-      "lid",
-      "pla",
-      "pos",
-      "pro",
-      "res",
-      "sis"
-    ]
+    "axes": []
   },
-  "influences": [],
   "confidence": {
-    "level": "low",
-    "reason": "Single undated Wikipedia career section; no tier A-B source read; trophies are the only dated facts."
+    "level": "medium",
+    "reason": "Milan tactics covered by tier A (Coaches' Voice) and B (Spielverlagerung, Blizzard) plus tier C interviews and press; but period sources are retrospective, exact appointment days not found, no Italian primary dated quotes, and Italy 1994 rests mainly on one analytical piece."
   }
 }
 
@@ -461,3 +1555,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: The coach is the boss, and the stars follow the same rules as everyone else.
    Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
    Disagree means: The coach negotiates with the stars, and they can be treated differently.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

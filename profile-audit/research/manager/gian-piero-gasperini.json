@@ -1,0 +1,1265 @@
+{
+ "id": "gian-piero-gasperini",
+ "catalog": "manager",
+ "name": "Gian Piero Gasperini",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "2006-07-01",
+  "end": "ongoing"
+ },
+ "spellsCounted": [
+  {
+   "club": "Genoa (1st spell)",
+   "start": "2006-07-01",
+   "end": "2010-11-08",
+   "reason": "Day of appointment not found (summer 2006), 1 July used. Serie B promotion 2007, 5th in Serie A 2008/09 and Europa League, recognisable 3-4-3, Mourinho praise, led to Inter job."
+  },
+  {
+   "club": "Genoa (2nd spell)",
+   "start": "2013-09-29",
+   "end": "2016-05-15",
+   "reason": "Rebuilt Genoa (13th 2013/14) with 3-4-3 and high pressing, move to Atalanta; end date approximate (end of 2015/16 season, exact day of departure not confirmed; Atalanta appointment 2016-06-14). Little tactical coverage in sources read, so these two Genoa spells are weighted by the same test but thinly evidenced."
+  },
+  {
+   "club": "Atalanta",
+   "start": "2016-06-14",
+   "end": "2025-05-31",
+   "reason": "Core spell: Europa League 2023/24, Champions League qualifications, youth/player-development pipeline, 3-4-1-2/3-4-2-1 with man-oriented pressing. End date is the 31 May 2025 farewell letter (official club statement 1 June 2025)."
+  },
+  {
+   "club": "Roma",
+   "start": "2025-06-06",
+   "end": "ongoing",
+   "reason": "Third place and Champions League spot in 2025/26; man-marking press and 3-4-2-1 tactical coverage. Still in post per search results to mid-October 2026 (not confirmed after)."
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Crotone",
+   "start": "2003-07-01",
+   "end": "2006-06-30",
+   "reason": "Serie C1/B, thin tactical coverage; sacked Dec 2004 and recalled Apr 2005; dates are approximate (it.wikipedia: summer 2003 to 2006)."
+  },
+  {
+   "club": "Inter",
+   "start": "2011-06-24",
+   "end": "2011-09-21",
+   "reason": "Under 15 competitive matches (about 5-6 matches, one Supercoppa, Serie A and Champions League games)."
+  },
+  {
+   "club": "Palermo",
+   "start": "2012-09-16",
+   "end": "2013-03-11",
+   "reason": "About 22 league matches with a sack (4 Feb 2013) and return (24 Feb) but no recognisable tactical coverage or title; 17 points in 22 games."
+  }
+ ],
+ "scopeNote": "Covers Genoa 2006-10 and 2013-16, Atalanta 2016-25 and Roma 2025-ongoing. Style named by sources: 3-4-3 / 3-4-1-2 / 3-4-2-1 back three with wing-backs, 'man-orientated' or 'man-to-man pressing' with man-marking across the pitch (Wikipedia, Chiesa di Totti, Left Back Football, UEFA). Marking is not purely man: Left Back Football describes a switch to zonal in a 5-3-2 block, Coaches' Voice describes a mid-block, and Gasperini himself denied that Mandragora man-marked Pogba in 2014. Popular label 'gegenpressing' is a blog label, not verified. Evidence is thick for Atalanta 2018-21 and Roma 2025/26, thin for Genoa spells, Atalanta 2022-25 (Europa League final analysis by UEFA was not accessible) and Roma after Jan 2026. Partial dates: Genoa 2006 start day and Genoa 2016 end day not found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "How strict is the man-marking over time? Left Back Football (2018/19) shows a switch to a zonal 5-3-2 shape; Chiesa di Totti (Jan 2026) says man-marking is still the defining feature; Gasperini said in 2014 the press reports of Mandragora marking Pogba were false.",
+  "Gomez clash 2021: Gomez says Gasperini tried to physically attack him, Gasperini says the attack came from Gomez. Unresolved, both attributed.",
+  "Whether Gasperini is still Roma coach on 2026-11-06: searches show him in post to mid-October 2026, not checked after.",
+  "Exact dates: Genoa appointment (summer 2006), Genoa 2016 departure, Atalanta departure (31 May vs 1 June 2025).",
+  "Whether Atalanta's set-piece weakness (43% of goals conceded from dead balls in 2023/24) is a trait or a one-season figure; attacking set-piece xG (StatsBomb 2019/20) was seen only in a search summary.",
+  "Wikipedia 2026 text cited here may have been updated after the period; used for dates only."
+ ],
+ "sources": [
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "He most commonly favours a 3-4-1-2 formation",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "it evolves into a 3-5-2 when they are attacking, and into a 5-3-2 when they are defending",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "His use of a back three is inspired by his desire to create an overload in the first phase of their attempts to build play, not because of the defensive strength it provides",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "a central defender – José Luis Palomino is a composed ball-player – will be inside the penalty area so that he can receive a short, accurate pass from the goalkeeper",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Above all else, his teams attempt to dominate possession and prioritise generating and occupying spaces.",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Leading a compact shape, their most advanced players are the first to begin pressing, and their midfield and defensive lines adjust their distances accordingly.",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "The first line of their press (above) is led by their attacking players moving towards the relevant central defender, and is intended to force the opposition to play a direct game.",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "On the occasions that that high press is beaten, they reorganise into a mid-block in an attempt to prevent their opponents from advancing",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "that 3-5-2 becomes a 5-3-2 in which they prioritise protecting the spaces that exist infield by playing with a narrow back five and deep-lying midfield",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "They apply an organised press, preferably immediately after regaining possession to quickly resume their attempts to attack.",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Should they do so their full-backs, most commonly Gosens or Hans Hateboer, and Gómez regularly advance particularly high up the pitch to play crosses into the penalty area.",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "There are periods in which they rest with it, instead of working to defend behind it and close to their goal",
+   "verified": true
+  },
+  {
+   "title": "Coach Watch: Gian Piero Gasperini - Coaches' Voice",
+   "url": "https://learning.coachesvoice.com/gian-piero-gasperini-atalanta-serie-a-inter-milan/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-08-25",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Alejandro Darío Gómez, Maarten de Roon, Mario Pasalic, Robin Gosens and Remo Freuler are prominent players for Atalanta",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Atalanta are stringent with a 3-4-3 with a narrow front three as their back three will form a triangle.",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "If the wing-backs push further forward, Marten De Roon or Remo Freuler will drop into the back three to allow one of the wide centre-backs to push up and create overloads on the flank",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Atalanta press in a high and aggressive man-orientated fashion as they adjust to the opponent’s build-up shape.",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "back-passes will trigger Atalanta into pressing higher as a unit or more opposition players dropping deep will trigger their direct markers to move forward and continue to assert pressure",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Atalanta sit in a defensive 5-3-2 shape as they switch from a man-orientated marking scheme to zonal marking assignments.",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Their player spacing in possession allows them to changeover from the build-up phase to the counter-pressing phase quickly",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Atalanta’s wing-backs make timed runs into space in the attacking phase to stretch play as they use wide build-up combinations to work the ball into space.",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "his preference for developing youth",
+   "verified": true
+  },
+  {
+   "title": "Left Back Football: Gian Piero Gasperini's artistic Atalanta",
+   "url": "https://www.leftbackfootball.com/home/2019/6/27/gian-piero-gasperinis-artistic-atalanta",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-06-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Papu Gomez would be allowed to roam into the channels and the half-spaces as a playmaker",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Video Analysis: Atalanta's possession system",
+   "url": "https://spielverlagerung.com/?p=10798",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Their basic system/structure is a 5-2-1-2/3-2-1-4 in possession (sometimes switching to a 5-2-3/3-4-3), with a heavy focus at the wider areas.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Video Analysis: Atalanta's possession system",
+   "url": "https://spielverlagerung.com/?p=10798",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "This means the central lane is their least used zone in possession basically.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Video Analysis: Atalanta's possession system",
+   "url": "https://spielverlagerung.com/?p=10798",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "wing-backs -› mostly stay high & wide",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Video Analysis: Atalanta's possession system",
+   "url": "https://spielverlagerung.com/?p=10798",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "the wide CBs immediately move out wider to create a double width with the high wing back",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Video Analysis: Atalanta's possession system",
+   "url": "https://spielverlagerung.com/?p=10798",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "In the initial phases there are several players to drop deeper -CMs + CAM- to circulate the ball, mostly in a 3-3-4 staggering.",
+   "verified": true
+  },
+  {
+   "title": "Spielverlagerung: Video Analysis: Atalanta's possession system",
+   "url": "https://spielverlagerung.com/?p=10798",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "a back 5 allows the last line to shift wide more aggressively, without stretching the last line to open gaps",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Whereas many teams have transitioned to zonal marking, Gasperini has remained true to his man-marking tactics throughout his coaching career.",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "That man-marking has really worked its way into the high press",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "each center back closely following their man and even running across the pitch whenever the opposing forwards rotate",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Operating in a 3-4-1-2, Roma will look to squeeze their opponent into one side of the pitch",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Roma can hit their opponents with this tight man-marking and quick counter-attacking",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "the best defense in Serie A, conceding just 12 goals in 20 games",
+   "verified": true
+  },
+  {
+   "title": "Chiesa di Totti: Seen Through a Coach's Lens: Gasperini's Risky Press and Roma's Reward",
+   "url": "https://www.chiesaditotti.com/roma-player-analysis/39302/seen-through-a-coachs-lens-gasperinis-risky-press-and-romas-reward",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2026-01-17",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "they’ve been able to maintain this intensity for the majority of the game",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini: the mastermind who's turned Atalanta into a bastion of young talent and attacking prowess",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Gasperini had sensed his days were numbered and offered an opportunity to two relatively unknown Italian youth players as a last throw of the dice to save his neck. Rather than being overwhelmed by the occasion, Mattia Caldara and Roberto Gagliardini provided a boyish enthusiasm that spread throughout the team.",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2006/07",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Using a similar tactical framework to his Crotone side, Gasperini plucked the raw but talented Domenico Criscito from the Juventus youth network he knew so well and current Atalanta defender Andrea Masiello from Siena.",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2007/08",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The once-loved Adaílton and grand signing Di Vaio were sent to pastures new and Gasperini set about replacing them with Milan’s Marco Borriello.",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The sale of Borriello helped fund a move for former Genoa fan favourite Diego Milito.",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "The Argentine’s admirable decision paid rich dividends for both player and club as he flourished in Gasperini’s system, scoring 24 goals as Genoa finished fifth and qualified for the Europa League.",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2010-11-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Departing Genoa halfway through the 2010/11 season after a string of turgid performances amid high player turnover",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "For Gasperini, the lessons of 22 years managing football clubs had provided the framework and an ambitious set of young, Italian talent at Atalanta offered the perfect toolkit.",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "In recent years Atalanta have sold Andrea Conti and Frank Kessie to AC Milan, Caldara and Spinazzola to Juventus, and Bryan Crystante to Roma",
+   "verified": true
+  },
+  {
+   "title": "TFT: Gian Piero Gasperini mastermind",
+   "url": "https://thesefootballtimes.co/2018/09/04/gian-piero-gasperini-the-mastermind-whos-turned-atalanta-in-a-bastion-of-young-talent-and-attacking-prowess/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-09-04",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "A commitment to a high pressing game – quite uncommon in Italy at the time – drew particular admiration from his former midfield catalyst, Ivan Jurić [Crotone, excluded spell]",
+   "verified": false
+  },
+  {
+   "title": "Goal.com Italia: Gasperini spiega la sua difesa a 3 (Gazzetta dello Sport interview)",
+   "url": "https://www.goal.com/it/notizie/gasperini-spiega-la-sua-difesa-a-3-giocavo-a-4-poi-vidi-lajax-di-/blte9e81e235f866abe",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-11-12",
+   "eventDate": "2014-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "La mia idea di difesa è accorciare, aggredire. Posso difendere a tre, a quattro, anche in nove.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Gasperini spiega la sua difesa a 3 (Gazzetta dello Sport interview)",
+   "url": "https://www.goal.com/it/notizie/gasperini-spiega-la-sua-difesa-a-3-giocavo-a-4-poi-vidi-lajax-di-/blte9e81e235f866abe",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-11-12",
+   "eventDate": "2014-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Io mando tutti a pressare, così ogni giocatore deve muoversi in conseguenza del compagno. Difendere correndo in avanti.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Gasperini spiega la sua difesa a 3 (Gazzetta dello Sport interview)",
+   "url": "https://www.goal.com/it/notizie/gasperini-spiega-la-sua-difesa-a-3-giocavo-a-4-poi-vidi-lajax-di-/blte9e81e235f866abe",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-11-12",
+   "eventDate": "2014-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Se aspetti, vedi la palla tre volte in 40 minuti.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Gasperini spiega la sua difesa a 3 (Gazzetta dello Sport interview)",
+   "url": "https://www.goal.com/it/notizie/gasperini-spiega-la-sua-difesa-a-3-giocavo-a-4-poi-vidi-lajax-di-/blte9e81e235f866abe",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-11-12",
+   "eventDate": "2014-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Mi convince quando giochiamo contro due punte. È questione di avvio dell’azione, perché io voglio i difensori larghi.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Gasperini spiega la sua difesa a 3 (Gazzetta dello Sport interview)",
+   "url": "https://www.goal.com/it/notizie/gasperini-spiega-la-sua-difesa-a-3-giocavo-a-4-poi-vidi-lajax-di-/blte9e81e235f866abe",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-11-12",
+   "eventDate": "2014-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "i giornali hanno scritto che Mandragora marcava a uomo Pogba. Falso",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Gasperini spiega la sua difesa a 3 (Gazzetta dello Sport interview)",
+   "url": "https://www.goal.com/it/notizie/gasperini-spiega-la-sua-difesa-a-3-giocavo-a-4-poi-vidi-lajax-di-/blte9e81e235f866abe",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2014-11-12",
+   "eventDate": "2014-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "potevamo difendere un risultato d’oro e invece in quell'l’azione abbiamo giocatori che pressano nella loro area correndo in avanti",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: Gomez claims he left Atalanta after Gasperini tried to 'physically attack' him",
+   "url": "https://www.goal.com/en/news/gomez-claims-he-left-atalanta-after-gasperini-tried-to-physically-attack-him/xx6g7e26q3l61b4cft2z3v03y",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-08-18",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "But in the halftime locker room he exceeded the limits and tried to physically attack me.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: Gomez claims he left Atalanta after Gasperini tried to 'physically attack' him",
+   "url": "https://www.goal.com/en/news/gomez-claims-he-left-atalanta-after-gasperini-tried-to-physically-attack-him/xx6g7e26q3l61b4cft2z3v03y",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-08-18",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "The physical attack came from him, not me, but the real reason he left Bergamo is because he seriously disrespected the owners of the club.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: Gomez claims he left Atalanta after Gasperini tried to 'physically attack' him",
+   "url": "https://www.goal.com/en/news/gomez-claims-he-left-atalanta-after-gasperini-tried-to-physically-attack-him/xx6g7e26q3l61b4cft2z3v03y",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-08-18",
+   "eventDate": "2020/21",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "they separated me from the squad and I ended up training only with the reserves",
+   "verified": true
+  },
+  {
+   "title": "Calcio e Finanza: Gasperini: «L'Atalanta ha speso, ma non come chiedevo io» (Gazzetta interview)",
+   "url": "https://www.calcioefinanza.it/2022/07/03/gasperini-latalanta-ha-speso-ma-non-come-chiedevo-io/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-07-03",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Nuove energie avrebbero aiutato. Un campione avrebbe portano nuovo entusiasmo e stimolato la competitività. Siamo rimasti troppo a lungo gli stessi.",
+   "verified": true
+  },
+  {
+   "title": "Calcio e Finanza: Gasperini: «L'Atalanta ha speso, ma non come chiedevo io» (Gazzetta interview)",
+   "url": "https://www.calcioefinanza.it/2022/07/03/gasperini-latalanta-ha-speso-ma-non-come-chiedevo-io/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-07-03",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "I miei scontri in tema di mercato sono nati sempre dalla stessa esigenza: non restare fermi",
+   "verified": true
+  },
+  {
+   "title": "Calcio e Finanza: Gasperini: «L'Atalanta ha speso, ma non come chiedevo io» (Gazzetta interview)",
+   "url": "https://www.calcioefinanza.it/2022/07/03/gasperini-latalanta-ha-speso-ma-non-come-chiedevo-io/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-07-03",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Ho anche detto loro: “Forse sono io quello che deve andare via”. Ma non hanno voluto assolutamente accettare la soluzione.",
+   "verified": true
+  },
+  {
+   "title": "Calcio e Finanza: Gasperini: «L'Atalanta ha speso, ma non come chiedevo io» (Gazzetta interview)",
+   "url": "https://www.calcioefinanza.it/2022/07/03/gasperini-latalanta-ha-speso-ma-non-come-chiedevo-io/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-07-03",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "E ci siamo ritrovati a fare tic-toc al limite per 60’, senza entrare in area, senza calciare, strappare una punizione, un rigore… E in contropiede ci facevano gol",
+   "verified": true
+  },
+  {
+   "title": "Calcio e Finanza: Gasperini: «L'Atalanta ha speso, ma non come chiedevo io» (Gazzetta interview)",
+   "url": "https://www.calcioefinanza.it/2022/07/03/gasperini-latalanta-ha-speso-ma-non-come-chiedevo-io/",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-07-03",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "senza calciare, strappare una punizione, un rigore",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle: Internazionale's Corner: How Will Gasperini's Tactics Work At Inter",
+   "url": "https://thehardtackle.com/2011/internazionales-corner-how-will-gasperinis-tactics-work-at-inter/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-06-28",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Throughout his career, he has preferred to play with 3 centre backs and 3-4-3 was the formation he used to a great degree of success at Genoa.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle: Internazionale's Corner: How Will Gasperini's Tactics Work At Inter",
+   "url": "https://thehardtackle.com/2011/internazionales-corner-how-will-gasperinis-tactics-work-at-inter/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-06-28",
+   "eventDate": "2010-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "It was not until his last few games at Genoa when he snubbed his 3 centre backs policy and finally played a flat back four.",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle: Internazionale's Corner: How Will Gasperini's Tactics Work At Inter",
+   "url": "https://thehardtackle.com/2011/internazionales-corner-how-will-gasperinis-tactics-work-at-inter/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-06-28",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "the players work very hard off the ball with pressing and overlapping being a constant feature",
+   "verified": true
+  },
+  {
+   "title": "The Hard Tackle: Internazionale's Corner: How Will Gasperini's Tactics Work At Inter",
+   "url": "https://thehardtackle.com/2011/internazionales-corner-how-will-gasperinis-tactics-work-at-inter/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2011-06-28",
+   "eventDate": "2011",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "the coach who put me in most difficulty. I would change but he would adapt, time and again. [excluded spell, kept unverified]",
+   "verified": false
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2008/09",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "relaunching players like Diego Milito and Thiago Motta in a 3–4–3 formation",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2010-11-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "caused Gasperini's dismissal from his coaching post on 8 November",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2011-09-21",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "on 21 September 2011, Gasperini was sacked after a dismal run of five winless games, including four defeats [excluded spell, kept unverified]",
+   "verified": false
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2025-06-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "On 6 June 2025, Gasperini was announced as the new head coach of Roma.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "He led the club to a third-place finish in his debut season, securing a UEFA Champions League spot for the club for the first time since the 2018–19 season.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "When defending off the ball, his teams are also known for the use of heavy pressing, but also apply elements of fluid man-marking across the entire pitch and often switch to a 5–4–1 formation defensively.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (en): Gian Piero Gasperini",
+   "url": "https://en.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-11-06",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "This strategy has been described as \"man-to-man pressing\" in the media.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "la squadra, tramite la marcatura a uomo, avanza sui riferimenti avversari anziché muoversi orizzontalmente",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2012-09-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Il 16 settembre 2012 diventa l'allenatore del Palermo [excluded spell, kept unverified]",
+   "verified": false
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2013-03-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "l'11 marzo rescinde consensualmente il contratto con la società [excluded spell, kept unverified]",
+   "verified": false
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2013-09-29",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Il 29 settembre 2013 torna al Genoa a distanza di tre anni, dove firma un contratto triennale sostituendo l'esonerato Fabio Liverani.",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2016-06-14",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Il 14 giugno 2016 viene ufficializzato come nuovo tecnico dell'Atalanta",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2006-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Nell'estate 2006 diviene allenatore del Genoa",
+   "verified": true
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2005/06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Esonerato a favore di Andrea Agostinelli nel dicembre 2004[21], viene poi richiamato in sostituzione di quest'ultimo nell'aprile 2005. [Crotone, excluded spell]",
+   "verified": false
+  },
+  {
+   "title": "Wikipedia (it): Gian Piero Gasperini",
+   "url": "https://it.wikipedia.org/wiki/Gian_Piero_Gasperini",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-11-06",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "i moduli di cui fa uso più spesso sono il 3-4-3, il 3-4-2-1 e il 3-4-1-2",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Atalanta opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2024-01-09/ac-milan-v-atalanta-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-01-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "the side from Bergamo are first for balls recovered in all areas of the pitch (1234) and fourth in the league for offensive ball recoveries (149)",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Atalanta opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2024-01-09/ac-milan-v-atalanta-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-01-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "the Dea have conceded the most goals, in percentages, from dead ball situations in this season's current Serie A: 43% (9/21)",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Atalanta opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2024-01-09/ac-milan-v-atalanta-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2024-01-09",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "no team has conceded more goals from crosses than the Bergamo team (eight, like Salernitana and Verona)",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "The base formation is still 3-4-2-1, but tactical experiments vary, even during a match.",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Roma can still be a bit static and lack fluidity in build-up play, especially when space is tight.",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "The team works very well with the back three (Ndicka-Mancini-Hermoso), supported by the two full-backs, Wesley and Çelik, covering the entire flank.",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "The Roma seen so far doesn’t play the dazzling football of his best Atalanta sides, but that is probably not the goal: the Giallorossi are solid, compact, concede few, and are surprisingly adaptable.",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "The ‘false nine’ option has already been used several times, both to unsettle markers by leveraging the creativity of the Argentinians",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Gasperini’s real revolution has been how quickly he has taken hold of the team",
+   "verified": true
+  },
+  {
+   "title": "AC Milan: Roma opponent review",
+   "url": "https://www.acmilan.com/en/news/articles/stats/2025-11-01/ac-milan-v-roma-opponent-review",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-11-01",
+   "eventDate": "2025/26",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "the two coaches with the most Serie A matches in the dug-out: 515 for Allegri, 608 for Gasperini",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Gasperini Tactics At AS Roma 2025/2026",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/gian-piero-gasperini-tactics-roma-2025-2026-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-16",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Gasperini does not really apply the “modern” way of building up from the back but rather relies on long passes from the goalkeeper to players like Charles De Ketelaere and Mateo Retegui",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Gasperini Tactics At AS Roma 2025/2026",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/gian-piero-gasperini-tactics-roma-2025-2026-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-16",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "he believes in chance creation from the wings, and that’s his preferred way to start the attacking actions",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Gasperini Tactics At AS Roma 2025/2026",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/gian-piero-gasperini-tactics-roma-2025-2026-tactical-analysis",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-06-16",
+   "eventDate": "2024/25",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "he loves to work with quick, disciplined, and risk-taking players with dribbling skills and, preferably, shooting abilities",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb: At last, Atalanta",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/at-last-atalanta-a-perennial-outsider-stormed-up-the-serie-a-table-and-now-looks-to-do-the-same-to-the-champions-league/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-09-17",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The club already has one of the best, if not the best, youth sector in the country",
+   "verified": true
+  },
+  {
+   "title": "StatsBomb: At last, Atalanta",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/at-last-atalanta-a-perennial-outsider-stormed-up-the-serie-a-table-and-now-looks-to-do-the-same-to-the-champions-league/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2019-09-17",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "capable of scoring 77 goals in the Serie A 2018-19, a season record",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Defending makes you invincible, but if you want to win, you must attack.",
+   "date": "2020-08-25",
+   "source": "Coaches' Voice (Coach Watch), undated original interview",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "La mia idea di difesa è accorciare, aggredire. Posso difendere a tre, a quattro, anche in nove.",
+   "date": "2014-11-12",
+   "source": "Gazzetta dello Sport interview via Goal.com Italia",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Io mando tutti a pressare, così ogni giocatore deve muoversi in conseguenza del compagno. Difendere correndo in avanti.",
+   "date": "2014-11-12",
+   "source": "Gazzetta dello Sport interview via Goal.com Italia",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I miei scontri in tema di mercato sono nati sempre dalla stessa esigenza: non restare fermi",
+   "date": "2022-07-03",
+   "source": "Gazzetta dello Sport interview via Calcio e Finanza",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "The physical attack came from him, not me, but the real reason he left Bergamo is because he seriously disrespected the owners of the club.",
+   "date": "2021-08",
+   "source": "Gazzetta dello Sport interview via Goal.com (reply to Gomez's La Nacion claim; contradictory accounts, press label)",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Noi non siamo un big. Lavoriamo per diventarlo. E intanto diamo battaglia.",
+   "date": "2022-07-03",
+   "source": "Gazzetta dello Sport interview via Calcio e Finanza",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://uefa.com/uefaeuropaleague/news/028c-1aa8b95a0bda-bbbf978b7f3f-1000--analysis-atalanta-s-anfield-masterclass",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://themastermindsite.com/2021/05/11/gian-piero-gasperini-atalanta-tactical-analysis-2020-21/",
+   "reason": "403"
+  },
+  {
+   "url": "https://destinationcalcio.com/gian-piero-gasperini-leaving-atalanta-ends-a-perfect-marriage-that-changed-serie-a",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.lifestyleblog.it/blog/2025/06/roma-gasperini-tattica-sistema-gioco-analisi-2025/",
+   "reason": "403"
+  },
+  {
+   "url": "https://uefa.com/uefaeuropaleague/news/028c-1aa2e196ac4d-1e57ac12b25f-1000--swissquote-match-analysis-liverpool-0-3-atalanta",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.uefa.com/uefaeuropaleague/news/028d-1af728f14d65-2d603f3b58f8-1000--analysis-europa-league-final",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://breakingthelines.com/?p=11549",
+   "reason": "empty"
+  },
+  {
+   "url": "https://sport.sky.it/calciomercato/2023/07/20/atalanta-gasperini-hojlund-calciomercato-intervista",
+   "reason": "empty"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2022/11/12/gasperini-atalanta-inter-conferenza-video",
+   "reason": "empty"
+  },
+  {
+   "url": "https://betweentheposts.net/atalanta-bergamo-bayer-leverkusen-the-goddess-engulfs-xabis-immortals-to-european-glory-3-0/",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Ajax of Louis van Gaal (3-4-3, by his own account in 2014)",
+  "Total football (it.wikipedia)",
+  "Opposed to Arrigo Sacchi's 4-4-2 of the 1990s Italian mainstream"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Several tier A-B sources agree on shape, pressing and marking for Atalanta 2018-21 and Roma 2025/26; Genoa spells, Atalanta 2022-25 and set-pieces thin; tiers C for interviews and people management; UEFA analyses unreachable."
+ }
+}

@@ -1,129 +1,15 @@
 {
-  "pos": {
-    "personaBrief": "No verified possession evidence (gap axis); from general knowledge, this Milan controlled games through Pirlo as deep-lying playmaker (verified role) and a technical midfield, preferring to keep the ball rather than concede it, though the 2007 final shows they could win with less of it.",
-    "answers": {
-      "pos_04": "D",
-      "pos_02": "D",
-      "pos_05": "C",
-      "pos_01": "C",
-      "pos_03": "C"
-    }
-  },
-  "pro": {
-    "personaBrief": "Gap axis, answered from general knowledge: build-up ran through Pirlo, a regista who risked line-breaking and long diagonal passes (often to Inzaghi on the shoulder), with patient circulation rather than hurried attacks.",
-    "answers": {
-      "pro_04": "DT",
-      "pro_01": "C",
-      "pro_05": "D",
-      "pro_02": "N",
-      "pro_03": "D"
-    }
-  },
-  "est": {
-    "personaBrief": "The verified 4-3-2-1 Christmas Tree had a fixed midfield trio (Pirlo between ball-winners Gattuso and Ambrosini) but Kaka with 'absolute creative freedom' and Seedorf roaming behind a lone striker who stayed in the box (Inzaghi isolated in the final), so the shape mixes defined roles with free attackers combining centrally.",
-    "answers": {
-      "est_04": "D",
-      "est_03": "D",
-      "est_05": "C",
-      "est_01": "D",
-      "est_02": "C"
-    }
-  },
-  "lar": {
-    "personaBrief": "Gap axis, but the verified Christmas Tree has no wingers: Kaka and Seedorf behind the striker and width only from full-backs (Oddo, Jankulovski), so the team attacked through the middle.",
-    "answers": {
-      "lar_05": "DT",
-      "lar_01": "D",
-      "lar_02": "CT",
-      "lar_04": "CT",
-      "lar_03": "D"
-    }
-  },
-  "blo": {
-    "personaBrief": "Gap axis, from general knowledge: the oldest CL-winning XI (verified average ~31) defended in a compact mid-block with Nesta and Maldini, not with an intense high press, and Ancelotti spoke of taking 'precautions' before the final.",
-    "answers": {
-      "blo_05": "D",
-      "blo_04": "C",
-      "blo_01": "D",
-      "blo_03": "D",
-      "blo_02": "C"
-    }
-  },
-  "mar": {
-    "personaBrief": "Gap axis, from general knowledge: Milan's post-Sacchi defensive tradition with Nesta and Maldini was zonal, protecting spaces rather than assigning man-markers to stars.",
-    "answers": {
-      "mar_04": "C",
-      "mar_02": "D",
-      "mar_03": "D",
-      "mar_01": "CT",
-      "mar_05": "D"
-    }
-  },
-  "pla": {
-    "personaBrief": "The Christmas Tree was built to fit the players Ancelotti had (Pirlo's regista role, Kaka's freedom), and the team kept its own style, with only modest caution against Liverpool ('debemos tomar precauciones').",
-    "answers": {
-      "pla_02": "D",
-      "pla_04": "D",
-      "pla_05": "C",
-      "pla_01": "DT",
-      "pla_03": "C"
-    }
-  },
-  "res": {
-    "personaBrief": "Ancelotti celebrated the final as 'extraordinary' despite Liverpool not letting Milan 'play at our best', and his late subs (Kaladze, Favalli for Jankulovski and Seedorf) shut the game down: result first, achieved with a technical side.",
-    "answers": {
-      "res_05": "C",
-      "res_03": "C",
-      "res_02": "C",
-      "res_04": "D",
-      "res_01": "D"
-    }
-  },
-  "sis": {
-    "personaBrief": "Kaka had verified 'absolute creative freedom' and the side relied on star talent (Pirlo, Seedorf, Kaka), with ball-winners covering for them rather than a system dictating everyone's duties.",
-    "answers": {
-      "sis_01": "D",
-      "sis_03": "D",
-      "sis_05": "D",
-      "sis_02": "C",
-      "sis_04": "C"
-    }
-  },
-  "jog": {
-    "personaBrief": "Verified roles show a technical core (deep-lying playmaker Pirlo, Seedorf, Kaka) balanced by ball-winners Gattuso and Ambrosini, and an aging XI that competed on quality rather than physical intensity.",
-    "answers": {
-      "jog_04": "D",
-      "jog_03": "CT",
-      "jog_01": "C",
-      "jog_05": "D",
-      "jog_02": "D"
-    }
-  },
-  "bas": {
-    "personaBrief": "Verified: the oldest team to win the Champions League (average 31 years 34 days, seven starters over 30), a squad built on seasoned signings, not academy players.",
-    "answers": {
-      "bas_03": "D",
-      "bas_05": "D",
-      "bas_01": "D",
-      "bas_02": "CT",
-      "bas_04": "CT"
-    }
-  },
-  "lid": {
-    "personaBrief": "Gap axis, from general knowledge: Ancelotti ran a veteran dressing room through dialogue and calm man-management, listening to senior leaders like Maldini rather than imposing iron discipline.",
-    "answers": {
-      "lid_03": "C",
-      "lid_05": "C",
-      "lid_02": "CT",
-      "lid_04": "D",
-      "lid_01": "D"
-    }
-  },
-  "archetype": {
-    "epoca": "D",
-    "elenco": "B",
-    "organizacao": "C",
-    "treinador": "A",
-    "final": "E"
-  }
+"pos":{"personaBrief":"Milan built around Pirlo as regista and aimed at dominance of central areas (possession fact), with Gattuso and Ambrosini protecting him; not a reactive counter side, though it hit on the break with Kaka.","answers":{"pos_04":"D","pos_02":"D","pos_05":"C","pos_01":"N","pos_03":"C"}},
+"pro":{"personaBrief":"Pirlo dropped between centre-backs to build, but Kaka and Inzaghi attacked quickly with long passes forward; a mixed profile favouring a creative regista over a safe holder.","answers":{"pro_04":"D","pro_01":"C","pro_05":"D","pro_02":"C","pro_03":"D"}},
+"est":{"personaBrief":"Sempremilan notes the midfield four played on zonal principles with freedom and Kaka had a license to roam, so a fluid, relational 4-3-2-1 with positional switches (Seedorf dropping with Gattuso).","answers":{"est_04":"D","est_03":"D","est_05":"D","est_01":"D","est_02":"C"}},
+"lar":{"personaBrief":"The Christmas tree lacks natural width (Coaches' Voice); play went through the central trio and Kaka, with full-backs crossing only occasionally from Pirlo's passes.","answers":{"lar_05":"D","lar_01":"D","lar_02":"C","lar_04":"C","lar_03":"D"}},
+"blo":{"personaBrief":"Milan pressed selectively, with forwards and midfielders jumping onto defenders against United, but at 2007 intensity and an older squad, with no evidence of gegenpressing or a deep block.","answers":{"blo_05":"D","blo_04":"D","blo_01":"D","blo_03":"C","blo_02":"D"}},
+"mar":{"personaBrief":"Sources conflict: man-marking while pressing United and Ronaldo doubled by Oddo and Gattuso, yet midfielders worked on zonal principles; Italian zonal defending leans toward space protection with selective dedicated markers.","answers":{"mar_04":"C","mar_02":"D","mar_03":"D","mar_01":"C","mar_05":"D"}},
+"pla":{"personaBrief":"Ancelotti kept his 4-3-2-1 but tweaked it for Manchester United (Seedorf dropping, doubling Ronaldo), adapting details around a stable identity and adjusting at the break.","answers":{"pla_02":"C","pla_04":"D","pla_05":"D","pla_01":"D","pla_03":"C"}},
+"res":{"personaBrief":"A pragmatic winner of the Champions League, a team Ancelotti called technically inferior to 2005; it eased off in the group and chose the stats-based option for the final, results first.","answers":{"res_05":"C","res_03":"C","res_02":"C","res_04":"D","res_01":"D"}},
+"sis":{"personaBrief":"A star-based side (Kaka licensed to roam, Pirlo, Seedorf) with collective duties, and Ancelotti known for managing talent rather than imposing a rigid system.","answers":{"sis_01":"D","sis_03":"D","sis_05":"D","sis_02":"C","sis_04":"C"}},
+"jog":{"personaBrief":"Pirlo as technical regista and Seedorf/Kaka as creators, with Gattuso as the engine; technique valued over pure strength, while Milan Lab kept physical fitness high.","answers":{"jog_04":"D","jog_03":"C","jog_01":"C","jog_05":"D","jog_02":"C"}},
+"bas":{"personaBrief":"The oldest Champions League final team ever (Maldini 37, Inzaghi 33, only Kaka under 30 among key men), with the Milan Lab prolonging veteran careers.","answers":{"bas_03":"D","bas_05":"DT","bas_01":"DT","bas_02":"CT","bas_04":"CT"}},
+"lid":{"personaBrief":"Kaka calls Ancelotti's ability to manage people his best quality; a harmony-first, listening coach, though rules apply to all in a veteran dressing room.","answers":{"lid_03":"C","lid_05":"C","lid_02":"C","lid_04":"D","lid_01":"D"}},
+"archetype":{"epoca":"D","elenco":"B","organizacao":"C","treinador":"A","final":"A"}
 }

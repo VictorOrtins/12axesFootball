@@ -56,28 +56,30 @@ public class CompareService {
                 Manager manager = require(dataService.getManagerById(id, normalizedLang), type, id);
                 var profile = dataService.getManagerProfiles().get(id);
                 yield detail(managerItem(manager), manager.description(), userVector,
-                        profile == null ? null : profile.vector());
+                        profile == null ? null : profile.vector(), profile == null ? 0.0 : profile.hubOffset());
             }
             case TEAM -> {
                 Team team = require(dataService.getTeamById(id, normalizedLang), type, id);
                 var profile = dataService.getTeamProfiles().get(id);
                 yield detail(teamItem(team), team.description(), userVector,
-                        profile == null ? null : profile.vector());
+                        profile == null ? null : profile.vector(), profile == null ? 0.0 : profile.hubOffset());
             }
             case FOOTBALL_IDEOLOGY -> {
                 FootballIdeology ideology = require(dataService.getFootballIdeologyById(id, normalizedLang), type, id);
                 var profile = dataService.getFootballIdeologyProfiles().get(id);
                 yield detail(footballIdeologyItem(ideology), ideology.description(), userVector,
-                        profile == null ? null : profile.vector());
+                        profile == null ? null : profile.vector(), profile == null ? 0.0 : profile.hubOffset());
             }
             default -> throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Tipo de comparação inválido");
         };
     }
 
+    // Mesma nota do ranking (com o hubOffset), para o comparador mostrar o mesmo numero da lista.
     private CompareDetail detail(CompareItem item, String description, Map<String, Double> userVector,
-                                 Map<String, Double> vector) {
+                                 Map<String, Double> vector, double hubOffset) {
         Map<String, Double> target = vector == null || vector.isEmpty() ? scorer.neutralVector() : vector;
-        return new CompareDetail(item, description, scorer.displayScore(scorer.compatibility(userVector, target)), target);
+        return new CompareDetail(item, description,
+                scorer.displayScore(scorer.rankingScore(userVector, target, hubOffset)), target);
     }
 
     private static <T> T require(T value, String type, String id) {

@@ -80,7 +80,9 @@ public class FootballIdeologyMatcherService {
 
     private IdeologyCandidate toCandidate(FootballIdeology ideology, Map<String, Double> userVector) {
         Map<String, Double> targetVector = targetVectorFor(ideology);
-        double compatibility = profileMatchScorer.compatibility(userVector, targetVector);
+        FootballIdeologyProfile profile = dataService.getFootballIdeologyProfiles().get(ideology.id());
+        double hubOffset = profile == null ? 0.0 : profile.hubOffset();
+        double compatibility = profileMatchScorer.rankingScore(userVector, targetVector, hubOffset);
         return new IdeologyCandidate(ideology, targetVector, compatibility, 0.0);
     }
 

@@ -143,6 +143,40 @@ O resultado final e:
 round1(clamp(compatibilidade, 0, 100))
 ```
 
+### 0. Esticar usuarios moderados (`stretch`, desde 2026-11-06)
+
+Antes dos 4 componentes, o vetor do usuario (so ele, nunca o do perfil) e afastado do centro ate a intensidade tipica dos catalogos, mantendo a direcao:
+
+```text
+intensidade = media(|u - 50|) nos eixos comparados
+fator = clamp(STRETCH_TARGET / intensidade, 1, STRETCH_MAX)     STRETCH_TARGET = 20, STRETCH_MAX = 3
+u' = clamp(50 + (u - 50) * fator, 0, 100)
+```
+
+Por que: as respostas reais sao moderadas (testadores de 2026-11-06: cerca de 1/3 dos eixos em 50% e intensidade media perto de 9), e todos os perfis sao mais marcados (mediana 19 a 23). Sem o esticamento, os perfis mais moderados (Shankly, Zidane, Combination game, Futebol cientifico sovietico) ficavam em 1o para quase todo mundo. Usuarios com intensidade 20 ou mais nao mudam. Efeito colateral aceito: um usuario que responde exatamente como um perfil moderado nao chega a 100 com ele, e um usuario morno pode cair em perfis mais marcados (a metrica de extremidade do benchmark caiu de 84 para 76).
+
+## Ranking do catalogo (`rankingScore`) e `hubOffset`
+
+Mesmo com o esticamento, alguns perfis ficam perto da direcao de quase todo usuario ("hubs"). O ranking de ideias de jogo, times e treinadores, e o comparador, usam:
+
+```text
+rankingScore = round1(clamp(compatibilidade - HUB_PENALTY_WEIGHT * hubOffset, 0, 100))     HUB_PENALTY_WEIGHT = 0.5
+```
+
+`hubOffset` fica em cada entrada de `*-profiles.json` e e calculado por `profile-audit/hub_offsets.py`: a compatibilidade media do perfil contra 4.000 usuarios simulados do quiz (inclinacao por eixo, respostas Likert com ruido, 30% dos eixos em 50) menos a media do catalogo. Positivo = perfil perto de todo mundo, perde pontos; negativo = perfil raro, ganha.
+
+- Rode `python3 profile-audit/hub_offsets.py` sempre que um vetor mudar ou um perfil entrar/sair; `profile-audit/tests/test_hub_offsets.py` falha se os offsets estiverem desatualizados. Perfil sem `hubOffset` vale 0.
+- Os cartoes por dimensao (`*DimensionMatcherService`) usam so a compatibilidade (com esticamento), sem offset: os offsets sao dos 12 eixos.
+- `--check` imprime o relatorio de hubs (quantas vezes o lider ganha a parte justa, quantos perfis nunca ficam em 1o) sem gravar.
+
+Efeito em 3.000 usuarios simulados (lider do 1o lugar, em vezes a parte justa):
+
+| | Antes | So esticamento | Esticamento + offset |
+|---|---|---|---|
+| Ideias de jogo | 4,8x | 2,6x | 2,7x, todas ficam em 1o para alguem |
+| Times | 7,7x | 6,1x | 5,0x, todos ficam em 1o para alguem |
+| Treinadores | 8,9x (Shankly) | 4,2x | 3,2x, todos ficam em 1o para alguem |
+
 ### 1. `axisSimilarity`
 
 Pergunta: em quantos eixos os dois perfis batem?
@@ -370,19 +404,23 @@ Benchmark intra-catalogo. Mede:
 
 O teste le os catalogos reais de `src/main/resources/data`, nao o catalogo sintetico do classpath de teste, e nao sobe o Spring.
 
-Calibrado em 2026-11 nos catalogos de futebol (25 ideias de jogo, 79 times, 65 treinadores). Valor medido com a formula atual e limite do teste:
+Recalibrado em 2026-11-06 com o esticamento e o `hubOffset` (o benchmark ranqueia com `rankingScore`, como o app), nos catalogos de futebol (25 ideias de jogo, 79 times, 65 treinadores). Valor medido, pior valor em 12 sementes e limite do teste; entre parenteses, o valor medido antes do esticamento:
 
-| Metrica | Medido | Limite |
-|---|---|---|
-| Recuperacao, ruido 10 | 91,7% | 86 |
-| Recuperacao, ruido 15 | 79,3% | 70 |
-| Rejeicao de oposto | 96,5% | 94 |
-| Rejeicao de centro | 88,7% | 83 |
-| Estabilidade | 100% | 97 |
-| Discriminacao | 9,59% | 7,5 |
-| Controle de extremidade | 83,8% | 82 |
+| Metrica | Medido | Pior em 12 sementes | Limite |
+|---|---|---|---|
+| Recuperacao, ruido 10 | 85,2% (91,7) | 82,8 | 82 (80 desde 2026-11-06, ver abaixo) |
+| Recuperacao, ruido 15 | 71,6% (79,3) | 66,3 | 65 |
+| Rejeicao de oposto | 99,1% (96,5) | 99,1 | 98 |
+| Rejeicao de centro | 94,5% (88,7) | 93,8 | 93 |
+| Estabilidade | 98,2% (100) | 98,2 | 97 |
+| Discriminacao | 9,33% (9,59) | 8,91 | 8,5 |
+| Controle de extremidade | 75,7% (83,8) | 74,9 | 74 |
 
-Os limites ficam abaixo do pior valor da formula atual em 12 sementes de simulacao. Oposto, centro e extremidade tambem ficam acima do que formulas piores obtem: so similaridade por eixo (oposto 93,5%), sem termo de direcao (oposto 87,2%) e sem termo de magnitude (centro 78,7%, extremidade 81,8%) reprovam o teste. Recuperacao, estabilidade e discriminacao quase nao diferenciam formulas; so protegem contra quebra grosseira. Os limites antigos (72, 45, 85, 60, 96, 3,4, 80) eram dos catalogos politicos. Recalibrar se os catalogos mudarem muito.
+Recalibracao parcial em 2026-11-06, depois de refazer 23 perfis e incluir De Zerbi e Gasperini (67 treinadores, 80 times): em 12 sementes a recuperacao com ruido 10 vai de 80,7 a 87,1 (media 84,0), entao o limite passou de 82 para 80. Os demais limites continuam abaixo do pior valor medido (recuperacao 15: 67,3; oposto: 99,1; centro: 93,2; estabilidade: 97,7; discriminacao: 8,58; extremidade: 75,5).
+
+Recuperacao e extremidade cairam de proposito: o offset tira pontos de perfis moderados mesmo quando o usuario e uma copia ruidosa deles, e o esticamento leva usuarios mornos a perfis mais marcados. Os numeros abaixo sobre formulas piores sao da calibracao anterior (sem esticamento).
+
+Na calibracao anterior, os limites ficavam abaixo do pior valor da formula em 12 sementes de simulacao. Oposto, centro e extremidade tambem ficam acima do que formulas piores obtem: so similaridade por eixo (oposto 93,5%), sem termo de direcao (oposto 87,2%) e sem termo de magnitude (centro 78,7%, extremidade 81,8%) reprovam o teste. Recuperacao, estabilidade e discriminacao quase nao diferenciam formulas; so protegem contra quebra grosseira. Os limites antigos (72, 45, 85, 60, 96, 3,4, 80) eram dos catalogos politicos. Recalibrar se os catalogos mudarem muito.
 
 ### Calibracao das constantes para futebol
 

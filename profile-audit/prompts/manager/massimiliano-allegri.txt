@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, jog, lar, lid, pos, pro. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK manager:massimiliano-allegri" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,31 +45,975 @@ After writing the file, reply only with "OK manager:massimiliano-allegri" and a 
   "id": "massimiliano-allegri",
   "catalog": "manager",
   "name": "Massimiliano Allegri",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2010-06-25",
     "end": "2024-05-17"
   },
-  "scopeNote": "Manager profile of Massimiliano Allegri across three counted spells: AC Milan (25 June 2010 to 13 January 2014: Serie A 2010-11, Supercoppa Italiana 2011), Juventus (16 July 2014 to 26 May 2019: five Serie A, four Coppa Italia and two Supercoppa titles) and Juventus again (1 July 2021 to 17 May 2024: Coppa Italia 2023-24). Dates from the Wikipedia statistics table. Excluded: Aglianese, SPAL, Grosseto and Sassuolo (lower divisions, Sassuolo's Serie C1 title only), Cagliari 2008-10 (no titles), AC Milan 2025-26 (no titles), Napoli 2026 (nine matches).",
+  "scopeNote": "Three counted spells: AC Milan 2010-06-25 to 2014-01-13; Juventus 2014-07-16 to 2019-05-26; Juventus 2021-07-01 to 2024-05-17. Style is described by tactical sources as pragmatic, formation-flexible (4-3-3/4-3-1-2 at Milan; 3-5-2, 4-3-1-2, 4-2-3-1, 4-4-2 and later 3-5-2/5-3-2 at Juventus) with a compact, passive 4-4-2 or 5-3-2 block, wide build-up and counters; 'corto muso' is a media/club label (Agnelli 2021) that Allegri himself pushed back on, not a tactical system. Marking: Hudl describes ball-oriented marking with man-marking of free players in pressing (zonal block, man-oriented pressing), no source calls it pure zonal or man-to-man. Coverage of the Milan spell is thin and mostly tier C. Excluded-spell dates are approximate and unresearched. Dated Milan departure and Juventus dates come from the user's decision, not re-verified here.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Agnelli (2021-07-27, ecoseven/Adnkronos) attributes the 'corto muso' theory to Allegri; no primary first appearance of Allegri's own phrase found. Allegri later (Spezia press conference, 2022) said it referred to the league race, per a search summary only (unverified).",
+    "'Il calcio non è matematica': the SOS Fanta page (2024-02-16) returned no readable paragraph, so the quote is not verified in this file.",
+    "No tier A-B source found for Allegri's Milan 2010-14 tactics or set-piece routines; SoccerTutor and Coaches' Voice mostly cover the first Juventus spell.",
+    "Marking: sources describe man-oriented duties inside a zonal-looking block (Hudl: 'mark all opponents around' the ball); Muntari shadowing Xavi (Milan v Barcelona 2012) is a single-match man-marking assignment.",
+    "SoccerTutor article covers mainly Conte's 2013-14 3-5-2; only the 4-2-3-1 paragraph is used as Allegri evidence."
+  ],
+  "sources": [
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Prioritising a 3-5-2 built on the revered back three of Andrea Barzagli, Leonardo Bonucci and Giorgio Chiellini, Juve's attacking width was provided by their wing-backs; of their three central midfielders, one remained withdrawn to defend, and the other two advanced through the inside channels and alongside their wing-backs to support their front two.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Juve's attacking width was provided by their wing-backs; of their three central midfielders, one remained withdrawn to defend, and the other two advanced through the inside channels and alongside their wing-backs to support their front two.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "A further change involved Allegri reorganising his team into a 4-2-3-1 (below) built on the double pivot of Khedira and Miralem Pjanic, and led by Gonzalo Higuaín, following his arrival from Napoli, ensuring Dybala instead featured as their number 10 and Mandzukic towards the left",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "That Mandzukic was instructed to so often attack infield meant that Alex Sandro was responsible for providing their width from left-back, and that their double pivot was responsible for providing defensive cover through the inside channel and therefore made fewer forward runs.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Allegri's willingness to adapt to the players at his disposal meant him also increasingly using a 4-4-2 or 4-3-3 – sometimes, mid-match – across the final two seasons of that first spell as Juve's manager, as was demanded by their opponents' shape.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Cristiano Ronaldo's arrival, and Bonucci's return from AC Milan and with it his distribution, meant Ronaldo replacing Mandzukic and a reduced emphasis on Pjanic to build play from the defensive half.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Allegri has long favoured an organised defence and a disciplined, somewhat reserved, defensive block, but there remain occasions when he oversees a high press. When Juve's back three was being implemented, their wing-backs withdrew into defence to form a back five (below) that was protected by three central midfielders prioritising the spaces in front of their three central defenders.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Their front two worked to cover the central spaces and to force possession wide; one also operated from a slightly withdrawn position to offer cover against their opposing defensive midfielder, a tactic that proved particularly influential against opponents largely reliant on that midfielder to dictate play.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "The presence of a back five also meant that the most central defender – most regularly Bonucci – could react aggressively when opponents advanced beyond Juve's midfield, potentially to press, in the knowledge that a back four would remain in place behind him",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "When their shape evolved to instead feature a back four, if not a 4-2-3-1, their most common defensive shape was a 4-4-2 that was favoured when they were defending for lengthier periods, and not when applying a high press. Mandzukic and Cuadrado withdrew into midfield to provide cover from alongside Pjanic and Khedira and in front of the full-backs who had retreated into defence.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "It was while in that 4-4-1-1 that Juve's two central midfielders withdrew into deeper positions than those adopted in their 4-4-2, and pressed with reduced aggression, ultimately prioritising defending the spaces between the lines because of the reduced number of defenders behind them.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "By Bonucci or another advancing, there were also times attacks were delayed long enough for their three midfielders to press from behind or to the side of the ball, and potentially to force it wide, to where their wing-backs were proven at defending one-on-one.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2015/16",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "When their defensive block was established, Juve were content to frustrate opponents and to defend for lengthy periods of organised defending.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Coach Watch - Coaches' Voice",
+      "url": "https://learning.coachesvoice.com/cv/max-allegri-juventus-pirlo/",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-05-23",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Allegri's willingness to adapt to the players at his disposal meant him also increasingly using a 4-4-2 or 4-3-3 – sometimes, mid-match",
+      "verified": true
+    },
+    {
+      "title": "Allegri's Juventus: Champions Once More? (Tifo Football, transcript)",
+      "url": "https://rosetta.to/u/tifo/allegri-s-juventus-champions-once-more",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-01",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Allegri is tactically flexible and adapts his formations to the players available. While he has used a 3-5-2, Juventus has more recently often lined up in a 4-2-3-1, which can fluctuate to a 4-4-2 when defending.",
+      "verified": true
+    },
+    {
+      "title": "Allegri's Juventus: Champions Once More? (Tifo Football, transcript)",
+      "url": "https://rosetta.to/u/tifo/allegri-s-juventus-champions-once-more",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-01",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "When Juventus loses possession, they tend to drop into a more defensive 4-4-2 configuration. They are more passive in their approach, preferring to compress space and wait for opposition mistakes rather than aggressively pressing.",
+      "verified": true
+    },
+    {
+      "title": "Allegri's Juventus: Champions Once More? (Tifo Football, transcript)",
+      "url": "https://rosetta.to/u/tifo/allegri-s-juventus-champions-once-more",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-01",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Allegri likes his team to drop into a more defensive 4-4-2 configuration with the wide midfielders dropping in alongside the two central midfielders in the double pivot however given the fact that both P an itch and Khedira are played for their ball playing prowess rather than their explicitly defensive capabilities the Aventis forward players will often press the opposition defenders aggressively at first to allow the central midfielders to adjust to a defensive position",
+      "verified": true
+    },
+    {
+      "title": "Allegri's Juventus: Champions Once More? (Tifo Football, transcript)",
+      "url": "https://rosetta.to/u/tifo/allegri-s-juventus-champions-once-more",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-01",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Allegri uses Chiellini as a ball carrier encouraging him to break into the midfield opening up the passing lanes that would otherwise remain closed",
+      "verified": true
+    },
+    {
+      "title": "Allegri's Juventus: Champions Once More? (Tifo Football, transcript)",
+      "url": "https://rosetta.to/u/tifo/allegri-s-juventus-champions-once-more",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2018-02-01",
+      "eventDate": "2017/18",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "legree is not keen to have his team pressured the ball too vigorously as this could open up spaces that could then be exploited by their opponents as a result the event has often retreat deep into their own half looking to compress space and win the ball back through opposition mistakes",
+      "verified": true
+    },
+    {
+      "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty (SoccerTutor)",
+      "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-06-24",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Allegri's 4-2-3-1 had a distinctive attacking pattern. He asked the forward (9) and both wingers (11 and 7) to drop between the lines, creating a constant dilemma for defenders. If the defender didn't follow, the Juventus player turned with space. If the defender did follow, that movement opened the channel behind for a runner.",
+      "verified": true
+    },
+    {
+      "title": "Juventus Tactics: Conte, Allegri and the 3-5-2 Dynasty (SoccerTutor)",
+      "url": "https://www.soccertutor.com/blogs/inside-football-coaching/juventus-tactics-conte-allegri",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2026-06-24",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Miralem Pjanic was central to making it work. His vision and passing range let him read each scenario and pick the right ball: a straight pass through the middle for the number 10's diagonal run, a diagonal between centre-back and full-back for the left winger, or an aerial pass to the right winger when that flank opened up.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Allegri's ideal 5-3-2 should be the one seen in the game against Napoli: in front of Szczęsny played the defensive trio made up of Gatti on the right, Bremer in the center and Danilo on the left. On the wings, Kostic to the left and Cambiaso to the right",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "high pressure is not constant but rather used in particular situations: goal kicks from the goalkeeper and backside passes towards the defense. Juventus use the ball as the first reference, to then mark all opponents around it. The pressing style changes according to the opponent's position.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Against a three-man defense like Inter's, one of the inside forwards joins the two strikers to pressure the center-backs, making sure there's a 3v3 situation when the opponents build up from the back. When this happens, Juve's center-back on that side moves forward to mark the man who is left free by the Mezzala's movement",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "the best move of Allegri's football remains the positional defense in their own half. Juve compacts vertically in their 5-3-2 that wants to close off the center of the pitch for the opponents, forcing them towards the wings. There, with the help of the sideline, the inside forward and winger pressure more aggressively on the opponents. Juventus' PPDA data – 12.04, the seventh-highest in the league",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Juventus don't have a very elaborate first phase of possession to avoid losing dangerous balls to the opponents. When advancing in the build-up, they prefer not to seek passes in central areas, which would make it easier for their opponents to win the ball back and counterattack quickly. This is why Allegri mostly asks his players to develop the buildup in wide areas, with lots of switch of plays",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Juventus sometimes do the opposite: they defend with three center-backs but build up with a four-man defense, with Kostic lying deep as a left full-back and Gatti going wide as the right full-back.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "McKennie runs wider on the right or Chiesa does the same on the left. By doing so, Rabiot and Kostic can lie deep on the left to absorb a potential defensive transition, while Cambiaso and Gatti do the same on the right.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Juve puts all the other four defenders plus Locatelli within the penalty box to block all crosses, a fundamental in which all the Bianconeri's defenders – including substitutes – excel",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Positioning on the pitch and the build-up structure, then, depends on the willingness to avoid risks.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "The three starting midfielders – Rabiot, Locatelli and McKennie – all stand above 1.85m, which helps them create density centrally. The two Mezzali, Rabiot and McKennie, then have great pace and stride, which makes them perfect to run toward the flanks that are required by Allegri's 5-3-2.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Allegri has often been criticized for his conservative approach but, at the end of the day, nobody manages to play well against Juventus.",
+      "verified": true
+    },
+    {
+      "title": "How Defensive Effort Is Powering Juventus' Challenge for the Serie A Title (Hudl)",
+      "url": "https://www.hudl.com/blog/juventus-defense-allegri",
+      "tier": "A",
+      "language": "en",
+      "articleDate": "2024-01-12",
+      "eventDate": "2023/24",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Those who are called to replace the starters can keep high performances that are mainly focused on the willingness to sacrifice without the ball.",
+      "verified": true
+    },
+    {
+      "title": "Anatomy of a Goal: How Bayern's counter-pressing blew up Juventus' defensive shape (theScore)",
+      "url": "https://thescore.com/chlg/news/966671",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-24",
+      "eventDate": "2016-02-23",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Juventus manager Massimiliano Allegri's tactical decision was clear; sit extremely deep, cut off everything through the middle of the pitch, funnel Bayern out wide and clear the crosses when they were whipped into the area",
+      "verified": true
+    },
+    {
+      "title": "Anatomy of a Goal: How Bayern's counter-pressing blew up Juventus' defensive shape (theScore)",
+      "url": "https://thescore.com/chlg/news/966671",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2016-02-24",
+      "eventDate": "2016-02-23",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Then, just when the Bianconeri should be in the clear and in position to hit on the break, Bayern's counter-press blows everything up.",
+      "verified": true
+    },
+    {
+      "title": "How Juventus shut down Monaco's high-flying attack (theScore)",
+      "url": "https://www.thescore.com/epl/news/1294063",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-03",
+      "eventDate": "2017-05-03",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Juventus attacked when it saw an opportunity, committed professional fouls when Monaco pressed, and defended in numbers when the opposition took over longer spells of possession.",
+      "verified": true
+    },
+    {
+      "title": "How Juventus shut down Monaco's high-flying attack (theScore)",
+      "url": "https://www.thescore.com/epl/news/1294063",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-03",
+      "eventDate": "2017-05-03",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "It was Massimiliano Allegri's tactics, and particularly his use of wing-backs, that powered Juventus to the brink of a second Champions League final in three years.",
+      "verified": true
+    },
+    {
+      "title": "How Juventus shut down Monaco's high-flying attack (theScore)",
+      "url": "https://www.thescore.com/epl/news/1294063",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-03",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Allegri, who has moulded his players to shape a stable 4-2-3-1, challenged one of his veterans to tap into his attacking instincts and fill the void.",
+      "verified": true
+    },
+    {
+      "title": "Relentless Juve underpinned by rotation, reinvention (Reuters via SBS)",
+      "url": "https://www.sbs.com.au/news/article/2017/02/10/relentless-juve-underpinned-rotation-reinvention",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-09",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Allegri has moved away from his tried-and-tested 4-3-1-2 formation and experimented with an attractive 4-2-3-1 approach that has helped Juventus to five straight victories.",
+      "verified": true
+    },
+    {
+      "title": "Relentless Juve underpinned by rotation, reinvention (Reuters via SBS)",
+      "url": "https://www.sbs.com.au/news/article/2017/02/10/relentless-juve-underpinned-rotation-reinvention",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-09",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Against Inter on Sunday, it was Juan Cuadrado who settled a physical contest but he was rested against Crotone as Allegri gave summer signing Marko Pjaca his first start.",
+      "verified": true
+    },
+    {
+      "title": "Relentless Juve underpinned by rotation, reinvention (Reuters via SBS)",
+      "url": "https://www.sbs.com.au/news/article/2017/02/10/relentless-juve-underpinned-rotation-reinvention",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-02-09",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "the coach has proved a master of squad rotation and tactical tweaks",
+      "verified": true
+    },
+    {
+      "title": "Le porte inviolate e la miglior difesa della Serie A: il 3-5-2 di Allegri ha cambiato la Juventus (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/le-porte-inviolate-e-la-miglior-difesa-della-serie-a-il-3-5-2-di-allegri-ha-cambiato-la-juventus/blt87f09e1366b0d1f9",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-11-06",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Ritornare a un 3-5-2 più solido e concreto ha restituito ai bianconeri la consapevolezza di potersi difendere e attaccare senza subire troppo il gioco avversario",
+      "verified": true
+    },
+    {
+      "title": "Le porte inviolate e la miglior difesa della Serie A: il 3-5-2 di Allegri ha cambiato la Juventus (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/le-porte-inviolate-e-la-miglior-difesa-della-serie-a-il-3-5-2-di-allegri-ha-cambiato-la-juventus/blt87f09e1366b0d1f9",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-11-06",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "L'altro fattore della \"nuova\" Juventus è la capacità di andare in pressione sull'avversario, senza perdere ordine in campo",
+      "verified": true
+    },
+    {
+      "title": "Le porte inviolate e la miglior difesa della Serie A: il 3-5-2 di Allegri ha cambiato la Juventus (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/le-porte-inviolate-e-la-miglior-difesa-della-serie-a-il-3-5-2-di-allegri-ha-cambiato-la-juventus/blt87f09e1366b0d1f9",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-11-06",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Coprirsi, aspettare e ripartire è sempre la mossa giusta.",
+      "verified": true
+    },
+    {
+      "title": "Le porte inviolate e la miglior difesa della Serie A: il 3-5-2 di Allegri ha cambiato la Juventus (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/le-porte-inviolate-e-la-miglior-difesa-della-serie-a-il-3-5-2-di-allegri-ha-cambiato-la-juventus/blt87f09e1366b0d1f9",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-11-06",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Il resto lo consegna l'efficacia degli spostamenti di Cuadrado e Kostic in ruoli maggiormente congeniali alle loro caratteristiche",
+      "verified": true
+    },
+    {
+      "title": "Le porte inviolate e la miglior difesa della Serie A: il 3-5-2 di Allegri ha cambiato la Juventus (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/le-porte-inviolate-e-la-miglior-difesa-della-serie-a-il-3-5-2-di-allegri-ha-cambiato-la-juventus/blt87f09e1366b0d1f9",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-11-06",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Sull'inserimento dei giovani, Miretti e Fagioli, bisogna però aprire una parentesi: senza gli infortuni probabilmente non ci saremmo trovati di fronte a una possibilità del genere.",
+      "verified": true
+    },
+    {
+      "title": "Le porte inviolate e la miglior difesa della Serie A: il 3-5-2 di Allegri ha cambiato la Juventus (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/le-porte-inviolate-e-la-miglior-difesa-della-serie-a-il-3-5-2-di-allegri-ha-cambiato-la-juventus/blt87f09e1366b0d1f9",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2022-11-06",
+      "eventDate": "2022/23",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "scalando sul mediano, in questo caso Locatelli, quando l'Inter tendeva a venire in mezzo al campo per trovare il dai e vai con la trequarti: in questo modo riuscivano sempre a raddoppiare, riconquistando il possesso.",
+      "verified": true
+    },
+    {
+      "title": "How Allegri's tactical masterclass stunned rigid Simone Inzaghi (Total Italian Football)",
+      "url": "https://www.total-italianfootball.com/news/314972737030/how-massimiliano-allegri-s-tactical-masterclass-stunned-rigid-simone-inzaghi-in-juventus-win-over-inter",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-03-20",
+      "eventDate": "2023-03-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Starting with a compact back-three, Mattia De Sciglio as a defensive right winger in a 3-5-1-1 setup, and Matias Soulé as lone support to striker Dusan Vlahovic, it was clear that Juventus were prepared to defend deep for long stretches",
+      "verified": true
+    },
+    {
+      "title": "How Allegri's tactical masterclass stunned rigid Simone Inzaghi (Total Italian Football)",
+      "url": "https://www.total-italianfootball.com/news/314972737030/how-massimiliano-allegri-s-tactical-masterclass-stunned-rigid-simone-inzaghi-in-juventus-win-over-inter",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-03-20",
+      "eventDate": "2023-03-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Inter's attempts to find an early breakthrough were marked by a number of players constantly running forward to support their offensive play, which ended up creating spaces that the Bianconeri dangerously explored through Adrien Rabiot's excellent ball carries and Filip Kostic's runs down the left flank as soon as the visitors won possession back.",
+      "verified": true
+    },
+    {
+      "title": "How Allegri's tactical masterclass stunned rigid Simone Inzaghi (Total Italian Football)",
+      "url": "https://www.total-italianfootball.com/news/314972737030/how-massimiliano-allegri-s-tactical-masterclass-stunned-rigid-simone-inzaghi-in-juventus-win-over-inter",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-03-20",
+      "eventDate": "2023-03-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Strengthened by the advantage, the visitors were further encouraged to build a defensive wall and leave control of the ball to the Nerazzurri",
+      "verified": true
+    },
+    {
+      "title": "How Allegri's tactical masterclass stunned rigid Simone Inzaghi (Total Italian Football)",
+      "url": "https://www.total-italianfootball.com/news/314972737030/how-massimiliano-allegri-s-tactical-masterclass-stunned-rigid-simone-inzaghi-in-juventus-win-over-inter",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2023-03-20",
+      "eventDate": "2023-03-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Filip Kostic's runs down the left flank as soon as the visitors won possession back.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Juventus' Master Tactician Prepares for Real Madrid (World Football Index)",
+      "url": "https://worldfootballindex.com/2017/05/massimiliano-allegri-juventus-master-tactician-prepares-real-madrid/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-31",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Allegri assigned Sulley Muntari to shadow Xavi, the conductor of the Barcelona orchestra, and he knew that if he could pressure him the chances for success were greater.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Juventus' Master Tactician Prepares for Real Madrid (World Football Index)",
+      "url": "https://worldfootballindex.com/2017/05/massimiliano-allegri-juventus-master-tactician-prepares-real-madrid/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-31",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Then instead of dropping back and defend the lead, Allegri forced his men to push up and pressure Barca even more.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Juventus' Master Tactician Prepares for Real Madrid (World Football Index)",
+      "url": "https://worldfootballindex.com/2017/05/massimiliano-allegri-juventus-master-tactician-prepares-real-madrid/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-31",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Allegri tinkered with different formations, switching from the 4-3-1-2, 4-4-2 and 4-3-3 and showed how versatile not only he, but his Juventus squad were.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Juventus' Master Tactician Prepares for Real Madrid (World Football Index)",
+      "url": "https://worldfootballindex.com/2017/05/massimiliano-allegri-juventus-master-tactician-prepares-real-madrid/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-31",
+      "eventDate": "2016/17",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "There was a switch away from the 4-2-3-1 to a 3-4-3 and the BBC backline of Andrea Barzagli, Leonardo Bonucci and Giorgio Chiellini was reinstated with wing-backs Dani Alves on the right and Alex Sandro on the left.",
+      "verified": true
+    },
+    {
+      "title": "Massimiliano Allegri: Juventus' Master Tactician Prepares for Real Madrid (World Football Index)",
+      "url": "https://worldfootballindex.com/2017/05/massimiliano-allegri-juventus-master-tactician-prepares-real-madrid/",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2017-05-31",
+      "eventDate": "2014/15",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "He did not want to disrupt the dressing room too much and kept the Conte formation in reserve for important moments and the end of games.",
+      "verified": true
+    },
+    {
+      "title": "Allegri's A.C. Milan Show Signs of Promise (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/481651-allegris-ac-milan-show-signs-of-promise",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-10-04",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Having experimented with a 4-3-1-2 system in Amsterdam, it remained to be seen whether Allegri would continue with this same system after his side collected a valuable point away from home. Despite the positive result, Allegri opted to revert back to his preferred 4-3-3 against Parma",
+      "verified": true
+    },
+    {
+      "title": "Allegri's A.C. Milan Show Signs of Promise (Bleacher Report)",
+      "url": "https://bleacherreport.com/articles/481651-allegris-ac-milan-show-signs-of-promise",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2010-10-04",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Both Ronaldinho and Robinho played a little deeper and more central than usual, making Milan's formation appear more like the old Xmas tree formation that Carlo Ancelotti was once famous for. By doing this, Parma's central midfielders were given less space which made it hard for Parma to retain possession.",
+      "verified": true
+    },
+    {
+      "title": "Allegri fits in at Milan like a hand in glove (The National)",
+      "url": "https://www.thenationalnews.com/sport/allegri-fits-in-at-milan-like-a-hand-in-glove-1.376773",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-07",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "The Tuscan coach has guided these newcomers astutely, found a method of maintaining his relative independence from Berlusconi, with whom Leonardo had clashed",
+      "verified": true
+    },
+    {
+      "title": "Allegri fits in at Milan like a hand in glove (The National)",
+      "url": "https://www.thenationalnews.com/sport/allegri-fits-in-at-milan-like-a-hand-in-glove-1.376773",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-07",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "\"There's a good atmosphere,\" Ibrahimovic said after two months at Milan, \"and the coach is more relaxed than a Fabio Capello or a Jose Mourinho, others I've worked with. But you can also see he's capable of getting angry.\"",
+      "verified": true
+    },
+    {
+      "title": "Allegri fits in at Milan like a hand in glove (The National)",
+      "url": "https://www.thenationalnews.com/sport/allegri-fits-in-at-milan-like-a-hand-in-glove-1.376773",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-07",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "There is still a lack of width at times in Milan's football, though that comes from a personnel shortage Allegri inherited.",
+      "verified": true
+    },
+    {
+      "title": "Allegri fits in at Milan like a hand in glove (The National)",
+      "url": "https://www.thenationalnews.com/sport/allegri-fits-in-at-milan-like-a-hand-in-glove-1.376773",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2011-05-07",
+      "eventDate": "2010/11",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Allegri approved Ronaldinho's departure. He has not been left regretting that decision.",
+      "verified": true
+    },
+    {
+      "title": "Allegri: «Dispiaciuto per Pogba. Bonucci? Le soap opera non mi appassionano» (Calcio e Finanza)",
+      "url": "https://www.calcioefinanza.it/?p=128770",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2023-09-15",
+      "eventDate": "2023-09-15",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Bonucci non ha creato nessuna una guerra interna nello spogliatoio. È stata presa una decisione normale, ora è andato in una squadra che gioca la Champions.",
+      "verified": true
+    },
+    {
+      "title": "Allegri: \"Bella vittoria. Corto muso? Il calcio è strategia\" (90min)",
+      "url": "https://www.90min.com/it/posts/allegri-bella-vittoria-corto-muso-calcio-strategia",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2021-11-20",
+      "eventDate": "2021-11-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "Giocavano Juve-Lazio, non è questione di corto muso. A quale allenatore non piace giocare? Ma poi ci sono gli avversari, il calcio è anche strategia. Una gara non è scritta su un protocollo quello che succede dal 1' al 90'.",
+      "verified": true
+    },
+    {
+      "title": "Allegri: \"Bella vittoria. Corto muso? Il calcio è strategia\" (90min)",
+      "url": "https://www.90min.com/it/posts/allegri-bella-vittoria-corto-muso-calcio-strategia",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2021-11-20",
+      "eventDate": "2021-11-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "abbiamo molto limitato il loro palleggio e abbiamo avuto pazienza e poi velocità dopo la riconquista",
+      "verified": true
+    },
+    {
+      "title": "Allegri: \"Bella vittoria. Corto muso? Il calcio è strategia\" (90min)",
+      "url": "https://www.90min.com/it/posts/allegri-bella-vittoria-corto-muso-calcio-strategia",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2021-11-20",
+      "eventDate": "2021-11-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Siamo molto contenti, pensavo che la Lazio tenesse il 70% del possesso palla e invece siamo migliorati",
+      "verified": true
+    },
+    {
+      "title": "Juventus, Allegri espone il suo 'manifesto' (Goal.com Italia)",
+      "url": "https://www.goal.com/it/notizie/juventus-allegri-espone-il-suo-manifesto-contano-i-campioni-non-gli-schemi/10vtduhy7704h1x0rp6skoprea",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2018-04-29",
+      "eventDate": "2018-04-29",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "\"In questo momento non c'è brillantezza, è vero. Avremmo dovuto cercare di più Mandzukic e Douglas Costa tra le linee. Col Napoli è stata una gara bruttissima, sia noi che loro",
+      "verified": true
+    },
+    {
+      "title": "L'intervista di fine 2014 a Massimiliano Allegri (juventus.com, da Sky)",
+      "url": "https://www.juventus.com/it/news/articoli/l-intervista-di-fine-2014-a-massimiliano-allegri",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2014-12-26",
+      "eventDate": "2014-12-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "ho trovato un gruppo di ragazzi ancora vogliosi di vincere, una società che si è rimessa in discussione e quindi c'è stato subito feeling tra me e la squadra",
+      "verified": true
+    },
+    {
+      "title": "L'intervista di fine 2014 a Massimiliano Allegri (juventus.com, da Sky)",
+      "url": "https://www.juventus.com/it/news/articoli/l-intervista-di-fine-2014-a-massimiliano-allegri",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2014-12-26",
+      "eventDate": "2014-12-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "«Marchisio? E' un giocatore tatticamente intelligente, che mi dà equilibrio a metà campo.",
+      "verified": true
+    },
+    {
+      "title": "L'intervista di fine 2014 a Massimiliano Allegri (juventus.com, da Sky)",
+      "url": "https://www.juventus.com/it/news/articoli/l-intervista-di-fine-2014-a-massimiliano-allegri",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2014-12-26",
+      "eventDate": "2014-12-26",
+      "accessedOn": "2026-11-06",
+      "dimension": "stated-view",
+      "evidence": "per migliorarli bisognava e bisogna fare per forza meglio in Europa",
+      "verified": true
+    },
+    {
+      "title": "Game Review: il pareggio dell'Allianz Stadium (Juventus.com)",
+      "url": "https://www.juventus.com/it/news/articoli/juve-genoa-game-review",
+      "tier": "C",
+      "language": "it",
+      "articleDate": "2018-10-21",
+      "eventDate": "2018-10-20",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Il portoghese come sempre è il giocatore incaricato a stare all'altezza della metacampo in occasione dei calci d'angolo per evitare le ripartenze avversarie.",
+      "verified": true
+    },
+    {
+      "title": "Paredes o Vlahovic? Allegri svela la nuova gerarchia delle punizioni (Fantamaster)",
+      "url": "https://www.fantamaster.it/punizioni-juventus-tiratori-vlahovic-paredes-bonucci",
+      "tier": "D",
+      "language": "it",
+      "articleDate": "2022-09-12",
+      "eventDate": "2022-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "Allegri ha rivelato che Paredes resta il prescelto per i calci piazzati dal centro-sinistra, mentre Vlahovic manterrà la sua leadership sui piazzati dal centro-destra.",
+      "verified": false
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Giocavano Juve-Lazio, non è questione di corto muso. A quale allenatore non piace giocare? Ma poi ci sono gli avversari, il calcio è anche strategia.",
+      "date": "2021-11-20",
+      "source": "90min, post-match DAZN interview after Lazio-Juventus 0-2",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Quello che ci è sempre piaciuto vedere è la teoria del \"corto muso\", quindi essere sempre davanti all'ultimo metro",
+      "date": "2021-07-27",
+      "source": "Andrea Agnelli at Allegri's presentation (ecoseven/Adnkronos); club president, not Allegri",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "All'inizio giocavamo mezz'ora poi uscivamo dalla partita, ora invece ci rimaniamo",
+      "date": "2022-11",
+      "source": "Goal.com Italia, post-match after Juventus-Inter",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Avremmo dovuto cercare di più Mandzukic e Douglas Costa tra le linee.",
+      "date": "2018-04-29",
+      "source": "Goal.com Italia, interview with Sky Sport",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Le soap opera sono su Canale 5 e io non sono molto appassionato.",
+      "date": "2023-09-15",
+      "source": "Calcio e Finanza, press conference on Bonucci",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.fanpage.it/sport/calcio/allegri-si-gode-la-vittoria-sulla-lazio-di-sarri-corto-muso-il-calcio-e-strategia/",
+      "reason": "403"
+    },
+    {
+      "url": "https://www.football-italia.net/97263/allegri-i-had-mad-juventus-idea",
+      "reason": "404"
+    },
+    {
+      "url": "https://www.football-italia.net/58202/allegri-explains-tactical-changes%20",
+      "reason": "404"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/2019/05/18/addio-allegri-come-ha-cambiato-la-juventus",
+      "reason": "empty"
+    },
+    {
+      "url": "https://www.sosfanta.com/news/allegri-chiesa-e-yildiz-insieme-il-calcio-non-e-matematica-ci-lavoriamo-ogni-giorno-ma/amp/",
+      "reason": "empty"
+    },
+    {
+      "url": "https://betweentheposts.net/juventus-internazionale-allegris-men-edge-trademark-narrow-win-after-tactical-adjustments-from-both-managers-1-0/",
+      "reason": "403"
+    },
+    {
+      "url": "https://sport.sky.it/calcio/serie-a/2022/03/19/lite-dybala-allegri-juve-news",
+      "reason": "empty"
+    }
+  ],
+  "influences": [],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Good tier A-B coverage for Juventus 2014-19 (Coaches' Voice, Tifo) and 2023/24 (Hudl); Milan spell and set-pieces thin, stated view mostly press-reported."
+  },
   "spellsCounted": [
     {
       "club": "AC Milan",
       "start": "2010-06-25",
       "end": "2014-01-13",
-      "reason": "Serie A 2010-11 and the 2011 Supercoppa."
+      "reason": "Serie A 2010-11, Supercoppa 2011"
     },
     {
       "club": "Juventus",
       "start": "2014-07-16",
       "end": "2019-05-26",
-      "reason": "Five Serie A titles and four Coppa Italia titles: the side he is known for."
+      "reason": "Five Serie A, four Coppa Italia, two Supercoppa, two Champions League finals"
     },
     {
       "club": "Juventus",
       "start": "2021-07-01",
       "end": "2024-05-17",
-      "reason": "Coppa Italia 2023-24."
+      "reason": "Coppa Italia 2023-24"
     }
   ],
   "spellsExcluded": [
@@ -76,128 +1021,45 @@ After writing the file, reply only with "OK manager:massimiliano-allegri" and a 
       "club": "Aglianese",
       "start": "2003-07-01",
       "end": "2004-06-30",
-      "reason": "Lower division, no titles."
+      "reason": "minor club; dates approximate, not researched"
     },
     {
       "club": "SPAL",
       "start": "2004-07-01",
-      "end": "2005-05-30",
-      "reason": "Lower division, no titles."
+      "end": "2005-06-30",
+      "reason": "minor spell; dates approximate, not researched"
     },
     {
       "club": "Grosseto",
-      "start": "2005-07-19",
-      "end": "2006-10-29",
-      "reason": "Lower division, no titles."
+      "start": "2005-07-01",
+      "end": "2006-06-30",
+      "reason": "minor spell; dates approximate, not researched"
     },
     {
       "club": "Sassuolo",
-      "start": "2007-07-17",
-      "end": "2008-05-28",
-      "reason": "Serie C1 title only."
+      "start": "2006-07-01",
+      "end": "2007-12-31",
+      "reason": "minor spell; dates approximate, not researched"
     },
     {
       "club": "Cagliari",
-      "start": "2008-05-29",
-      "end": "2010-04-13",
-      "reason": "No titles."
+      "start": "2008-06-01",
+      "end": "2010-06-24",
+      "reason": "pre-Milan, no titles; dates approximate, not researched"
     },
     {
       "club": "AC Milan",
       "start": "2025-05-30",
       "end": "2026-05-25",
-      "reason": "No titles."
+      "reason": "decided by user: outside counted period"
     },
     {
       "club": "Napoli",
-      "start": "2026-07-03",
-      "end": "2026-10-17",
-      "reason": "Nine matches, too short to count."
+      "start": "2026-07-01",
+      "end": "ongoing",
+      "reason": "decided by user: outside counted period; start date approximate"
     }
-  ],
-  "ambiguities": [],
-  "openQuestions": [
-    "The pressing and game-management facts are secondary press assessments, not match analysis; the width, build-up and player-profile facts are not in the pages read."
-  ],
-  "sources": [
-    {
-      "title": "Massimiliano Allegri - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Massimiliano_Allegri",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2014",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"He initially continued to use Conte's trademark 3–5–2 formation, but later switched to a four-man back-line\" (Juventus, 2014-15)",
-      "verified": true
-    },
-    {
-      "title": "Massimiliano Allegri - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Massimiliano_Allegri",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2016",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "\"Allegri drew further praise in the media for his decision to occasionally depart from the team's trademark 3–5–2 formation\" (Juventus, 2016-17)",
-      "verified": true
-    },
-    {
-      "title": "Massimiliano Allegri - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Massimiliano_Allegri",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2014",
-      "accessedOn": "2026-10-17",
-      "dimension": "pressing",
-      "evidence": "\"Under Allegri, Juventus became slightly less aggressive and intense in their pressing off the ball\" (Juventus, 2014-15)",
-      "verified": true
-    },
-    {
-      "title": "Massimiliano Allegri - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Massimiliano_Allegri",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "2021",
-      "accessedOn": "2026-10-17",
-      "dimension": "game-management",
-      "evidence": "\"he has also earned both praise and criticism by pundits over his rigid, pragmatic style and defensive tactics\" (Juventus, 2021-24; pundits' assessment)",
-      "verified": true
-    }
-  ],
-  "statedView": [],
-  "unreadable": [],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "people-management",
-      "player-profile",
-      "possession",
-      "set-pieces",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "jog",
-      "lar",
-      "lid",
-      "pos",
-      "pro"
-    ]
-  },
-  "influences": [],
-  "confidence": {
-    "level": "medium",
-    "reason": "Dated career table with three titled spells; four tactical facts from the Wikipedia career section, two of them press assessments."
-  }
+  ]
 }
 
 === QUESTIONS BY AXIS ===
@@ -482,3 +1344,42 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: The coach is the boss, and the stars follow the same rules as everyone else.
    Agree means: The coach has the final word, and the rules apply equally to everyone, stars included.
    Disagree means: The coach negotiates with the stars, and they can be treated differently.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time
+
+
+ADDENDUM (consistency check, no target value): on the sis axis, agreeing with sis_01, sis_03 and sis_05 means the SYSTEM pole, and agreeing with sis_02 and sis_04 means the TALENT pole. Before writing your sis answers, re-read your own sis personaBrief and make sure each answer follows from it and from the evidence, one question at a time. Do not aim for any particular axis value; if the evidence is genuinely mixed, the answers should be mixed.

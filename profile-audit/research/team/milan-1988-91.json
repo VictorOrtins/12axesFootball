@@ -1,257 +1,682 @@
 {
-  "id": "milan-1988-91",
-  "catalog": "team",
-  "name": "Milan 1988-91 (Sacchi)",
-  "status": "complete",
-  "researchedOn": "2026-10-14",
-  "profilePeriod": {
-    "start": "1988-08-21",
-    "end": "1991-05-26"
+ "id": "milan-1988-91",
+ "catalog": "team",
+ "name": "AC Milan 1988-91 (Arrigo Sacchi)",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "1988-08-21",
+  "end": "1991-05-26"
+ },
+ "scopeNote": "AC Milan under Arrigo Sacchi, 1988/89 to 1990/91 (two European Cups, 1988/89 and 1989/90). Sources name the style 'zona-pressing' / zonal marking with pressing and an offside line from a compact 4-4-2; the 'zona-pressing' label is disputed by Van Basten, who called it defensive rather than revolutionary. Sacchi first appointed 1987; 1987/88 scudetto season and 1991/92 (Capello) excluded. Many Coaches' Voice and SempreMilan facts describe the Sacchi Milan generally (1987-91) and are dated 1989/90 (the middle season) as a stand-in for the whole 1988-91 spell; the real date of the quoted statedView items is the publication date of the page quoting them (the quotes themselves are undated); StatsBomb facts are tied to the 1989-05-24 final. The Italian-language press coverage found is mostly retrospective.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Scope not confirmed by the user: the period 1988-08-21 to 1991-05-26 leaves out the 1987/88 scudetto season under Sacchi.",
+  "Shape in possession: StatsBomb and Coaches' Voice describe an asymmetric 4-4-2; SempreMilan claims an asymmetric 3-4-2-1 in possession; a search summary of Sky Sport Italia (page unreadable) reported a 4-3-1-2 with Donadoni on the trequarti in the 1989 final. Unresolved.",
+  "Compactness: Coaches' Voice says no more than 25 metres between defensive and front lines; SempreMilan says 15-20 metres between the three lines. Different measures, not reconciled.",
+  "Offside count at the Bernabeu semi-final first leg (1989-04-05): RSI says 27 raised arms; a Forbes Italia figure of 26 for the San Siro return was only seen in a search summary. Unverified.",
+  "Van Basten (Fragile) calls the pressing defensive and a media construct, against Sacchi's own framing of it as offensive; Van Basten's account is only seen through a Goal.com excerpt.",
+  "No primary dated Sacchi quote from 1988-91 found; stated-view entries are later retrospectives. No tier A-B source on the Real Madrid 5-0 beyond StatsBomb's corner note.",
+  "Several digest dates look auto-generated (milanobsession 2026 for a 2015 post, RSI/Quotidiano dated 2026-07-31); the milanobsession page was not used as evidence."
+ ],
+ "sources": [
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Milan pressed high -- their average defensive action was performed further away from their own goal than the average of any team in last season’s competition -- and kept Steaua at arms length.",
+   "verified": true
   },
-  "scopeNote": "Arrigo Sacchi's AC Milan across the 1988/89, 1989/90 and 1990/91 seasons. Sacchi managed Milan from July 1987 to June 1991 (Wikipedia gives months only); the window starts at the first competitive match of 1988/89 (21 Aug 1988, Milan 2-0 Licata, Coppa Italia) and ends at the last match of 1990/91 (26 May 1991, Milan 0-0 Parma, Serie A round 34), both read on the Wikipedia season pages. The 1987/88 season (scudetto, first Sacchi year, Dutch trio settling in, early-season crisis) is deliberately excluded to keep the window to the 1988-91 European Cup era (1988/89 and 1989/90 titles, trophyless 1990/91). Style: zonal 4-4-2 with a high line, offside trap and collective pressing (UEFA: \"operated a 4-4-2 with zonal marking, a high defensive line\"); Sacchi himself calls pressing \"controlling space\" (Vice). Distinct from milan-2006-07 (Ancelotti). Later 1991 end-date: Sacchi left in June 1991 (no exact day found); the manager end uses the last match. Several in-period facts come from retrospectives.",
-  "managers": [
-    {
-      "managerId": "arrigo-sacchi",
-      "start": "1988-08-21",
-      "end": "1991-05-26"
-    }
-  ],
-  "ambiguities": [],
-  "openQuestions": [
-    "Window 1988-91 excludes Sacchi's 1987/88 first season (scudetto); confirm that is intended.",
-    "Exact day Sacchi left Milan (June 1991) not found; manager end set to the last match, 1991-05-26.",
-    "Season pages were read only to character 100000 (of ~140-170k); no later competitive match after 26 May 1991 was seen, but the unread tail was not checked.",
-    "Formation sources disagree on details (4-4-2 per UEFA/Wikipedia; fan FM guides give 4-1-2-1-2 or 2-3-3-2 in possession): treat 4-4-2 as the base, shape in possession unconfirmed.",
-    "The 25-metre line-spacing figure appears in Wikipedia, FIFA and Guide to Football, but its original source was not located.",
-    "Width, possession, set-pieces, game-management and squad-building have no in-period verified evidence.",
-    "stated-view counted as a gap: all five Sacchi quotes are 'attributed' (retrospective articles, no primary dated interview found)."
-  ],
-  "sources": [
-    {
-      "title": "Why UEFA President's Award winner Arrigo Sacchi is one of the greats (UEFA.com)",
-      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d81cb410c87-4115a0f26160-1000--why-uefa-president-s-award-winner-arrigo-sacchi-is-one-of-th/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2021",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "shape",
-      "evidence": "\"operated a 4-4-2 with zonal marking, a high defensive line\"; also \"an efficient offside trap\" and aggressive pressing. Retrospective, covers the 1988/89 and 1989/90 European Cup years.",
-      "verified": true
-    },
-    {
-      "title": "Why UEFA President's Award winner Arrigo Sacchi is one of the greats (UEFA.com)",
-      "url": "https://www.uefa.com/uefachampionsleague/news/0253-0d81cb410c87-4115a0f26160-1000--why-uefa-president-s-award-winner-arrigo-sacchi-is-one-of-th/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2021",
-      "eventDate": "1989/90",
-      "accessedOn": "2026-10-14",
-      "dimension": "people-management",
-      "evidence": "Ancelotti: \"Until his arrival, players never gave everything in training.\" Van Basten called him a perfectionist who demanded maximum effort in every session. Retrospective only.",
-      "verified": true
-    },
-    {
-      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
-      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2016-03-02",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "pressing",
-      "evidence": "Press \"as a unit\" with \"an extremely high defensive line\". Sacchi: \"Pressing is not about running and it's not about working hard, it's about controlling space.\" Article date not seen; retrospective.",
-      "verified": true
-    },
-    {
-      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
-      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2016-03-02",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "defensive-block",
-      "evidence": "Milan defended with \"a zonal marking system\" and aimed to \"regularly play an offside trap\", unlike many other Italian teams. Retrospective.",
-      "verified": true
-    },
-    {
-      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
-      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2016-03-02",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "build-up",
-      "evidence": "Sacchi favoured \"short, quick passes\" to create space; the back four of Tassotti, Baresi, Costacurta and Maldini were comfortable on the ball.",
-      "verified": true
-    },
-    {
-      "title": "Game Changers: Arrigo Sacchi, AC Milan (Vice)",
-      "url": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2016-03-02",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "player-profile",
-      "evidence": "Gullit and van Basten \"a strikeforce capable of scoring every type of goal\", Rijkaard controlled play from behind them. Training included \"shadow play\", a full match without a ball.",
-      "verified": true
-    },
-    {
-      "title": "The pressing era (Guide to Football)",
-      "url": "https://guidetofootball.com/history/the-pressing-era/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "pressing",
-      "evidence": "Page undated (articleDate is only the 2026 copyright year). \"Sacchi insisted that the team play within a tight vertical space\"; \"Compactness was the foundation on which pressing was built\"; pressing triggered when an opposition player entered a player's assigned space; \"often described as 25 metres between the deepest defender and the most advanced forward\". Instead of marking players, \"Sacchi's Milan defended zones of the pitch\".",
-      "verified": true
-    },
-    {
-      "title": "Milan's cornerstone: How Franco Baresi provided the foundations (FootballTransfers)",
-      "url": "https://www.footballtransfers.com/us/transfer-news/it-serie-a/2026/09/milans-cornerstone-how-franco-baresi-provided-the-foundations-for-arrigo-sacchis-great-milan-side",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-09-03",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "defensive-block",
-      "evidence": "\"He believed in a pure zonal system, a flat back four and a high offside line with a hard press.\" Positions defined by \"the ball, the space, the team-mate and the opponent\". Retrospective obituary-style piece.",
-      "verified": true
-    },
-    {
-      "title": "FIFA (Spanish): Sacchi profile, 75th birthday",
-      "url": "https://inside.fifa.com/es/news/se-me-pone-la-piel-de-gallina-al-ver-a-once-futbolistas-moverse-como-una-sola-pe",
-      "tier": "C",
-      "language": "es",
-      "articleDate": "2021-03-31",
-      "eventDate": "1988/89",
-      "accessedOn": "2026-10-14",
-      "dimension": "pressing",
-      "evidence": "\"aprender a ejercer una presión agresiva por medio de ejercicios sin balón y tapando las líneas de pase\"; \"la trampa del fuera de juego era un elemento central en su idea del fútbol\"; training with \"11 contra 0\" automated movements.",
-      "verified": true
-    },
-    {
-      "title": "When Calcio Ruled the World: The Immortals of AC Milan (Gentleman Ultra)",
-      "url": "https://www.gentlemanultra.com/?p=71",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2015-09-13",
-      "eventDate": "1989",
-      "accessedOn": "2026-10-14",
-      "dimension": "transitions",
-      "evidence": "\"If they lost the ball they would press from the front.\" Rijkaard and Ancelotti moved the ball forward with quick short passing. Fan blog, retrospective.",
-      "verified": true
-    },
-    {
-      "title": "L'Adige: Tifosi impazziti per il Milan degli immortali (Stefano Parolari)",
-      "url": "https://www.ladige.it/sport/tifosi-impazziti-per-il-milan-degli-immortali-hwecceyx",
-      "tier": "C",
-      "language": "it",
-      "articleDate": "2019-10-12",
-      "eventDate": "1987/88",
-      "accessedOn": "2026-10-14",
-      "dimension": "people-management",
-      "evidence": "Context only (Van Basten benched after two games in 1987, outside the period; players' recollections): Van Basten: \"In Olanda si parlava di tattica, con lui solo di aggressivita e movimento continuo.\" Costacurta: \"Sacchi sembrava avere un metodo da pazzi\".",
-      "verified": false
-    },
-    {
-      "title": "Arrigo Sacchi: reinventing football, knocking back Maradona (Destination Calcio)",
-      "url": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026",
-      "eventDate": "1987",
-      "accessedOn": "2026-10-14",
-      "dimension": "squad-building",
-      "evidence": "Context only, summer 1987 (outside the period): \"We signed many players from Serie B and C, but we also signed two stars in Gullit and Van Basten immediately.\" \"I didn't look at their feet, I looked at their head.\"",
-      "verified": false
-    }
-  ],
-  "statedView": [
-    {
-      "quote": "The only way you can build a side is by getting players who speak the same language and can play a team game.",
-      "date": "2012-05-26",
-      "source": "https://en.wikipedia.org/wiki/Arrigo_Sacchi",
-      "provenance": "attributed"
-    },
-    {
-      "quote": "My Milan team didn't run more than the others. We just ran better.",
-      "date": "2021",
-      "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d81cb410c87-4115a0f26160-1000--why-uefa-president-s-award-winner-arrigo-sacchi-is-one-of-th/",
-      "provenance": "attributed"
-    },
-    {
-      "quote": "Yo mando a mis jugadores a la cancha con la intención de divertir al público durante 90 minutos.",
-      "date": "2021-03-31",
-      "source": "https://inside.fifa.com/es/news/se-me-pone-la-piel-de-gallina-al-ver-a-once-futbolistas-moverse-como-una-sola-pe",
-      "provenance": "attributed"
-    },
-    {
-      "quote": "For us, a game without winning on merit wasn't a game. We wanted to dominate games.",
-      "date": "2026",
-      "source": "https://destinationcalcio.com/footballculture/arrigo-sacchi-reinventing-football-knocking-back-maradona/",
-      "provenance": "attributed"
-    },
-    {
-      "quote": "Pressing is not about running and it's not about working hard, it's about controlling space.",
-      "date": "2016-03-02",
-      "source": "https://www.vice.com/en/article/game-changers-arrigo-sacchi-ac-milan",
-      "provenance": "attributed"
-    }
-  ],
-  "unreadable": [
-    {
-      "url": "https://worldsoccertalk.com/news/arrigo-sacchi-and-his-all-conquering-milan-side",
-      "reason": "404"
-    },
-    {
-      "url": "https://figc.it/media/233550/una-nuova-era_calcio-relazionale.pdf",
-      "reason": "not-accessible"
-    },
-    {
-      "url": "https://www.fourfourtwo.com/us/features/milan-88-inside-story-sacchis-all-conquering-kings-told-them",
-      "reason": "empty"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/1988–89_AC_Milan_season",
-      "reason": "truncated"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/1990–91_AC_Milan_season",
-      "reason": "truncated"
-    }
-  ],
-  "gaps": {
-    "dimensions": [
-      "possession",
-      "width",
-      "set-pieces",
-      "game-management",
-      "squad-building",
-      "stated-view"
-    ],
-    "axes": [
-      "bas",
-      "lar",
-      "pla",
-      "res",
-      "sis"
-    ]
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Sacchi is famous for his use of a 4-4-2 formation, but this was far from a flat or boxy version of that alignment. For one, there was clear asymmetry amongst the two full-backs. Maldini largely hung back, while Tassotti advanced much higher down the right.",
+   "verified": true
   },
-  "influences": [
-    {
-      "id": "nils-liedholm",
-      "kind": "manager",
-      "note": "Introduced zonal marking at Milan before Sacchi (Wikipedia)."
-    }
-  ],
-  "confidence": {
-    "level": "low",
-    "reason": "Only tier C retrospectives (UEFA, Vice, FIFA, Guide to Football) with no season-specific tier A/B analysis and no contemporaneous quotes; the 4-4-2/zonal/high-line/press core agrees across sources, but possession, width, game-management and squad-building are unverified."
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Interest was also provided by the positioning of Carlo Ancelotti and Roberto Donadoni, who overlapped a great deal from their respective nominal starting positions of central and left midfield. Their receipt maps show that they both spent a good amount of time in both wide and central areas, although it was Donadoni who more often joined up with the two forwards.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Fifteen of their 27 efforts on goal came directly after winning the ball back in opposition territory.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Milan were relatively direct in their use of the ball, with Gullit the primary reference point when advancing from the defensive half into opposition territory, and from there into central zones inside the final third.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "But they were unable to establish any sort of regular presence in attacking areas against a compact Milan side with a legendary defensive four of Mauro Tassotti, Alessandro Costacurta, Franco Baresi and Paolo Maldini. Only four of Steaua’s 12 shots were from in and around the area",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-04-19",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Milan had twice scored from short corner routines in their 5-0 destruction of Real Madrid in the second leg of their semi-final and again went short in the final.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Milan had already opened the scoring and taken 10 shots before Steaua even mustered their first attempt. By half-time, Milan had added two more goals. A fourth arrived in the opening minute of the second half.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Gullit had a couple of inches on both of Steaua’s central defenders, and successfully received 11 head-height passes from teammates. Given the range of his abilities, he was far from a typical target-man, but he was certainly capable of fulfilling aspects of that role for his side.",
+   "verified": true
+  },
+  {
+   "title": "A Data History of the European Cup: 1989, AC Milan 4-0 Steaua Bucharest (StatsBomb)",
+   "url": "https://blogarchive.statsbomb.com/articles/soccer/a-data-history-of-the-european-cup-1989-ac-milan-4-0-steaua-bucharest/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-05-07",
+   "eventDate": "1989-05-24",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "He got through a ton of work on both sides of the ball in this match. In defence, he led the team in pressures and tackles (including a couple of very nicely timed sliding ones); in attack, he set up seven chances, three more than any of his teammates, while he and Rijkaard were the two players who most often moved the ball into the final third.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Sacchi educated his forwards in the work of putting pressure on their opposing central defenders in their build-up and control of the ball. This was based on a solid 4-4-2 formation, in which all players had to understand their positional relationship to each other.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "The Italian coach insisted that his side should be in a short and compact block (below), with no more than 25 metres between the defensive and front lines. In this way, pressing did not represent a great physical effort for his players",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "At Sacchi’s Milan, though, the build-up started with the defenders. The back line, typically made up of Mauro Tassotti, Alessandro Costacurta, Franco Baresi and Paolo Maldini, was responsible for carrying the ball forward.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Rijkaard and Ancelotti were the most common first receivers, with wide attackers Roberto Donadoni and Angelo Colombo also available (above) – but all four were instructed to move constantly with the same two objectives.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "First, to take advantage of any spaces created by their opponents leaving their shape to stop the ball-carrier; and second, to cover areas that might become exposed should they lose possession and face a counter-attack.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "The use of the flanks in the 4-4-2 was essential to Sacchi’s offensive strategy – not only to take advantage of the whole width of the pitch, but also to give opponents more to worry about than they were used to.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Sacchi’s defensive approach was most defined by his use of the press, which he employed to exploit the offside law as it stood at the time. For him, offside was less a tool to protect his defence, and more the first step in recovering possession and beginning another advance towards the opposition half.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "If an opposing team managed to beat the press, the defence would drop and reorganise in a way that prioritised the protection of central areas and encouraged opposition attackers into wide areas, thus limiting passing lines into the penalty area.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "the concept of a zonal defence – something that allowed Milan to generate numerical superiority when the time came to press the ball-carrier",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "The coach’s instructions required that the team move through all areas of the pitch as a short and compact block without cracks, but the design was always the same – to facilitate recovery of the ball, and thus start the next attack.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "The synchronised nature of their movements was the product of exhausting training sessions in which the head coach worked hard to educate his players in his very different philosophy.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Under Sacchi, Milan preferred a 4-4-2 system which was very rare in Serie A up until that point. If Catenaccio was all about man-marking, Sacchi’s system was all about zonal marking where players are asked to mark a particular area of the field rather than a player.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "With this system the role of a Libero was eliminated, and Baresi was seen more as a proactive defender snuffing out attacks before they became dangerous.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "When Sacchi had his charges trained in shadow play on the training field, it was to teach his players to press structurally as a team by blocking off passing channels to force mistakes from the opposition players in possession.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Ancelotti would leave his position and press the player in possession and Baresi would often step out of possession to aid Ancelotti’s movements.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "The signing of Rjikaard also gave Milan the ability to press horizontally and press the wide-players or wingers, using the touchline as an extra man. Rjikaard would cover the space left by Ancelotti to press the wide man. Van Basten and Gullit would cover a back pass and Donadoni would prevent a switch of flanks.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "To keep the defensive shape of the team and to initiate quick counters, Sacchi demanded high work rate from his wide men in Donadoni and Colombo.",
+   "verified": true
+  },
+  {
+   "title": "The genius of Arrigo Sacchi (SempreMilan)",
+   "url": "https://sempremilan.com/the-genius-of-ariggo-sacchi",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-08-26",
+   "eventDate": "1990-05-23",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "As seen below, in the 1989-90 final against Benifica, Van Basten dropped from Point 1 to Point 2 to receive a pass from Costacurta. In this move he draws defender 1 out of position thereby creating space. Van Basten spots the lateral run of Rjikaard who ran into the space vacated by defender P1 and scored the winning goal.",
+   "verified": true
+  },
+  {
+   "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-09",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "\"Before Arrigo Sacchi, Italian football was about great defence and the counter-attack. This was football in Italy. With Arrigo, we started to press in their half. it was totally an innovation.",
+   "verified": true
+  },
+  {
+   "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-09",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "\"That was the innovation, organised pressing.",
+   "verified": true
+  },
+  {
+   "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-09",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "\"Sacchi did not know much about the youngsters so he asked Franco Baresi and the other senior players to tell him about some of the younger players. They told him to take me because during training they could never catch me. He called me up at 18.",
+   "verified": true
+  },
+  {
+   "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-09",
+   "eventDate": "1988-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Alessandro Costacurta replaced Ancelotti. With Virdis suspended and Gullit only fit enough to be among the substitutes, the young Mannari was also thrust into action.",
+   "verified": true
+  },
+  {
+   "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-09",
+   "eventDate": "1988-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "\"The big players like Baresi and Van Basten transferred that belief to us that we could do it, we were better. Then, everybody believes. When we went to penalty kicks, we were not scared. Everyone believed.\"",
+   "verified": true
+  },
+  {
+   "title": "How Arrigo Sacchi's AC Milan became Immortals thanks to the Belgrade fog (Sky Sports)",
+   "url": "https://www.skysports.com/football/news/11095/12463995/the-making-of-sacchis-ac-milan",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2021-11-09",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "\"Out of possession, I have never seen a team do that like Sacchi's team did it.\"",
+   "verified": true
+  },
+  {
+   "title": "Franco Baresi, il capitano che non lasciò mai il Milan (RSI)",
+   "url": "https://www.rsi.ch/sport/calcio/Franco-Baresi-il-capitano-che-non-lasci%C3%B2-mai-il-Milan--3923083.html",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-07-31",
+   "eventDate": "1989-04-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Quando si alzava il braccio di Baresi per rivendicare un fuorigioco, per riflesso si alzava anche il loro, come accadde addirittura 27 volte contro il Real Madrid nella semifinale del 1989 al Bernabeu.",
+   "verified": true
+  },
+  {
+   "title": "Franco Baresi, il capitano che non lasciò mai il Milan (RSI)",
+   "url": "https://www.rsi.ch/sport/calcio/Franco-Baresi-il-capitano-che-non-lasci%C3%B2-mai-il-Milan--3923083.html",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-07-31",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Ruolo poi sublimato con Arrigo Sacchi, capace di convincerlo delle sue idee visionarie a suon di videocassette coi movimenti da eseguire.",
+   "verified": true
+  },
+  {
+   "title": "Baresi e i suoi moschettieri (Quotidiano.net)",
+   "url": "https://www.quotidiano.net/cronaca/baresi-tassotti-maldini-e-costacurta-amici-compagni-e-campioni-29d26b11",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-07-31",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Se gli allenamenti di Sacchi sono diventati memorabili, ovvero con i quattro difensori a non prendere gol in inferiorità numerica contro i fenomeni offensivi capitanati da Van Basten, è perché Tassotti, Baresi, Costacurta e Maldini erano diventati una testuggine imbattibile",
+   "verified": true
+  },
+  {
+   "title": "Baresi e i suoi moschettieri (Quotidiano.net)",
+   "url": "https://www.quotidiano.net/cronaca/baresi-tassotti-maldini-e-costacurta-amici-compagni-e-campioni-29d26b11",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2026-07-31",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Perché alzare il braccio per segnalare un fuorigioco era ormai un gesto istintivo di una difesa imperforabile, ma al cui interno serviva dialogo, come solo i grandi difensori sanno fare.",
+   "verified": true
+  },
+  {
+   "title": "AC Milan v Napoli: Sacchi's Legendary Defence Destroyed By Maradona & Careca (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2013/ac-milan-napoli-news-tactics-maradona/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-04-13",
+   "eventDate": "1988-11-27",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "AC Milan’s offside trap was one of their strongest points and Napoli successfully broke it in this match.",
+   "verified": true
+  },
+  {
+   "title": "AC Milan v Napoli: Sacchi's Legendary Defence Destroyed By Maradona & Careca (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2013/ac-milan-napoli-news-tactics-maradona/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-04-13",
+   "eventDate": "1988-11-27",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "AC Milan (4-4-2): Giovanni Galli; Franco Baresi, Alessandro Costacurta, Paolo Maldini, Roberto Mussi, Frank Rijkaard, Mauro Tassotti – Angelo Colombo, Alberigo Evani – Marco van Basten, Pietro Paolo Virdis",
+   "verified": true
+  },
+  {
+   "title": "AC Milan v Napoli: Sacchi's Legendary Defence Destroyed By Maradona & Careca (The Hard Tackle)",
+   "url": "https://thehardtackle.com/2013/ac-milan-napoli-news-tactics-maradona/amp/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-04-13",
+   "eventDate": "1988-11-27",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Sensing an opportunity, Sacchi brought on two substitutes to stretch a tiring Napoli defence.",
+   "verified": true
+  },
+  {
+   "title": "Marco Van Basten e gli scontri con Sacchi al Milan (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/marco-van-basten-il-passaggio-sfumato-alla-fiorentina-nel-1986-e-/eku1m7565dh31t56ziuonewid",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-10-31",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Sacchi era completamente votato al suo gioco e al suo sistema, diventava maniacale.",
+   "verified": true
+  },
+  {
+   "title": "Marco Van Basten e gli scontri con Sacchi al Milan (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/marco-van-basten-il-passaggio-sfumato-alla-fiorentina-nel-1986-e-/eku1m7565dh31t56ziuonewid",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-10-31",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Per me, invece, Sacchi non era abbastanza diretto. Era sempre troppo morbido con le star della squadra",
+   "verified": true
+  },
+  {
+   "title": "Marco Van Basten e gli scontri con Sacchi al Milan (Goal.com Italia)",
+   "url": "https://www.goal.com/it/notizie/marco-van-basten-il-passaggio-sfumato-alla-fiorentina-nel-1986-e-/eku1m7565dh31t56ziuonewid",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2022-10-31",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Sacchi preferisce schierare Gullit e Virdis in attacco. Per fare quello che lui chiama 'pressing a zona', ma che, in realtà, non è altro che difendere già con gli attaccanti.",
+   "verified": true
+  },
+  {
+   "title": "Sacchi says 'another revolution' is inevitable (SempreMilan, quoting Gazzetta)",
+   "url": "https://sempremilan.com/sacchi-revolution-inevitable-milan-golden-rules",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-03-01",
+   "eventDate": "1988/89",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "“He had already bought Gullit and Van Basten, I asked him for three boys who came from Parma, Mussi, Bianchi and Bortolazzi, one who had spent a lot of time on the bench at Udinese, Colombo, and I wanted Ancelotti at all costs, about whom the president had doubts due to his physical problems.",
+   "verified": true
+  },
+  {
+   "title": "Sacchi says 'another revolution' is inevitable (SempreMilan, quoting Gazzetta)",
+   "url": "https://sempremilan.com/sacchi-revolution-inevitable-milan-golden-rules",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-03-01",
+   "eventDate": "1989",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "And the following year, before buying Rijkaard, I sent him to follow a trusted man of mine for two weeks.",
+   "verified": true
+  },
+  {
+   "title": "Sacchi says 'another revolution' is inevitable (SempreMilan, quoting Gazzetta)",
+   "url": "https://sempremilan.com/sacchi-revolution-inevitable-milan-golden-rules",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-03-01",
+   "eventDate": "1988",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "I explained to him what I had in mind and he supported me at every moment.",
+   "verified": true
+  },
+  {
+   "title": "Sacchi says 'another revolution' is inevitable (SempreMilan, quoting Gazzetta)",
+   "url": "https://sempremilan.com/sacchi-revolution-inevitable-milan-golden-rules",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-03-01",
+   "eventDate": "1988",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "I explained to him what I had in mind and he supported me at every moment.",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“The football I wanted was active also in the defensive phase,” he later wrote in his autobiography. “The players had to be protagonists through pressing.”",
+   "verified": true
+  },
+  {
+   "title": "Arrigo Sacchi: The Tactical Masters (Coaches' Voice)",
+   "url": "https://learning.coachesvoice.com/?p=37534",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2020-12-22",
+   "eventDate": "1989/90",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "The offside rule thus became a tool of construction – or, as the man himself described it, a way of “attacking the opponents’ attack”.",
+   "verified": true
   }
+ ],
+ "statedView": [
+  {
+   "quote": "The football I wanted was active also in the defensive phase. The players had to be protagonists through pressing.",
+   "date": "2020-12-22",
+   "source": "https://learning.coachesvoice.com/?p=37534",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "attacking the opponents’ attack",
+   "date": "2020-12-22",
+   "source": "https://learning.coachesvoice.com/?p=37534",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Berlusconi, when he hired me, told me that he wanted to win and convince through spectacular play. I explained to him what I had in mind and he supported me at every moment.",
+   "date": "2025-03-01",
+   "source": "https://sempremilan.com/sacchi-revolution-inevitable-milan-golden-rules",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Sacchi giocava con il 4-4-2, schierando solo due attaccanti e un solidissimo blocco arretrato. Sosteneva fosse un sistema rivoluzionario, offensivo, cui diede persino un nome: 'zona-pressing'. [Van Basten, Fragile, on Sacchi; he calls it defensive, not revolutionary: 'Era difensivo, era la difesa che ci faceva vincere le partite']",
+   "date": "2022-10-31",
+   "source": "https://www.goal.com/it/notizie/marco-van-basten-il-passaggio-sfumato-alla-fiorentina-nel-1986-e-/eku1m7565dh31t56ziuonewid",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://sport.sky.it/calcio/champions-league/2019/05/24/milan-steaua-analisi-finale-coppa-campioni",
+   "reason": "empty"
+  },
+  {
+   "url": "https://uefa.com/uefachampionsleague/news/0253-0d7ff547ca01-af062fb1225f-1000--the-greatest-teams-of-all-time-ac-milan-1988-90",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.glieroidelcalcio.com/?p=7732",
+   "reason": "not-accessible"
+  }
+ ],
+ "influences": [
+  "Rinus Michels / Total Football (Coaches' Voice, SempreMilan)",
+  "Johan Cruyff (SempreMilan)"
+ ],
+ "managers": [
+  {
+   "managerId": "arrigo-sacchi",
+   "start": "1988-08-21",
+   "end": "1991-05-26"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Two tier A sources (StatsBomb final analysis, Coaches' Voice) agree on 4-4-2, compact block, high press and offside line, but evidence is mostly one final plus retrospectives; Italian press is retrospective tier C; no primary period quotes."
+ }
 }

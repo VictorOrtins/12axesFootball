@@ -1,0 +1,721 @@
+{
+ "id": "maurizio-sarri",
+ "catalog": "manager",
+ "name": "Maurizio Sarri",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "2015-06-23",
+  "end": "2026-05-27"
+ },
+ "scopeNote": "Counted: Napoli, Chelsea, Juventus, two Lazio spells. Style term used by sources: Sarriball / Sarrismo, described as 'vertical tiki-taka' (Goal) with a high line and press; the 'zonal marking' label comes from a single set-piece source and Football Manager sites, not from a tier A-B defensive study. Juventus 2019/20 departs from the label (4-4-2/diamond, mid-block per Coaches' Voice). Partial dates (months) in excluded spells reflect unknown days. Exact spell start/end dates other than the Lazio 2026 exit and Atalanta appointment come from memory and are unverified (see openQuestions). Atalanta (from 2026-06-15) excluded: under about 15 competitive matches and no tactical coverage.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Spell dates for Napoli (2015-06-23 to 2018-05-24), Chelsea (2018-07-14 to 2019-06-16), Juventus (2019-06-16 to 2020-08-08), Lazio I (2021-06-09 to 2024-03-12), Lazio II (2025-06 to 2026-05-27) are not verified from mined pages; only Lazio II end (2026-05-27) and Atalanta appointment (2026-06-15) are.",
+  "No tier A-B source found stating zonal vs man-oriented marking explicitly; zonal marking is inferred from the high line/offside play and Football Manager guides (tier D, not used).",
+  "Lazio 2021-24 and 2025-26 tactical coverage is thin; Coaches' Voice only covers the appointment, and Get Italian Football News (tier C) is retrospective.",
+  "Juventus friction: sources say disagreements with players and management (tier C); no primary account mined.",
+  "Reports of Sarri's Napoli points/goals conceded conflict across sources (19 vs 28 vs 32 conceded); only the Sky 54-to-32 for 2015/16 and the 91-point record were used.",
+  "Jorginho remains the regista in both Napoli and Chelsea per Coaches' Voice; no source mined on Jorginho at Juventus (Pjanic played that role)."
+ ],
+ "sources": [
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Sarri's increased time at Napoli – he spent three seasons there – meant that his 4-3-3 evolved further than it did at Chelsea.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Sarri's time at Chelsea involved a similar approach and 4-3-3 to that seen at Napoli.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "In Sarri's previous position at Juve he, for the first time, mostly favoured a 4-4-2 or four-diamond-two; his traditional 4-3-3 was instead used sparingly, ultimately so that he could accommodate Cristiano Ronaldo, Gonzalo Higuaín, and Paulo Dybala in the same starting XI.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Jorginho also orchestrated a significant amount of their deeper build-up and linked play to both sides of the pitch, and his speed of thought and passing range contributed to the extent to which they dictated play before their rotations and movements unfolded.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "They were particularly fluid towards the left (above), where they regularly progressed possession via quick combinations and rotations and runs from a third player.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Towards the right they were considerably more direct; José Callejón, as their right-sided forward, attacked around the outside of opponents to provide crosses or, if play was unfolding towards the left, moved infield to operate alongside Higuaín as a second striker.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Sarri’s Napoli applied a particularly aggressive press that often resembled the shape of Chelsea's. The younger Higuaín, and later Mertens, worked across the pitch to press the in-possession central defender, and attempted the direct their pressure wide to prevent switches of play and to force possession to one side of the pitch",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Napoli's central midfielders most commonly prioritised their closest opponent, which meant Allan often advancing ahead of Jorginho to alongside Hamsik. With the opposition's defenders under pressure from Napoli's striker, the closest attacking central midfielder and wide forward moved from their opponents to adopt half-and-half positions so that they could block passes through midfield while remaining close enough to those opponents to press them, if required.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Demonstrating an increased use of a mid-block, they were difficult to play through; their front two worked to block access into the opposition's defensive midfielders and therefore to force the ball wide",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Their second line of four, however, offered too little cover from between the lines (above), so if that line was penetrated through, Juve's central defenders instead aggressively stepped forwards – potentially into midfield",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "Napoli, like Chelsea, regularly recorded a strong grasp of possession, and therefore made numerous regains via their counter-press and the ability of those offering cover to make regains after attacking players had conceded the ball in the final third; Allan's tenacity, and Jorginho's ability to read their opponents, were crucial to their success.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Chelsea's ability to dominate possession meant that they regularly made regains in their attacking half and by applying an aggressive counter-press.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Eden Hazard attacked infield as their left-sided forward (below), and Marcos Alonso or Emerson Palmieri offered overlaps from left-back.",
+   "verified": true
+  },
+  {
+   "title": "Coaches' Voice: Maurizio Sarri Coach Watch",
+   "url": "https://learning.coachesvoice.com/cv/maurizio-sarri-chelsea-napoli-lazio-guardiola/",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2024-03-15",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "His players' familiarity with his methods meant Sarri's team accumulating a club record 91 points in Serie A – the most of any runner up in the competition's history.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "With Maurizio Sarri every attack started right from the back, with the goalkeeper having great communication with his midfield. Notice above, and below, how the centre-backs stay wide and allow one midfielder to drop deeper to receive the ball.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "His attacking trio was usually set up in a narrower shape to make way for the overlapping full-backs who were his main width providers.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "The pressing game was a focal point of Sarriball. When you lose the ball, you try to regain it almost instantly, and as high up the pitch as possible.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "In those situations, Sarri would deploy his team in a 4-5-1 formation, with the striker at the ready for a counter, and a packed middle of the park to secure the chances of regaining possession.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "when his opposition knows well how to exploit his high defensive line, he opts for a 4-5-1 defensive shape that can occasionally turn into a 4-4-2 when one of the wingers goes higher to assist the striker in the press.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "The goal is to get the ball to the opposition half by vertical passes and then move it to the wings.",
+   "verified": true
+  },
+  {
+   "title": "Total Football Analysis: Chelsea Sarriball vs Napoli Sarriball",
+   "url": "https://totalfootballanalysis.com/head-coach-analysis/maurizio-sarri-chelsea-napoli-head-coach-tactical-analysis-statistics",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2019-02-27",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Sarri has decided to change his game plan just a tiny bit.",
+   "verified": true
+  },
+  {
+   "title": "Tifo Football (The Athletic): Sarriball Chelsea tactics",
+   "url": "https://rosetta.to/u/tifo/sarriball-chelsea-tactics-under-maurizio-sarri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2018-11-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Key features include retention of possession, especially in the defensive third, verticality of passing in progression, quick interchanges in the attacking third, and in defensive mode, a high line and press.",
+   "verified": true
+  },
+  {
+   "title": "Tifo Football (The Athletic): Sarriball Chelsea tactics",
+   "url": "https://rosetta.to/u/tifo/sarriball-chelsea-tactics-under-maurizio-sarri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2018-11-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "The system aims to move the opposition around to create room for quick vertical transitions into the attacking third",
+   "verified": true
+  },
+  {
+   "title": "Tifo Football (The Athletic): Sarriball Chelsea tactics",
+   "url": "https://rosetta.to/u/tifo/sarriball-chelsea-tactics-under-maurizio-sarri",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2018-11-15",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Maurizio Sarri most often and successfully used a 4-3-3 formation at Chelsea, a system geared towards the principles of his style of play.",
+   "verified": true
+  },
+  {
+   "title": "Training Ground Guru: Philosophy and tactics of Maurizio Sarri",
+   "url": "https://archive.trainingground.guru/articles/philosophy-and-tactics-of-maurizio-sarri",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-07-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "For Sarri's game model, the goalkeeper needs to be secure and confident with the ball at his feet, providing an anchor point for the team.",
+   "verified": true
+  },
+  {
+   "title": "Training Ground Guru: Philosophy and tactics of Maurizio Sarri",
+   "url": "https://archive.trainingground.guru/articles/philosophy-and-tactics-of-maurizio-sarri",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-07-29",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "The Italian wants his side to go forward decisively if possible, with a vertical pass or diagonal one that breaks the lines. But if options weren't available against Perth, Chelsea were happy to keep possession",
+   "verified": true
+  },
+  {
+   "title": "Training Ground Guru: Philosophy and tactics of Maurizio Sarri",
+   "url": "https://archive.trainingground.guru/articles/philosophy-and-tactics-of-maurizio-sarri",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-07-29",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "At Napoli, he proved adept at managing up and didn’t have any major problems with the board or with President Aurelio De Laurentiis.",
+   "verified": true
+  },
+  {
+   "title": "Training Ground Guru: Philosophy and tactics of Maurizio Sarri",
+   "url": "https://archive.trainingground.guru/articles/philosophy-and-tactics-of-maurizio-sarri",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-07-29",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "He believes a player performs twice as well if he’s having fun and says that inside every footballer is a child. For Sarri, the job of a coach is to bring out that child.",
+   "verified": true
+  },
+  {
+   "title": "YouCoach: Short corner and movement to the far post",
+   "url": "https://youcoach.com/node/22614",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-04",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Dead ball situations represent by now a trademark of Mr. Sarri",
+   "verified": true
+  },
+  {
+   "title": "YouCoach: Short corner and movement to the far post",
+   "url": "https://youcoach.com/node/22614",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2016-04-04",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Once again Mr Sarri stands out for his care and attention to dead ball situations and teaches us that in order to counter zonal defending it is necessary to circulate the ball and play on the defence movement pushing out.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Sarri's tactics and why he is still relevant",
+   "url": "https://www.getfootballnewsitaly.com/2024/maurizio-sarris-tactics-and-why-he-is-still-relevant-in-modern-day-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-21",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "When building out from the back, the 2 no.8’s are encouraged to push up while the Regista stays back to create an overload while passing out from the back. The Regista forms a passing triangle with the CB’s.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Sarri's tactics and why he is still relevant",
+   "url": "https://www.getfootballnewsitaly.com/2024/maurizio-sarris-tactics-and-why-he-is-still-relevant-in-modern-day-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-21",
+   "eventDate": "2021/22",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Pressing traps are employed where they would block the centre to push play out wide and then the player on the ball would be pressed with intensity.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Sarri's tactics and why he is still relevant",
+   "url": "https://www.getfootballnewsitaly.com/2024/maurizio-sarris-tactics-and-why-he-is-still-relevant-in-modern-day-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-21",
+   "eventDate": "2023/24",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "the 2023/24 season saw Sarri leave following poor results, disagreements with players and a bad relationship with the Biancocelesti higher-ups.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Sarri's tactics and why he is still relevant",
+   "url": "https://www.getfootballnewsitaly.com/2024/maurizio-sarris-tactics-and-why-he-is-still-relevant-in-modern-day-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-21",
+   "eventDate": "2019/20",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "After disagreements with players and management, Sarri won the Scudetto but left taking a sabbatical eventually joining Lazio.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Sarri's tactics and why he is still relevant",
+   "url": "https://www.getfootballnewsitaly.com/2024/maurizio-sarris-tactics-and-why-he-is-still-relevant-in-modern-day-football",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-10-21",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "The midfielders are expected to be intelligent and find pockets of space between the lines and overload them.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Analysing SarriBall (2019)",
+   "url": "https://www.getfootballnewsitaly.com/2019/analysing-sarriballhis-napoli-legacy-and-why-chelsea-could-be-slowly-heading-back-towards-greatness",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-03-18",
+   "eventDate": "2016/17",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Jorginho’s role in the centre of the pitch is to act as an ‘advanced sweeper’.",
+   "verified": true
+  },
+  {
+   "title": "Get Italian Football News: Analysing SarriBall (2019)",
+   "url": "https://www.getfootballnewsitaly.com/2019/analysing-sarriballhis-napoli-legacy-and-why-chelsea-could-be-slowly-heading-back-towards-greatness",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-03-18",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Chelsea are forced to turn to their plethora of young talent to improve the squad, giving the likes of Ruben Loftus-Cheek, Ethan Ampadu and Tammy Abraham the chance to impress. (paragraph split in digest; unverified)",
+   "verified": false
+  },
+  {
+   "title": "Sky Sports: How Sarri transformed Benitez's Napoli",
+   "url": "https://www.skysports.com/football/news/11662/11479025/how-maurizio-sarri-transformed-rafael-benitezs-napoli-side",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-08-23",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The midfielder had been a bit-part player under Benitez - his agent said he would have left the club in the summer of 2015 if the Spaniard had stayed - but Sarri decided to build his team around him right from the start of his tenure.",
+   "verified": true
+  },
+  {
+   "title": "Sky Sports: How Sarri transformed Benitez's Napoli",
+   "url": "https://www.skysports.com/football/news/11662/11479025/how-maurizio-sarri-transformed-rafael-benitezs-napoli-side",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-08-23",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Sarri abandoned Benitez's 4-2-3-1 set-up, replacing it with his favoured 4-3-3.",
+   "verified": true
+  },
+  {
+   "title": "Sky Sports: How Sarri transformed Benitez's Napoli",
+   "url": "https://www.skysports.com/football/news/11662/11479025/how-maurizio-sarri-transformed-rafael-benitezs-napoli-side",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-08-23",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Napoli went from conceding 54 Serie A goals in Benitez's final season in charge to just 32 in Sarri's first.",
+   "verified": true
+  },
+  {
+   "title": "Sky Sports: How Sarri transformed Benitez's Napoli",
+   "url": "https://www.skysports.com/football/news/11662/11479025/how-maurizio-sarri-transformed-rafael-benitezs-napoli-side",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-08-23",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "\"Sarri proved himself to be humble with everyone. He also says what he thinks and for me honesty is the most important thing. You might not like what he says, but he'll only say it to make you do better.\"",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: What is Sarriball?",
+   "url": "https://www.goal.com/en/news/what-is-sarriball-how-chelseas-tactics-have-changed-after/pqijnswg5x3x1lpvp5yulnab2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-02-25",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Sarriball features short and quick passes designed to move play as far up the pitch as quickly as possible.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: What is Sarriball?",
+   "url": "https://www.goal.com/en/news/what-is-sarriball-how-chelseas-tactics-have-changed-after/pqijnswg5x3x1lpvp5yulnab2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-02-25",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Essentially, Sarriball is a method of high-pressing play (though not to be confused with Jurgen Klopp's gegenpressing)",
+   "verified": true
+  },
+  {
+   "title": "Goal.com: What is Sarriball?",
+   "url": "https://www.goal.com/en/news/what-is-sarriball-how-chelseas-tactics-have-changed-after/pqijnswg5x3x1lpvp5yulnab2",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-02-25",
+   "eventDate": "2018/19",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Sarri is known for being persistent with his tactical choices, always intent on selecting Jorginho as his base midfielder to allow N'Golo Kante more freedom to roam further forward.",
+   "verified": true
+  },
+  {
+   "title": "Corriere dello Sport: Napoli, mago Sarri. Il segreto? Non cambia",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/napoli/2015/10/24-5233621/napoli_mago_sarri_il_segreto_non_cambia",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2015-10-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Partendo dalla quarta giornata di campionato, quando Sarri contro la Lazio (5-0) ha trovato il punto d’intesa di tutta la squadra, il Napoli ha fatto appena 4 cambi. Non solo: in queste 5 partite, per 4 volte ha giocato la stessa identica formazione",
+   "verified": true
+  },
+  {
+   "title": "Corriere dello Sport: Napoli, mago Sarri. Il segreto? Non cambia",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/napoli/2015/10/24-5233621/napoli_mago_sarri_il_segreto_non_cambia",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2015-10-24",
+   "eventDate": "2015/16",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "12 per Garcia (il triplo del tosconapoletano), 14 per Pioli e 16 per Di Francesco (il quadruplo del nostro)",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Sarri stronca il turnover",
+   "url": "https://www.goal.com/it/notizie/sarri-sul-turnover-masturbazione-italiana/cijczrrgte4115ambvrea4eko",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-10-22",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Il turnover se lo fai e vinci sei un fenomeno, altrimenti hai sbagliato. Noi abbiamo validi campi, ma per metterli in condizione di fare bene vanno inseriti un paio per volta, con 6 per volta perdi identità e dai la colpa a loro quando invece non è così.",
+   "verified": true
+  },
+  {
+   "title": "Goal.com Italia: Sarri stronca il turnover",
+   "url": "https://www.goal.com/it/notizie/sarri-sul-turnover-masturbazione-italiana/cijczrrgte4115ambvrea4eko",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2017-10-22",
+   "eventDate": "2017/18",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Abbiamo avuto il 75% di supremazia territoriale con l'Inter che ha grandi ripartenze e gli abbiamo concesso solo un paio di tiri.",
+   "verified": true
+  },
+  {
+   "title": "beIN Sports: Lazio announce Sarri departure by mutual consent",
+   "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/lazio-announce-sarri-departure-by-mutual-consent-2026-05-27",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-05-27",
+   "eventDate": "2026-05-27",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Maurizio Sarri's second spell in charge of Lazio has come to an end, following the mutual termination of his contract.",
+   "verified": true
+  },
+  {
+   "title": "beIN Sports: Sarri confirmed at Atalanta",
+   "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/sarri-confirmed-as-palladinos-successor-at-atalanta-2026-06-15",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-06-15",
+   "eventDate": "2026-06-15",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Atalanta have moved quickly to appoint their new head coach, with the experienced Maurizio Sarri coming in to replace Raffaele Palladino.",
+   "verified": false
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "Il turnover se lo fai e vinci sei un fenomeno, altrimenti hai sbagliato... con 6 per volta perdi identità",
+   "date": "2017-10-22",
+   "source": "https://www.goal.com/it/notizie/sarri-sul-turnover-masturbazione-italiana/cijczrrgte4115ambvrea4eko",
+   "provenance": "primary"
+  },
+  {
+   "quote": "I don't know the meaning of Sarriball. As I said in England on the first day, I don't know what Sarriball is.",
+   "date": "2019-02-25",
+   "source": "https://www.goal.com/en/news/what-is-sarriball-how-chelseas-tactics-have-changed-after/pqijnswg5x3x1lpvp5yulnab2",
+   "provenance": "attributed"
+  }
+ ],
+ "spellsCounted": [
+  {
+   "club": "Napoli",
+   "start": "2015-06-23",
+   "end": "2018-05-24",
+   "reason": "Origin of Sarriball; two runner-up finishes, 91 points record; no trophy but wide tactical coverage"
+  },
+  {
+   "club": "Chelsea",
+   "start": "2018-07-14",
+   "end": "2019-06-16",
+   "reason": "Europa League title, move to a bigger job; Sarriball adapted to the Premier League"
+  },
+  {
+   "club": "Juventus",
+   "start": "2019-06-16",
+   "end": "2020-08-08",
+   "reason": "Serie A title; pragmatic version (4-4-2/diamond, mid-block)"
+  },
+  {
+   "club": "Lazio",
+   "start": "2021-06-09",
+   "end": "2024-03-12",
+   "reason": "Second place 2022/23, tactical coverage of 4-3-3 with Milinkovic-Savic/Luis Alberto"
+  },
+  {
+   "club": "Lazio",
+   "start": "2025-06-02",
+   "end": "2026-05-27",
+   "reason": "Second spell, 142 Serie A matches across both stints per beIN; ended by mutual consent"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Empoli",
+   "start": "2012-06",
+   "end": "2015-06",
+   "reason": "Mostly Serie B/lower-league; Serie A 2014/15 only one season, and its style (rombo) is described through the Napoli profile. Exact dates unverified"
+  },
+  {
+   "club": "Amateur and lower-league clubs (Tegoleto, Faellese, Sansovino, Sorrento, Avellino, Verona, Perugia, Grosseto, Arezzo, Pescara, Hellas, Alessandria)",
+   "start": "1990-01-01",
+   "end": "2012-06-01",
+   "reason": "Amateur and lower-league spells, excluded per brief"
+  },
+  {
+   "club": "Atalanta",
+   "start": "2026-06-15",
+   "end": "ongoing",
+   "reason": "Fewer than about 15 competitive matches by 2026-11-06 and no tactical coverage mined"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.calciomercato.com/news/the-verdi-conundrum-is-sarri-s-refusal-to-rotate-hurting-napoli-77891",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.football-italia.net/114557/sarri-my-fault-if-players-rusty",
+   "reason": "404"
+  },
+  {
+   "url": "https://sport.sky.it/calciomercato/2019/06/20/juve-sarri-presentazione",
+   "reason": "empty"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2019/10/03/inter-juve-conte-sarri-filosofie-confronto",
+   "reason": "empty"
+  },
+  {
+   "url": "https://sport.sky.it/calcio/serie-a/2022/08/04/sarri-lazio-intervista",
+   "reason": "empty"
+  }
+ ],
+ "influences": [
+  "Arrigo Sacchi"
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier A-B coverage of Napoli and Chelsea (Coaches' Voice, TFA, Tifo); Juventus and Lazio mostly one source each, marking not explicit, spell dates unverified; stated-view quotes few."
+ }
+}

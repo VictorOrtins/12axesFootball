@@ -1,363 +1,884 @@
 {
-  "id": "bill-shankly",
-  "catalog": "manager",
-  "name": "Bill Shankly",
-  "status": "complete",
-  "researchedOn": "2026-10-12",
-  "profilePeriod": {
-    "start": "1959-12-01",
-    "end": "1974-07-12"
+ "id": "bill-shankly",
+ "catalog": "manager",
+ "name": "Bill Shankly",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "1959-12-01",
+  "end": "1974-07-12"
+ },
+ "scopeNote": "Liverpool spell only (user decision 2026-10-12). Style named by sources as 'pass and move' (short passing, five-a-side based, very high fitness and work rate), with a '3-3-4' attacking wing-half plan in the early 1960s (Shankly's own 1962 column) and a shift after the Red Star Belgrade defeat (Nov 1973) toward patient build-up from the back. Winger-based width (Callaghan, Thompson). No source mined states zonal vs man marking; a 1964 Revie scouting dossier describes Yeats sticking 'like glue' to the centre-forward and full-backs staying close to wingers, which suggests individual marking but is not labelled as such. Appointment date 1959-12-01 is from the brief; Empire of the Kop says confirmed 14 Dec 1959 (not verified against a second source). Dates for generic style facts are given as '1959-74' because sources do not date them.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Zonal vs man marking is not stated by any mined source (gap). The 1964 Revie dossier (full-backs 'keep close to the wingers', Yeats 'sticks like glue to the centre-forward') hints at man-oriented marking, only an inference.",
+  "Appointment date: brief says 1959-12-01, Empire of the Kop says 14 Dec 1959 confirmed; the latter may be the announcement date. Check a second tier A-B source.",
+  "Tommy Smith quote (never practised corners/set-pieces) is relayed by Tomkins and Empire of the Kop, no primary interview found.",
+  "Red Star 1973 as the turning point is from Tomkins/Wilson retrospectives; Shankly publicly praised Red Star but said fans would not pay to watch it. How much was the Boot Room (Paisley) rather than Shankly is contested (Tomkins credits the Boot Room).",
+  "Pressing is documented only as high work rate/fitness and 'work twice as hard to get it back', not as a high-line pressing system; no tier A source found.",
+  "Tomkins notes Shankly was sentimental with older players (Paisley was ruthless), but Empire of the Kop says Shankly phased out Liddell and others early; the 1965-66 Shankly quote says he set age limits for players."
+ ],
+ "sources": [
+  {
+   "title": "Bill Shankly: The 3-3-4 plan was born and worked (Shankly column, 1962)",
+   "url": "https://playupliverpool.com/1962/05/26/bill-shankly-the-3-3-4-plan-was-born-and-worked",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "1962-05-26",
+   "eventDate": "1961/62",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Thus was born at Anfield the plan which we referred to as 3-3-4. At that time I know that many people were offering the criticism that the wing halves were attacking too much; now they know the reason.",
+   "verified": true
   },
-  "scopeNote": "Manager profile of Bill Shankly, Liverpool spell only (user decision, 2026-10-12): appointed 1959-12-01, first match 1959-12-19, retired 1974-07-12 (the spell's end). He led the team out at the 1974-08-10 Charity Shield, but that was Paisley's first match as manager (Wikipedia, 1974 FA Charity Shield: \"The game was the first in which Bob Paisley and Brian Clough managed Liverpool and Leeds respectively\"), so it isn't part of the spell. Dates from the LFC History manager profile read at step 1. Earlier spells (Carlisle, Grimsby, Workington, Huddersfield) are excluded by the user; their dates are partial (month or year only) because the LFC History profile read at step 1 gives no exact days, and they weren't researched further since they don't count. Historical case: no data or contemporary tactical analysis was found; evidence is club-history and press retrospectives quoting players and Shankly, mostly undated. Several pages (lfchistory.net, Wikipedia) carry no article date, so their articleDate is set to the access date. Where a quote or claim is undated but clearly about the Liverpool spell, eventDate is an approximate year inside the spell and the evidence says so. No source says whether the defence marked zonally or man-to-man.",
-  "spellsCounted": [
-    {
-      "club": "Liverpool",
-      "start": "1959-12-01",
-      "end": "1974-07-12",
-      "reason": "Three league titles (1964, 1966, 1973), two FA Cups (1965, 1974), UEFA Cup 1973; the 'pass and move' style he is known for. User decision: Liverpool spell only."
-    }
-  ],
-  "spellsExcluded": [
-    {
-      "club": "Carlisle United",
-      "start": "1949-03",
-      "end": "1951",
-      "reason": "user decision: Liverpool spell only"
-    },
-    {
-      "club": "Grimsby Town",
-      "start": "1951",
-      "end": "1954",
-      "reason": "user decision: Liverpool spell only"
-    },
-    {
-      "club": "Workington",
-      "start": "1954",
-      "end": "1955-11-15",
-      "reason": "user decision: Liverpool spell only"
-    },
-    {
-      "club": "Huddersfield Town",
-      "start": "1956-11-05",
-      "end": "1959-12-01",
-      "reason": "user decision: Liverpool spell only"
-    }
-  ],
-  "teamProfiles": [],
-  "ambiguities": [],
-  "openQuestions": [
-    "Answered 2026-10-12: this is the manager profile of Shankly, not 1970s Liverpool as a team; only the Liverpool spell (1959-74) counts, earlier spells recorded in spellsExcluded.",
-    "Marking (mar): no source says whether Shankly's defence marked zonally or man-to-man. The axis is closed only formally, by effort and duel facts (Yeats' 'never the ball and the man', 'work twice as hard to get it back'); treat mar as close to memory-only.",
-    "Wikipedia (ref. 234) says Shankly described his socialism as everyone working for each other in his autobiography (1976). If confirmed, the socialism quote could move from 'attributed' (earliest dated wording: Tribune, 1995-03-10) to an earlier source. Not checked: the book wasn't read.",
-    "The 'building from the back is the only way to play' quote is undated on the LFC page (2018); it is usually tied to the Red Star Belgrade defeat of November 1973. Confirm its original source before weighing it.",
-    "The 'life and death' line already appears in Frank McGhee's Daily Mirror column of 1974-07-13 (read via a fan-site repost), before the usually cited 1981 Granada interview. Check the Mirror original if the exact wording matters.",
-    "Most stated-view entries come from a 1981 Liverpool Echo interview, seven years after the spell: they are his retrospective account, not period statements.",
-    "Style may have shifted inside the spell (1960s Yeats/St John side vs the post-1970 Keegan/Toshack side, and the post-Red Star 1973-74 rethink). Sources don't separate the two sides tactically; decide whether to weigh them as one."
-  ],
-  "sources": [
-    {
-      "title": "Past players: Chris Lawler",
-      "url": "https://www.liverpoolfc.com/info/chris-lawler",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "shape",
-      "evidence": "Lawler was a centre-back by ability but \"settled on the right of the Liverpool defence to make room for Ron Yeats.\" In Shankly's starting XI for the 1965 FA Cup final. Page undated (articleDate = access date). Back line with a centre-half pairing and a converted centre-back at right-back.",
-      "verified": true
-    },
-    {
-      "title": "Players - Ron Yeats (LFChistory.net)",
-      "url": "https://www.lfchistory.net/Players/Player/Profile/450",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "defensive-block",
-      "evidence": "Yeats, captain 1961/62-1969/70, on his centre-back partnership with Tommy Smith: \"We let the ball go past us, but never the ball and the man.\" \"I always knew if there was going to be a battle I would win the battle.\" \"I went for the ball all the time.\" He called himself \"a tackler, a header of the ball and read the game well\"; Smith was the better passer (\"He was my right foot and I was his left\"). Partnership spans the mid-to-late 1960s; eventDate 1965 is approximate. Page undated. Nothing on zonal vs man marking.",
-      "verified": true
-    },
-    {
-      "title": "Players - Ron Yeats (LFChistory.net)",
-      "url": "https://www.lfchistory.net/Players/Player/Profile/450",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1961-07",
-      "accessedOn": "2026-10-12",
-      "dimension": "player-profile",
-      "evidence": "On signing Yeats (July 1961): \"Jesus, you must be seven feet tall, son?\" and \"With you, in the side, we will soon be in the First Division.\" Later: \"They [St John and Yeats] were the greatest signings and they were the beginning of Liverpool.\" (undated). A physically dominant centre-half as the cornerstone of the first side.",
-      "verified": true
-    },
-    {
-      "title": "Paul Tomkins on Bill Shankly (LFChistory.net, articles/2835, page 2)",
-      "url": "https://lfchistory.net/articles/2835/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "transitions",
-      "evidence": "Joe Mercer (Manchester City manager, undated): \"They drive forward when they've got the ball and get behind it when they haven't.\" Page undated; the remark is about Shankly's Liverpool, exact year unknown (eventDate approximate).",
-      "verified": true
-    },
-    {
-      "title": "Paul Tomkins on Bill Shankly (LFChistory.net, articles/2835, page 2)",
-      "url": "https://lfchistory.net/articles/2835/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "pressing",
-      "evidence": "Shankly (undated): \"If you lose the ball work twice as hard as the opposition to get it back.\" Also: \"Never pass to a red shirt in one direction when there are two in the other.\" An effort-based demand to regain the ball; no detail on how high, triggers, or zonal vs man orientation.",
-      "verified": true
-    },
-    {
-      "title": "Paul Tomkins on Bill Shankly (LFChistory.net, articles/2835, page 2)",
-      "url": "https://lfchistory.net/articles/2835/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "set-pieces",
-      "evidence": "Tomkins reports Tommy Smith saying \"they never practiced a single corner during all his years at the club.\" Smith played under Shankly from the early 1960s to 1974; eventDate approximate. Retrospective player account.",
-      "verified": true
-    },
-    {
-      "title": "Paul Tomkins on Bill Shankly (LFChistory.net, articles/2835, page 2)",
-      "url": "https://lfchistory.net/articles/2835/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "game-management",
-      "evidence": "Author's assessment: Liverpool were \"happy to contain teams and sit on slender leads,\" while still going for late goals. Retrospective column, no period quote.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Paul Tomkins on Bill Shankly (LFChistory.net, articles/2835, page 2)",
-      "url": "https://lfchistory.net/articles/2835/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1962",
-      "accessedOn": "2026-10-12",
-      "dimension": "people-management",
-      "evidence": "Ronnie Moran: \"Shanks always preached that we had eleven captains.\" Shankly: \"We don't have eleven players here... we have twenty.\" Geoff Twentyman: Shankly \"wanted players who loved the game and were passionate about it.\" The author notes Shankly released apprentices who didn't work hard enough even if more talented. Training: \"The system is based on exhaustion and recovery\"; Liverpool were \"believed to be the fittest side in the league\" after promotion (1962). Quotes undated.",
-      "verified": true
-    },
-    {
-      "title": "Bill Shankly - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bill_Shankly",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965/66",
-      "accessedOn": "2026-10-12",
-      "dimension": "game-management",
-      "evidence": "Two-legged European ties in the mid-1960s were approached as \"containment away and attack at home\" [ref. 133]. Read in the first 100k characters of the page.",
-      "verified": true
-    },
-    {
-      "title": "Bill Shankly - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bill_Shankly",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1962",
-      "accessedOn": "2026-10-12",
-      "dimension": "possession",
-      "evidence": "\"pass and move\" described as the basis of Liverpool's strategy [ref. 105]; five-a-side games \"at the heart of the system\" [ref. 102]; the Melwood sweat box \"using boards like the walls of a house with players playing the ball off one wall and on to the next\" [ref. 104]. Early Liverpool years; exact year not given.",
-      "verified": true
-    },
-    {
-      "title": "Bill Shankly - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bill_Shankly",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1969/70",
-      "accessedOn": "2026-10-12",
-      "dimension": "people-management",
-      "evidence": "Paisley said Shankly's one failing was that he was \"a softie at heart\" [ref. 237], linked to his reluctance to drop long-serving players in the late 1960s. Shankly told over-workers to \"simmer down\" and said others needed to be \"encouraged occasionally to do a little more\" [ref. 103]. Toshack: Shankly \"rammed it into us how important it was to be playing for Liverpool\" [ref. 197]. Read across characters 0-200000.",
-      "verified": true
-    },
-    {
-      "title": "Manager - Liverpool (LFChistory.net, articles/2403, page 2)",
-      "url": "https://www.lfchistory.net/articles/2403/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1973",
-      "accessedOn": "2026-10-12",
-      "dimension": "build-up",
-      "evidence": "Shankly (undated): \"The team played in sections of the field, like a relay.\" \"We didn't want players running the length of the field, stretching themselves unnecessarily.\" \"So, whilst there was always room for individuals within our system, the work was shared out.\" The article says by 1973 Liverpool could \"stroke the ball around at will in short, neat passing movements\", linked to the five-a-side training. Page undated.",
-      "verified": true
-    },
-    {
-      "title": "Manager - Liverpool (LFChistory.net, articles/2403, page 2)",
-      "url": "https://www.lfchistory.net/articles/2403/page/2",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1974-05-04",
-      "accessedOn": "2026-10-12",
-      "dimension": "width",
-      "evidence": "1974 FA Cup final (3-0 v Newcastle): \"Overlapping full-backs\", one-touch play, called \"'Total football'\" and Shankly's \"pass and move, keep it simple philosophy.\" One match.",
-      "verified": true
-    },
-    {
-      "title": "Past players: Chris Lawler",
-      "url": "https://www.liverpoolfc.com/info/chris-lawler",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1965",
-      "accessedOn": "2026-10-12",
-      "dimension": "width",
-      "evidence": "Right-back Lawler \"scored an incredible 61 goals for the Reds in total\", his threat coming from \"supporting attacks with a stealthy foray\"; \"He preferred to read the game than dive in to tackles.\" Covers his whole career (mostly under Shankly); eventDate approximate.",
-      "verified": true
-    },
-    {
-      "title": "How Bill Shankly changed the team (Steve Hunter)",
-      "url": "https://legacy.liverpoolfc.com/news/first-team/144273-how-bill-shankly-changed-the-team",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2013-09-04",
-      "eventDate": "1970-02-21",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "After the 1-0 FA Cup sixth-round defeat at Watford (Feb 1970), Shankly: \"The breaking-up process began there.\" \"After Watford I knew I had to do my job and change the team.\" St John, Hunt, Yeats and Lawrence were left out; Lindsay, Heighway, Toshack and Hall came in (Hughes and Clemence already signed); Keegan arrived May 1971. He had kept the great side together too long out of loyalty to players who served him \"so staunchly\": \"I thought some of them would have gone on longer than they did.\" Lesson: \"you constantly change the team.\" Shankly quotes undated.",
-      "verified": true
-    },
-    {
-      "title": "Bill Shankly - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bill_Shankly",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1969/70",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "Heighway recalled Shankly saying of the older players: \"'He's finished, he's finished, he's finished'\" [ref. 141]; Keegan \"the inspiration of the new team\" (1971) [ref. 152].",
-      "verified": true
-    },
-    {
-      "title": "Bill Shankly's famous quotes (Frank McGhee, Daily Mirror, 13 July 1974; repost on Play Up, Liverpool)",
-      "url": "https://playupliverpool.com/1974/07/13/bill-shanklys-famous-quotes-including-youve-created-a-sex-monster/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "1974-07-13",
-      "eventDate": "1974-07",
-      "accessedOn": "2026-10-12",
-      "dimension": "player-profile",
-      "evidence": "Contemporary column on his retirement: \"Two good feet, good in the air, and big with it\" is one of Shankly's ideals; Ron Yeats the player he admired most physically. Read via a fan-site repost of the Mirror column, not the original.",
-      "verified": true
-    },
-    {
-      "title": "Red Star '73: The tie that changed Liverpool's philosophy (Sam Williams)",
-      "url": "https://legacy.liverpoolfc.com/news/features/321909-liverpool-red-star-belgrade-video-tifo",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2018-10-23",
-      "eventDate": "1973-11",
-      "accessedOn": "2026-10-12",
-      "dimension": "build-up",
-      "evidence": "Red Star beat Liverpool 2-1 home and away in the 1973/74 European Cup second round (Nov 1973); the Boot Room staff became convinced tactical and stylistic change was needed to succeed in Europe. Shankly (undated): \"The Europeans showed that building from the back is the only way to play.\" Implies the pre-1974 side did not build from the back in the continental way; the change itself belongs to the Paisley era.",
-      "verified": true
-    },
-    {
-      "title": "Analyzing the Shankly and Paisley Eras of Anfield (Anfield Index)",
-      "url": "https://anfieldindex.com/71659/analyzing-the-shankly-and-paisley-eras-of-anfield.html",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-12",
-      "eventDate": "1966-12",
-      "accessedOn": "2026-10-12",
-      "dimension": "possession",
-      "evidence": "Search summary only (not read): Shankly reportedly moved toward a more patient, possessive approach after Ajax knocked Liverpool out of the 1966-67 European Cup. Not verified; article date unknown.",
-      "verified": false
-    }
-  ],
-  "statedView": [
-    {
-      "quote": "Keep everything simple. Be patient, even if it takes 89 minutes to score.",
-      "date": "1981-07-13",
-      "source": "https://legacy.liverpoolfc.com/news/first-team/144499-bill-shankly-the-final-interview",
-      "provenance": "primary"
-    },
-    {
-      "quote": "In the main, we were only concerned about us and our collective approach.",
-      "date": "1981-07-13",
-      "source": "https://legacy.liverpoolfc.com/news/first-team/144499-bill-shankly-the-final-interview",
-      "provenance": "primary"
-    },
-    {
-      "quote": "It's vital you conserve energy, making the opposition do all the chasing.",
-      "date": "1981-07-13",
-      "source": "https://legacy.liverpoolfc.com/news/first-team/144499-bill-shankly-the-final-interview",
-      "provenance": "primary"
-    },
-    {
-      "quote": "So you are looking for somebody who can control it instantly and give a forward pass.",
-      "date": "1981-07-13",
-      "source": "https://legacy.liverpoolfc.com/news/first-team/144499-bill-shankly-the-final-interview",
-      "provenance": "primary"
-    },
-    {
-      "quote": "There are some people who think that football is a matter of life and death. They are fools. It is much more important than that.",
-      "date": "1974-07-13",
-      "source": "https://playupliverpool.com/1974/07/13/bill-shanklys-famous-quotes-including-youve-created-a-sex-monster/",
-      "provenance": "attributed"
-    },
-    {
-      "quote": "The socialism I believe In Is everyone working for each other, everyone having a share of the rewards.",
-      "date": "1995-03-10",
-      "source": "https://tribunemag.co.uk/1995/03/the-diary-158",
-      "provenance": "attributed"
-    },
-    {
-      "quote": "The Europeans showed that building from the back is the only way to play.",
-      "date": "2018-10-23",
-      "source": "https://legacy.liverpoolfc.com/news/features/321909-liverpool-red-star-belgrade-video-tifo",
-      "provenance": "attributed"
-    }
-  ],
-  "unreadable": [
-    {
-      "url": "https://www.liverpoolfc.com/news/kop-10-liverpool-defenders-most-appearances",
-      "reason": "404"
-    },
-    {
-      "url": "https://web.archive.org/web/2024/https://www.liverpoolfc.com/news/kop-10-liverpool-defenders-most-appearances",
-      "reason": "not-accessible"
-    },
-    {
-      "url": "https://liverpoolfc.com/news/bill-shanklys-final-season-champions-creep-closer-receive-european-lesson-november",
-      "reason": "404"
-    },
-    {
-      "url": "https://www.liverpoolfc.com/es/news/bill-shanklys-final-season-champions-creep-closer-receive-european-lesson-november",
-      "reason": "empty"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Bill_Shankly",
-      "reason": "truncated"
-    }
-  ],
-  "gaps": {
-    "dimensions": [],
-    "axes": []
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "In this game both wing half-backs played a very stereotyped game and should one go on attack, the other stays back, even when an opportunity may arise to move with ease into a position to change the point of attack.",
+   "verified": true
   },
-  "influences": [],
-  "confidence": {
-    "level": "medium",
-    "reason": "All 13 dimensions have a verified fact, but every source is tier C (club history sites, official club features, Wikipedia, one 1974 press column via a fan repost), mostly retrospective and undated, with no tactical analysis of the period. Pass and move, collective work and the 1970 rebuild agree across sources; marking, pressing height and build-up rest on thin or indirect facts, and most stated view is from 1981, after the spell."
+  {
+   "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2837/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-09-14",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "“We realised at Liverpool that you can’t score a goal every time you get the ball. And we learned this from Europe, from the Latin people. When they play the ball from the back they play in little groups.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2837/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-09-14",
+   "eventDate": "1973-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "the Boot Room concluded that the position needed someone more technically adept, able to bring the ball out of defence and start attacks, rather than just repel them.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Anatomy Of Liverpool (review) - When Saturday Comes",
+   "url": "https://www.wsc.co.uk/?p=6224",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-03-11",
+   "eventDate": "1973-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Shankly began refining his pass-and-move principles as a direct result of being booted out of Europe that year, resulting in a style that placed greater emphasis on patient build-up play and possession.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "The majority of Milne's service goes towards outside-right, Callaghan, and usually consists of a short crisp pass.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "The passing was simple but effective — find the nearest red shirt, give him the ball, move into space, get it back.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "But the passing wasn’t as elaborate or imaginative as some ‘60s rivals, particularly the two from Manchester. Liverpool’s was an incredibly effective style of football, rather than one about aesthetic merits.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Training was based on basic skills, control, passing, vision, awareness.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "If you lose the ball work twice as hard as the opposition to get it back.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "They drive forward when they’ve got the ball and get behind it when they haven’t.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Keeping the ball worked the opposition, and the Reds superior fitness could have a double impact late in game –– they got stronger as the opposition wilted.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1965-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "'Christ, this is only the first game. There's another bloody game at Liverpool, so don't go and give away more goals. Let's get beat 2-0. We are not doing too bad. Take it easy.'",
+   "verified": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Liverpool depend a great deal on centre-half Yeats, who sticks like glue to the centre-forward and clears his lines decisively at all times.",
+   "verified": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "The Liverpool defence play square with both full-backs endeavouring to keep close to the wingers even when a strike is made through the inside positions.",
+   "verified": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "Shankly has devised his team tactics to cover some deficiencies in his playing strength. Both full-backs lack pace and our wingers must seek the ball behind them.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2837/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-09-14",
+   "eventDate": "1963-73",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "after a decade with Tommy Smith and Ron Yeats as brutish stoppers, and with Larry Lloyd a like-for-like replacement",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2837/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-09-14",
+   "eventDate": "1973-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "“We realised it was no use winning the ball if you finished up on your backside. The top Europeans showed us how to break out of defence effectively.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "They drive forward when they’ve got the ball and get behind it when they haven’t.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The fighting philosophy of Bill Shankly (Guardian interview, 17 Dec 1968) - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2334",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-07-01",
+   "eventDate": "1968-12-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "For instance, at Liverpool we have Ian Callaghan and Peter Thompson, two of the best wingers in the game. They are as near tae the old orthodox wingers as there are, so why should they be used in any other way?",
+   "verified": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Thompson at O-L, has speed and ball control, and invariably takes on anybody in line with his striking runs.",
+   "verified": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "The cross-over was operated on the right wing a number of times. Callaghan already in the corner, coming out to take over the ball from the man carrying the ball in his direction.",
+   "verified": true
+  },
+  {
+   "title": "Bill Shankly: The 3-3-4 plan was born and worked (Shankly column, 1962)",
+   "url": "https://playupliverpool.com/1962/05/26/bill-shankly-the-3-3-4-plan-was-born-and-worked",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "1962-05-26",
+   "eventDate": "1961/62",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "One of the positions which needed immediate attention was that of right wing, in spite of Ian Callaghan’s great promise at that time, which he has since fulfilled.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "It became a Liverpool tradition to not practice set-pieces. It was taken for granted that the players were intelligent enough to improvise. Tommy Smith said that they never practiced a single corner during all his years at the club.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "December 1959: Shankly Arrives at Anfield - Empire of the Kop",
+   "url": "https://www.empireofthekop.com/2013/08/08/december-1959-shankly-arrives-at-anfield-by-tfhbtop250/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-08-08",
+   "eventDate": "1962-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "“We played them all the time…we never practiced corners, penalties, no set-pieces, nothing. Just five-a-side, five-a-side, get fit, five-a-side.” – Tommy Smith",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Don Revie analyzes Liverpool (1964 Charity Shield dossier) - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2546",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-11-14",
+   "eventDate": "1964-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "Yeats came into the area for corner kicks, taking up a very wide position to enable himself to have room to adjust in relation to the kick. At free kicks for them, Liverpool had players moving around in different directions",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "In terms of the style of football, Liverpool were also patient; happy to contain teams and sit on slender leads, an understanding which grew in time with the lessons of European football.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1964/65",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "as an example, in 1964/65, Tommy Smith, then aged 19, played only 25 of the 42 league games, but all but two of those in the European Cup.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1965-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "We were 2-0 down and Willie Stevenson and Geoff Strong started raiding. They were stung and went mad and tried to retrieve the game. So I went on to the pitch while the game was in progress",
+   "verified": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1967",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "\"We never play well against defensive teams!\"",
+   "verified": true
+  },
+  {
+   "title": "Bill Shankly: The Innovative Motivator Who Rebuilt Liverpool From the Ground Up - SI",
+   "url": "https://www.si.com/soccer/2019/07/23/bill-shankly-innovative-motivator-who-rebuilt-liverpool-ground",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-07-23",
+   "eventDate": "1973/74",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "he insisted on the installation of the famous 'THIS IS ANFIELD' sign prior to a match against Newcastle. This small change, designed to intimidate opponents",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The fighting philosophy of Bill Shankly (Guardian interview, 17 Dec 1968) - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2334",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-07-01",
+   "eventDate": "1968-12-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Tae get the best out of his men, the manager has tae work tae a tactical plan they understand which need not necessarily be the one he'd like himself.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "“The system is based on exhaustion and recovery,” Shankly explained, “building up players’ stamina to enable them to produce their inherent skill and footballing ability, despite the speed of the game, from the first minute to the 90th.”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "\"They said we were predictable. Well, I think anybody who is unpredictable is a waste of time.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Geoff Twentyman explained that “Shankly wanted, above all, to know about the lad’s private life, what he was like, did he go out drinking every night, what his home background was, and so on. He wanted to know if the lad had the heart to play for Liverpool.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Shankly had even been known to let apprentices go if they didn’t scrub the floors with gusto; often, less talented kids who put their all into it were given contracts at the expense of more gifted individuals.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1974-07-12",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "There is no doubt Kennedy will do a good job for Liverpool. He is big, brave and strong.",
+   "verified": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "But the best professional of the lot was Gerry Byrne. He wasn't flashy and he wouldn't score you goals. But he was hard and skilful and gave you everything he had.",
+   "verified": true
+  },
+  {
+   "title": "Manager - Liverpool - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2403",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1959-60",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "I made up my mind that we needed strengthening through the middle, a goalkeeper and a centre half who between them could stop goals, and somebody up front to create goals and score them.",
+   "verified": true
+  },
+  {
+   "title": "Manager - Liverpool - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2403",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1959/60",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "\"Within a month I had put down twenty four names of players I thought should go and they went inside a year.\"",
+   "verified": true
+  },
+  {
+   "title": "Manager - Liverpool - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2403",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1961-02",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "St John and Yeats were both twenty-three, and I said to Mr Sawyer (Liverpool's financial director), 'You sack me if they can't play.",
+   "verified": true
+  },
+  {
+   "title": "Bill Shankly: The 3-3-4 plan was born and worked (Shankly column, 1962)",
+   "url": "https://playupliverpool.com/1962/05/26/bill-shankly-the-3-3-4-plan-was-born-and-worked",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "1962-05-26",
+   "eventDate": "1961/62",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "A first class nursery is an essential for any club and I brought to Anfield a number of boys who attracted my attention as youngsters out of the ordinary.",
+   "verified": true
+  },
+  {
+   "title": "Bill Shankly: The 3-3-4 plan was born and worked (Shankly column, 1962)",
+   "url": "https://playupliverpool.com/1962/05/26/bill-shankly-the-3-3-4-plan-was-born-and-worked",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "1962-05-26",
+   "eventDate": "1961/62",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Unfortunately, this was the only signing we were able to make in the transfer market with a view to the immediate strengthening of our weaknesses.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "In many ways Shankly was the forefather of the squad system. “We don’t have eleven players here,” he would often say, “we have twenty.”",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "New signings — experienced senior players, at that — were consigned to the second-string, but not as punishment. The reserve team was there to provide an education: to allow players to adapt to the Liverpool way, and be brought through slowly.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Own words - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2517",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1974-07-12",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "We are so strong that you need to have a couple of international caps to get into the reserve team.",
+   "verified": true
+  },
+  {
+   "title": "Manager - Liverpool - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2403",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1965-66",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "A lot of our players were about the same age and I had given them a set time as to how long I thought they would last.",
+   "verified": true
+  },
+  {
+   "title": "December 1959: Shankly Arrives at Anfield - Empire of the Kop",
+   "url": "https://www.empireofthekop.com/2013/08/08/december-1959-shankly-arrives-at-anfield-by-tfhbtop250/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-08-08",
+   "eventDate": "1960-62",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Shankly had gradually began to phase out the older players like Liddell and began the promotion of young talent – many from the club’s reserves.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bob Paisley - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2837/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-09-14",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Unlike Shankly, Paisley was ruthless when it came to letting older players go.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The fighting philosophy of Bill Shankly (Guardian interview, 17 Dec 1968) - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2334",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-07-01",
+   "eventDate": "1968-12-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Above all, Shankly is a players' man who knows that if he fights for them, they will fight for him.",
+   "verified": true
+  },
+  {
+   "title": "Manager - Liverpool - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/2403",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2008-08-21",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "I also knew how to deal with people. I don't like to domineer over people. I like them to respect me.",
+   "verified": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1973",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "“Christ, son, you say you’re upset because I left you out? Son, you should be thanking me.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Shankly was very encouraging to the youngsters, but once players were in the senior side he became more standoffish, in order that no favouritism be showed.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Paul Tomkins on Bill Shankly - LFChistory.net",
+   "url": "https://lfchistory.net/articles/2835/page/2",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-11-03",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Shankly’s methods often involved building up his own players while belittling the ability of the opposition –– before the game, at least.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The last of Bill Shankly's original Bootroom Boys - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/3914",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-12-01",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "“He brought the Boot Room to the club but he didn't actually come in too often after games.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The last of Bill Shankly's original Bootroom Boys - LFChistory.net",
+   "url": "https://www.lfchistory.net/articles/3914",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2009-12-01",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Asked by Bill Shankly to take charge of the youth team when his playing days at Anfield were up, Moran was a permanent fixture in the room beneath the Main Stand.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "December 1959: Shankly Arrives at Anfield - Empire of the Kop",
+   "url": "https://www.empireofthekop.com/2013/08/08/december-1959-shankly-arrives-at-anfield-by-tfhbtop250/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-08-08",
+   "eventDate": "1959-74",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "For this he kept the same backroom staff which Taylor had worked with previous. The so-called “Bootroom Boys” of ex-player Bob Paisley, Scot Reuben Bennett and Joe Fagan",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "December 1959: Shankly Arrives at Anfield - Empire of the Kop",
+   "url": "https://www.empireofthekop.com/2013/08/08/december-1959-shankly-arrives-at-anfield-by-tfhbtop250/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2013-08-08",
+   "eventDate": "1959-12-14",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "on 14th December 1959 was confirmed as Huddersfield Town boss Bill Shankly",
+   "verified": false
   }
+ ],
+ "statedView": [
+  {
+   "quote": "Our approach was to use the ball like a baton in a relay race. You pass it to me, I pass it to him, he passes it on. It’s the ball that is covering most of the ground — not the players.",
+   "date": "1959-74",
+   "source": "https://lfchistory.net/articles/2835/page/2",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Never pass to a red shirt in one direction when there are two in the other... Support the man, but look to the ball. If you lose the ball work twice as hard as the opposition to get it back.",
+   "date": "1959-74",
+   "source": "https://lfchistory.net/articles/2835/page/2",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Tae get the best out of his men, the manager has tae work tae a tactical plan they understand which need not necessarily be the one he'd like himself.",
+   "date": "1968-12-17",
+   "source": "https://www.lfchistory.net/articles/2334",
+   "provenance": "primary"
+  },
+  {
+   "quote": "If I don't pick the team, what am I manager of?",
+   "date": "1951",
+   "source": "https://www.lfchistory.net/articles/2517",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We realised at Liverpool that you can’t score a goal every time you get the ball. And we learned this from Europe, from the Latin people.",
+   "date": "1973",
+   "source": "https://lfchistory.net/articles/2837/page/2",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "We don’t have eleven players here, we have twenty.",
+   "date": "1959-74",
+   "source": "https://lfchistory.net/articles/2835/page/2",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "My idea was to turn Liverpool into a bastion of invincibility.",
+   "date": "1959-74",
+   "source": "https://www.si.com/soccer/2019/07/23/bill-shankly-innovative-motivator-who-rebuilt-liverpool-ground",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Don’t think any individual is expected to win the game by himself. Don’t worry that we are depending on you too much. Share out the worries.",
+   "date": "1976",
+   "source": "https://lfchistory.net/articles/2835/page/2",
+   "provenance": "attributed"
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.pressreader.com/australia/fourfourtwo/20190501/282780652913929",
+   "reason": "empty"
+  },
+  {
+   "url": "https://www.liverpoolfc.com/news/features/321909-liverpool-red-star-belgrade-video-tifo",
+   "reason": "404"
+  },
+  {
+   "url": "https://legacy.liverpoolfc.com/news/first-team/144161-how-bill-shankly-changed-training",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://legacy.liverpoolfc.com/news/first-team/144273-how-bill-shankly-changed-the-team",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://legacy.liverpoolfc.com/news/first-team/144499-bill-shankly-the-final-interview",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://thisisanfield.com/?p=224607",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.thisisanfield.com/?p=21198",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.liverpoolfc.com/news/first-team/111453-bill-shankly-in-his-own-words",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.liverpoolfc.com/news/features/374163-in-numbers-bill-shankly-s-liverpool-reign",
+   "reason": "404"
+  },
+  {
+   "url": "https://www.thisisanfield.com/2017/04/promotion-titles-red-kits-rise-bill-shankly-liverpool-fc-1960s/",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Preston North End (Shankly's playing club, 'modern methods', per 1968 Guardian interview)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Liverpool",
+   "start": "1959-12-01",
+   "end": "1974-07-12",
+   "reason": "Three league titles, two FA Cups, UEFA Cup; built the Boot Room and the pass-and-move model"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Carlisle United",
+   "start": "1949",
+   "end": "1951",
+   "reason": "user decision"
+  },
+  {
+   "club": "Grimsby Town",
+   "start": "1951",
+   "end": "1954",
+   "reason": "user decision"
+  },
+  {
+   "club": "Workington",
+   "start": "1954",
+   "end": "1955",
+   "reason": "user decision"
+  },
+  {
+   "club": "Huddersfield Town",
+   "start": "1956",
+   "end": "1959",
+   "reason": "user decision"
+  }
+ ],
+ "gaps": {
+  "dimensions": [],
+  "axes": []
+ },
+ "confidence": {
+  "level": "medium",
+  "reason": "Good tier B primary and contemporary material (Shankly's 1962 column, 1968 Guardian interview, 1964 Revie dossier) but no tier A tactical study; many style facts come from Tomkins' 2009 retrospective; marking system and pressing structure not documented."
+ }
 }

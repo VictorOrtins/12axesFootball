@@ -1,120 +1,783 @@
 {
-  "id": "manchester-united-1995-96",
-  "catalog": "team",
-  "name": "Manchester United 1995/96",
-  "status": "complete",
-  "researchedOn": "2026-10-12",
-  "profilePeriod": {
-    "start": "1995-08-19",
-    "end": "1996-05-11"
-  },
-  "scopeNote": "Style not established: sources support only a 4-4-2-family shape in general terms (Wilson, on Ferguson's sides across the 1990s, not this season) and a youth-led squad rebuild (Premier League review, Wikipedia). Period 1995-08-19 (Aston Villa 1-3, first match) to 1996-05-11 (FA Cup final 1-0 Liverpool); league clinched 1996-05-05. Tactical dimensions have no period-specific verified source; they are gaps, not evidence of absence. Second pass: Hansen/Goal pieces add Ferguson using Hansen's remark to motivate the squad (secondary paraphrase) and the opening-day line-up only; still no season-wide tactical source (Spielverlagerung/TFT/Coaches' Voice searches returned nothing).",
-  "managers": [
-    {
-      "managerId": "alex-ferguson",
-      "start": "1995-08-19",
-      "end": "1996-05-11"
-    }
-  ],
-  "ambiguities": [],
-  "openQuestions": [],
-  "sources": [
-    {
-      "title": "1995/96 Season Review",
-      "url": "https://www.premierleague.com/en/news/693495",
-      "tier": "A",
-      "language": "en",
-      "articleDate": "2018-05-24",
-      "eventDate": "1995/96",
-      "accessedOn": "2026-10-12",
-      "dimension": "squad-building",
-      "evidence": "United surprised by \"selling established first-team trio Paul Ince, Andrei Kanchelskis and Mark Hughes\" with no major signings; Ferguson \"threw a host of academy stars into the fold\" (Beckham, Scholes, the Nevilles, Butt became regular starters). Hansen on Match of the Day: \"You can't win anything with kids.\" Title won by four points.",
-      "verified": true
-    },
-    {
-      "title": "1995-96 Manchester United F.C. season",
-      "url": "https://en.wikipedia.org/wiki/1995–96_Manchester_United_F.C._season",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-10-17",
-      "eventDate": "1995/96",
-      "accessedOn": "2026-10-17",
-      "dimension": "squad-building",
-      "evidence": "First 100k chars read. \"Having started the season without a major summer signing\"; only summer arrival Nick Culkin (York City). Ferguson \"drafted in young players like Nicky Butt, David Beckham, Paul Scholes\" and the Nevilles, paired with veterans Bruce, Keane, Schmeichel. First match 1995-08-19 Aston Villa (a) 1-3; league clinched 1996-05-05 Middlesbrough (a) 3-0; last match FA Cup final 1996-05-11 Liverpool 1-0. Page has no tactics.",
-      "verified": true
-    },
-    {
-      "title": "Sir Alex Ferguson was as adept at evolving tactically as any manager in history (Jonathan Wilson, Guardian News Service)",
-      "url": "https://gulfnews.com/amp/story/sport%2Ffootball%2Fsir-alex-ferguson-was-as-adept-at-evolving-tactically-as-any-manager-in-history-1.1181350",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2018-09-15",
-      "eventDate": "1995/96",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "Ferguson's sides \"had always been part of the 4-4-2 family\" before the 2000 shift. Career-wide, not specific to 1995/96, so context only; no pressing/marking content.",
-      "verified": false
-    },
-    {
-      "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
-      "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2019-08-19",
-      "eventDate": "1995-08-19",
-      "accessedOn": "2026-10-17",
-      "dimension": "shape",
-      "evidence": "Opening-match line-up only (Aston Villa 1-3): \"Butt partnered Roy Keane in midfield\"; \"Scholes played off the front with veteran Scottish forward Brian McClair.\" Also \"four players aged 20 or younger\" (G. Neville, P. Neville, Butt, Scholes); \"Potential aside, it was a huge gamble from Ferguson\". One match, not a season-wide system.",
-      "verified": true
-    },
-    {
-      "title": "You can't win anything with kids: Alan Hansen's infamous Man Utd rant and the aftermath (Goal)",
-      "url": "https://www.goal.com/en-gb/news/you-cant-win-anything-with-kids-alan-hansen-infamous-man-utd-rant-aftermath/1gn0os7ix8fp418q3pequhf9j0",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2019-08-19",
-      "eventDate": "1995/96",
-      "accessedOn": "2026-10-17",
-      "dimension": "people-management",
-      "evidence": "Ferguson \"often went back to Hansen's comments to motivate his side throughout the season\" (article paraphrase, no direct Ferguson quote). Hansen later: \"The kids were great, but so were the goalkeeper, two centre-backs and the centre forward.\"",
-      "verified": true
-    }
-  ],
-  "statedView": [],
-  "unreadable": [
-    {
-      "url": "https://www.manutd.com/en/news/detail/utd-podcast-phil-neville-reveals-devastating-effect-of-famous-alan-hansen-class-of-92-criticism",
-      "reason": "empty"
-    }
-  ],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "game-management",
-      "player-profile",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "pos",
-      "pro",
-      "lar",
-      "blo",
-      "mar",
-      "pla",
-      "res",
-      "sis",
-      "jog"
-    ]
-  },
-  "influences": [],
-  "confidence": {
-    "level": "low",
-    "reason": "Squad-building verified (Premier League review, Wikipedia); people-management and opening-day shape only from secondary tier C pieces (SI, Goal); no season-wide tactical analysis or direct Ferguson quote found."
+ "id": "manchester-united-1995-96",
+ "catalog": "team",
+ "name": "Manchester United 1995/96",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "1995-08-19",
+  "end": "1996-05-11"
+ },
+ "managers": [
+  {
+   "managerId": "alex-ferguson",
+   "start": "1995-08-19",
+   "end": "1996-05-11"
   }
+ ],
+ "scopeNote": "Manchester United under Alex Ferguson from the opening league match (Aston Villa 1-3, 19 Aug 1995) to the FA Cup final (1-0 Liverpool, 11 May 1996): league and FA Cup double after selling Ince, Hughes and Kanchelskis and promoting Butt, Scholes, Beckham and the Nevilles. Sources describe a conventional 4-4-2 (Tyler: 'the 4-4-2 was reinstated'), with Cantona (back 1 Oct 1995) as the focal player, Keane and Butt in central midfield, Giggs, Beckham and Sharpe wide and Cole/Scholes/McClair up front; no tier A-B source gives a pressing or marking system for this season and no source states zonal or man-to-man, so style is described mainly through lineups, contemporary press (counter-attack, Mail & Guardian) and match accounts. Correction to the brief: Keane arrived in 1993 and was in the 1995/96 side (he played in the opening match and the FA Cup final). Cantona joined in Nov 1992, so he was in United's squad before, but was banned until 1 Oct 1995. The 1996/97 Newcastle 5-0 (Oct 1996) and Beckham's halfway-line goal (Aug 1996) are outside the period and not used. Sources that mention only Ferguson's 1990s teams in general (sigames, fmscout, rosetta/tifo) were not used.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Centre-back pairing at Newcastle on 4 March 1996: Yahoo/Independent says Pallister was injured and Gary Neville played at centre-half; another unverified line-up lists Bruce and May. Not resolved.",
+  "No explicit source found on zonal vs man-marking at set pieces for 1995/96; the only evidence is man-oriented marking of the Liverpool playmakers in the FA Cup final as described by Wikipedia - treat as unresolved.",
+  "Wikipedia/Sportskeeda say 'Cantona and McManaman marked and closed out by Redknapp and Barnes and Keane and Butt respectively': ambiguous who marked whom; read as each side's playmaker marked by two midfielders.",
+  "Did Ferguson play a back three only at Sunderland (6 Jan 1996) or elsewhere? Tyler says he considered it before the final and changed his mind (retrospective, from an 'impeccable source').",
+  "Ferguson's mind games (Leeds, 17 Apr 1996) are credited by the press, but Keegan says they did not cause the collapse and Ferguson (per later accounts) aimed them at Wilkinson; contested credit."
+ ],
+ "sources": [
+  {
+   "title": "Martin Tyler's Letter From The Gantry No 31",
+   "url": "https://martintylerandneilbarnett.substack.com/p/martin-tylers-letter-from-the-gantry-61d",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-17",
+   "eventDate": "1996-01-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Alex Ferguson was typically decisive. Off came Parker, replaced by Lee Sharpe, and the 4-4-2 was reinstated with Lee on the left.",
+   "verified": true
+  },
+  {
+   "title": "Martin Tyler's Letter From The Gantry No 31",
+   "url": "https://martintylerandneilbarnett.substack.com/p/martin-tylers-letter-from-the-gantry-61d",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-17",
+   "eventDate": "1996-01-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "He let me in on what the change was going to be, a switch from his usual four at the back to a three, with the experienced Paul Parker in the middle of the new formation.",
+   "verified": true
+  },
+  {
+   "title": "Martin Tyler's Letter From The Gantry No 31",
+   "url": "https://martintylerandneilbarnett.substack.com/p/martin-tylers-letter-from-the-gantry-61d",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-17",
+   "eventDate": "1996-01-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "sure enough Paul Parker adopted a sweeper's role with Gary Neville and Steve Bruce either side of him as the other central defenders. However it didn't really work. Sunderland took the lead through striker Phil Gray and United left the field at half-time a goal down.",
+   "verified": true
+  },
+  {
+   "title": "Martin Tyler's Letter From The Gantry No 31",
+   "url": "https://martintylerandneilbarnett.substack.com/p/martin-tylers-letter-from-the-gantry-61d",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-17",
+   "eventDate": "1996-01-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "On the hour, with United still trailing, Paul Scholes came on for Nicky Butt and ten minutes later struck an equaliser. With extra time looming Andy Cole spared United's blushes and took them through to Round 4.",
+   "verified": true,
+   "note": "Tyler's account compresses the 2-2 draw (6 Jan) and the replay (16 Jan, Cole 90'); the back three was used in the 6 Jan 2-2 draw per the Wikipedia fixture list."
+  },
+  {
+   "title": "Martin Tyler's Letter From The Gantry No 31",
+   "url": "https://martintylerandneilbarnett.substack.com/p/martin-tylers-letter-from-the-gantry-61d",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2025-01-17",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "switching to a back three was seriously considered by Alex Ferguson in the build up to that Final in 1996. Unlike at Sunderland he changed his mind before rather than during the game - and United posted a 1-0 win at Wembley.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+   "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-19",
+   "eventDate": "1995-08-19",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "On the opening day of the season - 19 August 1995 - United lined up against Aston Villa at Villa Park with four players aged 20 or younger. They were Gary Neville, Phil Neville, Nicky Butt and Paul Scholes. Another two in David Beckham and John O'Kane came off the bench.",
+   "verified": true
+  },
+  {
+   "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+   "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-19",
+   "eventDate": "1995-08-19",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "What's more, no new signings were made that summer, meaning that Ferguson appeared to be going into the season unprepared after losing three automatic starters - Kanchelskis had actually finished the previous campaign as United's leading goalscorer.",
+   "verified": true
+  },
+  {
+   "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+   "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-19",
+   "eventDate": "1995-08-19",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Gary Neville lined up alongside Gary Pallister at the centre of defence. Butt partnered Roy Keane in midfield, the future captain only 24 years of age himself and now suddenly thrust into a senior role. Scholes played off the front with veteran Scottish forward Brian McClair.",
+   "verified": true
+  },
+  {
+   "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+   "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-19",
+   "eventDate": "1995-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Instead, he kept faith with his young charges.",
+   "verified": true
+  },
+  {
+   "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+   "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-19",
+   "eventDate": "1995-08-26",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "A week after being torn apart by Aston Villa, Gary Neville, Butt and Scholes all kept their starting places for the first home game of the season against West Ham. Beckham also came into the XI off the back of his Villa Park performance. United won 2-1, with Scholes and Keane scoring.",
+   "verified": true
+  },
+  {
+   "title": "Alan Hansen's 'You Can't Win Anything With Kids' Comment & Man Utd's 1995 Thumping at Aston Villa",
+   "url": "https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2019-08-19",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "By the end of the season, Beckham and Butt had played in 40 and 41 games in all competitions respectively, Gary Neville in 39 and Phil Neville in 34. Scholes played in 31 and actually started fewer than 20 games, but he still scored 14 times, second only to Cantona in the whole squad.",
+   "verified": true
+  },
+  {
+   "title": "1995/96 Season Review",
+   "url": "https://www.premierleague.com/en/news/693495",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-24",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Manchester United surprised many by selling established first-team trio Paul Ince, Andrei Kanchelskis and Mark Hughes without bringing in any major additions. But Sir Alex Ferguson threw a host of academy stars into the fold and they recovered from being 12 points behind pacesetters Newcastle United to clinch their third PL crown",
+   "verified": true
+  },
+  {
+   "title": "1995/96 Season Review",
+   "url": "https://www.premierleague.com/en/news/693495",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-05-24",
+   "eventDate": "1996-04-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "A 3-1 loss at Southampton, where they changed from their grey strip to a blue and white kit at half-time after they went 3-0 down, was the only time Man Utd dropped points for the rest of the season.",
+   "verified": true,
+   "note": "Premier League wording ('the only time Man Utd dropped points for the rest of the season') is the source's claim."
+  },
+  {
+   "title": "Competition: Guess United's first Premier League opponents (RetroUnited 1995-96)",
+   "url": "https://www.retrounited.com/history/1990-1999/manchester-united-1995-1996/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-10-23",
+   "eventDate": "1996-04-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "when United changed their kits at half-time during their away defeat to Southampton, with Alex Ferguson stating that it was because he felt the kit left players unable to spot each other on the pitch, as well as the fact that United had not won a single of their five games played wearing the kit.",
+   "verified": true
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1996-04-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "The season also produced one of the most infamous moments in football shirt history, when United changed their kits at half-time during their away defeat to Southampton, with Alex Ferguson stating that it was because he felt the kit left players unable to spot each other on the pitch",
+   "verified": true
+  },
+  {
+   "title": "Keegan, Ferguson, Cantona and a collapse: The inside story of the 1995/96 title race",
+   "url": "https://ca.news.yahoo.com/keegan-ferguson-cantona-collapse-inside-105851582.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "The problems had actually started for United before the game, when Pallister suffered a back problem getting off the bus. Gary Neville had to come in at centre-half, and has since admitted the situation got to him, describing it as \"a personal nightmare\".",
+   "verified": true,
+   "note": "Contested: see openQuestions (other lineups list Bruce and May / unreliable)."
+  },
+  {
+   "title": "Keegan, Ferguson, Cantona and a collapse: The inside story of the 1995/96 title race",
+   "url": "https://ca.news.yahoo.com/keegan-ferguson-cantona-collapse-inside-105851582.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "While he effusively praised Schmeichel - \"he defied them, and just kept defying them\" - the manager vigorously questioned the backline, and especially Neville.",
+   "verified": true
+  },
+  {
+   "title": "Keegan, Ferguson, Cantona and a collapse: The inside story of the 1995/96 title race",
+   "url": "https://ca.news.yahoo.com/keegan-ferguson-cantona-collapse-inside-105851582.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "\"Asprilla is beating you on the ground, he's beating you in the air. What's going on? Play like that second half and you've cost us the title.\"",
+   "verified": true,
+   "note": "Quote as reported in Yahoo/Independent piece: Ferguson half-time team talk, 4 March 1996."
+  },
+  {
+   "title": "Keegan, Ferguson, Cantona and a collapse: The inside story of the 1995/96 title race",
+   "url": "https://ca.news.yahoo.com/keegan-ferguson-cantona-collapse-inside-105851582.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "He began to pointedly repeat the same message to his players. \"Newcastle are the type of team that give you a chance.\" He knew they were vulnerable, and would struggle under pressure.",
+   "verified": false,
+   "note": "Psychological pressure on the title rival, not a pressing system."
+  },
+  {
+   "title": "Keegan, Ferguson, Cantona and a collapse: The inside story of the 1995/96 title race",
+   "url": "https://ca.news.yahoo.com/keegan-ferguson-cantona-collapse-inside-105851582.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-03-28",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "This marked a major difference between the teams. For all the talk of \"kids\", and Ferguson's great gamble in bringing through the 'Class of 92' en masse, United had more proven champions. They had the hard-bitten experience of figures like Schmeichel, Cantona, Keane, Steve Bruce, Denis Irwin and Gary Pallister.",
+   "verified": true
+  },
+  {
+   "title": "The night Peter Schmeichel tilted the title away from Newcastle",
+   "url": "https://thesefootballtimes.co/2018/11/30/the-night-peter-schmeichel-tilted-the-title-away-from-newcastle/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-30",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "The first 45 minutes would come to be defined by a duel between the Toon Army's prolific striker, Les Ferdinand, and Manchester United's goalkeeper, Peter Schmeichel.",
+   "verified": true
+  },
+  {
+   "title": "The night Peter Schmeichel tilted the title away from Newcastle",
+   "url": "https://thesefootballtimes.co/2018/11/30/the-night-peter-schmeichel-tilted-the-title-away-from-newcastle/",
+   "tier": "B",
+   "language": "en",
+   "articleDate": "2018-11-30",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Ferdinand controlled the ball on his thigh, accelerating away from Steve Bruce with apparent ease, although it took him wider than he would've liked, and far too close to Schmeichel's domain. The blonde Dane, smelling blood, sprang from his line at the sight of Ferdinand's poor touch, beating him to the punch",
+   "verified": true,
+   "note": "Describes Schmeichel sweeping/coming off his line, i.e. a defence with space behind Bruce; not a stated high line."
+  },
+  {
+   "title": "Remembering Schmeichel's greatest ever performance in a Man United shirt",
+   "url": "https://thefootballfaithful.com/schmeichel-greatest-performance-man-united-newcastle/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-03-04",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "As with every shot that came his way, the goalkeeper furiously admonished his defenders - there would be a lot of that in this game.",
+   "verified": true
+  },
+  {
+   "title": "Remembering Schmeichel's greatest ever performance in a Man United shirt",
+   "url": "https://thefootballfaithful.com/schmeichel-greatest-performance-man-united-newcastle/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-03-04",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Ferguson seemingly agreed with his counterpart's assessment. \"They were the far better side in the first half, and Schmeichel made some great saves. In the second half, we imposed ourselves like a Manchester United side should. We got the ball down and played.\"",
+   "verified": true
+  },
+  {
+   "title": "On this day: Eric Cantona volleys Manchester United to Newcastle United win",
+   "url": "https://sportsmole.co.uk/football/man-utd/on-this-day/feature/on-this-day-cantona-volleys-united-to-newcastle-win_142386.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-03-04",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Andy Cole played the ball out to Phil Neville on the left side of the penalty area. From there, the United full-back swung over a cross towards the back post, where it was volleyed into the net by an unmarked Eric Cantona.",
+   "verified": true
+  },
+  {
+   "title": "Remembering Schmeichel's greatest ever performance in a Man United shirt",
+   "url": "https://thefootballfaithful.com/schmeichel-greatest-performance-man-united-newcastle/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-03-04",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "Former Magpie Andrew Cole was involved in the buildup to the winning goal, laying the ball onto Phil Neville before the youngster floated a cross to Eric Cantona to volley home.",
+   "verified": true
+  },
+  {
+   "title": "On this day: Eric Cantona volleys Manchester United to Newcastle United win",
+   "url": "https://sportsmole.co.uk/football/man-utd/on-this-day/feature/on-this-day-cantona-volleys-united-to-newcastle-win_142386.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2014-03-04",
+   "eventDate": "1996-03-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "before Peter Beardsley was thwarted by the Dane. Then, when Philippe Albert did get the better of Schmeichel, his curling effort cannoned back off the crossbar. As the first half wore on, Ferdinand and Beardsley again failed to convert opportunities, while United had rarely ventured forward.",
+   "verified": true
+  },
+  {
+   "title": "Man United sail towards historic double (Mail & Guardian, 1996)",
+   "url": "https://mg.co.za/article/1996-05-10-man-united-sail-towards-historic-double",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "1996-05-10",
+   "eventDate": "1996-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "transitions",
+   "evidence": "More than ever United are masters of the counter-attack, which will be an important factor in next season's Champions' League, where the counter-punch is essential in company not usually susceptible to the sucker punch. Their speed in switching from defence to attack can take away the breath of defenders",
+   "verified": true,
+   "note": "Contemporary (10 May 1996) press view."
+  },
+  {
+   "title": "Man United sail towards historic double (Mail & Guardian, 1996)",
+   "url": "https://mg.co.za/article/1996-05-10-man-united-sail-towards-historic-double",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "1996-05-10",
+   "eventDate": "1996-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "It is only just over 18 months since Port Vale supporters were complaining about Ferguson fielding a weakened team for a Coca-Cola Cup tie at Burslem. Yet the United side included Butt, Gary Neville, Scholes and Beckham, then little-known graduates from the FA Youth Cup",
+   "verified": true
+  },
+  {
+   "title": "Man United sail towards historic double (Mail & Guardian, 1996)",
+   "url": "https://mg.co.za/article/1996-05-10-man-united-sail-towards-historic-double",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "1996-05-10",
+   "eventDate": "1996-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "this time Ferguson has won the title without making further major signings. Kevin Keegan, moreover, has spent nearly £1-million for each of his 40-odd months as Newcastle's manager",
+   "verified": true
+  },
+  {
+   "title": "Man United sail towards historic double (Mail & Guardian, 1996)",
+   "url": "https://mg.co.za/article/1996-05-10-man-united-sail-towards-historic-double",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "1996-05-10",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "With Mark Hughes, Paul Ince and Andrei Kanchelskis, each fundamental to United's earlier triumphs, gone, Cantona unavailable and Andy Cole already looking an extravagant mistake, a season of consolidation looked a safe option.",
+   "verified": true
+  },
+  {
+   "title": "1996 FA Cup final - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-12-28",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "defensive-block",
+   "evidence": "with playmakers Eric Cantona and Steve McManaman, marked and closed out by Jamie Redknapp and John Barnes and Roy Keane and Nicky Butt respectively. Keane went on to stop virtually every attack the Liverpool midfield threw at Manchester United",
+   "verified": true,
+   "note": "Marking of the opposing playmaker is man-oriented in this description; no source states zonal or man-to-man as the team's system. Wikipedia text mirrored on Sportskeeda."
+  },
+  {
+   "title": "How Sir Alex Ferguson predicted the final scoreline of 1996 FA Cup Final",
+   "url": "https://www.sportskeeda.com/football/how-sir-alex-ferguson-predicted-final-scoreline-1996-fa-cup-final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2016-08-21",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "pressing",
+   "evidence": "Playmakers Eric Cantona and Steve McManaman, marked and closed out by Jamie Redknapp and John Barnes, and Roy Keane and Nicky Butt respectively. Keane went on to stop virtually every attack the Liverpool midfield threw at United",
+   "verified": false,
+   "note": "Copy of the Wikipedia sentence; tier C, not used as independent evidence."
+  },
+  {
+   "title": "1996 FA Cup final - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-12-28",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "set-pieces",
+   "evidence": "with just five minutes remaining on the clock, David James tried to punch a corner clear. The ball landed just outside the penalty area, at the feet of Manchester United captain Eric Cantona",
+   "verified": true
+  },
+  {
+   "title": "1996 FA Cup final - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-12-28",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Manchester United's two longest serving players, Steve Bruce and Brian McClair, were dropped in favour of younger players for the final. Bruce never played for Manchester United again, as he was transferred to Birmingham City 11 days later",
+   "verified": true
+  },
+  {
+   "title": "1996 FA Cup final - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-12-28",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Cantona had been marked out of the game, but reflecting his form all season, managed another match-winning moment.",
+   "verified": true
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1995-09",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "The younger players were partnered with veterans like Steve Bruce, Roy Keane and Peter Schmeichel, and began to look a convincing outfit, particularly after a 2–1 win away to defending champions Blackburn Rovers.",
+   "verified": true
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1996-01-01",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Making his debut in that game was French defender William Prunier signed on a trial contract following an injury to Gary Pallister. Prunier also appeared in the United team at Tottenham on New Year's Day, but United crashed 4–1 at White Hart Lane and Prunier was soon gone.",
+   "verified": true
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1996-01-31",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "United's only winter arrival was Tony Coton, who signed from United's rivals Manchester City on 31 January.",
+   "verified": true
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1995-09-25",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "United's only summer arrival of the 1995–96 season was Nick Culkin, who signed from York City on 25 September.",
+   "verified": true
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1996-05-22",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Veteran defenders Steve Bruce and Paul Parker moved on at the end of the season, as did goalkeeper Tony Coton, who had only joined the club in January and never played a first team game.",
+   "verified": false,
+   "note": "Departures happened after the period end (11 May 1996)"
+  },
+  {
+   "title": "1995-96 Manchester United F.C. season - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Manchester_United_F.C._season",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-11-17",
+   "eventDate": "1996-01-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "United's title hopes appeared to be fading, and when they went 2–1 down at Old Trafford in the FA Cup third round to Division One promotion challengers Sunderland, it looked as though this season could prove to be another trophyless season for United. But an Eric Cantona equaliser with 10 minutes remaining forced a replay at Roker Park",
+   "verified": true
+  },
+  {
+   "title": "When Newcastle threw away a historical lead and Cantona came through for United (FootballCritic)",
+   "url": "https://www.footballcritic.com/season-reviews/when-newcastle-threw-away-a-historical-lead-and-cantona-came-through-for-united-the-1995-96-premier-league-season/63",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-22",
+   "eventDate": "1996-03",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Meanwhile, Cantona was proving to be United's talisman, scoring the winner in four 1-0 victories, while scoring in the 89th minute to grab a draw at QPR.",
+   "verified": true
+  },
+  {
+   "title": "Twenty Years Ago: Cantona's Redemption",
+   "url": "https://tbrfootball.com/twenty-years-ago-cantonas-redemption/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-09-08",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "The efficiency with which this new Cantona was conducting himself was evident in the series of 1-0 victories which carried United back from a 12 point deficit to Newcastle at Christmas. Time and again he was the difference",
+   "verified": true
+  },
+  {
+   "title": "Twenty Years Ago: Cantona's Redemption",
+   "url": "https://tbrfootball.com/twenty-years-ago-cantonas-redemption/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2015-09-08",
+   "eventDate": "1995-10-01",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "it took him two minutes to find Nicky Butt with a pinpoint cross, and his goal came from a penalty",
+   "verified": true
+  },
+  {
+   "title": "90min: Kevin Keegan: The story behind one of the Premier League's most explosive moments",
+   "url": "https://www.90min.com/posts/kevin-keegan-70-newcastle-man-utd-title-race-rant",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-29",
+   "eventDate": "1996-04-17",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "The result prompted Ferguson to question the integrity of the Leeds players, labelling them 'pathetic'. The boss claimed, \"They raised their game because they were playing Manchester United. We can accept any club coming here and trying their hardest, so long as they do it every week.\"",
+   "verified": true
+  },
+  {
+   "title": "'I will love it. Love it': 30 years on from Kevin Keegan's infamous rant",
+   "url": "https://www.irishexaminer.com/sport/soccer/arid-41836073.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-04-29",
+   "eventDate": "1996-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Before Newcastle's visit to Elland Road, Alex Ferguson craftily suggested that Leeds and Nottingham Forest - the team Keegan's players would visit three days later - would not try as hard as they had against his own side.",
+   "verified": true
+  },
+  {
+   "title": "'I will love it. Love it': 30 years on from Kevin Keegan's infamous rant",
+   "url": "https://www.irishexaminer.com/sport/soccer/arid-41836073.html",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-04-29",
+   "eventDate": "1996-04",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "\"It was just that Sir Alex Ferguson, I think, sometimes struggled to give teams credit and always looked for excuses.",
+   "verified": true,
+   "note": "Keegan's view (2016 interview) of Ferguson's mind games; contested by Ferguson per 90min/Irish Examiner."
+  },
+  {
+   "title": "Sir Alex Ferguson reveals why he made the tough call to sell Paul Ince - Read Man Utd",
+   "url": "https://readmanutd.com/2026/10/03/paul-ince-manchester-united-inter-milan-transfer/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2026-10-03",
+   "eventDate": "1995-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "\"I'm trying to weigh up one thing against the other. I'm looking at Paul Scholes and I said 'should we?' Milan's offer went from £7m to £7.5m and I said 'do it'.\"",
+   "verified": false,
+   "note": "Ferguson on BBC Breakfast (date of interview not stated on page); retrospective explanation of selling Ince.",
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Kanchelskis reveals Sir Alex Ferguson's Man Utd transfer apology | Goal.com",
+   "url": "https://www.goal.com/en/news/andrei-kanchelskis-reveals-sir-alex-ferguson-manchester/wn0kibumbv8q1gimmnmu5eu6f",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-20",
+   "eventDate": "1995-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "\"When I left United, Ferguson was ready to apologise to the whole team,\" the former winger told Sport-Express.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Kanchelskis reveals Sir Alex Ferguson's Man Utd transfer apology | Goal.com",
+   "url": "https://www.goal.com/en/news/andrei-kanchelskis-reveals-sir-alex-ferguson-manchester/wn0kibumbv8q1gimmnmu5eu6f",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2020-04-20",
+   "eventDate": "1995-08",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "His departure paved the way for Beckham to secure his place in Ferguson's starting XI.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "The Giorgio Armani suits that instantly made Sir Alex Ferguson know he was 90 minutes away from silverware",
+   "url": "https://www.unitedinfocus.com/throwbacks/the-giorgio-armani-suits-that-instantly-made-sir-alex-ferguson-know-he-was-90-minutes-away-from-silverware/",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2025-09-04",
+   "eventDate": "1996-05-11",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Speaking to a BBC documentary in 2015, Ferguson blasted: \"I think that's, what would you call it? Arrogance or over-confidence.\"",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Forward thinker - Coaches' Voice (Mark Hughes)",
+   "url": "https://learning.coachesvoice.com/?p=37816",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-03",
+   "eventDate": "1990",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Predominantly, during my playing career, teams played 4-4-2. One striker came short and the other went long, and you just played off each other.",
+   "verified": false,
+   "note": "Mark Hughes on his whole career, who left United in 1995; not in period, not used."
+  },
+  {
+   "title": "Forward thinker - Coaches' Voice (Mark Hughes)",
+   "url": "https://learning.coachesvoice.com/?p=37816",
+   "tier": "A",
+   "language": "en",
+   "articleDate": "2021-01-03",
+   "eventDate": "1993",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "But not Eric. He was constantly looking for spaces where he felt he could have an impact - and if he did get the ball in those spaces between the lines, as we call it now, he could be very dangerous.",
+   "verified": false,
+   "note": "Hughes on playing with Cantona; the period described is 1992-95 (before Hughes left), outside the profile."
+  },
+  {
+   "title": "When Newcastle threw away a historical lead and Cantona came through for United (FootballCritic)",
+   "url": "https://www.footballcritic.com/season-reviews/when-newcastle-threw-away-a-historical-lead-and-cantona-came-through-for-united-the-1995-96-premier-league-season/63",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2024-07-22",
+   "eventDate": "1995/96",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Cantona's experience and guile coupled with youthful exuberance proved to be a potent mix and with Andy Cole improving with each game, United began to improve.",
+   "verified": true
+  }
+ ],
+ "statedView": [
+  {
+   "quote": "You can't win anything with kids.",
+   "date": "1995-08-19",
+   "source": "Alan Hansen, Match of the Day (about United; context for Ferguson's choice) - quoted at https://www.si.com/soccer/2019/08/19/alan-hansens-you-cant-win-anything-kids-comment-man-utds-1995-thumping-aston-villa and https://www.premierleague.com/en/news/693495",
+   "provenance": "primary",
+   "note": "Not Ferguson; the criticism he answered by keeping the youngsters. The 'strength and depth' line is quoted by the42.ie (not mined as a paragraph in full)."
+  },
+  {
+   "quote": "Newcastle were the far better side in the first half and Schmeichel made some great saves. In the second half we imposed ourselves like a Manchester United side should. We got the ball down and played.",
+   "date": "1996-03-04",
+   "source": "Ferguson post-match, as reported by https://thefootballfaithful.com/schmeichel-greatest-performance-man-united-newcastle/ and https://sportsmole.co.uk/football/man-utd/on-this-day/feature/on-this-day-cantona-volleys-united-to-newcastle-win_142386.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "They raised their game because they were playing Manchester United. We can accept any club coming here and trying their hardest, so long as they do it every week.",
+   "date": "1996-04-17",
+   "source": "Ferguson after 1-0 v Leeds, as quoted in https://www.90min.com/posts/kevin-keegan-70-newcastle-man-utd-title-race-rant",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "To me they're cheating their manager. You wait and see the difference when they play Newcastle.",
+   "date": "1996-04-17",
+   "source": "Ferguson about Leeds, quoted in https://www.irishexaminer.com/sport/soccer/arid-41836073.html",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Paul was a tremendous footballer, there's no doubt about that ... I'm looking at Paul Scholes and I said 'should we?' Milan's offer went from £7m to £7.5m and I said 'do it'.",
+   "date": "2026-10-03",
+   "source": "https://readmanutd.com/2026/10/03/paul-ince-manchester-united-inter-milan-transfer/",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "I said to Brian Kidd '1-0'. Because of that. I think that's, what would you call it? Arrogance or over-confidence.",
+   "date": "2015",
+   "source": "https://www.unitedinfocus.com/throwbacks/the-giorgio-armani-suits-that-instantly-made-sir-alex-ferguson-know-he-was-90-minutes-away-from-silverware/ and https://www.sportskeeda.com/football/how-sir-alex-ferguson-predicted-final-scoreline-1996-fa-cup-final",
+   "provenance": "attributed"
+  },
+  {
+   "quote": "Alex always seemed to take the view that everyone was out to get Manchester United.",
+   "date": "2016",
+   "source": "Kevin Keegan quoted in https://ca.news.yahoo.com/keegan-ferguson-cantona-collapse-inside-105851582.html",
+   "provenance": "attributed",
+   "note": "Keegan on Ferguson, not Ferguson's own view; opposite view in Irish Examiner piece (Keegan: mind games not the cause)."
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://theanalyst.com/?p=72483",
+   "reason": "403"
+  },
+  {
+   "url": "https://siwri88totalfootball.blogspot.com/2012/07/premier-league-flashback-1995-96-review.html",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://www.pressreader.com/ireland/irish-sunday-mirror/20200503/283046941640669",
+   "reason": "empty"
+  },
+  {
+   "url": "https://footymags.com/?p=5480",
+   "reason": "403"
+  }
+ ],
+ "influences": [],
+ "gaps": {
+  "dimensions": [
+   "possession",
+   "pressing"
+  ],
+  "axes": []
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Good on squad-building, people-management and match/game-management from several dated or contemporary sources, but no tier A-B tactical study of this season was found: shape rests on one commentator memoir (Tyler, tier B), pressing, build-up, possession and marking are not established, and many items are tier C retrospectives."
+ }
 }

@@ -1,0 +1,148 @@
+{
+  "id": "carlo-ancelotti",
+  "catalog": "manager",
+  "name": "Carlo Ancelotti",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "2001",
+    "end": "2025"
+  },
+  "scopeNote": "Manager profile of Carlo Ancelotti across six counted spells: AC Milan (2001 to 2009: Champions League 2002-03 and 2006-07, Serie A 2003-04), Chelsea (2009 to 2011: Premier League and FA Cup 2009-10), Paris Saint-Germain (2011 to 2013: Ligue 1 2012-13), Real Madrid (2013 to 2015: Champions League 2013-14), Bayern Munich (2016 to 2017: Bundesliga 2016-17) and Real Madrid again (2021 to 2025: two La Liga and Champions League doubles). The Wikipedia infobox gives years only, so the spell dates are partial and the profile period is partial too. Excluded: Parma 1996-97, Juventus 1999-2001, Napoli 2018-19, Everton 2019-21 and the Brazil national team from 2025 (outside this profile's era).",
+  "spellsCounted": [
+    {
+      "club": "AC Milan",
+      "start": "2001",
+      "end": "2009",
+      "reason": "Two Champions Leagues, Serie A 2003-04 and the 'Christmas Tree' side of 2006-07."
+    },
+    {
+      "club": "Chelsea",
+      "start": "2009",
+      "end": "2011",
+      "reason": "Premier League and FA Cup 2009-10."
+    },
+    {
+      "club": "Paris Saint-Germain",
+      "start": "2011",
+      "end": "2013",
+      "reason": "Ligue 1 2012-13."
+    },
+    {
+      "club": "Real Madrid",
+      "start": "2013",
+      "end": "2015",
+      "reason": "Champions League 2013-14, Copa del Rey 2014 and the 2014 Club World Cup."
+    },
+    {
+      "club": "Bayern Munich",
+      "start": "2016",
+      "end": "2017",
+      "reason": "Bundesliga 2016-17."
+    },
+    {
+      "club": "Real Madrid",
+      "start": "2021",
+      "end": "2025",
+      "reason": "Two La Liga and Champions League doubles (2022, 2024)."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Parma",
+      "start": "1996",
+      "end": "1998",
+      "reason": "Second in Serie A 1996-97; no title, tactics read only in one line."
+    },
+    {
+      "club": "Juventus",
+      "start": "1999",
+      "end": "2001",
+      "reason": "Intertoto Cup only."
+    },
+    {
+      "club": "Napoli",
+      "start": "2018",
+      "end": "2019",
+      "reason": "No titles mentioned."
+    },
+    {
+      "club": "Everton",
+      "start": "2019",
+      "end": "2021",
+      "reason": "No titles mentioned."
+    },
+    {
+      "club": "Brazil",
+      "start": "2025",
+      "end": "2025",
+      "reason": "National team, after this profile's era."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "The formation facts come from the Wikipedia infobox and career summary, without match analysis; the marking, pressing and game-management facts are not documented in the pages read."
+  ],
+  "sources": [
+    {
+      "title": "Carlo Ancelotti - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2006",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"devising a 4–3–2–1 system that would later be known as his 'Christmas Tree' formation\" (AC Milan, 2006-07)",
+      "verified": true
+    },
+    {
+      "title": "Carlo Ancelotti - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carlo_Ancelotti",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "2013",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"switching instead to a 4–3–3 formation to great effect\" (Real Madrid, 2013-14)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "defensive-block",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "possession",
+      "pressing",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "blo",
+      "jog",
+      "lar",
+      "lid",
+      "mar",
+      "pla",
+      "pos",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "low",
+    "reason": "Dated career table with years only; four formation facts from the Wikipedia career summary; no tactical analysis read."
+  }
+}

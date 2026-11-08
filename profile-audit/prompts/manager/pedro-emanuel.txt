@@ -6,7 +6,7 @@ The research file below is your evidence. Build your answers on it:
 - When what the manager says (statedView) and what the team does (sources) disagree, answer questions about what the team does from the behaviour, and questions about what the profile believes from both, weighing the dates.
 - Read scopeNote, confidence and openQuestions: they say what the evidence covers and where it is weak.
 
-Axes WITHOUT verified evidence (gaps.axes): bas, blo, est, jog, lar, lid, mar, pla, pos, pro, res, sis. Your answers there come from general knowledge of this profile: say so in the personaBrief, and keep them consistent with what IS verified.
+Every axis has at least one verified fact (gaps.axes is empty).
 
 METHOD (mandatory):
 - For EACH of the 12 axes: first write a personaBrief of 1-2 sentences linking the evidence to that axis (only the part relevant to the axis, citing the facts you rely on).
@@ -34,7 +34,8 @@ Exact JSON format (keys of "answers" are the question ids; every axis present, e
   "sis": { "personaBrief": "...", "answers": { "sis_03": "C", ... } },
   "jog": { "personaBrief": "...", "answers": { "jog_03": "C", ... } },
   "bas": { "personaBrief": "...", "answers": { "bas_03": "C", ... } },
-  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } }
+  "lid": { "personaBrief": "...", "answers": { "lid_03": "C", ... } },
+  "archetype": { "<question id>": "A", ... }
 }
 
 After writing the file, reply only with "OK manager:pedro-emanuel" and a 1-line summary. Don't paste the JSON in the reply.
@@ -44,126 +45,907 @@ After writing the file, reply only with "OK manager:pedro-emanuel" and a 1-line 
   "id": "pedro-emanuel",
   "catalog": "manager",
   "name": "Pedro Emanuel",
-  "status": "complete",
-  "researchedOn": "2026-10-17",
+  "researchedOn": "2026-11-06",
   "profilePeriod": {
     "start": "2011-06-14",
     "end": "ongoing"
   },
-  "scopeNote": "Manager profile of Pedro Emanuel across four counted spells: Académica (14 June 2011 to 7 April 2013: Taça de Portugal 2011-12), Apollon Limassol (9 or 10 June 2015 to 11 December 2016: Cypriot Cup 2015-16, Cypriot Super Cup 2016), Al Taawoun (7 May 2018 to 22 May 2019: King's Cup 2019) and Vasco da Gama (10 July 2026 to the present). Dates from the Wikipedia statistics table; the page's prose and table differ by one day for Apollon. Excluded: Arouca, Estoril, Almería, Al Ain, Al Nassr, Al-Khaleej and Al-Fayha (no titles). The Wikipedia article read has no tactical description, so the profile has no tactical sources.",
+  "scopeNote": "Four counted spells: Académica (2011-06-14 to 2013-04-07, Taça de Portugal 2011/12), Apollon Limassol (2015-06-09 to 2016-12-11, Cypriot Cup 2015/16 and Super Cup 2016), Al Taawoun (2018-05-07 to 2019-05-22, King's Cup 2019) and Vasco da Gama (2026-07-10 to ongoing). Dates are the user's decided dates; not re-verified (Sport360 gives Apollon sacking as December 2016). Vasco has by far the best tactical coverage (Lance!, VAVEL, ge, NetVasco, Brazilian press). By 2026-09-19 Vasco had played about 19 matches of the spell (Pedro Emanuel in the Coritiba press conference: 'Dos 19 jogos que fizemos'), so the Vasco spell has more than 15 competitive matches. Académica and Apollon have no match-level tactical source found; Al Taawoun has one data-based source (Sport360, Wyscout). Style terms used by sources: 'construção a três' with volante dropping between centre-backs, three-volante structure (4-3-3 / 4-2-3-1 with ball, 4-1-4-1 without), individual-marking encaixes against Fluminense, counter-attacks via fast wide players. No source calls his Vasco purely zonal or man-marking; the only marking label is VAVEL's 'marcações individuais' for one match. Popular label 'adapts to squad' (NetVasco SEO-style profile) is a generic statement, tier C.",
+  "ambiguities": [],
+  "openQuestions": [
+    "Base formation conflicts: ge/Freitas Lobo and NetVasco profile say 4-2-3-1 and 4-3-3 with a construção a três; Sport360 (2020) says the 4-4-2 was deployed in Portugal, Cyprus and Saudi Arabia. Not reconciled.",
+    "Marking: only one match source (VAVEL, Fluminense 2026-08-05) mentions marcações individuais; Lance! says Vasco defended in bloco baixo vs Vitória. Zonal vs man-marking as a general principle is not stated by any source.",
+    "Académica 2011/12 and Apollon Limassol: no tactical source found (searches in PT/EN returned only results lists, Wikipedia and RTP cup-final preview). Their tactics rest on the retrospective ge/Freitas Lobo comment about Académica/Estoril/Arouca.",
+    "Spell start dates and the 2012-05 cup-final preview quote come from a second source only partly (RTP); appointment dates for Académica, Apollon and Al Taawoun were taken from the user's decision and not re-checked.",
+    "Set-pieces: only two Vasco quotes about corners (Santa Fe 2026-09); no source on routines or taker/zonal-man set-piece defence.",
+    "Lance! 2026-08-05 piece says all four of his titles came in knockout competitions; not used as a tactical fact."
+  ],
+  "sources": [
+    {
+      "title": "Confira como costumam jogar os times dirigidos pelo português Pedro Emanuel (ge via NetVasco)",
+      "url": "https://www.netvasco.com.br/n/388383/confira-como-costumam-jogar-os-times-dirigidos-pelo-portugues-pedro-emanuel-novo-tecnico-do-vasco",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-07-16",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "Ele gosta mais que as equipes peguem o jogo desde trás, tradicional, os centrais abrirem, para depois o volante baixar para pegar nessa construção, uma dita construção a três. Depois, com laterais bem projetados e médios conseguem uns mais recuperadores, outros mais construtivos e avançados que atacam bem a profundidade, gostam muito de ir nas costas dos defensores. Essa é a imagem que o Pedro deixou sobretudo no futebol português, nos tempos da Académica, do Estoril",
+      "verified": true
+    },
+    {
+      "title": "Confira como costumam jogar os times dirigidos pelo português Pedro Emanuel (ge via NetVasco)",
+      "url": "https://www.netvasco.com.br/n/388383/confira-como-costumam-jogar-os-times-dirigidos-pelo-portugues-pedro-emanuel-novo-tecnico-do-vasco",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-07-16",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Pedro Emanuel é um treinador que gosta que as suas equipas assumam o protagonismo no jogo. Isto é, não quer equipes que fiquem à espera.",
+      "verified": true
+    },
+    {
+      "title": "Sosa virou homem de confiança em plano tático de Pedro Emanuel",
+      "url": "https://netvasco.com.br/n/391784/confira-como-sosa-virou-homem-de-confianca-em-plano-tatico-de-pedro-emanuel-com-menos-de-um-mes-no-vasco-",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-09-03",
+      "eventDate": "2026-09-02",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "No esquema montado por Pedro Emanuel, o argentino descia para formar uma linha de três com Cuesta e Robert Renan na defesa e tinha, sobretudo, a responsabilidade por controlar a distância entre as duas linhas do Vasco.",
+      "verified": true
+    },
+    {
+      "title": "Sosa virou homem de confiança em plano tático de Pedro Emanuel",
+      "url": "https://netvasco.com.br/n/391784/confira-como-sosa-virou-homem-de-confianca-em-plano-tatico-de-pedro-emanuel-com-menos-de-um-mes-no-vasco-",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-09-03",
+      "eventDate": "2026-09-02",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "Andrés Gómez e Adson, por sua vez, eram deslocados para atuar na região central do campo quando o Vasco defendia, justamente para congestionar ainda mais o setor e impedir os avanços do Vitória.",
+      "verified": true
+    },
+    {
+      "title": "Sosa virou homem de confiança em plano tático de Pedro Emanuel",
+      "url": "https://netvasco.com.br/n/391784/confira-como-sosa-virou-homem-de-confianca-em-plano-tatico-de-pedro-emanuel-com-menos-de-um-mes-no-vasco-",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-09-03",
+      "eventDate": "2026-09-02",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Com os movimentos de Sosa, Puma Rodríguez e Lucas Piton tinham a possibilidade de dar um salto na linha de marcação.",
+      "verified": true
+    },
+    {
+      "title": "Sosa virou homem de confiança em plano tático de Pedro Emanuel",
+      "url": "https://netvasco.com.br/n/391784/confira-como-sosa-virou-homem-de-confianca-em-plano-tatico-de-pedro-emanuel-com-menos-de-um-mes-no-vasco-",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-09-03",
+      "eventDate": "2026-09-02",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "É agressivo nos duelos pelo alto e pelo chão, na forma como encurta os espaços e também na nossa saída de bola. Isso nos ajuda bastante.",
+      "verified": true
+    },
+    {
+      "title": "Sosa virou homem de confiança em plano tático de Pedro Emanuel",
+      "url": "https://netvasco.com.br/n/391784/confira-como-sosa-virou-homem-de-confianca-em-plano-tatico-de-pedro-emanuel-com-menos-de-um-mes-no-vasco-",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-09-03",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Os relatos são de que o argentino já construiu boa relação com o grupo de jogadores e é muito bem avaliado pela comissão técnica de Pedro Emanuel",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o nó tático de Pedro Emanuel em Jair Ventura (Lance!)",
+      "url": "https://www.lance.com.br/vasco/o-no-tatico-de-pedro-emanuel-em-jair-ventura.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-29",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "O Vasco no 4-3-3 já era superior ao Vitória em 11 contra 11. Controlava a segunda bola, invertia rápido de um lado para o outro e não cedia um único contra-ataque.",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o nó tático de Pedro Emanuel em Jair Ventura (Lance!)",
+      "url": "https://www.lance.com.br/vasco/o-no-tatico-de-pedro-emanuel-em-jair-ventura.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-29",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "o Vasco tinha saída de três com Cuesta, Robert Renan e Lucas Piton dando amplitude, e Colídio fixando os zagueiros com refinamento técnico impressionante.",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o nó tático de Pedro Emanuel em Jair Ventura (Lance!)",
+      "url": "https://www.lance.com.br/vasco/o-no-tatico-de-pedro-emanuel-em-jair-ventura.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-29",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "o Vasco tinha saída de três com Cuesta, Robert Renan e Lucas Piton dando amplitude",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o nó tático de Pedro Emanuel em Jair Ventura (Lance!)",
+      "url": "https://www.lance.com.br/vasco/o-no-tatico-de-pedro-emanuel-em-jair-ventura.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-29",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "A jogada de mestre foi tirar Spinelli e colocar Paulo Henrique pela direita, um dos jogadores mais rápidos do Brasileirão. Colídio centralizado, com inteligência para baixar e funcionar como meia. Andrés Gomez reposicionado pela esquerda. Três jogadores com velocidade e qualidade técnica formando um tridente de contra-ataque que expôs a zaga lenta do Vitória.",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o nó tático de Pedro Emanuel em Jair Ventura (Lance!)",
+      "url": "https://www.lance.com.br/vasco/o-no-tatico-de-pedro-emanuel-em-jair-ventura.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-29",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "A expulsão de Barros mudou o cenário, mas mudou pouco o domínio. Pedro Emanuel baixou o time para um 4-4-1 e jogou de forma inteligente.",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o nó tático de Pedro Emanuel em Jair Ventura (Lance!)",
+      "url": "https://www.lance.com.br/vasco/o-no-tatico-de-pedro-emanuel-em-jair-ventura.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-29",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Pedro Emanuel poupando jogadores pensando no Cruzeiro no sábado pelo Brasileirão. A mudança era seis por meia dúzia",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o Vasco é o melhor time do Brasil atualmente? (Lance!)",
+      "url": "https://www.lance.com.br/vasco/vasco-e-o-melhor-time-do-brasil-atualmente.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-10-02",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "a virada nasceu calcada no contra-ataque, com Andrés Gómez fazendo o papel de “criador do caos” pelos flancos, e depois mostrou inteligência e competência para não virar refém da própria estratégia. De lá para cá, o mesmo time aprendeu a sufocar o adversário, a propor o jogo e a roubar a bola no lugar certo.",
+      "verified": true
+    },
+    {
+      "title": "Análise tática do Guffo: o Vasco é o melhor time do Brasil atualmente? (Lance!)",
+      "url": "https://www.lance.com.br/vasco/vasco-e-o-melhor-time-do-brasil-atualmente.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-10-02",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "Já no contexto positivo que Pedro Emanuel construiu, viram reforço imediato. O trabalho técnico é a causa e o reforço vira a consequência.",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil (VAVEL Brasil)",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "O Vasco de Pedro Emanuel entrou em campo em um 4-2-3-1 com a bola, transformando-se em um rigoroso 4-1-4-1 em bloco médio/alto sem a bola, encaixando marcações individuais que asfixiaram a saída de bola tricolor.",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil (VAVEL Brasil)",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "transformando-se em um rigoroso 4-1-4-1 em bloco médio/alto sem a bola, encaixando marcações individuais que asfixiaram a saída de bola tricolor.",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil (VAVEL Brasil)",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "A trinca de meio-campo formada por Jair, Tchê Tchê e Thiago Mendes esmagou a criação do Fluminense, impedindo a equipe de Zubeldía de ultrapassar o meio-campo nos primeiros 10 minutos.",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil (VAVEL Brasil)",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Martinelli errou na saída, Andrés Gómez arrancou pela ponta e cruzou rasteiro para Brenner ampliar para 2 a 0",
+      "verified": true
+    },
+    {
+      "title": "Análise: Vasco impõe ritmo superior para avançar na Copa do Brasil (VAVEL Brasil)",
+      "url": "https://www.vavel.com/br/futebol/2026/08/06/1267357-analise-vasco-impoe-ritmmo-superior-para-avancar-na-copa-do-brasil-e-deixa-fluminense-mais-proximo-de-crise.html",
+      "tier": "B",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Pedro Emanuel foi cirúrgico: sacou Nuno Moreira e Jair para fechar a casa com Cauan Barros e Adson. Na reta final, montou uma linha de 5 defensores reforçada por Puma Rodríguez na ala/ponta.",
+      "verified": true
+    },
+    {
+      "title": "Rojas perde espaço após Pedro Emanuel consolidar esquema com 3 volantes (NetVasco)",
+      "url": "https://netvasco.com.br/n/390143/rojas-perde-espaco-apos-pedro-emanuel-consolidar-esquema-com-3-volantes",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-10",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "Desde o jogo contra o Mirassol, o treinador trabalha com uma formação com três volantes com a missão de dar maior consistência defensiva, com um meio-campo de maior intensidade na marcação.",
+      "verified": true
+    },
+    {
+      "title": "Rojas perde espaço após Pedro Emanuel consolidar esquema com 3 volantes (NetVasco)",
+      "url": "https://netvasco.com.br/n/390143/rojas-perde-espaco-apos-pedro-emanuel-consolidar-esquema-com-3-volantes",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-10",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Rojas era peça- chave do meio com Renato Gaúcho e chegou a iniciar como titular na estreia de Pedro Emanuel, na derrota por 1 a 0 contra o Vitória, em Salvador, no dia 16 de julho. Nos seis jogos seguintes, no entanto, o camisa 10 sempre começou no banco de reservas",
+      "verified": true
+    },
+    {
+      "title": "Rojas perde espaço após Pedro Emanuel consolidar esquema com 3 volantes (NetVasco)",
+      "url": "https://netvasco.com.br/n/390143/rojas-perde-espaco-apos-pedro-emanuel-consolidar-esquema-com-3-volantes",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-10",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "o português foca as atividades em posicionamento, balanço defensivo (o time rodar de um lado para o outro quando o adversário muda a jogada de lado) e comportamento da equipe em transição.",
+      "verified": true
+    },
+    {
+      "title": "Rojas perde espaço após Pedro Emanuel consolidar esquema com 3 volantes (NetVasco)",
+      "url": "https://netvasco.com.br/n/390143/rojas-perde-espaco-apos-pedro-emanuel-consolidar-esquema-com-3-volantes",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-10",
+      "eventDate": "2026-07-16",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "o meia colombiano foi cobrado em muitas oportunidades pelo treinador por maior intensidade, tanto com a bola quanto na marcação.",
+      "verified": true
+    },
+    {
+      "title": "Zeramos tudo: como Pedro Emanuel mudou a mentalidade do Vasco (O Povo)",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/08/06/8220zeramos-tudo-8221-como-pedro-emanuel-mudou-a-mentalidade-do-vasco.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Pedro Emanuel revelou que o primeiro passo para a evolução em campo foi reestruturar a confiança do elenco nos bastidores, impondo um novo início para todos os atletas",
+      "verified": true
+    },
+    {
+      "title": "Zeramos tudo: como Pedro Emanuel mudou a mentalidade do Vasco (O Povo)",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/08/06/8220zeramos-tudo-8221-como-pedro-emanuel-mudou-a-mentalidade-do-vasco.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "O que tentamos fazer é permitir que o jogador acredite que será sempre valioso para a equipe.",
+      "verified": true
+    },
+    {
+      "title": "Zeramos tudo: como Pedro Emanuel mudou a mentalidade do Vasco (O Povo)",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/08/06/8220zeramos-tudo-8221-como-pedro-emanuel-mudou-a-mentalidade-do-vasco.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Quem tiver a oportunidade terá que mostrar serviço, senão outro entra no lugar. É essa competitividade que vamos tentar manter.",
+      "verified": true
+    },
+    {
+      "title": "Zeramos tudo: como Pedro Emanuel mudou a mentalidade do Vasco (O Povo)",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/08/06/8220zeramos-tudo-8221-como-pedro-emanuel-mudou-a-mentalidade-do-vasco.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-06",
+      "eventDate": "2026-08-05",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "A mudança comportamental refletiu-se em uma equipe visivelmente mais compacta, agressiva na retomada da bola e mentalmente forte para suportar a pressão do rival",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel vem administrando o elenco vascaíno com excesso de estrangeiros (NetVasco)",
+      "url": "https://netvasco.com.br/n/392615/pedro-emanuel-vem-administrando-o-elenco-vascaino-com-excesso-de-estrangeiros-apos-a-janela",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-14",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Com 11 estrangeiros no elenco após a janela de transferências, o técnico do Vasco terá de administrar cortes frequentes para cumprir o limite da CBF.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel vem administrando o elenco vascaíno com excesso de estrangeiros (NetVasco)",
+      "url": "https://netvasco.com.br/n/392615/pedro-emanuel-vem-administrando-o-elenco-vascaino-com-excesso-de-estrangeiros-apos-a-janela",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-14",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "A comissão técnica também vem optando por convocar o jovem Bruno André para acostumá-lo com o ambiente do time profissional.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel vem administrando o elenco vascaíno com excesso de estrangeiros (NetVasco)",
+      "url": "https://netvasco.com.br/n/392615/pedro-emanuel-vem-administrando-o-elenco-vascaino-com-excesso-de-estrangeiros-apos-a-janela",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-14",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Saldivia, Spinelli e Rojas não viajaram com a delegação e permaneceram no Rio de Janeiro por opção do treinador.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel vem administrando o elenco vascaíno com excesso de estrangeiros (NetVasco)",
+      "url": "https://netvasco.com.br/n/392615/pedro-emanuel-vem-administrando-o-elenco-vascaino-com-excesso-de-estrangeiros-apos-a-janela",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-14",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Nós fazemos um plano para cada jogo, para cada adversário que vamos enfrentar. Em função disso, eu faço a escolha dos nossos atletas.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel - find out about the Special One set to reinvigorate limp Al Ain (Sport360)",
+      "url": "https://amp.sport360.com/article/football/arabian-gulf-league/340985/pedro-emanuel-find-out-about-the-special-one-set-to-reinvigorate-limp-al-ain",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-01-06",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Taawoun made the most fouls in 2018/19 and ranked second for challenge intensity. Their third-best passes allowed per defensive action further highlighted the intensity of Emanuel’s pressing system.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel - find out about the Special One set to reinvigorate limp Al Ain (Sport360)",
+      "url": "https://amp.sport360.com/article/football/arabian-gulf-league/340985/pedro-emanuel-find-out-about-the-special-one-set-to-reinvigorate-limp-al-ain",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-01-06",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Togo striker Laba’s proficiency in the air will be further aided by an extensive use of crossing through bold wingers and daring full-backs. Taawoun produced the third most in the 2018/19 SPL, according to Wyscout.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel - find out about the Special One set to reinvigorate limp Al Ain (Sport360)",
+      "url": "https://amp.sport360.com/article/football/arabian-gulf-league/340985/pedro-emanuel-find-out-about-the-special-one-set-to-reinvigorate-limp-al-ain",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-01-06",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "shape",
+      "evidence": "The 29-year-old Brazilian forward, however, will again take centre stage in the 4-4-2 formation deployed by Emanuel in Portugal, Cyprus and Saudi Arabia.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel - find out about the Special One set to reinvigorate limp Al Ain (Sport360)",
+      "url": "https://amp.sport360.com/article/football/arabian-gulf-league/340985/pedro-emanuel-find-out-about-the-special-one-set-to-reinvigorate-limp-al-ain",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-01-06",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "player-profile",
+      "evidence": "No-one profited more from this cross-centric approach than Cameroon centre forward Leandre Tawamba. A tally of 27 strikes in 34 run-outs under Emanuel represented, by a distance, the grandest return of his career.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel - find out about the Special One set to reinvigorate limp Al Ain (Sport360)",
+      "url": "https://amp.sport360.com/article/football/arabian-gulf-league/340985/pedro-emanuel-find-out-about-the-special-one-set-to-reinvigorate-limp-al-ain",
+      "tier": "B",
+      "language": "en",
+      "articleDate": "2020-01-06",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Yet shared philosophies (dominant no9s, high press, plenty of crosses) make Emanuel an apt fit.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva de Pedro Emanuel após Vasco 0 x 0 Fluminense (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389559/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-0-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-01",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "Há um primeiro, segundo e terceiro momento de pressão. Não quero revelar tudo porque em alguns dias tem jogo novamente.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva de Pedro Emanuel após Vasco 0 x 0 Fluminense (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389559/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-0-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-01",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "pressing",
+      "evidence": "eles em muitos momentos interpretaram muito bem com esses ganhos de bola no meio-campo ofensivo, muitas das vezes com a batida longa do Fluminense que nos entregava a bola. Isso era o plano",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva de Pedro Emanuel após Vasco 0 x 0 Fluminense (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389559/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-0-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-01",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "build-up",
+      "evidence": "muitas das vezes, o Tchê Tchê deu o início de construção. Éé muito importante para nós, porque quanto mais jogadores de qualidade pudermos introduzir, mais bola limpa sai para podermos atacar.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva de Pedro Emanuel após Vasco 0 x 0 Fluminense (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389559/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-0-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-01",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Na apresentação eu disse que para mim a qualidade não tem idade. Ano passado lancei dois jogadores com 17 anos na equipe onde estava, se tem qualidade e fazem a diferença, jogam.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva de Pedro Emanuel após Vasco 0 x 0 Fluminense (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389559/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-0-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-01",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "Hoje pus na mesa jogar eventualmente com dois volantes para termos consistência, mas não foi essa a ideia.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva de Pedro Emanuel após Vasco 0 x 0 Fluminense (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389559/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-0-x-0-fluminense",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-01",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Tenho um respeito muito grande pelo trabalho que os árbitros fazem, que é muito difícil.",
+      "verified": true
+    },
+    {
+      "title": "Pedro Emanuel deve manter a estrutura tática que iniciou o jogo em Medellín (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/388913/pedro-emanuel-deve-manter-a-estrutura-tatica-que-iniciou-o-jogo-em-medellin",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-07-24",
+      "eventDate": "2026-07-22",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "Uma possível mudança é a entrada de Paulo Henrique na vaga de Puma Rodríguez na lateral direita, para dar mais sustentação à defesa.",
+      "verified": true
+    },
+    {
+      "title": "Saí de Portugal porque não me revejo na forma como vivemos o futebol (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/desporto/1248695/sai-de-portugal-porque-nao-me-revejo-na-forma-como-vivemos-o-futebol",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-05-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Eu valorizo muito aquilo que é o bom profissional, independentemente de ser ou não portugueses.",
+      "verified": true
+    },
+    {
+      "title": "Saí de Portugal porque não me revejo na forma como vivemos o futebol (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/desporto/1248695/sai-de-portugal-porque-nao-me-revejo-na-forma-como-vivemos-o-futebol",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-05-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "trazer jogadores e homens que são bons profissionais e boas pessoas é importante.",
+      "verified": true
+    },
+    {
+      "title": "Saí de Portugal porque não me revejo na forma como vivemos o futebol (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/desporto/1248695/sai-de-portugal-porque-nao-me-revejo-na-forma-como-vivemos-o-futebol",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2019-05-09",
+      "eventDate": "2018/19",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "com a autonomia que tive enquanto treinador na escolha dos jogadores e na continuidade da definição do projeto que foi iniciado pelo José Gomes.",
+      "verified": true
+    },
+    {
+      "title": "Vasco lidera ranking de jogos sem sofrer gols com Pedro Emanuel (NetVasco)",
+      "url": "https://netvasco.com.br/n/390492/vasco-lidera-ranking-de-jogos-sem-sofrer-gols-com-pedro-emanuel",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-16",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "O Vasco priorizou um esquema com três volantes na maioria dos jogos com Pedro Emanuel, justamente para dar maior sustentação à defesa e preencher meio-campo.",
+      "verified": true
+    },
+    {
+      "title": "Vasco lidera ranking de jogos sem sofrer gols com Pedro Emanuel (NetVasco)",
+      "url": "https://netvasco.com.br/n/390492/vasco-lidera-ranking-de-jogos-sem-sofrer-gols-com-pedro-emanuel",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-16",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "defensive-block",
+      "evidence": "De lá para cá, são oito partidas disputadas e apenas cinco gols sofridos.",
+      "verified": true
+    },
+    {
+      "title": "Vasco lidera ranking de jogos sem sofrer gols com Pedro Emanuel (NetVasco)",
+      "url": "https://netvasco.com.br/n/390492/vasco-lidera-ranking-de-jogos-sem-sofrer-gols-com-pedro-emanuel",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-16",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "o português foca as atividades em posicionamento, balanço defensivo (o time rodar de um lado para o outro quando o adversário muda a jogada de lado) e comportamento da equipe em transição.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Santa Fe 0 x 0 Vasco (NetVasco)",
+      "url": "https://netvasco.com.br/n/392218/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-santa-fe-0-x-0-vasco",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-08",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "A partir do meio do primeiro tempo, conseguimos nos adaptar, dar a bola aos nossos jogadores de qualidade e criar algumas situações próximas da baliza do Santa Fe, principalmente em escanteios.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Santa Fe 0 x 0 Vasco (NetVasco)",
+      "url": "https://netvasco.com.br/n/392218/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-santa-fe-0-x-0-vasco",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-08",
+      "eventDate": "2026-09",
+      "accessedOn": "2026-11-06",
+      "dimension": "set-pieces",
+      "evidence": "O Santa Fe também teve duas chances muito boas em dois escanteios seguidos.",
+      "verified": true
+    },
+    {
+      "title": "Vasco evolui defensivamente com Pedro Emanuel e busca soluções para o ataque (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389629/vasco-evolui-defensivamente-com-pedro-emanuel-e-busca-solucoes-para-o-ataque",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-03",
+      "eventDate": "2026-08-01",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "O Vasco terminou o clássico com mais posse de bola (51%), limitou o Fluminense a apenas duas finalizações no alvo e liderou os desarmes.",
+      "verified": true
+    },
+    {
+      "title": "Vasco evolui defensivamente com Pedro Emanuel e busca soluções para o ataque (NetVasco)",
+      "url": "https://www.netvasco.com.br/n/389629/vasco-evolui-defensivamente-com-pedro-emanuel-e-busca-solucoes-para-o-ataque",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-03",
+      "eventDate": "2026-08",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "O discurso de valorização do elenco foi bem recebido entre os jogadores",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Vasco 5 x 0 Coritiba (NetVasco)",
+      "url": "https://netvasco.com.br/n/393028/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-5-x-0-coritiba",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-20",
+      "eventDate": "2026-09-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "possession",
+      "evidence": "Queríamos controlar o jogo com a bola, mas corríamos riscos porque o Coritiba tem um dos melhores contra-ataques da liga.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Vasco 5 x 0 Coritiba (NetVasco)",
+      "url": "https://netvasco.com.br/n/393028/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-5-x-0-coritiba",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-20",
+      "eventDate": "2026-09-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "transitions",
+      "evidence": "Com uma exibição perfeita contra um adversário perigosos, fortíssimo no contra-ataque e bolas paradas. Tivemos exemplos, e não permitimos oportunidade.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Vasco 5 x 0 Coritiba (NetVasco)",
+      "url": "https://netvasco.com.br/n/393028/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-5-x-0-coritiba",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-20",
+      "eventDate": "2026-09-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "não vou tirar quem joga bem só porque temos um jogador novo.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Vasco 5 x 0 Coritiba (NetVasco)",
+      "url": "https://netvasco.com.br/n/393028/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-5-x-0-coritiba",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-20",
+      "eventDate": "2026-09-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Além de ser um garoto da base, é um garoto de muito potencial e humildade tremenda.",
+      "verified": true
+    },
+    {
+      "title": "Entrevista coletiva após Vasco 5 x 0 Coritiba (NetVasco)",
+      "url": "https://netvasco.com.br/n/393028/confira-outros-topicos-da-entrevista-coletiva-de-pedro-emanuel-apos-vasco-5-x-0-coritiba",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-09-20",
+      "eventDate": "2026-09-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "people-management",
+      "evidence": "Eles estão mudando o meu mental. É o meu mental que precisa ser mudado. Todos jogando bem cria uma dificuldade para mim.",
+      "verified": true
+    },
+    {
+      "title": "Sá Pinto e Pedro Emanuel ambiciosos para Final da Taça (RTP)",
+      "url": "https://www.rtp.pt/noticias/futebol-nacional/sa-pinto-e-pedro-emanuel-ambiciosos-para-final-da-taca_d555211",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2012-05-19",
+      "eventDate": "2012-05-19",
+      "accessedOn": "2026-11-06",
+      "dimension": "game-management",
+      "evidence": "O sonho era chegar a uma final de uma das taças e conseguimo-lo fazer de forma extraordinária.",
+      "verified": true
+    },
+    {
+      "title": "Técnico tem histórico de sucesso em competições mata-mata (Lance!)",
+      "url": "https://www.lance.com.br/vasco/pedro-emanuel-tem-historico-vencedor-em-mata-matas-e-pode-ser-trunfo-do-vasco-na-copa-do-brasil.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-05",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "width",
+      "evidence": "O gol do título foi marcado logo aos quatro minutos por Marinho, após cruzamento de Diogo Valente.",
+      "verified": true
+    },
+    {
+      "title": "Técnico tem histórico de sucesso em competições mata-mata (Lance!)",
+      "url": "https://www.lance.com.br/vasco/pedro-emanuel-tem-historico-vencedor-em-mata-matas-e-pode-ser-trunfo-do-vasco-na-copa-do-brasil.html",
+      "tier": "C",
+      "language": "pt",
+      "articleDate": "2026-08-05",
+      "eventDate": "2011/12",
+      "accessedOn": "2026-11-06",
+      "dimension": "squad-building",
+      "evidence": "Na temporada 2011/12, ele comandou a Académica na conquista da Taça de Portugal, encerrando um jejum de 73 anos sem títulos nacionais",
+      "verified": true
+    }
+  ],
+  "statedView": [
+    {
+      "quote": "Zeramos tudo, apesar do que vinha sendo feito. Tudo começa por eles acreditarem neles próprios, naquilo que podem fazer.",
+      "date": "2026-08-05",
+      "source": "Coletiva após Vasco 3x1 Fluminense, via O Povo (2026-08-06)",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Na apresentação eu disse que para mim a qualidade não tem idade.",
+      "date": "2026-08-01",
+      "source": "Coletiva após Vasco 0x0 Fluminense, via NetVasco",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Há um primeiro, segundo e terceiro momento de pressão.",
+      "date": "2026-08-01",
+      "source": "Coletiva após Vasco 0x0 Fluminense, via NetVasco",
+      "provenance": "primary"
+    },
+    {
+      "quote": "É importante eles saberem isso: não há lugares garantidos. Há situações, performance, desempenho, tudo isso tem que ser em função da equipe.",
+      "date": "2026-09-13",
+      "source": "Coletiva após Grêmio 1x2 Vasco, via NetVasco (2026-09-14); day approximate",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Queríamos controlar o jogo com a bola, mas corríamos riscos porque o Coritiba tem um dos melhores contra-ataques da liga.",
+      "date": "2026-09-19",
+      "source": "Coletiva após Vasco 5x0 Coritiba, via NetVasco",
+      "provenance": "primary"
+    },
+    {
+      "quote": "O sonho era chegar a uma final de uma das taças e conseguimo-lo fazer de forma extraordinária. É a cereja no topo do bolo, pelo esforço dos jogadores",
+      "date": "2012-05-19",
+      "source": "RTP, antevisão da final da Taça de Portugal",
+      "provenance": "primary"
+    },
+    {
+      "quote": "Pedro Emanuel destacou os conterrâneos Mourinho, Jorge Jesus e André Villas-Boas e, principalmente, Abel Ferreira, técnico do Palmeiras, como algumas de suas referências (paraphrase by ge; Gazeta Esportiva page returned 403)",
+      "date": "2026-07-11",
+      "source": "ge via NetVasco, apresentação no Vasco",
+      "provenance": "attributed"
+    },
+    {
+      "quote": "O futebol português está muito condicionado, só podemos dizer o politicamente correto, não podemos ir contra o sistema",
+      "date": "2019-05-09",
+      "source": "Entrevista a Desporto ao Minuto",
+      "provenance": "primary"
+    }
+  ],
+  "unreadable": [
+    {
+      "url": "https://www.gazetaesportiva.com/?p=3820941",
+      "reason": "403"
+    }
+  ],
+  "influences": [
+    "José Mourinho (played under him at Porto)",
+    "Jorge Jesus",
+    "Abel Ferreira",
+    "André Villas-Boas"
+  ],
+  "gaps": {
+    "dimensions": [],
+    "axes": []
+  },
+  "confidence": {
+    "level": "medium",
+    "reason": "Vasco 2026 is covered by several tier B tactical sources (Lance! columns, VAVEL, ge) and dated primary press-conference quotes, but those are only about four months of work and from one club; Académica, Apollon and Al Taawoun (the title spells) have no match-level tactical source, and marking and set-pieces are thin."
+  },
   "spellsCounted": [
     {
       "club": "Académica",
       "start": "2011-06-14",
       "end": "2013-04-07",
-      "reason": "Taça de Portugal 2011-12."
+      "reason": "Taça de Portugal 2011/12 (user-decided)"
     },
     {
       "club": "Apollon Limassol",
       "start": "2015-06-09",
       "end": "2016-12-11",
-      "reason": "Cypriot Cup 2015-16 and Cypriot Super Cup 2016."
+      "reason": "Cypriot Cup 2015/16 and Super Cup 2016 (user-decided)"
     },
     {
       "club": "Al Taawoun",
       "start": "2018-05-07",
       "end": "2019-05-22",
-      "reason": "King's Cup 2019."
+      "reason": "King's Cup 2019 (user-decided)"
     },
     {
       "club": "Vasco da Gama",
       "start": "2026-07-10",
       "end": "ongoing",
-      "reason": "The case of the Vasco 2026 team profile; the spell is short and recent."
+      "reason": "Counted by user; more than 15 competitive matches played (about 19 by 2026-09-19)"
     }
   ],
   "spellsExcluded": [
     {
       "club": "Arouca",
-      "start": "2013-06-06",
-      "end": "2015-05-25",
-      "reason": "No titles."
+      "start": "2013-06-01",
+      "end": "2015-05-31",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     },
     {
       "club": "Estoril",
-      "start": "2017-03-08",
-      "end": "2017-10-21",
-      "reason": "No titles."
+      "start": "2017-03-01",
+      "end": "2017-10-31",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     },
     {
-      "club": "Almería",
-      "start": "2019-08-04",
-      "end": "2019-11-04",
-      "reason": "No titles."
+      "club": "Almeria",
+      "start": "2016-12-12",
+      "end": "2017-03-01",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     },
     {
       "club": "Al Ain",
-      "start": "2020-01-05",
-      "end": "2021-06-05",
-      "reason": "No titles."
+      "start": "2019-12-01",
+      "end": "2020-08-01",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     },
     {
       "club": "Al Nassr",
-      "start": "2021-10-01",
-      "end": "2021-11-10",
-      "reason": "Five matches, no titles."
+      "start": "2020-08-01",
+      "end": "2021-06-01",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     },
     {
       "club": "Al-Khaleej",
-      "start": "2022-07-03",
-      "end": "2024-06-23",
-      "reason": "No titles."
+      "start": "2022-07-01",
+      "end": "2023-06-01",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     },
     {
       "club": "Al-Fayha",
-      "start": "2024-12-10",
-      "end": "2026-05-21",
-      "reason": "No titles."
+      "start": "2024-07-01",
+      "end": "2026-06-30",
+      "reason": "no titles (user-decided); dates are approximate placeholders (month start), not researched"
     }
-  ],
-  "ambiguities": [],
-  "openQuestions": [
-    "No tactical fact about Pedro Emanuel's teams was read: the Vasco-era style is in the team profile's research only."
-  ],
-  "sources": [],
-  "statedView": [],
-  "unreadable": [],
-  "gaps": {
-    "dimensions": [
-      "build-up",
-      "defensive-block",
-      "game-management",
-      "people-management",
-      "player-profile",
-      "possession",
-      "pressing",
-      "set-pieces",
-      "shape",
-      "squad-building",
-      "stated-view",
-      "transitions",
-      "width"
-    ],
-    "axes": [
-      "bas",
-      "blo",
-      "est",
-      "jog",
-      "lar",
-      "lid",
-      "mar",
-      "pla",
-      "pos",
-      "pro",
-      "res",
-      "sis"
-    ]
-  },
-  "influences": [],
-  "confidence": {
-    "level": "low",
-    "reason": "Dated career table only; the page read has no tactical description, and the Vasco spell is three months old."
-  }
+  ]
 }
 
 === QUESTIONS BY AXIS ===
@@ -448,3 +1230,39 @@ personaBrief (1-2 sentences) for THIS axis, then answer its 5 questions.
    EN: If the best player disagrees with the line-up, the coach should listen to him before deciding.
    Agree means: The coach talks to the squad's leaders and takes their view into account in his decisions.
    Disagree means: The line-up is the coach's decision alone, and the players' opinions don't come into it.
+
+=== ARCHETYPE QUESTIONS (multiple choice) ===
+Pick ONE option per question, the one this profile would mark. Save the letter in the "archetype" block.
+
+[id=epoca] Qual era do futebol você mais admira?
+  A) Futebol total: posse e identidade coletiva
+  B) Retranca e contra-ataque letal
+  C) Pressão alta e marcação individual
+  D) Espetáculo dos dribles e da técnica
+
+[id=elenco] Como você monta um elenco?
+  A) Aposto nos jovens da base
+  B) Experiência de quem já ganhou títulos
+  C) Craques técnicos acima do sistema
+  D) Atletas fortes e intensos
+  E) Grupo harmonioso acima de tudo
+
+[id=organizacao] Como o time se organiza no campo?
+  A) Posições fixas, cada um no seu setor
+  B) Jogadores trocam de posição e atacam pelas pontas
+  C) Marcação por zona e identidade própria
+  D) Marcação individual e bloco baixo
+  E) Jogo direto, sem travar a bola
+
+[id=treinador] O que o treinador deve priorizar?
+  A) Vencer hoje, o resto depois
+  B) Jogar bonito é o que importa
+  C) O talento individual decide os jogos
+  D) Um método que funciona contra qualquer adversário
+
+[id=final] Final, 1 a 0, aos 85 minutos: o que seu time faz?
+  A) Segura a vantagem com bloco baixo e contra-ataque
+  B) Troca passes até o apito final
+  C) Pressiona até o último minuto
+  D) Procura o segundo gol, mesmo com risco
+  E) Confia no craque do time

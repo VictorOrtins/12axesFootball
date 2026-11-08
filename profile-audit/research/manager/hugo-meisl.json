@@ -1,419 +1,536 @@
 {
-  "id": "hugo-meisl",
-  "catalog": "manager",
-  "name": "Hugo Meisl",
-  "status": "complete",
-  "researchedOn": "2026-11-01",
-  "profilePeriod": {
-    "start": "1913",
-    "end": "1937-02-17"
+ "id": "hugo-meisl",
+ "catalog": "manager",
+ "name": "Hugo Meisl",
+ "researchedOn": "2026-11-06",
+ "profilePeriod": {
+  "start": "1913",
+  "end": "1937-02-17"
+ },
+ "scopeNote": "Hugo Meisl as Austria national team Verbandskapitaen/Bundeskapitaen/Teamchef, spell start 1913 (year only, partial dates for the excluded 1912-13 spell too, as decided by the user) to death 1937-02-17 (the death date comes from the brief; no fetched page gave the day, sources say only 1937). Style named by sources: 'Scheiberlspiel' / Wiener Schule / Danubian school ('Danubian whirl', 'Calcio Danubiano'), on a Scottish-derived 2-3-5 with a withdrawn centre-forward (Sindelar); coached with Jimmy Hogan's input. The popular label 'Total Football precursor' is retrospective. Meisl was chiefly an administrator (secretary, Mitropa Cup 1927, Coppa Internazionale, professional league 1924); how much he coached tactically versus selected the team is unclear. Almost all evidence is retrospective (tier C mirrors/press); no marking, pressing, transitions or set-piece evidence about Austria's own play was found.",
+ "ambiguities": [],
+ "openQuestions": [
+  "Spell start: en.wikipedia says Meisl became coach in 1913 with Heinrich Retschury (full control 1919); profil says 1913 to 1937; ORF says his debut as Bundeskapitaen was 22 December 1912, a 3-1 win over Italy in Genoa. 1913 kept as decided by the user.",
+  "Meisl's own writing (articles, Mitropa/professionalism statements) was not found in any readable page; quotes in statedView are attributed anecdotes only. Next step: Franta/Weisgram biography, Willy Meisl 'Soccer Revolution', Wiener Stadt- und Landesarchiv, ANNO newspaper archive.",
+  "Austria's own marking scheme (man vs zone), pressing, transitions and set-pieces are undocumented in the pages read; only the opponent's man-marking of Sindelar (Monti, 1934) appears.",
+  "Tactical credit: Hogan (coach/trainer listed beside Meisl in 1931 line-up) versus Meisl as 'architect'; sources differ on who designed the style.",
+  "Jonathan Wilson 'Inverting the Pyramid' text itself was not readable; only a 2012 Wilson quote on Pozzo via Irish Times and a blog summary.",
+  "Austria-Forum states the birth of the Wunderteam (v Scotland, 1931-05-16) was gradual: seven regulars already played on 1931-04-12. Wikipedia en counts a 14-match unbeaten run from 1931-04-12 to 1932-12-07 while the Austria-Forum text says 12 matches plus 2.",
+  "Sources disagree on Sindelar's first cap/return (1923 untold game, 1926 Irish Times; 7 Jan 1929 dropped per Austria-Forum)."
+ ],
+ "sources": [
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-05-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Man übernahm das schottische 2-3-5-System für die eigene Mannschaft und versuchte, auch die schottische Spielweise mit kurzen flachen Pässen zu praktizieren.",
+   "verified": true,
+   "retrospectiveOnly": true
   },
-  "scopeNote": "Manager profile of Hugo Meisl as Austria's national team coach (Verbandskapitän / Teamchef), from 1913 to his death from a heart attack at his desk on 1937-02-17 in Vienna (ORF, 2016; de.wikipedia). English Wikipedia: 'Meisl became coach of the Austrian national side in 1913 alongside Heinrich Retschury, assuming full control in 1919.' The start stays at 1913 (year only, day not found), as decided in the previous research run; ORF gives 22 Dec 1912 as his first match (see openQuestions). One counted spell, the national team, which contains the 1931-32 Wunderteam (14 unbeaten, April 1931 to December 1932) and the 1934 World Cup (fourth). His 1912-13 club spell(s) are excluded. Style: the sources read support a 2-3-5 taken over from the Scots with 'kurzen flachen Pässen' (de.wikipedia, 1931), an attacking centre-half who refused to become a third back (Trivela, 2021: 'ambos se recusavam a tornar seu centromédio um mero zagueiro adicional'), ground passing ('dispensing with aerial passing', en.wikipedia) and a deep-lying centre-forward in Sindelar. The style name the evidence uses is the 'Danubian' style / 'Danubian waltz' (Irish Times, 2018) or Viennese 'Scheiberln' (ORF, 2016); 'Danubian Whirl' (These Football Times) is a later label. A history-of-tactics page calls Sindelar's role an early 'false 9' (en.wikipedia), a modern label applied retrospectively. Marking is not described for Austria in any source read: the only marking statements are about Italy's man-marking of Sindelar in 1934. Almost every source is a later retrospective (tier C); the few period voices are the 1932 Times and G. W. Simmons quoted second-hand, and Meisl's own remarks are anecdotes or undated interviews.",
-  "spellsCounted": [
-    {
-      "club": "Austria (national team)",
-      "start": "1913",
-      "end": "1937-02-17",
-      "reason": "Austria's national team coach from 1913 (sole control from 1919) to his death in 1937; the Wunderteam of 1931-32 and the 1934 World Cup. Major results, a recognisable style with coverage, and what he is known for."
-    }
-  ],
-  "spellsExcluded": [
-    {
-      "club": "Wiener Amateure",
-      "start": "1912",
-      "end": "1913",
-      "reason": "Club coaching spell before the national-team appointment (en.wikipedia infobox; de.wikipedia: 'begann seine Trainerkarriere 1912 beim Wiener Amateur-SV'). Not what he is known for; no tactical coverage."
-    },
-    {
-      "club": "FK Austria Wien",
-      "start": "1912",
-      "end": "1913",
-      "reason": "Listed in Wikipedia's club manager list (1912-13). Probably the same spell as Wiener Amateure (the club's earlier name); kept as in the previous decision. Not what he is known for; no tactical coverage."
-    }
-  ],
-  "teamProfiles": ["austria-1931-34"],
-  "ambiguities": [],
-  "openQuestions": [
-    "Start date: en.wikipedia body says 1913 (with Heinrich Retschury, sole control 1919); its infobox now lists Austria-Hungary 1912-1914 and Austria 1919-1937; ORF (2016-06-25) says his debut as coach was 22.12.1912, a 3-1 win over Italy in Genoa. The profile keeps 1913 (previous decision). Confirm, or move the start to 1912-12-22.",
-    "Excluded spells: 'Wiener Amateure' and 'FK Austria Wien' (both 1912-13) are very likely the same club (Wiener Amateur-SV was FK Austria's earlier name; de.wikipedia links one to the other). Kept as two entries as previously decided; merge if confirmed.",
-    "Marking (mar): a dedicated search (English and German: zonal / man-marking / Raumdeckung / Manndeckung) found nothing on how Austria marked under Meisl. The only marking statements are about Italy: 'Pozzo's man-marking, bruising, steamroller versus Hugo Meisl's \"Danubian waltz\"' (Irish Times) and Monti man-marking Sindelar in the 1934 semi-final. The contrast hints that Austria were not man-markers, but no source says so. The mar axis is covered only via the 'retreating defence' fact (defensive-block), which says nothing about zone vs man.",
-    "Sindelar's debut: The Untold Game says Meisl thought Sindelar 'too frail' at his 1923 debut; en.wikipedia (Goldblatt) and the Irish Times give 1926. 1926 is used. Also, Goldblatt's 'four years in the international wilderness' conflicts with the caps table on the Sindelar Wikipedia page (1928 and 1930 caps), as noted in the Danubian school research.",
-    "Why Sindelar was left out (c. 1928-31): Goldblatt says he fell 'out of favour with the disciplinarian Meisl'; SI/90min says a rumoured dispute; These Football Times says Meisl wanted a physical Uridil-type centre-forward; a Spanish-language encyclopedia (search summary only, not read) says it was his attachment to the ball. Not resolved.",
-    "Meisl's own words: 'Spüts euer Spüü!' (1932-12-07) and 'Da habt's euer Schmieranskiteam!' (May 1931) are anecdotes (de.wikipedia says the Schmieranski story cannot be checked 100%); the 'study of many systems' and 'more contact with the outside world' remarks come from an undated Vienna interview reported in Game of the People (2025, from Jensen's 2022 book). No primary source was found for any of them. A 1937 China Mail obituary ('You have the build and the birthright of football') was found in a search summary but the page returned 403.",
-    "The 'retreating defence' phrase (WSC, 2001) is not clearly attributed to a 1932 report; it may be the author's own description."
-  ],
-  "sources": [
-    {
-      "title": "Wunderteam (de.wikipedia), section 'Spiel gegen Schottland'",
-      "url": "https://de.wikipedia.org/wiki/Wunderteam",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2026-11-01",
-      "eventDate": "1931-05",
-      "accessedOn": "2026-11-01",
-      "dimension": "shape",
-      "evidence": "\"Man übernahm das schottische 2-3-5-System für die eigene Mannschaft\" (before/around the 5-0 v Scotland, 16 May 1931). Wikipedia has no article date; access date used.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Wunderteam (de.wikipedia), section 'Spiel gegen Schottland'",
-      "url": "https://de.wikipedia.org/wiki/Wunderteam",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2026-11-01",
-      "eventDate": "1931-05",
-      "accessedOn": "2026-11-01",
-      "dimension": "build-up",
-      "evidence": "The team \"versuchte, auch die schottische Spielweise mit kurzen flachen Pässen zu praktizieren.\" Short, flat (ground) passes as the way of moving the ball.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "World Cup moments: Austria's forgotten Wunderteam (John Ashdown)",
-      "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2018-06-10",
-      "eventDate": "1931/32",
-      "accessedOn": "2026-11-01",
-      "dimension": "shape",
-      "evidence": "\"Josef Smistik was hugely influential in the centre-half role in Meisl's 2-3-5.\" Style contrast with Italy: \"Pozzo's man-marking, bruising, steamroller versus Hugo Meisl's 'Danubian waltz'.\"",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul (Neil Fredrik Jensen)",
-      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2017-02-23",
-      "eventDate": "1931/32",
-      "accessedOn": "2026-11-01",
-      "dimension": "shape",
-      "evidence": "\"it introduced wide-running half-backs and an attacking centre half, as well as a slightly deep-lying centre forward.\" Also: \"the player with the ball is supported by his team-mates\" and \"It was not a million miles from the short-passing game adopted by Scotland\".",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Os embates históricos entre Itália e Áustria no torneio que precedeu a Eurocopa (Emmanuel do Valle, Trivela)",
-      "url": "https://trivela.com.br/europa/eurocopa/os-embates-historicos-entre-italia-e-austria-no-torneio-que-precedeu-a-eurocopa/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2021-06-26",
-      "eventDate": "1930/31",
-      "accessedOn": "2026-11-01",
-      "dimension": "shape",
-      "evidence": "Meisl and Pozzo: \"ambos se recusavam a tornar seu centromédio um mero zagueiro adicional\", \"como aconteceu na formatação do WM por obra de Herbert Chapman na Inglaterra\"; they \"exigiam que o atleta da posição ajudasse na construção das jogadas.\" Rejection of the third back, attacking centre-half. Context is the Central European (International) Cup era, 1927-1937.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Os embates históricos entre Itália e Áustria no torneio que precedeu a Eurocopa (Emmanuel do Valle, Trivela)",
-      "url": "https://trivela.com.br/europa/eurocopa/os-embates-historicos-entre-italia-e-austria-no-torneio-que-precedeu-a-eurocopa/",
-      "tier": "C",
-      "language": "pt",
-      "articleDate": "2021-06-26",
-      "eventDate": "1930/31",
-      "accessedOn": "2026-11-01",
-      "dimension": "possession",
-      "evidence": "\"Hugo era defensor ardoroso do jogo de passes, de bola no chão, inteligente, fluido e esteticamente agradável.\" Pozzo, by contrast: \"O italiano tinha abordagem nitidamente mais pragmática do futebol.\" Physical preparation \"não fosse absolutamente desprezado por Meisl\".",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Wunderteam (de.wikipedia), section 'Spiel gegen England'",
-      "url": "https://de.wikipedia.org/wiki/Wunderteam",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2026-11-01",
-      "eventDate": "1932-12-07",
-      "accessedOn": "2026-11-01",
-      "dimension": "possession",
-      "evidence": "After the 3-4 at Stamford Bridge the Times \"schwärmte von der 'Kombinationsgabe' und Schnelligkeit des österreichischen Teams\". Contemporary press (1932) as reported by Wikipedia.",
-      "verified": true
-    },
-    {
-      "title": "Paper tigers (Cris Freddi, When Saturday Comes 170)",
-      "url": "https://www.wsc.co.uk/?p=2329",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2001-04-14",
-      "eventDate": "1932-12-07",
-      "accessedOn": "2026-11-01",
-      "dimension": "possession",
-      "evidence": "England v Austria, Stamford Bridge: \"Austria's famous combination play\" gave them \"an obvious edge\" before half-time; referee and columnist George Wagstaffe Simmons (period voice) said that when the passing broke down \"there is no individual effort to carry on\"; others stressed Austria's \"unwillingness to dribble.\" Smistik \"a good enough attacking centre-half to cope with Hampson as well as feed his forwards.\"",
-      "verified": true
-    },
-    {
-      "title": "Paper tigers (Cris Freddi, When Saturday Comes 170)",
-      "url": "https://www.wsc.co.uk/?p=2329",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2001-04-14",
-      "eventDate": "1932-12-07",
-      "accessedOn": "2026-11-01",
-      "dimension": "defensive-block",
-      "evidence": "England's forwards were \"baffled by Austria's retreating defence.\" Goalkeeper Hiden was \"well known as a keeper who came a long way off his line.\" The page says nothing about marking or offside. One match only; the phrase may be the author's, not a 1932 report.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Hugo Meisl (en.wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/Hugo_Meisl",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-11-01",
-      "eventDate": "1913",
-      "accessedOn": "2026-11-01",
-      "dimension": "build-up",
-      "evidence": "Jimmy Hogan \"helped Meisl develop a technique for dispensing with aerial passing and placing emphasis on groundwork.\" Read on the page, but the sentence is undated: Hogan worked with Meisl in 1912 (before the spell) and again 1931-33. Not counted as verified for the period.",
-      "verified": false
-    },
-    {
-      "title": "History of tactics in association football (en.wikipedia), section 'Austrian wunderteam'",
-      "url": "https://en.wikipedia.org/wiki/History_of_tactics_in_association_football",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-11-01",
-      "eventDate": "1931/32",
-      "accessedOn": "2026-11-01",
-      "dimension": "shape",
-      "evidence": "Under Meisl the side \"was the first to utilize what is known as a 'false 9'\": a striker would \"drop deep (into the midfield) to collect the ball in space with their back to goal\", \"as opposed to the common positioning of a striker at the time that was shoulder-to-shoulder with the defender.\" Uncited modern label; kept unverified as weak.",
-      "verified": false
-    },
-    {
-      "title": "How Austria's Wunderteam defied the Nazis for one last act of greatness (Aidan Williams)",
-      "url": "https://thesefootballtimes.co/2020/06/02/how-austrias-wunderteam-defied-the-nazis-for-one-last-act-of-greatness/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2020-06-02",
-      "eventDate": "1931/32",
-      "accessedOn": "2026-11-01",
-      "dimension": "shape",
-      "evidence": "Meisl's 'Danubian Whirl': \"a ground-breaking approach involving the interchanging of the five forward players\", with \"a quick-passing style inspired by the Scottish teams that toured Vienna in the early 20th-century.\" Dated only as 'early 1930s'. Does not say whether attacks went wide or central.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Hugo Meisl (en.wikipedia)",
-      "url": "https://en.wikipedia.org/wiki/Hugo_Meisl",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-11-01",
-      "eventDate": "1931/32",
-      "accessedOn": "2026-11-01",
-      "dimension": "player-profile",
-      "evidence": "Matthias Sindelar, \"the man of paper, 'Der Papierene'\", known for slipping past rough tackles: the Wunderteam's key forward was a slight technician.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "World Cup moments: Austria's forgotten Wunderteam (John Ashdown)",
-      "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2018-06-10",
-      "eventDate": "1931/32",
-      "accessedOn": "2026-11-01",
-      "dimension": "player-profile",
-      "evidence": "Willy Meisl (Hugo's brother, period journalist) on Sindelar: \"He was truly symbolical of Austrian soccer at its peak period: no brawn but any amount of brain\"; \"Technique bordering on virtuosity, precision work and an inexhaustible repertoire of tricks and ideas.\" After the 1932 England game: \"For the English the result was seen as a triumph for physicality over finesse\".",
-      "verified": true
-    },
-    {
-      "title": "The glory of Josef Uridil, the first man to transcend football and celebrity in Austria (Aidan Williams)",
-      "url": "https://thesefootballtimes.co/2020/05/07/the-glory-of-josef-uridil-the-first-man-to-transcend-football-and-celebrity-in-austria/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2020-05-07",
-      "eventDate": "1926",
-      "accessedOn": "2026-11-01",
-      "dimension": "player-profile",
-      "evidence": "Meisl, \"A great advocate of the passing game\", \"was at heart an adherent to the British style of play\"; \"the style demanded a physically strong, dominating centre-forward\"; \"Uridil's style had been everything that Meisl had wanted from a centre-forward\" and \"Uridil had generally been selected ahead of the great Sindelar for Austria\" in Sindelar's early years (1920s). Stated preference for a physical number 9 versus the technician who later made the team.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Great Reputations: Austria's Wunderteam – the godfathers of football's soul (Neil Fredrik Jensen)",
-      "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2017-02-23",
-      "eventDate": "1926",
-      "accessedOn": "2026-11-01",
-      "dimension": "player-profile",
-      "evidence": "\"...Hugo Meisl, who preferred a strong, English-type centre forward\" (context: Sindelar's omission before 1931). Agrees with the Uridil piece.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "World Cup moments: Austria's forgotten Wunderteam (John Ashdown)",
-      "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2018-06-10",
-      "eventDate": "1926",
-      "accessedOn": "2026-11-01",
-      "dimension": "squad-building",
-      "evidence": "After Sindelar's 1926 debut \"Meisl then hesitated to go on breaking the mould\"; in May 1931, \"After that set of indifferent results, Meisl could ignore the clamour for his inclusion no longer\". Slow to bring in the new kind of player.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Before Total Football, there was the Wunderteam (Martyn Green, The Untold Game)",
-      "url": "https://theuntoldgame.co.uk/?p=1016",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2022-07-28",
-      "eventDate": "1934-05",
-      "accessedOn": "2026-11-01",
-      "dimension": "squad-building",
-      "evidence": "1934 World Cup squad: \"Most were the wrong side of 30 going into the tournament\", \"probably past their peak, but they had high hopes.\" Meisl went to the World Cup with the ageing Wunderteam core. Also: \"Meisl was concerned that he was too frail\" of Sindelar at his debut (page says 1923; other sources 1926).",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Das Wunderteam – the side we all wish we'd seen (Neil Fredrik Jensen)",
-      "url": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2025-06-13",
-      "eventDate": "1934-05-31",
-      "accessedOn": "2026-11-01",
-      "dimension": "squad-building",
-      "evidence": "For the 1934 quarter-final v Hungary Meisl brought in Johann Horvath, a 31-year-old FC Wien inside-left; \"Rudi Hiden, Karl Rainer, Walter Nausch, Karl Gall, Fritz Gschweidl and Leopold Vogt were not included\" in the 1934 squad (Nausch injured). Some renewal of the 1932 side, but by experienced players.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Wunderteam (de.wikipedia), section 'Spiel gegen England'",
-      "url": "https://de.wikipedia.org/wiki/Wunderteam",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2026-11-01",
-      "eventDate": "1932-12-07",
-      "accessedOn": "2026-11-01",
-      "dimension": "game-management",
-      "evidence": "\"Im Stamford-Bridge-Stadion lagen die Österreicher jedoch bereits zur Pause mit 0:2 zurück\"; Meisl sent them back out with \"Spüts euer Spüü!\" ('play your game'): keep the own style when losing, not adapt. Anecdote, no primary source.",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Before Total Football, there was the Wunderteam (Martyn Green, The Untold Game)",
-      "url": "https://theuntoldgame.co.uk/?p=1016",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2022-07-28",
-      "eventDate": "1934-06-03",
-      "accessedOn": "2026-11-01",
-      "dimension": "game-management",
-      "evidence": "1934 semi-final v Italy: \"Where Austria concentrated on their waltz\", Pozzo \"had his side focused on a blitz.\" Austria played their usual game rather than a plan for the opponent. After the 4-3 at Stamford Bridge (1932) Meisl said \"a slow start cost them the chance to make history\" (reported, not a verbatim Meisl quote).",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "World Cup Countdown: 19 Weeks to Go - The 1930's Austrian 'Wunderteam' & the Banker's Son (90min, SI)",
-      "url": "https://www.si.com/soccer/2018/02/07/world-cup-countdown-19-weeks-go-1930s-austrian-wunderteam-bankers-son",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2018-02-07",
-      "eventDate": "1928",
-      "accessedOn": "2026-11-01",
-      "dimension": "people-management",
-      "evidence": "Meisl was a \"staunch disciplinarian\" who \"cast adrift\" Sindelar \"for many years\" after a rumoured dispute; Sindelar came back after campaigning by commentators. The team played \"an entertaining, and highly technical brand of football.\"",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Matthias Sindelar (en.wikipedia), quoting David Goldblatt, The Ball is Round (2008)",
-      "url": "https://en.wikipedia.org/wiki/Matthias_Sindelar",
-      "tier": "C",
-      "language": "en",
-      "articleDate": "2026-11-01",
-      "eventDate": "1931-05",
-      "accessedOn": "2026-11-01",
-      "dimension": "people-management",
-      "evidence": "Goldblatt: Sindelar \"made his international debut in 1926 and played well before falling out of favour with the disciplinarian Meisl.\" At the Ring Café in 1931: \"Everyone was arguing for Sindelar's recall and Meisl changed his mind. Sindelar played.\" The team was \"already disciplined, organized, hardworking and professional\".",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Wunderteam (de.wikipedia), sections 'Vorgeschichte' and 'Das Schmieranskiteam'",
-      "url": "https://de.wikipedia.org/wiki/Wunderteam",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2026-11-01",
-      "eventDate": "1929-01-07",
-      "accessedOn": "2026-11-01",
-      "dimension": "people-management",
-      "evidence": "After the 0-5 v a Süddeutsche Auswahl: \"Sindelar meinte den Grund für die Niederlage zu kennen: Man hätte eben noch mehr 'scheiberln' müssen,\" an answer \"die dem tobenden Hugo Meisl sehr missfiel.\" In 1931: \"Bei einer verbalen Auseinandersetzung im Wiener Ring-Café am Stubenring gab Meisl schließlich den anwesenden Sportjournalisten nach\" ('Da habt's euer Schmieranskiteam!').",
-      "verified": true,
-      "retrospectiveOnly": true
-    },
-    {
-      "title": "Wiener Hugo Meisl als Urvater der EM (ORF Wien)",
-      "url": "https://wien.orf.at/v2/news/stories/2782239/index.html",
-      "tier": "C",
-      "language": "de",
-      "articleDate": "2016-06-25",
-      "eventDate": "1931-05",
-      "accessedOn": "2026-11-01",
-      "dimension": "people-management",
-      "evidence": "In May 1931 at the Ring-Café, before the Scotland match, Meisl let the journalists have a team \"ganz nach ihren Wünschen zusammengestellt\" ('Da habt's euer Schmieranski-Team'), in a 'grantelnd' (grumbling) tone. Also: debut 22.12.1912 (\"Österreich besiegte Italien in Genua 3:1\"), last match on the bench 24 Jan 1937 (2-1 in Paris), heart attack at his desk on 17 Feb 1937.",
-      "verified": true,
-      "retrospectiveOnly": true
-    }
-  ],
-  "statedView": [
-    {
-      "quote": "Spüts euer Spüü!",
-      "date": "1932-12-07",
-      "source": "https://de.wikipedia.org/wiki/Wunderteam",
-      "provenance": "attributed",
-      "note": "Half-time at Stamford Bridge, 0-2 down: 'play your game'. Anecdote; earliest dated appearance not found."
-    },
-    {
-      "quote": "Da habt's euer Schmieranski-Team",
-      "date": "2016-06-25",
-      "source": "https://wien.orf.at/v2/news/stories/2782239/index.html",
-      "provenance": "attributed",
-      "note": "Said in May 1931 at the Ring-Café before the 5-0 v Scotland, to journalists, about a team picked to their wishes. About selection and the press, not tactics. Spelled 'Schmieranskiteam' on de.wikipedia and 'Schmiranski' by Game of the People; de.wikipedia says the story cannot be checked 100%."
-    },
-    {
-      "quote": "Our game is the study of many systems, for we are always playing other continental opponents.",
-      "date": "2025-06-13",
-      "source": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
-      "provenance": "attributed",
-      "note": "From an undated interview in Vienna (placed around the 1932 England visit), in an abridged chapter of Neil Jensen's The Great Uncrowned (2022). Same interview: 'The more contact England has with the outside world, the better for her game.' He felt English football 'had become too mechanised due to the emphasis on league football' (author's paraphrase)."
-    },
-    {
-      "quote": "I am tired and overworked and I feel I must be relieved of some of my numerous offices.",
-      "date": "2025-06-13",
-      "source": "https://gameofthepeople.com/2025/06/13/das-wunderteam-the-team-we-all-wish-wed-seen/",
-      "provenance": "attributed",
-      "note": "1935, attempting to step down as national coach after criticism of the 1934 World Cup. No publication named."
-    }
-  ],
-  "unreadable": [
-    { "url": "https://medium.com/whatahowler/the-start-of-hugo-meisls-wunderteam-ec7ea533c720", "reason": "403" },
-    { "url": "https://www.whatahowler.com/httpswhatahowler-com201612the-start-of-hugo-meisls-wunderteam-html/", "reason": "403" },
-    { "url": "https://www.whatahowler.com/blog-201612the-start-of-hugo-meisls-wunderteam-html/", "reason": "403" },
-    { "url": "https://www.theviennareview.at/archives/2012/the-other-viennese-school", "reason": "not-accessible" },
-    { "url": "https://hkintexts.histsyn.com/page/2026387", "reason": "403" },
-    { "url": "https://www.jewishsports.net/BioPages/HugoMeisl.htm", "reason": "404" },
-    { "url": "https://www.fourfourtwo.com/features/euro-legends-remembering-matthias-sindelar-austrias-inspirational-forward", "reason": "empty" },
-    { "url": "https://www.pitchpublishing.co.uk/sites/default/files/associated_downloads/Generazione%20Wunderteam%20SAMPLE.pdf", "reason": "truncated" }
-  ],
-  "gaps": {
-    "dimensions": ["pressing", "transitions", "width", "set-pieces", "stated-view"],
-    "axes": ["lar"]
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1934",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Josef Smistik was hugely influential in the centre-half role in Meisl’s 2-3-5.",
+   "verified": true,
+   "retrospectiveOnly": true
   },
-  "influences": [
-    { "id": "jimmy-hogan", "kind": "manager", "note": "Hogan's short ground-passing teaching (1912) shaped Meisl's ideas; Meisl brought him back as coach in 1931-33 (Untold Game; Irish Times)." },
-    { "id": "danubian-school", "kind": "football-ideology", "note": "Meisl's Austria is the core exemplar of the Danubian ('Danubian waltz') passing game." }
-  ],
-  "confidence": {
-    "level": "medium",
-    "reason": "One long national-team spell. Several independent tier C sources (de/en Wikipedia, Irish Times, WSC, Trivela, These Football Times, Game of the People, ORF) agree on the core: 2-3-5 with short ground passing, an attacking centre-half (third back refused), a deep-lying technical centre-forward, a disciplinarian manager slow to pick Sindelar, and 'play your game' over adapting. But there is no tier A-B tactical source, almost all of it is retrospective, period voices are second-hand (1932 Times, G. W. Simmons, Willy Meisl), every Meisl quote is attributed, the defensive evidence is one match ('retreating defence'), and pressing, transitions, width, set pieces and marking are not covered."
+  {
+   "title": "Wunderteam (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Wunderteam",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2007-05-29",
+   "eventDate": "1931/32",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "The forward line was complemented by wide half-backs and an attacking centre-half.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "A Brief History of Tactics - The Danubian School (blog)",
+   "url": "https://ademirtozizinho.blogspot.no/2011/08/brief-history-of-tactics-danubian.html",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2011-08-02",
+   "eventDate": "1931/32",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Although they retained a broad allegiance to the classic 2-3-5 formation, their use of centre-forward Matthias Sindelaar in a slightly withdrawn position was extremely effective.",
+   "verified": false,
+   "retrospectiveOnly": true,
+   "note": "Blog (tier D) reproducing Wilson-style summary; not verified."
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-05-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "shape",
+   "evidence": "Für die anstehende Partie kehrte Sindelar zurück auf die Position des Mittelstürmers, Friedrich Gschweidl spielte als Rechtsverbinder.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1929-01-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Das österreichische Team versuchte damals ihr „Scheiberlspiel“ (schnelle, kurze trickreiche Kombinationen mit „Wiener Schmäh“) auf dem schneebedeckten Boden durchzuführen, verdribbelte sich aber ein um das andere Mal.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Hugo Meisl (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Hugo_Meisl",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-11-12",
+   "eventDate": "1913",
+   "accessedOn": "2026-11-06",
+   "dimension": "build-up",
+   "evidence": "Another English coach, Jimmy Hogan, who worked in Vienna, helped Meisl develop a technique for dispensing with aerial passing and placing emphasis on groundwork.",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Undated development; 1913 is only the spell start."
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1932-12-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Im Stamford Bridge Stadion lagen die Österreicher jedoch bereits zur Pause mit 0:2 zurück, spielten nervös, ehe sie in der zweiten Halbzeit ihr berühmtes Kombinationsspiel aufzogen.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Meisl: arbitro, allenatore, dirigente... (Calciomercato)",
+   "url": "https://www.calciomercato.com/news/il-mito-meisl-arbitro-allenatore-dirigente-e-inventore-delle-cop-21187",
+   "tier": "C",
+   "language": "it",
+   "articleDate": "2019-11-17",
+   "eventDate": "1919",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Meisl opera una sintesi tra i due principali sistemi di gioco dell'epoca, mescolando i principi del sistema e del metodo prevedendo un gioco dinamico basato sul possesso palla finalizzato a creare nitide occasioni da rete.",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Claim of a system/metodo synthesis comes from a single Italian press article; contested."
+  },
+  {
+   "title": "Fussballkolumne: Die Rueckkehr des Donaufussballs? (profil)",
+   "url": "https://www.profil.at/gesellschaft/fussballkolumne-rueckkehr-donaufussballs-6066362",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2015-11-18",
+   "eventDate": "1931/36",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "In Wien sei der Spielwitz, in Budapest der Kurzpass und in Prag der Steilpass zu Hause, hieß es damals. Die Italiener prägten für diese Art des Fußballspiels die Bezeichnung \"Calcio Danubiano\".",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wiener Hugo Meisl als Urvater der EM (ORF Wien)",
+   "url": "https://wien.orf.at/v2/news/stories/2782239/index.html",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2016-06-25",
+   "eventDate": "1931/33",
+   "accessedOn": "2026-11-06",
+   "dimension": "possession",
+   "evidence": "Das Wunderteam hatte auch dadurch für Furore gesorgt, weil es dem britischen „Kick and Rush“ das Wiener „Scheiberln“ entgegensetzte.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-05-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "width",
+   "evidence": "| Rechter Flügel Karl Zischek | Rechtsverbinder Friedrich Gschweidl | Mittelstürmer Matthias Sindelar | Linksverbinder Anton Schall | Linker Flügel Adolf Vogl |",
+   "verified": true,
+   "note": "Line-up v Scotland: classic 2-3-5 with two natural wingers."
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1934-06-03",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "That set up a classic clash of styles – Pozzo’s man-marking, bruising, steamroller versus Hugo Meisl’s “Danubian waltz”.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1934-06-03",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Peter Platzer, in goal for the injured Rudi Hiden, collected a low cross, felt the full force of Meazza’s challenge and Enrique Guaita poked home what would prove, with Sindelar marked out of the game by Monti, to be the only goal of the game.",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Opponent man-marked Sindelar; Austria's own marking scheme not documented."
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1932-12-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Hugo Meisl schickte seine Mannschaft mit den Worten „Spüts euer Spüü!“ („Spielt euer Spiel“) zurück auf das Spielfeld. Das Nationalteam schaffte drei Mal den Anschlusstreffer, verlor am Ende jedoch 3:4",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1932-12",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "In December 1932, with the Wunderteam perhaps at their peak, they became the third overseas side to be invited to England.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1932-12",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "With his team slightly off-colour in the matches leading up to the game at Stamford Bridge Meisl invited his old friend Jimmy Hogan, an Englishman and proponent of the passing style who had long been coaching in central Europe and would later be credited as the inspiration behind Hungary’s victory at Wembley in 1953, back into the coaching set-up",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Before Total Football, there was the Wunderteam (The Untold Game)",
+   "url": "https://theuntoldgame.co.uk/?p=1016",
+   "tier": "D",
+   "language": "en",
+   "articleDate": "2022-07-28",
+   "eventDate": "1932-12-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Meisl explained a slow start cost them the chance to make history, but when other sides had visited England they had been utterly routed.",
+   "verified": false,
+   "retrospectiveOnly": true,
+   "note": "Tier D, never verified."
+  },
+  {
+   "title": "Hugo Meisl (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Hugo_Meisl",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2006-11-12",
+   "eventDate": "1913",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "Meisl became coach of the Austrian national side in 1913 alongside Heinrich Retschury, assuming full control in 1919",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Spell start source; see openQuestions."
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-05-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Die österreichische Nationalmannschaft wurde vor dem Spiel komplett umbesetzt und spielte teilweise mit Debütanten. Das erste Spiel der neu gebildeten, ausnahmslos mit Spielern aus Wiener Vereinen zusammengesetzten Nationalmannschaft gewannen die Österreicher vollkommen überraschend mit 5:0",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-04-12",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Beim 2:1-Heimerfolg über die Tschechoslowakei am 12. April 1931 spielten mit Rudolf Hiden, Roman Schramseis, Josef Blum, Johann Mock, Leopold Hofmann, Karl Gall und Walter Nausch bereits sieben Stammspieler des späteren legendären Nationalteams.",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "The 'birth' of the Wunderteam on 16 May 1931 was gradual, per Austria-Forum."
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1926/27",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "But Meisl then hesitated to go on breaking the mould, and turned back to the more traditional centre-forward strengths of Josef Uridil. Sindelar was The Paper Man, Uridil was The Tank.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1927/30",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Sindelar was restricted to a bit-part role for the rest of the 20s.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wiener Hugo Meisl als Urvater der EM (ORF Wien)",
+   "url": "https://wien.orf.at/v2/news/stories/2782239/index.html",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2016-06-25",
+   "eventDate": "1927",
+   "accessedOn": "2026-11-06",
+   "dimension": "squad-building",
+   "evidence": "Meisl war beseelt von einer Vision: Fußball soll ein echter Profisport werden. „Und dafür war es eben wesentlich, Vereinen und Verbänden eine zusätzliche Einnahmequelle zu verschaffen. Dazu sollte dieser Europacup der Nationalmannschaften dienen“, so Marschik.",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Marschik (historian, 2016) interpreting Meisl's motives; Mitropa/Coppa Internazionale as administrator role."
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Der Verbandskapitän Hugo Meisl stand unter dem Druck der Fans, Journalisten und Sportfachleute, die eine Umbesetzung der Nationalmannschaft, insbesondere den Einsatz von Matthias Sindelar, vehement forderten.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1929-01-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Matthias Sindelar flog am 7. Jänner 1929 nach einer 0:5-Niederlage in einem Freundschaftsspiel gegen eine Süddeutsche Auswahl aus der Mannschaft.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1929-01-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Sindelar meinte den Grund für die Niederlage zu kennen: Man hätte eben noch mehr „scheiberln“ müssen,[2] eine Antwort, die dem tobenden Hugo Meisl sehr missfiel.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-05-16",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "Im Tor durfte Rudi Hiden anstatt des routinierteren Friedrich Franzl spielen.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "World Cup moments: Austria's forgotten Wunderteam (Irish Times)",
+   "url": "https://www.irishtimes.com/sport/soccer/international/world-cup-moments-austria-s-forgotten-wunderteam-1.3479369",
+   "tier": "C",
+   "language": "en",
+   "articleDate": "2018-06-10",
+   "eventDate": "1931/36",
+   "accessedOn": "2026-11-06",
+   "dimension": "player-profile",
+   "evidence": "“He was truly symbolical of Austrian soccer at its peak period: no brawn but any amount of brain,” writes Willy Meisl of Sindelar.",
+   "verified": true,
+   "retrospectiveOnly": true,
+   "note": "Willy Meisl (Hugo's brother) writing later; date of writing not given in the page."
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1931-05",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Bei einer verbalen Auseinandersetzung im Wiener Ring-Café am Stubenring gab Meisl schließlich den anwesenden Sportjournalisten nach und warf ihnen mit den Worten „Da habt’s euer Schmieranskiteam!“[3] einen Zettel mit der von ihnen gewünschten Aufstellung für das kommende Schottland-Spiel hin. Diese bis heute nicht hundertprozentig nachprüfbare Anekdote",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Wunderteam (Austria-Forum, Wikipedia mirror)",
+   "url": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "tier": "C",
+   "language": "de",
+   "articleDate": "2023-11-11",
+   "eventDate": "1932-12-07",
+   "accessedOn": "2026-11-06",
+   "dimension": "stated-view",
+   "evidence": "Hugo Meisl schickte seine Mannschaft mit den Worten „Spüts euer Spüü!“ („Spielt euer Spiel“) zurück auf das Spielfeld.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Oesterreichs Deutschland-Komplex (Univ. Wien thesis)",
+   "url": "https://utheses.univie.ac.at/detail/3837",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2009-01-01",
+   "eventDate": "1934-06",
+   "accessedOn": "2026-11-06",
+   "dimension": "game-management",
+   "evidence": "WM-Favorit Österreich scheiterte an Klubegoismen und Funktionärsarroganz, der unprofessionelle Auftritt war selbstverschuldet.",
+   "verified": true,
+   "retrospectiveOnly": true
+  },
+  {
+   "title": "Oesterreichs Deutschland-Komplex (Univ. Wien thesis)",
+   "url": "https://utheses.univie.ac.at/detail/3837",
+   "tier": "B",
+   "language": "de",
+   "articleDate": "2009-01-01",
+   "eventDate": "1931/37",
+   "accessedOn": "2026-11-06",
+   "dimension": "people-management",
+   "evidence": "Hugo Meisl was Jewish and led the Austrian national football to the top world honors, the Nazi ÖFB-President Richard Eberstaller abolished it in 1938.",
+   "verified": true,
+   "retrospectiveOnly": true
   }
+ ],
+ "statedView": [
+  {
+   "quote": "Da habt’s euer Schmieranskiteam!",
+   "date": "1931-05",
+   "source": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "provenance": "attributed",
+   "note": "Ring-Café anecdote, 'bis heute nicht hundertprozentig nachprüfbar' per Austria-Forum; no primary contemporary source found."
+  },
+  {
+   "quote": "Spüts euer Spüü!",
+   "date": "1932-12-07",
+   "source": "https://austria-forum.org/af/AustriaWiki/Wunderteam",
+   "provenance": "attributed",
+   "note": "Half-time words at Stamford Bridge (3-4 v England); no primary source found."
+  }
+ ],
+ "unreadable": [
+  {
+   "url": "https://www.theviennareview.at/archives/2012/the-other-viennese-school",
+   "reason": "not-accessible"
+  },
+  {
+   "url": "https://services.phaidra.univie.ac.at/api/object/o:1256112/download",
+   "reason": "empty"
+  },
+  {
+   "url": "https://footballbh.net/2024/03/03/hugo-meisl-austrian-wunderteam-legacy/",
+   "reason": "403"
+  },
+  {
+   "url": "https://gameofthepeople.com/2017/02/23/austrias-wunderteam-the-godfathers-of-footballs-soul/",
+   "reason": "403"
+  },
+  {
+   "url": "https://muse.jhu.edu/journals/journal_of_sport_history/v038/38.3.kilpatrick.pdf",
+   "reason": "403"
+  }
+ ],
+ "influences": [
+  "Jimmy Hogan",
+  "Scottish passing game (Rangers tour 1905)",
+  "Vittorio Pozzo (friend and rival)"
+ ],
+ "spellsCounted": [
+  {
+   "club": "Austria national team",
+   "start": "1913",
+   "end": "1937-02-17",
+   "reason": "Wunderteam 1931-34, Coppa Internazionale 1931-32, 4th at 1934 World Cup, Olympic silver 1936"
+  }
+ ],
+ "spellsExcluded": [
+  {
+   "club": "Wiener Amateure / FK Austria Wien",
+   "start": "1912",
+   "end": "1913",
+   "reason": "Excluded by user decision"
+  }
+ ],
+ "gaps": {
+  "dimensions": [
+   "defensive-block",
+   "pressing",
+   "set-pieces",
+   "transitions"
+  ],
+  "axes": [
+   "blo",
+   "mar"
+  ]
+ },
+ "confidence": {
+  "level": "low",
+  "reason": "Spell is long but all evidence is retrospective and tier C-D (Wikipedia mirror, press, blogs); no contemporary dated sources, no Meisl writings, nothing on marking, pressing or set-pieces."
+ }
 }

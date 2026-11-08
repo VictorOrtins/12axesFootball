@@ -1,0 +1,154 @@
+{
+  "id": "rinus-michels",
+  "catalog": "manager",
+  "name": "Rinus Michels",
+  "status": "complete",
+  "researchedOn": "2026-10-17",
+  "profilePeriod": {
+    "start": "1965-01-22",
+    "end": "1975-06-30"
+  },
+  "scopeNote": "Manager profile of Rinus Michels across three counted spells: Ajax (22 January 1965 to 30 June 1971: four Eredivisie titles and the 1970-71 European Cup), Barcelona (1 July 1971 to 30 June 1975: La Liga 1973-74) and the Netherlands (27 March to 7 July 1974: World Cup runner-up). Dates are from the managerial table of the English Wikipedia article (day precision). Excluded: Ajax 1975-76, Barcelona 1976-78 (Copa del Rey 1977-78, not read for tactics), and later spells in the USA, Köln, Leverkusen and the Netherlands in 1984-92. Style: the evidence supports total football at Ajax: a fluid 4-3-3 with positional interchange, the offside trap and high pressing. Barcelona's own tactics are not documented in the pages read.",
+  "spellsCounted": [
+    {
+      "club": "Ajax",
+      "start": "1965-01-22",
+      "end": "1971-06-30",
+      "reason": "Total Football at Ajax: four Eredivisie titles and the 1970-71 European Cup; the source of the style."
+    },
+    {
+      "club": "Barcelona",
+      "start": "1971-07-01",
+      "end": "1975-06-30",
+      "reason": "La Liga 1973-74 with Cruyff; the same system carried to Barcelona."
+    },
+    {
+      "club": "Netherlands",
+      "start": "1974-03-27",
+      "end": "1974-07-07",
+      "reason": "World Cup 1974 runner-up; the national side the 1974 team profile is about."
+    }
+  ],
+  "spellsExcluded": [
+    {
+      "club": "Ajax",
+      "start": "1975-07-01",
+      "end": "1976-06-30",
+      "reason": "Short return, no titles, no tactical coverage read."
+    },
+    {
+      "club": "Barcelona",
+      "start": "1976-07-01",
+      "end": "1978-06-30",
+      "reason": "Copa del Rey 1977-78 only; the style is defined by the first spell, not read for this period."
+    },
+    {
+      "club": "Los Angeles Aztecs",
+      "start": "1978-07-01",
+      "end": "1980-10-13",
+      "reason": "No titles, no tactical coverage read."
+    },
+    {
+      "club": "1. FC Köln",
+      "start": "1980-10-14",
+      "end": "1983-08-23",
+      "reason": "Single DFB-Pokal title, outside the profile's era."
+    }
+  ],
+  "ambiguities": [],
+  "openQuestions": [
+    "Whether the Barcelona 1971-75 system matched Ajax's (the sources describe Ajax and only mention Barcelona through the 1974 title)."
+  ],
+  "sources": [
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"Michels's favoured formation was a fluid 4–3–3\" (Ajax era, no season given)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "shape",
+      "evidence": "\"regularly switching positions to ensure that the tactical roles in the team were consistently filled\" (Ajax, after 1965 appointment)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "defensive-block",
+      "evidence": "\"Another aspect of the system was the use of the offside trap.\" (Ajax era, no season given)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "pressing",
+      "evidence": "\"highlighting the use of pressing, which would be used to win back the ball\" (Ajax era, as recalled by Barry Hulshoff)",
+      "verified": true
+    },
+    {
+      "title": "Rinus Michels - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rinus_Michels",
+      "tier": "C",
+      "language": "en",
+      "articleDate": "2026-10-17",
+      "eventDate": "1965",
+      "accessedOn": "2026-10-17",
+      "dimension": "possession",
+      "evidence": "\"The major component of Total Football was the use of space, and the need to consistently create it.\" (Ajax era)",
+      "verified": true
+    }
+  ],
+  "statedView": [],
+  "unreadable": [],
+  "gaps": {
+    "dimensions": [
+      "build-up",
+      "game-management",
+      "people-management",
+      "player-profile",
+      "set-pieces",
+      "squad-building",
+      "stated-view",
+      "transitions",
+      "width"
+    ],
+    "axes": [
+      "bas",
+      "jog",
+      "lar",
+      "lid",
+      "pla",
+      "pro",
+      "res",
+      "sis"
+    ]
+  },
+  "influences": [],
+  "confidence": {
+    "level": "medium",
+    "reason": "Dated career table and five Ajax-era tactical facts from the Wikipedia career section; no season-specific analysis read."
+  }
+}
